@@ -74,9 +74,7 @@ a:hover{color:var(--color-accent-900)}
   <div style="max-width:1180px;margin:0 auto;padding:var(--space-4) var(--space-4) 0">
     <div class="card" style="padding:var(--space-4);border-left:3px solid var(--color-accent-700)">
       <div style="display:flex;align-items:baseline;gap:var(--space-3);margin-bottom:var(--space-3);flex-wrap:wrap">
-        <span style="font-family:var(--font-heading);font-size:16px;letter-spacing:.03em;text-transform:uppercase">Ton travail</span>
-        <span style="font-size:12px;color:var(--color-neutral-700);flex:1;min-width:220px;text-wrap:pretty">Tout est conservé dans ce navigateur. Vider le cache l'effacerait — télécharge une sauvegarde de temps en temps, et garde-la avec tes autres documents de recherche.</span>
-        <button type="button" class="btn btn-ghost" style="font-size:12px;padding:2px 8px" onClick="{{ onToggleSauvegarde }}">Fermer</button>
+        <button type="button" class="btn btn-ghost" style="margin-left:auto;font-size:12px;padding:2px 8px" onClick="{{ onToggleSauvegarde }}">Fermer</button>
       </div>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:var(--space-2);margin-bottom:var(--space-4)">
         <sc-for list="{{ inventaire }}" as="inv" hint-placeholder-count="8">
