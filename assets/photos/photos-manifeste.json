@@ -1,0 +1,19 @@
+{
+  "format": "photos-saint-romuald",
+  "version": 1,
+  "mis_a_jour": "2026-07-27",
+  "note": "Vignettes 480 px extraites de l'application. Les originaux pleine résolution vivent dans Drive — Perso_Patrick / 1616 chemin du Fleuve.",
+  "photos": [
+    {
+      "fichier": "assets/photos/1617-1619-chemin-du-fleuve-01.png",
+      "batiment_id": "perso-1785094428466",
+      "adresse": "1617-1619, chemin du Fleuve",
+      "titre": "Maison Louis Demers",
+      "nom_origine": "1617-1619-01.png",
+      "legende": "De gauche à droite, quelques petits-enfants, Léocadie Demers (Beaudoin) suivi de sa belle-fille, Éléonare Demers (Roberge) de son époux Louis Demers et de leur fils Alphonse Demers aux commandes des chevaux.",
+      "largeur": 480,
+      "hauteur": 360,
+      "original": "Drive — Perso_Patrick / 1616 chemin du Fleuve"
+    }
+  ]
+}
