@@ -1,0 +1,2256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 70"><rect width="100" height="70" fill="#2b4a3f"/><text x="15" y="40" font-size="22" fill="#fff" font-family="serif">1871</text></svg></template>
+<link rel="stylesheet" href="_ds/industry-a64db930-8bb1-41cb-8804-b46972981240/styles.css">
+<script src="_ds/industry-a64db930-8bb1-41cb-8804-b46972981240/_ds_bundle.js"></script>
+<script src="recensement-1871-d1-data.js"></script>
+<script src="recensement-1871-d2-data.js"></script>
+<script src="recensement-1881-d1-data.js"></script>
+<script src="complement-1881-d1-data.js"></script>
+<script src="recensement-1881-d2-data.js"></script>
+<script src="recensement-1891-d1-data.js"></script>
+<script src="recensement-1891-d2-data.js"></script>
+<script src="annexe-foncier-data.js"></script>
+<script src="annexe-terres-data.js"></script>
+<script src="annexe-animaux-data.js"></script>
+<script src="annexe-etablissements-data.js"></script>
+<script src="annexe-forets-data.js"></script>
+<script src="annexe-navigation-data.js"></script>
+<script src="annexe-deces-data.js"></script>
+<script src="annexe-rapport-data.js"></script>
+<script src="bussiere1990-data.js"></script>
+<style>
+body{margin:0}
+a{color:var(--color-accent-700)}
+a:hover{color:var(--color-accent-900)}
+</style>
+</helmet>
+<div style="min-height:100vh;background:var(--color-bg);font-family:var(--font-body);color:var(--color-text)">
+
+<header style="position:sticky;top:0;z-index:6;background:var(--color-surface);border-bottom:2px solid var(--color-accent-900)">
+  <div style="max-width:1180px;margin:0 auto;padding:var(--space-3) var(--space-4);display:flex;align-items:center;gap:var(--space-4);flex-wrap:wrap">
+    <div style="display:flex;align-items:stretch;gap:var(--space-3);margin-right:auto">
+      <div style="background:var(--color-accent-900);color:var(--color-accent-100);padding:5px 10px;display:grid;place-items:center;font-family:var(--font-heading);font-size:19px;line-height:1;letter-spacing:.04em">SR</div>
+      <div style="display:grid;align-content:center">
+        <span style="font-family:var(--font-heading);font-size:17px;line-height:1.1;letter-spacing:.03em;text-transform:uppercase">Saint-Romuald</span>
+        <span style="font-size:11.5px;color:var(--color-neutral-700);letter-spacing:.02em;white-space:nowrap">Comté de Lévis, Etchemin · recensements nominatifs</span>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:var(--space-3);flex-wrap:wrap">
+      <div style="display:flex;gap:3px">
+        <sc-for list="{{ yearTabs }}" as="yt" hint-placeholder-count="6">
+          <button type="button" class="btn {{ yt.cls }}" style="{{ yt.style }}" onClick="{{ yt.go }}">{{ yt.y }}</button>
+        </sc-for>
+      </div>
+      <div style="width:1px;height:22px;background:var(--color-neutral-400)"></div>
+      <div style="display:flex;gap:3px">
+        <sc-for list="{{ divisionTabs }}" as="dt" hint-placeholder-count="2">
+          <button type="button" class="btn {{ dt.cls }}" style="{{ dt.style }}" onClick="{{ dt.go }}">{{ dt.label }}</button>
+        </sc-for>
+      </div>
+      <button type="button" class="btn {{ annexeBtnClass }}" style="padding:3px 11px;font-size:14px;white-space:nowrap" onClick="{{ onToggleAnnexe }}">Adresses{{ annexeCountSuffix }}</button>
+    </div>
+  </div>
+  <div style="max-width:1180px;margin:0 auto;padding:0 var(--space-4) var(--space-3);display:flex;align-items:center;gap:var(--space-3);flex-wrap:wrap">
+    <div style="position:relative;flex:1;min-width:260px;display:flex;align-items:center">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" style="position:absolute;left:9px;color:var(--color-neutral-600)"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+      <input class="input" style="padding-left:30px;min-height:32px;font-size:14px;background:var(--color-bg)" placeholder="Trouver une personne ou un métier dans les trois recensements…" value="{{ gSearch }}" onInput="{{ onGSearch }}"></input>
+    </div>
+    <button type="button" class="btn {{ compactBtnClass }}" style="padding:3px 11px;font-size:13px;white-space:nowrap" onClick="{{ onToggleCompact }}">{{ compactLabel }}</button>
+    <button type="button" class="btn btn-secondary" style="padding:3px 11px;font-size:13px;white-space:nowrap" onClick="{{ onToggleCartouche }}">{{ cartoucheLabel }}</button>
+    <button type="button" class="btn {{ sauvegardeBtnClass }}" style="padding:3px 11px;font-size:13px;white-space:nowrap" onClick="{{ onToggleSauvegarde }}">Sauvegarde</button>
+  </div>
+</header>
+
+<sc-if value="{{ showSauvegarde }}" hint-placeholder-val="{{ false }}">
+  <div style="max-width:1180px;margin:0 auto;padding:var(--space-4) var(--space-4) 0">
+    <div class="card" style="padding:var(--space-4);border-left:3px solid var(--color-accent-700)">
+      <div style="display:flex;align-items:baseline;gap:var(--space-3);margin-bottom:var(--space-3);flex-wrap:wrap">
+        <span style="font-family:var(--font-heading);font-size:16px;letter-spacing:.03em;text-transform:uppercase">Ton travail</span>
+        <span style="font-size:12px;color:var(--color-neutral-700);flex:1;min-width:220px;text-wrap:pretty">Tout est conservé dans ce navigateur. Vider le cache l'effacerait — télécharge une sauvegarde de temps en temps, et garde-la avec tes autres documents de recherche.</span>
+        <button type="button" class="btn btn-ghost" style="font-size:12px;padding:2px 8px" onClick="{{ onToggleSauvegarde }}">Fermer</button>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:var(--space-2);margin-bottom:var(--space-4)">
+        <sc-for list="{{ inventaire }}" as="inv" hint-placeholder-count="8">
+          <div style="display:flex;align-items:baseline;gap:var(--space-2);padding:5px 8px;background:var(--color-neutral-100);border-left:2px solid var(--color-neutral-300)">
+            <span style="font-family:var(--font-heading);font-size:19px;line-height:1;color:var(--color-accent-700);min-width:28px">{{ inv.n }}</span>
+            <span style="font-size:11.5px;color:var(--color-neutral-800);line-height:1.25">{{ inv.quoi }}</span>
+          </div>
+        </sc-for>
+      </div>
+      <div style="display:flex;gap:var(--space-2);align-items:center;flex-wrap:wrap">
+        <button type="button" class="btn btn-primary" style="padding:5px 13px;white-space:nowrap" onClick="{{ onExportSauvegarde }}">Télécharger une sauvegarde</button>
+        <label class="btn btn-secondary" style="cursor:pointer;padding:5px 13px;white-space:nowrap">
+          Restaurer un fichier
+          <input type="file" accept="application/json" style="display:none" onChange="{{ onImportSauvegarde }}"></input>
+        </label>
+        <button type="button" class="btn btn-secondary" style="padding:5px 13px;white-space:nowrap" onClick="{{ onExportCorrections }}">Exporter les corrections seules</button>
+      </div>
+      <sc-if value="{{ aMessageSauvegarde }}" hint-placeholder-val="{{ false }}">
+        <p style="margin:var(--space-3) 0 0;font-size:13px;color:var(--color-accent-800)">{{ messageSauvegarde }}</p>
+      </sc-if>
+      <sc-if value="{{ aFichesAmbigues }}" hint-placeholder-val="{{ false }}">
+        <div style="margin-top:var(--space-4);padding-top:var(--space-3);border-top:1px solid var(--color-neutral-300)">
+          <div style="font-family:var(--font-heading);font-size:14px;letter-spacing:.03em;text-transform:uppercase;margin-bottom:2px">Fiches à rattacher</div>
+          <p style="margin:0 0 var(--space-3);font-size:12px;color:var(--color-neutral-700);max-width:82ch;text-wrap:pretty">Ces fiches de suivi ont été enregistrées avant que l'année ne soit portée dans la clé. Le numéro de maison et de famille existe dans plusieurs recensements à la fois, donc je ne peux pas deviner lequel est le tien. Reconnais le chef de famille et choisis — la fiche garde son statut et sa note.</p>
+          <div style="display:grid;gap:var(--space-2)">
+            <sc-for list="{{ fichesAmbigues }}" as="fa" hint-placeholder-count="1">
+              <div style="padding:var(--space-2) var(--space-3);background:var(--color-neutral-100);border-left:2px solid var(--color-accent-2-500)">
+                <div style="display:flex;gap:var(--space-3);align-items:baseline;flex-wrap:wrap;margin-bottom:6px">
+                  <span style="font-weight:600;font-size:13px">{{ fa.resume }}</span>
+                  <span class="tag tag-neutral" style="flex:none;white-space:nowrap">{{ fa.statut }}</span>
+                  <span style="font-size:11.5px;color:var(--color-neutral-600)">ancienne clé {{ fa.cle }}</span>
+                </div>
+                <div style="display:flex;gap:var(--space-2);flex-wrap:wrap">
+                  <sc-for list="{{ fa.candidats }}" as="cd" hint-placeholder-count="2">
+                    <button type="button" class="btn btn-secondary" style="padding:3px 10px;font-size:12.5px;white-space:nowrap" onClick="{{ cd.go }}">{{ cd.label }}</button>
+                  </sc-for>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </sc-if>
+      <sc-if value="{{ migrationFaite }}" hint-placeholder-val="{{ false }}">
+        <p style="margin:var(--space-3) 0 0;padding:6px 9px;background:var(--color-accent-100);border-left:2px solid var(--color-accent-500);font-size:12px;color:var(--color-accent-900)">Identifiants uniformisés — {{ migrationTexte }}.</p>
+      </sc-if>
+    </div>
+  </div>
+</sc-if>
+
+<sc-if value="{{ gActif }}" hint-placeholder-val="{{ false }}">
+  <div style="max-width:1180px;margin:0 auto;padding:var(--space-4) var(--space-4) 0">
+    <div class="card" style="padding:var(--space-3) var(--space-4);border-color:var(--color-accent-500)">
+      <div style="display:flex;align-items:baseline;gap:var(--space-3);margin-bottom:var(--space-2);flex-wrap:wrap">
+        <span style="font-family:var(--font-heading);font-size:15px;letter-spacing:.03em;text-transform:uppercase">Recherche tous recensements</span>
+        <span style="font-size:12px;color:var(--color-neutral-700)">{{ gCount }}</span>
+        <button type="button" class="btn btn-ghost" style="margin-left:auto;font-size:12px;padding:2px 8px" onClick="{{ onClearG }}">Fermer</button>
+      </div>
+      <sc-if value="{{ gVide }}" hint-placeholder-val="{{ false }}">
+        <p style="margin:0;font-size:13px;color:var(--color-neutral-700)">Aucune personne ne porte ce nom dans les données saisies.</p>
+      </sc-if>
+      <div style="display:grid;gap:2px;max-height:340px;overflow-y:auto">
+        <sc-for list="{{ gResults }}" as="g" hint-placeholder-count="0">
+          <button type="button" style="display:grid;grid-template-columns:auto 1fr auto;gap:var(--space-3);align-items:baseline;text-align:left;padding:5px 8px;background:transparent;border:0;border-left:2px solid var(--color-neutral-300);cursor:pointer;font:inherit;font-size:13px;width:100%" style-hover="background:var(--color-accent-100);border-left-color:var(--color-accent-600)" onClick="{{ g.go }}">
+            <span style="font-family:var(--font-heading);font-size:14px;color:var(--color-accent-700);min-width:58px">{{ g.annee }} · D{{ g.division }}</span>
+            <span><span style="font-weight:600">{{ g.nom }}</span> <span style="color:var(--color-neutral-700)">{{ g.age }} ans · {{ g.profession }}</span></span>
+            <span style="color:var(--color-neutral-600);font-size:12px;white-space:nowrap">{{ g.situation }} · {{ g.repere }}</span>
+          </button>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+</sc-if>
+
+<sc-if value="{{ showAnnexe }}" hint-placeholder-val="{{ false }}">
+<div style="max-width:1180px;margin:0 auto;padding:var(--space-6) var(--space-4) var(--space-8)">
+  <div class="card" style="padding:var(--space-4);margin-bottom:var(--space-6);border-left:3px solid var(--color-accent-700)">
+    <h2 style="font-family:var(--font-heading);font-weight:600;font-size:22px;margin:0 0 4px">Annexe — concordances Adresse-Maison</h2>
+    <p style="margin:0 0 var(--space-3);font-size:13px;color:var(--color-neutral-700);max-width:70ch">Bâtiments identifiés par adresse actuelle, toutes sources confondues. Pour chacun, une ou plusieurs hypothèses de correspondance avec une maison du recensement — modifiables ou annulables en tout temps.</p>
+    <div style="display:flex;gap:var(--space-4);flex-wrap:wrap;align-items:flex-end">
+      <div class="field" style="max-width:320px;flex:1;min-width:200px">
+        <label for="annexe-search">Rechercher (adresse, nom de famille)</label>
+        <input class="input" id="annexe-search" value="{{ annexeSearch }}" onInput="{{ onAnnexeSearch }}"></input>
+      </div>
+      <div style="display:grid;gap:4px">
+        <span style="font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Source</span>
+        <div style="display:flex;gap:var(--space-1);flex-wrap:wrap">
+          <sc-for list="{{ sourceTabs }}" as="st" hint-placeholder-count="3">
+            <button type="button" class="btn {{ st.cls }}" style="padding:4px 10px;font-size:13px;white-space:nowrap" onClick="{{ st.go }}">{{ st.label }}</button>
+          </sc-for>
+        </div>
+      </div>
+      <button type="button" class="btn {{ newEntryBtnClass }}" style="margin-left:auto;white-space:nowrap" onClick="{{ onToggleNewEntry }}">{{ newEntryBtnLabel }}</button>
+    </div>
+  </div>
+
+  <sc-if value="{{ showNewEntry }}" hint-placeholder-val="{{ false }}">
+    <div class="card" style="padding:var(--space-4);margin-bottom:var(--space-6);border-color:var(--color-accent-500)">
+      <h3 style="font-family:var(--font-heading);font-weight:600;font-size:16px;margin:0 0 var(--space-3)">Ajouter un bâtiment (recherche personnelle)</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--space-3);margin-bottom:var(--space-3)">
+        <div class="field">
+          <label for="ne-adresse">Adresse actuelle *</label>
+          <input class="input" id="ne-adresse" placeholder="1604, chemin du Fleuve" value="{{ neAdresse }}" onChange="{{ onNeAdresse }}"></input>
+        </div>
+        <div class="field">
+          <label for="ne-titre">Désignation</label>
+          <input class="input" id="ne-titre" placeholder="Maison d'Albert Forcade" value="{{ neTitre }}" onChange="{{ onNeTitre }}"></input>
+        </div>
+        <div class="field">
+          <label for="ne-annee">Année de construction</label>
+          <input class="input" id="ne-annee" placeholder="v.1847" value="{{ neAnnee }}" onChange="{{ onNeAnnee }}"></input>
+        </div>
+        <div class="field">
+          <label for="ne-source">Source</label>
+          <input class="input" id="ne-source" list="annexe-sources" value="{{ neSource }}" onChange="{{ onNeSource }}"></input>
+          <datalist id="annexe-sources">
+            <sc-for list="{{ sourceOptions }}" as="so" hint-placeholder-count="2">
+              <option value="{{ so.value }}"></option>
+            </sc-for>
+          </datalist>
+        </div>
+      </div>
+      <div class="field" style="margin-bottom:var(--space-3)">
+        <label for="ne-personnages">Personnes associées</label>
+        <input class="input" id="ne-personnages" placeholder="Albert Forcade, navigateur ; famille Charest" value="{{ nePersonnages }}" onChange="{{ onNePersonnages }}"></input>
+      </div>
+      <div class="field" style="margin-bottom:var(--space-3)">
+        <label for="ne-resume">Notes / description</label>
+        <textarea class="input" id="ne-resume" rows="3" style="resize:vertical" value="{{ neResume }}" onChange="{{ onNeResume }}"></textarea>
+      </div>
+      <div style="display:flex;gap:var(--space-2)">
+        <button type="button" class="btn btn-primary" onClick="{{ onAddEntry }}">Ajouter le bâtiment</button>
+        <button type="button" class="btn btn-ghost" onClick="{{ onToggleNewEntry }}">Annuler</button>
+      </div>
+    </div>
+  </sc-if>
+
+  <div style="display:grid;gap:var(--space-3)">
+    <sc-for list="{{ annexeEntries }}" as="e" hint-placeholder-count="0">
+      <div class="card" style="padding:var(--space-3) var(--space-4)">
+        <sc-if value="{{ e.isEditing }}" hint-placeholder-val="{{ false }}">
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--space-2);margin-bottom:var(--space-2)">
+            <div class="field">
+              <label>Adresse</label>
+              <input class="input" value="{{ e.edAdresse }}" onChange="{{ e.onEdAdresse }}"></input>
+            </div>
+            <div class="field">
+              <label>Désignation</label>
+              <input class="input" value="{{ e.edTitre }}" onChange="{{ e.onEdTitre }}"></input>
+            </div>
+            <div class="field">
+              <label>Année</label>
+              <input class="input" value="{{ e.edAnnee }}" onChange="{{ e.onEdAnnee }}"></input>
+            </div>
+            <div class="field">
+              <label>Source</label>
+              <input class="input" value="{{ e.edSource }}" onChange="{{ e.onEdSource }}"></input>
+            </div>
+          </div>
+          <div class="field" style="margin-bottom:var(--space-2)">
+            <label>Personnes associées</label>
+            <input class="input" value="{{ e.edPersonnages }}" onChange="{{ e.onEdPersonnages }}"></input>
+          </div>
+          <div class="field" style="margin-bottom:var(--space-2)">
+            <label>Notes / description</label>
+            <textarea class="input" rows="3" style="resize:vertical" value="{{ e.edResume }}" onChange="{{ e.onEdResume }}"></textarea>
+          </div>
+          <div style="display:flex;gap:var(--space-2);margin-bottom:var(--space-2)">
+            <button type="button" class="btn btn-primary" onClick="{{ e.onSaveEdit }}">Enregistrer</button>
+            <button type="button" class="btn btn-ghost" onClick="{{ e.onCancelEdit }}">Annuler</button>
+          </div>
+        </sc-if>
+        <sc-if value="{{ e.isNotEditing }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex;gap:var(--space-3);align-items:baseline;flex-wrap:wrap;margin-bottom:4px">
+          <span style="font-weight:600;font-size:15px">{{ e.adresse }}</span>
+          <span style="font-size:13px;color:var(--color-neutral-700)">{{ e.titre }}</span>
+          <sc-if value="{{ e.hasAnnee }}" hint-placeholder-val="{{ false }}">
+            <span class="tag tag-outline" style="flex:none">construit {{ e.annee }}</span>
+          </sc-if>
+          <span style="margin-left:auto;display:flex;gap:var(--space-2);align-items:center;flex:none">
+            <span class="tag tag-neutral" style="flex:none">{{ e.source }}</span>
+            <sc-if value="{{ e.isCustom }}" hint-placeholder-val="{{ false }}">
+              <button type="button" class="btn btn-secondary" style="font-size:12px;padding:2px 8px" onClick="{{ e.onToggleEdit }}">{{ e.editBtnLabel }}</button>
+              <button type="button" class="btn btn-ghost" style="font-size:12px;padding:2px 8px" onClick="{{ e.onDelete }}">Supprimer</button>
+            </sc-if>
+          </span>
+        </div>
+        <sc-if value="{{ e.hasPersonnages }}" hint-placeholder-val="{{ false }}">
+          <div style="font-size:12px;color:var(--color-accent-700);margin-bottom:4px">{{ e.personnages }}</div>
+        </sc-if>
+        <p style="font-size:13px;color:var(--color-neutral-900);margin:0 0 var(--space-2);max-width:80ch">{{ e.resume }}</p>
+        </sc-if>
+
+        <div style="margin-bottom:var(--space-2)">
+          <div style="font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700);margin-bottom:4px">Autres adresses (anciens noms de rue / numéros)</div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px">
+            <sc-for list="{{ e.altList }}" as="alt" hint-placeholder-count="0">
+              <span class="tag tag-outline" style="display:flex;gap:6px;align-items:center;flex:none">
+                {{ alt.value }}
+                <button type="button" class="btn btn-ghost" style="font-size:11px;padding:0 4px" onClick="{{ alt.onRemove }}">×</button>
+              </span>
+            </sc-for>
+          </div>
+          <div style="display:flex;gap:6px;align-items:center">
+            <input class="input" style="width:220px;padding:4px 6px;font-size:13px" placeholder="ex. 1411, rue Commerciale" value="{{ e.altInput }}" onChange="{{ e.onAltInput }}"></input>
+            <button type="button" class="btn btn-secondary" style="font-size:12px;padding:4px 10px" onClick="{{ e.onAddAlt }}">Ajouter</button>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:var(--space-2);flex-wrap:wrap;align-items:flex-end;margin-bottom:var(--space-2)">
+          <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">N° de lot
+            <input class="input" style="width:100px;padding:4px 6px;font-size:13px" value="{{ e.dLot }}" onChange="{{ e.onDLot }}"></input>
+          </label>
+          <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Lot — année la plus ancienne
+            <input class="input" style="width:110px;padding:4px 6px;font-size:13px" placeholder="ex. 1876" value="{{ e.dLotAnnee }}" onChange="{{ e.onDLotAnnee }}"></input>
+          </label>
+          <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Goad 1876 — feuillet
+            <input class="input" style="width:90px;padding:4px 6px;font-size:13px" value="{{ e.dGoadFeuillet }}" onChange="{{ e.onDGoadFeuillet }}"></input>
+          </label>
+          <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Goad 1876 — n° d'enregistrement
+            <input class="input" style="width:140px;padding:4px 6px;font-size:13px" value="{{ e.dGoadNo }}" onChange="{{ e.onDGoadNo }}"></input>
+          </label>
+        </div>
+
+        <div style="display:flex;gap:var(--space-2);flex-wrap:wrap;align-items:flex-start;margin-bottom:var(--space-2)">
+          <sc-if value="{{ e.hasPhotos }}" hint-placeholder-val="{{ false }}">
+          <sc-for list="{{ e.photos }}" as="ph" hint-placeholder-count="0">
+            <figure style="margin:0;display:grid;gap:2px;width:150px">
+              <img alt="{{ ph.nom }}" ref="{{ ph.imgRef }}" style="width:150px;height:112px;object-fit:cover;border:1px solid var(--color-neutral-300);border-radius:var(--radius-sm);display:block;background:var(--color-neutral-200)"></img>
+              <input class="input" placeholder="Légende de la photo…" style="font-size:11px;padding:3px 5px" value="{{ ph.caption }}" onChange="{{ ph.onCaption }}"></input>
+              <figcaption style="font-size:10px;color:var(--color-neutral-700);word-break:break-all">{{ ph.nom }}</figcaption>
+              <button type="button" class="btn btn-ghost" style="font-size:11px;padding:1px 6px;justify-self:start" onClick="{{ ph.onRemove }}">Retirer</button>
+            </figure>
+          </sc-for>
+          </sc-if>
+          <sc-if value="{{ e.canAddPhoto }}" hint-placeholder-val="{{ true }}">
+            <label class="btn btn-secondary" style="cursor:pointer;font-size:12px;padding:4px 10px;align-self:center;white-space:nowrap">
+              + Photo ({{ e.photoCount }}/5)
+              <input type="file" accept="image/*" style="display:none" onChange="{{ e.onPhotoFile }}"></input>
+            </label>
+          </sc-if>
+        </div>
+
+        <sc-if value="{{ e.hasPropositions }}" hint-placeholder-val="{{ false }}">
+          <div style="display:grid;gap:6px;margin-bottom:var(--space-2)">
+            <div style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--color-neutral-700)">Propositions à valider</div>
+            <sc-for list="{{ e.propList }}" as="p" hint-placeholder-count="1">
+              <div style="{{ p.rowStyle }}">
+                <div style="display:flex;gap:var(--space-2);align-items:baseline;flex-wrap:wrap">
+                  <span class="tag {{ p.confianceClass }}" style="flex:none">concordance {{ p.confiance }}</span>
+                  <span style="font-weight:600;font-size:13px">Recensement {{ p.annee }}, division {{ p.division }}, maison n° {{ p.no_maison }}</span>
+                  <sc-if value="{{ p.isRetenue }}" hint-placeholder-val="{{ false }}">
+                    <span class="tag tag-accent" style="flex:none">retenue</span>
+                  </sc-if>
+                  <sc-if value="{{ p.isEcartee }}" hint-placeholder-val="{{ false }}">
+                    <span class="tag tag-neutral" style="flex:none">écartée</span>
+                  </sc-if>
+                  <span style="margin-left:auto;display:flex;gap:var(--space-1);flex:none">
+                    <sc-if value="{{ p.isOuverte }}" hint-placeholder-val="{{ true }}">
+                      <button type="button" class="btn btn-primary" style="font-size:12px;padding:2px 8px" onClick="{{ p.onRetenir }}">Retenir</button>
+                      <button type="button" class="btn btn-ghost" style="font-size:12px;padding:2px 8px" onClick="{{ p.onEcarter }}">Écarter</button>
+                    </sc-if>
+                    <sc-if value="{{ p.isTraitee }}" hint-placeholder-val="{{ false }}">
+                      <button type="button" class="btn btn-ghost" style="font-size:12px;padding:2px 8px" onClick="{{ p.onRemettre }}">Remettre</button>
+                    </sc-if>
+                  </span>
+                </div>
+                <div style="font-size:12px;color:var(--color-neutral-700);margin-top:2px">{{ p.motif }}</div>
+              </div>
+            </sc-for>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ e.hasHypotheses }}" hint-placeholder-val="{{ false }}">
+          <div style="display:grid;gap:6px;margin-bottom:var(--space-2)">
+            <sc-for list="{{ e.hypList }}" as="h" hint-placeholder-count="1">
+              <div style="display:flex;gap:var(--space-3);align-items:baseline;padding:6px 10px;background:var(--color-neutral-100);border-left:2px solid var(--color-accent-500);border-radius:var(--radius-sm);font-size:13px;flex-wrap:wrap">
+                <span class="tag {{ h.statutClass }}" style="flex:none">{{ h.statutLabel }}</span>
+                <span style="font-weight:600">Recensement {{ h.annee }}, division {{ h.division }}, maison n° {{ h.no_maison }}</span>
+                <sc-if value="{{ h.hasNote }}" hint-placeholder-val="{{ false }}">
+                  <span style="color:var(--color-neutral-700);font-size:12px;font-style:italic">{{ h.note }}</span>
+                </sc-if>
+                <button type="button" class="btn btn-ghost" style="margin-left:auto;flex:none;font-size:12px;padding:2px 8px" onClick="{{ h.onRemove }}">Annuler</button>
+              </div>
+            </sc-for>
+          </div>
+        </sc-if>
+
+        <div style="display:flex;gap:var(--space-2);flex-wrap:wrap;align-items:flex-end;padding:var(--space-2) var(--space-3);background:var(--color-neutral-100);border:1px solid var(--color-neutral-300);border-radius:var(--radius-sm)">
+          <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Année
+            <select class="input" style="width:85px;padding:4px 6px;font-size:13px" value="{{ e.hfAnnee }}" onChange="{{ e.onHfAnnee }}">
+              <option value="1861">1861</option>
+              <option value="1871">1871</option>
+              <option value="1881">1881</option>
+              <option value="1891">1891</option>
+              <option value="1901">1901</option>
+              <option value="1911">1911</option>
+            </select>
+          </label>
+          <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Division
+            <select class="input" style="width:75px;padding:4px 6px;font-size:13px" value="{{ e.hfDivision }}" onChange="{{ e.onHfDivision }}">
+              <option value="1">1</option>
+              <option value="2">2</option>
+            </select>
+          </label>
+          <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">N° maison
+            <input class="input" style="width:80px;padding:4px 6px;font-size:13px" value="{{ e.hfNoMaison }}" onChange="{{ e.onHfNoMaison }}"></input>
+          </label>
+          <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Statut
+            <select class="input" style="width:130px;padding:4px 6px;font-size:13px" value="{{ e.hfStatut }}" onChange="{{ e.onHfStatut }}">
+              <option value="hypothese">Hypothèse</option>
+              <option value="a_verifier">À vérifier</option>
+              <option value="confirme">Confirmé</option>
+              <option value="rejete">Rejeté</option>
+            </select>
+          </label>
+          <label style="display:grid;gap:2px;flex:1;min-width:180px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Note
+            <input class="input" style="width:100%;padding:4px 6px;font-size:13px" placeholder="raisonnement, indice…" value="{{ e.hfNote }}" onChange="{{ e.onHfNote }}"></input>
+          </label>
+          <button type="button" class="btn btn-primary" onClick="{{ e.onAddHyp }}" style="white-space:nowrap">Ajouter l'hypothèse</button>
+        </div>
+      </div>
+    </sc-for>
+  </div>
+  <sc-if value="{{ annexeNoResults }}" hint-placeholder-val="{{ false }}">
+    <p style="text-align:center;color:var(--color-neutral-700);margin-top:var(--space-6)">Aucun bâtiment ne correspond à cette recherche.</p>
+  </sc-if>
+</div>
+</sc-if>
+
+<sc-if value="{{ showMain }}" hint-placeholder-val="{{ true }}">
+<sc-if value="{{ showCartouche }}" hint-placeholder-val="{{ true }}">
+<div style="background:var(--color-accent-900);color:var(--color-accent-100)">
+  <div style="max-width:1180px;margin:0 auto;padding:var(--space-6) var(--space-4);display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:var(--space-6);align-items:center">
+    <div>
+      <h1 style="font-family:var(--font-heading);font-weight:600;font-size:34px;letter-spacing:.01em;margin:0 0 4px;color:#fff;text-wrap:pretty">Maisons &amp; familles</h1>
+      <p style="margin:0 0 var(--space-4);font-size:14px;color:var(--color-accent-200);max-width:56ch;text-wrap:pretty">Qui habite chaque maison, le métier de chacun, la scolarité des enfants — recensement de {{ activeYear }}, division {{ activeDivision }}.</p>
+      <div style="display:flex;gap:var(--space-6);flex-wrap:wrap">
+        <div style="display:grid;gap:1px">
+          <span style="font-family:var(--font-heading);font-size:27px;font-weight:600;line-height:1;color:#fff">{{ totalMaisons }}</span>
+          <span style="font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--color-accent-300)">Maisons</span>
+        </div>
+        <div style="display:grid;gap:1px">
+          <span style="font-family:var(--font-heading);font-size:27px;font-weight:600;line-height:1;color:#fff">{{ totalFamilles }}</span>
+          <span style="font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--color-accent-300)">Familles</span>
+        </div>
+        <div style="display:grid;gap:1px">
+          <span style="font-family:var(--font-heading);font-size:27px;font-weight:600;line-height:1;color:#fff">{{ totalPersonnes }}</span>
+          <span style="font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--color-accent-300)">Personnes</span>
+        </div>
+      </div>
+    </div>
+    <figure style="margin:0;position:relative;border:1px solid var(--color-accent-700)">
+      <img src="assets/chantiers-new-liverpool.jpg" alt="Chantiers navals et de commerce du bois, anse de New Liverpool" style="display:block;width:100%;height:124px;object-fit:cover;filter:saturate(.5)">
+      <figcaption style="position:absolute;left:0;right:0;bottom:0;margin:0;padding:4px 8px;background:color-mix(in srgb, var(--color-accent-900) 82%, transparent);font-size:10.5px;color:var(--color-accent-200)">Chantiers navals et commerce du bois, anse de New Liverpool (1847–1868)</figcaption>
+    </figure>
+  </div>
+</div>
+</sc-if>
+
+<div style="background:var(--color-surface);border-bottom:1px solid var(--color-neutral-300)">
+  <div style="max-width:1180px;margin:0 auto;padding:var(--space-3) var(--space-4);display:flex;align-items:center;gap:var(--space-4);flex-wrap:wrap">
+    <span style="font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--color-neutral-700);flex:none;white-space:nowrap">Avancement du dépouillement</span>
+    <div style="flex:1;min-width:180px;display:flex;height:8px;gap:1px;background:var(--color-neutral-200)">
+      <sc-for list="{{ avancement.segments }}" as="sg" hint-placeholder-count="1">
+        <div style="{{ sg.style }}"></div>
+      </sc-for>
+    </div>
+    <div style="display:flex;gap:var(--space-4);flex-wrap:wrap;font-size:12px;flex:none">
+      <span style="display:flex;align-items:center;gap:5px"><i style="width:9px;height:9px;background:var(--color-accent-700);display:block"></i>{{ avancement.confirme }} confirmées</span>
+      <span style="display:flex;align-items:center;gap:5px"><i style="width:9px;height:9px;background:var(--color-accent-400);display:block"></i>{{ avancement.enCours }} en cours</span>
+      <span style="display:flex;align-items:center;gap:5px"><i style="width:9px;height:9px;background:var(--color-neutral-300);display:block"></i>{{ avancement.aVerifier }} à vérifier</span>
+      <span style="font-family:var(--font-heading);font-size:14px;color:var(--color-accent-700)">{{ avancement.pct }} %</span>
+    </div>
+  </div>
+</div>
+
+<div style="max-width:1180px;margin:0 auto;padding:var(--space-6) var(--space-4) var(--space-8)">
+
+  <div class="card" style="margin-bottom:var(--space-4);padding:var(--space-3) var(--space-4)">
+    <div style="display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1.4fr) auto;gap:var(--space-3);align-items:end">
+      <div class="field" style="margin:0">
+        <label for="search">Filtrer la division affichée — nom de famille</label>
+        <input class="input" id="search" style="min-height:32px" placeholder="ex. Roberge, Cantin…" value="{{ search }}" onInput="{{ onSearch }}"></input>
+      </div>
+      <div class="field" style="margin:0">
+        <label for="prof">Profession</label>
+        <select class="input" id="prof" style="min-height:32px" value="{{ profession }}" onChange="{{ onProfession }}">
+          <option value="">Toutes les professions</option>
+          <sc-for list="{{ professions }}" as="p" hint-placeholder-count="3">
+            <option value="{{ p }}">{{ p }}</option>
+          </sc-for>
+        </select>
+      </div>
+      <button type="button" class="btn {{ ecoleBtnClass }}" onClick="{{ onEcoleToggle }}" style="white-space:nowrap;padding:5px 12px">Enfants à l'école</button>
+    </div>
+  </div>
+
+  <sc-if value="{{ hasPartialNote }}" hint-placeholder-val="{{ false }}">
+    <div class="card" style="padding:var(--space-3) var(--space-4);margin-bottom:var(--space-4);border-color:var(--color-accent-400);background:var(--color-accent-100)">
+      <span style="font-size:13px;color:var(--color-accent-900)">⚠ {{ partialNote }}</span>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ is1891Year }}" hint-placeholder-val="{{ false }}">
+    <div class="card blueprint" style="padding:var(--space-4);margin-bottom:var(--space-4)">
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div style="display:flex;align-items:baseline;justify-content:space-between;gap:var(--space-3);margin-bottom:var(--space-3);flex-wrap:wrap;border-bottom:1px solid var(--color-neutral-300);padding-bottom:var(--space-3)">
+        <h2 style="font-family:var(--font-heading);font-weight:600;font-size:20px;margin:0">Rôle nominatif — à regrouper</h2>
+        <span style="font-size:12px;color:var(--color-neutral-700)">{{ rosterRemainingCount }} personne(s) restante(s) · affichage des 100 premières · les maisons regroupées apparaissent plus bas</span>
+      </div>
+      <div style="overflow-x:auto;min-width:0;max-width:100%">
+      <table class="table">
+        <thead><tr><th>Ordre</th><th>Nom</th><th>Prénom</th><th>Âge</th><th>Fiche BAC</th></tr></thead>
+        <tbody>
+          <sc-for list="{{ roster }}" as="r" hint-placeholder-count="12">
+            <tr style-hover="background:var(--color-neutral-100)">
+              <td style="color:var(--color-neutral-700);font-size:12px">{{ r.ordre }}</td>
+              <td style="font-weight:600">{{ r.nom }}</td>
+              <td>{{ r.prenom }}</td>
+              <td style="white-space:nowrap">{{ r.age }}</td>
+              <td><a href="{{ r.lien }}" target="_blank" style="font-size:12px">n° {{ r.source_id }}</a></td>
+            </tr>
+          </sc-for>
+        </tbody>
+      </table>
+      </div>
+    </div>
+  </sc-if>
+
+  <div style="position:sticky;top:96px;z-index:4;display:flex;align-items:center;gap:var(--space-3);flex-wrap:wrap;padding:var(--space-2) var(--space-3);margin-bottom:var(--space-4);background:var(--color-surface);border:1px solid var(--color-neutral-300);border-left:3px solid var(--color-accent-700);border-radius:var(--radius-sm)">
+    <button type="button" class="btn {{ editBtnClass }}" onClick="{{ onToggleEdit }}" style="white-space:nowrap;padding:4px 12px">{{ editBtnLabel }}</button>
+    <span style="font-size:12px;color:var(--color-neutral-700);flex:1;min-width:200px">{{ editHint }}</span>
+    <span style="font-size:12px;color:var(--color-neutral-700);white-space:nowrap">{{ nbCorrections }} correction(s)</span>
+    <button type="button" class="btn btn-secondary" onClick="{{ onExportCorrections }}" style="white-space:nowrap;padding:4px 12px">Exporter mon travail</button>
+  </div>
+
+  <div style="display:grid;gap:var(--space-4)">
+    <sc-for list="{{ maisons }}" as="maison" hint-placeholder-count="4">
+      <div class="card" style="padding:var(--space-4);min-width:0">
+        <div style="display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-3);padding-bottom:var(--space-3);border-bottom:1px solid var(--color-neutral-300);min-width:0">
+          <span style="font-family:var(--font-heading);font-size:22px;font-weight:600;line-height:1;color:var(--color-accent-100);background:var(--color-accent-900);padding:6px 10px;min-width:44px;text-align:center;flex:none">{{ maison.no_maison }}</span>
+          <div style="flex:none">
+            <div style="font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--color-neutral-700)">Maison</div>
+            <div style="font-size:12px;color:var(--color-neutral-700)">{{ maison.familles.length }} famille(s)</div>
+          </div>
+          <div style="margin-left:auto;display:flex;align-items:center;gap:var(--space-2);flex-wrap:wrap;justify-content:flex-end">
+            <sc-if value="{{ maison.hasNoMs }}" hint-placeholder-val="{{ false }}">
+              <span class="tag tag-outline" style="flex:none" title="Numéro porté en colonne 5 du manuscrit — ne correspond pas au numéro utilisé par l'application">{{ maison.noMsLabel }}</span>
+            </sc-if>
+            <sc-if value="{{ maison.msConforme }}" hint-placeholder-val="{{ false }}">
+              <span style="flex:none;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--color-neutral-600)" title="Numéro vérifié en colonne 5 du manuscrit — conforme">n° vérifié</span>
+            </sc-if>
+            <sc-if value="{{ maison.hasLogement }}" hint-placeholder-val="{{ false }}">
+              <span class="tag tag-neutral" style="flex:none" title="Colonne 4 du manuscrit : {{ maison.logementCode }}">{{ maison.logementLabel }}</span>
+            </sc-if>
+            <sc-if value="{{ maison.colonneAutre }}" hint-placeholder-val="{{ false }}">
+              <span class="tag" style="flex:none;background:var(--color-accent-2-200);color:var(--color-accent-2-900)">{{ maison.colonneLabel }}</span>
+            </sc-if>
+            <sc-if value="{{ maison.logementIncertain }}" hint-placeholder-val="{{ false }}">
+              <span class="tag" style="background:var(--color-accent-2-200);color:var(--color-accent-2-900);flex:none">⚠ logement — lecture incertaine</span>
+            </sc-if>
+          </div>
+        </div>
+
+        <sc-if value="{{ maison.hasAdresse }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;gap:var(--space-2);align-items:baseline;margin-bottom:var(--space-3);font-size:13px">
+            <span style="flex:none;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--color-neutral-700)">Adresse actuelle</span>
+            <span style="font-weight:600">{{ maison.adresse }}</span>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ maison.editMode }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;gap:var(--space-3);flex-wrap:wrap;align-items:flex-end;margin-bottom:var(--space-4);padding:var(--space-3);background:var(--color-neutral-100);border:1px solid var(--color-neutral-300);border-radius:var(--radius-sm)">
+            <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">N° maison
+              <input class="input" style="width:80px;padding:4px 6px;font-size:13px" value="{{ maison.eNoMaison }}" onChange="{{ maison.onNoMaisonChange }}"></input>
+            </label>
+            <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Colonne
+              <select class="input" style="width:190px;padding:4px 6px;font-size:13px" value="{{ maison.eColonne }}" onChange="{{ maison.onColonneChange }}">
+                <option value="2">2 — en construction</option>
+                <option value="3">3 — inhabitée</option>
+                <option value="4">4 — habitée</option>
+              </select>
+            </label>
+            <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Matériau
+              <select class="input" style="width:110px;padding:4px 6px;font-size:13px" value="{{ maison.eMateriau }}" onChange="{{ maison.onMateriauChange }}">
+                <option value="">—</option>
+                <option value="Bois">Bois</option>
+                <option value="Brique">Brique</option>
+                <option value="Pierre">Pierre</option>
+              </select>
+            </label>
+            <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Étages
+              <select class="input" style="width:70px;padding:4px 6px;font-size:13px" value="{{ maison.eEtages }}" onChange="{{ maison.onEtagesChange }}">
+                <option value="">—</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </label>
+            <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Pièces
+              <select class="input" style="width:75px;padding:4px 6px;font-size:13px" value="{{ maison.eChambres }}" onChange="{{ maison.onChambresChange }}">
+                <option value="">—</option>
+                <sc-for list="{{ maison.chambresOptions }}" as="o" hint-placeholder-count="0">
+                  <option value="{{ o.value }}">{{ o.label }}</option>
+                </sc-for>
+              </select>
+            </label>
+            <label style="display:grid;gap:2px;flex:1;min-width:220px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Adresse actuelle
+              <input class="input" style="width:100%;padding:4px 6px;font-size:13px" value="{{ maison.eAdresse }}" onChange="{{ maison.onAdresseChange }}"></input>
+            </label>
+            <sc-if value="{{ maison.maisonCorrigee }}" hint-placeholder-val="{{ false }}">
+              <button type="button" class="btn btn-ghost" onClick="{{ maison.onResetMaison }}" style="white-space:nowrap">Annuler</button>
+            </sc-if>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ maison.hasRemarqueLogement }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;gap:var(--space-2);align-items:flex-start;margin-bottom:var(--space-3);padding:var(--space-2) var(--space-3);border-left:2px solid var(--color-neutral-500);font-size:12px;color:var(--color-neutral-900);background:var(--color-neutral-100)">
+            <span style="flex:none;font-weight:600">Logement</span>
+            <span>{{ maison.remarqueLogement }}</span>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ maison.hasRemarqueNom }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;gap:var(--space-2);align-items:flex-start;margin-bottom:var(--space-3);padding:var(--space-2) var(--space-3);border-left:2px solid var(--color-accent-500);font-size:12px;color:var(--color-accent-900);background:var(--color-accent-100)">
+            <span style="flex:none;font-weight:600">Relecture</span>
+            <span>{{ maison.remarqueNom }}</span>
+          </div>
+        </sc-if>
+
+        <div style="display:grid;gap:var(--space-1);min-width:0">
+          <sc-for list="{{ maison.familles }}" as="fam" hint-placeholder-count="1">
+            <div style="border:1px solid var(--color-neutral-300);border-left:3px solid {{ fam.statusEdge }};border-radius:var(--radius-sm);min-width:0">
+              <div style="display:flex;align-items:center;gap:var(--space-3);padding:var(--space-3);cursor:pointer;border-radius:var(--radius-sm)" style-hover="background:var(--color-neutral-100)" onClick="{{ fam.toggle }}">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="{{ fam.chevronStyle }};flex:none;color:var(--color-neutral-700)"><path d="m9 18 6-6-6-6"></path></svg>
+                <div style="flex:1;min-width:0">
+                  <div style="display:flex;align-items:center;gap:var(--space-2);flex-wrap:wrap">
+                    <span class="tag tag-outline" style="flex:none;white-space:nowrap">{{ fam.familleLabel }}</span>
+                    <sc-if value="{{ fam.editMode }}" hint-placeholder-val="{{ false }}">
+                      <input class="input" style="width:70px;padding:2px 6px;font-size:12px" title="Numéro de famille" value="{{ fam.eNoFamille }}" onChange="{{ fam.onNoFamilleChange }}" onClick="{{ fam.stopToggle }}"></input>
+                    </sc-if>
+                    <sc-if value="{{ fam.hasFamNoMs }}" hint-placeholder-val="{{ false }}">
+                      <span class="tag" style="flex:none;background:var(--color-neutral-200);color:var(--color-neutral-800)">{{ fam.famNoMsLabel }}</span>
+                    </sc-if>
+                    <sc-if value="{{ fam.famSansNumero }}" hint-placeholder-val="{{ false }}">
+                      <span class="tag" style="flex:none;background:var(--color-accent-300);color:var(--color-accent-900)">sans n° au ms</span>
+                    </sc-if>
+                    <span style="font-weight:600;font-size:15px">{{ fam.chef }}</span>
+                    <sc-if value="{{ fam.incertain }}" hint-placeholder-val="{{ false }}">
+                      <span class="tag" style="background:var(--color-accent-2-200);color:var(--color-accent-2-900);flex:none;white-space:nowrap">⚠ lecture incertaine</span>
+                    </sc-if>
+                    <sc-if value="{{ fam.hasRapport }}" hint-placeholder-val="{{ false }}">
+                      <span class="tag tag-accent" style="flex:none;white-space:nowrap">Recoupé — Rapport 1871</span>
+                    </sc-if>
+                    <sc-if value="{{ fam.ageAjustee }}" hint-placeholder-val="{{ false }}">
+                      <span class="tag tag-outline" style="flex:none;white-space:nowrap">Âge(s) ajusté(s)</span>
+                    </sc-if>
+                    <sc-for list="{{ fam.tableaux }}" as="tb" hint-placeholder-count="0">
+                      <span class="tag {{ tb.tag }}" style="flex:none;white-space:nowrap">{{ tb.etiquette }}</span>
+                    </sc-for>
+                  </div>
+                  <div style="font-size:12px;color:var(--color-neutral-700);margin-top:2px">{{ fam.nb_membres }} personne(s) · {{ fam.profession_chef }}</div>
+                  <sc-if value="{{ fam.hasFamRemarqueNom }}" hint-placeholder-val="{{ false }}">
+                    <div style="font-size:12px;color:var(--color-accent-700);margin-top:2px">{{ fam.famRemarqueNom }}</div>
+                  </sc-if>
+                  <sc-if value="{{ fam.montrerResumes }}" hint-placeholder-val="{{ true }}">
+                  <sc-for list="{{ fam.tableaux }}" as="tb" hint-placeholder-count="0">
+                    <div style="font-size:12px;color:var(--color-neutral-700);margin-top:2px"><span style="color:var(--color-accent-700)">{{ tb.etiquette }} —</span> {{ tb.resume }}</div>
+                  </sc-for>
+                  </sc-if>
+                </div>
+                <span class="tag {{ fam.statusTagClass }}" style="flex:none;white-space:nowrap">{{ fam.statusLabel }}</span>
+              </div>
+
+              <sc-if value="{{ fam.expanded }}" hint-placeholder-val="{{ false }}">
+                <div style="padding:0 var(--space-3) var(--space-3);min-width:0">
+                  <p style="font-size:11px;color:var(--color-neutral-700);margin:0 0 6px">Cliquez un champ pour corriger une lecture ; ⚠ signale une transcription incertaine.</p>
+                  <div style="overflow-x:auto;min-width:0;max-width:100%">
+                  <table class="table" style="margin-bottom:var(--space-3)">
+                    <thead><tr><th>Page</th><th>Ligne</th><th>Prénom</th><th>Nom</th><th>Sexe</th><th>Âge</th><sc-if value="{{ fam.montrerNe12 }}" hint-placeholder-val="{{ true }}"><th title="Colonne 10 du formulaire : mois de naissance des enfants nés dans les douze mois précédant le recensement">Né 12 mois</th></sc-if><sc-if value="{{ fam.is1891 }}" hint-placeholder-val="{{ false }}"><th>Lien avec chef</th></sc-if><th>Lieu naissance</th><th>État matrim.</th><sc-if value="{{ !fam.is1891 }}" hint-placeholder-val="{{ true }}"><th>Marié 12 mois</th></sc-if><th>Religion</th><th>Origine</th><th>Profession</th><th>École</th><th>Lit/Écrit</th><th>Sourd-muet</th><th>Aveugle</th><th>Aliéné</th><th>Remarque</th><th></th></tr></thead>
+                    <tbody>
+                      <sc-for list="{{ fam.membres }}" as="m" hint-placeholder-count="2">
+                        <tr style="{{ m.rowStyle }}" style-hover="background:var(--color-neutral-100)">
+                          <td><input class="input" style="width:52px;padding:4px 6px;font-size:12px;background:transparent" value="{{ m.page_ms }}" onChange="{{ m.onPageChange }}"></input></td>
+                          <td><input class="input" style="width:46px;padding:4px 6px;font-size:12px;background:transparent" value="{{ m.ligne }}" onChange="{{ m.onLigneChange }}"></input></td>
+                          <td style="min-width:130px"><input class="input" style="width:100%;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.prenom }}" onChange="{{ m.onPrenomChange }}"></input> <sc-if value="{{ m.incertain }}" hint-placeholder-val="{{ false }}"><span title="lecture incertaine">⚠</span></sc-if></td>
+                          <td style="min-width:130px"><input class="input" style="width:100%;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.nom }}" onChange="{{ m.onNomChange }}"></input></td>
+                          <td>
+                            <select class="input" style="width:70px;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.sexe }}" onChange="{{ m.onSexeChange }}">
+                              <option value="">—</option>
+                              <option value="M">M</option>
+                              <option value="F">F</option>
+                            </select>
+                          </td>
+                          <td><input class="input" style="width:60px;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.age }}" onChange="{{ m.onAgeChange }}"></input> <sc-if value="{{ m.ajusteRapport }}" hint-placeholder-val="{{ false }}"><span title="Âge ajusté selon le Rapport 1871">📄</span></sc-if></td>
+                          <sc-if value="{{ fam.montrerNe12 }}" hint-placeholder-val="{{ true }}">
+                            <td style="text-align:center;font-size:12px;white-space:nowrap"><sc-if value="{{ m.aDouzeMois }}" hint-placeholder-val="{{ false }}"><span style="color:var(--color-accent-700)">{{ m.neDouzeMois }}</span></sc-if><sc-if value="{{ m.sansDouzeMois }}" hint-placeholder-val="{{ true }}"><span style="color:var(--color-neutral-400)">—</span></sc-if></td>
+                          </sc-if>
+                          <sc-if value="{{ fam.is1891 }}" hint-placeholder-val="{{ false }}">
+                            <td><input class="input" style="width:90px;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.lienParente }}" onChange="{{ m.onLienParenteChange }}"></input></td>
+                          </sc-if>
+                          <td style="font-size:13px;white-space:nowrap">{{ m.lieuNaissance }}<sc-if value="{{ m.aNoteComplement }}" hint-placeholder-val="{{ false }}"><span title="{{ m.noteComplement }}" style="margin-left:4px;cursor:help">⚠</span></sc-if></td>
+                          <td>
+                            <select class="input" style="width:120px;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.etat_matrimonial }}" onChange="{{ m.onEtatChange }}">
+                              <option value="">Célibataire</option>
+                              <option value="C">Célibataire</option>
+                              <option value="M">Marié(e)</option>
+                              <option value="V">Veuf/Veuve</option>
+                            </select>
+                          </td>
+                          <sc-if value="{{ !fam.is1891 }}" hint-placeholder-val="{{ true }}">
+                            <td style="text-align:center"><sc-if value="{{ m.marie12moisReleve }}" hint-placeholder-val="{{ true }}"><input type="checkbox" checked="{{ m.marie12mois }}" onChange="{{ m.onMarie12moisChange }}"></input></sc-if><sc-if value="{{ m.marie12moisReleveNon }}" hint-placeholder-val="{{ false }}"><span title="colonne non dépouillée — l'information n'a pas été relevée au manuscrit" style="color:var(--color-neutral-500)">—</span></sc-if><sc-if value="{{ m.marie12moisHorsFormulaire }}" hint-placeholder-val="{{ false }}"><span title="Le formulaire de 1881 ne posait pas cette question." style="color:var(--color-neutral-400);font-style:italic">hors form.</span></sc-if></td>
+                          </sc-if>
+                          <td style="font-size:13px;white-space:nowrap">{{ m.religion }}</td>
+                          <td style="font-size:13px;white-space:nowrap">{{ m.origine }}</td>
+                          <td><input class="input" style="width:100%;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.profession }}" onChange="{{ m.onProfessionChange }}"></input></td>
+                          <td style="text-align:center"><sc-if value="{{ m.ecoleReleve }}" hint-placeholder-val="{{ true }}"><input type="checkbox" checked="{{ m.ecole }}" onChange="{{ m.onEcoleChange }}"></input></sc-if><sc-if value="{{ m.ecoleReleveNon }}" hint-placeholder-val="{{ false }}"><span title="colonne non dépouillée — l'information n'a pas été relevée au manuscrit" style="color:var(--color-neutral-500)">—</span></sc-if></td>
+                          <td style="font-size:11px">
+                            <sc-if value="{{ m.alphaReleve }}" hint-placeholder-val="{{ true }}">
+                              <label style="display:flex;align-items:center;gap:4px;white-space:nowrap"><input type="checkbox" checked="{{ m.saitLire }}" onChange="{{ m.onSaitLireChange }}"></input>Sait lire</label>
+                              <label style="display:flex;align-items:center;gap:4px;white-space:nowrap"><input type="checkbox" checked="{{ m.saitEcrire }}" onChange="{{ m.onSaitEcrireChange }}"></input>Sait écrire</label>
+                            </sc-if>
+                            <sc-if value="{{ m.alphaReleveNon }}" hint-placeholder-val="{{ false }}">
+                              <span title="colonne non dépouillée — l'information n'a pas été relevée au manuscrit" style="color:var(--color-neutral-500)">—</span>
+                            </sc-if>
+                            <sc-if value="{{ m.alphaHorsFormulaire }}" hint-placeholder-val="{{ false }}">
+                              <span title="Le formulaire de 1881 ne posait pas la question de l'alphabétisation. Rien à dépouiller." style="color:var(--color-neutral-400);font-style:italic">hors formulaire</span>
+                            </sc-if>
+                          </td>
+                          <td style="text-align:center"><sc-if value="{{ m.sourdMuetReleve }}" hint-placeholder-val="{{ true }}"><input type="checkbox" checked="{{ m.sourdMuet }}" onChange="{{ m.onSourdMuetChange }}"></input></sc-if><sc-if value="{{ m.sourdMuetReleveNon }}" hint-placeholder-val="{{ false }}"><span title="colonne non dépouillée — l'information n'a pas été relevée au manuscrit" style="color:var(--color-neutral-500)">—</span></sc-if></td>
+                          <td style="text-align:center"><sc-if value="{{ m.aveugleReleve }}" hint-placeholder-val="{{ true }}"><input type="checkbox" checked="{{ m.aveugle }}" onChange="{{ m.onAveugleChange }}"></input></sc-if><sc-if value="{{ m.aveugleReleveNon }}" hint-placeholder-val="{{ false }}"><span title="colonne non dépouillée — l'information n'a pas été relevée au manuscrit" style="color:var(--color-neutral-500)">—</span></sc-if></td>
+                          <td style="text-align:center"><sc-if value="{{ m.alieneReleve }}" hint-placeholder-val="{{ true }}"><input type="checkbox" checked="{{ m.aliene }}" onChange="{{ m.onAlieneChange }}"></input></sc-if><sc-if value="{{ m.alieneReleveNon }}" hint-placeholder-val="{{ false }}"><span title="colonne non dépouillée — l'information n'a pas été relevée au manuscrit" style="color:var(--color-neutral-500)">—</span></sc-if></td>
+                          <td style="font-size:12px;color:var(--color-neutral-700);max-width:220px;min-width:160px">{{ m.remarque }}</td>
+                          <td>
+                            <sc-if value="{{ m.corrige }}" hint-placeholder-val="{{ false }}">
+                              <button type="button" class="btn btn-ghost btn-icon" title="Annuler la correction" onClick="{{ m.onResetCorrection }}" style="width:26px;height:26px">
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path></svg>
+                              </button>
+                            </sc-if>
+                          </td>
+                        </tr>
+                      </sc-for>
+                    </tbody>
+                  </table>
+                  </div>
+
+                  <sc-if value="{{ fam.hasLiens }}" hint-placeholder-val="{{ false }}">
+                    <div style="display:grid;gap:var(--space-2);margin-bottom:var(--space-3)">
+                      <div style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--color-neutral-700)">Liens avec d'autres recensements</div>
+                      <sc-for list="{{ fam.liensList }}" as="l" hint-placeholder-count="1">
+                        <div style="display:flex;gap:var(--space-3);align-items:baseline;padding:var(--space-2) var(--space-3);background:var(--color-accent-100);border-left:2px solid var(--color-accent-500);border-radius:var(--radius-sm);font-size:13px">
+                          <span style="font-weight:600;flex:none">{{ l.personne }}</span>
+                          <span style="flex:none;color:var(--color-accent-900)">{{ l.resume }}</span>
+                          <span style="color:var(--color-neutral-700);font-size:12px">{{ l.source }}</span>
+                          <sc-if value="{{ l.hasNote }}" hint-placeholder-val="{{ false }}">
+                            <span style="color:var(--color-neutral-700);font-size:12px;font-style:italic">{{ l.note }}</span>
+                          </sc-if>
+                          <button type="button" class="btn btn-ghost" style="margin-left:auto;flex:none;font-size:12px;padding:2px 8px" onClick="{{ l.onRemove }}">Retirer</button>
+                        </div>
+                      </sc-for>
+                    </div>
+                  </sc-if>
+
+                  <sc-if value="{{ fam.editMode }}" hint-placeholder-val="{{ false }}">
+                    <div style="display:flex;gap:var(--space-2);flex-wrap:wrap;align-items:flex-end;padding:var(--space-3);background:var(--color-neutral-100);border:1px solid var(--color-neutral-300);border-radius:var(--radius-sm)">
+                      <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Personne
+                        <select class="input" style="width:150px;padding:4px 6px;font-size:13px" value="{{ fam.lfPersonId }}" onChange="{{ fam.onLfPersonne }}">
+                          <option value="">—</option>
+                          <sc-for list="{{ fam.membreOptions }}" as="o" hint-placeholder-count="0">
+                            <option value="{{ o.value }}">{{ o.label }}</option>
+                          </sc-for>
+                        </select>
+                      </label>
+                      <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Relation
+                        <input class="input" style="width:150px;padding:4px 6px;font-size:13px" placeholder="veuve de…" value="{{ fam.lfRelation }}" onChange="{{ fam.onLfRelation }}"></input>
+                      </label>
+                      <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Personne liée
+                        <input class="input" style="width:160px;padding:4px 6px;font-size:13px" placeholder="Thomas Lee" value="{{ fam.lfNom }}" onChange="{{ fam.onLfNom }}"></input>
+                      </label>
+                      <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Année
+                        <select class="input" style="width:85px;padding:4px 6px;font-size:13px" value="{{ fam.lfAnnee }}" onChange="{{ fam.onLfAnnee }}">
+                          <option value="1861">1861</option>
+                          <option value="1871">1871</option>
+                          <option value="1881">1881</option>
+                          <option value="1891">1891</option>
+                          <option value="1901">1901</option>
+                          <option value="1911">1911</option>
+                        </select>
+                      </label>
+                      <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Division
+                        <input class="input" style="width:60px;padding:4px 6px;font-size:13px" value="{{ fam.lfDivision }}" onChange="{{ fam.onLfDivision }}"></input>
+                      </label>
+                      <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Page
+                        <input class="input" style="width:60px;padding:4px 6px;font-size:13px" value="{{ fam.lfPage }}" onChange="{{ fam.onLfPage }}"></input>
+                      </label>
+                      <label style="display:grid;gap:2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Ligne
+                        <input class="input" style="width:60px;padding:4px 6px;font-size:13px" value="{{ fam.lfLigne }}" onChange="{{ fam.onLfLigne }}"></input>
+                      </label>
+                      <label style="display:grid;gap:2px;flex:1;min-width:180px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--color-neutral-700)">Note
+                        <input class="input" style="width:100%;padding:4px 6px;font-size:13px" value="{{ fam.lfNote }}" onChange="{{ fam.onLfNote }}"></input>
+                      </label>
+                      <button type="button" class="btn btn-primary" onClick="{{ fam.onAddLien }}" style="white-space:nowrap">Ajouter le lien</button>
+                    </div>
+                  </sc-if>
+
+                  <sc-if value="{{ fam.is1891 }}" hint-placeholder-val="{{ false }}">
+                    <p style="font-size:11px;color:var(--color-neutral-700);margin:0 0 6px">Champs propres au recensement de 1891.</p>
+                    <div style="overflow-x:auto;min-width:0;max-width:100%;margin-bottom:var(--space-3)">
+                    <table class="table">
+                      <thead><tr><th>Nom</th><th>Can.-fr.</th><th>Naissance du père</th><th>Naissance de la mère</th><th>Patron</th><th>Employé</th><th>Sans emploi (semaine)</th><th>Nb employés</th></tr></thead>
+                      <tbody>
+                        <sc-for list="{{ fam.membres }}" as="m" hint-placeholder-count="2">
+                          <tr style-hover="background:var(--color-neutral-100)">
+                            <td style="font-size:13px;white-space:nowrap">{{ m.prenom }} {{ m.nom }}</td>
+                            <td style="text-align:center"><input type="checkbox" checked="{{ m.canadienFrancais }}" onChange="{{ m.onCanadienFrancaisChange }}"></input></td>
+                            <td><input class="input" style="width:120px;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.lieuNaissancePere }}" onChange="{{ m.onLieuNaissancePereChange }}"></input></td>
+                            <td><input class="input" style="width:120px;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.lieuNaissanceMere }}" onChange="{{ m.onLieuNaissanceMereChange }}"></input></td>
+                            <td style="text-align:center"><input type="checkbox" checked="{{ m.patron }}" onChange="{{ m.onPatronChange }}"></input></td>
+                            <td style="text-align:center"><input type="checkbox" checked="{{ m.employe }}" onChange="{{ m.onEmployeChange }}"></input></td>
+                            <td style="text-align:center"><input type="checkbox" checked="{{ m.chomage }}" onChange="{{ m.onChomageChange }}"></input></td>
+                            <td><input class="input" style="width:60px;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.nbEmployes }}" onChange="{{ m.onNbEmployesChange }}"></input></td>
+                          </tr>
+                        </sc-for>
+                      </tbody>
+                    </table>
+                    </div>
+                  </sc-if>
+
+                  <sc-if value="{{ fam.hasRapport }}" hint-placeholder-val="{{ false }}">
+                    <div class="card" style="padding:var(--space-3);margin-bottom:var(--space-3);background:var(--color-accent-100);border-color:var(--color-accent-300)">
+                      <div style="font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.02em;text-transform:uppercase;color:var(--color-accent-700);margin-bottom:6px">Rapport 1871 — extrait</div>
+                      <p style="font-size:13px;line-height:1.5;margin:0 0 8px;color:var(--color-neutral-900)">{{ fam.rapportTexte }}</p>
+                      <sc-for list="{{ fam.rapportFlags }}" as="flag" hint-placeholder-count="0">
+                        <div style="font-size:12px;color:var(--color-accent-2-900);padding:2px 0">⚠ {{ flag.message }}</div>
+                      </sc-for>
+                    </div>
+                  </sc-if>
+
+                  <div style="display:grid;grid-template-columns:auto 1fr;gap:var(--space-3);align-items:start">
+                    <div class="field" style="min-width:170px">
+                      <label for="{{ fam.statusId }}">Statut de suivi</label>
+                      <select class="input" id="{{ fam.statusId }}" value="{{ fam.noteStatus }}" onChange="{{ fam.onStatusChange }}">
+                        <option value="a_verifier">À vérifier</option>
+                        <option value="en_cours">En cours</option>
+                        <option value="confirme">Confirmé</option>
+                      </select>
+                    </div>
+                    <div class="field">
+                      <label for="{{ fam.noteId }}">Notes personnelles</label>
+                      <textarea class="input" id="{{ fam.noteId }}" rows="2" placeholder="Vos observations sur cette famille…" value="{{ fam.noteText }}" onInput="{{ fam.onNoteChange }}"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </sc-if>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+    </sc-for>
+  </div>
+
+  <div style="display:flex;align-items:center;justify-content:center;gap:var(--space-2);margin-top:var(--space-6);flex-wrap:wrap">
+    <button type="button" class="btn btn-secondary" disabled="{{ prevDisabled }}" onClick="{{ onPrevPage }}">Précédent</button>
+    <sc-for list="{{ pageNumbers }}" as="pg" hint-placeholder-count="5">
+      <button type="button" class="btn {{ pg.cls }}" style="min-width:36px" onClick="{{ pg.go }}">{{ pg.n }}</button>
+    </sc-for>
+    <button type="button" class="btn btn-secondary" disabled="{{ nextDisabled }}" onClick="{{ onNextPage }}">Suivant</button>
+  </div>
+  <p style="text-align:center;font-size:12px;color:var(--color-neutral-700);margin-top:var(--space-2)">Page {{ currentPage }} sur {{ totalPages }} · {{ pageUnitLabel }}</p>
+
+  <sc-if value="{{ noResults }}" hint-placeholder-val="{{ false }}">
+    <p style="text-align:center;color:var(--color-neutral-700);margin-top:var(--space-6)">{{ noResultsMessage }}</p>
+  </sc-if>
+
+  <sc-if value="{{ showSpeciaux }}" hint-placeholder-val="{{ false }}">
+    <div style="margin-top:var(--space-8);padding-top:var(--space-6);border-top:1px solid var(--color-neutral-300)">
+      <h2 style="font-family:var(--font-heading);font-weight:600;font-size:20px;margin:0 0 4px">Bâtiments spéciaux</h2>
+      <p style="margin:0 0 var(--space-4);font-size:13px;color:var(--color-neutral-700)">Constructions, maisons inhabitées, navires et logements temporaires — Tableau No. 1.</p>
+      <div style="overflow-x:auto;min-width:0;max-width:100%">
+      <table class="table">
+        <thead><tr><th>Page</th><th>Ligne</th><th>Type</th><th>N°</th><th>Remarque</th></tr></thead>
+        <tbody>
+          <sc-for list="{{ speciaux }}" as="sp" hint-placeholder-count="2">
+            <tr style-hover="background:var(--color-neutral-100)">
+              <td style="color:var(--color-neutral-700);font-size:12px">{{ sp.page_ms }}</td>
+              <td style="color:var(--color-neutral-700);font-size:12px">{{ sp.ligne }}</td>
+              <td style="white-space:nowrap"><span class="tag tag-outline" style="white-space:nowrap">{{ sp.type }}</span></td>
+              <td>{{ sp.numero }}</td>
+              <td style="font-size:13px;color:var(--color-neutral-700)">{{ sp.remarque }}</td>
+            </tr>
+          </sc-for>
+        </tbody>
+      </table>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ montrerDepouillement }}" hint-placeholder-val="{{ false }}">
+    <div style="margin-top:var(--space-8);padding-top:var(--space-6);border-top:1px solid var(--color-neutral-300)">
+      <h2 style="font-family:var(--font-heading);font-weight:600;font-size:20px;margin:0 0 4px">Dépouillement du manuscrit — 1881, division 1</h2>
+      <p style="margin:0 0 var(--space-4);font-size:13px;color:var(--color-neutral-700)">Colonnes 10 à 19 du Tableau no 1, relues sur les images numérisées. Le formulaire de 1881 ne pose pas la question de l'alphabétisation.</p>
+
+      <div style="display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-5);flex-wrap:wrap">
+        <div style="flex:1;min-width:220px;height:8px;border-radius:4px;background:var(--color-neutral-200);overflow:hidden">
+          <div style="{{ dep.barreStyle }}"></div>
+        </div>
+        <span style="font-size:13px;font-variant-numeric:tabular-nums;color:var(--color-neutral-700)">{{ dep.avancement }}</span>
+      </div>
+
+      <sc-if value="{{ dep.aManquants }}" hint-placeholder-val="{{ false }}">
+        <div style="border:1px solid var(--color-accent-400);border-radius:var(--radius-sm);padding:var(--space-3);margin-bottom:var(--space-4);background:var(--color-accent-100)">
+          <div style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--color-accent-700);margin-bottom:6px">Personne présente au manuscrit, absente du dépouillement</div>
+          <sc-for list="{{ dep.manquants }}" as="mq" hint-placeholder-count="1">
+            <div style="font-size:13px;line-height:1.55">
+              <strong>{{ mq.identite }}</strong> — page {{ mq.page }}, ligne {{ mq.ligne }}, maison {{ mq.maison }}, famille {{ mq.famille }}.
+              <span style="color:var(--color-neutral-700)">{{ mq.note }}</span>
+            </div>
+          </sc-for>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ dep.aEcarts }}" hint-placeholder-val="{{ false }}">
+        <div style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--color-neutral-700);margin-bottom:6px">Écarts entre le manuscrit et le dépouillement</div>
+        <div style="overflow-x:auto;min-width:0;max-width:100%">
+        <table class="table">
+          <thead><tr><th>Page</th><th>Ligne</th><th>Champ</th><th>Dépouillement</th><th>Ma lecture du manuscrit</th></tr></thead>
+          <tbody>
+            <sc-for list="{{ dep.ecarts }}" as="ec" hint-placeholder-count="3">
+              <tr style-hover="background:var(--color-neutral-100)">
+                <td style="color:var(--color-neutral-700);font-size:12px">{{ ec.page }}</td>
+                <td style="color:var(--color-neutral-700);font-size:12px">{{ ec.ligne }}</td>
+                <td style="font-size:12px">{{ ec.champ }}</td>
+                <td style="font-size:13px">{{ ec.depouillement }}</td>
+                <td style="font-size:13px;color:var(--color-neutral-700)">{{ ec.lecture }}</td>
+              </tr>
+            </sc-for>
+          </tbody>
+        </table>
+        </div>
+        <p style="margin:var(--space-3) 0 0;font-size:12px;color:var(--color-neutral-700)">Rien n'a été corrigé d'office : tu connais l'écriture du recenseur et les familles mieux que moi.</p>
+      </sc-if>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ showInstitutions }}" hint-placeholder-val="{{ false }}">
+    <div style="margin-top:var(--space-8);padding-top:var(--space-6);border-top:1px solid var(--color-neutral-300)">
+      <h2 style="font-family:var(--font-heading);font-weight:600;font-size:20px;margin:0 0 4px">Institutions</h2>
+      <p style="margin:0 0 var(--space-4);font-size:13px;color:var(--color-neutral-700)">Recensées séparément des maisons (bobine de microfilm T-6427).</p>
+      <div style="overflow-x:auto;min-width:0;max-width:100%">
+      <table class="table">
+        <thead><tr><th>Page</th><th>Ligne</th><th>Nom</th><th>Nb personnes</th><th>Remarque</th></tr></thead>
+        <tbody>
+          <sc-for list="{{ institutions }}" as="inst" hint-placeholder-count="2">
+            <tr style-hover="background:var(--color-neutral-100)">
+              <td style="color:var(--color-neutral-700);font-size:12px">{{ inst.page_ms }}</td>
+              <td style="color:var(--color-neutral-700);font-size:12px">{{ inst.ligne }}</td>
+              <td>{{ inst.nom }}</td>
+              <td>{{ inst.nb_personnes }}</td>
+              <td style="font-size:13px;color:var(--color-neutral-700)">{{ inst.remarque }}</td>
+            </tr>
+          </sc-for>
+        </tbody>
+      </table>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ deces.length }}" hint-placeholder-val="{{ false }}">
+    <div style="margin-top:var(--space-8);padding-top:var(--space-6);border-top:1px solid var(--color-neutral-300)">
+      <h2 style="font-family:var(--font-heading);font-weight:600;font-size:20px;margin:0 0 4px">Décès — 12 derniers mois</h2>
+      <p style="margin:0 0 var(--space-4);font-size:13px;color:var(--color-neutral-700)">Tableau No. 2 du registre. Cliquez un nom pour retrouver sa famille dans la liste ci-dessus.</p>
+      <div style="overflow-x:auto;min-width:0;max-width:100%">
+      <table class="table">
+        <thead><tr><th>Page</th><th>Ligne</th><th>Nom</th><th>Prénom</th><th>Sexe</th><th>Âge</th><th>Lieu naissance</th><th>Profession</th><th>Mois du décès</th><th>Cause du décès</th></tr></thead>
+        <tbody>
+          <sc-for list="{{ deces }}" as="d" hint-placeholder-count="4">
+            <tr style-hover="background:var(--color-neutral-100)">
+              <td style="color:var(--color-neutral-700);font-size:12px">{{ d.page }}</td>
+              <td style="color:var(--color-neutral-700);font-size:12px">{{ d.ligne }}</td>
+              <td><button type="button" class="btn btn-ghost" style="padding:2px 6px;font-weight:600" onClick="{{ d.onJump }}">{{ d.nom }}</button></td>
+              <td>{{ d.prenom }}</td>
+              <td>{{ d.sexe }}</td>
+              <td>{{ d.age }}</td>
+              <td>{{ d.lieu }}</td>
+              <td>{{ d.prof }}</td>
+              <td>{{ d.mois }}</td>
+              <td>{{ d.cause }}</td>
+            </tr>
+          </sc-for>
+        </tbody>
+      </table>
+      </div>
+    </div>
+  </sc-if>
+
+</div>
+</sc-if>
+
+<sc-if value="{{ showMainNoData }}" hint-placeholder-val="{{ false }}">
+  <div style="max-width:640px;margin:var(--space-8) auto;padding:0 var(--space-4)">
+    <div class="card blueprint" style="padding:var(--space-6);text-align:center">
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div style="font-family:var(--font-heading);font-size:22px;font-weight:600;margin-bottom:6px">Aucune donnée pour l'instant</div>
+      <p style="font-size:14px;color:var(--color-neutral-700);margin:0">Recensement {{ activeYear }}, Division {{ activeDivision }} — déposez le fichier correspondant pour activer cet onglet.</p>
+    </div>
+  </div>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;anneeInitiale&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;1871&quot;,&quot;1881&quot;,&quot;1891&quot;],&quot;default&quot;:&quot;1871&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Ouverture&quot;,&quot;label&quot;:&quot;Recensement à l'ouverture&quot;},&quot;montrerCartouche&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Ouverture&quot;,&quot;label&quot;:&quot;Afficher l'en-tête au chargement&quot;},&quot;maisonsParPage&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:50,&quot;min&quot;:5,&quot;max&quot;:100,&quot;step&quot;:5,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Liste&quot;,&quot;label&quot;:&quot;Maisons par page&quot;}}">
+class Component extends DCLogic {
+  state = { search: '', profession: '', ecoleOnly: false, expanded: {}, currentPage: 1, notes: {}, corrections: {}, activeYear: (this.props.anneeInitiale || '1871'), activeDivision: '2',
+            editMode: false, corrMaison: {}, corrFamille: {}, liens: {}, linkForm: {},
+            showAnnexe: false, annexeSearch: '', hypotheses: {}, hypForm: {}, propEtat: {},
+            annexeSource: '', customEntries: [], showNewEntry: false, newEntry: {},
+            annexeDetails: {}, photos: {}, editingEntry: null, editForm: {},
+            altAddresses: {}, altInputs: {}, migration: null,
+            gSearch: '', compact: false, showCartouche: this.props.montrerCartouche !== false,
+            showSauvegarde: false, messageSauvegarde: '', dernierExport: '' };
+  SOURCE_BUSSIERE = 'Bussière 1990';
+  SOURCE_DEFAULT = 'Patrick Blanchet';
+  MATERIAUX = ['Bois', 'Brique', 'Pierre'];
+  LETTRE_MATERIAU = { 'Bois': 'B', 'Brique': 'Br', 'Pierre': 'P' };
+  YEARS = ['1861', '1871', '1881', '1891', '1901', '1911'];
+  DATA_AVAILABLE = { '1871-2': true, '1871-1': true, '1881-1': true, '1881-2': true, '1891-1': true, '1891-2': true };
+  PARTIAL = {
+    '1891-1': "Recensement de 1891 : le tableau 3 (lieu de résidence) ne survit pas — impossible de confirmer où vivait chaque famille. Les maisons sont numérotées selon l'ordre du recenseur (tableau 1) et rapprochées de 1881 par similarité de noms.",
+    '1891-2': "Recensement de 1891 : le tableau 3 (lieu de résidence) ne survit pas — impossible de confirmer où vivait chaque famille. Les maisons sont numérotées selon l'ordre du recenseur (tableau 1) et rapprochées de 1881 par similarité de noms."
+  };
+
+  RECENSEMENTS = ['RECENSEMENT_1871_D1', 'RECENSEMENT_1871_D2', 'RECENSEMENT_1881_D1', 'RECENSEMENT_1881_D2', 'RECENSEMENT_1891_D1', 'RECENSEMENT_1891_D2'];
+
+  jeu(year, division) { return window['RECENSEMENT_' + year + '_D' + division] || null; }
+
+  /* Le complément est un dépouillement séparé, rattaché par page et ligne du
+     manuscrit. Il n'écrase jamais une valeur déjà présente dans le jeu d'origine :
+     il ne comble que les colonnes laissées vides. Chaque champ ajouté est marqué
+     d'une provenance pour que l'écran puisse le signaler. */
+  complement(year, division) {
+    return (year === '1881' && division === '1') ? (window.COMPLEMENT_1881_D1 || null) : null;
+  }
+
+  appliquerComplement(maisons, comp) {
+    if (!comp) return maisons;
+    const pages = comp.pages || {}, defauts = comp.defauts || {};
+    return maisons.map(m => ({ ...m, familles: (m.familles || []).map(f => ({ ...f,
+      membres: (f.membres || []).map(p => {
+        const fiche = pages[String(p.page_ms)] || pages[+p.page_ms];
+        if (!fiche) return p;
+        /* Sur une page où le dépouillement a sauté une ligne, « decalage » rétablit
+           la correspondance avec le manuscrit (voir la page 4). */
+        const ligne = +p.ligne + (fiche.decalage || 0);
+        if (fiche.lignes && ligne > fiche.lignes) return p;
+        const ajout = { ...defauts, ...((fiche.exceptions || {})[ligne] || {}) };
+        if (Array.isArray(fiche.ecole)) ajout.ecole = fiche.ecole.indexOf(ligne) !== -1;
+        const mois = (fiche.ne12 || {})[ligne];
+        const obs = (fiche.remarques || {})[ligne];
+        const note = (fiche.incertain || {})[ligne];
+        const sortie = { ...p };
+        const source = [];
+        Object.keys(ajout).forEach(k => {
+          if (!(k in p) || p[k] === '' || p[k] === null || p[k] === undefined) { sortie[k] = ajout[k]; source.push(k); }
+        });
+        if (mois) { sortie.ne_douze_mois = mois; source.push('ne_douze_mois'); }
+        if (obs && !sortie.remarque) { sortie.remarque = obs; source.push('remarque'); }
+        if (note) sortie.complement_note = note;
+        if (source.length) { sortie.complement = true; sortie.complement_champs = source; }
+        return sortie;
+      }) })) }));
+  }
+
+  resolveYearData(year, division) {
+    const maisons = (this.jeu(year, division) || {}).maisons || [];
+    return { maisons: this.appliquerComplement(maisons, this.complement(year, division)) };
+  }
+  resolveSpecial(year, division) { return year === '1891' ? (this.jeu(year, division) || {}) : null; }
+
+  /* Tableaux annexes du recensement de 1871 — une seule table par tableau,
+     filtrée sur annee + division portées par chaque ligne. */
+  TABLEAUX = [
+    { key: 'foncier', no: '3', titre: 'Propriété foncière', glob: 'ANNEXE_FONCIER', tag: 'tag-outline', labels: {
+      arpents: 'arpents', emplacements: 'emplacements de village', maisons: 'maisons possédées', batiments: 'bâtiments/boutiques',
+      granges: 'granges/écuries', voitures: 'voitures', charrettes: 'charrettes', traineaux: 'traîneaux', charrues: 'charrues',
+      machines: 'machines à battre', cribles: 'cribles', edifices: 'édifices publics', residents: 'résidents',
+      embarcations: 'embarcations', entrepots: 'entrepôts/boutiques' } },
+    { key: 'terres', no: '4', titre: 'Terres cultivées', glob: 'ANNEXE_TERRES', tag: 'tag-accent', labels: {
+      arpents_occupes: 'arpents occupés', arpents_ameliores: 'arpents améliorés', arpents_paturage: 'arpents en prairies/pâturage',
+      arpents_jardins: 'arpents jardins/vergers', ble_pr_arpents: 'arpents blé printemps', ble_pr_minots: 'minots blé printemps',
+      avoine_minots: 'minots avoine', feves_minots: 'minots fèves', ble_inde_minots: "minots blé d'Inde",
+      patates_arpents: 'arpents patates', patates_minots: 'minots patates', foin_arpents: 'arpents en foin', foin_unites: "tonn'x/bottes de foin" } },
+    { key: 'animaux', no: '5', titre: 'Animaux et production', glob: 'ANNEXE_ANIMAUX', tag: 'tag-accent', labels: {
+      chevaux: 'chevaux', poulains: 'poulains', boeufs: 'bœufs', vaches: 'vaches', autres: 'autres bêtes bovines',
+      moutons: 'moutons', cochons: 'cochons', ruches: 'ruches', betail_tue: 'bétail tué/vendu', moutons_tue: 'moutons tués/vendus',
+      cochons_tue: 'cochons tués/vendus', beurre: 'lb beurre', fromage: 'lb fromage', miel: 'lb miel', laine: 'lb laine',
+      drap: 'verges drap', toile: 'verges toile' } },
+    { key: 'etablissements', no: '6', titre: 'Établissement industriel', glob: 'ANNEXE_ETABLISSEMENTS', tag: 'tag-accent-2', industriel: true },
+    { key: 'forets', no: '7', titre: 'Produits des forêts', glob: 'ANNEXE_FORETS', tag: 'tag-neutral', labels: {
+      pin_blanc_pi3: 'pi³ pin blanc équarri', billots_pin: 'billots de pin', billots_autres: 'billots autres bois',
+      billes: 'billes', espars_mats: 'espars et mâts', cordes_chauffage: 'cordes de bois de chauffage' } },
+    { key: 'navigation', no: '8', titre: 'Navigation et pêcheries', glob: 'ANNEXE_NAVIGATION', tag: 'tag-neutral', labels: {
+      bateaux: 'bateau(x)', tonnage: 'tonneaux (bateaux)', navires_vapeur_parts: 'parts de navire à vapeur',
+      navires_vapeur_tonnage: 'tonneaux (navire à vapeur)' } }
+  ];
+
+  tableauxPour(annee, division, membres) {
+    const out = [];
+    this.TABLEAUX.forEach(t => {
+      const rows = window[t.glob] || [];
+      const row = rows.find(a => a.annee === annee && a.division === division
+        && membres.some(m => m.page_ms === a.page && m.ligne === a.ligne));
+      if (!row) return;
+      out.push({
+        cle: t.key, tag: t.tag,
+        etiquette: 'Tableau ' + t.no + ' — ' + t.titre,
+        resume: t.industriel ? this.resumeIndustriel(row) : this.resumeChiffres(row, t.labels)
+      });
+    });
+    return out;
+  }
+
+  resumeChiffres(a, labels) {
+    const parts = Object.entries(a).filter(([k]) => labels[k]).map(([k, v]) => v + ' ' + labels[k]);
+    if (a.remarque) parts.push(a.remarque);
+    return parts.join(', ');
+  }
+
+  resumeIndustriel(a) {
+    const parts = [a.nom];
+    if (a.capital_fixe) parts.push(a.capital_fixe + ' $ capital fixe');
+    if (a.force) parts.push(a.force);
+    if (a.ouvriers) parts.push(a.ouvriers + ' ouvriers');
+    if (a.salaires) parts.push(a.salaires + ' $ salaires');
+    if (a.produits) parts.push('produits: ' + a.produits);
+    if (a.remarque) parts.push(a.remarque);
+    return parts.join(', ');
+  }
+
+  componentDidMount() {
+    try {
+      const notes = JSON.parse(localStorage.getItem('suivi-familles-notes') || '{}');
+      const corrections = JSON.parse(localStorage.getItem('suivi-familles-corrections') || '{}');
+      const corrMaison = JSON.parse(localStorage.getItem('suivi-corr-maison') || '{}');
+      const corrFamille = JSON.parse(localStorage.getItem('suivi-corr-famille') || '{}');
+      const liens = JSON.parse(localStorage.getItem('suivi-liens') || '{}');
+      const hypotheses = JSON.parse(localStorage.getItem('suivi-hypotheses-adresses') || '{}');
+      const propEtat = JSON.parse(localStorage.getItem('suivi-propositions-etat') || '{}');
+      const customEntries = JSON.parse(localStorage.getItem('suivi-annexe-batiments') || '[]');
+      const annexeDetails = JSON.parse(localStorage.getItem('suivi-annexe-details') || '{}');
+      const altAddresses = JSON.parse(localStorage.getItem('suivi-annexe-adresses') || '{}');
+      const migres = this.migrerIdentifiants(corrections, liens);
+      let seededCustom = customEntries;
+      let seededAlt = altAddresses;
+      if (!customEntries.some(e => e.adresse === '1616, chemin du Fleuve')) {
+        const id = 'perso-1616-chemin-du-fleuve';
+        seededCustom = customEntries.concat([{
+          id, adresse: '1616, chemin du Fleuve', titre: 'Maison de Louis Demers', annee: '',
+          personnages: 'Louis Demers ; Éléonore Demers (Roberge), son épouse ; Léocadie Demers (Beaudoin) ; Alphonse Demers',
+          resume: '', source: this.SOURCE_DEFAULT
+        }]);
+        seededAlt = { ...altAddresses, [id]: ['1411, rue Commerciale'] };
+        this.save('suivi-annexe-batiments', seededCustom);
+        this.save('suivi-annexe-adresses', seededAlt);
+      }
+      this.setState({ notes, corrections: migres.corrections, corrMaison, corrFamille, liens: migres.liens,
+        hypotheses, propEtat, customEntries: seededCustom, annexeDetails, altAddresses: seededAlt,
+        migration: migres.rapport });
+      this.loadPhotos();
+    } catch (e) {}
+  }
+
+  /* Les identifiants de personnes ont été uniformisés en 1871-D2-P001-L01.
+     Chaque personne conserve son ancien identifiant dans id_ancien, ce qui permet
+     de reclasser le travail déjà sauvegardé sans table externe. Exécuté une fois. */
+  migrerIdentifiants(corrections, liens) {
+    const fait = localStorage.getItem('suivi-migration-ids-v1');
+    if (fait) return { corrections, liens, rapport: JSON.parse(fait) };
+    const map = {};
+    this.RECENSEMENTS.forEach(g => ((window[g] || {}).maisons || []).forEach(m =>
+      (m.familles || []).forEach(f => (f.membres || []).forEach(p => {
+        if (p.id_ancien && p.id_ancien !== p.id) map[p.id_ancien] = p.id;
+      }))));
+    let nc = 0, nl = 0, perdus = 0;
+    const nouvCorr = {}, nouvLiens = {};
+    Object.entries(corrections).forEach(([k, v]) => {
+      if (map[k]) { nouvCorr[map[k]] = v; nc++; }
+      else { nouvCorr[k] = v; if (!/^\d{4}-D\d-P/.test(k)) perdus++; }
+    });
+    Object.entries(liens).forEach(([k, v]) => {
+      if (map[k]) { nouvLiens[map[k]] = v; nl++; }
+      else { nouvLiens[k] = v; if (!/^\d{4}-D\d-P/.test(k)) perdus++; }
+    });
+    const rapport = { corrections: nc, liens: nl, orphelins: perdus, date: new Date().toISOString().slice(0, 10) };
+    try {
+      localStorage.setItem('suivi-familles-corrections', JSON.stringify(nouvCorr));
+      localStorage.setItem('suivi-liens', JSON.stringify(nouvLiens));
+      localStorage.setItem('suivi-migration-ids-v1', JSON.stringify(rapport));
+    } catch (e) {}
+    return { corrections: nouvCorr, liens: nouvLiens, rapport };
+  }
+
+  save(key, val) { try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) {} }
+
+  updateMaison(mKey, field, value) {
+    this.setState(s => {
+      const corrMaison = { ...s.corrMaison, [mKey]: { ...(s.corrMaison[mKey] || {}), [field]: value } };
+      this.save('suivi-corr-maison', corrMaison);
+      return { corrMaison };
+    });
+  }
+
+  resetMaison(mKey) {
+    this.setState(s => {
+      const corrMaison = { ...s.corrMaison }; delete corrMaison[mKey];
+      this.save('suivi-corr-maison', corrMaison);
+      return { corrMaison };
+    });
+  }
+
+  updateFamille(fKey, field, value) {
+    this.setState(s => {
+      const corrFamille = { ...s.corrFamille, [fKey]: { ...(s.corrFamille[fKey] || {}), [field]: value } };
+      this.save('suivi-corr-famille', corrFamille);
+      return { corrFamille };
+    });
+  }
+
+  setLinkForm(fKey, field, value) {
+    this.setState(s => ({ linkForm: { ...s.linkForm, [fKey]: { ...(s.linkForm[fKey] || {}), [field]: value } } }));
+  }
+
+  addLien(fKey) {
+    const f = this.state.linkForm[fKey] || {};
+    if (!f.personId) return;
+    this.setState(s => {
+      const list = (s.liens[f.personId] || []).concat([{
+        relation: f.relation || '', annee: f.annee || '1871', division: f.division || '',
+        page: f.page || '', ligne: f.ligne || '', nom: f.nom || '', note: f.note || ''
+      }]);
+      const liens = { ...s.liens, [f.personId]: list };
+      this.save('suivi-liens', liens);
+      return { liens, linkForm: { ...s.linkForm, [fKey]: { personId: f.personId, annee: f.annee || '1871', division: f.division || '' } } };
+    });
+  }
+
+  removeLien(personId, idx) {
+    this.setState(s => {
+      const list = (s.liens[personId] || []).filter((_, i) => i !== idx);
+      const liens = { ...s.liens };
+      if (list.length) liens[personId] = list; else delete liens[personId];
+      this.save('suivi-liens', liens);
+      return { liens };
+    });
+  }
+
+  setAnnexeDetail(entryId, field, value) {
+    this.setState(s => {
+      const annexeDetails = { ...s.annexeDetails, [entryId]: { ...(s.annexeDetails[entryId] || {}), [field]: value } };
+      this.save('suivi-annexe-details', annexeDetails);
+      return { annexeDetails };
+    });
+  }
+
+  openPhotoDB() {
+    if (this._photoDB) return this._photoDB;
+    this._photoDB = new Promise((res, rej) => {
+      const r = indexedDB.open('suivi-photos', 1);
+      r.onupgradeneeded = () => {
+        const db = r.result;
+        if (!db.objectStoreNames.contains('thumbs')) db.createObjectStore('thumbs', { keyPath: 'id' });
+      };
+      r.onsuccess = () => res(r.result);
+      r.onerror = () => rej(r.error);
+    });
+    return this._photoDB;
+  }
+
+  async loadPhotos() {
+    try {
+      const db = await this.openPhotoDB();
+      const rows = await new Promise((res, rej) => {
+        const req = db.transaction('thumbs').objectStore('thumbs').getAll();
+        req.onsuccess = () => res(req.result || []);
+        req.onerror = () => rej(req.error);
+      });
+      const photos = {};
+      rows.sort((a, b) => (a.id > b.id ? 1 : -1)).forEach(r => { (photos[r.entryId] = photos[r.entryId] || []).push(r); });
+      this.setState({ photos });
+    } catch (err) { /* stockage indisponible */ }
+  }
+
+  slugAdresse(adresse) {
+    return (adresse || 'batiment').toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40);
+  }
+
+  async addPhoto(entry, file) {
+    if (!file) return;
+    const existing = (this.state.photos[entry.id] || []).length;
+    if (existing >= 5) return;
+    const dataUrl = await new Promise((res, rej) => {
+      const fr = new FileReader();
+      fr.onload = () => res(fr.result);
+      fr.onerror = () => rej(fr.error);
+      fr.readAsDataURL(file);
+    });
+    const img = await new Promise((res, rej) => {
+      const i = new Image();
+      i.onload = () => res(i);
+      i.onerror = () => rej(new Error('image illisible'));
+      i.src = dataUrl;
+    });
+    const MAX = 480;
+    const scale = Math.min(1, MAX / Math.max(img.naturalWidth, img.naturalHeight));
+    const w = Math.max(1, Math.round(img.naturalWidth * scale));
+    const h = Math.max(1, Math.round(img.naturalHeight * scale));
+    const cv = document.createElement('canvas');
+    cv.width = w; cv.height = h;
+    cv.getContext('2d').drawImage(img, 0, 0, w, h);
+    const thumb = cv.toDataURL('image/jpeg', 0.8);
+    const ext = (file.name.split('.').pop() || 'jpg').toLowerCase();
+    const num = String(existing + 1).padStart(2, '0');
+    const nom = this.slugAdresse(entry.adresse) + '-' + num + '.' + ext;
+    const rec = { id: entry.id + '#' + Date.now(), entryId: entry.id, thumb, nom, original: file.name, ajoute: new Date().toISOString().slice(0, 10) };
+    const db = await this.openPhotoDB();
+    await new Promise((res, rej) => {
+      const tx = db.transaction('thumbs', 'readwrite');
+      tx.objectStore('thumbs').put(rec);
+      tx.oncomplete = res; tx.onerror = () => rej(tx.error);
+    });
+    this.loadPhotos();
+  }
+
+  async removePhoto(id) {
+    const db = await this.openPhotoDB();
+    await new Promise((res, rej) => {
+      const tx = db.transaction('thumbs', 'readwrite');
+      tx.objectStore('thumbs').delete(id);
+      tx.oncomplete = res; tx.onerror = () => rej(tx.error);
+    });
+    this.loadPhotos();
+  }
+
+  async setPhotoCaption(id, caption) {
+    const db = await this.openPhotoDB();
+    const rec = await new Promise((res, rej) => {
+      const req = db.transaction('thumbs').objectStore('thumbs').get(id);
+      req.onsuccess = () => res(req.result); req.onerror = () => rej(req.error);
+    });
+    if (!rec) return;
+    rec.caption = caption;
+    await new Promise((res, rej) => {
+      const tx = db.transaction('thumbs', 'readwrite');
+      tx.objectStore('thumbs').put(rec);
+      tx.oncomplete = res; tx.onerror = () => rej(tx.error);
+    });
+    this.loadPhotos();
+  }
+
+  startEditEntry(e) {
+    this.setState({
+      editingEntry: e.id,
+      editForm: { adresse: e.adresse || '', titre: e.titre || '', annee: e.annee || '', source: e.source || '', personnages: e.personnages || '', resume: e.resume || '' }
+    });
+  }
+
+  setEditForm(field, value) {
+    this.setState(s => ({ editForm: { ...s.editForm, [field]: value } }));
+  }
+
+  saveEditEntry() {
+    const id = this.state.editingEntry;
+    const f = this.state.editForm;
+    this.setState(s => {
+      const customEntries = s.customEntries.map(e => e.id === id ? { ...e, ...f } : e);
+      this.save('suivi-annexe-batiments', customEntries);
+      return { customEntries, editingEntry: null, editForm: {} };
+    });
+  }
+
+  cancelEditEntry() {
+    this.setState({ editingEntry: null, editForm: {} });
+  }
+
+  setAltInput(entryId, value) {
+    this.setState(s => ({ altInputs: { ...s.altInputs, [entryId]: value } }));
+  }
+
+  addAltAddress(entryId) {
+    const val = (this.state.altInputs[entryId] || '').trim();
+    if (!val) return;
+    this.setState(s => {
+      const list = (s.altAddresses[entryId] || []).concat([val]);
+      const altAddresses = { ...s.altAddresses, [entryId]: list };
+      this.save('suivi-annexe-adresses', altAddresses);
+      return { altAddresses, altInputs: { ...s.altInputs, [entryId]: '' } };
+    });
+  }
+
+  removeAltAddress(entryId, idx) {
+    this.setState(s => {
+      const list = (s.altAddresses[entryId] || []).filter((_, i) => i !== idx);
+      const altAddresses = { ...s.altAddresses };
+      if (list.length) altAddresses[entryId] = list; else delete altAddresses[entryId];
+      this.save('suivi-annexe-adresses', altAddresses);
+      return { altAddresses };
+    });
+  }
+
+  setNewEntry(field, value) {
+    this.setState(s => ({ newEntry: { ...s.newEntry, [field]: value } }));
+  }
+
+  addCustomEntry() {
+    const n = this.state.newEntry;
+    if (!n.adresse || !n.adresse.trim()) return;
+    this.setState(s => {
+      const customEntries = s.customEntries.concat([{
+        id: 'perso-' + Date.now(),
+        adresse: (n.adresse || '').trim(),
+        titre: (n.titre || '').trim(),
+        annee: (n.annee || '').trim(),
+        personnages: (n.personnages || '').trim(),
+        resume: (n.resume || '').trim(),
+        source: (n.source || '').trim() || this.SOURCE_DEFAULT
+      }]);
+      this.save('suivi-annexe-batiments', customEntries);
+      return { customEntries, newEntry: { source: (n.source || '').trim() || this.SOURCE_DEFAULT }, showNewEntry: false };
+    });
+  }
+
+  removeCustomEntry(id) {
+    this.setState(s => {
+      const customEntries = s.customEntries.filter(e => e.id !== id);
+      const hypotheses = { ...s.hypotheses };
+      delete hypotheses[id];
+      this.save('suivi-annexe-batiments', customEntries);
+      this.save('suivi-hypotheses-adresses', hypotheses);
+      return { customEntries, hypotheses };
+    });
+  }
+
+  setHypForm(entryId, field, value) {
+    this.setState(s => ({ hypForm: { ...s.hypForm, [entryId]: { ...(s.hypForm[entryId] || {}), [field]: value } } }));
+  }
+
+  addHypothese(entryId) {
+    const f = this.state.hypForm[entryId] || {};
+    if (!f.no_maison) return;
+    this.setState(s => {
+      const list = (s.hypotheses[entryId] || []).concat([{
+        annee: f.annee || '1891', division: f.division || '1', no_maison: f.no_maison,
+        statut: f.statut || 'hypothese', note: f.note || ''
+      }]);
+      const hypotheses = { ...s.hypotheses, [entryId]: list };
+      this.save('suivi-hypotheses-adresses', hypotheses);
+      return { hypotheses, hypForm: { ...s.hypForm, [entryId]: { annee: f.annee || '1891', division: f.division || '1' } } };
+    });
+  }
+
+  removeHypothese(entryId, idx) {
+    this.setState(s => {
+      const list = (s.hypotheses[entryId] || []).filter((_, i) => i !== idx);
+      const hypotheses = { ...s.hypotheses };
+      if (list.length) hypotheses[entryId] = list; else delete hypotheses[entryId];
+      this.save('suivi-hypotheses-adresses', hypotheses);
+      return { hypotheses };
+    });
+  }
+
+  retenirProposition(entryId, idx, p) {
+    this.setState(s => {
+      const list = (s.hypotheses[entryId] || []).concat([{
+        annee: p.annee, division: p.division, no_maison: p.no_maison,
+        statut: 'a_verifier', note: 'Proposition — ' + p.motif
+      }]);
+      const hypotheses = { ...s.hypotheses, [entryId]: list };
+      const propEtat = { ...s.propEtat, [entryId + '#' + idx]: 'retenue' };
+      this.save('suivi-hypotheses-adresses', hypotheses);
+      this.save('suivi-propositions-etat', propEtat);
+      return { hypotheses, propEtat };
+    });
+  }
+
+  setPropEtat(entryId, idx, etat) {
+    this.setState(s => {
+      const propEtat = { ...s.propEtat };
+      if (etat) propEtat[entryId + '#' + idx] = etat; else delete propEtat[entryId + '#' + idx];
+      this.save('suivi-propositions-etat', propEtat);
+      return { propEtat };
+    });
+  }
+
+  statutMetaHyp(statut) {
+    if (statut === 'confirme') return { label: 'Confirmé', cls: 'tag-accent' };
+    if (statut === 'rejete') return { label: 'Rejeté', cls: 'tag-neutral' };
+    if (statut === 'a_verifier') return { label: 'À vérifier', cls: 'tag-outline' };
+    return { label: 'Hypothèse', cls: 'tag-outline' };
+  }
+
+  exportCorrections() {
+    const blob = new Blob([JSON.stringify({
+      personnes: this.state.corrections, maisons: this.state.corrMaison,
+      familles: this.state.corrFamille, liens: this.state.liens
+    }, null, 2)], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'corrections-recensement.json';
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  }
+
+  persist(notes) {
+    try { localStorage.setItem('suivi-familles-notes', JSON.stringify(notes)); } catch (e) {}
+  }
+
+  persistCorrections(corrections) {
+    try { localStorage.setItem('suivi-familles-corrections', JSON.stringify(corrections)); } catch (e) {}
+  }
+
+  updateCorrection(id, field, value) {
+    this.setState(s => {
+      const corrections = { ...s.corrections, [id]: { ...(s.corrections[id] || {}), [field]: value } };
+      this.persistCorrections(corrections);
+      return { corrections };
+    });
+  }
+
+  resetCorrection(id) {
+    this.setState(s => {
+      const corrections = { ...s.corrections };
+      delete corrections[id];
+      this.persistCorrections(corrections);
+      return { corrections };
+    });
+  }
+
+  mergeCorrections(m) {
+    const c = this.state.corrections[m.id];
+    return c ? { ...m, ...c } : m;
+  }
+
+  /* Les statuts et notes étaient classés sous "noMaison-noFamille", sans l'année :
+     la maison 1 famille 1 de 1871 et celle de 1891 partageaient la même fiche.
+     Les nouvelles écritures portent l'année et la division ; la lecture retombe sur
+     l'ancienne clé pour ne rien perdre du travail déjà saisi. */
+  cleFamille(annee, division, noMaison, noFamille) { return annee + '-' + division + '-' + noMaison + '-' + noFamille; }
+
+  noteFamille(cle, cleHeritee) {
+    return this.ficheFamille(this.state.notes, cle, cleHeritee);
+  }
+
+  rechercheGlobale(terme) {
+    const t = terme.trim().toLowerCase();
+    if (t.length < 2) return [];
+    const out = [];
+    this.RECENSEMENTS.forEach(g => {
+      const jeu = window[g];
+      if (!jeu || !jeu.maisons) return;
+      jeu.maisons.forEach(m => (m.familles || []).forEach(f => (f.membres || []).forEach(p => {
+        if (out.length >= 150) return;
+        const v = this.mergeCorrections(p);
+        const nom = ((v.prenom || '') + ' ' + (v.nom || '')).trim();
+        if (!nom.toLowerCase().includes(t) && !(v.profession || '').toLowerCase().includes(t)) return;
+        out.push({
+          cle: p.id, nom, age: v.age || '—', profession: v.profession || '—',
+          annee: jeu.annee, division: jeu.division,
+          situation: 'Maison ' + m.no_maison + ' · famille ' + f.no_famille,
+          repere: 'p. ' + (v.page_ms || '?') + ', l. ' + (v.ligne || '?'),
+          go: () => this.allerVers(jeu.annee, jeu.division, m.no_maison, f.no_famille, v.nom)
+        });
+      })));
+    });
+    return out;
+  }
+
+  allerVers(annee, division, noMaison, noFamille, nom) {
+    const cle = this.cleFamille(annee, division, noMaison, noFamille);
+    this.setState({
+      activeYear: annee, activeDivision: division, showAnnexe: false,
+      search: nom || '', profession: '', ecoleOnly: false, currentPage: 1,
+      gSearch: '', expanded: { [cle]: true, [noMaison + '-' + noFamille]: true }
+    });
+  }
+
+  avancement(maisons, annee, division) {
+    let confirme = 0, enCours = 0, aVerifier = 0;
+    (maisons || []).forEach(m => (m.familles || []).forEach(f => {
+      const n = this.noteFamille(this.cleFamille(annee, division, m.no_maison, f.no_famille), m.no_maison + '-' + f.no_famille);
+      if (n.status === 'confirme') confirme++;
+      else if (n.status === 'en_cours') enCours++;
+      else aVerifier++;
+    }));
+    const total = confirme + enCours + aVerifier || 1;
+    return {
+      confirme, enCours, aVerifier, total: confirme + enCours + aVerifier,
+      pct: Math.round(confirme / total * 100),
+      segments: [
+        { cle: 'c', style: 'flex:' + confirme + ';background:var(--color-accent-700)' },
+        { cle: 'e', style: 'flex:' + enCours + ';background:var(--color-accent-400)' },
+        { cle: 'v', style: 'flex:' + aVerifier + ';background:var(--color-neutral-300)' }
+      ].filter(s => !/flex:0;/.test(s.style))
+    };
+  }
+
+  /* Sauvegarde complète — tout le travail personnel (localStorage) et les photos
+     (IndexedDB) dans un seul fichier, réimportable sur un autre appareil. */
+  CLES_TRAVAIL = ['suivi-familles-notes', 'suivi-familles-corrections', 'suivi-corr-maison', 'suivi-corr-famille',
+    'suivi-liens', 'suivi-hypotheses-adresses', 'suivi-propositions-etat', 'suivi-annexe-batiments',
+    'suivi-annexe-details', 'suivi-annexe-adresses', 'suivi-migration-ids-v1'];
+
+  async exportSauvegarde() {
+    const donnees = {};
+    this.CLES_TRAVAIL.forEach(k => {
+      try { const v = localStorage.getItem(k); if (v !== null) donnees[k] = JSON.parse(v); } catch (e) {}
+    });
+    let photos = [];
+    try {
+      const db = await this.openPhotoDB();
+      photos = await new Promise(res => {
+        const r = db.transaction('thumbs').objectStore('thumbs').getAll();
+        r.onsuccess = () => res(r.result || []); r.onerror = () => res([]);
+      });
+    } catch (e) {}
+    const paquet = { format: 'suivi-saint-romuald', version: 2, exporte: new Date().toISOString(), donnees, photos };
+    const blob = new Blob([JSON.stringify(paquet)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'sauvegarde-saint-romuald-' + new Date().toISOString().slice(0, 10) + '.json';
+    a.click();
+    URL.revokeObjectURL(url);
+    this.setState({ dernierExport: new Date().toLocaleString('fr-CA'), messageSauvegarde: 'Sauvegarde téléchargée (' + photos.length + ' photo(s) incluse(s)).' });
+  }
+
+  async importSauvegarde(file) {
+    if (!file) return;
+    try {
+      const p = JSON.parse(await file.text());
+      if (p.format !== 'suivi-saint-romuald') {
+        this.setState({ messageSauvegarde: "Ce fichier n'est pas une sauvegarde de ce projet." });
+        return;
+      }
+      Object.entries(p.donnees || {}).forEach(([k, v]) => {
+        try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {}
+      });
+      if (Array.isArray(p.photos) && p.photos.length) {
+        const db = await this.openPhotoDB();
+        await new Promise((res, rej) => {
+          const tx = db.transaction('thumbs', 'readwrite');
+          p.photos.forEach(r => tx.objectStore('thumbs').put(r));
+          tx.oncomplete = res; tx.onerror = () => rej(tx.error);
+        });
+      }
+      this.setState({ messageSauvegarde: 'Sauvegarde restaurée — rechargement…' });
+      setTimeout(() => location.reload(), 900);
+    } catch (e) {
+      this.setState({ messageSauvegarde: 'Fichier illisible : ' + e.message });
+    }
+  }
+
+  inventaire() {
+    const s = this.state;
+    return [
+      { cle: 'corr', quoi: 'Corrections de personnes', n: Object.keys(s.corrections).length },
+      { cle: 'notes', quoi: 'Statuts et notes de familles', n: Object.keys(s.notes).length },
+      { cle: 'maisons', quoi: 'Corrections de maisons', n: Object.keys(s.corrMaison).length },
+      { cle: 'liens', quoi: 'Liens entre recensements', n: Object.keys(s.liens).length },
+      { cle: 'bat', quoi: 'Bâtiments ajoutés', n: (s.customEntries || []).length },
+      { cle: 'conc', quoi: 'Concordances adresse-maison', n: Object.values(s.hypotheses).reduce((t, l) => t + l.length, 0) },
+      { cle: 'cad', quoi: 'Fiches cadastrales', n: Object.keys(s.annexeDetails).length },
+      { cle: 'ph', quoi: 'Photos de bâtiments', n: Object.values(s.photos || {}).reduce((t, l) => t + l.length, 0) }
+    ];
+  }
+
+  jumpToName(nom) {
+    this.setState({ search: nom, currentPage: 1 });
+  }
+
+  toggleFamily(key) {
+    this.setState(s => ({ expanded: { ...s.expanded, [key]: !s.expanded[key] } }));
+  }
+
+  /* Les deux écritures doivent reprendre la fiche héritée avant de fusionner, sinon
+     changer une note effacerait un statut « Confirmé » enregistré sous l'ancienne clé.
+     L'ancienne clé est retirée dans la même opération pour éviter deux copies. */
+  /* Une ancienne clé est un simple "maison-famille", et ces paires ne sont pas
+     uniques d'un recensement à l'autre : "2-2" désigne une famille réelle dans cinq
+     jeux sur six. On ne consomme donc l'ancienne clé que lorsqu'elle ne peut désigner
+     qu'un seul recensement ; sinon la fiche reste où elle est et c'est au chercheur
+     de trancher, depuis le panneau Sauvegarde. */
+  jeuxPour(noMaison, noFamille) {
+    this._cacheJeux = this._cacheJeux || {};
+    const k = noMaison + '\u0000' + noFamille;
+    if (this._cacheJeux[k]) return this._cacheJeux[k];
+    const hits = [];
+    this.RECENSEMENTS.forEach(g => {
+      const jeu = window[g];
+      if (!jeu || !jeu.maisons) return;
+      const m = jeu.maisons.find(x => x.no_maison === noMaison);
+      if (!m) return;
+      const f = (m.familles || []).find(y => y.no_famille === noFamille);
+      if (f) hits.push({ annee: jeu.annee, division: jeu.division, chef: f.chef || '—' });
+    });
+    this._cacheJeux[k] = hits;
+    return hits;
+  }
+
+  decoupeCleHeritee(cleHeritee) {
+    const i = String(cleHeritee).lastIndexOf('-');
+    return { noMaison: cleHeritee.slice(0, i), noFamille: cleHeritee.slice(i + 1) };
+  }
+
+  cleHeriteeSansAmbiguite(cleHeritee) {
+    const { noMaison, noFamille } = this.decoupeCleHeritee(cleHeritee);
+    return this.jeuxPour(noMaison, noFamille).length === 1;
+  }
+
+  fichesAmbigues() {
+    const out = [];
+    Object.entries(this.state.notes).forEach(([cle, fiche]) => {
+      if (/^\d{4}-\d-/.test(cle)) return;
+      const { noMaison, noFamille } = this.decoupeCleHeritee(cle);
+      const jeux = this.jeuxPour(noMaison, noFamille);
+      if (jeux.length < 2) return;
+      out.push({
+        cle, statut: this.statusMeta(fiche.status).label,
+        resume: 'Maison ' + noMaison + ' · famille ' + noFamille,
+        note: fiche.text || '',
+        candidats: jeux.map(j => ({
+          cle: j.annee + '-' + j.division,
+          label: j.annee + ' D' + j.division + ' — ' + j.chef,
+          go: () => this.assignerFiche(cle, j.annee, j.division, noMaison, noFamille)
+        }))
+      });
+    });
+    return out;
+  }
+
+  assignerFiche(cleHeritee, annee, division, noMaison, noFamille) {
+    this.setState(s => {
+      const fiche = s.notes[cleHeritee];
+      if (!fiche) return {};
+      const cible = this.cleFamille(annee, division, noMaison, noFamille);
+      const notes = { ...s.notes, [cible]: { ...fiche } };
+      delete notes[cleHeritee];
+      this.persist(notes);
+      return { notes, messageSauvegarde: 'Fiche « ' + cleHeritee + ' » rattachée à ' + annee + ' division ' + division + '.' };
+    });
+  }
+
+  /* Le repli sur l'ancienne clé ne vaut que si cette clé ne peut désigner qu'un seul
+     recensement. Sinon « 2-2 » ferait afficher « Confirmé » sur cinq familles à la
+     fois et gonflerait l'avancement de chaque division. Les fiches ambiguës
+     n'apparaissent nulle part tant que le chercheur ne les a pas rattachées. */
+  /* Colonne 10 du formulaire : le mois de naissance des bébés de moins d'un an a été
+     saisi entre parenthèses dans l'âge (« 0 (mars) »). On l'extrait pour l'afficher
+     dans sa propre colonne, sans rien modifier aux données. */
+  moisNaissance(age) {
+    const m = /\(([^)]+)\)/.exec(String(age == null ? '' : age));
+    return m ? m[1] : '';
+  }
+
+  ficheFamille(notes, cle, cleHeritee) {
+    if (notes[cle]) return notes[cle];
+    if (cleHeritee && notes[cleHeritee] && this.cleHeriteeSansAmbiguite(cleHeritee)) return notes[cleHeritee];
+    return { status: 'a_verifier', text: '' };
+  }
+
+  updateNote(key, cleHeritee, text) {
+    this.setState(s => {
+      const prec = this.ficheFamille(s.notes, key, cleHeritee);
+      const notes = { ...s.notes, [key]: { ...prec, text } };
+      if (cleHeritee && cleHeritee !== key && this.cleHeriteeSansAmbiguite(cleHeritee)) delete notes[cleHeritee];
+      this.persist(notes);
+      return { notes };
+    });
+  }
+
+  updateStatus(key, cleHeritee, status) {
+    this.setState(s => {
+      const prec = this.ficheFamille(s.notes, key, cleHeritee);
+      const notes = { ...s.notes, [key]: { ...prec, status } };
+      if (cleHeritee && cleHeritee !== key && this.cleHeriteeSansAmbiguite(cleHeritee)) delete notes[cleHeritee];
+      this.persist(notes);
+      let corrections = s.corrections;
+      if (status === 'confirme') {
+        const parts = key.split('-');
+        const noFamille = parts.pop(), noMaison = parts.pop();
+        const data = this.resolveYearData(s.activeYear, s.activeDivision);
+        const maisonObj = data.maisons.find(m => m.no_maison === noMaison);
+        const fam = maisonObj && maisonObj.familles.find(f => f.no_famille === noFamille);
+        if (fam) {
+          corrections = { ...corrections };
+          fam.membres.forEach(m => {
+            if (m.incertain) corrections[m.id] = { ...(corrections[m.id] || {}), incertain: false };
+          });
+          this.persistCorrections(corrections);
+        }
+      }
+      return { notes, corrections };
+    });
+  }
+
+  etatLabel(code) {
+    const map = { M: 'Marié(e)', C: 'Célibataire', V: 'Veuf/Veuve' };
+    return map[code] || (code || '—');
+  }
+
+  statusMeta(status) {
+    if (status === 'confirme') return { label: 'Confirmé', cls: 'tag-accent' };
+    if (status === 'en_cours') return { label: 'En cours', cls: 'tag-outline' };
+    return { label: 'À vérifier', cls: 'tag-neutral' };
+  }
+
+  matchesFamily(membresFusionnes, search, profession, ecoleOnly) {
+    const s = search.trim().toLowerCase();
+    const nameMatch = !s || membresFusionnes.some(m => (m.nom + ' ' + m.prenom).toLowerCase().includes(s));
+    const profMatch = !profession || membresFusionnes.some(m => m.profession === profession);
+    const ecoleMatch = !ecoleOnly || membresFusionnes.some(m => m.ecole);
+    return nameMatch && profMatch && ecoleMatch;
+  }
+
+  renderVals() {
+    const { activeYear, activeDivision } = this.state;
+    const hasData = !!this.DATA_AVAILABLE[activeYear + '-' + activeDivision];
+    const yearTabs = this.YEARS.map(y => {
+      const dispo = ['1', '2'].some(d => this.DATA_AVAILABLE[y + '-' + d]);
+      return {
+        y, dispo, absent: !dispo,
+        cls: y === activeYear ? 'btn-primary' : 'btn-secondary',
+        style: 'padding:3px 11px;font-size:14px;white-space:nowrap;letter-spacing:.02em' + (dispo ? '' : ';opacity:.42'),
+        go: () => this.setState({ activeYear: y, currentPage: 1 })
+      };
+    });
+    const divisionTabs = ['1', '2'].map(d => ({
+      d, label: 'Div. ' + d,
+      cls: d === activeDivision ? 'btn-primary' : 'btn-secondary',
+      style: 'padding:3px 11px;font-size:14px;white-space:nowrap' + (this.DATA_AVAILABLE[activeYear + '-' + d] ? '' : ';opacity:.42'),
+      go: () => this.setState({ activeDivision: d, currentPage: 1 })
+    }));
+    const gResults = this.rechercheGlobale(this.state.gSearch);
+    const shellVals = {
+      gSearch: this.state.gSearch,
+      onGSearch: (e) => this.setState({ gSearch: e.target.value }),
+      onClearG: () => this.setState({ gSearch: '' }),
+      gResults, hasGResults: gResults.length > 0,
+      gCount: gResults.length >= 150 ? '150 premières correspondances' : gResults.length + ' correspondance(s)',
+      gActif: this.state.gSearch.trim().length >= 2,
+      gVide: this.state.gSearch.trim().length >= 2 && gResults.length === 0,
+      compact: this.state.compact,
+      compactBtnClass: this.state.compact ? 'btn-primary' : 'btn-secondary',
+      compactLabel: this.state.compact ? 'Vue compacte' : 'Vue détaillée',
+      onToggleCompact: () => this.setState(s => ({ compact: !s.compact })),
+      showCartouche: this.state.showCartouche,
+      cartoucheLabel: this.state.showCartouche ? 'Masquer l\u2019en-tête' : 'En-tête',
+      onToggleCartouche: () => this.setState(s => ({ showCartouche: !s.showCartouche })),
+      showSauvegarde: this.state.showSauvegarde,
+      sauvegardeBtnClass: this.state.showSauvegarde ? 'btn-primary' : 'btn-secondary',
+      onToggleSauvegarde: () => this.setState(s => ({ showSauvegarde: !s.showSauvegarde })),
+      inventaire: this.inventaire(),
+      fichesAmbigues: this.fichesAmbigues(),
+      aFichesAmbigues: this.fichesAmbigues().length > 0,
+      messageSauvegarde: this.state.messageSauvegarde,
+      aMessageSauvegarde: !!this.state.messageSauvegarde,
+      migrationFaite: !!(this.state.migration && this.state.migration.corrections >= 0),
+      migrationTexte: this.state.migration
+        ? this.state.migration.corrections + ' correction(s) et ' + this.state.migration.liens
+          + ' lien(s) reclassés sous les nouveaux identifiants le ' + this.state.migration.date
+          + (this.state.migration.orphelins ? ' — ' + this.state.migration.orphelins + ' sans correspondance' : ' — aucune perte')
+        : '',
+      onExportSauvegarde: () => this.exportSauvegarde(),
+      onImportSauvegarde: (e) => { const f = e.target.files && e.target.files[0]; e.target.value = ''; this.importSauvegarde(f); }
+    };
+    const dataKey = activeYear + '-' + activeDivision;
+    const partialNote = this.PARTIAL[dataKey] || '';
+    const { showAnnexe, annexeSearch, hypotheses, hypForm, annexeSource, customEntries, showNewEntry, newEntry } = this.state;
+    const as = annexeSearch.trim().toLowerCase();
+    const annexeEntriesAll = (window.BUSSIERE_1990_DATA || []).map(e => ({ ...e, source: e.source || this.SOURCE_BUSSIERE }))
+      .concat(customEntries.map(e => ({ ...e, source: e.source || this.SOURCE_DEFAULT, isCustom: true })));
+    const sourceNames = [];
+    annexeEntriesAll.forEach(e => { if (!sourceNames.includes(e.source)) sourceNames.push(e.source); });
+    if (!sourceNames.includes(this.SOURCE_DEFAULT)) sourceNames.push(this.SOURCE_DEFAULT);
+    const annexeEntriesFiltered = annexeEntriesAll
+      .filter(e => !annexeSource || e.source === annexeSource)
+      .filter(e => !as || ((e.adresse || '') + ' ' + (e.titre || '') + ' ' + (e.personnages || '')).toLowerCase().includes(as));
+    const annexeEntries = annexeEntriesFiltered.map(e => {
+      const hf = hypForm[e.id] || {};
+      const hypList = (hypotheses[e.id] || []).map((h, i) => {
+        const meta = this.statutMetaHyp(h.statut);
+        return { ...h, statutLabel: meta.label, statutClass: meta.cls, hasNote: !!h.note, onRemove: () => this.removeHypothese(e.id, i) };
+      });
+      const propList = (e.propositions || []).map((p, i) => {
+        const etat = this.state.propEtat[e.id + '#' + i] || '';
+        const confClass = p.confiance === 'forte' ? 'tag-accent' : (p.confiance === 'moyenne' ? 'tag-outline' : 'tag-neutral');
+        return {
+          ...p, confianceClass: confClass,
+          isRetenue: etat === 'retenue', isEcartee: etat === 'ecartee',
+          isOuverte: !etat, isTraitee: !!etat,
+          rowStyle: 'padding:6px 10px;border-radius:var(--radius-sm);border-left:2px solid ' +
+            (etat === 'ecartee' ? 'var(--color-neutral-400);opacity:.55' : 'var(--color-accent-2-500)') +
+            ';background:var(--color-neutral-100)',
+          onRetenir: () => this.retenirProposition(e.id, i, p),
+          onEcarter: () => this.setPropEtat(e.id, i, 'ecartee'),
+          onRemettre: () => this.setPropEtat(e.id, i, '')
+        };
+      });
+      const det = this.state.annexeDetails[e.id] || {};
+      const phList = (this.state.photos[e.id] || []).filter(p => !!p.thumb).map(p => ({
+        nom: p.nom, caption: p.caption || '',
+        imgRef: (node) => { if (node) node.src = p.thumb; },
+        onRemove: () => this.removePhoto(p.id),
+        onCaption: (ev) => this.setPhotoCaption(p.id, ev.target.value)
+      }));
+      const isEditing = this.state.editingEntry === e.id;
+      const ef = this.state.editForm;
+      return {
+        ...e, hasAnnee: !!e.annee, hasPersonnages: !!e.personnages,
+        isCustom: !!e.isCustom, onDelete: () => this.removeCustomEntry(e.id),
+        isEditing, isNotEditing: !isEditing, editBtnLabel: isEditing ? 'Édition…' : 'Modifier',
+        onToggleEdit: () => this.startEditEntry(e),
+        edAdresse: ef.adresse || '', edTitre: ef.titre || '', edAnnee: ef.annee || '', edSource: ef.source || '',
+        edPersonnages: ef.personnages || '', edResume: ef.resume || '',
+        onEdAdresse: (ev) => this.setEditForm('adresse', ev.target.value),
+        onEdTitre: (ev) => this.setEditForm('titre', ev.target.value),
+        onEdAnnee: (ev) => this.setEditForm('annee', ev.target.value),
+        onEdSource: (ev) => this.setEditForm('source', ev.target.value),
+        onEdPersonnages: (ev) => this.setEditForm('personnages', ev.target.value),
+        onEdResume: (ev) => this.setEditForm('resume', ev.target.value),
+        onSaveEdit: () => this.saveEditEntry(), onCancelEdit: () => this.cancelEditEntry(),
+        altList: (this.state.altAddresses[e.id] || []).map((v, i) => ({ value: v, onRemove: () => this.removeAltAddress(e.id, i) })),
+        altInput: this.state.altInputs[e.id] || '',
+        onAltInput: (ev) => this.setAltInput(e.id, ev.target.value),
+        onAddAlt: () => this.addAltAddress(e.id),
+        dLot: det.lot || '', dLotAnnee: det.lotAnnee || '', dGoadFeuillet: det.goadFeuillet || '', dGoadNo: det.goadNo || '',
+        onDLot: (ev) => this.setAnnexeDetail(e.id, 'lot', ev.target.value),
+        onDLotAnnee: (ev) => this.setAnnexeDetail(e.id, 'lotAnnee', ev.target.value),
+        onDGoadFeuillet: (ev) => this.setAnnexeDetail(e.id, 'goadFeuillet', ev.target.value),
+        onDGoadNo: (ev) => this.setAnnexeDetail(e.id, 'goadNo', ev.target.value),
+        photos: phList, hasPhotos: phList.length > 0, photoCount: phList.length, canAddPhoto: phList.length < 5,
+        onPhotoFile: (ev) => { const f = ev.target.files && ev.target.files[0]; ev.target.value = ''; this.addPhoto(e, f); },
+        propList, hasPropositions: propList.length > 0,
+        hypList, hasHypotheses: hypList.length > 0,
+        hfAnnee: hf.annee || '1891', hfDivision: hf.division || '1', hfNoMaison: hf.no_maison || '', hfStatut: hf.statut || 'hypothese', hfNote: hf.note || '',
+        onHfAnnee: (ev) => this.setHypForm(e.id, 'annee', ev.target.value),
+        onHfDivision: (ev) => this.setHypForm(e.id, 'division', ev.target.value),
+        onHfNoMaison: (ev) => this.setHypForm(e.id, 'no_maison', ev.target.value),
+        onHfStatut: (ev) => this.setHypForm(e.id, 'statut', ev.target.value),
+        onHfNote: (ev) => this.setHypForm(e.id, 'note', ev.target.value),
+        onAddHyp: () => this.addHypothese(e.id)
+      };
+    });
+    const annexeCount = Object.values(hypotheses).reduce((t, l) => t + l.length, 0);
+    const annexeVals = {
+      showAnnexe, showMain: !showAnnexe && hasData, showMainNoData: !showAnnexe && !hasData,
+      annexeBtnClass: showAnnexe ? 'btn-primary' : 'btn-secondary',
+      annexeCountSuffix: annexeCount > 0 ? ' (' + annexeCount + ')' : '',
+      onToggleAnnexe: () => this.setState(s => ({ showAnnexe: !s.showAnnexe })),
+      annexeSearch, onAnnexeSearch: (e) => this.setState({ annexeSearch: e.target.value }),
+      annexeEntries, annexeNoResults: annexeEntries.length === 0,
+      sourceTabs: [{ key: '', label: 'Toutes (' + annexeEntriesAll.length + ')' }].concat(
+        sourceNames.map(n => ({ key: n, label: n + ' (' + annexeEntriesAll.filter(e => e.source === n).length + ')' }))
+      ).map(t => ({ label: t.label, cls: annexeSource === t.key ? 'btn-primary' : 'btn-secondary', go: () => this.setState({ annexeSource: t.key }) })),
+      sourceOptions: sourceNames.map(n => ({ value: n })),
+      showNewEntry,
+      newEntryBtnClass: showNewEntry ? 'btn-secondary' : 'btn-primary',
+      newEntryBtnLabel: showNewEntry ? 'Fermer le formulaire' : '+ Ajouter un bâtiment',
+      onToggleNewEntry: () => this.setState(s => ({ showNewEntry: !s.showNewEntry })),
+      neAdresse: newEntry.adresse || '', neTitre: newEntry.titre || '', neAnnee: newEntry.annee || '',
+      nePersonnages: newEntry.personnages || '', neResume: newEntry.resume || '',
+      neSource: newEntry.source === undefined ? this.SOURCE_DEFAULT : newEntry.source,
+      onNeAdresse: (ev) => this.setNewEntry('adresse', ev.target.value),
+      onNeTitre: (ev) => this.setNewEntry('titre', ev.target.value),
+      onNeAnnee: (ev) => this.setNewEntry('annee', ev.target.value),
+      onNePersonnages: (ev) => this.setNewEntry('personnages', ev.target.value),
+      onNeResume: (ev) => this.setNewEntry('resume', ev.target.value),
+      onNeSource: (ev) => this.setNewEntry('source', ev.target.value),
+      onAddEntry: () => this.addCustomEntry()
+    };
+    const commonTabVals = { yearTabs, divisionTabs, hasData, noData: !hasData, activeYear, activeDivision, partialNote, hasPartialNote: !!partialNote, ...shellVals, ...annexeVals };
+    if (!hasData) return commonTabVals;
+
+    const data = this.resolveYearData(activeYear, activeDivision);
+    const special = this.resolveSpecial(activeYear, activeDivision) || {};
+    const speciaux = [
+      ...(special.constructions || []).map(x => ({ ...x, type: 'Maison en construction' })),
+      ...(special.inhabitees || []).map(x => ({ ...x, type: 'Maison inhabitée' })),
+      ...(special.navires || []).map(x => ({ ...x, type: 'Navire' })),
+      ...(special.logements_temporaires || []).map(x => ({ ...x, type: 'Logement temporaire' }))
+    ].sort((a, b) => (+a.page_ms || 0) - (+b.page_ms || 0) || (+a.ligne || 0) - (+b.ligne || 0));
+    const institutions = special.institutions || [];
+    const is1891Year = activeYear === '1891';
+    const est1881 = activeYear === '1881';
+    const comp = this.complement(activeYear, activeDivision);
+    const pagesFaites = comp ? (comp.pages_transcrites || []).length : 0;
+    const pagesTotal = comp ? (comp.pages_totales || 0) : 0;
+    const pct = pagesTotal ? Math.round(pagesFaites / pagesTotal * 100) : 0;
+    const manquants = [];
+    if (comp) Object.keys(comp.pages || {}).forEach(pg => {
+      (comp.pages[pg].manquant || []).forEach(mq => manquants.push({
+        ...mq, page: pg,
+        identite: [mq.prenom, mq.nom].filter(Boolean).join(' ') + ', ' + (mq.sexe || '?') + ', ' + (mq.age || '?') + ' ans'
+      }));
+    });
+    const dep = {
+      avancement: pagesFaites + ' des ' + pagesTotal + ' pages relues (' + pct + ' %)',
+      barreStyle: 'height:100%;width:' + Math.max(pct, 2) + '%;background:var(--color-accent-700);border-radius:4px',
+      ecarts: comp ? (comp.ecarts || []) : [],
+      aEcarts: !!(comp && (comp.ecarts || []).length),
+      manquants, aManquants: manquants.length > 0
+    };
+    const rosterFull = special.roster || [];
+    const { search, profession, ecoleOnly, expanded, notes, currentPage, corrections } = this.state;
+    const PAGE_SIZE = Math.max(5, this.props.maisonsParPage || 20);
+
+    const professionsSet = new Set();
+    data.maisons.forEach(m => m.familles.forEach(f => f.membres.forEach(p => {
+      const merged = this.mergeCorrections(p);
+      if (merged.profession) professionsSet.add(merged.profession);
+    })));
+    const professions = [...professionsSet].sort();
+
+    const filteredMaisons = [];
+    let totalFamilles = 0, totalPersonnes = 0;
+
+    data.maisons.forEach(maison => {
+      const familiesWithMerged = maison.familles.map(f => ({ f, merged: f.membres.map(m => this.mergeCorrections(m)) }));
+      const matching = familiesWithMerged.filter(({ merged }) => this.matchesFamily(merged, search, profession, ecoleOnly));
+      if (matching.length === 0) return;
+      const familles = matching.map(({ f, merged }) => {
+        const cleHeritee = maison.no_maison + '-' + f.no_famille;
+        const key = this.cleFamille(activeYear, activeDivision, maison.no_maison, f.no_famille);
+        const note = this.noteFamille(key, cleHeritee);
+        const meta = this.statusMeta(note.status);
+        const incertain = note.status !== 'confirme' && merged.some(m => m.incertain);
+        const isExpanded = !!expanded[key] || !!expanded[cleHeritee];
+        totalFamilles++; totalPersonnes += merged.length;
+        const rapport = (activeYear === '1871' && activeDivision === '2') ? (window.ANNEXE_RAPPORT || {})[cleHeritee] : null;
+        const tableaux = activeYear === '1871' ? this.tableauxPour(activeYear, activeDivision, merged) : [];
+
+        const rapportFlags = rapport ? rapport.flags : [];
+        const ageAjustee = merged.some(m => m.age_ajuste_rapport);
+        let chefLabel = f.chef;
+        const c0 = merged[0], o0 = f.membres[0];
+        if (c0 && o0) {
+          if (o0.nom && c0.nom && c0.nom !== o0.nom) chefLabel = chefLabel.split(o0.nom).join(c0.nom);
+          if (o0.prenom && c0.prenom && c0.prenom !== o0.prenom) chefLabel = chefLabel.split(o0.prenom).join(c0.prenom);
+        }
+        return {
+          hasRapport: !!rapport,
+          rapportTexte: rapport ? rapport.texte : '',
+          rapportFlags,
+          ageAjustee,
+          is1891: activeYear === '1891',
+          key, chef: chefLabel, nb_membres: merged.length,
+          ...(() => {
+            const mK = activeYear + '-' + activeDivision + '-' + maison.no_maison;
+            const fK = mK + '-' + f.no_famille;
+            const cf = this.state.corrFamille[fK] || {};
+            const lf = this.state.linkForm[fK] || {};
+            const liensList = [];
+            merged.forEach(p => (this.state.liens[p.id] || []).forEach((l, i) => liensList.push({
+              key: p.id + '-' + i,
+              personne: (p.prenom || '') + ' ' + (p.nom || ''),
+              resume: [l.relation, l.nom].filter(Boolean).join(' — '),
+              source: 'Recensement ' + l.annee + (l.division ? ', division ' + l.division : '') + (l.page ? ', page ' + l.page : '') + (l.ligne ? ', ligne ' + l.ligne : ''),
+              note: l.note || '', hasNote: !!l.note,
+              onRemove: () => this.removeLien(p.id, i)
+            })));
+            return {
+              no_famille: cf.no_famille !== undefined && cf.no_famille !== '' ? cf.no_famille : f.no_famille,
+              familleLabel: 'Famille ' + (cf.no_famille !== undefined && cf.no_famille !== '' ? cf.no_famille : f.no_famille),
+              eNoFamille: cf.no_famille !== undefined ? cf.no_famille : f.no_famille,
+              fKey: fK, editMode: this.state.editMode,
+              stopToggle: (e) => e.stopPropagation(),
+              onNoFamilleChange: (e) => this.updateFamille(fK, 'no_famille', e.target.value),
+              liensList, hasLiens: liensList.length > 0,
+              membreOptions: merged.map(p => ({ value: p.id, label: (p.prenom || '') + ' ' + (p.nom || '') })),
+              lfPersonId: lf.personId || '', lfAnnee: lf.annee || '1871',
+              lfRelation: lf.relation || '', lfDivision: lf.division || '', lfPage: lf.page || '',
+              lfLigne: lf.ligne || '', lfNom: lf.nom || '', lfNote: lf.note || '',
+              onLfPersonne: (e) => this.setLinkForm(fK, 'personId', e.target.value),
+              onLfRelation: (e) => this.setLinkForm(fK, 'relation', e.target.value),
+              onLfAnnee: (e) => this.setLinkForm(fK, 'annee', e.target.value),
+              onLfDivision: (e) => this.setLinkForm(fK, 'division', e.target.value),
+              onLfPage: (e) => this.setLinkForm(fK, 'page', e.target.value),
+              onLfLigne: (e) => this.setLinkForm(fK, 'ligne', e.target.value),
+              onLfNom: (e) => this.setLinkForm(fK, 'nom', e.target.value),
+              onLfNote: (e) => this.setLinkForm(fK, 'note', e.target.value),
+              onAddLien: () => this.addLien(fK)
+            };
+          })(),
+          hasFamNoMs: !!f.no_famille_ms && (maison.familles || []).length > 1,
+          famNoMsLabel: f.no_famille_ms ? 'n° ms ' + f.no_famille_ms : '',
+          famSansNumero: !!f.sans_numero_ms,
+          hasFamRemarqueNom: !!f.remarque_nom, famRemarqueNom: f.remarque_nom || '',
+          profession_chef: (merged[0] && merged[0].profession) || '—',
+          incertain, expanded: isExpanded, tableaux, hasTableaux: tableaux.length > 0,
+          montrerResumes: !this.state.compact,
+          statusEdge: note.status === 'confirme' ? 'var(--color-accent-700)' : (note.status === 'en_cours' ? 'var(--color-accent-400)' : 'var(--color-neutral-300)'),
+          chevronStyle: 'transform:rotate(' + (isExpanded ? 90 : 0) + 'deg);transition:transform .15s',
+          statusLabel: meta.label, statusTagClass: meta.cls,
+          statusId: 'status-' + key, noteId: 'note-' + key,
+          montrerNe12: !is1891Year,
+          membres: merged.map(m => ({
+            id: m.id, page_ms: m.page_ms || '', ligne: m.ligne || '',
+            prenom: m.prenom, nom: m.nom, sexe: m.sexe || '', age: m.age || '',
+            etat_matrimonial: m.etat_matrimonial || '',
+            profession: m.profession || '', ecole: !!m.ecole, incertain: note.status !== 'confirme' && m.incertain,
+            religion: m.religion || '',
+            saitLire: !!m.sait_lire, saitEcrire: !!m.sait_ecrire,
+            /* Trois états par colonne : relevée / non dépouillée / absente du formulaire.
+               Le formulaire de 1881 ne comportait pas de colonne d'alphabétisation ni de
+               « marié dans les 12 mois » — vérifié sur le manuscrit (Tableau no 1, col. 1-20). */
+            alphaReleve: !est1881 && ('sait_lire' in m),
+            alphaReleveNon: !est1881 && !('sait_lire' in m),
+            alphaHorsFormulaire: est1881,
+            ecoleReleve: ('ecole' in m), ecoleReleveNon: !('ecole' in m),
+            marie12moisReleve: !est1881 && ('marie_12_mois' in m),
+            marie12moisReleveNon: !est1881 && !('marie_12_mois' in m),
+            marie12moisHorsFormulaire: est1881,
+            neDouzeMois: this.moisNaissance(m.age) || m.ne_douze_mois || '',
+            aDouzeMois: !!(this.moisNaissance(m.age) || m.ne_douze_mois),
+            sansDouzeMois: !(this.moisNaissance(m.age) || m.ne_douze_mois),
+            issuComplement: !!m.complement, noteComplement: m.complement_note || '',
+            aNoteComplement: !!m.complement_note,
+            sourdMuetReleve: ('sourd_muet' in m), sourdMuetReleveNon: !('sourd_muet' in m),
+            aveugleReleve: ('aveugle' in m), aveugleReleveNon: !('aveugle' in m),
+            alieneReleve: ('aliene' in m), alieneReleveNon: !('aliene' in m),
+            origine: m.origine || '', lieuNaissance: m.lieu_naissance || '',
+            marie12mois: !!m.marie_12_mois, sourdMuet: !!m.sourd_muet, aveugle: !!m.aveugle, aliene: !!m.aliene,
+            remarque: m.remarque || '',
+            lienParente: m.lien_parente || '', canadienFrancais: !!m.canadien_francais,
+            lieuNaissancePere: m.lieu_naissance_pere || '', lieuNaissanceMere: m.lieu_naissance_mere || '',
+            patron: !!m.patron, employe: !!m.employe, chomage: !!m.chomage, nbEmployes: m.nb_employes || '',
+            corrige: !!corrections[m.id], ajusteRapport: !!m.age_ajuste_rapport && !corrections[m.id],
+            rowStyle: corrections[m.id] ? 'background:var(--color-accent-100)' : '',
+            onLienParenteChange: (e) => this.updateCorrection(m.id, 'lien_parente', e.target.value),
+            onCanadienFrancaisChange: () => this.updateCorrection(m.id, 'canadien_francais', !m.canadien_francais),
+            onLieuNaissancePereChange: (e) => this.updateCorrection(m.id, 'lieu_naissance_pere', e.target.value),
+            onLieuNaissanceMereChange: (e) => this.updateCorrection(m.id, 'lieu_naissance_mere', e.target.value),
+            onPatronChange: () => this.updateCorrection(m.id, 'patron', !m.patron),
+            onEmployeChange: () => this.updateCorrection(m.id, 'employe', !m.employe),
+            onChomageChange: () => this.updateCorrection(m.id, 'chomage', !m.chomage),
+            onNbEmployesChange: (e) => this.updateCorrection(m.id, 'nb_employes', e.target.value),
+            onPageChange: (e) => this.updateCorrection(m.id, 'page_ms', e.target.value),
+            onLigneChange: (e) => this.updateCorrection(m.id, 'ligne', e.target.value),
+            onPrenomChange: (e) => this.updateCorrection(m.id, 'prenom', e.target.value),
+            onNomChange: (e) => this.updateCorrection(m.id, 'nom', e.target.value),
+            onSexeChange: (e) => this.updateCorrection(m.id, 'sexe', e.target.value),
+            onAgeChange: (e) => this.updateCorrection(m.id, 'age', e.target.value),
+            onEtatChange: (e) => this.updateCorrection(m.id, 'etat_matrimonial', e.target.value),
+            onProfessionChange: (e) => this.updateCorrection(m.id, 'profession', e.target.value),
+            onEcoleChange: () => this.updateCorrection(m.id, 'ecole', !m.ecole),
+            onSaitLireChange: () => this.updateCorrection(m.id, 'sait_lire', !m.sait_lire),
+            onSaitEcrireChange: () => this.updateCorrection(m.id, 'sait_ecrire', !m.sait_ecrire),
+            onMarie12moisChange: () => this.updateCorrection(m.id, 'marie_12_mois', !m.marie_12_mois),
+            onSourdMuetChange: () => this.updateCorrection(m.id, 'sourd_muet', !m.sourd_muet),
+            onAveugleChange: () => this.updateCorrection(m.id, 'aveugle', !m.aveugle),
+            onAlieneChange: () => this.updateCorrection(m.id, 'aliene', !m.aliene),
+            onResetCorrection: () => this.resetCorrection(m.id)
+          })),
+          noteText: note.text || '', noteStatus: note.status || 'a_verifier',
+          toggle: () => this.toggleFamily(key),
+          onNoteChange: (e) => this.updateNote(key, cleHeritee, e.target.value),
+          onStatusChange: (e) => this.updateStatus(key, cleHeritee, e.target.value)
+        };
+      });
+      const lg0 = maison.logement || {};
+      const mKey = activeYear + '-' + activeDivision + '-' + maison.no_maison;
+      const cm = this.state.corrMaison[mKey] || {};
+      const materiau = cm.materiau !== undefined ? cm.materiau : (lg0.materiau || '');
+      const etages = cm.etages !== undefined ? cm.etages : (lg0.etages || '');
+      const chambres = cm.chambres !== undefined ? cm.chambres : (lg0.chambres || '');
+      const lettre = this.LETTRE_MATERIAU[materiau] || '';
+      const codeCalcule = (lettre && etages && chambres) ? (lettre + ' ' + etages + '/' + chambres) : (lg0.code_ms || '');
+      const lg = (materiau || etages || chambres) ? { materiau, etages, chambres } : null;
+      const adresse = cm.adresse || maison.adresse || '';
+      filteredMaisons.push({
+        no_maison: cm.no_maison !== undefined && cm.no_maison !== '' ? cm.no_maison : maison.no_maison,
+        familles,
+        mKey,
+        maisonCorrigee: Object.keys(cm).length > 0,
+        editMode: this.state.editMode,
+        eMateriau: materiau, eEtages: String(etages || ''), eChambres: String(chambres || ''),
+        eNoMaison: cm.no_maison !== undefined ? cm.no_maison : maison.no_maison,
+        eColonne: String(cm.colonne !== undefined ? cm.colonne : (maison.colonne_logement || '4')),
+        onColonneChange: (e) => this.updateMaison(mKey, 'colonne', e.target.value),
+        eAdresse: adresse,
+        hasAdresse: !!adresse, adresse,
+        chambresOptions: Array.from({length:20}, (_, i) => ({ value: String(i+1), label: String(i+1) })),
+        onNoMaisonChange: (e) => this.updateMaison(mKey, 'no_maison', e.target.value),
+        onMateriauChange: (e) => this.updateMaison(mKey, 'materiau', e.target.value),
+        onEtagesChange: (e) => this.updateMaison(mKey, 'etages', e.target.value),
+        onChambresChange: (e) => this.updateMaison(mKey, 'chambres', e.target.value),
+        onAdresseChange: (e) => this.updateMaison(mKey, 'adresse', e.target.value),
+        onResetMaison: () => this.resetMaison(mKey),
+        colonneAutre: String(cm.colonne !== undefined ? cm.colonne : (maison.colonne_logement || '4')) !== '4',
+        colonneLabel: { '2': 'Col. 2 — maison en construction', '3': 'Col. 3 — maison inhabitée', '4': 'Col. 4 — maison habitée' }[String(cm.colonne !== undefined ? cm.colonne : (maison.colonne_logement || '4'))] || '',
+        hasLogement: !!lg,
+        logementLabel: lg ? [lg.materiau, lg.etages + (lg.etages > 1 ? ' étages' : ' étage'), lg.chambres + (lg.chambres > 1 ? ' chambres' : ' chambre')].join(' · ') : '',
+        logementCode: codeCalcule,
+        logementIncertain: !!(lg0.incertain && !cm.materiau),
+        hasNoMs: !!maison.no_famille_ms && maison.no_famille_ms !== maison.no_maison,
+        noMsLabel: maison.no_famille_ms ? 'n° ms ' + maison.no_famille_ms : '',
+        msConforme: !!maison.no_famille_ms && maison.no_famille_ms === maison.no_maison,
+        hasRemarqueNom: !!maison.remarque_nom,
+        remarqueNom: maison.remarque_nom || '',
+        hasRemarqueLogement: !!maison.remarque_logement,
+        remarqueLogement: maison.remarque_logement || ''
+      });
+    });
+
+    const st = search.trim().toLowerCase();
+    const groupedUntil = special.grouped_until || 0;
+    const groupedIds = new Set();
+    if (is1891Year) (data.maisons || []).forEach(m => (m.familles || []).forEach(f => (f.membres || []).forEach(p => { if (p.id) groupedIds.add(p.id); })));
+    const rosterRemaining = is1891Year ? rosterFull.filter(r => r.ordre > groupedUntil && !groupedIds.has(r.id) && (!st || (r.nom + ' ' + r.prenom).toLowerCase().includes(st))) : [];
+    const totalPages = Math.max(1, Math.ceil(filteredMaisons.length / PAGE_SIZE));
+    const page = Math.min(Math.max(1, currentPage), totalPages);
+    const visibleMaisons = filteredMaisons.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+    const roster = rosterRemaining.slice(0, 100).map(r => ({
+      ordre: r.ordre, nom: r.nom, prenom: r.prenom, age: r.age, source_id: r.source_id,
+      lien: 'https://central.bac-lac.gc.ca/.redirect?app=census&id=' + r.source_id + '&lang=fra'
+    }));
+    const pageNumbers = [];
+    for (let p = 1; p <= totalPages; p++) pageNumbers.push({ n: p, isCurrent: p === page, cls: p === page ? 'btn-primary' : 'btn-secondary', go: () => this.setState({ currentPage: p }) });
+
+    return {
+      ...commonTabVals,
+      ...annexeVals,
+      avancement: this.avancement(data.maisons, activeYear, activeDivision),
+      search, profession, professions,
+      ecoleBtnClass: ecoleOnly ? 'btn-primary' : 'btn-secondary',
+      editMode: this.state.editMode,
+      editBtnClass: this.state.editMode ? 'btn-primary' : 'btn-secondary',
+      editBtnLabel: this.state.editMode ? 'Quitter le mode édition' : 'Mode édition',
+      editHint: this.state.editMode
+        ? 'Numéros de maison et de famille, colonnes 2 à 4, adresse et liens entre recensements sont modifiables.'
+        : 'Activez le mode édition pour corriger les numéros, le logement, l’adresse et les liens.',
+      nbCorrections: Object.keys(this.state.corrections).length + Object.keys(this.state.corrMaison).length + Object.keys(this.state.corrFamille).length,
+      onToggleEdit: () => this.setState(s => ({ editMode: !s.editMode })),
+      onExportCorrections: () => this.exportCorrections(),
+      maisons: visibleMaisons,
+      currentPage: page, totalPages, pageNumbers,
+      hasPrev: page > 1, hasNext: page < totalPages, prevDisabled: page <= 1, nextDisabled: page >= totalPages,
+      onPrevPage: () => this.setState(s => ({ currentPage: Math.max(1, s.currentPage - 1) })),
+      onNextPage: () => this.setState(s => ({ currentPage: Math.min(totalPages, s.currentPage + 1) })),
+      is1891Year: is1891Year && rosterRemaining.length > 0, rosterRemainingCount: rosterRemaining.length, roster,
+      pageUnitLabel: '20 maisons par page',
+      noResults: is1891Year ? (filteredMaisons.length === 0 && rosterRemaining.length === 0 && rosterFull.length > 0) : (filteredMaisons.length === 0),
+      noResultsMessage: is1891Year
+        ? 'Aucune personne ne correspond à cette recherche.'
+        : (data.maisons.length === 0 ? "Aucune maison saisie pour l'instant. Les données seront ajoutées progressivement." : 'Aucune famille ne correspond à ces filtres.'),
+      speciaux, showSpeciaux: speciaux.length > 0, institutions, dep, montrerDepouillement: !!comp,
+      showInstitutions: institutions.length > 0,
+      totalMaisons: filteredMaisons.length, totalFamilles,
+      totalPersonnes: is1891Year
+        ? (filteredMaisons.length === (special.maisons || []).length
+            ? rosterFull.length
+            : filteredMaisons.reduce((s, mm) => s + mm.familles.reduce((t, f) => t + f.membres.length, 0), 0))
+        : totalPersonnes,
+      deces: activeYear === '1871' && activeDivision === '1' ? (window.ANNEXE_DECES || []).map(d => ({
+        ...d, key: 'deces-' + d.page + '-' + d.ligne,
+        onJump: () => this.jumpToName(d.nom)
+      })) : [],
+      onSearch: (e) => this.setState({ search: e.target.value, currentPage: 1 }),
+      onProfession: (e) => this.setState({ profession: e.target.value, currentPage: 1 }),
+      onEcoleToggle: () => this.setState(s => ({ ecoleOnly: !s.ecoleOnly, currentPage: 1 }))
+    };
+  }
+}
+</script>
+</body>
+</html>
