@@ -115,28 +115,37 @@ sur des lignes sans état matrimonial, ont été retenues. Le relevé est pruden
 peut manquer des écoliers, il n'en invente pas. Le drapeau `reserve_ecole` le
 signale dans le fichier.
 
-Avancement au moment du transfert : **21 pages sur 88** relues pour 1881 division 1,
-soit 524 personnes enrichies, dont 77 avec une valeur autre que la dominante.
+**Dépouillement terminé : les 88 pages du district sont relues**, soit les
+2 187 personnes de 1881 division 1, dont 182 portent une valeur autre que la
+dominante. La page 89 est blanche ; la page 88 clôt le district.
 
-Répartition obtenue sur ces 524 personnes — utile pour dimensionner les filtres du
-site et pour vérifier qu'une reprise en base donne les mêmes totaux :
+Répartition sur l'ensemble — utile pour dimensionner les filtres du site et
+pour vérifier qu'une reprise en base donne les mêmes totaux :
 
 | Lieu de naissance | | Religion | | Origine | |
 |---|---|---|---|---|---|
-| Québec | 501 | Catholique | 509 | Française | 468 |
-| États-Unis | 9 | Église anglicane | 8 | Irlandaise | 24 |
-| France | 8 | Presbytérien | 5 | Écossaise | 14 |
-| Irlande | 3 | Episcopalien | 2 | Allemande | 14 |
-| Ontario, Angleterre, Écosse | 1 chacun | | | Anglaise | 4 |
+| Québec | 2 135 | Catholique | 2 152 | Française | 2 042 |
+| États-Unis | 23 | Église anglicane | 20 | Écossaise | 49 |
+| France | 11 | Protestant | 8 | Irlandaise | 43 |
+| Irlande | 10 | Presbytérien | 5 | Anglaise | 25 |
+| Angleterre | 4 | Episcopalien | 2 | Allemande | 16 |
+| Ontario, Écosse | 2 chacun | | | Portugaise, Américaine | 6 chacune |
 
-91 écoliers et une seule infirmité déclarée (colonne 19, page 17 ligne 17).
+309 écoliers et deux infirmités déclarées, toutes deux en colonne 19 : page 17
+ligne 17, et page 29 ligne 10.
+
+**L'origine suit le père, sans exception.** C'est la règle la plus constante du
+dépouillement, vérifiée sur une dizaine de mariages mixtes : les huit enfants de
+James Thomson, écossais marié à une Française, sont tous inscrits « Écossaise » ;
+ceux de William McKaye, irlandais, tous « Irlandaise ». **La religion, elle, ne
+suit pas de règle unique** : les enfants Comming sont anglicans comme leur père
+(page 66), ceux de Thomas Watts catholiques comme leur mère (page 73). C'est la
+confession pratiquée qui est notée, tandis que l'origine reste patrilinéaire.
 
 **Normalise les graphies à la saisie.** Le recenseur écrit tantôt « Ireland »
 tantôt « Irlande », tantôt « French » tantôt « Française ». Le complément
 normalise et conserve la graphie d'origine dans `incertain`. Sans cela, un filtre
 « nés en Irlande » en manquerait une partie.
-Les 79 pages restantes suivent la même méthode — recadrer les colonnes 10 à 19 de
-chaque page, lire, encoder défauts + exceptions.
 
 ---
 
