@@ -103,6 +103,7 @@
       <a class="btn btn-secondary" href="./index.html">Accueil</a>
       <a class="btn btn-secondary" href="./Suivi des maisons et familles.dc.html">Base de données</a>
       <button type="button" class="btn btn-primary" data-vue="recherche">Trajectoires</button>
+      <button type="button" class="btn btn-secondary" data-vue="bibliographie">Bibliographie</button>
       <button type="button" class="btn btn-secondary" data-vue="evenements">Événements</button>
       <button type="button" class="btn btn-secondary" data-vue="controles">Contrôles</button>
       <button type="button" class="btn btn-secondary" data-vue="documents">Documents</button>
@@ -141,6 +142,28 @@
       </div>
     </div>
     <div id="resultats"></div>
+  </section>
+
+  <!-- ─── Bibliographie ────────────────────────────────────────────── -->
+  <section class="vue enveloppe" id="vue-bibliographie">
+    <div class="etiquette-section">Index de référence</div>
+    <h2 class="section">Bibliographie — toutes les personnes</h2>
+    <p class="intro">
+      Une fiche par personne, en ordre alphabétique : toutes ses mentions aux recensements,
+      ses rapprochements — calculés ou confirmés —, les événements qui la concernent et ce
+      que les documents versés établissent à son sujet. Se reconstruit après chaque
+      confirmation, chaque rejet, et chaque lien ajouté dans la base de données : rien à
+      régénérer à la main.
+    </p>
+
+    <div style="display:flex;gap:var(--space-3);align-items:flex-end;flex-wrap:wrap;margin-bottom:var(--space-3)">
+      <div class="field" style="flex:1;min-width:220px">
+        <label for="biblio-q">Filtrer (nom, prénom, métier)</label>
+        <input class="input" id="biblio-q" placeholder="Laisser vide pour parcourir par lettre" autocomplete="off">
+      </div>
+    </div>
+    <div id="biblio-alpha" style="display:flex;gap:3px;flex-wrap:wrap;margin-bottom:var(--space-4)"></div>
+    <div id="biblio-resultats"></div>
   </section>
 
   <!-- ─── Événements ───────────────────────────────────────────────── -->
@@ -381,6 +404,33 @@
   }
   reconstruireLiensEffectifs();
 
+  /* ─── Bibliographie : une fiche par personne physique ───────────────
+     Une « personne » ici est un regroupement de trajectoire (chaineDe),
+     pas une seule fiche de recensement — Thomas Lee 1871 et Thomas Lee 1891
+     sont une seule entrée. Reconstruite après chaque validation, puisque
+     confirmer ou écarter un lien peut fusionner ou séparer des groupes. */
+  var PERSONNES_UNIQUES = [];
+  function construireBibliographie() {
+    var vues = Object.create(null);
+    PERSONNES_UNIQUES = [];
+    for (var id in personnes) {
+      var chaine = chaineDe(id);
+      var tete = chaine[0].id;
+      if (vues[tete]) continue;
+      vues[tete] = true;
+      var p = personnes[tete];
+      if (!p) continue;
+      PERSONNES_UNIQUES.push({ tete: tete, chaine: chaine, nom: p.nom || '', prenom: p.prenom || '' });
+    }
+    PERSONNES_UNIQUES.sort(function (a, b) {
+      var an = sansAccents(a.nom), bn = sansAccents(b.nom);
+      if (an !== bn) return an < bn ? -1 : an > bn ? 1 : 0;
+      var ap = sansAccents(a.prenom), bp = sansAccents(b.prenom);
+      return ap < bp ? -1 : ap > bp ? 1 : 0;
+    });
+  }
+  construireBibliographie();
+
   /* Documents historiques, indexés par personne. Remplis quand le manifeste
      arrive : une preuve documentaire doit apparaître sur la trajectoire de la
      personne qu'elle concerne, sinon elle reste une pièce d'archive isolée. */
@@ -609,17 +659,89 @@
   champ.addEventListener('input', rechercher);
   filtreConf.addEventListener('change', rechercher);
 
-  var ACTIONS_LIEN = { confirmer: confirmerLien, ecarter: ecarterLien, annuler: annulerConfirmation, retablir: retablirLien };
-  zoneResultats.addEventListener('click', function (ev) {
-    var bouton = ev.target.closest('[data-action]');
-    if (!bouton) return;
-    var conteneur = bouton.closest('.actions-lien');
-    if (!conteneur) return;
-    var deId = conteneur.getAttribute('data-de'), versId = conteneur.getAttribute('data-vers');
-    var courant = (sortant[deId] && sortant[deId].vers === versId) ? sortant[deId] : { de: deId, vers: versId, confiance: 'calcule' };
-    var fn = ACTIONS_LIEN[bouton.getAttribute('data-action')];
-    if (fn) { fn(courant); rechercher(); }
+  /* ─── Vue : bibliographie ───────────────────────────────────────── */
+
+  var champBiblio = document.getElementById('biblio-q');
+  var zoneBiblioAlpha = document.getElementById('biblio-alpha');
+  var zoneBiblioResultats = document.getElementById('biblio-resultats');
+  var biblioLettre = null;
+
+  function lettresDisponibles() {
+    var comptes = Object.create(null);
+    PERSONNES_UNIQUES.forEach(function (e) {
+      var l = sansAccents(e.nom).charAt(0).toUpperCase();
+      if (l >= 'A' && l <= 'Z') comptes[l] = (comptes[l] || 0) + 1;
+    });
+    return comptes;
+  }
+
+  function rendreAlphaNav() {
+    var comptes = lettresDisponibles();
+    var html = '';
+    for (var c = 65; c <= 90; c++) {
+      var l = String.fromCharCode(c);
+      var n = comptes[l] || 0;
+      html += '<button type="button" class="btn ' + (biblioLettre === l ? 'btn-primary' : 'btn-secondary') +
+        '" style="padding:3px 9px;font-size:12px' + (n ? '' : ';opacity:.3') + '"' +
+        (n ? ' data-lettre="' + l + '" title="' + n + ' personne(s)"' : ' disabled') + '>' + l + '</button>';
+    }
+    zoneBiblioAlpha.innerHTML = html;
+  }
+
+  function rendreBibliographie() {
+    var q = sansAccents(champBiblio.value.trim());
+    var liste;
+    if (q) {
+      biblioLettre = null;
+      liste = PERSONNES_UNIQUES.filter(function (e) {
+        var p = personnes[e.tete];
+        var foin = sansAccents(nomComplet(p) + ' ' + (p.profession || ''));
+        return foin.indexOf(q) !== -1;
+      });
+    } else if (biblioLettre) {
+      liste = PERSONNES_UNIQUES.filter(function (e) { return sansAccents(e.nom).charAt(0).toUpperCase() === biblioLettre; });
+    } else {
+      zoneBiblioResultats.innerHTML = '<div class="vide-msg">Choisis une lettre ci-dessus, ou tape un nom pour filtrer.</div>';
+      return;
+    }
+    if (!liste.length) { zoneBiblioResultats.innerHTML = '<div class="vide-msg">Aucune personne.</div>'; return; }
+    // Pas de plafond : une lettre triée alphabétiquement où seules les 300
+    // premières s'afficheraient masquerait tout ce qui suit « La- » dans les L.
+    // Mieux vaut un rendu plus long qu'un « Lee » introuvable.
+    zoneBiblioResultats.innerHTML =
+      '<p class="intro">' + liste.length + ' personne(s).</p>' +
+      liste.map(function (e) { return rendreTrajectoire(e.chaine); }).join('');
+  }
+
+  champBiblio.addEventListener('input', function () { rendreAlphaNav(); rendreBibliographie(); });
+  zoneBiblioAlpha.addEventListener('click', function (ev) {
+    var b = ev.target.closest('[data-lettre]');
+    if (!b) return;
+    biblioLettre = b.getAttribute('data-lettre');
+    champBiblio.value = '';
+    rendreAlphaNav(); rendreBibliographie();
   });
+
+  var ACTIONS_LIEN = { confirmer: confirmerLien, ecarter: ecarterLien, annuler: annulerConfirmation, retablir: retablirLien };
+  function apresValidation() {
+    construireBibliographie();
+    rendreAlphaNav();
+    rendreBibliographie();
+  }
+  function brancherActionsLien(zone) {
+    zone.addEventListener('click', function (ev) {
+      var bouton = ev.target.closest('[data-action]');
+      if (!bouton) return;
+      var conteneur = bouton.closest('.actions-lien');
+      if (!conteneur) return;
+      var deId = conteneur.getAttribute('data-de'), versId = conteneur.getAttribute('data-vers');
+      var courant = (sortant[deId] && sortant[deId].vers === versId) ? sortant[deId] : { de: deId, vers: versId, confiance: 'calcule' };
+      var fn = ACTIONS_LIEN[bouton.getAttribute('data-action')];
+      if (fn) { fn(courant); rechercher(); apresValidation(); }
+    });
+  }
+  brancherActionsLien(zoneResultats);
+  brancherActionsLien(zoneBiblioResultats);
 
   /* ─── Vue : événements ──────────────────────────────────────────── */
 
@@ -793,7 +915,8 @@
     .then(function (m) {
       var docs = (m && m.documents) || [];
       indexerDocuments(docs);
-      rechercher();   // les preuves apparaissent sur les trajectoires déjà affichées
+      rechercher();          // les preuves apparaissent sur les trajectoires déjà affichées
+      rendreBibliographie(); // et sur la bibliographie, si une lettre ou un filtre est actif
 
       if (!docs.length) {
         zoneDocs.innerHTML =
@@ -970,6 +1093,8 @@
   document.getElementById('app').hidden = false;
   rendreEvenements('veuvage');
   rendreControles('sexe');
+  rendreAlphaNav();
+  rendreBibliographie();
   champ.value = 'Lee';
   rechercher();
 })();
