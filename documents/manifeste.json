@@ -1,0 +1,71 @@
+{
+  "format": "documents-saint-romuald",
+  "version": 1,
+  "mis_a_jour": "2026-07-29",
+  "note": "Index des documents historiques qui établissent des liens de filiation. Un document versé ici l'emporte toujours sur une proposition automatique de data/filiation-data.js : l'acte est une preuve, le rapprochement algorithmique n'est qu'une hypothèse. Voir documents/README.md pour la marche à suivre.",
+
+  "types_admis": {
+    "bapteme": "Acte de baptême — établit une filiation directe et une date de naissance",
+    "mariage": "Acte de mariage — établit un couple, les parents des deux époux, et le changement de patronyme d'usage",
+    "sepulture": "Acte de sépulture — établit un décès, souvent l'âge et le conjoint survivant",
+    "notarie": "Acte notarié (vente, donation, testament, inventaire) — établit propriété, filiation, décès",
+    "recensement": "Autre recensement ou rôle nominatif que ceux déjà dépouillés",
+    "journal": "Coupure de presse — avis de décès, mariage, faillite, accident",
+    "monographie": "Ouvrage publié — Bussière 1990 et autres",
+    "correspondance": "Lettre, registre de compagnie, livre de paie",
+    "photo": "Photographie légendée",
+    "autre": "Tout ce qui ne rentre pas dans les cases ci-dessus"
+  },
+
+  "types_affirmation": {
+    "identite": "La personne A du recensement X est la même que la personne B du recensement Y — confirme ou infirme un lien de data/filiation-data.js",
+    "filiation": "La personne A est l'enfant de B (et de C) — le lien de parenté proprement dit",
+    "mariage": "A et B se sont mariés à telle date — explique un changement de patronyme",
+    "deces": "A est décédé(e) à telle date — explique une disparition entre deux recensements",
+    "naissance": "A est né(e) à telle date",
+    "residence": "A habitait telle adresse à telle date — rattache une personne à un bâtiment",
+    "propriete": "A possédait tel bien à telle date"
+  },
+
+  "degres_certitude": {
+    "etabli": "Le document le dit explicitement et sans ambiguïté",
+    "probable": "Le document l'implique fortement, mais un point reste à vérifier",
+    "hypothese": "Lecture du chercheur, à confirmer par une autre source"
+  },
+
+  "gabarit": {
+    "_lire_ceci": "Ceci est le gabarit d'une fiche, pas un document réel. Il décrit les champs attendus ; il ne consigne aucun fait historique et ne doit jamais être compté comme une source. Copier cette structure dans « documents », remplacer chaque valeur, et supprimer la clé « _lire_ceci ».",
+    "id": "identifiant court et stable, ex. « sep-1878-lee-thomas »",
+    "type": "une clé de types_admis",
+    "titre": "intitulé lisible du document",
+    "date": "AAAA-MM-JJ, ou AAAA-MM, ou AAAA si c'est tout ce qu'on sait",
+    "date_incertaine": false,
+    "source": "où le document se trouve : dépôt, fonds, registre",
+    "cote": "référence exacte permettant de le retrouver",
+    "url": "lien vers la numérisation, si elle est en ligne",
+    "fichier": "chemin local vers le scan, ex. « documents/scans/xxx.jpg »",
+    "transcription": "transcription littérale du passage utile, entre guillemets si possible",
+    "personnes": [
+      {
+        "role": "rôle dans l'acte : defunt, epoux, epouse, pere, mere, parrain, marraine, temoin, enfant",
+        "nom": "nom tel qu'écrit dans le document",
+        "age": "âge déclaré, s'il figure",
+        "ref_personne": "identifiant de recensement correspondant, ex. « 1871-D2-P030-L12 », si le rattachement est fait"
+      }
+    ],
+    "affirmations": [
+      {
+        "type": "une clé de types_affirmation",
+        "certitude": "une clé de degres_certitude",
+        "personnes": ["identifiants de recensement concernés"],
+        "enonce": "ce que le document établit, en une phrase",
+        "confirme": "identifiant de lien ou d'événement de filiation-data.js que ce document confirme, s'il y a lieu",
+        "infirme": "identifiant de lien ou d'événement que ce document contredit, s'il y a lieu"
+      }
+    ],
+    "note": "remarques du chercheur : difficultés de lecture, contradictions, pistes",
+    "ajoute_le": "AAAA-MM-JJ"
+  },
+
+  "documents": []
+}
