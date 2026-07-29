@@ -38,7 +38,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
-  clesPrenom, clePatronyme, similarPatronyme, similarPrenom, ageEnAnnees, normaliser,
+  clesPrenom, clePatronyme, clesIndex, similarPatronyme, similarPrenom, ageEnAnnees, normaliser,
 } from './noms.mjs';
 
 const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -265,19 +265,24 @@ function rapprocher(personnesAvant, personnesApres, ecart) {
   const parPatronyme = new Map();
   for (const p of personnesApres) {
     if (!p.clePatronyme) continue;
-    // On indexe aussi sur les variantes à une lettre près, via un préfixe court.
-    const cle = p.clePatronyme.slice(0, 3);
-    if (!parPatronyme.has(cle)) parPatronyme.set(cle, []);
-    parPatronyme.get(cle).push(p);
+    for (const cle of clesIndex(p.clePatronyme)) {
+      if (!parPatronyme.has(cle)) parPatronyme.set(cle, []);
+      parPatronyme.get(cle).push(p);
+    }
   }
 
   const couples = [];
   for (const avant of personnesAvant) {
     if (!avant.clePatronyme) continue;
-    const candidats = parPatronyme.get(avant.clePatronyme.slice(0, 3)) || [];
-    for (const apres of candidats) {
-      const note = scorerCouple(avant, apres, ecart);
-      if (note) couples.push({ avant, apres, ...note });
+    // Un même candidat peut tomber dans deux seaux : on ne le note qu'une fois.
+    const vus = new Set();
+    for (const cle of clesIndex(avant.clePatronyme)) {
+      for (const apres of parPatronyme.get(cle) || []) {
+        if (vus.has(apres.id)) continue;
+        vus.add(apres.id);
+        const note = scorerCouple(avant, apres, ecart);
+        if (note) couples.push({ avant, apres, ...note });
+      }
     }
   }
 
@@ -612,6 +617,47 @@ function main() {
     evenements.push(...deduireEvenements(retenus, avant, apres, menages, ecart, intervalle));
   }
 
+  /* Passe par-dessus le recensement intermédiaire.
+     Le chaînage d'un recensement au suivant perd toute personne absente de
+     celui du milieu — et l'absence est fréquente : on quitte la paroisse pour
+     un chantier, on y revient dix ans plus tard. Albert Forcade est recensé en
+     1871 puis en 1891, jamais en 1881 ; sans cette passe, ses deux mentions
+     restent deux inconnus. On ne rapproche ici que ceux que les passes
+     consécutives ont laissés sans rattachement, pour ne rien défaire de ce
+     qu'elles ont établi. */
+  if (annees.length >= 3) {
+    const premiere = annees[0], derniere = annees[annees.length - 1];
+    const dejaSortant = new Set(liens.map(l => l.de));
+    const dejaEntrant = new Set(liens.map(l => l.vers));
+    const orphelinsAvant = (parAnnee.get(premiere) || []).filter(p => !dejaSortant.has(p.id));
+    const orphelinsApres = (parAnnee.get(derniere) || []).filter(p => !dejaEntrant.has(p.id));
+    const ecart = parseInt(derniere, 10) - parseInt(premiere, 10);
+    const intervalle = `${premiere}-${derniere}`;
+    process.stderr.write(`Rapprochement ${intervalle} par-dessus ${annees[1]} : ${orphelinsAvant.length} → ${orphelinsApres.length} personnes sans rattachement…\n`);
+
+    const retenus = rapprocher(orphelinsAvant, orphelinsApres, ecart);
+    process.stderr.write(`  ${retenus.length} lien(s) retenu(s)\n`);
+
+    for (const l of retenus) {
+      liens.push({
+        de: l.avant.id,
+        vers: l.apres.id,
+        intervalle,
+        saut: annees[1],
+        score: Math.round(l.score * 100) / 100,
+        confiance: niveau(l.score, l.homonymie),
+        homonymie: l.homonymie || undefined,
+        origine: 'analyse',
+        motifs: [...l.motifs, `absent du recensement de ${annees[1]} — rapprochement établi par-dessus`],
+        concurrents: l.concurrents,
+        resume_de: resumer(l.avant),
+        resume_vers: resumer(l.apres),
+      });
+    }
+    evenements.push(...deduireEvenements(retenus, orphelinsAvant, orphelinsApres, menages, ecart, intervalle)
+      .filter(e => e.type !== 'disparition' && e.type !== 'arrivee'));
+  }
+
   const comptes = {
     personnes: personnes.length,
     menages: menages.size,
@@ -620,6 +666,7 @@ function main() {
     liens_moyenne: liens.filter(l => l.confiance === 'moyenne').length,
     liens_faible: liens.filter(l => l.confiance === 'faible').length,
     liens_homonymie: liens.filter(l => l.homonymie).length,
+    liens_par_dessus: liens.filter(l => l.saut).length,
   };
   for (const t of ['menage_continu', 'veuvage', 'essaimage', 'disparition', 'arrivee', 'age_incoherent']) {
     comptes[t] = evenements.filter(e => e.type === t).length;

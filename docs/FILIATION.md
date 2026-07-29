@@ -34,7 +34,12 @@ nom seul ne prouverait rien.
 
 **Le patronyme**, normalisé : accents retirés, marques `[?]` ignorées, particules
 recollées, suffixes « dit X » ramenés à la souche. Une lettre d'écart est tolérée
-sur les noms d'au moins quatre lettres.
+sur les noms d'au moins quatre lettres. Le préfixe irlandais et écossais est
+ramené à une forme unique : le recenseur écrit indifféremment Mac, Mc ou Mcc, et
+Robert « Macready » en 1871 est Robert « McCready » en 1881. Sans cette
+normalisation — et sans un second seau d'indexation fondé sur la fin du nom —
+les deux graphies ne se rencontraient jamais : elles tombaient dans des seaux
+différents et n'étaient pas même comparées.
 
 **Le prénom**, via des classes d'équivalence. Le recenseur passe du français à
 l'anglais selon la famille et selon sa main : Marguerite devient Margaret puis
@@ -134,6 +139,21 @@ concordent. Le dossier des documents existe pour verser les pièces qui, elles,
 
 ---
 
+## Le rapprochement par-dessus un recensement
+
+Chaîner les recensements deux à deux perd toute personne absente de celui du
+milieu, et l'absence est fréquente : on quitte la paroisse pour un chantier, on y
+revient dix ans plus tard. **Albert Forcade est recensé en 1871 puis en 1891,
+jamais en 1881** ; le chaînage consécutif en faisait deux inconnus sans rapport.
+
+Une passe supplémentaire rapproche donc 1871 et 1891 directement, avec un écart
+de vingt ans — mais seulement pour les personnes que les passes consécutives ont
+laissées sans rattachement, afin de ne rien défaire de ce qu'elles ont établi.
+Ces liens portent `saut: '1881'` et le motif « absent du recensement de 1881 ».
+160 rapprochements de ce type.
+
+---
+
 ## Relancer l'analyse
 
 ```bash
@@ -190,6 +210,36 @@ laisse le dépouillement d'origine intact. Une relecture ultérieure se compare 
 complément au lieu de l'écraser.
 
 Regénérer : `node outils/deduire-sexe.mjs`.
+
+---
+
+## Ce qu'un document apporte, et que le calcul ne peut pas donner
+
+Le premier document versé — une chronique des alliances Forcade / McReady à
+New-Liverpool — illustre les quatre apports propres à une source écrite.
+
+**Il lève une lecture incertaine.** Le dépouillement de 1871 porte « Délima [?] »
+au foyer de John Macready. Le document donne Rose Delima Forcade ; le
+recensement de 1881, une fois le rapprochement rétabli, la nomme « Rose
+Delina ». Deux voies indépendantes confirment la lecture.
+
+**Il donne les noms de naissance des femmes.** Éléonore, épouse de Robert
+McReady, est née Bourassa ; Rose Delima est née Forcade. Le recensement ne les
+inscrit que sous le patronyme de leur mari. C'est précisément le mur contre
+lequel bute tout rapprochement fondé sur le nom, et seule une source écrite le
+franchit.
+
+**Il établit les liens latéraux.** Rose Delima est la sœur d'Albert Forcade. Les
+deux vivent dans des ménages distincts en 1871 — maisons 43 et 58. Aucun
+rapprochement d'identité individuelle, si bon soit-il, ne peut relier deux
+personnes qui ne sont jamais sous le même toit.
+
+**Il date les disparitions.** Robert McReady meurt en 1888 : l'analyse voyait une
+disparition entre 1881 et 1891 sans pouvoir la distinguer d'un départ.
+
+Ces faits apparaissent désormais sur la trajectoire des personnes concernées,
+sous la mention « Ce que les documents établissent » — au-dessous des indices
+calculés, et distincts d'eux.
 
 ---
 

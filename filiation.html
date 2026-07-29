@@ -68,6 +68,9 @@
   .evt.essaimage { border-left-color: var(--color-accent-500); }
   .evt-tete { display: flex; gap: var(--space-2); align-items: baseline; flex-wrap: wrap; }
 
+  .doc-preuve { border-left: 3px solid var(--color-accent-900); padding-left: var(--space-3); margin-bottom: var(--space-2); }
+  .evt.preuve { border-left-color: var(--color-accent-900); background: var(--color-accent-100); }
+
   .avert {
     padding: var(--space-3); background: var(--color-accent-100);
     border-left: 3px solid var(--color-accent-600); font-size: 13px;
@@ -255,6 +258,36 @@
   var sortant = Object.create(null), entrant = Object.create(null);
   F.liens.forEach(function (l) { sortant[l.de] = l; entrant[l.vers] = l; });
 
+  /* Documents historiques, indexés par personne. Remplis quand le manifeste
+     arrive : une preuve documentaire doit apparaître sur la trajectoire de la
+     personne qu'elle concerne, sinon elle reste une pièce d'archive isolée. */
+  var DOCS = [];
+  var docParPersonne = Object.create(null);
+
+  function indexerDocuments(docs) {
+    DOCS = docs || [];
+    docParPersonne = Object.create(null);
+    DOCS.forEach(function (d) {
+      var vus = Object.create(null);
+      (d.personnes || []).forEach(function (p) {
+        if (p.ref_personne) vus[p.ref_personne] = true;
+      });
+      (d.affirmations || []).forEach(function (a) {
+        (a.personnes || []).forEach(function (id) { vus[id] = true; });
+      });
+      Object.keys(vus).forEach(function (id) {
+        (docParPersonne[id] = docParPersonne[id] || []).push(d);
+      });
+    });
+  }
+
+  /** Affirmations d'un document qui visent l'une des personnes données. */
+  function affirmationsPour(doc, ids) {
+    return (doc.affirmations || []).filter(function (a) {
+      return (a.personnes || []).some(function (id) { return ids.indexOf(id) !== -1; });
+    });
+  }
+
   /* Événements indexés par personne, pour l'affichage d'une trajectoire. */
   var evtParPersonne = Object.create(null);
   F.evenements.forEach(function (e) {
@@ -399,11 +432,41 @@
         }).join('') + '</div>'
       : '';
 
+    /* Preuves documentaires. Elles priment sur tout ce qui précède : ce qui est
+       calculé au-dessus n'est qu'une hypothèse, ce qui suit est attesté. */
+    var idsChaine = chaine.map(function (m) { return m.id; });
+    var docsVus = Object.create(null), docsLies = [];
+    idsChaine.forEach(function (id) {
+      (docParPersonne[id] || []).forEach(function (d) {
+        if (docsVus[d.id]) return;
+        docsVus[d.id] = true; docsLies.push(d);
+      });
+    });
+    var blocDocs = docsLies.length
+      ? '<div class="etiquette-section" style="margin-top:var(--space-3)">Ce que les documents établissent</div>' +
+        docsLies.map(function (d) {
+          var affs = affirmationsPour(d, idsChaine);
+          return '<div class="doc-preuve">' +
+            '<div style="font-size:11.5px;color:var(--color-neutral-700);margin-bottom:4px">' +
+              ech(d.titre || d.id) + (d.source ? ' — ' + ech(d.source) : '') + '</div>' +
+            (affs.length
+              ? '<div class="liste-evts">' + affs.map(function (a) {
+                  return '<div class="evt preuve">' + badge(a.certitude || 'hypothese') + ' ' +
+                    '<span style="font-size:10.5px;color:var(--color-neutral-600);text-transform:uppercase;letter-spacing:.06em">' +
+                    ech(a.type) + '</span> ' + ech(a.enonce) +
+                    (a.consequence ? '<div style="margin-top:3px;font-size:12px;color:var(--color-neutral-700)">' + ech(a.consequence) + '</div>' : '') +
+                    '</div>';
+                }).join('') + '</div>'
+              : '') +
+          '</div>';
+        }).join('')
+      : '';
+
     return '<div class="personne-carte">' +
       '<h3 class="personne-titre">' + ech(nomComplet(premier)) + '</h3>' +
       '<div class="ou" style="font-size:12px;color:var(--color-neutral-700)">Première mention : ' + ech(situer(premier)) + '</div>' +
       '<div class="chaine">' + maillons + '</div>' +
-      indices + blocEvts +
+      indices + blocEvts + blocDocs +
     '</div>';
   }
 
@@ -581,47 +644,85 @@
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (m) {
       var docs = (m && m.documents) || [];
+      indexerDocuments(docs);
+      rechercher();   // les preuves apparaissent sur les trajectoires déjà affichées
+
       if (!docs.length) {
         zoneDocs.innerHTML =
-          '<div class="avert"><strong>Aucun document versé pour l’instant</strong>' +
+          '<div class="avert"><strong>Aucun document versé pour l\u2019instant</strong>' +
           'Tout ce qui figure dans « Trajectoires » et « Événements » est calculé à partir des ' +
           'recensements seuls. Un acte de sépulture, de mariage ou de baptême verse une preuve au ' +
-          'dossier et tranche les cas que le calcul laisse ouverts — à commencer par les ' +
-          (F.comptes.liens_homonymie || 0) + ' homonymies que rien, dans les données actuelles, ne permet de départager.' +
-          '</div>' +
-          '<div class="prose"><p>La marche à suivre est décrite dans <code>documents/README.md</code>. ' +
-          'En pratique : transmettre le document — photo, transcription, ou simplement sa référence — ' +
-          'en demandant qu’il soit versé à l’annexe. La fiche sera rédigée, rattachée aux personnes ' +
-          'du recensement, et publiée.</p></div>';
+          'dossier et tranche les cas que le calcul laisse ouverts.</div>';
         return;
       }
-      zoneDocs.innerHTML = docs.map(function (d) {
-        var pers = (d.personnes || []).map(function (p) {
-          return '<li>' + ech(p.role ? p.role + ' : ' : '') + ech(p.nom) +
-                 (p.age ? ', ' + ech(p.age) + ' ans' : '') +
-                 (p.ref_personne ? ' <span style="color:var(--color-neutral-600)">(' + ech(p.ref_personne) + ')</span>' : '') +
-                 '</li>';
-        }).join('');
-        var affs = (d.affirmations || []).map(function (a) {
-          return '<div class="evt">' + badge(a.certitude || 'hypothese') + ' ' + ech(a.enonce) + '</div>';
-        }).join('');
-        return '<div class="personne-carte">' +
-          '<h3 class="personne-titre">' + ech(d.titre || d.id) + '</h3>' +
-          '<div style="font-size:12px;color:var(--color-neutral-700)">' +
-            ech(d.type || '') + (d.date ? ' · ' + ech(d.date) : '') +
-            (d.source ? ' · ' + ech(d.source) : '') + (d.cote ? ' · ' + ech(d.cote) : '') +
-          '</div>' +
-          (d.transcription ? '<p style="margin-top:var(--space-3);font-size:13px;font-style:italic">« ' + ech(d.transcription) + ' »</p>' : '') +
-          (pers ? '<div class="etiquette-section">Personnes nommées</div><ul class="motifs">' + pers + '</ul>' : '') +
-          (affs ? '<div class="etiquette-section" style="margin-top:var(--space-3)">Ce que le document établit</div><div class="liste-evts">' + affs + '</div>' : '') +
-          (d.note ? '<p style="margin-top:var(--space-3);font-size:12px;color:var(--color-neutral-700)">' + ech(d.note) + '</p>' : '') +
-        '</div>';
-      }).join('');
+
+      var nbAff = docs.reduce(function (n, d) { return n + ((d.affirmations || []).length); }, 0);
+      var nbRatt = Object.keys(docParPersonne).length;
+
+      zoneDocs.innerHTML =
+        '<div class="chiffres">' +
+          '<div class="chiffre"><b>' + ech(docs.length) + '</b><span>document(s) versé(s)</span></div>' +
+          '<div class="chiffre"><b>' + ech(nbAff) + '</b><span>faits établis</span></div>' +
+          '<div class="chiffre"><b>' + ech(nbRatt) + '</b><span>fiches de recensement rattachées</span></div>' +
+        '</div>' +
+        docs.map(rendreDocument).join('');
     })
     .catch(function () {
-      zoneDocs.innerHTML = '<div class="vide-msg">Le manifeste des documents n’a pas pu être lu ' +
+      zoneDocs.innerHTML = '<div class="vide-msg">Le manifeste des documents n\u2019a pas pu être lu ' +
         '(<code>documents/manifeste.json</code>).</div>';
     });
+
+  function rendreDocument(d) {
+    var pers = (d.personnes || []).map(function (p) {
+      var qui = personnes[p.ref_personne];
+      return '<tr>' +
+        '<td>' + ech(p.role || '') + '</td>' +
+        '<td><strong>' + ech(p.nom) + '</strong>' +
+          (p.naissance || p.deces
+            ? ' <span style="color:var(--color-neutral-600)">(' + ech(p.naissance || '?') +
+              (p.deces ? '–' + ech(p.deces) : '') + ')</span>' : '') + '</td>' +
+        '<td>' + (qui
+          ? ech(nomComplet(qui)) + ', ' + ech(qui.age || '?') + ' ans — ' + ech(situer(qui))
+          : '<span style="color:var(--color-neutral-600)">non rattachée</span>') + '</td>' +
+        '<td style="font-size:12px;color:var(--color-neutral-700)">' + ech(p.note || '') + '</td>' +
+      '</tr>';
+    }).join('');
+
+    var affs = (d.affirmations || []).map(function (a) {
+      var cibles = (a.personnes || []).map(function (id) {
+        var q = personnes[id];
+        return q ? ech(nomComplet(q)) + ' (' + ech(q.annee) + ')' : ech(id);
+      }).join(' · ');
+      return '<div class="evt preuve">' +
+        '<div class="evt-tete">' + badge(a.certitude || 'hypothese') +
+          '<span style="font-size:10.5px;color:var(--color-neutral-600);text-transform:uppercase;letter-spacing:.06em">' +
+          ech(a.type) + '</span>' +
+          (a.date ? '<span style="font-size:11px;color:var(--color-neutral-600)">' + ech(a.date) + '</span>' : '') +
+        '</div>' +
+        '<div style="margin-top:3px">' + ech(a.enonce) + '</div>' +
+        (cibles ? '<div style="margin-top:3px;font-size:11.5px;color:var(--color-neutral-600)">' + cibles + '</div>' : '') +
+        (a.consequence ? '<div style="margin-top:4px;font-size:12px;color:var(--color-accent-800)">→ ' + ech(a.consequence) + '</div>' : '') +
+        (a.note ? '<div style="margin-top:3px;font-size:12px;color:var(--color-neutral-700)">' + ech(a.note) + '</div>' : '') +
+      '</div>';
+    }).join('');
+
+    return '<div class="personne-carte">' +
+      '<h3 class="personne-titre">' + ech(d.titre || d.id) + '</h3>' +
+      '<div style="font-size:12px;color:var(--color-neutral-700)">' +
+        ech(d.type || '') + (d.couvre ? ' · couvre ' + ech(d.couvre) : '') +
+        (d.source ? ' · ' + ech(d.source) : '') + (d.cote ? ' · ' + ech(d.cote) : '') +
+      '</div>' +
+      (d.fonde_sur ? '<p style="margin-top:var(--space-2);font-size:12.5px;color:var(--color-neutral-800)"><strong>Sources primaires citées :</strong> ' + ech(d.fonde_sur) + '</p>' : '') +
+      (d.nature ? '<div class="avert" style="margin-top:var(--space-2)"><strong>Ce que vaut ce document</strong>' + ech(d.nature) + '</div>' : '') +
+      (d.transcription ? '<p style="margin-top:var(--space-3);font-size:13px;font-style:italic">« ' + ech(d.transcription) + ' »</p>' : '') +
+      (affs ? '<div class="etiquette-section" style="margin-top:var(--space-3)">Ce que le document établit</div><div class="liste-evts">' + affs + '</div>' : '') +
+      (pers ? '<div class="etiquette-section" style="margin-top:var(--space-4)">Personnes nommées et rattachement au recensement</div>' +
+        '<table class="tbl"><thead><tr><th>Rôle</th><th>Nommée dans le document</th><th>Fiche de recensement</th><th>Note</th></tr></thead><tbody>' +
+        pers + '</tbody></table>' : '') +
+      (d.contexte ? '<div class="etiquette-section" style="margin-top:var(--space-3)">Contexte</div><p style="font-size:13px;color:var(--color-neutral-800);text-wrap:pretty">' + ech(d.contexte) + '</p>' : '') +
+      (d.note ? '<div class="etiquette-section" style="margin-top:var(--space-3)">Réserves</div><p style="font-size:12.5px;color:var(--color-neutral-700);text-wrap:pretty">' + ech(d.note) + '</p>' : '') +
+    '</div>';
+  }
 
   /* ─── Vue : méthode ─────────────────────────────────────────────── */
 
