@@ -1,9 +1,8 @@
 {
   "format": "documents-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-07-29",
+  "mis_a_jour": "2026-07-30",
   "note": "Index des documents historiques qui établissent des liens de filiation. Un document versé ici l'emporte toujours sur une proposition automatique de data/filiation-data.js : l'acte est une preuve, le rapprochement algorithmique n'est qu'une hypothèse. Voir documents/README.md pour la marche à suivre.",
-
   "types_admis": {
     "bapteme": "Acte de baptême — établit une filiation directe et une date de naissance",
     "mariage": "Acte de mariage — établit un couple, les parents des deux époux, et le changement de patronyme d'usage",
@@ -16,7 +15,6 @@
     "photo": "Photographie légendée",
     "autre": "Tout ce qui ne rentre pas dans les cases ci-dessus"
   },
-
   "types_affirmation": {
     "identite": "La personne A du recensement X est la même que la personne B du recensement Y — confirme ou infirme un lien de data/filiation-data.js",
     "filiation": "La personne A est l'enfant de B (et de C) — le lien de parenté proprement dit",
@@ -30,13 +28,11 @@
     "propriete": "A possédait tel bien à telle date",
     "lecture": "Le document confirme ou corrige la lecture d'un nom porté incertain au dépouillement"
   },
-
   "degres_certitude": {
     "etabli": "Le document le dit explicitement et sans ambiguïté",
     "probable": "Le document l'implique fortement, mais un point reste à vérifier",
     "hypothese": "Lecture du chercheur, à confirmer par une autre source"
   },
-
   "gabarit": {
     "_lire_ceci": "Ceci est le gabarit d'une fiche, pas un document réel. Il décrit les champs attendus ; il ne consigne aucun fait historique et ne doit jamais être compté comme une source. Copier cette structure dans « documents », remplacer chaque valeur, et supprimer la clé « _lire_ceci ».",
     "id": "identifiant court et stable, ex. « sep-1878-lee-thomas »",
@@ -61,7 +57,9 @@
       {
         "type": "une clé de types_affirmation",
         "certitude": "une clé de degres_certitude",
-        "personnes": ["identifiants de recensement concernés"],
+        "personnes": [
+          "identifiants de recensement concernés"
+        ],
         "enonce": "ce que le document établit, en une phrase",
         "confirme": "identifiant de lien ou d'événement de filiation-data.js que ce document confirme, s'il y a lieu",
         "infirme": "identifiant de lien ou d'événement que ce document contredit, s'il y a lieu"
@@ -70,7 +68,6 @@
     "note": "remarques du chercheur : difficultés de lecture, contradictions, pistes",
     "ajoute_le": "AAAA-MM-JJ"
   },
-
   "documents": [
     {
       "id": "alliances-forcade-mcready",
@@ -82,110 +79,593 @@
       "cote": "",
       "fonde_sur": "Annuaires commerciaux (Bennett's Quebec Directory 1877, annuaires de 1900 et 1907-1908) et actes de mariage des registres paroissiaux de Saint-Nicolas et Saint-Romuald.",
       "nature": "Document de seconde main : il synthétise des sources primaires qu'il cite mais ne reproduit pas. Les dates de mariage, précises au jour, proviennent manifestement des registres ; elles sont retenues comme établies. Les rattachements aux fiches de recensement, en revanche, sont l'inférence du présent projet et portent leur propre degré de certitude.",
-
       "personnes": [
-        { "role": "sujet", "nom": "Albert Forcade", "naissance": "1839", "deces": "1909", "ref_personne": "1871-D2-P018-L06",
-          "note": "Recensé à 32 ans en 1871 : l'âge donne 1839, exactement l'année de naissance du document. Menuisier au recensement, navigateur et commerçant selon la chronique et selon Bussière." },
-        { "role": "sujet", "nom": "Albert Forcade", "ref_personne": "1891-D1-P114-L15",
-          "note": "Même homme vingt ans plus tard, 50 ans déclarés. Absent du recensement de 1881." },
-        { "role": "epouse", "nom": "Rosalie Forcade", "ref_personne": "1871-D2-P018-L07",
-          "note": "Première épouse d'Albert. Le document le dit veuf en 1907." },
-        { "role": "sujet", "nom": "Robert McReady", "naissance": "1831", "deces": "1888", "ref_personne": "1871-D2-P029-L08",
-          "note": "Recensé marchand à 39 ans en 1871." },
-        { "role": "sujet", "nom": "Robert McReady", "ref_personne": "1881-D2-P018-L05",
-          "note": "50 ans déclarés en 1881 : l'âge donne 1831, exactement l'année de naissance du document. Toujours marchand." },
-        { "role": "epouse", "nom": "Éléonore Bourassa", "ref_personne": "1871-D2-P029-L09",
-          "note": "Épouse de Robert McReady, mariée en 1858 selon le document. Recensée sous le patronyme de son mari ; son nom de naissance ne figure nulle part au recensement." },
-        { "role": "epouse", "nom": "Éléonore Bourassa", "ref_personne": "1881-D2-P018-L06",
-          "note": "Transcrite « Eliennas McCready » en 1881 — graphie corrompue du prénom Éléonore." },
-        { "role": "sujet", "nom": "John McReady", "ref_personne": "1871-D2-P022-L13",
-          "note": "Frère de Robert, marchand à New-Liverpool en 1877 selon l'annuaire cité." },
-        { "role": "epouse", "nom": "Rose Delima Forcade", "ref_personne": "1871-D2-P022-L14",
-          "note": "Portée « Délima [?] Macready » au dépouillement de 1871, lecture marquée incertaine. Le document donne son nom complet et sa filiation ; le recensement de 1881 la nomme « Rose Delina », ce qui corrobore indépendamment." },
-        { "role": "epouse", "nom": "Rose Delima Forcade", "ref_personne": "1881-D2-P018-L07",
-          "note": "Recensée « Rose Delina McCready » à 57 ans." },
-        { "role": "epouse", "nom": "Marie Emma McReady", "naissance": "1874", "ref_personne": "1881-D2-P018-L13",
-          "note": "Recensée « Emma McCready », 7 ans, chez Robert McCready en 1881. Le document la dit âgée de 33 ans à son mariage de 1907, soit née en 1874 : l'âge concorde exactement." }
+        {
+          "role": "sujet",
+          "nom": "Albert Forcade",
+          "naissance": "1839",
+          "deces": "1909",
+          "ref_personne": "1871-D2-P018-L06",
+          "note": "Recensé à 32 ans en 1871 : l'âge donne 1839, exactement l'année de naissance du document. Menuisier au recensement, navigateur et commerçant selon la chronique et selon Bussière."
+        },
+        {
+          "role": "sujet",
+          "nom": "Albert Forcade",
+          "ref_personne": "1891-D1-P114-L15",
+          "note": "Même homme vingt ans plus tard, 50 ans déclarés. Absent du recensement de 1881."
+        },
+        {
+          "role": "epouse",
+          "nom": "Rosalie Forcade",
+          "ref_personne": "1871-D2-P018-L07",
+          "note": "Première épouse d'Albert. Le document le dit veuf en 1907."
+        },
+        {
+          "role": "sujet",
+          "nom": "Robert McReady",
+          "naissance": "1831",
+          "deces": "1888",
+          "ref_personne": "1871-D2-P029-L08",
+          "note": "Recensé marchand à 39 ans en 1871."
+        },
+        {
+          "role": "sujet",
+          "nom": "Robert McReady",
+          "ref_personne": "1881-D2-P018-L05",
+          "note": "50 ans déclarés en 1881 : l'âge donne 1831, exactement l'année de naissance du document. Toujours marchand."
+        },
+        {
+          "role": "epouse",
+          "nom": "Éléonore Bourassa",
+          "ref_personne": "1871-D2-P029-L09",
+          "note": "Épouse de Robert McReady, mariée en 1858 selon le document. Recensée sous le patronyme de son mari ; son nom de naissance ne figure nulle part au recensement."
+        },
+        {
+          "role": "epouse",
+          "nom": "Éléonore Bourassa",
+          "ref_personne": "1881-D2-P018-L06",
+          "note": "Transcrite « Eliennas McCready » en 1881 — graphie corrompue du prénom Éléonore."
+        },
+        {
+          "role": "sujet",
+          "nom": "John McReady",
+          "ref_personne": "1871-D2-P022-L13",
+          "note": "Frère de Robert, marchand à New-Liverpool en 1877 selon l'annuaire cité."
+        },
+        {
+          "role": "epouse",
+          "nom": "Rose Delima Forcade",
+          "ref_personne": "1871-D2-P022-L14",
+          "note": "Portée « Délima [?] Macready » au dépouillement de 1871, lecture marquée incertaine. Le document donne son nom complet et sa filiation ; le recensement de 1881 la nomme « Rose Delina », ce qui corrobore indépendamment."
+        },
+        {
+          "role": "epouse",
+          "nom": "Rose Delima Forcade",
+          "ref_personne": "1881-D2-P018-L07",
+          "note": "Recensée « Rose Delina McCready » à 57 ans."
+        },
+        {
+          "role": "epouse",
+          "nom": "Marie Emma McReady",
+          "naissance": "1874",
+          "ref_personne": "1881-D2-P018-L13",
+          "note": "Recensée « Emma McCready », 7 ans, chez Robert McCready en 1881. Le document la dit âgée de 33 ans à son mariage de 1907, soit née en 1874 : l'âge concorde exactement."
+        }
       ],
-
       "affirmations": [
-        { "type": "lecture", "certitude": "etabli",
-          "personnes": ["1871-D2-P022-L14"],
+        {
+          "type": "lecture",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P022-L14"
+          ],
           "enonce": "La lecture « Délima [?] » de 1871, portée incertaine au dépouillement, se lit Rose Delima Forcade. Le recensement de 1881 la nomme « Rose Delina », ce qui confirme la lecture par une seconde voie.",
-          "consequence": "Le drapeau d'incertitude peut être levé sur cette fiche." },
-
-        { "type": "nom_de_naissance", "certitude": "etabli",
-          "personnes": ["1871-D2-P022-L14", "1881-D2-P018-L07"],
+          "consequence": "Le drapeau d'incertitude peut être levé sur cette fiche."
+        },
+        {
+          "type": "nom_de_naissance",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P022-L14",
+            "1881-D2-P018-L07"
+          ],
           "enonce": "Rose Delima, épouse de John McReady, est née Forcade. Elle est la sœur d'Albert Forcade.",
-          "consequence": "Sans cette information, rien au recensement ne rattache cette femme à la famille Forcade : elle y figure sous le seul patronyme de son mari." },
-
-        { "type": "nom_de_naissance", "certitude": "etabli",
-          "personnes": ["1871-D2-P029-L09", "1881-D2-P018-L06"],
-          "enonce": "Éléonore, épouse de Robert McReady, est née Bourassa. Mariage célébré en 1858." },
-
-        { "type": "fratrie", "certitude": "etabli",
-          "personnes": ["1871-D2-P018-L06", "1871-D2-P022-L14"],
+          "consequence": "Sans cette information, rien au recensement ne rattache cette femme à la famille Forcade : elle y figure sous le seul patronyme de son mari."
+        },
+        {
+          "type": "nom_de_naissance",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P029-L09",
+            "1881-D2-P018-L06"
+          ],
+          "enonce": "Éléonore, épouse de Robert McReady, est née Bourassa. Mariage célébré en 1858."
+        },
+        {
+          "type": "fratrie",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P018-L06",
+            "1871-D2-P022-L14"
+          ],
           "enonce": "Rose Delima Forcade est la sœur d'Albert Forcade.",
-          "consequence": "Lien latéral entre deux ménages distincts du recensement de 1871 — la maison 43 et la maison 58 — qu'aucun rapprochement fondé sur la seule identité individuelle ne peut établir." },
-
-        { "type": "mariage", "certitude": "etabli", "date": "1843-02-08",
-          "personnes": ["1871-D2-P022-L13", "1871-D2-P022-L14"],
-          "enonce": "John McReady épouse Rose Delima Forcade le 8 février 1843 à Saint-Nicolas. Première alliance entre les deux fratries." },
-
-        { "type": "mariage", "certitude": "etabli", "date": "1848-01-11",
+          "consequence": "Lien latéral entre deux ménages distincts du recensement de 1871 — la maison 43 et la maison 58 — qu'aucun rapprochement fondé sur la seule identité individuelle ne peut établir."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1843-02-08",
+          "personnes": [
+            "1871-D2-P022-L13",
+            "1871-D2-P022-L14"
+          ],
+          "enonce": "John McReady épouse Rose Delima Forcade le 8 février 1843 à Saint-Nicolas. Première alliance entre les deux fratries."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1848-01-11",
           "personnes": [],
           "enonce": "Henry McReady fils épouse Marie Élisabeth Forcade, autre sœur d'Albert, le 11 janvier 1848. Deuxième alliance entre les deux fratries.",
-          "note": "Ce couple n'a pas été retrouvé dans les recensements dépouillés — rattachement à faire." },
-
-        { "type": "mariage", "certitude": "etabli", "date": "1907-09-10",
-          "personnes": ["1891-D1-P114-L15", "1881-D2-P018-L13"],
+          "note": "Ce couple n'a pas été retrouvé dans les recensements dépouillés — rattachement à faire."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1907-09-10",
+          "personnes": [
+            "1891-D1-P114-L15",
+            "1881-D2-P018-L13"
+          ],
           "enonce": "Albert Forcade, veuf âgé de 68 ans, épouse en secondes noces Marie Emma McReady, 33 ans, fille de feu Robert McReady et d'Éléonore Bourassa, le 10 septembre 1907 à Saint-Romuald.",
-          "consequence": "Alliance croisée : Albert devient le gendre de Robert McReady alors qu'il était déjà le beau-frère de ses deux frères John et Henry fils, mariés à ses propres sœurs dans les années 1840." },
-
-        { "type": "deces", "certitude": "etabli", "date": "1888",
-          "personnes": ["1881-D2-P018-L05"],
+          "consequence": "Alliance croisée : Albert devient le gendre de Robert McReady alors qu'il était déjà le beau-frère de ses deux frères John et Henry fils, mariés à ses propres sœurs dans les années 1840."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1888",
+          "personnes": [
+            "1881-D2-P018-L05"
+          ],
           "enonce": "Robert McReady meurt en 1888.",
-          "consequence": "Explique sa disparition entre le recensement de 1881 et celui de 1891, que l'analyse automatique ne pouvait pas distinguer d'un départ de la paroisse." },
-
-        { "type": "deces", "certitude": "etabli", "date": "1909",
-          "personnes": ["1891-D1-P114-L15"],
-          "enonce": "Albert Forcade meurt en 1909." },
-
-        { "type": "filiation", "certitude": "etabli",
-          "personnes": ["1871-D2-P018-L06"],
-          "enonce": "Albert Forcade est le fils de Joseph Ange Forcade et de Théotiste Desrochers." },
-
-        { "type": "filiation", "certitude": "etabli",
-          "personnes": ["1871-D2-P029-L08"],
-          "enonce": "Robert McReady est le fils d'Henry McReady et d'Emilie Casey. John McReady et Henry McReady fils sont ses frères." },
-
-        { "type": "filiation", "certitude": "etabli",
-          "personnes": ["1881-D2-P018-L13"],
-          "enonce": "Marie Emma McReady est la fille cadette de Robert McReady et d'Éléonore Bourassa." },
-
-        { "type": "fonction", "certitude": "etabli", "date": "1874-1892",
-          "personnes": ["1871-D2-P018-L06", "1891-D1-P114-L15"],
+          "consequence": "Explique sa disparition entre le recensement de 1881 et celui de 1891, que l'analyse automatique ne pouvait pas distinguer d'un départ de la paroisse."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1909",
+          "personnes": [
+            "1891-D1-P114-L15"
+          ],
+          "enonce": "Albert Forcade meurt en 1909."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P018-L06"
+          ],
+          "enonce": "Albert Forcade est le fils de Joseph Ange Forcade et de Théotiste Desrochers."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P029-L08"
+          ],
+          "enonce": "Robert McReady est le fils d'Henry McReady et d'Emilie Casey. John McReady et Henry McReady fils sont ses frères."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1881-D2-P018-L13"
+          ],
+          "enonce": "Marie Emma McReady est la fille cadette de Robert McReady et d'Éléonore Bourassa."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-1892",
+          "personnes": [
+            "1871-D2-P018-L06",
+            "1891-D1-P114-L15"
+          ],
           "enonce": "Albert Forcade est maître de poste de New-Liverpool pendant près de vingt ans, entre 1874 et 1892. L'annuaire Bennett's Quebec Directory de 1877 le répertorie comme Postmaster.",
-          "consequence": "Recoupe la notice de Bussière sur le 1604, chemin du Fleuve : « Albert Forcade, navigateur — magasin général et bureau de poste, 1870-1892 »." },
-
-        { "type": "fonction", "certitude": "etabli", "date": "1887-1889",
-          "personnes": ["1891-D1-P114-L15"],
-          "enonce": "Albert Forcade est maire de la municipalité de Saint-Romuald d'Etchemin, mandat de 1887 à 1889." },
-
-        { "type": "fonction", "certitude": "etabli", "date": "1877",
-          "personnes": ["1871-D2-P029-L08", "1881-D2-P018-L05"],
-          "enonce": "Robert McReady exploite le principal magasin général de New-Liverpool, attesté par l'annuaire commercial de 1877. Son frère John y est listé à ses côtés comme commerçant." },
-
-        { "type": "fonction", "certitude": "probable", "date": "1900-1908",
+          "consequence": "Recoupe la notice de Bussière sur le 1604, chemin du Fleuve : « Albert Forcade, navigateur — magasin général et bureau de poste, 1870-1892 »."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1887-1889",
+          "personnes": [
+            "1891-D1-P114-L15"
+          ],
+          "enonce": "Albert Forcade est maire de la municipalité de Saint-Romuald d'Etchemin, mandat de 1887 à 1889."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1877",
+          "personnes": [
+            "1871-D2-P029-L08",
+            "1881-D2-P018-L05"
+          ],
+          "enonce": "Robert McReady exploite le principal magasin général de New-Liverpool, attesté par l'annuaire commercial de 1877. Son frère John y est listé à ses côtés comme commerçant."
+        },
+        {
+          "type": "fonction",
+          "certitude": "probable",
+          "date": "1900-1908",
           "personnes": [],
           "enonce": "Honoré McReady succède à Albert Forcade comme maître de poste de New-Liverpool vers 1900 et conserve la charge en 1907-1908 ; Johnny McReady est élu conseiller municipal en 1900.",
-          "note": "Ces deux hommes ne sont pas rattachés aux recensements — ils appartiennent à la génération suivante, postérieure à 1891." }
+          "note": "Ces deux hommes ne sont pas rattachés aux recensements — ils appartiennent à la génération suivante, postérieure à 1891."
+        }
       ],
-
       "contexte": "New-Liverpool, dans la paroisse de Saint-Romuald d'Etchemin, comptait environ 600 habitants dans les années 1870. Le commerce du bois et la proximité du Grand Tronc en faisaient une plaque tournante de la rive sud. Dans un village de cette taille, le maître de poste et le marchand général sont les deux visages de l'autorité économique et civique : Albert Forcade et Robert McReady tenaient l'un et l'autre, et leurs établissements étaient voisins.",
-
       "note": "Document de seconde main dont les sources primaires — annuaires et registres — n'ont pas été consultées directement. Les dates de mariage précises au jour sont retenues comme établies ; elles gagneraient à être confirmées sur les registres de Saint-Nicolas (1843, 1848) et de Saint-Romuald (1907). Deux personnes citées restent à rattacher : Henry McReady fils et Marie Élisabeth Forcade, mariés en 1848.",
       "ajoute_le": "2026-07-29"
+    },
+    {
+      "id": "familysearch-albert-forcade",
+      "type": "autre",
+      "titre": "Albert Forcade — Arbre généalogique FamilySearch (via MyHeritage)",
+      "date": "2026",
+      "source": "FamilySearch, compilation via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'arbre généalogique en ligne, non un acte primaire. Donne des dates précises (jour/mois/année) pour la naissance, les mariages et le décès, à vérifier aux registres paroissiaux le jour où ils seront consultés directement.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Albert Forcade",
+          "naissance": "1839-07-03",
+          "deces": "1909-07-29",
+          "ref_personne": "1871-D2-P018-L06",
+          "note": "Naissance le 3 juillet 1839 à Québec ; décès le 29 juillet 1909 à Saint-Romuald, inhumé le 2 août 1909."
+        },
+        {
+          "role": "epouse",
+          "nom": "Rosalie Tardif",
+          "ref_personne": "1871-D2-P018-L07",
+          "note": "Nom de naissance de la première épouse d'Albert, recensée « Rosalie Forcade ». Mariage le 16 mai 1864 à Saint-Romuald, Lévis."
+        },
+        {
+          "role": "epouse",
+          "nom": "Marie Emma McReady",
+          "ref_personne": "1881-D2-P018-L13",
+          "note": "Seconde épouse, mariage le 10 septembre 1907 — date déjà connue par la chronique alliances-forcade-mcready."
+        },
+        {
+          "role": "pere",
+          "nom": "Joseph Ange Forcade"
+        },
+        {
+          "role": "mere",
+          "nom": "Théotiste Forcade (née Desrochers)"
+        },
+        {
+          "role": "soeur",
+          "nom": "Rose Delima McReady (née Forcade)",
+          "ref_personne": "1871-D2-P022-L14",
+          "note": "Confirme le lien de fratrie déjà établi par la chronique alliances-forcade-mcready."
+        },
+        {
+          "role": "frere",
+          "nom": "Louis Forcade"
+        },
+        {
+          "role": "soeur",
+          "nom": "Marie Theotiste Forcade"
+        },
+        {
+          "role": "soeur",
+          "nom": "Marie Elise Lessard (née Forcade)"
+        },
+        {
+          "role": "soeur",
+          "nom": "Marie Emilie Lemieux (née Forcade)"
+        },
+        {
+          "role": "soeur",
+          "nom": "Marie Olive Lessard (née Forcade)"
+        },
+        {
+          "role": "soeur",
+          "nom": "Marie Tarsille Forcade"
+        },
+        {
+          "role": "frere",
+          "nom": "Joseph Forcade"
+        },
+        {
+          "role": "soeur",
+          "nom": "Marie Élisabeth McReady (née Forcade)"
+        },
+        {
+          "role": "soeur",
+          "nom": "Marie Caroline Forcade"
+        },
+        {
+          "role": "soeur",
+          "nom": "Sarah Desruisseaux (née Forcade)"
+        },
+        {
+          "role": "soeur",
+          "nom": "Eleonore Dallaire (née Forcade)"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "naissance",
+          "certitude": "probable",
+          "date": "1839-07-03",
+          "personnes": [
+            "1871-D2-P018-L06"
+          ],
+          "enonce": "Albert Forcade naît le 3 juillet 1839 à Québec.",
+          "consequence": "1871 − 1839 = 32 ans, exactement l'âge porté au recensement de 1871 — concordance exacte."
+        },
+        {
+          "type": "deces",
+          "certitude": "probable",
+          "date": "1909-07-29",
+          "personnes": [
+            "1871-D2-P018-L06",
+            "1891-D1-P114-L15"
+          ],
+          "enonce": "Albert Forcade meurt le 29 juillet 1909 à Saint-Romuald, inhumé le 2 août."
+        },
+        {
+          "type": "mariage",
+          "certitude": "probable",
+          "date": "1864-05-16",
+          "personnes": [
+            "1871-D2-P018-L06",
+            "1871-D2-P018-L07"
+          ],
+          "enonce": "Albert Forcade épouse Rosalie Tardif le 16 mai 1864 à Saint-Romuald, Lévis.",
+          "note": "Une seconde source (myheritage-albert-forcade-papineau) donne le 13 mai 1864 pour le même mariage — écart de trois jours entre les deux compilations, à trancher par l'acte paroissial original."
+        },
+        {
+          "type": "nom_de_naissance",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P018-L07"
+          ],
+          "enonce": "La première épouse d'Albert Forcade, recensée « Rosalie Forcade », est née Rosalie Tardif."
+        },
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P018-L06"
+          ],
+          "enonce": "Résidences successives attestées : Etchemin en 1871, Saint-Romuald/Lévis en 1881, St-Romuald d'Étchemin en 1891, Bellechasse au 31 mars 1901."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-1892",
+          "personnes": [
+            "1871-D2-P018-L06"
+          ],
+          "enonce": "Navigateur, maître de poste et commerçant à New-Liverpool, Saint-Romuald d'Etchemin, entre 1874 et 1892 — corrobore alliances-forcade-mcready."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1887-1889",
+          "personnes": [
+            "1871-D2-P018-L06"
+          ],
+          "enonce": "Maire de Saint-Romuald d'Etchemin entre 1887 et 1889 — corrobore alliances-forcade-mcready."
+        }
+      ],
+      "note": "Complète alliances-forcade-mcready avec des dates précises et le nom de naissance de la première épouse d'Albert, jusqu'ici connue seulement comme « Rosalie Forcade ». Les frères et sœurs listés au-delà de Rose Delima et Louis n'ont pas été recherchés dans les recensements dépouillés, faute de temps — à reprendre.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "myheritage-albert-forcade-papineau",
+      "type": "autre",
+      "titre": "Albert Forcade — Arbre généalogique MyHeritage (Famille Papineau, Jean-Pierre Papineau)",
+      "date": "2026",
+      "source": "Site « Famille Papineau », gestionnaire Jean-Pierre Papineau, via MyHeritage",
+      "cote": "",
+      "nature": "Seconde compilation généalogique indépendante de la première (familysearch-albert-forcade). Sert surtout de recoupement : mêmes deux mariages, mêmes parents, un écart mineur de date.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Albert Forcade",
+          "ref_personne": "1871-D2-P018-L06"
+        },
+        {
+          "role": "epouse",
+          "nom": "Rosalie Forcade (née Tardif)",
+          "ref_personne": "1871-D2-P018-L07"
+        },
+        {
+          "role": "epouse",
+          "nom": "Emma Forcade (née McReady)",
+          "ref_personne": "1881-D2-P018-L13"
+        },
+        {
+          "role": "pere",
+          "nom": "Joseph-ange Forcade"
+        },
+        {
+          "role": "mere",
+          "nom": "Théotiste Forcade (née Desrochers)"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "probable",
+          "date": "1864-05-13",
+          "personnes": [
+            "1871-D2-P018-L06",
+            "1871-D2-P018-L07"
+          ],
+          "enonce": "Mariage avec Rosalie Forcade (née Tardif) le 13 mai 1864 à St-Romuald, Lévis.",
+          "note": "Écart de trois jours avec familysearch-albert-forcade (16 mai) — deux compilations indépendantes du même événement, aucune ne cite l'acte lui-même."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1907-09-10",
+          "personnes": [
+            "1891-D1-P114-L15",
+            "1881-D2-P018-L13"
+          ],
+          "enonce": "Mariage avec Emma Forcade (née McReady) le 10 sept 1907 à St-Romuald, Lévis — concorde exactement avec alliances-forcade-mcready et familysearch-albert-forcade."
+        },
+        {
+          "type": "deces",
+          "certitude": "hypothese",
+          "date": "avant 1911",
+          "personnes": [
+            "1871-D2-P018-L06"
+          ],
+          "enonce": "Décès situé « avant 1911 » — moins précis que familysearch-albert-forcade (29 juillet 1909), mais cohérent avec cette date."
+        }
+      ],
+      "note": "Deux sources indépendantes pour la même paire de mariages est une corroboration utile, même avec un léger écart de date sur le premier. Rien ici ne contredit familysearch-albert-forcade sur le fond.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "acte-mariage-alfred-demers-1898",
+      "type": "mariage",
+      "titre": "Mariage d'Alfred Demers et Balzemine Cadorette, 1898",
+      "date": "1898-08-01",
+      "source": "Canada, Quebec Marriages 1820-1917, via MyHeritage",
+      "cote": "",
+      "nature": "Extrait d'un registre de mariages numérisé — la vignette du document montre l'acte manuscrit original, plus proche d'une source primaire que les compilations d'arbres.",
+      "personnes": [
+        {
+          "role": "epoux",
+          "nom": "Alfred Demers",
+          "age": "",
+          "ref_personne": "1891-D1-P123-L10",
+          "note": "3 ans en 1881 (m. 102), 14 ans en 1891 (m. 543) — cohérent avec un mariage à ~20 ans en 1898."
+        },
+        {
+          "role": "pere",
+          "nom": "Louis Demers",
+          "ref_personne": "1891-D1-P123-L05"
+        },
+        {
+          "role": "mere",
+          "nom": "Leocardie Beaudoin",
+          "ref_personne": "1891-D1-P123-L06",
+          "note": "Recensée « Léocadie Demers » (nom d'usage) en 1871, 1881 et 1891 ; l'acte donne son nom de naissance, Beaudoin."
+        },
+        {
+          "role": "epouse",
+          "nom": "Balzemine Cadorette"
+        },
+        {
+          "role": "pere",
+          "nom": "Léon Cadorette"
+        },
+        {
+          "role": "mere",
+          "nom": "Angèle Cadorette"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1898-08-01",
+          "personnes": [
+            "1891-D1-P123-L10"
+          ],
+          "enonce": "Alfred Demers épouse Balzemine Cadorette le 1er août 1898, en l'église Saint-Romuald-d'Etchemin."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1891-D1-P123-L05",
+            "1891-D1-P123-L06",
+            "1891-D1-P123-L10"
+          ],
+          "enonce": "Alfred Demers est le fils de Louis Demers et de Leocardie Beaudoin."
+        },
+        {
+          "type": "nom_de_naissance",
+          "certitude": "etabli",
+          "personnes": [
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "Léocadie Demers, épouse de Louis Demers, est née Beaudoin."
+        }
+      ],
+      "note": "Rattache la famille Louis Demers / Léocadie Beaudoin (1871-D2-P031, 1881-D2-P025, 1891-D1-P123) à ses enfants adultes mariés. Voir aussi acte-mariage-alphonse-demers-1908, même couple parental.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "acte-mariage-alphonse-demers-1908",
+      "type": "mariage",
+      "titre": "Mariage d'Alphonse Demers et Éléonore Roberge, 1908",
+      "date": "1908-06-15",
+      "source": "Couples du Canada et du Québec, via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'acte de mariage, sans image jointe cette fois — moins directement vérifiable que acte-mariage-alfred-demers-1898.",
+      "personnes": [
+        {
+          "role": "epoux",
+          "nom": "Alphonse Demers",
+          "ref_personne": "1891-D1-P123-L13",
+          "note": "3 ans en 1891 — cohérent avec un mariage à ~20 ans en 1908. Absent des recensements de 1871 et 1881, né entre 1881 et 1891."
+        },
+        {
+          "role": "pere",
+          "nom": "Louis Demers",
+          "ref_personne": "1891-D1-P123-L05"
+        },
+        {
+          "role": "mere",
+          "nom": "Léocadie Beaudoin",
+          "ref_personne": "1891-D1-P123-L06"
+        },
+        {
+          "role": "epouse",
+          "nom": "Éléonore Roberge",
+          "note": "Non rattachée à une fiche de recensement, faute de temps."
+        },
+        {
+          "role": "pere",
+          "nom": "David Roberge"
+        },
+        {
+          "role": "mere",
+          "nom": "Éléonore Hélène Couture"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "probable",
+          "date": "1908-06-15",
+          "personnes": [
+            "1891-D1-P123-L13"
+          ],
+          "enonce": "Alphonse Demers épouse Éléonore Roberge le 15 juin 1908 à Saint-Romuald."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1891-D1-P123-L05",
+            "1891-D1-P123-L06",
+            "1891-D1-P123-L13"
+          ],
+          "enonce": "Alphonse Demers est le fils de Louis Demers et de Léocadie Beaudoin — même couple parental qu'Alfred Demers (acte-mariage-alfred-demers-1898)."
+        }
+      ],
+      "note": "Corrige une confusion de l'ancienne fiche « 1616, chemin du Fleuve » (retirée du site), qui donnait Éléonore (Roberge) comme épouse de Louis Demers lui-même plutôt que de son fils Alphonse, et Léocadie Beaudoin comme une simple colistée plutôt que comme l'épouse de Louis. Éléonore Roberge reste à rattacher à une fiche de recensement.",
+      "ajoute_le": "2026-07-30"
     }
   ]
 }
