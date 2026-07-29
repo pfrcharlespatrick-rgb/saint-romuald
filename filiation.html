@@ -45,6 +45,10 @@
   .conf-faible { background: var(--color-neutral-200); color: var(--color-neutral-800); }
   .conf-indicative { background: var(--color-neutral-100); color: var(--color-neutral-700); }
   .conf-etabli { background: var(--color-accent-700); color: var(--color-accent-100); }
+  .conf-confirme { background: var(--color-accent-700); color: var(--color-accent-100); }
+  .conf-rejete { background: var(--color-neutral-300); color: var(--color-neutral-800); text-decoration: line-through; }
+  .actions-lien { display: flex; gap: 4px; margin-top: 5px; flex-wrap: wrap; }
+  .actions-lien .btn { font-size: 11px; padding: 2px 7px; }
 
   .chaine { display: flex; align-items: stretch; gap: 0; flex-wrap: wrap; margin: var(--space-3) 0; }
   .maillon {
@@ -254,9 +258,128 @@
     });
   });
 
-  /* Chaînes de trajectoire : id -> lien sortant, id -> lien entrant. */
-  var sortant = Object.create(null), entrant = Object.create(null);
-  F.liens.forEach(function (l) { sortant[l.de] = l; entrant[l.vers] = l; });
+  /* Position (annee|division|page|ligne) -> identifiant de personne. Sert à
+     résoudre un lien saisi dans la base de données (qui ne connaît que la
+     position au manuscrit, pas l'identifiant interne) vers une fiche réelle. */
+  var personneParPosition = Object.create(null);
+  for (var pid in personnes) {
+    var pp = personnes[pid];
+    personneParPosition[pp.annee + '|' + pp.division + '|' + pp.page_ms + '|' + pp.ligne] = pid;
+  }
+
+  /* ─── Validation : la base de données et Filiations partagent le même
+     navigateur, donc le même localStorage. Confirmer un rapprochement ici
+     l'écrit dans « suivi-liens », exactement la structure que la base de
+     données utilise déjà pour ses liens entre recensements — pas de système
+     parallèle. Et un lien ajouté à la main dans la base de données est relu
+     ici au chargement : le sens inverse marche par le même mécanisme. ───── */
+
+  function chargerLiensUtilisateur() {
+    try { return JSON.parse(localStorage.getItem('suivi-liens') || '{}'); }
+    catch (e) { return {}; }
+  }
+  function sauverLiensUtilisateur(v) {
+    try { localStorage.setItem('suivi-liens', JSON.stringify(v)); } catch (e) {}
+  }
+  function chargerRejets() {
+    try { return JSON.parse(localStorage.getItem('suivi-filiation-rejets') || '{}'); }
+    catch (e) { return {}; }
+  }
+  function sauverRejets(v) {
+    try { localStorage.setItem('suivi-filiation-rejets', JSON.stringify(v)); } catch (e) {}
+  }
+  function clePaire(deId, versId) { return deId + '__' + versId; }
+
+  /** Un lien de suivi-liens[deId] qui vise la personne `apres`, s'il existe. */
+  function trouverLienUtilisateur(deId, apres) {
+    var liste = LIENS_UTIL[deId] || [];
+    for (var i = 0; i < liste.length; i++) {
+      var l = liste[i];
+      if (String(l.annee) === String(apres.annee) && String(l.division || '') === String(apres.division || '')
+        && String(l.page || '') === String(apres.page_ms || '') && String(l.ligne || '') === String(apres.ligne || '')) {
+        return { entree: l, index: i };
+      }
+    }
+    return null;
+  }
+
+  /** confirme | rejete | calcule — pour un lien (calculé ou ajouté à la main). */
+  function statutLien(l) {
+    if (REJETS[clePaire(l.de, l.vers)]) return 'rejete';
+    var apres = personnes[l.vers];
+    if (apres && trouverLienUtilisateur(l.de, apres)) return 'confirme';
+    return 'calcule';
+  }
+
+  function confirmerLien(l) {
+    var avant = personnes[l.de], apres = personnes[l.vers];
+    if (!avant || !apres) return;
+    if (trouverLienUtilisateur(l.de, apres)) return; // déjà confirmé
+    var liste = (LIENS_UTIL[l.de] || []).concat([{
+      relation: 'Suivi (Filiations)', annee: apres.annee, division: apres.division,
+      page: apres.page_ms, ligne: apres.ligne, nom: nomComplet(apres),
+      note: 'Rapprochement confirmé depuis l’annexe des filiations, confiance ' + l.confiance + '.'
+    }]);
+    LIENS_UTIL = Object.assign({}, LIENS_UTIL); LIENS_UTIL[l.de] = liste;
+    sauverLiensUtilisateur(LIENS_UTIL);
+    delete REJETS[clePaire(l.de, l.vers)]; sauverRejets(REJETS);
+    reconstruireLiensEffectifs();
+  }
+
+  function annulerConfirmation(l) {
+    var apres = personnes[l.vers];
+    if (!apres) return;
+    var trouve = trouverLienUtilisateur(l.de, apres);
+    if (!trouve) return;
+    var liste = (LIENS_UTIL[l.de] || []).filter(function (_, i) { return i !== trouve.index; });
+    LIENS_UTIL = Object.assign({}, LIENS_UTIL);
+    if (liste.length) LIENS_UTIL[l.de] = liste; else delete LIENS_UTIL[l.de];
+    sauverLiensUtilisateur(LIENS_UTIL);
+    reconstruireLiensEffectifs();
+  }
+
+  function ecarterLien(l) {
+    REJETS = Object.assign({}, REJETS); REJETS[clePaire(l.de, l.vers)] = true;
+    sauverRejets(REJETS);
+    annulerConfirmation(l);
+    reconstruireLiensEffectifs();
+  }
+
+  function retablirLien(l) {
+    REJETS = Object.assign({}, REJETS); delete REJETS[clePaire(l.de, l.vers)];
+    sauverRejets(REJETS);
+    reconstruireLiensEffectifs();
+  }
+
+  var LIENS_UTIL = chargerLiensUtilisateur();
+  var REJETS = chargerRejets();
+
+  /* Chaînes de trajectoire : id -> lien sortant, id -> lien entrant.
+     Fusionne les rapprochements calculés avec les liens que l'utilisateur a
+     confirmés ou ajoutés à la main dans la base de données — un lien saisi là-bas,
+     entre deux personnes que le calcul n'avait pas rapprochées, apparaît ici
+     comme un maillon de confiance « confirme », le plus haut niveau. */
+  var sortant, entrant;
+  function reconstruireLiensEffectifs() {
+    // Un lien écarté reste affiché (marqué, avec un « Rétablir ») plutôt que
+    // disparaître silencieusement : la trajectoire montre où le calcul menait,
+    // même quand ce n'est pas retenu.
+    sortant = Object.create(null); entrant = Object.create(null);
+    F.liens.forEach(function (l) { sortant[l.de] = l; entrant[l.vers] = l; });
+    for (var deId in LIENS_UTIL) {
+      if (sortant[deId]) continue; // un lien calculé existe déjà pour cette personne
+      (LIENS_UTIL[deId] || []).forEach(function (l) {
+        var cle = String(l.annee || '') + '|' + String(l.division || '') + '|' + String(l.page || '') + '|' + String(l.ligne || '');
+        var versId = personneParPosition[cle];
+        if (!versId || versId === deId || entrant[versId]) return;
+        sortant[deId] = { de: deId, vers: versId, confiance: 'confirme', homonymie: false,
+          motifs: ['Lien saisi directement dans la base de données : ' + (l.relation || 'sans précision') + (l.note ? ' — ' + l.note : '')],
+          concurrents: [] };
+        entrant[versId] = sortant[deId];
+      });
+    }
+  }
+  reconstruireLiensEffectifs();
 
   /* Documents historiques, indexés par personne. Remplis quand le manifeste
      arrive : une preuve documentaire doit apparaître sur la trajectoire de la
@@ -391,8 +514,21 @@
     var maillons = chaine.map(function (m, i) {
       var p = personnes[m.id];
       if (!p) return '';
+      var statut = m.lien ? statutLien(m.lien) : null;
       var fleche = i > 0
-        ? '<div class="fleche" title="rapprochement ' + ech(m.lien.confiance) + '">→</div>' : '';
+        ? '<div class="fleche" title="rapprochement ' + ech(statut) + '">→</div>' : '';
+      var badgeEtLigne = '';
+      if (m.lien) {
+        badgeEtLigne = '<div style="margin-top:5px">' + badge(statut) + '</div>' +
+          '<div class="actions-lien" data-de="' + ech(m.lien.de) + '" data-vers="' + ech(m.lien.vers) + '">' +
+          (statut === 'calcule'
+            ? '<button type="button" class="btn btn-secondary" data-action="confirmer">Confirmer</button>' +
+              '<button type="button" class="btn btn-ghost" data-action="ecarter">Écarter</button>'
+            : statut === 'confirme'
+            ? '<button type="button" class="btn btn-ghost" data-action="annuler">Annuler la confirmation</button>'
+            : '<button type="button" class="btn btn-ghost" data-action="retablir">Rétablir</button>') +
+          '</div>';
+      }
       return fleche +
         '<div class="maillon">' +
           '<div class="an">' + ech(p.annee) + ' · division ' + ech(p.division) + '</div>' +
@@ -400,7 +536,7 @@
           '<div class="ou">' + ech(p.age ? p.age + ' ans' : 'âge inconnu') +
             (p.profession ? ' · ' + ech(p.profession) : '') + '</div>' +
           '<div class="ou">maison ' + ech(p.no_maison) + ', famille ' + ech(p.no_famille) + '</div>' +
-          (m.lien ? '<div style="margin-top:5px">' + badge(m.lien.confiance) + '</div>' : '') +
+          badgeEtLigne +
         '</div>';
     }).join('');
 
@@ -472,6 +608,18 @@
 
   champ.addEventListener('input', rechercher);
   filtreConf.addEventListener('change', rechercher);
+
+  var ACTIONS_LIEN = { confirmer: confirmerLien, ecarter: ecarterLien, annuler: annulerConfirmation, retablir: retablirLien };
+  zoneResultats.addEventListener('click', function (ev) {
+    var bouton = ev.target.closest('[data-action]');
+    if (!bouton) return;
+    var conteneur = bouton.closest('.actions-lien');
+    if (!conteneur) return;
+    var deId = conteneur.getAttribute('data-de'), versId = conteneur.getAttribute('data-vers');
+    var courant = (sortant[deId] && sortant[deId].vers === versId) ? sortant[deId] : { de: deId, vers: versId, confiance: 'calcule' };
+    var fn = ACTIONS_LIEN[bouton.getAttribute('data-action')];
+    if (fn) { fn(courant); rechercher(); }
+  });
 
   /* ─── Vue : événements ──────────────────────────────────────────── */
 
