@@ -148,7 +148,27 @@ export function clePatronyme(nom) {
   if (!brut) return '';
   // « dit X » : on garde la souche, pas le surnom.
   const sansDit = brut.split(/\bdit\b/)[0].trim() || brut;
-  return sansDit.replace(/[\s'-]/g, '');
+  let cle = sansDit.replace(/[\s'-]/g, '');
+  /* Le préfixe irlandais et écossais s'écrit indifféremment Mac, Mc, M'c ou
+     Mcc selon la main du recenseur : Robert « Macready » en 1871 est Robert
+     « McCready » en 1881. Sans cette normalisation, les deux graphies ne se
+     rencontrent jamais. On exige au moins trois lettres derrière pour ne pas
+     rabattre un patronyme qui commencerait par « Mac » sans être un Mac. */
+  cle = cle.replace(/^ma?c+(?=[a-z]{3})/, 'mc');
+  return cle;
+}
+
+/**
+ * Clés d'indexation d'un patronyme. Comparer toutes les paires coûterait des
+ * dizaines de millions d'opérations ; on regroupe donc par seau. Un seul seau
+ * (le préfixe) laisse passer les variantes qui divergent dès la première
+ * lettre, d'où un second seau fondé sur la fin du nom.
+ */
+export function clesIndex(clePat) {
+  if (!clePat) return [];
+  const cles = new Set([clePat.slice(0, 3)]);
+  if (clePat.length >= 4) cles.add('~' + clePat.slice(-4));
+  return [...cles];
 }
 
 /** Distance de Levenshtein, bornée : au-delà de `max`, renvoie max + 1. */
