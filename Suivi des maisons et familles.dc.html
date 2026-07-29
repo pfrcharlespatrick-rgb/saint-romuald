@@ -57,6 +57,7 @@ a:hover{color:var(--color-accent-900)}
         </sc-for>
       </div>
       <button type="button" class="btn {{ annexeBtnClass }}" style="padding:3px 11px;font-size:14px;white-space:nowrap" onClick="{{ onToggleAnnexe }}">Concordances{{ annexeCountSuffix }}</button>
+      <a href="./filiation.html" class="btn btn-secondary" style="padding:3px 11px;font-size:14px;white-space:nowrap;text-decoration:none">Filiations</a>
     </div>
   </div>
   <div style="max-width:1180px;margin:0 auto;padding:0 var(--space-4) var(--space-3);display:flex;align-items:center;gap:var(--space-3);flex-wrap:wrap">
@@ -1127,21 +1128,8 @@ class Component extends DCLogic {
       const annexeDetails = JSON.parse(localStorage.getItem('suivi-annexe-details') || '{}');
       const altAddresses = JSON.parse(localStorage.getItem('suivi-annexe-adresses') || '{}');
       const migres = this.migrerIdentifiants(corrections, liens);
-      let seededCustom = customEntries;
-      let seededAlt = altAddresses;
-      if (!customEntries.some(e => e.adresse === '1616, chemin du Fleuve')) {
-        const id = 'perso-1616-chemin-du-fleuve';
-        seededCustom = customEntries.concat([{
-          id, adresse: '1616, chemin du Fleuve', titre: 'Maison de Louis Demers', annee: '',
-          personnages: 'Louis Demers ; Éléonore Demers (Roberge), son épouse ; Léocadie Demers (Beaudoin) ; Alphonse Demers',
-          resume: '', source: this.SOURCE_DEFAULT
-        }]);
-        seededAlt = { ...altAddresses, [id]: ['1411, rue Commerciale'] };
-        this.save('suivi-annexe-batiments', seededCustom);
-        this.save('suivi-annexe-adresses', seededAlt);
-      }
       this.setState({ notes, corrections: migres.corrections, corrMaison, corrFamille, liens: migres.liens,
-        hypotheses, propEtat, customEntries: seededCustom, annexeDetails, altAddresses: seededAlt,
+        hypotheses, propEtat, customEntries, annexeDetails, altAddresses,
         migration: migres.rapport });
       this.loadPhotos();
     } catch (e) {}

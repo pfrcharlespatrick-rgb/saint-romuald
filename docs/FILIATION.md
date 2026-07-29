@@ -22,6 +22,44 @@ propose X, le document établit Y ».
 
 ---
 
+## Valider un rapprochement, et la synchronisation avec la base de données
+
+Chaque rapprochement affiché dans « Trajectoires » porte deux boutons :
+**Confirmer** ou **Écarter**. Ce n'est pas un système à part : confirmer un
+rapprochement l'écrit dans `suivi-liens`, exactement la structure que la base
+de données (`Suivi des maisons et familles.dc.html`) utilise déjà pour ses
+« liens vers d'autres recensements ». La base de données et l'annexe des
+filiations tournent dans le même navigateur, donc partagent le même
+`localStorage` — il n'y a pas deux mécanismes à maintenir en cohérence, il n'y
+en a qu'un.
+
+**Filiations → données.** Cliquer « Confirmer » ajoute un lien sur la fiche de
+la personne, avec la relation « Suivi (Filiations) » et une note qui rappelle
+la confiance du calcul. Il apparaît immédiatement dans la base de données, sous
+la famille concernée.
+
+**Données → Filiations.** À l'inverse, un lien que tu ajoutes à la main dans la
+base de données (bouton « Ajouter un lien » d'une famille) est relu par
+Filiations à l'ouverture de la page. S'il vise une position (année, division,
+page, ligne) qui correspond à une vraie fiche, il apparaît dans la trajectoire
+avec la confiance la plus haute — même si le calcul automatique n'avait trouvé
+aucun rapprochement à cet endroit, ou en avait proposé un autre.
+
+**Écarter** garde le rapprochement visible, marqué et barré, avec un bouton
+« Rétablir » — plutôt que de le faire disparaître silencieusement. Un
+rapprochement écarté n'est pas une correction de donnée, c'est un jugement du
+chercheur sur une proposition automatique ; il reste donc consultable comme
+tel.
+
+Techniquement : `sortant`/`entrant` (utilisés pour construire les trajectoires)
+sont reconstruits après chaque action à partir de `data/filiation-data.js`
+**et** de `suivi-liens` — c'est ce qui fait fonctionner les deux sens. Le
+rattachement d'un lien saisi à la main se fait par position exacte
+(année-division-page-ligne) ; sans ces quatre champs, le lien reste dans la
+base de données mais n'est pas repris dans Filiations.
+
+---
+
 ## Ce que le programme rapproche
 
 Quatre indices, par ordre d'importance décroissante.
@@ -249,10 +287,9 @@ calculés, et distincts d'eux.
    la liste de l'onglet Contrôles, et les 21 âges incompatibles.
 2. **Verser des actes.** Les 154 homonymies et les 4 785 disparitions attendent
    des sources. Chaque acte versé retire un cas de la zone d'incertitude.
-3. **Valider ou écarter les propositions.** Les rapprochements sont aujourd'hui
-   consultables mais non arbitrés. L'étape suivante est de pouvoir marquer un
-   lien « retenu » ou « écarté », comme les propositions de concordance
-   d'adresses le sont déjà dans l'annexe existante.
+3. ~~Valider ou écarter les propositions.~~ Fait — boutons Confirmer / Écarter
+   sur chaque rapprochement, synchronisés avec `suivi-liens` dans les deux sens
+   (voir plus haut).
 4. **Compléter la table des prénoms** (`outils/noms.mjs`) à mesure que des
    variantes non prévues apparaissent.
 5. **Relier aux concordances d'adresses.** Un ménage suivi de 1871 à 1891 et une
