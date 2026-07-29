@@ -62,20 +62,37 @@ const SEUILS = { forte: 0.80, moyenne: 0.62, faible: 0.48 };
 
 /* ─── Chargement ─────────────────────────────────────────────────────── */
 
+/* Compléments de dépouillement, chargés par-dessus les recensements. Ils ne
+   remplacent jamais une valeur attestée : ils comblent les colonnes vides ou
+   corrigent une colonne dont le contrôle de cohérence a montré qu'elle est
+   inexploitable. Voir outils/deduire-sexe.mjs. */
+const COMPLEMENTS = ['complement-sexe-1881-d2-data.js'];
+
 function chargerJeux() {
   const bac = {};
   const contexte = { window: bac };
-  for (const jeu of JEUX) {
-    for (const fichier of jeu.fichiers) {
-      const chemin = path.join(RACINE, 'data', fichier);
-      if (!fs.existsSync(chemin)) continue;
-      const source = fs.readFileSync(chemin, 'utf8');
-      // Les fichiers de données posent un objet sur `window` : on leur en fournit un.
-      const fn = new Function('window', source);
-      fn(contexte.window);
-    }
+  const fichiers = [...JEUX.flatMap(j => j.fichiers), ...COMPLEMENTS];
+  for (const fichier of fichiers) {
+    const chemin = path.join(RACINE, 'data', fichier);
+    if (!fs.existsSync(chemin)) continue;
+    const source = fs.readFileSync(chemin, 'utf8');
+    // Les fichiers de données posent un objet sur `window` : on leur en fournit un.
+    const fn = new Function('window', source);
+    fn(contexte.window);
   }
   return bac;
+}
+
+/** Index id → sexe déduit, issu des fichiers de complément. */
+function indexerSexesDeduits(bac) {
+  const index = new Map();
+  const c = bac.COMPLEMENT_SEXE_1881_D2;
+  if (c && c.deductions) {
+    for (const [id, d] of Object.entries(c.deductions)) {
+      if (d && (d.sexe === 'M' || d.sexe === 'F')) index.set(id, d.sexe);
+    }
+  }
+  return index;
 }
 
 /** Un jeu dont le sexe penche à plus de 75 % d'un côté est déclaré douteux. */
@@ -109,6 +126,7 @@ function verifierSexes(personnes) {
 function extrairePersonnes(bac) {
   const personnes = [];
   const menages = new Map();
+  const sexesDeduits = indexerSexesDeduits(bac);
 
   for (const jeu of JEUX) {
     for (const variable of jeu.variables) {
@@ -146,7 +164,10 @@ function extrairePersonnes(bac) {
               estChef,
               nom: personne.nom || '',
               prenom: personne.prenom || '',
-              sexe: personne.sexe || '',
+              // Le complément ne recouvre que ce que le jeu d'origine ne peut
+              // pas fournir de façon fiable ; le sexe attesté prime toujours.
+              sexe: sexesDeduits.get(personne.id) || personne.sexe || '',
+              sexe_deduit: sexesDeduits.has(personne.id) || undefined,
               age: ageEnAnnees(personne.age),
               ageBrut: personne.age || '',
               etat: personne.etat_matrimonial || '',
@@ -387,14 +408,70 @@ function deduireEvenements(liens, personnesAvant, personnesApres, menages, ecart
       resume: `${menageAvant.chef || 'ménage'} (${menageAvant.annee}, maison ${menageAvant.no_maison}) → maison ${menageApres.no_maison} en ${menageApres.annee} — ${liste.length} membre(s) retrouvé(s)`,
     });
 
-    // Veuvage : le chef masculin ne reparaît pas, son épouse présumée prend
-    // la tête du ménage. On exige la corroboration d'au moins deux enfants
-    // pour éviter de confondre avec un simple déménagement.
-    if (chefAvant && chefAvant.sexe === 'M' && !versApres.has(chefAvant.id) && chefApres && chefApres.sexe !== 'M') {
-      const veuve = chefApres;
-      const lienVeuve = depuisAvant.get(veuve.id);
-      const conjointeAvant = lienVeuve ? lienVeuve.avant : null;
-      if (conjointeAvant && conjointeAvant.menage === cleAvant && liste.length >= 3) {
+    /* Veuvage.
+       Un chef masculin cesse de paraître, et son épouse se retrouve dans le
+       ménage successeur : c'est la signature du veuvage. Les explications
+       concurrentes — désertion, migration de travail — laisseraient l'épouse
+       mariée, et le mari recensé ailleurs sous le même nom.
+
+       La règle ne demande pas que la veuve prenne la tête du ménage. C'est le
+       cas le plus visible, mais pas le plus fréquent : bien souvent un fils
+       devient chef et la mère demeure sous son toit — Cécile Croteau, veuve,
+       vit chez Joseph Croteau. Exiger qu'elle soit chef ferait manquer près
+       des deux tiers des cas.
+
+       Le fait est tenu pour établi. Ce qui reste inconnu, et que le résumé ne
+       prétend pas savoir, c'est la date du décès : elle tombe quelque part
+       dans l'intervalle. Un acte de sépulture versé aux documents la fixera.
+       L'état matrimonial « V » au manuscrit, quand il est porté, atteste le
+       veuvage en propre — la distinction est conservée dans `atteste`. */
+    if (chefAvant && chefAvant.sexe === 'M' && !versApres.has(chefAvant.id) && liste.length >= 2) {
+      // Épouse présumée : femme adulte du ménage d'origine, la première venue
+      // au rôle, d'un âge proche de celui du chef.
+      const epouse = menageAvant.membres
+        .map(id => ficheParId.get(id))
+        .filter(p => p && !p.estChef && p.sexe === 'F' && p.age != null && p.age >= 16
+          && chefAvant.age != null && Math.abs(p.age - chefAvant.age) <= 15)
+        .sort((a, b) => a.rang - b.rang)[0];
+
+      const lienEpouse = epouse ? versApres.get(epouse.id) : null;
+      const veuve = lienEpouse ? lienEpouse.apres : null;
+
+      /* Garde-fou contre le faux veuvage par âge erroné.
+         Si le ménage successeur est tenu par un homme qui porte le nom du chef
+         disparu, ce n'est pas une succession : c'est le même homme, que le
+         rapprochement a manqué parce que son âge est mal transcrit quelque
+         part. Le cas est réel — James Thompson est noté 25 ans en 1871 alors
+         qu'il a un fils de 12 ans, et se retrouve chef à 47 ans en 1881 avec
+         la même épouse. Déclarer sa mort serait une erreur grave, et d'autant
+         plus trompeuse qu'elle se lirait comme un fait établi.
+         On refuse donc le veuvage, et on signale l'incohérence d'âge, qui est
+         la vraie information à retenir. */
+      const homonymeAuxCommandes = chefApres && chefApres.sexe === 'M'
+        && similarPatronyme(chefApres.clePatronyme, chefAvant.clePatronyme) >= 0.85
+        && similarPrenom(chefApres.clesPrenom, chefAvant.clesPrenom) >= 0.9;
+
+      if (homonymeAuxCommandes) {
+        evenements.push({
+          type: 'age_incoherent',
+          intervalle,
+          personne: chefAvant.id,
+          personne_apres: chefApres.id,
+          menage_avant: cleAvant,
+          menage_apres: cleApres,
+          confiance: 'indicative',
+          motifs: [
+            `${chefAvant.prenom} ${chefAvant.nom} (${chefAvant.ageBrut} en ${chefAvant.annee}) n'a pas pu être rapproché de ${chefApres.prenom} ${chefApres.nom} (${chefApres.ageBrut} en ${chefApres.annee})`,
+            `les deux tiennent pourtant le même ménage, et ${liste.length} membre(s) s'y retrouvent`,
+            'la progression d\'âge est incompatible : l\'un des deux âges est vraisemblablement mal transcrit',
+          ],
+          resume: `Âge à vérifier — ${chefAvant.prenom} ${chefAvant.nom} : ${chefAvant.ageBrut} en ${chefAvant.annee}, ${chefApres.ageBrut} en ${chefApres.annee}, à la tête du même ménage`,
+        });
+      }
+
+      if (veuve && veuve.menage === cleApres && !homonymeAuxCommandes) {
+        const atteste = veuve.etat === 'V';
+        const veuveEstChef = veuve.estChef;
         evenements.push({
           type: 'veuvage',
           intervalle,
@@ -402,14 +479,21 @@ function deduireEvenements(liens, personnesAvant, personnesApres, menages, ecart
           personne_veuve: veuve.id,
           menage_avant: cleAvant,
           menage_apres: cleApres,
-          confiance: veuve.etat === 'V' ? 'forte' : 'moyenne',
+          confiance: 'forte',
+          atteste,
+          veuve_chef: veuveEstChef,
           motifs: [
             `${chefAvant.prenom} ${chefAvant.nom}, chef de ménage en ${chefAvant.annee}, ne reparaît pas en ${veuve.annee}`,
-            `${veuve.prenom} ${veuve.nom} est désormais à la tête du ménage`,
-            veuve.etat === 'V' ? 'état matrimonial « veuf/veuve » au manuscrit' : 'état matrimonial non déclaré — veuvage inféré du seul changement de chef',
-            `${liste.length} membres du ménage se retrouvent d'un recensement à l'autre`,
+            `${veuve.prenom} ${veuve.nom}, son épouse présumée, se retrouve dans le ménage`,
+            veuveEstChef
+              ? 'elle est désormais à la tête du ménage'
+              : `le ménage est tenu par ${menageApres.chef || 'un autre membre'}, chez qui elle demeure`,
+            atteste
+              ? 'état matrimonial « veuf/veuve » porté au manuscrit — le veuvage est attesté, non déduit'
+              : 'état matrimonial non porté au manuscrit ; le veuvage se déduit de la disparition du mari et du maintien de l\'épouse au foyer',
+            `${liste.length} membre(s) du ménage se retrouvent d'un recensement à l'autre`,
           ],
-          resume: `Décès probable de ${chefAvant.prenom} ${chefAvant.nom} entre ${chefAvant.annee} et ${veuve.annee} ; ${veuve.prenom} ${veuve.nom} chef de ménage`,
+          resume: `${chefAvant.prenom} ${chefAvant.nom} meurt entre ${chefAvant.annee} et ${veuve.annee} ; ${veuve.prenom} ${veuve.nom} ${veuveEstChef ? 'prend la tête du ménage' : 'demeure chez ' + (menageApres.chef || 'un proche')}`,
         });
       }
     }
@@ -537,7 +621,7 @@ function main() {
     liens_faible: liens.filter(l => l.confiance === 'faible').length,
     liens_homonymie: liens.filter(l => l.homonymie).length,
   };
-  for (const t of ['menage_continu', 'veuvage', 'essaimage', 'disparition', 'arrivee']) {
+  for (const t of ['menage_continu', 'veuvage', 'essaimage', 'disparition', 'arrivee', 'age_incoherent']) {
     comptes[t] = evenements.filter(e => e.type === t).length;
   }
 
