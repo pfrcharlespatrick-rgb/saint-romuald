@@ -1,0 +1,601 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Filiations — Saint-Romuald 1871-1891</title>
+<link rel="stylesheet" href="_ds/industry-a64db930-8bb1-41cb-8804-b46972981240/styles.css">
+
+<style>
+  body { background: var(--color-bg); }
+  .enveloppe { max-width: 1180px; margin: 0 auto; padding: 0 var(--space-4); }
+
+  header.barre {
+    background: var(--color-surface);
+    border-bottom: 2px solid var(--color-accent-900);
+    position: sticky; top: 0; z-index: 10;
+  }
+  .titre-rangee { display: flex; align-items: center; gap: var(--space-3); padding: var(--space-3) 0; flex-wrap: wrap; }
+  .plaque {
+    background: var(--color-accent-900); color: var(--color-accent-100);
+    font-family: var(--font-heading); font-size: 19px; letter-spacing: .04em;
+    padding: 5px 10px;
+  }
+  .titre-site { font-family: var(--font-heading); font-size: 17px; text-transform: uppercase; letter-spacing: .03em; }
+  .sous-titre { font-size: 11.5px; color: var(--color-neutral-700); white-space: nowrap; }
+  .onglets { display: flex; gap: var(--space-1); margin-left: auto; flex-wrap: wrap; }
+
+  .etiquette-section {
+    font-size: 10.5px; text-transform: uppercase; letter-spacing: .1em;
+    color: var(--color-neutral-700); margin-bottom: 4px;
+  }
+  h2.section {
+    font-family: var(--font-heading); font-size: 24px; margin: 0 0 var(--space-2);
+  }
+  .intro { font-size: 13.5px; color: var(--color-neutral-800); max-width: 76ch; margin: 0 0 var(--space-4); text-wrap: pretty; }
+
+  .vue { display: none; padding: var(--space-6) 0 var(--space-8); }
+  .vue.active { display: block; }
+
+  .chiffres { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--space-2); margin-bottom: var(--space-6); }
+  .chiffre { padding: 7px 10px; background: var(--color-neutral-100); border-left: 2px solid var(--color-accent-600); }
+  .chiffre b { display: block; font-family: var(--font-heading); font-size: 22px; line-height: 1.1; color: var(--color-accent-700); }
+  .chiffre span { font-size: 11.5px; color: var(--color-neutral-800); }
+
+  .conf { display: inline-flex; font-size: 10.5px; padding: 2px 7px; white-space: nowrap; letter-spacing: .02em; }
+  .conf-forte { background: var(--color-accent-200); color: var(--color-accent-900); }
+  .conf-moyenne { background: var(--color-accent-2-200); color: var(--color-accent-2-900); }
+  .conf-faible { background: var(--color-neutral-200); color: var(--color-neutral-800); }
+  .conf-indicative { background: var(--color-neutral-100); color: var(--color-neutral-700); }
+  .conf-etabli { background: var(--color-accent-700); color: var(--color-accent-100); }
+
+  .chaine { display: flex; align-items: stretch; gap: 0; flex-wrap: wrap; margin: var(--space-3) 0; }
+  .maillon {
+    flex: 1; min-width: 210px; padding: var(--space-3);
+    background: var(--color-neutral-100); border-left: 3px solid var(--color-accent-700);
+  }
+  .maillon.vide { border-left-color: var(--color-neutral-300); background: transparent; }
+  .maillon .an { font-family: var(--font-heading); font-size: 15px; color: var(--color-accent-700); }
+  .maillon .qui { font-weight: 600; font-size: 14px; margin: 2px 0; }
+  .maillon .ou { font-size: 12px; color: var(--color-neutral-700); }
+  .fleche { align-self: center; padding: 0 var(--space-2); color: var(--color-neutral-500); font-size: 18px; }
+
+  .personne-carte { border: 1px solid var(--color-divider); padding: var(--space-4); margin-bottom: var(--space-4); }
+  .personne-titre { font-family: var(--font-heading); font-size: 19px; margin: 0 0 2px; }
+  .motifs { margin: var(--space-2) 0 0; padding-left: 18px; font-size: 12px; color: var(--color-neutral-700); }
+  .motifs li { margin-bottom: 2px; }
+
+  .liste-evts { display: grid; gap: var(--space-2); }
+  .evt { padding: var(--space-2) var(--space-3); background: var(--color-neutral-100); border-left: 2px solid var(--color-accent-600); font-size: 13px; }
+  .evt.veuvage { border-left-color: var(--color-accent-2-700); }
+  .evt.essaimage { border-left-color: var(--color-accent-500); }
+  .evt-tete { display: flex; gap: var(--space-2); align-items: baseline; flex-wrap: wrap; }
+
+  .avert {
+    padding: var(--space-3); background: var(--color-accent-100);
+    border-left: 3px solid var(--color-accent-600); font-size: 13px;
+    margin-bottom: var(--space-4); max-width: 84ch; text-wrap: pretty;
+  }
+  .avert strong { display: block; font-family: var(--font-heading); font-size: 14px; margin-bottom: 3px; }
+
+  .vide-msg { padding: var(--space-4); background: var(--color-neutral-100); font-size: 13px; color: var(--color-neutral-700); }
+  .charge { padding: var(--space-8) 0; text-align: center; color: var(--color-neutral-600); font-size: 14px; }
+  .prose { max-width: 78ch; font-size: 13.5px; line-height: 1.6; text-wrap: pretty; }
+  .prose h3 { font-family: var(--font-heading); font-size: 17px; margin: var(--space-6) 0 var(--space-2); }
+  .prose code { background: var(--color-neutral-200); padding: 1px 4px; font-size: 12px; }
+  table.tbl { width: 100%; border-collapse: collapse; font-size: 13px; margin: var(--space-3) 0; }
+  table.tbl th { text-align: left; font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--color-neutral-700); padding: 6px 8px; border-bottom: 1px solid var(--color-divider); }
+  table.tbl td { padding: 6px 8px; border-bottom: 1px solid var(--color-neutral-200); vertical-align: top; }
+</style>
+
+<header class="barre">
+  <div class="enveloppe titre-rangee">
+    <span class="plaque">SR</span>
+    <div>
+      <div class="titre-site">Filiations</div>
+      <div class="sous-titre">Suivre une personne et un ménage de 1871 à 1891</div>
+    </div>
+    <nav class="onglets">
+      <a class="btn btn-secondary" href="./index.html">Accueil</a>
+      <a class="btn btn-secondary" href="./Suivi des maisons et familles.dc.html">Base de données</a>
+      <button type="button" class="btn btn-primary" data-vue="recherche">Trajectoires</button>
+      <button type="button" class="btn btn-secondary" data-vue="evenements">Événements</button>
+      <button type="button" class="btn btn-secondary" data-vue="documents">Documents</button>
+      <button type="button" class="btn btn-secondary" data-vue="methode">Méthode</button>
+    </nav>
+  </div>
+</header>
+
+<div id="chargement" class="charge">Chargement des recensements…</div>
+
+<main id="app" hidden>
+
+  <!-- ─── Trajectoires ─────────────────────────────────────────────── -->
+  <section class="vue active enveloppe" id="vue-recherche">
+    <div class="etiquette-section">Recherche</div>
+    <h2 class="section">Suivre une personne dans le temps</h2>
+    <p class="intro">
+      Cherchez un nom : chaque personne trouvée est présentée avec sa trajectoire
+      d'un recensement à l'autre, et les indices qui ont permis de la reconnaître.
+      Les rapprochements sont calculés, non prouvés — la colonne de confiance dit
+      ce qu'ils valent.
+    </p>
+
+    <div style="display:flex;gap:var(--space-3);align-items:flex-end;flex-wrap:wrap;margin-bottom:var(--space-4)">
+      <div class="field" style="flex:1;min-width:260px">
+        <label for="q">Nom, prénom ou métier</label>
+        <input class="input" id="q" placeholder="Lee, Roberge, Cantin, navigateur…" autocomplete="off">
+      </div>
+      <div class="field" style="min-width:150px">
+        <label for="filtre-conf">Confiance minimale</label>
+        <select class="input" id="filtre-conf">
+          <option value="toutes">Toutes</option>
+          <option value="moyenne">Moyenne et plus</option>
+          <option value="forte">Forte seulement</option>
+        </select>
+      </div>
+    </div>
+    <div id="resultats"></div>
+  </section>
+
+  <!-- ─── Événements ───────────────────────────────────────────────── -->
+  <section class="vue enveloppe" id="vue-evenements">
+    <div class="etiquette-section">Ce que les rapprochements révèlent</div>
+    <h2 class="section">Événements de ménage</h2>
+    <p class="intro">
+      Quand un chef de ménage cesse de paraître et que son épouse prend sa place,
+      quand un fils quitte la maison pour fonder la sienne, la comparaison de deux
+      recensements laisse une trace. Ces événements sont déduits, pas attestés :
+      un acte de sépulture ou de mariage versé aux documents les confirmera.
+    </p>
+
+    <div id="chiffres-evts" class="chiffres"></div>
+
+    <div style="display:flex;gap:var(--space-1);flex-wrap:wrap;margin-bottom:var(--space-4)">
+      <button type="button" class="btn btn-primary" data-evt="veuvage">Veuvages</button>
+      <button type="button" class="btn btn-secondary" data-evt="essaimage">Essaimages</button>
+      <button type="button" class="btn btn-secondary" data-evt="menage_continu">Ménages continus</button>
+      <button type="button" class="btn btn-secondary" data-evt="disparition">Disparitions</button>
+    </div>
+    <div id="liste-evts" class="liste-evts"></div>
+  </section>
+
+  <!-- ─── Documents ────────────────────────────────────────────────── -->
+  <section class="vue enveloppe" id="vue-documents">
+    <div class="etiquette-section">Preuves versées au dossier</div>
+    <h2 class="section">Documents historiques</h2>
+    <p class="intro">
+      Actes de baptême, de mariage, de sépulture, actes notariés, coupures de
+      presse : les pièces qui <em>établissent</em> un lien, là où l'analyse
+      automatique ne fait que le supposer. Un document versé ici l'emporte
+      toujours sur une proposition calculée.
+    </p>
+    <div id="liste-docs"></div>
+  </section>
+
+  <!-- ─── Méthode ──────────────────────────────────────────────────── -->
+  <section class="vue enveloppe" id="vue-methode">
+    <div class="etiquette-section">Ce que vaut ce qui précède</div>
+    <h2 class="section">Méthode et réserves</h2>
+    <div class="prose" id="prose-methode"></div>
+  </section>
+
+</main>
+
+<script src="data/recensement-1871-d1-data.js"></script>
+<script src="data/recensement-1871-d2-data.js"></script>
+<script src="data/recensement-1881-d1-data.js"></script>
+<script src="data/recensement-1881-d2-data.js"></script>
+<script src="data/recensement-1891-d1-data.js"></script>
+<script src="data/recensement-1891-d2-data.js"></script>
+<script src="data/filiation-data.js"></script>
+
+<script>
+(function () {
+  'use strict';
+
+  var F = window.FILIATION;
+  if (!F) {
+    document.getElementById('chargement').textContent =
+      'Les données de filiation n’ont pas pu être chargées (data/filiation-data.js).';
+    return;
+  }
+
+  /* ─── Index des personnes et des ménages ────────────────────────── */
+
+  var JEUX = ['RECENSEMENT_1871_D1', 'RECENSEMENT_1871_D2', 'RECENSEMENT_1881_D1',
+              'RECENSEMENT_1881_D2', 'RECENSEMENT_1891_D1', 'RECENSEMENT_1891_D2'];
+
+  var personnes = Object.create(null);   // id -> fiche
+  var menages = Object.create(null);     // clé -> { chef, no_maison, annee, division }
+
+  JEUX.forEach(function (nom) {
+    var d = window[nom];
+    if (!d || !d.maisons) return;
+    d.maisons.forEach(function (maison) {
+      (maison.familles || []).forEach(function (famille) {
+        var cle = d.annee + '-D' + d.division + '-M' + maison.no_maison + '-F' + famille.no_famille;
+        menages[cle] = {
+          cle: cle, chef: famille.chef || '', annee: d.annee, division: d.division,
+          no_maison: String(maison.no_maison), no_famille: String(famille.no_famille)
+        };
+        (famille.membres || []).forEach(function (p) {
+          if (!p || !p.id) return;
+          personnes[p.id] = {
+            id: p.id, nom: p.nom || '', prenom: p.prenom || '',
+            age: p.age || '', sexe: p.sexe || '', profession: p.profession || '',
+            etat: p.etat_matrimonial || '', lien_parente: p.lien_parente || '',
+            annee: d.annee, division: d.division,
+            no_maison: String(maison.no_maison), no_famille: String(famille.no_famille),
+            page_ms: p.page_ms || '', ligne: p.ligne || '', menage: cle
+          };
+        });
+      });
+    });
+  });
+
+  /* Chaînes de trajectoire : id -> lien sortant, id -> lien entrant. */
+  var sortant = Object.create(null), entrant = Object.create(null);
+  F.liens.forEach(function (l) { sortant[l.de] = l; entrant[l.vers] = l; });
+
+  /* Événements indexés par personne, pour l'affichage d'une trajectoire. */
+  var evtParPersonne = Object.create(null);
+  F.evenements.forEach(function (e) {
+    [e.personne, e.personne_apres, e.personne_disparue, e.personne_veuve].forEach(function (id) {
+      if (!id) return;
+      (evtParPersonne[id] = evtParPersonne[id] || []).push(e);
+    });
+  });
+
+  /* ─── Utilitaires ───────────────────────────────────────────────── */
+
+  function ech(t) {
+    return String(t == null ? '' : t)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function sansAccents(t) {
+    return String(t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  }
+
+  function badge(conf) {
+    return '<span class="conf conf-' + ech(conf) + '">' + ech(conf) + '</span>';
+  }
+
+  function nomComplet(p) {
+    return ((p.prenom || '') + ' ' + (p.nom || '')).trim() || '(sans nom)';
+  }
+
+  function situer(p) {
+    var bouts = [p.annee + ' D' + p.division, 'maison ' + p.no_maison];
+    if (p.page_ms) bouts.push('p. ' + p.page_ms + ', l. ' + p.ligne);
+    return bouts.join(' · ');
+  }
+
+  /** Remonte au premier maillon connu, puis déroule la chaîne vers l'avant. */
+  function chaineDe(id) {
+    var debut = id, garde = 0;
+    while (entrant[debut] && garde++ < 10) debut = entrant[debut].de;
+    var suite = [{ id: debut, lien: null }], courant = debut;
+    garde = 0;
+    while (sortant[courant] && garde++ < 10) {
+      var l = sortant[courant];
+      suite.push({ id: l.vers, lien: l });
+      courant = l.vers;
+    }
+    return suite;
+  }
+
+  /* ─── Vue : trajectoires ────────────────────────────────────────── */
+
+  var champ = document.getElementById('q');
+  var filtreConf = document.getElementById('filtre-conf');
+  var zoneResultats = document.getElementById('resultats');
+  var RANG_CONF = { forte: 3, moyenne: 2, faible: 1, indicative: 0 };
+
+  function rechercher() {
+    var q = sansAccents(champ.value.trim());
+    if (q.length < 2) {
+      zoneResultats.innerHTML = '<div class="vide-msg">Saisissez au moins deux caractères.</div>';
+      return;
+    }
+    var seuil = filtreConf.value;
+
+    // On ne montre qu'une fois chaque trajectoire : on retient les têtes de chaîne.
+    var vues = Object.create(null), trouves = [];
+    for (var id in personnes) {
+      var p = personnes[id];
+      var foin = sansAccents(nomComplet(p) + ' ' + p.profession);
+      if (foin.indexOf(q) === -1) continue;
+      var chaine = chaineDe(id);
+      var tete = chaine[0].id;
+      if (vues[tete]) continue;
+      vues[tete] = true;
+      trouves.push(chaine);
+      if (trouves.length >= 60) break;
+    }
+
+    if (seuil !== 'toutes') {
+      var min = RANG_CONF[seuil];
+      trouves = trouves.filter(function (ch) {
+        return ch.some(function (m) { return m.lien && RANG_CONF[m.lien.confiance] >= min; });
+      });
+    }
+
+    if (!trouves.length) {
+      zoneResultats.innerHTML = '<div class="vide-msg">Aucune personne ne correspond.</div>';
+      return;
+    }
+
+    trouves.sort(function (a, b) { return b.length - a.length; });
+    zoneResultats.innerHTML =
+      '<p class="intro">' + trouves.length + ' trajectoire(s) — les plus longues d’abord.</p>' +
+      trouves.map(rendreTrajectoire).join('');
+  }
+
+  function rendreTrajectoire(chaine) {
+    var premier = personnes[chaine[0].id];
+    if (!premier) return '';
+
+    var maillons = chaine.map(function (m, i) {
+      var p = personnes[m.id];
+      if (!p) return '';
+      var fleche = i > 0
+        ? '<div class="fleche" title="rapprochement ' + ech(m.lien.confiance) + '">→</div>' : '';
+      return fleche +
+        '<div class="maillon">' +
+          '<div class="an">' + ech(p.annee) + ' · division ' + ech(p.division) + '</div>' +
+          '<div class="qui">' + ech(nomComplet(p)) + '</div>' +
+          '<div class="ou">' + ech(p.age ? p.age + ' ans' : 'âge inconnu') +
+            (p.profession ? ' · ' + ech(p.profession) : '') + '</div>' +
+          '<div class="ou">maison ' + ech(p.no_maison) + ', famille ' + ech(p.no_famille) + '</div>' +
+          (m.lien ? '<div style="margin-top:5px">' + badge(m.lien.confiance) + '</div>' : '') +
+        '</div>';
+    }).join('');
+
+    // Indices du dernier rapprochement, et événements rencontrés en route.
+    var dernier = chaine[chaine.length - 1].lien;
+    var indices = dernier
+      ? '<div class="etiquette-section" style="margin-top:var(--space-3)">Indices du dernier rapprochement</div>' +
+        '<ul class="motifs">' + dernier.motifs.map(function (m) {
+          return '<li>' + ech(m) + '</li>';
+        }).join('') + '</ul>' +
+        (dernier.concurrents && dernier.concurrents.length
+          ? '<div class="avert" style="margin-top:var(--space-2)"><strong>Homonymes en concurrence</strong>' +
+            dernier.concurrents.map(function (c) {
+              return ech(c.resume) + ' (score ' + ech(c.score) + ')';
+            }).join('<br>') + '</div>'
+          : '')
+      : '<div class="vide-msg" style="margin-top:var(--space-3)">Cette personne n’a pas été retrouvée dans un autre recensement.</div>';
+
+    var evts = [];
+    chaine.forEach(function (m) {
+      (evtParPersonne[m.id] || []).forEach(function (e) {
+        if (e.type === 'veuvage' || e.type === 'essaimage') evts.push(e);
+      });
+    });
+    var blocEvts = evts.length
+      ? '<div class="etiquette-section" style="margin-top:var(--space-3)">Événements</div>' +
+        '<div class="liste-evts">' + evts.map(function (e) {
+          return '<div class="evt ' + ech(e.type) + '">' + badge(e.confiance) + ' ' + ech(e.resume) + '</div>';
+        }).join('') + '</div>'
+      : '';
+
+    return '<div class="personne-carte">' +
+      '<h3 class="personne-titre">' + ech(nomComplet(premier)) + '</h3>' +
+      '<div class="ou" style="font-size:12px;color:var(--color-neutral-700)">Première mention : ' + ech(situer(premier)) + '</div>' +
+      '<div class="chaine">' + maillons + '</div>' +
+      indices + blocEvts +
+    '</div>';
+  }
+
+  champ.addEventListener('input', rechercher);
+  filtreConf.addEventListener('change', rechercher);
+
+  /* ─── Vue : événements ──────────────────────────────────────────── */
+
+  var chiffres = [
+    ['liens', 'Rapprochements retenus'],
+    ['liens_forte', 'dont confiance forte'],
+    ['liens_homonymie', 'dont homonymie à trancher'],
+    ['menage_continu', 'Ménages suivis'],
+    ['veuvage', 'Veuvages probables'],
+    ['essaimage', 'Essaimages'],
+    ['disparition', 'Disparitions'],
+    ['arrivee', 'Arrivées']
+  ];
+  document.getElementById('chiffres-evts').innerHTML = chiffres.map(function (c) {
+    return '<div class="chiffre"><b>' + ech(F.comptes[c[0]] != null ? F.comptes[c[0]] : '—') +
+           '</b><span>' + ech(c[1]) + '</span></div>';
+  }).join('');
+
+  var zoneEvts = document.getElementById('liste-evts');
+
+  function rendreEvenements(type) {
+    var liste = F.evenements.filter(function (e) { return e.type === type; });
+
+    if (type === 'disparition') {
+      var mariage = liste.filter(function (e) { return e.categorie === 'mariage_possible'; });
+      var autres = liste.filter(function (e) { return e.categorie !== 'mariage_possible'; });
+      zoneEvts.innerHTML =
+        '<div class="avert"><strong>Une disparition n’est pas un décès</strong>' +
+        'Sur ' + liste.length + ' personnes non retrouvées au recensement suivant, ' + mariage.length +
+        ' sont des femmes en âge de se marier et non déclarées mariées. En se mariant elles ont changé ' +
+        'de patronyme : aucun rapprochement fondé sur le nom ne peut les suivre, par construction. ' +
+        'Les ' + autres.length + ' autres cas mêlent départs de la paroisse, décès et lacunes de ' +
+        'dépouillement, que les données ne permettent pas de distinguer. Seul un acte — mariage, ' +
+        'sépulture — tranche.</div>' +
+        apercuDisparitions(mariage, 'Femmes possiblement mariées') +
+        apercuDisparitions(autres, 'Départ, décès ou lacune');
+      return;
+    }
+
+    if (!liste.length) {
+      zoneEvts.innerHTML = '<div class="vide-msg">Aucun événement de ce type.</div>';
+      return;
+    }
+
+    var ordre = { forte: 0, moyenne: 1, faible: 2, indicative: 3 };
+    liste.sort(function (a, b) { return (ordre[a.confiance] || 9) - (ordre[b.confiance] || 9); });
+
+    zoneEvts.innerHTML = liste.slice(0, 300).map(function (e) {
+      var motifs = e.motifs && e.motifs.length
+        ? '<ul class="motifs">' + e.motifs.map(function (m) { return '<li>' + ech(m) + '</li>'; }).join('') + '</ul>'
+        : '';
+      return '<div class="evt ' + ech(e.type) + '">' +
+        '<div class="evt-tete">' + badge(e.confiance) +
+          '<span style="font-size:11px;color:var(--color-neutral-600)">' + ech(e.intervalle) + '</span>' +
+          '<span>' + ech(e.resume) + '</span>' +
+        '</div>' + motifs + '</div>';
+    }).join('') +
+    (liste.length > 300 ? '<div class="vide-msg">… et ' + (liste.length - 300) + ' autres.</div>' : '');
+  }
+
+  function apercuDisparitions(liste, titre) {
+    if (!liste.length) return '';
+    var lignes = liste.slice(0, 40).map(function (e) {
+      var p = personnes[e.personne];
+      if (!p) return '';
+      return '<tr><td>' + ech(nomComplet(p)) + '</td><td>' + ech(p.age || '?') +
+             '</td><td>' + ech(p.annee + ' D' + p.division) + '</td><td>' + ech(e.intervalle) + '</td></tr>';
+    }).join('');
+    return '<div class="etiquette-section" style="margin-top:var(--space-4)">' + ech(titre) +
+      ' — ' + liste.length + ' cas</div>' +
+      '<table class="tbl"><thead><tr><th>Personne</th><th>Âge</th><th>Vue en</th><th>Intervalle</th></tr></thead>' +
+      '<tbody>' + lignes + '</tbody></table>' +
+      (liste.length > 40 ? '<div class="vide-msg">Aperçu des 40 premiers cas.</div>' : '');
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll('[data-evt]'), function (b) {
+    b.addEventListener('click', function () {
+      Array.prototype.forEach.call(document.querySelectorAll('[data-evt]'), function (x) {
+        x.className = 'btn btn-secondary';
+      });
+      b.className = 'btn btn-primary';
+      rendreEvenements(b.getAttribute('data-evt'));
+    });
+  });
+
+  /* ─── Vue : documents ───────────────────────────────────────────── */
+
+  var zoneDocs = document.getElementById('liste-docs');
+  zoneDocs.innerHTML = '<div class="vide-msg">Chargement du manifeste…</div>';
+
+  fetch('documents/manifeste.json')
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (m) {
+      var docs = (m && m.documents) || [];
+      if (!docs.length) {
+        zoneDocs.innerHTML =
+          '<div class="avert"><strong>Aucun document versé pour l’instant</strong>' +
+          'Tout ce qui figure dans « Trajectoires » et « Événements » est calculé à partir des ' +
+          'recensements seuls. Un acte de sépulture, de mariage ou de baptême verse une preuve au ' +
+          'dossier et tranche les cas que le calcul laisse ouverts — à commencer par les ' +
+          (F.comptes.liens_homonymie || 0) + ' homonymies que rien, dans les données actuelles, ne permet de départager.' +
+          '</div>' +
+          '<div class="prose"><p>La marche à suivre est décrite dans <code>documents/README.md</code>. ' +
+          'En pratique : transmettre le document — photo, transcription, ou simplement sa référence — ' +
+          'en demandant qu’il soit versé à l’annexe. La fiche sera rédigée, rattachée aux personnes ' +
+          'du recensement, et publiée.</p></div>';
+        return;
+      }
+      zoneDocs.innerHTML = docs.map(function (d) {
+        var pers = (d.personnes || []).map(function (p) {
+          return '<li>' + ech(p.role ? p.role + ' : ' : '') + ech(p.nom) +
+                 (p.age ? ', ' + ech(p.age) + ' ans' : '') +
+                 (p.ref_personne ? ' <span style="color:var(--color-neutral-600)">(' + ech(p.ref_personne) + ')</span>' : '') +
+                 '</li>';
+        }).join('');
+        var affs = (d.affirmations || []).map(function (a) {
+          return '<div class="evt">' + badge(a.certitude || 'hypothese') + ' ' + ech(a.enonce) + '</div>';
+        }).join('');
+        return '<div class="personne-carte">' +
+          '<h3 class="personne-titre">' + ech(d.titre || d.id) + '</h3>' +
+          '<div style="font-size:12px;color:var(--color-neutral-700)">' +
+            ech(d.type || '') + (d.date ? ' · ' + ech(d.date) : '') +
+            (d.source ? ' · ' + ech(d.source) : '') + (d.cote ? ' · ' + ech(d.cote) : '') +
+          '</div>' +
+          (d.transcription ? '<p style="margin-top:var(--space-3);font-size:13px;font-style:italic">« ' + ech(d.transcription) + ' »</p>' : '') +
+          (pers ? '<div class="etiquette-section">Personnes nommées</div><ul class="motifs">' + pers + '</ul>' : '') +
+          (affs ? '<div class="etiquette-section" style="margin-top:var(--space-3)">Ce que le document établit</div><div class="liste-evts">' + affs + '</div>' : '') +
+          (d.note ? '<p style="margin-top:var(--space-3);font-size:12px;color:var(--color-neutral-700)">' + ech(d.note) + '</p>' : '') +
+        '</div>';
+      }).join('');
+    })
+    .catch(function () {
+      zoneDocs.innerHTML = '<div class="vide-msg">Le manifeste des documents n’a pas pu être lu ' +
+        '(<code>documents/manifeste.json</code>).</div>';
+    });
+
+  /* ─── Vue : méthode ─────────────────────────────────────────────── */
+
+  var anomalies = (F.anomalies_donnees || []).map(function (a) {
+    return '<li><strong>' + ech(a.jeu) + '</strong> — ' + ech(a.note) + '</li>';
+  }).join('');
+
+  document.getElementById('prose-methode').innerHTML =
+    '<p>Les rapprochements présentés ici sont produits par <code>outils/analyse-filiation.mjs</code>, ' +
+    'à partir des seuls recensements. Le programme est relançable : les mêmes données donnent les ' +
+    'mêmes résultats, et une correction de dépouillement se répercute au recalcul suivant.</p>' +
+
+    '<h3>Sur quoi repose un rapprochement</h3>' +
+    '<p>Quatre indices, dans cet ordre d’importance :</p>' +
+    '<table class="tbl"><thead><tr><th>Indice</th><th>Ce qu’il vaut</th></tr></thead><tbody>' +
+    '<tr><td>Voisinage domestique</td><td>Le plus fort. Si huit membres d’un ménage se retrouvent ensemble dix ans plus tard, chacun des huit rapprochements se confirme mutuellement. C’est ce qui distingue une famille reconnue d’une homonymie.</td></tr>' +
+    '<tr><td>Patronyme</td><td>Comparé après normalisation, en tolérant une lettre d’écart. Les variantes « dit X » sont ramenées à la souche.</td></tr>' +
+    '<tr><td>Prénom</td><td>Rapproché par classes d’équivalence : Marguerite, Margaret et Maggie sont un seul prénom ; Guillaume et William aussi. Le recenseur passe d’une langue à l’autre selon la famille.</td></tr>' +
+    '<tr><td>Âge</td><td>Le plus faible. Les âges déclarés dérivent : un écart de dix ans exactement est l’exception. La tolérance est donc large, ce qui ouvre la porte aux homonymes — d’où le poids donné au voisinage.</td></tr>' +
+    '</tbody></table>' +
+
+    '<h3>Les trois réserves qui comptent</h3>' +
+    '<p><strong>Les femmes changent de nom.</strong> Un rapprochement fondé sur le patronyme ne peut pas ' +
+    'suivre une femme qui se marie. Les disparitions de femmes en âge de se marier sont donc signalées ' +
+    'comme telles, et jamais présumées être des décès. C’est une limite de structure, pas un défaut de ' +
+    'réglage : seul un acte de mariage la lève.</p>' +
+
+    '<p><strong>Les homonymes ne sont pas départageables.</strong> ' + (F.comptes.liens_homonymie || 0) +
+    ' rapprochements ont un concurrent de force équivalente — deux personnes du même nom et du même âge, ' +
+    'entre lesquelles rien, dans les données disponibles, ne permet de choisir. Le programme en désigne ' +
+    'une, l’indique franchement, et plafonne la confiance à « moyenne ». Ne les lisez pas comme acquis.</p>' +
+
+    '<p><strong>Un lien calculé n’est pas une preuve.</strong> La confiance « forte » veut dire que les ' +
+    'indices concordent, pas que le fait est établi. Le dossier des documents existe précisément pour ' +
+    'verser les pièces qui, elles, prouvent.</p>' +
+
+    '<h3>Ce que le programme ne fait pas</h3>' +
+    '<p>Il ne modifie aucune donnée de recensement. Il ne comble aucun trou. Il ne tranche aucun cas ' +
+    'douteux à votre place. Un champ absent reste absent — la distinction entre « relevé et vide », ' +
+    '« non dépouillé » et « hors formulaire » est trop importante pour être écrasée par une commodité ' +
+    'd’affichage.</p>' +
+
+    (anomalies ? '<h3>Anomalies relevées dans les données</h3>' +
+      '<p>Signalées au passage par le contrôle de cohérence, à corriger au dépouillement :</p>' +
+      '<ul class="motifs" style="font-size:13px">' + anomalies + '</ul>' : '') +
+
+    '<h3>Relancer l’analyse</h3>' +
+    '<p>Après une correction de dépouillement : <code>node outils/analyse-filiation.mjs</code>, ' +
+    'qui réécrit <code>data/filiation-data.js</code>. Généré le ' + ech(F.genere_le) + '.</p>';
+
+  /* ─── Navigation ────────────────────────────────────────────────── */
+
+  Array.prototype.forEach.call(document.querySelectorAll('[data-vue]'), function (b) {
+    b.addEventListener('click', function () {
+      Array.prototype.forEach.call(document.querySelectorAll('[data-vue]'), function (x) {
+        x.className = 'btn btn-secondary';
+      });
+      b.className = 'btn btn-primary';
+      Array.prototype.forEach.call(document.querySelectorAll('.vue'), function (v) {
+        v.classList.remove('active');
+      });
+      document.getElementById('vue-' + b.getAttribute('data-vue')).classList.add('active');
+      window.scrollTo(0, 0);
+    });
+  });
+
+  /* ─── Démarrage ─────────────────────────────────────────────────── */
+
+  document.getElementById('chargement').hidden = true;
+  document.getElementById('app').hidden = false;
+  rendreEvenements('veuvage');
+  champ.value = 'Lee';
+  rechercher();
+})();
+</script>
