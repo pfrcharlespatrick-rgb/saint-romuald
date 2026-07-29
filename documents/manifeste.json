@@ -666,6 +666,272 @@
       ],
       "note": "Corrige une confusion de l'ancienne fiche « 1616, chemin du Fleuve » (retirée du site), qui donnait Éléonore (Roberge) comme épouse de Louis Demers lui-même plutôt que de son fils Alphonse, et Léocadie Beaudoin comme une simple colistée plutôt que comme l'épouse de Louis. Éléonore Roberge reste à rattacher à une fiche de recensement.",
       "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "acte-mariage-charles-demers-1896",
+      "type": "mariage",
+      "titre": "Mariage de Charles Demers et Mary Jane Cadorette, 1896",
+      "date": "1896-06-19",
+      "source": "Canada, Quebec Marriages 1820-1917, via MyHeritage",
+      "cote": "",
+      "nature": "Extrait de registre de mariage numérisé, avec vignette de l'acte manuscrit.",
+      "personnes": [
+        {
+          "role": "epoux",
+          "nom": "Charles Demers",
+          "ref_personne": "1891-D1-P123-L07",
+          "note": "20 ans, journalier, en 1891 — cohérent avec un mariage à ~25 ans en 1896. Troisième enfant identifié de Louis Demers et Léocadie Beaudoin, avec Alfred et Alphonse."
+        },
+        {
+          "role": "pere",
+          "nom": "Louis Demers",
+          "ref_personne": "1891-D1-P123-L05"
+        },
+        {
+          "role": "mere",
+          "nom": "Leocadie Beaudoin",
+          "ref_personne": "1891-D1-P123-L06"
+        },
+        {
+          "role": "epouse",
+          "nom": "Mary Jane Cadorette"
+        },
+        {
+          "role": "pere",
+          "nom": "Georges Cadorette"
+        },
+        {
+          "role": "mere",
+          "nom": "Amanda Villers"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1896-06-19",
+          "personnes": [
+            "1891-D1-P123-L07"
+          ],
+          "enonce": "Charles Demers épouse Mary Jane Cadorette le 19 juin 1896, en l'église Saint-Romuald-d'Etchemin."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1891-D1-P123-L05",
+            "1891-D1-P123-L06",
+            "1891-D1-P123-L07"
+          ],
+          "enonce": "Charles Demers est le fils de Louis Demers et de Léocadie Beaudoin — troisième enfant du couple rattaché à un acte, après Alfred (1898) et Alphonse (1908)."
+        }
+      ],
+      "note": "Complète le trio Alfred/Alphonse/Charles, tous fils de Louis Demers et Léocadie Beaudoin (1871-D2-P031, 1881-D2-P025, 1891-D1-P123).",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "familysearch-emilie-pelletier-mcready",
+      "type": "autre",
+      "titre": "Emilie Pelletier (née McReady) — Arbre généalogique FamilySearch",
+      "date": "2026",
+      "source": "FamilySearch, compilation via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'arbre généalogique, avec signature manuscrite reproduite (« Emilie McReady »).",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Emilie Pelletier (née McReady)",
+          "naissance": "1827-12-29",
+          "deces": "1896-01-04",
+          "note": "Née à Lauzon, Dorchester ; baptisée le lendemain à Saint-Joseph-de-la-Pointe-de-Lévy. Morte et inhumée à Saint-Romuald en janvier 1896."
+        },
+        {
+          "role": "epoux",
+          "nom": "Eusèbe Pelletier",
+          "ref_personne": "1881-D1-P013-L17"
+        },
+        {
+          "role": "pere",
+          "nom": "Henry McReady",
+          "note": "Mêmes parents que Robert McReady (voir alliances-forcade-mcready) — Emilie en est donc la sœur, jusqu'ici inconnue du dossier."
+        },
+        {
+          "role": "mere",
+          "nom": "Emilie Casey"
+        },
+        {
+          "role": "frere",
+          "nom": "John McReady"
+        },
+        {
+          "role": "frere",
+          "nom": "Henry McReady"
+        },
+        {
+          "role": "frere",
+          "nom": "Robert McReady",
+          "ref_personne": "1871-D2-P029-L08"
+        },
+        {
+          "role": "enfant",
+          "nom": "Mary-Jane Larue (née Pelletier)"
+        },
+        {
+          "role": "enfant",
+          "nom": "Philippe Pelletier"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1860-02-20",
+          "personnes": [],
+          "enonce": "Emilie McReady épouse Eusèbe Pelletier le 20 février 1860 à Saint-Romuald."
+        },
+        {
+          "type": "filiation",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P029-L08"
+          ],
+          "enonce": "Emilie McReady est la fille d'Henry McReady et d'Emilie Casey, les mêmes parents que Robert McReady — un cinquième enfant de cette fratrie, avec John, Henry fils et Robert déjà connus par alliances-forcade-mcready.",
+          "consequence": "Ajoute une sœur à la fratrie McReady, dont deux membres (John, Henry fils) avaient épousé des sœurs Forcade en 1843 et 1848."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1881-D1-P013-L18"
+          ],
+          "enonce": "Emilie Pelletier, 51 ans en 1881 aux côtés d'Eusèbe Pelletier marchand, est cette même Emilie née McReady — l'âge recensé (51) sous-estime de trois ans l'âge attendu (54) d'après la date de naissance de 1827, écart mineur et courant."
+        }
+      ],
+      "note": "Non rattachée formellement par ref_personne à sa propre fiche de recensement (1881-D1-P013-L18), faute de temps — le rapprochement identité est noté en affirmation plutôt qu'en rattachement direct, par prudence sur l'écart d'âge.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "familysearch-eusebe-pelletier",
+      "type": "autre",
+      "titre": "Eusebe Pelletier — Arbre généalogique FamilySearch",
+      "date": "2026",
+      "source": "FamilySearch, compilation via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'arbre généalogique. Signale elle-même une possible duplication de parents à vérifier sur FamilySearch.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Eusèbe Pelletier",
+          "naissance": "1833-12-16",
+          "deces": "1911-01-15",
+          "ref_personne": "1881-D1-P013-L17",
+          "note": "48 ans en 1881, marchand — 1881 − 1833 = 48, concordance exacte. Mort et inhumé à Saint-Romuald en janvier 1911."
+        },
+        {
+          "role": "epouse",
+          "nom": "Emilie Pelletier (née McReady)"
+        },
+        {
+          "role": "epouse",
+          "nom": "Léda Pelletier (née Couillard L'Espinay)"
+        },
+        {
+          "role": "epouse",
+          "nom": "Eusebie Pelletier (née Houle)"
+        },
+        {
+          "role": "pere",
+          "nom": "Jean Baptiste Pelletier"
+        },
+        {
+          "role": "mere",
+          "nom": "Marie Magdeleine Delisle"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "naissance",
+          "certitude": "probable",
+          "date": "1833-12-16",
+          "personnes": [
+            "1881-D1-P013-L17"
+          ],
+          "enonce": "Eusèbe Pelletier naît le 16 décembre 1833.",
+          "consequence": "Concorde exactement avec l'âge de 48 ans porté au recensement de 1881."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1897-11-11",
+          "personnes": [],
+          "enonce": "Remariage avec Léda Couillard L'Espinay le 11 novembre 1897 à Saint-Pierre-de-la-Rivière-du-Sud, Montmagny — un an et demi après le décès d'Emilie (janvier 1896)."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1903-02-16",
+          "personnes": [],
+          "enonce": "Troisième mariage avec Eusebie Houle le 16 février 1903 à Saint-David-de-l'Auberivière, Lévis."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1891-D1-P064-L25"
+          ],
+          "enonce": "« Émile Pelletier », marchand général de 57 ans en 1891 avec Émilie 62 ans, Philippe (fils, commis) et sa famille, est vraisemblablement Eusèbe Pelletier — le prénom « Émile » au dépouillement est une lecture proche d'« Eusèbe »."
+        }
+      ],
+      "note": "Trois mariages en cinquante ans, pour le même homme, dans trois paroisses différentes. Le rapprochement avec la fiche 1891-D1-P064-L25 (« Émile » plutôt qu'« Eusèbe ») n'est pas rattaché formellement, la variante de prénom étant trop importante pour trancher sans revoir le manuscrit.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "familysearch-etienne-bourassa",
+      "type": "autre",
+      "titre": "Etienne Bourassa — Arbre généalogique FamilySearch",
+      "date": "2026",
+      "source": "FamilySearch, compilation via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'arbre généalogique. Signale elle-même une possible duplication de parents à vérifier sur FamilySearch ; deux entrées d'enfants qui semblent désigner la même fille sous deux graphies.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Etienne Bourassa",
+          "naissance": "1800-09-01",
+          "deces": "1845-11-04"
+        },
+        {
+          "role": "epouse",
+          "nom": "Élisabeth Bédard"
+        },
+        {
+          "role": "enfant",
+          "nom": "Henriette Éléonore McReady (née Bourassa)",
+          "ref_personne": "1871-D2-P029-L09",
+          "note": "Le document la nomme deux fois, sous deux graphies légèrement différentes (« née MacDonald » puis « dite Éléonore Bourassa ») — vraisemblablement la même personne, Éléonore Bourassa, épouse de Robert McReady (voir alliances-forcade-mcready). La mention « née MacDonald » est presque certainement une erreur de la compilation ; à vérifier."
+        },
+        {
+          "role": "pere",
+          "nom": "Joseph André Bourassa"
+        },
+        {
+          "role": "mere",
+          "nom": "Marie Louise Bourassa (née Carrier)"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "hypothese",
+          "personnes": [
+            "1871-D2-P029-L09"
+          ],
+          "enonce": "Éléonore Bourassa, épouse de Robert McReady, serait la fille d'Etienne Bourassa et d'Élisabeth Bédard, mariés en 1833.",
+          "note": "Compatible avec l'âge d'Éléonore (31 ans en 1871, donc née vers 1840) et avec la fenêtre du mariage de ses parents parents (1833) et le décès de son père (1845). Non confirmé par un acte de naissance ou de mariage la nommant explicitement — d'où la certitude « hypothèse » plutôt qu'« établi »."
+        }
+      ],
+      "note": "Si confirmée, cette filiation remonterait la lignée maternelle de trois enfants McReady déjà connus (Michel, Mary, Rose, Emélie, Pierre) d'une génération de plus. La double mention contradictoire du nom de naissance de la fille (« MacDonald » / « Bourassa ») dans la source elle-même appelle la prudence.",
+      "ajoute_le": "2026-07-30"
     }
   ]
 }
