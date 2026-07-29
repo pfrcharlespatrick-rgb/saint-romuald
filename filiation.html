@@ -97,6 +97,7 @@
       <a class="btn btn-secondary" href="./Suivi des maisons et familles.dc.html">Base de données</a>
       <button type="button" class="btn btn-primary" data-vue="recherche">Trajectoires</button>
       <button type="button" class="btn btn-secondary" data-vue="evenements">Événements</button>
+      <button type="button" class="btn btn-secondary" data-vue="controles">Contrôles</button>
       <button type="button" class="btn btn-secondary" data-vue="documents">Documents</button>
       <button type="button" class="btn btn-secondary" data-vue="methode">Méthode</button>
     </nav>
@@ -157,6 +158,24 @@
     <div id="liste-evts" class="liste-evts"></div>
   </section>
 
+  <!-- ─── Contrôles ────────────────────────────────────────────────── -->
+  <section class="vue enveloppe" id="vue-controles">
+    <div class="etiquette-section">Ce que le rapprochement a révélé des données</div>
+    <h2 class="section">Contrôles à relire au manuscrit</h2>
+    <p class="intro">
+      Rapprocher deux recensements met en évidence ce qui ne colle pas. Ces
+      listes ne corrigent rien : elles signalent les fiches dont la lecture
+      mérite d'être reprise à la source, triées dans l'ordre du registre pour
+      que la vérification suive les pages.
+    </p>
+
+    <div style="display:flex;gap:var(--space-1);flex-wrap:wrap;margin-bottom:var(--space-4)">
+      <button type="button" class="btn btn-primary" data-ctl="sexe">Sexe — 1881 division 2</button>
+      <button type="button" class="btn btn-secondary" data-ctl="age">Âges incompatibles</button>
+    </div>
+    <div id="zone-controles"></div>
+  </section>
+
   <!-- ─── Documents ────────────────────────────────────────────────── -->
   <section class="vue enveloppe" id="vue-documents">
     <div class="etiquette-section">Preuves versées au dossier</div>
@@ -185,6 +204,7 @@
 <script src="data/recensement-1881-d2-data.js"></script>
 <script src="data/recensement-1891-d1-data.js"></script>
 <script src="data/recensement-1891-d2-data.js"></script>
+<script src="data/complement-sexe-1881-d2-data.js"></script>
 <script src="data/filiation-data.js"></script>
 
 <script>
@@ -474,6 +494,84 @@
     });
   });
 
+  /* ─── Vue : contrôles ───────────────────────────────────────────── */
+
+  var zoneCtl = document.getElementById('zone-controles');
+  var CS = window.COMPLEMENT_SEXE_1881_D2 || null;
+
+  function rendreControles(quoi) {
+    if (quoi === 'sexe') {
+      if (!CS) {
+        zoneCtl.innerHTML = '<div class="vide-msg">Le complément de sexe n’a pas pu être chargé.</div>';
+        return;
+      }
+      var c = CS.comptes, v = CS.validation;
+      var lignes = (CS.contradictions || []).map(function (x) {
+        return '<tr><td>p. ' + ech(x.page_ms) + ', l. ' + ech(x.ligne) + '</td>' +
+               '<td><strong>' + ech((x.prenom + ' ' + x.nom).trim()) + '</strong></td>' +
+               '<td>' + ech(x.age) + '</td>' +
+               '<td>' + ech(x.profession) + '</td>' +
+               '<td>m. ' + ech(x.maison) + '</td>' +
+               '<td>saisi <strong>F</strong> → lu <strong>M</strong></td></tr>';
+      }).join('');
+
+      zoneCtl.innerHTML =
+        '<div class="avert"><strong>La colonne a été remplie par défaut</strong>' +
+        '1881 division 2 porte ' + ech(1438 - c.sexe_atteste_m) + ' fiches « F » pour seulement ' +
+        ech(c.sexe_atteste_m) + ' « M », là où les autres recensements se répartissent également. ' +
+        'Les fils Lee, tous navigateurs, y sont notés féminins. Le sexe a donc été déduit du prénom, ' +
+        'à partir d’une table apprise des quatre jeux fiables — même paroisse, même population. ' +
+        'Justesse mesurée par validation croisée : <strong>' + ech(v.justesse_globale) + ' %</strong> sur ' +
+        ech(v.predictions) + ' prédictions. Confrontée aux ' + ech(c.sexe_atteste_m) +
+        ' « M » attestés, la déduction n’en contredit aucun.</div>' +
+
+        '<div class="chiffres">' +
+          '<div class="chiffre"><b>' + ech(c.sexe_atteste_m) + '</b><span>« M » attestés, jamais recouverts</span></div>' +
+          '<div class="chiffre"><b>' + ech(c.deductions_confirmant_la_saisie) + '</b><span>déductions confirmant le « F » saisi</span></div>' +
+          '<div class="chiffre"><b>' + ech(c.contradictions) + '</b><span>fiches à corriger en « M »</span></div>' +
+          '<div class="chiffre"><b>' + ech(c.abstentions) + '</b><span>prénoms non tranchés</span></div>' +
+        '</div>' +
+
+        '<div class="etiquette-section">Fiches saisies « F » que le prénom dit masculines — ' +
+        ech(c.contradictions) + ' cas, dans l’ordre du registre</div>' +
+        '<table class="tbl"><thead><tr><th>Manuscrit</th><th>Personne</th><th>Âge</th>' +
+        '<th>Profession</th><th>Maison</th><th>Correction</th></tr></thead><tbody>' +
+        lignes + '</tbody></table>';
+      return;
+    }
+
+    var ages = F.evenements.filter(function (e) { return e.type === 'age_incoherent'; });
+    if (!ages.length) {
+      zoneCtl.innerHTML = '<div class="vide-msg">Aucune incohérence d’âge relevée.</div>';
+      return;
+    }
+    zoneCtl.innerHTML =
+      '<div class="avert"><strong>Le même homme, deux âges incompatibles</strong>' +
+      'Ces personnes tiennent le même ménage d’un recensement à l’autre, avec la même épouse et les ' +
+      'mêmes enfants, mais leur âge ne progresse pas comme il le devrait. L’un des deux relevés est ' +
+      'donc fautif. Ce contrôle a une conséquence directe : la disparition apparente de ces chefs de ' +
+      'ménage aurait autrement été lue comme un décès. Les ' + ech(ages.length) + ' cas ci-dessous sont ' +
+      'écartés des veuvages pour cette raison.</div>' +
+      '<div class="liste-evts">' + ages.map(function (e) {
+        return '<div class="evt">' +
+          '<div class="evt-tete"><span style="font-size:11px;color:var(--color-neutral-600)">' +
+          ech(e.intervalle) + '</span><span>' + ech(e.resume) + '</span></div>' +
+          '<ul class="motifs">' + e.motifs.map(function (m) {
+            return '<li>' + ech(m) + '</li>';
+          }).join('') + '</ul></div>';
+      }).join('') + '</div>';
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll('[data-ctl]'), function (b) {
+    b.addEventListener('click', function () {
+      Array.prototype.forEach.call(document.querySelectorAll('[data-ctl]'), function (x) {
+        x.className = 'btn btn-secondary';
+      });
+      b.className = 'btn btn-primary';
+      rendreControles(b.getAttribute('data-ctl'));
+    });
+  });
+
   /* ─── Vue : documents ───────────────────────────────────────────── */
 
   var zoneDocs = document.getElementById('liste-docs');
@@ -560,6 +658,33 @@
     'indices concordent, pas que le fait est établi. Le dossier des documents existe précisément pour ' +
     'verser les pièces qui, elles, prouvent.</p>' +
 
+    '<h3>Le cas du veuvage</h3>' +
+    '<p>Un chef de ménage masculin cesse de paraître, son épouse se retrouve dans le ménage successeur : ' +
+    'c’est la signature du veuvage, et elle est tenue pour établie. Les explications concurrentes — ' +
+    'désertion, migration de travail — laisseraient l’épouse mariée et le mari recensé ailleurs sous le ' +
+    'même nom. Ce qui reste inconnu, et que les résumés ne prétendent pas savoir, c’est la <em>date</em> ' +
+    'du décès : elle tombe quelque part dans l’intervalle. Un acte de sépulture la fixera.</p>' +
+    '<p>La règle n’exige pas que la veuve prenne la tête du ménage. C’est le cas le plus visible mais pas ' +
+    'le plus fréquent : bien souvent un fils devient chef et la mère demeure sous son toit. Sur les ' +
+    ech((F.evenements.filter(function (e) { return e.type === 'veuvage'; })).length) + ' veuvages relevés, ' +
+    ech((F.evenements.filter(function (e) { return e.type === 'veuvage' && !e.veuve_chef; })).length) +
+    ' sont de ce second type — exiger la prise de tête du ménage en aurait fait manquer les deux tiers.</p>' +
+    '<p>Un garde-fou écarte le faux veuvage par âge erroné : si le ménage successeur est tenu par un homme ' +
+    'portant le nom du chef disparu, ce n’est pas une succession mais le même homme, que le rapprochement ' +
+    'a manqué parce qu’un âge est mal transcrit. James Thompson est noté 25 ans en 1871 alors qu’il a un ' +
+    'fils de 12 ans, et reparaît chef à 47 ans en 1881 avec la même épouse. Ces cas sont retirés des ' +
+    'veuvages et versés aux contrôles.</p>' +
+
+    '<h3>Le sexe de 1881 division 2</h3>' +
+    '<p>La colonne y porte 1 334 « F » pour 104 « M » : elle a été remplie par défaut. Plutôt qu’une liste ' +
+    'de prénoms écrite à la main, la table a été apprise des quatre jeux fiables — même paroisse, même ' +
+    'population franco-irlandaise. Justesse mesurée par validation croisée : ' +
+    (CS ? ech(CS.validation.justesse_globale) + ' % sur ' + ech(CS.validation.predictions) + ' prédictions' : 'voir les contrôles') +
+    '. Le résultat vit dans un fichier de complément qui ne modifie aucune donnée d’origine, sur le modèle ' +
+    'du complément de 1881 division 1 : le supprimer laisse le dépouillement intact, et les 104 « M » ' +
+    'attestés ne sont jamais recouverts. Les contradictions sont listées dans l’onglet Contrôles, dans ' +
+    'l’ordre du registre, pour relecture au manuscrit.</p>' +
+
     '<h3>Ce que le programme ne fait pas</h3>' +
     '<p>Il ne modifie aucune donnée de recensement. Il ne comble aucun trou. Il ne tranche aucun cas ' +
     'douteux à votre place. Un champ absent reste absent — la distinction entre « relevé et vide », ' +
@@ -595,6 +720,7 @@
   document.getElementById('chargement').hidden = true;
   document.getElementById('app').hidden = false;
   rendreEvenements('veuvage');
+  rendreControles('sexe');
   champ.value = 'Lee';
   rechercher();
 })();
