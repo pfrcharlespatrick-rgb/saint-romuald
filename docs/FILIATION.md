@@ -22,6 +22,23 @@ propose X, le document établit Y ».
 
 ---
 
+## Bibliographie — une fiche par personne, en ordre alphabétique
+
+Onglet séparé, à côté de Trajectoires. Une entrée par personne physique
+(regroupement de trajectoire, pas par fiche de recensement isolée), triée par
+nom puis prénom, parcourable par lettre ou filtrable par texte. Chaque fiche
+réutilise exactement le même rendu que Trajectoires : mentions aux
+recensements, rapprochements avec leurs boutons Confirmer/Écarter, événements,
+et preuves documentaires.
+
+Se reconstruit après chaque confirmation, chaque rejet et chaque chargement de
+document — confirmer/écarter un lien peut fusionner ou séparer deux entrées
+(deux mentions d'une même personne qui n'étaient pas reliées deviennent une
+seule fiche), donc l'index se recalcule à chaque action plutôt que d'être mis
+à jour au fichier.
+
+---
+
 ## Valider un rapprochement, et la synchronisation avec la base de données
 
 Chaque rapprochement affiché dans « Trajectoires » porte deux boutons :
