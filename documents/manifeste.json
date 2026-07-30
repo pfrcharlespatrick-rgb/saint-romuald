@@ -2154,6 +2154,622 @@
       ],
       "note": "Document redondant avec ceux déjà versés sur ce couple ; retenu uniquement pour compléter l'index et parce qu'il confirme, sans rien ajouter, le lien avec Emilie Casey désormais rattachée au recensement.",
       "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "dictionnaire-biographique-new-liverpool-doyon",
+      "type": "monographie",
+      "titre": "Dictionnaire biographique de New Liverpool — extrait de Mission New Liverpool",
+      "date": "2026",
+      "couvre": "1534-1964",
+      "source": "Julie Doyon, Mission New Liverpool, Septentrion",
+      "cote": "",
+      "fonde_sur": "Ouvrage publié, recherche d'historienne s'appuyant sur cartes, plans d'arpentage, registres paroissiaux, annuaires commerciaux, iconographie et fouilles archéologiques.",
+      "nature": "Dictionnaire biographique de ~70 personnes liées à l'histoire de New Liverpool et d'Etchemin, du Régime français (Champlain, Couture) jusqu'au XXe siècle. La très grande majorité des personnes couvre une période antérieure aux recensements dépouillés (1871-1891) ou n'a jamais résidé à Saint-Romuald au sens du recensement (explorateurs, gouverneurs, artistes, rois) : elles sont conservées ici comme contexte historique, sans rattachement au recensement. Seule une minorité de noms croise chronologiquement et onomastiquement les familles déjà suivies dans ce dossier ; ces rattachements, faute de date de naissance permettant une identification certaine, sont proposés en hypothèse plutôt qu'affirmés.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Adams, John",
+          "note": "Cartographe/arpenteur. Auteur d'une carte de 1822 localisant les moulins à scie et les hameaux de New Liverpool et d'Etchemin. (p. 33)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Amiraux, Timothy",
+          "note": "Marchand/épicier/constructeur naval. Épicier à New Liverpool, associé à John Ritchie vers 1841 pour la construction du navire à vapeur New Liverpool. (p. 42)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Arnold, Benedict (Général)",
+          "naissance": "1741",
+          "deces": "1801",
+          "note": "Général de l'armée américaine. Dirige l'invasion américaine de 1775 par la vallée de la Chaudière ; établit son quartier général au moulin Caldwell de la rivière à la Scie. (p. 34)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Atkinson, Henry",
+          "ref_personne": "1871-D1-P075-L17",
+          "note": "Propriétaire foncier/industriel du bois. Devient en 1856 propriétaire des installations et des moulins d'Etchemin construits à l'origine par la famille Caldwell. (p. 59) — Rattaché au recensement : voir affirmation ci-dessous."
+        },
+        {
+          "role": "sujet",
+          "nom": "Bartlett, William Henry",
+          "naissance": "1809",
+          "deces": "1854",
+          "note": "Artiste peintre/graveur. Auteur d'une vue (vers 1838) illustrant les chantiers de la rive nord et les dépôts de bois à Sillery. (p. 46)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Bégin, François",
+          "note": "Propriétaire terrien. Riverain du terrain du moulin banal de la Pointe-Lévy selon le plan d'arpentage de 1853. (p. 35)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Benson (famille)",
+          "note": "Propriétaires terriens/industriels du bois. Ont donné leur nom à l'anse Benson (ancienne anse de la côte Rouge). Construction d'un manoir victorien vers 1878 sur la pointe Benson. (p. 15, 19)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Bigsby, John Jeremiah",
+          "naissance": "1792",
+          "deces": "1881",
+          "note": "Médecin/artiste peintre et graveur. Auteur vers 1820 d'une gravure montrant la traversée du fleuve par un bateau à manège (horse-ferry) entre Pointe-Lévy et Québec. (p. 54)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Bissot (ou Byssot), François, sieur de la Rivière",
+          "naissance": "1612 ou 1613",
+          "deces": "1673",
+          "note": "Marchand bourgeois de Québec/seigneur. Obtient en 1648 une concession voisine de Guillaume Couture. Exploitant d'un moulin à farine et d'une tannerie dans Lauzon. (p. 28)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Bouchette, Joseph",
+          "note": "Arpenteur général du Bas-Canada. Auteur de la Topographie du Canada (1815) vantant l'ingéniosité des installations hydrauliques des moulins Caldwell à Etchemin et décrivant l'effervescence de New Liverpool. (p. 37, 56)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Boulanger, Damase",
+          "note": "Contremaître de chantier forestier. Contremaître de Peter McLeod à qui ce dernier adresse en 1846 des directives très sévères sur le temps de travail et la discipline. (p. 54)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Bourassa, Joseph (Fils)",
+          "note": "Propriétaire terrien. Limite de propriété identifiée sur le plan du moulin banal de la rivière à la Scie en 1853. (p. 35) — Rattachement proposé en hypothèse, voir affirmation ci-dessous."
+        },
+        {
+          "role": "sujet",
+          "nom": "Bourdon, Jean",
+          "note": "Arpenteur/cartographe. Auteur de la carte de 1663 montrant la région de Québec et l'établissement Sainte-Marie fondé par Eustache Lambert. (p. 31)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Caldwell, Ann (née Hamilton)",
+          "naissance": "1740",
+          "deces": "1804",
+          "note": "Épouse de seigneur. Originaire de Liverpool, épouse Henry Caldwell en 1774. (p. 38)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Caldwell, Henry",
+          "naissance": "1735",
+          "deces": "1810",
+          "note": "Officier britannique/10e seigneur de Lauzon/receveur général/industriel. Loue Lauzon en 1774 puis l'achète en 1801. Développe le commerce du bois. Loue les terrains de l'anse de New Liverpool aux frères Hamilton en 1809. (p. 34, 37, 38, 42)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Caldwell, Henry John",
+          "naissance": "1801",
+          "deces": "1805",
+          "note": "Héritier seigneurial. Nommé légataire de la seigneurie de Lauzon par le testament olographe de son grand-père Henry Caldwell en 1810. (p. 38)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Caldwell, James Hugh",
+          "naissance": "1803",
+          "deces": "1804",
+          "note": "Enfant de la famille Caldwell, fils de John Caldwell et Jane Davidson. (p. 38)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Caldwell, John",
+          "naissance": "1775",
+          "deces": "1842",
+          "note": "11e seigneur de Lauzon/receveur général/député/industriel. Député de Dorchester (1800-1812), receveur général et seigneur de Lauzon en 1810. Développeur majeur des scieries d'Etchemin et constructeur du manoir/villa des Caldwell. (p. 37, 38, 39, 40, 42)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Carleton, Guy",
+          "naissance": "1724",
+          "deces": "1808",
+          "note": "Gouverneur britannique de Québec. Exercera des représailles post-1775 et imposera un contrôle strict sur l'immigration américaine dans Lauzon. (p. 34)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Cartier, Jacques",
+          "naissance": "1491",
+          "deces": "1557",
+          "note": "Explorateur français. Récits de voyages consignant la présence autochtone précoloniale le long du Saint-Laurent. (p. 28)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Champlain, Samuel de",
+          "naissance": "1567",
+          "deces": "1635",
+          "note": "Explorateur/cartographe/fondateur de Québec. Documente dès 1604 la rivière Chaudière et identifie en 1629 le « Québec des Etchemins » sur la rive sud. (p. 28)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Charest, George",
+          "note": "Résident de New Liverpool. Photographié vers 1920 se baladant à vélo avec Robert Landry sur le chemin du Fleuve. (p. 17) — Postérieur au dernier recensement dépouillé (1891), aucun rattachement possible."
+        },
+        {
+          "role": "sujet",
+          "nom": "Charest III, Étienne",
+          "note": "Seigneur de Lauzon. Dernier seigneur canadien-français de Lauzon sous le Régime français ; vend la seigneurie à James Murray le 12 février 1765 avant de retourner en France. (p. 34)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Cockburn, James Pattison",
+          "naissance": "1779",
+          "deces": "1847",
+          "note": "Artiste peintre/officier d'artillerie britannique. Aquarelle vers 1830 du hameau de New Liverpool et vues à l'aquarelle du domaine des Caldwell. (p. 15, 38)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Couture, Guillaume",
+          "naissance": "1618",
+          "deces": "1701",
+          "note": "Colon/compagnon des Jésuites/premier habitant de la rive sud. Établi en 1647 à Pointe Lévy dans la seigneurie de Lauzon. (p. 28)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Craigie, Lucy Susannah Christiana",
+          "deces": "1888",
+          "note": "Épouse de George Hamilton en 1816 ; mère d'au moins dix enfants. (p. 43)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Dallaire, Guillaume",
+          "note": "Boucher. Installe sa boucherie vers 1811 directement sur le quai des chantiers Hamilton à New Liverpool. (p. 56)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Davidson, James",
+          "note": "Chirurgien militaire du 2e bataillon du Régiment royal des volontaires canadiens ; père de Jane Davidson, beau-père de John Caldwell. (p. 38)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Davidson, Jane",
+          "deces": "1806",
+          "note": "Épouse de John Caldwell le 21 août 1800 à Québec ; décédée prématurément à 23 ans. (p. 38)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Demers (l'abbé)",
+          "note": "Prêtre/historien local. Auteur de travaux documentant le défrichage et l'occupation de la forêt d'Etchemin au XVIIe siècle. (p. 32)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Demers, Julien",
+          "note": "Notaire. Résident notable d'Etchemin dont la maison en pierre sert de repère territorial (contexte v. 1840). (p. 40) — Aucun candidat plausible retrouvé au recensement de 1871-1891 sous ce seul nom."
+        },
+        {
+          "role": "sujet",
+          "nom": "Demers, Laurent",
+          "note": "Canotier/constructeur maritime. Construit avec Thomas Roberge le bateau à manège L'Elzéar mis en service vers 1840. (p. 54) — Aucun candidat plausible retrouvé au recensement de 1871-1891 sous ce seul nom."
+        },
+        {
+          "role": "sujet",
+          "nom": "Elliot (Major)",
+          "note": "Officier britannique (43e Régiment). Dirige en février 1760 les raids de destruction par le feu des habitations de la rive sud (entre Etchemin et Chaudière). (p. 33)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Forrest, Charles Ramus",
+          "note": "Officier britannique/artiste peintre. Auteur d'un tableau (vers 1821-1823) représentant la propriété Wolfefield de William Price. (p. 55)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Gagné, David",
+          "note": "Historien/archéologue. Synthèse sur l'occupation précoloniale autochtone et photographies des chantiers de fouilles du domaine Longwood. (p. 28, 29)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Gaumond, Michel",
+          "naissance": "1934",
+          "deces": "2014",
+          "note": "Archéologue pionnier. Direction des premières fouilles archéologiques en 1960 dans le secteur de la côte Rouge et de l'anse Benson. (p. 29, 30)"
+        },
+        {
+          "role": "sujet",
+          "nom": "George III",
+          "naissance": "1738",
+          "deces": "1820",
+          "note": "Roi de Grande-Bretagne, régnant lors de la Conquête du Canada. (p. 33)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Guérin, Aimé",
+          "naissance": "1832",
+          "deces": "1909",
+          "note": "Cageux/draveur légendaire, reconnu pour ses exploits dans la dravaison du bois d'œuvre sur le Saint-Laurent. (p. 46)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Hamilton, Charles",
+          "naissance": "1834",
+          "deces": "1919",
+          "note": "Fils de George Hamilton et Lucy Susannah Christiana Craigie. (p. 43)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Hamilton, Élizabeth Christina",
+          "naissance": "1836",
+          "note": "Fille de George Hamilton et Lucy Susannah Christiana Craigie. (p. 43)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Hamilton, Emily Isabella",
+          "naissance": "1832",
+          "deces": "1857",
+          "note": "Fille de George Hamilton et Lucy Susannah Christiana Craigie. (p. 43)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Hamilton, Francis Henry",
+          "naissance": "1838",
+          "deces": "1864",
+          "note": "Fils de George Hamilton et Lucy Susannah Christiana Craigie. (p. 43)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Hamilton, George",
+          "naissance": "1781",
+          "deces": "1839",
+          "note": "Marchand de bois/constructeur naval/lieutenant de milice/juge de paix. Membre du Club des barons. Fondateur du vaste chantier naval de New Liverpool en 1809 et bâtisseur de la résidence Hamilton Hall à Etchemin. (p. 42, 43, 44)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Hamilton, George Junior",
+          "naissance": "1824",
+          "deces": "1856",
+          "note": "Co-héritier des chantiers de New Liverpool à la mort de son père en 1839. (p. 43)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Hamilton, Henrietta",
+          "naissance": "1829",
+          "deces": "1916",
+          "note": "Fille de George Hamilton et Lucy Susannah Christiana Craigie. (p. 43)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Hamilton, Isabelle",
+          "naissance": "1835",
+          "note": "Fille de George Hamilton et Lucy Susannah Christiana Craigie. (p. 43)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Hamilton, John",
+          "naissance": "1827",
+          "deces": "1888",
+          "note": "Fils de George Hamilton ; reprend la direction des chantiers navals de New Liverpool avec ses frères à partir de 1839. (p. 43, 44)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Hamilton, Robert",
+          "naissance": "1822",
+          "deces": "1898",
+          "note": "Fils de George Hamilton ; co-héritier des installations de New Liverpool en 1839. (p. 43, 44)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Hamilton, Robert (résident en Angleterre)",
+          "note": "Frère des marchands George et William Hamilton, neveu de Henry Caldwell. (p. 42)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Hamilton, William (1840)",
+          "naissance": "1840",
+          "note": "Fils de George Hamilton et Lucy Susannah Christiana Craigie. (p. 43)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Hamilton, William (coexploitant)",
+          "note": "Marchand de bois/constructeur naval. Coexploitant du chantier naval de New Liverpool avec son frère George de 1809 à 1828. (p. 42)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Honorat, Jean-Baptiste (père oblat)",
+          "naissance": "1799",
+          "deces": "1862",
+          "note": "Prêtre oblat/missionnaire. Conteste vigoureusement dès 1844 le régime de travail inhumain et le monopole imposés par Peter McLeod et William Price dans les chantiers forestiers. (p. 54)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Hopkins, Frances Ann",
+          "naissance": "1836",
+          "deces": "1919",
+          "note": "Artiste peintre, auteure d'une œuvre (vers 1868) représentant un train/cage de bois sur le fleuve. (p. 46)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Huart, Étienne et Joseph",
+          "note": "Propriétaires terriens, voisins riverains du terrain du moulin banal de la rivière à la Scie (1853). (p. 35) — Des Huart sont bien présents à Saint-Romuald en 1891 (Magloire, Joseph, Jean-Baptiste), mais aucun n'a l'âge requis pour être ce Joseph riverain de 1853 ; aucun rattachement proposé."
+        },
+        {
+          "role": "sujet",
+          "nom": "Joly de Lotbinière, Gustave",
+          "note": "Seigneur de Lotbinière. Retient en 1832 les services des frères Ritchie pour ériger son moulin à scie à la rivière du Chêne. (p. 40)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Laliberté, Marcel",
+          "note": "Archéologue. Découverte au début des années 1990 de plus de 8 000 outils de pierre sur la terrasse Micmac à New Liverpool. (p. 29, 30)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Lambert, Eustache",
+          "naissance": "vers 1618",
+          "deces": "1673",
+          "note": "Donné des Jésuites/interprète/commerçant et exploitant de pêche. Construit en 1651 une cabane à la pointe de la côte Rouge. Contrat de pêche à l'anguille en 1653 avec le seigneur de Lauzon. Propriétaire du lot 401 à New Liverpool. (p. 28, 31, 32)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Lambert, Gabriel",
+          "note": "Habitant, fils d'Eustache Lambert ; inventaire après décès de 1722 révélant sa maison de pierre et ses dépendances. (p. 32)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Lambert, Joseph",
+          "note": "Propriétaire terrien, riverain à Etchemin bordant la propriété Hamilton Hall selon le plan de 1835. (p. 43)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Lambert, Julien",
+          "note": "Propriétaire terrien d'un lot voisin de Hamilton Hall à Etchemin (plan de 1835). (p. 43)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Lambert, Pierre",
+          "note": "Arpenteur, auteur du plan détaillé de 1853 (moulin de la rivière à la Scie) et du plan de la propriété Hamilton à Etchemin en 1835. (p. 35, 43)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Landry, Robert",
+          "note": "Résident de New Liverpool, photographié à vélo vers 1920 sur le chemin du Fleuve. (p. 17) — Postérieur au dernier recensement dépouillé (1891), aucun rattachement possible."
+        },
+        {
+          "role": "sujet",
+          "nom": "Laurence, Marie",
+          "naissance": "1632",
+          "deces": "1686",
+          "note": "Épouse d'Eustache Lambert ; gère les propriétés familiales du lot 401 après la mort de son époux en 1673. (p. 32)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Légaré, Joseph",
+          "naissance": "1795",
+          "deces": "1855",
+          "note": "Artiste peintre, auteur du tableau Le manoir des Caldwell (vers 1843, MNBAQ). (p. 39)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Legendre, Jean-Baptiste",
+          "note": "Arpenteur, auteur du plan du village de Liverpool (1857) et du plan de la partie centrale d'Etchemin (1856). (p. 17, 40)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Lemieux, Éric",
+          "note": "Photographié en 1964 sur le site archéologique du domaine Longwood, fils de Jacques Lemieux. (p. 29)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Lemieux, Jacques",
+          "note": "Historien/géographe, photographe du chantier archéologique de Longwood en 1964 et auteur d'études sur New Liverpool. (p. 29, 56)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Lemieux, Johanne",
+          "note": "Photographiée en 1964 sur le site archéologique de Longwood, fille de Jacques Lemieux. (p. 29)"
+        },
+        {
+          "role": "sujet",
+          "nom": "McKenzie, James",
+          "note": "Hôtelier/propriétaire de navire. Propriétaire de l'Hôtel Lauzon et du bateau à manège Britannia (vers 1840). (p. 54)"
+        },
+        {
+          "role": "sujet",
+          "nom": "McLeod, Peter",
+          "note": "Marchand de bois, associé de William Price. Protestant. Connu pour sa gestion intransigeante dans les chantiers (lettre du 3 décembre 1846 à Damase Boulanger). (p. 54)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Montferrand, Joseph (dit Joe Montferrand)",
+          "naissance": "1802",
+          "deces": "1864",
+          "note": "Cageux/homme fort/draveur légendaire, figure mythique des travailleurs du bois dans la vallée du Saint-Laurent et l'Outaouais. (p. 46)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Moreau, Jean",
+          "note": "Propriétaire du bateau à manège Le Léonard effectuant la traversée du fleuve. (p. 54)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Murray, James",
+          "naissance": "1721 ou 1722",
+          "deces": "1794",
+          "note": "Gouverneur général/seigneur de Lauzon. Achète Lauzon à Étienne Charest III en 1765 ; la loue en 1774 pour 99 ans à Henry Caldwell. (p. 34)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Napoléon Ier",
+          "naissance": "1769",
+          "deces": "1821",
+          "note": "Empereur des Français. Instaure le Blocus continental par le décret de Berlin (1806), stimulant l'essor du commerce du bois au Canada. (p. 36)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Pintal, Jean-Yves",
+          "note": "Archéologue. Direction des campagnes de fouilles archéologiques des années 2000 au domaine Longwood. (p. 29)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Poiré, Charles",
+          "note": "Cultivateur/canotier de Lévis. Construit l'un des premiers bateaux à manège en service entre Québec et Lévis au début du XIXe siècle. (p. 54)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Price, William",
+          "naissance": "1789",
+          "deces": "1867",
+          "note": "Baron du bois/industriel/marchand. Fondateur de la Price Brothers. Érige 40 scieries dans l'Est du Canada. Recensé à New Liverpool en 1841. Fait don du terrain de l'église anglicane de New Liverpool en 1841. Utilise le système de paiements par jetons de troc (tokens). Époux de Jane Stewart, père de 14 enfants, associé de Peter McLeod. (p. 43, 54, 55, 56, 59)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Ramsay, Allan",
+          "naissance": "1713",
+          "deces": "1784",
+          "note": "Peintre officiel de la cour britannique, auteur du portrait de sacre du roi George III (c. 1761-1762). (p. 33)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Ritchie, Andrew",
+          "naissance": "1806",
+          "deces": "1842",
+          "note": "Charpentier, mécanicien de chantier (millwright), constructeur de moulins à Etchemin et de scieries à vapeur à la Chaudière. Fils de Hugh John Ritchie, frère de John Ritchie. (p. 40)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Ritchie, Hugh John",
+          "naissance": "1780",
+          "note": "Charpentier/mécanicien (millwright), spécialiste originaire des îles Britanniques dans la construction et la modernisation des moulins à scie. Père d'Andrew et John Ritchie. (p. 40)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Ritchie, John",
+          "naissance": "1809",
+          "deces": "1866",
+          "note": "Charpentier (millwright)/constructeur naval/fondeur. Érige la première fonderie de fer à Etchemin en 1829 ; invente un système de poulies breveté pour acheminer le bois ; bâtit le navire à vapeur New Liverpool (1841). Frère d'Andrew Ritchie, associé de Timothy Amiraux. (p. 40, 42)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Roberge, Thomas",
+          "note": "Canotier/constructeur maritime. Construit avec Laurent Demers le bateau à manège L'Elzéar mis en service vers 1840. (p. 54) — Rattachement proposé en hypothèse, voir affirmation ci-dessous."
+        },
+        {
+          "role": "sujet",
+          "nom": "Roy, Joseph-Edmond",
+          "naissance": "1855",
+          "deces": "1913",
+          "note": "Historien/notaire, auteur de l'ouvrage fondamental Histoire de la seigneurie de Lauzon. (p. 37)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Samson, C. (Mme)",
+          "note": "Enseignante à l'école catholique romaine de la rue Saint-Damase à New Liverpool vers 1910. (p. 20) — Postérieure au dernier recensement dépouillé (1891), aucun rattachement possible."
+        },
+        {
+          "role": "sujet",
+          "nom": "Sax, Pierre-Télesphore (abbé)",
+          "note": "Prêtre catholique, premier curé de Saint-Romuald. Auteur en 1856 du premier rapport paroissial de Saint-Romuald, recensant la population canadienne-française, irlandaise et protestante. (p. 59)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Spark, Alexander (professeur)",
+          "naissance": "1762",
+          "deces": "1819",
+          "note": "Ministre de l'Église d'Écosse/précepteur, éducateur ayant dispensé un enseignement très soigné à John Caldwell. (p. 38)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Stewart, Charles Grey",
+          "note": "Inspecteur des douanes à Québec, père de Jane Stewart. (p. 55)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Stewart, Jane",
+          "naissance": "1805",
+          "deces": "1861",
+          "note": "Épouse William Price le 6 juillet 1825 à la cathédrale Holy Trinity de Québec, mère de 14 enfants. (p. 55)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Strouds, Gilles William (rebaptisé Louis-Claude-Joseph)",
+          "naissance": "1712",
+          "deces": "1757",
+          "note": "Commerçant de bois/exploitant de moulin, pionnier anglais de l'exploitation forestière sous le Régime français. Converti au catholicisme en 1742. Inhumé dans la chapelle des Récollets à Québec. (p. 32, 33)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Topley, William James",
+          "naissance": "1845",
+          "deces": "1930",
+          "note": "Photographe documentariste, auteur d'un cliché de 1911 montrant un groupe d'immigrants débarqués au port de Québec. (p. 56)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Topping, William (famille/héritiers de)",
+          "note": "Propriétaires terriens, ancien propriétaire bordant la rivière à la Scie mentionné sur le plan de 1853. (p. 35) — Le patronyme Topping est bien attesté à Saint-Romuald en 1871 et 1881 (plusieurs ménages), mais aucun individu daté ne correspond avec certitude à ce William ; aucun rattachement proposé."
+        },
+        {
+          "role": "sujet",
+          "nom": "Villeneuve, Robert de",
+          "note": "Cartographe/ingénieur du roi. Carte de 1685-1686 documentant l'occupation du littoral fluvial face à Sillery. (p. 32)"
+        },
+        {
+          "role": "sujet",
+          "nom": "Wolfe, James (Général)",
+          "naissance": "1727",
+          "deces": "1759",
+          "note": "Général de l'armée britannique. Ordonne l'incendie systématique des habitations de la rive sud en juillet 1759. (p. 33)"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "identite",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D1-P075-L17",
+            "1881-D1-P088-L10",
+            "1891-D1-P099-L06"
+          ],
+          "enonce": "Henry Atkinson, marchand de bois, est recensé en 1871 (38 ans, « Bourgeois »), 1881 (48 ans, « Marchand de bois ») et 1891 (59 ans, « Marchand de bois ») — progression d'âge exacte et profession cohérente avec l'industriel du bois qui rachète en 1856 les installations d'Etchemin bâties par les Caldwell.",
+          "consequence": "Rattache au recensement l'industriel qui succède aux Caldwell à la tête des moulins d'Etchemin, complétant la chaîne Caldwell → Hamilton (chantier naval) → Atkinson (moulins, à partir de 1856) déjà esquissée par le dictionnaire."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1856",
+          "personnes": [
+            "1871-D1-P075-L17"
+          ],
+          "enonce": "Henry Atkinson devient en 1856 propriétaire des installations et des moulins d'Etchemin, construits à l'origine par la famille Caldwell."
+        },
+        {
+          "type": "identite",
+          "certitude": "hypothese",
+          "personnes": [
+            "1871-D1-P024-L13",
+            "1881-D1-P022-L11",
+            "1891-D1-P140-L13"
+          ],
+          "enonce": "Joseph Bourassa (fils), propriétaire terrien identifié sur le plan du moulin banal de la rivière à la Scie en 1853, serait ce Joseph Bourassa recensé cultivateur puis rentier, dont l'âge (56 ans en 1871, donc né vers 1815) est cohérent avec un propriétaire terrien adulte dès 1853.",
+          "note": "Rapprochement fragile : la qualification « fils » implique un père du même nom, potentiellement une autre personne ; le patronyme Bourassa est courant dans la paroisse (voir aussi Etienne Bourassa dans familysearch-etienne-bourassa, né 1800, dont le lien avec ce Joseph n'est pas établi). Ce Joseph Bourassa est par ailleurs solidement suivi sur les trois recensements (1871→1881→1891, progression d'âge exacte), seule son identification avec le personnage du dictionnaire reste hypothétique."
+        },
+        {
+          "type": "identite",
+          "certitude": "hypothese",
+          "personnes": [
+            "1871-D1-P022-L04"
+          ],
+          "enonce": "Thomas Roberge, canotier ayant construit avec Laurent Demers le bateau à manège L'Elzéar vers 1840, serait ce Thomas Roberge recensé commis, 50 ans, en 1871 (né vers 1821, donc âgé d'environ 19 ans en 1840).",
+          "note": "Seul candidat d'âge adulte plausible retrouvé sous ce nom en 1871 ; le lien avec la construction navale des années 1840 n'est pas confirmé par le recensement lui-même, qui le dit « commis » et non batelier ou constructeur en 1871. Aucun lien de parenté établi avec la famille Roberge de Julien Louis Julien Roberge déjà suivie dans ce dossier (voir geni-julien-louis-julien-roberge) — Thomas ne figure pas dans la fratrie qui y est documentée."
+        }
+      ],
+      "contexte": "Mission New Liverpool (Julie Doyon, Septentrion) retrace quatre siècles d'occupation du territoire de New Liverpool et d'Etchemin, de la présence autochtone précoloniale et des premiers colons de la seigneurie de Lauzon (Couture, Lambert, Bissot, XVIIe siècle) jusqu'aux mutations industrielles du XIXe siècle : les seigneurs Caldwell, qui développent le commerce du bois et bâtissent les premiers moulins d'Etchemin ; les frères Hamilton, qui fondent en 1809 le grand chantier naval de New Liverpool ; puis Henry Atkinson, qui rachète les moulins d'Etchemin en 1856 ; et William Price, baron du bois dont l'empire industriel s'étend bien au-delà de la paroisse. Cette monographie situe donc les familles suivies dans ce dossier (Bourassa, Demers, Roberge, McReady, Forcade) dans le contexte économique et territorial plus large de New Liverpool — sans que la plupart des personnages cités (seigneurs, artistes, arpenteurs, gouverneurs) aient de lien direct, ni parfois aucun lien du tout, avec les recensements de 1871 à 1891 dépouillés dans ce projet.",
+      "note": "Source secondaire de qualité (ouvrage publié, recherche archivistique et cartographique déclarée par entrée), mais dont l'objet est l'histoire économique et territoriale de New Liverpool en général, non la généalogie des familles suivies ici. Sur ~70 personnes répertoriées, seules 3 rattachements au recensement sont proposés (1 établi : Henry Atkinson ; 2 en hypothèse : Joseph Bourassa fils, Thomas Roberge) ; les autres personnes sont conservées comme contexte historique sans rattachement, la plupart étant soit antérieures aux recensements dépouillés, soit extérieures à la paroisse, soit postérieures à 1891.",
+      "ajoute_le": "2026-07-30"
     }
   ]
 }
