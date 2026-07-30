@@ -1689,6 +1689,471 @@
       ],
       "note": "Donne pour la première fois les dates de naissance et de décès de Louis Demers, journalier puis boucher, chef de la lignée déjà suivie à travers ses fils Alfred, Alphonse, Charles et Joseph.",
       "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "myheritage-robert-mcready-menage-1871",
+      "type": "recensement",
+      "titre": "Robert MacReady — Recensement du Canada de 1871 (transcription MyHeritage)",
+      "date": "1871-04-02",
+      "source": "Recensement du Canada de 1871, transcription MyHeritage",
+      "cote": "RG31, district C-10352, sous-district St. Romuald-D'Etchemin c, page 28-29, famille 95",
+      "nature": "Retranscription indépendante d'une fiche déjà dépouillée (maison 75, famille 95) ; révèle un membre du ménage absent du dépouillement brut de ce projet — la propre mère de Robert McReady, veuve, vivant chez lui.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Robert MacReady",
+          "ref_personne": "1871-D2-P029-L08"
+        },
+        {
+          "role": "epouse",
+          "nom": "Eléonore MacReady",
+          "ref_personne": "1871-D2-P029-L09"
+        },
+        {
+          "role": "enfant",
+          "nom": "Michel MacReady",
+          "ref_personne": "1871-D2-P029-L10"
+        },
+        {
+          "role": "enfant",
+          "nom": "Mary MacReady",
+          "ref_personne": "1871-D2-P029-L11"
+        },
+        {
+          "role": "enfant",
+          "nom": "Rose MacReady",
+          "ref_personne": "1871-D2-P029-L12"
+        },
+        {
+          "role": "enfant",
+          "nom": "Emélie MacReady",
+          "ref_personne": "1871-D2-P029-L13"
+        },
+        {
+          "role": "enfant",
+          "nom": "Pierre MacReady",
+          "ref_personne": "1871-D2-P029-L14"
+        },
+        {
+          "role": "enfant",
+          "nom": "Eléonore MacReady (fille)",
+          "ref_personne": "1871-D2-P029-L15"
+        },
+        {
+          "role": "mere",
+          "nom": "Emélie Casey",
+          "ref_personne": "1871-D2-P029-L16",
+          "note": "Recensée « veuve », 75 ans, dans le ménage de son fils Robert — jusqu'ici connue seulement par son nom, jamais rattachée à une fiche de recensement (voir alliances-forcade-mcready, familysearch-emilie-pelletier-mcready)."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P029-L08",
+            "1871-D2-P029-L09",
+            "1871-D2-P029-L10",
+            "1871-D2-P029-L11",
+            "1871-D2-P029-L12",
+            "1871-D2-P029-L13",
+            "1871-D2-P029-L14",
+            "1871-D2-P029-L15"
+          ],
+          "enonce": "Michel, Mary, Rose, Emélie, Pierre et Eléonore (fille) MacReady sont les six enfants de Robert McReady et d'Éléonore Bourassa recensés en 1871.",
+          "consequence": "Nomme individuellement les six enfants que le dépouillement brut donnait sans lien de parenté explicite."
+        },
+        {
+          "type": "identite",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P029-L16"
+          ],
+          "enonce": "Emélie Casey, veuve d'Henry McReady, vit en 1871 dans le ménage de son fils Robert, à Saint-Romuald.",
+          "consequence": "Premier rattachement de cette femme à une fiche de recensement — elle n'apparaît dans aucun des documents précédemment versés (alliances-forcade-mcready, familysearch-henry-mcready-marie-forcade, familysearch-emilie-pelletier-mcready) autrement que par son nom."
+        }
+      ],
+      "note": "Le ménage compte aussi deux femmes non apparentées : Marie Paradis (28 ans, commis) et Aurélie Couture (16 ans, domestique) — non retenues ici, aucun lien avec les familles suivies dans ce dossier.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "geni-rose-delima-roberge-hardy",
+      "type": "autre",
+      "titre": "Rose-De-Lima Délima (de Lima) Roberge — Geni World Family Tree",
+      "date": "2026",
+      "source": "Geni World Family Tree, via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'arbre généalogique. Fille de Julien Louis Julien Roberge et de Marie Luce Demers (voir geni-julien-louis-julien-roberge) ; sa propre trajectoire, retrouvée sur les trois recensements dépouillés sous le nom de son mari, est une découverte de ce document plutôt qu'un fait qu'il énonce lui-même.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Rose-De-Lima Délima (de Lima) Roberge",
+          "naissance": "1821",
+          "deces": "1897",
+          "ref_personne": "1871-D2-P019-L01",
+          "note": "Recensée sous des graphies variables de son propre nom marital : « Rose Hardy » (1871), « Delmia Rose Hardy » (1881), « Rose Delima Hardy » (1891)."
+        },
+        {
+          "role": "pere",
+          "nom": "Julien Louis Julien Roberge (né Lacroix Roberge)"
+        },
+        {
+          "role": "mere",
+          "nom": "Marie Luce Roberge (née Demers)"
+        },
+        {
+          "role": "epoux",
+          "nom": "David Hardy dit Châtillon",
+          "ref_personne": "1871-D2-P018-L20"
+        },
+        {
+          "role": "enfant",
+          "nom": "Théophile (Léophile) Hardy dit Châtillon",
+          "ref_personne": "1871-D2-P019-L02",
+          "note": "Théophile en 1871, Léophile en 1881 — même prénom rare sous deux graphies, ou deux frères proches en âge ; à vérifier."
+        },
+        {
+          "role": "enfant",
+          "nom": "Victor Hardy dit Châtillon",
+          "ref_personne": "1871-D2-P019-L03"
+        },
+        {
+          "role": "enfant",
+          "nom": "Eusèbe (Euchèbe) Hardy dit Châtillon",
+          "ref_personne": "1871-D2-P019-L04"
+        },
+        {
+          "role": "enfant",
+          "nom": "Délima Hardy dit Châtillon",
+          "ref_personne": "1871-D2-P019-L05"
+        },
+        {
+          "role": "enfant",
+          "nom": "Marie Louise (Rose Lela) Hardy dit Châtillon",
+          "ref_personne": "1881-D2-P036-L13"
+        },
+        {
+          "role": "frere",
+          "nom": "Hubert Roberge",
+          "note": "Voir geni-hubert-roberge-pere-isabelle-burroughs."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "identite",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P018-L20",
+            "1881-D2-P036-L09",
+            "1891-D1-P105-L15"
+          ],
+          "enonce": "David Hardy est recensé chef de ce ménage en 1871 (55 ans), 1881 (65 ans) et 1891 (78 ans) — progression d'âge cohérente sur les trois recensements.",
+          "consequence": "Trajectoire stable, l'une des rares à courir sans rupture sur les trois recensements dépouillés."
+        },
+        {
+          "type": "identite",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P019-L01",
+            "1881-D2-P036-L10",
+            "1891-D1-P105-L16"
+          ],
+          "enonce": "Son épouse, Rose-De-Lima Roberge, est recensée à ses côtés en 1871 (45 ans), 1881 (56 ans) et 1891 (66 ans)."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1841-10-10",
+          "personnes": [
+            "1871-D2-P018-L20",
+            "1871-D2-P019-L01"
+          ],
+          "enonce": "Rose-De-Lima Roberge épouse David Hardy dit Châtillon le 10 octobre 1841 à Saint-Jean-Chrysostome."
+        },
+        {
+          "type": "filiation",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P019-L02",
+            "1871-D2-P019-L03",
+            "1871-D2-P019-L04",
+            "1871-D2-P019-L05",
+            "1881-D2-P036-L13"
+          ],
+          "enonce": "Théophile, Victor, Eusèbe, Délima et Marie Louise, recensés dans ce ménage, correspondent à cinq des enfants nommés dans le document (Theophile Hardy dit Châtillon, Victor Hardy dit Châtillon, Eusèbe Hardy dit Châtillon, Délima Hardy dit Châtillon, Marie Louise Rose Lela Hardy dit Châtillon).",
+          "note": "Les neuf autres enfants nommés par le document ne se retrouvent pas de façon certaine au recensement, faute d'âge permettant de les distinguer d'homonymes Hardy, très nombreux à Saint-Romuald."
+        }
+      ],
+      "note": "Sœur d'Hubert Roberge (le père, voir geni-hubert-roberge-pere-isabelle-burroughs) — un rameau Roberge de plus qui se rattache concrètement au recensement de Saint-Romuald, cette fois côté filles.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "familysearch-theotiste-forcade-desrochers",
+      "type": "autre",
+      "titre": "Théotiste Forcade (née Desrochers) — Arbre généalogique FamilySearch",
+      "date": "2026",
+      "source": "FamilySearch, compilation via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'arbre généalogique. Le document signale lui-même un problème non résolu sur les parents de cette personne.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Théotiste Forcade (née Desrochers)",
+          "naissance": "1795-10-05",
+          "deces": "1882-11-05",
+          "ref_personne": "1871-D2-P018-L08",
+          "note": "Recensée « Théotis Desroches », 78 ans, veuve, dans le ménage de son fils Albert Forcade en 1871 — l'âge recensé donne une naissance vers 1793, à deux ans de l'année du document (1795), écart mineur habituel."
+        },
+        {
+          "role": "epoux",
+          "nom": "Joseph Ange Forcade",
+          "note": "Déjà décédé en 1871 : elle est recensée veuve."
+        },
+        {
+          "role": "enfant",
+          "nom": "Albert Forcade",
+          "ref_personne": "1871-D2-P018-L06"
+        },
+        {
+          "role": "enfant",
+          "nom": "Rose Delima Forcade",
+          "ref_personne": "1871-D2-P022-L14",
+          "note": "Voir familysearch-rose-delima-mcready-forcade."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "identite",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P018-L08"
+          ],
+          "enonce": "Théotiste Forcade, mère d'Albert Forcade, vit chez lui en 1871, veuve.",
+          "consequence": "Second cas dans ce lot d'une mère veuve retrouvée au recensement dans le ménage d'un fils déjà connu — voir aussi Emélie Casey dans myheritage-robert-mcready-menage-1871."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1882-11-05",
+          "personnes": [],
+          "enonce": "Théotiste Forcade meurt le 5 novembre 1882 à Saint-Romuald-d'Etchemin.",
+          "note": "Absente du recensement de 1881 dépouillé dans ce dossier — cohérent avec son grand âge (environ 86 ans) plutôt qu'avec un départ de la paroisse ; elle meurt sur place l'année suivante."
+        }
+      ],
+      "note": "Le document précise lui-même : « Il semble y avoir un problème avec les parents de cette personne » — ses propres parents ne sont donc pas retenus ici.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "familysearch-rose-delima-mcready-forcade",
+      "type": "autre",
+      "titre": "Rose Delima McReady (née Forcade) — Arbre généalogique FamilySearch",
+      "date": "2026",
+      "source": "FamilySearch, compilation via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'arbre généalogique centrée sur l'épouse de John McReady elle-même.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Rose Delima McReady (née Forcade)",
+          "naissance": "1824-07-13",
+          "deces": "1897-03-22",
+          "ref_personne": "1871-D2-P022-L14"
+        },
+        {
+          "role": "pere",
+          "nom": "Joseph Ange Forcade"
+        },
+        {
+          "role": "mere",
+          "nom": "Théotiste Forcade (née Desrochers)",
+          "ref_personne": "1871-D2-P018-L08"
+        },
+        {
+          "role": "epoux",
+          "nom": "John McReady",
+          "ref_personne": "1871-D2-P022-L13"
+        },
+        {
+          "role": "frere",
+          "nom": "Albert Forcade",
+          "ref_personne": "1871-D2-P018-L06"
+        },
+        {
+          "role": "enfant",
+          "nom": "Joseph Napoleon Mccready",
+          "ref_personne": "1871-D2-P022-L15",
+          "note": "= Napoléon MacReady au recensement, 20 ans en 1871."
+        },
+        {
+          "role": "enfant",
+          "nom": "Edouard Mc Ready",
+          "ref_personne": "1871-D2-P022-L16"
+        },
+        {
+          "role": "enfant",
+          "nom": "Pierre Etienne McReady",
+          "ref_personne": "1871-D2-P022-L18",
+          "note": "= Pierre MacReady au recensement, 14 ans en 1871."
+        },
+        {
+          "role": "enfant",
+          "nom": "Marie Louise McReady",
+          "ref_personne": "1871-D2-P023-L02",
+          "note": "= Louise MacReady au recensement, 11 ans en 1871."
+        },
+        {
+          "role": "enfant",
+          "nom": "Eleonore McCready",
+          "note": "Non rattachée avec certitude."
+        },
+        {
+          "role": "enfant",
+          "nom": "Emilie Eugenie McCready",
+          "note": "Non rattachée avec certitude."
+        },
+        {
+          "role": "enfant",
+          "nom": "Marie Caroline McReady",
+          "note": "Non rattachée avec certitude."
+        },
+        {
+          "role": "enfant",
+          "nom": "John Henry McReady",
+          "note": "Non rattachée avec certitude — deux entrées voisines (« John Henry » et « John Henri ») dans le document, possible doublon."
+        },
+        {
+          "role": "enfant",
+          "nom": "Marie Elizabeth McReady",
+          "note": "Non rattachée avec certitude."
+        },
+        {
+          "role": "enfant",
+          "nom": "Marie Rosalie Laroche (née McReady)",
+          "note": "Non rattachée avec certitude."
+        },
+        {
+          "role": "enfant",
+          "nom": "John Henri McReady",
+          "note": "Non rattachée avec certitude — voir la remarque sur John Henry ci-dessus."
+        },
+        {
+          "role": "enfant",
+          "nom": "Marie Victoire McReady",
+          "note": "Non rattachée avec certitude."
+        },
+        {
+          "role": "enfant",
+          "nom": "Marie Emilie McReady",
+          "note": "Non rattachée avec certitude."
+        },
+        {
+          "role": "enfant",
+          "nom": "Marie Rose-de-Lima Délima Leclerc (née McReady)",
+          "note": "Non rattachée avec certitude."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1843-02-08",
+          "personnes": [
+            "1871-D2-P022-L13",
+            "1871-D2-P022-L14"
+          ],
+          "enonce": "Rose Delima Forcade épouse John McReady le 8 février 1843 à Saint-Nicolas.",
+          "consequence": "Confirme, jour pour jour et par une source distincte, la date déjà établie dans alliances-forcade-mcready."
+        },
+        {
+          "type": "filiation",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P022-L15",
+            "1871-D2-P022-L16",
+            "1871-D2-P022-L18",
+            "1871-D2-P023-L02"
+          ],
+          "enonce": "Quatre des huit enfants recensés en 1871 chez John et Rose Delima McReady (voir myheritage-john-macready-famille-1871) correspondent à quatre des quatorze enfants nommés par ce document : Napoléon/Joseph Napoleon, Edouard, Pierre/Pierre Etienne et Louise/Marie Louise."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P018-L08"
+          ],
+          "enonce": "Rose Delima Forcade est la fille de Joseph Ange Forcade et de Théotiste Forcade (née Desrochers) — mêmes parents qu'Albert Forcade, déjà connus comme sa sœur (alliances-forcade-mcready)."
+        }
+      ],
+      "note": "Le document nomme quatorze enfants en tout, contre huit seulement retrouvés vivant au foyer en 1871 — écart normal (enfants déjà mariés, partis, ou décédés en bas âge d'ici 1871), mais qui laisse dix enfants non rattachés à ce jour, dont deux entrées quasi identiques (« John Henry » / « John Henri ») qui pourraient n'être qu'une seule personne dédoublée par erreur dans la compilation.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "familysearch-robert-mcready-arbre",
+      "type": "autre",
+      "titre": "Robert McReady — Arbre généalogique FamilySearch",
+      "date": "2026",
+      "source": "FamilySearch, compilation via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'arbre généalogique. Reprend, du point de vue de Robert lui-même, des faits déjà établis par alliances-forcade-mcready et familysearch-henriette-eleonore-mcready — versé pour mémoire, sans confirmation vraiment indépendante puisque la source semble être la même compilation FamilySearch.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Robert McReady",
+          "ref_personne": "1871-D2-P029-L08"
+        },
+        {
+          "role": "pere",
+          "nom": "Henry McReady"
+        },
+        {
+          "role": "mere",
+          "nom": "Emilie Casey",
+          "ref_personne": "1871-D2-P029-L16",
+          "note": "Voir myheritage-robert-mcready-menage-1871 pour son rattachement au recensement."
+        },
+        {
+          "role": "epouse",
+          "nom": "Henriette Éléonore McReady (née MacDonald)",
+          "ref_personne": "1871-D2-P029-L09"
+        },
+        {
+          "role": "frere",
+          "nom": "John McReady",
+          "ref_personne": "1871-D2-P022-L13"
+        },
+        {
+          "role": "frere",
+          "nom": "Henry McReady"
+        },
+        {
+          "role": "soeur",
+          "nom": "Emilie Pelletier (née Macready)"
+        },
+        {
+          "role": "enfant",
+          "nom": "Arthur Joseph MacReady"
+        },
+        {
+          "role": "enfant",
+          "nom": "Marie Emma McReady",
+          "ref_personne": "1881-D2-P018-L13"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1858-09-14",
+          "personnes": [
+            "1871-D2-P029-L08",
+            "1871-D2-P029-L09"
+          ],
+          "enonce": "Robert McReady épouse Henriette Éléonore le 14 septembre 1858 à Notre-Dame-de-la-Victoire-Lévis.",
+          "note": "Même date que familysearch-henriette-eleonore-mcready — aucune valeur de confirmation indépendante à en tirer, les deux documents partagent vraisemblablement la même source de base."
+        }
+      ],
+      "note": "Document redondant avec ceux déjà versés sur ce couple ; retenu uniquement pour compléter l'index et parce qu'il confirme, sans rien ajouter, le lien avec Emilie Casey désormais rattachée au recensement.",
+      "ajoute_le": "2026-07-30"
     }
   ]
 }
