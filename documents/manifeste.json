@@ -932,6 +932,763 @@
       ],
       "note": "Si confirmée, cette filiation remonterait la lignée maternelle de trois enfants McReady déjà connus (Michel, Mary, Rose, Emélie, Pierre) d'une génération de plus. La double mention contradictoire du nom de naissance de la fille (« MacDonald » / « Bourassa ») dans la source elle-même appelle la prudence.",
       "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "familysearch-henriette-eleonore-mcready",
+      "type": "autre",
+      "titre": "Henriette Éléonore McReady (née MacDonald / Bourassa) — Arbre généalogique FamilySearch",
+      "date": "2026",
+      "source": "FamilySearch, compilation via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'arbre généalogique centrée sur l'épouse de Robert McReady elle-même, plutôt que sur ses parents (voir familysearch-etienne-bourassa, qui couvre le même couple parental depuis l'autre bout).",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Henriette Éléonore McReady",
+          "naissance": "1834-09-28",
+          "ref_personne": "1871-D2-P029-L09",
+          "note": "Le titre du document la dit « née MacDonald », mais ses parents y sont donnés comme Etienne Bourassa et Élisabeth Bédard — la même contradiction déjà relevée dans familysearch-etienne-bourassa. Les deux documents proviennent vraisemblablement de la même compilation de base et ne constituent donc pas deux confirmations indépendantes de ses parents Bourassa, seulement une répétition."
+        },
+        {
+          "role": "pere",
+          "nom": "Etienne Bourassa"
+        },
+        {
+          "role": "mere",
+          "nom": "Élisabeth Bédard"
+        },
+        {
+          "role": "epoux",
+          "nom": "Robert McReady",
+          "ref_personne": "1871-D2-P029-L08"
+        },
+        {
+          "role": "enfant",
+          "nom": "Arthur Joseph MacReady",
+          "note": "Non rattaché à une fiche de recensement."
+        },
+        {
+          "role": "enfant",
+          "nom": "Marie Emma McReady",
+          "ref_personne": "1881-D2-P018-L13"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1858-09-14",
+          "personnes": [
+            "1871-D2-P029-L08",
+            "1871-D2-P029-L09"
+          ],
+          "enonce": "Robert McReady épouse Henriette Éléonore (dite Éléonore) le 14 septembre 1858 à Notre-Dame-de-la-Victoire-Lévis.",
+          "consequence": "Précise au jour près le mariage qu'alliances-forcade-mcready ne datait que par l'année (1858)."
+        },
+        {
+          "type": "naissance",
+          "certitude": "probable",
+          "date": "1834-09-28",
+          "personnes": [
+            "1871-D2-P029-L09"
+          ],
+          "enonce": "Éléonore serait née le 28 septembre 1834 à Lauzon, Lévis.",
+          "note": "Incompatible avec son âge recensé de 31 ans en 1871 (qui donnerait une naissance vers 1840) : écart de six ans, plus large que les écarts habituels d'une ou deux années observés ailleurs dans ce dossier. Certitude ramenée à « probable » à cause de cet écart non résolu."
+        },
+        {
+          "type": "residence",
+          "certitude": "probable",
+          "date": "1891",
+          "personnes": [
+            "1871-D2-P029-L09"
+          ],
+          "enonce": "En 1891, le document la situe à Sainte-Anne-du-Sault (région de Drummond/Arthabaska), loin de Saint-Romuald.",
+          "note": "Absente du recensement de 1891-D1 dépouillé ici, ce qui est cohérent avec un déménagement hors paroisse plutôt qu'un décès — à vérifier."
+        }
+      ],
+      "note": "Confirme le lien Bourassa déjà proposé par familysearch-etienne-bourassa (mêmes parents) et l'identité de sa fille Marie Emma, déjà connue par son remariage de 1907 avec Albert Forcade. N'apporte cependant pas de confirmation vraiment indépendante de la filiation Bourassa, les deux documents FamilySearch semblant partager la même source. La contradiction « née MacDonald » et l'écart d'âge de six ans restent non résolus.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "familysearch-henry-mcready-marie-forcade",
+      "type": "autre",
+      "titre": "Henry McReady (fils) et Marie Élisabeth Forcade — Arbre généalogique FamilySearch",
+      "date": "2026",
+      "source": "FamilySearch, compilation via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'arbre généalogique centrée sur Henry McReady fils, le frère de Robert resté non rattaché dans alliances-forcade-mcready.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Henry McReady",
+          "naissance": "1823-09-21",
+          "deces": "1894-10-05",
+          "note": "Non rattaché à une fiche de recensement — absent des recensements dépouillés, ou non retrouvé sous ce patronyme à Sainte-Colombe-de-Sillery."
+        },
+        {
+          "role": "pere",
+          "nom": "Henry McReady"
+        },
+        {
+          "role": "mere",
+          "nom": "Emilie Casey"
+        },
+        {
+          "role": "epouse",
+          "nom": "Marie Élisabeth Forcade"
+        },
+        {
+          "role": "frere",
+          "nom": "John McReady",
+          "ref_personne": "1871-D2-P022-L13"
+        },
+        {
+          "role": "soeur",
+          "nom": "Emilie Pelletier (née Macready)"
+        },
+        {
+          "role": "frere",
+          "nom": "Robert McReady",
+          "ref_personne": "1871-D2-P029-L08"
+        },
+        {
+          "role": "enfant",
+          "nom": "John McCready",
+          "note": "Non rattaché."
+        },
+        {
+          "role": "enfant",
+          "nom": "James McReady",
+          "note": "Non rattaché."
+        },
+        {
+          "role": "enfant",
+          "nom": "Emilie Falardeau (née McReady)",
+          "note": "Non rattachée."
+        },
+        {
+          "role": "enfant",
+          "nom": "Honore Mcready",
+          "note": "Vraisemblablement l'« Honoré McReady » que alliances-forcade-mcready signalait comme maître de poste de New-Liverpool vers 1900-1908 sans pouvoir le rattacher à une génération connue — ce document en fait un fils d'Henry McReady fils, donc un neveu de Robert McReady et un cousin de Marie Emma McReady (épouse d'Albert Forcade)."
+        },
+        {
+          "role": "enfant",
+          "nom": "Emma Roome (née McReady)",
+          "note": "Non rattachée."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1848-01-11",
+          "personnes": [],
+          "enonce": "Henry McReady fils épouse Marie Élisabeth Forcade le 11 janvier 1848 à Saint-Jean-Chrysostome.",
+          "consequence": "Confirme, jour pour jour, la date que alliances-forcade-mcready donnait déjà pour ce mariage — seconde source indépendante sur ce point précis."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1894-10-05",
+          "personnes": [],
+          "enonce": "Henry McReady fils meurt le 5 octobre 1894 à Sainte-Foy."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P022-L13",
+            "1871-D2-P029-L08"
+          ],
+          "enonce": "Henry McReady fils est le fils d'Henry McReady et d'Emilie Casey, les mêmes parents que John, Emilie et Robert McReady déjà connus.",
+          "consequence": "Sixième enfant retrouvé de cette fratrie, après John, Emilie, Robert et Henry fils lui-même."
+        },
+        {
+          "type": "filiation",
+          "certitude": "probable",
+          "personnes": [],
+          "enonce": "Honoré McReady, maître de poste de New-Liverpool vers 1900-1908 (voir alliances-forcade-mcready), serait le fils d'Henry McReady fils et de Marie Élisabeth Forcade.",
+          "note": "Rapproché par la seule coïncidence du prénom et du contexte (New-Liverpool, tournant du XXe siècle) ; aucun acte ne le confirme directement."
+        }
+      ],
+      "note": "Referme le dossier laissé ouvert par alliances-forcade-mcready sur le couple Henry McReady fils / Marie Élisabeth Forcade, et propose pour la première fois une filiation pour Honoré McReady, jusqu'ici une figure isolée du tournant du siècle.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "myheritage-john-macready-famille-1871",
+      "type": "recensement",
+      "titre": "John MacReady — Recensement du Canada de 1871 (transcription MyHeritage)",
+      "date": "1871-04-02",
+      "source": "Recensement du Canada de 1871, transcription MyHeritage",
+      "cote": "RG31, district C-10352, sous-district St. Romuald-D'Etchemin c, page 22-23",
+      "nature": "Retranscription indépendante d'une fiche déjà dépouillée dans data/recensement-1871-d2-data.js (maison 58, famille 71) ; n'apporte rien sur l'identité du couple, déjà connu par alliances-forcade-mcready, mais restitue les liens implicites du ménage et les prénoms des huit enfants, absents du dépouillement brut.",
+      "personnes": [
+        {
+          "role": "pere",
+          "nom": "John MacReady",
+          "ref_personne": "1871-D2-P022-L13",
+          "note": "= John McReady, frère de Robert McReady, déjà identifié dans alliances-forcade-mcready."
+        },
+        {
+          "role": "mere",
+          "nom": "Délima MacReady",
+          "ref_personne": "1871-D2-P022-L14",
+          "note": "= Rose Delima Forcade, épouse de John McReady selon alliances-forcade-mcready, ici recensée sous son seul prénom usuel."
+        },
+        {
+          "role": "enfant",
+          "nom": "Napoléon MacReady",
+          "ref_personne": "1871-D2-P022-L15"
+        },
+        {
+          "role": "enfant",
+          "nom": "Edouard MacReady",
+          "ref_personne": "1871-D2-P022-L16"
+        },
+        {
+          "role": "enfant",
+          "nom": "John MacReady (fils)",
+          "ref_personne": "1871-D2-P022-L17"
+        },
+        {
+          "role": "enfant",
+          "nom": "Pierre MacReady",
+          "ref_personne": "1871-D2-P022-L18"
+        },
+        {
+          "role": "enfant",
+          "nom": "Albert MacReady",
+          "ref_personne": "1871-D2-P022-L19"
+        },
+        {
+          "role": "enfant",
+          "nom": "Thomas MacReady",
+          "ref_personne": "1871-D2-P022-L20"
+        },
+        {
+          "role": "enfant",
+          "nom": "Marie MacReady",
+          "ref_personne": "1871-D2-P023-L01"
+        },
+        {
+          "role": "enfant",
+          "nom": "Louise MacReady",
+          "ref_personne": "1871-D2-P023-L02"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P022-L13",
+            "1871-D2-P022-L14",
+            "1871-D2-P022-L15",
+            "1871-D2-P022-L16",
+            "1871-D2-P022-L17",
+            "1871-D2-P022-L18",
+            "1871-D2-P022-L19",
+            "1871-D2-P022-L20",
+            "1871-D2-P023-L01",
+            "1871-D2-P023-L02"
+          ],
+          "enonce": "Napoléon, Edouard, John (fils), Pierre, Albert, Thomas, Marie et Louise MacReady sont les huit enfants de John McReady et de Rose Delima Forcade.",
+          "consequence": "Le recensement dépouillé donnait ce ménage sans aucun lien de parenté explicite entre ses onze membres ; ce document restitue la structure familiale complète."
+        }
+      ],
+      "note": "Le rattachement de John McReady et de son épouse était déjà acquis ; la valeur ajoutée de ce document tient entièrement aux huit enfants, une fratrie jusqu'ici totalement absente du dossier.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "acte-mariage-joseph-demers-1900",
+      "type": "mariage",
+      "titre": "Mariage de Joseph Demers et Honoré Gagné, 1900",
+      "date": "1900-05-07",
+      "source": "Canada, Quebec Marriages, 1820-1917, via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'acte de mariage avec image du registre reproduite en vignette.",
+      "personnes": [
+        {
+          "role": "epoux",
+          "nom": "Joseph Demers",
+          "ref_personne": "1891-D1-P123-L08",
+          "note": "17 ans en 1891, boucher comme son père : 26 ans à son mariage de 1900, cohérent."
+        },
+        {
+          "role": "pere",
+          "nom": "Louis Demers",
+          "ref_personne": "1891-D1-P123-L05"
+        },
+        {
+          "role": "mere",
+          "nom": "Léocadie Beaulieu",
+          "ref_personne": "1891-D1-P123-L06",
+          "note": "Orthographiée « Beaulieu » ici, « Beaudoin » ailleurs (filae-leocadie-beaudoin, acte-mariage-alphonse-demers-1908) — variante graphique courante entre les deux patronymes, pas une contradiction de fond."
+        },
+        {
+          "role": "epouse",
+          "nom": "Honoré Gagné",
+          "note": "Non rattachée à une fiche de recensement."
+        },
+        {
+          "role": "pere",
+          "nom": "Thomas Gagné"
+        },
+        {
+          "role": "mere",
+          "nom": "Philomène Gingras"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1900-05-07",
+          "personnes": [
+            "1891-D1-P123-L08"
+          ],
+          "enonce": "Joseph Demers épouse Honoré Gagné le 7 mai 1900 à Saint-Romuald-d'Etchemin."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1891-D1-P123-L05",
+            "1891-D1-P123-L06",
+            "1891-D1-P123-L08"
+          ],
+          "enonce": "Joseph Demers est le fils de Louis Demers et de Léocadie Beaudoin — même couple parental qu'Alfred, Alphonse et Charles Demers déjà connus.",
+          "consequence": "Quatrième fils retrouvé du couple Louis Demers / Léocadie Beaudoin, aux côtés d'Alfred (1898), Alphonse (1908) et Charles (1896)."
+        }
+      ],
+      "note": "Ferme le rattachement esquissé dans le dossier : le garçon de 17 ans recensé en 1891 au poste 1891-D1-P123-L08, boucher comme son père, est bien un quatrième fils du couple Demers-Beaudoin.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "geni-julien-louis-julien-roberge",
+      "type": "autre",
+      "titre": "Julien Louis Julien Roberge (né Lacroix Roberge) — Geni World Family Tree",
+      "date": "2026",
+      "source": "Geni World Family Tree, via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'arbre généalogique remontant à une génération antérieure aux recensements dépouillés (1785-1832) ; sert ici à établir la fratrie du père d'Hubert William Roberge.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Julien Louis Julien Roberge (né Lacroix Roberge)",
+          "naissance": "1785-05-03",
+          "deces": "1832-01-09",
+          "note": "Antérieur aux recensements dépouillés (1871-1891) ; aucun rattachement possible."
+        },
+        {
+          "role": "pere",
+          "nom": "Charles Roberge"
+        },
+        {
+          "role": "mere",
+          "nom": "Marie-Geneviève Lambert"
+        },
+        {
+          "role": "epouse",
+          "nom": "Marie Luce Roberge (née Demers)"
+        },
+        {
+          "role": "enfant",
+          "nom": "Luce Roberge"
+        },
+        {
+          "role": "enfant",
+          "nom": "Louis Hubert Roberge"
+        },
+        {
+          "role": "enfant",
+          "nom": "Rose-De-Lima Délima (de Lima) Roberge"
+        },
+        {
+          "role": "enfant",
+          "nom": "Magloire Roberge"
+        },
+        {
+          "role": "enfant",
+          "nom": "Hubert Roberge",
+          "note": "Père d'Hubert William Roberge (voir geni-hubert-roberge-pere-isabelle-burroughs et geni-hubert-roberge-fils-sara-porter)."
+        },
+        {
+          "role": "enfant",
+          "nom": "Émilie Roberge"
+        },
+        {
+          "role": "enfant",
+          "nom": "Julien Roberge"
+        },
+        {
+          "role": "enfant",
+          "nom": "Clérence Roberge"
+        },
+        {
+          "role": "enfant",
+          "nom": "Céleste Roberge"
+        },
+        {
+          "role": "enfant",
+          "nom": "Claire Roberge"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1813-02-03",
+          "personnes": [],
+          "enonce": "Julien Louis Julien Roberge épouse Marie Luce Demers le 3 février 1813 à St-Nicolas."
+        },
+        {
+          "type": "fratrie",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Luce, Louis Hubert, Rose-De-Lima Délima, Magloire, Hubert, Émilie, Julien, Clérence, Céleste et Claire Roberge sont les dix enfants de Julien Louis Julien Roberge et de Marie Luce Demers.",
+          "consequence": "Cette liste correspond exactement à la fratrie donnée du côté du fils dans geni-hubert-roberge-pere-isabelle-burroughs, ce qui confirme les deux documents l'un par l'autre."
+        }
+      ],
+      "note": "L'épouse Marie Luce Roberge, née Demers, porte le même patronyme que Louis Demers et Léocadie Beaudoin suivis par ailleurs dans ce dossier (acte-mariage-joseph-demers-1900, myheritage-louis-demers-vital) — mais rien n'indique de lien entre les deux familles Demers : cette Marie Luce serait née vers les années 1790, deux générations avant Louis Demers (né 1844). Simple homonymie de patronyme, courante dans la région ; à ne pas confondre.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "geni-hubert-roberge-pere-isabelle-burroughs",
+      "type": "autre",
+      "titre": "Hubert Roberge (père, né vers 1817) et Isabelle Burroughs — Geni World Family Tree",
+      "date": "2026",
+      "source": "Geni World Family Tree, via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'arbre généalogique. Fils de Julien Louis Julien Roberge (voir geni-julien-louis-julien-roberge), père d'Hubert William Roberge (voir geni-hubert-roberge-fils-sara-porter).",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Hubert Roberge",
+          "note": "Né à St-Nicolas. Non nommément rattaché ; identifié par hypothèse à 1871-D2-P020-L09 — voir affirmation ci-dessous."
+        },
+        {
+          "role": "pere",
+          "nom": "Julien Louis Julien Roberge (né Lacroix Roberge)"
+        },
+        {
+          "role": "mere",
+          "nom": "Marie Luce Roberge (née Demers)"
+        },
+        {
+          "role": "epouse",
+          "nom": "Isabelle Roberge (née Burroughs)"
+        },
+        {
+          "role": "enfant",
+          "nom": "Hubert Roberge (fils)",
+          "ref_personne": "1871-D2-P029-L19",
+          "note": "= Hubert William Roberge, voir geni-hubert-roberge-fils-sara-porter."
+        },
+        {
+          "role": "frere",
+          "nom": "Luce Roberge"
+        },
+        {
+          "role": "frere",
+          "nom": "Louis Hubert Roberge"
+        },
+        {
+          "role": "soeur",
+          "nom": "Rose-De-Lima Délima (de Lima) Roberge"
+        },
+        {
+          "role": "frere",
+          "nom": "Magloire Roberge"
+        },
+        {
+          "role": "soeur",
+          "nom": "Émilie Roberge"
+        },
+        {
+          "role": "frere",
+          "nom": "Julien Roberge"
+        },
+        {
+          "role": "soeur",
+          "nom": "Clérence Roberge"
+        },
+        {
+          "role": "soeur",
+          "nom": "Céleste Roberge"
+        },
+        {
+          "role": "soeur",
+          "nom": "Claire Roberge"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1840-01-21",
+          "personnes": [],
+          "enonce": "Hubert Roberge épouse Isabelle Burroughs le 21 janvier 1840 à Saint-Jean-Chrysostome."
+        },
+        {
+          "type": "identite",
+          "certitude": "hypothese",
+          "personnes": [],
+          "enonce": "Ce Hubert Roberge, navigateur, marié à une Elisabeth (âgée de 51 ans en 1871, 54 ans lui-même) et chef du ménage 1871-D2-P020 (famille 63), serait ce couple.",
+          "note": "Rapprochement fragile : le prénom recensé de l'épouse (« Elisabeth ») diffère de celui du document (« Isabelle »), ce qui peut être la même personne sous deux graphies voisines ou deux personnes distinctes. Le fils Hubert (notre Hubert William, né v. 1842) n'apparaît pas dans ce ménage en 1871, ce qui est attendu puisqu'il a déjà son propre foyer (1871-D2-P029) — son absence ne contredit donc pas le rapprochement, mais ne le confirme pas non plus. Le métier de navigateur, commun au père et au fils, est le seul indice positif supplémentaire."
+        }
+      ],
+      "note": "Le fils Hubert William Roberge (voir geni-hubert-roberge-fils-sara-porter et myheritage-hubert-william-roberge-deces) est solidement rattaché au recensement ; son père reste une identification prudente, à confirmer.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "geni-hubert-roberge-fils-sara-porter",
+      "type": "autre",
+      "titre": "Hubert Roberge (fils, né vers 1842) et Sara Porter — Geni World Family Tree",
+      "date": "2026",
+      "source": "Geni World Family Tree, via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'arbre généalogique.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Hubert Roberge",
+          "ref_personne": "1871-D2-P029-L19",
+          "note": "Navigateur en 1871 (29 ans), batelier en 1881 (40 ans) — même profession de batelier que le père. Voir myheritage-hubert-william-roberge-deces pour son décès en 1888, sous le nom complet « Hubert William Roberge »."
+        },
+        {
+          "role": "pere",
+          "nom": "Hubert Roberge (père)",
+          "note": "Voir geni-hubert-roberge-pere-isabelle-burroughs."
+        },
+        {
+          "role": "mere",
+          "nom": "Isabelle Roberge (née Burroughs)"
+        },
+        {
+          "role": "epouse",
+          "nom": "Sara Roberge (née Porter)",
+          "ref_personne": "1871-D2-P029-L20"
+        },
+        {
+          "role": "enfant",
+          "nom": "John Roberge",
+          "ref_personne": "1881-D2-P016-L17",
+          "note": "= Jean Roberge, 10 ans, recensé en 1881 aux côtés de son père."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "identite",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P029-L19",
+            "1881-D2-P016-L13"
+          ],
+          "enonce": "Le même Hubert Roberge, navigateur puis batelier, marié à Sara/Sarah, est recensé en 1871 (maison 76, famille 96) et en 1881 (maison 63, famille 71).",
+          "consequence": "Établit la trajectoire du couple à travers les deux recensements, avec l'arrivée de trois enfants supplémentaires entre 1871 et 1881 (Eliza, Jean, Emma) en plus de Marie et Alfred déjà présents en 1871."
+        },
+        {
+          "type": "filiation",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P029-L19"
+          ],
+          "enonce": "Ce Hubert Roberge est le fils d'Hubert Roberge et d'Isabelle Burroughs.",
+          "note": "Voir la réserve sur l'identification du père dans geni-hubert-roberge-pere-isabelle-burroughs."
+        }
+      ],
+      "note": "Rattachement solide sur les deux recensements pour Hubert Roberge fils lui-même et son épouse ; seule la génération du père reste incertaine.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "myheritage-hubert-william-roberge-deces",
+      "type": "sepulture",
+      "titre": "Décès de Hubert William Roberge, 1888",
+      "date": "1888-01-15",
+      "source": "Canada, Quebec Deaths, 1825-1917, via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'acte de sépulture avec image du registre reproduite en vignette.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Hubert William Roberge",
+          "naissance": "1842",
+          "deces": "1888-01-15",
+          "ref_personne": "1881-D2-P016-L13",
+          "note": "Âge au décès (46 ans) cohérent avec l'âge recensé de 40 ans en 1881 et de 29 ans en 1871 (naissance vers 1841-1842 dans les deux cas)."
+        },
+        {
+          "role": "epouse",
+          "nom": "Sarah Porter",
+          "ref_personne": "1881-D2-P016-L14"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1888-01-15",
+          "personnes": [
+            "1881-D2-P016-L13"
+          ],
+          "enonce": "Hubert William Roberge meurt le 15 janvier 1888, inhumé à Saint-Romuald-d'Etchemin, à 46 ans.",
+          "consequence": "Explique sa disparition entre le recensement de 1881 et celui de 1891, comme pour Robert McReady (alliances-forcade-mcready) — un cas de plus où l'analyse automatique ne pouvait pas distinguer un décès d'un simple départ de la paroisse."
+        }
+      ],
+      "note": "Complète la trajectoire de la famille batelière Roberge-Porter, dont le chef meurt à Saint-Romuald même en 1888, quelques années après le dernier recensement où on le retrouve vivant.",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "filae-leocadie-beaudoin",
+      "type": "autre",
+      "titre": "Léocadie Beaudoin — Arbres généalogiques Filae",
+      "date": "2026",
+      "source": "Filae, via MyHeritage",
+      "cote": "",
+      "nature": "Compilation d'arbre généalogique centrée sur l'épouse de Louis Demers, complémentaire de myheritage-louis-demers-vital.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Léocadie Beaudoin",
+          "naissance": "1846-08-22",
+          "deces": "1931-05-05",
+          "ref_personne": "1891-D1-P123-L06",
+          "note": "Âge donné par le recensement (44 ans en 1891) cohérent avec une naissance en 1846."
+        },
+        {
+          "role": "pere",
+          "nom": "Henri Beaudoin"
+        },
+        {
+          "role": "mere",
+          "nom": "Antoinette Lepinay"
+        },
+        {
+          "role": "mari",
+          "nom": "Louis Demers",
+          "ref_personne": "1891-D1-P123-L05"
+        },
+        {
+          "role": "frere",
+          "nom": "Joseph Beaudoin"
+        },
+        {
+          "role": "soeur",
+          "nom": "Marie Agnès Beaudoin"
+        },
+        {
+          "role": "soeur",
+          "nom": "Marie Odélie Beaudoin"
+        },
+        {
+          "role": "frere",
+          "nom": "Charles Beaudoin"
+        },
+        {
+          "role": "soeur",
+          "nom": "Marie Émilie Beaudoin"
+        },
+        {
+          "role": "frere",
+          "nom": "Louis Beaudoin"
+        },
+        {
+          "role": "soeur",
+          "nom": "Marie Louise Beaudoin"
+        },
+        {
+          "role": "soeur",
+          "nom": "Marie Antoinette Beaudoin"
+        },
+        {
+          "role": "soeur",
+          "nom": "Marie Elmire Beaudoin"
+        },
+        {
+          "role": "soeur",
+          "nom": "Marie Adèle Beaudoin"
+        },
+        {
+          "role": "frere",
+          "nom": "Henri Beaudoin (fils)"
+        },
+        {
+          "role": "frere",
+          "nom": "Louis Onézime Beaudoin"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1865-09-19",
+          "personnes": [
+            "1891-D1-P123-L05",
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "Léocadie Beaudoin épouse Louis Demers le 19 septembre 1865 à Saint-Jean-Chrysostome.",
+          "consequence": "Confirme la date de mariage et donne pour la première fois les parents de Léocadie, jusqu'ici connue seulement comme épouse de Louis Demers."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1931-05-05",
+          "personnes": [
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "Léocadie Beaudoin meurt le 5 mai 1931 à Saint-Romuald."
+        }
+      ],
+      "note": "Ferme le dossier biographique de Léocadie Beaudoin, mère d'Alfred, Alphonse, Charles et Joseph Demers déjà rattachés par leurs actes de mariage respectifs. Son décès en 1931 se situe bien après le dernier recensement dépouillé (1891).",
+      "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "myheritage-louis-demers-vital",
+      "type": "autre",
+      "titre": "Louis Demers — Arbres généalogiques MyHeritage",
+      "date": "2026",
+      "source": "MyHeritage, arbre « Beaudoin Web Site »",
+      "cote": "",
+      "nature": "Compilation d'arbre généalogique centrée sur Louis Demers lui-même, complémentaire de filae-leocadie-beaudoin.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Louis Demers",
+          "naissance": "1844-02-27",
+          "deces": "1912-10-30",
+          "ref_personne": "1891-D1-P123-L05",
+          "note": "Âge donné par le recensement (47 ans en 1891, 36 ans en 1881, 27 ans en 1871) cohérent avec une naissance en 1844."
+        },
+        {
+          "role": "epouse",
+          "nom": "Léocadie Demers (née Beaudoin)",
+          "ref_personne": "1891-D1-P123-L06"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "naissance",
+          "certitude": "etabli",
+          "date": "1844-02-27",
+          "personnes": [
+            "1891-D1-P123-L05"
+          ],
+          "enonce": "Louis Demers naît le 27 février 1844 à Saint-Jean-Chrysostome."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1912-10-30",
+          "personnes": [
+            "1891-D1-P123-L05"
+          ],
+          "enonce": "Louis Demers meurt le 30 octobre 1912 à Saint-Romuald-d'Etchemin.",
+          "consequence": "Se situe après le dernier recensement dépouillé (1891), donc n'explique aucune disparition entre deux recensements — simple complément biographique."
+        }
+      ],
+      "note": "Donne pour la première fois les dates de naissance et de décès de Louis Demers, journalier puis boucher, chef de la lignée déjà suivie à travers ses fils Alfred, Alphonse, Charles et Joseph.",
+      "ajoute_le": "2026-07-30"
     }
   ]
 }
