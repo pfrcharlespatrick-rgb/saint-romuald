@@ -128,6 +128,90 @@ for row_data in data:
             r.font.name = "Arial"
             r.font.size = Pt(9.5)
 
+doc.add_paragraph()  # Espacement
+
+# Dictionnaire biographique
+h2 = doc.add_heading(level=1)
+r_h2 = h2.add_run("2. Dictionnaire biographique")
+r_h2.font.name = "Georgia"
+r_h2.font.color.rgb = RGBColor(0x1B, 0x36, 0x5D)
+
+h2_1 = doc.add_heading(level=2)
+r_h2_1 = h2_1.add_run(
+    "Magdeleine Delisle (1791-1873), pionnière de New Liverpool"
+)
+r_h2_1.font.name = "Georgia"
+r_h2_1.font.bold = True
+r_h2_1.font.color.rgb = RGBColor(0x1B, 0x36, 0x5D)
+
+p_bio_source = doc.add_paragraph()
+r_bio_source = p_bio_source.add_run(
+    "Source : Guy Saint-Hilaire, maître généalogiste agréé, « Magdeleine"
+    " Delisle (1791-1873), pionnière de New Liverpool, prolifique souche des"
+    " Hardy, Roberge, Gibson, Nolin, Pelletier et Forcade », L'Ancêtre,"
+    " n° 292, vol. 37, automne 2010, p. 23-32."
+)
+r_bio_source.font.name = "Arial"
+r_bio_source.font.size = Pt(9)
+r_bio_source.font.italic = True
+r_bio_source.font.color.rgb = RGBColor(0x55, 0x55, 0x55)
+
+p_bio = doc.add_paragraph()
+p_bio.paragraph_format.line_spacing = 1.15
+r_bio = p_bio.add_run(
+    "Née le 9 juillet 1791 à Saint-Jean-de-l'Île-d'Orléans, Magdeleine"
+    " Delisle épouse Joseph Hardy en 1810 et s'établit avec lui à New"
+    " Liverpool, où elle est abandonnée par son mari vers l'automne 1817"
+    " après cinq enfants. Devenue propriétaire d'une résidence en 1823,"
+    " elle a par la suite six autres enfants, de trois pères différents,"
+    " dont un compagnonnage d'une quinzaine d'années avec le marchand"
+    " Jean Pelletier. Des onze enfants qu'elle a eus, neuf se marient et"
+    " laissent une abondante descendance sous les patronymes Hardy,"
+    " Burroughs (devenu Roberge par alliance), Gibson, Nolin, Pelletier et"
+    " Forcade. Magdeleine Delisle meurt le 14 février 1873 à Saint-Romuald,"
+    " à l'âge de 81 ans, laissant au moins 86 petits-enfants identifiés."
+    " Ses descendants Hardy, Roberge et Pelletier sont toujours"
+    " représentés aujourd'hui à Saint-Romuald et dans le quartier de New"
+    " Liverpool."
+)
+r_bio.font.name = "Arial"
+r_bio.font.size = Pt(10.5)
+
+# Tableau de la descendance
+table2 = doc.add_table(rows=1, cols=4)
+table2.alignment = WD_TABLE_ALIGNMENT.CENTER
+headers2 = ["Enfant", "Conjoint", "Mariage", "Postérité"]
+hdr_cells2 = table2.rows[0].cells
+for i, head in enumerate(headers2):
+    hdr_cells2[i].text = head
+    set_cell_background(hdr_cells2[i], "1B365D")
+    p = hdr_cells2[i].paragraphs[0]
+    for r in p.runs:
+        r.font.bold = True
+        r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+        r.font.name = "Arial"
+
+data2 = [
+    ("Joseph Hardy (fils)", "Aveline Fortin", "14 fév. 1848, Plessisville", "8 enfants"),
+    ("David Hardy", "Rose-de-Lima Roberge", "5 oct. 1841, St-Jean-Chrysostome", "12 enfants — souche des Hardy de Saint-Romuald"),
+    ("Henriette Hardy", "Télesphore Marchand", "1er fév. 1848, Plessisville", "6 enfants"),
+    ("Élisabeth (Isabelle) Burroughs", "Hubert Roberge", "21 janv. 1840, St-Jean-Chrysostome", "14 enfants"),
+    ("James Gibson", "Marie-Louise McReady", "22 nov. 1842, St-Jean-Chrysostome", "11 enfants"),
+    ("Éléonore Pelletier", "Étienne Nolin, puis Victor Girouard", "13 sept. 1842 / 22 fév. 1881", "13 enfants"),
+    ("Édouard Pelletier", "Céleste Roberge", "18 sept. 1848, St-Jean-Chrysostome", "11 enfants"),
+    ("Caroline Pelletier", "Joseph Forcade, puis Norbert Gosselin (fils)", "18 sept. 1848 / 9 janv. 1872", "6 enfants"),
+    ("Eusèbe Pelletier", "Marie-Émilie McReady, puis Léda Couillard, puis Eusébie Houle", "20 fév. 1860, Saint-Romuald", "5 enfants"),
+]
+
+for row_data in data2:
+    row_cells = table2.add_row().cells
+    for i, val in enumerate(row_data):
+        row_cells[i].text = val
+        p = row_cells[i].paragraphs[0]
+        for r in p.runs:
+            r.font.name = "Arial"
+            r.font.size = Pt(9)
+
 # Enregistrement du fichier
 doc.save("Synthese_Histoire_New_Liverpool.docx")
 print("Document Word généré avec succès : Synthese_Histoire_New_Liverpool.docx")
