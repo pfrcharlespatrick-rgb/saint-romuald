@@ -1927,7 +1927,7 @@ window.COMPLEMENT_1881_D2 = {
       "type": "patronyme errone",
       "constat": "Le manuscrit porte « Forcade Albert » (42 ans, Marchand) a la ligne 2 et « Rosalie » a la ligne 3. Le depouillement les a transcrits « Albert Faucher » et « Rosalie Faucher » (1881-D2-P018-L02 et L03).",
       "consequence": "alliances-forcade-mcready affirme qu'Albert Forcade est « absent du recensement de 1881 ». C'est faux : il y figure, sous un patronyme mal lu. Son menage (70/78) est immediatement voisin de celui de Robert McCready (71/79), ce qui corrobore la chronique sur la proximite des deux etablissements.",
-      "action": "Corriger le patronyme dans les donnees et rattacher Albert Forcade a 1881-D2-P018-L02 dans le manifeste."
+      "action": "Rattachement fait : voir relecture-manuscrit-1881-d2 et alliances-forcade-mcready dans documents/manifeste.json. Le patronyme reste « Faucher » dans les donnees de dépouillement — correction de la transcription laissee a la validation de Patrick."
     },
     {
       "page": 18,
@@ -1935,14 +1935,14 @@ window.COMPLEMENT_1881_D2 = {
       "constat": "Le manuscrit compte 25 lignes ; le depouillement s'arrete a 24. La ligne omise est la ligne 15 du manuscrit (« Alice » McCready, 2 ans). Toutes les lignes 16 a 25 du manuscrit sont donc enregistrees sous les numeros 15 a 24.",
       "verification": "ms l.16 « McCready John, 60, Navigateur » = donnees l.15 « Isaac McCready, 60, Navigateur » ; ms l.17 « Rose Delima, 57 » = donnees l.16 ; ms l.25 « Edmond Michel, 33 » = donnees l.24.",
       "consequence": "Les identifiants 1881-D2-P018-L15 a L24 designent des personnes decalees d'une ligne par rapport au manuscrit. En particulier, alliances-forcade-mcready rattache Rose Delima Forcade a 1881-D2-P018-L07, qui est en realite « Mary Jenne McCready, 19 ans » — la vraie Rose Delima (57 ans) est a 1881-D2-P018-L16 des donnees (ligne 17 du manuscrit).",
-      "action": "Corriger le rattachement dans le manifeste et signaler le decalage."
+      "action": "Fait : le manifeste rattache desormais Rose Delima Forcade a 1881-D2-P018-L16 (et non L07). Le decalage est corrige a l'affichage par « decalage_depuis »."
     },
     {
       "page": 18,
       "type": "prenom errone",
       "constat": "Le manuscrit porte « McCready John » (60 ans, Navigateur) ; le depouillement lit « Isaac McCready ». De meme ms l.18 « Pite/Pierre » (24 ans, Journalier) est lu « Sophie ».",
       "consequence": "John McReady, frere de Robert et epoux de Rose Delima Forcade, est bien present au recensement de 1881 — sous un prenom mal lu.",
-      "action": "Corriger et rattacher."
+      "action": "Rattachement fait : John McReady est rattache a 1881-D2-P018-L15 dans alliances-forcade-mcready. Les prenoms restent « Isaac » et « Sophie » dans les donnees — correction de la transcription laissee a la validation de Patrick."
     }
   ],
   "note": "Complément des colonnes 10 à 13 et 16 à 19 du tableau 1, absentes du dépouillement initial de la division 2. Seules les valeurs qui s'écartent des défauts sont consignées, dans « exceptions » — y compris la seule infirmité relevée (page 53, ligne 24). Les numéros de ligne sont ceux imprimés au manuscrit. La page 18 porte « decalage »/« decalage_depuis » : le dépouillement y a sauté la ligne 15 du feuillet, si bien que ses lignes 15 à 24 correspondent aux lignes 16 à 25 du manuscrit."

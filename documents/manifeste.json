@@ -1,7 +1,7 @@
 {
   "format": "documents-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-07-30",
+  "mis_a_jour": "2026-07-31",
   "note": "Index des documents historiques qui établissent des liens de filiation. Un document versé ici l'emporte toujours sur une proposition automatique de data/filiation-data.js : l'acte est une preuve, le rapprochement algorithmique n'est qu'une hypothèse. Voir documents/README.md pour la marche à suivre.",
   "types_admis": {
     "bapteme": "Acte de baptême — établit une filiation directe et une date de naissance",
@@ -92,7 +92,19 @@
           "role": "sujet",
           "nom": "Albert Forcade",
           "ref_personne": "1891-D1-P114-L15",
-          "note": "Même homme vingt ans plus tard, 50 ans déclarés. Absent du recensement de 1881."
+          "note": "Même homme vingt ans plus tard, 50 ans déclarés."
+        },
+        {
+          "role": "sujet",
+          "nom": "Albert Forcade",
+          "ref_personne": "1881-D2-P018-L02",
+          "note": "Recensé marchand à 42 ans en 1881, sous le patronyme mal lu « Faucher » au dépouillement. Son ménage (maison 70, famille 78) est le voisin immédiat de celui de Robert McCready (maison 71, famille 79). Ce rattachement infirme la mention « absent du recensement de 1881 » que portait cette fiche."
+        },
+        {
+          "role": "epouse",
+          "nom": "Rosalie Forcade",
+          "ref_personne": "1881-D2-P018-L03",
+          "note": "Recensée « Rosalie Faucher », 42 ans, aux côtés d'Albert. Même erreur de lecture du patronyme."
         },
         {
           "role": "epouse",
@@ -133,6 +145,12 @@
           "note": "Frère de Robert, marchand à New-Liverpool en 1877 selon l'annuaire cité."
         },
         {
+          "role": "sujet",
+          "nom": "John McReady",
+          "ref_personne": "1881-D2-P018-L15",
+          "note": "Recensé navigateur à 60 ans en 1881, sous le prénom mal lu « Isaac » au dépouillement. Le manuscrit porte bien « McCready John »."
+        },
+        {
           "role": "epouse",
           "nom": "Rose Delima Forcade",
           "ref_personne": "1871-D2-P022-L14",
@@ -141,8 +159,8 @@
         {
           "role": "epouse",
           "nom": "Rose Delima Forcade",
-          "ref_personne": "1881-D2-P018-L07",
-          "note": "Recensée « Rose Delina McCready » à 57 ans."
+          "ref_personne": "1881-D2-P018-L16",
+          "note": "Recensée « Rose Delina McCready » à 57 ans. Rattachement corrigé : la fiche pointait auparavant sur 1881-D2-P018-L07, qui est Mary Jenne McCready, 19 ans."
         },
         {
           "role": "epouse",
@@ -167,7 +185,7 @@
           "certitude": "etabli",
           "personnes": [
             "1871-D2-P022-L14",
-            "1881-D2-P018-L07"
+            "1881-D2-P018-L16"
           ],
           "enonce": "Rose Delima, épouse de John McReady, est née Forcade. Elle est la sœur d'Albert Forcade.",
           "consequence": "Sans cette information, rien au recensement ne rattache cette femme à la famille Forcade : elle y figure sous le seul patronyme de son mari."
@@ -300,10 +318,31 @@
           "personnes": [],
           "enonce": "Honoré McReady succède à Albert Forcade comme maître de poste de New-Liverpool vers 1900 et conserve la charge en 1907-1908 ; Johnny McReady est élu conseiller municipal en 1900.",
           "note": "Ces deux hommes ne sont pas rattachés aux recensements — ils appartiennent à la génération suivante, postérieure à 1891."
+        },
+        {
+          "type": "identite",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P018-L06",
+            "1881-D2-P018-L02",
+            "1891-D1-P114-L15"
+          ],
+          "enonce": "Albert Forcade est recensé aux trois recensements dépouillés : 32 ans en 1871, 42 ans en 1881 (sous le patronyme mal lu « Faucher ») et 50 ans en 1891.",
+          "consequence": "Corrige l'affirmation initiale de ce document, qui le disait absent du recensement de 1881 — l'absence n'était qu'une erreur de lecture du patronyme."
+        },
+        {
+          "type": "identite",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P022-L13",
+            "1881-D2-P018-L15",
+            "1881-D2-P018-L16"
+          ],
+          "enonce": "John McReady et Rose Delima Forcade, recensés ensemble en 1871 (maison 58), le sont encore en 1881 à 60 et 57 ans, dans le ménage voisin de celui de Robert McCready."
         }
       ],
       "contexte": "New-Liverpool, dans la paroisse de Saint-Romuald d'Etchemin, comptait environ 600 habitants dans les années 1870. Le commerce du bois et la proximité du Grand Tronc en faisaient une plaque tournante de la rive sud. Dans un village de cette taille, le maître de poste et le marchand général sont les deux visages de l'autorité économique et civique : Albert Forcade et Robert McReady tenaient l'un et l'autre, et leurs établissements étaient voisins.",
-      "note": "Document de seconde main dont les sources primaires — annuaires et registres — n'ont pas été consultées directement. Les dates de mariage précises au jour sont retenues comme établies ; elles gagneraient à être confirmées sur les registres de Saint-Nicolas (1843, 1848) et de Saint-Romuald (1907). Deux personnes citées restent à rattacher : Henry McReady fils et Marie Élisabeth Forcade, mariés en 1848.",
+      "note": "Document de seconde main dont les sources primaires — annuaires et registres — n'ont pas été consultées directement. Les dates de mariage précises au jour sont retenues comme établies ; elles gagneraient à être confirmées sur les registres de Saint-Nicolas (1843, 1848) et de Saint-Romuald (1907). Une personne citée reste à rattacher : Marie Élisabeth Forcade, épouse d'Henry McReady fils en 1848 (lui-même documenté par familysearch-henry-mcready-marie-forcade). Trois rattachements de 1881 ont été ajoutés ou corrigés après relecture du manuscrit — voir relecture-manuscrit-1881-d2.",
       "ajoute_le": "2026-07-29"
     },
     {
@@ -3134,6 +3173,93 @@
       "note": "L'auteur signale avoir recueilli de l'information sur chacun des 86 petits-enfants identifiés de Magdeleine Delisle sans la publier « pour ne pas allonger indûment le présent exposé », et invite les chercheurs à lui communiquer tout renseignement complémentaire. Cette source, bien supérieure en rigueur aux arbres secondaires déjà présents dans ce dossier pour la même parenté (FamilySearch, Geni, MyHeritage), n'a cependant pas permis de rattacher au recensement local : Joseph Hardy (mari, mort à Saint-Louis-de-Blandford), leurs enfants Joseph et Henriette Hardy (élevés à Blandford/Princeville), James Gibson (déménagé à Lévis vers 1851, homonyme non retenu en 1871-D1-P005), Éléonore Pelletier et Étienne Nolin (Saint-Jean-Chrysostome puis Saint-Paul-de-Chester), ni les deux maris de Caroline Pelletier eux-mêmes (Joseph Forcade, mort avant 1871 ; Norbert Gosselin fils, introuvable). La piste d'un lien entre ce Joseph Forcade et la famille de Joseph Ange Forcade déjà documentée (familysearch-albert-forcade, alliances-forcade-mcready) mérite vérification mais n'est pas tranchée ici.",
       "ajoute_le": "2026-07-30",
       "fichier": "documents/sthilaire-2010-magdeleine-delisle.pdf"
+    },
+    {
+      "id": "relecture-manuscrit-1881-d2",
+      "type": "recensement",
+      "titre": "Relecture du manuscrit du recensement de 1881, division 2 — corrections de lecture",
+      "date": "1881-04-04",
+      "source": "BAC — Recensement 1881, district 46 Lévis, sous-district N Saint-Romuald, division 2",
+      "cote": "Tableau 1, pages 1 à 59 ; énumérateur Thomas Lambert, 4 avril – 3 mai 1881",
+      "nature": "Lecture directe des images du manuscrit, faite pour relever les colonnes 10 à 13 et 16 à 19 absentes du dépouillement (voir data/complement-1881-d2-data.js). Source primaire : c'est le feuillet lui-même, non une compilation. Les corrections ci-dessous portent sur des lectures du dépouillement, pas sur des faits nouveaux.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Albert Forcade",
+          "ref_personne": "1881-D2-P018-L02",
+          "note": "Dépouillé « Albert Faucher ». Le manuscrit porte « Forcade Albert », 42 ans, marchand."
+        },
+        {
+          "role": "epouse",
+          "nom": "Rosalie Forcade",
+          "ref_personne": "1881-D2-P018-L03",
+          "note": "Dépouillée « Rosalie Faucher », même erreur de patronyme."
+        },
+        {
+          "role": "sujet",
+          "nom": "John McReady",
+          "ref_personne": "1881-D2-P018-L15",
+          "note": "Dépouillé « Isaac McCready ». Le manuscrit porte « McCready John », 60 ans, navigateur."
+        },
+        {
+          "role": "enfant",
+          "nom": "Pierre McReady",
+          "ref_personne": "1881-D2-P018-L17",
+          "note": "Dépouillé « Sophie McCready ». Le manuscrit se lit « Pierre », 24 ans, journalier — lecture probable, l'initiale est empâtée."
+        },
+        {
+          "role": "sujet",
+          "nom": "Ernest Benson",
+          "ref_personne": "1881-D2-P054-L22",
+          "note": "Dépouillé « Ernest Bindon ». Le manuscrit porte « Benson Ernest », 36 ans, marchand de bois."
+        },
+        {
+          "role": "enfant",
+          "nom": "Alice McCready",
+          "note": "Ligne 15 du feuillet, 2 ans, fille de Robert McCready. Absente du dépouillement — non ajoutée d'office."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "lecture",
+          "certitude": "etabli",
+          "personnes": [
+            "1881-D2-P018-L02",
+            "1881-D2-P018-L03"
+          ],
+          "enonce": "Le patronyme lu « Faucher » aux lignes 2 et 3 de la page 18 se lit « Forcade » au manuscrit.",
+          "consequence": "Albert Forcade n'est pas absent du recensement de 1881, contrairement à ce qu'affirmait alliances-forcade-mcready. Son ménage jouxte celui de Robert McCready, ce qui corrobore la chronique sur la proximité des deux commerces."
+        },
+        {
+          "type": "lecture",
+          "certitude": "etabli",
+          "personnes": [
+            "1881-D2-P018-L15"
+          ],
+          "enonce": "Le prénom lu « Isaac » à la ligne 15 des données se lit « John » au manuscrit.",
+          "consequence": "John McReady, frère de Robert, est bien recensé en 1881 avec son épouse Rose Delima."
+        },
+        {
+          "type": "lecture",
+          "certitude": "etabli",
+          "personnes": [
+            "1881-D2-P054-L22"
+          ],
+          "enonce": "Le patronyme lu « Bindon » à la page 54 se lit « Benson » au manuscrit.",
+          "consequence": "Rattache au recensement la famille Benson du dictionnaire de Julie Doyon (anse et pointe Benson, « propriétaires terriens / industriels du bois ») : Ernest Benson est recensé marchand de bois, comme Édouard Benson à la page 56."
+        },
+        {
+          "type": "lecture",
+          "certitude": "probable",
+          "personnes": [
+            "1881-D2-P018-L17"
+          ],
+          "enonce": "Le prénom lu « Sophie » à la ligne 17 des données se lit plutôt « Pierre » au manuscrit.",
+          "note": "L'initiale est empâtée ; la profession portée (journalier) et l'âge (24 ans) s'accordent mieux avec un fils qu'avec une fille."
+        }
+      ],
+      "note": "Le dépouillement de la page 18 a par ailleurs sauté la ligne 15 du feuillet (Alice McCready, 2 ans), si bien que ses lignes 15 à 24 correspondent aux lignes 16 à 25 du manuscrit ; le complément corrige ce décalage à l'affichage. Au total, 14 lignes du manuscrit manquent au dépouillement de la division — la dernière ligne de onze pages, plus le cas de la page 18. Elles sont listées dans data/complement-1881-d2-data.js, sans être ajoutées d'office aux données.",
+      "ajoute_le": "2026-07-31"
     }
   ]
 }
