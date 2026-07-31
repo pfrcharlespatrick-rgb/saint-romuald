@@ -147,7 +147,7 @@
         {
           "role": "sujet",
           "nom": "John McReady",
-          "ref_personne": "1881-D2-P018-L15",
+          "ref_personne": "1881-D2-P018-L16",
           "note": "Recensé navigateur à 60 ans en 1881, sous le prénom mal lu « Isaac » au dépouillement. Le manuscrit porte bien « McCready John »."
         },
         {
@@ -159,7 +159,7 @@
         {
           "role": "epouse",
           "nom": "Rose Delima Forcade",
-          "ref_personne": "1881-D2-P018-L16",
+          "ref_personne": "1881-D2-P018-L17",
           "note": "Recensée « Rose Delina McCready » à 57 ans. Rattachement corrigé : la fiche pointait auparavant sur 1881-D2-P018-L07, qui est Mary Jenne McCready, 19 ans."
         },
         {
@@ -185,7 +185,7 @@
           "certitude": "etabli",
           "personnes": [
             "1871-D2-P022-L14",
-            "1881-D2-P018-L16"
+            "1881-D2-P018-L17"
           ],
           "enonce": "Rose Delima, épouse de John McReady, est née Forcade. Elle est la sœur d'Albert Forcade.",
           "consequence": "Sans cette information, rien au recensement ne rattache cette femme à la famille Forcade : elle y figure sous le seul patronyme de son mari."
@@ -335,8 +335,8 @@
           "certitude": "etabli",
           "personnes": [
             "1871-D2-P022-L13",
-            "1881-D2-P018-L15",
-            "1881-D2-P018-L16"
+            "1881-D2-P018-L16",
+            "1881-D2-P018-L17"
           ],
           "enonce": "John McReady et Rose Delima Forcade, recensés ensemble en 1871 (maison 58), le sont encore en 1881 à 60 et 57 ans, dans le ménage voisin de celui de Robert McCready."
         }
@@ -1958,6 +1958,12 @@
           "nom": "Rose Delima Forcade",
           "ref_personne": "1871-D2-P022-L14",
           "note": "Voir familysearch-rose-delima-mcready-forcade."
+        },
+        {
+          "role": "sujet",
+          "nom": "Théotis Forcade (née Desroches)",
+          "ref_personne": "1881-D2-P018-L04",
+          "note": "Toujours chez son fils Albert en 1881, dix ans après 1871. L'âge porté au manuscrit se lit « 46 », incompatible avec les 78 ans de 1871 — il s'agit vraisemblablement de « 86 », le 8 étant mal formé. À vérifier sur l'original."
         }
       ],
       "affirmations": [
@@ -1976,7 +1982,17 @@
           "date": "1882-11-05",
           "personnes": [],
           "enonce": "Théotiste Forcade meurt le 5 novembre 1882 à Saint-Romuald-d'Etchemin.",
-          "note": "Absente du recensement de 1881 dépouillé dans ce dossier — cohérent avec son grand âge (environ 86 ans) plutôt qu'avec un départ de la paroisse ; elle meurt sur place l'année suivante."
+          "note": "Recensée chez son fils en 1881 (1881-D2-P018-L04, sous le patronyme mal lu « Faucher »), elle meurt l'année suivante. La mention d'absence du recensement de 1881 que portait cette fiche est corrigée."
+        },
+        {
+          "type": "identite",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P018-L08",
+            "1881-D2-P018-L04"
+          ],
+          "enonce": "Théotiste Forcade, née Desroches, vit chez son fils Albert en 1871 comme en 1881.",
+          "consequence": "Elle traverse donc deux recensements sous deux graphies différentes — « Théotis Desroches » en 1871, « Forcade Théotis » en 1881 — et meurt à Saint-Romuald en novembre 1882."
         }
       ],
       "note": "Le document précise lui-même : « Il semble y avoir un problème avec les parents de cette personne » — ses propres parents ne sont donc pas retenus ici.",
@@ -3198,14 +3214,14 @@
         {
           "role": "sujet",
           "nom": "John McReady",
-          "ref_personne": "1881-D2-P018-L15",
+          "ref_personne": "1881-D2-P018-L16",
           "note": "Dépouillé « Isaac McCready ». Le manuscrit porte « McCready John », 60 ans, navigateur."
         },
         {
           "role": "enfant",
-          "nom": "Pierre McReady",
-          "ref_personne": "1881-D2-P018-L17",
-          "note": "Dépouillé « Sophie McCready ». Le manuscrit se lit « Pierre », 24 ans, journalier — lecture probable, l'initiale est empâtée."
+          "nom": "Pitre McReady",
+          "ref_personne": "1881-D2-P018-L18",
+          "note": "Dépouillé « Sophie McCready ». Le manuscrit porte « Pitre », 24 ans, journalier — lecture confirmée par Patrick Blanchet."
         },
         {
           "role": "sujet",
@@ -3217,6 +3233,18 @@
           "role": "enfant",
           "nom": "Alice McCready",
           "note": "Ligne 15 du feuillet, 2 ans, fille de Robert McCready. Absente du dépouillement — non ajoutée d'office."
+        },
+        {
+          "role": "mere",
+          "nom": "Théotis Forcade (née Desroches)",
+          "ref_personne": "1881-D2-P018-L04",
+          "note": "Dépouillée « Vitalie Faucher ». Le manuscrit porte « Forcade Théotis » ; son nom de naissance Desroches est donné par Patrick Blanchet. C'est la mère d'Albert Forcade, déjà recensée chez lui en 1871 sous « Théotis Desroches » (1871-D2-P018-L08)."
+        },
+        {
+          "role": "enfant",
+          "nom": "Alice McCready",
+          "ref_personne": "1881-D2-P018-L15",
+          "note": "Réinsérée à la ligne 15 après relecture ; elle manquait au dépouillement."
         }
       ],
       "affirmations": [
@@ -3234,7 +3262,7 @@
           "type": "lecture",
           "certitude": "etabli",
           "personnes": [
-            "1881-D2-P018-L15"
+            "1881-D2-P018-L16"
           ],
           "enonce": "Le prénom lu « Isaac » à la ligne 15 des données se lit « John » au manuscrit.",
           "consequence": "John McReady, frère de Robert, est bien recensé en 1881 avec son épouse Rose Delima."
@@ -3250,15 +3278,112 @@
         },
         {
           "type": "lecture",
-          "certitude": "probable",
+          "certitude": "etabli",
           "personnes": [
-            "1881-D2-P018-L17"
+            "1881-D2-P018-L18"
           ],
-          "enonce": "Le prénom lu « Sophie » à la ligne 17 des données se lit plutôt « Pierre » au manuscrit.",
-          "note": "L'initiale est empâtée ; la profession portée (journalier) et l'âge (24 ans) s'accordent mieux avec un fils qu'avec une fille."
+          "enonce": "Le prénom lu « Sophie » à la ligne 18 du feuillet se lit « Pitre » au manuscrit."
+        },
+        {
+          "type": "lecture",
+          "certitude": "etabli",
+          "personnes": [
+            "1881-D2-P018-L04"
+          ],
+          "enonce": "La ligne 4 de la page 18, dépouillée « Vitalie Faucher », se lit « Forcade Théotis » au manuscrit — Théotis Forcade, née Desroches.",
+          "consequence": "Théotiste Forcade, mère d'Albert, n'est pas absente du recensement de 1881 : elle vit toujours chez son fils, comme en 1871. Corrige familysearch-theotiste-forcade-desrochers."
+        },
+        {
+          "type": "identite",
+          "certitude": "etabli",
+          "personnes": [
+            "1881-D2-P018-L15"
+          ],
+          "enonce": "Le dépouillement de la page 18 avait sauté la ligne 15 du feuillet, Alice McCready, 2 ans, fille de Robert McCready et d'Éléonore Bourassa.",
+          "consequence": "Réinsérée dans les données ; les lignes 15 à 24 de l'ancien dépouillement portent désormais les numéros 16 à 25, conformes au manuscrit."
         }
       ],
-      "note": "Le dépouillement de la page 18 a par ailleurs sauté la ligne 15 du feuillet (Alice McCready, 2 ans), si bien que ses lignes 15 à 24 correspondent aux lignes 16 à 25 du manuscrit ; le complément corrige ce décalage à l'affichage. Au total, 14 lignes du manuscrit manquent au dépouillement de la division — la dernière ligne de onze pages, plus le cas de la page 18. Elles sont listées dans data/complement-1881-d2-data.js, sans être ajoutées d'office aux données.",
+      "note": "Les 59 pages de la division ont été relues sur les images BAC. Quatorze lignes du manuscrit manquaient au dépouillement, sur douze pages, chaque fois en milieu de page — ce qui décalait toutes les lignes suivantes. Elles ont été réinsérées et la numérotation rétablie : les lignes des données correspondent maintenant exactement à celles du feuillet, sur toute la division (1452 personnes). Le détail page par page figure dans data/complement-1881-d2-data.js.",
+      "ajoute_le": "2026-07-31"
+    },
+    {
+      "id": "roberge-fratrie-julien-1881",
+      "type": "recensement",
+      "titre": "Magloire et Julien Roberge au recensement de 1881 — deux frères de la fratrie Julien Roberge",
+      "date": "1881-04-19",
+      "source": "BAC — Recensement 1881, district 46 Lévis, sous-district N Saint-Romuald, division 2",
+      "cote": "Tableau 1, pages 37 et 38",
+      "nature": "Lecture directe du manuscrit. Rapproche deux ménages du recensement de la fratrie de dix enfants documentée par geni-julien-louis-julien-roberge.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Magloire Roberge",
+          "ref_personne": "1881-D2-P037-L23",
+          "note": "61 ans, journalier — naissance vers 1820, compatible avec un enfant de Julien Louis Julien Roberge (marié en 1813). Le dépouillement lit le prénom « Malvine » ; le manuscrit se lit « Magloire », ce que corrobore le métier de journalier et l'âge."
+        },
+        {
+          "role": "epouse",
+          "nom": "Victoria Roberge",
+          "ref_personne": "1881-D2-P037-L24"
+        },
+        {
+          "role": "enfant",
+          "nom": "Pantaléon Roberge",
+          "ref_personne": "1881-D2-P037-L25"
+        },
+        {
+          "role": "sujet",
+          "nom": "Julien Roberge",
+          "ref_personne": "1881-D2-P038-L20",
+          "note": "52 ans, journalier — naissance vers 1829, également compatible avec cette fratrie."
+        },
+        {
+          "role": "epouse",
+          "nom": "Roberge (prénom lu « Caniette »)",
+          "ref_personne": "1881-D2-P038-L21"
+        },
+        {
+          "role": "enfant",
+          "nom": "Joseph Roberge",
+          "ref_personne": "1881-D2-P038-L22"
+        },
+        {
+          "role": "enfant",
+          "nom": "Roberge (prénom lu « Odinelie »)",
+          "ref_personne": "1881-D2-P038-L23"
+        },
+        {
+          "role": "enfant",
+          "nom": "Elzéar Roberge",
+          "ref_personne": "1881-D2-P038-L24"
+        },
+        {
+          "role": "enfant",
+          "nom": "Roberge (prénom lu « Stbert »)",
+          "ref_personne": "1881-D2-P038-L25"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "identite",
+          "certitude": "hypothese",
+          "personnes": [
+            "1881-D2-P037-L23"
+          ],
+          "enonce": "Magloire Roberge, 61 ans, journalier, serait le Magloire nommé parmi les dix enfants de Julien Louis Julien Roberge et de Marie Luce Demers.",
+          "note": "Rapprochement fondé sur le prénom et sur un âge compatible ; aucun acte ne le confirme. Le prénom lui-même repose sur une relecture du manuscrit contre le dépouillement."
+        },
+        {
+          "type": "identite",
+          "certitude": "hypothese",
+          "personnes": [
+            "1881-D2-P038-L20"
+          ],
+          "enonce": "Julien Roberge, 52 ans, journalier, serait le Julien nommé dans la même fratrie.",
+          "note": "Même réserve : prénom et âge compatibles, sans acte à l'appui."
+        }
+      ],
+      "note": "Avec Rose-De-Lima (épouse Hardy, geni-rose-delima-roberge-hardy) et Hubert (geni-hubert-roberge-pere-isabelle-burroughs), ce seraient quatre des dix enfants de Julien Louis Julien Roberge retrouvés à Saint-Romuald. Les deux rattachements proposés ici restent des hypothèses : seuls le prénom et l'âge les soutiennent.",
       "ajoute_le": "2026-07-31"
     }
   ]

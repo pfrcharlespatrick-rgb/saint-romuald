@@ -111,7 +111,6 @@ window.COMPLEMENT_1881_D2 = {
     "3": {
       "lignes": 25,
       "ecole": [
-        5,
         14
       ],
       "exceptions": {
@@ -148,6 +147,9 @@ window.COMPLEMENT_1881_D2 = {
         "22": {
           "origine": "Irlandaise"
         }
+      },
+      "incertain": {
+        "5": "col.16 : marque « allant a l ecole » lue a cette ligne, mais elle vise Elmina Vermette (3) — age incompatible. La lecture a vraisemblablement derive d une ligne ; marque retiree, a verifier sur l original."
       }
     },
     "4": {
@@ -394,7 +396,6 @@ window.COMPLEMENT_1881_D2 = {
     "13": {
       "lignes": 25,
       "ecole": [
-        8,
         19,
         20
       ],
@@ -421,7 +422,10 @@ window.COMPLEMENT_1881_D2 = {
       },
       "notes_page": [
         "lignes 22-23 : « 7 avril 1881 — Thomas Lambert, enumerateur »"
-      ]
+      ],
+      "incertain": {
+        "8": "col.16 : marque « allant a l ecole » lue a cette ligne, mais elle vise Malvina Lacroix (1) — age incompatible. La lecture a vraisemblablement derive d une ligne ; marque retiree, a verifier sur l original."
+      }
     },
     "14": {
       "lignes": 25,
@@ -478,8 +482,7 @@ window.COMPLEMENT_1881_D2 = {
         8,
         15,
         16,
-        17,
-        19
+        17
       ],
       "exceptions": {
         "1": {
@@ -531,7 +534,7 @@ window.COMPLEMENT_1881_D2 = {
         }
       },
       "incertain": {
-        "19": "col.10 : marque ambigue en face de Nelson Roberge (5/12) — aucun mois ecrit, non retenue comme naissance des 12 mois."
+        "19": "col.16 : marque « allant a l ecole » lue a cette ligne, mais elle vise Nelson Roberge (5/12) — age incompatible. La lecture a vraisemblablement derive d une ligne ; marque retiree, a verifier sur l original."
       },
       "notes_page": [
         "Menage 63/71 = Hubert Roberge (40 ans, batelier) et Sarah (38 ans), deja documentes (geni-hubert-roberge-fils-sara-porter, myheritage-hubert-william-roberge-deces). L'origine « Anglaise » portee a Sarah corrobore le patronyme Porter."
@@ -622,8 +625,7 @@ window.COMPLEMENT_1881_D2 = {
       "lignes": 25,
       "ecole": [
         12,
-        13,
-        14
+        13
       ],
       "ne12": {
         "1": "Février",
@@ -688,8 +690,10 @@ window.COMPLEMENT_1881_D2 = {
           "origine": "Irlandaise"
         }
       },
-      "decalage": 1,
-      "decalage_depuis": 15
+      "decalage_depuis": 15,
+      "incertain": {
+        "14": "col.16 : marque « allant a l ecole » lue a cette ligne, mais elle vise Arthur McCready (1) — age incompatible. La lecture a vraisemblablement derive d une ligne ; marque retiree, a verifier sur l original."
+      }
     },
     "19": {
       "lignes": 25,
@@ -1001,7 +1005,6 @@ window.COMPLEMENT_1881_D2 = {
         13,
         14,
         15,
-        16,
         22
       ],
       "ne12": {
@@ -1011,7 +1014,10 @@ window.COMPLEMENT_1881_D2 = {
       "notes_page": [
         "Maison 102 / famille 111 = Louis Demers (36 ans, journalier) et Leocadie (34 ans), avec Charles (11), Joseph (7), Ernest (5), Alfred (3), Malcolm (2), Eusebe (5/12, ne en janvier) et Leocadie (1). Charles (l.13) et Joseph (l.14) sont marques « allant a l'ecole ». Corrobore la fratrie Demers deja documentee (actes de mariage d'Alfred 1898, Charles 1896, Joseph 1900, Alphonse 1908).",
         "lignes 22-23 : « 13 avril 1881 — Thomas Lambert, enumerateur »"
-      ]
+      ],
+      "incertain": {
+        "16": "col.16 : marque « allant a l ecole » lue a cette ligne, mais elle vise Alfred Demers (3) — age incompatible. La lecture a vraisemblablement derive d une ligne ; marque retiree, a verifier sur l original."
+      }
     },
     "26": {
       "lignes": 25,
@@ -1092,12 +1098,14 @@ window.COMPLEMENT_1881_D2 = {
         3,
         7,
         8,
-        20,
-        21
+        20
       ],
       "notes_page": [
         "lignes 23-24 : « 15 avril 1881 — Thomas Lambert, enumerateur »"
-      ]
+      ],
+      "incertain": {
+        "21": "col.16 : marque « allant a l ecole » lue a cette ligne, mais elle vise Joseph Cordue (3) — age incompatible. La lecture a vraisemblablement derive d une ligne ; marque retiree, a verifier sur l original."
+      }
     },
     "30": {
       "lignes": 25,
@@ -1137,7 +1145,6 @@ window.COMPLEMENT_1881_D2 = {
         2,
         3,
         4,
-        5,
         11,
         12,
         23,
@@ -1146,7 +1153,10 @@ window.COMPLEMENT_1881_D2 = {
       ],
       "notes_page": [
         "lignes 15-17 : « 16 avril 1881 — Thomas Lambert, enumerateur »"
-      ]
+      ],
+      "incertain": {
+        "5": "col.16 : marque « allant a l ecole » lue a cette ligne, mais elle vise Odina Bilodeau (3) — age incompatible. La lecture a vraisemblablement derive d une ligne ; marque retiree, a verifier sur l original."
+      }
     },
     "32": {
       "lignes": 25,
@@ -1158,8 +1168,6 @@ window.COMPLEMENT_1881_D2 = {
         13,
         14,
         15,
-        16,
-        17,
         21
       ],
       "ne12": {
@@ -1168,7 +1176,11 @@ window.COMPLEMENT_1881_D2 = {
       },
       "notes_page": [
         "Lignes 24-25 : Eugenie et Caroline, toutes deux 2/12 et nees en mars — jumelles."
-      ]
+      ],
+      "incertain": {
+        "16": "col.16 : marque « allant a l ecole » lue a cette ligne, mais elle vise Arthur Cadoret (2) — age incompatible. La lecture a vraisemblablement derive d une ligne ; marque retiree, a verifier sur l original.",
+        "17": "col.16 : marque « allant a l ecole » lue a cette ligne, mais elle vise Baptiste Gagnon (59) — age incompatible. La lecture a vraisemblablement derive d une ligne ; marque retiree, a verifier sur l original."
+      }
     },
     "33": {
       "lignes": 25,
@@ -1189,11 +1201,13 @@ window.COMPLEMENT_1881_D2 = {
       "ecole": [
         13,
         14,
-        24,
-        25
+        24
       ],
       "ne12": {
         "1": "Janvier"
+      },
+      "incertain": {
+        "25": "col.16 : marque « allant a l ecole » lue a cette ligne, mais elle vise Rosalie Couture (1) — age incompatible. La lecture a vraisemblablement derive d une ligne ; marque retiree, a verifier sur l original."
       }
     },
     "35": {
@@ -1498,14 +1512,16 @@ window.COMPLEMENT_1881_D2 = {
       "ecole": [
         10,
         11,
-        12,
         23,
         24,
         25
       ],
       "notes_page": [
         "lignes 24-25 : « 26 avril 1881 — Thomas Lambert, enumerateur »"
-      ]
+      ],
+      "incertain": {
+        "12": "col.16 : marque « allant a l ecole » lue a cette ligne, mais elle vise Joseph St.Hilaire (3) — age incompatible. La lecture a vraisemblablement derive d une ligne ; marque retiree, a verifier sur l original."
+      }
     },
     "52": {
       "lignes": 25,
@@ -1578,7 +1594,6 @@ window.COMPLEMENT_1881_D2 = {
         10,
         11,
         12,
-        13,
         20
       ],
       "exceptions": {
@@ -1602,7 +1617,10 @@ window.COMPLEMENT_1881_D2 = {
       "notes_page": [
         "Lignes 22-25 : Ernest Benson (36 ans, « marchand de bois »), Eva (30), Emelie (6) et Eva (1) — anglicans d'origine anglaise. C'est la famille Benson du dictionnaire de Julie Doyon (anse Benson, pointe Benson, manoir victorien v.1878, « proprietaires terriens / industriels du bois »), jusqu'ici sans aucun rattachement au recensement. La profession relevee corrobore exactement la notice.",
         "Ligne 5 : Ignace Roberge (58 ans) et Eleonore (50) — le menage de 1871-D2-P003-L10/L11 (Ignace 49, Eleonore 41), progression d'age coherente."
-      ]
+      ],
+      "incertain": {
+        "13": "col.16 : marque « allant a l ecole » lue a cette ligne, mais elle vise Wilfride Roberge (3) — age incompatible. La lecture a vraisemblablement derive d une ligne ; marque retiree, a verifier sur l original."
+      }
     },
     "55": {
       "lignes": 25,
@@ -1657,7 +1675,6 @@ window.COMPLEMENT_1881_D2 = {
     "56": {
       "lignes": 25,
       "ecole": [
-        10,
         13,
         14,
         18,
@@ -1754,7 +1771,10 @@ window.COMPLEMENT_1881_D2 = {
       },
       "notes_page": [
         "Trois menages notables : ligne 2 George Atkinson (33 ans, commis, anglican) — a rapprocher de Henry Atkinson, l'industriel du bois rattache dans dictionnaire-biographique-new-liverpool-doyon ; ligne 8 James Walker (60 ans, ne en Ecosse, commis) ; ligne 16 Edouard Benson (36 ans, « marchand de bois »), second menage Benson apres celui d'Ernest en page 54 — deux freres vraisemblablement, tous deux marchands de bois anglicans, ce qui correspond a la notice « Benson (famille) : proprietaires terriens / industriels du bois » du dictionnaire Doyon."
-      ]
+      ],
+      "incertain": {
+        "10": "col.16 : marque « allant a l ecole » lue a cette ligne, mais elle vise Mary Wasser (26) — age incompatible. La lecture a vraisemblablement derive d une ligne ; marque retiree, a verifier sur l original."
+      }
     },
     "57": {
       "lignes": 25,
@@ -1945,5 +1965,5 @@ window.COMPLEMENT_1881_D2 = {
       "action": "Rattachement fait : John McReady est rattache a 1881-D2-P018-L15 dans alliances-forcade-mcready. Les prenoms restent « Isaac » et « Sophie » dans les donnees — correction de la transcription laissee a la validation de Patrick."
     }
   ],
-  "note": "Complément des colonnes 10 à 13 et 16 à 19 du tableau 1, absentes du dépouillement initial de la division 2. Seules les valeurs qui s'écartent des défauts sont consignées, dans « exceptions » — y compris la seule infirmité relevée (page 53, ligne 24). Les numéros de ligne sont ceux imprimés au manuscrit. La page 18 porte « decalage »/« decalage_depuis » : le dépouillement y a sauté la ligne 15 du feuillet, si bien que ses lignes 15 à 24 correspondent aux lignes 16 à 25 du manuscrit."
+  "note": "Complément des colonnes 10 à 13 et 16 à 19 du tableau 1, absentes du dépouillement initial de la division 2. Seules les valeurs qui s'écartent des défauts sont consignées, dans « exceptions » — y compris la seule infirmité relevée (page 53, ligne 24). Les numéros de ligne sont ceux imprimés au manuscrit. Depuis la réinsertion des quatorze lignes omises, les numéros de ligne des données correspondent exactement à ceux du manuscrit sur toute la division : aucun décalage n'est plus nécessaire."
 };
