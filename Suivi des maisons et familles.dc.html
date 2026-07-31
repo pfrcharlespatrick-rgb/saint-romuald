@@ -16,6 +16,7 @@
 <script src="data/recensement-1881-d1-data.js"></script>
 <script src="data/complement-1881-d1-data.js"></script>
 <script src="data/recensement-1881-d2-data.js"></script>
+<script src="data/complement-1881-d2-data.js"></script>
 <script src="data/recensement-1891-d1-data.js"></script>
 <script src="data/recensement-1891-d2-data.js"></script>
 <script src="data/annexe-foncier-data.js"></script>
@@ -1017,7 +1018,10 @@ class Component extends DCLogic {
      il ne comble que les colonnes laissées vides. Chaque champ ajouté est marqué
      d'une provenance pour que l'écran puisse le signaler. */
   complement(year, division) {
-    return (year === '1881' && division === '1') ? (window.COMPLEMENT_1881_D1 || null) : null;
+    if (year !== '1881') return null;
+    if (division === '1') return window.COMPLEMENT_1881_D1 || null;
+    if (division === '2') return window.COMPLEMENT_1881_D2 || null;
+    return null;
   }
 
   appliquerComplement(maisons, comp) {
@@ -1028,8 +1032,12 @@ class Component extends DCLogic {
         const fiche = pages[String(p.page_ms)] || pages[+p.page_ms];
         if (!fiche) return p;
         /* Sur une page où le dépouillement a sauté une ligne, « decalage » rétablit
-           la correspondance avec le manuscrit (voir la page 4). */
-        const ligne = +p.ligne + (fiche.decalage || 0);
+           la correspondance avec le manuscrit (voir la page 4 de la division 1).
+           Quand la ligne sautée est en milieu de page, « decalage_depuis » borne
+           la correction aux lignes qui suivent (voir la page 18 de la division 2,
+           où la ligne 15 du feuillet est absente du dépouillement). */
+        const decale = fiche.decalage_depuis === undefined || +p.ligne >= fiche.decalage_depuis;
+        const ligne = +p.ligne + (decale ? (fiche.decalage || 0) : 0);
         if (fiche.lignes && ligne > fiche.lignes) return p;
         const ajout = { ...defauts, ...((fiche.exceptions || {})[ligne] || {}) };
         if (Array.isArray(fiche.ecole)) ajout.ecole = fiche.ecole.indexOf(ligne) !== -1;
