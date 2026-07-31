@@ -2770,6 +2770,370 @@
       "contexte": "Mission New Liverpool (Julie Doyon, Septentrion) retrace quatre siècles d'occupation du territoire de New Liverpool et d'Etchemin, de la présence autochtone précoloniale et des premiers colons de la seigneurie de Lauzon (Couture, Lambert, Bissot, XVIIe siècle) jusqu'aux mutations industrielles du XIXe siècle : les seigneurs Caldwell, qui développent le commerce du bois et bâtissent les premiers moulins d'Etchemin ; les frères Hamilton, qui fondent en 1809 le grand chantier naval de New Liverpool ; puis Henry Atkinson, qui rachète les moulins d'Etchemin en 1856 ; et William Price, baron du bois dont l'empire industriel s'étend bien au-delà de la paroisse. Cette monographie situe donc les familles suivies dans ce dossier (Bourassa, Demers, Roberge, McReady, Forcade) dans le contexte économique et territorial plus large de New Liverpool — sans que la plupart des personnages cités (seigneurs, artistes, arpenteurs, gouverneurs) aient de lien direct, ni parfois aucun lien du tout, avec les recensements de 1871 à 1891 dépouillés dans ce projet.",
       "note": "Source secondaire de qualité (ouvrage publié, recherche archivistique et cartographique déclarée par entrée), mais dont l'objet est l'histoire économique et territoriale de New Liverpool en général, non la généalogie des familles suivies ici. Sur ~70 personnes répertoriées, seules 3 rattachements au recensement sont proposés (1 établi : Henry Atkinson ; 2 en hypothèse : Joseph Bourassa fils, Thomas Roberge) ; les autres personnes sont conservées comme contexte historique sans rattachement, la plupart étant soit antérieures aux recensements dépouillés, soit extérieures à la paroisse, soit postérieures à 1891.",
       "ajoute_le": "2026-07-30"
+    },
+    {
+      "id": "sthilaire-2010-magdeleine-delisle",
+      "type": "monographie",
+      "titre": "Magdeleine Delisle (1791-1873), pionnière de New Liverpool, prolifique souche des Hardy, Roberge, Gibson, Nolin, Pelletier et Forcade",
+      "date": "2010",
+      "couvre": "1791-1917",
+      "source": "Guy Saint-Hilaire, maître généalogiste agréé (0064), « Magdeleine Delisle (1791-1873), pionnière de New Liverpool, prolifique souche des Hardy, Roberge, Gibson, Nolin, Pelletier et Forcade », L'Ancêtre, n° 292, vol. 37, automne 2010, p. 23-32, Société de généalogie de Québec.",
+      "cote": "",
+      "fonde_sur": "Actes de baptême, mariage et sépulture des registres paroissiaux (Saint-Jean-de-l'Île-d'Orléans, Saint-Joseph-Pointe-Lévy/Saint-Joseph-de-Lauzon, Saint-Jean-Chrysostome, Saint-Romuald-d'Etchemin, Québec Notre-Dame, Saint-Louis-de-Blandford, Plessisville, Saint-Paul-de-Chester), actes notariés (notaires J. Boucher, Lelièvre, Têtu, Couillard, E. H. Tremblay, E. Simard), recensements familiaux de 1825, 1831 et 1842, recensements nominatifs de 1861 à 1911, et registre des ventes de terre par le shérif de Québec (BAnQ).",
+      "nature": "Article de fond publié dans une revue de généalogie avec comité de lecture (Société de généalogie de Québec), signé par un maître généalogiste agréé et appuyé à chaque étape sur des actes primaires cités avec date, notaire et souvent cote de dépouillement. Valeur probante nettement supérieure aux arbres généalogiques secondaires (FamilySearch, Geni, MyHeritage) déjà versés à ce dossier pour la même parenté : l'article fournit pour la première fois les actes fondateurs (mariages, sépultures) que ces arbres se contentaient de citer sans preuve. L'auteur précise avoir recueilli des données sur les 86 petits-enfants identifiés de Magdeleine Delisle sans les publier, faute de place ; ce niveau de détail n'est donc pas repris ici.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Magdeleine Delisle",
+          "naissance": "1791-07-09",
+          "deces": "1873-02-14",
+          "ref_personne": null,
+          "note": "Née et baptisée le même jour à Saint-Jean-de-l'Île-d'Orléans, fille d'Isaac Timothé Delisle et Françoise Curodeau. Installée à New Liverpool où elle est « bien établie » dès 1823. Absente des recensements de 1871 dépouillés par ce projet — l'auteur ne l'y trouve pas non plus ; elle réside alors chez son fils cadet Eusèbe. Décédée à 81 ans et 7 mois, inhumée à Saint-Romuald."
+        },
+        {
+          "role": "pere",
+          "nom": "Isaac Timothé Delisle",
+          "note": "Laboureur, chef de famille à Saint-Henri-de-Lauzon après 1795."
+        },
+        {
+          "role": "mere",
+          "nom": "Françoise Curodeau",
+          "note": ""
+        },
+        {
+          "role": "epoux",
+          "nom": "Joseph Hardy",
+          "naissance": "1785-01-13",
+          "deces": "1862-04-16",
+          "ref_personne": null,
+          "note": "Né et baptisé à Cap-Santé, journalier puis « scieur de long » de Québec. Marié à Magdeleine Delisle et l'abandonne vers l'automne 1817, après cinq enfants, « sans aucune cause » selon un acte notarié de 1823. S'établit ensuite à Saint-Louis-de-Blandford avec les deux plus jeunes enfants survivants ; meurt chez son fils Joseph, inhumé le 28 avril 1862, toujours identifié comme époux de Magdeleine Delisle. Hors zone des recensements dépouillés par ce projet (Blandford, Arthabaska)."
+        },
+        {
+          "role": "autre",
+          "nom": "James Burroughs (dit Burress)",
+          "note": "Déclaré « légitime mari » de Magdeleine au baptême d'Élisabeth (1819). L'auteur juge cette déclaration très probablement fausse — faite pour sauver les apparences par le parrain et la marraine dans une paroisse où personne ne connaissait la famille — puisque Magdeleine était alors toujours mariée à Joseph Hardy. Individu non retrouvé par ailleurs ; sans doute le père biologique d'Élisabeth Burroughs."
+        },
+        {
+          "role": "autre",
+          "nom": "Jean(-Baptiste/-Octave) Pelletier",
+          "naissance": "1796-12-27",
+          "note": "Né et baptisé à Sainte-Anne-de-la-Pocatière, fils de Jean-Baptiste Pelletier et Angélique Boucher. Marchand établi à New Liverpool ; compagnon de Magdeleine Delisle pendant une quinzaine d'années (~1823-1840), père de ses quatre enfants Pelletier. Affaires en faillite dès 1839 (jugement exécutoire, puis vente shérif de ses terrains en 1841). Se remarie le 28 février 1843 à Québec (Notre-Dame) avec Elizabeth McLean ; commerçant établi dans l'État de New York en 1847, tout en gardant contact avec son fils Édouard (donation de rentes, novembre 1847)."
+        },
+        {
+          "role": "sujet",
+          "nom": "Joseph Hardy (fils)",
+          "naissance": "1812-06-01",
+          "deces": "1884-08-24",
+          "ref_personne": null,
+          "note": "Né à Pointe-Lévy. Suit son père à Saint-Louis-de-Blandford. Épouse Aveline Fortin le 14 février 1848 à Plessisville ; huit enfants entre 1850 et 1863. Meurt à 72 ans et 2 mois, inhumé à Saint-Louis-de-Blandford. Hors zone des recensements dépouillés par ce projet."
+        },
+        {
+          "role": "epouse",
+          "nom": "Aveline Fortin",
+          "ref_personne": null,
+          "note": "Épouse de Joseph Hardy fils, mariage du 14 février 1848 à Plessisville."
+        },
+        {
+          "role": "sujet",
+          "nom": "David Hardy",
+          "naissance": "1815-10-26",
+          "deces": "1892-03-05",
+          "ref_personne": "1871-D2-P018-L20",
+          "note": "Né à Québec (Notre-Dame), passe sa vie à New Liverpool ; batelier/navigateur. Souche de tous les Hardy de Saint-Romuald. Déjà identifié dans ce dossier (geni-rose-delima-roberge-hardy) comme chef du ménage 1871-D2-P018/019, continuant en 1881-D2-P036-L09 et 1891-D1-P105-L15. Douze enfants entre 1842 et 1870."
+        },
+        {
+          "role": "epouse",
+          "nom": "Rose-de-Lima Roberge",
+          "naissance": "1821",
+          "deces": "1897",
+          "ref_personne": "1871-D2-P019-L01",
+          "note": "Sœur d'Hubert Roberge et de Céleste Roberge (voir ci-dessous) — troisième des trois fratries Roberge-Delisle. Le présent article date le mariage du 5 octobre 1841 à Saint-Jean-Chrysostome, alors que la fiche geni-rose-delima-roberge-hardy de ce dossier, faute de source primaire, portait le 10 octobre 1841 : à corriger en faveur du 5 octobre, la présente source citant l'acte directement."
+        },
+        {
+          "role": "sujet",
+          "nom": "Henriette Hardy",
+          "naissance": "1817-08-19",
+          "deces": "1870-06-25",
+          "ref_personne": null,
+          "note": "Née à Pointe-Lévy, prise en charge par son père et établie avec lui à Saint-Louis-de-Blandford. Épouse le cultivateur Télesphore Marchand le 1er février 1848 à Plessisville ; au moins six enfants. Meurt à 52 ans et 10 mois, inhumée à Princeville. Hors zone des recensements dépouillés par ce projet."
+        },
+        {
+          "role": "sujet",
+          "nom": "Élisabeth (Isabelle) Burroughs",
+          "naissance": "1819-09-14",
+          "deces": "1904-07-10",
+          "ref_personne": "1871-D2-P020-L10",
+          "note": "Née hors mariage d'une relation passagère avec James Burroughs, baptisée sous le prénom d'Isabelle à Québec (Notre-Dame) six jours après sa naissance. A grandi à New Liverpool auprès de sa mère. Déjà suivie dans ce dossier (geni-hubert-roberge-pere-isabelle-burroughs) mais seulement par hypothèse, sans ligne de recensement précise pour elle-même — voir affirmation de lecture ci-dessous, qui l'établit."
+        },
+        {
+          "role": "epoux",
+          "nom": "Hubert Roberge (père)",
+          "ref_personne": "1871-D2-P020-L09",
+          "note": "Fils de Julien Louis Julien Roberge et Marie Luce Demers (geni-julien-louis-julien-roberge), frère de Rose-de-Lima et de Céleste Roberge, mariées respectivement à David Hardy et Édouard Pelletier — les trois enfants de Magdeleine Delisle ayant eu descendance avec le voisinage. Recensé navigateur, chef de la maison 63 en 1871, juste à côté de son beau-frère Édouard Pelletier (maison 62)."
+        },
+        {
+          "role": "sujet",
+          "nom": "James Gibson",
+          "naissance": "1823-03-13",
+          "deces": "1913-08-06",
+          "ref_personne": null,
+          "note": "Né hors mariage à Pointe-Lévy, baptisé « Jacques, né ce jour, de parents inconnus » à Saint-Joseph-Pointe-Lévy. Père biologique non identifié malgré les recherches de l'auteur (plusieurs James Gibson recensés dans la région de Québec à l'époque). Marchand, se dit d'origine écossaise ; déménage à Lévis vers 1851 — hors des divisions de Saint-Romuald dépouillées par ce projet. Un ménage « James Gibson, 35 ans, marchand » existe en 1871-D1-P005 (épouse Margaret, fille Mary), mais l'âge (35 au lieu des 48 attendus) et le prénom de l'épouse (Margaret, non Marie-Louise) ne correspondent pas : homonyme probable, non retenu comme rattachement."
+        },
+        {
+          "role": "epouse",
+          "nom": "Marie-Louise McReady",
+          "ref_personne": null,
+          "note": "Épouse de James Gibson, mariage du 22 novembre 1842 à Saint-Jean-Chrysostome. Onze enfants."
+        },
+        {
+          "role": "sujet",
+          "nom": "Éléonore Pelletier",
+          "naissance": "1826",
+          "deces": null,
+          "ref_personne": null,
+          "note": "Naissance estimée fin 1826/début 1827 par recoupement d'âges recensés (l'auteur n'a pas trouvé l'acte). Treize enfants avec son premier mari entre 1843 et 1872 ; famille non retrouvée dans les recensements de Saint-Romuald dépouillés ici — elle vivait à Saint-Jean-Chrysostome puis, vers 1868, à Saint-Paul-de-Chester, hors de la zone couverte. Remariée le 22 février 1881 à Saint-Paul-de-Chester. La famille émigre aux États-Unis entre 1887 et 1891 ; date de décès non retrouvée par l'auteur."
+        },
+        {
+          "role": "epoux",
+          "nom": "Étienne Nolin",
+          "deces": "1875-03-29",
+          "ref_personne": null,
+          "note": "Premier époux d'Éléonore Pelletier, charpentier, mariage du 13 septembre 1842 à Saint-Jean-Chrysostome. Mort à Saint-Paul-de-Chester."
+        },
+        {
+          "role": "epoux",
+          "nom": "Victor Girouard",
+          "ref_personne": null,
+          "note": "Second époux d'Éléonore Pelletier (veuf), mariage du 22 février 1881 à Saint-Paul-de-Chester."
+        },
+        {
+          "role": "sujet",
+          "nom": "Édouard Pelletier",
+          "naissance": "1828-05-10",
+          "deces": "1917-12-08",
+          "ref_personne": "1871-D2-P020-L01",
+          "note": "Né hors mariage à Pointe-Lévy, baptisé le lendemain. Navigateur/batelier, joue le rôle de chef de famille auprès de sa mère Magdeleine avant 1860. Nouveau rattachement établi par ce document sur trois recensements : 1871-D2-P020-L01 (46 ans, navigateur, maison 62 — juste à côté du ménage de son beau-frère Hubert Roberge, maison 63), 1881-D2-P036-L01 (53 ans, journalier) et 1891-D1-P107-L15 (63 ans, batelier). Onze enfants entre 1849 et 1872 ; cinq mariés à Saint-Romuald. Vit ses dernières années chez son gendre Patrick Esmond."
+        },
+        {
+          "role": "epouse",
+          "nom": "Céleste Roberge",
+          "ref_personne": "1871-D2-P020-L02",
+          "note": "Sœur d'Hubert Roberge (père) et de Rose-de-Lima Roberge (geni-julien-louis-julien-roberge). Mariage du 18 septembre 1848 à Saint-Jean-Chrysostome, le même jour que celui de sa belle-sœur Caroline Pelletier avec Joseph Forcade. Rattachée à ses côtés en 1871 (45 ans), 1881 (50 ans, transcrite « Odile » — probable lecture erronée de Céleste) et 1891 (62 ans, à nouveau « Céleste »)."
+        },
+        {
+          "role": "sujet",
+          "nom": "Caroline Pelletier",
+          "naissance": "1831",
+          "deces": "1911-07-14",
+          "ref_personne": "1871-D1-P055-L13",
+          "note": "Naissance estimée vers 1831, peut-être un 10 octobre, par l'auteur (acte non retrouvé avec certitude). Rattachement établi par ce document sur trois recensements : 1871-D1-P055-L13 (37 ans, chef de famille sous le nom « Pelletier », veuve avec six enfants dont Joseph, Napoléon, Louis, Célina, Élisabeth, Ernest — ce dernier probablement le sixième enfant né aux États-Unis vers 1868 que mentionne l'article), 1881-D1-P070-L05 (48 ans, sous « Forcade », avec ses cinq derniers enfants) et 1891-D1-P025-L13 (60 ans, avec son gendre Achille Demers, sa fille Élisabeth et leurs enfants — exactement la configuration que décrit l'article). Meurt à l'Hôtel-Dieu de Lévis, inhumée à Lévis (Notre-Dame)."
+        },
+        {
+          "role": "epoux",
+          "nom": "Joseph Forcade",
+          "ref_personne": null,
+          "note": "Menuisier, premier mari de Caroline Pelletier, mariage du 18 septembre 1848 à Saint-Jean-Chrysostome. Six enfants entre 1852 et 1868. Mort entre la conception du dernier enfant (~1868) et le printemps 1871 (Caroline déjà veuve au recensement de 1871) ; sépulture non retrouvée par l'auteur, peut-être survenue aux États-Unis. Piste à vérifier, non tranchée par cette source : un « frère Joseph Forcade » figure sans date parmi les enfants de Joseph Ange Forcade et Théotiste Desrochers dans familysearch-albert-forcade (frère d'Albert Forcade, né 1839) — ce Joseph pourrait être le même homme, mais rien ici ne le confirme ni ne l'exclut. Il ne peut en tout cas pas s'agir de Joseph Ange Forcade lui-même, resté marié à Théotiste Desrochers jusqu'à sa propre mort (elle est recensée veuve de lui en 1871)."
+        },
+        {
+          "role": "epoux",
+          "nom": "Norbert Gosselin (fils)",
+          "ref_personne": null,
+          "note": "Second mari de Caroline Pelletier, mariage du 9 janvier 1872 à Saint-Romuald. Mariage annulé le 17 février 1883 par l'évêché de Québec pour empêchement de consanguinité non dispensé (3e au 4e degré, par les Delisle). Non retrouvé dans les recensements dépouillés par ce projet."
+        },
+        {
+          "role": "sujet",
+          "nom": "Eusèbe Pelletier",
+          "naissance": "1833-12-16",
+          "deces": "1911-01-15",
+          "ref_personne": "1881-D1-P013-L17",
+          "note": "Déjà suivi dans ce dossier (familysearch-eusebe-pelletier, familysearch-emilie-pelletier-mcready) avec les mêmes parents (Jean[-Baptiste/-Octave] Pelletier et Magdeleine Delisle) et le même rattachement 1881. Le présent document confirme ce rattachement par une source primaire et ajoute la date de baptême (17 janvier 1834, Saint-Jean-Chrysostome) et deux remariages : Léda Couillard L'Espinay (11 novembre 1897) et Eusébie Houle (16 février 1903), déjà connus de la fiche existante."
+        },
+        {
+          "role": "epouse",
+          "nom": "Marie-Émilie McReady",
+          "ref_personne": null,
+          "note": "Première épouse d'Eusèbe Pelletier, mariage du 20 février 1860 à Saint-Romuald, morte le 4 janvier 1896 — déjà documentée dans familysearch-emilie-pelletier-mcready."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "naissance",
+          "certitude": "etabli",
+          "date": "1791-07-09",
+          "personnes": [],
+          "enonce": "Magdeleine Delisle naît et est baptisée le même jour à Saint-Jean-de-l'Île-d'Orléans, fille d'Isaac Timothé Delisle et Françoise Curodeau."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1810-06-04",
+          "personnes": [],
+          "enonce": "Magdeleine Delisle, enceinte de trois mois, épouse Joseph Hardy le 4 juin 1810 à Saint-Henri-de-Lauzon, après contrat de mariage du 27 mai 1810 devant Me J. Boucher."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1817",
+          "personnes": [],
+          "enonce": "Joseph Hardy abandonne Magdeleine Delisle vers l'automne 1817, après cinq enfants (dont deux morts en bas âge). Fait établi par un acte de vente du 5 novembre 1823 devant Me Lelièvre, où elle est dite « abandonnée et laissée sans aucune cause depuis environ six ans »."
+        },
+        {
+          "type": "filiation",
+          "certitude": "probable",
+          "personnes": [],
+          "enonce": "La mention d'un « légitime mariage » de Magdeleine Delisle avec James Burroughs, au baptême de leur fille Élisabeth en 1819, est très probablement une fausse déclaration destinée à sauver les apparences : Magdeleine était alors toujours mariée à Joseph Hardy, et n'a jamais renouvelé cette prétention à un autre mariage légitime."
+        },
+        {
+          "type": "filiation",
+          "certitude": "hypothese",
+          "personnes": [],
+          "enonce": "Le père biologique de James Gibson (né 1823) n'a pas pu être identifié par l'auteur malgré des recherches sérieuses ; plusieurs hommes de ce nom sont attestés dans la région de Québec à l'époque."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1841-10-05",
+          "personnes": [
+            "1871-D2-P018-L20",
+            "1871-D2-P019-L01"
+          ],
+          "enonce": "David Hardy épouse Rose-de-Lima Roberge le 5 octobre 1841 à Saint-Jean-Chrysostome.",
+          "note": "Corrige la date du 10 octobre 1841 portée par la fiche geni-rose-delima-roberge-hardy de ce dossier, qui n'était pas appuyée sur une source primaire."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1848-02-01",
+          "personnes": [],
+          "enonce": "Henriette Hardy épouse le cultivateur Télesphore Marchand le 1er février 1848 à Plessisville."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1848-02-14",
+          "personnes": [],
+          "enonce": "Joseph Hardy (fils) épouse Aveline Fortin le 14 février 1848 à Plessisville."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1840-01-21",
+          "personnes": [
+            "1871-D2-P020-L10",
+            "1871-D2-P020-L09"
+          ],
+          "enonce": "Élisabeth (Isabelle) Burroughs épouse Hubert Roberge le 21 janvier 1840 à Saint-Jean-Chrysostome."
+        },
+        {
+          "type": "lecture",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P020-L09",
+            "1871-D2-P020-L10"
+          ],
+          "enonce": "La remarque du recensement de 1871 signale une double lecture possible des âges du couple de la maison 62 : 54 ou 34 ans pour Hubert Roberge, 51 ou 31 ans pour son épouse. Les naissances connues par ailleurs (Hubert Roberge né vers 1817 selon geni-hubert-roberge-pere-isabelle-burroughs ; Isabelle/Élisabeth Burroughs née en 1819 selon le présent article) donnent respectivement 54 et 52 ans en 1871 — ce sont donc les lectures hautes (54, 51) qui sont exactes, non les lectures basses.",
+          "consequence": "Permet de fixer avec certitude les ref_personne d'Hubert Roberge (père) et d'Isabelle Burroughs, jusqu'ici identifiés dans ce dossier seulement par hypothèse sur le numéro de ménage, sans ligne précise."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1842-11-22",
+          "personnes": [],
+          "enonce": "James Gibson épouse Marie-Louise McReady le 22 novembre 1842 à Saint-Jean-Chrysostome."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1842-09-13",
+          "personnes": [],
+          "enonce": "Éléonore Pelletier épouse le charpentier Étienne Nolin le 13 septembre 1842 à Saint-Jean-Chrysostome."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1848-09-18",
+          "personnes": [
+            "1871-D2-P020-L01",
+            "1871-D2-P020-L02"
+          ],
+          "enonce": "Édouard Pelletier épouse Céleste Roberge le 18 septembre 1848 à Saint-Jean-Chrysostome — le même jour que le mariage de sa sœur Caroline avec Joseph Forcade."
+        },
+        {
+          "type": "identite",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P020-L01",
+            "1871-D2-P020-L02"
+          ],
+          "enonce": "Édouard Pelletier et Céleste Roberge, recensés maison 62 en 1871 (46 et 45 ans), sont le même couple qu'en 1881-D2-P036 (53 ans, épouse transcrite « Odile », vraisemblablement Céleste mal lue) et qu'en 1891-D1-P107 (63 et 62 ans, épouse à nouveau nommée Céleste) — progression d'âge cohérente sur les trois recensements."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1848-09-18",
+          "personnes": [],
+          "enonce": "Caroline Pelletier épouse le menuisier Joseph Forcade le 18 septembre 1848 à Saint-Jean-Chrysostome, en présence de son frère James Gibson."
+        },
+        {
+          "type": "identite",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D1-P055-L13"
+          ],
+          "enonce": "Caroline Pelletier, chef de famille veuve avec six enfants en 1871 (37 ans, maison inconnue sous division D1), correspond au ménage décrit par l'article (« marchande et chef d'une famille de six enfants âgés de 3 à 19 ans »)."
+        },
+        {
+          "type": "identite",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D1-P055-L13",
+            "1881-D1-P070-L05",
+            "1891-D1-P025-L13"
+          ],
+          "enonce": "Le même ménage se retrouve en 1881 sous le patronyme « Forcade » (48 ans, cinq derniers enfants) puis en 1891 (60 ans, avec son gendre Achille Demers, commis, et sa fille Élisabeth Demers) — exactement la situation décrite par l'article pour ces deux recensements."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1872-01-09",
+          "personnes": [],
+          "enonce": "Caroline Pelletier, veuve Forcade, épouse en secondes noces Norbert Gosselin fils le 9 janvier 1872 à Saint-Romuald, en présence de ses frères James Gibson et Eusèbe Pelletier."
+        },
+        {
+          "type": "autre",
+          "certitude": "etabli",
+          "date": "1883-02-17",
+          "personnes": [],
+          "enonce": "Le mariage de Caroline Pelletier et Norbert Gosselin fils est annulé par l'évêché de Québec le 17 février 1883 pour empêchement de consanguinité du 3e au 4e degré non dispensé — l'arrière-grand-mère maternelle Delisle de Norbert étant la sœur du grand-père Delisle de Caroline."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1860-02-20",
+          "personnes": [
+            "1881-D1-P013-L17"
+          ],
+          "enonce": "Eusèbe Pelletier épouse Marie-Émilie McReady le 20 février 1860 à Saint-Romuald — confirme par source primaire le mariage déjà noté dans familysearch-emilie-pelletier-mcready."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1873-02-14",
+          "personnes": [],
+          "enonce": "Magdeleine Delisle meurt le 14 février 1873 à l'âge de 81 ans et 7 mois, inhumée deux jours plus tard à Saint-Romuald en présence, entre autres, de deux de ses fils (Eusèbe Pelletier, James Gibson) et de David Hardy."
+        },
+        {
+          "type": "fratrie",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Hubert Roberge (père), Rose-de-Lima Roberge et Céleste Roberge, trois des dix enfants de Julien Louis Julien Roberge et Marie Luce Demers déjà réunis en fratrie dans geni-julien-louis-julien-roberge, ont chacun épousé un enfant distinct de Magdeleine Delisle : Élisabeth Burroughs, David Hardy et Édouard Pelletier respectivement.",
+          "consequence": "Triple alliance entre les deux familles, célébrée en trois mariages étalés sur huit ans (1840, 1841, 1848) — les ménages Roberge (maison 63) et Pelletier (maison 62) sont d'ailleurs voisins immédiats au recensement de 1871."
+        }
+      ],
+      "contexte": "New Liverpool est le quartier ouest de l'ancienne Saint-Romuald (aujourd'hui à Lévis), entre la Côte-Rouge et l'embouchure de la rivière Chaudière. Le nom apparaît pour la première fois dans un bail emphytéotique du 31 août 1809 devant le notaire Têtu, par lequel le seigneur Henry Caldwell cède à George Hamilton une vaste étendue de terrain — l'acte fondateur du commerce du bois qui allait faire de l'endroit, pendant tout le XIXe siècle, un port et un site industriel achalandé où de nombreux bateaux anglais faisaient escale. C'est dans cet environnement, et non dans un cadre rural ordinaire, que Magdeleine Delisle s'établit et éleva ses enfants. Jusqu'en novembre 1830 les résidents relevaient de Saint-Joseph-Pointe-Lévy, puis de Saint-Jean-Chrysostome jusqu'en octobre 1854, puis de Saint-Romuald-d'Etchemin — d'où la dispersion des actes cités entre ces trois paroisses pour une même famille restée sur place.",
+      "note": "L'auteur signale avoir recueilli de l'information sur chacun des 86 petits-enfants identifiés de Magdeleine Delisle sans la publier « pour ne pas allonger indûment le présent exposé », et invite les chercheurs à lui communiquer tout renseignement complémentaire. Cette source, bien supérieure en rigueur aux arbres secondaires déjà présents dans ce dossier pour la même parenté (FamilySearch, Geni, MyHeritage), n'a cependant pas permis de rattacher au recensement local : Joseph Hardy (mari, mort à Saint-Louis-de-Blandford), leurs enfants Joseph et Henriette Hardy (élevés à Blandford/Princeville), James Gibson (déménagé à Lévis vers 1851, homonyme non retenu en 1871-D1-P005), Éléonore Pelletier et Étienne Nolin (Saint-Jean-Chrysostome puis Saint-Paul-de-Chester), ni les deux maris de Caroline Pelletier eux-mêmes (Joseph Forcade, mort avant 1871 ; Norbert Gosselin fils, introuvable). La piste d'un lien entre ce Joseph Forcade et la famille de Joseph Ange Forcade déjà documentée (familysearch-albert-forcade, alliances-forcade-mcready) mérite vérification mais n'est pas tranchée ici.",
+      "ajoute_le": "2026-07-30",
+      "fichier": "documents/sthilaire-2010-magdeleine-delisle.pdf"
     }
   ]
 }
