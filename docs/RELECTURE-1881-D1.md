@@ -11,7 +11,7 @@ recalage et les signaux d'erreur.
 
 | | |
 |---|---|
-| Personnes | **2189** (2187 au dépouillement, +2 réinsérées) |
+| Personnes | **2189** (2187 au dépouillement, +2 réinsérées aux pages 4 et 43) |
 | Pages | 88 |
 | Maisons | 349, séquence continue de 1 à 349 |
 | Familles | 399 |
@@ -38,32 +38,23 @@ recalage et les signaux d'erreur.
 Dans les deux cas la ligne a été réinsérée et la page renumérotée, identifiants
 compris.
 
-**Pages relues :** 1, 2, 3, 4, 43, 66.
+**Pages 82 et 83 — réglées.** Le manuscrit n'y comporte aucune omission : sa
+page 82 s'arrête à la ligne 24, et c'est la page 83 qui s'ouvre par Gauthier
+Hélomina. Le dépouillement l'avait rattachée à la fin de la page 82, ce qui
+décalait toute la page 83. Elle a été déplacée en page 83 ligne 1 — sans
+quitter sa famille — et la page 83 renumérotée. Aucune personne créée ni
+supprimée.
+
+Ce cas méritait la prudence : une première lecture, trop rapide, avait conclu à
+une personne manquante, et l'insertion correspondante créait un doublon. La
+leçon vaut pour la suite : **avant d'insérer, vérifier que la personne n'est pas
+déjà présente sur la page voisine.**
+
+**Pages relues :** 1, 2, 3, 4, 43, 66, 82, 83.
 
 ## Ce qui reste
 
-**Le balayage des pages 5 à 88**, hors 43 et 66 déjà faites.
-
-**Les pages 82 et 83, à reprendre en priorité et avec soin.** Ce n'est pas une
-omission mais un décalage de page, et une tentative maladroite y créerait un
-doublon — c'est ce qui a failli arriver.
-
-- Le manuscrit met **Hélomina en tête de la page 83** ; les données la placent
-  en fin de page 82. Elle existe déjà : **ne pas l'insérer**.
-- La page 82 des données porte donc une ligne de trop, la page 83 une de
-  moins, et les numéros de ligne de la fin de la page 82 sont décalés.
-- Ce que les données appellent « Caroline » à la page 82 ligne 23 se lit
-  **Exilia** au manuscrit, à la ligne 24.
-- Manuscrit page 82 : L21 = 328/374 Gauthier George 28, L22 Marie 27,
-  L23 George 4, L24 Exilia 2, L25 Jos. Arthur 0 mars.
-- Manuscrit page 83 : L1 Gauthier Helmina 0 mars, L2 Edmond Marie 71,
-  L3 = 329/375 Montminy Joseph 48.
-
-Marche à suivre : renuméroter la fin de la page 82, déplacer Hélomina en
-page 83 ligne 1, décaler toute la page 83 de +1, puis appliquer les corrections
-de lecture déjà relevées (numéros de ligne exprimés **après** décalage) :
-L10 Alphonsine → Appolinaire ; L11 mois août → avril ; L14 Eugénie → Virginie ;
-L16 âge 0/12 → 5/12 (juin) ; L24 âge 0/12 (avril) → 4/12 (nov.).
+**Le balayage des pages 5 à 88**, hors 43, 66, 82 et 83 déjà faites.
 
 **Un filtre global à passer**, qui devrait révéler d'un coup une partie des
 prénoms restants : en division 1 la colonne 8 est fiable, donc **toute
