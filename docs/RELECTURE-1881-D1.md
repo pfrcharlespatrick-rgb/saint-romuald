@@ -1,6 +1,6 @@
 # Recensement de 1881, division 1 — état de la relecture
 
-**Relecture en cours.** La structure est assainie et les pages 1 à 4, 43 et 66
+**Relecture en cours.** La structure est assainie et les pages 1 à 4, 43, 66, 82 et 83
 sont relues. Il reste l'essentiel du balayage page par page.
 
 Pour reprendre : joindre les trois PDF du manuscrit à la conversation et lire
