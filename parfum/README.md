@@ -17,7 +17,8 @@ Deux entrées :
 | --- | --- |
 | `index.html` | Structure de la page et des quatre étapes du questionnaire |
 | `salon.html` | Vue tablette : six étapes plein écran, une à la fois |
-| `donnees.js` | Facettes, émotions, lexique de lecture du récit, matières premières, curseurs |
+| `donnees.js` | Facettes, émotions, lexique de lecture du récit, palette de démonstration, curseurs |
+| `stock.js`   | Palette de la maison — vide par défaut ; remplace la démonstration dès qu'elle est remplie |
 | `moteur.js`  | Traduction émotion → facettes → matières → pourcentages |
 | `fiche.js`   | Rendu et exports de la fiche, partagés par les deux vues |
 | `ia.js`      | Lecture du récit par l'API Claude (facultative) |
@@ -93,13 +94,51 @@ réglementaire portés par les matières retenues (cannelle, mousse de chêne, g
 Les dosages sont un **point de départ de laboratoire**, pas une formule finie : la conformité IFRA,
 le calcul des allergènes déclarables et l'équilibre réel restent le travail du parfumeur.
 
-## Adapter à une maison
+## La palette de la maison
+
+La palette livrée dans `donnees.js` est une **démonstration** : ~70 matières classiques, choisies
+pour que l'application fonctionne dès l'ouverture. Un parfumeur ne travaille pas avec ça — il
+travaille avec ce qu'il a sur ses étagères.
+
+`stock.js` est fait pour ça. Tant qu'il est vide, la palette de démonstration sert. Dès qu'il
+contient quelque chose, **il la remplace entièrement** : le moteur ne propose plus que des matières
+réellement disponibles, sous les noms de la maison (« Bergamote FCF », « Lavande fine de
+Haute-Provence »).
+
+### Depuis une liste ou un tableur
+
+```bash
+node outils/importer-stock.mjs mon-stock.txt > stock.js   # une matière par ligne
+node outils/importer-stock.mjs mon-stock.csv > stock.js   # avec colonnes
+node outils/verifier-stock.mjs                            # toujours, après
+```
+
+Les matières déjà décrites dans `donnees.js` sont **reprises telles quelles** — inutile de ressaisir
+les facettes de la bergamote ; seul le nom de la maison est conservé. Les autres sortent en ébauche,
+signalées `À COMPLÉTER`, et l'outil dit lesquelles.
+
+Le CSV accepte, toutes facultatives sauf `nom` : `latin`, `famille`, `role`, `nature`, `force`,
+`dose_min`, `dose_max`, `facettes` (`agrumes:1 vert:0.3`), `tags` (`couteux;allergene`), `note`,
+`prudence`. Voir `exemples/stock-liste.txt` et `exemples/stock-detaille.csv`.
+
+### La vérification
+
+`outils/verifier-stock.mjs` ne se contente pas de relire les champs : il **soumet six demandes
+contrastées au moteur** avec la palette de la maison et vérifie que chacune produit une formule
+tenable. Il signale ce qui compte vraiment en pratique :
+
+- un étage sans aucune matière, ou sans matière dosable au-dessus de 4 % — cet étage restera famélique ;
+- une palette qui plafonne sous 100 %, donc toujours complétée au solvant ;
+- moins de quatre familles, signe que toutes les compositions se ressembleront ;
+- un dosage inversé, une facette inexistante, un identifiant en double.
+
+Il échoue (code de sortie 1) sur une vraie erreur, et se contente d'avertir sur ce qui est
+seulement discutable.
+
+## Adapter le reste
 
 Tout se règle dans `donnees.js`, sans toucher au moteur :
 
-- **Palette réelle** : remplacer les entrées de `MATIERES` par le stock de la maison. Champs requis :
-  `id`, `nom`, `famille`, `role`, `nature`, `facettes`, `force` (1 à 5), `dose` (`[min, max]` en % du
-  concentré), `note`. Facultatifs : `latin`, `tags`, `prudence`.
 - **Émotions** : `EMOTIONS` — un nom, une phrase, et des poids sur les facettes.
 - **Vocabulaire du client** : `LEXIQUE` — ajouter les mots de sa clientèle (régionalismes, marques,
   lieux). Les accents et la casse sont ignorés.

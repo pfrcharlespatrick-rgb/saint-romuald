@@ -579,7 +579,7 @@ function sceneFiche() {
     exporterJson(c, `fiche-${(seance.nom || 'client').toLowerCase().replace(/[^a-z0-9]+/g, '-')}.json`));
 }
 
-const nomMatiere = (id) => (MATIERES.find((m) => m.id === id) || { nom: id }).nom;
+const nomMatiere = (id) => (palette().find((m) => m.id === id) || { nom: id }).nom;
 
 /* ------------------------------------------------------------------ */
 

@@ -85,6 +85,13 @@ function vecteurCible(etat) {
 
 /* --- 3. Filtres et score ----------------------------------------- */
 
+/* La palette de la maison (stock.js) remplace la palette de démonstration
+   dès qu'elle contient quelque chose. */
+function palette() {
+  return (typeof STOCK_MAISON !== 'undefined' && STOCK_MAISON.length)
+    ? STOCK_MAISON : MATIERES;
+}
+
 function estExclue(matiere, exclusions, ecartees = []) {
   if (ecartees.includes(matiere.id)) return true;   // refusée sur mouillette
   return exclusions.some((idEx) => {
@@ -114,7 +121,7 @@ function selectionner(cible, exclusions, nombres, equilibre, etat = {}) {
   const ecartees = etat.ecartees || [];
   const imposees = etat.imposees || [];
 
-  const notes = MATIERES
+  const notes = palette()
     .filter((m) => !estExclue(m, exclusions, ecartees))
     .map((m) => ({ m, score: scorer(m, cible) }))
     .sort((a, b) => b.score - a.score);
