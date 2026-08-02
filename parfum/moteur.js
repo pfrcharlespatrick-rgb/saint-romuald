@@ -64,6 +64,9 @@ function vecteurCible(etat) {
     });
   ajouter(v, lu.facettes, .7);
 
+  // Facettes déduites par l'assistant (lecture fine du récit) — voir ia.js
+  if (etat.facettesIA) ajouter(v, etat.facettesIA, .8);
+
   // Curseurs
   for (const c of CURSEURS) {
     const val = etat.curseurs[c.id] || 0;
@@ -82,7 +85,8 @@ function vecteurCible(etat) {
 
 /* --- 3. Filtres et score ----------------------------------------- */
 
-function estExclue(matiere, exclusions) {
+function estExclue(matiere, exclusions, ecartees = []) {
+  if (ecartees.includes(matiere.id)) return true;   // refusée sur mouillette
   return exclusions.some((idEx) => {
     const ex = EXCLUSIONS.find((e) => e.id === idEx);
     if (!ex) return false;
@@ -106,9 +110,12 @@ function scorer(matiere, cible) {
 
 const LIANTS = ['hedione', 'iso_e', 'muscone'];
 
-function selectionner(cible, exclusions, nombres, equilibre) {
+function selectionner(cible, exclusions, nombres, equilibre, etat = {}) {
+  const ecartees = etat.ecartees || [];
+  const imposees = etat.imposees || [];
+
   const notes = MATIERES
-    .filter((m) => !estExclue(m, exclusions))
+    .filter((m) => !estExclue(m, exclusions, ecartees))
     .map((m) => ({ m, score: scorer(m, cible) }))
     .sort((a, b) => b.score - a.score);
 
@@ -118,8 +125,17 @@ function selectionner(cible, exclusions, nombres, equilibre) {
   for (const role of ['tete', 'coeur', 'fond']) {
     const voulu = nombres[role];
     const candidats = notes.filter((n) => n.m.role === role);
-    const prises = [];
+
+    // Les matières aimées à la mouillette entrent d'office
+    const prises = candidats.filter((n) => imposees.includes(n.m.id));
+    prises.forEach((n) => {
+      parFamille[n.m.famille] = (parFamille[n.m.famille] || 0) + 1;
+      // une matière retenue à l'essai mérite une vraie place, pas la dose minimale
+      n.score = Math.max(n.score, .6);
+    });
+
     for (const n of candidats) {
+      if (prises.includes(n)) continue;
       if (prises.length >= voulu) break;
       const fam = n.m.famille;
       if ((parFamille[fam] || 0) >= 2) continue;      // pas plus de 2 par famille
@@ -352,7 +368,7 @@ function composer(etat) {
   };
 
   const equilibre = equilibrePyramide(etat);
-  const retenues = selectionner(cible, etat.exclusions, nombres, equilibre);
+  const retenues = selectionner(cible, etat.exclusions, nombres, equilibre, etat);
   const pyramide = repartir(retenues, equilibre);
   const profil = profilFacettes(pyramide);
   const concentration = CONCENTRATIONS.find((c) => c.id === etat.concentration) || CONCENTRATIONS[1];

@@ -9,7 +9,10 @@ const ETAT_INITIAL = {
   saison: 'toutes',
   moment: 'indifferent',
   exclusions: [],
-  concentration: 'edp'
+  concentration: 'edp',
+  facettesIA: null,   // facettes déduites du récit par l'assistant, une fois acceptées
+  imposees: [],       // matières retenues à l'essai (vue salon)
+  ecartees: []        // matières refusées à l'essai (vue salon)
 };
 
 let etat = structuredClone(ETAT_INITIAL);
@@ -143,54 +146,154 @@ function afficherDetections() {
 }
 
 /* ------------------------------------------------------------------ */
-/* Fiche                                                               */
+/* Assistant (lecture du récit par l'API Claude — voir ia.js)          */
 /* ------------------------------------------------------------------ */
 
-const nb = (x, d = 1) => x.toFixed(d).replace('.', ',');
+let lectureEnCours = null;
 
-function ligneMatiere(l, avecChiffres) {
-  const m = l.matiere;
-  return `
-    <tr>
-      <td class="nom">${m.nom}<span class="etiquette-nature">${m.nature}</span>
-        ${m.latin ? `<small>${m.latin}</small>` : ''}</td>
-      <td class="note">${m.note}</td>
-      ${avecChiffres ? `<td class="chiffre">${nb(l.pct)} %</td>
-                        <td class="chiffre">${nb(l.pct / 10, 2)} g</td>` : ''}
-    </tr>`;
+function majEtatIA(texte, classe = '') {
+  $('#etat-ia').className = 'etat-ia ' + classe;
+  $('#etat-ia').textContent = texte;
 }
 
-function tableEtage(titre, classe, lignes, part, avecChiffres) {
-  if (!lignes.length) return '';
-  return `
-  <div class="etage ${classe}">
-    <h3>${titre} <span class="part">${nb(part)} % du concentré</span></h3>
-    <table class="formule">
-      <thead><tr>
-        <th>Matière</th><th>Caractère</th>
-        ${avecChiffres ? '<th style="text-align:right">Part</th><th style="text-align:right">Pour 10 g</th>' : ''}
-      </tr></thead>
-      <tbody>${lignes.map((l) => ligneMatiere(l, avecChiffres)).join('')}</tbody>
-    </table>
-  </div>`;
+function brancherAssistant() {
+  $('#lire-ia').addEventListener('click', lancerLecture);
+  $('#reglages-ia').addEventListener('click', ouvrirReglagesIA);
+  refleterDisponibiliteIA();
 }
 
-function barres(items, libelle, valeur, unite = '%') {
-  return `<div class="barres">${items.map((i) => `
-    <div class="barre">
-      <span>${libelle(i)}</span>
-      <span class="piste"><span class="remplissage" style="width:${Math.round(valeur(i))}%"></span></span>
-      <span class="valeur">${Math.round(valeur(i))}${unite}</span>
-    </div>`).join('')}</div>`;
+function refleterDisponibiliteIA() {
+  const pret = IA.disponible();
+  $('#lire-ia').disabled = !pret;
+  $('#lire-ia').title = pret ? '' : 'Configurez d\'abord l\'assistant.';
+  if (!pret) majEtatIA('Assistant non configuré — la lecture par mots-clés reste active.', 'discret');
+  else majEtatIA('');
 }
+
+async function lancerLecture() {
+  const texte = etat.recit.trim();
+  if (texte.length < 15) { majEtatIA('Écrivez d\'abord quelques mots.', 'discret'); return; }
+
+  if (lectureEnCours) lectureEnCours.abort();
+  lectureEnCours = new AbortController();
+  majEtatIA('Lecture en cours…', 'discret');
+  $('#lire-ia').disabled = true;
+
+  try {
+    const lu = await IA.lireRecit(texte, lectureEnCours.signal);
+    majEtatIA('');
+    afficherProposition(lu);
+  } catch (e) {
+    if (e.name !== 'AbortError') {
+      majEtatIA(`Lecture impossible : ${e.message} Les mots-clés prennent le relais.`, 'alerte');
+    }
+  } finally {
+    lectureEnCours = null;
+    $('#lire-ia').disabled = !IA.disponible();
+  }
+}
+
+function afficherProposition(lu) {
+  const emos = lu.emotions.map((id) => EMOTIONS.find((e) => e.id === id)).filter(Boolean);
+  const facettes = Object.entries(lu.facettes)
+    .sort((a, b) => b[1] - a[1])
+    .map(([f]) => FACETTES[f]);
+  const curseurs = CURSEURS
+    .filter((c) => Math.abs(lu.curseurs[c.id]) > .15)
+    .map((c) => `${lu.curseurs[c.id] > 0 ? c.droite : c.gauche}`);
+
+  $('#proposition-ia').innerHTML = `
+    <div class="proposition">
+      <h4>L'assistant a lu votre récit</h4>
+      <p class="resume">${lu.resume}</p>
+      ${emos.length ? `<p class="detail"><strong>Émotions :</strong> ${emos.map((e) => `${e.icone} ${e.nom}`).join(' · ')}</p>` : ''}
+      ${facettes.length ? `<p class="detail"><strong>Matières évoquées :</strong> ${facettes.join(' · ')}</p>` : ''}
+      ${curseurs.length ? `<p class="detail"><strong>Caractère :</strong> ${curseurs.join(' · ')}</p>` : ''}
+      ${lu.indices.length ? `<p class="detail indices">D'après : ${lu.indices.map((i) => `« ${i} »`).join(', ')}</p>` : ''}
+      <div class="bandeau-outils" style="margin:14px 0 0">
+        <button type="button" class="action pleine" id="accepter-ia">Appliquer cette lecture</button>
+        <button type="button" class="action" id="refuser-ia">Ignorer</button>
+      </div>
+    </div>`;
+
+  $('#accepter-ia').addEventListener('click', () => {
+    etat.emotions = [...new Set([...etat.emotions, ...lu.emotions])];
+    etat.facettesIA = lu.facettes;
+    CURSEURS.forEach((c) => {
+      if (Math.abs(lu.curseurs[c.id]) > .15) etat.curseurs[c.id] = lu.curseurs[c.id];
+    });
+    $('#proposition-ia').innerHTML = '';
+    majEtatIA('Lecture appliquée — vous pouvez encore tout ajuster.', 'discret');
+    rafraichir();
+  });
+  $('#refuser-ia').addEventListener('click', () => { $('#proposition-ia').innerHTML = ''; });
+}
+
+function ouvrirReglagesIA() {
+  const c = IA.config;
+  $('#proposition-ia').innerHTML = `
+    <div class="proposition">
+      <h4>Réglages de l'assistant</h4>
+      <p class="detail">Sans assistant, le récit reste lu par un lexique de mots-clés : l'application
+         fonctionne, avec moins de nuance.</p>
+      <div class="contexte" style="margin-bottom:14px">
+        <div>
+          <label for="ia-mode">Mode</label>
+          <select id="ia-mode">
+            <option value="off">Aucun (mots-clés seulement)</option>
+            <option value="proxy">Service de la maison (recommandé)</option>
+            <option value="direct">Clé sur cet appareil</option>
+          </select>
+        </div>
+        <div id="ia-champ-proxy">
+          <label for="ia-proxy">Adresse du service</label>
+          <input id="ia-proxy" type="url" placeholder="https://…/lecture" style="min-width:280px">
+        </div>
+        <div id="ia-champ-cle">
+          <label for="ia-cle">Clé d'API Anthropic</label>
+          <input id="ia-cle" type="password" placeholder="sk-ant-…" style="min-width:280px">
+        </div>
+      </div>
+      <p class="detail"><strong>Clé sur cet appareil :</strong> la clé est enregistrée dans ce navigateur
+         et n'est envoyée qu'à l'API d'Anthropic. À réserver au poste du parfumeur — jamais une tablette
+         confiée aux clients, jamais un poste partagé.</p>
+      <div class="bandeau-outils" style="margin:14px 0 0">
+        <button type="button" class="action pleine" id="ia-enregistrer">Enregistrer</button>
+        <button type="button" class="action" id="ia-annuler">Fermer</button>
+      </div>
+    </div>`;
+
+  $('#ia-mode').value = c.mode;
+  $('#ia-proxy').value = c.proxy || '';
+  $('#ia-cle').value = c.cle || '';
+
+  const ajusterChamps = () => {
+    const m = $('#ia-mode').value;
+    $('#ia-champ-proxy').classList.toggle('masque', m !== 'proxy');
+    $('#ia-champ-cle').classList.toggle('masque', m !== 'direct');
+  };
+  ajusterChamps();
+  $('#ia-mode').addEventListener('change', ajusterChamps);
+
+  $('#ia-enregistrer').addEventListener('click', () => {
+    IA.enregistrer({
+      mode: $('#ia-mode').value,
+      proxy: $('#ia-proxy').value.trim(),
+      cle: $('#ia-cle').value.trim()
+    });
+    $('#proposition-ia').innerHTML = '';
+    refleterDisponibiliteIA();
+  });
+  $('#ia-annuler').addEventListener('click', () => { $('#proposition-ia').innerHTML = ''; });
+}
+
+/* ------------------------------------------------------------------ */
+/* Fiche                                                               */
+/* ------------------------------------------------------------------ */
 
 function renderFiche(c) {
   const emos = c.emotionsRetenues.map((e) => `${e.icone} ${e.nom}`).join(' · ') || 'à préciser';
   const p = c.pyramide;
-
-  const partsAlcool = {
-    edt: .10, edp: .175, extrait: .25
-  }[c.etat.concentration];
 
   $('#fiche').innerHTML = `
     <h2 class="titre-fiche">Fiche de composition</h2>
@@ -211,14 +314,7 @@ function renderFiche(c) {
     ${tableEtage('Notes de cœur', 'coeur', p.coeur, c.equilibre.coeur, vueParfumeur)}
     ${tableEtage('Notes de fond', 'fond', p.fond, c.equilibre.fond, vueParfumeur)}
 
-    ${vueParfumeur && c.diluant > .5 ? `
-    <div class="avertissement" style="margin-bottom:26px">
-      <h4>Solvant de mise au point — ${nb(c.diluant)} % du concentré</h4>
-      <p style="margin:0">Les exclusions demandées réduisent fortement la palette : les matières
-         retenues ne peuvent pas, à leurs dosages usuels, remplir le concentré. Le solde est
-         complété au DPG (ou à l'éthanol), ce qui est une pratique courante. Pour un concentré plus
-         dense, il faudrait lever une exclusion ou élargir la palette de la maison.</p>
-    </div>` : ''}
+    ${vueParfumeur ? blocSolvant(c) : ''}
 
     <div class="deux-colonnes">
       <div>
@@ -231,16 +327,7 @@ function renderFiche(c) {
       </div>
     </div>
 
-    ${vueParfumeur ? `
-    <div class="avertissement">
-      <h4>Mise en alcool et points de vigilance</h4>
-      <p style="margin:0 0 8px">Pour <strong>30 mL</strong> de jus fini en ${c.concentration.nom.toLowerCase()} :
-         environ <strong>${nb(30 * partsAlcool, 1)} g</strong> de concentré dans
-         <strong>${nb(30 * (1 - partsAlcool), 1)} mL</strong> d'éthanol à 96°,
-         plus 1 à 3 % d'eau distillée si l'on veut arrondir. Macération conseillée : 3 à 6 semaines au frais et à l'abri de la lumière.</p>
-      ${c.alertes.length ? `<ul>${c.alertes.map((a) => `<li><strong>${a.nom}</strong> — ${a.texte}</li>`).join('')}</ul>`
-                          : '<p style="margin:0">Aucune matière de la sélection ne porte de restriction particulière ; vérifier malgré tout le calcul des allergènes déclarables.</p>'}
-    </div>` : ''}
+    ${vueParfumeur ? blocMiseEnAlcool(c) : ''}
   `;
 
   $('#basculer-vue').addEventListener('click', () => { vueParfumeur = !vueParfumeur; rafraichir(); });
@@ -254,92 +341,9 @@ function renderFiche(c) {
 /* Exports                                                             */
 /* ------------------------------------------------------------------ */
 
-function texteFiche(c) {
-  const bloc = (titre, lignes, part) =>
-    `${titre.toUpperCase()} (${nb(part)} %)\n` +
-    lignes.map((l) => `  ${l.matiere.nom} — ${nb(l.pct)} % (${nb(l.pct / 10, 2)} g pour 10 g)`).join('\n');
-
-  return [
-    'FICHE DE COMPOSITION',
-    'Émotions : ' + (c.emotionsRetenues.map((e) => e.nom).join(', ') || '—'),
-    'Concentration : ' + c.concentration.nom + ' (' + c.concentration.plage + ')',
-    '',
-    c.intention,
-    '',
-    bloc('Notes de tête', c.pyramide.tete, c.equilibre.tete),
-    '',
-    bloc('Notes de cœur', c.pyramide.coeur, c.equilibre.coeur),
-    '',
-    bloc('Notes de fond', c.pyramide.fond, c.equilibre.fond),
-    c.diluant > .5 ? `\nSOLVANT DE MISE AU POINT (DPG ou éthanol) — ${nb(c.diluant)} %` : '',
-    '',
-    'Familles dominantes : ' + c.familles.slice(0, 5).map((f) => `${f.nom} ${Math.round(f.pct)} %`).join(', '),
-    c.alertes.length ? '\nVigilance :\n' + c.alertes.map((a) => `  - ${a.nom} : ${a.texte}`).join('\n') : '',
-    '',
-    'Dosages indicatifs, à valider par le parfumeur (IFRA, allergènes, équilibre réel).'
-  ].join('\n');
-}
-
-function exporterJson(c) {
-  const donnees = {
-    version: 1,
-    demande: c.etat,
-    emotions: c.emotionsRetenues.map((e) => e.nom),
-    intention: c.intention,
-    concentration: c.concentration,
-    equilibre: c.equilibre,
-    formule: ['tete', 'coeur', 'fond'].flatMap((role) =>
-      c.pyramide[role].map((l) => ({
-        role,
-        id: l.matiere.id,
-        nom: l.matiere.nom,
-        famille: l.matiere.famille,
-        nature: l.matiere.nature,
-        pourcentage: Number(l.pct.toFixed(2))
-      }))),
-    solvant: Number(c.diluant.toFixed(2)),
-    familles: c.familles.map((f) => ({ nom: f.nom, pourcentage: Number(f.pct.toFixed(1)) })),
-    vigilance: c.alertes
-  };
-  const url = URL.createObjectURL(new Blob([JSON.stringify(donnees, null, 2)], { type: 'application/json' }));
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = 'fiche-composition.json';
-  a.click();
-  URL.revokeObjectURL(url);
-}
-
-function copier(texte, bouton) {
-  const fini = () => {
-    const avant = bouton.textContent;
-    bouton.textContent = 'Copié ✓';
-    setTimeout(() => { bouton.textContent = avant; }, 1600);
-  };
-  if (navigator.clipboard) navigator.clipboard.writeText(texte).then(fini, () => {});
-  else {
-    const z = document.createElement('textarea');
-    z.value = texte; document.body.appendChild(z); z.select();
-    document.execCommand('copy'); z.remove(); fini();
-  }
-}
-
-/* --- partage par lien : l'état tient dans le fragment d'URL --- */
-
-function encoder(objet) {
-  const octets = new TextEncoder().encode(JSON.stringify(objet));
-  return btoa(String.fromCharCode(...octets)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
-}
-
-function decoder(chaine) {
-  const b64 = chaine.replace(/-/g, '+').replace(/_/g, '/');
-  const brut = atob(b64 + '==='.slice((b64.length + 3) % 4));
-  const octets = Uint8Array.from(brut, (c) => c.charCodeAt(0));
-  return JSON.parse(new TextDecoder().decode(octets));
-}
-
 function lienPartage() {
   const url = new URL(location.href);
-  url.hash = 'd=' + encoder(etat);
+  url.hash = 'd=' + encoderEtat(etat);
   history.replaceState(null, '', url);
   return url.toString();
 }
@@ -348,7 +352,7 @@ function lireLien() {
   const h = location.hash.replace(/^#/, '');
   if (!h.startsWith('d=')) return;
   try {
-    const lu = decoder(h.slice(2));
+    const lu = decoderEtat(h.slice(2));
     etat = Object.assign(structuredClone(ETAT_INITIAL), lu);
     etat.curseurs = Object.assign({}, ETAT_INITIAL.curseurs, lu.curseurs || {});
   } catch (e) {
@@ -362,8 +366,10 @@ function rafraichir() {
   refleterFormulaire();
   afficherDetections();
 
-  const rienDeChoisi = !etat.emotions.length && !analyserRecit(etat.recit).emotions.length
-    && !Object.keys(analyserRecit(etat.recit).facettes).length;
+  const lu = analyserRecit(etat.recit);
+  const rienDeChoisi = !etat.emotions.length && !lu.emotions.length
+    && !Object.keys(lu.facettes).length
+    && !Object.keys(etat.facettesIA || {}).length;
 
   if (rienDeChoisi) {
     $('#fiche').innerHTML = `<p style="color:var(--encre-doux)">
@@ -378,5 +384,6 @@ construireEmotions();
 construireCurseurs();
 construireExclusions();
 brancherChamps();
+brancherAssistant();
 lireLien();
 rafraichir();

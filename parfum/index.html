@@ -22,6 +22,13 @@
        Écrivez librement : les mots sont lus et traduits en matières.</p>
     <textarea id="recit" placeholder="« Le chalet de mon grand-père en octobre. La pluie sur les feuilles, le feu qui prend mal, sa veste de laine… »"></textarea>
     <div class="detections" id="detections"></div>
+
+    <div class="assistant">
+      <button type="button" class="action" id="lire-ia">Faire lire mon récit par l'assistant</button>
+      <button type="button" class="lien-discret" id="reglages-ia">Réglages de l'assistant</button>
+      <div id="etat-ia" class="etat-ia"></div>
+    </div>
+    <div id="proposition-ia"></div>
   </section>
 
   <!-- 2. Émotions -->
@@ -86,6 +93,8 @@
 
 <script src="./donnees.js"></script>
 <script src="./moteur.js"></script>
+<script src="./fiche.js"></script>
+<script src="./ia.js"></script>
 <script src="./app.js"></script>
 </body>
 </html>
