@@ -12,12 +12,17 @@ Deux entrées :
 - **`index.html`** — la page publique, que le client remplit lui-même et dont il envoie le lien.
 - **`salon.html`** — la même séance menée sur tablette pendant le rendez-vous, avec les touches
   à sentir et la mémoire des clients reçus.
+- **`palette.html`** — la palette du parfumeur : son stock, saisi dans l'application.
 
 | Fichier | Rôle |
 | --- | --- |
 | `index.html` | Structure de la page et des quatre étapes du questionnaire |
 | `salon.html` | Vue tablette : six étapes plein écran, une à la fois |
-| `donnees.js` | Facettes, émotions, lexique de lecture du récit, matières premières, curseurs |
+| `donnees.js` | Facettes, émotions, lexique de lecture du récit, palette de démonstration, curseurs |
+| `stock.js`   | Palette versée au dépôt — vide, car ce dépôt est public (voir plus bas) |
+| `palette.html` · `palette.js` · `palette.css` | Éditeur de palette dans l'application |
+| `palette-locale.js` | Palette gardée sur l'appareil |
+| `palette-outils.js` | Rapprochement des noms, vérification, essais à blanc — partagés navigateur et ligne de commande |
 | `moteur.js`  | Traduction émotion → facettes → matières → pourcentages |
 | `fiche.js`   | Rendu et exports de la fiche, partagés par les deux vues |
 | `ia.js`      | Lecture du récit par l'API Claude (facultative) |
@@ -86,20 +91,99 @@ grandes cibles tactiles, une seule décision à la fois. Deux choses qu'elle seu
 
 ## Ce que la fiche donne au parfumeur
 
-Pyramide tête / cœur / fond avec part du concentré et masse pour 10 g, familles dominantes, profil
+Pyramide tête / cœur / fond avec part du concentré et masse pour 10 g **de matière pure**, familles dominantes, profil
 olfactif, mise en alcool pour 30 mL selon la concentration choisie, et les points de vigilance
 réglementaire portés par les matières retenues (cannelle, mousse de chêne, goudron de bouleau…).
+
+Quand des matières sont diluées, une colonne supplémentaire donne la masse **à prélever au flacon**
+— masse pure ÷ dilution — et un bloc vérifie que la pesée est seulement possible : si les
+prélèvements dépassent le lot, la fiche le dit, nomme les matières en cause et indique la dilution
+minimale qu'il faudrait. Agrandir le lot n'y changerait rien : les deux quantités suivent la même
+échelle.
 
 Les dosages sont un **point de départ de laboratoire**, pas une formule finie : la conformité IFRA,
 le calcul des allergènes déclarables et l'équilibre réel restent le travail du parfumeur.
 
-## Adapter à une maison
+## La palette de la maison
+
+La palette livrée dans `donnees.js` est une **démonstration** : ~70 matières classiques, choisies
+pour que l'application fonctionne dès l'ouverture. Un parfumeur ne travaille pas avec ça — il
+travaille avec ce qu'il a sur ses étagères.
+
+`stock.js` est **volontairement vide**. Ce dépôt est public : y verser l'inventaire d'un atelier
+reviendrait à le publier — les matières, leurs dilutions de travail, les bases du fournisseur.
+La vraie palette se saisit donc dans « Ma palette », où elle reste sur l'appareil du parfumeur.
+`stock.js` n'a de sens que pour une palette que l'on accepte de publier, ou pour un dépôt privé.
+
+Le moteur prend sa palette au premier de ces trois endroits qui est rempli :
+
+1. **celle saisie dans l'application** (`palette.html`), gardée sur l'appareil du parfumeur ;
+2. **celle versée au dépôt** (`stock.js`), valable pour tous les appareils ;
+3. la palette de démonstration.
+
+Dans les deux premiers cas, elle **remplace entièrement** la démonstration : le moteur ne propose
+plus que des matières réellement disponibles, sous les noms de la maison (« Bergamote FCF »,
+« Lavande fine de Haute-Provence »).
+
+### Dans l'application : « Ma palette »
+
+`palette.html` — accessible depuis la séance en salon et depuis le bas de la page client. C'est la
+voie normale : le parfumeur n'a ni fichier à éditer ni commande à lancer.
+
+- **Coller ma liste** : une matière par ligne. Celles que l'application connaît arrivent déjà
+  décrites — facettes, dosages, caractère ; les autres sont signalées, nommément, comme restant à
+  compléter.
+- **Partir de la palette du dépôt** (ou de la démonstration si le dépôt n'en a pas) : on copie tout,
+  puis on retire ce qu'on n'a pas. Souvent plus rapide que de tout saisir.
+- Chaque matière s'ouvre d'un toucher : nom, famille, étage, nature, puissance, fourchette de
+  dosage, **dilution de travail**, caractère, et les facettes en trois intensités — léger, net,
+  dominant.
+- **Les dilutions sont lues dans les noms collés** : « Ionone alpha 10% » donne la matière *Ionone
+  alpha* diluée à 10 %, comme sur l'étiquette du flacon. La fiche rappelle ensuite la dilution à
+  côté de chaque matière — c'est le flacon que le parfumeur ira chercher.
+- **Le bilan est permanent** : à chaque modification, les six essais à blanc sont relancés et
+  l'état de la palette se met à jour — étage sans porteur, plafond sous 100 %, familles trop peu
+  nombreuses, matière que le moteur ne pourra jamais choisir.
+- **Sauvegarder / exporter** : un `.json` de sauvegarde, ou un fichier `stock.js` prêt à déposer
+  dans le dépôt pour que la palette vaille sur tous les appareils.
+
+La palette vit dans le navigateur de l'appareil. C'est ce qui permet de se passer de serveur — et
+c'est aussi pourquoi le bouton d'export existe : un nettoyage d'historique l'effacerait.
+
+### En ligne de commande, pour verser la palette au dépôt
+
+```bash
+node outils/importer-stock.mjs mon-stock.txt > stock.js   # une matière par ligne
+node outils/importer-stock.mjs mon-stock.csv > stock.js   # avec colonnes
+node outils/verifier-stock.mjs                            # toujours, après
+```
+
+Les matières déjà décrites dans `donnees.js` sont **reprises telles quelles** — inutile de ressaisir
+les facettes de la bergamote ; seul le nom de la maison est conservé. Les autres sortent en ébauche,
+signalées `À COMPLÉTER`, et l'outil dit lesquelles.
+
+Le CSV accepte, toutes facultatives sauf `nom` : `latin`, `famille`, `role`, `nature`, `force`,
+`dose_min`, `dose_max`, `facettes` (`agrumes:1 vert:0.3`), `tags` (`couteux;allergene`), `note`,
+`prudence`. Voir `exemples/stock-liste.txt` et `exemples/stock-detaille.csv`.
+
+### La vérification
+
+`outils/verifier-stock.mjs` ne se contente pas de relire les champs : il **soumet six demandes
+contrastées au moteur** avec la palette de la maison et vérifie que chacune produit une formule
+tenable. Il signale ce qui compte vraiment en pratique :
+
+- un étage sans aucune matière, ou sans matière dosable au-dessus de 4 % — cet étage restera famélique ;
+- une palette qui plafonne sous 100 %, donc toujours complétée au solvant ;
+- moins de quatre familles, signe que toutes les compositions se ressembleront ;
+- un dosage inversé, une facette inexistante, un identifiant en double.
+
+Il échoue (code de sortie 1) sur une vraie erreur, et se contente d'avertir sur ce qui est
+seulement discutable.
+
+## Adapter le reste
 
 Tout se règle dans `donnees.js`, sans toucher au moteur :
 
-- **Palette réelle** : remplacer les entrées de `MATIERES` par le stock de la maison. Champs requis :
-  `id`, `nom`, `famille`, `role`, `nature`, `facettes`, `force` (1 à 5), `dose` (`[min, max]` en % du
-  concentré), `note`. Facultatifs : `latin`, `tags`, `prudence`.
 - **Émotions** : `EMOTIONS` — un nom, une phrase, et des poids sur les facettes.
 - **Vocabulaire du client** : `LEXIQUE` — ajouter les mots de sa clientèle (régionalismes, marques,
   lieux). Les accents et la casse sont ignorés.

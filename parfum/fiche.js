@@ -4,19 +4,31 @@
 
 const nb = (x, d = 1) => x.toFixed(d).replace('.', ',');
 
-function ligneMatiere(l, avecChiffres) {
+/* Les parts et les masses sont celles de la MATIÈRE PURE.
+   Comme le parfumeur pèse depuis des dilutions, on lui donne aussi la masse
+   à prélever au flacon : masse pure ÷ (dilution / 100). */
+const LOT = 10;                                   // grammes de concentré
+const massePure = (l) => l.pct / 100 * LOT;
+const masseAPeser = (l) => l.matiere.dilution
+  ? massePure(l) * 100 / l.matiere.dilution
+  : massePure(l);
+
+function ligneMatiere(l, avecChiffres, avecDilution) {
   const m = l.matiere;
   return `
     <tr>
-      <td class="nom">${m.nom}<span class="etiquette-nature">${m.nature}</span>
+      <td class="nom">${m.nom}<span class="etiquette-nature">${m.nature}</span>${
+        m.dilution ? `<span class="etiquette-nature">dilué à ${m.dilution} %</span>` : ''}
         ${m.latin ? `<small>${m.latin}</small>` : ''}</td>
       <td class="note">${m.note}</td>
       ${avecChiffres ? `<td class="chiffre">${nb(l.pct)} %</td>
-                        <td class="chiffre">${nb(l.pct / 10, 2)} g</td>` : ''}
+                        <td class="chiffre">${nb(massePure(l), 3)} g</td>` : ''}
+      ${avecChiffres && avecDilution ? `<td class="chiffre">${
+        m.dilution ? `${nb(masseAPeser(l), 2)} g` : '<span style="color:var(--encre-doux)">pure</span>'}</td>` : ''}
     </tr>`;
 }
 
-function tableEtage(titre, classe, lignes, part, avecChiffres) {
+function tableEtage(titre, classe, lignes, part, avecChiffres, avecDilution) {
   if (!lignes.length) return '';
   return `
   <div class="etage ${classe}">
@@ -24,11 +36,45 @@ function tableEtage(titre, classe, lignes, part, avecChiffres) {
     <table class="formule">
       <thead><tr>
         <th>Matière</th><th>Caractère</th>
-        ${avecChiffres ? '<th style="text-align:right">Part</th><th style="text-align:right">Pour 10 g</th>' : ''}
+        ${avecChiffres ? `<th style="text-align:right">Part</th>
+                          <th style="text-align:right">Pure, pour ${LOT} g</th>` : ''}
+        ${avecChiffres && avecDilution ? '<th style="text-align:right">À peser au flacon</th>' : ''}
       </tr></thead>
-      <tbody>${lignes.map((l) => ligneMatiere(l, avecChiffres)).join('')}</tbody>
+      <tbody>${lignes.map((l) => ligneMatiere(l, avecChiffres, avecDilution)).join('')}</tbody>
     </table>
   </div>`;
+}
+
+const lignesDe = (c) => ['tete', 'coeur', 'fond'].flatMap((r) => c.pyramide[r]);
+const aDesDilutions = (c) => lignesDe(c).some((l) => l.matiere.dilution);
+
+/* Peser 8 g d'une dilution à 10 % pour 10 g de concentré est impossible :
+   on vérifie que la formule tient dans le lot avant de la donner. */
+function blocPesee(c) {
+  if (!aDesDilutions(c)) return '';
+  const total = lignesDe(c).reduce((a, l) => a + masseAPeser(l), 0);
+  const tient = total <= LOT + .001;
+  const lourdes = lignesDe(c)
+    .filter((l) => l.matiere.dilution && masseAPeser(l) > LOT / 4)
+    .sort((a, b) => masseAPeser(b) - masseAPeser(a));
+
+  return `
+    <div class="avertissement" style="margin-bottom:26px">
+      <h4>Pesée depuis vos dilutions — ${nb(total, 2)} g pour ${LOT} g de concentré</h4>
+      <p style="margin:0 0 8px">Les parts et les masses de la colonne « pure » sont celles de la
+         matière pure. La dernière colonne est ce que vous prélevez réellement au flacon, dilution
+         comprise.</p>
+      ${tient ? `<p style="margin:0">Le compte est bon : ces prélèvements tiennent dans
+         ${LOT} g, le solde étant complété au solvant.</p>`
+      : `<p style="margin:0 0 8px"><strong>Cette formule ne peut pas être pesée telle quelle :</strong>
+         il faudrait ${nb(total, 2)} g de dilutions pour ${LOT} g de concentré, soit
+         ${nb(total / LOT * 100, 0)} % du lot. Agrandir le lot n'y change rien — les deux quantités
+         suivent la même échelle. Ce qu'il faut, c'est une dilution plus concentrée, ou la matière
+         pure, pour celles-ci :</p>
+         <ul style="margin:0">${lourdes.slice(0, 4).map((l) => `<li><strong>${l.matiere.nom}</strong> —
+           ${nb(l.pct)} % de la formule, prélevés dans une dilution à ${l.matiere.dilution} % :
+           il en faudrait une à ${Math.ceil(l.pct * 2)} % au moins.</li>`).join('')}</ul>`}
+    </div>`;
 }
 
 function barres(items, libelle, valeur, unite = '%') {
@@ -75,7 +121,9 @@ function blocSolvant(c) {
 function texteFiche(c) {
   const bloc = (titre, lignes, part) =>
     `${titre.toUpperCase()} (${nb(part)} %)\n` +
-    lignes.map((l) => `  ${l.matiere.nom} — ${nb(l.pct)} % (${nb(l.pct / 10, 2)} g pour 10 g)`).join('\n');
+    lignes.map((l) => `  ${l.matiere.nom} — ${nb(l.pct)} % · ${nb(massePure(l), 3)} g pure` +
+      (l.matiere.dilution
+        ? ` · ${nb(masseAPeser(l), 2)} g à peser (dilution à ${l.matiere.dilution} %)` : '')).join('\n');
 
   return [
     'FICHE DE COMPOSITION',
@@ -94,6 +142,7 @@ function texteFiche(c) {
     'Familles dominantes : ' + c.familles.slice(0, 5).map((f) => `${f.nom} ${Math.round(f.pct)} %`).join(', '),
     c.alertes.length ? '\nVigilance :\n' + c.alertes.map((a) => `  - ${a.nom} : ${a.texte}`).join('\n') : '',
     '',
+    `Masses données pour ${LOT} g de concentré, en matière pure.`,
     'Dosages indicatifs, à valider par le parfumeur (IFRA, allergènes, équilibre réel).'
   ].join('\n');
 }
@@ -113,7 +162,10 @@ function donneesFiche(c) {
         nom: l.matiere.nom,
         famille: l.matiere.famille,
         nature: l.matiere.nature,
-        pourcentage: Number(l.pct.toFixed(2))
+        dilution: l.matiere.dilution ?? null,
+        pourcentage: Number(l.pct.toFixed(2)),
+        grammes_purs: Number(massePure(l).toFixed(3)),
+        grammes_a_peser: Number(masseAPeser(l).toFixed(3))
       }))),
     solvant: Number(c.diluant.toFixed(2)),
     familles: c.familles.map((f) => ({ nom: f.nom, pourcentage: Number(f.pct.toFixed(1)) })),

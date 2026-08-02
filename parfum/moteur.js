@@ -85,6 +85,27 @@ function vecteurCible(etat) {
 
 /* --- 3. Filtres et score ----------------------------------------- */
 
+/* Trois palettes possibles, dans cet ordre :
+   1. celle saisie dans l'application et gardée sur l'appareil (definirPalette) ;
+   2. celle versée au dépôt (stock.js) ;
+   3. la palette de démonstration de donnees.js.                          */
+let paletteMaison = null;
+
+function definirPalette(liste) {
+  paletteMaison = (Array.isArray(liste) && liste.length) ? liste : null;
+}
+
+function palette() {
+  if (paletteMaison) return paletteMaison;
+  return (typeof STOCK_MAISON !== 'undefined' && STOCK_MAISON.length)
+    ? STOCK_MAISON : MATIERES;
+}
+
+function originePalette() {
+  if (paletteMaison) return 'appareil';
+  return (typeof STOCK_MAISON !== 'undefined' && STOCK_MAISON.length) ? 'depot' : 'demonstration';
+}
+
 function estExclue(matiere, exclusions, ecartees = []) {
   if (ecartees.includes(matiere.id)) return true;   // refusée sur mouillette
   return exclusions.some((idEx) => {
@@ -114,7 +135,7 @@ function selectionner(cible, exclusions, nombres, equilibre, etat = {}) {
   const ecartees = etat.ecartees || [];
   const imposees = etat.imposees || [];
 
-  const notes = MATIERES
+  const notes = palette()
     .filter((m) => !estExclue(m, exclusions, ecartees))
     .map((m) => ({ m, score: scorer(m, cible) }))
     .sort((a, b) => b.score - a.score);
