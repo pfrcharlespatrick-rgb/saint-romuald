@@ -45,5 +45,15 @@
  *     prudence:'Photosensibilisante — préférer une qualité FCF.' },
  */
 
-const STOCK_MAISON = [
-];
+/* ------------------------------------------------------------------
+   Volontairement vide : ce dépôt est public, et l'inventaire d'un atelier
+   ne l'est pas. Le site sert donc la palette de démonstration, tandis que
+   le parfumeur saisit — ou importe — sa vraie palette dans « Ma palette » :
+   elle reste sur sa tablette (stockage local du navigateur) et n'est
+   envoyée nulle part.
+
+   Ce fichier n'a de sens que pour une palette que l'on accepte de publier,
+   ou pour un dépôt privé.
+   ------------------------------------------------------------------ */
+
+const STOCK_MAISON = [];

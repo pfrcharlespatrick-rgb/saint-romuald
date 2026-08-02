@@ -542,6 +542,14 @@ const MATIERES = [
     facettes:{ epice_chaud:.8, cuir:.5, miel:.3 }, force:5, dose:[.02,.3], tags:[],
     note:'Le cœur métallique et cuiré du safran, sans son prix.' },
 
+  { id:'nerol', nom:'Nérol', latin:'', famille:'Floral', role:'coeur', nature:'synthese',
+    facettes:{ rose:.8, agrumes:.4, vert:.3 }, force:3, dose:[.5,5], tags:[],
+    note:'Rose fraîche et citronnée — à ne pas confondre avec le néroli.' },
+
+  { id:'methyl_ionone', nom:'Méthyl ionone alpha', latin:'', famille:'Poudré', role:'coeur', nature:'synthese',
+    facettes:{ floral_poudre:1, bois_sec:.4, rose:.3 }, force:3, dose:[1,10], tags:[],
+    note:'Violette poudrée et boisée, plus douce et plus tenace que l\'ionone.' },
+
   { id:'curcuma', nom:'Curcuma', latin:'Curcuma longa', famille:'Épices', role:'coeur', nature:'naturelle',
     facettes:{ epice_chaud:.7, bois_sec:.4, vert:.3 }, force:4, dose:[.05,.5], tags:[],
     note:'Racine chaude et poussiéreuse, un peu médicinale.' }

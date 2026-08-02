@@ -93,6 +93,16 @@ function facettesDe(v) {
 }
 
 const repris = [], nouvelles = [], inconnues = [];
+const identifiantsPris = new Set();
+
+/* Deux étiquettes peuvent tomber sur la même matière de référence
+   (« Nérol » et « Néroli ») : les identifiants doivent rester distincts. */
+function identifiantUnique(base) {
+  let id = base || 'matiere', n = 2;
+  while (identifiantsPris.has(id)) id = `${base}_${n++}`;
+  identifiantsPris.add(id);
+  return id;
+}
 
 const matieres = entrees.map((e) => {
   // « Ionone alpha 10% » : la dilution de travail est sur l'étiquette, pas dans le nom
@@ -127,6 +137,7 @@ const matieres = entrees.map((e) => {
   if (e.note) base.note = e.note;
   if (e.prudence) base.prudence = e.prudence;
 
+  base.id = identifiantUnique(base.id);
   base.__aCompleter = !connue && (!Object.keys(base.facettes).length || !base.note);
   return base;
 });
