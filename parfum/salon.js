@@ -548,9 +548,10 @@ function sceneFiche() {
       <button type="button" class="tactile" id="json">Exporter en JSON</button>
     </div>
 
-    ${tableEtage('Notes de tête', 'tete', p.tete, c.equilibre.tete, true)}
-    ${tableEtage('Notes de cœur', 'coeur', p.coeur, c.equilibre.coeur, true)}
-    ${tableEtage('Notes de fond', 'fond', p.fond, c.equilibre.fond, true)}
+    ${tableEtage('Notes de tête', 'tete', p.tete, c.equilibre.tete, true, aDesDilutions(c))}
+    ${tableEtage('Notes de cœur', 'coeur', p.coeur, c.equilibre.coeur, true, aDesDilutions(c))}
+    ${tableEtage('Notes de fond', 'fond', p.fond, c.equilibre.fond, true, aDesDilutions(c))}
+    ${blocPesee(c)}
     ${blocSolvant(c)}
 
     ${etat.imposees.length || etat.ecartees.length ? `

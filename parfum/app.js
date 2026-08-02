@@ -310,11 +310,11 @@ function renderFiche(c) {
       <button class="action" id="lien">Copier le lien de partage</button>
     </div>
 
-    ${tableEtage('Notes de tête', 'tete', p.tete, c.equilibre.tete, vueParfumeur)}
-    ${tableEtage('Notes de cœur', 'coeur', p.coeur, c.equilibre.coeur, vueParfumeur)}
-    ${tableEtage('Notes de fond', 'fond', p.fond, c.equilibre.fond, vueParfumeur)}
+    ${tableEtage('Notes de tête', 'tete', p.tete, c.equilibre.tete, vueParfumeur, aDesDilutions(c))}
+    ${tableEtage('Notes de cœur', 'coeur', p.coeur, c.equilibre.coeur, vueParfumeur, aDesDilutions(c))}
+    ${tableEtage('Notes de fond', 'fond', p.fond, c.equilibre.fond, vueParfumeur, aDesDilutions(c))}
 
-    ${vueParfumeur ? blocSolvant(c) : ''}
+    ${vueParfumeur ? blocPesee(c) + blocSolvant(c) : ''}
 
     <div class="deux-colonnes">
       <div>

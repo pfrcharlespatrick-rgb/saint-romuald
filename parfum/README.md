@@ -19,7 +19,7 @@ Deux entrées :
 | `index.html` | Structure de la page et des quatre étapes du questionnaire |
 | `salon.html` | Vue tablette : six étapes plein écran, une à la fois |
 | `donnees.js` | Facettes, émotions, lexique de lecture du récit, palette de démonstration, curseurs |
-| `stock.js`   | Palette versée au dépôt — vide par défaut ; remplace la démonstration dès qu'elle est remplie |
+| `stock.js`   | Palette versée au dépôt — vide, car ce dépôt est public (voir plus bas) |
 | `palette.html` · `palette.js` · `palette.css` | Éditeur de palette dans l'application |
 | `palette-locale.js` | Palette gardée sur l'appareil |
 | `palette-outils.js` | Rapprochement des noms, vérification, essais à blanc — partagés navigateur et ligne de commande |
@@ -91,9 +91,15 @@ grandes cibles tactiles, une seule décision à la fois. Deux choses qu'elle seu
 
 ## Ce que la fiche donne au parfumeur
 
-Pyramide tête / cœur / fond avec part du concentré et masse pour 10 g, familles dominantes, profil
+Pyramide tête / cœur / fond avec part du concentré et masse pour 10 g **de matière pure**, familles dominantes, profil
 olfactif, mise en alcool pour 30 mL selon la concentration choisie, et les points de vigilance
 réglementaire portés par les matières retenues (cannelle, mousse de chêne, goudron de bouleau…).
+
+Quand des matières sont diluées, une colonne supplémentaire donne la masse **à prélever au flacon**
+— masse pure ÷ dilution — et un bloc vérifie que la pesée est seulement possible : si les
+prélèvements dépassent le lot, la fiche le dit, nomme les matières en cause et indique la dilution
+minimale qu'il faudrait. Agrandir le lot n'y changerait rien : les deux quantités suivent la même
+échelle.
 
 Les dosages sont un **point de départ de laboratoire**, pas une formule finie : la conformité IFRA,
 le calcul des allergènes déclarables et l'équilibre réel restent le travail du parfumeur.
@@ -104,7 +110,12 @@ La palette livrée dans `donnees.js` est une **démonstration** : ~70 matières 
 pour que l'application fonctionne dès l'ouverture. Un parfumeur ne travaille pas avec ça — il
 travaille avec ce qu'il a sur ses étagères.
 
-Le moteur prend donc sa palette au premier de ces trois endroits qui est rempli :
+`stock.js` est **volontairement vide**. Ce dépôt est public : y verser l'inventaire d'un atelier
+reviendrait à le publier — les matières, leurs dilutions de travail, les bases du fournisseur.
+La vraie palette se saisit donc dans « Ma palette », où elle reste sur l'appareil du parfumeur.
+`stock.js` n'a de sens que pour une palette que l'on accepte de publier, ou pour un dépôt privé.
+
+Le moteur prend sa palette au premier de ces trois endroits qui est rempli :
 
 1. **celle saisie dans l'application** (`palette.html`), gardée sur l'appareil du parfumeur ;
 2. **celle versée au dépôt** (`stock.js`), valable pour tous les appareils ;
