@@ -12,13 +12,17 @@ Deux entrées :
 - **`index.html`** — la page publique, que le client remplit lui-même et dont il envoie le lien.
 - **`salon.html`** — la même séance menée sur tablette pendant le rendez-vous, avec les touches
   à sentir et la mémoire des clients reçus.
+- **`palette.html`** — la palette du parfumeur : son stock, saisi dans l'application.
 
 | Fichier | Rôle |
 | --- | --- |
 | `index.html` | Structure de la page et des quatre étapes du questionnaire |
 | `salon.html` | Vue tablette : six étapes plein écran, une à la fois |
 | `donnees.js` | Facettes, émotions, lexique de lecture du récit, palette de démonstration, curseurs |
-| `stock.js`   | Palette de la maison — vide par défaut ; remplace la démonstration dès qu'elle est remplie |
+| `stock.js`   | Palette versée au dépôt — vide par défaut ; remplace la démonstration dès qu'elle est remplie |
+| `palette.html` · `palette.js` · `palette.css` | Éditeur de palette dans l'application |
+| `palette-locale.js` | Palette gardée sur l'appareil |
+| `palette-outils.js` | Rapprochement des noms, vérification, essais à blanc — partagés navigateur et ligne de commande |
 | `moteur.js`  | Traduction émotion → facettes → matières → pourcentages |
 | `fiche.js`   | Rendu et exports de la fiche, partagés par les deux vues |
 | `ia.js`      | Lecture du récit par l'API Claude (facultative) |
@@ -100,12 +104,38 @@ La palette livrée dans `donnees.js` est une **démonstration** : ~70 matières 
 pour que l'application fonctionne dès l'ouverture. Un parfumeur ne travaille pas avec ça — il
 travaille avec ce qu'il a sur ses étagères.
 
-`stock.js` est fait pour ça. Tant qu'il est vide, la palette de démonstration sert. Dès qu'il
-contient quelque chose, **il la remplace entièrement** : le moteur ne propose plus que des matières
-réellement disponibles, sous les noms de la maison (« Bergamote FCF », « Lavande fine de
-Haute-Provence »).
+Le moteur prend donc sa palette au premier de ces trois endroits qui est rempli :
 
-### Depuis une liste ou un tableur
+1. **celle saisie dans l'application** (`palette.html`), gardée sur l'appareil du parfumeur ;
+2. **celle versée au dépôt** (`stock.js`), valable pour tous les appareils ;
+3. la palette de démonstration.
+
+Dans les deux premiers cas, elle **remplace entièrement** la démonstration : le moteur ne propose
+plus que des matières réellement disponibles, sous les noms de la maison (« Bergamote FCF »,
+« Lavande fine de Haute-Provence »).
+
+### Dans l'application : « Ma palette »
+
+`palette.html` — accessible depuis la séance en salon et depuis le bas de la page client. C'est la
+voie normale : le parfumeur n'a ni fichier à éditer ni commande à lancer.
+
+- **Coller ma liste** : une matière par ligne. Celles que l'application connaît arrivent déjà
+  décrites — facettes, dosages, caractère ; les autres sont signalées, nommément, comme restant à
+  compléter.
+- **Partir de la palette du dépôt** (ou de la démonstration si le dépôt n'en a pas) : on copie tout,
+  puis on retire ce qu'on n'a pas. Souvent plus rapide que de tout saisir.
+- Chaque matière s'ouvre d'un toucher : nom, famille, étage, nature, puissance, fourchette de
+  dosage, caractère, et les facettes en trois intensités — léger, net, dominant.
+- **Le bilan est permanent** : à chaque modification, les six essais à blanc sont relancés et
+  l'état de la palette se met à jour — étage sans porteur, plafond sous 100 %, familles trop peu
+  nombreuses, matière que le moteur ne pourra jamais choisir.
+- **Sauvegarder / exporter** : un `.json` de sauvegarde, ou un fichier `stock.js` prêt à déposer
+  dans le dépôt pour que la palette vaille sur tous les appareils.
+
+La palette vit dans le navigateur de l'appareil. C'est ce qui permet de se passer de serveur — et
+c'est aussi pourquoi le bouton d'export existe : un nettoyage d'historique l'effacerait.
+
+### En ligne de commande, pour verser la palette au dépôt
 
 ```bash
 node outils/importer-stock.mjs mon-stock.txt > stock.js   # une matière par ligne

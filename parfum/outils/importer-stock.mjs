@@ -23,10 +23,10 @@ import { fileURLToPath } from 'node:url';
 const ici = path.dirname(fileURLToPath(import.meta.url));
 const racine = path.join(ici, '..');
 
-const { MATIERES, FACETTES } = new Function(
-  fs.readFileSync(path.join(racine, 'donnees.js'), 'utf8') +
-  '\nreturn { MATIERES, FACETTES };'
-)();
+const lire = (f) => fs.readFileSync(path.join(racine, f), 'utf8');
+const { MATIERES, FACETTES, NORMALISER, IDENTIFIANT, rapprocherMatiere, ebaucheMatiere } =
+  new Function(lire('donnees.js') + '\n' + lire('palette-outils.js') +
+    '\nreturn { MATIERES, FACETTES, NORMALISER, IDENTIFIANT, rapprocherMatiere, ebaucheMatiere };')();
 
 const fichier = process.argv[2];
 if (!fichier) {
@@ -34,31 +34,7 @@ if (!fichier) {
   process.exit(1);
 }
 
-/* --- normalisation et rapprochement --------------------------------- */
-
-const normaliser = (s) => (s || '')
-  .normalize('NFD').replace(/[̀-ͯ]/g, '')
-  .toLowerCase()
-  .replace(/\([^)]*\)/g, ' ')          // « (absolue) », « (cœur) »
-  .replace(/[^a-z0-9]+/g, ' ')
-  .trim();
-
-const identifiant = (nom) => normaliser(nom).replace(/\s+/g, '_').slice(0, 40);
-
-function rapprocher(nom) {
-  const n = normaliser(nom);
-  if (!n) return null;
-  const candidats = MATIERES.map((m) => ({ m, cles: [normaliser(m.nom), m.id, normaliser(m.latin)] }));
-
-  const exact = candidats.find((c) => c.cles.includes(n));
-  if (exact) return exact.m;
-
-  const debut = candidats.find((c) => c.cles.some((k) => k && (k.startsWith(n) || n.startsWith(k))));
-  if (debut) return debut.m;
-
-  const dedans = candidats.find((c) => c.cles.some((k) => k && k.length > 3 && n.includes(k)));
-  return dedans ? dedans.m : null;
-}
+const normaliser = NORMALISER;
 
 /* --- lecture du fichier --------------------------------------------- */
 
@@ -119,19 +95,8 @@ function facettesDe(v) {
 const repris = [], nouvelles = [], inconnues = [];
 
 const matieres = entrees.map((e) => {
-  const connue = rapprocher(e.nom);
-  const base = connue ? structuredClone(connue) : {
-    id: identifiant(e.nom),
-    nom: e.nom,
-    famille: 'À CLASSER',
-    role: 'coeur',
-    nature: /synth|molecul|accord|iso |ambrox|hedion|calone|galaxolide/i.test(e.nom)
-      ? 'synthese' : 'naturelle',
-    facettes: {},
-    force: 3,
-    dose: [0.5, 5],
-    note: ''
-  };
+  const connue = rapprocherMatiere(e.nom, MATIERES);
+  const base = connue ? structuredClone(connue) : ebaucheMatiere(e.nom);
   if (connue) { base.nom = e.nom || base.nom; repris.push(e.nom); } else { nouvelles.push(e.nom); }
 
   // les colonnes fournies l'emportent toujours sur la description d'origine
