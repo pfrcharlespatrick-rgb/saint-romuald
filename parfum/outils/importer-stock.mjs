@@ -24,9 +24,9 @@ const ici = path.dirname(fileURLToPath(import.meta.url));
 const racine = path.join(ici, '..');
 
 const lire = (f) => fs.readFileSync(path.join(racine, f), 'utf8');
-const { MATIERES, FACETTES, NORMALISER, IDENTIFIANT, rapprocherMatiere, ebaucheMatiere } =
+const { MATIERES, FACETTES, NORMALISER, IDENTIFIANT, rapprocherMatiere, ebaucheMatiere, extraireDilution } =
   new Function(lire('donnees.js') + '\n' + lire('palette-outils.js') +
-    '\nreturn { MATIERES, FACETTES, NORMALISER, IDENTIFIANT, rapprocherMatiere, ebaucheMatiere };')();
+    '\nreturn { MATIERES, FACETTES, NORMALISER, IDENTIFIANT, rapprocherMatiere, ebaucheMatiere, extraireDilution };')();
 
 const fichier = process.argv[2];
 if (!fichier) {
@@ -43,7 +43,7 @@ const lignes = brut.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
 
 const separateur = lignes[0].includes('\t') ? '\t' : lignes[0].includes(';') ? ';' : ',';
 const colonnesConnues = ['nom', 'latin', 'famille', 'role', 'nature', 'force',
-  'dose_min', 'dose_max', 'facettes', 'tags', 'note', 'prudence'];
+  'dose_min', 'dose_max', 'dilution', 'facettes', 'tags', 'note', 'prudence'];
 
 /* Découpage CSV : le séparateur ne compte pas entre guillemets, et «  "" »
    à l'intérieur d'un champ vaut un guillemet. Sans cela, une note contenant
@@ -95,9 +95,13 @@ function facettesDe(v) {
 const repris = [], nouvelles = [], inconnues = [];
 
 const matieres = entrees.map((e) => {
-  const connue = rapprocherMatiere(e.nom, MATIERES);
-  const base = connue ? structuredClone(connue) : ebaucheMatiere(e.nom);
-  if (connue) { base.nom = e.nom || base.nom; repris.push(e.nom); } else { nouvelles.push(e.nom); }
+  // « Ionone alpha 10% » : la dilution de travail est sur l'étiquette, pas dans le nom
+  const { nom, dilution } = extraireDilution(e.nom);
+  const connue = rapprocherMatiere(nom, MATIERES);
+  const base = connue ? structuredClone(connue) : ebaucheMatiere(nom);
+  base.nom = nom;
+  if (dilution) base.dilution = dilution;
+  if (connue) repris.push(nom); else nouvelles.push(nom);
 
   // les colonnes fournies l'emportent toujours sur la description d'origine
   if (e.latin) base.latin = e.latin;
@@ -118,6 +122,7 @@ const matieres = entrees.map((e) => {
       if (!FACETTES[id]) inconnues.push(`${e.nom} → ${id}`);
     });
   }
+  if (e.dilution) base.dilution = Number(String(e.dilution).replace('%', '').replace(',', '.'));
   if (e.tags) base.tags = listeDe(e.tags);
   if (e.note) base.note = e.note;
   if (e.prudence) base.prudence = e.prudence;
@@ -141,6 +146,7 @@ function ecrire(m) {
     `facettes:{ ${Object.entries(m.facettes).map(([f, p]) => `${f}:${p}`).join(', ')} }`,
     `force:${m.force}`,
     `dose:[${m.dose[0]},${m.dose[1]}]`,
+    m.dilution ? `dilution:${m.dilution}` : null,
     m.tags && m.tags.length ? `tags:[${m.tags.map(guillemets).join(',')}]` : null,
     `note:${guillemets(m.note)}`,
     m.prudence ? `prudence:${guillemets(m.prudence)}` : null

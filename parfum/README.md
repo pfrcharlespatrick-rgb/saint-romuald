@@ -125,7 +125,11 @@ voie normale : le parfumeur n'a ni fichier à éditer ni commande à lancer.
 - **Partir de la palette du dépôt** (ou de la démonstration si le dépôt n'en a pas) : on copie tout,
   puis on retire ce qu'on n'a pas. Souvent plus rapide que de tout saisir.
 - Chaque matière s'ouvre d'un toucher : nom, famille, étage, nature, puissance, fourchette de
-  dosage, caractère, et les facettes en trois intensités — léger, net, dominant.
+  dosage, **dilution de travail**, caractère, et les facettes en trois intensités — léger, net,
+  dominant.
+- **Les dilutions sont lues dans les noms collés** : « Ionone alpha 10% » donne la matière *Ionone
+  alpha* diluée à 10 %, comme sur l'étiquette du flacon. La fiche rappelle ensuite la dilution à
+  côté de chaque matière — c'est le flacon que le parfumeur ira chercher.
 - **Le bilan est permanent** : à chaque modification, les six essais à blanc sont relancés et
   l'état de la palette se met à jour — étage sans porteur, plafond sous 100 %, familles trop peu
   nombreuses, matière que le moteur ne pourra jamais choisir.

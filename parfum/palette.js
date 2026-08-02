@@ -115,6 +115,7 @@ function carteMatiere(m, messages) {
   const bloquante = messages.some((x) => x.gravite === 'erreur');
   const ouvert = ouverte === m.id;
   const dose = Array.isArray(m.dose) ? `${m.dose[0]}–${m.dose[1]} %` : '—';
+  const dilution = m.dilution ? ` · dilué à ${m.dilution} %` : '';
 
   return `
   <div class="matiere ${ouvert ? '' : 'repliee'} ${bloquante ? 'invalide' : ''}" data-id="${m.id}">
@@ -124,7 +125,7 @@ function carteMatiere(m, messages) {
         <small>${m.famille || '—'} · ${m.nature === 'synthese' ? 'synthèse' : 'naturelle'}${
           apercuFacettes(m) ? ' · ' + apercuFacettes(m) : ''}</small>
       </span>
-      <span class="apercu">${dose}</span>
+      <span class="apercu">${dose}${dilution}</span>
       ${bloquante ? '<span class="signal" title="à corriger">•</span>' : ''}
     </div>
 
@@ -169,6 +170,11 @@ function carteMatiere(m, messages) {
             <span>à</span>
             <input data-champ="dose_max" type="number" step="0.01" min="0" value="${m.dose?.[1] ?? ''}">
           </span>
+        </div>
+        <div>
+          <label>Dilution de travail, en % (vide = matière pure)</label>
+          <input data-champ="dilution" type="number" step="1" min="1" max="100"
+                 value="${m.dilution ?? ''}" placeholder="ex. 10">
         </div>
         <div class="champ-large">
           <label>Caractère — la phrase que lira le client</label>
@@ -277,6 +283,11 @@ function majChamp(m, champ, valeur) {
       break;
     }
     case 'force': m.force = Number(valeur); break;
+    case 'dilution': {
+      const v = Number(valeur);
+      if (!valeur.trim() || !Number.isFinite(v)) delete m.dilution; else m.dilution = v;
+      break;
+    }
     case 'dose_min': m.dose = [Number(valeur), m.dose?.[1] ?? 0]; break;
     case 'dose_max': m.dose = [m.dose?.[0] ?? 0, Number(valeur)]; break;
     default: m[champ] = valeur;
@@ -387,10 +398,12 @@ function collerListe() {
     if (!noms.length) return;
 
     const reprises = [], ebauches = [], deja = [];
-    noms.forEach((nom) => {
+    noms.forEach((brut) => {
+      const { nom, dilution } = extraireDilution(brut);
       const connue = rapprocherMatiere(nom, MATIERES);
       const matiere = connue ? structuredClone(connue) : ebaucheMatiere(nom);
       matiere.nom = nom;
+      if (dilution) matiere.dilution = dilution;
       if (liste.some((m) => m.id === matiere.id)) { deja.push(nom); return; }
       matiere.id = identifiantLibre(matiere.id);
       liste.push(matiere);
@@ -457,6 +470,7 @@ function versStockJs(l) {
     `famille:${g(m.famille)}`, `role:${g(m.role)}`, `nature:${g(m.nature)}`,
     `facettes:{ ${Object.entries(m.facettes).map(([f, p]) => `${f}:${p}`).join(', ')} }`,
     `force:${m.force}`, `dose:[${m.dose[0]},${m.dose[1]}]`,
+    m.dilution ? `dilution:${m.dilution}` : null,
     m.tags && m.tags.length ? `tags:[${m.tags.map(g).join(',')}]` : null,
     `note:${g(m.note)}`,
     m.prudence ? `prudence:${g(m.prudence)}` : null

@@ -8,7 +8,8 @@ function ligneMatiere(l, avecChiffres) {
   const m = l.matiere;
   return `
     <tr>
-      <td class="nom">${m.nom}<span class="etiquette-nature">${m.nature}</span>
+      <td class="nom">${m.nom}<span class="etiquette-nature">${m.nature}</span>${
+        m.dilution ? `<span class="etiquette-nature">dilué à ${m.dilution} %</span>` : ''}
         ${m.latin ? `<small>${m.latin}</small>` : ''}</td>
       <td class="note">${m.note}</td>
       ${avecChiffres ? `<td class="chiffre">${nb(l.pct)} %</td>
@@ -75,7 +76,8 @@ function blocSolvant(c) {
 function texteFiche(c) {
   const bloc = (titre, lignes, part) =>
     `${titre.toUpperCase()} (${nb(part)} %)\n` +
-    lignes.map((l) => `  ${l.matiere.nom} — ${nb(l.pct)} % (${nb(l.pct / 10, 2)} g pour 10 g)`).join('\n');
+    lignes.map((l) => `  ${l.matiere.nom}${l.matiere.dilution ? ` (dilué à ${l.matiere.dilution} %)` : ''}` +
+      ` — ${nb(l.pct)} % (${nb(l.pct / 10, 2)} g pour 10 g)`).join('\n');
 
   return [
     'FICHE DE COMPOSITION',
@@ -113,6 +115,7 @@ function donneesFiche(c) {
         nom: l.matiere.nom,
         famille: l.matiere.famille,
         nature: l.matiere.nature,
+        dilution: l.matiere.dilution ?? null,
         pourcentage: Number(l.pct.toFixed(2))
       }))),
     solvant: Number(c.diluant.toFixed(2)),

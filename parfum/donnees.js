@@ -462,7 +462,89 @@ const MATIERES = [
 
   { id:'ambre_gris_acc', nom:'Accord ambre gris (Ambrettolide + Cétalox)', latin:'', famille:'Ambré', role:'fond', nature:'synthese',
     facettes:{ ambre:.8, musc:.7, aquatique:.4 }, force:4, dose:[.5,6], tags:[],
-    note:'Salin, minéral, marin-chaud : la peau au soleil.' }
+    note:'Salin, minéral, marin-chaud : la peau au soleil.' },
+
+  /* ---- matières d'atelier courantes, hors palette classique ---- */
+
+  { id:'acetate_amyle', nom:'Acétate d\'amyle', latin:'', famille:'Fruité', role:'tete', nature:'synthese',
+    facettes:{ fruite:1, gourmand:.3 }, force:4, dose:[.05,.6], tags:[],
+    note:'Banane et bonbon anglais : un fruité franc, sans détour.' },
+
+  { id:'aldehyde_c16', nom:'Aldéhyde C-16 (fraise)', latin:'', famille:'Fruité', role:'coeur', nature:'synthese',
+    facettes:{ fruite:1, gourmand:.5 }, force:4, dose:[.1,1], tags:['gourmand'],
+    note:'Fraise confite — sucré, rond, un peu barbe à papa.' },
+
+  { id:'furanone', nom:'Furanéol (furanone fraise)', latin:'', famille:'Gourmand', role:'coeur', nature:'synthese',
+    facettes:{ gourmand:1, fruite:.9, miel:.4 }, force:5, dose:[.01,.2], tags:['gourmand'],
+    note:'Fraise chaude et caramel — envahissant, à doser au centième.' },
+
+  { id:'damascone_delta', nom:'Damascone delta', latin:'', famille:'Fruité', role:'coeur', nature:'synthese',
+    facettes:{ fruite:.9, rose:.7, the:.3 }, force:5, dose:[.02,.3], tags:[],
+    note:'Pomme et rose froissées ; illumine une formule d\'une trace.' },
+
+  { id:'methyl_anthranilate', nom:'Méthyl anthranilate', latin:'', famille:'Floral', role:'coeur', nature:'synthese',
+    facettes:{ floral_blanc:.7, fruite:.5, animal:.3 }, force:4, dose:[.05,.8], tags:[],
+    note:'Fleur d\'oranger et raisin : suave, un peu entêtant.' },
+
+  { id:'heliotropine', nom:'Héliotropine (héliotrope)', latin:'', famille:'Poudré', role:'coeur', nature:'synthese',
+    facettes:{ floral_poudre:.9, vanille:.5, gourmand:.3 }, force:3, dose:[.5,5], tags:[],
+    note:'Amande poudrée et fleur de cerisier — le confort d\'un talc ancien.' },
+
+  { id:'muguet_aldehyde', nom:'Muguet aldéhydé', latin:'', famille:'Floral', role:'coeur', nature:'synthese',
+    facettes:{ floral_blanc:.8, vert:.5, aquatique:.3 }, force:4, dose:[.2,2], tags:[],
+    note:'Le muguet des aldéhydes : clair, propre, un peu savonneux.',
+    prudence:'Plusieurs muguets aldéhydés (Lilial, Lyral) sont désormais interdits — vérifier la molécule exacte du flacon.' },
+
+  { id:'lyral', nom:'Lyral', latin:'', famille:'Floral', role:'coeur', nature:'synthese',
+    facettes:{ floral_blanc:.8, vert:.4, floral_poudre:.3 }, force:4, dose:[.2,2], tags:['allergene'],
+    note:'Muguet crémeux et tenace, longtemps incontournable.',
+    prudence:'Interdit en parfumerie fine (IFRA, amendement 49) — à ne plus utiliser en formule destinée à la peau.' },
+
+  { id:'narcisse', nom:'Narcisse (absolue)', latin:'Narcissus poeticus', famille:'Floral', role:'coeur', nature:'naturelle',
+    facettes:{ floral_blanc:.7, miel:.5, vert:.5, animal:.3 }, force:4, dose:[.1,1.5], tags:['couteux','rare'],
+    note:'Foin vert, miel et cuir léger — une fleur qui sent le pré.' },
+
+  { id:'oeillet', nom:'Œillet', latin:'Dianthus caryophyllus', famille:'Floral', role:'coeur', nature:'naturelle',
+    facettes:{ epice_chaud:.8, floral_poudre:.5, rose:.4 }, force:4, dose:[.2,2], tags:['allergene'],
+    note:'Poivre, girofle et pétale : la fleur des boutonnières.' },
+
+  { id:'linalol', nom:'Linalol', latin:'', famille:'Floral', role:'coeur', nature:'synthese',
+    facettes:{ floral_blanc:.5, aromatique:.5, vert:.3, agrumes:.2 }, force:2, dose:[1,10], tags:['allergene'],
+    note:'Fleur fraîche et bois clair ; un liant discret, presque partout.' },
+
+  { id:'angelique', nom:'Angélique (racine)', latin:'Angelica archangelica', famille:'Aromatique', role:'coeur', nature:'naturelle',
+    facettes:{ vert:.6, aromatique:.6, mousse_terre:.5, epice_frais:.4 }, force:4, dose:[.1,1], tags:['couteux','rare'],
+    note:'Racine froide, musquée et terreuse — étrange et racée.',
+    prudence:'Photosensibilisante.' },
+
+  { id:'cedre_feuille', nom:'Cèdre feuille', latin:'Thuja occidentalis', famille:'Vert', role:'tete', nature:'naturelle',
+    facettes:{ vert:.8, aromatique:.6, bois_sec:.4 }, force:4, dose:[.1,1], tags:[],
+    note:'Conifère écrasé entre les doigts : vert, camphré, mordant.',
+    prudence:'Riche en thuyone — usage restreint, doses très faibles.' },
+
+  { id:'davana', nom:'Davana', latin:'Artemisia pallens', famille:'Fruité', role:'coeur', nature:'naturelle',
+    facettes:{ fruite:.8, miel:.5, the:.3, bois_sec:.3 }, force:4, dose:[.1,1], tags:['rare'],
+    note:'Fruit sec et rhum ambré ; change de visage selon la peau.' },
+
+  { id:'tilleul', nom:'Tilleul (absolue)', latin:'Tilia cordata', famille:'Floral', role:'coeur', nature:'naturelle',
+    facettes:{ floral_blanc:.6, miel:.5, the:.4, vert:.3 }, force:3, dose:[.2,2], tags:['couteux'],
+    note:'Fleur de tilleul et infusion tiède — un été de village.' },
+
+  { id:'lotus', nom:'Lotus', latin:'Nelumbo nucifera', famille:'Floral', role:'coeur', nature:'synthese',
+    facettes:{ floral_blanc:.6, aquatique:.5, the:.4, floral_poudre:.3 }, force:3, dose:[.3,3], tags:[],
+    note:'Fleur d\'eau, fraîche et poudrée à la fois.' },
+
+  { id:'jasmin_grandiflorum', nom:'Jasmin grandiflorum (absolue)', latin:'Jasminum grandiflorum', famille:'Floral blanc', role:'coeur', nature:'naturelle',
+    facettes:{ floral_blanc:1, animal:.3, fruite:.3, the:.2 }, force:4, dose:[.5,8], tags:['couteux'],
+    note:'Plus vert et plus indolé que le sambac ; le jasmin de Grasse.' },
+
+  { id:'safranal', nom:'Safranal', latin:'', famille:'Épices', role:'coeur', nature:'synthese',
+    facettes:{ epice_chaud:.8, cuir:.5, miel:.3 }, force:5, dose:[.02,.3], tags:[],
+    note:'Le cœur métallique et cuiré du safran, sans son prix.' },
+
+  { id:'curcuma', nom:'Curcuma', latin:'Curcuma longa', famille:'Épices', role:'coeur', nature:'naturelle',
+    facettes:{ epice_chaud:.7, bois_sec:.4, vert:.3 }, force:4, dose:[.05,.5], tags:[],
+    note:'Racine chaude et poussiéreuse, un peu médicinale.' }
 ];
 
 /* ------------------------------------------------------------------ */

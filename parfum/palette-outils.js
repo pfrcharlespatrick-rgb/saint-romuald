@@ -16,7 +16,13 @@ const IDENTIFIANT = (nom) => NORMALISER(nom).replace(/\s+/g, '_').slice(0, 40) |
 function rapprocherMatiere(nom, reference) {
   const n = NORMALISER(nom);
   if (!n) return null;
-  const cles = reference.map((m) => ({ m, k: [NORMALISER(m.nom), m.id, NORMALISER(m.latin)] }));
+  // « Framboise (frambinone) » doit se retrouver aussi bien sous « framboise »
+  // que sous « frambinone » : la parenthèse porte souvent le nom d'atelier.
+  const entreParentheses = (s) => [...String(s || '').matchAll(/\(([^)]*)\)/g)]
+    .map((x) => NORMALISER(x[1])).filter(Boolean);
+  const cles = reference.map((m) => ({
+    m, k: [NORMALISER(m.nom), m.id, NORMALISER(m.latin), ...entreParentheses(m.nom)]
+  }));
 
   const exact = cles.find((c) => c.k.includes(n));
   if (exact) return exact.m;
@@ -26,6 +32,16 @@ function rapprocherMatiere(nom, reference) {
 
   const dedans = cles.find((c) => c.k.some((k) => k && k.length > 3 && n.includes(k)));
   return dedans ? dedans.m : null;
+}
+
+/* Les étiquettes d'atelier portent la dilution de travail : « Ionone alpha 10% ».
+   On la sépare du nom pour la garder comme information à part entière. */
+function extraireDilution(nom) {
+  const m = String(nom || '').match(/[\s(]*(\d{1,3}(?:[.,]\d+)?)\s*%\s*\)?\s*$/);
+  if (!m) return { nom: String(nom || '').trim(), dilution: null };
+  const valeur = Number(m[1].replace(',', '.'));
+  if (!(valeur > 0 && valeur <= 100)) return { nom: String(nom).trim(), dilution: null };
+  return { nom: String(nom).slice(0, m.index).trim(), dilution: valeur };
 }
 
 /* Ébauche pour une matière que la référence ne connaît pas. */
@@ -89,6 +105,9 @@ function verifierPalette(liste, facettesConnues) {
       else if (!(Number.isFinite(p) && p > 0 && p <= 1)) err(`poids de « ${f} » hors de 0 à 1`);
     });
 
+    if (m.dilution != null && !(Number.isFinite(m.dilution) && m.dilution > 0 && m.dilution <= 100)) {
+      err('dilution hors de 0 à 100 % (laisser vide si la matière est pure)');
+    }
     if (!m.note) avert('pas de caractère — la fiche affichera une case vide');
   });
 
