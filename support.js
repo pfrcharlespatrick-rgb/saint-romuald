@@ -1140,13 +1140,13 @@
   }
 
   // src/cdn.ts
-  // React/ReactDOM served from lib/ (chantier 1 de la refonte — plus de dépendance unpkg).
+  // React/ReactDOM/Babel servis depuis lib/ (chantier 1 de la refonte — plus de dépendance unpkg).
   // Fichiers identiques octet pour octet aux paquets unpkg d'origine (mêmes hachages SRI).
   var REACT_URL = "lib/react.production.min.js";
   var REACT_SRI = "sha384-DGyLxAyjq0f9SPpVevD6IgztCFlnMF6oW/XQGmfe+IsZ8TqEiDrcHkMLKI6fiB/Z";
   var REACT_DOM_URL = "lib/react-dom.production.min.js";
   var REACT_DOM_SRI = "sha384-gTGxhz21lVGYNMcdJOyq01Edg0jhn/c22nsx0kyqP0TxaV5WVdsSH1fSDUf5YJj1";
-  var BABEL_URL = "https://unpkg.com/@babel/standalone@7.29.0/babel.min.js";
+  var BABEL_URL = "lib/babel.min.js";
   var BABEL_SRI = "sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y";
   function cdnScriptFor(url, sri) {
     const res = window.__resources;
