@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statistiques — Saint-Romuald, les gens du Fleuve</title>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+<header class="tete"><div class="cadre">
+  <div class="masthead">
+    <h1><a href="index.html">Saint-Romuald <span class="fleuve">— les gens du Fleuve</span></a></h1>
+    <span class="devise">Recensements nominatifs · New Liverpool &amp; Saint-Romuald, 1871–1891</span>
+  </div>
+  <nav class="onglets">
+    <a href="index.html">Accueil</a>
+    <a href="personne.html">Une personne</a>
+    <a href="maison.html">Une maison</a>
+    <a href="stats.html" class="actif">Statistiques</a>
+    <a href="methode.html">Méthode</a>
+  </nav>
+</div></header>
+
+<div class="page"><div class="cadre">
+  <span class="etiquette">Statistiques · calculées sur les données réelles</span>
+  <h2 class="titre-vue">La paroisse en chiffres</h2>
+  <p class="sous-titre">Ce que disent les fiches quand on les lit ensemble. Chaque graphique est recalculé depuis les données à chaque génération du site.</p>
+
+  <div class="tuiles" id="tuiles-annees"></div>
+
+  <div class="grille-graphiques" style="margin-top:16px">
+    <div class="graphique large">
+      <h4>Pyramide des âges, 1891</h4>
+      <div class="sous" id="sous-pyramide"></div>
+      <div class="legende">
+        <span class="cle"><span class="pastille" style="background:var(--serie-m)"></span>Hommes</span>
+        <span class="cle"><span class="pastille" style="background:var(--serie-f)"></span>Femmes</span>
+      </div>
+      <div class="pyramide" id="pyramide"></div>
+      <details class="table-donnees"><summary>Voir les valeurs</summary><div style="overflow-x:auto"><table id="table-pyramide"></table></div></details>
+    </div>
+    <div class="graphique">
+      <h4>Métiers déclarés en 1891</h4>
+      <div class="sous">Les dix plus fréquents</div>
+      <div class="barres" id="metiers"></div>
+    </div>
+    <div class="graphique">
+      <h4>Origines déclarées en 1871</h4>
+      <div class="sous">La colonne n'existe qu'au formulaire de 1871 ; variantes regroupées</div>
+      <div class="barres" id="origines"></div>
+    </div>
+    <div class="graphique large">
+      <h4>Trajectoires entre recensements</h4>
+      <div class="sous" id="sous-trajectoires"></div>
+      <div class="tuiles" id="tuiles-trajectoires" style="margin:6px 0 4px"></div>
+    </div>
+  </div>
+</div></div>
+
+<footer class="pied"><div class="cadre">
+  <span>Saint-Romuald — les gens du Fleuve · atelier de recherche de Patrick Blanchet</span>
+  <span class="liens-discrets">
+    <a href="Suivi des maisons et familles.dc.html">Atelier d'édition</a>
+    <a href="filiation.html">Filiations</a>
+  </span>
+</div></footer>
+<div class="infobulle" id="infobulle"></div>
+
+<script src="stats.js"></script>
+</body>
+</html>
