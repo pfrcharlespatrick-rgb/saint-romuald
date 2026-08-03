@@ -71,16 +71,25 @@ Le « trou » à 226 n'était donc pas une lubie du recenseur : c'était une fam
 perdue au dépouillement. La famille 222 est rétablie et les quatre suivantes
 renumérotées.
 
-## Page 47 ligne 9 : la ligne n'avait pas glissé
+## Page 47 ligne 9 : une abréviation, et la leçon qui va avec
 
 Elle avait été laissée en l'état parce que trois champs divergeaient d'un coup,
-ce qui faisait craindre un décalage de toute la ligne. Vérification faite au
-grossissement, il n'en est rien : le dépouillement s'est simplement trompé
-trois fois sur la même ligne. Le manuscrit porte **Laroche** (sans la finale),
-**« Geo. Alphonse »** — le « épse Alphina » des données est une lecture
-d'« Alphonse » en prénom féminin — et le **M** croisé de ce recenseur à la
-colonne 8, nettement distinct du F des lignes 8 et 10. Le chef de la
-famille 215 est donc un homme de 31 ans.
+ce qui faisait craindre un décalage de toute la ligne. Il n'en est rien : le
+manuscrit porte **Laroche** (sans la finale) et **« Gve. Alphonsine »**, où
+**« Gve. » est l'abréviation de Geneviève**. Le « épse Alphina » du
+dépouillement vient de là. La personne est une femme de 31 ans, hôtelière, et
+le champ `sexe` reste à F.
+
+La leçon vaut d'être retenue, parce que je m'y suis laissé prendre. Ayant lu
+« Gve. » comme « Geo. », j'en avais conclu à un Georges Alphonse, puis relu la
+colonne 8 dans ce sens — un M là où il y a un F. **Une lecture douteuse d'un
+champ contamine la lecture des autres** : quand un nom est incertain, ne pas
+s'en servir pour trancher le sexe, et inversement. Patrick a corrigé au
+manuscrit.
+
+Les abréviations de prénoms de ce recenseur sont à surveiller : `Gve.`
+(Geneviève), `Fs.` et `F.X.` (François, François-Xavier), `J.Bte.`
+(Jean-Baptiste), `M.L.` (Marie-Louise).
 
 **Leçon de méthode :** une anomalie qu'on attribue au recenseur mérite d'être
 revérifiée au manuscrit avant d'être classée. Celle-ci figurait depuis des
@@ -147,9 +156,9 @@ Vérifié au manuscrit, à ne pas « réparer » lors d'un passage ultérieur.
   le l ni le z ne sont tracés.
 - **Les professions n'ont pas été vérifiées.** La colonne tombe hors du champ
   des rendus utilisés pour la relecture : tout ce qui a été confronté au
-  manuscrit s'arrête à la colonne des âges. Un cas connu à reprendre : page 47
-  ligne 9, la profession est restée « Hôtelière » alors que la personne est un
-  homme.
+  manuscrit s'arrête à la colonne des âges. Les valeurs du fichier viennent
+  donc du dépouillement seul, sur les 88 pages. Une passe dédiée reste à faire,
+  en élargissant le rendu.
 - **La numérotation des maisons vers la page 40**, où le manuscrit porte deux
   séries — l'une au crayon, l'autre à l'encre. Les données suivent le crayon.
   L'ancrage « maison 188 » n'a pas pu être réconcilié ; à noter que la
