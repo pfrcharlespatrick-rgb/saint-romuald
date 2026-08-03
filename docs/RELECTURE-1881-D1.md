@@ -71,6 +71,17 @@ Le « trou » à 226 n'était donc pas une lubie du recenseur : c'était une fam
 perdue au dépouillement. La famille 222 est rétablie et les quatre suivantes
 renumérotées.
 
+## Page 47 ligne 9 : la ligne n'avait pas glissé
+
+Elle avait été laissée en l'état parce que trois champs divergeaient d'un coup,
+ce qui faisait craindre un décalage de toute la ligne. Vérification faite au
+grossissement, il n'en est rien : le dépouillement s'est simplement trompé
+trois fois sur la même ligne. Le manuscrit porte **Laroche** (sans la finale),
+**« Geo. Alphonse »** — le « épse Alphina » des données est une lecture
+d'« Alphonse » en prénom féminin — et le **M** croisé de ce recenseur à la
+colonne 8, nettement distinct du F des lignes 8 et 10. Le chef de la
+famille 215 est donc un homme de 31 ans.
+
 **Leçon de méthode :** une anomalie qu'on attribue au recenseur mérite d'être
 revérifiée au manuscrit avant d'être classée. Celle-ci figurait depuis des
 semaines dans la liste des choses « à ne pas corriger ».
@@ -132,13 +143,13 @@ Vérifié au manuscrit, à ne pas « réparer » lors d'un passage ultérieur.
 
 - **Page 29 ligne 9** : « Cordulie » se lit comme un patronyme, non comme un
   prénom.
-- **Page 47 ligne 9** : trois champs divergent d'un coup — Laroche/Larochelle,
-  « Gve. Alphina »/« épse Alphina », M/F. Quand trois champs d'une même ligne
-  divergent, le risque est que ce soit la ligne entière qui ait glissé ; une
-  correction champ par champ ne ferait que masquer le problème. Laissée en
-  l'état.
 - **Page 77 ligne 16** : « Exéar » désigne vraisemblablement un Elzéar, mais ni
   le l ni le z ne sont tracés.
+- **Les professions n'ont pas été vérifiées.** La colonne tombe hors du champ
+  des rendus utilisés pour la relecture : tout ce qui a été confronté au
+  manuscrit s'arrête à la colonne des âges. Un cas connu à reprendre : page 47
+  ligne 9, la profession est restée « Hôtelière » alors que la personne est un
+  homme.
 - **La numérotation des maisons vers la page 40**, où le manuscrit porte deux
   séries — l'une au crayon, l'autre à l'encre. Les données suivent le crayon.
   L'ancrage « maison 188 » n'a pas pu être réconcilié ; à noter que la
