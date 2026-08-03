@@ -112,10 +112,29 @@ un H** — d'où « H.Xavier » pour François-Xavier, et surtout l'effondrement
 la colonne 8, qui note H (Homme) et F (Femme). Son **5 se confond avec le 6**
 dans les colonnes de numéros.
 
-**Division 1.** Écriture nettement plus nette, colonne 8 fiable. Mais le
-recenseur **rature souvent** : il inscrit un numéro de maison ou de famille sur
-une ligne, se ravise, et le réécrit une ligne plus bas. Le dépouillement a
+**Division 1.** Écriture nettement plus nette, colonne 8 fiable. Trois pièges.
+
+Sa **majuscule J, à boucle descendante, a été prise pour un F** une dizaine de
+fois : autant de « F.Baptiste » qui sont en réalité des **J.Baptiste**
+(pages 50, 53, 54, 69, 73, 75). C'est le pendant du F pris pour un H de la
+division 2. Devant une initiale isolée, comparer avec les « Joseph » et
+« Joséphine » écrits en toutes lettres sur la même page.
+
+Le recenseur **rature souvent** : il inscrit un numéro de maison ou de famille
+sur une ligne, se ravise, et le réécrit une ligne plus bas. Le dépouillement a
 plusieurs fois suivi le numéro raturé, ce qui a produit des doublons de famille
-et séparé des ménages. Le manuscrit porte par ailleurs **deux numérotations de
-maisons**, l'une au crayon et l'autre à l'encre ; **les données suivent le
-crayon**, qui est celle de l'énumérateur.
+et séparé des ménages.
+
+Le manuscrit porte enfin **deux numérotations de maisons**, l'une au crayon et
+l'autre à l'encre ; **les données suivent le crayon**, qui est celle de
+l'énumérateur.
+
+## Une anomalie attribuée au recenseur n'est pas une anomalie classée
+
+La division 1 comportait un « trou » apparent dans la série des familles — 225
+puis 227 — mis au compte du recenseur et inscrit comme tel dans la liste des
+choses à ne pas corriger. C'était une erreur de dépouillement : deux familles
+Boucher logées dans la même maison 191 avaient été fondues en une, décalant
+d'un rang tout ce qui suivait jusqu'à ce que la numérotation se resynchronise.
+
+Avant de classer une anomalie « c'est le recenseur », la vérifier au manuscrit.

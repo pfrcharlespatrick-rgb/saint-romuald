@@ -85,6 +85,8 @@ l'état.
 
 ## Autres divisions
 
-Au 1er août 2026, **la division 1 de 1881 n'a pas été relue** : le fichier
-`data/recensement-1881-d1-data.js` est dans l'état de son dépouillement
-initial. Les trois pièges décrits plus haut y sont à prévoir.
+**La division 1 de 1881 est relue elle aussi**, ses 88 pages confrontées au
+manuscrit. Voir `docs/RELECTURE-1881-D1.md`. Les trois pièges décrits plus
+haut ne s'y retrouvent pas : l'écriture y est plus nette et la colonne 8
+lisible. Le piège propre à la division 1 est le **J majuscule pris pour un
+F**.
