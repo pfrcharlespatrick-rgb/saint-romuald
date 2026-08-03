@@ -1,34 +1,74 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Saint-Romuald — Suivi des familles et maisons</title>
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
-    .container { max-width: 1200px; margin: 0 auto; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    h1 { color: #1a3a52; margin-top: 0; }
-    p { color: #666; line-height: 1.6; }
-    .buttons { margin-top: 30px; display: flex; gap: 20px; }
-    a { display: inline-block; padding: 12px 24px; background: #1a3a52; color: white; text-decoration: none; border-radius: 6px; font-weight: 500; }
-    a:hover { background: #0f2738; }
-    a.secondaire { background: transparent; color: #1a3a52; border: 1px solid #1a3a52; }
-    a.secondaire:hover { background: #e8eef3; }
-    .buttons { flex-wrap: wrap; }
-    .subtitle { color: #999; font-size: 14px; margin-top: 10px; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saint-Romuald — les gens du Fleuve</title>
+<meta name="description" content="Recensements nominatifs de Saint-Romuald et New Liverpool, 1871–1891 : recherchez une personne, une maison, consultez les statistiques de la paroisse.">
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
-  <div class="container">
-    <h1>📋 Saint-Romuald — Recensements nominatifs</h1>
-    <p>Base de données des familles et maisons, 1871–1891.</p>
-    <p>Recherchez une personne, une famille, une adresse. Explorez les liens entre recensements. Consultez les données foncières, les animaux, les établissements.</p>
-    <div class="buttons">
-      <a href="./Suivi des maisons et familles.dc.html">Ouvrir la base de données</a>
-      <a href="./filiation.html" class="secondaire">Suivre les filiations</a>
-    </div>
-    <p class="subtitle">« Suivre les filiations » rapproche les personnes d'un recensement à l'autre — Thomas Lee, 15 ans en 1871, chef de sa propre maison en 1891 — et signale les veuvages et les départs du foyer. Ces rapprochements sont calculés, non prouvés : chacun porte ses indices.</p>
-    <p class="subtitle">Données brutes : 1 629 maisons, 1 851 familles, 10 170 personnes. Mise à jour : juillet 2026.</p>
+
+<header class="tete"><div class="cadre">
+  <div class="masthead">
+    <h1><a href="index.html">Saint-Romuald <span class="fleuve">— les gens du Fleuve</span></a></h1>
+    <span class="devise">Recensements nominatifs · New Liverpool &amp; Saint-Romuald, 1871–1891</span>
   </div>
+  <nav class="onglets">
+    <a href="index.html" class="actif">Accueil</a>
+    <a href="personne.html">Une personne</a>
+    <a href="maison.html">Une maison</a>
+    <a href="stats.html">Statistiques</a>
+    <a href="methode.html">Méthode</a>
+  </nav>
+</div></header>
+
+<div class="page"><div class="cadre">
+  <div class="recherche-bloc">
+    <label for="q"><span class="etiquette">Recherche dans les trois recensements</span></label>
+    <div class="champ-recherche">
+      <input id="q" type="search" placeholder="Un nom, un métier… essayez « Lee » ou « navigateur »" autocomplete="off">
+    </div>
+    <div class="resultats" id="resultats"></div>
+    <p class="note-echantillon" id="note-recherche">Chargement de l’index de recherche…</p>
+  </div>
+
+  <div class="tuiles" id="tuiles">
+    <div class="tuile"><div class="gros">—</div><div class="quoi">Personnes</div><div class="detail"></div></div>
+    <div class="tuile"><div class="gros">—</div><div class="quoi">Maisons</div><div class="detail">rattachées peu à peu aux adresses actuelles du chemin du Fleuve</div></div>
+    <div class="tuile"><div class="gros">—</div><div class="quoi">Familles</div><div class="detail"></div></div>
+    <div class="tuile"><div class="gros">—</div><div class="quoi">Trajectoires</div><div class="detail"></div></div>
+  </div>
+
+  <figure class="heros">
+    <img src="assets/chantiers-new-liverpool.jpg" alt="Chantiers navals et commerce du bois, anse de New Liverpool, XIXe siècle.">
+    <figcaption>Chantiers navals et commerce du bois, anse de New Liverpool (1847–1868). C'est dans ces chantiers que travaillent les navigateurs, débardeurs et journaliers du recensement.</figcaption>
+  </figure>
+
+  <div class="portes">
+    <a class="porte" href="personne.html"><h3>Suivre une personne</h3>
+      <p>Chaque personne a sa fiche : ses mentions de 1871 à 1891, sa maisonnée, les indices qui la relient d'un recensement à l'autre, et les preuves documentaires.</p>
+      <span class="aller">Voir la fiche de Margaret Lee →</span></a>
+    <a class="porte" href="maison.html#1871-D2-M78"><h3>Entrer dans une maison</h3>
+      <p>La maison est l'unité du recensement : qui y vit, les métiers, l'école, la terre et les bêtes — présentés comme au registre, ligne par ligne.</p>
+      <span class="aller">Voir la maison 78 — 1616 chemin du Fleuve →</span></a>
+    <a class="porte" href="stats.html"><h3>Lire la paroisse en chiffres</h3>
+      <p>Pyramide des âges, métiers, origines : ce que disent les fiches quand on les regarde ensemble.</p>
+      <span class="aller">Voir les statistiques →</span></a>
+    <a class="porte" href="methode.html"><h3>Comprendre la méthode</h3>
+      <p>D'où viennent les données, ce qui a été vérifié au manuscrit, ce qui reste incertain — et pourquoi on le dit.</p>
+      <span class="aller">Lire la méthode →</span></a>
+  </div>
+</div></div>
+
+<footer class="pied"><div class="cadre">
+  <span>Saint-Romuald — les gens du Fleuve · atelier de recherche de Patrick Blanchet</span>
+  <span class="liens-discrets">
+    <a href="Suivi des maisons et familles.dc.html">Atelier d'édition</a>
+    <a href="filiation.html">Filiations</a>
+  </span>
+</div></footer>
+
+<script src="recherche.js"></script>
 </body>
 </html>

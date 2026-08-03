@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Méthode — Saint-Romuald, les gens du Fleuve</title>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+<header class="tete"><div class="cadre">
+  <div class="masthead">
+    <h1><a href="index.html">Saint-Romuald <span class="fleuve">— les gens du Fleuve</span></a></h1>
+    <span class="devise">Recensements nominatifs · New Liverpool &amp; Saint-Romuald, 1871–1891</span>
+  </div>
+  <nav class="onglets">
+    <a href="index.html">Accueil</a>
+    <a href="personne.html">Une personne</a>
+    <a href="maison.html">Une maison</a>
+    <a href="stats.html">Statistiques</a>
+    <a href="methode.html" class="actif">Méthode</a>
+  </nav>
+</div></header>
+
+<div class="page"><div class="cadre">
+  <span class="etiquette">Méthode · sources et limites</span>
+  <h2 class="titre-vue">D'où viennent ces données</h2>
+  <p class="sous-titre">Des manuscrits des recenseurs, dépouillés page par page, puis relus ligne à ligne contre l'image du registre. Ce qui est incertain est marqué comme tel — jamais deviné.</p>
+
+  <section class="bloc">
+    <h3 class="bloc-titre">Ce que chaque formulaire demande</h3>
+    <p class="bloc-note">Le questionnaire change d'un recensement à l'autre. Une case vide peut donc vouloir dire trois choses : relevé et vide, pas encore dépouillé, ou question jamais posée cette année-là. L'interface le dit plutôt que de le cacher — les colonnes marquées « à dépouiller » ci-dessous ne sont pas encore affichées sur les fiches.</p>
+    <div style="overflow-x:auto"><table class="dispo">
+      <thead><tr><th>Colonne</th><th>1871</th><th>1881</th><th>1891</th></tr></thead>
+      <tbody>
+        <tr><td>Sait lire, sait écrire</td><td class="oui">au formulaire</td><td class="hors">hors formulaire</td><td class="oui">au formulaire</td></tr>
+        <tr><td>Origine ethnique</td><td class="oui">au formulaire</td><td>à dépouiller</td><td class="hors">hors formulaire</td></tr>
+        <tr><td>Religion</td><td class="oui">au formulaire</td><td>à dépouiller</td><td class="oui">au formulaire</td></tr>
+        <tr><td>Lieu de naissance</td><td class="oui">au formulaire</td><td>à dépouiller</td><td class="oui">au formulaire</td></tr>
+        <tr><td>Lien de parenté avec le chef</td><td class="hors">hors formulaire</td><td class="hors">hors formulaire</td><td class="oui">au formulaire</td></tr>
+        <tr><td>Allant à l'école</td><td class="oui">au formulaire</td><td>à dépouiller</td><td class="hors">hors formulaire</td></tr>
+        <tr><td>Marié dans les 12 mois</td><td class="oui">au formulaire (D2)</td><td class="hors">hors formulaire</td><td class="hors">hors formulaire</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section class="bloc">
+    <h3 class="bloc-titre">Le dépouillement, un travail en cours</h3>
+    <p class="bloc-note">Le recensement de 1881 ne porte aujourd'hui que les champs communs à toutes les années : nom, sexe, âge, état matrimonial, profession, position au manuscrit. Un dépouillement séparé des colonnes supplémentaires (<code>complement-1881-d1-data.js</code>, <code>complement-1881-d2-data.js</code>) existe déjà dans les données mais son intégration aux fiches publiques reste à faire. La division 2 du recensement de 1891 n'est pas dépouillée.</p>
+  </section>
+
+  <section class="bloc">
+    <h3 class="bloc-titre">La relecture au manuscrit</h3>
+    <p class="bloc-note">Les 88 pages de la division 1 de 1881 ont été confrontées ligne à ligne à l'image du registre : 1 715 lignes portent une remarque de relecture, 338 restent marquées incertaines avec la lecture d'origine conservée en marge. En 1871, 778 lignes attendent le même traitement. Chaque fiche affiche ses annotations — le doute fait partie de la donnée.</p>
+    <div class="marginale"><b>Exemple réel — 1881, division 1, page 47, ligne 9</b>
+      Le dépouillement portait « Larochelle, épse Alphina, F, Hôtelière ». Le manuscrit écrit « Laroche, Geo. Alphonse, M, Hôtelier » : l'abréviation « Geo. » avait été prise pour celle d'« épouse », et l'erreur avait entraîné trois autres colonnes. Corrigé sur lecture du manuscrit, remarque conservée.</div>
+  </section>
+
+  <section class="bloc">
+    <h3 class="bloc-titre">Les rapprochements entre recensements</h3>
+    <p class="bloc-note">Les trajectoires affichées sur chaque fiche de personne (voir <a href="stats.html">statistiques</a>) sont calculées par rapprochement automatique — patronyme, prénom, progression de l'âge et corroboration domestique. Aucun lien n'est une preuve : chacun porte ses indices et sa pastille de confiance (forte, moyenne, faible), et doit être validé par le chercheur. Un document versé au manifeste (acte, monographie) l'emporte toujours sur un rapprochement calculé — voir <code>documents/README.md</code>.</p>
+  </section>
+
+  <section class="bloc">
+    <h3 class="bloc-titre">Sources</h3>
+    <p class="bloc-note">Manuscrits des recensements du Canada de 1871, 1881 et 1891 (Bibliothèque et Archives Canada) ; monographies locales dont Bussière (1990) et Doyon, <i>Mission New Liverpool</i> ; actes d'état civil versés au manifeste documentaire. Chaque affirmation du site porte sa source, son type et son degré de certitude.</p>
+  </section>
+</div></div>
+
+<footer class="pied"><div class="cadre">
+  <span>Saint-Romuald — les gens du Fleuve · atelier de recherche de Patrick Blanchet</span>
+  <span class="liens-discrets">
+    <a href="Suivi des maisons et familles.dc.html">Atelier d'édition</a>
+    <a href="filiation.html">Filiations</a>
+  </span>
+</div></footer>
+
+</body>
+</html>
