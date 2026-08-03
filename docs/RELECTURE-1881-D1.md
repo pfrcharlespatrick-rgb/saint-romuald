@@ -71,6 +71,31 @@ Le « trou » à 226 n'était donc pas une lubie du recenseur : c'était une fam
 perdue au dépouillement. La famille 222 est rétablie et les quatre suivantes
 renumérotées.
 
+## Page 47 ligne 9 : quatre champs faux sur une seule ligne
+
+Elle avait été laissée en l'état parce que trois champs divergeaient d'un coup,
+ce qui faisait craindre un décalage de toute la ligne. Il n'en est rien : le
+dépouillement s'est trompé quatre fois au même endroit. Lecture établie par
+Patrick au manuscrit :
+
+| Champ | Dépouillement | Manuscrit |
+|---|---|---|
+| Patronyme | Larochelle | **Laroche**, aussi à la ligne 10 |
+| Prénom | épse Alphina | **Georges Alphonse** |
+| Sexe | F | **M** |
+| Profession | Hôtelière | **Hôtelier** |
+
+Tout part d'une abréviation : le manuscrit écrit **« Geo. Alphonse »**, et le
+dépouillement a pris « Geo. » pour l'abréviation d'« épouse », d'où le
+« épse Alphina ». Le sexe et la profession ont ensuite suivi au féminin. Le
+chef de la famille 215 est un homme de 31 ans, hôtelier.
+
+**Les abréviations de prénoms sont le point faible de ce dépouillement** — au
+même titre que le J majuscule pris pour un F. À surveiller : `Geo.` (Georges),
+`Fs.` et `F.X.` (François, François-Xavier), `J.Bte.` (Jean-Baptiste), `M.L.`
+(Marie-Louise). Une abréviation mal lue entraîne le reste de la ligne avec
+elle : ici le prénom a fait basculer le sexe, puis le sexe la profession.
+
 **Leçon de méthode :** une anomalie qu'on attribue au recenseur mérite d'être
 revérifiée au manuscrit avant d'être classée. Celle-ci figurait depuis des
 semaines dans la liste des choses « à ne pas corriger ».
@@ -132,13 +157,13 @@ Vérifié au manuscrit, à ne pas « réparer » lors d'un passage ultérieur.
 
 - **Page 29 ligne 9** : « Cordulie » se lit comme un patronyme, non comme un
   prénom.
-- **Page 47 ligne 9** : trois champs divergent d'un coup — Laroche/Larochelle,
-  « Gve. Alphina »/« épse Alphina », M/F. Quand trois champs d'une même ligne
-  divergent, le risque est que ce soit la ligne entière qui ait glissé ; une
-  correction champ par champ ne ferait que masquer le problème. Laissée en
-  l'état.
 - **Page 77 ligne 16** : « Exéar » désigne vraisemblablement un Elzéar, mais ni
   le l ni le z ne sont tracés.
+- **Les professions n'ont pas été vérifiées.** La colonne tombe hors du champ
+  des rendus utilisés pour la relecture : tout ce qui a été confronté au
+  manuscrit s'arrête à la colonne des âges. Les valeurs du fichier viennent
+  donc du dépouillement seul, sur les 88 pages. Une passe dédiée reste à faire,
+  en élargissant le rendu.
 - **La numérotation des maisons vers la page 40**, où le manuscrit porte deux
   séries — l'une au crayon, l'autre à l'encre. Les données suivent le crayon.
   L'ancrage « maison 188 » n'a pas pu être réconcilié ; à noter que la
