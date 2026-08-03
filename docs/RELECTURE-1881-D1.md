@@ -71,25 +71,30 @@ Le « trou » à 226 n'était donc pas une lubie du recenseur : c'était une fam
 perdue au dépouillement. La famille 222 est rétablie et les quatre suivantes
 renumérotées.
 
-## Page 47 ligne 9 : une abréviation, et la leçon qui va avec
+## Page 47 ligne 9 : quatre champs faux sur une seule ligne
 
 Elle avait été laissée en l'état parce que trois champs divergeaient d'un coup,
 ce qui faisait craindre un décalage de toute la ligne. Il n'en est rien : le
-manuscrit porte **Laroche** (sans la finale) et **« Gve. Alphonsine »**, où
-**« Gve. » est l'abréviation de Geneviève**. Le « épse Alphina » du
-dépouillement vient de là. La personne est une femme de 31 ans, hôtelière, et
-le champ `sexe` reste à F.
+dépouillement s'est trompé quatre fois au même endroit. Lecture établie par
+Patrick au manuscrit :
 
-La leçon vaut d'être retenue, parce que je m'y suis laissé prendre. Ayant lu
-« Gve. » comme « Geo. », j'en avais conclu à un Georges Alphonse, puis relu la
-colonne 8 dans ce sens — un M là où il y a un F. **Une lecture douteuse d'un
-champ contamine la lecture des autres** : quand un nom est incertain, ne pas
-s'en servir pour trancher le sexe, et inversement. Patrick a corrigé au
-manuscrit.
+| Champ | Dépouillement | Manuscrit |
+|---|---|---|
+| Patronyme | Larochelle | **Laroche**, aussi à la ligne 10 |
+| Prénom | épse Alphina | **Georges Alphonse** |
+| Sexe | F | **M** |
+| Profession | Hôtelière | **Hôtelier** |
 
-Les abréviations de prénoms de ce recenseur sont à surveiller : `Gve.`
-(Geneviève), `Fs.` et `F.X.` (François, François-Xavier), `J.Bte.`
-(Jean-Baptiste), `M.L.` (Marie-Louise).
+Tout part d'une abréviation : le manuscrit écrit **« Geo. Alphonse »**, et le
+dépouillement a pris « Geo. » pour l'abréviation d'« épouse », d'où le
+« épse Alphina ». Le sexe et la profession ont ensuite suivi au féminin. Le
+chef de la famille 215 est un homme de 31 ans, hôtelier.
+
+**Les abréviations de prénoms sont le point faible de ce dépouillement** — au
+même titre que le J majuscule pris pour un F. À surveiller : `Geo.` (Georges),
+`Fs.` et `F.X.` (François, François-Xavier), `J.Bte.` (Jean-Baptiste), `M.L.`
+(Marie-Louise). Une abréviation mal lue entraîne le reste de la ligne avec
+elle : ici le prénom a fait basculer le sexe, puis le sexe la profession.
 
 **Leçon de méthode :** une anomalie qu'on attribue au recenseur mérite d'être
 revérifiée au manuscrit avant d'être classée. Celle-ci figurait depuis des
