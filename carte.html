@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carte du chemin du Fleuve — Saint-Romuald, les gens du Fleuve</title>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+<header class="tete"><div class="cadre">
+  <div class="masthead">
+    <h1><a href="index.html">Saint-Romuald <span class="fleuve">— les gens du Fleuve</span></a></h1>
+    <span class="devise">Recensements nominatifs · New Liverpool &amp; Saint-Romuald, 1871–1891</span>
+  </div>
+  <nav class="onglets">
+    <a href="index.html">Accueil</a>
+    <a href="personne.html">Une personne</a>
+    <a href="maison.html">Une maison</a>
+    <a href="carte.html" class="actif">Carte</a>
+    <a href="stats.html">Statistiques</a>
+    <a href="methode.html">Méthode</a>
+  </nav>
+</div></header>
+
+<div class="page"><div class="cadre">
+  <span class="etiquette">Enrichissement · bâtiments patrimoniaux (Bussière, 1990)</span>
+  <h2 class="titre-vue">Le chemin du Fleuve et ses abords</h2>
+  <p class="sous-titre">38 bâtiments répertoriés par Bussière — la plupart au chemin du Fleuve, quelques-uns aux rues voisines (Juvénat, Collège, Saint-Damase, Hardy, de l'Église, Côte Rouge) — ordonnés ici par numéro d'adresse actuel. Dix-neuf sont rattachés à une maison d'un recensement ; les autres attendent leur rapprochement.</p>
+
+  <p class="avis-carte">Ceci n'est pas une carte géographique — aucune coordonnée n'est disponible pour ces bâtiments, et la plupart ont été renumérotés ou démolis depuis le XIX<sup>e</sup> siècle : un géocodage automatique à l'adresse actuelle les placerait au mauvais endroit. C'est une frise ordonnée par numéro civique, dans l'attente d'un pointage manuel sur une vraie carte (voir docs/HEBERGEMENT.md).</p>
+
+  <section class="bloc">
+    <h3 class="bloc-titre">Bâtiments rattachés à une maison du recensement</h3>
+    <div class="frise" id="frise"></div>
+  </section>
+
+  <section class="bloc non-rattaches">
+    <h3 class="bloc-titre">Bâtiments non encore rattachés</h3>
+    <p class="bloc-note">Répertoriés par Bussière (1990), sans proposition de rattachement à une maison de recensement pour l'instant.</p>
+    <ul class="liste-simple" id="non-rattaches"></ul>
+  </section>
+</div></div>
+
+<footer class="pied"><div class="cadre">
+  <span>Saint-Romuald — les gens du Fleuve · atelier de recherche de Patrick Blanchet</span>
+  <span class="liens-discrets">
+    <a href="Suivi des maisons et familles.dc.html">Atelier d'édition</a>
+    <a href="filiation.html">Filiations</a>
+  </span>
+</div></footer>
+
+<script src="data/bussiere1990-data.js"></script>
+<script src="carte.js"></script>
+</body>
+</html>

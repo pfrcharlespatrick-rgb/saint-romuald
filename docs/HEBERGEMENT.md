@@ -19,16 +19,27 @@ travail dans le navigateur du visiteur : recherche, filtres, fiches. Les 10 170
 personnes représentent quelques mégaoctets — c'est parfaitement tenable.
 
 **Saisie.** Tu corriges dans le navigateur comme aujourd'hui ; le travail
-s'accumule localement. Quand tu veux le publier, tu exportes et tu remplaces les
-fichiers de données dans le dépôt. Avec Claude Code, c'est une phrase :
-« intègre ma sauvegarde et publie ». Personne d'autre que toi ne peut modifier le
-dépôt, donc la saisie est réservée sans aucun système de mot de passe à construire.
+s'accumule localement. Deux façons de le publier :
+
+- **Le panneau Sauvegarde de l'atelier**, bouton « Pousser vers GitHub » (chantier 3) :
+  avec un jeton d'accès personnel GitHub saisi une fois, il écrit ton travail
+  (`data/travail-personnel.json`) sur une branche dédiée et ouvre une pull request —
+  jamais directement sur `main`. Tu la fusionnes toi-même quand tu veux publier.
+- **Le fichier de sauvegarde**, comme avant : tu exportes et tu me l'envoies, ou tu
+  remplaces les fichiers de données dans le dépôt à la main. Avec Claude Code, c'est
+  une phrase : « intègre ma sauvegarde et publie ». C'est aussi la seule voie pour
+  les photos (IndexedDB), que le bouton GitHub ne transporte pas.
 
 **La limite, dite franchement.** Tes corrections ne sont pas publiées tant que tu ne
-les as pas versées dans le dépôt. Si tu travailles sur ton téléphone et que tu
-continues sur ton ordinateur, il faut passer par le fichier de sauvegarde. C'est le
-prix de la simplicité — et c'est acceptable pour commencer, parce que ça te met en
-ligne sans rien apprendre de nouveau.
+les as pas versées dans le dépôt d'une des deux façons. Si tu travailles sur ton
+téléphone et que tu continues sur ton ordinateur sans avoir poussé entre les deux,
+il faut passer par le fichier de sauvegarde. Et une nuance de sécurité à ne pas
+perdre de vue : tant qu'aucun jeton GitHub n'est enregistré dans un navigateur,
+« personne d'autre que toi ne peut modifier le dépôt » reste vrai sans aucun système
+de mot de passe à construire. Dès que tu enregistres un jeton pour pousser depuis
+l'atelier, cette garantie devient « quiconque a accès à cet appareil et à ce profil
+de navigateur peut modifier le dépôt en ton nom » — utilise un jeton fin
+(« fine-grained »), limité à ce dépôt, et révoque-le si l'appareil change de mains.
 
 **Mise en place.** Créer un dépôt, y déposer les fichiers, activer Pages dans les
 réglages. Claude Code fait les trois en une session.

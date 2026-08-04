@@ -442,6 +442,30 @@ saisie à la main (texte libre). **Sur le site, elle devrait pointer un identifi
 personne réel** — c'est la priorité n° 3 de Patrick et l'amélioration la plus utile
 que tu puisses apporter à la structure.
 
+### Sauvegarde vers le dépôt (chantier 3)
+
+Ce `localStorage` peut maintenant aussi vivre dans le dépôt, à
+`data/travail-personnel.json` — un instantané `{ format, version, exporte, donnees }`
+où `donnees` reprend exactement les clés du tableau ci-dessus (sauf les photos,
+qui restent en IndexedDB et se transportent par le fichier de sauvegarde
+téléchargeable). C'est une couche séparée, au même titre que
+`complement-1881-*-data.js` : elle ne remplace jamais une valeur des recensements,
+et elle ne remplace pas non plus le mécanisme de `correction` de la base SQL décrite
+plus bas — c'est un instantané du même `localStorage`, juste versionné.
+
+Depuis le panneau Sauvegarde de l'atelier, le bouton « Pousser vers GitHub » écrit
+ce fichier sur une branche dédiée (`atelier-sauvegarde`) et ouvre ou met à jour une
+pull request — jamais de commit direct sur `main`, comme partout ailleurs dans ce
+dépôt. Il faut pour cela un jeton d'accès personnel GitHub (de préférence
+« fine-grained », limité à ce dépôt, permissions Contents + Pull requests en
+lecture/écriture), saisi une fois et conservé dans `localStorage`
+(`suivi-github-token`) — donc lisible par quiconque a accès à ce navigateur. Un
+navigateur sans aucun travail local va chercher `data/travail-personnel.json` au
+chargement pour repartir de la dernière sauvegarde poussée.
+
+Le flux manuel (exporter, envoyer, faire intégrer) documenté dans
+`docs/HEBERGEMENT.md` reste disponible et reste la voie pour les photos.
+
 ---
 
 ## Schéma SQL proposé

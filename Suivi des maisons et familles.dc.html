@@ -97,6 +97,26 @@ a:hover{color:var(--color-accent-900)}
       <sc-if value="{{ aMessageSauvegarde }}" hint-placeholder-val="{{ false }}">
         <p style="margin:var(--space-3) 0 0;font-size:13px;color:var(--color-accent-800)">{{ messageSauvegarde }}</p>
       </sc-if>
+
+      <div style="margin-top:var(--space-4);padding-top:var(--space-3);border-top:1px solid var(--color-neutral-300)">
+        <div style="font-family:var(--font-heading);font-size:14px;letter-spacing:.03em;text-transform:uppercase;margin-bottom:2px">Pousser vers GitHub</div>
+        <p style="margin:0 0 var(--space-3);font-size:12px;color:var(--color-neutral-700);max-width:82ch;text-wrap:pretty">Enregistre ce travail (hors photos) dans le dépôt, sur la branche « atelier-sauvegarde », avec une pull request ouverte ou mise à jour automatiquement — jamais directement sur main. Il faut un jeton d'accès personnel fin (« fine-grained »), limité à ce dépôt, avec les permissions Contents et Pull requests en lecture/écriture. Le jeton reste dans ce navigateur (localStorage) ; quiconque a accès à cet appareil peut le lire.</p>
+        <sc-if value="{{ githubConnecte }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;gap:var(--space-2);align-items:center;flex-wrap:wrap">
+            <button type="button" class="btn btn-primary" style="padding:5px 13px;white-space:nowrap" onClick="{{ onPousserGithub }}" disabled="{{ pushEnCours }}">{{ pushBtnLabel }}</button>
+            <button type="button" class="btn btn-ghost" style="padding:5px 13px;white-space:nowrap;font-size:12px" onClick="{{ onDeconnecterGithub }}">Oublier le jeton</button>
+          </div>
+        </sc-if>
+        <sc-if value="{{ githubDeconnecte }}" hint-placeholder-val="{{ true }}">
+          <div style="display:flex;gap:var(--space-2);align-items:center;flex-wrap:wrap">
+            <input class="input" type="password" style="max-width:340px;font-size:13px" placeholder="Jeton d'accès personnel GitHub (ghp_… ou github_pat_…)" value="{{ githubTokenSaisi }}" onInput="{{ onGithubTokenInput }}"></input>
+            <button type="button" class="btn btn-secondary" style="padding:5px 13px;white-space:nowrap" onClick="{{ onConnecterGithub }}">Enregistrer le jeton</button>
+          </div>
+        </sc-if>
+        <sc-if value="{{ aMessageGithub }}" hint-placeholder-val="{{ false }}">
+          <p style="margin:var(--space-3) 0 0;font-size:13px;color:var(--color-accent-800)">{{ messageGithub }}</p>
+        </sc-if>
+      </div>
       <sc-if value="{{ aFichesAmbigues }}" hint-placeholder-val="{{ false }}">
         <div style="margin-top:var(--space-4);padding-top:var(--space-3);border-top:1px solid var(--color-neutral-300)">
           <div style="font-family:var(--font-heading);font-size:14px;letter-spacing:.03em;text-transform:uppercase;margin-bottom:2px">Fiches à rattacher</div>
@@ -997,7 +1017,8 @@ class Component extends DCLogic {
             annexeDetails: {}, photos: {}, editingEntry: null, editForm: {},
             altAddresses: {}, altInputs: {}, migration: null,
             gSearch: '', compact: false, showCartouche: this.props.montrerCartouche !== false,
-            showSauvegarde: false, messageSauvegarde: '', dernierExport: '' };
+            showSauvegarde: false, messageSauvegarde: '', dernierExport: '',
+            githubToken: '', githubTokenSaisi: '', pushEnCours: false, messageGithub: '', urlPR: '' };
   SOURCE_BUSSIERE = 'Bussière 1990';
   SOURCE_DEFAULT = 'Patrick Blanchet';
   MATERIAUX = ['Bois', 'Brique', 'Pierre'];
@@ -1124,6 +1145,12 @@ class Component extends DCLogic {
   }
 
   componentDidMount() {
+    // Capturé avant toute écriture (migrerIdentifiants peut réécrire
+    // suivi-familles-corrections à vide dès sa première passe) : c'est le
+    // seul moment fiable pour savoir si ce navigateur n'a encore aucun
+    // travail local, et donc s'il vaut la peine d'aller chercher la
+    // dernière sauvegarde poussée sur GitHub.
+    const navigateurVierge = this.CLES_TRAVAIL.every(k => localStorage.getItem(k) === null);
     try {
       const notes = JSON.parse(localStorage.getItem('suivi-familles-notes') || '{}');
       const corrections = JSON.parse(localStorage.getItem('suivi-familles-corrections') || '{}');
@@ -1140,6 +1167,9 @@ class Component extends DCLogic {
         hypotheses, propEtat, customEntries, annexeDetails, altAddresses,
         migration: migres.rapport });
       this.loadPhotos();
+      const token = localStorage.getItem('suivi-github-token') || '';
+      if (token) this.setState({ githubToken: token });
+      if (navigateurVierge) this.bootstrapDepuisDepot();
     } catch (e) {}
   }
 
@@ -1634,6 +1664,137 @@ class Component extends DCLogic {
     }
   }
 
+  /* ─── Sauvegarde directe vers GitHub ──────────────────────────────────
+     Remplace l'aller-retour manuel (exporter, envoyer, Claude Code intègre)
+     par une écriture directe dans le dépôt — mais jamais sur main : toujours
+     une branche dédiée et une pull request, comme le reste du projet. Le
+     travail personnel (localStorage, CLES_TRAVAIL) est écrit tel quel dans
+     data/travail-personnel.json — une couche séparée des recensements,
+     exactement comme complement-1881-*-data.js ne remplace jamais une
+     valeur d'origine (voir docs/SCHEMA.md). Les photos (IndexedDB) restent
+     hors de ce mécanisme : binaires, volumineuses, pas encore prévues ici —
+     « Télécharger une sauvegarde » reste la voie pour elles. */
+  DEPOT_GITHUB = { proprietaire: 'pfrcharlespatrick-rgb', nom: 'saint-romuald', branche: 'atelier-sauvegarde', base: 'main' };
+  FICHIER_TRAVAIL = 'data/travail-personnel.json';
+
+  // N'appeler que si this.CLES_TRAVAIL est entièrement vide dans localStorage
+  // — vérifié par l'appelant, avant que migrerIdentifiants() n'écrive quoi
+  // que ce soit (voir componentDidMount, qui capture navigateurVierge en tout
+  // premier). Un appel hors de ce cas écraserait du travail local non poussé.
+  async bootstrapDepuisDepot() {
+    try {
+      const res = await fetch(this.FICHIER_TRAVAIL, { cache: 'no-store' });
+      if (!res.ok) return;
+      const paquet = await res.json();
+      if (paquet.format !== 'suivi-saint-romuald-travail' || !paquet.donnees) return;
+      Object.entries(paquet.donnees).forEach(([k, v]) => {
+        try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {}
+      });
+      this.setState({ messageSauvegarde: 'Reparti du dernier travail poussé sur GitHub (' + (paquet.exporte || '').slice(0, 10) + ').' });
+      this.componentDidMount();
+    } catch (e) {}
+  }
+
+  connecterGithub() {
+    const jeton = this.state.githubTokenSaisi.trim();
+    if (!jeton) return;
+    try { localStorage.setItem('suivi-github-token', jeton); } catch (e) {}
+    this.setState({ githubToken: jeton, githubTokenSaisi: '', messageGithub: '' });
+  }
+
+  deconnecterGithub() {
+    try { localStorage.removeItem('suivi-github-token'); } catch (e) {}
+    this.setState({ githubToken: '', messageGithub: 'Jeton oublié — il reste dans l’historique de ce navigateur tant que tu ne le révoques pas aussi sur GitHub.' });
+  }
+
+  async appelGithub(chemin, options) {
+    const res = await fetch('https://api.github.com/repos/' + this.DEPOT_GITHUB.proprietaire + '/' + this.DEPOT_GITHUB.nom + chemin, {
+      ...options,
+      headers: {
+        Authorization: 'Bearer ' + this.state.githubToken,
+        Accept: 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28',
+        ...(options && options.body ? { 'Content-Type': 'application/json' } : {}),
+        ...(options && options.headers)
+      }
+    });
+    if (!res.ok) {
+      let detail = '';
+      try { detail = (await res.json()).message || ''; } catch (e) {}
+      const err = new Error('GitHub ' + res.status + (detail ? ' — ' + detail : ''));
+      err.status = res.status;
+      throw err;
+    }
+    return res.status === 204 ? null : res.json();
+  }
+
+  async pousserVersGithub() {
+    if (!this.state.githubToken || this.state.pushEnCours) return;
+    this.setState({ pushEnCours: true, messageGithub: 'Préparation…' });
+    try {
+      const donnees = {};
+      this.CLES_TRAVAIL.forEach(k => {
+        try { const v = localStorage.getItem(k); if (v !== null) donnees[k] = JSON.parse(v); } catch (e) {}
+      });
+      const paquet = { format: 'suivi-saint-romuald-travail', version: 1, exporte: new Date().toISOString(), donnees };
+      const contenu = btoa(unescape(encodeURIComponent(JSON.stringify(paquet, null, 1) + '\n')));
+
+      this.setState({ messageGithub: 'Repérage de main…' });
+      const refMain = await this.appelGithub('/git/ref/heads/' + this.DEPOT_GITHUB.base, {});
+      const shaMain = refMain.object.sha;
+
+      this.setState({ messageGithub: 'Préparation de la branche « ' + this.DEPOT_GITHUB.branche + ' »…' });
+      try {
+        await this.appelGithub('/git/refs', {
+          method: 'POST',
+          body: JSON.stringify({ ref: 'refs/heads/' + this.DEPOT_GITHUB.branche, sha: shaMain })
+        });
+      } catch (e) {
+        if (e.status !== 422) throw e; // 422 = la branche existe déjà, on la remet sur main
+        await this.appelGithub('/git/refs/heads/' + this.DEPOT_GITHUB.branche, {
+          method: 'PATCH',
+          body: JSON.stringify({ sha: shaMain, force: true })
+        });
+      }
+
+      this.setState({ messageGithub: 'Écriture de ' + this.FICHIER_TRAVAIL + '…' });
+      let shaFichier;
+      try {
+        const existant = await this.appelGithub('/contents/' + this.FICHIER_TRAVAIL + '?ref=' + this.DEPOT_GITHUB.branche, {});
+        shaFichier = existant.sha;
+      } catch (e) {
+        if (e.status !== 404) throw e; // 404 = premier envoi, pas encore de fichier
+      }
+      await this.appelGithub('/contents/' + this.FICHIER_TRAVAIL, {
+        method: 'PUT',
+        body: JSON.stringify({
+          message: 'Sauvegarde du travail d’édition — ' + new Date().toISOString().slice(0, 16).replace('T', ' '),
+          content: contenu, branch: this.DEPOT_GITHUB.branche,
+          ...(shaFichier ? { sha: shaFichier } : {})
+        })
+      });
+
+      this.setState({ messageGithub: 'Ouverture de la pull request…' });
+      const existantes = await this.appelGithub(
+        '/pulls?head=' + this.DEPOT_GITHUB.proprietaire + ':' + this.DEPOT_GITHUB.branche + '&state=open', {}
+      );
+      let pr = existantes[0];
+      if (!pr) {
+        pr = await this.appelGithub('/pulls', {
+          method: 'POST',
+          body: JSON.stringify({
+            title: 'Sauvegarde du travail d’édition (atelier)',
+            head: this.DEPOT_GITHUB.branche, base: this.DEPOT_GITHUB.base,
+            body: 'Poussé automatiquement depuis le panneau Sauvegarde de l’atelier. Contient ' + this.FICHIER_TRAVAIL + ' — le travail personnel (corrections, notes, liens, concordances), pas les recensements ni les photos.'
+          })
+        });
+      }
+      this.setState({ pushEnCours: false, urlPR: pr.html_url, messageGithub: 'Poussé — pull request ' + (existantes[0] ? 'mise à jour' : 'ouverte') + ' : ' + pr.html_url });
+    } catch (e) {
+      this.setState({ pushEnCours: false, messageGithub: 'Échec : ' + e.message });
+    }
+  }
+
   inventaire() {
     const s = this.state;
     return [
@@ -1845,7 +2006,18 @@ class Component extends DCLogic {
           + (this.state.migration.orphelins ? ' — ' + this.state.migration.orphelins + ' sans correspondance' : ' — aucune perte')
         : '',
       onExportSauvegarde: () => this.exportSauvegarde(),
-      onImportSauvegarde: (e) => { const f = e.target.files && e.target.files[0]; e.target.value = ''; this.importSauvegarde(f); }
+      onImportSauvegarde: (e) => { const f = e.target.files && e.target.files[0]; e.target.value = ''; this.importSauvegarde(f); },
+      githubConnecte: !!this.state.githubToken,
+      githubDeconnecte: !this.state.githubToken,
+      githubTokenSaisi: this.state.githubTokenSaisi,
+      onGithubTokenInput: (e) => this.setState({ githubTokenSaisi: e.target.value }),
+      onConnecterGithub: () => this.connecterGithub(),
+      onDeconnecterGithub: () => this.deconnecterGithub(),
+      onPousserGithub: () => this.pousserVersGithub(),
+      pushEnCours: this.state.pushEnCours,
+      pushBtnLabel: this.state.pushEnCours ? 'Envoi en cours…' : 'Pousser vers GitHub',
+      messageGithub: this.state.messageGithub,
+      aMessageGithub: !!this.state.messageGithub
     };
     const dataKey = activeYear + '-' + activeDivision;
     const partialNote = this.PARTIAL[dataKey] || '';

@@ -187,7 +187,8 @@ for (const [cleM, maison] of d.maisons) {
     remarque_logement: nettoyerRemarque(maison.remarque_logement),
     remarque_nom: nettoyerRemarque(maison.remarque_nom),
     remarque: nettoyerRemarque(maison.remarque),
-    familles, renvois
+    familles, renvois,
+    concordances: d.concordancesParMaison.get(cleM) || []
   };
 }
 
