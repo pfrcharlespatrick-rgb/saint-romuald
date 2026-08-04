@@ -1,0 +1,633 @@
+{
+ "format": "suivi-saint-romuald-travail",
+ "version": 1,
+ "exporte": "2026-08-04T15:53:21.497Z",
+ "donnees": {
+  "suivi-familles-notes": {
+   "1881-2-72-80": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-2-3": {
+    "status": "confirme",
+    "text": "En fait, c'est une maison voisine inhabitée"
+   },
+   "1881-2-1-1": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-3-4": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-3-5": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-4-6": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-5-7": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-6-8": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-7-10": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-8-12": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-9-13": {
+    "status": "confirme",
+    "text": "Les enfants sont nés au Québec"
+   },
+   "1881-2-10-14": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-10-15": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-11-16": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-12-17": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-13-18": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-14-19": {
+    "status": "confirme",
+    "text": "Le 4 avril l'énumérateur s'arrête chez Charles Lord"
+   },
+   "1881-2-16-21": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-17-22": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-18-23": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-19-24": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-20-25": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-21-26": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-22-27": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-23-28": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-24-29": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-26-31": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-25-30": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-27-32": {
+    "status": "confirme",
+    "text": "Un chaloupier est un artisan spécialisé dans la construction et la réparation de chaloupes en bois.  Il s'agit d'un maître artisan qui fabrique ces petites embarcations indispensables pour la vie sur le fleuve."
+   },
+   "1881-2-28-33": {
+    "status": "confirme",
+    "text": "Sarah Swinton (né Brown). Maggie va décédé le 19 juillet 1882 è 25 ans. Les Swinton ont déjà perdu Sarah le 8 janvier 1881 à 21 ans. "
+   },
+   "1881-2-29-34": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-30-35": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-31-36": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-32-37": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-33-38": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-33-39": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-34-40": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-34-41": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-35-42": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1881-2-37-44": {
+    "status": "confirme",
+    "text": ""
+   }
+  },
+  "suivi-familles-corrections": {
+   "1881-D2-P018-L16": {
+    "prenom": "Rose Delima"
+   },
+   "1881-D2-P001-L17": {
+    "incertain": false,
+    "age": "7"
+   },
+   "1881-D2-P001-L01": {
+    "nom": "Bégin",
+    "profession": "Hotellier",
+    "etat_matrimonial": ""
+   },
+   "1881-D2-P001-L02": {
+    "nom": "Bégin"
+   },
+   "1881-D2-P001-L03": {
+    "profession": "Servante",
+    "age": "37"
+   },
+   "1881-D2-P001-L08": {
+    "prenom": "Magie"
+   },
+   "1881-D2-P001-L05": {
+    "age": "38"
+   },
+   "1881-D2-P001-L06": {
+    "age": "19"
+   },
+   "1881-D2-P001-L07": {
+    "age": "5"
+   },
+   "1881-D2-P001-L19": {
+    "age": "2"
+   },
+   "1881-D2-P001-L12": {
+    "age": "19"
+   },
+   "1881-D2-P001-L24": {
+    "prenom": "Marie Fleurida",
+    "age": "4"
+   },
+   "1881-D2-P002-L01": {
+    "age": "6/12 (juin)"
+   },
+   "1881-D2-P002-L02": {
+    "etat_matrimonial": "M"
+   },
+   "1881-D2-P002-L03": {
+    "etat_matrimonial": "M"
+   },
+   "1881-D2-P002-L04": {
+    "nom": "Boutin",
+    "profession": "Employé"
+   },
+   "1881-D2-P002-L05": {
+    "profession": "Mesureur de Bois (culler()",
+    "etat_matrimonial": "V"
+   },
+   "1881-D2-P002-L06": {
+    "etat_matrimonial": "",
+    "age": "16"
+   },
+   "1881-D2-P002-L17": {
+    "age": "41"
+   },
+   "1881-D2-P002-L20": {
+    "age": "10/12 (Oct.)"
+   },
+   "1881-D2-P002-L23": {
+    "prenom": "Honoré"
+   },
+   "1881-D2-P002-L25": {
+    "prenom": "Honoré",
+    "age": "4/12 (Avril)",
+    "sexe": "M",
+    "incertain": false
+   },
+   "1881-D2-P002-L24": {
+    "incertain": false
+   },
+   "1881-D2-P003-L01": {
+    "profession": "Mesureur de bois (Culleur)"
+   },
+   "1881-D2-P003-L05": {
+    "age": "7",
+    "ecole": true
+   },
+   "1881-D2-P003-L06": {
+    "age": "3"
+   },
+   "1881-D2-P003-L11": {
+    "prenom": "Louise"
+   },
+   "1881-D2-P003-L09": {
+    "nom": "Stratton"
+   },
+   "1881-D2-P003-L12": {
+    "age": "11",
+    "profession": ""
+   },
+   "1881-D2-P003-L13": {
+    "prenom": "Léon Baptiste",
+    "etat_matrimonial": "V"
+   },
+   "1881-D2-P003-L22": {
+    "age": "25"
+   },
+   "1881-D2-P004-L03": {
+    "prenom": "Reine"
+   },
+   "1881-D2-P004-L04": {
+    "nom": "Lacroix"
+   },
+   "1881-D2-P003-L24": {
+    "incertain": false
+   },
+   "1881-D2-P004-L01": {
+    "incertain": false
+   },
+   "1881-D2-P004-L05": {
+    "nom": "Joncas"
+   },
+   "1881-D2-P004-L06": {
+    "nom": "Joncas"
+   },
+   "1881-D2-P004-L07": {
+    "nom": "Joncas"
+   },
+   "1881-D2-P004-L08": {
+    "nom": "Joncas"
+   },
+   "1881-D2-P004-L10": {
+    "nom": "Joncas"
+   },
+   "1881-D2-P004-L11": {
+    "nom": "Joncas",
+    "prenom": "Narcisse"
+   },
+   "1881-D2-P004-L09": {
+    "prenom": "Louis Honoré",
+    "nom": "Joncas",
+    "incertain": false
+   },
+   "1881-D2-P004-L12": {
+    "prenom": "Georges Amédée "
+   },
+   "1881-D2-P004-L13": {
+    "profession": "Menuisier"
+   },
+   "1881-D2-P004-L15": {
+    "age": "25"
+   },
+   "1881-D2-P004-L17": {
+    "prenom": "Olivier"
+   },
+   "1881-D2-P004-L18": {
+    "prenom": "Henriette"
+   },
+   "1881-D2-P004-L20": {
+    "profession": "Journalier"
+   },
+   "1881-D2-P004-L21": {
+    "profession": ""
+   },
+   "1881-D2-P005-L07": {
+    "age": "16"
+   },
+   "1881-D2-P005-L06": {
+    "age": "18"
+   },
+   "1881-D2-P005-L13": {
+    "age": "4"
+   },
+   "1881-D2-P005-L12": {
+    "age": "6"
+   },
+   "1881-D2-P005-L11": {
+    "age": "7"
+   },
+   "1881-D2-P005-L10": {
+    "incertain": false
+   },
+   "1881-D2-P005-L14": {
+    "incertain": false
+   },
+   "1881-D2-P005-L18": {
+    "incertain": false
+   },
+   "1881-D2-P005-L20": {
+    "incertain": false
+   },
+   "1881-D2-P005-L23": {
+    "prenom": "Homère",
+    "incertain": false
+   },
+   "1881-D2-P005-L25": {
+    "age": "1/12 (Janvier)"
+   },
+   "1881-D2-P005-L22": {
+    "incertain": false
+   },
+   "1881-D2-P006-L03": {
+    "incertain": false
+   },
+   "1881-D2-P006-L04": {
+    "nom": "Phelan"
+   },
+   "1881-D2-P006-L05": {
+    "nom": "Phelan"
+   },
+   "1881-D2-P006-L06": {
+    "nom": "Phelan"
+   },
+   "1881-D2-P006-L15": {
+    "age": "3/12 (mars)"
+   },
+   "1881-D2-P006-L12": {
+    "age": "7"
+   },
+   "1881-D2-P006-L11": {
+    "age": "9"
+   },
+   "1881-D2-P006-L18": {
+    "age": "7"
+   },
+   "1881-D2-P006-L24": {
+    "etat_matrimonial": "V"
+   },
+   "1881-D2-P006-L23": {
+    "etat_matrimonial": "V"
+   },
+   "1881-D2-P006-L25": {
+    "age": "3"
+   },
+   "1881-D2-P007-L08": {
+    "prenom": "Illisible ?"
+   },
+   "1881-D2-P007-L06": {
+    "age": "5"
+   },
+   "1881-D2-P007-L02": {
+    "incertain": false
+   },
+   "1881-D2-P007-L15": {
+    "age": "21"
+   },
+   "1881-D2-P007-L21": {
+    "profession": "",
+    "nom": "Swinton",
+    "incertain": false
+   },
+   "1881-D2-P007-L22": {
+    "profession": "Forgeron",
+    "nom": "Swinton"
+   },
+   "1881-D2-P007-L19": {
+    "nom": "Swinton"
+   },
+   "1881-D2-P007-L20": {
+    "nom": "Swinton"
+   },
+   "1881-D2-P007-L23": {
+    "nom": "Swinton",
+    "profession": "Forgeron"
+   },
+   "1881-D2-P007-L24": {
+    "nom": "Swinton"
+   },
+   "1881-D2-P007-L25": {
+    "nom": "Swinton"
+   },
+   "1881-D2-P008-L01": {
+    "nom": "Swinton"
+   },
+   "1881-D2-P008-L02": {
+    "nom": "Swinton",
+    "age": "8"
+   },
+   "1881-D2-P008-L03": {
+    "nom": "Swinton",
+    "age": "6",
+    "incertain": false
+   },
+   "1881-D2-P008-L04": {
+    "nom": "Swinton",
+    "ecole": true,
+    "incertain": false
+   },
+   "1881-D2-P008-L05": {
+    "nom": "Backey",
+    "etat_matrimonial": "V",
+    "prenom": "Samuel",
+    "incertain": false,
+    "profession": "Commis"
+   },
+   "1881-D2-P008-L06": {
+    "nom": "Backey",
+    "incertain": false
+   },
+   "1881-D2-P008-L07": {
+    "nom": "Backey",
+    "incertain": false
+   },
+   "1881-D2-P008-L08": {
+    "nom": "Backey",
+    "incertain": false
+   },
+   "1881-D2-P008-L09": {
+    "nom": "Backey",
+    "incertain": false
+   },
+   "1881-D2-P008-L10": {
+    "nom": "Backey",
+    "incertain": false
+   },
+   "1881-D2-P008-L11": {
+    "nom": "Backey",
+    "incertain": false
+   },
+   "1881-D2-P008-L12": {
+    "nom": "Backey",
+    "incertain": false
+   },
+   "1881-D2-P008-L13": {
+    "nom": "Backey",
+    "incertain": false
+   },
+   "1881-D2-P008-L14": {
+    "nom": "Backey",
+    "incertain": false
+   },
+   "1881-D2-P008-L15": {
+    "nom": "Boulet",
+    "profession": "Mesureur de bois (Culleur)"
+   },
+   "1881-D2-P008-L16": {
+    "nom": "Boulet",
+    "etat_matrimonial": "M"
+   },
+   "1881-D2-P008-L17": {
+    "nom": "Boulet"
+   },
+   "1881-D2-P008-L18": {
+    "nom": "Boulet",
+    "etat_matrimonial": "V"
+   },
+   "1881-D2-P008-L21": {
+    "prenom": "Illisible",
+    "incertain": false
+   },
+   "1881-D2-P008-L22": {
+    "age": "10"
+   },
+   "1881-D2-P008-L23": {
+    "age": "8"
+   },
+   "1881-D2-P008-L24": {
+    "age": "7"
+   },
+   "1881-D2-P008-L19": {
+    "profession": "Charpentier"
+   },
+   "1881-D2-P008-L25": {
+    "incertain": false
+   },
+   "1881-D2-P009-L03": {
+    "nom": "Cantin",
+    "prenom": "Étienne "
+   },
+   "1881-D2-P009-L12": {
+    "prenom": "Célémire",
+    "incertain": false
+   },
+   "1881-D2-P009-L13": {
+    "prenom": "Célémire"
+   },
+   "1881-D2-P009-L18": {
+    "nom": "Bourassa",
+    "prenom": "Benjamin",
+    "etat_matrimonial": "V",
+    "incertain": false,
+    "age": "57"
+   },
+   "1881-D2-P009-L23": {
+    "age": "17"
+   },
+   "1881-D2-P010-L03": {
+    "incertain": false
+   },
+   "1881-D2-P010-L12": {
+    "age": "3/12 (mars)"
+   }
+  },
+  "suivi-corr-maison": {
+   "1881-2-26": {
+    "colonne": "3"
+   }
+  },
+  "suivi-liens": {
+   "1871-D2-P030-L18": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1881",
+     "division": "2",
+     "page": "26",
+     "ligne": "17",
+     "nom": "Fanny Lee",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
+    }
+   ],
+   "1871-D2-P030-L16": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1881",
+     "division": "2",
+     "page": "26",
+     "ligne": "15",
+     "nom": "Mary Anne Lee",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
+    }
+   ],
+   "1881-D1-P005-L11": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1891",
+     "division": "1",
+     "page": "97",
+     "ligne": "19",
+     "nom": "Aglée Wermette",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
+    }
+   ]
+  },
+  "suivi-annexe-batiments": [
+   {
+    "id": "perso-1616-chemin-du-fleuve",
+    "adresse": "1617 chemin du Fleuve",
+    "titre": "Maison de Louis Demers",
+    "annee": "",
+    "personnages": "Louis Demers ; Éléonore Demers (Roberge), son épouse ; Léocadie Demers (Beaudoin) ; Alphonse Demers",
+    "resume": "Source\nLes informations proviennent des testaments de Louis Demers et de Léocadie Beaudoin, conservés par leur arrière-petite-fille :\nDanielle Demers (née en 1958)\nPropriétaire actuelle des lieux.\n________________________________________\nOrigine de la propriété\nDans le recensement de 1871 Louis Demers (27 ans) et Léocadie Beaudoin (24 ans) partage la maison avec Benjamin (26 ans) et Philomène (27 ans). \nLouis Demers (1844–1912)\nOriginaire de Saint-Jean-Chrysostome, Louis Demers lègue, par testament en 1912, la maison du lot 529 à son épouse.\nLéocadie Beaudoin (1846–1931)\nNée à Beauport, elle assure la continuité familiale après le décès de son mari.\nMariés le 15 juin 1908, ils sont les parents d’une nombreuse famille, dont :\n👉 Alphonse Demers. Les autres frères et sœurs sont, Charles, Joseph, Ernest, Alfred, Malcolm\n________________________________________\nTransmission familiale\nAlphonse Demers (1887-1958)\nFils de Louis et Léocadie, il devient propriétaire de la maison familiale.\nIl épouse :\nÉléonore Roberge (1888-1938)\nFille de David Roberge (1862-1948) et d’Éléonore Couture (1862-1933).\n________________________________________\nValmore Demers (1926-1992)\nFils d’Alphonse et d’Éléonore, il hérite à son tour de la propriété. Les autres frères et sœurs sont Marie-Berthe, Marcel, Maurice, Laurier, Florence, Cécile, Pierre. \n________________________________________\nDanielle Demers\nFille adoptive de Valmore, elle est aujourd’hui l’héritière du patrimoine familliale au 1617/1619 chemin du Fleuve.\n",
+    "source": "Patrick Blanchet"
+   }
+  ],
+  "suivi-annexe-details": {
+   "perso-1616-chemin-du-fleuve": {
+    "lot": "529",
+    "lotAnnee": "1879",
+    "goadFeuillet": "14",
+    "goadNo": "24"
+   }
+  },
+  "suivi-annexe-adresses": {
+   "perso-1616-chemin-du-fleuve": [
+    "1411, rue Commerciale"
+   ]
+  },
+  "suivi-migration-ids-v1": {
+   "corrections": 0,
+   "liens": 0,
+   "orphelins": 0,
+   "date": "2026-07-28"
+  }
+ }
+}
