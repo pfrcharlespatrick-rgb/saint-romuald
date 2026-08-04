@@ -133,6 +133,7 @@
       '<span class="etiquette">Fiche de personne · identifiant ' + esc(id) + '</span>' +
       '<h2 class="titre-vue">' + esc(f.prenom) + ' ' + esc(f.nom) + '</h2>' +
       '<p class="sous-titre">' + esc(phraseIdentite(f)) + '</p>' +
+      '<div class="actions-fiche"><button class="bouton" onclick="window.print()">Imprimer / exporter en PDF</button></div>' +
       rendreTrajectoire(f) +
       rendreEvenements(f) +
       rendreMaisonnee(f) +

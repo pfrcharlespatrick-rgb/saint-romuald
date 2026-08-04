@@ -149,9 +149,25 @@ export function chargerDonnees() {
     }
   }
 
+  // Bâtiments patrimoniaux (Bussière 1990) : chaque proposition rattache un
+  // bâtiment d'adresse connue à une maison d'un recensement donné.
+  const bussiere = chargerObjetGlobal('bussiere1990-data.js') || [];
+  const concordancesParMaison = new Map(); // cleMaison -> [{ id, adresse, titre, confiance, motif }]
+  for (const batiment of bussiere) {
+    for (const prop of batiment.propositions || []) {
+      const cle = cleMaison(prop.annee, prop.division, prop.no_maison);
+      if (!concordancesParMaison.has(cle)) concordancesParMaison.set(cle, []);
+      concordancesParMaison.get(cle).push({
+        id: batiment.id, adresse: batiment.adresse, titre: batiment.titre,
+        confiance: prop.confiance, motif: prop.motif
+      });
+    }
+  }
+
   return {
     recensements, personnes, maisons, maisonsParAnneeDiv, annexes,
-    filiation, manifeste,
-    liensDe, liensVers, evenementsParPersonne, evenementsParMenage, documentsParPersonne
+    filiation, manifeste, bussiere,
+    liensDe, liensVers, evenementsParPersonne, evenementsParMenage, documentsParPersonne,
+    concordancesParMaison
   };
 }

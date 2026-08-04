@@ -103,11 +103,29 @@
       '<span class="etiquette">Fiche de maison · recensement de ' + esc(f.annee) + ', division ' + esc(f.division) + '</span>' +
       '<h2 class="titre-vue">Maison ' + esc(f.no_maison) + '</h2>' +
       '<p class="sous-titre">' + esc(sousTitre) + esc(logementTxt) + '</p>' +
+      '<div class="actions-fiche"><button class="bouton" onclick="window.print()">Imprimer / exporter en PDF</button></div>' +
       f.familles.map(function (fam) { return rendreFamille(f, fam); }).join('') +
       rendreRenvois(f) +
-      '<section class="bloc"><h3 class="bloc-titre">Adresse actuelle et cartographie</h3>' +
-      '<div class="vide">Le rattachement aux adresses du chemin du Fleuve, les adresses alternatives et la photographie de la maison s\'affichent ici — puis sur une carte de la paroisse, maison par maison, année par année.</div></section>'
+      rendreAdresse(f)
     );
+  }
+
+  function rendreAdresse(f) {
+    var titre = '<h3 class="bloc-titre">Adresse actuelle et cartographie</h3>';
+    if (!f.concordances || !f.concordances.length) {
+      return (
+        '<section class="bloc">' + titre +
+        '<div class="vide">Aucun rattachement à une adresse actuelle proposé pour cette maison. Voir <a href="carte.html">la frise du chemin du Fleuve</a> pour les bâtiments déjà rattachés.</div></section>'
+      );
+    }
+    var items = f.concordances.map(function (c) {
+      return (
+        '<div class="marginale"><b>' + esc(c.adresse) + (c.titre ? ' — ' + esc(c.titre) : '') + '</b>' +
+        'Confiance ' + esc(c.confiance) + ' : ' + esc(c.motif) +
+        '<br><a href="carte.html#b-' + esc(c.id) + '">Voir sur la frise du chemin du Fleuve →</a></div>'
+      );
+    }).join('');
+    return '<section class="bloc">' + titre + items + '</section>';
   }
 
   function rendreErreur(msg) {

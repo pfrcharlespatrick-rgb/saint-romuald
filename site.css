@@ -191,3 +191,44 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 
 .chargement{color:var(--sepia);font-style:italic;padding:40px 0}
 .erreur{border:1.5px dashed var(--madder);padding:16px 18px;color:var(--madder-encre);font-size:14.5px;background:transparent}
+
+/* ===== actions de fiche (impression) ===== */
+.actions-fiche{display:flex;gap:10px;margin:14px 0 0;flex-wrap:wrap}
+.bouton{font-family:var(--etiq);font-size:12.5px;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--encre);background:var(--surface);border:1.5px solid var(--encre);
+  padding:8px 14px;cursor:pointer;line-height:1}
+.bouton:hover{background:var(--regle-faible)}
+
+@media print{
+  .avis, nav.onglets, .pied, .actions-fiche, .recherche-bloc, .infobulle{display:none !important}
+  header.tete{border-bottom-color:#000}
+  body{background:#fff;color:#000;font-size:12.5pt}
+  .cadre{max-width:none;padding:0}
+  .tuile, .graphique, .mention, .registre, .marginale, .evenement{box-shadow:none;border-color:#000}
+  a{color:#000;text-decoration:underline}
+  .page{animation:none;padding:0}
+  section.bloc{break-inside:avoid-page;margin-top:24px}
+  .registre{overflow-x:visible}
+  .registre table{min-width:0}
+}
+
+/* ===== carte du chemin du Fleuve (frise schématique, non géographique) ===== */
+.avis-carte{border:1.5px dashed var(--regle);padding:12px 16px;color:var(--sepia);font-size:13.5px;font-style:italic;margin:0 0 26px}
+.frise{position:relative;margin:20px 0 0;padding-left:26px;border-left:3px double var(--madder)}
+.point-carte{position:relative;background:var(--surface);border:1px solid var(--regle);box-shadow:var(--ombre);
+  padding:14px 16px;margin:0 0 16px;margin-left:14px}
+.point-carte::before{content:'';position:absolute;left:-33px;top:18px;width:9px;height:9px;border-radius:50%;
+  background:var(--madder);border:2px solid var(--surface)}
+.point-carte .adresse{font-family:var(--etiq);font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:var(--madder-encre)}
+.point-carte h3{margin:2px 0 4px;font-size:19px}
+.point-carte .personnages{font-size:13.5px;color:var(--sepia);margin:0 0 6px}
+.point-carte .resume{font-size:14.5px;margin:0 0 8px}
+.rattachements{display:flex;flex-wrap:wrap;gap:8px}
+.rattachements a{font-family:var(--etiq);font-size:12px;letter-spacing:.04em;color:var(--encre);
+  border:1px solid var(--regle);padding:4px 10px;display:inline-block}
+.rattachements a:hover{border-color:var(--sepia);text-decoration:none;background:var(--regle-faible)}
+.rattachements .conf-forte{border-color:var(--madder-encre)}
+.non-rattaches{margin-top:40px}
+.liste-simple{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
+.liste-simple li{font-size:14px;padding:8px 12px;background:var(--surface);border:1px solid var(--regle-faible)}
+.liste-simple .adresse{display:block;font-family:var(--etiq);font-size:11.5px;color:var(--sepia);letter-spacing:.04em}
