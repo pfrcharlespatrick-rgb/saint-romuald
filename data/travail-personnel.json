@@ -1,7 +1,7 @@
 {
  "format": "suivi-saint-romuald-travail",
  "version": 1,
- "exporte": "2026-08-07T17:45:07.707Z",
+ "exporte": "2026-08-07T18:48:29.651Z",
  "donnees": {
   "suivi-familles-notes": {
    "1881-2-72-80": {
@@ -805,7 +805,8 @@
     "religion": "Catholique",
     "origine": "Française",
     "sait_lire": false,
-    "sait_ecrire": false
+    "sait_ecrire": false,
+    "sexe": "M"
    },
    "1871-D2-P001-L11": {
     "etat_matrimonial": "M",
@@ -832,36 +833,57 @@
     "lieu_naissance": "Québec",
     "etat_matrimonial": "M",
     "religion": "Catholique",
-    "origine": "Française"
+    "origine": "Française",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P002-L09": {
-    "marie_12_mois": false
+    "marie_12_mois": false,
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P002-L05": {
-    "marie_12_mois": false
+    "marie_12_mois": false,
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P002-L06": {
-    "marie_12_mois": false
+    "marie_12_mois": false,
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P002-L17": {
     "nom": "Veer ",
-    "incertain": false
+    "incertain": false,
+    "lieu_naissance": "Québec",
+    "origine": "Irlandaise ",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P002-L18": {
     "incertain": false
    },
    "1871-D2-P002-L20": {
     "age": "17",
-    "profession": "Cultivaeur"
+    "profession": "Cultivateur",
+    "etat_matrimonial": "M",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P003-L01": {
-    "age": "15"
+    "age": "15",
+    "profession": "Cultivateur",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P003-L02": {
-    "age": "12"
+    "age": "12",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P003-L03": {
-    "age": "12"
+    "age": "12",
+    "ecole": true
    },
    "1871-D2-P003-L04": {
     "age": "10"
@@ -873,13 +895,16 @@
     "age": "8"
    },
    "1871-D2-P003-L07": {
-    "age": "5"
+    "age": "5",
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P003-L08": {
     "sait_ecrire": false
    },
    "1871-D2-P003-L09": {
-    "sait_ecrire": true
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P003-L17": {
     "sait_ecrire": false,
@@ -1382,110 +1407,200 @@
     "lieu_naissance": "Québec",
     "origine": "Française",
     "religion": "Catholique",
-    "etat_matrimonial": "M"
+    "etat_matrimonial": "M",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P001-L03": {
     "sexe": "M",
     "lieu_naissance": "Québec",
     "origine": "Française",
-    "religion": "Catholique"
+    "religion": "Catholique",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P001-L04": {
     "sexe": "M",
     "lieu_naissance": "Québec",
     "origine": "Française",
-    "religion": "Catholique"
+    "religion": "Catholique",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P001-L05": {
     "sexe": "M",
     "lieu_naissance": "Québec",
     "origine": "Française",
-    "religion": "Catholique"
+    "religion": "Catholique",
+    "sait_lire": false,
+    "sait_ecrire": false,
+    "ecole": true
    },
    "1871-D2-P001-L06": {
     "sexe": "F",
     "lieu_naissance": "Québec",
     "origine": "Française",
     "religion": "Catholique",
-    "ecole": true
+    "ecole": true,
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L07": {
     "sexe": "M",
     "lieu_naissance": "Québec",
     "origine": "Française",
     "religion": "Catholique",
-    "ecole": true
+    "ecole": true,
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L08": {
     "sexe": "M",
     "lieu_naissance": "Québec",
     "origine": "Française",
     "religion": "Catholique",
-    "ecole": true
+    "ecole": true,
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L09": {
     "sexe": "M",
     "lieu_naissance": "Québec",
     "origine": "Française",
     "religion": "Catholique",
-    "ecole": true
+    "ecole": false,
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L10": {
     "sexe": "F",
     "lieu_naissance": "Québec",
     "origine": "Française",
-    "religion": "Catholique"
+    "religion": "Catholique",
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L19": {
     "sexe": "F",
     "lieu_naissance": "Québec",
     "religion": "Catholique",
-    "origine": "Française"
+    "origine": "Française",
+    "sait_ecrire": false,
+    "sait_lire": false,
+    "ecole": false
    },
    "1871-D2-P001-L18": {
     "sexe": "F",
     "lieu_naissance": "Québec",
     "religion": "Catholique",
     "origine": "Française",
-    "ecole": true
+    "ecole": false,
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P001-L17": {
     "sexe": "F",
     "lieu_naissance": "Québec",
     "religion": "Catholique",
     "origine": "Française",
-    "ecole": true
+    "ecole": false,
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L16": {
     "sexe": "F",
     "lieu_naissance": "Québec",
     "religion": "Catholique",
-    "origine": "Française"
+    "origine": "Française",
+    "ecole": true,
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L15": {
     "sexe": "F",
     "lieu_naissance": "Québec",
     "religion": "Catholique",
-    "origine": "Française"
+    "origine": "Française",
+    "ecole": true,
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L14": {
     "sexe": "M",
     "lieu_naissance": "Québec",
     "religion": "Catholique",
-    "origine": "Française"
+    "origine": "Française",
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L13": {
     "sexe": "M",
     "lieu_naissance": "Québec",
     "religion": "Catholique",
     "origine": "Française",
-    "ecole": true
+    "ecole": true,
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P002-L01": {
-    "origine": "Française"
+    "origine": "Française",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P002-L02": {
-    "origine": "Française"
+    "origine": "Française",
+    "sait_lire": false,
+    "sait_ecrire": false
+   },
+   "1871-D2-P002-L14": {
+    "ecole": true,
+    "origine": "Française",
+    "sait_ecrire": false,
+    "sait_lire": false,
+    "lieu_naissance": "Québec"
+   },
+   "1871-D2-P002-L16": {
+    "sait_lire": false,
+    "sait_ecrire": false,
+    "origine": "Française",
+    "lieu_naissance": "Québec"
+   },
+   "1871-D2-P002-L15": {
+    "sait_ecrire": false,
+    "sait_lire": false,
+    "origine": "Française",
+    "lieu_naissance": "Québec"
+   },
+   "1871-D2-P002-L11": {
+    "sait_ecrire": false,
+    "sait_lire": false,
+    "origine": "Française",
+    "lieu_naissance": "Québec"
+   },
+   "1871-D2-P002-L10": {
+    "sait_ecrire": false,
+    "sait_lire": false,
+    "origine": "Française",
+    "lieu_naissance": "Québec"
+   },
+   "1871-D2-P002-L12": {
+    "origine": "Française",
+    "sait_lire": false,
+    "sait_ecrire": false,
+    "lieu_naissance": "Québec"
+   },
+   "1871-D2-P002-L13": {
+    "origine": "Française",
+    "sait_lire": false,
+    "sait_ecrire": false,
+    "lieu_naissance": "Québec"
+   },
+   "1871-D2-P002-L07": {
+    "sait_ecrire": false
+   },
+   "1871-D2-P002-L08": {
+    "sait_lire": false,
+    "sait_ecrire": false
    }
   },
   "suivi-corr-maison": {
@@ -1493,6 +1608,9 @@
     "colonne": "3"
    },
    "1871-2-25": {
+    "colonne": "3"
+   },
+   "1871-2-6": {
     "colonne": "3"
    }
   },
@@ -1502,7 +1620,9 @@
    }
   },
   "suivi-corr-rapport": {
-   "1-1": ""
+   "1-1": "",
+   "5-5": "",
+   "4-4": ""
   },
   "suivi-liens": {
    "1871-D2-P030-L18": [
