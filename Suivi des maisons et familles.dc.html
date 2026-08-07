@@ -1751,7 +1751,8 @@ class Component extends DCLogic {
   }
 
   async pousserVersGithub() {
-    if (!this.state.githubToken || this.state.pushEnCours) return;
+    if (!this.state.githubToken || this.state.pushEnCours || this._pushVerrou) return;
+    this._pushVerrou = true; // verrou synchrone : l'état React ne suffit pas contre un double départ
     this.setState({ pushEnCours: true, messageGithub: 'Préparation…' });
     try {
       const donnees = {};
@@ -1802,17 +1803,29 @@ class Component extends DCLogic {
       );
       let pr = existantes[0];
       if (!pr) {
-        pr = await this.appelGithub('/pulls', {
-          method: 'POST',
-          body: JSON.stringify({
-            title: 'Sauvegarde du travail d’édition (atelier)',
-            head: this.DEPOT_GITHUB.branche, base: this.DEPOT_GITHUB.base,
-            body: 'Poussé automatiquement depuis le panneau Sauvegarde de l’atelier. Contient ' + this.FICHIER_TRAVAIL + ' — le travail personnel (corrections, notes, liens, concordances), pas les recensements ni les photos.'
-          })
-        });
+        try {
+          pr = await this.appelGithub('/pulls', {
+            method: 'POST',
+            body: JSON.stringify({
+              title: 'Sauvegarde du travail d’édition (atelier)',
+              head: this.DEPOT_GITHUB.branche, base: this.DEPOT_GITHUB.base,
+              body: 'Poussé automatiquement depuis le panneau Sauvegarde de l’atelier. Contient ' + this.FICHIER_TRAVAIL + ' — le travail personnel (corrections, notes, liens, concordances), pas les recensements ni les photos.'
+            })
+          });
+        } catch (e) {
+          if (e.status !== 422) throw e;
+          // 422 : une PR vient d'être ouverte entre-temps (double départ) — on la retrouve
+          const relues = await this.appelGithub(
+            '/pulls?head=' + this.DEPOT_GITHUB.proprietaire + ':' + this.DEPOT_GITHUB.branche + '&state=open', {}
+          );
+          pr = relues[0];
+          if (!pr) throw e;
+        }
       }
+      this._pushVerrou = false;
       this.setState({ pushEnCours: false, urlPR: pr.html_url, messageGithub: 'Poussé — pull request ' + (existantes[0] ? 'mise à jour' : 'ouverte') + ' : ' + pr.html_url });
     } catch (e) {
+      this._pushVerrou = false;
       this.setState({ pushEnCours: false, messageGithub: 'Échec : ' + e.message });
     }
   }
