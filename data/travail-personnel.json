@@ -1,7 +1,7 @@
 {
  "format": "suivi-saint-romuald-travail",
  "version": 1,
- "exporte": "2026-08-04T15:53:21.497Z",
+ "exporte": "2026-08-07T17:14:30.164Z",
  "donnees": {
   "suivi-familles-notes": {
    "1881-2-72-80": {
@@ -557,10 +557,570 @@
    },
    "1881-D2-P010-L12": {
     "age": "3/12 (mars)"
+   },
+   "1871-D2-P001-L20": {
+    "etat_matrimonial": "M",
+    "profession": "Journalier"
+   },
+   "1871-D2-P001-L11": {
+    "etat_matrimonial": "M",
+    "profession": "Journalier"
+   },
+   "1871-D2-P001-L12": {
+    "etat_matrimonial": "M"
+   },
+   "1871-D2-P001-L01": {
+    "profession": "Cultivateur"
+   },
+   "1871-D2-P002-L09": {
+    "marie_12_mois": false
+   },
+   "1871-D2-P002-L05": {
+    "marie_12_mois": false
+   },
+   "1871-D2-P002-L06": {
+    "marie_12_mois": false
+   },
+   "1871-D2-P002-L17": {
+    "nom": "Veer ",
+    "incertain": false
+   },
+   "1871-D2-P002-L18": {
+    "incertain": false
+   },
+   "1871-D2-P002-L20": {
+    "age": "17",
+    "profession": "Cultivaeur"
+   },
+   "1871-D2-P003-L01": {
+    "age": "15"
+   },
+   "1871-D2-P003-L02": {
+    "age": "12"
+   },
+   "1871-D2-P003-L03": {
+    "age": "12"
+   },
+   "1871-D2-P003-L04": {
+    "age": "10"
+   },
+   "1871-D2-P003-L05": {
+    "age": "9"
+   },
+   "1871-D2-P003-L06": {
+    "age": "8"
+   },
+   "1871-D2-P003-L07": {
+    "age": "5"
+   },
+   "1871-D2-P003-L08": {
+    "sait_ecrire": false
+   },
+   "1871-D2-P003-L09": {
+    "sait_ecrire": true
+   },
+   "1871-D2-P003-L17": {
+    "sait_ecrire": false,
+    "sait_lire": false
+   },
+   "1871-D2-P003-L16": {
+    "sait_ecrire": false,
+    "sait_lire": false
+   },
+   "1871-D2-P003-L11": {
+    "incertain": false,
+    "age": "41 "
+   },
+   "1871-D2-P004-L01": {
+    "age": "23 ",
+    "incertain": false
+   },
+   "1871-D2-P003-L18": {
+    "incertain": false
+   },
+   "1871-D2-P003-L19": {
+    "incertain": false
+   },
+   "1871-D2-P004-L06": {
+    "prenom": "Alvine ",
+    "incertain": false
+   },
+   "1871-D2-P004-L12": {
+    "nom": "Curodo",
+    "incertain": false
+   },
+   "1871-D2-P004-L08": {
+    "age": "27 ",
+    "incertain": false
+   },
+   "1871-D2-P004-L07": {
+    "age": "28 ",
+    "incertain": false
+   },
+   "1871-D2-P004-L13": {
+    "nom": "Curodo",
+    "incertain": false
+   },
+   "1871-D2-P004-L14": {
+    "nom": "Curodo",
+    "prenom": "Adée ",
+    "incertain": false
+   },
+   "1871-D2-P004-L15": {
+    "nom": "Curodo",
+    "incertain": false
+   },
+   "1871-D2-P005-L02": {
+    "age": "7/12",
+    "incertain": false
+   },
+   "1871-D2-P005-L03": {
+    "nom": "Curodo",
+    "age": "35 ",
+    "incertain": false
+   },
+   "1871-D2-P005-L04": {
+    "nom": "Curodo",
+    "incertain": false
+   },
+   "1871-D2-P005-L05": {
+    "nom": "Curodo",
+    "incertain": false
+   },
+   "1871-D2-P005-L06": {
+    "nom": "Curodo",
+    "incertain": false
+   },
+   "1871-D2-P005-L08": {
+    "age": "23",
+    "incertain": false
+   },
+   "1871-D2-P005-L09": {
+    "age": "4/12",
+    "incertain": false
+   },
+   "1871-D2-P005-L13": {
+    "prenom": "Omérine ",
+    "incertain": false
+   },
+   "1871-D2-P005-L14": {
+    "age": "52 "
+   },
+   "1871-D2-P005-L20": {
+    "age": "12 "
+   },
+   "1871-D2-P005-L15": {
+    "age": "45"
+   },
+   "1871-D2-P006-L06": {
+    "nom": "Alice",
+    "age": "68"
+   },
+   "1871-D2-P006-L07": {
+    "nom": "Bruneau ",
+    "prenom": "Bibiane",
+    "age": "76"
+   },
+   "1871-D2-P006-L19": {
+    "age": "75 ",
+    "etat_matrimonial": "V",
+    "incertain": false
+   },
+   "1871-D2-P006-L18": {
+    "age": "10"
+   },
+   "1871-D2-P006-L17": {
+    "age": "5/12",
+    "incertain": false
+   },
+   "1871-D2-P006-L09": {
+    "incertain": false
+   },
+   "1871-D2-P006-L20": {
+    "age": "43 ",
+    "incertain": false
+   },
+   "1871-D2-P007-L03": {
+    "prenom": "Esther ",
+    "incertain": false
+   },
+   "1871-D2-P007-L09": {
+    "prenom": "Précile",
+    "incertain": false
+   },
+   "1871-D2-P007-L02": {
+    "incertain": false
+   },
+   "1871-D2-P007-L13": {
+    "age": "32"
+   },
+   "1871-D2-P007-L18": {
+    "age": "6/12",
+    "incertain": false
+   },
+   "1871-D2-P007-L19": {
+    "etat_matrimonial": "",
+    "incertain": false
+   },
+   "1871-D2-P008-L02": {
+    "prenom": "Benjamin ",
+    "incertain": false
+   },
+   "1871-D2-P007-L20": {
+    "incertain": false
+   },
+   "1871-D2-P008-L07": {
+    "age": "2/12",
+    "incertain": false
+   },
+   "1871-D2-P008-L05": {
+    "prenom": "Eléonore ",
+    "incertain": false
+   },
+   "1871-D2-P008-L10": {
+    "age": "13 ",
+    "incertain": false
+   },
+   "1871-D2-P008-L11": {
+    "age": "22 ",
+    "incertain": false
+   },
+   "1871-D2-P008-L15": {
+    "age": "8 ",
+    "incertain": false
+   },
+   "1871-D2-P008-L17": {
+    "age": "60 ",
+    "incertain": false
+   },
+   "1871-D2-P009-L04": {
+    "prenom": "Octave ",
+    "nom": "Demers ",
+    "incertain": false
+   },
+   "1871-D2-P009-L07": {
+    "prenom": "Vital ",
+    "incertain": false
+   },
+   "1871-D2-P009-L11": {
+    "prenom": "Bérénice ",
+    "incertain": false
+   },
+   "1871-D2-P009-L09": {
+    "age": "4 ",
+    "incertain": false
+   },
+   "1871-D2-P009-L05": {
+    "age": "46 ",
+    "incertain": false
+   },
+   "1871-D2-P009-L18": {
+    "age": "22 ",
+    "incertain": false
+   },
+   "1871-D2-P009-L20": {
+    "age": "24 ",
+    "incertain": false
+   },
+   "1871-D2-P009-L19": {
+    "incertain": false
+   },
+   "1871-D2-P010-L02": {
+    "incertain": false
+   },
+   "1871-D2-P010-L04": {
+    "incertain": false
+   },
+   "1871-D2-P010-L18": {
+    "age": "7/12",
+    "incertain": false
+   },
+   "1871-D2-P010-L16": {
+    "incertain": false
+   },
+   "1871-D2-P010-L17": {
+    "incertain": false
+   },
+   "1871-D2-P010-L19": {
+    "incertain": false
+   },
+   "1871-D2-P011-L08": {
+    "prenom": "Virginia",
+    "age": "7/12",
+    "incertain": false
+   },
+   "1871-D2-P011-L11": {
+    "prenom": "Délina"
+   },
+   "1871-D2-P011-L16": {
+    "prenom": "Ignace",
+    "incertain": false
+   },
+   "1871-D2-P011-L20": {
+    "nom": "Lavertu ",
+    "incertain": false
+   },
+   "1871-D2-P011-L10": {
+    "incertain": false
+   },
+   "1871-D2-P011-L17": {
+    "incertain": false
+   },
+   "1871-D2-P012-L01": {
+    "incertain": false
+   },
+   "1871-D2-P012-L08": {
+    "prenom": "Adélard",
+    "age": "8/12"
+   },
+   "1871-D2-P012-L12": {
+    "prenom": "Vitaline ",
+    "age": "22 ",
+    "incertain": false
+   },
+   "1871-D2-P012-L11": {
+    "age": "18 ",
+    "incertain": false
+   },
+   "1871-D2-P012-L10": {
+    "age": "59 ",
+    "incertain": false
+   },
+   "1871-D2-P012-L09": {
+    "age": "56 ",
+    "incertain": false
+   },
+   "1871-D2-P012-L13": {
+    "incertain": false
+   },
+   "1871-D2-P012-L20": {
+    "age": "25 ",
+    "incertain": false
+   },
+   "1871-D2-P012-L17": {
+    "incertain": false
+   },
+   "1871-D2-P013-L08": {
+    "prenom": "Julien ",
+    "incertain": false
+   },
+   "1871-D2-P013-L12": {
+    "prenom": "Théatis ",
+    "age": "54 ",
+    "incertain": false
+   },
+   "1871-D2-P013-L18": {
+    "age": "53",
+    "incertain": false
+   },
+   "1871-D2-P013-L17": {
+    "age": "5/12",
+    "incertain": false
+   },
+   "1871-D2-P013-L11": {
+    "age": "59 ",
+    "incertain": false
+   },
+   "1871-D2-P013-L10": {
+    "age": "70",
+    "incertain": false
+   },
+   "1871-D2-P013-L09": {
+    "age": "81 ",
+    "incertain": false
+   },
+   "1871-D2-P014-L06": {
+    "prenom": "Belsimir"
+   },
+   "1871-D2-P014-L07": {
+    "nom": "Sleeth ",
+    "age": "60",
+    "incertain": false
+   },
+   "1871-D2-P014-L08": {
+    "nom": "Sleeth ",
+    "incertain": false
+   },
+   "1871-D2-P014-L09": {
+    "nom": "Sleeth",
+    "incertain": false
+   },
+   "1871-D2-P014-L10": {
+    "nom": "Sleeth",
+    "incertain": false
+   },
+   "1871-D2-P014-L11": {
+    "nom": "Sleeth ",
+    "incertain": false
+   },
+   "1871-D2-P014-L12": {
+    "nom": "Sleeth",
+    "incertain": false
+   },
+   "1871-D2-P014-L13": {
+    "nom": "Sleeth",
+    "incertain": false
+   },
+   "1871-D2-P014-L14": {
+    "nom": "Sleeth",
+    "incertain": false
+   },
+   "1871-D2-P014-L15": {
+    "nom": "Sleeth ",
+    "incertain": false
+   },
+   "1871-D2-P014-L16": {
+    "nom": "Sleeth ",
+    "incertain": false
+   },
+   "1871-D2-P014-L18": {
+    "age": "52 ",
+    "incertain": false
+   },
+   "1871-D2-P015-L19": {
+    "age": "10/12",
+    "incertain": false
+   },
+   "1871-D2-P015-L13": {
+    "age": "25 ",
+    "incertain": false
+   },
+   "1871-D2-P015-L12": {
+    "prenom": "Agathe"
+   },
+   "1871-D2-P015-L04": {
+    "age": "36 ",
+    "incertain": false
+   },
+   "1871-D2-P015-L09": {
+    "age": "1/12",
+    "incertain": false
+   },
+   "1871-D2-P015-L11": {
+    "incertain": false
+   },
+   "1871-D2-P016-L03": {
+    "prenom": "Aurélie ",
+    "incertain": false
+   },
+   "1871-D2-P016-L04": {
+    "age": "2 ",
+    "incertain": false
+   },
+   "1871-D2-P016-L07": {
+    "age": "2/12",
+    "incertain": false
+   },
+   "1871-D2-P016-L05": {
+    "incertain": false
+   },
+   "1871-D2-P016-L06": {
+    "incertain": false
+   },
+   "1871-D2-P016-L16": {
+    "age": "11/12",
+    "incertain": false
+   },
+   "1871-D2-P016-L17": {
+    "prenom": "Clarisse ",
+    "incertain": false
+   },
+   "1871-D2-P016-L08": {
+    "incertain": false
+   },
+   "1871-D2-P016-L13": {
+    "incertain": false
+   },
+   "1871-D2-P017-L03": {
+    "age": "2 ",
+    "incertain": false
+   },
+   "1871-D2-P017-L05": {
+    "prenom": "Victoire ",
+    "incertain": false
+   },
+   "1871-D2-P017-L08": {
+    "age": "37 ",
+    "prenom": "Selvie",
+    "incertain": false
+   },
+   "1871-D2-P017-L10": {
+    "age": "15 ",
+    "incertain": false
+   },
+   "1871-D2-P017-L07": {
+    "incertain": false
+   },
+   "1871-D2-P018-L05": {
+    "prenom": "Virginia ",
+    "incertain": false
+   },
+   "1871-D2-P017-L17": {
+    "incertain": false
+   },
+   "1871-D2-P018-L08": {
+    "nom": "Desrochers",
+    "incertain": false
+   },
+   "1871-D2-P018-L12": {
+    "incertain": false
+   },
+   "1871-D2-P018-L13": {
+    "incertain": false
+   },
+   "1871-D2-P018-L16": {
+    "age": "27"
+   },
+   "1871-D2-P018-L19": {
+    "age": "7/12",
+    "incertain": false
+   },
+   "1871-D2-P019-L06": {
+    "age": "4"
+   },
+   "1871-D2-P019-L20": {
+    "age": "7/12",
+    "incertain": false
+   },
+   "1871-D2-P020-L01": {
+    "nom": "Peltier ",
+    "incertain": false
+   },
+   "1871-D2-P020-L07": {
+    "prenom": "Nil ",
+    "incertain": false,
+    "nom": "Peltier "
+   },
+   "1871-D2-P020-L02": {
+    "incertain": false,
+    "nom": "Peltier "
+   },
+   "1871-D2-P020-L03": {
+    "incertain": false,
+    "nom": "Peltier "
+   },
+   "1871-D2-P020-L04": {
+    "incertain": false,
+    "nom": "Peltier "
+   },
+   "1871-D2-P020-L05": {
+    "incertain": false,
+    "nom": "Peltier "
+   },
+   "1871-D2-P020-L06": {
+    "incertain": false,
+    "nom": "Peltier "
+   },
+   "1871-D2-P020-L08": {
+    "incertain": false,
+    "nom": "Peltier "
    }
   },
   "suivi-corr-maison": {
    "1881-2-26": {
+    "colonne": "3"
+   },
+   "1871-2-25": {
     "colonne": "3"
    }
   },
@@ -628,6 +1188,12 @@
    "liens": 0,
    "orphelins": 0,
    "date": "2026-07-28"
+  },
+  "suivi-corr-famille": {
+   "1871-2-25-31 [?]": {
+    "no_famille": "31 "
+   }
   }
- }
+ },
+ "note": "Complété le 2026-08-05 depuis le fichier corrections-recensement.json fourni par Patrick — la séance 1871 n'avait pas été poussée."
 }
