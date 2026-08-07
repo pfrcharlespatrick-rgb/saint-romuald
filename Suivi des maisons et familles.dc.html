@@ -100,7 +100,7 @@ a:hover{color:var(--color-accent-900)}
 
       <div style="margin-top:var(--space-4);padding-top:var(--space-3);border-top:1px solid var(--color-neutral-300)">
         <div style="font-family:var(--font-heading);font-size:14px;letter-spacing:.03em;text-transform:uppercase;margin-bottom:2px">Pousser vers GitHub</div>
-        <p style="margin:0 0 var(--space-3);font-size:12px;color:var(--color-neutral-700);max-width:82ch;text-wrap:pretty">Enregistre ce travail (hors photos) dans le dépôt, sur la branche « atelier-sauvegarde », avec une pull request ouverte ou mise à jour automatiquement — jamais directement sur main. Il faut un jeton d'accès personnel fin (« fine-grained »), limité à ce dépôt, avec les permissions Contents et Pull requests en lecture/écriture. Le jeton reste dans ce navigateur (localStorage) ; quiconque a accès à cet appareil peut le lire.</p>
+        <p style="margin:0 0 var(--space-3);font-size:12px;color:var(--color-neutral-700);max-width:82ch;text-wrap:pretty">Enregistre ce travail (hors photos) dans le dépôt, sur la branche « atelier-sauvegarde », avec une pull request ouverte ou mise à jour automatiquement — jamais directement sur main. La poussée démarre toute seule à l’ouverture de ce panneau dès qu’un jeton est enregistré ; le bouton sert à relancer au besoin. Il faut un jeton d'accès personnel fin (« fine-grained »), limité à ce dépôt, avec les permissions Contents et Pull requests en lecture/écriture. Le jeton reste dans ce navigateur (localStorage) ; quiconque a accès à cet appareil peut le lire.</p>
         <sc-if value="{{ githubConnecte }}" hint-placeholder-val="{{ false }}">
           <div style="display:flex;gap:var(--space-2);align-items:center;flex-wrap:wrap">
             <button type="button" class="btn btn-primary" style="padding:5px 13px;white-space:nowrap" onClick="{{ onPousserGithub }}" disabled="{{ pushEnCours }}">{{ pushBtnLabel }}</button>
@@ -694,12 +694,12 @@ a:hover{color:var(--color-accent-900)}
                           </td>
                           <td><input class="input" style="width:60px;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.age }}" onChange="{{ m.onAgeChange }}"></input> <sc-if value="{{ m.ajusteRapport }}" hint-placeholder-val="{{ false }}"><span title="Âge ajusté selon le Rapport 1871">📄</span></sc-if></td>
                           <sc-if value="{{ fam.montrerNe12 }}" hint-placeholder-val="{{ true }}">
-                            <td style="text-align:center;font-size:12px;white-space:nowrap"><sc-if value="{{ m.aDouzeMois }}" hint-placeholder-val="{{ false }}"><span style="color:var(--color-accent-700)">{{ m.neDouzeMois }}</span></sc-if><sc-if value="{{ m.sansDouzeMois }}" hint-placeholder-val="{{ true }}"><span style="color:var(--color-neutral-400)">—</span></sc-if></td>
+                            <td style="text-align:center"><input class="input" title="Colonne 10 : mois de naissance si l’enfant est né dans les douze mois" style="width:64px;padding:4px 6px;font-size:12px;background:transparent;text-align:center" value="{{ m.neDouzeMois }}" onChange="{{ m.onNe12Change }}"></input></td>
                           </sc-if>
                           <sc-if value="{{ fam.is1891 }}" hint-placeholder-val="{{ false }}">
                             <td><input class="input" style="width:90px;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.lienParente }}" onChange="{{ m.onLienParenteChange }}"></input></td>
                           </sc-if>
-                          <td style="font-size:13px;white-space:nowrap">{{ m.lieuNaissance }}<sc-if value="{{ m.aNoteComplement }}" hint-placeholder-val="{{ false }}"><span title="{{ m.noteComplement }}" style="margin-left:4px;cursor:help">⚠</span></sc-if></td>
+                          <td style="font-size:13px;white-space:nowrap"><input class="input" style="width:110px;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.lieuNaissance }}" onChange="{{ m.onLieuNaissanceChange }}"></input><sc-if value="{{ m.aNoteComplement }}" hint-placeholder-val="{{ false }}"><span title="{{ m.noteComplement }}" style="margin-left:4px;cursor:help">⚠</span></sc-if></td>
                           <td>
                             <select class="input" style="width:120px;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.etat_matrimonial }}" onChange="{{ m.onEtatChange }}">
                               <option value="">Célibataire</option>
@@ -711,8 +711,8 @@ a:hover{color:var(--color-accent-900)}
                           <sc-if value="{{ !fam.is1891 }}" hint-placeholder-val="{{ true }}">
                             <td style="text-align:center"><sc-if value="{{ m.marie12moisReleve }}" hint-placeholder-val="{{ true }}"><input type="checkbox" checked="{{ m.marie12mois }}" onChange="{{ m.onMarie12moisChange }}"></input></sc-if><sc-if value="{{ m.marie12moisReleveNon }}" hint-placeholder-val="{{ false }}"><span title="colonne non dépouillée — l'information n'a pas été relevée au manuscrit" style="color:var(--color-neutral-500)">—</span></sc-if><sc-if value="{{ m.marie12moisHorsFormulaire }}" hint-placeholder-val="{{ false }}"><span title="Le formulaire de 1881 ne posait pas cette question." style="color:var(--color-neutral-400);font-style:italic">hors form.</span></sc-if></td>
                           </sc-if>
-                          <td style="font-size:13px;white-space:nowrap">{{ m.religion }}</td>
-                          <td style="font-size:13px;white-space:nowrap">{{ m.origine }}</td>
+                          <td style="font-size:13px;white-space:nowrap"><input class="input" style="width:105px;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.religion }}" onChange="{{ m.onReligionChange }}"></input></td>
+                          <td style="font-size:13px;white-space:nowrap"><input class="input" style="width:100px;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.origine }}" onChange="{{ m.onOrigineChange }}"></input></td>
                           <td><input class="input" style="width:100%;padding:4px 6px;font-size:13px;background:transparent" value="{{ m.profession }}" onChange="{{ m.onProfessionChange }}"></input></td>
                           <td style="text-align:center"><sc-if value="{{ m.ecoleReleve }}" hint-placeholder-val="{{ true }}"><input type="checkbox" checked="{{ m.ecole }}" onChange="{{ m.onEcoleChange }}"></input></sc-if><sc-if value="{{ m.ecoleReleveNon }}" hint-placeholder-val="{{ false }}"><span title="colonne non dépouillée — l'information n'a pas été relevée au manuscrit" style="color:var(--color-neutral-500)">—</span></sc-if></td>
                           <td style="font-size:11px">
@@ -730,7 +730,7 @@ a:hover{color:var(--color-accent-900)}
                           <td style="text-align:center"><sc-if value="{{ m.sourdMuetReleve }}" hint-placeholder-val="{{ true }}"><input type="checkbox" checked="{{ m.sourdMuet }}" onChange="{{ m.onSourdMuetChange }}"></input></sc-if><sc-if value="{{ m.sourdMuetReleveNon }}" hint-placeholder-val="{{ false }}"><span title="colonne non dépouillée — l'information n'a pas été relevée au manuscrit" style="color:var(--color-neutral-500)">—</span></sc-if></td>
                           <td style="text-align:center"><sc-if value="{{ m.aveugleReleve }}" hint-placeholder-val="{{ true }}"><input type="checkbox" checked="{{ m.aveugle }}" onChange="{{ m.onAveugleChange }}"></input></sc-if><sc-if value="{{ m.aveugleReleveNon }}" hint-placeholder-val="{{ false }}"><span title="colonne non dépouillée — l'information n'a pas été relevée au manuscrit" style="color:var(--color-neutral-500)">—</span></sc-if></td>
                           <td style="text-align:center"><sc-if value="{{ m.alieneReleve }}" hint-placeholder-val="{{ true }}"><input type="checkbox" checked="{{ m.aliene }}" onChange="{{ m.onAlieneChange }}"></input></sc-if><sc-if value="{{ m.alieneReleveNon }}" hint-placeholder-val="{{ false }}"><span title="colonne non dépouillée — l'information n'a pas été relevée au manuscrit" style="color:var(--color-neutral-500)">—</span></sc-if></td>
-                          <td style="font-size:12px;color:var(--color-neutral-700);max-width:220px;min-width:160px">{{ m.remarque }}</td>
+                          <td style="max-width:260px;min-width:180px"><input class="input" style="width:100%;padding:4px 6px;font-size:12px;background:transparent" value="{{ m.remarque }}" onChange="{{ m.onRemarqueChange }}"></input></td>
                           <td>
                             <sc-if value="{{ m.corrige }}" hint-placeholder-val="{{ false }}">
                               <button type="button" class="btn btn-ghost btn-icon" title="Annuler la correction" onClick="{{ m.onResetCorrection }}" style="width:26px;height:26px">
@@ -829,7 +829,10 @@ a:hover{color:var(--color-accent-900)}
                   <sc-if value="{{ fam.hasRapport }}" hint-placeholder-val="{{ false }}">
                     <div class="card" style="padding:var(--space-3);margin-bottom:var(--space-3);background:var(--color-accent-100);border-color:var(--color-accent-300)">
                       <div style="font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.02em;text-transform:uppercase;color:var(--color-accent-700);margin-bottom:6px">Rapport 1871 — extrait</div>
-                      <p style="font-size:13px;line-height:1.5;margin:0 0 8px;color:var(--color-neutral-900)">{{ fam.rapportTexte }}</p>
+                      <textarea class="input" rows="3" style="width:100%;font-size:13px;line-height:1.5;margin:0 0 8px;background:transparent;resize:vertical" value="{{ fam.rapportTexte }}" onChange="{{ fam.onRapportChange }}"></textarea>
+                      <sc-if value="{{ fam.rapportCorrige }}" hint-placeholder-val="{{ false }}">
+                        <div style="margin:0 0 8px"><button type="button" class="btn btn-ghost" style="padding:2px 10px;font-size:12px" onClick="{{ fam.onRapportReset }}">Revenir au texte d’origine</button></div>
+                      </sc-if>
                       <sc-for list="{{ fam.rapportFlags }}" as="flag" hint-placeholder-count="0">
                         <div style="font-size:12px;color:var(--color-accent-2-900);padding:2px 0">⚠ {{ flag.message }}</div>
                       </sc-for>
@@ -1011,7 +1014,7 @@ a:hover{color:var(--color-accent-900)}
 <script type="text/x-dc" data-dc-script data-props="{&quot;anneeInitiale&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;1871&quot;,&quot;1881&quot;,&quot;1891&quot;],&quot;default&quot;:&quot;1871&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Ouverture&quot;,&quot;label&quot;:&quot;Recensement à l'ouverture&quot;},&quot;montrerCartouche&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Ouverture&quot;,&quot;label&quot;:&quot;Afficher l'en-tête au chargement&quot;},&quot;maisonsParPage&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:50,&quot;min&quot;:5,&quot;max&quot;:100,&quot;step&quot;:5,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Liste&quot;,&quot;label&quot;:&quot;Maisons par page&quot;}}">
 class Component extends DCLogic {
   state = { search: '', profession: '', ecoleOnly: false, expanded: {}, currentPage: 1, notes: {}, corrections: {}, activeYear: (this.props.anneeInitiale || '1871'), activeDivision: '2',
-            editMode: false, corrMaison: {}, corrFamille: {}, liens: {}, linkForm: {},
+            editMode: false, corrMaison: {}, corrFamille: {}, corrRapport: {}, liens: {}, linkForm: {},
             showAnnexe: false, annexeSearch: '', hypotheses: {}, hypForm: {}, propEtat: {},
             annexeSource: '', customEntries: [], showNewEntry: false, newEntry: {},
             annexeDetails: {}, photos: {}, editingEntry: null, editForm: {},
@@ -1162,9 +1165,10 @@ class Component extends DCLogic {
       const customEntries = JSON.parse(localStorage.getItem('suivi-annexe-batiments') || '[]');
       const annexeDetails = JSON.parse(localStorage.getItem('suivi-annexe-details') || '{}');
       const altAddresses = JSON.parse(localStorage.getItem('suivi-annexe-adresses') || '{}');
+      const corrRapport = JSON.parse(localStorage.getItem('suivi-corr-rapport') || '{}');
       const migres = this.migrerIdentifiants(corrections, liens);
       this.setState({ notes, corrections: migres.corrections, corrMaison, corrFamille, liens: migres.liens,
-        hypotheses, propEtat, customEntries, annexeDetails, altAddresses,
+        hypotheses, propEtat, customEntries, annexeDetails, altAddresses, corrRapport,
         migration: migres.rapport });
       this.loadPhotos();
       const token = localStorage.getItem('suivi-github-token') || '';
@@ -1545,6 +1549,24 @@ class Component extends DCLogic {
     return c ? { ...m, ...c } : m;
   }
 
+  /* Extraits du Rapport 1871 : le texte d'ANNEXE_RAPPORT n'est jamais modifié —
+     la correction vit dans sa propre couche, comme toutes les autres. */
+  updateRapport(cle, texte) {
+    this.setState(s => {
+      const corrRapport = { ...s.corrRapport, [cle]: texte };
+      this.save('suivi-corr-rapport', corrRapport);
+      return { corrRapport };
+    });
+  }
+
+  resetRapport(cle) {
+    this.setState(s => {
+      const corrRapport = { ...s.corrRapport }; delete corrRapport[cle];
+      this.save('suivi-corr-rapport', corrRapport);
+      return { corrRapport };
+    });
+  }
+
   /* Les statuts et notes étaient classés sous "noMaison-noFamille", sans l'année :
      la maison 1 famille 1 de 1871 et celle de 1891 partageaient la même fiche.
      Les nouvelles écritures portent l'année et la division ; la lecture retombe sur
@@ -1610,7 +1632,7 @@ class Component extends DCLogic {
 
   /* Sauvegarde complète — tout le travail personnel (localStorage) et les photos
      (IndexedDB) dans un seul fichier, réimportable sur un autre appareil. */
-  CLES_TRAVAIL = ['suivi-familles-notes', 'suivi-familles-corrections', 'suivi-corr-maison', 'suivi-corr-famille',
+  CLES_TRAVAIL = ['suivi-familles-notes', 'suivi-familles-corrections', 'suivi-corr-maison', 'suivi-corr-famille', 'suivi-corr-rapport',
     'suivi-liens', 'suivi-hypotheses-adresses', 'suivi-propositions-etat', 'suivi-annexe-batiments',
     'suivi-annexe-details', 'suivi-annexe-adresses', 'suivi-migration-ids-v1'];
 
@@ -1993,7 +2015,13 @@ class Component extends DCLogic {
       onToggleCartouche: () => this.setState(s => ({ showCartouche: !s.showCartouche })),
       showSauvegarde: this.state.showSauvegarde,
       sauvegardeBtnClass: this.state.showSauvegarde ? 'btn-primary' : 'btn-secondary',
-      onToggleSauvegarde: () => this.setState(s => ({ showSauvegarde: !s.showSauvegarde })),
+      onToggleSauvegarde: () => this.setState(s => {
+        const ouverture = !s.showSauvegarde;
+        /* Demande de Patrick : cliquer « Sauvegarde » pousse aussitôt vers GitHub,
+           sans second clic — à condition qu'un jeton soit enregistré. */
+        if (ouverture && s.githubToken && !s.pushEnCours) setTimeout(() => this.pousserVersGithub(), 50);
+        return { showSauvegarde: ouverture };
+      }),
       inventaire: this.inventaire(),
       fichesAmbigues: this.fichesAmbigues(),
       aFichesAmbigues: this.fichesAmbigues().length > 0,
@@ -2193,9 +2221,13 @@ class Component extends DCLogic {
           if (o0.nom && c0.nom && c0.nom !== o0.nom) chefLabel = chefLabel.split(o0.nom).join(c0.nom);
           if (o0.prenom && c0.prenom && c0.prenom !== o0.prenom) chefLabel = chefLabel.split(o0.prenom).join(c0.prenom);
         }
+        const rapportCorr = this.state.corrRapport[cleHeritee];
         return {
           hasRapport: !!rapport,
-          rapportTexte: rapport ? rapport.texte : '',
+          rapportTexte: rapportCorr != null ? rapportCorr : (rapport ? rapport.texte : ''),
+          rapportCorrige: rapportCorr != null,
+          onRapportChange: (e) => this.updateRapport(cleHeritee, e.target.value),
+          onRapportReset: () => this.resetRapport(cleHeritee),
           rapportFlags,
           ageAjustee,
           is1891: activeYear === '1891',
@@ -2266,7 +2298,7 @@ class Component extends DCLogic {
             marie12moisReleve: !est1881 && ('marie_12_mois' in m),
             marie12moisReleveNon: !est1881 && !('marie_12_mois' in m),
             marie12moisHorsFormulaire: est1881,
-            neDouzeMois: this.moisNaissance(m.age) || m.ne_douze_mois || '',
+            neDouzeMois: (m.ne_douze_mois != null && m.ne_douze_mois !== '' ? m.ne_douze_mois : this.moisNaissance(m.age)) || '',
             aDouzeMois: !!(this.moisNaissance(m.age) || m.ne_douze_mois),
             sansDouzeMois: !(this.moisNaissance(m.age) || m.ne_douze_mois),
             issuComplement: !!m.complement, noteComplement: m.complement_note || '',
@@ -2296,6 +2328,11 @@ class Component extends DCLogic {
             onNomChange: (e) => this.updateCorrection(m.id, 'nom', e.target.value),
             onSexeChange: (e) => this.updateCorrection(m.id, 'sexe', e.target.value),
             onAgeChange: (e) => this.updateCorrection(m.id, 'age', e.target.value),
+            onNe12Change: (e) => this.updateCorrection(m.id, 'ne_douze_mois', e.target.value),
+            onLieuNaissanceChange: (e) => this.updateCorrection(m.id, 'lieu_naissance', e.target.value),
+            onReligionChange: (e) => this.updateCorrection(m.id, 'religion', e.target.value),
+            onOrigineChange: (e) => this.updateCorrection(m.id, 'origine', e.target.value),
+            onRemarqueChange: (e) => this.updateCorrection(m.id, 'remarque', e.target.value),
             onEtatChange: (e) => this.updateCorrection(m.id, 'etat_matrimonial', e.target.value),
             onProfessionChange: (e) => this.updateCorrection(m.id, 'profession', e.target.value),
             onEcoleChange: () => this.updateCorrection(m.id, 'ecole', !m.ecole),
