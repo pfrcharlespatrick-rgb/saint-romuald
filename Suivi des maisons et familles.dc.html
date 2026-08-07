@@ -677,7 +677,7 @@ a:hover{color:var(--color-accent-900)}
                   <p style="font-size:11px;color:var(--color-neutral-700);margin:0 0 6px">Cliquez un champ pour corriger une lecture ; ⚠ signale une transcription incertaine.</p>
                   <div style="overflow-x:auto;min-width:0;max-width:100%">
                   <table class="table" style="margin-bottom:var(--space-3)">
-                    <thead><tr><th>Page</th><th>Ligne</th><th>Prénom</th><th>Nom</th><th>Sexe</th><th>Âge</th><sc-if value="{{ fam.montrerNe12 }}" hint-placeholder-val="{{ true }}"><th title="Colonne 10 du formulaire : mois de naissance des enfants nés dans les douze mois précédant le recensement">Né 12 mois</th></sc-if><sc-if value="{{ fam.is1891 }}" hint-placeholder-val="{{ false }}"><th>Lien avec chef</th></sc-if><th>Lieu naissance</th><th>État matrim.</th><sc-if value="{{ !fam.is1891 }}" hint-placeholder-val="{{ true }}"><th>Marié 12 mois</th></sc-if><th>Religion</th><th>Origine</th><th>Profession</th><th>École</th><th>Lit/Écrit</th><th>Sourd-muet</th><th>Aveugle</th><th>Aliéné</th><th>Remarque</th><th></th></tr></thead>
+                    <thead><tr><th>Page</th><th>Ligne</th><th>Prénom</th><th>Nom</th><th>Sexe</th><th>Âge</th><sc-if value="{{ fam.montrerNe12 }}" hint-placeholder-val="{{ true }}"><th title="Colonne 10 du formulaire : mois de naissance des enfants nés dans les douze mois précédant le recensement">Né 12 mois</th></sc-if><sc-if value="{{ fam.is1891 }}" hint-placeholder-val="{{ false }}"><th>Lien avec chef</th></sc-if><th>Lieu naissance</th><th>État matrim.</th><sc-if value="{{ !fam.is1891 }}" hint-placeholder-val="{{ true }}"><th>Marié 12 mois</th></sc-if><th>Religion</th><th>Origine</th><th>Profession</th><th>École</th><th title="1871 : colonne « 20 ans et plus, ne sachant pas lire / ne sachant pas écrire » — relevée pour les adultes seulement">Lit/Écrit</th><th>Sourd-muet</th><th>Aveugle</th><th>Aliéné</th><th>Remarque</th><th></th></tr></thead>
                     <tbody>
                       <sc-for list="{{ fam.membres }}" as="m" hint-placeholder-count="2">
                         <tr style="{{ m.rowStyle }}" style-hover="background:var(--color-neutral-100)">
@@ -719,6 +719,9 @@ a:hover{color:var(--color-accent-900)}
                             <sc-if value="{{ m.alphaReleve }}" hint-placeholder-val="{{ true }}">
                               <label style="display:flex;align-items:center;gap:4px;white-space:nowrap"><input type="checkbox" checked="{{ m.saitLire }}" onChange="{{ m.onSaitLireChange }}"></input>Sait lire</label>
                               <label style="display:flex;align-items:center;gap:4px;white-space:nowrap"><input type="checkbox" checked="{{ m.saitEcrire }}" onChange="{{ m.onSaitEcrireChange }}"></input>Sait écrire</label>
+                            </sc-if>
+                            <sc-if value="{{ m.alphaHorsChamp1871 }}" hint-placeholder-val="{{ false }}">
+                              <span title="Formulaire de 1871 : « 20 ans et plus, ne sachant pas lire / ne sachant pas écrire ». La question n'était pas posée aux moins de 20 ans — le « sait lire » issu de l'uniformisation n'est pas une donnée du manuscrit." style="color:var(--color-neutral-500)">s.o. — moins de 20 ans</span>
                             </sc-if>
                             <sc-if value="{{ m.alphaReleveNon }}" hint-placeholder-val="{{ false }}">
                               <span title="colonne non dépouillée — l'information n'a pas été relevée au manuscrit" style="color:var(--color-neutral-500)">—</span>
@@ -1927,6 +1930,18 @@ class Component extends DCLogic {
   /* Colonne 10 du formulaire : le mois de naissance des bébés de moins d'un an a été
      saisi entre parenthèses dans l'âge (« 0 (mars) »). On l'extrait pour l'afficher
      dans sa propre colonne, sans rien modifier aux données. */
+  /* 1871 : la colonne du formulaire est « 20 ans et plus, ne sachant pas lire /
+     ne sachant pas écrire ». Pour les moins de 20 ans, le « sait lire : oui » issu
+     de l'uniformisation n'est pas une donnée du manuscrit — la question n'était
+     pas posée. On l'affiche « s.o. » ; mais une marque réelle du recenseur
+     (valeur à faux), elle, n'est jamais cachée. */
+  alphaHorsChamp(annee, m) {
+    if (annee !== '1871' || !('sait_lire' in m)) return false;
+    const a = parseInt(m.age);
+    if (isNaN(a) || a >= 20) return false;
+    return m.sait_lire !== false && m.sait_ecrire !== false;
+  }
+
   moisNaissance(age) {
     const m = /\(([^)]+)\)/.exec(String(age == null ? '' : age));
     return m ? m[1] : '';
@@ -2304,7 +2319,8 @@ class Component extends DCLogic {
             /* Trois états par colonne : relevée / non dépouillée / absente du formulaire.
                Le formulaire de 1881 ne comportait pas de colonne d'alphabétisation ni de
                « marié dans les 12 mois » — vérifié sur le manuscrit (Tableau no 1, col. 1-20). */
-            alphaReleve: !est1881 && ('sait_lire' in m),
+            alphaReleve: !est1881 && ('sait_lire' in m) && !this.alphaHorsChamp(activeYear, m),
+            alphaHorsChamp1871: this.alphaHorsChamp(activeYear, m),
             alphaReleveNon: !est1881 && !('sait_lire' in m),
             alphaHorsFormulaire: est1881,
             ecoleReleve: ('ecole' in m), ecoleReleveNon: !('ecole' in m),

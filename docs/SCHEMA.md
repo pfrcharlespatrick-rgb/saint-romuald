@@ -30,6 +30,16 @@ Le formulaire de 1871 posait la question à l'envers (« ne lit pas ») ; la con
 est enregistrée dans `alphabetisation_source` (`negatif_1871` ou `positif_1891`)
 pour que la provenance reste vérifiable.
 
+> **La colonne de 1871 ne concerne que les adultes.** Son intitulé exact est
+> « 20 ans et plus, ne sachant pas lire / ne sachant pas écrire ». Pour les
+> 1 570 personnes de moins de 20 ans, le `sait_lire: true` produit par la
+> conversion n'est **pas une donnée du manuscrit** — la question ne leur était
+> pas posée. **Ne jamais agréger `sait_lire`/`sait_ecrire` de 1871 sans
+> filtrer `age >= 20`.** L'atelier affiche « s.o. » pour ces lignes. Deux
+> mineurs (Gagné Frédéric, 13 ans, et Guillot Jean, 16 ans, division 2)
+> portent une marque réelle du recenseur malgré la consigne du formulaire ;
+> leurs valeurs à `false` sont conservées et affichées.
+
 > **`ne_lit_pas` et `n_ecrit_pas` n'existent plus du tout** — ils ont été supprimés
 > des 2 997 fiches de 1871, pas seulement doublés. Si tu les cherches, tu ne les
 > trouveras nulle part, et toute lecture qui les vise renverra `undefined`, donc
