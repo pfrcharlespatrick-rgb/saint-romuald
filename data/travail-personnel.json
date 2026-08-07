@@ -1,7 +1,7 @@
 {
  "format": "suivi-saint-romuald-travail",
  "version": 1,
- "exporte": "2026-08-07T17:14:30.164Z",
+ "exporte": "2026-08-07T17:45:07.707Z",
  "donnees": {
   "suivi-familles-notes": {
    "1881-2-72-80": {
@@ -161,6 +161,246 @@
     "text": ""
    },
    "1881-2-37-44": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-1-1": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-2-2": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-4-4": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-5-5": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-3-3": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-6-6": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-7-7": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-8-8": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-9-10": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-8-9": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-10-11": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-11-12": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-12-13": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-13-14": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-15-16": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-15-17": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-16-18": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-17-19": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-18-20": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-18-21": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-19-22": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-20-23": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-21-24": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-22-25": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-22-26": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-23-27": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-23-28": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-24-29": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-25-30": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-25-31 [?]": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-26-33": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-27-34": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-28-35": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-29-36": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-30-37": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-31-38": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-32-39": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-33-40": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-34-41": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-35-42": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-36-43": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-37-44": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-38-45": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-39-46": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-40-48": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-40-47": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-41-49": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-42-50": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-42-51": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-42-52": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-44-54": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-45-55": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-46-56": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-46-57": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-47-58": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-48-59": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-48-60": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-49-61": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-50-62": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-43-53": {
     "status": "confirme",
     "text": ""
    }
@@ -560,17 +800,39 @@
    },
    "1871-D2-P001-L20": {
     "etat_matrimonial": "M",
-    "profession": "Journalier"
+    "profession": "Journalier",
+    "lieu_naissance": "Q",
+    "religion": "Catholique",
+    "origine": "Française",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P001-L11": {
     "etat_matrimonial": "M",
-    "profession": "Journalier"
+    "profession": "Journalier",
+    "sexe": "M",
+    "lieu_naissance": "Québec",
+    "religion": "Catholique",
+    "origine": "Française",
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L12": {
-    "etat_matrimonial": "M"
+    "etat_matrimonial": "M",
+    "sexe": "F",
+    "lieu_naissance": "Québec",
+    "religion": "Catholique",
+    "origine": "Française",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P001-L01": {
-    "profession": "Cultivateur"
+    "profession": "Cultivateur",
+    "sexe": "M",
+    "lieu_naissance": "Québec",
+    "etat_matrimonial": "M",
+    "religion": "Catholique",
+    "origine": "Française"
    },
    "1871-D2-P002-L09": {
     "marie_12_mois": false
@@ -1114,6 +1376,116 @@
    "1871-D2-P020-L08": {
     "incertain": false,
     "nom": "Peltier "
+   },
+   "1871-D2-P001-L02": {
+    "sexe": "F",
+    "lieu_naissance": "Québec",
+    "origine": "Française",
+    "religion": "Catholique",
+    "etat_matrimonial": "M"
+   },
+   "1871-D2-P001-L03": {
+    "sexe": "M",
+    "lieu_naissance": "Québec",
+    "origine": "Française",
+    "religion": "Catholique"
+   },
+   "1871-D2-P001-L04": {
+    "sexe": "M",
+    "lieu_naissance": "Québec",
+    "origine": "Française",
+    "religion": "Catholique"
+   },
+   "1871-D2-P001-L05": {
+    "sexe": "M",
+    "lieu_naissance": "Québec",
+    "origine": "Française",
+    "religion": "Catholique"
+   },
+   "1871-D2-P001-L06": {
+    "sexe": "F",
+    "lieu_naissance": "Québec",
+    "origine": "Française",
+    "religion": "Catholique",
+    "ecole": true
+   },
+   "1871-D2-P001-L07": {
+    "sexe": "M",
+    "lieu_naissance": "Québec",
+    "origine": "Française",
+    "religion": "Catholique",
+    "ecole": true
+   },
+   "1871-D2-P001-L08": {
+    "sexe": "M",
+    "lieu_naissance": "Québec",
+    "origine": "Française",
+    "religion": "Catholique",
+    "ecole": true
+   },
+   "1871-D2-P001-L09": {
+    "sexe": "M",
+    "lieu_naissance": "Québec",
+    "origine": "Française",
+    "religion": "Catholique",
+    "ecole": true
+   },
+   "1871-D2-P001-L10": {
+    "sexe": "F",
+    "lieu_naissance": "Québec",
+    "origine": "Française",
+    "religion": "Catholique"
+   },
+   "1871-D2-P001-L19": {
+    "sexe": "F",
+    "lieu_naissance": "Québec",
+    "religion": "Catholique",
+    "origine": "Française"
+   },
+   "1871-D2-P001-L18": {
+    "sexe": "F",
+    "lieu_naissance": "Québec",
+    "religion": "Catholique",
+    "origine": "Française",
+    "ecole": true
+   },
+   "1871-D2-P001-L17": {
+    "sexe": "F",
+    "lieu_naissance": "Québec",
+    "religion": "Catholique",
+    "origine": "Française",
+    "ecole": true
+   },
+   "1871-D2-P001-L16": {
+    "sexe": "F",
+    "lieu_naissance": "Québec",
+    "religion": "Catholique",
+    "origine": "Française"
+   },
+   "1871-D2-P001-L15": {
+    "sexe": "F",
+    "lieu_naissance": "Québec",
+    "religion": "Catholique",
+    "origine": "Française"
+   },
+   "1871-D2-P001-L14": {
+    "sexe": "M",
+    "lieu_naissance": "Québec",
+    "religion": "Catholique",
+    "origine": "Française"
+   },
+   "1871-D2-P001-L13": {
+    "sexe": "M",
+    "lieu_naissance": "Québec",
+    "religion": "Catholique",
+    "origine": "Française",
+    "ecole": true
+   },
+   "1871-D2-P002-L01": {
+    "origine": "Française"
+   },
+   "1871-D2-P002-L02": {
+    "origine": "Française"
    }
   },
   "suivi-corr-maison": {
@@ -1123,6 +1495,14 @@
    "1871-2-25": {
     "colonne": "3"
    }
+  },
+  "suivi-corr-famille": {
+   "1871-2-25-31 [?]": {
+    "no_famille": "31 "
+   }
+  },
+  "suivi-corr-rapport": {
+   "1-1": ""
   },
   "suivi-liens": {
    "1871-D2-P030-L18": [
@@ -1159,17 +1539,8 @@
     }
    ]
   },
-  "suivi-annexe-batiments": [
-   {
-    "id": "perso-1616-chemin-du-fleuve",
-    "adresse": "1617 chemin du Fleuve",
-    "titre": "Maison de Louis Demers",
-    "annee": "",
-    "personnages": "Louis Demers ; Éléonore Demers (Roberge), son épouse ; Léocadie Demers (Beaudoin) ; Alphonse Demers",
-    "resume": "Source\nLes informations proviennent des testaments de Louis Demers et de Léocadie Beaudoin, conservés par leur arrière-petite-fille :\nDanielle Demers (née en 1958)\nPropriétaire actuelle des lieux.\n________________________________________\nOrigine de la propriété\nDans le recensement de 1871 Louis Demers (27 ans) et Léocadie Beaudoin (24 ans) partage la maison avec Benjamin (26 ans) et Philomène (27 ans). \nLouis Demers (1844–1912)\nOriginaire de Saint-Jean-Chrysostome, Louis Demers lègue, par testament en 1912, la maison du lot 529 à son épouse.\nLéocadie Beaudoin (1846–1931)\nNée à Beauport, elle assure la continuité familiale après le décès de son mari.\nMariés le 15 juin 1908, ils sont les parents d’une nombreuse famille, dont :\n👉 Alphonse Demers. Les autres frères et sœurs sont, Charles, Joseph, Ernest, Alfred, Malcolm\n________________________________________\nTransmission familiale\nAlphonse Demers (1887-1958)\nFils de Louis et Léocadie, il devient propriétaire de la maison familiale.\nIl épouse :\nÉléonore Roberge (1888-1938)\nFille de David Roberge (1862-1948) et d’Éléonore Couture (1862-1933).\n________________________________________\nValmore Demers (1926-1992)\nFils d’Alphonse et d’Éléonore, il hérite à son tour de la propriété. Les autres frères et sœurs sont Marie-Berthe, Marcel, Maurice, Laurier, Florence, Cécile, Pierre. \n________________________________________\nDanielle Demers\nFille adoptive de Valmore, elle est aujourd’hui l’héritière du patrimoine familliale au 1617/1619 chemin du Fleuve.\n",
-    "source": "Patrick Blanchet"
-   }
-  ],
+  "suivi-hypotheses-adresses": {},
+  "suivi-annexe-batiments": [],
   "suivi-annexe-details": {
    "perso-1616-chemin-du-fleuve": {
     "lot": "529",
@@ -1188,12 +1559,6 @@
    "liens": 0,
    "orphelins": 0,
    "date": "2026-07-28"
-  },
-  "suivi-corr-famille": {
-   "1871-2-25-31 [?]": {
-    "no_famille": "31 "
-   }
   }
- },
- "note": "Complété le 2026-08-05 depuis le fichier corrections-recensement.json fourni par Patrick — la séance 1871 n'avait pas été poussée."
+ }
 }
