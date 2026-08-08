@@ -721,7 +721,7 @@ a:hover{color:var(--color-accent-900)}
                               <label style="display:flex;align-items:center;gap:4px;white-space:nowrap"><input type="checkbox" checked="{{ m.saitEcrire }}" onChange="{{ m.onSaitEcrireChange }}"></input>Sait écrire</label>
                             </sc-if>
                             <sc-if value="{{ m.alphaHorsChamp1871 }}" hint-placeholder-val="{{ false }}">
-                              <span title="Formulaire de 1871 : « 20 ans et plus, ne sachant pas lire / ne sachant pas écrire ». La question n'était pas posée aux moins de 20 ans — le « sait lire » issu de l'uniformisation n'est pas une donnée du manuscrit." style="color:var(--color-neutral-500)">s.o. — moins de 20 ans</span>
+                              <span title="Formulaire de 1871 : « 20 ans et plus, ne sachant pas lire / ne sachant pas écrire ». La question n'était pas posée aux moins de 20 ans — le « sait lire » issu de l'uniformisation n'est pas une donnée du manuscrit." style="color:var(--color-neutral-500)">s.o. — moins de 20 ans</span><sc-if value="{{ m.alphaMarqueMineur }}" hint-placeholder-val="{{ false }}"><span title="Le recenseur a tout de même porté une marque sur cette ligne, malgré la consigne du formulaire. La valeur reste dans les données." style="margin-left:4px;cursor:help">⚠</span></sc-if>
                             </sc-if>
                             <sc-if value="{{ m.alphaReleveNon }}" hint-placeholder-val="{{ false }}">
                               <span title="colonne non dépouillée — l'information n'a pas été relevée au manuscrit" style="color:var(--color-neutral-500)">—</span>
@@ -829,35 +829,6 @@ a:hover{color:var(--color-accent-900)}
                     </div>
                   </sc-if>
 
-                  <sc-if value="{{ fam.hasRapport }}" hint-placeholder-val="{{ false }}">
-                    <div class="card" style="padding:var(--space-3);margin-bottom:var(--space-3);background:var(--color-accent-100);border-color:var(--color-accent-300)">
-                      <div style="font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.02em;text-transform:uppercase;color:var(--color-accent-700);margin-bottom:6px">Rapport 1871 — extrait</div>
-                      <textarea class="input" rows="3" style="width:100%;font-size:13px;line-height:1.5;margin:0 0 8px;background:transparent;resize:vertical" value="{{ fam.rapportTexte }}" onChange="{{ fam.onRapportChange }}"></textarea>
-                      <sc-if value="{{ fam.rapportCorrige }}" hint-placeholder-val="{{ false }}">
-                        <div style="margin:0 0 8px"><button type="button" class="btn btn-ghost" style="padding:2px 10px;font-size:12px" onClick="{{ fam.onRapportReset }}">Revenir au texte d’origine</button></div>
-                      </sc-if>
-                      <sc-for list="{{ fam.rapportFlags }}" as="flag" hint-placeholder-count="0">
-                        <div style="font-size:12px;color:var(--color-accent-2-900);padding:2px 0">⚠ {{ flag.message }}</div>
-                      </sc-for>
-                    </div>
-                  </sc-if>
-
-                  <div style="display:grid;grid-template-columns:auto 1fr;gap:var(--space-3);align-items:start">
-                    <div class="field" style="min-width:170px">
-                      <label for="{{ fam.statusId }}">Statut de suivi</label>
-                      <select class="input" id="{{ fam.statusId }}" value="{{ fam.noteStatus }}" onChange="{{ fam.onStatusChange }}">
-                        <option value="a_verifier">À vérifier</option>
-                        <option value="en_cours">En cours</option>
-                        <option value="confirme">Confirmé</option>
-                      </select>
-                    </div>
-                    <div class="field">
-                      <label for="{{ fam.noteId }}">Notes personnelles</label>
-                      <textarea class="input" id="{{ fam.noteId }}" rows="2" placeholder="Vos observations sur cette famille…" value="{{ fam.noteText }}" onInput="{{ fam.onNoteChange }}"></textarea>
-                    </div>
-                  </div>
-                </div>
-              </sc-if>
             </div>
           </sc-for>
         </div>
@@ -1017,7 +988,7 @@ a:hover{color:var(--color-accent-900)}
 <script type="text/x-dc" data-dc-script data-props="{&quot;anneeInitiale&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;1871&quot;,&quot;1881&quot;,&quot;1891&quot;],&quot;default&quot;:&quot;1871&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Ouverture&quot;,&quot;label&quot;:&quot;Recensement à l'ouverture&quot;},&quot;montrerCartouche&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Ouverture&quot;,&quot;label&quot;:&quot;Afficher l'en-tête au chargement&quot;},&quot;maisonsParPage&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:50,&quot;min&quot;:5,&quot;max&quot;:100,&quot;step&quot;:5,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Liste&quot;,&quot;label&quot;:&quot;Maisons par page&quot;}}">
 class Component extends DCLogic {
   state = { search: '', profession: '', ecoleOnly: false, expanded: {}, currentPage: 1, notes: {}, corrections: {}, activeYear: (this.props.anneeInitiale || '1871'), activeDivision: '2',
-            editMode: false, corrMaison: {}, corrFamille: {}, corrRapport: {}, liens: {}, linkForm: {},
+            editMode: false, corrMaison: {}, corrFamille: {}, liens: {}, linkForm: {},
             showAnnexe: false, annexeSearch: '', hypotheses: {}, hypForm: {}, propEtat: {},
             annexeSource: '', customEntries: [], showNewEntry: false, newEntry: {},
             annexeDetails: {}, photos: {}, editingEntry: null, editForm: {},
@@ -1168,10 +1139,9 @@ class Component extends DCLogic {
       const customEntries = JSON.parse(localStorage.getItem('suivi-annexe-batiments') || '[]');
       const annexeDetails = JSON.parse(localStorage.getItem('suivi-annexe-details') || '{}');
       const altAddresses = JSON.parse(localStorage.getItem('suivi-annexe-adresses') || '{}');
-      const corrRapport = JSON.parse(localStorage.getItem('suivi-corr-rapport') || '{}');
       const migres = this.migrerIdentifiants(corrections, liens);
       this.setState({ notes, corrections: migres.corrections, corrMaison, corrFamille, liens: migres.liens,
-        hypotheses, propEtat, customEntries, annexeDetails, altAddresses, corrRapport,
+        hypotheses, propEtat, customEntries, annexeDetails, altAddresses,
         migration: migres.rapport });
       this.loadPhotos();
       const token = localStorage.getItem('suivi-github-token') || '';
@@ -1552,23 +1522,6 @@ class Component extends DCLogic {
     return c ? { ...m, ...c } : m;
   }
 
-  /* Extraits du Rapport 1871 : le texte d'ANNEXE_RAPPORT n'est jamais modifié —
-     la correction vit dans sa propre couche, comme toutes les autres. */
-  updateRapport(cle, texte) {
-    this.setState(s => {
-      const corrRapport = { ...s.corrRapport, [cle]: texte };
-      this.save('suivi-corr-rapport', corrRapport);
-      return { corrRapport };
-    });
-  }
-
-  resetRapport(cle) {
-    this.setState(s => {
-      const corrRapport = { ...s.corrRapport }; delete corrRapport[cle];
-      this.save('suivi-corr-rapport', corrRapport);
-      return { corrRapport };
-    });
-  }
 
   /* Les statuts et notes étaient classés sous "noMaison-noFamille", sans l'année :
      la maison 1 famille 1 de 1871 et celle de 1891 partageaient la même fiche.
@@ -1635,7 +1588,7 @@ class Component extends DCLogic {
 
   /* Sauvegarde complète — tout le travail personnel (localStorage) et les photos
      (IndexedDB) dans un seul fichier, réimportable sur un autre appareil. */
-  CLES_TRAVAIL = ['suivi-familles-notes', 'suivi-familles-corrections', 'suivi-corr-maison', 'suivi-corr-famille', 'suivi-corr-rapport',
+  CLES_TRAVAIL = ['suivi-familles-notes', 'suivi-familles-corrections', 'suivi-corr-maison', 'suivi-corr-famille',
     'suivi-liens', 'suivi-hypotheses-adresses', 'suivi-propositions-etat', 'suivi-annexe-batiments',
     'suivi-annexe-details', 'suivi-annexe-adresses', 'suivi-migration-ids-v1'];
 
@@ -1938,8 +1891,17 @@ class Component extends DCLogic {
   alphaHorsChamp(annee, m) {
     if (annee !== '1871' || !('sait_lire' in m)) return false;
     const a = parseInt(m.age);
-    if (isNaN(a) || a >= 20) return false;
-    return m.sait_lire !== false && m.sait_ecrire !== false;
+    return !isNaN(a) && a < 20;
+  }
+
+  /* Rarissime : le recenseur a porté une marque sur un mineur malgré la consigne
+     du formulaire. On la signale sans rouvrir les cases. Testé sur la fiche
+     d'origine, pas sur la version corrigée — une case décochée par Patrick n'est
+     pas une marque du recenseur. */
+  alphaMarqueMineur(annee, orig) {
+    if (annee !== '1871' || !orig) return false;
+    const a = parseInt(orig.age);
+    return !isNaN(a) && a < 20 && (orig.sait_lire === false || orig.sait_ecrire === false);
   }
 
   moisNaissance(age) {
@@ -2249,13 +2211,8 @@ class Component extends DCLogic {
           if (o0.nom && c0.nom && c0.nom !== o0.nom) chefLabel = chefLabel.split(o0.nom).join(c0.nom);
           if (o0.prenom && c0.prenom && c0.prenom !== o0.prenom) chefLabel = chefLabel.split(o0.prenom).join(c0.prenom);
         }
-        const rapportCorr = this.state.corrRapport[cleHeritee];
         return {
           hasRapport: !!rapport,
-          rapportTexte: rapportCorr != null ? rapportCorr : (rapport ? rapport.texte : ''),
-          rapportCorrige: rapportCorr != null,
-          onRapportChange: (e) => this.updateRapport(cleHeritee, e.target.value),
-          onRapportReset: () => this.resetRapport(cleHeritee),
           rapportFlags,
           ageAjustee,
           is1891: activeYear === '1891',
@@ -2309,7 +2266,7 @@ class Component extends DCLogic {
           statusLabel: meta.label, statusTagClass: meta.cls,
           statusId: 'status-' + key, noteId: 'note-' + key,
           montrerNe12: !is1891Year,
-          membres: merged.map(m => ({
+          membres: merged.map((m, iM) => ({
             id: m.id, page_ms: m.page_ms || '', ligne: m.ligne || '',
             prenom: m.prenom, nom: m.nom, sexe: m.sexe || '', age: m.age || '',
             etat_matrimonial: m.etat_matrimonial || '',
@@ -2321,6 +2278,7 @@ class Component extends DCLogic {
                « marié dans les 12 mois » — vérifié sur le manuscrit (Tableau no 1, col. 1-20). */
             alphaReleve: !est1881 && ('sait_lire' in m) && !this.alphaHorsChamp(activeYear, m),
             alphaHorsChamp1871: this.alphaHorsChamp(activeYear, m),
+            alphaMarqueMineur: this.alphaMarqueMineur(activeYear, f.membres[iM]),
             alphaReleveNon: !est1881 && !('sait_lire' in m),
             alphaHorsFormulaire: est1881,
             ecoleReleve: ('ecole' in m), ecoleReleveNon: !('ecole' in m),
