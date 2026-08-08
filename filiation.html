@@ -121,10 +121,11 @@
     <div class="etiquette-section">Recherche</div>
     <h2 class="section">Suivre une personne dans le temps</h2>
     <p class="intro">
-      Cherchez un nom : chaque personne trouvée est présentée avec sa trajectoire
-      d'un recensement à l'autre, et les indices qui ont permis de la reconnaître.
-      Les rapprochements sont calculés, non prouvés — la colonne de confiance dit
-      ce qu'ils valent.
+      Cherchez un nom, ou laissez le champ vide pour parcourir les
+      2 015 trajectoires. Chacune est présentée d'un recensement à l'autre avec
+      les indices qui ont permis de reconnaître la personne. Les rapprochements
+      sont calculés, non prouvés — la colonne de confiance dit ce qu'ils valent,
+      et les boutons Confirmer / Écarter tranchent.
     </p>
 
     <div style="display:flex;gap:var(--space-3);align-items:flex-end;flex-wrap:wrap;margin-bottom:var(--space-4)">
@@ -517,10 +518,14 @@
   var zoneResultats = document.getElementById('resultats');
   var RANG_CONF = { forte: 3, moyenne: 2, faible: 1, indicative: 0 };
 
-  function rechercher() {
+  var PAS_TRAJ = 50;      // trajectoires ajoutées à chaque « en voir plus »
+  var limiteTraj = PAS_TRAJ;
+
+  function rechercher(garderLimite) {
+    if (!garderLimite) limiteTraj = PAS_TRAJ;
     var q = sansAccents(champ.value.trim());
-    if (q.length < 2) {
-      zoneResultats.innerHTML = '<div class="vide-msg">Saisissez au moins deux caractères.</div>';
+    if (q.length === 1) {
+      zoneResultats.innerHTML = '<div class="vide-msg">Saisissez au moins deux caractères — ou videz le champ pour voir toutes les trajectoires.</div>';
       return;
     }
     var seuil = filtreConf.value;
@@ -529,14 +534,17 @@
     var vues = Object.create(null), trouves = [];
     for (var id in personnes) {
       var p = personnes[id];
-      var foin = sansAccents(nomComplet(p) + ' ' + p.profession);
-      if (foin.indexOf(q) === -1) continue;
+      if (q) {
+        var foin = sansAccents(nomComplet(p) + ' ' + p.profession);
+        if (foin.indexOf(q) === -1) continue;
+      } else if (!entrant[id] && !sortant[id]) {
+        continue;   // champ vide : on ne liste que les personnes reliées
+      }
       var chaine = chaineDe(id);
       var tete = chaine[0].id;
       if (vues[tete]) continue;
       vues[tete] = true;
       trouves.push(chaine);
-      if (trouves.length >= 60) break;
     }
 
     if (seuil !== 'toutes') {
@@ -547,14 +555,41 @@
     }
 
     if (!trouves.length) {
-      zoneResultats.innerHTML = '<div class="vide-msg">Aucune personne ne correspond.</div>';
+      zoneResultats.innerHTML = '<div class="vide-msg">' +
+        (q ? 'Aucune personne ne correspond.' : 'Aucune trajectoire à ce niveau de confiance.') + '</div>';
       return;
     }
 
-    trouves.sort(function (a, b) { return b.length - a.length; });
+    /* Les plus longues d'abord, puis par nom : sans second critère l'ordre
+       dépendrait du parcours de l'objet, et la liste sauterait d'un affichage
+       à l'autre — insupportable quand on la parcourt page par page. */
+    trouves.sort(function (a, b) {
+      if (b.length !== a.length) return b.length - a.length;
+      var pa = personnes[a[0].id], pb = personnes[b[0].id];
+      return nomComplet(pa).localeCompare(nomComplet(pb), 'fr');
+    });
+
+    var total = trouves.length;
+    var visibles = trouves.slice(0, limiteTraj);
+    var entete = q
+      ? total + ' trajectoire(s) trouvée(s)'
+      : total + ' trajectoire(s) — toutes, les plus longues d’abord';
+    if (total > visibles.length) entete += ' · ' + visibles.length + ' affichée(s)';
+
     zoneResultats.innerHTML =
-      '<p class="intro">' + trouves.length + ' trajectoire(s) — les plus longues d’abord.</p>' +
-      trouves.map(rendreTrajectoire).join('');
+      '<p class="intro">' + entete + '.</p>' +
+      visibles.map(rendreTrajectoire).join('') +
+      (total > visibles.length
+        ? '<div style="text-align:center;margin:var(--space-4) 0"><button type="button" class="btn btn-secondary" id="voir-plus-traj">' +
+          'Afficher ' + Math.min(PAS_TRAJ, total - visibles.length) + ' trajectoires de plus</button></div>'
+        : '');
+
+    var boutonPlus = document.getElementById('voir-plus-traj');
+    if (boutonPlus) boutonPlus.addEventListener('click', function () {
+      limiteTraj += PAS_TRAJ;
+      rechercher(true);
+      window.scrollBy({ top: 200 });
+    });
   }
 
   function rendreTrajectoire(chaine) {
@@ -737,7 +772,7 @@
       var deId = conteneur.getAttribute('data-de'), versId = conteneur.getAttribute('data-vers');
       var courant = (sortant[deId] && sortant[deId].vers === versId) ? sortant[deId] : { de: deId, vers: versId, confiance: 'calcule' };
       var fn = ACTIONS_LIEN[bouton.getAttribute('data-action')];
-      if (fn) { fn(courant); rechercher(); apresValidation(); }
+      if (fn) { fn(courant); rechercher(true); apresValidation(); }
     });
   }
   brancherActionsLien(zoneResultats);
@@ -915,7 +950,7 @@
     .then(function (m) {
       var docs = (m && m.documents) || [];
       indexerDocuments(docs);
-      rechercher();          // les preuves apparaissent sur les trajectoires déjà affichées
+      rechercher(true);      // les preuves apparaissent sur les trajectoires déjà affichées
       rendreBibliographie(); // et sur la bibliographie, si une lettre ou un filtre est actif
 
       if (!docs.length) {
@@ -1095,7 +1130,7 @@
   rendreControles('sexe');
   rendreAlphaNav();
   rendreBibliographie();
-  champ.value = 'Lee';
+  // Champ vide à l'ouverture : on arrive sur les 2 015 trajectoires, pas sur un exemple.
   rechercher();
 })();
 </script>
