@@ -9,12 +9,12 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Pages confrontées : **1 à 45**. Corrections appliquées : **63** (59 noms ou prénoms,
-4 âges). Lignes signalées sans correction : **29**.
+Pages confrontées : **1 à 46**. Corrections appliquées : **67** (62 noms ou prénoms,
+5 âges). Lignes signalées sans correction : **31**.
 
 ## Ce qui est confirmé
 
-La structure est juste sur les 45 pages : 25 lignes chacune, familles 1 à 192 dans
+La structure est juste sur les 46 pages : 25 lignes chacune, familles 1 à 197 dans
 l'ordre, numéros de maison alignés, liens de parenté et professions conformes.
 Le dépouillement de 1891 est nettement plus fiable que celui de 1881 — les écarts
 ci-dessous sont des variantes de lecture, non des inventions.
@@ -23,6 +23,18 @@ Détails vérifiés au passage : le code de logement de la colonne 4 (« B 2/6 �
 2 étages, 6 chambres) est bien enregistré ; les origines étrangères sont exactes
 (Ahern né en Irlande p. 13, Fox né aux États-Unis p. 18) ; les liens rares sont
 justes (belle-sœur, bru, gendre, petit-fils, pensionnaire, cousine).
+
+## « Éléonarde » n'existe pas : c'est Elmire
+
+Le fichier contient **cinq « Éléonarde » et huit « Elmire »**. Sur les pages 44, 45 et
+46, dont les images sont disponibles, le tracé se lit « Elmiard » ou « Elimard » —
+c'est-à-dire **Elmire**, prénom courant au Québec, là où « Éléonarde » n'existe pas.
+Le dépouilleur a vraisemblablement rendu de deux façons le même mot manuscrit.
+
+Les trois occurrences vérifiées sont corrigées. **Les deux autres — page 48 ligne 1 et
+page 66 ligne 15 — sont conservées** : leurs pages n'ont pas encore été fournies en
+image, et corriger sans le document serait de l'inférence, non une lecture. À
+reprendre quand ces pages arriveront.
 
 ## Question n° 3 — une ligne biffée au manuscrit, transcrite quand même
 
@@ -101,8 +113,6 @@ n'a été appliqué.
 - **Page 41 ligne 14** : « Delard » — la même forme a été lue Adelard page 29, mais
   ici le manuscrit porte bien Delard. Non harmonisé.
 - **Page 44 ligne 11** : « Aterne » ou « Alerne ».
-- **Page 44 ligne 24 · page 45 ligne 2** : « Éléonarde » — le manuscrit se lit plutôt
-  « Clemard » ou « Elemard ». La grand-mère et la petite-fille portent le même prénom.
 - **Page 43 ligne 17** : « Desoada » ou « Deroada ».
 
 Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
@@ -178,6 +188,7 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 40 L10 | Côté Perpetude | Perpétue |
 | **40 L24** | Lebel **« S Baptiste »** | **J.Baptiste** — le J de ce recenseur |
 | 42 L1 | Parent **Moly** | Molly (famille anglophone) |
+| **44 L24 · 45 L2 · 46 L15** | **« Éléonarde »** | **Elmire** — voir ci-dessous |
 
 ## Corrections appliquées — âges
 
@@ -187,6 +198,7 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 8 L3 | 10 ans | **12 ans** | |
 | 17 L24 | Letarte Paul, 29 ans | 27 ans ? | |
 | 19 L18 | Roberge Louis, 25 ans | 23 ans ? | épouse de 34 ans |
+| 46 L22 | Lavertu Alexis, 15 ans | **18 ans** | le place avant son frère Joseph, 16 ans |
 
 ## Écarts relevés dans le manuscrit lui-même (pas des fautes de dépouillement)
 
