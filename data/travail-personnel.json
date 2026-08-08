@@ -1,7 +1,7 @@
 {
  "format": "suivi-saint-romuald-travail",
  "version": 1,
- "exporte": "2026-08-07T18:48:29.651Z",
+ "exporte": "2026-08-08T20:14:19.602Z",
  "donnees": {
   "suivi-familles-notes": {
    "1881-2-72-80": {
@@ -198,7 +198,7 @@
    },
    "1871-2-9-10": {
     "status": "confirme",
-    "text": ""
+    "text": "L'énumérateur Pierre Lagueux à fait un arrêt pour son coucher chez Josepf Roberge le 3 avril 1871"
    },
    "1871-2-8-9": {
     "status": "confirme",
@@ -401,6 +401,10 @@
     "text": ""
    },
    "1871-2-43-53": {
+    "status": "confirme",
+    "text": ""
+   },
+   "1871-2-14-15": {
     "status": "confirme",
     "text": ""
    }
@@ -861,50 +865,81 @@
     "sait_ecrire": false
    },
    "1871-D2-P002-L18": {
-    "incertain": false
+    "incertain": false,
+    "lieu_naissance": " Québec",
+    "origine": "Française"
    },
    "1871-D2-P002-L20": {
     "age": "17",
     "profession": "Cultivateur",
     "etat_matrimonial": "M",
     "sait_lire": false,
-    "sait_ecrire": false
+    "sait_ecrire": false,
+    "lieu_naissance": "Québec",
+    "origine": "Française"
    },
    "1871-D2-P003-L01": {
     "age": "15",
     "profession": "Cultivateur",
     "sait_lire": false,
-    "sait_ecrire": false
+    "sait_ecrire": false,
+    "lieu_naissance": "Québec",
+    "origine": "Française"
    },
    "1871-D2-P003-L02": {
     "age": "12",
     "sait_lire": false,
-    "sait_ecrire": false
+    "sait_ecrire": false,
+    "lieu_naissance": "Québec",
+    "origine": "Française"
    },
    "1871-D2-P003-L03": {
     "age": "12",
-    "ecole": true
+    "ecole": true,
+    "lieu_naissance": "Québec",
+    "origine": "Française",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P003-L04": {
-    "age": "10"
+    "age": "10",
+    "lieu_naissance": "Québec",
+    "origine": "Française",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P003-L05": {
-    "age": "9"
+    "age": "9",
+    "lieu_naissance": "Québec",
+    "origine": "Française",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P003-L06": {
-    "age": "8"
+    "age": "8",
+    "lieu_naissance": "Québec",
+    "origine": "Française",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P003-L07": {
     "age": "5",
     "sait_ecrire": false,
-    "sait_lire": false
+    "sait_lire": false,
+    "lieu_naissance": "Québec",
+    "origine": "Française"
    },
    "1871-D2-P003-L08": {
-    "sait_ecrire": false
+    "sait_ecrire": false,
+    "lieu_naissance": "Québec",
+    "origine": "Française"
    },
    "1871-D2-P003-L09": {
     "sait_ecrire": false,
-    "sait_lire": false
+    "sait_lire": false,
+    "lieu_naissance": "Québec",
+    "age": "33",
+    "origine": "Française"
    },
    "1871-D2-P003-L17": {
     "sait_ecrire": false,
@@ -991,22 +1026,30 @@
     "incertain": false
    },
    "1871-D2-P005-L14": {
-    "age": "52 "
+    "age": "52 ",
+    "incertain": false,
+    "religion": "Catholique "
    },
    "1871-D2-P005-L20": {
-    "age": "12 "
+    "age": "12 ",
+    "incertain": false,
+    "religion": "Catholique "
    },
    "1871-D2-P005-L15": {
-    "age": "45"
+    "age": "45",
+    "incertain": false,
+    "religion": "Catholique "
    },
    "1871-D2-P006-L06": {
     "nom": "Alice",
-    "age": "68"
+    "age": "68",
+    "incertain": false
    },
    "1871-D2-P006-L07": {
     "nom": "Bruneau ",
     "prenom": "Bibiane",
-    "age": "76"
+    "age": "76",
+    "incertain": false
    },
    "1871-D2-P006-L19": {
     "age": "75 ",
@@ -1601,6 +1644,50 @@
    "1871-D2-P002-L08": {
     "sait_lire": false,
     "sait_ecrire": false
+   },
+   "1871-D2-P002-L19": {
+    "lieu_naissance": "Québec",
+    "origine": "Française"
+   },
+   "1871-D2-P005-L16": {
+    "incertain": false,
+    "religion": "Catholique "
+   },
+   "1871-D2-P005-L17": {
+    "incertain": false,
+    "religion": "Catholique "
+   },
+   "1871-D2-P005-L18": {
+    "incertain": false,
+    "religion": "Catholique "
+   },
+   "1871-D2-P005-L19": {
+    "incertain": false,
+    "religion": "Catholique "
+   },
+   "1871-D2-P006-L01": {
+    "incertain": false,
+    "religion": "Catholique "
+   },
+   "1871-D2-P006-L02": {
+    "incertain": false,
+    "religion": "Catholique "
+   },
+   "1871-D2-P006-L03": {
+    "incertain": false,
+    "religion": "Catholique "
+   },
+   "1871-D2-P006-L04": {
+    "incertain": false,
+    "religion": "Catholique "
+   },
+   "1871-D2-P006-L05": {
+    "incertain": false,
+    "religion": "Catholique "
+   },
+   "1871-D2-P006-L08": {
+    "incertain": false,
+    "religion": "Catholique "
    }
   },
   "suivi-corr-maison": {
@@ -1622,7 +1709,28 @@
   "suivi-corr-rapport": {
    "1-1": "",
    "5-5": "",
-   "4-4": ""
+   "4-4": "",
+   "6-6": "",
+   "2-2": "",
+   "25-30": "",
+   "26-32": "",
+   "29-36": "",
+   "30-37": "",
+   "33-40": "",
+   "34-41": "",
+   "36-43": "",
+   "37-44": "",
+   "38-45": "",
+   "40-47": "",
+   "41-49": "",
+   "43-53": "",
+   "44-54": "",
+   "45-55": "",
+   "46-56": "",
+   "47-58": "",
+   "48-59": "",
+   "49-61": "",
+   "50-62": ""
   },
   "suivi-liens": {
    "1871-D2-P030-L18": [
