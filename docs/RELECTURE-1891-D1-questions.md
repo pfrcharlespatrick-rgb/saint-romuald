@@ -9,12 +9,12 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Pages confrontées : **1 à 39**. Corrections appliquées : **60** (56 noms ou prénoms,
-4 âges). Lignes signalées sans correction : **23**.
+Pages confrontées : **1 à 56**. Corrections appliquées : **78** (73 noms ou prénoms,
+5 âges). Lignes signalées sans correction : **45**.
 
 ## Ce qui est confirmé
 
-La structure est juste sur les 39 pages : 25 lignes chacune, familles 1 à 166 dans
+La structure est juste sur les 56 pages : 25 lignes chacune, familles 1 à 243 dans
 l'ordre, numéros de maison alignés, liens de parenté et professions conformes.
 Le dépouillement de 1891 est nettement plus fiable que celui de 1881 — les écarts
 ci-dessous sont des variantes de lecture, non des inventions.
@@ -23,6 +23,41 @@ Détails vérifiés au passage : le code de logement de la colonne 4 (« B 2/6 �
 2 étages, 6 chambres) est bien enregistré ; les origines étrangères sont exactes
 (Ahern né en Irlande p. 13, Fox né aux États-Unis p. 18) ; les liens rares sont
 justes (belle-sœur, bru, gendre, petit-fils, pensionnaire, cousine).
+
+## « Éléonarde » n'existait pas : c'est Elmire — réglé
+
+Le fichier contenait **cinq « Éléonarde »** pour **huit « Elmire »**. L'hypothèse était
+qu'il s'agissait du même mot manuscrit rendu de deux façons ; **la page 48 l'a
+démontrée**.
+
+Sur cette page, le dépouilleur écrit **« Éléonarde » à la ligne 1 et « Elmire » à la
+ligne 3** — deux lignes d'écart, le même tracé, la même main qui transcrit. La preuve
+est dans le document lui-même.
+
+Les cinq occurrences sont corrigées en **Elmire**. Quatre l'ont été sur images (pages
+44, 45, 46, 48) et sont tenues pour établies ; la cinquième (page 66 ligne 15) est
+appliquée par cohérence et reste marquée `incertain` faute d'image.
+
+Il ne reste **aucun « Éléonarde »** dans le fichier.
+
+## Question n° 3 — une ligne biffée au manuscrit, transcrite quand même
+
+**Page 42, ligne 8 — Thibodeau Clara, 24 ans, fille de Louis et Olympe.**
+
+Le recenseur a tracé **un trait horizontal sur toute la ligne** : il l'a retirée de
+son dénombrement, sans doute après avoir appris qu'elle ne vivait plus au foyer. Le
+dépouillement l'a transcrite comme les autres.
+
+**Elle est conservée telle quelle.** La retirer changerait le total de la division
+(3548 personnes) et relève d'une décision de Patrick, pas d'une lecture. Trois voies
+possibles :
+
+1. la supprimer, pour coller au dénombrement officiel ;
+2. la garder en la marquant « biffée au manuscrit » — elle a existé, et l'information
+   vaut pour la recherche généalogique ;
+3. la garder sans rien changer.
+
+C'est la première ligne biffée rencontrée en 45 pages.
 
 ## Question n° 1 — les colonnes 21 et 22 (Sait lire / Sait écrire)
 
@@ -79,6 +114,26 @@ n'a été appliqué.
 - **Page 37 ligne 18** : Daigle J. Baptiste, 57 ans dans les données, plutôt 52 au
   manuscrit.
 - **Page 33 ligne 3** : Dagenais Oscar, fraction de mois non lisible.
+- **Page 41 ligne 14** : « Delard » — la même forme a été lue Adelard page 29, mais
+  ici le manuscrit porte bien Delard. Non harmonisé.
+- **Page 44 ligne 11** : « Aterne » ou « Alerne ».
+- **Page 43 ligne 17** : « Desoada » ou « Deroada ».
+- **Page 48 ligne 10** : « Elmine » ou « Elvine ».
+- **Page 49 ligne 8** : « Aubel », « Anbel » ou « Isabel ».
+- **Page 49 ligne 13** : « Alpidre » ou « Alcide ».
+- **Page 49 ligne 21** : « Eddie » ou « Edelie », pour une fille de 6 ans — une
+  « Landry Eddy » de 7 ans figure déjà page 18 ligne 2, également au féminin.
+- **Page 49 ligne 25** : « Elodie » ou « Elaie ».
+- **Page 50 ligne 23** : « Jany » ou « Fany », dans une famille irlandaise où Fanny
+  serait attendu.
+- **Page 51 ligne 12** : « Narcisse » dans les données, « Norbège » au manuscrit.
+- **Page 48 ligne 15** · **page 55 ligne 1** : fractions de mois non lisibles.
+- **Page 53 lignes 8 et 9** : deux sœurs Demers portées toutes deux à 5 ans au
+  manuscrit. Jumelles ou erreur du recenseur — c'est le second cas de ce genre,
+  après les sœurs Morneau de la page 28.
+- **Page 54 ligne 9** : « Ulfedge » ou « Alfedge ».
+- **Page 54 ligne 23** : « Wallstand » ou « Wolstand ».
+- **Page 56 ligne 13** : « Clarilda » ou « Clarida ».
 
 Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
 laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
@@ -150,6 +205,14 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 34 L7 | Lemieux **Rose de Lima** | Rose Delima |
 | 36 L3 | Senechale Cardelia | Cordelia |
 | 39 L4 | Huard Margerite | Marguerite |
+| 40 L10 | Côté Perpetude | Perpétue |
+| **40 L24** | Lebel **« S Baptiste »** | **J.Baptiste** — le J de ce recenseur |
+| 42 L1 | Parent **Moly** | Molly (famille anglophone) |
+| **44 L24 · 45 L2 · 46 L15 · 48 L1 · 66 L15** | **« Éléonarde »** ×5 | **Elmire** — voir ci-dessus |
+| 47 L2 | Boucher **Lulie** | Julie |
+| **52 L21-24** | **« Dennes »** ×4 | **Demers** — 88 Demers au fichier contre 4 Dennes |
+| **56 L17-19** | **« Clauston »** ×3 | **Clouston** — 12 Clouston au fichier contre 3 Clauston |
+| 53 L16 | Nadeau **Jean** | Léon |
 
 ## Corrections appliquées — âges
 
@@ -159,6 +222,7 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 8 L3 | 10 ans | **12 ans** | |
 | 17 L24 | Letarte Paul, 29 ans | 27 ans ? | |
 | 19 L18 | Roberge Louis, 25 ans | 23 ans ? | épouse de 34 ans |
+| 46 L22 | Lavertu Alexis, 15 ans | **18 ans** | le place avant son frère Joseph, 16 ans |
 
 ## Écarts relevés dans le manuscrit lui-même (pas des fautes de dépouillement)
 
@@ -185,6 +249,17 @@ du père et de la mère), non à la colonne 11 : les données sont justes. C'est
 exactement le décalage de colonnes contre lequel le fichier met en garde, et il aurait
 fait naître deux immigrantes qui n'en sont pas. Les deux lignes portent désormais une
 remarque disant que la vérification a été faite.
+
+## Le signal le plus rentable : la variante isolée
+
+Deux patronymes ont été corrigés d'un coup en comparant leur fréquence dans le
+fichier plutôt qu'en scrutant le tracé : **« Dennes » (4 occurrences, une seule
+famille) contre 88 « Demers »**, et **« Clauston » (3) contre 12 « Clouston »**. Dans
+les deux cas le manuscrit confirme la forme majoritaire.
+
+C'est un contrôle à passer sur toute la division à la fin : **tout patronyme présent
+moins de cinq fois et proche d'un patronyme fréquent mérite un coup d'œil au
+manuscrit.** Il trouve des fautes sans même ouvrir l'image.
 
 ## Méthode
 
