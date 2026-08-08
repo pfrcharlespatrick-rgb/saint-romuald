@@ -9,12 +9,12 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Pages confrontées : **1 à 19**. Corrections appliquées : **36** (32 noms ou prénoms,
-4 âges). Lignes signalées sans correction : **5**.
+Pages confrontées : **1 à 29**. Corrections appliquées : **51** (47 noms ou prénoms,
+4 âges). Lignes signalées sans correction : **16**.
 
 ## Ce qui est confirmé
 
-La structure est juste sur les 19 pages : 25 lignes chacune, familles 1 à 81 dans
+La structure est juste sur les 29 pages : 25 lignes chacune, familles 1 à 123 dans
 l'ordre, numéros de maison alignés, liens de parenté et professions conformes.
 Le dépouillement de 1891 est nettement plus fiable que celui de 1881 — les écarts
 ci-dessous sont des variantes de lecture, non des inventions.
@@ -58,6 +58,18 @@ n'a été appliqué.
   plutôt « 81 », mais un contre-maître de scierie de 81 ans ayant des filles de 24 et
   26 ans et une épouse de 58 est peu vraisemblable. **Non tranché — à vérifier.**
 - **Page 13 ligne 17** : prénom laissé vide, voir ci-dessous.
+- **Page 20 ligne 3** : prénom « Savard » — c'est un patronyme, vraisemblablement le
+  nom de jeune fille de l'épouse porté à la place du prénom.
+- **Page 20 ligne 5** · **page 21 ligne 3** : un âge en mois et un « 19 » qui se lit
+  plutôt 13, tous deux non tranchés.
+- **Page 21 ligne 1** : « Leo Michal » ou « Leo Michel » ou « Leodrick ».
+- **Page 24 ligne 11** : patronyme « Dinan » — le manuscrit se lit « Daugh » ou
+  « Dangh ». Ménage né en Angleterre et en Irlande.
+- **Page 26 ligne 13** : « Losie », « Rosie » ou « Lucie ».
+- **Page 27 lignes 19 et 20** : « Berrel » et « Aber », famille anglophone.
+- **Page 29 ligne 12** : « Exida » ou « Elida ».
+- **Page 28 lignes 12 et 13** : deux sœurs Morneau portées toutes deux à 13 ans au
+  manuscrit. Jumelles ou erreur du recenseur.
 
 Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
 laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
@@ -105,6 +117,21 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 18 L10 | Gingras **Efa** | **Eva** |
 | 18 L13 | Robitaille **Mathalie** | **Nathalie** |
 | 19 L9 | Bedard **Silfred** | Wilfrid ? Silfrid ? |
+| **20 L18** | Lambert **« Los Edouard »** | **Jos Edouard** — l'abréviation de Joseph |
+| 21 L15 | Boucher Colina | Celina |
+| 22 L1 | Deslauriers Antonie | Antoine |
+| 22 L2 | Morency **Josep** | Joseph |
+| 22 L11 | Rochette Fabian | Fabien |
+| 23 L10 | Remillard Done | Dona |
+| **23 L11** | **Giroux « Oliver », F, 67, belle-mère** | **Olive** |
+| 23 L24 | Robitaille Delvin | Delvina |
+| 24 L12 | Dinan **Margueret** | **Margaret** (ménage irlandais) |
+| 24 L19 | Gendron Odena | Odina |
+| 25 L14 | Demers **Archile** | **Achille** |
+| 27 L18 | Peters **Etel** | **Ethel** (famille anglophone) |
+| 27 L22 | Peters Minie Ida | Minnie Ida |
+| **28 L18** | Robitaille **« Eugene », F, 22, fille** | **Eugénie** |
+| 29 L2 | Boucher Delard | Adelard |
 
 ## Corrections appliquées — âges
 
@@ -125,6 +152,11 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 - **Page 12 ligne 24** : Gely Henriette, 52 ans, « fille » de Louis, 76 ans.
 - **Page 18 ligne 2** : Landry Eddy, portée au féminin, 7 ans, pensionnaire.
 - **Page 18 ligne 18** : Guay Odila, porté au masculin, 6 ans, fils.
+- **Page 24 ligne 10** : Demers Ferdina, porté au masculin, 7 ans, neveu.
+- **Page 29 lignes 21-22** : Roberge Marie, 27 ans, listée avant sa sœur Florida,
+  29 ans.
+- **Page 25 ligne 12** : Bertol Amanda, servante de 20 ans, **née en Allemagne** —
+  la seule de la division jusqu'ici. Confirmé au manuscrit.
 
 ## Méthode
 
