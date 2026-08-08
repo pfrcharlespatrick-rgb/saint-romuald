@@ -9,12 +9,12 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Pages confrontées : **1 à 51**. Corrections appliquées : **70** (65 noms ou prénoms,
-5 âges). Lignes signalées sans correction : **39**.
+Pages confrontées : **1 à 56**. Corrections appliquées : **78** (73 noms ou prénoms,
+5 âges). Lignes signalées sans correction : **45**.
 
 ## Ce qui est confirmé
 
-La structure est juste sur les 51 pages : 25 lignes chacune, familles 1 à 218 dans
+La structure est juste sur les 56 pages : 25 lignes chacune, familles 1 à 243 dans
 l'ordre, numéros de maison alignés, liens de parenté et professions conformes.
 Le dépouillement de 1891 est nettement plus fiable que celui de 1881 — les écarts
 ci-dessous sont des variantes de lecture, non des inventions.
@@ -127,7 +127,13 @@ n'a été appliqué.
 - **Page 50 ligne 23** : « Jany » ou « Fany », dans une famille irlandaise où Fanny
   serait attendu.
 - **Page 51 ligne 12** : « Narcisse » dans les données, « Norbège » au manuscrit.
-- **Page 48 ligne 15** : fraction de mois non lisible.
+- **Page 48 ligne 15** · **page 55 ligne 1** : fractions de mois non lisibles.
+- **Page 53 lignes 8 et 9** : deux sœurs Demers portées toutes deux à 5 ans au
+  manuscrit. Jumelles ou erreur du recenseur — c'est le second cas de ce genre,
+  après les sœurs Morneau de la page 28.
+- **Page 54 ligne 9** : « Ulfedge » ou « Alfedge ».
+- **Page 54 ligne 23** : « Wallstand » ou « Wolstand ».
+- **Page 56 ligne 13** : « Clarilda » ou « Clarida ».
 
 Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
 laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
@@ -204,6 +210,9 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 42 L1 | Parent **Moly** | Molly (famille anglophone) |
 | **44 L24 · 45 L2 · 46 L15 · 48 L1 · 66 L15** | **« Éléonarde »** ×5 | **Elmire** — voir ci-dessus |
 | 47 L2 | Boucher **Lulie** | Julie |
+| **52 L21-24** | **« Dennes »** ×4 | **Demers** — 88 Demers au fichier contre 4 Dennes |
+| **56 L17-19** | **« Clauston »** ×3 | **Clouston** — 12 Clouston au fichier contre 3 Clauston |
+| 53 L16 | Nadeau **Jean** | Léon |
 
 ## Corrections appliquées — âges
 
@@ -240,6 +249,17 @@ du père et de la mère), non à la colonne 11 : les données sont justes. C'est
 exactement le décalage de colonnes contre lequel le fichier met en garde, et il aurait
 fait naître deux immigrantes qui n'en sont pas. Les deux lignes portent désormais une
 remarque disant que la vérification a été faite.
+
+## Le signal le plus rentable : la variante isolée
+
+Deux patronymes ont été corrigés d'un coup en comparant leur fréquence dans le
+fichier plutôt qu'en scrutant le tracé : **« Dennes » (4 occurrences, une seule
+famille) contre 88 « Demers »**, et **« Clauston » (3) contre 12 « Clouston »**. Dans
+les deux cas le manuscrit confirme la forme majoritaire.
+
+C'est un contrôle à passer sur toute la division à la fin : **tout patronyme présent
+moins de cinq fois et proche d'un patronyme fréquent mérite un coup d'œil au
+manuscrit.** Il trouve des fautes sans même ouvrir l'image.
 
 ## Méthode
 
