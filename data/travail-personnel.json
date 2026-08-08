@@ -1,7 +1,7 @@
 {
  "format": "suivi-saint-romuald-travail",
  "version": 1,
- "exporte": "2026-08-08T20:14:19.602Z",
+ "exporte": "2026-08-08T21:05:43.336Z",
  "donnees": {
   "suivi-familles-notes": {
    "1881-2-72-80": {
@@ -1688,6 +1688,9 @@
    "1871-D2-P006-L08": {
     "incertain": false,
     "religion": "Catholique "
+   },
+   "1891-D1-P132-L01": {
+    "prenom": "Abraham"
    }
   },
   "suivi-corr-maison": {
@@ -1705,32 +1708,6 @@
    "1871-2-25-31 [?]": {
     "no_famille": "31 "
    }
-  },
-  "suivi-corr-rapport": {
-   "1-1": "",
-   "5-5": "",
-   "4-4": "",
-   "6-6": "",
-   "2-2": "",
-   "25-30": "",
-   "26-32": "",
-   "29-36": "",
-   "30-37": "",
-   "33-40": "",
-   "34-41": "",
-   "36-43": "",
-   "37-44": "",
-   "38-45": "",
-   "40-47": "",
-   "41-49": "",
-   "43-53": "",
-   "44-54": "",
-   "45-55": "",
-   "46-56": "",
-   "47-58": "",
-   "48-59": "",
-   "49-61": "",
-   "50-62": ""
   },
   "suivi-liens": {
    "1871-D2-P030-L18": [
@@ -1763,6 +1740,28 @@
      "page": "97",
      "ligne": "19",
      "nom": "Aglée Wermette",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
+    }
+   ],
+   "1871-D2-P010-L06": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1881",
+     "division": "2",
+     "page": "51",
+     "ligne": "13",
+     "nom": "Abraham Cantin",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
+    }
+   ],
+   "1881-D2-P051-L13": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1891",
+     "division": "1",
+     "page": "132",
+     "ligne": "1",
+     "nom": "Abrahan Cantin",
      "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
     }
    ]
