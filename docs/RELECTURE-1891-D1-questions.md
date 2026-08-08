@@ -1,10 +1,16 @@
 # Recensement de 1891, division 1 — relecture au manuscrit
 
 **En cours.** Patrick fournit les images du manuscrit page par page ; chaque page est
-confrontée aux données de `data/recensement-1891-d1-data.js`. **Aucune donnée n'est
-modifiée tant que Patrick n'a pas tranché** — ce document tient la liste des écarts.
+confrontée aux données de `data/recensement-1891-d1-data.js`.
 
-Pages confrontées : **1 à 19**.
+**Les lectures les plus probables sont appliquées au fichier**, à la demande de
+Patrick, qui fera la relecture d'ensemble à la fin. Chacune porte `incertain: true`
+et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau donne
+exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
+de ce qui ne l'a pas été.
+
+Pages confrontées : **1 à 19**. Corrections appliquées : **36** (32 noms ou prénoms,
+4 âges). Lignes signalées sans correction : **5**.
 
 ## Ce qui est confirmé
 
@@ -37,19 +43,38 @@ colonnes 16 à 25 — en incluant la colonne des noms comme ancre, faute de quoi
 lecture peut être décalée d'une ligne (le fichier met lui-même en garde contre ce
 risque).
 
+## Laissé en l'état, faute de lecture — à reprendre au manuscrit
+
+Ces cinq lignes portent `incertain: true` et une remarque expliquant pourquoi rien
+n'a été appliqué.
+
+- **Page 1 ligne 15** : « Telieria » conservé — le manuscrit se lit « Feliria » ou
+  « Zeliria », l'initiale ne se laisse pas trancher.
+- **Page 1 ligne 22** : « Pierre Abringe » conservé — le second élément se lit
+  « Abrigge » ou « Abridge ».
+- **Page 1 ligne 13** : la colonne 7 de Camille Gosselin ressemble à « M. » alors que
+  la colonne 10 porte « E. » (épouse). Anomalie du manuscrit ; sexe F conservé.
+- **Page 10 ligne 5** : Ferland Narcisse conservé à **51 ans**. Le manuscrit se lit
+  plutôt « 81 », mais un contre-maître de scierie de 81 ans ayant des filles de 24 et
+  26 ans et une épouse de 58 est peu vraisemblable. **Non tranché — à vérifier.**
+- **Page 13 ligne 17** : prénom laissé vide, voir ci-dessous.
+
+Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
+laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
+
 ## Question n° 2 — un prénom manquant
 
 **Page 13, ligne 17** : le fils Lefebvre, 16 ans, étudiant, n'a **aucun prénom** dans
 les données. Le manuscrit en porte un, que je ne déchiffre pas avec certitude
 (« Léo » ? « Cléo » ?). C'est le seul trou de ce genre relevé sur 19 pages.
 
-## Écarts de lecture — noms et prénoms
+## Corrections appliquées — noms et prénoms
 
-| Page·ligne | Données | Manuscrit |
+Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
+
+| Page·ligne | Avant | Appliqué |
 |---|---|---|
 | 1 L6 | Alphonse | Alphon**c**e |
-| 1 L15 | Telieria | Feliria ? Zeliria ? |
-| 1 L22 | Pierre Abringe | Abrigge ? Abridge ? |
 | 3 L4 | Alair Abel | Alain ? |
 | 3 L7 | Cantin **Micher** | Michel ? |
 | 3 L11 | Cantin **Susie** | **Lucie** |
@@ -81,18 +106,14 @@ les données. Le manuscrit en porte un, que je ne déchiffre pas avec certitude
 | 18 L13 | Robitaille **Mathalie** | **Nathalie** |
 | 19 L9 | Bedard **Silfred** | Wilfrid ? Silfrid ? |
 
-## Écarts de lecture — âges
+## Corrections appliquées — âges
 
-| Page·ligne | Données | Manuscrit | Remarque |
+| Page·ligne | Avant | Appliqué | Remarque |
 |---|---|---|---|
 | **5 L9-L10** | Joseph 4 ans **et** Roch 4 ans | Roch semble **2 ans** | deux frères du même âge |
-| 6 L11 | Evangeline, 9 mois | fraction différente ? | |
-| 8 L3 | Letarte Maude, 10 ans | 12 ans ? | |
-| **10 L5** | Ferland Narcisse, **51 ans** | **81 ans** ? | contre-maître de scierie ; épouse de 58 ans |
-| 15 L22 | Clavette Alphonse, 9 mois | 2/12 ? | |
+| 8 L3 | 10 ans | **12 ans** | |
 | 17 L24 | Letarte Paul, 29 ans | 27 ans ? | |
 | 19 L18 | Roberge Louis, 25 ans | 23 ans ? | épouse de 34 ans |
-| 4 L23 | Rosario, 6 mois | 5/12 ? | |
 
 ## Écarts relevés dans le manuscrit lui-même (pas des fautes de dépouillement)
 
