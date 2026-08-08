@@ -9,12 +9,12 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Pages confrontées : **1 à 29**. Corrections appliquées : **51** (47 noms ou prénoms,
-4 âges). Lignes signalées sans correction : **16**.
+Pages confrontées : **1 à 39**. Corrections appliquées : **60** (56 noms ou prénoms,
+4 âges). Lignes signalées sans correction : **23**.
 
 ## Ce qui est confirmé
 
-La structure est juste sur les 29 pages : 25 lignes chacune, familles 1 à 123 dans
+La structure est juste sur les 39 pages : 25 lignes chacune, familles 1 à 166 dans
 l'ordre, numéros de maison alignés, liens de parenté et professions conformes.
 Le dépouillement de 1891 est nettement plus fiable que celui de 1881 — les écarts
 ci-dessous sont des variantes de lecture, non des inventions.
@@ -70,6 +70,15 @@ n'a été appliqué.
 - **Page 29 ligne 12** : « Exida » ou « Elida ».
 - **Page 28 lignes 12 et 13** : deux sœurs Morneau portées toutes deux à 13 ans au
   manuscrit. Jumelles ou erreur du recenseur.
+- **Page 32 ligne 1** : « Telesphore » ou « Stephen ». La fratrie est francophone
+  (Amarilda, Joséphine, Octave, Graziela), ce qui plaide pour Télesphore, mais le
+  tracé ne le confirme pas.
+- **Page 37 ligne 2** : Terrien « Leonard », fille d'un an — forme masculine, sans
+  doute Léonie ou Léonarde.
+- **Page 38 ligne 1** : Gagné « Reme Celestin » — René ou Reine ?
+- **Page 37 ligne 18** : Daigle J. Baptiste, 57 ans dans les données, plutôt 52 au
+  manuscrit.
+- **Page 33 ligne 3** : Dagenais Oscar, fraction de mois non lisible.
 
 Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
 laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
@@ -132,6 +141,15 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 27 L22 | Peters Minie Ida | Minnie Ida |
 | **28 L18** | Robitaille **« Eugene », F, 22, fille** | **Eugénie** |
 | 29 L2 | Boucher Delard | Adelard |
+| 30 L6 | Boucher Mary Jene | Mary Jane |
+| **31 L18** | **Lefèvre « Ameline », M, 45, chef** | **Anselme** |
+| 32 L8 | Wells Leacadi | Léocadie |
+| 33 L4 | Groleau **Francis** | François |
+| 33 L9 | Groleau Alphones | Alphonse |
+| 34 L1 | Fecteau Duleina | Delvina |
+| 34 L7 | Lemieux **Rose de Lima** | Rose Delima |
+| 36 L3 | Senechale Cardelia | Cordelia |
+| 39 L4 | Huard Margerite | Marguerite |
 
 ## Corrections appliquées — âges
 
@@ -157,6 +175,16 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
   29 ans.
 - **Page 25 ligne 12** : Bertol Amanda, servante de 20 ans, **née en Allemagne** —
   la seule de la division jusqu'ici. Confirmé au manuscrit.
+
+## Un piège évité : les colonnes de naissance
+
+Aux pages 36 et 37, deux femmes — Roberge Sarah et Smith Mary — portent « Québec »
+comme lieu de naissance alors que leurs lignes montrent « England » et « Ireland » au
+manuscrit. Vérification faite, **ces mentions sont aux colonnes 13 et 14** (naissance
+du père et de la mère), non à la colonne 11 : les données sont justes. C'est
+exactement le décalage de colonnes contre lequel le fichier met en garde, et il aurait
+fait naître deux immigrantes qui n'en sont pas. Les deux lignes portent désormais une
+remarque disant que la vérification a été faite.
 
 ## Méthode
 
