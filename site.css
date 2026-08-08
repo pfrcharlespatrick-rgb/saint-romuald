@@ -232,3 +232,14 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .liste-simple{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
 .liste-simple li{font-size:14px;padding:8px 12px;background:var(--surface);border:1px solid var(--regle-faible)}
 .liste-simple .adresse{display:block;font-family:var(--etiq);font-size:11.5px;color:var(--sepia);letter-spacing:.04em}
+
+/* L'atelier de saisie n'est pas une rubrique de lecture : on le distingue des
+   onglets publics sans le reléguer en pied de page — c'est un aller-retour
+   quotidien pour le chercheur. */
+nav.onglets a.atelier{
+  margin-left:auto; color:var(--madder-encre);
+  border:1px solid var(--regle); align-self:center;
+  padding:5px 12px 6px; border-bottom-width:1px;
+}
+nav.onglets a.atelier:hover{ border-color:var(--madder); text-decoration:none }
+@media (max-width:720px){ nav.onglets a.atelier{ margin-left:0 } }
