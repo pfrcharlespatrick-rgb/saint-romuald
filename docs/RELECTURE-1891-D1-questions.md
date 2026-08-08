@@ -9,12 +9,12 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Pages confrontées : **1 à 46**. Corrections appliquées : **67** (62 noms ou prénoms,
-5 âges). Lignes signalées sans correction : **31**.
+Pages confrontées : **1 à 51**. Corrections appliquées : **70** (65 noms ou prénoms,
+5 âges). Lignes signalées sans correction : **39**.
 
 ## Ce qui est confirmé
 
-La structure est juste sur les 46 pages : 25 lignes chacune, familles 1 à 197 dans
+La structure est juste sur les 51 pages : 25 lignes chacune, familles 1 à 218 dans
 l'ordre, numéros de maison alignés, liens de parenté et professions conformes.
 Le dépouillement de 1891 est nettement plus fiable que celui de 1881 — les écarts
 ci-dessous sont des variantes de lecture, non des inventions.
@@ -24,17 +24,21 @@ Détails vérifiés au passage : le code de logement de la colonne 4 (« B 2/6 �
 (Ahern né en Irlande p. 13, Fox né aux États-Unis p. 18) ; les liens rares sont
 justes (belle-sœur, bru, gendre, petit-fils, pensionnaire, cousine).
 
-## « Éléonarde » n'existe pas : c'est Elmire
+## « Éléonarde » n'existait pas : c'est Elmire — réglé
 
-Le fichier contient **cinq « Éléonarde » et huit « Elmire »**. Sur les pages 44, 45 et
-46, dont les images sont disponibles, le tracé se lit « Elmiard » ou « Elimard » —
-c'est-à-dire **Elmire**, prénom courant au Québec, là où « Éléonarde » n'existe pas.
-Le dépouilleur a vraisemblablement rendu de deux façons le même mot manuscrit.
+Le fichier contenait **cinq « Éléonarde »** pour **huit « Elmire »**. L'hypothèse était
+qu'il s'agissait du même mot manuscrit rendu de deux façons ; **la page 48 l'a
+démontrée**.
 
-Les trois occurrences vérifiées sont corrigées. **Les deux autres — page 48 ligne 1 et
-page 66 ligne 15 — sont conservées** : leurs pages n'ont pas encore été fournies en
-image, et corriger sans le document serait de l'inférence, non une lecture. À
-reprendre quand ces pages arriveront.
+Sur cette page, le dépouilleur écrit **« Éléonarde » à la ligne 1 et « Elmire » à la
+ligne 3** — deux lignes d'écart, le même tracé, la même main qui transcrit. La preuve
+est dans le document lui-même.
+
+Les cinq occurrences sont corrigées en **Elmire**. Quatre l'ont été sur images (pages
+44, 45, 46, 48) et sont tenues pour établies ; la cinquième (page 66 ligne 15) est
+appliquée par cohérence et reste marquée `incertain` faute d'image.
+
+Il ne reste **aucun « Éléonarde »** dans le fichier.
 
 ## Question n° 3 — une ligne biffée au manuscrit, transcrite quand même
 
@@ -114,6 +118,16 @@ n'a été appliqué.
   ici le manuscrit porte bien Delard. Non harmonisé.
 - **Page 44 ligne 11** : « Aterne » ou « Alerne ».
 - **Page 43 ligne 17** : « Desoada » ou « Deroada ».
+- **Page 48 ligne 10** : « Elmine » ou « Elvine ».
+- **Page 49 ligne 8** : « Aubel », « Anbel » ou « Isabel ».
+- **Page 49 ligne 13** : « Alpidre » ou « Alcide ».
+- **Page 49 ligne 21** : « Eddie » ou « Edelie », pour une fille de 6 ans — une
+  « Landry Eddy » de 7 ans figure déjà page 18 ligne 2, également au féminin.
+- **Page 49 ligne 25** : « Elodie » ou « Elaie ».
+- **Page 50 ligne 23** : « Jany » ou « Fany », dans une famille irlandaise où Fanny
+  serait attendu.
+- **Page 51 ligne 12** : « Narcisse » dans les données, « Norbège » au manuscrit.
+- **Page 48 ligne 15** : fraction de mois non lisible.
 
 Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
 laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
@@ -188,7 +202,8 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 40 L10 | Côté Perpetude | Perpétue |
 | **40 L24** | Lebel **« S Baptiste »** | **J.Baptiste** — le J de ce recenseur |
 | 42 L1 | Parent **Moly** | Molly (famille anglophone) |
-| **44 L24 · 45 L2 · 46 L15** | **« Éléonarde »** | **Elmire** — voir ci-dessous |
+| **44 L24 · 45 L2 · 46 L15 · 48 L1 · 66 L15** | **« Éléonarde »** ×5 | **Elmire** — voir ci-dessus |
+| 47 L2 | Boucher **Lulie** | Julie |
 
 ## Corrections appliquées — âges
 
