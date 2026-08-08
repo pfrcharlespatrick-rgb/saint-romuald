@@ -9,12 +9,12 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Pages confrontées : **1 à 39**. Corrections appliquées : **60** (56 noms ou prénoms,
-4 âges). Lignes signalées sans correction : **23**.
+Pages confrontées : **1 à 45**. Corrections appliquées : **63** (59 noms ou prénoms,
+4 âges). Lignes signalées sans correction : **29**.
 
 ## Ce qui est confirmé
 
-La structure est juste sur les 39 pages : 25 lignes chacune, familles 1 à 166 dans
+La structure est juste sur les 45 pages : 25 lignes chacune, familles 1 à 192 dans
 l'ordre, numéros de maison alignés, liens de parenté et professions conformes.
 Le dépouillement de 1891 est nettement plus fiable que celui de 1881 — les écarts
 ci-dessous sont des variantes de lecture, non des inventions.
@@ -23,6 +23,25 @@ Détails vérifiés au passage : le code de logement de la colonne 4 (« B 2/6 �
 2 étages, 6 chambres) est bien enregistré ; les origines étrangères sont exactes
 (Ahern né en Irlande p. 13, Fox né aux États-Unis p. 18) ; les liens rares sont
 justes (belle-sœur, bru, gendre, petit-fils, pensionnaire, cousine).
+
+## Question n° 3 — une ligne biffée au manuscrit, transcrite quand même
+
+**Page 42, ligne 8 — Thibodeau Clara, 24 ans, fille de Louis et Olympe.**
+
+Le recenseur a tracé **un trait horizontal sur toute la ligne** : il l'a retirée de
+son dénombrement, sans doute après avoir appris qu'elle ne vivait plus au foyer. Le
+dépouillement l'a transcrite comme les autres.
+
+**Elle est conservée telle quelle.** La retirer changerait le total de la division
+(3548 personnes) et relève d'une décision de Patrick, pas d'une lecture. Trois voies
+possibles :
+
+1. la supprimer, pour coller au dénombrement officiel ;
+2. la garder en la marquant « biffée au manuscrit » — elle a existé, et l'information
+   vaut pour la recherche généalogique ;
+3. la garder sans rien changer.
+
+C'est la première ligne biffée rencontrée en 45 pages.
 
 ## Question n° 1 — les colonnes 21 et 22 (Sait lire / Sait écrire)
 
@@ -79,6 +98,12 @@ n'a été appliqué.
 - **Page 37 ligne 18** : Daigle J. Baptiste, 57 ans dans les données, plutôt 52 au
   manuscrit.
 - **Page 33 ligne 3** : Dagenais Oscar, fraction de mois non lisible.
+- **Page 41 ligne 14** : « Delard » — la même forme a été lue Adelard page 29, mais
+  ici le manuscrit porte bien Delard. Non harmonisé.
+- **Page 44 ligne 11** : « Aterne » ou « Alerne ».
+- **Page 44 ligne 24 · page 45 ligne 2** : « Éléonarde » — le manuscrit se lit plutôt
+  « Clemard » ou « Elemard ». La grand-mère et la petite-fille portent le même prénom.
+- **Page 43 ligne 17** : « Desoada » ou « Deroada ».
 
 Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
 laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
@@ -150,6 +175,9 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 34 L7 | Lemieux **Rose de Lima** | Rose Delima |
 | 36 L3 | Senechale Cardelia | Cordelia |
 | 39 L4 | Huard Margerite | Marguerite |
+| 40 L10 | Côté Perpetude | Perpétue |
+| **40 L24** | Lebel **« S Baptiste »** | **J.Baptiste** — le J de ce recenseur |
+| 42 L1 | Parent **Moly** | Molly (famille anglophone) |
 
 ## Corrections appliquées — âges
 
