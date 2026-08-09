@@ -9,8 +9,8 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Pages confrontées : **1 à 61**. Corrections appliquées : **83** (77 noms ou prénoms,
-6 âges). Lignes signalées sans correction : **55**.
+Pages confrontées : **1 à 62**. Corrections appliquées : **83** (77 noms ou prénoms,
+6 âges). Lignes signalées sans correction : **56**.
 
 ## Ce qui est confirmé
 
@@ -145,6 +145,12 @@ n'a été appliqué.
   la division) est plausible, le tracé ne le confirme pas.
 - **Page 61 ligne 18** : Dumas « Adleston », neuf ans — le manuscrit se lit plutôt
   « Adlestan ». La division 1 de 1881 porte un « Adelstan ».
+- **Page 62 lignes 18-21** : les quatre enfants Wilson portent « Irlande » comme lieu
+  de naissance de la mère, alors que leur mère Mary Jane (ligne 17) est née au
+  Québec — c'est son *père* à elle qui est né en Irlande. Soit le recenseur a reporté
+  l'origine familiale, soit les guillemets de répétition des colonnes 13-14 ont été
+  mal attribués au dépouillement. Indéchiffrable à cette résolution ; à trancher sur
+  une meilleure image avant d'y toucher.
 
 Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
 laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
