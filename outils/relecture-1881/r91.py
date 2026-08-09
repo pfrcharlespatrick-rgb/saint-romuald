@@ -3,12 +3,13 @@ import pypdfium2 as pdfium
 from PIL import Image, ImageOps
 from functools import lru_cache
 import os
-PDF='/root/.claude/uploads/edc6c2d8-4531-5db6-9e49-4c2e110369fc/30be37f9-Pages_de_Pages_de_1891_Partie021121.pdf'
+import sources
+PDF=lambda: sources.trouver('1891_Partie02')
 OUT=os.path.dirname(os.path.abspath(__file__))
 BASE=62
 @lru_cache(maxsize=4)
 def render(pdfpage, scale):
-    pdf=pdfium.PdfDocument(PDF)
+    pdf=pdfium.PdfDocument(PDF())
     return pdf[pdfpage].render(scale=scale).to_pil().convert('L')
 def locate(ms):
     k=ms-BASE

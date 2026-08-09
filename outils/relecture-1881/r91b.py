@@ -3,7 +3,8 @@ import pypdfium2 as pdfium
 from PIL import Image, ImageOps
 from functools import lru_cache
 import numpy as np, os
-PDF='/root/.claude/uploads/edc6c2d8-4531-5db6-9e49-4c2e110369fc/323a9d56-1891_DIV12_Partie03.pdf'
+import sources
+PDF=sources.trouver('1891_DIV12_Partie03')
 OUT=os.path.dirname(os.path.abspath(__file__))
 BASE=84
 @lru_cache(maxsize=3)
@@ -15,11 +16,9 @@ ECHANGES={89:90, 90:89}
 def locate(ms):
     k=ECHANGES.get(ms, ms)-BASE
     return k//2, k%2
-@lru_cache(maxsize=8)
-def frame(ms):
-    # bornes verticales du cadre, en fractions de la page, via le filet noir
-    # épais qui ouvre chaque cadre et la réglure : on détecte les deux filets
-    # pleine largeur de la table (haut des 25 lignes, bas)
+@lru_cache(maxsize=64)
+def filets(ms):
+    # ordonnées des filets pleine largeur du cadre, en fractions de la page
     pp,h=locate(ms)
     im=render(pp,3); a=np.asarray(im,dtype=float)
     H,W=a.shape
@@ -31,11 +30,39 @@ def frame(ms):
     for i in rows:
         if gs and i-gs[-1][-1]<=5: gs[-1].append(i)
         else: gs.append([i])
-    mids=[(g[0]+g[-1])/2/H for g in gs]
+    return [(g[0]+g[-1])/2/H for g in gs]
+def _candidats(ms):
+    h=locate(ms)[1]
     lo,hi=((0.19,0.34) if h==0 else (0.54,0.68))
-    tops=[m for m in mids if lo<m<hi]
-    if not tops: raise RuntimeError('haut de table non trouvé p.%s: %s'%(ms,[round(m,3) for m in mids]))
-    t=max(tops)
+    return [m for m in filets(ms) if lo<m<hi]
+@lru_cache(maxsize=2)
+def _reference(h):
+    """Ordonnée typique du haut de table, sur l'ensemble du recueil.
+
+    Le filet du haut tombe au même endroit à quelques millièmes près d'une page
+    à l'autre. Prendre simplement le plus bas des filets candidats suffit
+    presque partout, mais une réglure parasite le fait sauter de six lignes
+    (page 99). La médiane du recueil sert donc d'ancre : chaque page retient
+    celui de ses candidats qui en est le plus proche.
+    """
+    v=[]
+    for ms in range(BASE, BASE+2*len(pdfium.PdfDocument(PDF))):
+        if locate(ms)[1]!=h: continue
+        c=_candidats(ms)
+        if c: v.append(max(c))
+    return float(np.median(v))
+@lru_cache(maxsize=64)
+def frame(ms):
+    # bornes verticales du cadre : filet du haut des 25 lignes, filet du bas
+    c=_candidats(ms)
+    if not c: raise RuntimeError('haut de table non trouvé p.%s: %s'%(ms,[round(m,3) for m in filets(ms)]))
+    # le plus bas des filets candidats est le haut de la table — sauf quand une
+    # réglure parasite le fait sauter de plusieurs lignes (page 99) : d'où le
+    # garde-fou de l'ordonnée typique du recueil.
+    ref=_reference(locate(ms)[1])
+    proches=[m for m in c if m<=ref+0.03]
+    t=max(proches) if proches else max(c)
+    mids=filets(ms)
     bots=[m for m in mids if t+0.20<m<t+0.26]
     b=bots[0] if bots else t+0.235
     return (t,b)

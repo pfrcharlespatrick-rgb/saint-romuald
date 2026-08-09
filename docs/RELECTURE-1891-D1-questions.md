@@ -9,10 +9,10 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Pages confrontées : **1 à 96**. Corrections appliquées : **134** (112 noms ou prénoms,
-11 âges, 11 autres champs — lieux de naissance, liens, sexe). Une correction antérieure
+Pages confrontées : **1 à 102**. Corrections appliquées : **165** (130 noms ou prénoms,
+12 âges, 27 autres champs — lieux de naissance, liens, sexe). Une correction antérieure
 **annulée** (l'« Elmire » de la page 66, voir plus bas). Lignes signalées sans
-correction : **62**.
+correction : **69**.
 
 **Les pages 62 à 83 ont été fournies en PDF** (deux pages du manuscrit par page PDF,
 comme les recueils de 1881) : le rendu à haute résolution y règle en quelques minutes
@@ -50,6 +50,48 @@ correction a été **annulée** : le fichier porte de nouveau « Éléonarde » 
 pour établies.** Elles avaient été jugées sur des JPEG où « -re » et « -rde » ne se
 distinguent pas. Elles gardent leur `incertain: true`. **Fournir les pages 44 à 48 en
 PDF les réglera d'un coup**, dans un sens ou dans l'autre.
+
+## Question n° 4 — le piège des colonnes de naissance joue aussi dans l'autre sens
+
+**C'est la trouvaille des pages 97 à 102, et elle vaut d'être vérifiée sur toute la
+division.**
+
+Le document notait déjà, aux pages 36-37, que deux femmes portées « Québec » l'étaient
+à bon droit : les mentions « England » et « Ireland » de leurs lignes sont aux
+colonnes 13 et 14, celles des parents. Le dépouillement avait alors bien lu.
+
+**Il a lu à l'envers quatre fois entre les pages 97 et 101.** Chez les Atkinson
+(page 99), chez Suzan French et sa servante (page 101), la **colonne 11 porte un simple
+signe de répétition** — c'est-à-dire « Québec », valeur de la ligne au-dessus — et ce
+sont les colonnes 13 et 14 qui portent Angleterre, Écosse, Irlande. Le dépouillement a
+remonté le pays des parents dans la case de l'intéressé, et **fabriqué six immigrants
+qui n'en sont pas** :
+
+| Page·ligne | Personne | Dépouillement | Manuscrit (col. 11) |
+|---|---|---|---|
+| 99 L6 | Atkinson Henry, 59, marchand de bois | Angleterre | **Québec** (père anglais, mère écossaise) |
+| 99 L7 | Atkinson Selina, 44 | Irlande | **Québec** (père irlandais) |
+| 101 L15 | French Suzan, 42, maîtresse de pension | Angleterre | **Québec** (père anglais, mère irlandaise) |
+| 101 L20 | Backet Rose, 36, servante | Angleterre | **Québec** (idem) |
+| 97 L5 | Wilson Kate, 30 | Irlande | **Québec** |
+
+La lecture n'est pas une conjecture : **les enfants la confirment**. Les six petits
+Atkinson portent « Q » en colonne 13 — le lieu de naissance de leur père —, et le
+recenseur a même biffé sa première écriture à la ligne 8 pour la corriger en « Q ». Les
+quatre petits French portent « Q » en colonnes 13 **et** 14. Un ménage anglophone né au
+Québec de parents venus des Îles Britanniques : c'est le profil ordinaire de la
+communauté britannique de la région, pas une anomalie.
+
+Le cas de Wilson Kate (page 97) est le seul qui reste **contradictoire** : sa ligne
+porte « Q » en colonnes 11, 13 et 14, alors que sa mère Mary, ligne 4 juste au-dessus,
+est bien née en Irlande — le manuscrit y écrit « Irelande » en toutes lettres, trois
+fois. L'un des deux est fautif, et c'est le recenseur, pas le dépouilleur. La lecture du
+manuscrit a été appliquée, la contradiction est signalée en remarque.
+
+**Ce qu'il faut en retenir pour la suite** : devant une naissance étrangère, ne jamais
+se fier au seul mot lisible sur la ligne — repérer d'abord la colonne. Le repère sûr est
+la colonne 12 (« Canadiens français »), étroite, qui porte 1 ou un tiret : la colonne 11
+est immédiatement à sa gauche, les colonnes 13 et 14 immédiatement à sa droite.
 
 ## Question n° 3 — une ligne biffée au manuscrit, transcrite quand même
 
@@ -188,7 +230,27 @@ n'a été appliqué.
   58 ans. L'âge se lit 85 au manuscrit ; « 55 » n'est pas exclu.
 - **Page 95 ligne 14** : la colonne 15 porte « Anglican » pour la famille Brown,
   là où les données notent « Protestante ». Signalé, non modifié : c'est une
-  question de vocabulaire du fichier, pas de lecture.
+  question de vocabulaire du fichier, pas de lecture. **Les pages 99 et 101 donnent
+  deux autres formes** — « Episcopalien » pour les Atkinson, « C.E. » (Church of
+  England ?) pour les French — toutes trois réduites à « Protestante » dans le
+  fichier. À trancher globalement, comme Hyener/Hyence.
+- **Page 97 lignes 4 et 5** : la colonne 10 des deux Wilson porte un mot souligné
+  d'un trait épais, illisible même au PDF (« Veuve » ?), là où les autres lignes
+  portent « fl. » ou un tiret. Liens conservés (chef, fille).
+- **Page 97 lignes 17-24** : le patronyme est tracé avec une initiale à deux
+  jambages — **« Wermette »**, conforme aux données. Mais ces 8 lignes sont les
+  seules « Wermette » de la division, contre 21 « Vermette » ailleurs : même souche
+  selon toute vraisemblance. À fondre ou non d'un coup, comme Hyener/Hyence.
+- **Page 97 ligne 3** : Roberge « Lelly », 4 ans — « Lilly » n'est pas exclu.
+- **Page 98 ligne 14** : Leclerc Philippe, 59 ans — le second chiffre est réécrit
+  par-dessus un premier jet ; 59 conservé.
+- **Page 100 ligne 16** : Vallière Roméo, 6 ans au fichier ; le tracé se lit aussi
+  bien 5.
+- **Page 100 ligne 23** : Martineau « Mariene », 6 ans — le tracé donne plutôt
+  « Mariane », qui n'existe nulle part ailleurs dans la division. Non tranché.
+- **Page 101 ligne 24** · **page 102 ligne 24** : Moreau « Oriena » (2 ans) et Moreau
+  « Aler » (3 ans) — deux prénoms uniques dans la division, dont le tracé ne
+  confirme ni n'infirme la lecture du dépouillement.
 
 Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
 laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
@@ -287,6 +349,20 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | **92 L10-12** | **« Lafranois »** ×3 | **Lafrançois** — la cédille est visible ; 22 Lefrançois/Lafrançois contre 3 Lafranois |
 | 93 L14 | Montigny **Voteria** | **Victoria** — prénom rayé puis réécrit au-dessus de la ligne par le recenseur |
 | **93 L22-23** | **« Gegnere »** ×2 | **Gagnière** (ou Gaguière) — la première voyelle est un a ; « Gegnere » n'est pas un nom |
+| **97 L13-16** | **« Probin »** ×4 | **Robin** — l'initiale est celle des Roberge de la même page ; 20 Robin dans la division |
+| 97 L21 | Wermette **Philénier** | **Philomène** — même tracé que sa mère, ligne 18 |
+| 98 L5 | Beaulieu **Marie** | **Zéphirine** — le manuscrit porte « … Zéphirine Beaulieu », premier élément indéchiffrable |
+| 98 L10 | Blouin **Adélord** | Adélard |
+| 98 L13 | Blouin **Onésine** | Onésime — le m final est net |
+| 98 L17 | Leclerc **Ananda** | **Amanda** — 18 Amanda, aucun Ananda ailleurs |
+| 98 L25 | Boulet **Silarie** | **Silvio** — la finale est en « -io » |
+| 99 L7 | Atkinson **Belina** | **Selina** — même tracé que sa fille, ligne 9 |
+| 99 L8 | Atkinson **« K. Fro »** | **Wm P.** — abréviation anglaise ; la seconde initiale reste mal assurée |
+| **99 L23 · 102 L2** | **« Azarie »** ×2 | **Cézarie** — l'initiale est un C ; ce sont les deux seuls Azarie de la division |
+| 100 L3 | Horion **Carolina** | Caroline |
+| 101 L5 | Lambert **Georgiona** | **Georgiana** — 21 Georgiana, aucun Georgiona ailleurs |
+| 101 L20 | **Raket** Rose | **Backet** — l'initiale est un B ; une famille Backet figure page 126 |
+| 102 L15 | Gagnon **Régena** | **Régina** — 5 Régina dans la division, aucun Régena ailleurs |
 
 ## Corrections appliquées — âges
 
@@ -303,6 +379,7 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 94 L11 | Faucher Bénoni, 38 ans | **35 ans** | son 5 diffère nettement du 8 de son épouse, ligne suivante |
 | 95 L9 | Seyborn Robert, 28 ans | **25 ans** | |
 | **96 L6** | Duperré Lucien, **8 ans** | **8 mois** | le manuscrit porte une **fraction** ; le dépouillement a gardé le numérateur et perdu la barre |
+| 99 L9 | Atkinson Selina, 20 ans | **22 ans** | le tracé donne 22, et l'ordre décroissant de la fratrie (24, 22, 21, 17, 14, 8) le confirme |
 
 S'y ajoutent sept corrections d'autres champs, toutes du lot PDF : les quatre lieux
 de naissance des enfants Wilson (page 62, voir plus haut), le lien « neveu » de
@@ -420,10 +497,11 @@ Ce chantier est conçu pour changer de session sans rien perdre. Tout ce qui com
 est dans le dépôt : les données, ce document, et l'outillage. Une conversation neuve
 repart avec un contexte vide — donc moins coûteuse — et n'a besoin que de ceci.
 
-**Où en est le travail.** Pages **1 à 96** confrontées au manuscrit. Reste **97 à 142**.
+**Où en est le travail.** Pages **1 à 102** confrontées au manuscrit. Reste **103 à 142**.
 
-**La branche.** `claude/recensement-1881-d2-review-2am0zx`. Y développer, y pousser,
-jamais directement sur `main` : chaque lot passe par une pull request.
+**La branche.** Une branche de travail par session, jamais `main` directement : chaque
+lot passe par une pull request. Les lots précédents sont passés par
+`claude/recensement-1881-d2-review-2am0zx`, puis `claude/recensement-1891-d1-review-7hbmuh`.
 
 **Ce qu'il faut rattacher à la nouvelle conversation.** Le PDF du manuscrit
 (`1891_DIV12_Partie03.pdf`, pages 84 à 142). Les fichiers joints ne suivent pas d'une
@@ -437,16 +515,18 @@ Tenir la liste des questions dans ce document.
 **L'outillage**, dans `outils/relecture-1881/` :
 
 ```sh
-python3 -c "import r91b; r91b.strip(97, 1, 13, 0.10, 0.62, 6, 'a.png')"  # bande lisible
-node -e "…"                                                              # dump d'une page
+export Z91_OUT=/un/dossier/de/travail
+python3 z91.py 97               # les deux bandes de la page 97, lisibles telles quelles
+python3 z91.py 97 13 17 0.22 0.40 20   # zoom sur les lignes 13-17
+node page91.mjs 97 98 99        # dump aligné des données de ces pages
+node diag91.mjs                 # contrôles d'intégrité
 ```
 
 `pat91.mjs` applique les corrections et resynchronise le chef de famille. Le rythme
 d'un lot : repartir de `main`, dumper les pages, confronter, écrire le script de
-correction, contrôler l'intégrité (3548 personnes, 637 maisons, 644 familles, aucun
-identifiant ni numéro de maison dupliqué), mettre ce document à jour, pousser.
+correction, passer `diag91.mjs`, mettre ce document à jour, pousser.
 
-**Les trois pièges à ne pas redécouvrir.**
+**Les cinq pièges à ne pas redécouvrir.**
 
 1. Le cadre ne tombe pas au même endroit d'une page à l'autre — `r91b.py` le détecte,
    mais un zoom serré peut se décaler de quelques lignes : les numéros de ligne
@@ -454,3 +534,8 @@ identifiant ni numéro de maison dupliqué), mettre ce document à jour, pousser
 2. Les cadres des **pages 89 et 90 sont intervertis** sur le microfilm.
 3. Un âge d'enfant mal placé dans la fratrie est souvent une **fraction de mois** dont
    le dépouillement n'a gardé que le numérateur.
+4. **Les abscisses des colonnes diffèrent entre la demi-page du haut et celle du bas** :
+   un `x0f`/`x1f` calibré sur la page 101 tombe à côté sur la page 102. Recadrer large
+   d'abord, resserrer ensuite.
+5. Une naissance étrangère lue sur une ligne est **presque toujours en colonne 13 ou 14**
+   (les parents), pas en colonne 11 — voir la question n° 4.
