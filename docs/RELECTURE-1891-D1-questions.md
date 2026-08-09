@@ -9,10 +9,10 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Pages confrontées : **1 à 92**. Corrections appliquées : **125** (108 noms ou prénoms,
-8 âges, 9 autres champs — lieux de naissance, liens, sexe). Une correction antérieure
+Pages confrontées : **1 à 96**. Corrections appliquées : **134** (112 noms ou prénoms,
+11 âges, 11 autres champs — lieux de naissance, liens, sexe). Une correction antérieure
 **annulée** (l'« Elmire » de la page 66, voir plus bas). Lignes signalées sans
-correction : **60**.
+correction : **62**.
 
 **Les pages 62 à 83 ont été fournies en PDF** (deux pages du manuscrit par page PDF,
 comme les recueils de 1881) : le rendu à haute résolution y règle en quelques minutes
@@ -22,7 +22,7 @@ laissés en suspens aux pages 57 à 61.
 
 ## Ce qui est confirmé
 
-La structure est juste sur les 92 pages : 25 lignes chacune, familles 1 à 411 dans
+La structure est juste sur les 96 pages : 25 lignes chacune, familles 1 à 430 dans
 l'ordre, numéros de maison alignés, liens de parenté et professions conformes.
 Le dépouillement de 1891 est nettement plus fiable que celui de 1881 — les écarts
 ci-dessous sont des variantes de lecture, non des inventions.
@@ -180,6 +180,15 @@ n'a été appliqué.
   fondre. À trancher globalement plutôt que page par page.
 - **Page 91 ligne 7** : la ligne de Philomène Gagné porte un prénom masculin rayé
   puis réécrit par le recenseur. La lecture retenue est la corrigée.
+- **Page 96 ligne 6** : le numérateur de la fraction de Lucien Duperré n'est pas
+  certain — la barre de fraction, elle, l'est. Émile (1 an) et Lucien (8 mois)
+  ne peuvent être frères de sang : l'un des deux âges est fautif, ou l'un des
+  enfants est adopté.
+- **Page 96 ligne 11** : Beaulieu Joseph, 85 ans, journalier, marié à une femme de
+  58 ans. L'âge se lit 85 au manuscrit ; « 55 » n'est pas exclu.
+- **Page 95 ligne 14** : la colonne 15 porte « Anglican » pour la famille Brown,
+  là où les données notent « Protestante ». Signalé, non modifié : c'est une
+  question de vocabulaire du fichier, pas de lecture.
 
 Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
 laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
@@ -276,6 +285,8 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 89 L12 | Blais **Pictor** | **Victor** — 10 Victor dans la division, aucun Pictor ailleurs |
 | 91 L10 | **Gengra** Louise | **Gingras** — 25 Gingras contre un seul Gengra |
 | **92 L10-12** | **« Lafranois »** ×3 | **Lafrançois** — la cédille est visible ; 22 Lefrançois/Lafrançois contre 3 Lafranois |
+| 93 L14 | Montigny **Voteria** | **Victoria** — prénom rayé puis réécrit au-dessus de la ligne par le recenseur |
+| **93 L22-23** | **« Gegnere »** ×2 | **Gagnière** (ou Gaguière) — la première voyelle est un a ; « Gegnere » n'est pas un nom |
 
 ## Corrections appliquées — âges
 
@@ -289,6 +300,9 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | **58 L5** | Gagnon Ema, 21 ans | **31 ans** | le tracé donne 31, et l'index BAC lit 31 lui aussi |
 | 80 L22 | Lacroix Louise, 38 ans | **36 ans** | lu au PDF |
 | 91 L15 | Daigle Félix, 68 ans | **65 ans** | le 5 porte sa barre supérieure |
+| 94 L11 | Faucher Bénoni, 38 ans | **35 ans** | son 5 diffère nettement du 8 de son épouse, ligne suivante |
+| 95 L9 | Seyborn Robert, 28 ans | **25 ans** | |
+| **96 L6** | Duperré Lucien, **8 ans** | **8 mois** | le manuscrit porte une **fraction** ; le dépouillement a gardé le numérateur et perdu la barre |
 
 S'y ajoutent sept corrections d'autres champs, toutes du lot PDF : les quatre lieux
 de naissance des enfants Wilson (page 62, voir plus haut), le lien « neveu » de
@@ -309,6 +323,7 @@ Le dépouillement avait laissé **quatre lignes sans lien de parenté**, avec la
 | 86 L21 | Aubert Hélène, 14 ans, chez les Lefrançois | **fille adoptée** |
 | 87 L24 | Boucher Rosana, 18 ans, chez les Demers | **fille adoptée** (l'hypothèse « servante » tombe) |
 | 87 L19 | Fontaine Jean-Baptiste, 87 ans, chez les Gagnon | **beau-père** (« grand-père » pas exclu) |
+| 93 L20-21 | Narcisse et Marie Anne Montigny, 67 et 60 ans | **père** et **mère** du chef de maison — le dépouillement en faisait un couple de chefs d'une seconde famille |
 
 Trois enfants placés dans trois ménages voisins, tous notés de la même formule : c'est
 une pratique de la paroisse, pas un accident d'écriture.
