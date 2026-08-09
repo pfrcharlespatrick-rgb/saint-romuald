@@ -9,12 +9,20 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Pages confrontées : **1 à 62**. Corrections appliquées : **83** (77 noms ou prénoms,
-6 âges). Lignes signalées sans correction : **56**.
+Pages confrontées : **1 à 96**. Corrections appliquées : **134** (112 noms ou prénoms,
+11 âges, 11 autres champs — lieux de naissance, liens, sexe). Une correction antérieure
+**annulée** (l'« Elmire » de la page 66, voir plus bas). Lignes signalées sans
+correction : **62**.
+
+**Les pages 62 à 83 ont été fournies en PDF** (deux pages du manuscrit par page PDF,
+comme les recueils de 1881) : le rendu à haute résolution y règle en quelques minutes
+ce que les JPEG laissaient indécidable. C'est le format à privilégier pour la suite —
+et pour reprendre les pages 44 à 48 (voir l'affaire Elmire) ainsi que les âges 5/8
+laissés en suspens aux pages 57 à 61.
 
 ## Ce qui est confirmé
 
-La structure est juste sur les 56 pages : 25 lignes chacune, familles 1 à 243 dans
+La structure est juste sur les 96 pages : 25 lignes chacune, familles 1 à 430 dans
 l'ordre, numéros de maison alignés, liens de parenté et professions conformes.
 Le dépouillement de 1891 est nettement plus fiable que celui de 1881 — les écarts
 ci-dessous sont des variantes de lecture, non des inventions.
@@ -24,21 +32,24 @@ Détails vérifiés au passage : le code de logement de la colonne 4 (« B 2/6 �
 (Ahern né en Irlande p. 13, Fox né aux États-Unis p. 18) ; les liens rares sont
 justes (belle-sœur, bru, gendre, petit-fils, pensionnaire, cousine).
 
-## « Éléonarde » n'existait pas : c'est Elmire — réglé
+## « Éléonarde » / Elmire — l'affaire a rebondi sur le PDF
 
-Le fichier contenait **cinq « Éléonarde »** pour **huit « Elmire »**. L'hypothèse était
-qu'il s'agissait du même mot manuscrit rendu de deux façons ; **la page 48 l'a
-démontrée**.
+Le fichier contenait **cinq « Éléonarde »** pour **huit « Elmire »**. Sur les images
+JPEG, l'hypothèse d'un même mot manuscrit rendu de deux façons semblait démontrée par
+la page 48, où le dépouilleur écrit « Éléonarde » à la ligne 1 et « Elmire » à la
+ligne 3. Les cinq occurrences avaient été corrigées en **Elmire**.
 
-Sur cette page, le dépouilleur écrit **« Éléonarde » à la ligne 1 et « Elmire » à la
-ligne 3** — deux lignes d'écart, le même tracé, la même main qui transcrit. La preuve
-est dans le document lui-même.
+**Le PDF haute résolution a renversé le cas de la page 66.** À la ligne 15 (l'épouse
+de Cantin Narcisse), le tracé se lit « Elémard(e) » : un accent après « El », une
+finale en « -rd ». Comparé à l'« Elmire » certaine de la page 62 ligne 12 — E-l-m-i-r-e,
+point sur le i, finale en « -re », même main —, ce sont **deux tracés distincts**. La
+correction a été **annulée** : le fichier porte de nouveau « Éléonarde » à cette ligne
+(le prénom réel est peut-être « Éléonore »).
 
-Les cinq occurrences sont corrigées en **Elmire**. Quatre l'ont été sur images (pages
-44, 45, 46, 48) et sont tenues pour établies ; la cinquième (page 66 ligne 15) est
-appliquée par cohérence et reste marquée `incertain` faute d'image.
-
-Il ne reste **aucun « Éléonarde »** dans le fichier.
+**Conséquence : les quatre corrections des pages 44, 45, 46 et 48 ne sont plus tenues
+pour établies.** Elles avaient été jugées sur des JPEG où « -re » et « -rde » ne se
+distinguent pas. Elles gardent leur `incertain: true`. **Fournir les pages 44 à 48 en
+PDF les réglera d'un coup**, dans un sens ou dans l'autre.
 
 ## Question n° 3 — une ligne biffée au manuscrit, transcrite quand même
 
@@ -145,12 +156,39 @@ n'a été appliqué.
   la division) est plausible, le tracé ne le confirme pas.
 - **Page 61 ligne 18** : Dumas « Adleston », neuf ans — le manuscrit se lit plutôt
   « Adlestan ». La division 1 de 1881 porte un « Adelstan ».
-- **Page 62 lignes 18-21** : les quatre enfants Wilson portent « Irlande » comme lieu
-  de naissance de la mère, alors que leur mère Mary Jane (ligne 17) est née au
-  Québec — c'est son *père* à elle qui est né en Irlande. Soit le recenseur a reporté
-  l'origine familiale, soit les guillemets de répétition des colonnes 13-14 ont été
-  mal attribués au dépouillement. Indéchiffrable à cette résolution ; à trancher sur
-  une meilleure image avant d'y toucher.
+- **Page 62 lignes 18-21** — *réglé sur le PDF.* Les quatre enfants Wilson portaient
+  « Irlande » comme lieu de naissance de la mère. Le PDF montre la mécanique : à la
+  ligne 17, leur mère Mary Jane porte « Irelande » en colonne 13 (son père) et le
+  signe « 2 » (= Québec) en colonne 14 (sa mère) ; à la ligne 18, Thomas porte « 2 »
+  en colonne 13 et un guillemet en colonne 14, qui répète le « 2 » de la ligne 17 —
+  pas le « Irelande » de la ligne 16. Le dépouillement avait rattaché le guillemet à
+  la mauvaise cellule. **Corrigé : mère née au Québec pour les quatre.**
+- **Page 78 ligne 14** : Roussel Joseph, 49 ans au fichier — le tracé se lit aussi
+  bien 45. Épouse de 44 ans, aîné de 20 : rien ne tranche.
+- **Page 63 ligne 23** : « Permitte » conservé — le tracé du patronyme reste un
+  gribouillis même au PDF ; les 11 Permitte du fichier sont ce clan (familles 278,
+  282, 296).
+- **Page 66 ligne 17** : le manuscrit porte une abréviation en exposant devant
+  « Marie » (« Fᵈ » ?) — signalé en remarque, valeur inchangée.
+- **Page 70 ligne 19** : Conroy Sarah, « veuve » au fichier, mais la colonne 9 du
+  manuscrit porte un tiret — le « V » ne vient pas du manuscrit. Signalé, conservé.
+- **Page 73 ligne 11** : St-Hilaire « Ulzer » — le tracé se lit aussi « Ulger ».
+- **Page 75 lignes 24-25** : Marie et Cézarie Robin, toutes deux 7 ans au manuscrit —
+  troisième paire de sœurs au même âge, après Morneau (p. 28) et Demers (p. 53).
+- **Pages 92 et suivantes** : le patronyme « Hyener » (14 lignes) et « Hyence » (6)
+  désignent vraisemblablement la même souche ; le tracé ne permet pas de les
+  fondre. À trancher globalement plutôt que page par page.
+- **Page 91 ligne 7** : la ligne de Philomène Gagné porte un prénom masculin rayé
+  puis réécrit par le recenseur. La lecture retenue est la corrigée.
+- **Page 96 ligne 6** : le numérateur de la fraction de Lucien Duperré n'est pas
+  certain — la barre de fraction, elle, l'est. Émile (1 an) et Lucien (8 mois)
+  ne peuvent être frères de sang : l'un des deux âges est fautif, ou l'un des
+  enfants est adopté.
+- **Page 96 ligne 11** : Beaulieu Joseph, 85 ans, journalier, marié à une femme de
+  58 ans. L'âge se lit 85 au manuscrit ; « 55 » n'est pas exclu.
+- **Page 95 ligne 14** : la colonne 15 porte « Anglican » pour la famille Brown,
+  là où les données notent « Protestante ». Signalé, non modifié : c'est une
+  question de vocabulaire du fichier, pas de lecture.
 
 Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
 laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
@@ -232,6 +270,23 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 53 L16 | Nadeau **Jean** | Léon |
 | 58 L7 | Boucher **Pitaline** | **Vitaline** — même tracé que la Vitaline Côté de la page 59 ligne 18 |
 | **59 L14-16** | **« Lévesque »** ×3 | **Levasseur** — la finale « -sseur » est lisible ; 4 Levasseur ici et 8 en 1881-D1, aucun Lévesque ailleurs |
+| 64 L25 | Pelletier **Émile** | **Eusèbe** — la finale « -be » est nette au PDF (BAC : « Emilie ») |
+| 65 L13 | Hallé **Berlis** | **Barbe** — tracé « Berbe » ; « Berlis » ne correspond à rien |
+| 67 L15 | Kily **Henery** | **Honory** — la deuxième lettre est un o net |
+| 69 L24 | Boucher **Mélina** | **Delvina** — initiale D identique à la Délina de la ligne 23 |
+| 72 L2 | Lambert **Pierre** | **Prime** — P-r-i-m-e au PDF (BAC : « Reine ») |
+| **74 L9-20** | **« Marin »** ×12 | **Morin** — le premier o est net, et les 12 seuls « Marin » du fichier sont cette famille |
+| 75 L2 | Gosselin **Amélio** | **Anselme** — même confusion que l'« Ameline » de la page 31 |
+| 76 L8 | Rouleau **Marie Aney** | **Marie Ange** |
+| **76 L15-16** | **« Brocher »** ×2 | **Brochu** — le u final est net ; les deux seuls « Brocher » du fichier sont ces deux lignes |
+| 77 L8 | Dubois **MacLerte** | **Modeste** — net au PDF, barre du t comprise |
+| 84 L7 | Bois **Aaron**, sexe vide | **Aurore**, F, petite-fille — col. 7 « f » et col. 10 « p. fille » ; le « Aaron » venait de l'index BAC |
+| 86 L5 | Toussaint **Edouard** | **Edmond** |
+| 89 L12 | Blais **Pictor** | **Victor** — 10 Victor dans la division, aucun Pictor ailleurs |
+| 91 L10 | **Gengra** Louise | **Gingras** — 25 Gingras contre un seul Gengra |
+| **92 L10-12** | **« Lafranois »** ×3 | **Lafrançois** — la cédille est visible ; 22 Lefrançois/Lafrançois contre 3 Lafranois |
+| 93 L14 | Montigny **Voteria** | **Victoria** — prénom rayé puis réécrit au-dessus de la ligne par le recenseur |
+| **93 L22-23** | **« Gegnere »** ×2 | **Gagnière** (ou Gaguière) — la première voyelle est un a ; « Gegnere » n'est pas un nom |
 
 ## Corrections appliquées — âges
 
@@ -243,6 +298,45 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 19 L18 | Roberge Louis, 25 ans | 23 ans ? | épouse de 34 ans |
 | 46 L22 | Lavertu Alexis, 15 ans | **18 ans** | le place avant son frère Joseph, 16 ans |
 | **58 L5** | Gagnon Ema, 21 ans | **31 ans** | le tracé donne 31, et l'index BAC lit 31 lui aussi |
+| 80 L22 | Lacroix Louise, 38 ans | **36 ans** | lu au PDF |
+| 91 L15 | Daigle Félix, 68 ans | **65 ans** | le 5 porte sa barre supérieure |
+| 94 L11 | Faucher Bénoni, 38 ans | **35 ans** | son 5 diffère nettement du 8 de son épouse, ligne suivante |
+| 95 L9 | Seyborn Robert, 28 ans | **25 ans** | |
+| **96 L6** | Duperré Lucien, **8 ans** | **8 mois** | le manuscrit porte une **fraction** ; le dépouillement a gardé le numérateur et perdu la barre |
+
+S'y ajoutent sept corrections d'autres champs, toutes du lot PDF : les quatre lieux
+de naissance des enfants Wilson (page 62, voir plus haut), le lien « neveu » de
+Barthélimi Bergeron (p. 65 l. 11, « frère » au dépouillement), le lien
+« pensionnaire » de Gaudias Fortin (p. 66 l. 8, « domestique » au dépouillement), et
+le sexe de « Bertha » Lee (p. 70 l. 15) : le manuscrit porte sexe « m » **et** lien
+« fils » — deux colonnes concordantes contre le prénom, la règle de 1881-D1 tranche
+pour un garçon (Bertie ?).
+
+## Les liens de parenté manquants : la colonne 10 se laisse lire
+
+Le dépouillement avait laissé **quatre lignes sans lien de parenté**, avec la mention
+« colonne 10 à relever au manuscrit ». Le PDF les règle toutes les quatre :
+
+| Page·ligne | Personne | Lien lu |
+|---|---|---|
+| 86 L14 | Fecteau Alma, 1 an, chez les Lacroix | **fille adoptée** |
+| 86 L21 | Aubert Hélène, 14 ans, chez les Lefrançois | **fille adoptée** |
+| 87 L24 | Boucher Rosana, 18 ans, chez les Demers | **fille adoptée** (l'hypothèse « servante » tombe) |
+| 87 L19 | Fontaine Jean-Baptiste, 87 ans, chez les Gagnon | **beau-père** (« grand-père » pas exclu) |
+| 93 L20-21 | Narcisse et Marie Anne Montigny, 67 et 60 ans | **père** et **mère** du chef de maison — le dépouillement en faisait un couple de chefs d'une seconde famille |
+
+Trois enfants placés dans trois ménages voisins, tous notés de la même formule : c'est
+une pratique de la paroisse, pas un accident d'écriture.
+
+## Les cadres 89 et 90 sont intervertis sur le microfilm
+
+Dans le PDF, le cadre qui suit la page 88 porte l'en-tête imprimé **« PAGE 90 »**, et
+le suivant **« PAGE 89 »**. Les données suivent l'en-tête, pas l'ordre des cadres :
+c'est le bon choix, et il est confirmé par les numéros de famille manuscrits
+(`no_famille_ms`) — 390 à 395 sur la page 90, 386 à 390 sur la page 89.
+
+Qui relira ces pages doit le savoir : **se fier à l'en-tête imprimé, jamais à l'ordre
+des images.** L'outil `outils/relecture-1881/r91b.py` porte l'échange en dur.
 
 ## Écarts relevés dans le manuscrit lui-même (pas des fautes de dépouillement)
 
@@ -319,3 +413,44 @@ côté — l'erreur classique de ce genre de travail. Le repère sûr est le fil
 placé sous la rangée des numéros de colonnes : la première ligne commence une
 douzaine de pixels dessous, et les 25 lignes se répartissent régulièrement jusqu'au
 filet du bas.
+
+## Reprendre le travail dans une nouvelle conversation
+
+Ce chantier est conçu pour changer de session sans rien perdre. Tout ce qui compte
+est dans le dépôt : les données, ce document, et l'outillage. Une conversation neuve
+repart avec un contexte vide — donc moins coûteuse — et n'a besoin que de ceci.
+
+**Où en est le travail.** Pages **1 à 96** confrontées au manuscrit. Reste **97 à 142**.
+
+**La branche.** `claude/recensement-1881-d2-review-2am0zx`. Y développer, y pousser,
+jamais directement sur `main` : chaque lot passe par une pull request.
+
+**Ce qu'il faut rattacher à la nouvelle conversation.** Le PDF du manuscrit
+(`1891_DIV12_Partie03.pdf`, pages 84 à 142). Les fichiers joints ne suivent pas d'une
+conversation à l'autre — c'est la seule chose à refaire.
+
+**La consigne de Patrick, à rappeler telle quelle** : entrer la lecture la plus
+probable plutôt que de laisser en blanc, chacune marquée `incertain: true` avec la
+lecture d'origine conservée en `remarque` ; il fera la relecture d'ensemble à la fin.
+Tenir la liste des questions dans ce document.
+
+**L'outillage**, dans `outils/relecture-1881/` :
+
+```sh
+python3 -c "import r91b; r91b.strip(97, 1, 13, 0.10, 0.62, 6, 'a.png')"  # bande lisible
+node -e "…"                                                              # dump d'une page
+```
+
+`pat91.mjs` applique les corrections et resynchronise le chef de famille. Le rythme
+d'un lot : repartir de `main`, dumper les pages, confronter, écrire le script de
+correction, contrôler l'intégrité (3548 personnes, 637 maisons, 644 familles, aucun
+identifiant ni numéro de maison dupliqué), mettre ce document à jour, pousser.
+
+**Les trois pièges à ne pas redécouvrir.**
+
+1. Le cadre ne tombe pas au même endroit d'une page à l'autre — `r91b.py` le détecte,
+   mais un zoom serré peut se décaler de quelques lignes : les numéros de ligne
+   imprimés dans la marge sont l'ancre, toujours les inclure dans le recadrage.
+2. Les cadres des **pages 89 et 90 sont intervertis** sur le microfilm.
+3. Un âge d'enfant mal placé dans la fratrie est souvent une **fraction de mois** dont
+   le dépouillement n'a gardé que le numérateur.

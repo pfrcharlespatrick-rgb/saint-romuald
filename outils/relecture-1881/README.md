@@ -49,7 +49,8 @@ la ligne 1.
 | `page.mjs`, `page1.mjs` | dump des données d'une page, format aligné |
 | `verif.mjs` | contrôles d'intégrité de la division 2 |
 | `diag1.mjs` | diagnostic structurel de la division 1 |
-| `pat.mjs`, `pat1.mjs` | ossature d'édition du fichier de données |
+| `pat.mjs`, `pat1.mjs`, `pat91.mjs` | ossature d'édition du fichier de données |
+| `r91.py`, `r91b.py` | 1891 division 1 : rendu des PDF de manuscrit (pages 62-83, puis 84-142) |
 
 Exemples :
 
@@ -138,3 +139,24 @@ Boucher logées dans la même maison 191 avaient été fondues en une, décalant
 d'un rang tout ce qui suivait jusqu'à ce que la numérotation se resynchronise.
 
 Avant de classer une anomalie « c'est le recenseur », la vérifier au manuscrit.
+
+## 1891, division 1 — les deux recueils PDF
+
+Les pages de 1891 arrivent en PDF portant **deux pages de manuscrit par page PDF**,
+haut et bas, comme ceux de 1881. `r91.py` couvre les pages 62 à 83, `r91b.py` les
+pages 84 à 142 ; chacun expose `strip(page, l0, l1, x0f, x1f, echelle, nom)` qui
+rend une bande de lignes recalée sur la grille.
+
+Deux pièges propres à ces recueils :
+
+1. **Le cadre ne tombe pas au même endroit d'une page à l'autre.** `r91b.py` détecte
+   les deux filets pleine largeur qui bornent les 25 lignes ; ne pas revenir à des
+   constantes en dur.
+2. **Les cadres des pages 89 et 90 sont intervertis sur le microfilm.** L'en-tête
+   imprimé « PAGE nn » de chaque cadre fait foi — les données suivent l'en-tête, et
+   les numéros de famille manuscrits le confirment. L'échange est codé dans
+   `r91b.ECHANGES`.
+
+La différence de rendement avec les images JPEG est nette : sur JPEG, le 5 et le 8 de
+ce recenseur sont indiscernables et une page prend un lot entier ; sur PDF rendu à
+haute résolution, vingt pages passent dans le même temps et les lectures se tranchent.
