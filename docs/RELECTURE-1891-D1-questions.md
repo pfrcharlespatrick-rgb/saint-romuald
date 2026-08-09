@@ -9,8 +9,8 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Pages confrontées : **1 à 56**. Corrections appliquées : **78** (73 noms ou prénoms,
-5 âges). Lignes signalées sans correction : **45**.
+Pages confrontées : **1 à 61**. Corrections appliquées : **83** (77 noms ou prénoms,
+6 âges). Lignes signalées sans correction : **55**.
 
 ## Ce qui est confirmé
 
@@ -134,6 +134,17 @@ n'a été appliqué.
 - **Page 54 ligne 9** : « Ulfedge » ou « Alfedge ».
 - **Page 54 ligne 23** : « Wallstand » ou « Wolstand ».
 - **Page 56 ligne 13** : « Clarilda » ou « Clarida ».
+- **Page 58 ligne 17** : patronyme « Palin » — le tracé donne plutôt « Polin » ou
+  « Paulin ». Il n'apparaît que dans cette famille de trois personnes, et nulle part
+  ailleurs dans les trois recensements : c'est exactement le profil de la variante
+  isolée décrite plus bas, mais l'image ne permet pas de trancher.
+- **Page 60 ligne 1** : Côté « Césolie », un an — le tracé se lit « Cisolie » ;
+  « Cécilia » est possible. Prénom unique dans la division.
+- **Page 60 ligne 13** : Fradette « Johney », quatre ans — tracé non résolu.
+- **Page 61 ligne 14** : Bégin « Pergina », dix ans — « Régina » (5 occurrences dans
+  la division) est plausible, le tracé ne le confirme pas.
+- **Page 61 ligne 18** : Dumas « Adleston », neuf ans — le manuscrit se lit plutôt
+  « Adlestan ». La division 1 de 1881 porte un « Adelstan ».
 
 Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
 laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
@@ -213,6 +224,8 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | **52 L21-24** | **« Dennes »** ×4 | **Demers** — 88 Demers au fichier contre 4 Dennes |
 | **56 L17-19** | **« Clauston »** ×3 | **Clouston** — 12 Clouston au fichier contre 3 Clauston |
 | 53 L16 | Nadeau **Jean** | Léon |
+| 58 L7 | Boucher **Pitaline** | **Vitaline** — même tracé que la Vitaline Côté de la page 59 ligne 18 |
+| **59 L14-16** | **« Lévesque »** ×3 | **Levasseur** — la finale « -sseur » est lisible ; 4 Levasseur ici et 8 en 1881-D1, aucun Lévesque ailleurs |
 
 ## Corrections appliquées — âges
 
@@ -223,6 +236,7 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 17 L24 | Letarte Paul, 29 ans | 27 ans ? | |
 | 19 L18 | Roberge Louis, 25 ans | 23 ans ? | épouse de 34 ans |
 | 46 L22 | Lavertu Alexis, 15 ans | **18 ans** | le place avant son frère Joseph, 16 ans |
+| **58 L5** | Gagnon Ema, 21 ans | **31 ans** | le tracé donne 31, et l'index BAC lit 31 lui aussi |
 
 ## Écarts relevés dans le manuscrit lui-même (pas des fautes de dépouillement)
 
@@ -239,6 +253,30 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
   29 ans.
 - **Page 25 ligne 12** : Bertol Amanda, servante de 20 ans, **née en Allemagne** —
   la seule de la division jusqu'ici. Confirmé au manuscrit.
+- **Page 59 ligne 8** : Picard Arthur, 22 ans, listé après ses cadets de 17, 15 et
+  14 ans. Vérifié au manuscrit : c'est bien 22, l'ordre décroissant est rompu par le
+  recenseur lui-même.
+
+## Une limite des images : le 5 et le 8 ne se distinguent pas
+
+Les cinq images des pages 57 à 61 sont des JPEG de 1785 × 1137 pixels, soit environ
+**dix pixels par chiffre manuscrit**. Les noms restent lisibles, les chiffres isolés
+aussi, mais **le 5 et le 8 de ce recenseur deviennent indiscernables** : les deux se
+tracent d'une barre supérieure suivie d'une panse, et l'interpolation ne rend pas ce
+qui n'a pas été capté.
+
+Quatre âges restent donc tels quels, faute de pouvoir trancher :
+
+- **Page 57 ligne 8** : Garant Joseph, 38 ans dans les données ; le tracé ressemble à
+  celui de son épouse ligne 9, portée à 35.
+- **Page 60 lignes 17 et 18** : Marois George 28 ans et Clara 38 ans — mêmes deux
+  glyphes à l'œil.
+- **Page 61 ligne 11** : Bégin Célina, 38 ans ; se lit aussi bien 35.
+- **Page 58 lignes 22 et 25** : Roberge Rosana, 8 ans (l'ordre décroissant de la
+  fratrie plaide pour 8, le tracé pour 5), et la fraction de mois de Wilfrid.
+
+Ces cas se règleront d'un coup si les pages sont un jour fournies en PDF, comme
+celles de 1881 : le rendu à 500 ppp les rendrait triviaux.
 
 ## Un piège évité : les colonnes de naissance
 
@@ -267,3 +305,11 @@ Les images utiles sont les **pages entières** : elles portent la colonne des no
 les colonnes 17 à 25 sur la même prise, ce qui garantit l'alignement des lignes. Les
 recadrages partiels de la moitié droite sont à éviter — le fichier de données signale
 que les cadres du bas du microfilm ne sont pas alignés d'une image à l'autre.
+
+**La grille des 25 lignes ne tombe pas au même endroit d'une image à l'autre** : les
+pages 57, 59 et 61 sont cadrées serré, les pages 58 et 60 portent tout l'en-tête et
+descendent 200 pixels plus bas. Recaler avant de recadrer, sinon on lit la ligne d'à
+côté — l'erreur classique de ce genre de travail. Le repère sûr est le filet noir
+placé sous la rangée des numéros de colonnes : la première ligne commence une
+douzaine de pixels dessous, et les 25 lignes se répartissent régulièrement jusqu'au
+filet du bas.
