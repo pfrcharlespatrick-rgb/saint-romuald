@@ -413,3 +413,44 @@ côté — l'erreur classique de ce genre de travail. Le repère sûr est le fil
 placé sous la rangée des numéros de colonnes : la première ligne commence une
 douzaine de pixels dessous, et les 25 lignes se répartissent régulièrement jusqu'au
 filet du bas.
+
+## Reprendre le travail dans une nouvelle conversation
+
+Ce chantier est conçu pour changer de session sans rien perdre. Tout ce qui compte
+est dans le dépôt : les données, ce document, et l'outillage. Une conversation neuve
+repart avec un contexte vide — donc moins coûteuse — et n'a besoin que de ceci.
+
+**Où en est le travail.** Pages **1 à 96** confrontées au manuscrit. Reste **97 à 142**.
+
+**La branche.** `claude/recensement-1881-d2-review-2am0zx`. Y développer, y pousser,
+jamais directement sur `main` : chaque lot passe par une pull request.
+
+**Ce qu'il faut rattacher à la nouvelle conversation.** Le PDF du manuscrit
+(`1891_DIV12_Partie03.pdf`, pages 84 à 142). Les fichiers joints ne suivent pas d'une
+conversation à l'autre — c'est la seule chose à refaire.
+
+**La consigne de Patrick, à rappeler telle quelle** : entrer la lecture la plus
+probable plutôt que de laisser en blanc, chacune marquée `incertain: true` avec la
+lecture d'origine conservée en `remarque` ; il fera la relecture d'ensemble à la fin.
+Tenir la liste des questions dans ce document.
+
+**L'outillage**, dans `outils/relecture-1881/` :
+
+```sh
+python3 -c "import r91b; r91b.strip(97, 1, 13, 0.10, 0.62, 6, 'a.png')"  # bande lisible
+node -e "…"                                                              # dump d'une page
+```
+
+`pat91.mjs` applique les corrections et resynchronise le chef de famille. Le rythme
+d'un lot : repartir de `main`, dumper les pages, confronter, écrire le script de
+correction, contrôler l'intégrité (3548 personnes, 637 maisons, 644 familles, aucun
+identifiant ni numéro de maison dupliqué), mettre ce document à jour, pousser.
+
+**Les trois pièges à ne pas redécouvrir.**
+
+1. Le cadre ne tombe pas au même endroit d'une page à l'autre — `r91b.py` le détecte,
+   mais un zoom serré peut se décaler de quelques lignes : les numéros de ligne
+   imprimés dans la marge sont l'ancre, toujours les inclure dans le recadrage.
+2. Les cadres des **pages 89 et 90 sont intervertis** sur le microfilm.
+3. Un âge d'enfant mal placé dans la fratrie est souvent une **fraction de mois** dont
+   le dépouillement n'a gardé que le numérateur.
