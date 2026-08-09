@@ -9,10 +9,10 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Pages confrontées : **1 à 102**. Corrections appliquées : **165** (130 noms ou prénoms,
-12 âges, 27 autres champs — lieux de naissance, liens, sexe). Une correction antérieure
-**annulée** (l'« Elmire » de la page 66, voir plus bas). Lignes signalées sans
-correction : **69**.
+Pages confrontées : **1 à 112**. Lignes corrigées : **203** — 147 portent un nom ou un
+prénom, 13 un âge, 50 un autre champ (lieux de naissance, liens de parenté, sexe,
+religion) ; quelques-unes en cumulent plusieurs. Une correction antérieure **annulée**
+(l'« Elmire » de la page 66, voir plus bas). Lignes signalées sans correction : **78**.
 
 **Les pages 62 à 83 ont été fournies en PDF** (deux pages du manuscrit par page PDF,
 comme les recueils de 1881) : le rendu à haute résolution y règle en quelques minutes
@@ -22,15 +22,19 @@ laissés en suspens aux pages 57 à 61.
 
 ## Ce qui est confirmé
 
-La structure est juste sur les 96 pages : 25 lignes chacune, familles 1 à 430 dans
-l'ordre, numéros de maison alignés, liens de parenté et professions conformes.
-Le dépouillement de 1891 est nettement plus fiable que celui de 1881 — les écarts
-ci-dessous sont des variantes de lecture, non des inventions.
+La structure est juste sur les 112 pages : 25 lignes chacune, familles 1 à 501 dans
+l'ordre, numéros de maison alignés, professions conformes. Le dépouillement de 1891 est
+nettement plus fiable que celui de 1881 — les écarts ci-dessous sont des variantes de
+lecture, non des inventions.
 
 Détails vérifiés au passage : le code de logement de la colonne 4 (« B 2/6 » = bois,
-2 étages, 6 chambres) est bien enregistré ; les origines étrangères sont exactes
-(Ahern né en Irlande p. 13, Fox né aux États-Unis p. 18) ; les liens rares sont
-justes (belle-sœur, bru, gendre, petit-fils, pensionnaire, cousine).
+2 étages, 6 chambres) est bien enregistré ; les liens rares sont justes (belle-sœur,
+bru, gendre, petit-fils, pensionnaire, cousine).
+
+**Deux réserves, nées des pages 97 à 112.** Les **origines étrangères** ne sont pas
+toutes exactes : neuf personnes en sont revenues, voir la question n° 4. Et les **liens
+de parenté** demandent d'être lus au manuscrit plutôt que déduits de la structure des
+familles — quatorze lignes y sont passées.
 
 ## « Éléonarde » / Elmire — l'affaire a rebondi sur le PDF
 
@@ -74,6 +78,10 @@ qui n'en sont pas** :
 | 101 L15 | French Suzan, 42, maîtresse de pension | Angleterre | **Québec** (père anglais, mère irlandaise) |
 | 101 L20 | Backet Rose, 36, servante | Angleterre | **Québec** (idem) |
 | 97 L5 | Wilson Kate, 30 | Irlande | **Québec** |
+| 105 L24 | Varlot Marie Louise, 24 | Belgique | **Québec** — voir plus bas |
+| 110 L3 | Carrier Joan, 37 | Irlande | **Québec** (parents irlandais) |
+| 110 L4 | Ahern Robert, 38, son frère | Irlande | **Québec** (idem) |
+| 110 L17 | Dawson John, 38 | Irlande | **Québec** — ses trois cadets y sont déjà portés « Québec » |
 
 La lecture n'est pas une conjecture : **les enfants la confirment**. Les six petits
 Atkinson portent « Q » en colonne 13 — le lieu de naissance de leur père —, et le
@@ -92,6 +100,15 @@ manuscrit a été appliquée, la contradiction est signalée en remarque.
 se fier au seul mot lisible sur la ligne — repérer d'abord la colonne. Le repère sûr est
 la colonne 12 (« Canadiens français »), étroite, qui porte 1 ou un tiret : la colonne 11
 est immédiatement à sa gauche, les colonnes 13 et 14 immédiatement à sa droite.
+
+**La page 105 en donne la démonstration la plus nette.** Le dépouillement y logeait chez
+David Hardy deux pensionnaires belges, Léandre et Marie Louise Varlot. Or la ligne de
+Marie Louise porte « fl. » (fille) en colonne 10, le signe de Québec en colonne 11, « 1 »
+en colonne 12 — Canadiens français — et « Q » aux colonnes 13 et 14, celles de ses
+parents, qui sont précisément David Hardy et Rose Delima, lignes 15 et 16. C'est une fille
+de la maison, née au Québec, mariée à un mécanicien belge ; et son mari, en colonne 10,
+est écrit **gendre**. Le seul mot « Belgique » de la ligne 23 avait suffi à faire de la
+femme une immigrante et du couple des étrangers de passage.
 
 ## Question n° 3 — une ligne biffée au manuscrit, transcrite quand même
 
@@ -251,6 +268,35 @@ n'a été appliqué.
 - **Page 101 ligne 24** · **page 102 ligne 24** : Moreau « Oriena » (2 ans) et Moreau
   « Aler » (3 ans) — deux prénoms uniques dans la division, dont le tracé ne
   confirme ni n'infirme la lecture du dépouillement.
+- **Page 106 ligne 1** : Hardy Demerise, 22 ans, épouse d'Eusèbe, lui-même chef de la
+  maison 468 — mais la colonne 10 porte **« bru »**. Le recenseur semble avoir continué
+  de rapporter les liens au patriarche de la maison voisine. « Épouse » conservé.
+- **Page 106 ligne 22** · **page 107 ligne 8** : Honorine (3 ans) et « Lord » (9 ans) —
+  dans les deux cas les colonnes 7 et 10 concordent contre le prénom, qui reste tel quel :
+  le premier est un garçon, la seconde une fille.
+- **Page 105 ligne 22** : Barbeau Aimée, 2 ans — la colonne 7 porte « M. » mais la
+  colonne 10 porte « p. fl. » (petite-fille). Sexe F conservé : ici c'est la colonne 7 qui
+  est isolée.
+- **Page 110 lignes 19 à 21** : les âges des trois Dawson sont **repris et biffés** dans
+  le manuscrit. Le fichier lit 30, 26 et 28 ; la dernière ligne porte nettement 30. Rien
+  n'a été touché — trois âges à reprendre ensemble.
+- **Page 110 ligne 13** · **pages 108-109** · **page 116** : la division porte
+  **Frechette** (9), **Frichette** (4) et **Fréchette** (4). Le tracé ne permet pas de
+  fondre les trois formes. À trancher globalement, comme Hyener/Hyence.
+- **Page 111 ligne 25** : la servante Daggs n'a **aucun prénom** dans les données, et le
+  manuscrit n'en porte pas davantage — c'est un blanc du recenseur, non du dépouilleur.
+  Second trou de ce genre après le fils Lefebvre de la page 13.
+- **Page 112 lignes 1 et 2** : la maison 496 est la plus étrange rencontrée. Frances Moore,
+  45 ans, veuve, née en Ontario de parents français, protestante, est chef — et pourtant sa
+  **colonne 10 porte le même mot** (« dom. » ?) que celles de la servante Daggs et des deux
+  Moore qui la suivent, Parlet (17 ans) et Agnie (12 ans, cuisinière). Impossible de dire
+  si ces deux dernières sont ses filles ou ses domestiques : les liens sont **conservés**
+  tels quels. Ce qui est lisible, en revanche, a été appliqué — leur religion est « C.R. »
+  et non protestante, et **Agnie est née en « Chine »**, écrit en toutes lettres là où sa
+  voisine porte « Engleterre ». C'est la seule mention de ce genre dans les trois
+  recensements : elle mérite vérification avant d'être versée telle quelle.
+- **Page 112 ligne 6** : la colonne 15 porte « Presbytérien » pour les Walker, réduite à
+  « Protestante » dans le fichier — quatrième forme après Anglican, Episcopalien et C.E.
 
 Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
 laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
@@ -363,6 +409,15 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 101 L5 | Lambert **Georgiona** | **Georgiana** — 21 Georgiana, aucun Georgiona ailleurs |
 | 101 L20 | **Raket** Rose | **Backet** — l'initiale est un B ; une famille Backet figure page 126 |
 | 102 L15 | Gagnon **Régena** | **Régina** — 5 Régina dans la division, aucun Régena ailleurs |
+| 103 L1 | Moreau **Amande** | Amanda |
+| 103 L5 | Vallière **Mary Jona** | **Mary Jane** — 11 Mary Jane dans la division |
+| 104 L1 | St Hilaire **Philomaine** | **Philomène** — le recenseur écrit « Philomine », sa graphie ordinaire |
+| 104 L14 | Roberge **Deléna** | Delina |
+| 107 L23 | Roberge **« Eugène », M, fils** | **Eugénie**, F, fille — prénom, colonne 7 et colonne 10 concordent |
+| 108 L8 · L9 · L24 | Georginna · Philipe · Odelon | Georgina · Philippe · Odilon |
+| 109 L12 | Roberge **« Mary Hue »** | **Marie Anne** |
+| 110 L20 | Dawson **Liry** | **Lizy** — famille irlandaise |
+| **112 L12-18** | **« Carbert »** ×7 | **Cadoret** — lu sans peine au manuscrit ; 21 Cadoret dans la division, dont la famille de la ligne 23, même page |
 
 ## Corrections appliquées — âges
 
@@ -380,6 +435,7 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 95 L9 | Seyborn Robert, 28 ans | **25 ans** | |
 | **96 L6** | Duperré Lucien, **8 ans** | **8 mois** | le manuscrit porte une **fraction** ; le dépouillement a gardé le numérateur et perdu la barre |
 | 99 L9 | Atkinson Selina, 20 ans | **22 ans** | le tracé donne 22, et l'ordre décroissant de la fratrie (24, 22, 21, 17, 14, 8) le confirme |
+| 105 L13 | Hardy Elmire, 5 ans | **6 ans** | |
 
 S'y ajoutent sept corrections d'autres champs, toutes du lot PDF : les quatre lieux
 de naissance des enfants Wilson (page 62, voir plus haut), le lien « neveu » de
@@ -404,6 +460,24 @@ Le dépouillement avait laissé **quatre lignes sans lien de parenté**, avec la
 
 Trois enfants placés dans trois ménages voisins, tous notés de la même formule : c'est
 une pratique de la paroisse, pas un accident d'écriture.
+
+## Les sous-familles : le dépouillement avait rebâti les liens, deux fois
+
+Quand un fils marié vit chez ses parents, le manuscrit continue de rapporter les liens
+**au chef de maison** : le fils reste « f », sa femme est « bru », leurs enfants sont
+« p. fille » et « p. f. ». Le fichier suit cette règle partout — les sous-familles des
+pages 90, 93 et 97 portent bien gendre, père, mère.
+
+**Deux sous-familles y échappaient**, celle des Proulx (page 103) et celle des Roberge
+(page 104) : le dépouillement y avait refait les liens autour du jeune ménage, si bien que
+Xavier Proulx et Pantaléon Roberge devenaient « chefs », leurs femmes « épouses » et leurs
+enfants « fils » et « filles » de gens qui, au manuscrit, sont leurs grands-parents. Douze
+lignes remises à la lettre du manuscrit. La sous-famille des Varlot (page 105) était du
+même ordre, en pire : deux « pensionnaires » là où le manuscrit écrit gendre et fille.
+
+Il reste ceci de vrai dans la lecture du dépouilleur : ces jeunes ménages **sont** des
+familles distinctes, et le fichier les compte comme telles (`no_famille` en « -2 »). Seuls
+les liens changent.
 
 ## Les cadres 89 et 90 sont intervertis sur le microfilm
 
@@ -497,7 +571,7 @@ Ce chantier est conçu pour changer de session sans rien perdre. Tout ce qui com
 est dans le dépôt : les données, ce document, et l'outillage. Une conversation neuve
 repart avec un contexte vide — donc moins coûteuse — et n'a besoin que de ceci.
 
-**Où en est le travail.** Pages **1 à 102** confrontées au manuscrit. Reste **103 à 142**.
+**Où en est le travail.** Pages **1 à 112** confrontées au manuscrit. Reste **113 à 142**.
 
 **La branche.** Une branche de travail par session, jamais `main` directement : chaque
 lot passe par une pull request. Les lots précédents sont passés par
