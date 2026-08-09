@@ -10,22 +10,23 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Lignes corrigées : **255** — 189 portent un nom ou un prénom, 14 un âge, 60 un autre champ (lieux de naissance, liens de
-parenté, sexe, religion) ; quelques-unes en cumulent plusieurs. Une correction antérieure
-**annulée** (l'« Elmire » de la page 66, voir plus bas). Lignes signalées sans
-correction : **92**.
+Lignes corrigées : **270** — 193 portent un nom ou un prénom, 14 un âge, 70 un autre
+champ (lieux de naissance, liens de parenté, sexe, religion, alphabétisation) ;
+quelques-unes en cumulent plusieurs. **Cinq corrections antérieures annulées** : l'affaire
+dite « Elmire », close plus bas. Lignes signalées sans correction : **92**.
 
-Reste, pour clore le chantier : la passe dédiée aux colonnes 21-22 (question n° 1), les
-quatre décisions d'ensemble laissées à Patrick (question n° 3, les variantes de
-patronymes, le vocabulaire des religions), et les pages 44 à 48 à reprendre en PDF
-(affaire Elmire).
+Reste, pour clore le chantier : la relecture case par case des colonnes 21-22 sur les
+pages 46 à 142 (la méthode est établie, voir la question n° 1), et les quatre décisions
+d'ensemble qui appartiennent à Patrick — la ligne biffée de la page 42, les variantes de
+patronymes, le vocabulaire des religions, les paires de frères et sœurs au même âge.
 
-**Les pages 62 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF, comme
-les recueils de 1881) : le rendu à haute résolution y règle en quelques minutes ce que
-les JPEG laissaient indécidable — vingt pages passent dans le temps qu'une seule prenait
-sur image. Restent en JPEG les pages 1 à 61 : c'est de là que viennent presque toutes les
-lectures encore en suspens, notamment les pages 44 à 48 (affaire Elmire) et les âges 5/8
-des pages 57 à 61.
+**Les pages 42 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF) : le
+rendu à haute résolution y règle en quelques minutes ce que les JPEG laissaient
+indécidable. Restent en JPEG les pages 1 à 41 : c'est de là que viennent désormais presque
+toutes les lectures en suspens — dont 54 des 56 « sait écrire mais ne sait pas lire ».
+Le recueil des pages 42-83 porte en outre les colonnes 17 à 25 sur la même prise que les
+noms, et **répète les numéros de ligne dans la marge droite** : c'est lui qui a permis la
+passe sur les colonnes 21-22.
 
 ## Ce qui est confirmé
 
@@ -43,24 +44,35 @@ toutes exactes : quinze personnes en sont revenues, voir la question n° 4. Et l
 de parenté** demandent d'être lus au manuscrit plutôt que déduits de la structure des
 familles — quatorze lignes y sont passées.
 
-## « Éléonarde » / Elmire — l'affaire a rebondi sur le PDF
+## « Éléonarde » / Elmire — l'affaire est close, et elle avait été mal jugée
 
-Le fichier contenait **cinq « Éléonarde »** pour **huit « Elmire »**. Sur les images
-JPEG, l'hypothèse d'un même mot manuscrit rendu de deux façons semblait démontrée par
-la page 48, où le dépouilleur écrit « Éléonarde » à la ligne 1 et « Elmire » à la
-ligne 3. Les cinq occurrences avaient été corrigées en **Elmire**.
+Le fichier contenait **cinq « Éléonarde »** pour huit « Elmire ». Sur les images JPEG,
+l'hypothèse d'un même mot rendu de deux façons semblait démontrée par la page 48, où le
+dépouilleur écrit « Éléonarde » à la ligne 1 et « Elmire » à la ligne 3 : les cinq
+occurrences avaient donc été corrigées en Elmire. Le PDF de la page 66 avait ensuite fait
+annuler l'une des cinq. **Le recueil des pages 42 à 83 règle les quatre autres, et dans le
+même sens : la correction était fausse.**
 
-**Le PDF haute résolution a renversé le cas de la page 66.** À la ligne 15 (l'épouse
-de Cantin Narcisse), le tracé se lit « Elémard(e) » : un accent après « El », une
-finale en « -rd ». Comparé à l'« Elmire » certaine de la page 62 ligne 12 — E-l-m-i-r-e,
-point sur le i, finale en « -re », même main —, ce sont **deux tracés distincts**. La
-correction a été **annulée** : le fichier porte de nouveau « Éléonarde » à cette ligne
-(le prénom réel est peut-être « Éléonore »).
+Les deux tracés n'ont rien de commun, et le grossissement le montre sans discussion :
 
-**Conséquence : les quatre corrections des pages 44, 45, 46 et 48 ne sont plus tenues
-pour établies.** Elles avaient été jugées sur des JPEG où « -re » et « -rde » ne se
-distinguent pas. Elles gardent leur `incertain: true`. **Fournir les pages 44 à 48 en
-PDF les réglera d'un coup**, dans un sens ou dans l'autre.
+- **« Eleonard »** — pages 44 L24, 45 L2, 46 L15, 48 L1, 66 L15 : un mot long, un **o**
+  net après « El », une finale en **« -ard »** terminée par un trait horizontal ;
+- **« Elmire »** — pages 48 L3 et 62 L12 : un mot court, un **m**, une finale en
+  **« -ire »**, le point du i bien posé.
+
+La ligne 3 de la page 48, qui passait pour la preuve, en est le contre-exemple : elle
+porte un « Elmire » authentique, deux lignes sous un « Eleonard » tout aussi authentique.
+Le dépouilleur avait raison les deux fois. L'index de BAC lit d'ailleurs « Eleonard » à
+la page 45 ligne 2.
+
+**Les cinq lignes portent désormais « Eleonard »** — la graphie que le dépouilleur emploie
+lui-même pour ce tracé aux pages 115, 116, 117, 128 et 139. La forme accentuée
+« Éléonarde », qui n'existe nulle part ailleurs, disparaît du fichier ; le prénom réel est
+vraisemblablement Éléonore, mais ce n'est pas ce que porte le manuscrit.
+
+C'est la deuxième fois que ce chantier corrige une de ses propres corrections. La leçon
+tient en une ligne : **une lecture faite sur JPEG ne vaut pas contre le PDF**, et un
+raisonnement de cohérence — « ce doit être le même mot » — ne remplace pas le tracé.
 
 ## Question n° 4 — le piège des colonnes de naissance joue aussi dans l'autre sens
 
@@ -142,24 +154,62 @@ possibles :
 
 C'est la première ligne biffée rencontrée en 45 pages.
 
-## Question n° 1 — les colonnes 21 et 22 (Sait lire / Sait écrire)
+## Question n° 1 — les colonnes 21 et 22 : la prémisse était fausse
 
-**C'est la question la plus lourde, et elle vaut pour toute la division.**
+**La passe dédiée a été faite. Elle renverse la question telle qu'elle était posée.**
 
-Le fichier annonce « pages 1-142 : complet » pour les colonnes 17 à 25. Or sur les
-neuf premières pages, **54 personnes sur 225 seulement portent une valeur** ; les
-171 autres n'ont aucun champ `sait_lire` / `sait_ecrire`. Les images de Patrick
-montrent pourtant des coches sur la plupart des lignes.
+Ce document affirmait que le fichier était lacunaire : 1927 personnes sur 3548 — 54 % —
+n'ont aucun champ `sait_lire` / `sait_ecrire`, « alors que les images montrent des coches
+sur la plupart des lignes ». C'était une erreur de lecture des images.
 
-De plus, **16 personnes de ces neuf pages sont enregistrées « sait écrire mais ne
-sait pas lire »** — ce qui n'a guère de sens à une époque où la lecture s'apprenait
-avant l'écriture. Sur l'ensemble de la division, ces cas sont au nombre de 59.
+Le recueil PDF des pages 42 à 83 porte les colonnes 17 à 25 sur la même prise que les
+noms, et **répète les numéros de ligne dans la marge droite** : les colonnes se lisent
+sans ambiguïté, chaque case portant soit un « 1 », soit un tiret tracé à la main. Les
+pages 42, 43, 44 et 45 ont été relues case par case, cent lignes en tout :
 
-Ces coches ne sont pas lisibles avec certitude sur des images de page entière : elles
-font quelques pixels. **Il faut une passe dédiée**, avec des recadrages serrés sur les
-colonnes 16 à 25 — en incluant la colonne des noms comme ancre, faute de quoi une
-lecture peut être décalée d'une ligne (le fichier met lui-même en garde contre ce
-risque).
+| Page | Lignes conformes | Écarts |
+|---|---|---|
+| 42 | 25 / 25 | — |
+| 43 | 24 / 25 | une coche omise (L16) |
+| 44 | 25 / 25 | — |
+| 45 | 21 / 25 | dérive d'une ligne, L12 à L18 |
+
+**Une absence de valeur dans le fichier correspond à un tiret dans le manuscrit**, pas à
+une lacune du dépouillement. Les 1927 personnes sans valeur ne savaient ni lire ni écrire
+— ce qui, pour une paroisse ouvrière de 1891 dont 554 habitants ont moins de cinq ans,
+n'a rien d'invraisemblable. Le fichier dit vrai quand il annonce « pages 1-142 : complet ».
+
+Reste une réserve, et elle est réelle : **le dépouillement dérive parfois d'une ligne**.
+La page 45 en donne un cas net, sur sept lignes — le fichier y porte à la ligne 12 les
+deux coches de la ligne 13, et perd celles des lignes 14, 15 et 18. C'est exactement le
+risque contre lequel le fichier met lui-même en garde. Sur cent lignes contrôlées, cinq
+sont fautives.
+
+**Ce qui a été corrigé** : les huit lignes ci-dessus, plus trois des cinq « sait écrire
+mais ne sait pas lire » vérifiables au PDF.
+
+**Ce qui reste** : les 995 lignes des pages 46 à 142 n'ont pas été relues case par case,
+et les pages 1 à 41 n'ont pas de recueil PDF. La méthode est établie et l'outillage en
+place (`r91c.py`, recadrage `0.60–1.00`, échelle 8) : c'est un travail long mais
+mécanique, à mener page par page.
+
+### Les « sait écrire mais ne sait pas lire »
+
+Ils étaient 59. Cinq seulement tombent dans les pages couvertes par un recueil PDF ; les
+54 autres sont aux pages 1 à 41. Les cinq ont été vérifiés au manuscrit :
+
+| Page·ligne | Personne | Verdict |
+|---|---|---|
+| 49 L16 | Turgeon Alvina, 29 | les deux colonnes portent un « 1 » — **corrigé** |
+| 98 L6 | Blouin Marie, 47 | les deux colonnes portent un « 1 » — **corrigé** |
+| 106 L5 | Côté Ernest, 18, chauffeur | les deux colonnes portent un tiret — **corrigé** |
+| 93 L2 | Gagnon Louis, 36, calfat | colonne 22 seule : **le recenseur l'a bien écrit ainsi** |
+| 120 L9 | Terrien Leon, 9 | colonne 22 seule : **idem** |
+
+Trois sur cinq étaient des fautes de dépouillement, deux sont des bizarreries du
+recenseur. À ce compte, la trentaine de cas des pages 1 à 41 mérite d'être reprise si les
+images de ces pages sont un jour fournies en PDF — mais il ne faut pas s'attendre à les
+voir tous disparaître.
 
 ## Laissé en l'état, faute de lecture — à reprendre au manuscrit
 
@@ -419,7 +469,7 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 40 L10 | Côté Perpetude | Perpétue |
 | **40 L24** | Lebel **« S Baptiste »** | **J.Baptiste** — le J de ce recenseur |
 | 42 L1 | Parent **Moly** | Molly (famille anglophone) |
-| **44 L24 · 45 L2 · 46 L15 · 48 L1 · 66 L15** | **« Éléonarde »** ×5 | **Elmire** — voir ci-dessus |
+| **44 L24 · 45 L2 · 46 L15 · 48 L1 · 66 L15** | « Éléonarde » ×5, puis « Elmire » | **Eleonard** — la correction « Elmire » est annulée, voir ci-dessus |
 | 47 L2 | Boucher **Lulie** | Julie |
 | **52 L21-24** | **« Dennes »** ×4 | **Demers** — 88 Demers au fichier contre 4 Dennes |
 | **56 L17-19** | **« Clauston »** ×3 | **Clouston** — 12 Clouston au fichier contre 3 Clauston |
@@ -657,8 +707,14 @@ export Z91_OUT=/un/dossier/de/travail
 python3 z91.py 97               # les deux bandes de la page 97, lisibles telles quelles
 python3 z91.py 97 13 17 0.22 0.40 20   # zoom sur les lignes 13-17
 node page91.mjs 97 98 99        # dump aligné des données de ces pages
+node alpha91.mjs 45             # colonnes 21-22 déjà enregistrées, pour confronter
 node diag91.mjs                 # contrôles d'intégrité
 ```
+
+Les trois recueils PDF passent par `recueil91.py` : `r91c` pour les pages 42 à 83,
+`r91b` pour les pages 84 à 142. Pour les colonnes 17 à 25, recadrer `0.60`–`1.00` à
+l'échelle 8 : les numéros de ligne de la marge droite et la colonne 16 (profession)
+donnent deux ancres indépendantes.
 
 `pat91.mjs` applique les corrections et resynchronise le chef de famille. Le rythme
 d'un lot : repartir de `main`, dumper les pages, confronter, écrire le script de
