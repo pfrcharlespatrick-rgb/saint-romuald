@@ -1,7 +1,8 @@
 # Recensement de 1891, division 1 — relecture au manuscrit
 
-**En cours.** Patrick fournit les images du manuscrit page par page ; chaque page est
-confrontée aux données de `data/recensement-1891-d1-data.js`.
+**Relecture terminée pour les 142 pages.** Chaque page a été confrontée aux données de
+`data/recensement-1891-d1-data.js`, sur les images fournies par Patrick puis, à partir
+de la page 62, sur les recueils PDF du microfilm.
 
 **Les lectures les plus probables sont appliquées au fichier**, à la demande de
 Patrick, qui fera la relecture d'ensemble à la fin. Chacune porte `incertain: true`
@@ -9,21 +10,27 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Pages confrontées : **1 à 112**. Lignes corrigées : **203** — 147 portent un nom ou un
-prénom, 13 un âge, 50 un autre champ (lieux de naissance, liens de parenté, sexe,
-religion) ; quelques-unes en cumulent plusieurs. Une correction antérieure **annulée**
-(l'« Elmire » de la page 66, voir plus bas). Lignes signalées sans correction : **78**.
+Lignes corrigées : **255** — 189 portent un nom ou un prénom, 14 un âge, 60 un autre champ (lieux de naissance, liens de
+parenté, sexe, religion) ; quelques-unes en cumulent plusieurs. Une correction antérieure
+**annulée** (l'« Elmire » de la page 66, voir plus bas). Lignes signalées sans
+correction : **92**.
 
-**Les pages 62 à 83 ont été fournies en PDF** (deux pages du manuscrit par page PDF,
-comme les recueils de 1881) : le rendu à haute résolution y règle en quelques minutes
-ce que les JPEG laissaient indécidable. C'est le format à privilégier pour la suite —
-et pour reprendre les pages 44 à 48 (voir l'affaire Elmire) ainsi que les âges 5/8
-laissés en suspens aux pages 57 à 61.
+Reste, pour clore le chantier : la passe dédiée aux colonnes 21-22 (question n° 1), les
+quatre décisions d'ensemble laissées à Patrick (question n° 3, les variantes de
+patronymes, le vocabulaire des religions), et les pages 44 à 48 à reprendre en PDF
+(affaire Elmire).
+
+**Les pages 62 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF, comme
+les recueils de 1881) : le rendu à haute résolution y règle en quelques minutes ce que
+les JPEG laissaient indécidable — vingt pages passent dans le temps qu'une seule prenait
+sur image. Restent en JPEG les pages 1 à 61 : c'est de là que viennent presque toutes les
+lectures encore en suspens, notamment les pages 44 à 48 (affaire Elmire) et les âges 5/8
+des pages 57 à 61.
 
 ## Ce qui est confirmé
 
-La structure est juste sur les 112 pages : 25 lignes chacune, familles 1 à 501 dans
-l'ordre, numéros de maison alignés, professions conformes. Le dépouillement de 1891 est
+La structure est juste sur les 142 pages : 25 lignes chacune (23 à la dernière),
+familles 1 à 642 dans l'ordre, numéros de maison alignés, professions conformes. Le dépouillement de 1891 est
 nettement plus fiable que celui de 1881 — les écarts ci-dessous sont des variantes de
 lecture, non des inventions.
 
@@ -31,8 +38,8 @@ Détails vérifiés au passage : le code de logement de la colonne 4 (« B 2/6 �
 2 étages, 6 chambres) est bien enregistré ; les liens rares sont justes (belle-sœur,
 bru, gendre, petit-fils, pensionnaire, cousine).
 
-**Deux réserves, nées des pages 97 à 112.** Les **origines étrangères** ne sont pas
-toutes exactes : neuf personnes en sont revenues, voir la question n° 4. Et les **liens
+**Deux réserves, nées des pages 97 à 142.** Les **origines étrangères** ne sont pas
+toutes exactes : quinze personnes en sont revenues, voir la question n° 4. Et les **liens
 de parenté** demandent d'être lus au manuscrit plutôt que déduits de la structure des
 familles — quatorze lignes y sont passées.
 
@@ -57,19 +64,19 @@ PDF les réglera d'un coup**, dans un sens ou dans l'autre.
 
 ## Question n° 4 — le piège des colonnes de naissance joue aussi dans l'autre sens
 
-**C'est la trouvaille des pages 97 à 102, et elle vaut d'être vérifiée sur toute la
-division.**
+**C'est la trouvaille des pages 97 à 124, et elle vaut d'être vérifiée sur les
+96 premières pages, qui n'ont pas été relues sous cet angle.**
 
 Le document notait déjà, aux pages 36-37, que deux femmes portées « Québec » l'étaient
 à bon droit : les mentions « England » et « Ireland » de leurs lignes sont aux
 colonnes 13 et 14, celles des parents. Le dépouillement avait alors bien lu.
 
-**Il a lu à l'envers quatre fois entre les pages 97 et 101.** Chez les Atkinson
-(page 99), chez Suzan French et sa servante (page 101), la **colonne 11 porte un simple
-signe de répétition** — c'est-à-dire « Québec », valeur de la ligne au-dessus — et ce
-sont les colonnes 13 et 14 qui portent Angleterre, Écosse, Irlande. Le dépouillement a
-remonté le pays des parents dans la case de l'intéressé, et **fabriqué six immigrants
-qui n'en sont pas** :
+**Il a lu à l'envers quinze fois entre les pages 97 et 124.** Chez les Atkinson
+(page 99), chez Suzan French et sa servante (page 101), chez les McReady, les Lee, les
+Linch, les Andrew, les St John, la **colonne 11 porte un simple signe de répétition** —
+c'est-à-dire « Québec », valeur de la ligne au-dessus — et ce sont les colonnes 13 et 14
+qui portent Angleterre, Écosse, Irlande. Le dépouillement a remonté le pays des parents
+dans la case de l'intéressé, et **fabriqué quinze immigrants qui n'en sont pas** :
 
 | Page·ligne | Personne | Dépouillement | Manuscrit (col. 11) |
 |---|---|---|---|
@@ -82,6 +89,12 @@ qui n'en sont pas** :
 | 110 L3 | Carrier Joan, 37 | Irlande | **Québec** (parents irlandais) |
 | 110 L4 | Ahern Robert, 38, son frère | Irlande | **Québec** (idem) |
 | 110 L17 | Dawson John, 38 | Irlande | **Québec** — ses trois cadets y sont déjà portés « Québec » |
+| 113 L5 | McReady Delima, 66 | Irlande | **Québec**, et « 1 » en colonne 12 : Canadienne française |
+| 113 L17 | McReady Éléonore, 56, marchande | Irlande | **Québec** (idem) |
+| 115 L13 | Lee Robert, 29 | Angleterre | **Québec** (père anglais, mère irlandaise) |
+| 124 L7 | Linch John, 47, mesureur de bois | Irlande | **Québec** — seule sa femme, ligne 8, porte « Irelande » en colonne 11 |
+| 124 L15 | Andrew Margurit, 40 | Angleterre | **Québec** (père anglais, mère irlandaise) |
+| 124 L19 | St John Marguerit, 65, couturière | Irlande | **Québec** (parents irlandais) |
 
 La lecture n'est pas une conjecture : **les enfants la confirment**. Les six petits
 Atkinson portent « Q » en colonne 13 — le lieu de naissance de leur père —, et le
@@ -297,6 +310,41 @@ n'a été appliqué.
   recensements : elle mérite vérification avant d'être versée telle quelle.
 - **Page 112 ligne 6** : la colonne 15 porte « Presbytérien » pour les Walker, réduite à
   « Protestante » dans le fichier — quatrième forme après Anglican, Episcopalien et C.E.
+  Les pages 126 à 137 en portent d'autres, celles-là bien enregistrées : Anglican pour
+  les Grove, Presbytérien pour les Anderson, « Église du Christ » pour les Smith.
+- **Page 117 ligne 19 · page 118 ligne 1** : la même famille est écrite **Binet** au bas
+  d'une page et **Binette** en haut de l'autre — par le recenseur lui-même, qui réécrit
+  le patronyme à chaque nouvelle page. Le fichier suit le manuscrit ; rien n'a été
+  harmonisé.
+- **Trois familles portent un patronyme voisin d'un patronyme fréquent**, sans que le
+  tracé permette de les fondre : **Cadorette** (p. 118) et **Cadarette** (p. 120) contre
+  28 Cadoret ; **Guillette** (p. 92, 125) contre 11 Guillotte ; **McNaugton** (p. 131)
+  contre 6 McNaughton (p. 72). À trancher globalement, comme Hyener/Hyence.
+- **Le fichier porte deux graphies pour un même chef de famille** — le champ `chef`
+  normalise là où la ligne du membre garde la forme brute : Achille/Archille (p. 121),
+  Marguerite/Margurit (p. 124, 129), Antoine/Anthoine (p. 130), Germain/German (p. 130),
+  Marcelline/Marcelin (p. 131), Onésime/Onesine (p. 134), Rosalie/Rosalia (p. 135),
+  Éléonore/Eleonard (p. 139). **Vérification faite au manuscrit : c'est la forme brute
+  qui est écrite.** Quatorze cas, tous listés par `diag91.mjs` ; rien n'a été touché,
+  c'est une question d'harmonisation du fichier, pas de lecture.
+- **Page 128 ligne 15** : Boucher « Colonir », 17 ans — le tracé donne « Colomir » ;
+  Célanire, employé page 102, est possible sans être établi.
+- **Page 131 lignes 19 et 21** : la mère et la fille Cantin portent le même prénom au
+  manuscrit, que le dépouillement écrit **Fredebina** puis **Fredelina**. Le tracé donne
+  plutôt « Fridelina » aux deux lignes. Non tranché.
+- **Page 133 ligne 13** : Cantin « Modosse », 36 ans — Modeste est probable (le
+  dépouillement avait déjà écrit « MacLerte » pour Modeste page 77), mais le tracé ne le
+  confirme pas.
+- **Page 135 ligne 4** · **page 140 lignes 4 et 5** · **page 139 ligne 1** : Cantin
+  « Aurare », Saintonge « Lace », Martel « Rigiete » et Roberge « Demogne » — quatre
+  prénoms uniques dans la division, dont le tracé ne donne pas mieux.
+- **Page 132 ligne 8** : Roberge Marguerite, **95 ans**, mère du chef de maison — l'âge
+  le plus élevé de la division. Confirmé au manuscrit.
+- **Cinq paires de frères ou sœurs au même âge** ont maintenant été relevées : Morneau
+  (p. 28), Demers (p. 53), Robin (p. 75), Nolin (p. 119, deux garçons de 11 ans) et Côté
+  (p. 129, deux garçons de 3 ans). À ce compte, ce n'est plus une erreur isolée du
+  recenseur : soit les jumeaux étaient nombreux, soit il inscrivait le même âge par
+  inadvertance en descendant la colonne.
 
 Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
 laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
@@ -418,6 +466,19 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 109 L12 | Roberge **« Mary Hue »** | **Marie Anne** |
 | 110 L20 | Dawson **Liry** | **Lizy** — famille irlandaise |
 | **112 L12-18** | **« Carbert »** ×7 | **Cadoret** — lu sans peine au manuscrit ; 21 Cadoret dans la division, dont la famille de la ligne 23, même page |
+| 113 L16 · 120 L18 · 114 L1 | Odelon · Alier · Alier | Odilon · Alice · Alice |
+| **114 L2-8** | **« Beaulet »** ×7 | **Boulet** — 23 Boulet dans la division |
+| 115 L16 | Lee **« Aime »** | **Elmire** — le tracé commence par « El » ; Elmina et Elzire ne sont pas exclues |
+| 116 L11 | Roberge **« McLean »** | **Malcom** — 6 Malcom dans la division, dont son voisin page 115 |
+| **116 L14-20** | **« Barcher »** ×7 | **Boucher** — le tracé commence par « Bou- » ; 91 Boucher dans la division |
+| 121 L17 · L18 | Addie · Georgiane | Adelia · **Georgiana** |
+| 123 L18 · 136 L11 | **Geargiene** · **Georgiena** | **Georgiana** — 22 dans la division |
+| 124 L6 · L20 · L23 | Lard · **Liger** · **Willison** | Lord · **Lizy** · **William** |
+| **126 L16-17** | **« Baket »** ×2 | **Backet** — le manuscrit n'y porte qu'un signe de répétition : les deux graphies viennent du dépouilleur |
+| 130 L5 | **Fredette** Annie | **Fradette** |
+| **131 L18-24 · 133 L13-14 · 134 L8-9** | **« Coutin »** ×11 | **Cantin** — le a et le n sont nets ; 66 Cantin dans la division, et la même famille est écrite Cantin page 132 |
+| 131 L23 · 134 L22 | Teodude · **Onesine** | Teodule · Onesime |
+| 140 L8 | Roberge **« Lenrend »** | **Laurent** — lu sans peine |
 
 ## Corrections appliquées — âges
 
@@ -436,6 +497,7 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | **96 L6** | Duperré Lucien, **8 ans** | **8 mois** | le manuscrit porte une **fraction** ; le dépouillement a gardé le numérateur et perdu la barre |
 | 99 L9 | Atkinson Selina, 20 ans | **22 ans** | le tracé donne 22, et l'ordre décroissant de la fratrie (24, 22, 21, 17, 14, 8) le confirme |
 | 105 L13 | Hardy Elmire, 5 ans | **6 ans** | |
+| 128 L23 | Roberge Pierre, 19 ans | **29 ans** | le premier chiffre est le même 2 que celui de sa sœur, ligne 22 |
 
 S'y ajoutent sept corrections d'autres champs, toutes du lot PDF : les quatre lieux
 de naissance des enfants Wilson (page 62, voir plus haut), le lien « neveu » de
@@ -571,7 +633,9 @@ Ce chantier est conçu pour changer de session sans rien perdre. Tout ce qui com
 est dans le dépôt : les données, ce document, et l'outillage. Une conversation neuve
 repart avec un contexte vide — donc moins coûteuse — et n'a besoin que de ceci.
 
-**Où en est le travail.** Pages **1 à 112** confrontées au manuscrit. Reste **113 à 142**.
+**Où en est le travail.** Les **142 pages** sont confrontées au manuscrit. Ce qui reste
+est listé en tête de ce document : la passe sur les colonnes 21-22, les décisions
+d'ensemble, et les pages 44 à 48 à reprendre en PDF.
 
 **La branche.** Une branche de travail par session, jamais `main` directement : chaque
 lot passe par une pull request. Les lots précédents sont passés par
