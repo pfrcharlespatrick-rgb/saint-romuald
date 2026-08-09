@@ -9,10 +9,10 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Pages confrontées : **1 à 83**. Corrections appliquées : **112** (98 noms ou prénoms,
-7 âges, 7 autres champs — lieux de naissance, liens, sexe). Une correction antérieure
+Pages confrontées : **1 à 92**. Corrections appliquées : **125** (108 noms ou prénoms,
+8 âges, 9 autres champs — lieux de naissance, liens, sexe). Une correction antérieure
 **annulée** (l'« Elmire » de la page 66, voir plus bas). Lignes signalées sans
-correction : **58**.
+correction : **60**.
 
 **Les pages 62 à 83 ont été fournies en PDF** (deux pages du manuscrit par page PDF,
 comme les recueils de 1881) : le rendu à haute résolution y règle en quelques minutes
@@ -22,7 +22,7 @@ laissés en suspens aux pages 57 à 61.
 
 ## Ce qui est confirmé
 
-La structure est juste sur les 83 pages : 25 lignes chacune, familles 1 à 364 dans
+La structure est juste sur les 92 pages : 25 lignes chacune, familles 1 à 411 dans
 l'ordre, numéros de maison alignés, liens de parenté et professions conformes.
 Le dépouillement de 1891 est nettement plus fiable que celui de 1881 — les écarts
 ci-dessous sont des variantes de lecture, non des inventions.
@@ -175,6 +175,11 @@ n'a été appliqué.
 - **Page 73 ligne 11** : St-Hilaire « Ulzer » — le tracé se lit aussi « Ulger ».
 - **Page 75 lignes 24-25** : Marie et Cézarie Robin, toutes deux 7 ans au manuscrit —
   troisième paire de sœurs au même âge, après Morneau (p. 28) et Demers (p. 53).
+- **Pages 92 et suivantes** : le patronyme « Hyener » (14 lignes) et « Hyence » (6)
+  désignent vraisemblablement la même souche ; le tracé ne permet pas de les
+  fondre. À trancher globalement plutôt que page par page.
+- **Page 91 ligne 7** : la ligne de Philomène Gagné porte un prénom masculin rayé
+  puis réécrit par le recenseur. La lecture retenue est la corrigée.
 
 Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
 laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
@@ -266,6 +271,11 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 76 L8 | Rouleau **Marie Aney** | **Marie Ange** |
 | **76 L15-16** | **« Brocher »** ×2 | **Brochu** — le u final est net ; les deux seuls « Brocher » du fichier sont ces deux lignes |
 | 77 L8 | Dubois **MacLerte** | **Modeste** — net au PDF, barre du t comprise |
+| 84 L7 | Bois **Aaron**, sexe vide | **Aurore**, F, petite-fille — col. 7 « f » et col. 10 « p. fille » ; le « Aaron » venait de l'index BAC |
+| 86 L5 | Toussaint **Edouard** | **Edmond** |
+| 89 L12 | Blais **Pictor** | **Victor** — 10 Victor dans la division, aucun Pictor ailleurs |
+| 91 L10 | **Gengra** Louise | **Gingras** — 25 Gingras contre un seul Gengra |
+| **92 L10-12** | **« Lafranois »** ×3 | **Lafrançois** — la cédille est visible ; 22 Lefrançois/Lafrançois contre 3 Lafranois |
 
 ## Corrections appliquées — âges
 
@@ -278,6 +288,7 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 46 L22 | Lavertu Alexis, 15 ans | **18 ans** | le place avant son frère Joseph, 16 ans |
 | **58 L5** | Gagnon Ema, 21 ans | **31 ans** | le tracé donne 31, et l'index BAC lit 31 lui aussi |
 | 80 L22 | Lacroix Louise, 38 ans | **36 ans** | lu au PDF |
+| 91 L15 | Daigle Félix, 68 ans | **65 ans** | le 5 porte sa barre supérieure |
 
 S'y ajoutent sept corrections d'autres champs, toutes du lot PDF : les quatre lieux
 de naissance des enfants Wilson (page 62, voir plus haut), le lien « neveu » de
@@ -286,6 +297,31 @@ Barthélimi Bergeron (p. 65 l. 11, « frère » au dépouillement), le lien
 le sexe de « Bertha » Lee (p. 70 l. 15) : le manuscrit porte sexe « m » **et** lien
 « fils » — deux colonnes concordantes contre le prénom, la règle de 1881-D1 tranche
 pour un garçon (Bertie ?).
+
+## Les liens de parenté manquants : la colonne 10 se laisse lire
+
+Le dépouillement avait laissé **quatre lignes sans lien de parenté**, avec la mention
+« colonne 10 à relever au manuscrit ». Le PDF les règle toutes les quatre :
+
+| Page·ligne | Personne | Lien lu |
+|---|---|---|
+| 86 L14 | Fecteau Alma, 1 an, chez les Lacroix | **fille adoptée** |
+| 86 L21 | Aubert Hélène, 14 ans, chez les Lefrançois | **fille adoptée** |
+| 87 L24 | Boucher Rosana, 18 ans, chez les Demers | **fille adoptée** (l'hypothèse « servante » tombe) |
+| 87 L19 | Fontaine Jean-Baptiste, 87 ans, chez les Gagnon | **beau-père** (« grand-père » pas exclu) |
+
+Trois enfants placés dans trois ménages voisins, tous notés de la même formule : c'est
+une pratique de la paroisse, pas un accident d'écriture.
+
+## Les cadres 89 et 90 sont intervertis sur le microfilm
+
+Dans le PDF, le cadre qui suit la page 88 porte l'en-tête imprimé **« PAGE 90 »**, et
+le suivant **« PAGE 89 »**. Les données suivent l'en-tête, pas l'ordre des cadres :
+c'est le bon choix, et il est confirmé par les numéros de famille manuscrits
+(`no_famille_ms`) — 390 à 395 sur la page 90, 386 à 390 sur la page 89.
+
+Qui relira ces pages doit le savoir : **se fier à l'en-tête imprimé, jamais à l'ordre
+des images.** L'outil `outils/relecture-1881/r91b.py` porte l'échange en dur.
 
 ## Écarts relevés dans le manuscrit lui-même (pas des fautes de dépouillement)
 
