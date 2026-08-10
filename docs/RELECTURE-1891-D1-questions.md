@@ -15,11 +15,13 @@ champ (lieux de naissance, liens de parenté, sexe, religion, alphabétisation) 
 quelques-unes en cumulent plusieurs. **Cinq corrections antérieures annulées** : l'affaire
 dite « Elmire », close plus bas. Lignes signalées sans correction : **92**.
 
-**La passe sur les colonnes 21-22 est terminée** : pages 42 à 142, 2523 lignes relues case
-par case, **152 corrigées**. Reste, pour clore le chantier : les pages 1 à 41, qui n'ont pas
-de recueil PDF, et les quatre décisions d'ensemble qui appartiennent à Patrick — la ligne
-biffée de la page 42, les variantes de patronymes, le vocabulaire des religions, les paires
-de frères et sœurs au même âge.
+**La passe sur les colonnes 21-22 couvre les pages 1 à 8 et 42 à 142** : 2723 lignes
+relues case par case, **292 corrigées**. **Restent les pages 9 à 41**, dont le recueil PDF
+est désormais fourni et l'outillage branché — mais où le dépouillement se révèle si mauvais
+que sept lignes sur dix sont à reprendre (voir la question n° 1). S'y ajoutent les quatre
+décisions d'ensemble qui appartiennent à Patrick — la ligne biffée de la page 42, les
+variantes de patronymes, le vocabulaire des religions, les paires de frères et sœurs au
+même âge.
 
 **Les pages 42 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF) : le
 rendu à haute résolution y règle en quelques minutes ce que les JPEG laissaient
@@ -155,10 +157,41 @@ possibles :
 
 C'est la première ligne biffée rencontrée en 45 pages.
 
-## Question n° 1 — les colonnes 21 et 22 : la passe est terminée
+## Question n° 1 — les colonnes 21 et 22
 
-**Pages 42 à 142 : 2523 lignes relues case par case, 152 corrigées.** Il ne reste que les
-pages 1 à 41, qui n'ont pas de recueil PDF.
+**Pages 1 à 8 et 42 à 142 : 2723 lignes relues case par case, 292 corrigées.** Restent les
+pages 9 à 41.
+
+### Le début de la division est à refaire, pas à corriger
+
+Le troisième recueil PDF, celui des pages 1 à 41, a été fourni en dernier. Ce qu'il montre
+change la nature du travail : **sur les 200 premières lignes relues, 140 étaient fausses —
+sept sur dix.** Ailleurs dans la division, le taux tourne entre un sur douze et un sur
+vingt-cinq. Ce n'est plus une relecture, c'est un dépouillement à reprendre.
+
+Trois signes, tous vérifiés au manuscrit :
+
+- **Le dépouillement enregistre là où le manuscrit ne porte rien, et se tait là où il
+  coche.** Page 2, la famille Veilleux porte sept « 11 » dans le fichier quand le manuscrit
+  n'y montre que des tirets ; les cinq Roy qui la précèdent n'ont rien d'enregistré quand
+  le manuscrit les coche. Page 1, même chose pour Lemelin Henri et le vieux couple des
+  lignes 10-11.
+- **Les colonnes 21 et 22 sont interverties partout où le dépouillement a écrit quelque
+  chose.** C'est l'explication des « sait écrire mais ne sait pas lire » : ils sont 54 aux
+  pages 1 à 31 et 2 seulement sur les 111 autres pages. Chaque fois que le manuscrit a été
+  vérifié — pages 1, 3, 4, 5, 6, 7 — la case portait « 10 » et le fichier « 01 ».
+- **La couverture est dérisoire** : de 0 à 11 valeurs enregistrées par page sur 25, et huit
+  pages (20, 34 à 41) entièrement vides.
+
+**Conséquence pratique** : sur les pages 1 à 41, ne rien croire du fichier. Chaque ligne se
+lit au manuscrit, y compris celles qui portent déjà une valeur — ce sont même celles-là
+qu'il faut regarder en premier.
+
+### Le reste de la division
+
+Ce document affirmait que le fichier était lacunaire : 1927 personnes sur 3548 — 54 % —
+n'ont aucun champ `sait_lire` / `sait_ecrire`, « alors que les images montrent des coches
+sur la plupart des lignes ». C'était vrai à moitié, et le partage se fait à la page 84.
 
 Ce document affirmait que le fichier était lacunaire : 1927 personnes sur 3548 — 54 % —
 n'ont aucun champ `sait_lire` / `sait_ecrire`, « alors que les images montrent des coches
@@ -751,16 +784,23 @@ node alpha91.mjs 45             # colonnes 21-22 déjà enregistrées, pour conf
 node diag91.mjs                 # contrôles d'intégrité
 ```
 
-**Le premier geste, si la passe des colonnes 21-22 devait reprendre** (pages 1 à 41, une
-fois leur recueil PDF fourni) **:**
+**Le premier geste pour reprendre la passe des colonnes 21-22** (pages **9 à 41** ; les
+trois recueils PDF sont fournis et branchés) **:**
 
 ```sh
 node outils/relecture-1881/fondre.mjs     # partir d'accord avec la main de Patrick
 export Z91_OUT=/un/dossier/de/travail
-python3 cols91.py 66 67 68 69             # une image par page, tout est dedans
-node alpha91.mjs 66                       # ce que le fichier porte déjà
+python3 cols91.py 9 10 11 12              # une image par page, tout est dedans
+node alpha91.mjs 9                        # ce que le fichier porte déjà
 node cols2122.mjs lectures.json --essai   # confronter avant d'écrire
 ```
+
+`cols91.py` choisit seul le recueil : `r91a` jusqu'à la page 41, `r91c` jusqu'à 83, `r91b`
+au-delà. **Le recueil des pages 1 à 41 a deux particularités**, toutes deux absorbées par
+`r91a.py` — son premier cadre est la fiche-titre du microfilm et non une page, d'où
+`base=0` ; et ses cadres sont photographiés un peu plus grands. Le cadre 143, juste après
+la fin de la division, porte un formulaire vierge : les trois recueils couvrent 1 à 142 et
+rien de plus, malgré le « DIV12 » de leurs noms de fichiers.
 
 La lecture s'écrit page par page, en deux chaînes de 25 caractères — « 1 » pour un un,
 « - » pour un tiret :
@@ -769,9 +809,10 @@ La lecture s'écrit page par page, en deux chaînes de 25 caractères — « 1 �
 { "66": { "lire": "-1----1-1-1-1111111-1-1--", "ecrire": "-1----1-1-1-1111111-1----" } }
 ```
 
-Compter entre **un écart sur douze** (pages 42-65) et **un sur vingt-cinq** (pages 66-142) —
-sauf devant une page dont le dépouillement n'a presque rien enregistré, où l'écart devient
-la règle.
+Compter entre **un écart sur douze** (pages 42-65) et **un sur vingt-cinq** (pages 66-142).
+**Aux pages 1 à 41, compter sept sur dix** : là, l'écart est la règle et la concordance
+l'exception. Prévoir une conversation neuve pour ce lot — huit pages y ont déjà épuisé une
+bonne part d'une session qui avait par ailleurs servi.
 
 Les recueils PDF passent par `recueil91.py` : `r91c` pour les pages 42 à 83,
 `r91b` pour les pages 84 à 142. Pour les colonnes 17 à 25, recadrer `0.60`–`1.00` à
