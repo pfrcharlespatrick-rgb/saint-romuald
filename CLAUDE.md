@@ -26,12 +26,17 @@ relecture automatique.** La règle, sans exception :
 3. La règle vaut **uniquement pour les corrections manuelles**. Partout ailleurs,
    la relecture au manuscrit fait son travail comme avant.
 
-L'outillage applique déjà cette règle : `outils/relecture-1881/atelier.mjs` lit
-la liste, `pat91.mjs` refuse les champs protégés et rend compte de ce qu'il a
-laissé, `fondre91.mjs` verse les corrections manuelles dans le recensement — ce
-qui les rend visibles sur le site public, qui ne lit pas le fichier de travail.
-**Passer `node outils/relecture-1881/fondre91.mjs` avant chaque lot de
-relecture** : le fichier part ainsi d'accord avec la main.
+L'outillage applique déjà cette règle, sur les cinq recensements :
+`outils/relecture-1881/atelier.mjs` lit la liste et filtre les champs protégés ;
+`pat.mjs`, `pat1.mjs` et `pat91.mjs` refusent de les écrire et rendent compte de
+ce qu'ils ont laissé, en montrant côte à côte la valeur écrite à la main et celle
+que la relecture proposait ; `fondre.mjs` verse les corrections manuelles dans
+les recensements — ce qui les rend visibles sur le site public, qui ne lit pas le
+fichier de travail.
+
+**Passer `node outils/relecture-1881/fondre.mjs` avant chaque lot de relecture** :
+les fichiers partent ainsi d'accord avec la main. L'opération est idempotente et
+`--essai` montre sans écrire.
 
 ## Gabarit « dictionnaire biographique »
 

@@ -53,3 +53,17 @@ export function sansRelecture(remarque) {
   if (!remarque) return '';
   return remarque.replace(/Relecture du manuscrit\s*(?:\([^)]*\))?\s*:.*$/s, '').trim();
 }
+
+/** Écarte d'un lot de champs ceux qu'une main a fixés.
+
+    Renvoie ce qui reste à écrire, le compte-rendu de ce qui a été laissé, et si
+    la ligne est tenue pour tranchée — auquel cas elle ne reçoit plus ni drapeau
+    `incertain` ni remarque de relecture. */
+export function filtrer(p, champs, etiquette) {
+  const garde = Object.keys(champs).filter(k => protege(p.id, k));
+  return {
+    retenus: Object.fromEntries(Object.entries(champs).filter(([k]) => !garde.includes(k))),
+    refuses: garde.map(k => `${etiquette} ${k} — la main a écrit « ${manuel(p.id)[k]} », la relecture proposait « ${champs[k]} »`),
+    tranchee: touche(p.id),
+  };
+}
