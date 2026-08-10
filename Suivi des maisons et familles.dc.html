@@ -175,7 +175,8 @@ a:hover{color:var(--color-accent-900)}
 <div style="max-width:1180px;margin:0 auto;padding:var(--space-6) var(--space-4) var(--space-8)">
   <div class="card" style="padding:var(--space-4);margin-bottom:var(--space-6);border-left:3px solid var(--color-accent-700)">
     <h2 style="font-family:var(--font-heading);font-weight:600;font-size:22px;margin:0 0 4px">Annexe — concordances Adresse-Maison</h2>
-    <p style="margin:0 0 var(--space-3);font-size:13px;color:var(--color-neutral-700);max-width:70ch">Bâtiments identifiés par adresse actuelle, toutes sources confondues. Pour chacun, une ou plusieurs hypothèses de correspondance avec une maison du recensement — modifiables ou annulables en tout temps.</p>
+    <p style="margin:0 0 var(--space-2);font-size:13px;color:var(--color-neutral-700);max-width:70ch">Bâtiments identifiés par adresse actuelle, toutes sources confondues. Pour chacun, une ou plusieurs hypothèses de correspondance avec une maison du recensement — modifiables ou annulables en tout temps.</p>
+    <p style="margin:0 0 var(--space-3);font-size:13px;max-width:70ch"><b>Pour situer un lieu au sol</b> — poser ou corriger sa position, dire s'il est encore debout, disparu ou remplacé, ajouter des notes à la suite de la source, verser des photos : <a href="carte.html?atelier=1" style="color:var(--color-accent-700)">l'atelier de la carte</a>. Ce travail voyage dans la même sauvegarde que celui-ci.</p>
     <div style="display:flex;gap:var(--space-4);flex-wrap:wrap;align-items:flex-end">
       <div class="field" style="max-width:320px;flex:1;min-width:200px">
         <label for="annexe-search">Rechercher (adresse, nom de famille)</label>
@@ -1589,9 +1590,13 @@ class Component extends DCLogic {
 
   /* Sauvegarde complète — tout le travail personnel (localStorage) et les photos
      (IndexedDB) dans un seul fichier, réimportable sur un autre appareil. */
+  /* `suivi-lieux` est écrit par l'atelier de la carte (carte.html, mode
+     Atelier), pas par cet écran-ci : positions, états, notes et rattachements
+     des lieux. Il voyage néanmoins avec le reste — même sauvegarde, même
+     poussée vers GitHub. Voir docs/LIEUX.md. */
   CLES_TRAVAIL = ['suivi-familles-notes', 'suivi-familles-corrections', 'suivi-corr-maison', 'suivi-corr-famille',
     'suivi-liens', 'suivi-hypotheses-adresses', 'suivi-propositions-etat', 'suivi-annexe-batiments',
-    'suivi-annexe-details', 'suivi-annexe-adresses', 'suivi-migration-ids-v1'];
+    'suivi-annexe-details', 'suivi-annexe-adresses', 'suivi-lieux', 'suivi-migration-ids-v1'];
 
   async exportSauvegarde() {
     const donnees = {};
@@ -1797,8 +1802,16 @@ class Component extends DCLogic {
       { cle: 'bat', quoi: 'Bâtiments ajoutés', n: (s.customEntries || []).length },
       { cle: 'conc', quoi: 'Concordances adresse-maison', n: Object.values(s.hypotheses).reduce((t, l) => t + l.length, 0) },
       { cle: 'cad', quoi: 'Fiches cadastrales', n: Object.keys(s.annexeDetails).length },
-      { cle: 'ph', quoi: 'Photos de bâtiments', n: Object.values(s.photos || {}).reduce((t, l) => t + l.length, 0) }
+      { cle: 'ph', quoi: 'Photos de bâtiments', n: Object.values(s.photos || {}).reduce((t, l) => t + l.length, 0) },
+      { cle: 'lieux', quoi: 'Lieux situés sur la carte', n: Object.keys(this.lireLieux()).length }
     ];
+  }
+
+  /* Les lieux ne se saisissent pas ici mais sur la carte : on se contente de
+     les compter pour que le panneau Sauvegarde dise la vérité sur ce qu'il
+     emporte. */
+  lireLieux() {
+    try { return JSON.parse(localStorage.getItem('suivi-lieux') || '{}'); } catch (e) { return {}; }
   }
 
   jumpToName(nom) {
