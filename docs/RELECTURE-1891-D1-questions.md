@@ -15,8 +15,8 @@ champ (lieux de naissance, liens de parenté, sexe, religion, alphabétisation) 
 quelques-unes en cumulent plusieurs. **Cinq corrections antérieures annulées** : l'affaire
 dite « Elmire », close plus bas. Lignes signalées sans correction : **92**.
 
-**La passe sur les colonnes 21-22 couvre les pages 1 à 8 et 42 à 142** : 2723 lignes
-relues case par case, **292 corrigées**. **Restent les pages 9 à 41**, dont le recueil PDF
+**La passe sur les colonnes 21-22 couvre les pages 1 à 12 et 42 à 142** : 2823 lignes
+relues case par case, **379 corrigées**. **Restent les pages 13 à 41**, dont le recueil PDF
 est désormais fourni et l'outillage branché — mais où le dépouillement se révèle si mauvais
 que sept lignes sur dix sont à reprendre (voir la question n° 1). S'y ajoutent les quatre
 décisions d'ensemble qui appartiennent à Patrick — la ligne biffée de la page 42, les
@@ -159,14 +159,14 @@ C'est la première ligne biffée rencontrée en 45 pages.
 
 ## Question n° 1 — les colonnes 21 et 22
 
-**Pages 1 à 8 et 42 à 142 : 2723 lignes relues case par case, 292 corrigées.** Restent les
-pages 9 à 41.
+**Pages 1 à 12 et 42 à 142 : 2823 lignes relues case par case, 379 corrigées.** Restent les
+pages 13 à 41.
 
 ### Le début de la division est à refaire, pas à corriger
 
 Le troisième recueil PDF, celui des pages 1 à 41, a été fourni en dernier. Ce qu'il montre
-change la nature du travail : **sur les 200 premières lignes relues, 140 étaient fausses —
-sept sur dix.** Ailleurs dans la division, le taux tourne entre un sur douze et un sur
+change la nature du travail : **sur les 300 premières lignes relues, 227 étaient fausses —
+trois sur quatre.** Ailleurs dans la division, le taux tourne entre un sur douze et un sur
 vingt-cinq. Ce n'est plus une relecture, c'est un dépouillement à reprendre.
 
 Trois signes, tous vérifiés au manuscrit :
@@ -784,14 +784,14 @@ node alpha91.mjs 45             # colonnes 21-22 déjà enregistrées, pour conf
 node diag91.mjs                 # contrôles d'intégrité
 ```
 
-**Le premier geste pour reprendre la passe des colonnes 21-22** (pages **9 à 41** ; les
+**Le premier geste pour reprendre la passe des colonnes 21-22** (pages **13 à 41** ; les
 trois recueils PDF sont fournis et branchés) **:**
 
 ```sh
 node outils/relecture-1881/fondre.mjs     # partir d'accord avec la main de Patrick
 export Z91_OUT=/un/dossier/de/travail
-python3 cols91.py 9 10 11 12              # une image par page, tout est dedans
-node alpha91.mjs 9                        # ce que le fichier porte déjà
+python3 cols91.py 13 14 15 16             # une image par page, tout est dedans
+node alpha91.mjs 13                       # ce que le fichier porte déjà
 node cols2122.mjs lectures.json --essai   # confronter avant d'écrire
 ```
 
@@ -810,8 +810,8 @@ La lecture s'écrit page par page, en deux chaînes de 25 caractères — « 1 �
 ```
 
 Compter entre **un écart sur douze** (pages 42-65) et **un sur vingt-cinq** (pages 66-142).
-**Aux pages 1 à 41, compter sept sur dix** : là, l'écart est la règle et la concordance
-l'exception. Prévoir une conversation neuve pour ce lot — huit pages y ont déjà épuisé une
+**Aux pages 1 à 41, compter trois sur quatre** : là, l'écart est la règle et la concordance
+l'exception. Prévoir une conversation neuve pour ce lot — douze pages y ont déjà épuisé une
 bonne part d'une session qui avait par ailleurs servi.
 
 Les recueils PDF passent par `recueil91.py` : `r91c` pour les pages 42 à 83,
