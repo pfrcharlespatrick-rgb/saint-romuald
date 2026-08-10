@@ -110,19 +110,31 @@
     );
   }
 
+  // Où cette maison se trouve au sol. Le rattachement vit désormais dans la
+  // couche « lieux » (docs/LIEUX.md) : un lieu a une position, un état — encore
+  // debout, disparu, remplacé — et peut n'avoir aucune adresse actuelle, ce qui
+  // est le cas de tout ce qui a été démoli. Les propositions de Bussière
+  // restent affichées à part quand elles n'ont pas encore été tranchées.
   function rendreAdresse(f) {
-    var titre = '<h3 class="bloc-titre">Adresse actuelle et cartographie</h3>';
-    if (!f.concordances || !f.concordances.length) {
+    var titre = '<h3 class="bloc-titre">Où était cette maison</h3>';
+    var lieux = f.lieux || [];
+    if (!lieux.length) {
       return (
         '<section class="bloc">' + titre +
-        '<div class="vide">Aucun rattachement à une adresse actuelle proposé pour cette maison. Voir <a href="carte.html">la frise du chemin du Fleuve</a> pour les bâtiments déjà rattachés.</div></section>'
+        '<div class="vide">Cette maison n\'est encore rattachée à aucun lieu. Voir <a href="carte.html">la carte du chemin du Fleuve</a> pour les lieux déjà situés.</div></section>'
       );
     }
-    var items = f.concordances.map(function (c) {
+    var ETATS = { debout: 'encore debout', disparu: 'disparu', remplace: 'remplacé', deplace: 'déplacé', inconnu: 'état inconnu' };
+    var STATUTS = { confirme: 'Confirmé', a_verifier: 'À vérifier', hypothese: 'Hypothèse', propose: 'Proposé par la source' };
+    var items = lieux.map(function (l) {
       return (
-        '<div class="marginale"><b>' + esc(c.adresse) + (c.titre ? ' — ' + esc(c.titre) : '') + '</b>' +
-        'Confiance ' + esc(c.confiance) + ' : ' + esc(c.motif) +
-        '<br><a href="carte.html#b-' + esc(c.id) + '">Voir sur la frise du chemin du Fleuve →</a></div>'
+        '<div class="marginale"><b>' + esc(l.nom) +
+        (l.adresse_actuelle ? ' — ' + esc(l.adresse_actuelle) : ' — sans adresse actuelle') + '</b>' +
+        esc(STATUTS[l.statut] || l.statut) + (l.confiance ? ', confiance ' + esc(l.confiance) : '') +
+        ' · ' + esc(ETATS[l.etat] || l.etat) +
+        (l.motif ? '<br>' + esc(l.motif) : '') +
+        '<br><a href="lieu.html#' + esc(l.lieu_id) + '">Ouvrir la fiche du lieu →</a>' +
+        ' · <a href="carte.html#l-' + esc(l.lieu_id) + '">le situer sur la carte</a></div>'
       );
     }).join('');
     return '<section class="bloc">' + titre + items + '</section>';

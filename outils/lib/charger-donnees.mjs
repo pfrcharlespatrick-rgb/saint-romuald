@@ -16,7 +16,9 @@ function chargerObjetGlobal(fichier) {
   // objet ({) ou un tableau ([), selon le fichier (les annexes sont des
   // tableaux à la racine).
   const brut = fs.readFileSync(path.join(RACINE, 'data', fichier), 'utf8');
-  const egal = brut.indexOf('=');
+  // Certains fichiers portent un en-tête en commentaire : on part de
+  // l'affectation à `window`, pas du premier « = » venu.
+  const egal = brut.indexOf('=', brut.indexOf('window.'));
   let valeur = brut.slice(egal + 1).trim();
   if (valeur.endsWith(';')) valeur = valeur.slice(0, -1).trim();
   return JSON.parse(valeur);
@@ -164,10 +166,65 @@ export function chargerDonnees() {
     }
   }
 
+  // ─── Lieux ───────────────────────────────────────────────────────────────
+  // Un lieu est un emplacement au sol : une position, un état (debout,
+  // disparu, remplacé) et la liste datée des maisons de recensement qui y ont
+  // été recensées. La couche est un *surcroît* par-dessus Bussière : un lieu
+  // qui porte `source_ref` hérite du titre, des personnages et du résumé de la
+  // brochure, et n'écrit lui-même que ce que le chercheur a établi.
+  // Voir docs/LIEUX.md.
+  const parBussiere = new Map(bussiere.map((b) => [b.id, b]));
+  const lieuxBrut = fs.existsSync(path.join(RACINE, 'data', 'lieux-data.js'))
+    ? chargerObjetGlobal('lieux-data.js')
+    : { lieux: [] };
+
+  const lieux = (lieuxBrut.lieux || []).map((l) => {
+    const src = l.source_ref && l.source_ref.startsWith('bussiere:')
+      ? parBussiere.get(l.source_ref.slice('bussiere:'.length))
+      : null;
+    return {
+      ...l,
+      nom: l.nom || src?.titre || l.adresse_actuelle || l.id,
+      adresse_actuelle: l.adresse_actuelle || src?.adresse || '',
+      construit: l.construit || src?.annee || '',
+      // Le texte de la source reste distinct de ce que le chercheur ajoute :
+      // c'est la même règle que « corrections » vs « manuscrit ».
+      resume_source: src ? { texte: src.resume || '', auteur: 'Bussière, Saint-Romuald, 1990' } : null,
+      personnages: l.personnages || src?.personnages || '',
+      resume: l.resume || '',
+      notes: l.notes || [],
+      occupations: l.occupations || [],
+      photos: l.photos || [],
+      adresses_anciennes: l.adresses_anciennes || [],
+      cadastre: l.cadastre || {},
+      documents: l.documents || []
+    };
+  });
+
+  const lieuxParId = new Map(lieux.map((l) => [l.id, l]));
+
+  // Index inverse : quelles maisons de recensement pointent vers quel lieu.
+  // Les occupations rejetées sont conservées dans le lieu (elles racontent une
+  // hypothèse écartée, ce qui a de la valeur) mais n'entrent pas dans l'index.
+  const lieuxParMaison = new Map(); // cleMaison -> [{ lieu_id, ...occupation }]
+  for (const l of lieux) {
+    for (const occ of l.occupations) {
+      if (occ.statut === 'rejete') continue;
+      const cle = cleMaison(occ.annee, occ.division, occ.no_maison);
+      if (!lieuxParMaison.has(cle)) lieuxParMaison.set(cle, []);
+      lieuxParMaison.get(cle).push({
+        lieu_id: l.id, nom: l.nom, adresse_actuelle: l.adresse_actuelle, etat: l.etat,
+        statut: occ.statut, confiance: occ.confiance || '', motif: occ.motif || '',
+        origine: occ.origine || '', coord: l.coord || null
+      });
+    }
+  }
+
   return {
     recensements, personnes, maisons, maisonsParAnneeDiv, annexes,
     filiation, manifeste, bussiere,
     liensDe, liensVers, evenementsParPersonne, evenementsParMenage, documentsParPersonne,
-    concordancesParMaison
+    concordancesParMaison,
+    lieux, lieuxParId, lieuxParMaison, lieuxMeta: { mis_a_jour: lieuxBrut.mis_a_jour || '', version: lieuxBrut.version || 0 }
   };
 }

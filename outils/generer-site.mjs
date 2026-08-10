@@ -4,6 +4,7 @@
 //   recherche-index.json           — index compact, chargé par index.html
 //   fiches/personne/<annee-D>.json — fiches de personne, par lot annee-division
 //   fiches/maison/<annee-D>.json   — fiches de maison, par lot annee-division
+//   fiches/lieux.json              — lieux résolus, pour carte.html et lieu.html
 //   stats-donnees.json             — statistiques précalculées pour stats.html
 //
 // Rejouer après toute mise à jour de data/* : `node outils/generer-site.mjs`.
@@ -126,6 +127,11 @@ for (const p of d.personnes.values()) {
     incertain: !!p.incertain,
     remarque: nettoyerRemarque(p.remarque),
     cle_maison: cleM,
+    // Où cette personne habitait, quand le rattachement au sol est fait.
+    lieux: (d.lieuxParMaison.get(cleM) || []).map((l) => ({
+      lieu_id: l.lieu_id, nom: l.nom, adresse_actuelle: l.adresse_actuelle,
+      etat: l.etat, statut: l.statut
+    })),
     trajectoire: trajectoireDe(p.id),
     maisonnee,
     evenements,
@@ -188,7 +194,8 @@ for (const [cleM, maison] of d.maisons) {
     remarque_nom: nettoyerRemarque(maison.remarque_nom),
     remarque: nettoyerRemarque(maison.remarque),
     familles, renvois,
-    concordances: d.concordancesParMaison.get(cleM) || []
+    concordances: d.concordancesParMaison.get(cleM) || [],
+    lieux: d.lieuxParMaison.get(cleM) || []
   };
 }
 
@@ -198,6 +205,85 @@ for (const [cleAD, lot] of parLotMaison) {
   totalOctetsMaison += fs.statSync(chemin).size;
 }
 console.log(`fiches/maison/*.json : ${parLotMaison.size} lots, ${(totalOctetsMaison / 1024).toFixed(0)} Ko au total`);
+
+// ───────────────────────── fiches de lieu ─────────────────────────
+// Un seul fichier pour les 39 lieux : la carte les veut tous à la fois pour
+// poser ses points, et la fiche n'a alors plus rien à charger. Quelques
+// dizaines de Ko — le même raisonnement que pour bussiere1990-data.js.
+
+function menageeDe(cleM) {
+  const maison = d.maisons.get(cleM);
+  if (!maison) return null;
+  return {
+    cle: cleM,
+    familles: maison.familles.map((f) => {
+      const membres = f.membres.map((id) => d.personnes.get(id)).filter(Boolean);
+      const chef = membres[0];
+      return {
+        no_famille: f.no_famille,
+        chef: f.chef || (chef ? nomComplet(chef) : ''),
+        chef_id: chef ? chef.id : '',
+        chef_profession: chef ? chef.profession || '' : '',
+        chef_age: chef ? chef.age || '' : '',
+        effectif: membres.length
+      };
+    }),
+    logement: maison.logement || null
+  };
+}
+
+const ORDRE_STATUT = { confirme: 0, a_verifier: 1, hypothese: 2, propose: 3, rejete: 4 };
+
+const lieuxSortie = d.lieux.map((l) => {
+  const occupations = l.occupations.map((occ) => {
+    const cleM = cleMaison(occ.annee, occ.division, occ.no_maison);
+    return { ...occ, cle_maison: cleM, maisonnee: menageeDe(cleM) };
+  }).sort((a, b) => (a.annee === b.annee
+    ? (ORDRE_STATUT[a.statut] ?? 9) - (ORDRE_STATUT[b.statut] ?? 9)
+    : Number(a.annee) - Number(b.annee)));
+
+  const documents = (l.documents || []).map((id) => {
+    const doc = (d.manifeste.documents || []).find((x) => x.id === id);
+    return doc ? { id: doc.id, titre: doc.titre, type: doc.type } : null;
+  }).filter(Boolean);
+
+  return {
+    id: l.id, nom: l.nom, voie: l.voie || '', adresse_actuelle: l.adresse_actuelle,
+    designe_aujourdhui: l.designe_aujourdhui || '',
+    etat: l.etat || 'inconnu', construit: l.construit || '', disparu: l.disparu || '',
+    coord: l.coord || null,
+    source: l.source || '', source_ref: l.source_ref || '',
+    personnages: l.personnages, resume_source: l.resume_source, resume: l.resume,
+    notes: l.notes, adresses_anciennes: l.adresses_anciennes, cadastre: l.cadastre,
+    photos: l.photos, documents, occupations
+  };
+});
+
+// Index des maisons par chef de ménage — c'est ce qui permet, dans l'atelier
+// de la carte, de rattacher un lieu à une maison en tapant un nom plutôt qu'en
+// se rappelant un numéro. « Peut-être est-ce déjà possible via les noms du
+// recensement » : oui, à condition de fournir l'index.
+const maisonsIndex = [];
+for (const [cleM, maison] of d.maisons) {
+  const chefs = maison.familles.map((f) => {
+    const premier = d.personnes.get(f.membres[0]);
+    return f.chef || (premier ? nomComplet(premier) : '');
+  }).filter(Boolean);
+  const effectif = maison.familles.reduce((s, f) => s + f.membres.length, 0);
+  maisonsIndex.push([cleM, maison.annee, maison.division, maison.no_maison, chefs.join(' ; '), effectif]);
+}
+const cheminMaisonsIndex = ecrireJson('fiches/maisons-index.json', maisonsIndex);
+console.log(`fiches/maisons-index.json : ${maisonsIndex.length} maisons, ${(fs.statSync(cheminMaisonsIndex).size / 1024).toFixed(0)} Ko`);
+
+const cheminLieux = ecrireJson('fiches/lieux.json', {
+  mis_a_jour: d.lieuxMeta.mis_a_jour,
+  lieux: lieuxSortie
+});
+const nAncres = lieuxSortie.filter((l) => l.coord).length;
+const nReleves = lieuxSortie.filter((l) => l.coord && l.coord.precision === 'releve').length;
+const nRattaches = lieuxSortie.filter((l) => l.occupations.some((o) => o.statut !== 'rejete')).length;
+console.log(`fiches/lieux.json : ${lieuxSortie.length} lieux, ${(fs.statSync(cheminLieux).size / 1024).toFixed(0)} Ko` +
+  ` — ${nAncres} placés (dont ${nReleves} relevés à la main), ${nRattaches} rattachés à au moins une maison.`);
 
 // ───────────────────────── statistiques ─────────────────────────
 

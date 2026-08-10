@@ -418,6 +418,52 @@ Source : Bussière, *Saint-Romuald*, 1990.
 
 ---
 
+## Lieux
+
+`lieux-data.js` → `window.LIEUX`, 39 entrées. **Couche de travail, pas source.**
+Elle se pose par-dessus `bussiere1990-data.js` sans jamais le modifier : un lieu
+qui porte `source_ref: "bussiere:<id>"` hérite du titre, des personnages et du
+résumé de la brochure au moment de la génération.
+
+Un lieu est un **emplacement au sol**, pas un bâtiment : il a une position, un
+état, et une liste d'occupations datées. Il peut n'avoir aucune adresse actuelle
+— c'est le cas de tout ce qui a été démoli, et c'est précisément ce que
+`bussiere1990-data.js` ne pouvait pas représenter, puisqu'il n'indexe que du bâti
+encore debout en 1990.
+
+```
+id, nom, voie, adresse_actuelle, designe_aujourdhui
+etat                 debout | remplace | disparu | deplace | inconnu
+construit, disparu
+coord                { lat, lon, precision, pose_par, pose_le }
+precision            releve | adresse | secteur | inconnu
+source, source_ref
+personnages, resume
+notes                [{ auteur, date, texte }]      — bonification, à la suite de la source
+occupations          [{ annee, division, no_maison, statut, confiance, origine, motif, ajoute_le }]
+statut               propose | hypothese | a_verifier | confirme | rejete
+origine              source | chercheur
+adresses_anciennes   [texte]
+cadastre             { lot, lot_annee, goad_feuillet, goad_no }
+photos               [{ fichier, legende, credit, date }]
+documents            [id de documents/manifeste.json]
+```
+
+**`precision` n'est pas décoratif.** Aucune des 39 positions n'est relevée : elles
+sont interpolées le long du chemin du Fleuve d'après le numéro civique, et
+indiquent un secteur. Toute lecture qui les traite comme des relevés se trompe de
+plusieurs centaines de mètres. Une position corrigée à la main passe à `releve`.
+
+**Une occupation `rejete` est conservée**, pas supprimée : c'est une hypothèse
+tranchée, et l'effacer ferait reposer la question plus tard. Elle est exclue des
+index (`lieuxParMaison`) mais reste affichée sur la fiche du lieu.
+
+Le travail en cours vit dans `localStorage['suivi-lieux']`, écrit par l'atelier de
+la carte (`carte.html?atelier=1`), transporté par `data/travail-personnel.json`,
+versé par `outils/lieux/fondre.mjs`. Voir `docs/LIEUX.md`.
+
+---
+
 ## Travail personnel (à migrer vers la base de données)
 
 Dans le prototype, tout ceci est dans le navigateur. **C'est ce qui doit devenir des

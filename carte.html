@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Carte du chemin du Fleuve — Saint-Romuald, les gens du Fleuve</title>
+<link rel="stylesheet" href="lib/leaflet.css">
 <link rel="stylesheet" href="site.css">
 </head>
 <body>
@@ -25,21 +26,39 @@
 </div></header>
 
 <div class="page"><div class="cadre">
-  <span class="etiquette">Enrichissement · bâtiments patrimoniaux (Bussière, 1990)</span>
-  <h2 class="titre-vue">Le chemin du Fleuve et ses abords</h2>
-  <p class="sous-titre">38 bâtiments répertoriés par Bussière — la plupart au chemin du Fleuve, quelques-uns aux rues voisines (Juvénat, Collège, Saint-Damase, Hardy, de l'Église, Côte Rouge) — ordonnés ici par numéro d'adresse actuel. Dix-neuf sont rattachés à une maison d'un recensement ; les autres attendent leur rapprochement.</p>
+  <span class="etiquette">Les lieux du chemin du Fleuve</span>
+  <h2 class="titre-vue">Où vivaient-ils</h2>
+  <p class="sous-titre" id="resume-carte">Chargement des lieux…</p>
 
-  <p class="avis-carte">Ceci n'est pas une carte géographique — aucune coordonnée n'est disponible pour ces bâtiments, et la plupart ont été renumérotés ou démolis depuis le XIX<sup>e</sup> siècle : un géocodage automatique à l'adresse actuelle les placerait au mauvais endroit. C'est une frise ordonnée par numéro civique, dans l'attente d'un pointage manuel sur une vraie carte (voir docs/HEBERGEMENT.md).</p>
+  <p class="avis-carte" id="avis-carte"></p>
+
+  <div class="carte-outils">
+    <div class="filtre-annees" id="filtre-annees" role="group" aria-label="Filtrer par recensement">
+      <button type="button" data-annee="" class="actif">Tous</button>
+      <button type="button" data-annee="1871">1871</button>
+      <button type="button" data-annee="1881">1881</button>
+      <button type="button" data-annee="1891">1891</button>
+      <button type="button" data-annee="sans">Sans rattachement</button>
+    </div>
+    <input type="search" id="recherche-lieu" placeholder="Une adresse, un nom — « Benson », « 2458 »…" autocomplete="off">
+    <button type="button" id="bascule-atelier" class="bouton bouton-atelier">Atelier ✎</button>
+  </div>
+
+  <div class="carte-scene">
+    <div id="carte" class="carte-toile"></div>
+    <aside id="panneau" class="carte-panneau" aria-live="polite"></aside>
+  </div>
+
+  <div class="carte-legende">
+    <span><i class="pastille pastille-pleine"></i> position posée à la main</span>
+    <span><i class="pastille pastille-creuse"></i> position approximative, à replacer</span>
+    <span><i class="pastille pastille-disparu"></i> lieu disparu ou remplacé</span>
+  </div>
 
   <section class="bloc">
-    <h3 class="bloc-titre">Bâtiments rattachés à une maison du recensement</h3>
+    <h3 class="bloc-titre">Tous les lieux, du couchant au levant</h3>
+    <p class="bloc-note">Ordonnés par numéro civique, comme on remonte le chemin. Un lieu peut n'avoir aucune adresse actuelle — c'est le cas de ceux qui ont disparu.</p>
     <div class="frise" id="frise"></div>
-  </section>
-
-  <section class="bloc non-rattaches">
-    <h3 class="bloc-titre">Bâtiments non encore rattachés</h3>
-    <p class="bloc-note">Répertoriés par Bussière (1990), sans proposition de rattachement à une maison de recensement pour l'instant.</p>
-    <ul class="liste-simple" id="non-rattaches"></ul>
   </section>
 </div></div>
 
@@ -51,7 +70,8 @@
   </span>
 </div></footer>
 
-<script src="data/bussiere1990-data.js"></script>
+<script src="lib/leaflet.js"></script>
+<script src="lieux-commun.js"></script>
 <script src="carte.js"></script>
 </body>
 </html>

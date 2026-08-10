@@ -101,10 +101,26 @@
     return (
       '<section class="bloc"><h3 class="bloc-titre">' + titre + '</h3>' +
       '<p class="bloc-note">Extrait du registre, ' + lienMaison + ' — présenté comme au manuscrit, avec les numéros de ligne en marge.</p>' +
+      rendreLieu(f) +
       '<div class="registre"><table><thead>' + thead + '</thead><tbody>' + lignes + '</tbody></table></div>' +
       marginale +
       '</section>'
     );
+  }
+
+  /* Où cette personne vivait — quand la maison du recensement a été rattachée
+     à un lieu du sol (docs/LIEUX.md). Discret, en une ligne : c'est un renvoi,
+     la fiche du lieu porte le détail. */
+  function rendreLieu(f) {
+    if (!f.lieux || !f.lieux.length) return '';
+    var ETATS = { debout: 'encore debout', disparu: 'disparu aujourd\'hui', remplace: 'remplacé depuis', deplace: 'déplacé depuis', inconnu: '' };
+    var items = f.lieux.map(function (l) {
+      var etat = ETATS[l.etat] || '';
+      return '<a href="lieu.html#' + esc(l.lieu_id) + '">' + esc(l.nom) + '</a>' +
+        (l.adresse_actuelle ? ' — ' + esc(l.adresse_actuelle) : '') +
+        (etat ? ' <span class="occ-detail">(' + esc(etat) + ')</span>' : '');
+    }).join(' · ');
+    return '<p class="bloc-note">Au sol : ' + items + '</p>';
   }
 
   function rendreDocuments(f) {
