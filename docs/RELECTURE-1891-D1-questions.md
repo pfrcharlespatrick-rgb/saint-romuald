@@ -10,14 +10,14 @@ et conserve la lecture d'origine dans sa `remarque` : filtrer sur ce drapeau don
 exactement la liste à revoir. Ce document garde la trace de ce qui a été décidé et
 de ce qui ne l'a pas été.
 
-Lignes corrigées : **270** — 193 portent un nom ou un prénom, 14 un âge, 70 un autre
+Lignes corrigées : **312** — 193 portent un nom ou un prénom, 14 un âge, 112 un autre
 champ (lieux de naissance, liens de parenté, sexe, religion, alphabétisation) ;
 quelques-unes en cumulent plusieurs. **Cinq corrections antérieures annulées** : l'affaire
 dite « Elmire », close plus bas. Lignes signalées sans correction : **92**.
 
 Reste, pour clore le chantier : la relecture case par case des colonnes 21-22 sur les
-pages 46 à 142 (la méthode est établie, voir la question n° 1), et les quatre décisions
-d'ensemble qui appartiennent à Patrick — la ligne biffée de la page 42, les variantes de
+pages 66 à 142 (la méthode est établie et éprouvée, voir la question n° 1), et les quatre
+décisions d'ensemble qui appartiennent à Patrick — la ligne biffée de la page 42, les variantes de
 patronymes, le vocabulaire des religions, les paires de frères et sœurs au même âge.
 
 **Les pages 42 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF) : le
@@ -156,42 +156,43 @@ C'est la première ligne biffée rencontrée en 45 pages.
 
 ## Question n° 1 — les colonnes 21 et 22 : la prémisse était fausse
 
-**La passe dédiée a été faite. Elle renverse la question telle qu'elle était posée.**
+**La passe dédiée est faite pour les pages 42 à 65. Elle renverse la question telle
+qu'elle était posée.**
 
 Ce document affirmait que le fichier était lacunaire : 1927 personnes sur 3548 — 54 % —
 n'ont aucun champ `sait_lire` / `sait_ecrire`, « alors que les images montrent des coches
 sur la plupart des lignes ». C'était une erreur de lecture des images.
 
 Le recueil PDF des pages 42 à 83 porte les colonnes 17 à 25 sur la même prise que les
-noms, et **répète les numéros de ligne dans la marge droite** : les colonnes se lisent
-sans ambiguïté, chaque case portant soit un « 1 », soit un tiret tracé à la main. Les
-pages 42, 43, 44 et 45 ont été relues case par case, cent lignes en tout :
-
-| Page | Lignes conformes | Écarts |
-|---|---|---|
-| 42 | 25 / 25 | — |
-| 43 | 24 / 25 | une coche omise (L16) |
-| 44 | 25 / 25 | — |
-| 45 | 21 / 25 | dérive d'une ligne, L12 à L18 |
+noms, et **répète les numéros de ligne dans la marge droite** : chaque case se lit sans
+ambiguïté, portant soit un « 1 », soit un tiret tracé à la main. **Six cents lignes ont
+été relues case par case, cinquante ont été corrigées** — un taux d'erreur d'environ 8 %,
+stable d'une page à l'autre.
 
 **Une absence de valeur dans le fichier correspond à un tiret dans le manuscrit**, pas à
-une lacune du dépouillement. Les 1927 personnes sans valeur ne savaient ni lire ni écrire
-— ce qui, pour une paroisse ouvrière de 1891 dont 554 habitants ont moins de cinq ans,
-n'a rien d'invraisemblable. Le fichier dit vrai quand il annonce « pages 1-142 : complet ».
+une lacune du dépouillement. Les personnes sans valeur ne savaient ni lire ni écrire — ce
+qui, pour une paroisse ouvrière de 1891 dont 554 habitants ont moins de cinq ans, n'a rien
+d'invraisemblable. Le fichier dit vrai quand il annonce « pages 1-142 : complet ».
 
-Reste une réserve, et elle est réelle : **le dépouillement dérive parfois d'une ligne**.
-La page 45 en donne un cas net, sur sept lignes — le fichier y porte à la ligne 12 les
-deux coches de la ligne 13, et perd celles des lignes 14, 15 et 18. C'est exactement le
-risque contre lequel le fichier met lui-même en garde. Sur cent lignes contrôlées, cinq
-sont fautives.
+Ce que le dépouillement rate n'est jamais une lacune, c'est toujours l'une de ces trois
+choses :
 
-**Ce qui a été corrigé** : les huit lignes ci-dessus, plus trois des cinq « sait écrire
-mais ne sait pas lire » vérifiables au PDF.
+- une **coche déplacée d'une ligne** — la page 45 en donne le cas le plus net, sur sept
+  lignes d'affilée : le fichier y porte à la ligne 12 les deux coches de la ligne 13 ;
+- une **coche perdue**, le plus souvent celle de la colonne 22, qui fait basculer une
+  personne de « lit et écrit » à « lit seulement » ;
+- une **coche ajoutée** là où le manuscrit porte deux tirets.
 
-**Ce qui reste** : les 995 lignes des pages 46 à 142 n'ont pas été relues case par case,
-et les pages 1 à 41 n'ont pas de recueil PDF. La méthode est établie et l'outillage en
-place (`r91c.py`, recadrage `0.60–1.00`, échelle 8) : c'est un travail long mais
-mécanique, à mener page par page.
+**La méthode.** Une seule image par page suffit : `python3 cols91.py 46` rend les colonnes
+19 à 25 et la marge droite en une image de 900 × 1650 pixels, où chaque « 1 » est net. La
+lecture s'écrit en deux chaînes de 25 caractères par page, que `cols2122.mjs` confronte au
+fichier et applique — seules les lignes divergentes sont touchées. L'alignement se contrôle
+par deux ancres indépendantes : les numéros de la marge droite, et la colonne 16
+(profession), qui doit correspondre au dépouillement ligne à ligne.
+
+**Ce qui reste** : les pages **66 à 142**, soit environ 1900 lignes. C'est un travail long
+mais entièrement mécanique — l'outillage est en place et la méthode éprouvée sur 24 pages.
+Les pages 1 à 41 n'ont pas de recueil PDF.
 
 ### Les « sait écrire mais ne sait pas lire »
 
