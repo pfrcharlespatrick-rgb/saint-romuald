@@ -15,10 +15,11 @@ champ (lieux de naissance, liens de parenté, sexe, religion, alphabétisation) 
 quelques-unes en cumulent plusieurs. **Cinq corrections antérieures annulées** : l'affaire
 dite « Elmire », close plus bas. Lignes signalées sans correction : **92**.
 
-Reste, pour clore le chantier : la relecture case par case des colonnes 21-22 sur les
-pages 66 à 142 (la méthode est établie et éprouvée, voir la question n° 1), et les quatre
-décisions d'ensemble qui appartiennent à Patrick — la ligne biffée de la page 42, les variantes de
-patronymes, le vocabulaire des religions, les paires de frères et sœurs au même âge.
+**La passe sur les colonnes 21-22 est terminée** : pages 42 à 142, 2523 lignes relues case
+par case, **152 corrigées**. Reste, pour clore le chantier : les pages 1 à 41, qui n'ont pas
+de recueil PDF, et les quatre décisions d'ensemble qui appartiennent à Patrick — la ligne
+biffée de la page 42, les variantes de patronymes, le vocabulaire des religions, les paires
+de frères et sœurs au même âge.
 
 **Les pages 42 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF) : le
 rendu à haute résolution y règle en quelques minutes ce que les JPEG laissaient
@@ -154,34 +155,46 @@ possibles :
 
 C'est la première ligne biffée rencontrée en 45 pages.
 
-## Question n° 1 — les colonnes 21 et 22 : la prémisse était fausse
+## Question n° 1 — les colonnes 21 et 22 : la passe est terminée
 
-**La passe dédiée est faite pour les pages 42 à 65. Elle renverse la question telle
-qu'elle était posée.**
+**Pages 42 à 142 : 2523 lignes relues case par case, 152 corrigées.** Il ne reste que les
+pages 1 à 41, qui n'ont pas de recueil PDF.
 
 Ce document affirmait que le fichier était lacunaire : 1927 personnes sur 3548 — 54 % —
 n'ont aucun champ `sait_lire` / `sait_ecrire`, « alors que les images montrent des coches
-sur la plupart des lignes ». C'était une erreur de lecture des images.
+sur la plupart des lignes ». C'était vrai à moitié, et le partage se fait à la page 84.
 
-Le recueil PDF des pages 42 à 83 porte les colonnes 17 à 25 sur la même prise que les
-noms, et **répète les numéros de ligne dans la marge droite** : chaque case se lit sans
-ambiguïté, portant soit un « 1 », soit un tiret tracé à la main. **Six cents lignes ont
-été relues case par case, cinquante ont été corrigées** — un taux d'erreur d'environ 8 %,
-stable d'une page à l'autre.
+Les recueils PDF portent les colonnes 17 à 25 sur la même prise que les noms, et
+**répètent les numéros de ligne dans la marge droite** : chaque case se lit sans
+ambiguïté, portant soit un « 1 », soit un tiret tracé à la main.
 
-**Une absence de valeur dans le fichier correspond à un tiret dans le manuscrit**, pas à
-une lacune du dépouillement. Les personnes sans valeur ne savaient ni lire ni écrire — ce
-qui, pour une paroisse ouvrière de 1891 dont 554 habitants ont moins de cinq ans, n'a rien
-d'invraisemblable. Le fichier dit vrai quand il annonce « pages 1-142 : complet ».
+**Aux pages 42 à 83, une absence de valeur dans le fichier correspond à un tiret dans le
+manuscrit** : le dépouillement avait bien tout lu, et les personnes sans valeur ne savaient
+ni lire ni écrire — ce qui, pour une paroisse ouvrière de 1891 dont 554 habitants ont moins
+de cinq ans, n'a rien d'invraisemblable.
 
-Ce que le dépouillement rate n'est jamais une lacune, c'est toujours l'une de ces trois
-choses :
+**À partir de la page 84, ce n'est plus vrai.** Le dépouillement y devient inégal, et par
+endroits il n'a rien enregistré du tout : la page 84 porte 0 valeur sur 25, la page 85 en
+porte 3, alors que le manuscrit y coche respectivement 14 et 21 lignes. **Trente et une des
+102 corrections de ce lot viennent de ces deux pages seules.** La couverture remonte
+ensuite — 11 à 20 valeurs par page jusqu'à la 114, puis 25 sur 25 des pages 115 à 125 —
+sans jamais redevenir aussi sûre qu'au début du recueil. **Devant une case vide des pages
+84 à 142, il faut donc ouvrir l'image ; devant une case vide des pages 42 à 83, non.**
+
+Ce que le dépouillement rate est toujours l'une de ces trois choses :
 
 - une **coche déplacée d'une ligne** — la page 45 en donne le cas le plus net, sur sept
-  lignes d'affilée : le fichier y porte à la ligne 12 les deux coches de la ligne 13 ;
+  lignes d'affilée ; la page 116 en donne un second, sur cinq lignes (voir plus bas) ;
 - une **coche perdue**, le plus souvent celle de la colonne 22, qui fait basculer une
   personne de « lit et écrit » à « lit seulement » ;
 - une **coche ajoutée** là où le manuscrit porte deux tirets.
+
+**Le taux d'erreur baisse en descendant dans le recueil** : 8 % aux pages 42-65, 5,3 % aux
+pages 66-142 — et seulement 3,8 % si l'on met de côté les pages 84-85, franchement
+lacunaires. **Quarante-cinq des 77 pages du dernier lot se sont révélées exactes de bout en
+bout**, et les 102 corrections se concentrent sur les 32 autres. La moitié aval du
+recensement est la mieux tenue : les pages 126 à 135, puis 137, 139, 141 et 142, n'ont pas
+demandé une seule retouche.
 
 **La méthode.** Une seule image par page suffit : `python3 cols91.py 46` rend les colonnes
 19 à 25 et la marge droite en une image de 900 × 1650 pixels, où chaque « 1 » est net. La
@@ -190,14 +203,18 @@ fichier et applique — seules les lignes divergentes sont touchées. L'aligneme
 par deux ancres indépendantes : les numéros de la marge droite, et la colonne 16
 (profession), qui doit correspondre au dépouillement ligne à ligne.
 
-**Ce qui reste** : les pages **66 à 142**, soit environ 1900 lignes. C'est un travail long
-mais entièrement mécanique — l'outillage est en place et la méthode éprouvée sur 24 pages.
-Les pages 1 à 41 n'ont pas de recueil PDF.
+**Le piège de la page 116, à retenir.** Une tache du microfilm y masque les numéros 1 à 6
+de la marge droite. Privé de son ancre, l'œil compte les lignes depuis le filet du haut et
+se décale d'un cran — j'ai d'abord lu la page entière une ligne trop haut. **Le recours
+sûr est la colonne des âges** (`strip(ms, l0, l1, 0.20, 0.42)`), qui se lit sur la même
+géométrie verticale que la bande des coches et se confronte au dépouillement ligne à
+ligne. Cette vérification faite, la page 116 s'est révélée porter un vrai décalage du
+dépouillement, de la ligne 2 à la ligne 6.
 
 ### Les « sait écrire mais ne sait pas lire »
 
-Ils étaient 59. Cinq seulement tombent dans les pages couvertes par un recueil PDF ; les
-54 autres sont aux pages 1 à 41. Les cinq ont été vérifiés au manuscrit :
+Ils étaient 59, ils sont **56**. Cinq seulement tombaient dans les pages couvertes par un
+recueil PDF ; les 54 autres sont aux pages 1 à 41. Les cinq ont été vérifiés au manuscrit :
 
 | Page·ligne | Personne | Verdict |
 |---|---|---|
@@ -208,9 +225,11 @@ Ils étaient 59. Cinq seulement tombent dans les pages couvertes par un recueil 
 | 120 L9 | Terrien Leon, 9 | colonne 22 seule : **idem** |
 
 Trois sur cinq étaient des fautes de dépouillement, deux sont des bizarreries du
-recenseur. À ce compte, la trentaine de cas des pages 1 à 41 mérite d'être reprise si les
-images de ces pages sont un jour fournies en PDF — mais il ne faut pas s'attendre à les
-voir tous disparaître.
+recenseur. **La passe complète confirme les deux bizarreries** : les colonnes 21-22 de
+Gagnon Louis (p. 93) et de Terrien Leon (p. 120) portent bien un tiret puis un « 1 », et
+ce sont les deux seules de ce genre dans les 101 pages relues. À ce compte, la
+cinquantaine de cas des pages 1 à 41 mérite d'être reprise si les images de ces pages sont
+un jour fournies en PDF — mais il ne faut pas s'attendre à les voir tous disparaître.
 
 ## Laissé en l'état, faute de lecture — à reprendre au manuscrit
 
@@ -685,9 +704,11 @@ est dans le dépôt : les données, ce document, et l'outillage. Une conversatio
 repart avec un contexte vide — donc moins coûteuse — et n'a besoin que de ceci.
 
 **Où en est le travail.** Les **142 pages** sont confrontées au manuscrit, et les
-colonnes 21-22 sont relues case par case jusqu'à la page 65. **Ce qui reste tient en une
-ligne : les colonnes 21-22 des pages 66 à 142**, soit environ 1900 lignes. S'y ajoutent
-les quatre décisions d'ensemble qui appartiennent à Patrick, listées en tête.
+colonnes 21-22 sont relues case par case des pages **42 à 142** — la passe est close pour
+tout ce que couvrent les recueils PDF. **Ce qui resterait : les colonnes 21-22 des pages 1
+à 41**, soit 1025 lignes, qui demandent d'abord un recueil PDF de ces pages ; c'est de là
+que viennent 54 des 56 « sait écrire mais ne sait pas lire ». S'y ajoutent les quatre
+décisions d'ensemble qui appartiennent à Patrick, listées en tête.
 
 **La branche.** Une branche de travail par session, jamais `main` directement : chaque
 lot passe par une pull request. Les lots précédents sont passés par
@@ -702,7 +723,9 @@ chose à refaire, et les scripts les retrouvent ensuite tout seuls par leur nom.
 par page, et une image ne profite en rien de ce qui précède dans la conversation : chaque
 page est un acte de lecture indépendant. Le contexte accumulé continuerait d'être payé à
 chaque tour sans rien apporter. Une session neuve laisse donc bien plus de pages lues
-avant saturation — c'est la raison pour laquelle ce document existe.
+avant saturation — c'est la raison pour laquelle ce document existe. **Une session a suffi
+pour les 77 pages du dernier lot**, en versant le résultat dans le fichier tous les quatre
+à huit pages plutôt qu'à la fin.
 
 **La règle qui prime sur tout le reste** : Patrick relit les pages une à une dans
 l'atelier, et **ce qu'il corrige à la main ne se rediscute pas**. L'outillage le sait —
@@ -728,7 +751,8 @@ node alpha91.mjs 45             # colonnes 21-22 déjà enregistrées, pour conf
 node diag91.mjs                 # contrôles d'intégrité
 ```
 
-**Le premier geste, pour la passe des colonnes 21-22 :**
+**Le premier geste, si la passe des colonnes 21-22 devait reprendre** (pages 1 à 41, une
+fois leur recueil PDF fourni) **:**
 
 ```sh
 node outils/relecture-1881/fondre.mjs     # partir d'accord avec la main de Patrick
@@ -745,7 +769,9 @@ La lecture s'écrit page par page, en deux chaînes de 25 caractères — « 1 �
 { "66": { "lire": "-1----1-1-1-1111111-1-1--", "ecrire": "-1----1-1-1-1111111-1----" } }
 ```
 
-Compter environ **un écart sur douze** : c'est le taux mesuré sur les pages 42 à 65.
+Compter entre **un écart sur douze** (pages 42-65) et **un sur vingt-cinq** (pages 66-142) —
+sauf devant une page dont le dépouillement n'a presque rien enregistré, où l'écart devient
+la règle.
 
 Les recueils PDF passent par `recueil91.py` : `r91c` pour les pages 42 à 83,
 `r91b` pour les pages 84 à 142. Pour les colonnes 17 à 25, recadrer `0.60`–`1.00` à
@@ -756,11 +782,15 @@ donnent deux ancres indépendantes.
 d'un lot : repartir de `main`, dumper les pages, confronter, écrire le script de
 correction, passer `diag91.mjs`, mettre ce document à jour, pousser.
 
-**Les cinq pièges à ne pas redécouvrir.**
+**Les six pièges à ne pas redécouvrir.**
 
 1. Le cadre ne tombe pas au même endroit d'une page à l'autre — `r91b.py` le détecte,
    mais un zoom serré peut se décaler de quelques lignes : les numéros de ligne
    imprimés dans la marge sont l'ancre, toujours les inclure dans le recadrage.
+   **Quand une tache du microfilm les masque** (page 116, numéros 1 à 6), ne pas compter
+   les lignes à l'œil depuis le filet du haut : recadrer la colonne des âges
+   (`0.20`–`0.42`), qui partage la même géométrie verticale, et la confronter au
+   dépouillement.
 2. Les cadres des **pages 89 et 90 sont intervertis** sur le microfilm.
 3. Un âge d'enfant mal placé dans la fratrie est souvent une **fraction de mois** dont
    le dépouillement n'a gardé que le numérateur.
@@ -769,3 +799,6 @@ correction, passer `diag91.mjs`, mettre ce document à jour, pousser.
    d'abord, resserrer ensuite.
 5. Une naissance étrangère lue sur une ligne est **presque toujours en colonne 13 ou 14**
    (les parents), pas en colonne 11 — voir la question n° 4.
+6. Le « 1 » de ce recenseur prend deux formes : une barre oblique nette, et une barre
+   épaisse posée sur un empattement horizontal, qui ressemble à un pâté d'encre ou à un
+   tiret gras. Les deux valent 1. Un vrai tiret est **horizontal et fin**, sans jambage.
