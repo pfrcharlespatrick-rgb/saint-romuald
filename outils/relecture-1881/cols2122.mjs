@@ -2,6 +2,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs';
 import { apply } from './pat91.mjs';
+import { protege } from './atelier.mjs';
 const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 
 /* Applique une relecture des colonnes 21 et 22 (« Sait lire » / « Sait écrire »)
@@ -18,6 +19,9 @@ const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..
    laisse le champ absent là où le manuscrit porte un tiret — cette absence vaut
    « ne sait pas », et n'est donc pas un écart.
 
+   Une case corrigée à la main dans l'atelier n'est jamais touchée : elle est
+   signalée à part et laissée telle quelle.
+
      node cols2122.mjs lectures.json [--essai]
 */
 const FICHIER = process.argv[2];
@@ -32,7 +36,7 @@ for (const m of D.maisons) for (const f of m.familles || []) for (const p of f.m
   idx.set(p.page_ms + ':' + p.ligne, p);
 
 const SRC = 'relecture_pdf_cols_21_22';
-const ecarts = [];
+const ecarts = [], gardes = [];
 let lignes = 0;
 for (const [page, { lire, ecrire }] of Object.entries(lectures)) {
   if (lire.length !== 25 || ecrire.length !== 25)
@@ -44,6 +48,10 @@ for (const [page, { lire, ecrire }] of Object.entries(lectures)) {
     const vl = lire[i] === '1', ve = ecrire[i] === '1';
     const al = p.sait_lire === true, ae = p.sait_ecrire === true;
     if (vl === al && ve === ae) continue;
+    if (protege(p.id, 'sait_lire') || protege(p.id, 'sait_ecrire')) {
+      gardes.push(`  p${page}:${String(l).padStart(2)} ${p.nom} ${p.prenom} — corrigé à la main, laissé tel quel`);
+      continue;
+    }
     ecarts.push({ page, ligne: l, nom: `${p.nom} ${p.prenom}`, age: p.age,
       avant: (p.sait_lire === undefined ? '.' : al ? '1' : '0') + (p.sait_ecrire === undefined ? '.' : ae ? '1' : '0'),
       apres: (vl ? '1' : '0') + (ve ? '1' : '0'), vl, ve });
@@ -51,6 +59,7 @@ for (const [page, { lire, ecrire }] of Object.entries(lectures)) {
 }
 
 console.log(`${lignes} lignes relues, ${ecarts.length} écarts`);
+if (gardes.length) { console.log(`${gardes.length} ligne(s) laissée(s) à la main de Patrick :`); gardes.forEach(g => console.log(g)); }
 for (const e of ecarts)
   console.log(`  p${e.page}:${String(e.ligne).padStart(2)} ${(e.nom + ' (' + e.age + ')').padEnd(34)} ${e.avant} -> ${e.apres}`);
 if (ESSAI || !ecarts.length) process.exit(0);

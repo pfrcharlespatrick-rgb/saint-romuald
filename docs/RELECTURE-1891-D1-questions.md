@@ -696,6 +696,14 @@ lot passe par une pull request. Les lots précédents sont passés par
 (`1891_DIV12_Partie03.pdf`, pages 84 à 142). Les fichiers joints ne suivent pas d'une
 conversation à l'autre — c'est la seule chose à refaire.
 
+**La règle qui prime sur tout le reste** : Patrick relit les pages une à une dans
+l'atelier, et **ce qu'il corrige à la main ne se rediscute pas**. L'outillage le sait —
+`atelier.mjs` lit ses corrections, `pat91.mjs` refuse de réécrire un champ qu'elles
+couvrent et rend compte de ce qu'il a laissé, `fondre91.mjs` les verse dans le
+recensement. **Passer `node outils/relecture-1881/fondre91.mjs` avant chaque lot**, pour
+partir d'un fichier d'accord avec la main. Une ligne qu'il a corrigée est tenue pour
+tranchée : plus de drapeau `incertain`, plus de remarques de relecture. Voir `CLAUDE.md`.
+
 **La consigne de Patrick, à rappeler telle quelle** : entrer la lecture la plus
 probable plutôt que de laisser en blanc, chacune marquée `incertain: true` avec la
 lecture d'origine conservée en `remarque` ; il fera la relecture d'ensemble à la fin.
