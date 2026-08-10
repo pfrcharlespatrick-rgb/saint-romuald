@@ -191,8 +191,10 @@ Ce que le dépouillement rate est toujours l'une de ces trois choses :
 
 **Le taux d'erreur baisse en descendant dans le recueil** : 8 % aux pages 42-65, 5,3 % aux
 pages 66-142 — et seulement 3,8 % si l'on met de côté les pages 84-85, franchement
-lacunaires. Onze pages du dernier lot (86, 88, 89, 91 à 97, 101, 103, 104, 108 à 115, 117,
-120, 123, 125 à 135, 137, 139, 141, 142) se sont révélées exactes de bout en bout.
+lacunaires. **Quarante-cinq des 77 pages du dernier lot se sont révélées exactes de bout en
+bout**, et les 102 corrections se concentrent sur les 32 autres. La moitié aval du
+recensement est la mieux tenue : les pages 126 à 135, puis 137, 139, 141 et 142, n'ont pas
+demandé une seule retouche.
 
 **La méthode.** Une seule image par page suffit : `python3 cols91.py 46` rend les colonnes
 19 à 25 et la marge droite en une image de 900 × 1650 pixels, où chaque « 1 » est net. La
