@@ -684,17 +684,25 @@ Ce chantier est conçu pour changer de session sans rien perdre. Tout ce qui com
 est dans le dépôt : les données, ce document, et l'outillage. Une conversation neuve
 repart avec un contexte vide — donc moins coûteuse — et n'a besoin que de ceci.
 
-**Où en est le travail.** Les **142 pages** sont confrontées au manuscrit. Ce qui reste
-est listé en tête de ce document : la passe sur les colonnes 21-22, les décisions
-d'ensemble, et les pages 44 à 48 à reprendre en PDF.
+**Où en est le travail.** Les **142 pages** sont confrontées au manuscrit, et les
+colonnes 21-22 sont relues case par case jusqu'à la page 65. **Ce qui reste tient en une
+ligne : les colonnes 21-22 des pages 66 à 142**, soit environ 1900 lignes. S'y ajoutent
+les quatre décisions d'ensemble qui appartiennent à Patrick, listées en tête.
 
 **La branche.** Une branche de travail par session, jamais `main` directement : chaque
 lot passe par une pull request. Les lots précédents sont passés par
 `claude/recensement-1881-d2-review-2am0zx`, puis `claude/recensement-1891-d1-review-7hbmuh`.
 
-**Ce qu'il faut rattacher à la nouvelle conversation.** Le PDF du manuscrit
-(`1891_DIV12_Partie03.pdf`, pages 84 à 142). Les fichiers joints ne suivent pas d'une
-conversation à l'autre — c'est la seule chose à refaire.
+**Ce qu'il faut rattacher à la nouvelle conversation.** **Les deux recueils PDF** —
+`Pages_de_1891_Partie02.pdf` (pages 42 à 83) et `1891_DIV12_Partie03.pdf` (pages 84
+à 142). Les fichiers joints ne suivent pas d'une conversation à l'autre : c'est la seule
+chose à refaire, et les scripts les retrouvent ensuite tout seuls par leur nom.
+
+**Pourquoi changer de session pour cette passe.** Lire les colonnes 21-22 coûte une image
+par page, et une image ne profite en rien de ce qui précède dans la conversation : chaque
+page est un acte de lecture indépendant. Le contexte accumulé continuerait d'être payé à
+chaque tour sans rien apporter. Une session neuve laisse donc bien plus de pages lues
+avant saturation — c'est la raison pour laquelle ce document existe.
 
 **La règle qui prime sur tout le reste** : Patrick relit les pages une à une dans
 l'atelier, et **ce qu'il corrige à la main ne se rediscute pas**. L'outillage le sait —
@@ -720,7 +728,26 @@ node alpha91.mjs 45             # colonnes 21-22 déjà enregistrées, pour conf
 node diag91.mjs                 # contrôles d'intégrité
 ```
 
-Les trois recueils PDF passent par `recueil91.py` : `r91c` pour les pages 42 à 83,
+**Le premier geste, pour la passe des colonnes 21-22 :**
+
+```sh
+node outils/relecture-1881/fondre.mjs     # partir d'accord avec la main de Patrick
+export Z91_OUT=/un/dossier/de/travail
+python3 cols91.py 66 67 68 69             # une image par page, tout est dedans
+node alpha91.mjs 66                       # ce que le fichier porte déjà
+node cols2122.mjs lectures.json --essai   # confronter avant d'écrire
+```
+
+La lecture s'écrit page par page, en deux chaînes de 25 caractères — « 1 » pour un un,
+« - » pour un tiret :
+
+```json
+{ "66": { "lire": "-1----1-1-1-1111111-1-1--", "ecrire": "-1----1-1-1-1111111-1----" } }
+```
+
+Compter environ **un écart sur douze** : c'est le taux mesuré sur les pages 42 à 65.
+
+Les recueils PDF passent par `recueil91.py` : `r91c` pour les pages 42 à 83,
 `r91b` pour les pages 84 à 142. Pour les colonnes 17 à 25, recadrer `0.60`–`1.00` à
 l'échelle 8 : les numéros de ligne de la marge droite et la colonne 16 (profession)
 donnent deux ancres indépendantes.
