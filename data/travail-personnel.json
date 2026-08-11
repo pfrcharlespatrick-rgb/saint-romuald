@@ -1,7 +1,7 @@
 {
  "format": "suivi-saint-romuald-travail",
  "version": 1,
- "exporte": "2026-08-08T21:05:43.336Z",
+ "exporte": "2026-08-11T17:58:51.953Z",
  "donnees": {
   "suivi-familles-notes": {
    "1881-2-72-80": {
@@ -862,7 +862,8 @@
     "lieu_naissance": "Québec",
     "origine": "Irlandaise ",
     "sait_lire": false,
-    "sait_ecrire": false
+    "sait_ecrire": false,
+    "ecole": false
    },
    "1871-D2-P002-L18": {
     "incertain": false,
@@ -973,11 +974,15 @@
    },
    "1871-D2-P004-L08": {
     "age": "27 ",
-    "incertain": false
+    "incertain": false,
+    "sait_lire": true,
+    "sait_ecrire": true
    },
    "1871-D2-P004-L07": {
     "age": "28 ",
-    "incertain": false
+    "incertain": false,
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P004-L13": {
     "nom": "Curodo",
@@ -986,7 +991,8 @@
    "1871-D2-P004-L14": {
     "nom": "Curodo",
     "prenom": "Adée ",
-    "incertain": false
+    "incertain": false,
+    "sait_lire": true
    },
    "1871-D2-P004-L15": {
     "nom": "Curodo",
@@ -999,7 +1005,9 @@
    "1871-D2-P005-L03": {
     "nom": "Curodo",
     "age": "35 ",
-    "incertain": false
+    "incertain": false,
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P005-L04": {
     "nom": "Curodo",
@@ -1043,7 +1051,9 @@
    "1871-D2-P006-L06": {
     "nom": "Alice",
     "age": "68",
-    "incertain": false
+    "incertain": false,
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P006-L07": {
     "nom": "Bruneau ",
@@ -1064,22 +1074,30 @@
     "incertain": false
    },
    "1871-D2-P006-L09": {
-    "incertain": false
+    "incertain": false,
+    "sait_lire": false
    },
    "1871-D2-P006-L20": {
     "age": "43 ",
-    "incertain": false
+    "incertain": false,
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P007-L03": {
     "prenom": "Esther ",
-    "incertain": false
+    "incertain": false,
+    "sait_lire": true,
+    "sait_ecrire": true
    },
    "1871-D2-P007-L09": {
     "prenom": "Précile",
     "incertain": false
    },
    "1871-D2-P007-L02": {
-    "incertain": false
+    "incertain": false,
+    "sait_lire": true,
+    "sait_ecrire": true,
+    "age": "54"
    },
    "1871-D2-P007-L13": {
     "age": "32"
@@ -1090,22 +1108,30 @@
    },
    "1871-D2-P007-L19": {
     "etat_matrimonial": "",
-    "incertain": false
+    "incertain": false,
+    "sait_lire": true
    },
    "1871-D2-P008-L02": {
     "prenom": "Benjamin ",
     "incertain": false
    },
    "1871-D2-P007-L20": {
-    "incertain": false
+    "incertain": false,
+    "sourd_muet": true,
+    "sait_ecrire": false,
+    "sait_lire": false,
+    "profession": "Cultivateur"
    },
    "1871-D2-P008-L07": {
     "age": "2/12",
-    "incertain": false
+    "incertain": false,
+    "ne_douze_mois": "février"
    },
    "1871-D2-P008-L05": {
     "prenom": "Eléonore ",
-    "incertain": false
+    "incertain": false,
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P008-L10": {
     "age": "13 ",
@@ -1113,7 +1139,9 @@
    },
    "1871-D2-P008-L11": {
     "age": "22 ",
-    "incertain": false
+    "incertain": false,
+    "sait_lire": true,
+    "sait_ecrire": true
    },
    "1871-D2-P008-L15": {
     "age": "8 ",
@@ -1142,7 +1170,8 @@
    },
    "1871-D2-P009-L05": {
     "age": "46 ",
-    "incertain": false
+    "incertain": false,
+    "etat_matrimonial": "V"
    },
    "1871-D2-P009-L18": {
     "age": "22 ",
@@ -1150,29 +1179,43 @@
    },
    "1871-D2-P009-L20": {
     "age": "24 ",
-    "incertain": false
+    "incertain": false,
+    "profession": "Batelier",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P009-L19": {
-    "incertain": false
+    "incertain": false,
+    "profession": ""
    },
    "1871-D2-P010-L02": {
-    "incertain": false
+    "incertain": false,
+    "sait_lire": true,
+    "sait_ecrire": true
    },
    "1871-D2-P010-L04": {
     "incertain": false
    },
    "1871-D2-P010-L18": {
     "age": "7/12",
-    "incertain": false
+    "incertain": false,
+    "religion": "E. d'Ecosse ",
+    "origine": "Anglaise",
+    "ne_douze_mois": "Juillet"
    },
    "1871-D2-P010-L16": {
-    "incertain": false
+    "incertain": false,
+    "religion": "E. d'Ecosse ",
+    "origine": "Ecossais"
    },
    "1871-D2-P010-L17": {
-    "incertain": false
+    "incertain": false,
+    "lieu_naissance": "Q ",
+    "religion": "E. d'Ecosse "
    },
    "1871-D2-P010-L19": {
-    "incertain": false
+    "incertain": false,
+    "origine": "Française"
    },
    "1871-D2-P011-L08": {
     "prenom": "Virginia",
@@ -1180,7 +1223,8 @@
     "incertain": false
    },
    "1871-D2-P011-L11": {
-    "prenom": "Délina"
+    "prenom": "Délina",
+    "sait_lire": true
    },
    "1871-D2-P011-L16": {
     "prenom": "Ignace",
@@ -1201,7 +1245,8 @@
    },
    "1871-D2-P012-L08": {
     "prenom": "Adélard",
-    "age": "8/12"
+    "age": "8/12",
+    "ne_douze_mois": "Août"
    },
    "1871-D2-P012-L12": {
     "prenom": "Vitaline ",
@@ -1221,31 +1266,41 @@
     "incertain": false
    },
    "1871-D2-P012-L13": {
-    "incertain": false
+    "incertain": false,
+    "etat_matrimonial": "V",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P012-L20": {
     "age": "25 ",
     "incertain": false
    },
    "1871-D2-P012-L17": {
-    "incertain": false
+    "incertain": false,
+    "prenom": "Félicité "
    },
    "1871-D2-P013-L08": {
     "prenom": "Julien ",
-    "incertain": false
+    "incertain": false,
+    "lieu_naissance": "Q.",
+    "ecole": true
    },
    "1871-D2-P013-L12": {
     "prenom": "Théatis ",
     "age": "54 ",
-    "incertain": false
+    "incertain": false,
+    "sait_lire": true
    },
    "1871-D2-P013-L18": {
     "age": "53",
-    "incertain": false
+    "incertain": false,
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P013-L17": {
     "age": "5/12",
-    "incertain": false
+    "incertain": false,
+    "ne_douze_mois": "Mai"
    },
    "1871-D2-P013-L11": {
     "age": "59 ",
@@ -1265,11 +1320,13 @@
    "1871-D2-P014-L07": {
     "nom": "Sleeth ",
     "age": "60",
-    "incertain": false
+    "incertain": false,
+    "origine": "Ecossaise"
    },
    "1871-D2-P014-L08": {
     "nom": "Sleeth ",
-    "incertain": false
+    "incertain": false,
+    "origine": "Irlandaise"
    },
    "1871-D2-P014-L09": {
     "nom": "Sleeth",
@@ -1301,19 +1358,26 @@
    },
    "1871-D2-P014-L16": {
     "nom": "Sleeth ",
-    "incertain": false
+    "incertain": false,
+    "ecole": true
    },
    "1871-D2-P014-L18": {
     "age": "52 ",
-    "incertain": false
+    "incertain": false,
+    "origine": "Française",
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P015-L19": {
     "age": "10/12",
-    "incertain": false
+    "incertain": false,
+    "ne_douze_mois": "Janvier"
    },
    "1871-D2-P015-L13": {
     "age": "25 ",
-    "incertain": false
+    "incertain": false,
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P015-L12": {
     "prenom": "Agathe"
@@ -1323,8 +1387,9 @@
     "incertain": false
    },
    "1871-D2-P015-L09": {
-    "age": "1/12",
-    "incertain": false
+    "age": "3/12",
+    "incertain": false,
+    "ne_douze_mois": "Mars"
    },
    "1871-D2-P015-L11": {
     "incertain": false
@@ -1339,7 +1404,8 @@
    },
    "1871-D2-P016-L07": {
     "age": "2/12",
-    "incertain": false
+    "incertain": false,
+    "ne_douze_mois": "Février"
    },
    "1871-D2-P016-L05": {
     "incertain": false
@@ -1349,7 +1415,8 @@
    },
    "1871-D2-P016-L16": {
     "age": "11/12",
-    "incertain": false
+    "incertain": false,
+    "ne_douze_mois": "Novembre"
    },
    "1871-D2-P016-L17": {
     "prenom": "Clarisse ",
@@ -1393,10 +1460,12 @@
     "incertain": false
    },
    "1871-D2-P018-L12": {
-    "incertain": false
+    "incertain": false,
+    "ne_douze_mois": "Juin"
    },
    "1871-D2-P018-L13": {
-    "incertain": false
+    "incertain": false,
+    "ne_douze_mois": "Juin"
    },
    "1871-D2-P018-L16": {
     "age": "27"
@@ -1410,7 +1479,8 @@
    },
    "1871-D2-P019-L20": {
     "age": "7/12",
-    "incertain": false
+    "incertain": false,
+    "ne_douze_mois": "Juillet"
    },
    "1871-D2-P020-L01": {
     "nom": "Peltier ",
@@ -1537,7 +1607,7 @@
     "lieu_naissance": "Québec",
     "religion": "Catholique",
     "origine": "Française",
-    "ecole": false,
+    "ecole": true,
     "sait_lire": false,
     "sait_ecrire": false
    },
@@ -1546,7 +1616,7 @@
     "lieu_naissance": "Québec",
     "religion": "Catholique",
     "origine": "Française",
-    "ecole": false,
+    "ecole": true,
     "sait_ecrire": false,
     "sait_lire": false
    },
@@ -1555,7 +1625,7 @@
     "lieu_naissance": "Québec",
     "religion": "Catholique",
     "origine": "Française",
-    "ecole": true,
+    "ecole": false,
     "sait_ecrire": false,
     "sait_lire": false
    },
@@ -1564,7 +1634,7 @@
     "lieu_naissance": "Québec",
     "religion": "Catholique",
     "origine": "Française",
-    "ecole": true,
+    "ecole": false,
     "sait_ecrire": false,
     "sait_lire": false
    },
@@ -1574,7 +1644,8 @@
     "religion": "Catholique",
     "origine": "Française",
     "sait_ecrire": false,
-    "sait_lire": false
+    "sait_lire": false,
+    "ecole": false
    },
    "1871-D2-P001-L13": {
     "sexe": "M",
@@ -1615,14 +1686,14 @@
     "lieu_naissance": "Québec"
    },
    "1871-D2-P002-L11": {
-    "sait_ecrire": false,
-    "sait_lire": false,
+    "sait_ecrire": true,
+    "sait_lire": true,
     "origine": "Française",
     "lieu_naissance": "Québec"
    },
    "1871-D2-P002-L10": {
-    "sait_ecrire": false,
-    "sait_lire": false,
+    "sait_ecrire": true,
+    "sait_lire": true,
     "origine": "Française",
     "lieu_naissance": "Québec"
    },
@@ -1671,7 +1742,8 @@
    },
    "1871-D2-P006-L02": {
     "incertain": false,
-    "religion": "Catholique "
+    "religion": "Catholique ",
+    "ecole": false
    },
    "1871-D2-P006-L03": {
     "incertain": false,
@@ -1691,6 +1763,162 @@
    },
    "1891-D1-P132-L01": {
     "prenom": "Abraham"
+   },
+   "1891-D1-P001-L13": {
+    "sait_lire": true,
+    "sait_ecrire": false
+   },
+   "1871-D2-P003-L14": {
+    "ecole": true
+   },
+   "1871-D2-P004-L02": {
+    "ecole": false
+   },
+   "1871-D2-P004-L03": {
+    "ecole": false
+   },
+   "1871-D2-P005-L11": {
+    "sait_ecrire": true,
+    "sait_lire": true
+   },
+   "1871-D2-P006-L10": {
+    "sait_lire": false,
+    "sait_ecrire": false
+   },
+   "1871-D2-P007-L04": {
+    "etat_matrimonial": "M",
+    "sait_lire": true
+   },
+   "1871-D2-P007-L12": {
+    "ecole": false
+   },
+   "1871-D2-P007-L10": {
+    "ecole": true
+   },
+   "1871-D2-P007-L07": {
+    "ecole": false,
+    "sait_lire": true,
+    "sait_ecrire": true
+   },
+   "1871-D2-P007-L08": {
+    "ecole": false,
+    "sait_lire": true,
+    "sait_ecrire": true
+   },
+   "1871-D2-P007-L16": {
+    "ecole": true
+   },
+   "1871-D2-P008-L09": {
+    "sait_ecrire": false,
+    "sait_lire": true
+   },
+   "1871-D2-P008-L08": {
+    "sait_ecrire": false,
+    "sait_lire": false
+   },
+   "1871-D2-P008-L13": {
+    "ecole": true
+   },
+   "1871-D2-P009-L03": {
+    "sait_ecrire": false
+   },
+   "1871-D2-P010-L01": {
+    "sait_lire": false,
+    "sait_ecrire": false
+   },
+   "1871-D2-P010-L03": {
+    "sait_ecrire": true,
+    "sait_lire": true
+   },
+   "1871-D2-P011-L06": {
+    "ecole": false
+   },
+   "1871-D2-P011-L19": {
+    "ecole": true
+   },
+   "1871-D2-P011-L13": {
+    "ecole": false
+   },
+   "1871-D2-P011-L12": {
+    "ecole": false
+   },
+   "1871-D2-P012-L05": {
+    "ecole": true
+   },
+   "1871-D2-P013-L01": {
+    "prenom": "J. Baptiste"
+   },
+   "1871-D2-P013-L05": {
+    "lieu_naissance": "Q."
+   },
+   "1871-D2-P013-L07": {
+    "lieu_naissance": "Q."
+   },
+   "1871-D2-P013-L06": {
+    "lieu_naissance": "Irland"
+   },
+   "1871-D2-P013-L15": {
+    "etat_matrimonial": "C",
+    "ecole": false
+   },
+   "1871-D2-P013-L16": {
+    "ecole": true
+   },
+   "1871-D2-P014-L02": {
+    "ecole": false
+   },
+   "1871-D2-P014-L03": {
+    "ecole": true
+   },
+   "1871-D2-P014-L04": {
+    "sait_lire": true
+   },
+   "1871-D2-P014-L05": {
+    "ecole": false
+   },
+   "1871-D2-P014-L17": {
+    "origine": "Française"
+   },
+   "1871-D2-P014-L19": {
+    "origine": "Française"
+   },
+   "1871-D2-P014-L20": {
+    "origine": "Française",
+    "ecole": false
+   },
+   "1871-D2-P015-L01": {
+    "origine": "Française"
+   },
+   "1871-D2-P015-L02": {
+    "origine": "Française"
+   },
+   "1871-D2-P015-L03": {
+    "origine": "Française"
+   },
+   "1871-D2-P015-L15": {
+    "sait_ecrire": false
+   },
+   "1871-D2-P015-L16": {
+    "sait_ecrire": false
+   },
+   "1871-D2-P017-L09": {
+    "sait_lire": false,
+    "sait_ecrire": false
+   },
+   "1871-D2-P017-L11": {
+    "ecole": true
+   },
+   "1871-D2-P017-L19": {
+    "ecole": false
+   },
+   "1871-D2-P017-L20": {
+    "ecole": false
+   },
+   "1871-D2-P019-L02": {
+    "ecole": false
+   },
+   "1871-D2-P019-L07": {
+    "age": "25"
    }
   },
   "suivi-corr-maison": {
@@ -1762,6 +1990,127 @@
      "page": "132",
      "ligne": "1",
      "nom": "Abrahan Cantin",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
+    }
+   ],
+   "1871-D2-P010-L08": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1881",
+     "division": "2",
+     "page": "51",
+     "ligne": "15",
+     "nom": "Abraham Cantin",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
+    }
+   ],
+   "1881-D2-P051-L15": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1891",
+     "division": "1",
+     "page": "133",
+     "ligne": "11",
+     "nom": "Abraham Cantin",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
+    }
+   ],
+   "1871-D2-P040-L20": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1881",
+     "division": "2",
+     "page": "27",
+     "ligne": "9",
+     "nom": "Achille Cadorette",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
+    }
+   ],
+   "1881-D2-P027-L09": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1891",
+     "division": "1",
+     "page": "121",
+     "ligne": "1",
+     "nom": "Archille Cadoret",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance moyenne."
+    }
+   ],
+   "1871-D2-P007-L17": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1881",
+     "division": "2",
+     "page": "45",
+     "ligne": "7",
+     "nom": "Adélard St.Hilaire",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
+    }
+   ],
+   "1881-D2-P045-L07": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1891",
+     "division": "1",
+     "page": "73",
+     "ligne": "12",
+     "nom": "Adélard St-Hilaire",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
+    }
+   ],
+   "1871-D1-P031-L07": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1881",
+     "division": "1",
+     "page": "20",
+     "ligne": "23",
+     "nom": "Adèle Leclerc",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
+    }
+   ],
+   "1881-D1-P020-L23": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1891",
+     "division": "1",
+     "page": "98",
+     "ligne": "15",
+     "nom": "Adèle Leclerc",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
+    }
+   ],
+   "1881-D2-P025-L11": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1891",
+     "division": "1",
+     "page": "123",
+     "ligne": "5",
+     "nom": "Louis Demers",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
+    }
+   ],
+   "1871-D2-P031-L18": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1881",
+     "division": "2",
+     "page": "25",
+     "ligne": "11",
+     "nom": "Louis Demers",
+     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
+    }
+   ],
+   "1881-D1-P049-L08": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1891",
+     "division": "1",
+     "page": "10",
+     "ligne": "15",
+     "nom": "Louis Demers",
      "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
     }
    ]
