@@ -1,7 +1,7 @@
 {
  "format": "suivi-saint-romuald-travail",
  "version": 1,
- "exporte": "2026-08-11T17:58:51.953Z",
+ "exporte": "2026-08-11T18:27:03.604Z",
  "donnees": {
   "suivi-familles-notes": {
    "1881-2-72-80": {
@@ -1919,6 +1919,34 @@
    },
    "1871-D2-P019-L07": {
     "age": "25"
+   },
+   "1871-D2-P020-L09": {
+    "age": "54 "
+   },
+   "1871-D2-P020-L10": {
+    "age": "51 "
+   },
+   "1871-D2-P020-L12": {
+    "age": "17",
+    "profession": "Navigateur"
+   },
+   "1871-D2-P020-L14": {
+    "age": "13 ",
+    "prenom": "Eusèbe ",
+    "sexe": "M"
+   },
+   "1871-D2-P020-L17": {
+    "age": "19"
+   },
+   "1871-D2-P020-L18": {
+    "sexe": "F",
+    "prenom": "Eugénie"
+   },
+   "1871-D2-P020-L11": {
+    "profession": "Navigateur"
+   },
+   "1871-D2-P020-L13": {
+    "ecole": true
    }
   },
   "suivi-corr-maison": {
