@@ -19,6 +19,10 @@
   };
   var carte, coucheLieux, marqueurs = {};
 
+  // Plans anciens en surimpression (cadastre de 1879, Goad à venir) : une
+  // couche par plan affiché, trois poignées de calage quand on en règle un.
+  var plans = [], couchesPlans = {}, poigneesPlan = [], planEnCalage = null;
+
   function parId(id) {
     for (var i = 0; i < etat.lieux.length; i++) if (etat.lieux[i].id === id) return etat.lieux[i];
     return null;
@@ -81,7 +85,9 @@
       m.on('click', function () { selectionner(l.id, false); });
       m.addTo(coucheLieux);
       marqueurs[l.id] = m;
-      if (etat.atelier) rendreDeplacable(l, m);
+      // Une seule poignée de déplacement, sur le lieu sélectionné : trente-neuf
+      // épingles glissables recouvraient les points qu'elles devaient corriger.
+      if (etat.atelier && l.id === etat.selection) rendreDeplacable(l, m);
     });
     surligner();
   }
@@ -128,6 +134,149 @@
     carte.on('click', function (e) {
       if (!etat.poser) return;
       creerLieu(e.latlng);
+    });
+  }
+
+  // ── plans anciens ────────────────────────────────────────────────────────
+
+  function planParId(id) {
+    for (var i = 0; i < plans.length; i++) if (plans[i].id === id) return plans[i];
+    return null;
+  }
+
+  function pointsDe(p) {
+    return [
+      [p.points.nw.lat, p.points.nw.lon],
+      [p.points.ne.lat, p.points.ne.lon],
+      [p.points.sw.lat, p.points.sw.lon]
+    ];
+  }
+
+  function afficherPlan(p) {
+    if (couchesPlans[p.id]) return;
+    var pts = pointsDe(p);
+    couchesPlans[p.id] = L.imageOverlay.pivote(p.fichier, pts[0], pts[1], pts[2], {
+      opacity: p.opacite == null ? 0.6 : p.opacite,
+      interactive: false
+    }).addTo(carte);
+  }
+
+  function masquerPlan(id) {
+    if (!couchesPlans[id]) return;
+    carte.removeLayer(couchesPlans[id]);
+    delete couchesPlans[id];
+    if (planEnCalage === id) finirCalage();
+  }
+
+  /* Trois poignées — NO, NE, SO — aux coins de l'image. Les glisser tourne et
+     étire le plan pour l'amener sur le terrain ; chaque geste est enregistré. */
+  function commencerCalage(p) {
+    finirCalage();
+    afficherPlan(p);
+    planEnCalage = p.id;
+    var couche = couchesPlans[p.id];
+    // Cadrer sur le plan : ses coins peuvent être loin du cadrage courant, et
+    // une poignée hors écran est une poignée qu'on ne peut pas saisir.
+    carte.fitBounds(couche.getBounds().pad(0.08));
+    var noms = ['nw', 'ne', 'sw'], etiquettes = { nw: 'NO', ne: 'NE', sw: 'SO' };
+    noms.forEach(function (coin) {
+      var m = L.marker([p.points[coin].lat, p.points[coin].lon], {
+        draggable: true,
+        icon: L.divIcon({ className: 'poignee-plan', html: etiquettes[coin], iconSize: [30, 22], iconAnchor: [15, 11] })
+      });
+      m.on('drag', function (e) {
+        p.points[coin] = { lat: e.latlng.lat, lon: e.latlng.lng };
+        var pts = pointsDe(p);
+        couche.setPoints(pts[0], pts[1], pts[2]);
+      });
+      m.on('dragend', function () {
+        p.points[coin] = { lat: Number(p.points[coin].lat.toFixed(6)), lon: Number(p.points[coin].lon.toFixed(6)) };
+        p._local = true;
+        LX.majPlan(p.id, { points: p.points });
+        rendreControlePlans();
+      });
+      m.addTo(carte);
+      poigneesPlan.push(m);
+    });
+    rendreControlePlans();
+  }
+
+  function finirCalage() {
+    poigneesPlan.forEach(function (m) { carte.removeLayer(m); });
+    poigneesPlan = [];
+    planEnCalage = null;
+  }
+
+  function rendreControlePlans() {
+    var noeud = document.getElementById('plans-controle');
+    if (!noeud) return;
+    var visibles = plans.filter(function (p) { return p.fichier && (p.cale || etat.atelier); });
+    if (!visibles.length) { noeud.innerHTML = ''; return; }
+    noeud.innerHTML = '<div class="plans-bloc"><span class="plans-titre">Plans anciens</span>' +
+      visibles.map(function (p) {
+        var actif = !!couchesPlans[p.id];
+        var opac = Math.round((p.opacite == null ? 0.6 : p.opacite) * 100);
+        return '<div class="plan-ligne">' +
+          '<label><input type="checkbox" data-plan-voir="' + esc(p.id) + '"' + (actif ? ' checked' : '') + '> ' +
+          esc(p.titre) + '</label>' +
+          (!p.cale ? '<span class="plan-avis">' + (etat.atelier ? 'à caler' : '') + '</span>' : '') +
+          (actif ? '<input type="range" min="10" max="100" value="' + opac + '" data-plan-opacite="' + esc(p.id) + '" title="Transparence">' : '') +
+          (etat.atelier && actif ? (
+            planEnCalage === p.id
+              ? '<button type="button" class="bouton actif" data-plan-caler="' + esc(p.id) + '">Fin du calage</button>'
+              : '<button type="button" class="bouton" data-plan-caler="' + esc(p.id) + '">Caler ✎</button>'
+          ) : '') +
+          (etat.atelier ? '<label class="plan-cale"><input type="checkbox" data-plan-cale="' + esc(p.id) + '"' + (p.cale ? ' checked' : '') + '> calé, montrer au public</label>' : '') +
+          (etat.atelier && p._local ? '<button type="button" class="bouton" data-plan-exporter="1">Télécharger data/plans-data.js</button>' : '') +
+          '</div>';
+      }).join('') +
+      (etat.atelier && planEnCalage
+        ? '<p class="plan-aide">Glissez les trois poignées NO, NE, SO pour amener le plan sur le terrain — commencez par NO (position), puis NE (échelle et rotation), puis SO. Le plan de 1879 mêle trois échelles : calez la bande du chemin du Fleuve, le reste ne peut pas tomber juste en même temps.</p>'
+        : '') +
+      '</div>';
+  }
+
+  function brancherPlans() {
+    var noeud = document.getElementById('plans-controle');
+    if (!noeud) return;
+    noeud.addEventListener('change', function (e) {
+      var t = e.target;
+      if (t.dataset.planVoir) {
+        var p = planParId(t.dataset.planVoir);
+        if (t.checked) afficherPlan(p); else masquerPlan(p.id);
+        rendreControlePlans();
+        return;
+      }
+      if (t.dataset.planCale) {
+        var p2 = planParId(t.dataset.planCale);
+        p2.cale = t.checked;
+        p2._local = true;
+        LX.majPlan(p2.id, { cale: p2.cale });
+        rendreControlePlans();
+        return;
+      }
+    });
+    noeud.addEventListener('input', function (e) {
+      var t = e.target;
+      if (!t.dataset.planOpacite) return;
+      var p = planParId(t.dataset.planOpacite);
+      p.opacite = t.value / 100;
+      p._local = true;
+      if (couchesPlans[p.id]) couchesPlans[p.id].setOpacity(p.opacite);
+      LX.majPlan(p.id, { opacite: p.opacite });
+    });
+    noeud.addEventListener('click', function (e) {
+      var t = e.target;
+      if (t.dataset.planCaler) {
+        var p = planParId(t.dataset.planCaler);
+        if (planEnCalage === p.id) { finirCalage(); rendreControlePlans(); }
+        else commencerCalage(p);
+        return;
+      }
+      if (t.dataset.planExporter) {
+        LX.telecharger('plans-data.js', LX.versFichierPlans(plans), 'text/javascript');
+        return;
+      }
     });
   }
 
@@ -331,7 +480,8 @@
   function selectionner(id, centrer) {
     etat.selection = id;
     etat.resultats = [];
-    surligner();
+    if (etat.atelier) dessinerMarqueurs(); // déplace la poignée sur le lieu choisi
+    else surligner();
     rendrePanneau();
     rendreListe();
     var l = parId(id);
@@ -433,11 +583,17 @@
     document.getElementById('bascule-atelier').addEventListener('click', function () {
       etat.atelier = !etat.atelier;
       etat.poser = false;
+      if (!etat.atelier) {
+        finirCalage();
+        // Un plan pas encore calé ne se montre qu'en atelier.
+        plans.forEach(function (p) { if (!p.cale) masquerPlan(p.id); });
+      }
       var url = location.pathname + (etat.atelier ? '?atelier=1' : '') + location.hash;
       history.replaceState(null, '', url);
       rendreBarreAtelier();
       dessinerMarqueurs();
       rendrePanneau();
+      rendreControlePlans();
     });
 
     document.body.addEventListener('click', function (e) {
@@ -616,6 +772,9 @@
   etat.photosLocales = {};
   initCarte();
   brancher();
+  plans = LX.chargerPlans();
+  brancherPlans();
+  rendreControlePlans();
 
   Promise.all([LX.charger(), LX.chargerMaisons(), LX.photosLocales()]).then(function (r) {
     etat.lieux = r[0].lieux;

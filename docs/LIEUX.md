@@ -170,6 +170,38 @@ node outils/generer-site.mjs           # propager aux fiches
 Sans cela, le travail reste visible dans le navigateur de Patrick — la fiche
 l'indique alors, « pas encore versé au dépôt » — mais pas pour les visiteurs.
 
+## Les plans anciens en surimpression
+
+`data/plans-data.js` → `window.PLANS`. Chaque plan est une image rangée dans
+`assets/plans/`, ancrée par **trois coins** — nord-ouest, nord-est, sud-ouest de
+l'image — ce qui permet de la tourner et de l'étirer pour l'amener sur le
+terrain (`lib/leaflet-pivote.js`, écrit pour ce projet : le site n'embarque que
+ce qu'il range lui-même dans `lib/`).
+
+Le premier plan versé est le **cadastre officiel de 1879** (« Plan officiel de
+la paroisse de St-Romuald d'Etchemin », 11 juin 1879), fourni par Patrick. Il
+donne les numéros de lots — ceux-là mêmes que les fiches de lieu consignent
+dans `cadastre.lot` — et, en renvoi, les numéros du cadastre seigneurial de la
+seigneurie de Lauzon.
+
+Le cycle est le même que pour les lieux :
+
+1. **Caler** — `carte.html?atelier=1`, bloc « Plans anciens » : afficher le
+   plan, « Caler ✎ », glisser les poignées NO, NE, SO. Chaque geste
+   s'enregistre dans `localStorage['suivi-plans']`.
+2. **Publier** — cocher « calé, montrer au public ». Tant que `cale` est faux,
+   le plan n'apparaît qu'en atelier.
+3. **Verser** — la clé voyage dans la sauvegarde de l'atelier ;
+   `node outils/lieux/fondre.mjs` l'applique à `data/plans-data.js`.
+
+**Une limite à connaître.** La feuille de 1879 porte trois échelles : la
+paroisse entière en haut (5 arpents au pouce), le village du chemin du Fleuve
+au centre et en bas (1 arpent au pouce). Un seul calage ne peut donc être juste
+que pour une bande à la fois — caler celle du chemin du Fleuve, où vivent les
+maisons du recensement. Si un jour on veut les trois bandes justes, il faudra
+découper le scan en trois images et les caler séparément ; le format le permet
+déjà (un plan par bande).
+
 ## Les photos
 
 Une photo versée au dépôt vit dans `assets/photos/` et se déclare dans
@@ -193,9 +225,13 @@ enfler un fichier que tous les visiteurs chargent.
 3. **Rattacher les 19 lieux encore sans occupation** — le filtre « Sans
    rattachement » de la carte les isole, et la recherche par nom de chef de
    ménage fait le reste.
-4. **Le plan Goad de 1876 en surimpression**, une fois les points relevés : les
-   champs `cadastre.goad_feuillet` et `goad_no` existent déjà pour ça. C'est le
-   chantier qui rendrait la carte spectaculaire (voir `docs/HEBERGEMENT.md`).
-5. **Le géocodage automatique** des adresses encore debout, quand un accès à
+4. **Caler le cadastre de 1879** — le mécanisme est en place (voir « Les plans
+   anciens en surimpression »), il ne manque que le geste. Une fois calé, le
+   plan devient le meilleur guide pour replacer les points des lieux : les lots
+   y sont dessinés, il suffit de glisser chaque point sur le sien.
+5. **Le plan Goad de 1876**, même mécanique : déposer le scan dans
+   `assets/plans/`, ajouter une entrée dans `data/plans-data.js`, caler. Les
+   champs `cadastre.goad_feuillet` et `goad_no` l'attendent déjà.
+6. **Le géocodage automatique** des adresses encore debout, quand un accès à
    Nominatim sera disponible — il n'est pas joignable depuis l'outillage
    actuel. Il ne remplacerait pas le placement à la main, il l'amorcerait mieux.
