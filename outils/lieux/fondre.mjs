@@ -24,6 +24,7 @@ import { fileURLToPath } from 'node:url';
 
 const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const CIBLE = path.join(RACINE, 'data', 'lieux-data.js');
+const CIBLE_PLANS = path.join(RACINE, 'data', 'plans-data.js');
 const TRAVAIL = path.join(RACINE, 'data', 'travail-personnel.json');
 const ESSAI = process.argv.includes('--essai');
 
@@ -101,4 +102,47 @@ if (!ESSAI && !rien) {
   console.log('Pensez à rejouer `node outils/generer-site.mjs`.');
 } else if (ESSAI) {
   console.log(`[essai] ${CIBLE} non modifié.`);
+}
+
+// ─── plans anciens ──────────────────────────────────────────────────────────
+// Le calage d'un plan (carte.html, mode Atelier) vit sous `suivi-plans` et se
+// verse dans data/plans-data.js — même règle : la main l'emporte, champ par
+// champ. Les plans ne passent pas par generer-site.mjs : le fichier de données
+// est chargé tel quel par carte.html.
+
+const suiviPlans = (travail.donnees || {})['suivi-plans'] || {};
+if (Object.keys(suiviPlans).length && fs.existsSync(CIBLE_PLANS)) {
+  const ctxP = { window: {} };
+  vm.createContext(ctxP);
+  vm.runInContext(fs.readFileSync(CIBLE_PLANS, 'utf8'), ctxP);
+  const basePlans = ctxP.window.PLANS;
+  const CHAMPS_PLAN = ['titre', 'annee', 'fichier', 'source', 'note', 'points', 'opacite', 'cale'];
+  const touchesPlans = [];
+  for (const [id, mod] of Object.entries(suiviPlans)) {
+    const plan = (basePlans.plans || []).find((p) => p.id === id);
+    if (!plan) { console.warn(`  ? plan inconnu dans suivi-plans, ignoré : ${id}`); continue; }
+    const touches = [];
+    for (const champ of CHAMPS_PLAN) {
+      if (!(champ in mod)) continue;
+      if (JSON.stringify(plan[champ]) === JSON.stringify(mod[champ])) continue;
+      plan[champ] = mod[champ];
+      touches.push(champ);
+    }
+    if (touches.length) touchesPlans.push(`${id} — ${touches.join(', ')}`);
+  }
+  if (touchesPlans.length) {
+    touchesPlans.forEach((x) => console.log(`${prefixe}  ~ plan ${x}`));
+    if (!ESSAI) {
+      basePlans.mis_a_jour = new Date().toISOString().slice(0, 10);
+      fs.writeFileSync(CIBLE_PLANS,
+        '// Plans anciens posés en surimpression de la carte — voir docs/LIEUX.md.\n' +
+        '// Calés depuis carte.html (mode Atelier), versés par outils/lieux/fondre.mjs.\n' +
+        'window.PLANS = ' + JSON.stringify(basePlans, null, 2) + ';\n');
+      console.log(`data/plans-data.js écrit : ${basePlans.plans.length} plan(s).`);
+    } else {
+      console.log(`[essai] ${CIBLE_PLANS} non modifié.`);
+    }
+  } else {
+    console.log(`${prefixe}data/plans-data.js est déjà d'accord avec le travail personnel.`);
+  }
 }

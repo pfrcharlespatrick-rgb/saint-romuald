@@ -10,6 +10,7 @@ window.LX = (function () {
   'use strict';
 
   var CLE_TRAVAIL = 'suivi-lieux';
+  var CLE_PLANS = 'suivi-plans';
 
   var ETATS = {
     debout: { label: 'Encore debout', court: 'debout' },
@@ -88,6 +89,51 @@ window.LX = (function () {
       parId[id]._modifie_le = mod._modifie_le || '';
     });
     return ordre.map(function (id) { return parId[id]; }).filter(Boolean);
+  }
+
+  // ── Plans anciens ────────────────────────────────────────────────────────
+  // Même mécanique que les lieux, en plus petit : data/plans-data.js est
+  // l'état versé, `suivi-plans` ce que Patrick vient de caler dans ce
+  // navigateur. Le fichier de données est chargé par balise <script>
+  // (window.PLANS), pas par fetch — il n'existe que sur carte.html.
+
+  function plansOverlay() { return lire(CLE_PLANS, '{}'); }
+
+  function majPlan(id, champs) {
+    var o = plansOverlay();
+    o[id] = Object.assign({}, o[id] || {}, champs, { _modifie_le: new Date().toISOString().slice(0, 10) });
+    ecrire(CLE_PLANS, o);
+    return o[id];
+  }
+
+  function chargerPlans() {
+    var base = ((window.PLANS || {}).plans || []).map(function (p) { return JSON.parse(JSON.stringify(p)); });
+    var o = plansOverlay();
+    base.forEach(function (p) {
+      var mod = o[p.id];
+      if (!mod) return;
+      Object.keys(mod).forEach(function (k) { if (k.charAt(0) !== '_') p[k] = mod[k]; });
+      p._local = true;
+      p._modifie_le = mod._modifie_le || '';
+    });
+    return base;
+  }
+
+  function versFichierPlans(plans) {
+    var propres = plans.map(function (p) {
+      var c = {};
+      ['id', 'titre', 'annee', 'fichier', 'source', 'note', 'points', 'opacite', 'cale'].forEach(function (k) {
+        if (p[k] !== undefined) c[k] = p[k];
+      });
+      return c;
+    });
+    return '// Plans anciens posés en surimpression de la carte — voir docs/LIEUX.md.\n' +
+      '// Calés depuis carte.html (mode Atelier), versés par outils/lieux/fondre.mjs.\n' +
+      'window.PLANS = ' + JSON.stringify({
+        format: 'plans-saint-romuald', version: 1,
+        mis_a_jour: new Date().toISOString().slice(0, 10),
+        plans: propres
+      }, null, 2) + ';\n';
   }
 
   var cachePublie = null;
@@ -275,6 +321,7 @@ window.LX = (function () {
     charger: charger, overlay: overlay, majLieu: majLieu, oublierLieu: oublierLieu,
     chargerMaisons: chargerMaisons, chercherMaisons: chercherMaisons,
     photosLocales: photosLocales, ajouterPhoto: ajouterPhoto, majPhoto: majPhoto, retirerPhoto: retirerPhoto,
-    telecharger: telecharger, versFichierDonnees: versFichierDonnees
+    telecharger: telecharger, versFichierDonnees: versFichierDonnees,
+    chargerPlans: chargerPlans, majPlan: majPlan, plansOverlay: plansOverlay, versFichierPlans: versFichierPlans
   };
 })();
