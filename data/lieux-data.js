@@ -4,7 +4,7 @@
 window.LIEUX = {
   "format": "lieux-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-08-10",
+  "mis_a_jour": "2026-08-17",
   "note": "Couche « lieux » : un emplacement au sol, sa position, son état, et les maisons de recensement qui y ont été recensées année par année. Ne remplace jamais data/bussiere1990-data.js, qui reste la source publiée : un lieu portant source_ref hérite du titre, des personnages et du résumé de la brochure, et n'y ajoute que ce que le chercheur établit. Voir docs/LIEUX.md.",
   "lieux": [
     {
@@ -17,11 +17,11 @@ window.LIEUX = {
       "construit": "1866-1868",
       "disparu": "",
       "coord": {
-        "lat": 46.728608,
-        "lon": -71.286772,
+        "lat": 46.748975,
+        "lon": -71.266399,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:1506-cf",
@@ -65,11 +65,11 @@ window.LIEUX = {
       "construit": "v.1847",
       "disparu": "",
       "coord": {
-        "lat": 46.730372,
-        "lon": -71.283048,
+        "lat": 46.750204,
+        "lon": -71.261485,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:1604-cf",
@@ -113,11 +113,11 @@ window.LIEUX = {
       "construit": "v.1870",
       "disparu": "",
       "coord": {
-        "lat": 46.730894,
-        "lon": -71.281946,
+        "lat": 46.750567,
+        "lon": -71.260031,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:1633-cf",
@@ -151,11 +151,11 @@ window.LIEUX = {
       "construit": "v.1850",
       "disparu": "",
       "coord": {
-        "lat": 46.732442,
-        "lon": -71.278678,
+        "lat": 46.751645,
+        "lon": -71.255719,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:1719-1720-cf",
@@ -178,11 +178,11 @@ window.LIEUX = {
       "construit": "v.1850",
       "disparu": "",
       "coord": {
-        "lat": 46.732748,
-        "lon": -71.278032,
+        "lat": 46.751858,
+        "lon": -71.254866,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:1736-cf",
@@ -205,11 +205,11 @@ window.LIEUX = {
       "construit": "1878",
       "disparu": "",
       "coord": {
-        "lat": 46.735033,
-        "lon": -71.273192,
+        "lat": 46.753434,
+        "lon": -71.24859,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:1871-cf",
@@ -259,11 +259,11 @@ window.LIEUX = {
       "construit": "1857",
       "disparu": "",
       "coord": {
-        "lat": 46.73552,
-        "lon": -71.27216,
+        "lat": 46.753629,
+        "lon": -71.24785,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:1900-cf",
@@ -286,11 +286,11 @@ window.LIEUX = {
       "construit": "1780",
       "disparu": "",
       "coord": {
-        "lat": 46.736931,
-        "lon": -71.26917,
+        "lat": 46.754193,
+        "lon": -71.245708,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:1984-cf",
@@ -313,11 +313,11 @@ window.LIEUX = {
       "construit": "1791",
       "disparu": "",
       "coord": {
-        "lat": 46.737871,
-        "lon": -71.267196,
+        "lat": 46.754534,
+        "lon": -71.244317,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2039-2030-cf",
@@ -371,11 +371,11 @@ window.LIEUX = {
       "construit": "fin 19e siècle",
       "disparu": "",
       "coord": {
-        "lat": 46.738094,
-        "lon": -71.266728,
+        "lat": 46.754612,
+        "lon": -71.24399,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2052-cf",
@@ -419,11 +419,11 @@ window.LIEUX = {
       "construit": "v.1925",
       "disparu": "",
       "coord": {
-        "lat": 46.738198,
-        "lon": -71.266512,
+        "lat": 46.754648,
+        "lon": -71.243838,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2058-2060-cf",
@@ -467,11 +467,11 @@ window.LIEUX = {
       "construit": "1908-1909",
       "disparu": "",
       "coord": {
-        "lat": 46.738421,
-        "lon": -71.266044,
+        "lat": 46.754726,
+        "lon": -71.243511,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2071-2065-cf",
@@ -515,11 +515,11 @@ window.LIEUX = {
       "construit": "1864",
       "disparu": "",
       "coord": {
-        "lat": 46.738989,
-        "lon": -71.264856,
+        "lat": 46.754924,
+        "lon": -71.242679,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2104-cf",
@@ -563,11 +563,11 @@ window.LIEUX = {
       "construit": "fin 19e siècle",
       "disparu": "",
       "coord": {
-        "lat": 46.739109,
-        "lon": -71.264604,
+        "lat": 46.754966,
+        "lon": -71.242503,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2111-cf",
@@ -611,11 +611,11 @@ window.LIEUX = {
       "construit": "v.1880",
       "disparu": "",
       "coord": {
-        "lat": 46.739316,
-        "lon": -71.264172,
+        "lat": 46.755038,
+        "lon": -71.2422,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2123-cf",
@@ -649,11 +649,11 @@ window.LIEUX = {
       "construit": "1929",
       "disparu": "",
       "coord": {
-        "lat": 46.740158,
-        "lon": -71.262408,
+        "lat": 46.755332,
+        "lon": -71.240966,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2172-cf",
@@ -676,11 +676,11 @@ window.LIEUX = {
       "construit": "1902",
       "disparu": "",
       "coord": {
-        "lat": 46.74021,
-        "lon": -71.2623,
+        "lat": 46.75535,
+        "lon": -71.24089,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2175-cf",
@@ -703,11 +703,11 @@ window.LIEUX = {
       "construit": "1902",
       "disparu": "",
       "coord": {
-        "lat": 46.740468,
-        "lon": -71.26176,
+        "lat": 46.75544,
+        "lon": -71.240512,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2190-cf",
@@ -730,11 +730,11 @@ window.LIEUX = {
       "construit": "fin 19e siècle",
       "disparu": "",
       "coord": {
-        "lat": 46.740967,
-        "lon": -71.260716,
+        "lat": 46.755614,
+        "lon": -71.239781,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2219-2223-cf",
@@ -778,11 +778,11 @@ window.LIEUX = {
       "construit": "v.1860",
       "disparu": "",
       "coord": {
-        "lat": 46.740984,
-        "lon": -71.26068,
+        "lat": 46.75562,
+        "lon": -71.239756,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2220-cf",
@@ -805,11 +805,11 @@ window.LIEUX = {
       "construit": "v.1965",
       "disparu": "",
       "coord": {
-        "lat": 46.741139,
-        "lon": -71.260356,
+        "lat": 46.755674,
+        "lon": -71.239529,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2229-cf",
@@ -832,11 +832,11 @@ window.LIEUX = {
       "construit": "v.1840",
       "disparu": "",
       "coord": {
-        "lat": 46.741466,
-        "lon": -71.259672,
+        "lat": 46.755788,
+        "lon": -71.23905,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2248-2256-cf",
@@ -859,11 +859,11 @@ window.LIEUX = {
       "construit": "1877",
       "disparu": "",
       "coord": {
-        "lat": 46.743853,
-        "lon": -71.254803,
+        "lat": 46.756723,
+        "lon": -71.235356,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2393-cf",
@@ -907,11 +907,11 @@ window.LIEUX = {
       "construit": "v.1910",
       "disparu": "",
       "coord": {
-        "lat": 46.744231,
-        "lon": -71.254031,
+        "lat": 46.756871,
+        "lon": -71.23477,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2416-cf",
@@ -945,11 +945,11 @@ window.LIEUX = {
       "construit": "v.1884",
       "disparu": "",
       "coord": {
-        "lat": 46.744395,
-        "lon": -71.253695,
+        "lat": 46.756935,
+        "lon": -71.234515,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2426-cf",
@@ -983,11 +983,11 @@ window.LIEUX = {
       "construit": "fin 19e siècle",
       "disparu": "",
       "coord": {
-        "lat": 46.744922,
-        "lon": -71.252622,
+        "lat": 46.757142,
+        "lon": -71.233699,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2458-cf",
@@ -1021,11 +1021,11 @@ window.LIEUX = {
       "construit": "v.1900",
       "disparu": "",
       "coord": {
-        "lat": 46.745267,
-        "lon": -71.251917,
+        "lat": 46.757277,
+        "lon": -71.233164,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2479-cf",
@@ -1048,11 +1048,11 @@ window.LIEUX = {
       "construit": "v.1893",
       "disparu": "",
       "coord": {
-        "lat": 46.746386,
-        "lon": -71.249636,
+        "lat": 46.757716,
+        "lon": -71.231431,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2547-cf",
@@ -1075,11 +1075,11 @@ window.LIEUX = {
       "construit": "v.1860",
       "disparu": "",
       "coord": {
-        "lat": 46.7466,
-        "lon": -71.2492,
+        "lat": 46.7578,
+        "lon": -71.2311,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2560-cf",
@@ -1102,11 +1102,11 @@ window.LIEUX = {
       "construit": "",
       "disparu": "",
       "coord": {
-        "lat": 46.7311,
-        "lon": -71.2812,
+        "lat": 46.750666,
+        "lon": -71.259119,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Patrick Blanchet",
       "personnages": "Famille Benson — William John Chapman Benson et ses fils Edward et William",
@@ -1150,11 +1150,11 @@ window.LIEUX = {
       "construit": "1841",
       "disparu": "",
       "coord": {
-        "lat": 46.734756,
-        "lon": -71.270874,
+        "lat": 46.752663,
+        "lon": -71.246987,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:120-coterouge",
@@ -1177,11 +1177,11 @@ window.LIEUX = {
       "construit": "1871-1873",
       "disparu": "",
       "coord": {
-        "lat": 46.736947,
-        "lon": -71.266849,
+        "lat": 46.753631,
+        "lon": -71.244156,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:171-eglise",
@@ -1204,11 +1204,11 @@ window.LIEUX = {
       "construit": "1906",
       "disparu": "",
       "coord": {
-        "lat": 46.736911,
-        "lon": -71.266829,
+        "lat": 46.753594,
+        "lon": -71.244145,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:182-eglise",
@@ -1231,11 +1231,11 @@ window.LIEUX = {
       "construit": "v.1875",
       "disparu": "",
       "coord": {
-        "lat": 46.738387,
-        "lon": -71.264522,
+        "lat": 46.754333,
+        "lon": -71.242634,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:65-college",
@@ -1269,11 +1269,11 @@ window.LIEUX = {
       "construit": "milieu 20e siècle",
       "disparu": "",
       "coord": {
-        "lat": 46.738234,
-        "lon": -71.264449,
+        "lat": 46.754188,
+        "lon": -71.24256,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:105-college",
@@ -1317,11 +1317,11 @@ window.LIEUX = {
       "construit": "à partir de 1856",
       "disparu": "",
       "coord": {
-        "lat": 46.743266,
-        "lon": -71.254513,
+        "lat": 46.756095,
+        "lon": -71.235539,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:30-juvenat",
@@ -1375,11 +1375,11 @@ window.LIEUX = {
       "construit": "2e moitié du 19e siècle",
       "disparu": "",
       "coord": {
-        "lat": 46.729955,
-        "lon": -71.282345,
+        "lat": 46.749687,
+        "lon": -71.260925,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:52-56-hardy",
@@ -1402,11 +1402,11 @@ window.LIEUX = {
       "construit": "fin 19e siècle",
       "disparu": "",
       "coord": {
-        "lat": 46.73163,
-        "lon": -71.278902,
+        "lat": 46.750867,
+        "lon": -71.25636,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:65-stdamase",
@@ -1429,11 +1429,11 @@ window.LIEUX = {
       "construit": "v.1861",
       "disparu": "",
       "coord": {
-        "lat": 46.731566,
-        "lon": -71.278869,
+        "lat": 46.750798,
+        "lon": -71.256355,
         "precision": "secteur",
         "pose_par": "amorce automatique",
-        "pose_le": "2026-08-10"
+        "pose_le": "2026-08-17"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:83-stdamase",

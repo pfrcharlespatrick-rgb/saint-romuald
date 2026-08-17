@@ -1,7 +1,7 @@
 {
   "format": "documents-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-07-31",
+  "mis_a_jour": "2026-08-17",
   "note": "Index des documents historiques qui établissent des liens de filiation. Un document versé ici l'emporte toujours sur une proposition automatique de data/filiation-data.js : l'acte est une preuve, le rapprochement algorithmique n'est qu'une hypothèse. Voir documents/README.md pour la marche à suivre.",
   "types_admis": {
     "bapteme": "Acte de baptême — établit une filiation directe et une date de naissance",
@@ -3385,6 +3385,35 @@
       ],
       "note": "Avec Rose-De-Lima (épouse Hardy, geni-rose-delima-roberge-hardy) et Hubert (geni-hubert-roberge-pere-isabelle-burroughs), ce seraient quatre des dix enfants de Julien Louis Julien Roberge retrouvés à Saint-Romuald. Les deux rattachements proposés ici restent des hypothèses : seuls le prénom et l'âge les soutiennent.",
       "ajoute_le": "2026-07-31"
+    },
+    {
+      "id": "goad-1876-quebec-coves",
+      "type": "autre",
+      "titre": "Quebec Coves. South Shore — plans d'assurance-incendie de Charles E. Goad, feuilles 12 à 15",
+      "date": "1876-03",
+      "date_incertaine": false,
+      "source": "BAnQ, Archives nationales à Québec, collection initiale",
+      "cote": "P600,S4,SS1,D67",
+      "url": "https://collections.banq.qc.ca/ark:/52327/3121049",
+      "fichier": "assets/plans/goad-1876-f12.jpg à goad-1876-f15.jpg (versés comme plans anciens de la carte, data/plans-data.js)",
+      "transcription": "",
+      "personnes": [],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "En mars 1876, l'anse Hamilton est exploitée par Hamilton Bros., l'anse de New Liverpool par Benson Brothers, la New Liverpool Steam Saw Mill par Ritchie and Cull (aussi à l'anse Albert), les moulins de l'Etchemin par Henry Atkinson junior, et le bassin de la Chaudière sert de dépôt de bois à Henry King & Co."
+        },
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Les feuilles dessinent une à une, avec numéro et matériau, les maisons du chemin public entre l'Etchemin et la Chaudière — l'état du bâti à mi-chemin entre les recensements de 1871 et 1881. Les rattachements maison par maison aux ménages recensés restent à faire, fiche de lieu par fiche de lieu."
+        }
+      ],
+      "note": "Relevé d'assurance-incendie à 200 pieds au pouce, le document le plus fin du corpus sur le bâti. Légende des matériaux : bleu = pierre, rouge = brique, jaune = bois habité, hachures grises = dépendances, rectangles hachurés = bois empilé, S.B. = chaudière à vapeur. La feuille 12 couvre le village d'Etchemin — son église, les moulins Etchemin de Henry Atkinson junior à l'embouchure de la rivière, les étangs de flottage Mill Pond et Rigolet Pond (« all water power, no steam used ») — et la feuille 13 porte la ligne de démarcation entre les villages d'Etchemin et de New Liverpool. Le fleuve est couché en bas des feuilles : le nord y est vers le bas. Fourni par Patrick Blanchet avec guide d'interprétation, août 2026.",
+      "ajoute_le": "2026-08-17"
     }
   ]
 }

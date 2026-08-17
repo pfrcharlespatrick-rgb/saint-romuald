@@ -99,6 +99,16 @@ du numéro civique le long d'un axe approximatif du chemin du Fleuve, à partir 
 deux repères tirés du corpus lui-même (le 2560 est « à l'entrée est du chemin »,
 côté pont Etchemin ; les numéros décroissent vers l'ouest et l'anse Benson).
 
+L'axe de la première amorce (août 2026) s'est révélé décalé d'environ deux
+kilomètres vers le sud-ouest : il plaçait le village en plein arrière-pays. Il
+a été recalé le 17 août 2026 sur deux adresses réelles du chemin actuel — la
+marina de la Chaudière (1250, chemin du Fleuve, à l'embouchure de la Chaudière,
+46,7458 / −71,2792) et le parc de l'Anse-Benson (1851, chemin du Fleuve,
+46,7533 / −71,2491) — qui donnent un relèvement de 70° et bornent le chemin
+entre la Chaudière et le pont de l'Etchemin, à quatre kilomètres. Chaque point
+a été reprojeté au même paramètre civique et au même écart perpendiculaire :
+la disposition relative des lieux est inchangée, seule l'assiette a bougé.
+
 **Ils indiquent un secteur, pas un bâtiment.** C'est délibérément assumé, et
 c'est la marche à suivre déjà recommandée dans `docs/HEBERGEMENT.md` : placer
 grossièrement d'abord, corriger à la main ensuite. Trois choses le rendent
@@ -184,6 +194,28 @@ donne les numéros de lots — ceux-là mêmes que les fiches de lieu consignent
 dans `cadastre.lot` — et, en renvoi, les numéros du cadastre seigneurial de la
 seigneurie de Lauzon.
 
+S'y ajoutent les **feuilles 12 à 15 des plans d'assurance-incendie de
+Charles E. Goad** (« Quebec Coves. South Shore », mars 1876 — BAnQ,
+P600,S4,SS1,D67), fournies par Patrick. Échelle de 200 pieds au pouce, chaque
+bâtiment dessiné individuellement avec son numéro et son matériau (jaune =
+bois habité, rouge = brique, bleu = pierre, hachures = bois empilé) : c'est le
+document le plus fin dont on dispose, daté **entre les recensements de 1871 et
+1881**. La feuille 12 couvre le village d'Etchemin — son église, les moulins
+Atkinson à l'embouchure de l'Etchemin, la grève de Saint-Romuald ; la
+feuille 13, l'anse Hamilton et l'anse de New Liverpool (l'anse Benson
+d'aujourd'hui), avec la ligne de démarcation entre les villages d'Etchemin et
+de New Liverpool ; la feuille 14, le village de New Liverpool et la scierie à
+vapeur de Ritchie and Cull ; la feuille 15, l'anse Albert et le bassin de la
+Chaudière. Attention à l'orientation : Goad couche le fleuve en bas de
+feuille, **le nord est donc vers le bas** et la gauche de chaque feuille pointe
+vers l'aval (les numéros de feuilles croissent d'est en ouest). Un calage
+initial a été estimé sur l'axe recalé du chemin du Fleuve, ancré sur l'église
+Saint-Romuald (feuille 12), l'anse Benson (feuille 13) et l'embouchure de la
+Chaudière (feuille 15) ; il reste à l'ajuster aux poignées, chaque feuille
+étant une bande à une seule échelle — bien plus docile que la feuille de 1879.
+Les champs `cadastre.goad_feuillet` et `goad_no` des fiches de lieu attendent
+les numéros portés sur ces feuilles.
+
 Le cycle est le même que pour les lieux :
 
 1. **Caler** — `carte.html?atelier=1`, bloc « Plans anciens » : afficher le
@@ -229,9 +261,10 @@ enfler un fichier que tous les visiteurs chargent.
    anciens en surimpression »), il ne manque que le geste. Une fois calé, le
    plan devient le meilleur guide pour replacer les points des lieux : les lots
    y sont dessinés, il suffit de glisser chaque point sur le sien.
-5. **Le plan Goad de 1876**, même mécanique : déposer le scan dans
-   `assets/plans/`, ajouter une entrée dans `data/plans-data.js`, caler. Les
-   champs `cadastre.goad_feuillet` et `goad_no` l'attendent déjà.
+5. **Ajuster le calage des feuilles Goad de 1876** — les feuilles 13, 14 et 15
+   sont versées avec un calage initial estimé ; reste à les ajuster aux
+   poignées dans l'atelier, puis à reporter les numéros de bâtiments dans les
+   champs `cadastre.goad_feuillet` et `goad_no` des fiches de lieu.
 6. **Le géocodage automatique** des adresses encore debout, quand un accès à
    Nominatim sera disponible — il n'est pas joignable depuis l'outillage
    actuel. Il ne remplacerait pas le placement à la main, il l'amorcerait mieux.
