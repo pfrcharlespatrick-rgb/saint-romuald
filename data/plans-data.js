@@ -35,11 +35,11 @@ window.PLANS = {
       "annee": "1876",
       "fichier": "assets/plans/goad-1876-f12.jpg",
       "source": "Charles E. Goad, « Quebec Coves. South Shore », mars 1876, feuille 12. Plans d'assurance-incendie, échelle 200 pieds au pouce. BAnQ, Archives nationales à Québec, cote P600,S4,SS1,D67 — https://collections.banq.qc.ca/ark:/52327/3121049",
-      "note": "Le village d'Etchemin au complet : son église (l'église Saint-Romuald), les moulins Etchemin (Henry Atkinson junior) à l'embouchure de la rivière, les étangs de flottage Mill Pond et Rigolet Pond (« all water power, no steam used »), un hôtel, et la grève de Saint-Romuald vers l'ouest. Le fleuve est en bas de la feuille : le nord est donc vers le bas, la gauche vers l'aval (feuille 11). Calage initial ancré sur l'église Saint-Romuald — à ajuster aux poignées dans l'atelier.",
+      "note": "Le village d'Etchemin au complet : son église (l'église Saint-Romuald), les moulins Etchemin (Henry Atkinson junior) à l'embouchure de la rivière, les étangs de flottage Mill Pond et Rigolet Pond (« all water power, no steam used »), un hôtel, et la grève de Saint-Romuald vers l'ouest. Le fleuve est en bas de la feuille : le nord est donc vers le bas, la gauche vers l'aval (feuille 11). Calage ancré sur l'église Saint-Romuald (dessinée sur la feuille, position réelle connue), l'orientation raccordée à la feuille 13. Dernier réglage aux poignées dans l'atelier.",
       "points": {
-        "nw": { "lat": 46.757104, "lon": -71.225350 },
-        "ne": { "lat": 46.754061, "lon": -71.240838 },
-        "sw": { "lat": 46.763593, "lon": -71.228066 }
+        "nw": { "lat": 46.756930, "lon": -71.225602 },
+        "ne": { "lat": 46.753519, "lon": -71.240926 },
+        "sw": { "lat": 46.763350, "lon": -71.228646 }
       },
       "opacite": 0.6,
       "cale": false
@@ -50,11 +50,11 @@ window.PLANS = {
       "annee": "1876",
       "fichier": "assets/plans/goad-1876-f13.jpg",
       "source": "Charles E. Goad, « Quebec Coves. South Shore », mars 1876, feuille 13. Plans d'assurance-incendie, échelle 200 pieds au pouce. BAnQ, Archives nationales à Québec, cote P600,S4,SS1,D67 — https://collections.banq.qc.ca/ark:/52327/3121049",
-      "note": "Anse Hamilton (Hamilton Bros.) et anse de New Liverpool (Benson Brothers) ; porte la ligne de démarcation entre les villages d'Etchemin et de New Liverpool, une scierie de 75 chevaux-vapeur et une boulangerie. Le fleuve est en bas de la feuille : le nord est donc vers le bas, la gauche vers l'aval (feuille 12, côté Etchemin). Calage initial posé sur le tracé réel du chemin du Fleuve (relevé sur le fond OpenStreetMap) — à ajuster aux poignées dans l'atelier.",
+      "note": "Anse Hamilton (Hamilton Bros.) et anse de New Liverpool (Benson Brothers) ; porte la ligne de démarcation entre les villages d'Etchemin et de New Liverpool, une scierie de 75 chevaux-vapeur et une boulangerie. Le fleuve est en bas de la feuille : le nord est donc vers le bas, la gauche vers l'aval (feuille 12, côté Etchemin). Calage ajusté par moindres carrés : la route dessinée sur la feuille, mesurée pixel par pixel, est posée sur le tracé réel du chemin du Fleuve — le contenu est incliné sur le papier, l'angle en tient compte. Dernier réglage aux poignées dans l'atelier.",
       "points": {
-        "nw": { "lat": 46.753324, "lon": -71.240104 },
-        "ne": { "lat": 46.747458, "lon": -71.253804 },
-        "sw": { "lat": 46.759046, "lon": -71.245322 }
+        "nw": { "lat": 46.751747, "lon": -71.240270 },
+        "ne": { "lat": 46.747691, "lon": -71.255301 },
+        "sw": { "lat": 46.758024, "lon": -71.243879 }
       },
       "opacite": 0.6,
       "cale": false
@@ -65,11 +65,11 @@ window.PLANS = {
       "annee": "1876",
       "fichier": "assets/plans/goad-1876-f14.jpg",
       "source": "Charles E. Goad, « Quebec Coves. South Shore », mars 1876, feuille 14. Plans d'assurance-incendie, échelle 200 pieds au pouce. BAnQ, Archives nationales à Québec, cote P600,S4,SS1,D67 — https://collections.banq.qc.ca/ark:/52327/3121049",
-      "note": "Le cœur du village de New Liverpool : les maisons de bois numérotées une à une le long du chemin public, la New Liverpool Steam Saw Mill (Ritchie and Cull) et l'anse des Benson Brothers. Le fleuve est en bas de la feuille : le nord est donc vers le bas, la gauche vers l'aval (feuille 13). Calage initial posé sur le tracé réel du chemin du Fleuve (relevé sur le fond OpenStreetMap) — à ajuster aux poignées dans l'atelier.",
+      "note": "Le cœur du village de New Liverpool : les maisons de bois numérotées une à une le long du chemin public, la New Liverpool Steam Saw Mill (Ritchie and Cull) et l'anse des Benson Brothers. Le fleuve est en bas de la feuille : le nord est donc vers le bas, la gauche vers l'aval (feuille 13). Calage ajusté par moindres carrés : la route dessinée sur la feuille, mesurée pixel par pixel, est posée sur le tracé réel du chemin du Fleuve — le contenu est incliné sur le papier, l'angle en tient compte. Dernier réglage aux poignées dans l'atelier.",
       "points": {
-        "nw": { "lat": 46.748564, "lon": -71.252159 },
-        "ne": { "lat": 46.744609, "lon": -71.267196 },
-        "sw": { "lat": 46.754910, "lon": -71.255714 }
+        "nw": { "lat": 46.747671, "lon": -71.253689 },
+        "ne": { "lat": 46.742405, "lon": -71.267844 },
+        "sw": { "lat": 46.753645, "lon": -71.258423 }
       },
       "opacite": 0.6,
       "cale": false
@@ -80,11 +80,11 @@ window.PLANS = {
       "annee": "1876",
       "fichier": "assets/plans/goad-1876-f15.jpg",
       "source": "Charles E. Goad, « Quebec Coves. South Shore », mars 1876, feuille 15. Plans d'assurance-incendie, échelle 200 pieds au pouce. BAnQ, Archives nationales à Québec, cote P600,S4,SS1,D67 — https://collections.banq.qc.ca/ark:/52327/3121049",
-      "note": "Anse Albert (Ritchie and Cull), bassin de la Chaudière (bois empilé de Henry King & Co) et embouchure de la rivière Chaudière ; renvoi vers les moulins de St. Nicholas à 5 ¾ milles. Le fleuve est en bas de la feuille : le nord est donc vers le bas, la gauche vers l'aval (feuille 14). Calage initial posé sur le tracé réel du chemin du Fleuve (relevé sur le fond OpenStreetMap) — à ajuster aux poignées dans l'atelier.",
+      "note": "Anse Albert (Ritchie and Cull), bassin de la Chaudière (bois empilé de Henry King & Co) et embouchure de la rivière Chaudière ; renvoi vers les moulins de St. Nicholas à 5 ¾ milles. Le fleuve est en bas de la feuille : le nord est donc vers le bas, la gauche vers l'aval (feuille 14). Calage ajusté par moindres carrés : la route dessinée sur la feuille, mesurée pixel par pixel, est posée sur le tracé réel du chemin du Fleuve — le contenu est incliné sur le papier, l'angle en tient compte. Dernier réglage aux poignées dans l'atelier.",
       "points": {
-        "nw": { "lat": 46.744105, "lon": -71.264148 },
-        "ne": { "lat": 46.740324, "lon": -71.279309 },
-        "sw": { "lat": 46.750496, "lon": -71.267543 }
+        "nw": { "lat": 46.742684, "lon": -71.266692 },
+        "ne": { "lat": 46.737367, "lon": -71.280836 },
+        "sw": { "lat": 46.748647, "lon": -71.271466 }
       },
       "opacite": 0.6,
       "cale": false
