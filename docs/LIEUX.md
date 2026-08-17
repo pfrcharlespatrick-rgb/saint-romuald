@@ -101,13 +101,15 @@ côté pont Etchemin ; les numéros décroissent vers l'ouest et l'anse Benson).
 
 L'axe de la première amorce (août 2026) s'est révélé décalé d'environ deux
 kilomètres vers le sud-ouest : il plaçait le village en plein arrière-pays. Il
-a été recalé le 17 août 2026 sur deux adresses réelles du chemin actuel — la
-marina de la Chaudière (1250, chemin du Fleuve, à l'embouchure de la Chaudière,
-46,7458 / −71,2792) et le parc de l'Anse-Benson (1851, chemin du Fleuve,
-46,7533 / −71,2491) — qui donnent un relèvement de 70° et bornent le chemin
-entre la Chaudière et le pont de l'Etchemin, à quatre kilomètres. Chaque point
-a été reprojeté au même paramètre civique et au même écart perpendiculaire :
-la disposition relative des lieux est inchangée, seule l'assiette a bougé.
+a été recalé le 17 août 2026, en deux temps : d'abord sur deux adresses
+réelles du chemin actuel — la marina de la Chaudière (1250, chemin du Fleuve,
+à l'embouchure de la Chaudière) et le parc de l'Anse-Benson (1851) — puis,
+ces points s'étant révélés pointés côté eau (~230 m trop au large), sur le
+tracé même du chemin du Fleuve, relevé point à point sur le fond
+OpenStreetMap d'une capture de la carte étalonnée à cet effet, l'église
+Saint-Romuald servant de repère à l'est. Chaque lieu a été reprojeté au même
+paramètre civique et au même écart perpendiculaire : la disposition relative
+est inchangée, seule l'assiette a bougé.
 
 **Ils indiquent un secteur, pas un bâtiment.** C'est délibérément assumé, et
 c'est la marche à suivre déjà recommandée dans `docs/HEBERGEMENT.md` : placer
@@ -209,7 +211,7 @@ vapeur de Ritchie and Cull ; la feuille 15, l'anse Albert et le bassin de la
 Chaudière. Attention à l'orientation : Goad couche le fleuve en bas de
 feuille, **le nord est donc vers le bas** et la gauche de chaque feuille pointe
 vers l'aval (les numéros de feuilles croissent d'est en ouest). Un calage
-initial a été estimé sur l'axe recalé du chemin du Fleuve, ancré sur l'église
+initial a été posé sur le tracé réel du chemin du Fleuve, ancré sur l'église
 Saint-Romuald (feuille 12), l'anse Benson (feuille 13) et l'embouchure de la
 Chaudière (feuille 15) ; il reste à l'ajuster aux poignées, chaque feuille
 étant une bande à une seule échelle — bien plus docile que la feuille de 1879.
