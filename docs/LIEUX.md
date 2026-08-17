@@ -209,12 +209,16 @@ d'aujourd'hui), avec la ligne de démarcation entre les villages d'Etchemin et
 de New Liverpool ; la feuille 14, le village de New Liverpool et la scierie à
 vapeur de Ritchie and Cull ; la feuille 15, l'anse Albert et le bassin de la
 Chaudière. Attention à l'orientation : Goad couche le fleuve en bas de
-feuille, **le nord est donc vers le bas** et la gauche de chaque feuille pointe
-vers l'aval (les numéros de feuilles croissent d'est en ouest). Un calage
-initial a été posé sur le tracé réel du chemin du Fleuve, ancré sur l'église
-Saint-Romuald (feuille 12), l'anse Benson (feuille 13) et l'embouchure de la
-Chaudière (feuille 15) ; il reste à l'ajuster aux poignées, chaque feuille
-étant une bande à une seule échelle — bien plus docile que la feuille de 1879.
+feuille, **le nord est donc vers le bas**, la gauche de chaque feuille pointe
+vers l'aval (les numéros de feuilles croissent d'est en ouest) — et le contenu
+est en outre incliné de plusieurs degrés sur le papier, différemment d'une
+feuille à l'autre. Le calage a donc été ajusté par moindres carrés : la route
+dessinée sur chaque feuille, mesurée pixel par pixel, est posée sur le tracé
+réel du chemin du Fleuve (écart quadratique de 10 à 20 m sur les feuilles 13
+et 14), l'église Saint-Romuald ancrant la feuille 12 et la continuité entre
+feuilles faisant le reste ; il ne reste que le réglage fin aux poignées,
+chaque feuille étant une bande à une seule échelle — bien plus docile que la
+feuille de 1879.
 Les champs `cadastre.goad_feuillet` et `goad_no` des fiches de lieu attendent
 les numéros portés sur ces feuilles.
 
