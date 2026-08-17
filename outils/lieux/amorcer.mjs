@@ -45,13 +45,20 @@ function chargerGlobal(fichier, nom) {
 // quelques repères d'axe. Chaque point ainsi posé porte
 // `precision: "secteur"` ; la carte le dessine en creux et l'atelier permet
 // de le déplacer à la main. Un point corrigé passe à `precision: "releve"`.
+//
+// Axe recalé le 17 août 2026 : la première version, écrite de mémoire, était
+// décalée d'environ 2 km vers le sud-ouest. Deux adresses réelles du chemin
+// actuel servent d'ancrage — la marina de la Chaudière (1250, à l'embouchure
+// de la Chaudière) et le parc de l'Anse-Benson (1851) — et bornent le chemin
+// entre la Chaudière et le pont de l'Etchemin, sur un relèvement de 70°.
 
 const AXE_FLEUVE = [
-  { no: 1500, lat: 46.7285, lon: -71.2870 },
-  { no: 1750, lat: 46.7330, lon: -71.2775 },
-  { no: 2000, lat: 46.7372, lon: -71.2686 },
-  { no: 2250, lat: 46.7415, lon: -71.2596 },
-  { no: 2560, lat: 46.7466, lon: -71.2492 }
+  { no: 1250, lat: 46.7458, lon: -71.2792 },
+  { no: 1500, lat: 46.7489, lon: -71.2667 },
+  { no: 1851, lat: 46.7533, lon: -71.2491 },
+  { no: 2000, lat: 46.7543, lon: -71.2453 },
+  { no: 2250, lat: 46.7558, lon: -71.2390 },
+  { no: 2560, lat: 46.7578, lon: -71.2311 }
 ];
 
 // Les rues transversales montent vers l'intérieur des terres (le fleuve est
@@ -132,7 +139,7 @@ const LIEUX_MANUELS = [
     etat: 'disparu',
     construit: '',
     disparu: '',
-    coord: { lat: 46.7311, lon: -71.2812, precision: 'secteur', pose_par: 'amorce automatique', pose_le: AUJOURD_HUI },
+    coord: { lat: 46.7507, lon: -71.2591, precision: 'secteur', pose_par: 'amorce automatique', pose_le: AUJOURD_HUI },
     source: 'Patrick Blanchet',
     personnages: 'Famille Benson — William John Chapman Benson et ses fils Edward et William',
     resume: '',
