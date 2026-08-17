@@ -17,8 +17,8 @@ window.LIEUX = {
       "construit": "1866-1868",
       "disparu": "",
       "coord": {
-        "lat": 46.748975,
-        "lon": -71.266399,
+        "lat": 46.747072,
+        "lon": -71.265529,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -65,8 +65,8 @@ window.LIEUX = {
       "construit": "v.1847",
       "disparu": "",
       "coord": {
-        "lat": 46.750204,
-        "lon": -71.261485,
+        "lat": 46.748248,
+        "lon": -71.261099,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -113,8 +113,8 @@ window.LIEUX = {
       "construit": "v.1870",
       "disparu": "",
       "coord": {
-        "lat": 46.750567,
-        "lon": -71.260031,
+        "lat": 46.748596,
+        "lon": -71.259788,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -151,8 +151,8 @@ window.LIEUX = {
       "construit": "v.1850",
       "disparu": "",
       "coord": {
-        "lat": 46.751645,
-        "lon": -71.255719,
+        "lat": 46.749628,
+        "lon": -71.255901,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -178,8 +178,8 @@ window.LIEUX = {
       "construit": "v.1850",
       "disparu": "",
       "coord": {
-        "lat": 46.751858,
-        "lon": -71.254866,
+        "lat": 46.749832,
+        "lon": -71.255132,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -205,8 +205,8 @@ window.LIEUX = {
       "construit": "1878",
       "disparu": "",
       "coord": {
-        "lat": 46.753434,
-        "lon": -71.24859,
+        "lat": 46.75225,
+        "lon": -71.248113,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -259,8 +259,8 @@ window.LIEUX = {
       "construit": "1857",
       "disparu": "",
       "coord": {
-        "lat": 46.753629,
-        "lon": -71.24785,
+        "lat": 46.753048,
+        "lon": -71.246681,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -286,8 +286,8 @@ window.LIEUX = {
       "construit": "1780",
       "disparu": "",
       "coord": {
-        "lat": 46.754193,
-        "lon": -71.245708,
+        "lat": 46.755359,
+        "lon": -71.242537,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -313,8 +313,8 @@ window.LIEUX = {
       "construit": "1791",
       "disparu": "",
       "coord": {
-        "lat": 46.754534,
-        "lon": -71.244317,
+        "lat": 46.756872,
+        "lon": -71.239823,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -371,8 +371,8 @@ window.LIEUX = {
       "construit": "fin 19e siècle",
       "disparu": "",
       "coord": {
-        "lat": 46.754612,
-        "lon": -71.24399,
+        "lat": 46.757229,
+        "lon": -71.239182,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -419,8 +419,8 @@ window.LIEUX = {
       "construit": "v.1925",
       "disparu": "",
       "coord": {
-        "lat": 46.754648,
-        "lon": -71.243838,
+        "lat": 46.757395,
+        "lon": -71.238885,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -467,8 +467,8 @@ window.LIEUX = {
       "construit": "1908-1909",
       "disparu": "",
       "coord": {
-        "lat": 46.754726,
-        "lon": -71.243511,
+        "lat": 46.757752,
+        "lon": -71.238244,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -515,8 +515,8 @@ window.LIEUX = {
       "construit": "1864",
       "disparu": "",
       "coord": {
-        "lat": 46.754924,
-        "lon": -71.242679,
+        "lat": 46.758085,
+        "lon": -71.2373,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -563,8 +563,8 @@ window.LIEUX = {
       "construit": "fin 19e siècle",
       "disparu": "",
       "coord": {
-        "lat": 46.754966,
-        "lon": -71.242503,
+        "lat": 46.75811,
+        "lon": -71.237154,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -611,8 +611,8 @@ window.LIEUX = {
       "construit": "v.1880",
       "disparu": "",
       "coord": {
-        "lat": 46.755038,
-        "lon": -71.2422,
+        "lat": 46.758152,
+        "lon": -71.236904,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -649,8 +649,8 @@ window.LIEUX = {
       "construit": "1929",
       "disparu": "",
       "coord": {
-        "lat": 46.755332,
-        "lon": -71.240966,
+        "lat": 46.758326,
+        "lon": -71.235884,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -676,8 +676,8 @@ window.LIEUX = {
       "construit": "1902",
       "disparu": "",
       "coord": {
-        "lat": 46.75535,
-        "lon": -71.24089,
+        "lat": 46.758336,
+        "lon": -71.235821,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -703,8 +703,8 @@ window.LIEUX = {
       "construit": "1902",
       "disparu": "",
       "coord": {
-        "lat": 46.75544,
-        "lon": -71.240512,
+        "lat": 46.75839,
+        "lon": -71.235508,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -730,8 +730,8 @@ window.LIEUX = {
       "construit": "fin 19e siècle",
       "disparu": "",
       "coord": {
-        "lat": 46.755614,
-        "lon": -71.239781,
+        "lat": 46.758492,
+        "lon": -71.234904,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -778,8 +778,8 @@ window.LIEUX = {
       "construit": "v.1860",
       "disparu": "",
       "coord": {
-        "lat": 46.75562,
-        "lon": -71.239756,
+        "lat": 46.758496,
+        "lon": -71.234883,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -805,8 +805,8 @@ window.LIEUX = {
       "construit": "v.1965",
       "disparu": "",
       "coord": {
-        "lat": 46.755674,
-        "lon": -71.239529,
+        "lat": 46.758528,
+        "lon": -71.234696,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -832,8 +832,8 @@ window.LIEUX = {
       "construit": "v.1840",
       "disparu": "",
       "coord": {
-        "lat": 46.755788,
-        "lon": -71.23905,
+        "lat": 46.758595,
+        "lon": -71.2343,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -859,8 +859,8 @@ window.LIEUX = {
       "construit": "1877",
       "disparu": "",
       "coord": {
-        "lat": 46.756723,
-        "lon": -71.235356,
+        "lat": 46.759109,
+        "lon": -71.231279,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -907,8 +907,8 @@ window.LIEUX = {
       "construit": "v.1910",
       "disparu": "",
       "coord": {
-        "lat": 46.756871,
-        "lon": -71.23477,
+        "lat": 46.75919,
+        "lon": -71.2308,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -945,8 +945,8 @@ window.LIEUX = {
       "construit": "v.1884",
       "disparu": "",
       "coord": {
-        "lat": 46.756935,
-        "lon": -71.234515,
+        "lat": 46.759225,
+        "lon": -71.230592,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -983,8 +983,8 @@ window.LIEUX = {
       "construit": "fin 19e siècle",
       "disparu": "",
       "coord": {
-        "lat": 46.757142,
-        "lon": -71.233699,
+        "lat": 46.759339,
+        "lon": -71.229925,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -1021,8 +1021,8 @@ window.LIEUX = {
       "construit": "v.1900",
       "disparu": "",
       "coord": {
-        "lat": 46.757277,
-        "lon": -71.233164,
+        "lat": 46.759413,
+        "lon": -71.229487,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -1048,8 +1048,8 @@ window.LIEUX = {
       "construit": "v.1893",
       "disparu": "",
       "coord": {
-        "lat": 46.757716,
-        "lon": -71.231431,
+        "lat": 46.759654,
+        "lon": -71.228071,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -1075,8 +1075,8 @@ window.LIEUX = {
       "construit": "v.1860",
       "disparu": "",
       "coord": {
-        "lat": 46.7578,
-        "lon": -71.2311,
+        "lat": 46.7597,
+        "lon": -71.2278,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -1102,8 +1102,8 @@ window.LIEUX = {
       "construit": "",
       "disparu": "",
       "coord": {
-        "lat": 46.750666,
-        "lon": -71.259119,
+        "lat": 46.748687,
+        "lon": -71.258957,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -1150,8 +1150,8 @@ window.LIEUX = {
       "construit": "1841",
       "disparu": "",
       "coord": {
-        "lat": 46.752663,
-        "lon": -71.246987,
+        "lat": 46.75171,
+        "lon": -71.246551,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -1177,8 +1177,8 @@ window.LIEUX = {
       "construit": "1871-1873",
       "disparu": "",
       "coord": {
-        "lat": 46.753631,
-        "lon": -71.244156,
+        "lat": 46.75352,
+        "lon": -71.24387,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -1204,8 +1204,8 @@ window.LIEUX = {
       "construit": "1906",
       "disparu": "",
       "coord": {
-        "lat": 46.753594,
-        "lon": -71.244145,
+        "lat": 46.753487,
+        "lon": -71.243843,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -1231,8 +1231,8 @@ window.LIEUX = {
       "construit": "v.1875",
       "disparu": "",
       "coord": {
-        "lat": 46.754333,
-        "lon": -71.242634,
+        "lat": 46.757563,
+        "lon": -71.237261,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -1269,8 +1269,8 @@ window.LIEUX = {
       "construit": "milieu 20e siècle",
       "disparu": "",
       "coord": {
-        "lat": 46.754188,
-        "lon": -71.24256,
+        "lat": 46.757413,
+        "lon": -71.23721,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -1317,8 +1317,8 @@ window.LIEUX = {
       "construit": "à partir de 1856",
       "disparu": "",
       "coord": {
-        "lat": 46.756095,
-        "lon": -71.235539,
+        "lat": 46.75856,
+        "lon": -71.231479,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -1375,8 +1375,8 @@ window.LIEUX = {
       "construit": "2e moitié du 19e siècle",
       "disparu": "",
       "coord": {
-        "lat": 46.749687,
-        "lon": -71.260925,
+        "lat": 46.747748,
+        "lon": -71.260532,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -1402,8 +1402,8 @@ window.LIEUX = {
       "construit": "fin 19e siècle",
       "disparu": "",
       "coord": {
-        "lat": 46.750867,
-        "lon": -71.25636,
+        "lat": 46.748864,
+        "lon": -71.256435,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
@@ -1429,8 +1429,8 @@ window.LIEUX = {
       "construit": "v.1861",
       "disparu": "",
       "coord": {
-        "lat": 46.750798,
-        "lon": -71.256355,
+        "lat": 46.748795,
+        "lon": -71.256425,
         "precision": "secteur",
         "pose_par": "amorce automatique",
         "pose_le": "2026-08-17"
