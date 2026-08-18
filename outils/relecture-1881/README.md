@@ -143,9 +143,10 @@ Avant de classer une anomalie « c'est le recenseur », la vérifier au manuscri
 ## 1891, division 1 — les deux recueils PDF
 
 Les pages de 1891 arrivent en PDF portant **deux pages de manuscrit par page PDF**,
-haut et bas, comme ceux de 1881. `r91.py` couvre les pages 62 à 83, `r91b.py` les
-pages 84 à 142 ; chacun expose `strip(page, l0, l1, x0f, x1f, echelle, nom)` qui
-rend une bande de lignes recalée sur la grille.
+haut et bas, comme ceux de 1881. `r91a.py` couvre les pages 1 à 41 (recueil
+`1891_01_DIV12`, carte-titre sur le premier cadre), `r91c.py` les pages 42 à 83,
+`r91b.py` les pages 84 à 142 ; chacun expose `strip(page, l0, l1, x0f, x1f, echelle, nom)`
+qui rend une bande de lignes recalée sur la grille.
 
 Deux pièges propres à ces recueils :
 

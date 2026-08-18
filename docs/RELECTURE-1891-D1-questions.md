@@ -16,10 +16,14 @@ quelques-unes en cumulent plusieurs. **Cinq corrections antérieures annulées**
 dite « Elmire », close plus bas. Lignes signalées sans correction : **92**.
 
 **La passe sur les colonnes 21-22 est terminée** : pages 42 à 142, 2523 lignes relues case
-par case, **152 corrigées**. Reste, pour clore le chantier : les pages 1 à 41, qui n'ont pas
-de recueil PDF, et les quatre décisions d'ensemble qui appartiennent à Patrick — la ligne
-biffée de la page 42, les variantes de patronymes, le vocabulaire des religions, les paires
-de frères et sœurs au même âge.
+par case, **152 corrigées**. Restaient, pour clore le chantier : les pages 1 à 41, qui
+n'avaient pas alors de recueil PDF, et les quatre décisions d'ensemble qui appartiennent à
+Patrick — la ligne biffée de la page 42, les variantes de patronymes, le vocabulaire des
+religions, les paires de frères et sœurs au même âge.
+
+**Le recueil des pages 1 à 41 est arrivé** (`1891_01_DIV12`, pris en charge par `r91a.py`) :
+la reprise est en cours, par lots de quatre pages — voir la section « Le recueil des pages
+1 à 41 » ci-dessous. **Lot 1 (pages 1-4) : fait.**
 
 **Les pages 42 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF) : le
 rendu à haute résolution y règle en quelques minutes ce que les JPEG laissaient
@@ -155,10 +159,87 @@ possibles :
 
 C'est la première ligne biffée rencontrée en 45 pages.
 
+## Le recueil des pages 1 à 41 — la relecture reprend, par lots de quatre pages
+
+Patrick a fourni le PDF `1891_01_DIV12` : 21 pages, deux cadres par page, comme les
+trois autres recueils. Le premier cadre est la carte-titre du microfilm (« 1891 Québec,
+163 — Lévis, L — St. Romuald d'Etchemin Munc., pages 1-142 ») ; la page 1 du manuscrit
+occupe le cadre du bas de la première page PDF, d'où `r91a.py` avec `base=0` — la
+page *n* du manuscrit occupe le cadre *n*. La géométrie des filets est celle des autres
+recueils, la marge droite répète les numéros de ligne, et les colonnes 17 à 25 sont sur
+la même prise que les noms : chaque case se lit à l'ancre près. Ce sont précisément les
+pages qui n'avaient jamais été lues que sur JPEG.
+
+### Lot 1 — pages 1 à 4 (18 août 2026)
+
+**Colonnes 21-22 : 75 écarts sur 100 lignes.** Le soupçon du chantier précédent est
+confirmé, et au-delà : sur ces pages, les valeurs du dépouillement (`positif_1891`) ne
+sont pas seulement lacunaires, elles sont **anti-alignées** avec le manuscrit. La page 2
+en donne le cas le plus net : le dépouillement coche les lignes 6-12, 15, 16 et 18
+(les Veilleux, les Boucher, Xavier Emond) — le manuscrit n'y porte que des tirets — et
+laisse vides les lignes 1-5 et 19-24 (les Roy, Delina Emond et ses aînés), où le
+manuscrit porte des « 1 » aux deux colonnes. Rien d'un simple décalage d'une ligne :
+les blocs cochés du dépouillement ne recoupent pas ceux du manuscrit. Devant une valeur
+d'alphabétisation des pages 1 à 41 qui n'a pas encore été relue au recueil, ne rien
+conclure.
+
+**Les « sait écrire mais ne sait pas lire » : sept cas sur ces quatre pages, aucun
+n'a survécu.** Six étaient des « lit mais n'écrit pas » inversés (p. 1 L2 et L6,
+p. 3 L23 et L24, p. 4 L2 et L4), le septième (p. 4 L3, Vermette Alain, 75 ans) ne porte
+que des tirets. Restent 47 cas, pages 5 à 41 — même pronostic.
+
+**Colonnes 17 à 20 et 23 à 25 : conformité parfaite, 25 cases sur 25.** Les vingt
+« employé » (col. 18) des données correspondent un à un aux barres du manuscrit ; les
+trois « sans emploi » (col. 19 — Damase Veilleux p. 2, Fréchette Louis et Olivier
+Belanger p. 4) aussi ; et la colonne 23 porte, écrit en toutes lettres, le « muet »
+d'Edouard Veilleux (p. 2 L14) que la remarque tenait de l'index BAC. Aucune marque du
+manuscrit n'est absente des données. Le dépouillement de ces colonnes est irréprochable —
+le naufrage est propre aux colonnes 21-22.
+
+**Noms : six corrections, une annulation, neuf confirmations.**
+
+- Corrigés (avec `incertain: true` et l'ancienne lecture en remarque) : Onisime →
+  **Onésime** (p. 2 L3, l'accent net), Mari Anne → **Marie Anne** (p. 3 L2), Wilfred →
+  **Wilfrid** (p. 3 L21, le i pointé), Edmond → **Edmund** (p. 4 L10, le u en creux),
+  Stephenie → **Stéphanie** (p. 4 L17), Isac → **Isaï** (p. 4 L20, le i final pointé,
+  pas de c).
+- **Annulée : « Alain » à la page 3 ligne 4.** Le recueil PDF montre un **r** final du
+  même tracé que celui d'« Arthur » à la ligne suivante : le manuscrit écrit bien
+  **Alair**, comme le dépouillement. C'est la sixième correction faite sur JPEG que le
+  PDF renverse — même leçon que l'affaire Elmire. Le père Vermette de la page 4 ligne 3,
+  lui, est bien **Alain** (finale en n distincte).
+- Confirmés au recueil : Alphonce (p. 1 L6), Michel (p. 3 L7), Lucie (p. 3 L11),
+  Alexis (p. 3 L17 — le tracé porte « Aleais », le x formé comme un a, exactement
+  comme le « Caliate » de Calixte p. 2 L5), Alain (p. 4 L3), Marguerite (p. 4 L6),
+  Auguste (p. 4 L22), Rosario (p. 4 L23, finale fermée), Aurélie (p. 4 L25). Leurs
+  drapeaux `incertain` restent posés pour la relecture d'ensemble de Patrick.
+- « Telieria » (p. 1 L15) reste non tranché, mais la lecture est précisée : le tracé
+  porte « -eléeria », et l'initiale a la forme du J de « Julien » deux lignes plus
+  haut — le J pris pour un F est un piège documenté de ce recenseur. « Pierre Abringe »
+  (p. 1 L22) : le PDF ne tranche pas davantage (« Abrigge »/« Abridge »).
+
+**Colonne 4 (logement) : une correction, quatre consignations.** Le code de la
+maison 8 se lit **« B 1/8 »** — le 8 à double boucle est net, du même tracé que le
+numéro de famille 8 voisin ; le dépouillement portait « B 2/5 » (confusion 5/8
+documentée). Les cases des maisons 2, 9 (raturée et récrite en interligne) et 12
+(floue sur le microfilm) restent non tranchées, l'état de la lecture est consigné en
+`remarque_logement`. Et à la page 2 ligne 6, la **colonne 3 (maisons inhabitées) porte
+« B 1/4 »** : une maison vacante attenante à celle des Veilleux, que le dépouillement
+n'a pas reprise.
+
+**Signalé sans correction.** Le sexe de Camille Gosselin (p. 1 L13, « M. » au
+manuscrit pour une épouse — déjà consigné plus bas, et la main de Patrick a fixé ses
+colonnes 21-22 : le manuscrit lui donne raison, barre en 21, tiret en 22). Le prénom de
+Damase Veilleux (p. 2 L6) s'écrit au manuscrit avec une seule s — « Damasse » des
+données conservé, la ligature ʃ/ʃs ne se laissant pas trancher. « Hanri » (p. 3 L14)
+n'est que le e ouvert du recenseur, comparé au « Henri » net de la page 2 L2 : Henri
+conservé.
+
 ## Question n° 1 — les colonnes 21 et 22 : la passe est terminée
 
-**Pages 42 à 142 : 2523 lignes relues case par case, 152 corrigées.** Il ne reste que les
-pages 1 à 41, qui n'ont pas de recueil PDF.
+**Pages 42 à 142 : 2523 lignes relues case par case, 152 corrigées.** Ne restaient que les
+pages 1 à 41, sans recueil PDF à l'époque — leur recueil est depuis arrivé et la reprise
+est en cours (voir « Le recueil des pages 1 à 41 » plus haut).
 
 Ce document affirmait que le fichier était lacunaire : 1927 personnes sur 3548 — 54 % —
 n'ont aucun champ `sait_lire` / `sait_ecrire`, « alors que les images montrent des coches
@@ -228,16 +309,18 @@ Trois sur cinq étaient des fautes de dépouillement, deux sont des bizarreries 
 recenseur. **La passe complète confirme les deux bizarreries** : les colonnes 21-22 de
 Gagnon Louis (p. 93) et de Terrien Leon (p. 120) portent bien un tiret puis un « 1 », et
 ce sont les deux seules de ce genre dans les 101 pages relues. À ce compte, la
-cinquantaine de cas des pages 1 à 41 mérite d'être reprise si les images de ces pages sont
-un jour fournies en PDF — mais il ne faut pas s'attendre à les voir tous disparaître.
+cinquantaine de cas des pages 1 à 41 méritait d'être reprise sur PDF. **La reprise a
+commencé : sur les pages 1 à 4, les sept cas sont tous tombés** — six inversions
+(« lit mais n'écrit pas ») et un double tiret. Restent 47 cas, pages 5 à 41.
 
 ## Laissé en l'état, faute de lecture — à reprendre au manuscrit
 
 Ces cinq lignes portent `incertain: true` et une remarque expliquant pourquoi rien
 n'a été appliqué.
 
-- **Page 1 ligne 15** : « Telieria » conservé — le manuscrit se lit « Feliria » ou
-  « Zeliria », l'initiale ne se laisse pas trancher.
+- **Page 1 ligne 15** : « Telieria » conservé — le recueil PDF précise le tracé,
+  « -eléeria », mais l'initiale ne se laisse toujours pas trancher : elle a la forme du
+  J de « Julien » deux lignes plus haut, sans exclure F ou T.
 - **Page 1 ligne 22** : « Pierre Abringe » conservé — le second élément se lit
   « Abrigge » ou « Abridge ».
 - **Page 1 ligne 13** : la colonne 7 de Camille Gosselin ressemble à « M. » alors que
@@ -432,7 +515,7 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | Page·ligne | Avant | Appliqué |
 |---|---|---|
 | 1 L6 | Alphonse | Alphon**c**e |
-| 3 L4 | Alair Abel | Alain ? |
+| 3 L4 | Alair Abel | ~~Alain ?~~ — **annulée** : le recueil PDF montre un r final, « Alair » rétabli |
 | 3 L7 | Cantin **Micher** | Michel ? |
 | 3 L11 | Cantin **Susie** | **Lucie** |
 | 3 L17 | Vermette **Aleais** | Alexis ? |
@@ -751,8 +834,8 @@ node alpha91.mjs 45             # colonnes 21-22 déjà enregistrées, pour conf
 node diag91.mjs                 # contrôles d'intégrité
 ```
 
-**Le premier geste, si la passe des colonnes 21-22 devait reprendre** (pages 1 à 41, une
-fois leur recueil PDF fourni) **:**
+**La passe des pages 1 à 41 a repris** — recueil `r91a` (motif `1891_01_DIV12`), par
+lots de quatre pages ; lot 1 (pages 1-4) fait. **Le premier geste de chaque lot :**
 
 ```sh
 node outils/relecture-1881/fondre.mjs     # partir d'accord avec la main de Patrick
@@ -773,8 +856,8 @@ Compter entre **un écart sur douze** (pages 42-65) et **un sur vingt-cinq** (pa
 sauf devant une page dont le dépouillement n'a presque rien enregistré, où l'écart devient
 la règle.
 
-Les recueils PDF passent par `recueil91.py` : `r91c` pour les pages 42 à 83,
-`r91b` pour les pages 84 à 142. Pour les colonnes 17 à 25, recadrer `0.60`–`1.00` à
+Les recueils PDF passent par `recueil91.py` : `r91a` pour les pages 1 à 41, `r91c`
+pour les pages 42 à 83, `r91b` pour les pages 84 à 142. Pour les colonnes 17 à 25, recadrer `0.60`–`1.00` à
 l'échelle 8 : les numéros de ligne de la marge droite et la colonne 16 (profession)
 donnent deux ancres indépendantes.
 
