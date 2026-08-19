@@ -23,7 +23,7 @@ religions, les paires de frères et sœurs au même âge.
 
 **Le recueil des pages 1 à 41 est arrivé** (`1891_01_DIV12`, pris en charge par `r91a.py`) :
 la reprise est en cours, par lots de quatre pages — voir la section « Le recueil des pages
-1 à 41 » ci-dessous. **Lots 1 et 2 (pages 1-8) : faits.**
+1 à 41 » ci-dessous. **Lots 1 à 3 (pages 1-12) : faits.**
 
 **Les pages 42 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF) : le
 rendu à haute résolution y règle en quelques minutes ce que les JPEG laissaient
@@ -278,6 +278,43 @@ vacantes en colonne 3** : « B 1/2 » à la page 7 ligne 4 (chez Marcheterre), e
 écrit au mauvais endroit (rature familière du recenseur). Consignées en
 `remarque_logement`.
 
+### Lot 3 — pages 9 à 12 (18 août 2026)
+
+**Colonnes 21-22 : 87 écarts sur 100 lignes** — le pire score des trois lots, et la
+**page 10 en donne la raison** : le dépouillement y coche 19 lignes sur 25, le
+manuscrit n'en coche que 5. Les Ferland, Pouliotte, Demers, la pensionnaire Roberge,
+la petite Fecteau : tous portent deux tirets. C'est l'inverse exact de ce que le
+fichier annonçait. Les pages 9, 11 et 12 sont, elles, largement cochées — la bascule
+ne suit aucune logique de page, seulement celle des ménages.
+
+**Colonnes 17 à 20 et 23 à 25 : conformité parfaite, quatrième lot de suite.** Les
+vingt-deux « employé », les huit « sans emploi », les **deux sourds-muets Plaisance**
+(p. 11 L8 et L9, marques nettes en colonne 23), l'**aliéné Ambroise Gely** (p. 12
+L23, marque en colonne 25) et le **patron Louis Gely, cordonnier, avec son « 1 »
+employé en colonne 20** : tout est au manuscrit, tout est dans les données.
+
+**Noms et âges : deux corrections, une avancée, cinq confirmations.**
+
+- Corrigés : Clerida → **Clérida** (p. 10 L14, accent aigu et i pointé) — et la
+  distinction avec sa cousine **Clarida** (p. 10 L22, avec un a) est bien réelle au
+  manuscrit, les deux graphies sont distinctes ; Rébecca → **Rébéca** (p. 12 L12,
+  deux accents aigus, une seule c).
+- **L'âge de Ferland Narcisse avance sans être tranché** (p. 10 L5) : le premier
+  chiffre est une boucle fermée à panse basse, le tracé que ce recenseur donne au
+  **5** — comparer le « 55 » de Demers Narcisse sept lignes plus bas — et non le 8 à
+  double boucle. « 51 » est donc la lecture la plus probable, ce que la vraisemblance
+  appuyait déjà (filles de 24 et 26 ans, épouse de 58). La lecture « 81 » des JPEG
+  s'éloigne ; la ligne reste `incertain` pour Patrick.
+- Confirmés : **Baily** (p. 9 L8 — et sa colonne 12 porte bien un tiret, accord avec
+  le prénom Mary), Anastasie (p. 10 L9), Marguerite (p. 10 L11), et les **deux
+  « France »** (p. 11 L11 et L13) : le tracé porte bien « France » aux deux lignes,
+  sans e final ni s — François retenu, comme le veut le sexe M.
+
+**Colonne 4 : deux vacantes de plus, un vide confirmé.** « B 1/12 » en colonne 3 à la
+page 9 ligne 20 (attenante au pharmacien Martel) et « B 1/3 » à la page 10 ligne 9.
+Et la **maison 39 n'a effectivement aucun code** au manuscrit — seul le numéro de
+famille est porté, ce que le dépouillement avait déjà noté.
+
 ## Question n° 1 — les colonnes 21 et 22 : la passe est terminée
 
 **Pages 42 à 142 : 2523 lignes relues case par case, 152 corrigées.** Ne restaient que les
@@ -353,8 +390,9 @@ recenseur. **La passe complète confirme les deux bizarreries** : les colonnes 2
 Gagnon Louis (p. 93) et de Terrien Leon (p. 120) portent bien un tiret puis un « 1 », et
 ce sont les deux seules de ce genre dans les 101 pages relues. À ce compte, la
 cinquantaine de cas des pages 1 à 41 méritait d'être reprise sur PDF. **La reprise a
-commencé : sur les pages 1 à 8, les treize cas sont tous tombés** — douze inversions
-(« lit mais n'écrit pas ») et un double tiret. Restent 41 cas, pages 9 à 41.
+commencé : sur les pages 1 à 12, les dix-sept cas sont tous tombés** — quinze
+inversions (« lit mais n'écrit pas ») et deux doubles tirets. Restent 37 cas,
+pages 13 à 41.
 
 ## Laissé en l'état, faute de lecture — à reprendre au manuscrit
 
@@ -368,9 +406,9 @@ n'a été appliqué.
   « Abrigge » ou « Abridge ».
 - **Page 1 ligne 13** : la colonne 7 de Camille Gosselin ressemble à « M. » alors que
   la colonne 10 porte « E. » (épouse). Anomalie du manuscrit ; sexe F conservé.
-- **Page 10 ligne 5** : Ferland Narcisse conservé à **51 ans**. Le manuscrit se lit
-  plutôt « 81 », mais un contre-maître de scierie de 81 ans ayant des filles de 24 et
-  26 ans et une épouse de 58 est peu vraisemblable. **Non tranché — à vérifier.**
+- **Page 10 ligne 5** : Ferland Narcisse conservé à **51 ans**. Le recueil PDF fait
+  pencher nettement vers 51 — la boucle du premier chiffre est celle des 5 de ce
+  recenseur, pas celle d'un 8 (voir le lot 3). **Non tranché, mais 51 l'emporte.**
 - **Page 13 ligne 17** : prénom laissé vide, voir ci-dessous.
 - **Page 20 ligne 3** : prénom « Savard » — c'est un patronyme, vraisemblablement le
   nom de jeune fille de l'épouse porté à la place du prénom.
@@ -575,11 +613,11 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | **8 L3** | **Letarte Maude** | **Manda** — **confirmée au recueil PDF**, nom et âge |
 | 8 L18 / L21 | Peteline / Petaline | même personne, deux graphies — même tracé aux deux lignes, **harmonisation confirmée** |
 | 8 L24 | Deoma | Diana — **confirmée au recueil PDF** |
-| 9 L8 | **Boily** Mary | **Baily** ? |
-| 10 L9 | Roberge **Anastaria** | Anastasie |
-| 10 L11 | Marguriete | Marguerite |
-| 10 L14 | Fecteau Clerida | Clarida ? |
-| 11 L11 · 11 L13 | « France » (deux personnes) | François ? Francis ? |
+| 9 L8 | **Boily** Mary | **Baily** — **confirmée au recueil PDF** |
+| 10 L9 | Roberge **Anastaria** | Anastasie — **confirmée au recueil PDF** |
+| 10 L11 | Marguriete | Marguerite — **confirmée au recueil PDF** |
+| 10 L14 | Fecteau Clerida | **Clérida** — accent et i pointé au recueil PDF ; distincte de sa cousine **Clarida** (10 L22), les deux graphies sont réelles |
+| 11 L11 · 11 L13 | « France » (deux personnes) | **François** — le tracé porte « France » aux deux lignes ; sexe M, usage de la division |
 | 13 L15 | Sofrania | Sofranie ? |
 | 14 L5 | Marie **Luie** | Marie **Luce** |
 | 14 L12 | Cantin **Seserie** | Cesarie ? Sesorie ? |
