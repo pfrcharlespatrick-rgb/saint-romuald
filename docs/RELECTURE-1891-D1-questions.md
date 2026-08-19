@@ -23,7 +23,7 @@ religions, les paires de frères et sœurs au même âge.
 
 **Le recueil des pages 1 à 41 est arrivé** (`1891_01_DIV12`, pris en charge par `r91a.py`) :
 la reprise est en cours, par lots de quatre pages — voir la section « Le recueil des pages
-1 à 41 » ci-dessous. **Lot 1 (pages 1-4) : fait.**
+1 à 41 » ci-dessous. **Lots 1 et 2 (pages 1-8) : faits.**
 
 **Les pages 42 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF) : le
 rendu à haute résolution y règle en quelques minutes ce que les JPEG laissaient
@@ -235,6 +235,49 @@ données conservé, la ligature ʃ/ʃs ne se laissant pas trancher. « Hanri » 
 n'est que le e ouvert du recenseur, comparé au « Henri » net de la page 2 L2 : Henri
 conservé.
 
+### Lot 2 — pages 5 à 8 (18 août 2026)
+
+**Colonnes 21-22 : 64 écarts sur 100 lignes**, du même tissu qu'au lot 1 : les chefs
+de ménage que le dépouillement disait lettrés portent des tirets (Bernier — pourtant
+entrepreneur employant 25 personnes —, les fils Clouston, Gauthier, Montminy, les
+Letarte, Couture, les Marcheterre, Duquet), et les femmes et aînés que le manuscrit
+coche n'avaient rien. Six nouveaux « sait écrire mais ne sait pas lire » tombent,
+tous inversés (p. 5 L17, p. 6 L9, L22 et L23, p. 7 L13 et L14).
+
+**Colonnes 17 à 20 et 23 à 25 : conformité parfaite à nouveau — 26 marques, 26
+concordances.** Les dix-huit « employé », les six « sans emploi » et, pièce
+maîtresse, le **patron Bernier** (p. 5 L13) : « 1 » en colonne 17 et « **25** » en
+colonne 20 — les vingt-cinq employés de son entreprise de bois, confirmés au
+manuscrit. La colonne 12 des Clouston est elle aussi exacte, jusque dans son
+étrangeté : la mère Geneviève porte « 1 » (canadienne-française), ses fils des
+tirets.
+
+**Noms et âges : trois corrections, deux annulations, sept confirmations.**
+
+- Corrigés (avec `incertain: true`) : Louise → **Louisa** (p. 5 L6, le a final net),
+  Floride → **Florida** (p. 5 L15), et le bébé Evangeline Montminy passe de 9 mois à
+  **2 mois** (p. 6 L11) — le chiffre du haut de la fraction est un 2 sans boucle ;
+  c'était l'une des trois « fractions douteuses » du chantier.
+- **Annulées** : « Roch, 2 ans » (p. 5 L10) — le recueil montre **l'accolade de la
+  colonne 8 reliant deux « 4 »** : Joseph et Roch sont jumeaux, tous deux 4 ans,
+  comme au dépouillement ; et « Emelie » (p. 6 L8) — le tracé penche pour
+  **« Emelin »**, finale plate sans la boucle du e de « Rosalie » deux lignes plus
+  bas.
+- Confirmés au recueil : Rachelle (p. 5 L20), Marie Sirois (p. 6 L21), Léa (p. 7
+  L2), Manda — le nom **et** l'âge 12 (p. 8 L3), l'harmonisation Petaline (p. 8
+  L18 et L21, même tracé aux deux lignes), Diana (p. 8 L24). « Philomène » (p. 7
+  L18) reste indécis sur les voyelles, mais la finale n'est pas en a. « Augustin »
+  (p. 7 L4) et « Victor » (p. 6 L6) se relisent comme la remarque BAC l'avait déjà
+  établi. L'âge de Joseph Croteau (p. 6 L16) est bien un 9 à boucle fermée, dans
+  l'ordre de la fratrie 10-9-7-4-1.
+
+**Colonne 4 : rien à corriger** — les codes des maisons 16 à 32 sont compatibles,
+M20 vérifié en super-zoom (un 4 à sommet ouvert, pas un 9). **Deux nouvelles maisons
+vacantes en colonne 3** : « B 1/2 » à la page 7 ligne 4 (chez Marcheterre), et un
+« B 1/3 » à la page 6 ligne 6 qui est soit une vacante, soit le code de M22 d'abord
+écrit au mauvais endroit (rature familière du recenseur). Consignées en
+`remarque_logement`.
+
 ## Question n° 1 — les colonnes 21 et 22 : la passe est terminée
 
 **Pages 42 à 142 : 2523 lignes relues case par case, 152 corrigées.** Ne restaient que les
@@ -310,8 +353,8 @@ recenseur. **La passe complète confirme les deux bizarreries** : les colonnes 2
 Gagnon Louis (p. 93) et de Terrien Leon (p. 120) portent bien un tiret puis un « 1 », et
 ce sont les deux seules de ce genre dans les 101 pages relues. À ce compte, la
 cinquantaine de cas des pages 1 à 41 méritait d'être reprise sur PDF. **La reprise a
-commencé : sur les pages 1 à 4, les sept cas sont tous tombés** — six inversions
-(« lit mais n'écrit pas ») et un double tiret. Restent 47 cas, pages 5 à 41.
+commencé : sur les pages 1 à 8, les treize cas sont tous tombés** — douze inversions
+(« lit mais n'écrit pas ») et un double tiret. Restent 41 cas, pages 9 à 41.
 
 ## Laissé en l'état, faute de lecture — à reprendre au manuscrit
 
@@ -499,8 +542,8 @@ n'a été appliqué.
   recenseur : soit les jumeaux étaient nombreux, soit il inscrivait le même âge par
   inadvertance en descendant la colonne.
 
-Les trois fractions de mois douteuses (p. 4 l. 23, p. 6 l. 11, p. 15 l. 22) sont
-laissées telles quelles : elles relèvent de la passe dédiée aux colonnes serrées.
+Des trois fractions de mois douteuses, **celle de la page 6 ligne 11 est tranchée au
+recueil PDF** (2/12, et non 9/12 — voir le lot 2) ; restent p. 4 l. 23 et p. 15 l. 22.
 
 ## Question n° 2 — un prénom manquant
 
@@ -524,14 +567,14 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 4 L22 | Augusta (fils) | Auguste |
 | 4 L23 | Rosaria (fils) | Rosario |
 | 4 L25 | Aurelia | Aurélie |
-| 5 L20 | Rochelle | Rachelle |
-| 6 L8 | Emelin | Emelie ? |
-| 6 L21 | Sirois Maria | Marie |
-| 7 L2 | Sirois **Lee** | **Léa** |
+| 5 L20 | Rochelle | Rachelle — **confirmée au recueil PDF** |
+| 6 L8 | Emelin | ~~Emelie ?~~ — **annulée** : le recueil PDF penche pour « Emelin », rétabli |
+| 6 L21 | Sirois Maria | Marie — **confirmée au recueil PDF** |
+| 7 L2 | Sirois **Lee** | **Léa** — **confirmée au recueil PDF** |
 | 7 L18 | Phelomena | Philomène |
-| **8 L3** | **Letarte Maude** | **Manda** |
-| 8 L18 / L21 | Peteline / Petaline | même personne, deux graphies |
-| 8 L24 | Deoma | Diana ? |
+| **8 L3** | **Letarte Maude** | **Manda** — **confirmée au recueil PDF**, nom et âge |
+| 8 L18 / L21 | Peteline / Petaline | même personne, deux graphies — même tracé aux deux lignes, **harmonisation confirmée** |
+| 8 L24 | Deoma | Diana — **confirmée au recueil PDF** |
 | 9 L8 | **Boily** Mary | **Baily** ? |
 | 10 L9 | Roberge **Anastaria** | Anastasie |
 | 10 L11 | Marguriete | Marguerite |
@@ -637,8 +680,8 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 
 | Page·ligne | Avant | Appliqué | Remarque |
 |---|---|---|---|
-| **5 L9-L10** | Joseph 4 ans **et** Roch 4 ans | Roch semble **2 ans** | deux frères du même âge |
-| 8 L3 | 10 ans | **12 ans** | |
+| **5 L9-L10** | Joseph 4 ans **et** Roch 4 ans | ~~Roch semble 2 ans~~ — **annulée au recueil PDF** | l'accolade de la colonne 8 relie deux « 4 » : jumeaux, le dépouillement avait raison |
+| 8 L3 | 10 ans | **12 ans** — confirmée au recueil PDF | |
 | 17 L24 | Letarte Paul, 29 ans | 27 ans ? | |
 | 19 L18 | Roberge Louis, 25 ans | 23 ans ? | épouse de 34 ans |
 | 46 L22 | Lavertu Alexis, 15 ans | **18 ans** | le place avant son frère Joseph, 16 ans |
