@@ -23,7 +23,7 @@ religions, les paires de frères et sœurs au même âge.
 
 **Le recueil des pages 1 à 41 est arrivé** (`1891_01_DIV12`, pris en charge par `r91a.py`) :
 la reprise est en cours, par lots de quatre pages — voir la section « Le recueil des pages
-1 à 41 » ci-dessous. **Lots 1 à 5 (pages 1-20) : faits.**
+1 à 41 » ci-dessous. **Lots 1 à 6 (pages 1-24) : faits.**
 
 **Les pages 42 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF) : le
 rendu à haute résolution y règle en quelques minutes ce que les JPEG laissaient
@@ -421,6 +421,40 @@ d'un « Ferdinand » rayé.
 Villeneuve l'architecte (p. 17 L5), le « 2 » de Lambert le meublier (p. 20 L16), les « 1 »
 de Nolette et de Gingras. Tous conformes.
 
+### Lot 6 — pages 21 à 24 (18 août 2026)
+
+**Colonnes 21-22 : 75 écarts sur 100 lignes**, et six « sait écrire mais ne sait pas
+lire » de plus qui tombent — cinq sur la seule page 24. Il en reste 21, pages 25 à 41.
+
+**Le patronyme « Dinan » n'existe pas : c'est « Sample ».** La maison 100 abritait, au
+dépouillement, un ménage « Dinan » ; les images JPEG avaient fait renoncer, le tracé se
+lisant « Daugh » ou « Dangh ». **Le recueil PDF le donne sans discussion : S initial, m
+et p médians, finale en -le — Sample.** C'est aussi ce que porte l'index BAC. Les deux
+sources concordent, et le patronyme cesse d'être une énigme : le ménage est anglo-irlandais
+(l'épouse est née en Irlande, le père du chef en Angleterre). Les trois lignes du ménage
+sont corrigées et le chef de famille resynchronisé.
+
+**« Leo Michal » n'était pas deux prénoms.** Page 21 ligne 1, l'enfant Chamberland de
+5 ans porte **« Léodrick »** — un seul mot d'un trait continu, i pointé, finale en -ick.
+L'hypothèse « Leo Michel »/« Leodrick » du chantier précédent se tranche du bon côté.
+
+**Une annulation, et elle instruit sur la méthode.** « Margueret » (p. 24 L12) avait été
+corrigé en « Margaret » sur les images JPEG, au motif que le ménage est irlandais. Le PDF
+montre le u après « Marg » et la finale en -et : **le recenseur, francophone, a bien écrit
+« Margueret »**. La forme anglaise est sans doute celle que cette femme portait dans sa
+vie — mais ce n'est pas ce que dit le manuscrit, et c'est le manuscrit que ce fichier
+transcrit. Correction annulée.
+
+**Un âge douteux qui se révèle juste.** Page 21 ligne 3, le « 19 » de Napoléon St Hilaire
+était noté « se lit plutôt 13 ». Comparé au 9 certain de la ligne 6 et au 3 certain de la
+ligne 9, **le second chiffre a bien la boucle fermée et la descendante du 9** ; et un
+journalier pensionnaire de 19 ans est plus cohérent qu'un de 13. Le doute est levé, la
+donnée était bonne.
+
+**Cinq confirmations** : Celina (p. 21 L15), Fabien (p. 22 L11), Olive (p. 23 L11),
+Delvina (p. 23 L24), Odina (p. 24 L19). **Colonnes 17 à 20 conformes** une septième fois,
+dont le « 5 » de Robitaille Michel le charron (p. 23 L21).
+
 ## Question n° 1 — les colonnes 21 et 22 : la passe est terminée
 
 **Pages 42 à 142 : 2523 lignes relues case par case, 152 corrigées.** Ne restaient que les
@@ -496,9 +530,9 @@ recenseur. **La passe complète confirme les deux bizarreries** : les colonnes 2
 Gagnon Louis (p. 93) et de Terrien Leon (p. 120) portent bien un tiret puis un « 1 », et
 ce sont les deux seules de ce genre dans les 101 pages relues. À ce compte, la
 cinquantaine de cas des pages 1 à 41 méritait d'être reprise sur PDF. **La reprise a
-commencé : sur les pages 1 à 20, les vingt-sept cas sont tous tombés** — vingt-quatre
-inversions (« lit mais n'écrit pas ») et trois doubles tirets. Restent 27 cas,
-pages 21 à 41.
+commencé : sur les pages 1 à 24, les trente-trois cas sont tous tombés** — trente
+inversions (« lit mais n'écrit pas ») et trois doubles tirets. Restent 21 cas,
+pages 25 à 41.
 
 ## Laissé en l'état, faute de lecture — à reprendre au manuscrit
 
@@ -522,10 +556,10 @@ n'a été appliqué.
   nom de jeune fille de l'épouse porté à la place du prénom. **Confirmé au recueil PDF :
   le manuscrit porte bien ce mot dans la case du prénom.**
 - **Page 20 ligne 5** : fraction **7/12 confirmée au recueil PDF**. **Page 21 ligne 3** :
-  un « 19 » qui se lit plutôt 13, non tranché.
-- **Page 21 ligne 1** : « Leo Michal » ou « Leo Michel » ou « Leodrick ».
-- **Page 24 ligne 11** : patronyme « Dinan » — le manuscrit se lit « Daugh » ou
-  « Dangh ». Ménage né en Angleterre et en Irlande.
+  le « 19 » est **confirmé au recueil PDF** — le doute est levé.
+- ~~**Page 21 ligne 1**~~ : **tranché au recueil PDF — « Léodrick », un seul mot.**
+- ~~**Page 24 ligne 11**~~ : **tranché au recueil PDF — le patronyme est « Sample »,**
+  ce que lisait aussi l'index BAC. Ménage anglo-irlandais.
 - **Page 26 ligne 13** : « Losie », « Rosie » ou « Lucie ».
 - **Page 27 lignes 19 et 20** : « Berrel » et « Aber », famille anglophone.
 - **Page 29 ligne 12** : « Exida » ou « Elida ».
@@ -752,12 +786,12 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 21 L15 | Boucher Colina | Celina |
 | 22 L1 | Deslauriers Antonie | Antoine |
 | 22 L2 | Morency **Josep** | Joseph |
-| 22 L11 | Rochette Fabian | Fabien |
+| 22 L11 | Rochette Fabian | Fabien — **confirmée au recueil PDF** |
 | 23 L10 | Remillard Done | Dona |
-| **23 L11** | **Giroux « Oliver », F, 67, belle-mère** | **Olive** |
-| 23 L24 | Robitaille Delvin | Delvina |
-| 24 L12 | Dinan **Margueret** | **Margaret** (ménage irlandais) |
-| 24 L19 | Gendron Odena | Odina |
+| **23 L11** | **Giroux « Oliver », F, 67, belle-mère** | **Olive** — **confirmée au recueil PDF** |
+| 23 L24 | Robitaille Delvin | Delvina — **confirmée au recueil PDF** |
+| 24 L12 | **Sample** Margueret | ~~**Margaret**~~ — **annulée au recueil PDF** : le manuscrit porte le u et la finale -et ; le recenseur francophone a écrit « Margueret » |
+| 24 L19 | Gendron Odena | Odina — **confirmée au recueil PDF** |
 | 25 L14 | Demers **Archile** | **Achille** |
 | 27 L18 | Peters **Etel** | **Ethel** (famille anglophone) |
 | 27 L22 | Peters Minie Ida | Minnie Ida |
