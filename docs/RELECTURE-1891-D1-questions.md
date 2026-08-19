@@ -23,7 +23,7 @@ religions, les paires de frères et sœurs au même âge.
 
 **Le recueil des pages 1 à 41 est arrivé** (`1891_01_DIV12`, pris en charge par `r91a.py`) :
 la reprise est en cours, par lots de quatre pages — voir la section « Le recueil des pages
-1 à 41 » ci-dessous. **Lots 1 à 4 (pages 1-16) : faits.**
+1 à 41 » ci-dessous. **Lots 1 à 5 (pages 1-20) : faits.**
 
 **Les pages 42 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF) : le
 rendu à haute résolution y règle en quelques minutes ce que les JPEG laissaient
@@ -375,6 +375,52 @@ insuffisant. **Il faut une passe dédiée à la colonne 4 sur toute la division*
 grossissement et avec l'étalon du numéro de famille voisin ; c'est le pendant, pour le
 logement, de ce qu'a été la passe des colonnes 21-22 pour l'alphabétisation.
 
+### Lot 5 — pages 17 à 20 (18 août 2026)
+
+**Colonnes 21-22 : 72 écarts sur 100 lignes**, et quatre « sait écrire mais ne sait pas
+lire » de plus qui tombent — il en reste 27, pages 21 à 41.
+
+**Une omission du dépouillement, la première du chantier.** Page 19 ligne 22,
+**Robitaille Joseph, 71 ans, beau-père, est « Journalier » au manuscrit** : la colonne 16
+porte le mot en toutes lettres et la colonne 18 la marque « employé ». Le dépouillement
+avait laissé les deux cases vides. C'est la première fois, en vingt pages, que le PDF
+révèle non pas une lecture fautive mais une donnée absente — et elle change le portrait
+du ménage : un homme de 71 ans encore au travail.
+
+**Deux âges, deux verdicts opposés.** Les deux corrections d'âge faites sur JPEG dans ces
+pages se départagent :
+
+| Page·ligne | Dépouillement | Correction JPEG | Manuscrit (PDF) | Verdict |
+|---|---|---|---|---|
+| 17 L24 | Letarte Paul, 29 ans | 27 ans ? | **27** — le 7 est net | correction **confirmée** |
+| 19 L18 | Roberge Louis, 25 ans | 23 ans ? | **25** — le 5 porte sa barre supérieure | correction **annulée** |
+
+La correction de la page 19 avait été proposée parce qu'un chef de 25 ans avec une épouse
+de 34 semblait douteux ; le manuscrit maintient l'écart, qui est donc réel. **Le raisonnement
+de vraisemblance s'est trompé là où le tracé décidait** — c'est le même piège que
+l'affaire Elmire.
+
+**Noms : une correction reprise, deux corrections JPEG fragilisées.**
+
+- **« Rosalie » → « Rosina »** (p. 17 L2) : le PDF ne montre aucune haste montante là où
+  « Rosalie » exigerait un l, mais un i pointé et une finale en -na.
+- **« Nathalie » (p. 18 L13) est douteuse** : l'initiale a trois jambages — la forme du M
+  de ce recenseur, non celle du N. « Mathalie », comme au dépouillement, voire
+  « Mathilde ». Non tranché.
+- **« Wilfrid » (p. 19 L9) : la finale se lit « -ried »**, l'initiale reste ambiguë entre
+  S et W. « Wilfried » serait plus proche du tracé. Non tranché.
+
+**Quatre confirmations qui closent des points en suspens** : le « Savard » de la page 20
+ligne 3 est bien au manuscrit à la place du prénom — c'est le patronyme, pas une faute de
+dépouillement ; la **fraction 7/12** de la page 20 ligne 5 est nette ; « Jos. Edouard »
+(p. 20 L18) porte bien l'abréviation de Joseph, et « **Ont.** » en colonne 11 — la seule
+naissance hors Québec du lot, exacte ; et « Damase » (p. 17 L16) est bien écrit au-dessus
+d'un « Ferdinand » rayé.
+
+**Colonnes 17 à 20 : les effectifs de patrons se vérifient à l'œil** — le « 5 » de
+Villeneuve l'architecte (p. 17 L5), le « 2 » de Lambert le meublier (p. 20 L16), les « 1 »
+de Nolette et de Gingras. Tous conformes.
+
 ## Question n° 1 — les colonnes 21 et 22 : la passe est terminée
 
 **Pages 42 à 142 : 2523 lignes relues case par case, 152 corrigées.** Ne restaient que les
@@ -450,9 +496,9 @@ recenseur. **La passe complète confirme les deux bizarreries** : les colonnes 2
 Gagnon Louis (p. 93) et de Terrien Leon (p. 120) portent bien un tiret puis un « 1 », et
 ce sont les deux seules de ce genre dans les 101 pages relues. À ce compte, la
 cinquantaine de cas des pages 1 à 41 méritait d'être reprise sur PDF. **La reprise a
-commencé : sur les pages 1 à 16, les vingt-trois cas sont tous tombés** — vingt et une
-inversions (« lit mais n'écrit pas ») et deux doubles tirets. Restent 31 cas,
-pages 17 à 41.
+commencé : sur les pages 1 à 20, les vingt-sept cas sont tous tombés** — vingt-quatre
+inversions (« lit mais n'écrit pas ») et trois doubles tirets. Restent 27 cas,
+pages 21 à 41.
 
 ## Laissé en l'état, faute de lecture — à reprendre au manuscrit
 
@@ -473,9 +519,10 @@ n'a été appliqué.
   montre que la case est détruite par une tache d'émulsion du microfilm. Voir la
   question n° 2, close.
 - **Page 20 ligne 3** : prénom « Savard » — c'est un patronyme, vraisemblablement le
-  nom de jeune fille de l'épouse porté à la place du prénom.
-- **Page 20 ligne 5** · **page 21 ligne 3** : un âge en mois et un « 19 » qui se lit
-  plutôt 13, tous deux non tranchés.
+  nom de jeune fille de l'épouse porté à la place du prénom. **Confirmé au recueil PDF :
+  le manuscrit porte bien ce mot dans la case du prénom.**
+- **Page 20 ligne 5** : fraction **7/12 confirmée au recueil PDF**. **Page 21 ligne 3** :
+  un « 19 » qui se lit plutôt 13, non tranché.
 - **Page 21 ligne 1** : « Leo Michal » ou « Leo Michel » ou « Leodrick ».
 - **Page 24 ligne 11** : patronyme « Dinan » — le manuscrit se lit « Daugh » ou
   « Dangh ». Ménage né en Angleterre et en Irlande.
@@ -697,10 +744,10 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 14 L5 | Marie **Luie** | Marie **Luce** — **confirmée au recueil PDF** |
 | 14 L12 | Cantin **Seserie** | ~~Cesarie~~ — **fragilisée** : l'initiale n'a pas la forme du C de « Cezarie » (14 L25), plutôt un S. Non tranché |
 | 15 L3 | Hamel **Cardule** | **Cordule** — **confirmée au recueil PDF** |
-| 17 L2 | Lambert **Rosias** | Rosalie ? |
+| 17 L2 | Lambert **Rosias** | ~~Rosalie ?~~ → **Rosina** au recueil PDF (pas de haste pour un l) |
 | 18 L10 | Gingras **Efa** | **Eva** |
-| 18 L13 | Robitaille **Mathalie** | **Nathalie** |
-| 19 L9 | Bedard **Silfred** | Wilfrid ? Silfrid ? |
+| 18 L13 | Robitaille **Mathalie** | ~~**Nathalie**~~ — **fragilisée au recueil PDF** : l'initiale a les trois jambages du M, non les deux du N. Non tranché |
+| 19 L9 | Bedard **Silfred** | Wilfrid ? — le recueil PDF donne la finale « -ried » ; initiale S ou W, non tranchée |
 | **20 L18** | Lambert **« Los Edouard »** | **Jos Edouard** — l'abréviation de Joseph |
 | 21 L15 | Boucher Colina | Celina |
 | 22 L1 | Deslauriers Antonie | Antoine |
@@ -795,8 +842,8 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 |---|---|---|---|
 | **5 L9-L10** | Joseph 4 ans **et** Roch 4 ans | ~~Roch semble 2 ans~~ — **annulée au recueil PDF** | l'accolade de la colonne 8 relie deux « 4 » : jumeaux, le dépouillement avait raison |
 | 8 L3 | 10 ans | **12 ans** — confirmée au recueil PDF | |
-| 17 L24 | Letarte Paul, 29 ans | 27 ans ? | |
-| 19 L18 | Roberge Louis, 25 ans | 23 ans ? | épouse de 34 ans |
+| 17 L24 | Letarte Paul, 29 ans | **27 ans** — confirmée au recueil PDF | |
+| 19 L18 | Roberge Louis, 25 ans | ~~23 ans ?~~ — **annulée au recueil PDF** | le manuscrit donne 25 : l'écart avec l'épouse de 34 ans est réel |
 | 46 L22 | Lavertu Alexis, 15 ans | **18 ans** | le place avant son frère Joseph, 16 ans |
 | **58 L5** | Gagnon Ema, 21 ans | **31 ans** | le tracé donne 31, et l'index BAC lit 31 lui aussi |
 | 80 L22 | Lacroix Louise, 38 ans | **36 ans** | lu au PDF |
