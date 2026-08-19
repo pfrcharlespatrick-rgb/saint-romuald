@@ -23,7 +23,7 @@ religions, les paires de frères et sœurs au même âge.
 
 **Le recueil des pages 1 à 41 est arrivé** (`1891_01_DIV12`, pris en charge par `r91a.py`) :
 la reprise est en cours, par lots de quatre pages — voir la section « Le recueil des pages
-1 à 41 » ci-dessous. **Lots 1 à 3 (pages 1-12) : faits.**
+1 à 41 » ci-dessous. **Lots 1 à 4 (pages 1-16) : faits.**
 
 **Les pages 42 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF) : le
 rendu à haute résolution y règle en quelques minutes ce que les JPEG laissaient
@@ -315,6 +315,66 @@ page 9 ligne 20 (attenante au pharmacien Martel) et « B 1/3 » à la page 10 li
 Et la **maison 39 n'a effectivement aucun code** au manuscrit — seul le numéro de
 famille est porté, ce que le dépouillement avait déjà noté.
 
+### Lot 4 — pages 13 à 16 (18 août 2026)
+
+**Colonnes 21-22 : 80 écarts sur 100 lignes.** Rien de neuf sur le fond, mais la
+page 15 donne le cas d'école du renversement : les six Clavette des lignes 15 à 19
+portent au manuscrit une barre en colonne 21 et un tiret en colonne 22 — **ils lisent
+sans écrire** —, et le dépouillement leur a donné exactement l'inverse. Six des
+« sait écrire mais ne sait pas lire » du chantier partent d'un coup. Il en reste 31,
+pages 17 à 41.
+
+**Colonnes 17 à 20 et 23 à 25 : conformité parfaite, cinquième lot de suite.** Les
+vingt et une marques « employé » tombent une à une sur les bonnes lignes.
+
+**La colonne 12 est exacte jusque dans ses bizarreries**, et c'est notable après les
+quinze faux immigrants des pages 97-142 : Morneau Marie (p. 13 L6) porte bien un tiret
+au milieu d'un ménage tout en « 1 » ; et chez les Ahern (p. 13 L20 à p. 14 L3), le père
+irlandais a un tiret avec « Irlande » aux colonnes 13 et 14, la mère Adeline un « 1 »
+avec « Q. » — et les sept enfants suivent le père. Le dépouillement a tout rendu
+correctement.
+
+**Noms : trois corrections, une avancée, trois confirmations.**
+
+- **« P Edmond » → « J Edmond »** (p. 13 L4) : c'est encore la majuscule J à boucle
+  descendante de ce recenseur, le piège documenté — prise ici pour un P. Sans doute
+  Joseph Edmond.
+- **« Fredeline » → « Frédéline »** (p. 13 L10) : les deux accents aigus sont nets.
+- **« Élisée » → « Étienne »** (p. 14 L4) : le PDF montre un i pointé et la barre
+  d'abréviation sur la finale. **L'index BAC lisait « Etienne » depuis le début** ; les
+  deux sources concordent enfin.
+- **« Cesarie » (p. 14 L12) : la correction JPEG est fragilisée.** L'initiale n'a pas
+  la forme du C de « Cezarie » (p. 14 L25, autre ménage) : c'est une grande boucle à
+  descendante, plutôt un S — « Sésarie » possible. Les deux femmes ne sont pas écrites
+  de la même façon, contrairement à ce qu'on avait supposé. Non tranché.
+- Confirmés : Sofranie (p. 13 L15), Marie Luce (p. 14 L5), Cordule (p. 15 L3). Et la
+  **fraction de la page 15 ligne 22 est nette : 9/12** — deuxième des trois fractions
+  douteuses réglée, il ne reste que la page 4 ligne 23.
+
+### La colonne 4 a un défaut systématique — cinq codes corrigés, une passe à prévoir
+
+Le numérateur du code de logement (le nombre d'**étages**) est écrit en petit au-dessus
+de la barre. **Le « 1 » est une hampe droite à empattement, le « 2 » une boucle en z** —
+et à l'échelle des bandes ordinaires les deux se confondent. Relus à l'échelle 30, le
+numéro de famille voisin servant d'étalon, **quatre codes de ce lot portent un 1 là où
+le dépouillement a lu 2** :
+
+| Maison | Dépouillement | Manuscrit | Ce qui tranche |
+|---|---|---|---|
+| **50** | B 2/4 | **B 2/9** | le dénominateur est une boucle fermée à hampe descendante — un 9, non le 4 anguleux à sommet ouvert de la maison 55 |
+| 52 | B 2/8 | **B 1/8** | numérateur : hampe droite |
+| 55 | B 2/4 | **B 1/4** | numérateur : hampe droite ; dénominateur : le 4 anguleux |
+| **61** | B 2/2 | **B 1/2** | le numérateur a exactement la forme du 1 de « 61 » inscrit à côté — le cas le plus net |
+| 62 | B 2/15 | **B 1/15** | numérateur : hampe droite |
+
+Les cinq sont appliqués avec `incertain: true`. **Mais le vrai enseignement dépasse ce
+lot** : si quatre codes sur dix-sept se trompent d'étage, la colonne 4 n'a jamais été
+relue sérieusement — ni ici, ni sur les 126 autres pages. Les lots 1 à 3 la disaient
+« compatible », ce qui était vrai à l'échelle où elle avait été regardée, et
+insuffisant. **Il faut une passe dédiée à la colonne 4 sur toute la division**, au fort
+grossissement et avec l'étalon du numéro de famille voisin ; c'est le pendant, pour le
+logement, de ce qu'a été la passe des colonnes 21-22 pour l'alphabétisation.
+
 ## Question n° 1 — les colonnes 21 et 22 : la passe est terminée
 
 **Pages 42 à 142 : 2523 lignes relues case par case, 152 corrigées.** Ne restaient que les
@@ -390,9 +450,9 @@ recenseur. **La passe complète confirme les deux bizarreries** : les colonnes 2
 Gagnon Louis (p. 93) et de Terrien Leon (p. 120) portent bien un tiret puis un « 1 », et
 ce sont les deux seules de ce genre dans les 101 pages relues. À ce compte, la
 cinquantaine de cas des pages 1 à 41 méritait d'être reprise sur PDF. **La reprise a
-commencé : sur les pages 1 à 12, les dix-sept cas sont tous tombés** — quinze
-inversions (« lit mais n'écrit pas ») et deux doubles tirets. Restent 37 cas,
-pages 13 à 41.
+commencé : sur les pages 1 à 16, les vingt-trois cas sont tous tombés** — vingt et une
+inversions (« lit mais n'écrit pas ») et deux doubles tirets. Restent 31 cas,
+pages 17 à 41.
 
 ## Laissé en l'état, faute de lecture — à reprendre au manuscrit
 
@@ -409,7 +469,9 @@ n'a été appliqué.
 - **Page 10 ligne 5** : Ferland Narcisse conservé à **51 ans**. Le recueil PDF fait
   pencher nettement vers 51 — la boucle du premier chiffre est celle des 5 de ce
   recenseur, pas celle d'un 8 (voir le lot 3). **Non tranché, mais 51 l'emporte.**
-- **Page 13 ligne 17** : prénom laissé vide, voir ci-dessous.
+- **Page 13 ligne 17** : prénom laissé vide — **et il le restera** : le recueil PDF
+  montre que la case est détruite par une tache d'émulsion du microfilm. Voir la
+  question n° 2, close.
 - **Page 20 ligne 3** : prénom « Savard » — c'est un patronyme, vraisemblablement le
   nom de jeune fille de l'épouse porté à la place du prénom.
 - **Page 20 ligne 5** · **page 21 ligne 3** : un âge en mois et un « 19 » qui se lit
@@ -580,14 +642,27 @@ n'a été appliqué.
   recenseur : soit les jumeaux étaient nombreux, soit il inscrivait le même âge par
   inadvertance en descendant la colonne.
 
-Des trois fractions de mois douteuses, **celle de la page 6 ligne 11 est tranchée au
-recueil PDF** (2/12, et non 9/12 — voir le lot 2) ; restent p. 4 l. 23 et p. 15 l. 22.
+Des trois fractions de mois douteuses, **deux sont tranchées au recueil PDF** : la
+page 6 ligne 11 se lit 2/12 et non 9/12 (lot 2), et la page 15 ligne 22 confirme son
+9/12 (lot 4). Reste la page 4 ligne 23.
 
-## Question n° 2 — un prénom manquant
+## Question n° 2 — un prénom manquant : **close, et ce n'est pas une faute de lecture**
 
 **Page 13, ligne 17** : le fils Lefebvre, 16 ans, étudiant, n'a **aucun prénom** dans
-les données. Le manuscrit en porte un, que je ne déchiffre pas avec certitude
-(« Léo » ? « Cléo » ?). C'est le seul trou de ce genre relevé sur 19 pages.
+les données. On a longtemps cru à un déchiffrement manqué (« Léo » ? « Cléo » ?).
+
+**Le recueil PDF donne la réponse, et elle est matérielle : le prénom est détruit sur
+le microfilm.** Une tache d'émulsion blanche et saturée couvre exactement la case ;
+sous elle, l'encre a disparu. Ne survivent qu'un fragment de hampe au tiers du mot et
+le trait terminal — de quoi mesurer la longueur du prénom, pas de le lire. Ni le rendu
+à l'échelle 30 ni l'étirement des seuls tons sombres (qui fait ressortir l'encre sous
+un voile) ne rendent quoi que ce soit de plus : **il n'y a rien à récupérer, le défaut
+est sur le film et non sur les images.**
+
+Le dépouillement n'a donc rien omis : il a buté sur le même trou. **Il faudra une autre
+source** — registres paroissiaux de Saint-Romuald, ou l'index BAC, qui porte le
+patronyme sous la forme « Laebre » et pourrait avoir le prénom. La case reste vide
+plutôt qu'inventée.
 
 ## Corrections appliquées — noms et prénoms
 
@@ -618,10 +693,10 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 10 L11 | Marguriete | Marguerite — **confirmée au recueil PDF** |
 | 10 L14 | Fecteau Clerida | **Clérida** — accent et i pointé au recueil PDF ; distincte de sa cousine **Clarida** (10 L22), les deux graphies sont réelles |
 | 11 L11 · 11 L13 | « France » (deux personnes) | **François** — le tracé porte « France » aux deux lignes ; sexe M, usage de la division |
-| 13 L15 | Sofrania | Sofranie ? |
-| 14 L5 | Marie **Luie** | Marie **Luce** |
-| 14 L12 | Cantin **Seserie** | Cesarie ? Sesorie ? |
-| 15 L3 | Hamel **Cardule** | **Cordule** |
+| 13 L15 | Sofrania | Sofranie — **confirmée au recueil PDF** |
+| 14 L5 | Marie **Luie** | Marie **Luce** — **confirmée au recueil PDF** |
+| 14 L12 | Cantin **Seserie** | ~~Cesarie~~ — **fragilisée** : l'initiale n'a pas la forme du C de « Cezarie » (14 L25), plutôt un S. Non tranché |
+| 15 L3 | Hamel **Cardule** | **Cordule** — **confirmée au recueil PDF** |
 | 17 L2 | Lambert **Rosias** | Rosalie ? |
 | 18 L10 | Gingras **Efa** | **Eva** |
 | 18 L13 | Robitaille **Mathalie** | **Nathalie** |
