@@ -23,7 +23,7 @@ religions, les paires de frères et sœurs au même âge.
 
 **Le recueil des pages 1 à 41 est arrivé** (`1891_01_DIV12`, pris en charge par `r91a.py`) :
 la reprise est en cours, par lots de quatre pages — voir la section « Le recueil des pages
-1 à 41 » ci-dessous. **Lots 1 à 7 (pages 1-28) : faits.**
+1 à 41 » ci-dessous. **Lots 1 à 8 (pages 1-32) : faits.**
 
 **Les pages 42 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF) : le
 rendu à haute résolution y règle en quelques minutes ce que les JPEG laissaient
@@ -491,6 +491,45 @@ une abréviation sans la montrer. Les trois gardent leur drapeau.
 (p. 25 L14). **Colonnes 17 à 20 conformes** une huitième fois, dont le « 2 » de Côté
 le patron (p. 27 L10).
 
+### Lot 8 — pages 29 à 32 (18 août 2026)
+
+**Colonnes 21-22 : 71 écarts sur 100 lignes**, six « sait écrire mais ne sait pas lire »
+de plus. Il en reste 8, pages 33 à 41.
+
+**« Telesphore ou Stephen » : c'est Stephen.** Page 32 ligne 1, le doute traînait depuis
+le premier chantier, la fratrie francophone — Amarilda, Joséphine, Octave, Graziela —
+plaidant pour Télesphore contre un tracé qui ne le confirmait pas. **Le recueil PDF
+tranche contre la vraisemblance** : le mot compte sept lettres quand « Telesphore » en
+demande dix, l'initiale est un S ample, la finale se lit « -phen ». Un Stephen parmi ces
+prénoms-là n'a rien d'impossible — la forme anglaise d'Étienne se rencontre dans les
+familles canadiennes-françaises de la région. **Quatrième fois que le raisonnement de
+vraisemblance perd contre le tracé.**
+
+**Une annulation, toujours la même mécanique.** « Delard » (p. 29 L2) avait été corrigé
+en « Adelard » sur JPEG. Le PDF montre une majuscule D nette, **sans A qui la précède**.
+Adélard est très probablement le prénom réel de cet enfant de 3 ans ; ce n'est pas ce que
+porte le manuscrit.
+
+**Une correction JPEG qui ne tient pas.** « Ameline » (p. 31 L18) — prénom féminin pour un
+mesureur de 45 ans, chef de famille — avait été corrigé en « Anselme ». **Le PDF montre que
+l'initiale est un N à trois jambages, non un A** : « Anselme » tombe. Le tracé se lit
+« Nazael », « Nazaire » abrégé ou « Noel », la finale portant une barre d'abréviation.
+Non tranché — mais le champ des lectures a changé de camp.
+
+**« Exida » ou « Elida » : c'est Exida.** La deuxième lettre est un x compact, sans la
+haste montante qu'exigerait un l — la comparaison est immédiate avec le l de « Delard »
+deux colonnes plus haut sur la même page. L'hypothèse Elida est écartée.
+
+**Une correction du recenseur, bien suivie.** Page 32 ligne 9, l'âge de Lizie Wells :
+le recenseur avait écrit **15**, l'a biffé et a inscrit **17** au-dessus. Le dépouillement
+a suivi la correction, pas le chiffre biffé — précision d'autant plus notable que la
+division 1 a par ailleurs plusieurs fois suivi des numéros raturés.
+
+**Confirmations** : Mary Jane (p. 30 L6) ; et pour Léocadie (p. 32 L8), le **o est
+confirmé** — « Leacadi » du dépouillement était bien fautif — mais le manuscrit s'arrête
+sur un i pointé, sans e final. **Colonnes 17 à 20 conformes** une neuvième fois, dont le
+« 7 » de Demers (p. 31 L12) et le « 1 » de Wells le cultivateur anglais (p. 32 L7).
+
 ## Question n° 1 — les colonnes 21 et 22 : la passe est terminée
 
 **Pages 42 à 142 : 2523 lignes relues case par case, 152 corrigées.** Ne restaient que les
@@ -566,9 +605,9 @@ recenseur. **La passe complète confirme les deux bizarreries** : les colonnes 2
 Gagnon Louis (p. 93) et de Terrien Leon (p. 120) portent bien un tiret puis un « 1 », et
 ce sont les deux seules de ce genre dans les 101 pages relues. À ce compte, la
 cinquantaine de cas des pages 1 à 41 méritait d'être reprise sur PDF. **La reprise a
-commencé : sur les pages 1 à 28, les quarante cas sont tous tombés** — trente-cinq
-inversions (« lit mais n'écrit pas ») et cinq doubles tirets. Restent 14 cas,
-pages 29 à 41.
+commencé : sur les pages 1 à 32, les quarante-six cas sont tous tombés** — quarante et une
+inversions (« lit mais n'écrit pas ») et cinq doubles tirets. Restent 8 cas,
+pages 33 à 41.
 
 ## Laissé en l'état, faute de lecture — à reprendre au manuscrit
 
@@ -601,14 +640,15 @@ n'a été appliqué.
 - **Page 27 lignes 19 et 20** : « Berrel » et « Aber », famille anglophone. **Précisé au
   recueil PDF** : la deuxième lettre de « Berrel » est un u — « Burel »/« Burrel » ;
   « Aber » est net et court, sans le l d'« Albert ».
-- **Page 29 ligne 12** : « Exida » ou « Elida ».
+- ~~**Page 29 ligne 12**~~ : **tranché au recueil PDF — « Exida »**, la deuxième lettre
+  est un x compact, sans la haste d'un l.
 - **Page 28 lignes 12 et 13** : deux sœurs Morneau portées toutes deux à 13 ans au
   manuscrit — **confirmé au recueil PDF, les chiffres sont nets sur les deux lignes.**
   Le dépouillement est fidèle ; jumelles ou erreur du recenseur, cela ne se décidera
   pas sur l'image.
-- **Page 32 ligne 1** : « Telesphore » ou « Stephen ». La fratrie est francophone
-  (Amarilda, Joséphine, Octave, Graziela), ce qui plaide pour Télesphore, mais le
-  tracé ne le confirme pas.
+- ~~**Page 32 ligne 1**~~ : **tranché au recueil PDF — « Stephen »**, mot de sept lettres
+  à initiale S et finale « -phen ». La vraisemblance de la fratrie francophone perd
+  contre le tracé.
 - **Page 37 ligne 2** : Terrien « Leonard », fille d'un an — forme masculine, sans
   doute Léonie ou Léonarde.
 - **Page 38 ligne 1** : Gagné « Reme Celestin » — René ou Reine ?
@@ -839,8 +879,8 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | **28 L18** | Robitaille **« Eugene », F, 22, fille** | **Eugénie** |
 | 29 L2 | Boucher Delard | Adelard |
 | 30 L6 | Boucher Mary Jene | Mary Jane |
-| **31 L18** | **Lefèvre « Ameline », M, 45, chef** | **Anselme** |
-| 32 L8 | Wells Leacadi | Léocadie |
+| **31 L18** | **Lefèvre « Ameline », M, 45, chef** | ~~**Anselme**~~ — **ne tient pas au recueil PDF** : l'initiale est un N à trois jambages. « Nazael », « Nazaire » abrégé ou « Noel ». Non tranché |
+| 32 L8 | Wells Leacadi | Léocadie — le **o est confirmé au recueil PDF**, mais le manuscrit s'arrête sur un i pointé, sans e final |
 | 33 L4 | Groleau **Francis** | François |
 | 33 L9 | Groleau Alphones | Alphonse |
 | 34 L1 | Fecteau Duleina | Delvina |
