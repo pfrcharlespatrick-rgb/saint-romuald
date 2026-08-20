@@ -1,8 +1,10 @@
 # Recensement de 1891, division 1 — relecture au manuscrit
 
-**Relecture terminée pour les 142 pages.** Chaque page a été confrontée aux données de
-`data/recensement-1891-d1-data.js`, sur les images fournies par Patrick puis, à partir
-de la page 62, sur les recueils PDF du microfilm.
+**Relecture terminée pour les 142 pages, et désormais sur recueil PDF pour toutes.**
+Chaque page a été confrontée aux données de `data/recensement-1891-d1-data.js` — d'abord
+sur les images fournies par Patrick, puis sur les recueils PDF du microfilm, dont le
+dernier (pages 1 à 41) a permis de reprendre les seules pages qui n'avaient jamais été
+lues qu'en JPEG. **Les quatre recueils couvrent maintenant la division entière.**
 
 **Les lectures les plus probables sont appliquées au fichier**, à la demande de
 Patrick, qui fera la relecture d'ensemble à la fin. Chacune porte `incertain: true`
@@ -21,9 +23,10 @@ n'avaient pas alors de recueil PDF, et les quatre décisions d'ensemble qui appa
 Patrick — la ligne biffée de la page 42, les variantes de patronymes, le vocabulaire des
 religions, les paires de frères et sœurs au même âge.
 
-**Le recueil des pages 1 à 41 est arrivé** (`1891_01_DIV12`, pris en charge par `r91a.py`) :
-la reprise est en cours, par lots de quatre pages — voir la section « Le recueil des pages
-1 à 41 » ci-dessous. **Lots 1 à 9 (pages 1-36) : faits.**
+**Le recueil des pages 1 à 41 est arrivé** (`1891_01_DIV12`, pris en charge par `r91a.py`),
+**et le chantier est terminé** : les dix lots ont couvert les 41 pages, ligne à ligne et
+colonne à colonne. **La division 1 est désormais relue au manuscrit sur ses 142 pages.**
+Voir « Le recueil des pages 1 à 41 » ci-dessous, et le bilan qui l'ouvre.
 
 **Les pages 42 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF) : le
 rendu à haute résolution y règle en quelques minutes ce que les JPEG laissaient
@@ -580,6 +583,78 @@ l'ordre du recensement. Voir la question n° 3, corrigée.
 des parents, la colonne 11 portant le signe de répétition. Le dépouillement avait vu juste,
 là où quinze lignes des pages 97-142 s'étaient trompées sur le même piège.
 
+### Le bilan des dix lots
+
+**41 pages, 1025 lignes, chacune confrontée au manuscrit case par case.** Ce que le
+recueil a changé :
+
+| Colonne | Verdict |
+|---|---|
+| **21-22** (sait lire / sait écrire) | **effondrement** : ~650 écarts sur 1025 lignes. Le dépouillement y était **anti-aligné**, pas seulement lacunaire |
+| **17 à 20, 23 à 25** (patron, employé, chômage, effectifs, infirmités) | **conformité parfaite, dix lots sur dix**. Pas une marque manquée |
+| **12** (Canadiens français) | exacte jusque dans ses bizarreries — tirets isolés, ménages mixtes, enfants suivant le père |
+| **11, 13, 14** (lieux de naissance) | exacte : le piège qui a fabriqué quinze faux immigrants aux pages 97-142 n'a pas joué ici |
+| **4** (logement) | **défaut systématique découvert** — voir le lot 4 ; une passe dédiée reste à faire sur toute la division |
+| **16** (profession) | une omission trouvée (p. 19 L22) |
+
+**Les 339 lignes des pages 1-41 sans valeur d'alphabétisation ne sont plus une lacune :
+ce sont des doubles tirets lus au manuscrit.** L'incertitude qui pesait sur la moitié du
+fichier est levée.
+
+**Ce que le chantier a appris sur la relecture elle-même.** Onze corrections faites sur
+les images JPEG ont été **annulées** par le PDF. Elles se rangent en deux familles, et
+les deux sont instructives :
+
+1. **La normalisation** — sept cas. « Adelard » pour Delard, « Margaret » pour Margueret,
+   « Minnie » pour Minie, « Anselme » pour un mot qui commence par N, « Perpétue » pour
+   Perpetude… Le réflexe de ramener un nom à sa forme attendue est **le piège le plus
+   régulier de ce chantier**. La forme normalisée est souvent celle que la personne
+   portait dans sa vie ; ce n'est pas celle que le recenseur a écrite, et c'est le
+   manuscrit que ce fichier transcrit.
+2. **La vraisemblance** — quatre cas. Roch et son frère jumeau, l'âge de Roberge Louis,
+   « Telesphore » contre une fratrie francophone, le « 19 » de Napoléon St Hilaire.
+   **Chaque fois que le raisonnement de vraisemblance s'est opposé au tracé, le tracé
+   avait raison.**
+
+**Ce que l'index BAC vaut.** Deux fois — « Étienne » (lot 4) et « Sample » (lot 6) —
+l'index avait raison contre la relecture JPEG. Il mérite d'être consulté comme
+contre-source, non comme bruit de fond.
+
+**Questions du journal tranchées par le recueil** : le prénom manquant de la page 13
+(détruit sur le film — question n° 2, close), les trois fractions de mois, « Exida »,
+« Stephen », « Léodrick », le patronyme « Sample », l'âge de Daigle J. Baptiste, « Reine
+Célestin », les sœurs Morneau, le « Savard » de la page 20, le « 19 » de la page 21.
+**Restent ouvertes** : « Losia » ou « Rosia » (p. 26), les prénoms anglais des Peters
+(p. 27), l'initiale de « Cesarie » (p. 14), le prénom de la page 31 L18, et les quatre
+décisions d'ensemble qui appartiennent à Patrick.
+
+### Lot 10 — pages 37 à 41 (18 août 2026)
+
+**Colonnes 21-22 : 47 écarts sur 125 lignes** — la fin du recensement est la mieux tenue
+des dix lots.
+
+**Deux questions du journal tranchées.**
+
+- **« René ou Reine ? » — c'est Reine.** Page 38 ligne 1, Gagné : le PDF montre un i
+  pointé et une finale en -e. René, qui finirait sur un é sans i, est écarté. Un homme
+  prénommé Reine est inhabituel ; c'est ce que porte le manuscrit.
+- **Daigle J. Baptiste a 52 ans, non 57** (p. 37 L18). Le second chiffre a les deux
+  courbes et la base horizontale du 2 — et la démonstration tient parce que **les noms
+  et les âges ont été rendus sur la même prise** : le 9 de Mary Smith (L16) et le 8 de
+  James (L17) sont juste au-dessus, et ne ressemblent en rien à ce 2. C'est la méthode
+  à retenir pour les chiffres douteux : jamais la colonne des âges seule.
+
+**Une correction JPEG fragilisée.** « Perpétue » (p. 40 L10) : le manuscrit porte bien un
+**d avant la finale**, sous une barre d'abréviation — « Perpetude », comme au
+dépouillement. Non tranché.
+
+**Confirmations** : « Leonard » (p. 37 L2) est bien la forme masculine écrite par le
+recenseur pour cette fille d'un an — la transcription est fidèle, ce que le recenseur
+voulait écrire ne se lit pas sur l'image ; « J Baptiste » (p. 40 L24), dont l'initiale est
+la majuscule J à boucle descendante qui a produit une dizaine de faux « F.Baptiste »
+ailleurs ; « Delard » (p. 41 L14), **du même tracé qu'à la page 29 ligne 2** — les deux
+occurrences concordent et confortent l'annulation du lot 8 ; et Marguerite (p. 39 L4).
+
 ## Question n° 1 — les colonnes 21 et 22 : la passe est terminée
 
 **Pages 42 à 142 : 2523 lignes relues case par case, 152 corrigées.** Ne restaient que les
@@ -655,9 +730,14 @@ recenseur. **La passe complète confirme les deux bizarreries** : les colonnes 2
 Gagnon Louis (p. 93) et de Terrien Leon (p. 120) portent bien un tiret puis un « 1 », et
 ce sont les deux seules de ce genre dans les 101 pages relues. À ce compte, la
 cinquantaine de cas des pages 1 à 41 méritait d'être reprise sur PDF. **La reprise a
-commencé : sur les pages 1 à 36, les quarante-huit cas sont tous tombés** — quarante-trois
-inversions (« lit mais n'écrit pas ») et cinq doubles tirets. Restent 6 cas,
-pages 37 à 41.
+est terminée : sur les 54 cas des pages 1 à 41, 52 sont tombés** — quarante-sept
+inversions (« lit mais n'écrit pas ») et cinq doubles tirets. **Il en reste deux**, tous
+deux vérifiés au manuscrit : Isabel André (p. 11 L1, 69 ans) et Aubert Alcide
+(p. 12 L17, 55 ans). **Sur toute la division, les 59 cas du départ se réduisent à
+quatre** — ces deux-là, plus Gagnon Louis (p. 93) et Terrien Leon (p. 120). Le
+pronostic du chantier précédent — « il ne faut pas s'attendre à les voir tous
+disparaître » — s'est vérifié, mais de justesse : la quasi-totalité était bien un
+artefact du dépouillement.
 
 ## Laissé en l'état, faute de lecture — à reprendre au manuscrit
 
@@ -699,11 +779,13 @@ n'a été appliqué.
 - ~~**Page 32 ligne 1**~~ : **tranché au recueil PDF — « Stephen »**, mot de sept lettres
   à initiale S et finale « -phen ». La vraisemblance de la fratrie francophone perd
   contre le tracé.
-- **Page 37 ligne 2** : Terrien « Leonard », fille d'un an — forme masculine, sans
-  doute Léonie ou Léonarde.
-- **Page 38 ligne 1** : Gagné « Reme Celestin » — René ou Reine ?
-- **Page 37 ligne 18** : Daigle J. Baptiste, 57 ans dans les données, plutôt 52 au
-  manuscrit.
+- **Page 37 ligne 2** : Terrien « Leonard », fille d'un an — **confirmé au recueil PDF :
+  le recenseur a bien écrit cette forme masculine.** Ce qu'il voulait écrire (Léonie ?
+  Léonarde ?) ne se lit pas sur l'image.
+- ~~**Page 38 ligne 1**~~ : **tranché au recueil PDF — « Reine Celestin »**, i pointé et
+  finale en -e.
+- ~~**Page 37 ligne 18**~~ : **tranché au recueil PDF — 52 ans**, lu sur la même prise que
+  les noms, à côté du 9 et du 8 des deux lignes précédentes.
 - ~~**Page 33 ligne 3**~~ : **tranché au recueil PDF — 7/12**, le numérateur a le trait
   horizontal et la diagonale du 7. Dernière des trois fractions douteuses, toutes lues.
 - **Page 41 ligne 14** : « Delard » — la même forme a été lue Adelard page 29, mais
