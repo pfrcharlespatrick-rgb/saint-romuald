@@ -126,6 +126,8 @@ for (const p of d.personnes.values()) {
     page_ms: p.page_ms, ligne: p.ligne,
     incertain: !!p.incertain,
     remarque: nettoyerRemarque(p.remarque),
+    // Ligne que le recenseur a biffée : conservée, mais hors du dénombrement.
+    biffee: !!p.biffee,
     cle_maison: cleM,
     // Où cette personne habitait, quand le rattachement au sol est fait.
     lieux: (d.lieuxParMaison.get(cleM) || []).map((l) => ({

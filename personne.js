@@ -98,6 +98,14 @@
     }).join('');
     var marginale = f.remarque
       ? '<div class="marginale"><b>En marge du dépouillement</b>' + esc(f.remarque) + '</div>' : '';
+    // Le recenseur a rayé cette ligne : la personne est conservée dans le site,
+    // mais elle ne compte pas dans le dénombrement officiel de 1891.
+    if (f.biffee) {
+      marginale = '<div class="marginale"><b>Ligne biffée au manuscrit</b>' +
+        'Le recenseur a rayé cette ligne : cette personne ne figure pas dans son dénombrement. ' +
+        'Elle est conservée ici parce que le manuscrit porte son nom et son âge, mais elle est ' +
+        'à écarter de tout décompte de population.</div>' + marginale;
+    }
     return (
       '<section class="bloc"><h3 class="bloc-titre">' + titre + '</h3>' +
       '<p class="bloc-note">Extrait du registre, ' + lienMaison + ' — présenté comme au manuscrit, avec les numéros de ligne en marge.</p>' +

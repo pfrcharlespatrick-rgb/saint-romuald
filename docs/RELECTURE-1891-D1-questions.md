@@ -143,445 +143,75 @@ de la maison, née au Québec, mariée à un mécanicien belge ; et son mari, en
 est écrit **gendre**. Le seul mot « Belgique » de la ligne 23 avait suffi à faire de la
 femme une immigrante et du couple des étrangers de passage.
 
-## Question n° 3 — une ligne biffée au manuscrit, transcrite quand même
-
-**Page 42, ligne 8 — Thibodeau Clara, 24 ans, fille de Louis et Olympe.**
-
-Le recenseur a tracé **un trait horizontal sur toute la ligne** : il l'a retirée de
-son dénombrement, sans doute après avoir appris qu'elle ne vivait plus au foyer. Le
-dépouillement l'a transcrite comme les autres.
-
-**Elle est conservée telle quelle.** La retirer changerait le total de la division
-(3548 personnes) et relève d'une décision de Patrick, pas d'une lecture. Trois voies
-possibles :
-
-1. la supprimer, pour coller au dénombrement officiel ;
-2. la garder en la marquant « biffée au manuscrit » — elle a existé, et l'information
-   vaut pour la recherche généalogique ;
-3. la garder sans rien changer.
-
-**Ce n'est pas la seule.** Le recueil des pages 1-41 en a révélé une seconde, plus haut
-dans le recensement : **page 36, ligne 23 — Terrien Joseph, 9 ans, fils.** Même geste, un
-long trait horizontal en travers de toute la ligne, et le prénom biffé par-dessus. Elle
-figure elle aussi au fichier, avec la remarque « Ligne rayée au registre ».
-
-**La décision de Patrick porte donc sur deux lignes, pas une** — et le choix doit être le
-même pour les deux, sous peine d'incohérence. Les trois voies ci-dessus valent
-inchangées ; seul le décompte change : retirer les deux ferait passer la division de 3548
-à 3546 personnes.
-
-## Le recueil des pages 1 à 41 — la relecture reprend, par lots de quatre pages
-
-Patrick a fourni le PDF `1891_01_DIV12` : 21 pages, deux cadres par page, comme les
-trois autres recueils. Le premier cadre est la carte-titre du microfilm (« 1891 Québec,
-163 — Lévis, L — St. Romuald d'Etchemin Munc., pages 1-142 ») ; la page 1 du manuscrit
-occupe le cadre du bas de la première page PDF, d'où `r91a.py` avec `base=0` — la
-page *n* du manuscrit occupe le cadre *n*. La géométrie des filets est celle des autres
-recueils, la marge droite répète les numéros de ligne, et les colonnes 17 à 25 sont sur
-la même prise que les noms : chaque case se lit à l'ancre près. Ce sont précisément les
-pages qui n'avaient jamais été lues que sur JPEG.
-
-### Lot 1 — pages 1 à 4 (18 août 2026)
-
-**Colonnes 21-22 : 75 écarts sur 100 lignes.** Le soupçon du chantier précédent est
-confirmé, et au-delà : sur ces pages, les valeurs du dépouillement (`positif_1891`) ne
-sont pas seulement lacunaires, elles sont **anti-alignées** avec le manuscrit. La page 2
-en donne le cas le plus net : le dépouillement coche les lignes 6-12, 15, 16 et 18
-(les Veilleux, les Boucher, Xavier Emond) — le manuscrit n'y porte que des tirets — et
-laisse vides les lignes 1-5 et 19-24 (les Roy, Delina Emond et ses aînés), où le
-manuscrit porte des « 1 » aux deux colonnes. Rien d'un simple décalage d'une ligne :
-les blocs cochés du dépouillement ne recoupent pas ceux du manuscrit. Devant une valeur
-d'alphabétisation des pages 1 à 41 qui n'a pas encore été relue au recueil, ne rien
-conclure.
-
-**Les « sait écrire mais ne sait pas lire » : sept cas sur ces quatre pages, aucun
-n'a survécu.** Six étaient des « lit mais n'écrit pas » inversés (p. 1 L2 et L6,
-p. 3 L23 et L24, p. 4 L2 et L4), le septième (p. 4 L3, Vermette Alain, 75 ans) ne porte
-que des tirets. Restent 47 cas, pages 5 à 41 — même pronostic.
-
-**Colonnes 17 à 20 et 23 à 25 : conformité parfaite, 25 cases sur 25.** Les vingt
-« employé » (col. 18) des données correspondent un à un aux barres du manuscrit ; les
-trois « sans emploi » (col. 19 — Damase Veilleux p. 2, Fréchette Louis et Olivier
-Belanger p. 4) aussi ; et la colonne 23 porte, écrit en toutes lettres, le « muet »
-d'Edouard Veilleux (p. 2 L14) que la remarque tenait de l'index BAC. Aucune marque du
-manuscrit n'est absente des données. Le dépouillement de ces colonnes est irréprochable —
-le naufrage est propre aux colonnes 21-22.
-
-**Noms : six corrections, une annulation, neuf confirmations.**
-
-- Corrigés (avec `incertain: true` et l'ancienne lecture en remarque) : Onisime →
-  **Onésime** (p. 2 L3, l'accent net), Mari Anne → **Marie Anne** (p. 3 L2), Wilfred →
-  **Wilfrid** (p. 3 L21, le i pointé), Edmond → **Edmund** (p. 4 L10, le u en creux),
-  Stephenie → **Stéphanie** (p. 4 L17), Isac → **Isaï** (p. 4 L20, le i final pointé,
-  pas de c).
-- **Annulée : « Alain » à la page 3 ligne 4.** Le recueil PDF montre un **r** final du
-  même tracé que celui d'« Arthur » à la ligne suivante : le manuscrit écrit bien
-  **Alair**, comme le dépouillement. C'est la sixième correction faite sur JPEG que le
-  PDF renverse — même leçon que l'affaire Elmire. Le père Vermette de la page 4 ligne 3,
-  lui, est bien **Alain** (finale en n distincte).
-- Confirmés au recueil : Alphonce (p. 1 L6), Michel (p. 3 L7), Lucie (p. 3 L11),
-  Alexis (p. 3 L17 — le tracé porte « Aleais », le x formé comme un a, exactement
-  comme le « Caliate » de Calixte p. 2 L5), Alain (p. 4 L3), Marguerite (p. 4 L6),
-  Auguste (p. 4 L22), Rosario (p. 4 L23, finale fermée), Aurélie (p. 4 L25). Leurs
-  drapeaux `incertain` restent posés pour la relecture d'ensemble de Patrick.
-- « Telieria » (p. 1 L15) reste non tranché, mais la lecture est précisée : le tracé
-  porte « -eléeria », et l'initiale a la forme du J de « Julien » deux lignes plus
-  haut — le J pris pour un F est un piège documenté de ce recenseur. « Pierre Abringe »
-  (p. 1 L22) : le PDF ne tranche pas davantage (« Abrigge »/« Abridge »).
-
-**Colonne 4 (logement) : une correction, quatre consignations.** Le code de la
-maison 8 se lit **« B 1/8 »** — le 8 à double boucle est net, du même tracé que le
-numéro de famille 8 voisin ; le dépouillement portait « B 2/5 » (confusion 5/8
-documentée). Les cases des maisons 2, 9 (raturée et récrite en interligne) et 12
-(floue sur le microfilm) restent non tranchées, l'état de la lecture est consigné en
-`remarque_logement`. Et à la page 2 ligne 6, la **colonne 3 (maisons inhabitées) porte
-« B 1/4 »** : une maison vacante attenante à celle des Veilleux, que le dépouillement
-n'a pas reprise.
-
-**Signalé sans correction.** Le sexe de Camille Gosselin (p. 1 L13, « M. » au
-manuscrit pour une épouse — déjà consigné plus bas, et la main de Patrick a fixé ses
-colonnes 21-22 : le manuscrit lui donne raison, barre en 21, tiret en 22). Le prénom de
-Damase Veilleux (p. 2 L6) s'écrit au manuscrit avec une seule s — « Damasse » des
-données conservé, la ligature ʃ/ʃs ne se laissant pas trancher. « Hanri » (p. 3 L14)
-n'est que le e ouvert du recenseur, comparé au « Henri » net de la page 2 L2 : Henri
-conservé.
-
-### Lot 2 — pages 5 à 8 (18 août 2026)
-
-**Colonnes 21-22 : 64 écarts sur 100 lignes**, du même tissu qu'au lot 1 : les chefs
-de ménage que le dépouillement disait lettrés portent des tirets (Bernier — pourtant
-entrepreneur employant 25 personnes —, les fils Clouston, Gauthier, Montminy, les
-Letarte, Couture, les Marcheterre, Duquet), et les femmes et aînés que le manuscrit
-coche n'avaient rien. Six nouveaux « sait écrire mais ne sait pas lire » tombent,
-tous inversés (p. 5 L17, p. 6 L9, L22 et L23, p. 7 L13 et L14).
-
-**Colonnes 17 à 20 et 23 à 25 : conformité parfaite à nouveau — 26 marques, 26
-concordances.** Les dix-huit « employé », les six « sans emploi » et, pièce
-maîtresse, le **patron Bernier** (p. 5 L13) : « 1 » en colonne 17 et « **25** » en
-colonne 20 — les vingt-cinq employés de son entreprise de bois, confirmés au
-manuscrit. La colonne 12 des Clouston est elle aussi exacte, jusque dans son
-étrangeté : la mère Geneviève porte « 1 » (canadienne-française), ses fils des
-tirets.
-
-**Noms et âges : trois corrections, deux annulations, sept confirmations.**
-
-- Corrigés (avec `incertain: true`) : Louise → **Louisa** (p. 5 L6, le a final net),
-  Floride → **Florida** (p. 5 L15), et le bébé Evangeline Montminy passe de 9 mois à
-  **2 mois** (p. 6 L11) — le chiffre du haut de la fraction est un 2 sans boucle ;
-  c'était l'une des trois « fractions douteuses » du chantier.
-- **Annulées** : « Roch, 2 ans » (p. 5 L10) — le recueil montre **l'accolade de la
-  colonne 8 reliant deux « 4 »** : Joseph et Roch sont jumeaux, tous deux 4 ans,
-  comme au dépouillement ; et « Emelie » (p. 6 L8) — le tracé penche pour
-  **« Emelin »**, finale plate sans la boucle du e de « Rosalie » deux lignes plus
-  bas.
-- Confirmés au recueil : Rachelle (p. 5 L20), Marie Sirois (p. 6 L21), Léa (p. 7
-  L2), Manda — le nom **et** l'âge 12 (p. 8 L3), l'harmonisation Petaline (p. 8
-  L18 et L21, même tracé aux deux lignes), Diana (p. 8 L24). « Philomène » (p. 7
-  L18) reste indécis sur les voyelles, mais la finale n'est pas en a. « Augustin »
-  (p. 7 L4) et « Victor » (p. 6 L6) se relisent comme la remarque BAC l'avait déjà
-  établi. L'âge de Joseph Croteau (p. 6 L16) est bien un 9 à boucle fermée, dans
-  l'ordre de la fratrie 10-9-7-4-1.
-
-**Colonne 4 : rien à corriger** — les codes des maisons 16 à 32 sont compatibles,
-M20 vérifié en super-zoom (un 4 à sommet ouvert, pas un 9). **Deux nouvelles maisons
-vacantes en colonne 3** : « B 1/2 » à la page 7 ligne 4 (chez Marcheterre), et un
-« B 1/3 » à la page 6 ligne 6 qui est soit une vacante, soit le code de M22 d'abord
-écrit au mauvais endroit (rature familière du recenseur). Consignées en
-`remarque_logement`.
-
-### Lot 3 — pages 9 à 12 (18 août 2026)
-
-**Colonnes 21-22 : 87 écarts sur 100 lignes** — le pire score des trois lots, et la
-**page 10 en donne la raison** : le dépouillement y coche 19 lignes sur 25, le
-manuscrit n'en coche que 5. Les Ferland, Pouliotte, Demers, la pensionnaire Roberge,
-la petite Fecteau : tous portent deux tirets. C'est l'inverse exact de ce que le
-fichier annonçait. Les pages 9, 11 et 12 sont, elles, largement cochées — la bascule
-ne suit aucune logique de page, seulement celle des ménages.
-
-**Colonnes 17 à 20 et 23 à 25 : conformité parfaite, quatrième lot de suite.** Les
-vingt-deux « employé », les huit « sans emploi », les **deux sourds-muets Plaisance**
-(p. 11 L8 et L9, marques nettes en colonne 23), l'**aliéné Ambroise Gely** (p. 12
-L23, marque en colonne 25) et le **patron Louis Gely, cordonnier, avec son « 1 »
-employé en colonne 20** : tout est au manuscrit, tout est dans les données.
-
-**Noms et âges : deux corrections, une avancée, cinq confirmations.**
-
-- Corrigés : Clerida → **Clérida** (p. 10 L14, accent aigu et i pointé) — et la
-  distinction avec sa cousine **Clarida** (p. 10 L22, avec un a) est bien réelle au
-  manuscrit, les deux graphies sont distinctes ; Rébecca → **Rébéca** (p. 12 L12,
-  deux accents aigus, une seule c).
-- **L'âge de Ferland Narcisse avance sans être tranché** (p. 10 L5) : le premier
-  chiffre est une boucle fermée à panse basse, le tracé que ce recenseur donne au
-  **5** — comparer le « 55 » de Demers Narcisse sept lignes plus bas — et non le 8 à
-  double boucle. « 51 » est donc la lecture la plus probable, ce que la vraisemblance
-  appuyait déjà (filles de 24 et 26 ans, épouse de 58). La lecture « 81 » des JPEG
-  s'éloigne ; la ligne reste `incertain` pour Patrick.
-- Confirmés : **Baily** (p. 9 L8 — et sa colonne 12 porte bien un tiret, accord avec
-  le prénom Mary), Anastasie (p. 10 L9), Marguerite (p. 10 L11), et les **deux
-  « France »** (p. 11 L11 et L13) : le tracé porte bien « France » aux deux lignes,
-  sans e final ni s — François retenu, comme le veut le sexe M.
-
-**Colonne 4 : deux vacantes de plus, un vide confirmé.** « B 1/12 » en colonne 3 à la
-page 9 ligne 20 (attenante au pharmacien Martel) et « B 1/3 » à la page 10 ligne 9.
-Et la **maison 39 n'a effectivement aucun code** au manuscrit — seul le numéro de
-famille est porté, ce que le dépouillement avait déjà noté.
-
-### Lot 4 — pages 13 à 16 (18 août 2026)
-
-**Colonnes 21-22 : 80 écarts sur 100 lignes.** Rien de neuf sur le fond, mais la
-page 15 donne le cas d'école du renversement : les six Clavette des lignes 15 à 19
-portent au manuscrit une barre en colonne 21 et un tiret en colonne 22 — **ils lisent
-sans écrire** —, et le dépouillement leur a donné exactement l'inverse. Six des
-« sait écrire mais ne sait pas lire » du chantier partent d'un coup. Il en reste 31,
-pages 17 à 41.
-
-**Colonnes 17 à 20 et 23 à 25 : conformité parfaite, cinquième lot de suite.** Les
-vingt et une marques « employé » tombent une à une sur les bonnes lignes.
-
-**La colonne 12 est exacte jusque dans ses bizarreries**, et c'est notable après les
-quinze faux immigrants des pages 97-142 : Morneau Marie (p. 13 L6) porte bien un tiret
-au milieu d'un ménage tout en « 1 » ; et chez les Ahern (p. 13 L20 à p. 14 L3), le père
-irlandais a un tiret avec « Irlande » aux colonnes 13 et 14, la mère Adeline un « 1 »
-avec « Q. » — et les sept enfants suivent le père. Le dépouillement a tout rendu
-correctement.
-
-**Noms : trois corrections, une avancée, trois confirmations.**
-
-- **« P Edmond » → « J Edmond »** (p. 13 L4) : c'est encore la majuscule J à boucle
-  descendante de ce recenseur, le piège documenté — prise ici pour un P. Sans doute
-  Joseph Edmond.
-- **« Fredeline » → « Frédéline »** (p. 13 L10) : les deux accents aigus sont nets.
-- **« Élisée » → « Étienne »** (p. 14 L4) : le PDF montre un i pointé et la barre
-  d'abréviation sur la finale. **L'index BAC lisait « Etienne » depuis le début** ; les
-  deux sources concordent enfin.
-- **« Cesarie » (p. 14 L12) : la correction JPEG est fragilisée.** L'initiale n'a pas
-  la forme du C de « Cezarie » (p. 14 L25, autre ménage) : c'est une grande boucle à
-  descendante, plutôt un S — « Sésarie » possible. Les deux femmes ne sont pas écrites
-  de la même façon, contrairement à ce qu'on avait supposé. Non tranché.
-- Confirmés : Sofranie (p. 13 L15), Marie Luce (p. 14 L5), Cordule (p. 15 L3). Et la
-  **fraction de la page 15 ligne 22 est nette : 9/12** — deuxième des trois fractions
-  douteuses réglée, il ne reste que la page 4 ligne 23.
-
-### La colonne 4 a un défaut systématique — cinq codes corrigés, une passe à prévoir
-
-Le numérateur du code de logement (le nombre d'**étages**) est écrit en petit au-dessus
-de la barre. **Le « 1 » est une hampe droite à empattement, le « 2 » une boucle en z** —
-et à l'échelle des bandes ordinaires les deux se confondent. Relus à l'échelle 30, le
-numéro de famille voisin servant d'étalon, **quatre codes de ce lot portent un 1 là où
-le dépouillement a lu 2** :
-
-| Maison | Dépouillement | Manuscrit | Ce qui tranche |
-|---|---|---|---|
-| **50** | B 2/4 | **B 2/9** | le dénominateur est une boucle fermée à hampe descendante — un 9, non le 4 anguleux à sommet ouvert de la maison 55 |
-| 52 | B 2/8 | **B 1/8** | numérateur : hampe droite |
-| 55 | B 2/4 | **B 1/4** | numérateur : hampe droite ; dénominateur : le 4 anguleux |
-| **61** | B 2/2 | **B 1/2** | le numérateur a exactement la forme du 1 de « 61 » inscrit à côté — le cas le plus net |
-| 62 | B 2/15 | **B 1/15** | numérateur : hampe droite |
-
-Les cinq sont appliqués avec `incertain: true`. **Mais le vrai enseignement dépasse ce
-lot** : si quatre codes sur dix-sept se trompent d'étage, la colonne 4 n'a jamais été
-relue sérieusement — ni ici, ni sur les 126 autres pages. Les lots 1 à 3 la disaient
-« compatible », ce qui était vrai à l'échelle où elle avait été regardée, et
-insuffisant. **Il faut une passe dédiée à la colonne 4 sur toute la division**, au fort
-grossissement et avec l'étalon du numéro de famille voisin ; c'est le pendant, pour le
-logement, de ce qu'a été la passe des colonnes 21-22 pour l'alphabétisation.
-
-### Lot 5 — pages 17 à 20 (18 août 2026)
-
-**Colonnes 21-22 : 72 écarts sur 100 lignes**, et quatre « sait écrire mais ne sait pas
-lire » de plus qui tombent — il en reste 27, pages 21 à 41.
-
-**Une omission du dépouillement, la première du chantier.** Page 19 ligne 22,
-**Robitaille Joseph, 71 ans, beau-père, est « Journalier » au manuscrit** : la colonne 16
-porte le mot en toutes lettres et la colonne 18 la marque « employé ». Le dépouillement
-avait laissé les deux cases vides. C'est la première fois, en vingt pages, que le PDF
-révèle non pas une lecture fautive mais une donnée absente — et elle change le portrait
-du ménage : un homme de 71 ans encore au travail.
-
-**Deux âges, deux verdicts opposés.** Les deux corrections d'âge faites sur JPEG dans ces
-pages se départagent :
-
-| Page·ligne | Dépouillement | Correction JPEG | Manuscrit (PDF) | Verdict |
-|---|---|---|---|---|
-| 17 L24 | Letarte Paul, 29 ans | 27 ans ? | **27** — le 7 est net | correction **confirmée** |
-| 19 L18 | Roberge Louis, 25 ans | 23 ans ? | **25** — le 5 porte sa barre supérieure | correction **annulée** |
-
-La correction de la page 19 avait été proposée parce qu'un chef de 25 ans avec une épouse
-de 34 semblait douteux ; le manuscrit maintient l'écart, qui est donc réel. **Le raisonnement
-de vraisemblance s'est trompé là où le tracé décidait** — c'est le même piège que
-l'affaire Elmire.
-
-**Noms : une correction reprise, deux corrections JPEG fragilisées.**
-
-- **« Rosalie » → « Rosina »** (p. 17 L2) : le PDF ne montre aucune haste montante là où
-  « Rosalie » exigerait un l, mais un i pointé et une finale en -na.
-- **« Nathalie » (p. 18 L13) est douteuse** : l'initiale a trois jambages — la forme du M
-  de ce recenseur, non celle du N. « Mathalie », comme au dépouillement, voire
-  « Mathilde ». Non tranché.
-- **« Wilfrid » (p. 19 L9) : la finale se lit « -ried »**, l'initiale reste ambiguë entre
-  S et W. « Wilfried » serait plus proche du tracé. Non tranché.
-
-**Quatre confirmations qui closent des points en suspens** : le « Savard » de la page 20
-ligne 3 est bien au manuscrit à la place du prénom — c'est le patronyme, pas une faute de
-dépouillement ; la **fraction 7/12** de la page 20 ligne 5 est nette ; « Jos. Edouard »
-(p. 20 L18) porte bien l'abréviation de Joseph, et « **Ont.** » en colonne 11 — la seule
-naissance hors Québec du lot, exacte ; et « Damase » (p. 17 L16) est bien écrit au-dessus
-d'un « Ferdinand » rayé.
-
-**Colonnes 17 à 20 : les effectifs de patrons se vérifient à l'œil** — le « 5 » de
-Villeneuve l'architecte (p. 17 L5), le « 2 » de Lambert le meublier (p. 20 L16), les « 1 »
-de Nolette et de Gingras. Tous conformes.
-
-### Lot 6 — pages 21 à 24 (18 août 2026)
-
-**Colonnes 21-22 : 75 écarts sur 100 lignes**, et six « sait écrire mais ne sait pas
-lire » de plus qui tombent — cinq sur la seule page 24. Il en reste 21, pages 25 à 41.
-
-**Le patronyme « Dinan » n'existe pas : c'est « Sample ».** La maison 100 abritait, au
-dépouillement, un ménage « Dinan » ; les images JPEG avaient fait renoncer, le tracé se
-lisant « Daugh » ou « Dangh ». **Le recueil PDF le donne sans discussion : S initial, m
-et p médians, finale en -le — Sample.** C'est aussi ce que porte l'index BAC. Les deux
-sources concordent, et le patronyme cesse d'être une énigme : le ménage est anglo-irlandais
-(l'épouse est née en Irlande, le père du chef en Angleterre). Les trois lignes du ménage
-sont corrigées et le chef de famille resynchronisé.
-
-**« Leo Michal » n'était pas deux prénoms.** Page 21 ligne 1, l'enfant Chamberland de
-5 ans porte **« Léodrick »** — un seul mot d'un trait continu, i pointé, finale en -ick.
-L'hypothèse « Leo Michel »/« Leodrick » du chantier précédent se tranche du bon côté.
-
-**Une annulation, et elle instruit sur la méthode.** « Margueret » (p. 24 L12) avait été
-corrigé en « Margaret » sur les images JPEG, au motif que le ménage est irlandais. Le PDF
-montre le u après « Marg » et la finale en -et : **le recenseur, francophone, a bien écrit
-« Margueret »**. La forme anglaise est sans doute celle que cette femme portait dans sa
-vie — mais ce n'est pas ce que dit le manuscrit, et c'est le manuscrit que ce fichier
-transcrit. Correction annulée.
-
-**Un âge douteux qui se révèle juste.** Page 21 ligne 3, le « 19 » de Napoléon St Hilaire
-était noté « se lit plutôt 13 ». Comparé au 9 certain de la ligne 6 et au 3 certain de la
-ligne 9, **le second chiffre a bien la boucle fermée et la descendante du 9** ; et un
-journalier pensionnaire de 19 ans est plus cohérent qu'un de 13. Le doute est levé, la
-donnée était bonne.
-
-**Cinq confirmations** : Celina (p. 21 L15), Fabien (p. 22 L11), Olive (p. 23 L11),
-Delvina (p. 23 L24), Odina (p. 24 L19). **Colonnes 17 à 20 conformes** une septième fois,
-dont le « 5 » de Robitaille Michel le charron (p. 23 L21).
-
-### Lot 7 — pages 25 à 28 (18 août 2026)
-
-**Colonnes 21-22 : 63 écarts sur 100 lignes**, et sept « sait écrire mais ne sait pas
-lire » qui tombent. Il en reste 14, pages 29 à 41.
-
-**Les sœurs Morneau : le dépouillement est fidèle.** Page 28, Ema et Elzia portent
-toutes deux « 13 » au manuscrit, les chiffres nets sur les deux lignes — c'était l'une
-des questions d'ensemble laissées à Patrick. **La transcription n'est pas en cause** :
-reste à savoir si le recenseur a inscrit deux fois le même âge par inadvertance ou si
-ce sont des jumelles, et cela ne se décidera pas sur l'image. La cadette s'écrit
-**« Elzia »** et non « Elzie » — i pointé, a rond.
-
-**Une annulation de plus, et toujours la même leçon.** « Minie Ida » (p. 27 L22) avait
-été corrigé en « Minnie Ida » sur JPEG. **Le PDF ne porte qu'un seul n**, les deux i
-nettement pointés. Comme pour « Margueret » au lot précédent, la forme anglaise est
-sans doute celle que cette femme portait — mais ce n'est pas ce que le recenseur a
-écrit. Correction annulée. **C'est la troisième fois qu'une graphie « corrigée » vers
-la forme attendue d'un nom se révèle contraire au manuscrit** : le réflexe de
-normaliser est le piège le plus régulier de ce chantier.
-
-**Le prénom de la page 26 ligne 13 se resserre sans se trancher.** « Losie », « Rosie »
-ou « Lucie » : **le tracé ne comporte aucun c, donc « Lucie » tombe** ; la finale est
-en -ia et non -ie ; et l'initiale n'a pas la forme du F de « Fabiola » inscrit juste
-au-dessus. Reste « Losia » ou « Rosia ». Trois hypothèses réduites à deux, la bonne
-graphie de la finale acquise.
-
-**Les prénoms anglais de la page 27, précisés.** Chez les Peters, « Berrel » (L19) a
-une deuxième lettre à panse ronde — un u plutôt qu'un e : **« Burel » ou « Burrel »**,
-patronyme anglais employé comme prénom. « Aber » (L20) est net et court, **sans le l
-qu'exigerait Albert**. « Ethel » (L18) reste un tracé très ramassé, compatible avec
-une abréviation sans la montrer. Les trois gardent leur drapeau.
-
-**Deux confirmations** : Eugenie (p. 28 L18), forme féminine acquise, et Achille
-(p. 25 L14). **Colonnes 17 à 20 conformes** une huitième fois, dont le « 2 » de Côté
-le patron (p. 27 L10).
-
-### Lot 8 — pages 29 à 32 (18 août 2026)
-
-**Colonnes 21-22 : 71 écarts sur 100 lignes**, six « sait écrire mais ne sait pas lire »
-de plus. Il en reste 8, pages 33 à 41.
-
-**« Telesphore ou Stephen » : c'est Stephen.** Page 32 ligne 1, le doute traînait depuis
-le premier chantier, la fratrie francophone — Amarilda, Joséphine, Octave, Graziela —
-plaidant pour Télesphore contre un tracé qui ne le confirmait pas. **Le recueil PDF
-tranche contre la vraisemblance** : le mot compte sept lettres quand « Telesphore » en
-demande dix, l'initiale est un S ample, la finale se lit « -phen ». Un Stephen parmi ces
-prénoms-là n'a rien d'impossible — la forme anglaise d'Étienne se rencontre dans les
-familles canadiennes-françaises de la région. **Quatrième fois que le raisonnement de
-vraisemblance perd contre le tracé.**
-
-**Une annulation, toujours la même mécanique.** « Delard » (p. 29 L2) avait été corrigé
-en « Adelard » sur JPEG. Le PDF montre une majuscule D nette, **sans A qui la précède**.
-Adélard est très probablement le prénom réel de cet enfant de 3 ans ; ce n'est pas ce que
-porte le manuscrit.
-
-**Une correction JPEG qui ne tient pas.** « Ameline » (p. 31 L18) — prénom féminin pour un
-mesureur de 45 ans, chef de famille — avait été corrigé en « Anselme ». **Le PDF montre que
-l'initiale est un N à trois jambages, non un A** : « Anselme » tombe. Le tracé se lit
-« Nazael », « Nazaire » abrégé ou « Noel », la finale portant une barre d'abréviation.
-Non tranché — mais le champ des lectures a changé de camp.
-
-**« Exida » ou « Elida » : c'est Exida.** La deuxième lettre est un x compact, sans la
-haste montante qu'exigerait un l — la comparaison est immédiate avec le l de « Delard »
-deux colonnes plus haut sur la même page. L'hypothèse Elida est écartée.
-
-**Une correction du recenseur, bien suivie.** Page 32 ligne 9, l'âge de Lizie Wells :
-le recenseur avait écrit **15**, l'a biffé et a inscrit **17** au-dessus. Le dépouillement
-a suivi la correction, pas le chiffre biffé — précision d'autant plus notable que la
-division 1 a par ailleurs plusieurs fois suivi des numéros raturés.
-
-**Confirmations** : Mary Jane (p. 30 L6) ; et pour Léocadie (p. 32 L8), le **o est
-confirmé** — « Leacadi » du dépouillement était bien fautif — mais le manuscrit s'arrête
-sur un i pointé, sans e final. **Colonnes 17 à 20 conformes** une neuvième fois, dont le
-« 7 » de Demers (p. 31 L12) et le « 1 » de Wells le cultivateur anglais (p. 32 L7).
-
-### Lot 9 — pages 33 à 36 (18 août 2026)
-
-**Ce lot a commencé par une erreur d'alignement, et c'est sa trouvaille principale.**
-
-**Les cadres 35 et 36 du recueil sont intervertis sur le microfilm.** La page 36 de mes
-premiers rendus ne correspondait à rien : elle montrait le ménage Auger et se terminait sur
-Sénéchale Joseph, quand les données de la page 36 s'ouvrent sur Sénéchale Clara. La
-comparaison du contenu sur six cadres consécutifs (34 à 39) l'a établi sans ambiguïté :
-**le cadre 35 porte la page 36, le cadre 36 porte la page 35.** Les numéros de famille
-manuscrits le confirment — la page 35 se termine sur la famille 149, dont la page 36
-poursuit le ménage.
-
-C'est **exactement le défaut des cadres 89 et 90** du recueil des pages 84-142, déjà
-documenté. Deux recueils sur quatre portent un échange de cadres : ce n'est plus un
-accident isolé mais un trait du microfilm, et **la première chose à faire devant un
-nouveau recueil est de confronter le contenu du premier cadre de chaque page aux
-données**, pas seulement le cadre de tête. L'échange est codé dans `r91a.py`
-(`echanges={35: 36, 36: 35}`) et les pages 35 et 36 ont été relues après correction.
-
-**Colonnes 21-22 : 50 écarts sur 100 lignes** — le taux le plus bas des neuf lots. Deux
-« sait écrire mais ne sait pas lire » de plus tombent ; il en reste 6, pages 37 à 41.
-
-**La dernière fraction douteuse est réglée.** Page 33 ligne 3, l'âge d'Oscar Dagenais : le
-numérateur a le trait supérieur horizontal et la diagonale descendante du 7 de ce
-recenseur. **7/12 tient.** Des trois fractions que le chantier avait laissées en suspens,
-les trois sont maintenant lues — une corrigée (p. 6, 2/12 et non 9/12), deux confirmées
-(p. 15 et p. 33).
-
-**« Rose de Lima » s'écrit « Rose Delima ».** Page 34 ligne 7, le manuscrit porte Delima
-d'un seul trait, sans coupure : c'est la graphie usuelle du prénom au Québec, et le
-dépouillement l'avait scindée en trois mots.
-
-**Une seconde ligne biffée.** Page 36 ligne 23 — Terrien Joseph, 9 ans : un long trait
-horizontal barre la ligne entière, le prénom biffé par-dessus. **La question n° 3 ne
-portait que sur une ligne ; elle en concerne deux**, et celle-ci vient la première dans
-l'ordre du recensement. Voir la question n° 3, corrigée.
-
-**Confirmations** : François (p. 33 L4), Cordelia (p. 36 L3), et la lecture des colonnes
-11-13-14 de Sarah Roberge (p. 36 L14) — « England » et « Ireland » sont bien aux colonnes
-des parents, la colonne 11 portant le signe de répétition. Le dépouillement avait vu juste,
-là où quinze lignes des pages 97-142 s'étaient trompées sur le même piège.
+## Question n° 3 — les deux lignes biffées : **tranchée**
+
+Le recenseur a rayé deux lignes d'un trait horizontal, les retirant de son dénombrement :
+
+| Page·ligne | Personne | Ce que le manuscrit montre |
+|---|---|---|
+| **36 L23** | Terrien Joseph, 9 ans, fils | trait sur toute la ligne, prénom biffé par-dessus |
+| **42 L8** | Thibodeau Clara, 24 ans, fille de Louis et Olympe | trait sur toute la ligne |
+
+**Décision : les deux lignes sont conservées et marquées.** Chacune porte désormais
+`biffee: true` et une remarque qui l'explique ; la fiche de personne ouvre sur un encadré
+« Ligne biffée au manuscrit ». Le total de la division reste **3548 personnes, dont 2
+biffées** — le dénombrement officiel de 1891 en comptait 3546.
+
+**Pourquoi ce choix plutôt que la suppression.** Ce fichier sert la recherche
+généalogique, et ces deux personnes ont existé : le manuscrit porte leur nom, leur âge,
+leur lien de parenté. Les supprimer détruirait une information vérifiée pour gagner un
+alignement comptable. Le recenseur les a retirées de son *dénombrement*, pas de la
+réalité — et la raison même de la rature (Clara ne vivait plus au foyer ; Joseph compté
+ailleurs, ou décédé entre le relevé et la mise au net) est en soi un renseignement.
+
+Surtout, **marquer permet les deux lectures, supprimer n'en permettrait qu'une** : un
+chercheur qui suit une famille voit la personne, et un décompte de population peut filtrer
+sur `biffee` pour retrouver les 3546 du dénombrement officiel. C'est la seule des trois
+voies qui ne perd rien.
+
+**Le même traitement s'applique aux deux**, comme il se doit : rien ne distingue les deux
+ratures, et les traiter différemment aurait été incohérent.
+
+### La passe dédiée à la colonne 4 — et ce qu'elle a révélé du schéma
+
+**175 maisons des pages 1-41, chaque code rendu à l'échelle 30**, le numéro de famille
+inscrit dans la case voisine servant d'étalon. Résultat : **129 codes corrigés, 18
+conformes, 21 laissés** (case raturée, tache du microfilm, ou numérateur trop empâté pour
+départager la hampe de la boucle — ceux-là portent `incertain`).
+
+**Le défaut n'était pas une confusion de chiffres : c'était une erreur d'interprétation.**
+
+Le numérateur du code distingue deux glyphes — la **hampe droite à empattement** et la
+**boucle en z**. Le dépouillement les avait fondus en un « 2 » systématique : sur 168
+codes, il en portait 161. Après relecture, la proportion s'inverse — environ 130 « 1 »
+pour une trentaine de « 2 ». **Une telle domination du « 1 » ne s'explique pas par un
+nombre d'étages.**
+
+**L'en-tête imprimé du formulaire donne la réponse.** Les six premières colonnes se lisent :
+*1* Bâtiments et Chantiers · *2* Maisons en voie de construction · *3* Maisons
+**in**habitées · *4* Maisons **habitées** · *5* Familles · *6* Noms. **La colonne 4 ne
+demande pas un nombre d'étages : elle demande combien de maisons habitées** — donc « 1 »
+pour chaque maison recensée. C'est exactement ce que le manuscrit porte, et cela explique
+d'un coup la statistique.
+
+Les rares « 2 » prennent alors un sens : **deux maisons habitées comptées sous un même
+numéro**. Et le format identique relevé en colonne 3 pour les maisons vacantes (« B 1/2 »,
+« B 1/3 », « B 1/4 » — lots 1, 2 et 5) confirme la lecture : c'est bien un compte, suivi du
+nombre de pièces sous la barre.
+
+**Conséquence : le champ `etages` repose sur une lecture fautive du formulaire**, et le site
+l'affichait publiquement (« Logement en bois, 2 étage(s), 6 pièces »). L'affichage a été
+corrigé pour ne plus affirmer ce que la source ne dit pas : `maison.js` rend désormais le
+matériau, le nombre de pièces, et **le code du manuscrit tel quel**. Le champ `etages` reste
+dans les données, à sa valeur relue, mais il ne doit plus être présenté comme un nombre
+d'étages — c'est une décision de schéma qui appartient à Patrick.
+
+**Ce qui reste à faire, et qui demande les autres recueils.** Cette passe n'a couvert que les
+**175 maisons des pages 1-41** — les seules dont le recueil PDF soit joint à la session. Les
+**462 maisons des pages 42 à 142 n'ont pas été relues** : leurs codes portent toujours la
+lecture du dépouillement, et il faut s'attendre à ce que le même défaut y règne dans les
+mêmes proportions. Joindre les recueils des pages 42-83 et 84-142 permettra de terminer ; la
+méthode est en place et le discriminant est établi.
 
 ### Le bilan des dix lots
 
@@ -594,7 +224,7 @@ recueil a changé :
 | **17 à 20, 23 à 25** (patron, employé, chômage, effectifs, infirmités) | **conformité parfaite, dix lots sur dix**. Pas une marque manquée |
 | **12** (Canadiens français) | exacte jusque dans ses bizarreries — tirets isolés, ménages mixtes, enfants suivant le père |
 | **11, 13, 14** (lieux de naissance) | exacte : le piège qui a fabriqué quinze faux immigrants aux pages 97-142 n'a pas joué ici |
-| **4** (logement) | **défaut systématique découvert** — voir le lot 4 ; une passe dédiée reste à faire sur toute la division |
+| **4** (logement) | **défaut systématique** — passe dédiée faite sur les pages 1-41 : 129 codes corrigés, et l'interprétation « nombre d'étages » invalidée (voir ci-dessus) |
 | **16** (profession) | une omission trouvée (p. 19 L22) |
 
 **Les 339 lignes des pages 1-41 sans valeur d'alphabétisation ne sont plus une lacune :
