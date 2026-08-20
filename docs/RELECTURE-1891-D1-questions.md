@@ -23,7 +23,7 @@ religions, les paires de frères et sœurs au même âge.
 
 **Le recueil des pages 1 à 41 est arrivé** (`1891_01_DIV12`, pris en charge par `r91a.py`) :
 la reprise est en cours, par lots de quatre pages — voir la section « Le recueil des pages
-1 à 41 » ci-dessous. **Lots 1 à 8 (pages 1-32) : faits.**
+1 à 41 » ci-dessous. **Lots 1 à 9 (pages 1-36) : faits.**
 
 **Les pages 42 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF) : le
 rendu à haute résolution y règle en quelques minutes ce que les JPEG laissaient
@@ -157,7 +157,15 @@ possibles :
    vaut pour la recherche généalogique ;
 3. la garder sans rien changer.
 
-C'est la première ligne biffée rencontrée en 45 pages.
+**Ce n'est pas la seule.** Le recueil des pages 1-41 en a révélé une seconde, plus haut
+dans le recensement : **page 36, ligne 23 — Terrien Joseph, 9 ans, fils.** Même geste, un
+long trait horizontal en travers de toute la ligne, et le prénom biffé par-dessus. Elle
+figure elle aussi au fichier, avec la remarque « Ligne rayée au registre ».
+
+**La décision de Patrick porte donc sur deux lignes, pas une** — et le choix doit être le
+même pour les deux, sous peine d'incohérence. Les trois voies ci-dessus valent
+inchangées ; seul le décompte change : retirer les deux ferait passer la division de 3548
+à 3546 personnes.
 
 ## Le recueil des pages 1 à 41 — la relecture reprend, par lots de quatre pages
 
@@ -530,6 +538,48 @@ confirmé** — « Leacadi » du dépouillement était bien fautif — mais le m
 sur un i pointé, sans e final. **Colonnes 17 à 20 conformes** une neuvième fois, dont le
 « 7 » de Demers (p. 31 L12) et le « 1 » de Wells le cultivateur anglais (p. 32 L7).
 
+### Lot 9 — pages 33 à 36 (18 août 2026)
+
+**Ce lot a commencé par une erreur d'alignement, et c'est sa trouvaille principale.**
+
+**Les cadres 35 et 36 du recueil sont intervertis sur le microfilm.** La page 36 de mes
+premiers rendus ne correspondait à rien : elle montrait le ménage Auger et se terminait sur
+Sénéchale Joseph, quand les données de la page 36 s'ouvrent sur Sénéchale Clara. La
+comparaison du contenu sur six cadres consécutifs (34 à 39) l'a établi sans ambiguïté :
+**le cadre 35 porte la page 36, le cadre 36 porte la page 35.** Les numéros de famille
+manuscrits le confirment — la page 35 se termine sur la famille 149, dont la page 36
+poursuit le ménage.
+
+C'est **exactement le défaut des cadres 89 et 90** du recueil des pages 84-142, déjà
+documenté. Deux recueils sur quatre portent un échange de cadres : ce n'est plus un
+accident isolé mais un trait du microfilm, et **la première chose à faire devant un
+nouveau recueil est de confronter le contenu du premier cadre de chaque page aux
+données**, pas seulement le cadre de tête. L'échange est codé dans `r91a.py`
+(`echanges={35: 36, 36: 35}`) et les pages 35 et 36 ont été relues après correction.
+
+**Colonnes 21-22 : 50 écarts sur 100 lignes** — le taux le plus bas des neuf lots. Deux
+« sait écrire mais ne sait pas lire » de plus tombent ; il en reste 6, pages 37 à 41.
+
+**La dernière fraction douteuse est réglée.** Page 33 ligne 3, l'âge d'Oscar Dagenais : le
+numérateur a le trait supérieur horizontal et la diagonale descendante du 7 de ce
+recenseur. **7/12 tient.** Des trois fractions que le chantier avait laissées en suspens,
+les trois sont maintenant lues — une corrigée (p. 6, 2/12 et non 9/12), deux confirmées
+(p. 15 et p. 33).
+
+**« Rose de Lima » s'écrit « Rose Delima ».** Page 34 ligne 7, le manuscrit porte Delima
+d'un seul trait, sans coupure : c'est la graphie usuelle du prénom au Québec, et le
+dépouillement l'avait scindée en trois mots.
+
+**Une seconde ligne biffée.** Page 36 ligne 23 — Terrien Joseph, 9 ans : un long trait
+horizontal barre la ligne entière, le prénom biffé par-dessus. **La question n° 3 ne
+portait que sur une ligne ; elle en concerne deux**, et celle-ci vient la première dans
+l'ordre du recensement. Voir la question n° 3, corrigée.
+
+**Confirmations** : François (p. 33 L4), Cordelia (p. 36 L3), et la lecture des colonnes
+11-13-14 de Sarah Roberge (p. 36 L14) — « England » et « Ireland » sont bien aux colonnes
+des parents, la colonne 11 portant le signe de répétition. Le dépouillement avait vu juste,
+là où quinze lignes des pages 97-142 s'étaient trompées sur le même piège.
+
 ## Question n° 1 — les colonnes 21 et 22 : la passe est terminée
 
 **Pages 42 à 142 : 2523 lignes relues case par case, 152 corrigées.** Ne restaient que les
@@ -605,9 +655,9 @@ recenseur. **La passe complète confirme les deux bizarreries** : les colonnes 2
 Gagnon Louis (p. 93) et de Terrien Leon (p. 120) portent bien un tiret puis un « 1 », et
 ce sont les deux seules de ce genre dans les 101 pages relues. À ce compte, la
 cinquantaine de cas des pages 1 à 41 méritait d'être reprise sur PDF. **La reprise a
-commencé : sur les pages 1 à 32, les quarante-six cas sont tous tombés** — quarante et une
-inversions (« lit mais n'écrit pas ») et cinq doubles tirets. Restent 8 cas,
-pages 33 à 41.
+commencé : sur les pages 1 à 36, les quarante-huit cas sont tous tombés** — quarante-trois
+inversions (« lit mais n'écrit pas ») et cinq doubles tirets. Restent 6 cas,
+pages 37 à 41.
 
 ## Laissé en l'état, faute de lecture — à reprendre au manuscrit
 
@@ -654,7 +704,8 @@ n'a été appliqué.
 - **Page 38 ligne 1** : Gagné « Reme Celestin » — René ou Reine ?
 - **Page 37 ligne 18** : Daigle J. Baptiste, 57 ans dans les données, plutôt 52 au
   manuscrit.
-- **Page 33 ligne 3** : Dagenais Oscar, fraction de mois non lisible.
+- ~~**Page 33 ligne 3**~~ : **tranché au recueil PDF — 7/12**, le numérateur a le trait
+  horizontal et la diagonale du 7. Dernière des trois fractions douteuses, toutes lues.
 - **Page 41 ligne 14** : « Delard » — la même forme a été lue Adelard page 29, mais
   ici le manuscrit porte bien Delard. Non harmonisé.
 - **Page 44 ligne 11** : « Aterne » ou « Alerne ».
@@ -804,9 +855,9 @@ n'a été appliqué.
   recenseur : soit les jumeaux étaient nombreux, soit il inscrivait le même âge par
   inadvertance en descendant la colonne.
 
-Des trois fractions de mois douteuses, **deux sont tranchées au recueil PDF** : la
-page 6 ligne 11 se lit 2/12 et non 9/12 (lot 2), et la page 15 ligne 22 confirme son
-9/12 (lot 4). Reste la page 4 ligne 23.
+**Les trois fractions de mois douteuses sont tranchées au recueil PDF** : la page 6
+ligne 11 se lit 2/12 et non 9/12 (lot 2), la page 15 ligne 22 confirme son 9/12 (lot 4),
+et la page 33 ligne 3 son 7/12 (lot 9).
 
 ## Question n° 2 — un prénom manquant : **close, et ce n'est pas une faute de lecture**
 

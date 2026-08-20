@@ -153,10 +153,16 @@ Deux pièges propres à ces recueils :
 1. **Le cadre ne tombe pas au même endroit d'une page à l'autre.** `r91b.py` détecte
    les deux filets pleine largeur qui bornent les 25 lignes ; ne pas revenir à des
    constantes en dur.
-2. **Les cadres des pages 89 et 90 sont intervertis sur le microfilm.** L'en-tête
-   imprimé « PAGE nn » de chaque cadre fait foi — les données suivent l'en-tête, et
-   les numéros de famille manuscrits le confirment. L'échange est codé dans
-   `r91b.ECHANGES`.
+2. **Deux recueils sur quatre portent un échange de cadres.** Les cadres des pages 89
+   et 90 sont intervertis (`r91b`), et ceux des pages **35 et 36** le sont aussi
+   (`r91a`). Le contenu fait foi, et les numéros de famille manuscrits le confirment.
+   L'échange se code dans le paramètre `echanges` du `Recueil`.
+
+   **Devant un nouveau recueil, vérifier l'alignement page par page avant de lire** :
+   confronter les deux ou trois premières lignes de *chaque* cadre au dump des données
+   (`node page91.mjs n`). Un échange se voit immédiatement ; caler seulement le cadre de
+   tête ne suffit pas, et une page lue sur le mauvais cadre produit des « corrections »
+   entièrement fausses.
 
 La différence de rendement avec les images JPEG est nette : sur JPEG, le 5 et le 8 de
 ce recenseur sont indiscernables et une page prend un lot entier ; sur PDF rendu à
