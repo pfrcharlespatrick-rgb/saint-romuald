@@ -172,46 +172,37 @@ voies qui ne perd rien.
 **Le même traitement s'applique aux deux**, comme il se doit : rien ne distingue les deux
 ratures, et les traiter différemment aurait été incohérent.
 
-### La passe dédiée à la colonne 4 — et ce qu'elle a révélé du schéma
+### La passe dédiée à la colonne 4
 
 **175 maisons des pages 1-41, chaque code rendu à l'échelle 30**, le numéro de famille
 inscrit dans la case voisine servant d'étalon. Résultat : **129 codes corrigés, 18
 conformes, 21 laissés** (case raturée, tache du microfilm, ou numérateur trop empâté pour
 départager la hampe de la boucle — ceux-là portent `incertain`).
 
-**Le défaut n'était pas une confusion de chiffres : c'était une erreur d'interprétation.**
+**Le numérateur distingue deux glyphes** : la **hampe droite à empattement** (1) et la
+**boucle en z** (2). Le dépouillement les avait fondus en un « 2 » systématique — sur 168
+codes il en portait 161. Après relecture, la proportion s'inverse : **environ 130 « 1 »
+pour une trentaine de « 2 »**.
 
-Le numérateur du code distingue deux glyphes — la **hampe droite à empattement** et la
-**boucle en z**. Le dépouillement les avait fondus en un « 2 » systématique : sur 168
-codes, il en portait 161. Après relecture, la proportion s'inverse — environ 130 « 1 »
-pour une trentaine de « 2 ». **Une telle domination du « 1 » ne s'explique pas par un
-nombre d'étages.**
+**Ce chiffre est le nombre d'étages**, conformément au guide remis aux énumérateurs par le
+gouvernement — c'est la source qui fixe la lecture du code, et l'interprétation retenue par
+le projet (`materiau` / `etages` / `chambres`) est la bonne. Le résultat de la passe est donc
+que **Saint-Romuald était un village de maisons à un étage** : environ quatre sur cinq, le
+reste à deux. Le dépouillement avait inversé ce rapport.
 
-**L'en-tête imprimé du formulaire donne la réponse.** Les six premières colonnes se lisent :
-*1* Bâtiments et Chantiers · *2* Maisons en voie de construction · *3* Maisons
-**in**habitées · *4* Maisons **habitées** · *5* Familles · *6* Noms. **La colonne 4 ne
-demande pas un nombre d'étages : elle demande combien de maisons habitées** — donc « 1 »
-pour chaque maison recensée. C'est exactement ce que le manuscrit porte, et cela explique
-d'un coup la statistique.
-
-Les rares « 2 » prennent alors un sens : **deux maisons habitées comptées sous un même
-numéro**. Et le format identique relevé en colonne 3 pour les maisons vacantes (« B 1/2 »,
-« B 1/3 », « B 1/4 » — lots 1, 2 et 5) confirme la lecture : c'est bien un compte, suivi du
-nombre de pièces sous la barre.
-
-**Conséquence : le champ `etages` repose sur une lecture fautive du formulaire**, et le site
-l'affichait publiquement (« Logement en bois, 2 étage(s), 6 pièces »). L'affichage a été
-corrigé pour ne plus affirmer ce que la source ne dit pas : `maison.js` rend désormais le
-matériau, le nombre de pièces, et **le code du manuscrit tel quel**. Le champ `etages` reste
-dans les données, à sa valeur relue, mais il ne doit plus être présenté comme un nombre
-d'étages — c'est une décision de schéma qui appartient à Patrick.
+*Note de méthode.* J'avais d'abord conclu de cette statistique que le numérateur ne pouvait
+pas être un nombre d'étages et devait être le compte de la colonne 4 (« Maisons habitées »).
+C'était une déduction faite sans connaître le guide des énumérateurs, et elle était fausse :
+quatre maisons sur cinq à un étage n'a rien d'invraisemblable dans une paroisse ouvrière de
+1891. **La leçon rejoint celle des dix lots** — le raisonnement de vraisemblance ne tranche
+pas contre la source ; ici il s'égarait faute d'avoir la bonne source sous les yeux.
 
 **Ce qui reste à faire, et qui demande les autres recueils.** Cette passe n'a couvert que les
 **175 maisons des pages 1-41** — les seules dont le recueil PDF soit joint à la session. Les
 **462 maisons des pages 42 à 142 n'ont pas été relues** : leurs codes portent toujours la
-lecture du dépouillement, et il faut s'attendre à ce que le même défaut y règne dans les
-mêmes proportions. Joindre les recueils des pages 42-83 et 84-142 permettra de terminer ; la
-méthode est en place et le discriminant est établi.
+lecture du dépouillement, et il faut s'attendre au même défaut dans les mêmes proportions.
+Joindre les recueils des pages 42-83 et 84-142 permettra de terminer ; la méthode est en
+place et le discriminant est établi.
 
 ### Le bilan des dix lots
 
@@ -224,7 +215,7 @@ recueil a changé :
 | **17 à 20, 23 à 25** (patron, employé, chômage, effectifs, infirmités) | **conformité parfaite, dix lots sur dix**. Pas une marque manquée |
 | **12** (Canadiens français) | exacte jusque dans ses bizarreries — tirets isolés, ménages mixtes, enfants suivant le père |
 | **11, 13, 14** (lieux de naissance) | exacte : le piège qui a fabriqué quinze faux immigrants aux pages 97-142 n'a pas joué ici |
-| **4** (logement) | **défaut systématique** — passe dédiée faite sur les pages 1-41 : 129 codes corrigés, et l'interprétation « nombre d'étages » invalidée (voir ci-dessus) |
+| **4** (logement) | **défaut systématique** — passe dédiée faite sur les pages 1-41 : 129 codes corrigés, le nombre d'étages était lu 2 là où le manuscrit porte 1 |
 | **16** (profession) | une omission trouvée (p. 19 L22) |
 
 **Les 339 lignes des pages 1-41 sans valeur d'alphabétisation ne sont plus une lacune :

@@ -93,16 +93,11 @@
     var nPersonnes = f.familles.reduce(function (s, fam) { return s + fam.membres.length; }, 0);
     var sousTitre = f.familles.length + ' famille' + (f.familles.length > 1 ? 's y vivent' : ' y vit') +
       ' en ' + f.annee + ' : ' + nPersonnes + ' personne' + (nPersonnes > 1 ? 's' : '') + '.';
-    // Colonne 4 du formulaire de 1891 : « Maisons habitées ». Le chiffre porté
-    // au-dessus de la barre y compte les maisons, il ne donne pas un nombre
-    // d'étages — voir docs/RELECTURE-1891-D1-questions.md, passe colonne 4.
-    // On n'affiche donc que ce qui est sûr : le matériau, le nombre de pièces,
-    // et le code du manuscrit tel quel.
     var logementTxt = '';
     if (f.logement && f.logement.materiau) {
       logementTxt = ' Logement en ' + f.logement.materiau.toLowerCase() +
-        (f.logement.chambres ? ', ' + f.logement.chambres + ' pièce(s)' : '') +
-        (f.logement.code_ms ? ' (colonne 4 du manuscrit : « ' + f.logement.code_ms + ' »)' : '') + '.';
+        (f.logement.etages ? ', ' + f.logement.etages + ' étage(s)' : '') +
+        (f.logement.chambres ? ', ' + f.logement.chambres + ' pièce(s)' : '') + '.';
     }
     contenu.innerHTML = (
       '<span class="etiquette">Fiche de maison · recensement de ' + esc(f.annee) + ', division ' + esc(f.division) + '</span>' +
