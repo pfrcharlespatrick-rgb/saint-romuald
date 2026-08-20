@@ -23,7 +23,7 @@ religions, les paires de frères et sœurs au même âge.
 
 **Le recueil des pages 1 à 41 est arrivé** (`1891_01_DIV12`, pris en charge par `r91a.py`) :
 la reprise est en cours, par lots de quatre pages — voir la section « Le recueil des pages
-1 à 41 » ci-dessous. **Lots 1 à 6 (pages 1-24) : faits.**
+1 à 41 » ci-dessous. **Lots 1 à 7 (pages 1-28) : faits.**
 
 **Les pages 42 à 142 ont été lues sur PDF** (deux pages du manuscrit par page PDF) : le
 rendu à haute résolution y règle en quelques minutes ce que les JPEG laissaient
@@ -455,6 +455,42 @@ donnée était bonne.
 Delvina (p. 23 L24), Odina (p. 24 L19). **Colonnes 17 à 20 conformes** une septième fois,
 dont le « 5 » de Robitaille Michel le charron (p. 23 L21).
 
+### Lot 7 — pages 25 à 28 (18 août 2026)
+
+**Colonnes 21-22 : 63 écarts sur 100 lignes**, et sept « sait écrire mais ne sait pas
+lire » qui tombent. Il en reste 14, pages 29 à 41.
+
+**Les sœurs Morneau : le dépouillement est fidèle.** Page 28, Ema et Elzia portent
+toutes deux « 13 » au manuscrit, les chiffres nets sur les deux lignes — c'était l'une
+des questions d'ensemble laissées à Patrick. **La transcription n'est pas en cause** :
+reste à savoir si le recenseur a inscrit deux fois le même âge par inadvertance ou si
+ce sont des jumelles, et cela ne se décidera pas sur l'image. La cadette s'écrit
+**« Elzia »** et non « Elzie » — i pointé, a rond.
+
+**Une annulation de plus, et toujours la même leçon.** « Minie Ida » (p. 27 L22) avait
+été corrigé en « Minnie Ida » sur JPEG. **Le PDF ne porte qu'un seul n**, les deux i
+nettement pointés. Comme pour « Margueret » au lot précédent, la forme anglaise est
+sans doute celle que cette femme portait — mais ce n'est pas ce que le recenseur a
+écrit. Correction annulée. **C'est la troisième fois qu'une graphie « corrigée » vers
+la forme attendue d'un nom se révèle contraire au manuscrit** : le réflexe de
+normaliser est le piège le plus régulier de ce chantier.
+
+**Le prénom de la page 26 ligne 13 se resserre sans se trancher.** « Losie », « Rosie »
+ou « Lucie » : **le tracé ne comporte aucun c, donc « Lucie » tombe** ; la finale est
+en -ia et non -ie ; et l'initiale n'a pas la forme du F de « Fabiola » inscrit juste
+au-dessus. Reste « Losia » ou « Rosia ». Trois hypothèses réduites à deux, la bonne
+graphie de la finale acquise.
+
+**Les prénoms anglais de la page 27, précisés.** Chez les Peters, « Berrel » (L19) a
+une deuxième lettre à panse ronde — un u plutôt qu'un e : **« Burel » ou « Burrel »**,
+patronyme anglais employé comme prénom. « Aber » (L20) est net et court, **sans le l
+qu'exigerait Albert**. « Ethel » (L18) reste un tracé très ramassé, compatible avec
+une abréviation sans la montrer. Les trois gardent leur drapeau.
+
+**Deux confirmations** : Eugenie (p. 28 L18), forme féminine acquise, et Achille
+(p. 25 L14). **Colonnes 17 à 20 conformes** une huitième fois, dont le « 2 » de Côté
+le patron (p. 27 L10).
+
 ## Question n° 1 — les colonnes 21 et 22 : la passe est terminée
 
 **Pages 42 à 142 : 2523 lignes relues case par case, 152 corrigées.** Ne restaient que les
@@ -530,9 +566,9 @@ recenseur. **La passe complète confirme les deux bizarreries** : les colonnes 2
 Gagnon Louis (p. 93) et de Terrien Leon (p. 120) portent bien un tiret puis un « 1 », et
 ce sont les deux seules de ce genre dans les 101 pages relues. À ce compte, la
 cinquantaine de cas des pages 1 à 41 méritait d'être reprise sur PDF. **La reprise a
-commencé : sur les pages 1 à 24, les trente-trois cas sont tous tombés** — trente
-inversions (« lit mais n'écrit pas ») et trois doubles tirets. Restent 21 cas,
-pages 25 à 41.
+commencé : sur les pages 1 à 28, les quarante cas sont tous tombés** — trente-cinq
+inversions (« lit mais n'écrit pas ») et cinq doubles tirets. Restent 14 cas,
+pages 29 à 41.
 
 ## Laissé en l'état, faute de lecture — à reprendre au manuscrit
 
@@ -560,11 +596,16 @@ n'a été appliqué.
 - ~~**Page 21 ligne 1**~~ : **tranché au recueil PDF — « Léodrick », un seul mot.**
 - ~~**Page 24 ligne 11**~~ : **tranché au recueil PDF — le patronyme est « Sample »,**
   ce que lisait aussi l'index BAC. Ménage anglo-irlandais.
-- **Page 26 ligne 13** : « Losie », « Rosie » ou « Lucie ».
-- **Page 27 lignes 19 et 20** : « Berrel » et « Aber », famille anglophone.
+- **Page 26 ligne 13** : « Losie » ou « Rosie » — **« Lucie » écarté au recueil PDF**
+  (aucun c dans le tracé), et la finale est en -ia. L'initiale L ou R reste indécise.
+- **Page 27 lignes 19 et 20** : « Berrel » et « Aber », famille anglophone. **Précisé au
+  recueil PDF** : la deuxième lettre de « Berrel » est un u — « Burel »/« Burrel » ;
+  « Aber » est net et court, sans le l d'« Albert ».
 - **Page 29 ligne 12** : « Exida » ou « Elida ».
 - **Page 28 lignes 12 et 13** : deux sœurs Morneau portées toutes deux à 13 ans au
-  manuscrit. Jumelles ou erreur du recenseur.
+  manuscrit — **confirmé au recueil PDF, les chiffres sont nets sur les deux lignes.**
+  Le dépouillement est fidèle ; jumelles ou erreur du recenseur, cela ne se décidera
+  pas sur l'image.
 - **Page 32 ligne 1** : « Telesphore » ou « Stephen ». La fratrie est francophone
   (Amarilda, Joséphine, Octave, Graziela), ce qui plaide pour Télesphore, mais le
   tracé ne le confirme pas.
@@ -792,7 +833,7 @@ Toutes portent `incertain: true` et gardent la lecture d'origine en remarque.
 | 23 L24 | Robitaille Delvin | Delvina — **confirmée au recueil PDF** |
 | 24 L12 | **Sample** Margueret | ~~**Margaret**~~ — **annulée au recueil PDF** : le manuscrit porte le u et la finale -et ; le recenseur francophone a écrit « Margueret » |
 | 24 L19 | Gendron Odena | Odina — **confirmée au recueil PDF** |
-| 25 L14 | Demers **Archile** | **Achille** |
+| 25 L14 | Demers **Archile** | **Achille** — **confirmée au recueil PDF** |
 | 27 L18 | Peters **Etel** | **Ethel** (famille anglophone) |
 | 27 L22 | Peters Minie Ida | Minnie Ida |
 | **28 L18** | Robitaille **« Eugene », F, 22, fille** | **Eugénie** |
