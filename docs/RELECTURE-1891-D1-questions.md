@@ -240,9 +240,54 @@ chiffres.
    n'ont pas été relues et sont signalées comme telles. C'est le seul défaut de géométrie
    rencontré sur les 42 pages.
 
-**Ce qui reste.** Les **274 maisons des pages 84 à 142** n'ont pas été relues : il manque
-le recueil `1891_DIV12_Partie03`. La méthode est rodée, le discriminant établi, et le
-contrôle d'alignement systématique.
+#### Troisième volet : les 274 maisons des pages 84 à 142 — la passe est complète
+
+Le dernier recueil (fichier « 189102DIV12 », 30 pages PDF, 59 cadres remplis) est pris en
+charge par `r91d.py`. Deux défauts, tous deux établis **avant** de lire :
+
+1. **Les cadres 89 et 90 y sont intervertis**, comme dans `r91b`. J'avais écrit l'inverse
+   dans le docstring avant vérification ; la confrontation du contenu aux données l'a
+   renversé.
+2. **La géométrie est irrégulière** : la détection de filets se trompe sur 19 des 59
+   pages, prenant le filet de la ligne 1 — ou la rangée des numéros de colonnes — pour le
+   haut de table. Un recalage par la médiane des hauts de cadre a été essayé : **il
+   corrige une partie des pages et en décale d'autres**, et a été abandonné.
+
+**La parade ne dépend pas du calage.** Le numéro de famille est écrit en gros dans la case
+voisine du code, et sa valeur est connue par les données : en rendant trois lignes autour
+de la ligne attendue, on lit le code de la ligne qui porte le bon numéro, quel que soit le
+décalage. C'est la méthode à retenir pour tout recueil mal calé.
+
+**Résultat : 123 codes corrigés, 84 comblés, 50 conformes, 17 laissés.**
+
+**Une validation décisive au passage.** À partir de la page 115, les données portaient
+**déjà** « B 1/x » — ce sont les pages où le dépouillement a été soigneux (celles-là mêmes
+que la passe des colonnes 21-22 avait trouvées complètes à 25 sur 25). **Il y lit « 1 »
+comme moi.** Là où il a bâclé, il a posé « 2 » par défaut. Cette concordance, sur une
+cinquantaine de maisons, conforte l'ensemble des corrections « 2 → 1 » des trois volets.
+
+**Deux matériaux non tranchés** : M577 et M584 portent peut-être un « Br » et un « P »,
+mais le rendu de ce recueil est moins net que celui des pages 42-83 et ne permet pas de
+décider. Signalés, non corrigés.
+
+### La passe de la colonne 4 est terminée
+
+**582 des 637 maisons relues au recueil — 91 %.** Les 55 restantes sont les cases
+illisibles (rature, tache, chiffre absent) et les quatre maisons de la page 79, dont le
+cadre est mal calé dans le recueil des pages 42-83.
+
+| | Corrigés | Comblés | Conformes | Laissés |
+|---|---|---|---|---|
+| Pages 1-41 | 129 | — | 18 | 21 |
+| Pages 42-83 | 47 | 95 | 11 | 35 |
+| Pages 84-142 | 123 | 84 | 50 | 17 |
+| **Total** | **299** | **179** | **79** | **73** |
+
+**Les maisons munies d'un code passent de 421 à 596.** Et le portrait du bâti change du
+tout au tout : **499 maisons à un étage, 95 à deux, 2 à trois**. Le dépouillement donnait
+l'inverse. Saint-Romuald était un village de maisons basses.
+
+**Matériaux** : 507 maisons de bois, 4 de brique, 1 de pierre.
 
 ### Le bilan des dix lots
 
