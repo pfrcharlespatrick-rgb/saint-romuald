@@ -197,12 +197,41 @@ quatre maisons sur cinq à un étage n'a rien d'invraisemblable dans une paroiss
 1891. **La leçon rejoint celle des dix lots** — le raisonnement de vraisemblance ne tranche
 pas contre la source ; ici il s'égarait faute d'avoir la bonne source sous les yeux.
 
-**Ce qui reste à faire, et qui demande les autres recueils.** Cette passe n'a couvert que les
-**175 maisons des pages 1-41** — les seules dont le recueil PDF soit joint à la session. Les
-**462 maisons des pages 42 à 142 n'ont pas été relues** : leurs codes portent toujours la
-lecture du dépouillement, et il faut s'attendre au même défaut dans les mêmes proportions.
-Joindre les recueils des pages 42-83 et 84-142 permettra de terminer ; la méthode est en
-place et le discriminant est établi.
+#### Second volet : les 188 maisons des pages 42 à 83
+
+Le recueil `1891_Partie02` (r91c) est arrivé à son tour. **Alignement vérifié d'abord** —
+quinze pages échantillonnées de 42 à 83, contenu confronté aux données : aucun échange de
+cadres, contrairement au recueil précédent. La leçon du lot 9 est devenue un réflexe.
+
+**Résultat : 47 codes corrigés, 95 comblés, 11 conformes, 35 laissés.**
+
+**Le gain principal n'est pas la correction, c'est le comblement.** Sur ces pages, le
+dépouillement avait laissé la colonne 4 **vide pour 120 maisons sur 188** — il ne l'avait
+relevée que par intermittence. Le manuscrit, lui, la porte presque partout. Les maisons
+des pages 42-83 munies d'un code passent de **68 à 163**.
+
+**Le même défaut de numérateur s'y retrouve**, dans les mêmes proportions qu'aux pages
+1-41 : le « 2 » du dépouillement est le plus souvent une hampe de 1. Mais ces pages
+révèlent en outre des **dénominateurs fautifs** — le nombre de pièces —, ce que les pages
+1-41 n'avaient presque pas montré : M190 (3 et non 5), M196 (8 et non 5), M198 (2 et non
+3), M212, M271, M317, M319. Sur ces pages, le dépouillement s'est trompé sur les deux
+chiffres.
+
+**Deux observations à porter au dossier.**
+
+1. **Trois maisons portent « BR » et non « B »** en tête de code — M264, M279, M287. Si
+   « BR » vaut *brique* là où « B » vaut *bois*, ce sont les seules maisons non
+   charpentées relevées jusqu'ici, et le matériau du fichier serait à revoir pour
+   elles. Elles sont laissées telles quelles et signalées : la lecture demande une
+   confirmation qui dépasse le tracé.
+2. **La page 79 est mal calée par la détection de cadre du recueil** (`frame()` y trouve
+   un filet parasite et remonte d'une demi-ligne). Ses quatre maisons — M342 à M345 —
+   n'ont pas été relues et sont signalées comme telles. C'est le seul défaut de géométrie
+   rencontré sur les 42 pages.
+
+**Ce qui reste.** Les **274 maisons des pages 84 à 142** n'ont pas été relues : il manque
+le recueil `1891_DIV12_Partie03`. La méthode est rodée, le discriminant établi, et le
+contrôle d'alignement systématique.
 
 ### Le bilan des dix lots
 
