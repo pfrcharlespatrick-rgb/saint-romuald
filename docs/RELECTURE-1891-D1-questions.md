@@ -219,11 +219,22 @@ chiffres.
 
 **Deux observations à porter au dossier.**
 
-1. **Trois maisons portent « BR » et non « B »** en tête de code — M264, M279, M287. Si
-   « BR » vaut *brique* là où « B » vaut *bois*, ce sont les seules maisons non
-   charpentées relevées jusqu'ici, et le matériau du fichier serait à revoir pour
-   elles. Elles sont laissées telles quelles et signalées : la lecture demande une
-   confirmation qui dépasse le tracé.
+1. **Quatre maisons ne sont pas en bois — et la lettre de tête le disait.** La table de
+   l'atelier code déjà les trois matériaux du formulaire : `B` bois, `Br` brique, `P`
+   pierre. Relues à l'échelle 34, quatre maisons de ces pages portent autre chose qu'un
+   B seul :
+
+   | Maison | Page | Code | Matériau |
+   |---|---|---|---|
+   | 264 | 60 | **Br 2/16** | brique — le « Br » est net |
+   | 279 | 64 | **Br 1/7** | brique ; la colonne 3 porte en outre « 1/5 », une vacante attenante |
+   | 287 | 65 | **Br 2/11** | brique, empâté mais du même tracé |
+   | **291** | **66** | **P 1/12** | **pierre** — un P majuscule cursif isolé, sans la panse du B ni le r du Br |
+
+   **La maison 291 est la première maison de pierre de la division.** Les quatre étaient
+   sans code au dépouillement. Le fichier comptait déjà une maison de brique relevée par
+   le dépouillement (M504, page 113) : les lectures concordent avec son usage, ce qui les
+   conforte. La division compte désormais 507 maisons de bois, 4 de brique, 1 de pierre.
 2. **La page 79 est mal calée par la détection de cadre du recueil** (`frame()` y trouve
    un filet parasite et remonte d'une demi-ligne). Ses quatre maisons — M342 à M345 —
    n'ont pas été relues et sont signalées comme telles. C'est le seul défaut de géométrie
