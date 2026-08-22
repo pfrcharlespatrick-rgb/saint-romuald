@@ -103,16 +103,26 @@ a:hover{color:var(--color-accent-900)}
 
       <div style="margin-top:var(--space-4);padding-top:var(--space-3);border-top:1px solid var(--color-neutral-300)">
         <div style="font-family:var(--font-heading);font-size:14px;letter-spacing:.03em;text-transform:uppercase;margin-bottom:2px">Pousser vers GitHub</div>
-        <p style="margin:0 0 var(--space-3);font-size:12px;color:var(--color-neutral-700);max-width:82ch;text-wrap:pretty">Enregistre ce travail (hors photos) dans le dépôt, sur la branche « atelier-sauvegarde », avec une pull request ouverte ou mise à jour automatiquement — jamais directement sur main. La poussée démarre toute seule à l’ouverture de ce panneau dès qu’un jeton est enregistré ; le bouton sert à relancer au besoin. Il faut un jeton d'accès personnel fin (« fine-grained »), limité à ce dépôt, avec les permissions Contents et Pull requests en lecture/écriture. Le jeton reste dans ce navigateur (localStorage) ; quiconque a accès à cet appareil peut le lire.</p>
+        <p style="margin:0 0 var(--space-3);font-size:12px;color:var(--color-neutral-700);max-width:82ch;text-wrap:pretty">Enregistre ce travail (hors photos) dans le dépôt, sur la branche « atelier-sauvegarde », avec une pull request ouverte ou mise à jour automatiquement — jamais directement sur main. La poussée démarre toute seule à l’ouverture de ce panneau dès qu’un accès est configuré ; le bouton sert à relancer au besoin. Deux façons de se brancher : le <b>relais</b> (recommandé — le jeton GitHub reste sur Cloudflare, voir <code>outils/atelier-relais/README.md</code>), ou un <b>jeton</b> fin (« fine-grained ») limité à ce dépôt, permissions Contents et Pull requests en lecture/écriture, gardé dans ce navigateur (localStorage) où quiconque accède à l’appareil peut le lire.</p>
         <sc-if value="{{ githubConnecte }}" hint-placeholder-val="{{ false }}">
           <div style="display:flex;gap:var(--space-2);align-items:center;flex-wrap:wrap">
             <button type="button" class="btn btn-primary" style="padding:5px 13px;white-space:nowrap" onClick="{{ onPousserGithub }}" disabled="{{ pushEnCours }}">{{ pushBtnLabel }}</button>
-            <button type="button" class="btn btn-ghost" style="padding:5px 13px;white-space:nowrap;font-size:12px" onClick="{{ onDeconnecterGithub }}">Oublier le jeton</button>
+            <sc-if value="{{ githubParRelais }}" hint-placeholder-val="{{ false }}">
+              <button type="button" class="btn btn-ghost" style="padding:5px 13px;white-space:nowrap;font-size:12px" onClick="{{ onDeconnecterRelais }}">Oublier le relais</button>
+            </sc-if>
+            <sc-if value="{{ githubParJeton }}" hint-placeholder-val="{{ false }}">
+              <button type="button" class="btn btn-ghost" style="padding:5px 13px;white-space:nowrap;font-size:12px" onClick="{{ onDeconnecterGithub }}">Oublier le jeton</button>
+            </sc-if>
           </div>
         </sc-if>
         <sc-if value="{{ githubDeconnecte }}" hint-placeholder-val="{{ true }}">
+          <div style="display:flex;gap:var(--space-2);align-items:center;flex-wrap:wrap;margin-bottom:var(--space-2)">
+            <input class="input" type="text" style="max-width:300px;font-size:13px" placeholder="Adresse du relais (https://….workers.dev)" value="{{ relaisUrlSaisi }}" onInput="{{ onRelaisUrlInput }}"></input>
+            <input class="input" type="password" style="max-width:220px;font-size:13px" placeholder="Clé d'atelier" value="{{ relaisCleSaisie }}" onInput="{{ onRelaisCleInput }}"></input>
+            <button type="button" class="btn btn-secondary" style="padding:5px 13px;white-space:nowrap" onClick="{{ onConnecterRelais }}">Utiliser le relais</button>
+          </div>
           <div style="display:flex;gap:var(--space-2);align-items:center;flex-wrap:wrap">
-            <input class="input" type="password" style="max-width:340px;font-size:13px" placeholder="Jeton d'accès personnel GitHub (ghp_… ou github_pat_…)" value="{{ githubTokenSaisi }}" onInput="{{ onGithubTokenInput }}"></input>
+            <input class="input" type="password" style="max-width:340px;font-size:13px" placeholder="…ou : jeton d'accès personnel GitHub (github_pat_…)" value="{{ githubTokenSaisi }}" onInput="{{ onGithubTokenInput }}"></input>
             <button type="button" class="btn btn-secondary" style="padding:5px 13px;white-space:nowrap" onClick="{{ onConnecterGithub }}">Enregistrer le jeton</button>
           </div>
         </sc-if>
@@ -999,7 +1009,8 @@ class Component extends DCLogic {
             altAddresses: {}, altInputs: {}, migration: null,
             gSearch: '', compact: false, showCartouche: this.props.montrerCartouche !== false,
             showSauvegarde: false, messageSauvegarde: '', dernierExport: '',
-            githubToken: '', githubTokenSaisi: '', pushEnCours: false, messageGithub: '', urlPR: '' };
+            githubToken: '', githubTokenSaisi: '', pushEnCours: false, messageGithub: '', urlPR: '',
+            relais: null, relaisUrlSaisi: '', relaisCleSaisie: '' };
   SOURCE_BUSSIERE = 'Bussière 1990';
   SOURCE_DEFAULT = 'Patrick Blanchet';
   MATERIAUX = ['Bois', 'Brique', 'Pierre'];
@@ -1150,6 +1161,10 @@ class Component extends DCLogic {
       this.loadPhotos();
       const token = localStorage.getItem('suivi-github-token') || '';
       if (token) this.setState({ githubToken: token });
+      try {
+        const relais = JSON.parse(localStorage.getItem('suivi-github-relais') || 'null');
+        if (relais && relais.url && relais.cle) this.setState({ relais });
+      } catch (e) {}
       if (navigateurVierge) this.bootstrapDepuisDepot();
     } catch (e) {}
   }
@@ -1693,17 +1708,48 @@ class Component extends DCLogic {
     this.setState({ githubToken: '', messageGithub: 'Jeton oublié — il reste dans l’historique de ce navigateur tant que tu ne le révoques pas aussi sur GitHub.' });
   }
 
+  /* Mode relais : le jeton GitHub vit dans un Cloudflare Worker
+     (outils/atelier-relais/), le navigateur ne détient qu'une clé d'atelier
+     qui n'ouvre que la sauvegarde — voir le README du dossier. */
+  connecterRelais() {
+    const url = this.state.relaisUrlSaisi.trim().replace(/\/+$/, '');
+    const cle = this.state.relaisCleSaisie.trim();
+    if (!/^https:\/\//.test(url) || !cle) {
+      this.setState({ messageGithub: 'Il faut l’adresse https du relais et sa clé d’atelier.' });
+      return;
+    }
+    const relais = { url, cle };
+    try { localStorage.setItem('suivi-github-relais', JSON.stringify(relais)); } catch (e) {}
+    this.setState({ relais, relaisUrlSaisi: '', relaisCleSaisie: '', messageGithub: '' });
+  }
+
+  deconnecterRelais() {
+    try { localStorage.removeItem('suivi-github-relais'); } catch (e) {}
+    this.setState({ relais: null, messageGithub: 'Relais oublié — le jeton GitHub, lui, n’a jamais quitté Cloudflare.' });
+  }
+
   async appelGithub(chemin, options) {
-    const res = await fetch('https://api.github.com/repos/' + this.DEPOT_GITHUB.proprietaire + '/' + this.DEPOT_GITHUB.nom + chemin, {
-      ...options,
-      headers: {
-        Authorization: 'Bearer ' + this.state.githubToken,
-        Accept: 'application/vnd.github+json',
-        'X-GitHub-Api-Version': '2022-11-28',
-        ...(options && options.body ? { 'Content-Type': 'application/json' } : {}),
-        ...(options && options.headers)
-      }
-    });
+    const res = this.state.relais
+      ? await fetch(this.state.relais.url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            cle: this.state.relais.cle,
+            methode: (options && options.method) || 'GET',
+            chemin,
+            corps: options && options.body ? JSON.parse(options.body) : null
+          })
+        })
+      : await fetch('https://api.github.com/repos/' + this.DEPOT_GITHUB.proprietaire + '/' + this.DEPOT_GITHUB.nom + chemin, {
+          ...options,
+          headers: {
+            Authorization: 'Bearer ' + this.state.githubToken,
+            Accept: 'application/vnd.github+json',
+            'X-GitHub-Api-Version': '2022-11-28',
+            ...(options && options.body ? { 'Content-Type': 'application/json' } : {}),
+            ...(options && options.headers)
+          }
+        });
     if (!res.ok) {
       let detail = '';
       try { detail = (await res.json()).message || ''; } catch (e) {}
@@ -1715,7 +1761,7 @@ class Component extends DCLogic {
   }
 
   async pousserVersGithub() {
-    if (!this.state.githubToken || this.state.pushEnCours || this._pushVerrou) return;
+    if ((!this.state.githubToken && !this.state.relais) || this.state.pushEnCours || this._pushVerrou) return;
     this._pushVerrou = true; // verrou synchrone : l'état React ne suffit pas contre un double départ
     this.setState({ pushEnCours: true, messageGithub: 'Préparation…' });
     try {
@@ -2025,7 +2071,7 @@ class Component extends DCLogic {
         const ouverture = !s.showSauvegarde;
         /* Demande de Patrick : cliquer « Sauvegarde » pousse aussitôt vers GitHub,
            sans second clic — à condition qu'un jeton soit enregistré. */
-        if (ouverture && s.githubToken && !s.pushEnCours) setTimeout(() => this.pousserVersGithub(), 50);
+        if (ouverture && (s.githubToken || s.relais) && !s.pushEnCours) setTimeout(() => this.pousserVersGithub(), 50);
         return { showSauvegarde: ouverture };
       }),
       inventaire: this.inventaire(),
@@ -2041,12 +2087,20 @@ class Component extends DCLogic {
         : '',
       onExportSauvegarde: () => this.exportSauvegarde(),
       onImportSauvegarde: (e) => { const f = e.target.files && e.target.files[0]; e.target.value = ''; this.importSauvegarde(f); },
-      githubConnecte: !!this.state.githubToken,
-      githubDeconnecte: !this.state.githubToken,
+      githubConnecte: !!(this.state.githubToken || this.state.relais),
+      githubDeconnecte: !(this.state.githubToken || this.state.relais),
+      githubParRelais: !!this.state.relais,
+      githubParJeton: !!this.state.githubToken && !this.state.relais,
       githubTokenSaisi: this.state.githubTokenSaisi,
       onGithubTokenInput: (e) => this.setState({ githubTokenSaisi: e.target.value }),
       onConnecterGithub: () => this.connecterGithub(),
       onDeconnecterGithub: () => this.deconnecterGithub(),
+      relaisUrlSaisi: this.state.relaisUrlSaisi,
+      relaisCleSaisie: this.state.relaisCleSaisie,
+      onRelaisUrlInput: (e) => this.setState({ relaisUrlSaisi: e.target.value }),
+      onRelaisCleInput: (e) => this.setState({ relaisCleSaisie: e.target.value }),
+      onConnecterRelais: () => this.connecterRelais(),
+      onDeconnecterRelais: () => this.deconnecterRelais(),
       onPousserGithub: () => this.pousserVersGithub(),
       pushEnCours: this.state.pushEnCours,
       pushBtnLabel: this.state.pushEnCours ? 'Envoi en cours…' : 'Pousser vers GitHub',
