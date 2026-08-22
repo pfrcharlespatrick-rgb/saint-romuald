@@ -112,7 +112,7 @@ paramètre civique et au même écart perpendiculaire : la disposition relative
 est inchangée, seule l'assiette a bougé.
 
 **Ils indiquent un secteur, pas un bâtiment.** C'est délibérément assumé, et
-c'est la marche à suivre déjà recommandée dans `docs/HEBERGEMENT.md` : placer
+c'est la marche à suivre déjà recommandée dans `docs/archive/HEBERGEMENT.md` : placer
 grossièrement d'abord, corriger à la main ensuite. Trois choses le rendent
 honnête :
 

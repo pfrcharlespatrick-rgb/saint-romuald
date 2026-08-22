@@ -38,6 +38,24 @@ fichier de travail.
 les fichiers partent ainsi d'accord avec la main. L'opération est idempotente et
 `--essai` montre sans écrire.
 
+## Publier : la chaîne complète
+
+`fondre.mjs` ne fait que la moitié du chemin — il rend les corrections visibles
+dans `data/`, mais le site public lit les fichiers générés (`fiches/`,
+`recherche-index.json`, `stats-donnees.json`). Après toute modification de
+`data/*`, rejouer :
+
+```sh
+node outils/analyse-filiation.mjs   # si noms, prénoms ou âges ont bougé
+node outils/generer-site.mjs        # toujours — c'est lui qui publie
+```
+
+Les deux sont idempotents. Sans `generer-site.mjs`, les corrections restent
+invisibles sur le site ; sans `analyse-filiation.mjs`, les trajectoires
+s'appuient sur des graphies périmées. (Ne pas confondre
+`outils/relecture-1881/fondre.mjs` — corrections des recensements — et
+`outils/lieux/fondre.mjs` — travail de la carte versé dans `lieux-data.js`.)
+
 ## Gabarit « dictionnaire biographique »
 
 Quand l'utilisateur fournit ou demande une mise en page de fiches biographiques (ex. extraits d'ouvrages comme *Mission New Liverpool* de Julie Doyon), utiliser ce gabarit — c'est le format que l'utilisateur préfère pour ce type de contenu :

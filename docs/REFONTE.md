@@ -1,5 +1,11 @@
 # Refonte du site — analyse, décisions et plan de travail
 
+> **État (août 2026) : la refonte est exécutée.** Les trois lots de travail
+> décrits plus bas sont livrés — le site public actuel (`site.css`, les pages
+> `index/personne/maison/carte/stats/methode.html`) en est le résultat. Ce
+> document reste la référence de l'identité visuelle (jetons, typographie,
+> motifs) ; son plan de travail est historique.
+
 Août 2026. Ce document transfère à une prochaine session tout ce qu'il faut pour
 exécuter la refonte **sans redécouvrir le contexte**. Les décisions de design y
 sont prises et closes ; le travail restant est de l'exécution.
@@ -12,7 +18,7 @@ définitives ; reproduis-les, ne les réinvente pas.
 
 Avant de commencer, lire aussi `docs/SCHEMA.md` (conventions de données —
 identifiants, champs vides, disponibilité des colonnes par année) et
-`docs/README.md` (intentions du projet).
+`docs/archive/TRANSFERT.md` (intentions du projet).
 
 ---
 

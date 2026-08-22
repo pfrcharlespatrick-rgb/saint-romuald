@@ -520,7 +520,7 @@ navigateur sans aucun travail local va chercher `data/travail-personnel.json` au
 chargement pour repartir de la dernière sauvegarde poussée.
 
 Le flux manuel (exporter, envoyer, faire intégrer) documenté dans
-`docs/HEBERGEMENT.md` reste disponible et reste la voie pour les photos.
+`docs/archive/HEBERGEMENT.md` reste disponible et reste la voie pour les photos.
 
 ---
 

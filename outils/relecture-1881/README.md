@@ -46,11 +46,17 @@ la ligne 1.
 | `sources.py` | localise les PDF |
 | `render.py`, `align.py`, `strip.py`, `zoom.py` | division 2 : rendu, recalage, bandes, zooms |
 | `render1.py`, `d1.py` | division 1 : idem, regroupés |
-| `page.mjs`, `page1.mjs` | dump des données d'une page, format aligné |
+| `page.mjs`, `page1.mjs`, `page91.mjs` | dump des données d'une page, format aligné |
 | `verif.mjs` | contrôles d'intégrité de la division 2 |
-| `diag1.mjs` | diagnostic structurel de la division 1 |
+| `diag1.mjs`, `diag91.mjs` | diagnostic structurel (division 1 de 1881, puis 1891-D1) |
 | `pat.mjs`, `pat1.mjs`, `pat91.mjs` | ossature d'édition du fichier de données |
-| `r91.py`, `r91b.py` | 1891 division 1 : rendu des PDF de manuscrit (pages 62-83, puis 84-142) |
+| `atelier.mjs` | lit `data/travail-personnel.json` et protège les corrections manuelles — voir `CLAUDE.md` |
+| `fondre.mjs` | verse les corrections manuelles dans les recensements ; à passer avant chaque lot |
+| `lib.mjs` | chargement/écriture partagés par les `pat*.mjs` |
+| `r91a.py`, `r91b.py`, `r91c.py`, `r91d.py` | 1891-D1 : rendu des recueils PDF (pages 1-41, 84-142, 42-83, puis recueil « 189102DIV12 ») |
+| `recueil91.py`, `z91.py`, `cols91.py` | 1891-D1 : rendu commun des recueils, bandes en ligne de commande, colonnes 20-25 |
+| `alpha91.mjs`, `cols2122.mjs` | 1891-D1 : passes ciblées (tri alphabétique, colonnes 21-22) |
+| `prenoms.mjs`, `filtre-sexe1.mjs` | prénoms classés par sexe et détection des contradictions prénom/sexe (division 1) |
 
 Exemples :
 
