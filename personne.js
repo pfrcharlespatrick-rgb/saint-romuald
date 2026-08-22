@@ -181,6 +181,10 @@
     }
     var m = id.match(/^(\d{4})-D(\d)-/);
     if (!m) { rendreErreur('Identifiant de personne invalide : ' + id); return; }
+    if (m[1] + '-D' + m[2] === '1891-D2') {
+      rendreErreur('Le recensement de 1891, division 2, n\'est pas encore dépouillé — cette fiche n\'existe pas encore.');
+      return;
+    }
     contenu.innerHTML = '<p class="chargement">Chargement de la fiche…</p>';
     chargerLot(m[1] + '-D' + m[2])
       .then(function (lot) {

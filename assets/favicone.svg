@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Garance du site (--madder), doubles filets du registre, monogramme SR. -->
+  <rect width="64" height="64" rx="8" fill="#A4343A"/>
+  <rect x="5" y="5" width="54" height="54" rx="5" fill="none" stroke="#FAFAF7" stroke-width="2"/>
+  <rect x="9" y="9" width="46" height="46" rx="3" fill="none" stroke="#FAFAF7" stroke-width="1" opacity=".55"/>
+  <text x="32" y="43" text-anchor="middle" font-family="Iowan Old Style,Palatino,Georgia,serif" font-size="28" font-weight="600" fill="#FAFAF7">SR</text>
+</svg>

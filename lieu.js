@@ -24,7 +24,7 @@
     else bits.push('sans adresse actuelle');
     if (l.construit) bits.push('construit ' + l.construit);
     if (l.disparu) bits.push('disparu ' + l.disparu);
-    if (l.voie && l.adresse_actuelle.indexOf(l.voie) === -1) bits.push(l.voie);
+    if (l.voie && (l.adresse_actuelle || '').indexOf(l.voie) === -1) bits.push(l.voie);
     return bits.join(' · ');
   }
 

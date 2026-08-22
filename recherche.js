@@ -42,7 +42,10 @@
       var vide = document.createElement('div');
       vide.className = 'resultat';
       vide.style.cursor = 'default';
-      vide.innerHTML = '<span class="quoi">Aucun résultat pour « ' + champ.value.trim() + ' ».</span>';
+      var quoi = document.createElement('span');
+      quoi.className = 'quoi';
+      quoi.textContent = 'Aucun résultat pour « ' + champ.value.trim() + ' ».';
+      vide.appendChild(quoi);
       boite.appendChild(vide);
       return;
     }
@@ -51,6 +54,7 @@
       var div = document.createElement('div');
       div.className = 'resultat';
       div.setAttribute('tabindex', '0');
+      div.setAttribute('role', 'link');
       div.innerHTML = '<span class="qui"></span><span class="quoi"></span><span class="ou"></span>';
       div.querySelector('.qui').textContent = nom;
       div.querySelector('.quoi').textContent = profession || '';

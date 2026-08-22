@@ -3,7 +3,13 @@
   'use strict';
 
   var bulle = document.getElementById('infobulle');
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
   function survol(el, texte) {
+    el.title = texte; // accès clavier et tactile, en plus de l'infobulle
     el.addEventListener('mousemove', function (e) {
       bulle.style.display = 'block';
       bulle.textContent = texte;
@@ -29,7 +35,7 @@
     // ---------- pyramide des âges ----------
     var py = s.pyramide_1891;
     document.getElementById('sous-pyramide').textContent =
-      fr(py.total) + ' personnes d\'âge connu, par tranches de cinq ans';
+      fr(py.total) + ' personnes d\'âge connu, par tranches de cinq ans — division 1 seule, la division 2 restant à dépouiller';
     var maxP = Math.max.apply(null, py.hommes.concat(py.femmes));
     var elPy = document.getElementById('pyramide');
     for (var i = py.tranches.length - 1; i >= 0; i--) {
@@ -38,7 +44,7 @@
         r.className = 'py-rang';
         r.innerHTML =
           '<div class="py-piste gauche"><i style="width:' + (py.hommes[i] / maxP * 100) + '%"></i></div>' +
-          '<div class="tranche">' + py.tranches[i] + '</div>' +
+          '<div class="tranche">' + esc(py.tranches[i]) + '</div>' +
           '<div class="py-piste droite"><i style="width:' + (py.femmes[i] / maxP * 100) + '%"></i></div>';
         elPy.appendChild(r);
         survol(r.querySelector('.gauche i'), py.tranches[i] + ' ans — ' + fr(py.hommes[i]) + ' hommes');
@@ -46,7 +52,7 @@
       })(i);
     }
     var tp = document.getElementById('table-pyramide');
-    tp.innerHTML = '<tr><th>Tranche</th>' + py.tranches.map(function (t) { return '<th>' + t + '</th>'; }).join('') + '</tr>' +
+    tp.innerHTML = '<tr><th>Tranche</th>' + py.tranches.map(function (t) { return '<th>' + esc(t) + '</th>'; }).join('') + '</tr>' +
       '<tr><th>Hommes</th>' + py.hommes.map(function (v) { return '<td>' + v + '</td>'; }).join('') + '</tr>' +
       '<tr><th>Femmes</th>' + py.femmes.map(function (v) { return '<td>' + v + '</td>'; }).join('') + '</tr>';
 
@@ -59,7 +65,7 @@
         var lib = d[0], val = d[1];
         var r = document.createElement('div');
         r.className = 'barre-rang';
-        r.innerHTML = '<div class="lib" title="' + lib + '">' + lib + '</div>' +
+        r.innerHTML = '<div class="lib" title="' + esc(lib) + '">' + esc(lib) + '</div>' +
           '<div class="barre-piste"><i style="width:' + (val / max * 100) + '%"></i></div>' +
           '<div class="val">' + fr(val) + '</div>';
         b.appendChild(r);
@@ -86,6 +92,6 @@
       tuilesT.appendChild(div);
     });
   }).catch(function () {
-    document.querySelector('.cadre').insertAdjacentHTML('afterbegin', '<p class="erreur">Les statistiques n\'ont pas pu être chargées.</p>');
+    document.querySelector('.page .cadre').insertAdjacentHTML('afterbegin', '<p class="erreur">Les statistiques n\'ont pas pu être chargées.</p>');
   });
 })();

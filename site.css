@@ -5,8 +5,10 @@
    .vue/.visible (une page = un écran), navigation par vrais liens. */
 
 :root{
+  color-scheme:light dark;
   --papier:#FAFAF7; --surface:#FFFFFE; --encre:#26221C; --sepia:#6B6357;
   --regle:#C9D1DB; --regle-faible:#E3E8EE; --madder:#A4343A; --madder-encre:#8E2E33;
+  --sur-madder:#FFFFFE;
   --lien:#1A6FA8; --serie-m:#1A6FA8; --serie-f:#C13A42;
   --ombre:0 1px 3px rgba(38,34,28,.08);
   --serif:'Iowan Old Style','Palatino Linotype','Book Antiqua',Georgia,serif;
@@ -15,21 +17,10 @@
 @media (prefers-color-scheme: dark){:root{
   --papier:#17181B; --surface:#1F2024; --encre:#E7E3DA; --sepia:#A59D8F;
   --regle:#3A3E45; --regle-faible:#2B2E33; --madder:#D9666E; --madder-encre:#E07B82;
+  --sur-madder:#17181B;
   --lien:#4C9BD6; --serie-m:#4C9BD6; --serie-f:#D9666E;
   --ombre:0 1px 3px rgba(0,0,0,.4);
 }}
-:root[data-theme="dark"]{
-  --papier:#17181B; --surface:#1F2024; --encre:#E7E3DA; --sepia:#A59D8F;
-  --regle:#3A3E45; --regle-faible:#2B2E33; --madder:#D9666E; --madder-encre:#E07B82;
-  --lien:#4C9BD6; --serie-m:#4C9BD6; --serie-f:#D9666E;
-  --ombre:0 1px 3px rgba(0,0,0,.4);
-}
-:root[data-theme="light"]{
-  --papier:#FAFAF7; --surface:#FFFFFE; --encre:#26221C; --sepia:#6B6357;
-  --regle:#C9D1DB; --regle-faible:#E3E8EE; --madder:#A4343A; --madder-encre:#8E2E33;
-  --lien:#1A6FA8; --serie-m:#1A6FA8; --serie-f:#C13A42;
-  --ombre:0 1px 3px rgba(38,34,28,.08);
-}
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 body{background:var(--papier);color:var(--encre);font-family:var(--serif);font-size:16px;line-height:1.55}
@@ -103,7 +94,6 @@ h2.titre-vue{font-size:30px;margin:4px 0 6px;font-weight:600;text-wrap:balance}
 .registre th{font-family:var(--etiq);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
   color:var(--sepia);font-weight:600;text-align:left;padding:8px 10px;border-bottom:2px solid var(--encre);white-space:nowrap}
 .registre td{padding:7px 10px;border-bottom:1px solid var(--regle-faible);font-size:15px;vertical-align:baseline}
-.registre td.num{font-variant-numeric:tabular-nums}
 .registre td.ligne-no{font-family:var(--etiq);font-size:12px;color:var(--sepia);text-align:right;
   border-right:3px double var(--madder);padding-right:8px;width:34px;font-variant-numeric:tabular-nums}
 .registre th.ligne-no{border-right:3px double var(--madder);text-align:right;padding-right:8px}
@@ -127,7 +117,7 @@ h2.titre-vue{font-size:30px;margin:4px 0 6px;font-weight:600;text-wrap:balance}
   padding:2px 8px;border:1px solid currentColor;border-radius:999px;white-space:nowrap}
 .conf-forte{color:var(--madder-encre)}
 .conf-moyenne{color:var(--sepia)}
-.conf-faible{color:var(--sepia)}
+.conf-faible{color:var(--sepia);border-style:dashed;font-style:italic}
 @media (max-width:760px){
   .trajectoire,.trajectoire.taille-2{grid-template-columns:1fr}
   .lien-traj{flex-direction:row;padding:8px 0}
@@ -200,7 +190,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .bouton:hover{background:var(--regle-faible)}
 
 @media print{
-  .avis, nav.onglets, .pied, .actions-fiche, .recherche-bloc, .infobulle{display:none !important}
+  .avis-carte, nav.onglets, .pied, .actions-fiche, .recherche-bloc, .infobulle{display:none !important}
   header.tete{border-bottom-color:#000}
   body{background:#fff;color:#000;font-size:12.5pt}
   .cadre{max-width:none;padding:0}
@@ -228,10 +218,6 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
   border:1px solid var(--regle);padding:4px 10px;display:inline-block}
 .rattachements a:hover{border-color:var(--sepia);text-decoration:none;background:var(--regle-faible)}
 .rattachements .conf-forte{border-color:var(--madder-encre)}
-.non-rattaches{margin-top:40px}
-.liste-simple{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
-.liste-simple li{font-size:14px;padding:8px 12px;background:var(--surface);border:1px solid var(--regle-faible)}
-.liste-simple .adresse{display:block;font-family:var(--etiq);font-size:11.5px;color:var(--sepia);letter-spacing:.04em}
 
 /* ===== lieux : carte géographique, fiche de lieu, atelier de la carte =====
    Voir docs/LIEUX.md. Le vocabulaire visuel ne change pas : papier, filets
@@ -242,12 +228,12 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .filtre-annees button{font-family:var(--etiq);font-size:12.5px;letter-spacing:.07em;text-transform:uppercase;
   background:none;border:0;border-right:1px solid var(--regle-faible);color:var(--sepia);padding:8px 13px;cursor:pointer}
 .filtre-annees button:last-child{border-right:0}
-.filtre-annees button.actif{background:var(--madder);color:#FFFFFE}
+.filtre-annees button.actif{background:var(--madder);color:var(--sur-madder)}
 .filtre-annees button:hover:not(.actif){background:var(--regle-faible);color:var(--encre)}
 #recherche-lieu{flex:1;min-width:200px;font-family:var(--serif);font-size:15px;padding:8px 12px;
   border:1px solid var(--regle);background:var(--surface);color:var(--encre)}
 .bouton-atelier{color:var(--madder-encre);border-color:var(--regle)}
-.bouton-atelier.actif{background:var(--madder);border-color:var(--madder);color:#FFFFFE}
+.bouton-atelier.actif{background:var(--madder);border-color:var(--madder);color:var(--sur-madder)}
 
 .barre-atelier{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:0 0 12px;
   padding:10px 14px;background:var(--surface);border:1px solid var(--madder);border-left-width:3px}
@@ -383,7 +369,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .plan-avis{font-family:var(--etiq);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--madder-encre)}
 .plan-cale{font-size:12.5px;color:var(--sepia)}
 .plan-aide{flex-basis:100%;font-size:12.5px;color:var(--sepia);font-style:italic;margin:2px 0 0}
-.poignee-plan{background:var(--madder);color:#FFFFFE;font-family:var(--etiq);font-size:11px;
+.poignee-plan{background:var(--madder);color:var(--sur-madder);font-family:var(--etiq);font-size:11px;
   letter-spacing:.05em;display:flex;align-items:center;justify-content:center;
   border:2px solid #FFFFFE;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,.4);cursor:move}
 .leaflet-image-layer{image-rendering:auto}

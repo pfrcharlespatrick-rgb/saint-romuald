@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Saint-Romuald — les gens du Fleuve</title>
 <meta name="description" content="Recensements nominatifs de Saint-Romuald et New Liverpool, 1871–1891 : recherchez une personne, une maison, consultez les statistiques de la paroisse.">
+<link rel="icon" href="assets/favicone.svg" type="image/svg+xml">
 <link rel="stylesheet" href="site.css">
 </head>
 <body>
@@ -31,7 +32,7 @@
     <div class="champ-recherche">
       <input id="q" type="search" placeholder="Un nom, un métier… essayez « Lee » ou « navigateur »" autocomplete="off">
     </div>
-    <div class="resultats" id="resultats"></div>
+    <div class="resultats" id="resultats" aria-live="polite"></div>
     <p class="note-echantillon" id="note-recherche">Chargement de l’index de recherche…</p>
   </div>
 
@@ -43,17 +44,17 @@
   </div>
 
   <figure class="heros">
-    <img src="assets/chantiers-new-liverpool.jpg" alt="Chantiers navals et commerce du bois, anse de New Liverpool, XIXe siècle.">
+    <img src="assets/chantiers-new-liverpool.jpg" width="3433" height="1161" decoding="async" alt="Chantiers navals et commerce du bois, anse de New Liverpool, XIXe siècle.">
     <figcaption>Chantiers navals et commerce du bois, anse de New Liverpool (1847–1868). C'est dans ces chantiers que travaillent les navigateurs, débardeurs et journaliers du recensement.</figcaption>
   </figure>
 
   <div class="portes">
-    <a class="porte" href="personne.html"><h3>Suivre une personne</h3>
+    <a class="porte" href="personne.html#1871-D2-P030-L13"><h3>Suivre une personne</h3>
       <p>Chaque personne a sa fiche : ses mentions de 1871 à 1891, sa maisonnée, les indices qui la relient d'un recensement à l'autre, et les preuves documentaires.</p>
       <span class="aller">Voir la fiche de Margaret Lee →</span></a>
     <a class="porte" href="maison.html#1871-D2-M78"><h3>Entrer dans une maison</h3>
       <p>La maison est l'unité du recensement : qui y vit, les métiers, l'école, la terre et les bêtes — présentés comme au registre, ligne par ligne.</p>
-      <span class="aller">Voir la maison 78 — 1616 chemin du Fleuve →</span></a>
+      <span class="aller">Voir la maison 78, chez Thomas Lee, navigateur (1871) →</span></a>
     <a class="porte" href="carte.html"><h3>Le chemin du Fleuve</h3>
       <p>Les lieux du chemin, sur une carte : ceux qui tiennent encore debout, et ceux qui ont disparu sans laisser d'adresse. Chacun dit qui y a vécu, d'un recensement à l'autre.</p>
       <span class="aller">Ouvrir la carte des lieux →</span></a>

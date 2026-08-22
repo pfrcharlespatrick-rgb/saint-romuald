@@ -243,12 +243,14 @@
       var t = e.target;
       if (t.dataset.planVoir) {
         var p = planParId(t.dataset.planVoir);
+        if (!p) return;
         if (t.checked) afficherPlan(p); else masquerPlan(p.id);
         rendreControlePlans();
         return;
       }
       if (t.dataset.planCale) {
         var p2 = planParId(t.dataset.planCale);
+        if (!p2) return;
         p2.cale = t.checked;
         p2._local = true;
         LX.majPlan(p2.id, { cale: p2.cale });
@@ -260,6 +262,7 @@
       var t = e.target;
       if (!t.dataset.planOpacite) return;
       var p = planParId(t.dataset.planOpacite);
+      if (!p) return;
       p.opacite = t.value / 100;
       p._local = true;
       if (couchesPlans[p.id]) couchesPlans[p.id].setOpacity(p.opacite);
@@ -269,6 +272,7 @@
       var t = e.target;
       if (t.dataset.planCaler) {
         var p = planParId(t.dataset.planCaler);
+        if (!p) return;
         if (planEnCalage === p.id) { finirCalage(); rendreControlePlans(); }
         else commencerCalage(p);
         return;
@@ -798,5 +802,6 @@
     }
   }).catch(function () {
     document.getElementById('resume-carte').textContent = 'Les lieux n\'ont pas pu être chargés.';
+    rendreBarreAtelier();
   });
 })();
