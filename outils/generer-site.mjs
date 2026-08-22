@@ -287,6 +287,43 @@ const nRattaches = lieuxSortie.filter((l) => l.occupations.some((o) => o.statut 
 console.log(`fiches/lieux.json : ${lieuxSortie.length} lieux, ${(fs.statSync(cheminLieux).size / 1024).toFixed(0)} Ko` +
   ` — ${nAncres} placés (dont ${nReleves} relevés à la main), ${nRattaches} rattachés à au moins une maison.`);
 
+// ───────────────────────── index compact pour filiation.html ─────────────────────────
+// La page des filiations n'a besoin, des recensements, que d'un index
+// personne → identité + position et ménage → chef. Le lui précalculer lui
+// évite de charger les six fichiers de recensement complets (~5,4 Mo) pour
+// reconstruire ces deux tables au chargement.
+
+// Format tabulaire : les noms de champs répétés 10 000 fois pèseraient plus
+// lourd que les données. L'année et la division se relisent dans l'identifiant
+// (AAAA-Dd-…) ; filiation.html hydrate les objets au chargement.
+//   personnes : [id, nom, prenom, age, sexe, profession, etat_matrimonial,
+//                lien_parente, no_maison, no_famille, page_ms, ligne]
+//   menages   : { cle: [chef, no_maison, no_famille] }
+const fpPersonnes = [];
+const fpMenages = {};
+for (const [, maison] of d.maisons) {
+  for (const f of maison.familles) {
+    const cleMenage = `${maison.annee}-D${maison.division}-M${maison.no_maison}-F${f.no_famille}`;
+    fpMenages[cleMenage] = [f.chef || '', String(maison.no_maison), String(f.no_famille)];
+    for (const mid of f.membres) {
+      const p = d.personnes.get(mid);
+      if (!p) continue;
+      fpPersonnes.push([
+        p.id, p.nom || '', p.prenom || '', p.age || '', p.sexe || '',
+        p.profession || '', p.etat_matrimonial || '', p.lien_parente || '',
+        String(maison.no_maison), String(f.no_famille), p.page_ms || '', p.ligne || ''
+      ]);
+    }
+  }
+}
+const cheminFp = path.join(RACINE, 'fiches', 'filiation-personnes-data.js');
+fs.writeFileSync(cheminFp,
+  '// Généré par outils/generer-site.mjs — index compact des personnes et des\n' +
+  '// ménages pour filiation.html (format décrit là-bas). Ne pas éditer à la main.\n' +
+  'window.FILIATION_PERSONNES = ' + JSON.stringify({ personnes: fpPersonnes, menages: fpMenages }) + ';\n');
+console.log(`fiches/filiation-personnes-data.js : ${fpPersonnes.length} personnes, ` +
+  `${Object.keys(fpMenages).length} ménages, ${(fs.statSync(cheminFp).size / 1024).toFixed(0)} Ko`);
+
 // ───────────────────────── statistiques ─────────────────────────
 
 function ageEnAnnees(texte) {

@@ -232,15 +232,17 @@
 
 </main>
 
-<script src="data/recensement-1871-d1-data.js"></script>
-<script src="data/recensement-1871-d2-data.js"></script>
-<script src="data/recensement-1881-d1-data.js"></script>
-<script src="data/recensement-1881-d2-data.js"></script>
-<script src="data/recensement-1891-d1-data.js"></script>
-<script src="data/recensement-1891-d2-data.js"></script>
+<script src="fiches/filiation-personnes-data.js"></script>
 <script src="data/complement-sexe-1881-d2-data.js"></script>
 <script src="data/filiation-data.js"></script>
 
+<script>
+/* Si le script principal casse, ne pas laisser « Chargement… » pour toujours. */
+window.addEventListener('error', function (e) {
+  var ch = document.getElementById('chargement');
+  if (ch && !ch.hidden) ch.textContent = 'La page n’a pas pu se charger : ' + (e.message || 'erreur de script.');
+});
+</script>
 <script>
 (function () {
   'use strict';
@@ -252,37 +254,41 @@
     return;
   }
 
-  /* ─── Index des personnes et des ménages ────────────────────────── */
+  /* ─── Index des personnes et des ménages ──────────────────────────
+     Précalculé par outils/generer-site.mjs (fiches/filiation-personnes-data.js,
+     format tabulaire décrit là-bas) : la page n'a plus à charger les six
+     recensements complets pour reconstruire ces deux tables. L'année et la
+     division se relisent dans l'identifiant (AAAA-Dd-…). */
 
-  var JEUX = ['RECENSEMENT_1871_D1', 'RECENSEMENT_1871_D2', 'RECENSEMENT_1881_D1',
-              'RECENSEMENT_1881_D2', 'RECENSEMENT_1891_D1', 'RECENSEMENT_1891_D2'];
+  var FP = window.FILIATION_PERSONNES;
+  if (!FP) {
+    document.getElementById('chargement').textContent =
+      'L’index des personnes n’a pas pu être chargé (fiches/filiation-personnes-data.js).';
+    return;
+  }
 
   var personnes = Object.create(null);   // id -> fiche
   var menages = Object.create(null);     // clé -> { chef, no_maison, annee, division }
 
-  JEUX.forEach(function (nom) {
-    var d = window[nom];
-    if (!d || !d.maisons) return;
-    d.maisons.forEach(function (maison) {
-      (maison.familles || []).forEach(function (famille) {
-        var cle = d.annee + '-D' + d.division + '-M' + maison.no_maison + '-F' + famille.no_famille;
-        menages[cle] = {
-          cle: cle, chef: famille.chef || '', annee: d.annee, division: d.division,
-          no_maison: String(maison.no_maison), no_famille: String(famille.no_famille)
-        };
-        (famille.membres || []).forEach(function (p) {
-          if (!p || !p.id) return;
-          personnes[p.id] = {
-            id: p.id, nom: p.nom || '', prenom: p.prenom || '',
-            age: p.age || '', sexe: p.sexe || '', profession: p.profession || '',
-            etat: p.etat_matrimonial || '', lien_parente: p.lien_parente || '',
-            annee: d.annee, division: d.division,
-            no_maison: String(maison.no_maison), no_famille: String(famille.no_famille),
-            page_ms: p.page_ms || '', ligne: p.ligne || '', menage: cle
-          };
-        });
-      });
-    });
+  Object.keys(FP.menages).forEach(function (cle) {
+    var m = FP.menages[cle];
+    menages[cle] = {
+      cle: cle, chef: m[0], annee: cle.slice(0, 4), division: cle.charAt(6),
+      no_maison: m[1], no_famille: m[2]
+    };
+  });
+  FP.personnes.forEach(function (t) {
+    var id = t[0];
+    var annee = id.slice(0, 4), division = id.charAt(6);
+    var cle = annee + '-D' + division + '-M' + t[8] + '-F' + t[9];
+    personnes[id] = {
+      id: id, nom: t[1], prenom: t[2],
+      age: t[3], sexe: t[4], profession: t[5],
+      etat: t[6], lien_parente: t[7],
+      annee: annee, division: division,
+      no_maison: t[8], no_famille: t[9],
+      page_ms: t[10], ligne: t[11], menage: cle
+    };
   });
 
   /* Position (annee|division|page|ligne) -> identifiant de personne. Sert à
