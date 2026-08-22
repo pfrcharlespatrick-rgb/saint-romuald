@@ -119,7 +119,9 @@ Le mode sombre est piloté par `prefers-color-scheme` **et** surchargé par
    chiffres, les sources.
 
 L'exemple qui traverse la maquette est réel et vérifié : les **Lee de la
-maison 78 (1871 D2), aujourd'hui le 1616 chemin du Fleuve** — Thomas,
+maison 78 (1871 D2), rattachée au bâtiment commercial Lee, 2058-2060 chemin
+du Fleuve** (le « 1616 » d'une première version était erroné — c'est la maison
+de Louis Demers) — Thomas,
 navigateur anglais, meurt entre 1871 et 1881 ; Margaret mène ensuite le ménage
 (maison 106 en 1881, maison 540 en 1891).
 

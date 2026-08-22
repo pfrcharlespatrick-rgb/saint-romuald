@@ -379,9 +379,9 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
   .carte-toile,.carte-mini{height:280px}
 }
 
-/* L'atelier de saisie n'est pas une rubrique de lecture : on le distingue des
-   onglets publics sans le reléguer en pied de page — c'est un aller-retour
-   quotidien pour le chercheur. */
+/* L'atelier de saisie n'est plus lié depuis la navigation publique (décision
+   d'août 2026) : il s'ouvre par URL directe. Le style .atelier reste pour la
+   page elle-même si on choisit un jour de rétablir le lien. */
 nav.onglets a.atelier{
   margin-left:auto; color:var(--madder-encre);
   border:1px solid var(--regle); align-self:center;
