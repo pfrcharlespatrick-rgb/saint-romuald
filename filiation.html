@@ -84,8 +84,10 @@
     content: ''; position: absolute; left: 13px; right: 13px; bottom: 0; height: 3px;
     background: var(--madder); transform: scaleX(0); transition: transform .18s ease;
   }
-  .onglets .btn:hover { color: var(--color-text); background: none; }
-  .onglets .btn:hover::after { transform: scaleX(1); opacity: .45 }
+  @media (hover: hover) {
+    .onglets .btn:hover { color: var(--color-text); background: none; }
+    .onglets .btn:hover::after { transform: scaleX(1); opacity: .45 }
+  }
   .onglets .btn-primary { color: var(--color-text); background: none; }
   .onglets .btn-primary::after { transform: scaleX(1) }
   @media (max-width: 900px) { .onglets { margin-left: 0 } }
@@ -199,6 +201,36 @@
     .sous-titre { white-space: normal }
     .titre-rangee { padding-top: 12px; padding-bottom: 10px }
   }
+  /* Sous 760px, les huit rubriques tenaient sur quatre lignes. Une seule
+     ligne qui défile, avec les mêmes ombres que les tableaux du site public :
+     le voile s'efface au bord atteint, l'ombre marque ce qui reste. */
+  @media (max-width: 760px) {
+    .onglets {
+      flex-wrap: nowrap; overflow-x: auto; overscroll-behavior-x: contain;
+      scrollbar-width: none; -ms-overflow-style: none;
+      scroll-padding-inline: 18px;
+      margin: 0 -18px; padding: 0 18px; width: calc(100% + 36px);
+      background-color: var(--color-surface);
+      background-image:
+        linear-gradient(to right, var(--color-surface) 26px, transparent 46px),
+        linear-gradient(to left, var(--color-surface) 26px, transparent 46px),
+        radial-gradient(farthest-side at 0 50%, rgba(38,34,28,.30), transparent),
+        radial-gradient(farthest-side at 100% 50%, rgba(38,34,28,.30), transparent);
+      background-position: 0 0, 100% 0, 0 0, 100% 0;
+      background-repeat: no-repeat;
+      background-size: 46px 100%, 46px 100%, 20px 100%, 20px 100%;
+      background-attachment: local, local, scroll, scroll;
+    }
+    .onglets::-webkit-scrollbar { display: none }
+    .onglets .btn { flex: 0 0 auto; white-space: nowrap }
+  }
+  @media (prefers-color-scheme: dark) { @media (max-width: 760px) { .onglets {
+    background-image:
+      linear-gradient(to right, var(--color-surface) 26px, transparent 46px),
+      linear-gradient(to left, var(--color-surface) 26px, transparent 46px),
+      radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.72), transparent),
+      radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.72), transparent) } } }
+
   @media (pointer: coarse) {
     .btn { min-height: 44px; display: inline-flex; align-items: center; justify-content: center }
     .onglets .btn { min-height: 44px }
@@ -1223,6 +1255,20 @@
 
   /* ─── Navigation ────────────────────────────────────────────────── */
 
+  // Sous 760px la barre de rubriques défile à l'horizontale : sur les
+  // dernières, la rubrique courante se trouve hors du champ. On l'y ramène.
+  function recadrerOnglets() {
+    var nav = document.querySelector('.onglets');
+    var actif = nav && nav.querySelector('.btn-primary');
+    if (!nav || !actif) return;
+    if (nav.scrollWidth <= nav.clientWidth) { nav.scrollLeft = 0; return; }
+    var marge = 18;
+    var gauche = actif.offsetLeft - marge;
+    var droite = actif.offsetLeft + actif.offsetWidth + marge - nav.clientWidth;
+    if (gauche < nav.scrollLeft) nav.scrollLeft = Math.max(0, gauche);
+    else if (droite > nav.scrollLeft) nav.scrollLeft = droite;
+  }
+
   Array.prototype.forEach.call(document.querySelectorAll('[data-vue]'), function (b) {
     b.addEventListener('click', function () {
       Array.prototype.forEach.call(document.querySelectorAll('[data-vue]'), function (x) {
@@ -1234,8 +1280,10 @@
       });
       document.getElementById('vue-' + b.getAttribute('data-vue')).classList.add('active');
       window.scrollTo(0, 0);
+      recadrerOnglets();
     });
   });
+  window.addEventListener('resize', recadrerOnglets);
 
   /* ─── Démarrage ─────────────────────────────────────────────────── */
 
@@ -1245,6 +1293,7 @@
   rendreControles('sexe');
   rendreAlphaNav();
   rendreBibliographie();
+  recadrerOnglets();
   // Champ vide à l'ouverture : on arrive sur les 2 015 trajectoires, pas sur un exemple.
   rechercher();
 })();

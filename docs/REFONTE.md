@@ -273,7 +273,29 @@ vus. Ce qui a été corrigé, et la règle à retenir :
   colonne de flèches vide sur le côté ; les boutons Confirmer / Écarter
   passaient de 19px de haut à 40px.
 
+- **La barre de rubriques sur une seule ligne.** Sous 760px elle repliait sur
+  deux à quatre lignes et repoussait le contenu (environ 100px gagnés à 320px).
+  Elle devient une ligne qui défile à l'horizontale, en pleine largeur d'écran
+  (`margin-inline: calc(var(--gouttiere) * -1)`), avec les mêmes ombres que les
+  registres et la barre de défilement masquée. **Conséquence à ne pas oublier :**
+  sur les dernières rubriques, l'onglet courant se retrouve hors du champ et
+  aucun onglet actif n'est visible — `nav.js` (site public) et
+  `recadrerOnglets()` (Filiations) le ramènent au chargement, au changement de
+  rubrique et au redimensionnement. Une barre défilante sans ce recadrage est
+  pire que le repli qu'elle remplace.
+- **Le survol collant.** Sur un écran tactile, `:hover` reste appliqué après la
+  tape : un onglet non courant gardait son soulignement à côté du vrai, un
+  bouton restait inversé, une porte restait soulevée. Tous les effets
+  *décoratifs* de survol passent sous `@media (hover:hover)`. Les états qui
+  portent de l'information (survol de ligne dans un registre) restent hors de
+  cette garde.
+
 Restent volontairement inchangés : les liens en incise dans une phrase (leur
 hauteur est celle du texte, c'est normal) et le crédit d'attribution de Leaflet.
-Vérifié après correction : aucun débordement horizontal à 320, 390 ni 430px, et
-le rendu au bureau est identique à avant la passe.
+Vérifié après correction : aucun débordement horizontal à 320, 390 ni 430px,
+l'onglet courant visible sur chacune des huit pages, et le rendu au bureau
+identique à avant la passe — barre de rubriques non défilante, survols intacts.
+
+Une seule source pour la gouttière depuis cette passe : `--gouttiere` (24px,
+18px sous 560px), dont `.cadre`, l'ouverture et la barre défilante se servent.
+Ne pas y réintroduire de valeur en dur.

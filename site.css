@@ -24,7 +24,7 @@
   --ombre:0 1px 2px rgba(38,34,28,.05),0 2px 6px rgba(38,34,28,.045);
   --ombre-levee:0 2px 4px rgba(38,34,28,.05),0 14px 30px rgba(38,34,28,.11);
   --grain:.34; --grain-fusion:multiply;
-  --rayon:2px;
+  --rayon:2px; --gouttiere:24px;
   --serif:'Iowan Old Style','Palatino Linotype','Book Antiqua',Georgia,serif;
   --etiq:'Avenir Next Condensed','Helvetica Neue',Arial,sans-serif;
 }
@@ -76,7 +76,7 @@ p{text-wrap:pretty}
 h1,h2,h3,h4{text-wrap:balance}
 ::selection{background:var(--voile-madder)}
 :focus-visible{outline:2px solid var(--madder);outline-offset:3px}
-.cadre{max-width:1100px;margin:0 auto;padding:0 24px}
+.cadre{max-width:1100px;margin:0 auto;padding:0 var(--gouttiere)}
 /* Une page de lecture suivie (Méthode) : colonne centrée à la mesure du
    texte, plutôt qu'un paragraphe étroit perdu dans une pleine largeur. */
 .cadre-texte{max-width:720px}
@@ -100,8 +100,10 @@ nav.onglets a{position:relative;font-family:var(--etiq);font-size:13px;letter-sp
   text-transform:uppercase;color:var(--sepia);padding:10px 15px 12px;transition:color .16s ease}
 nav.onglets a::after{content:'';position:absolute;left:15px;right:15px;bottom:0;height:3px;
   background:var(--madder);transform:scaleX(0);transition:transform .18s ease}
-nav.onglets a:hover{text-decoration:none;color:var(--encre)}
-nav.onglets a:hover::after{transform:scaleX(1);opacity:.45}
+@media (hover:hover){
+  nav.onglets a:hover{text-decoration:none;color:var(--encre)}
+  nav.onglets a:hover::after{transform:scaleX(1);opacity:.45}
+}
 nav.onglets a.actif{color:var(--encre)}
 nav.onglets a.actif::after{transform:scaleX(1)}
 /* L'atelier de saisie n'est pas une rubrique de lecture : on le distingue des
@@ -111,7 +113,9 @@ nav.onglets a.atelier{margin-left:auto;color:var(--madder-encre);background:var(
   border:1px solid var(--regle);border-radius:var(--rayon);padding:6px 13px 7px;
   transition:border-color .16s ease,background .16s ease}
 nav.onglets a.atelier::after{display:none}
-nav.onglets a.atelier:hover{border-color:var(--madder);background:var(--voile-madder);text-decoration:none}
+@media (hover:hover){
+  nav.onglets a.atelier:hover{border-color:var(--madder);background:var(--voile-madder);text-decoration:none}
+}
 @media (max-width:720px){nav.onglets a.atelier{margin-left:0}}
 
 /* ===== page ===== */
@@ -208,7 +212,9 @@ h2.titre-vue{font-size:clamp(30px,3.7vw,42px);margin:10px 0 8px;font-weight:600;
 .porte::after{content:counter(porte,upper-roman);counter-increment:porte;position:absolute;
   top:17px;right:20px;font-family:var(--etiq);font-size:12px;letter-spacing:.1em;
   color:var(--sepia);opacity:.42}
-.porte:hover{border-color:var(--madder);box-shadow:var(--ombre-levee);text-decoration:none;transform:translateY(-2px)}
+@media (hover:hover){
+  .porte:hover{border-color:var(--madder);box-shadow:var(--ombre-levee);text-decoration:none;transform:translateY(-2px)}
+}
 .porte h3{margin:0 0 8px;font-size:20px;letter-spacing:-.01em;color:var(--encre);padding-right:26px}
 .porte p{margin:0;font-size:14.5px;line-height:1.55;color:var(--sepia)}
 .porte .aller{margin-top:auto;padding-top:16px;font-family:var(--etiq);font-size:12.5px;
@@ -259,7 +265,7 @@ h2.titre-vue{font-size:clamp(30px,3.7vw,42px);margin:10px 0 8px;font-weight:600;
 .mention{background:var(--surface);border:1px solid var(--regle);border-radius:var(--rayon);
   border-top:3px solid var(--madder);padding:15px 18px;box-shadow:var(--ombre);display:block;
   transition:border-color .18s ease,box-shadow .18s ease}
-a.mention:hover{box-shadow:var(--ombre-levee);text-decoration:none}
+@media (hover:hover){a.mention:hover{box-shadow:var(--ombre-levee);text-decoration:none}}
 .mention .an{font-family:var(--etiq);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--madder-encre)}
 .mention .nom{font-size:19px;font-weight:600;margin:3px 0;color:var(--encre);letter-spacing:-.01em}
 .mention .att{font-size:14px;color:var(--sepia);line-height:1.5}
@@ -353,7 +359,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .bouton{font-family:var(--etiq);font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;
   color:var(--encre);background:var(--surface);border:1.5px solid var(--encre);border-radius:var(--rayon);
   padding:9px 16px;cursor:pointer;line-height:1;transition:background .16s ease,color .16s ease}
-.bouton:hover{background:var(--encre);color:var(--papier)}
+@media (hover:hover){.bouton:hover{background:var(--encre);color:var(--papier)}}
 
 @media print{
   body::before{display:none}
@@ -381,7 +387,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .point-carte{position:relative;background:var(--surface);border:1px solid var(--regle);border-radius:var(--rayon);
   box-shadow:var(--ombre);padding:16px 18px;margin:0 0 16px;margin-left:14px;
   transition:border-color .18s ease,box-shadow .18s ease}
-.point-carte:hover{border-color:var(--sepia);box-shadow:var(--ombre-levee)}
+@media (hover:hover){.point-carte:hover{border-color:var(--sepia);box-shadow:var(--ombre-levee)}}
 .point-carte::before{content:'';position:absolute;left:-33px;top:18px;width:9px;height:9px;border-radius:50%;
   background:var(--madder);border:2px solid var(--surface)}
 .point-carte .adresse{font-family:var(--etiq);font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:var(--madder-encre)}
@@ -629,14 +635,60 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 /* Sous 560px : les onglets tiennent en deux lignes, pas trois, et les
    étiquettes en capitales cessent de descendre sous le lisible. */
 @media (max-width:560px){
-  .cadre{padding:0 18px}
+  :root{--gouttiere:18px}
   nav.onglets a{font-size:12.5px;letter-spacing:.07em;padding-left:11px;padding-right:11px}
   nav.onglets a::after{left:11px;right:11px}
-  .ouverture-dedans{padding-left:18px;padding-right:18px}
-  .ouverture-credit{font-size:11.5px;letter-spacing:.05em;padding-left:18px;padding-right:18px}
+  .ouverture-dedans{padding-left:var(--gouttiere);padding-right:var(--gouttiere)}
+  .ouverture-credit{font-size:11.5px;letter-spacing:.05em;
+    padding-left:var(--gouttiere);padding-right:var(--gouttiere)}
   .cadre>.etiquette,.recherche-bloc label .etiquette{font-size:12px}
   .tuile .quoi,.porte .aller{font-size:12px}
   .registre th{font-size:11.5px}
   .marginale b,.note-chercheur .qual,.evenement .qual,.statut,.etat,.puce-conf{font-size:12px}
   .galerie .credit,.ph-nom{font-size:11.5px}
 }
+
+/* ===== téléphone : les onglets sur une seule ligne =====
+   Sous 760px, la barre de rubriques repliait sur deux ou trois lignes et
+   repoussait le contenu vers le bas. Elle devient une seule ligne qui défile
+   à l'horizontale, avec le même vocabulaire d'ombres que les registres : le
+   voile s'efface au bord atteint, l'ombre marque ce qui reste. `nav.js`
+   amène l'onglet courant dans le champ de vision au chargement — sans quoi,
+   sur les dernières rubriques, on ne verrait aucun onglet actif. */
+@media (max-width:760px){
+  nav.onglets{
+    flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;
+    scrollbar-width:none;-ms-overflow-style:none;
+    scroll-padding-inline:var(--gouttiere);
+    margin-inline:calc(var(--gouttiere) * -1);padding-inline:var(--gouttiere);
+    background-color:var(--surface);
+    background-image:
+      linear-gradient(to right,var(--surface) 26px,transparent 46px),
+      linear-gradient(to left,var(--surface) 26px,transparent 46px),
+      radial-gradient(farthest-side at 0 50%,rgba(38,34,28,.30),transparent),
+      radial-gradient(farthest-side at 100% 50%,rgba(38,34,28,.30),transparent);
+    background-position:0 0,100% 0,0 0,100% 0;
+    background-repeat:no-repeat;
+    background-size:46px 100%,46px 100%,20px 100%,20px 100%;
+    background-attachment:local,local,scroll,scroll;
+  }
+  nav.onglets::-webkit-scrollbar{display:none}
+  nav.onglets a{flex:0 0 auto;white-space:nowrap}
+  /* Plus de `margin-left:auto` dans un conteneur qui défile : l'atelier se
+     range en bout de course, séparé par un filet. */
+  nav.onglets a.atelier{margin-left:8px;border:0;border-left:1px solid var(--regle);
+    border-radius:0;background:none;padding-left:16px}
+  nav.onglets a.atelier:hover{background:none;color:var(--madder)}
+}
+@media (prefers-color-scheme:dark){@media (max-width:760px){nav.onglets{
+  background-image:
+    linear-gradient(to right,var(--surface) 26px,transparent 46px),
+    linear-gradient(to left,var(--surface) 26px,transparent 46px),
+    radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.72),transparent),
+    radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.72),transparent)}}}
+@media (max-width:760px){:root[data-theme="dark"] nav.onglets{
+  background-image:
+    linear-gradient(to right,var(--surface) 26px,transparent 46px),
+    linear-gradient(to left,var(--surface) 26px,transparent 46px),
+    radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.5),transparent),
+    radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.5),transparent)}}
