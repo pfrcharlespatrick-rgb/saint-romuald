@@ -24,7 +24,7 @@
   --ombre:0 1px 2px rgba(38,34,28,.05),0 2px 6px rgba(38,34,28,.045);
   --ombre-levee:0 2px 4px rgba(38,34,28,.05),0 14px 30px rgba(38,34,28,.11);
   --grain:.34; --grain-fusion:multiply;
-  --rayon:2px;
+  --rayon:2px; --gouttiere:24px;
   --serif:'Iowan Old Style','Palatino Linotype','Book Antiqua',Georgia,serif;
   --etiq:'Avenir Next Condensed','Helvetica Neue',Arial,sans-serif;
 }
@@ -76,7 +76,7 @@ p{text-wrap:pretty}
 h1,h2,h3,h4{text-wrap:balance}
 ::selection{background:var(--voile-madder)}
 :focus-visible{outline:2px solid var(--madder);outline-offset:3px}
-.cadre{max-width:1100px;margin:0 auto;padding:0 24px}
+.cadre{max-width:1100px;margin:0 auto;padding:0 var(--gouttiere)}
 /* Une page de lecture suivie (Méthode) : colonne centrée à la mesure du
    texte, plutôt qu'un paragraphe étroit perdu dans une pleine largeur. */
 .cadre-texte{max-width:720px}
@@ -100,8 +100,10 @@ nav.onglets a{position:relative;font-family:var(--etiq);font-size:13px;letter-sp
   text-transform:uppercase;color:var(--sepia);padding:10px 15px 12px;transition:color .16s ease}
 nav.onglets a::after{content:'';position:absolute;left:15px;right:15px;bottom:0;height:3px;
   background:var(--madder);transform:scaleX(0);transition:transform .18s ease}
-nav.onglets a:hover{text-decoration:none;color:var(--encre)}
-nav.onglets a:hover::after{transform:scaleX(1);opacity:.45}
+@media (hover:hover){
+  nav.onglets a:hover{text-decoration:none;color:var(--encre)}
+  nav.onglets a:hover::after{transform:scaleX(1);opacity:.45}
+}
 nav.onglets a.actif{color:var(--encre)}
 nav.onglets a.actif::after{transform:scaleX(1)}
 /* L'atelier de saisie n'est pas une rubrique de lecture : on le distingue des
@@ -111,7 +113,9 @@ nav.onglets a.atelier{margin-left:auto;color:var(--madder-encre);background:var(
   border:1px solid var(--regle);border-radius:var(--rayon);padding:6px 13px 7px;
   transition:border-color .16s ease,background .16s ease}
 nav.onglets a.atelier::after{display:none}
-nav.onglets a.atelier:hover{border-color:var(--madder);background:var(--voile-madder);text-decoration:none}
+@media (hover:hover){
+  nav.onglets a.atelier:hover{border-color:var(--madder);background:var(--voile-madder);text-decoration:none}
+}
 @media (max-width:720px){nav.onglets a.atelier{margin-left:0}}
 
 /* ===== page ===== */
@@ -187,7 +191,7 @@ h2.titre-vue{font-size:clamp(30px,3.7vw,42px);margin:10px 0 8px;font-weight:600;
 .note-echantillon{font-size:13px;color:var(--sepia);font-style:italic;margin:9px 0 0}
 
 /* Le bandeau de chiffres : une réglure de grand-livre, pas quatre boîtes. */
-.tuiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;
+.tuiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));gap:1px;
   background:var(--regle-faible);border:1px solid var(--regle);border-top:3px solid var(--madder);
   border-radius:var(--rayon);box-shadow:var(--ombre);overflow:hidden;margin:0}
 .tuile{background:var(--surface);padding:18px 20px 17px}
@@ -208,7 +212,9 @@ h2.titre-vue{font-size:clamp(30px,3.7vw,42px);margin:10px 0 8px;font-weight:600;
 .porte::after{content:counter(porte,upper-roman);counter-increment:porte;position:absolute;
   top:17px;right:20px;font-family:var(--etiq);font-size:12px;letter-spacing:.1em;
   color:var(--sepia);opacity:.42}
-.porte:hover{border-color:var(--madder);box-shadow:var(--ombre-levee);text-decoration:none;transform:translateY(-2px)}
+@media (hover:hover){
+  .porte:hover{border-color:var(--madder);box-shadow:var(--ombre-levee);text-decoration:none;transform:translateY(-2px)}
+}
 .porte h3{margin:0 0 8px;font-size:20px;letter-spacing:-.01em;color:var(--encre);padding-right:26px}
 .porte p{margin:0;font-size:14.5px;line-height:1.55;color:var(--sepia)}
 .porte .aller{margin-top:auto;padding-top:16px;font-family:var(--etiq);font-size:12.5px;
@@ -259,7 +265,7 @@ h2.titre-vue{font-size:clamp(30px,3.7vw,42px);margin:10px 0 8px;font-weight:600;
 .mention{background:var(--surface);border:1px solid var(--regle);border-radius:var(--rayon);
   border-top:3px solid var(--madder);padding:15px 18px;box-shadow:var(--ombre);display:block;
   transition:border-color .18s ease,box-shadow .18s ease}
-a.mention:hover{box-shadow:var(--ombre-levee);text-decoration:none}
+@media (hover:hover){a.mention:hover{box-shadow:var(--ombre-levee);text-decoration:none}}
 .mention .an{font-family:var(--etiq);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--madder-encre)}
 .mention .nom{font-size:19px;font-weight:600;margin:3px 0;color:var(--encre);letter-spacing:-.01em}
 .mention .att{font-size:14px;color:var(--sepia);line-height:1.5}
@@ -295,7 +301,7 @@ h3.bloc-titre{font-size:clamp(20px,2.1vw,24px);margin:0 0 6px;letter-spacing:-.0
   color:var(--sepia);font-size:14.5px;font-style:italic;background:transparent}
 
 /* ===== graphiques ===== */
-.grille-graphiques{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:18px;margin-top:8px;align-items:start}
+.grille-graphiques{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:18px;margin-top:8px;align-items:start}
 .graphique{background:var(--surface);border:1px solid var(--regle);border-radius:var(--rayon);
   border-top:3px solid var(--madder);padding:20px 22px 16px;box-shadow:var(--ombre)}
 .graphique h4{margin:0;font-size:18px;font-weight:600;letter-spacing:-.01em}
@@ -353,7 +359,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .bouton{font-family:var(--etiq);font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;
   color:var(--encre);background:var(--surface);border:1.5px solid var(--encre);border-radius:var(--rayon);
   padding:9px 16px;cursor:pointer;line-height:1;transition:background .16s ease,color .16s ease}
-.bouton:hover{background:var(--encre);color:var(--papier)}
+@media (hover:hover){.bouton:hover{background:var(--encre);color:var(--papier)}}
 
 @media print{
   body::before{display:none}
@@ -381,7 +387,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .point-carte{position:relative;background:var(--surface);border:1px solid var(--regle);border-radius:var(--rayon);
   box-shadow:var(--ombre);padding:16px 18px;margin:0 0 16px;margin-left:14px;
   transition:border-color .18s ease,box-shadow .18s ease}
-.point-carte:hover{border-color:var(--sepia);box-shadow:var(--ombre-levee)}
+@media (hover:hover){.point-carte:hover{border-color:var(--sepia);box-shadow:var(--ombre-levee)}}
 .point-carte::before{content:'';position:absolute;left:-33px;top:18px;width:9px;height:9px;border-radius:50%;
   background:var(--madder);border:2px solid var(--surface)}
 .point-carte .adresse{font-family:var(--etiq);font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:var(--madder-encre)}
@@ -395,7 +401,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .rattachements a:hover{border-color:var(--sepia);text-decoration:none;background:var(--regle-faible)}
 .rattachements .conf-forte{border-color:var(--madder-encre)}
 .non-rattaches{margin-top:40px}
-.liste-simple{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
+.liste-simple{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(220px,100%),1fr));gap:8px}
 .liste-simple li{font-size:14px;padding:9px 13px;background:var(--surface);border:1px solid var(--regle-faible);
   border-radius:var(--rayon)}
 .liste-simple .adresse{display:block;font-family:var(--etiq);font-size:11.5px;color:var(--sepia);letter-spacing:.04em}
@@ -405,7 +411,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
    fins, étiquettes en capitales. La carte est le seul élément « moderne » du
    site, on la cadre donc comme une planche insérée dans le registre. */
 .carte-outils{display:flex;gap:12px;align-items:stretch;flex-wrap:wrap;margin:0 0 14px}
-.filtre-annees{display:flex;gap:0;border:1px solid var(--regle);border-radius:var(--rayon);
+.filtre-annees{display:flex;gap:0;flex-wrap:wrap;border:1px solid var(--regle);border-radius:var(--rayon);
   background:var(--surface);overflow:hidden}
 .filtre-annees button{font-family:var(--etiq);font-size:12.5px;letter-spacing:.07em;text-transform:uppercase;
   background:none;border:0;border-right:1px solid var(--regle-faible);color:var(--sepia);padding:8px 13px;cursor:pointer}
@@ -454,7 +460,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
   color:var(--sepia);margin:20px 0 8px;padding-top:10px;border-top:1px solid var(--regle-faible);font-weight:600}
 .carte-panneau h4 .pan-aide{text-transform:none;letter-spacing:0;font-size:11.5px}
 
-.pan-grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin-bottom:8px}
+.pan-grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(140px,100%),1fr));gap:8px;margin-bottom:8px}
 .ch{display:grid;gap:2px}
 .ch>span{font-family:var(--etiq);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--sepia)}
 .ch input,.ch select,.ch textarea,.carte-panneau input[type=text],.carte-panneau input[type=search],
@@ -484,7 +490,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .puce{font-size:12.5px;border:1px solid var(--regle);padding:3px 4px 3px 8px;background:var(--papier)}
 .puce button{background:none;border:0;color:var(--madder);cursor:pointer;font-size:13px;padding:0 4px}
 .ligne-ajout{display:flex;gap:6px}
-.galerie-edit{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px;margin-bottom:8px}
+.galerie-edit{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(130px,100%),1fr));gap:8px;margin-bottom:8px}
 .ph-edit{margin:0;display:grid;gap:3px}
 .ph-edit img{width:100%;height:96px;object-fit:cover;border:1px solid var(--regle);background:var(--regle-faible)}
 .ph-nom{font-size:10.5px;color:var(--sepia);word-break:break-all}
@@ -535,7 +541,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .note-chercheur .qual{display:block;font-family:var(--etiq);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--sepia);margin-bottom:3px}
 .sous-bloc{font-family:var(--etiq);font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--sepia);margin:20px 0 8px;font-weight:600}
 .aujourdhui{font-size:14.5px;background:var(--creux);border:1px dashed var(--regle);border-radius:var(--rayon);padding:10px 14px}
-.galerie{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.galerie{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(220px,100%),1fr));gap:14px}
 .galerie .photo{margin:0}
 .galerie .photo img{width:100%;border:1px solid var(--regle);display:block}
 .galerie figcaption{font-size:13px;color:var(--sepia);margin-top:5px}
@@ -566,3 +572,123 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
   .carte-outils,.barre-atelier,.carte-panneau,.carte-legende,.aller-carte,.bouton-atelier,#plans-controle{display:none}
   .carte-toile,.carte-mini{height:280px}
 }
+
+/* ===== téléphone : ce qui déborde, ce qui se touche ===== */
+
+/* Un extrait de registre a huit colonnes : sur un téléphone il défile
+   forcément. Encore faut-il que ça se voie — les voiles s'effacent au bord
+   atteint, l'ombre marque le contenu qui reste. */
+.registre,.deborde,details.table-donnees>div{
+  background-color:var(--surface);
+  background-image:
+    linear-gradient(to right,var(--surface) 30%,transparent),
+    linear-gradient(to left,var(--surface) 30%,transparent),
+    radial-gradient(farthest-side at 0 50%,rgba(38,34,28,.16),transparent),
+    radial-gradient(farthest-side at 100% 50%,rgba(38,34,28,.16),transparent);
+  background-position:0 0,100% 0,0 0,100% 0;
+  background-repeat:no-repeat;
+  background-size:44px 100%,44px 100%,15px 100%,15px 100%;
+  background-attachment:local,local,scroll,scroll;
+}
+@media (prefers-color-scheme:dark){.registre,.deborde,details.table-donnees>div{
+  background-image:
+    linear-gradient(to right,var(--surface) 30%,transparent),
+    linear-gradient(to left,var(--surface) 30%,transparent),
+    radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.5),transparent),
+    radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.5),transparent)}}
+:root[data-theme="dark"] .registre,:root[data-theme="dark"] .deborde,
+:root[data-theme="dark"] details.table-donnees>div{
+  background-image:
+    linear-gradient(to right,var(--surface) 30%,transparent),
+    linear-gradient(to left,var(--surface) 30%,transparent),
+    radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.5),transparent),
+    radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.5),transparent)}
+.deborde,details.table-donnees>div{background-color:transparent}
+
+/* Au doigt, une commande se vise : 44px de haut, pas 24. Sur souris on ne
+   touche à rien — la densité du bureau reste celle d'un outil de travail. */
+@media (pointer:coarse){
+  .bouton,.filtre-annees button,.aller-carte,.rattachements a{
+    min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+  nav.onglets a.atelier{min-height:42px;display:inline-flex;align-items:center}
+  #recherche-lieu{min-height:44px}
+  /* Dans un registre, on vise un nom : c'est la cellule entière qui répond. */
+  .registre td a{display:block;margin:-9px -12px;padding:9px 12px}
+  /* Dans la frise des lieux, le titre est la porte d'entrée du lieu. */
+  .point-carte h3 a{display:block;padding:5px 0}
+  .occ-maison{display:inline-block;padding:9px 0}
+  .pied .liens-discrets a{padding:7px 0;display:inline-block}
+  .aller-carte{padding:6px 14px}
+  .filtre-annees button{flex:1 0 auto;padding:8px 16px}
+  nav.onglets a{padding-top:13px;padding-bottom:15px}
+  .resultat{padding-top:13px;padding-bottom:13px}
+  .liste-simple li,.pan-occ li{padding-top:11px;padding-bottom:11px}
+  /* Leaflet cible ses propres commandes en .leaflet-touch .leaflet-bar a :
+     il faut au moins autant de spécificité pour les agrandir. */
+  .leaflet-touch .leaflet-bar a.leaflet-control-zoom-in,
+  .leaflet-touch .leaflet-bar a.leaflet-control-zoom-out,
+  .leaflet-bar a.leaflet-control-zoom-in,.leaflet-bar a.leaflet-control-zoom-out{
+    width:42px;height:42px;line-height:40px;font-size:22px}
+  details.table-donnees summary{padding:10px 0}
+}
+
+/* Sous 560px : les onglets tiennent en deux lignes, pas trois, et les
+   étiquettes en capitales cessent de descendre sous le lisible. */
+@media (max-width:560px){
+  :root{--gouttiere:18px}
+  nav.onglets a{font-size:12.5px;letter-spacing:.07em;padding-left:11px;padding-right:11px}
+  nav.onglets a::after{left:11px;right:11px}
+  .ouverture-dedans{padding-left:var(--gouttiere);padding-right:var(--gouttiere)}
+  .ouverture-credit{font-size:11.5px;letter-spacing:.05em;
+    padding-left:var(--gouttiere);padding-right:var(--gouttiere)}
+  .cadre>.etiquette,.recherche-bloc label .etiquette{font-size:12px}
+  .tuile .quoi,.porte .aller{font-size:12px}
+  .registre th{font-size:11.5px}
+  .marginale b,.note-chercheur .qual,.evenement .qual,.statut,.etat,.puce-conf{font-size:12px}
+  .galerie .credit,.ph-nom{font-size:11.5px}
+}
+
+/* ===== téléphone : les onglets sur une seule ligne =====
+   Sous 760px, la barre de rubriques repliait sur deux ou trois lignes et
+   repoussait le contenu vers le bas. Elle devient une seule ligne qui défile
+   à l'horizontale, avec le même vocabulaire d'ombres que les registres : le
+   voile s'efface au bord atteint, l'ombre marque ce qui reste. `nav.js`
+   amène l'onglet courant dans le champ de vision au chargement — sans quoi,
+   sur les dernières rubriques, on ne verrait aucun onglet actif. */
+@media (max-width:760px){
+  nav.onglets{
+    flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;
+    scrollbar-width:none;-ms-overflow-style:none;
+    scroll-padding-inline:var(--gouttiere);
+    margin-inline:calc(var(--gouttiere) * -1);padding-inline:var(--gouttiere);
+    background-color:var(--surface);
+    background-image:
+      linear-gradient(to right,var(--surface) 26px,transparent 46px),
+      linear-gradient(to left,var(--surface) 26px,transparent 46px),
+      radial-gradient(farthest-side at 0 50%,rgba(38,34,28,.30),transparent),
+      radial-gradient(farthest-side at 100% 50%,rgba(38,34,28,.30),transparent);
+    background-position:0 0,100% 0,0 0,100% 0;
+    background-repeat:no-repeat;
+    background-size:46px 100%,46px 100%,20px 100%,20px 100%;
+    background-attachment:local,local,scroll,scroll;
+  }
+  nav.onglets::-webkit-scrollbar{display:none}
+  nav.onglets a{flex:0 0 auto;white-space:nowrap}
+  /* Plus de `margin-left:auto` dans un conteneur qui défile : l'atelier se
+     range en bout de course, séparé par un filet. */
+  nav.onglets a.atelier{margin-left:8px;border:0;border-left:1px solid var(--regle);
+    border-radius:0;background:none;padding-left:16px}
+  nav.onglets a.atelier:hover{background:none;color:var(--madder)}
+}
+@media (prefers-color-scheme:dark){@media (max-width:760px){nav.onglets{
+  background-image:
+    linear-gradient(to right,var(--surface) 26px,transparent 46px),
+    linear-gradient(to left,var(--surface) 26px,transparent 46px),
+    radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.72),transparent),
+    radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.72),transparent)}}}
+@media (max-width:760px){:root[data-theme="dark"] nav.onglets{
+  background-image:
+    linear-gradient(to right,var(--surface) 26px,transparent 46px),
+    linear-gradient(to left,var(--surface) 26px,transparent 46px),
+    radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.5),transparent),
+    radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.5),transparent)}}
