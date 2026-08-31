@@ -112,9 +112,12 @@
   .vue.active { display: block; }
 
   .chiffres { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--space-2); margin-bottom: var(--space-6); }
-  .chiffres { gap: 1px; background: var(--color-neutral-200); border: 1px solid var(--color-divider);
-    border-top: 3px solid var(--madder); }
-  .chiffre { padding: 15px 17px 14px; background: var(--color-surface); border-left: 0; }
+  /* Même réglure que le site public : les filets sont portés par les cases,
+     pour qu'une cellule vide en fin de grille reste du papier. */
+  .chiffres { gap: 0; background: var(--color-surface); border: 1px solid var(--color-divider);
+    border-top: 3px solid var(--madder); overflow: hidden; }
+  .chiffre { padding: 15px 17px 14px; background: var(--color-surface); border-left: 0;
+    box-shadow: 1px 0 0 var(--color-neutral-200), 0 1px 0 var(--color-neutral-200); }
   .chiffre b { display: block; font-family: var(--font-heading); font-size: 29px; font-weight: 600;
     line-height: 1.05; letter-spacing: -.02em; font-variant-numeric: tabular-nums; color: var(--color-text); }
   .chiffre span { display: block; font-family: var(--etiq); font-size: 11.5px; letter-spacing: .14em;
@@ -198,6 +201,10 @@
     .fleche { display: block; padding: 2px 0 6px; text-align: center;
       transform: rotate(90deg); transform-origin: center }
     .etiquette-section { font-size: 12px }
+    /* Les étiquettes en capitales descendaient sous le lisible au creux de
+       la main. (Celles posées en dur dans les gabarits JS sont remontées
+       là-bas : une feuille de style ne peut pas atteindre un style inline.) */
+    .conf, table.tbl th { font-size: 12px }
     .sous-titre { white-space: normal }
     .titre-rangee { padding-top: 12px; padding-bottom: 10px }
   }
@@ -820,7 +827,7 @@
             (affs.length
               ? '<div class="liste-evts">' + affs.map(function (a) {
                   return '<div class="evt preuve">' + badge(a.certitude || 'hypothese') + ' ' +
-                    '<span style="font-size:10.5px;color:var(--color-neutral-600);text-transform:uppercase;letter-spacing:.06em">' +
+                    '<span style="font-size:12px;color:var(--color-neutral-600);text-transform:uppercase;letter-spacing:.06em">' +
                     ech(a.type) + '</span> ' + ech(a.enonce) +
                     (a.consequence ? '<div style="margin-top:3px;font-size:12px;color:var(--color-neutral-700)">' + ech(a.consequence) + '</div>' : '') +
                     '</div>';
@@ -977,7 +984,7 @@
         : '';
       return '<div class="evt ' + ech(e.type) + '">' +
         '<div class="evt-tete">' + badge(e.confiance) +
-          '<span style="font-size:11px;color:var(--color-neutral-600)">' + ech(e.intervalle) + '</span>' +
+          '<span style="font-size:12px;color:var(--color-neutral-600)">' + ech(e.intervalle) + '</span>' +
           '<span>' + ech(e.resume) + '</span>' +
         '</div>' + motifs + '</div>';
     }).join('') +
@@ -1069,7 +1076,7 @@
       'écartés des veuvages pour cette raison.</div>' +
       '<div class="liste-evts">' + ages.map(function (e) {
         return '<div class="evt">' +
-          '<div class="evt-tete"><span style="font-size:11px;color:var(--color-neutral-600)">' +
+          '<div class="evt-tete"><span style="font-size:12px;color:var(--color-neutral-600)">' +
           ech(e.intervalle) + '</span><span>' + ech(e.resume) + '</span></div>' +
           '<ul class="motifs">' + e.motifs.map(function (m) {
             return '<li>' + ech(m) + '</li>';
@@ -1148,9 +1155,9 @@
       }).join(' · ');
       return '<div class="evt preuve">' +
         '<div class="evt-tete">' + badge(a.certitude || 'hypothese') +
-          '<span style="font-size:10.5px;color:var(--color-neutral-600);text-transform:uppercase;letter-spacing:.06em">' +
+          '<span style="font-size:12px;color:var(--color-neutral-600);text-transform:uppercase;letter-spacing:.06em">' +
           ech(a.type) + '</span>' +
-          (a.date ? '<span style="font-size:11px;color:var(--color-neutral-600)">' + ech(a.date) + '</span>' : '') +
+          (a.date ? '<span style="font-size:12px;color:var(--color-neutral-600)">' + ech(a.date) + '</span>' : '') +
         '</div>' +
         '<div style="margin-top:3px">' + ech(a.enonce) + '</div>' +
         (cibles ? '<div style="margin-top:3px;font-size:11.5px;color:var(--color-neutral-600)">' + cibles + '</div>' : '') +

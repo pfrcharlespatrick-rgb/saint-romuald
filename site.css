@@ -191,10 +191,15 @@ h2.titre-vue{font-size:clamp(30px,3.7vw,42px);margin:10px 0 8px;font-weight:600;
 .note-echantillon{font-size:13px;color:var(--sepia);font-style:italic;margin:9px 0 0}
 
 /* Le bandeau de chiffres : une réglure de grand-livre, pas quatre boîtes. */
-.tuiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));gap:1px;
-  background:var(--regle-faible);border:1px solid var(--regle);border-top:3px solid var(--madder);
+/* Réglure de grand-livre. Les filets sont portés par les tuiles, pas par les
+   gouttières de la grille : quand le compte ne tombe pas juste (quatre tuiles
+   sur trois colonnes), la cellule vide reste du papier au lieu de virer au
+   gris. Le débord est rogné par overflow. */
+.tuiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));gap:0;
+  background:var(--surface);border:1px solid var(--regle);border-top:3px solid var(--madder);
   border-radius:var(--rayon);box-shadow:var(--ombre);overflow:hidden;margin:0}
-.tuile{background:var(--surface);padding:18px 20px 17px}
+.tuile{background:var(--surface);padding:18px 20px 17px;
+  box-shadow:1px 0 0 var(--regle-faible),0 1px 0 var(--regle-faible)}
 .tuile .gros{font-size:clamp(28px,3.1vw,37px);font-weight:600;font-variant-numeric:tabular-nums;
   line-height:1.05;letter-spacing:-.02em}
 .tuile .quoi{font-family:var(--etiq);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
@@ -616,8 +621,8 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
   .registre td a{display:block;margin:-9px -12px;padding:9px 12px}
   /* Dans la frise des lieux, le titre est la porte d'entrée du lieu. */
   .point-carte h3 a{display:block;padding:5px 0}
-  .occ-maison{display:inline-block;padding:9px 0}
-  .pied .liens-discrets a{padding:7px 0;display:inline-block}
+  .occ-maison{display:inline-block;padding:12px 0}
+  .pied .liens-discrets a{padding:11px 0;display:inline-block}
   .aller-carte{padding:6px 14px}
   .filtre-annees button{flex:1 0 auto;padding:8px 16px}
   nav.onglets a{padding-top:13px;padding-bottom:15px}
@@ -629,7 +634,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
   .leaflet-touch .leaflet-bar a.leaflet-control-zoom-out,
   .leaflet-bar a.leaflet-control-zoom-in,.leaflet-bar a.leaflet-control-zoom-out{
     width:42px;height:42px;line-height:40px;font-size:22px}
-  details.table-donnees summary{padding:10px 0}
+  details.table-donnees summary{padding:13px 0}
 }
 
 /* Sous 560px : les onglets tiennent en deux lignes, pas trois, et les

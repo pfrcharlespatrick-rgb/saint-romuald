@@ -299,3 +299,37 @@ identique à avant la passe — barre de rubriques non défilante, survols intac
 Une seule source pour la gouttière depuis cette passe : `--gouttiere` (24px,
 18px sous 560px), dont `.cadre`, l'ouverture et la barre défilante se servent.
 Ne pas y réintroduire de valeur en dur.
+
+### Rejouer l'audit
+
+`node outils/audit-telephone.mjs` sert le site en local, l'ouvre dans un
+Chromium en contexte tactile à 320, 390 et 430px, et vérifie les règles
+ci-dessus sur les huit pages : débordement horizontal, taille des commandes
+autonomes, barre de rubriques sur une ligne avec sa rubrique courante dans le
+champ, présence des ombres sur ce qui défile, plancher de lisibilité du texte.
+Il sort en code 1 au premier manquement, ne touche à rien, et prend ses
+identifiants de fiche dans les fichiers produits par `generer-site.mjs` — il
+suit donc les données plutôt qu'un exemple figé.
+
+    node outils/audit-telephone.mjs --page methode        # une seule page
+    node outils/audit-telephone.mjs --largeurs 360        # une seule largeur
+    node outils/audit-telephone.mjs --captures /tmp/audit # + copies d'écran
+
+Il demande Playwright (`npm install -g playwright && npx playwright install
+chromium`), qui reste **hors du site** : les pages publiques ne chargent
+toujours rien depuis le réseau.
+
+Ce qu'il n'attrape pas : le laid. Une page peut passer l'audit et rester mal
+composée — il tient les régressions mesurables, pas le coup d'œil.
+
+Deux pièges relevés en l'écrivant, à connaître avant de « corriger » ses
+signalements :
+
+- **Un style inline gagne toujours.** Les gabarits JS de `filiation.html`
+  posaient des `font-size` en dur ; la règle CSS écrite pour les relever
+  n'avait aucun effet tout en ayant l'air d'agir. Corriger à la source.
+- **Une grille en réglure ne doit pas porter ses filets dans ses gouttières.**
+  Avec `gap:1px` sur un fond coloré, une cellule vide en fin de grille (quatre
+  tuiles sur trois colonnes, entre 700 et 850px) vire au gris. Les filets sont
+  donc portés par les cases elles-mêmes, en `box-shadow`, et le débord rogné
+  par `overflow`.
