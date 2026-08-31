@@ -196,3 +196,46 @@ div. 2) et pour tout nouveau choix d'architecture ou de design.
 - Maquette : `maquettes/refonte-2026.html` (fichier autonome, données réelles)
 - Version publiée : https://claude.ai/code/artifact/bdfd7682-fbea-472d-9282-15027f5fa4f8
 - Analyse détaillée : conversation d'août 2026 (relecture 1881 + refonte)
+
+---
+
+## Affinage esthétique (passe de finition)
+
+La refonte avait posé la structure ; cette passe travaille la **matière**. Les
+jetons de couleur du tableau ci-dessus n'ont pas bougé, ni le vocabulaire —
+papier, filets fins, madder, capitales condensées, chiffres alignés. Ce qui a
+changé, et pourquoi :
+
+- **Jetons dérivés** (`site.css`) : `--creux` (fond en retrait), `--voile-madder`
+  (survol et sélection teintés), `--lueur` (dégradé chaud en haut de page),
+  `--ombre` / `--ombre-levee` (deux niveaux au lieu d'un), `--rayon` (2px),
+  `--grain`. Tous se déduisent des jetons définitifs ; les redéfinir en mode
+  sombre suffit.
+- **Le grain du papier** : bruit SVG fin en surimpression fixe
+  (`body::before`), dosé à la limite du perceptible. C'est lui qui distingue
+  une feuille d'un aplat gris. Masqué à l'impression.
+- **Échelle typographique** : corps à 17px, titres en `clamp()`, interlignage
+  respiré, `text-wrap: balance` / `pretty`. Le masthead porte un filet madder
+  en tête de page — la signature éditoriale du site.
+- **L'ouverture de l'accueil** : la photo des chantiers n'est plus un encart au
+  milieu de page, c'est le seuil du site — bandeau pleine largeur, voile chaud,
+  titre et guichet de recherche posés dessus. La légende imprimée au bas du
+  cliché est rognée par CSS (`.ouverture-fond`), l'original n'est pas touché.
+- **Le bandeau de chiffres** : les quatre tuiles forment une réglure de
+  grand-livre (grille à `gap:1px` sur fond `--regle`), plus quatre boîtes
+  séparées. Sert aussi aux tuiles de `stats.html`.
+- **Les portes** : trois en tête, deux en pied (grille de 6 colonnes), jamais
+  une carte orpheline ; numérotées en chiffres romains.
+- **Le fil des trajectoires** : pastille de confiance au-dessus d'un pointillé
+  fléché — le lien est calculé, jamais prouvé, et le pointillé le dit.
+- **Pages de lecture suivie** (`methode.html`) : `.cadre-texte` ramène la
+  colonne à la mesure du texte ; `.deborde` laisse un tableau reprendre la
+  pleine page.
+- **`filiation.html`** : bâtie sur le système de jetons `_ds`, elle n'a pas été
+  réécrite — ses jetons sont **remappés** sur la palette du registre en tête de
+  son `<style>` (clair et sombre), et sa barre de titre reprend le masthead
+  public. Le gabarit de l'application ne bouge pas.
+
+Vérifié au rendu sur les sept pages publiques, en clair et en sombre, à 1280px
+et à 390px : aucun débordement horizontal, aucune erreur console, feuille
+d'impression conservée.

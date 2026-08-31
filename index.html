@@ -25,15 +25,30 @@
   </nav>
 </div></header>
 
-<div class="page"><div class="cadre">
-  <div class="recherche-bloc">
-    <label for="q"><span class="etiquette">Recherche dans les trois recensements</span></label>
-    <div class="champ-recherche">
-      <input id="q" type="search" placeholder="Un nom, un métier… essayez « Lee » ou « navigateur »" autocomplete="off">
-    </div>
-    <div class="resultats" id="resultats"></div>
-    <p class="note-echantillon" id="note-recherche">Chargement de l’index de recherche…</p>
+<section class="ouverture">
+  <div class="ouverture-fond"><img src="assets/chantiers-new-liverpool.jpg" alt="Chantiers navals et commerce du bois, anse de New Liverpool, XIXe siècle."></div>
+  <div class="cadre ouverture-dedans">
+    <span class="ouverture-kicker">Recensements de 1871 · 1881 · 1891</span>
+    <h2 class="ouverture-titre">Ceux qui vivaient le long du chemin du Fleuve</h2>
+    <p class="ouverture-lead">Les recensements nominatifs de New Liverpool et de Saint-Romuald, dépouillés ligne à ligne et relus au manuscrit. Une personne, une maison, une trajectoire d'un recensement à l'autre — avec ce qui est établi et ce qui reste incertain.</p>
+
+    <form class="recherche-bloc" role="search" onsubmit="return false">
+      <label for="q"><span class="etiquette">Chercher dans les trois recensements</span></label>
+      <div class="guichet">
+        <div class="champ-recherche">
+          <svg class="loupe" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.4 15.4 21 21"/></svg>
+          <input id="q" type="search" placeholder="Un nom, un métier… essayez « Lee » ou « navigateur »" autocomplete="off">
+        </div>
+        <div class="resultats" id="resultats"></div>
+      </div>
+      <p class="note-echantillon" id="note-recherche">Chargement de l’index de recherche…</p>
+    </form>
   </div>
+  <p class="ouverture-credit">Chantiers navals et commerce du bois, anse de New Liverpool, 1847–1868</p>
+</section>
+
+<div class="page"><div class="cadre">
+  <div class="rubrique"><span>Ce que contient le corpus</span></div>
 
   <div class="tuiles" id="tuiles">
     <div class="tuile"><div class="gros">—</div><div class="quoi">Personnes</div><div class="detail"></div></div>
@@ -42,10 +57,7 @@
     <div class="tuile"><div class="gros">—</div><div class="quoi">Trajectoires</div><div class="detail"></div></div>
   </div>
 
-  <figure class="heros">
-    <img src="assets/chantiers-new-liverpool.jpg" alt="Chantiers navals et commerce du bois, anse de New Liverpool, XIXe siècle.">
-    <figcaption>Chantiers navals et commerce du bois, anse de New Liverpool (1847–1868). C'est dans ces chantiers que travaillent les navigateurs, débardeurs et journaliers du recensement.</figcaption>
-  </figure>
+  <div class="rubrique"><span>Par où entrer</span></div>
 
   <div class="portes">
     <a class="porte" href="personne.html"><h3>Suivre une personne</h3>
