@@ -637,8 +637,21 @@
     return String(t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   }
 
+  // Les valeurs de statut sont des clés, pas du texte : « confirme » et
+  // « rejete » vivent dans le localStorage du chercheur (suivi-liens,
+  // suivi-filiation-rejets), « etabli », « probable » et « hypothese » sont
+  // les degres_certitude de documents/manifeste.json. Les renommer casserait
+  // les décisions déjà prises et le schéma du manifeste. On les habille donc
+  // pour l'affichage, sans y toucher — la classe CSS garde la clé.
+  var LIBELLES_STATUT = {
+    calcule: 'calculé', confirme: 'confirmé', rejete: 'rejeté',
+    etabli: 'établi', probable: 'probable', hypothese: 'hypothèse',
+    forte: 'forte', moyenne: 'moyenne', faible: 'faible', indicative: 'indicative'
+  };
+
   function badge(conf) {
-    return '<span class="conf conf-' + ech(conf) + '">' + ech(conf) + '</span>';
+    return '<span class="conf conf-' + ech(conf) + '">' +
+      ech(LIBELLES_STATUT[conf] || conf) + '</span>';
   }
 
   function nomComplet(p) {
