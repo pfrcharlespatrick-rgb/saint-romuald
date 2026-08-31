@@ -63,7 +63,8 @@
     border-bottom: 3px double var(--color-text);
     position: sticky; top: 0; z-index: 10;
   }
-  .titre-rangee { display: flex; align-items: center; gap: var(--space-3); padding: 14px 0 12px; flex-wrap: wrap; }
+  .titre-rangee { display: flex; align-items: center; gap: var(--space-3);
+    padding-top: 14px; padding-bottom: 12px; flex-wrap: wrap; }
   .plaque {
     background: var(--madder); color: #FFFFFE;
     font-family: var(--etiq); font-size: 15px; letter-spacing: .1em; font-weight: 600;
@@ -183,6 +184,27 @@
     letter-spacing: .12em; color: var(--color-neutral-700); background: var(--color-neutral-100);
     padding: 9px 10px; border-bottom: 2px solid var(--color-text); }
   table.tbl td { padding: 8px 10px; border-bottom: 1px solid var(--color-neutral-200); vertical-align: top; }
+
+  /* ─── Téléphone ───────────────────────────────────────────────────────
+     Gouttière alignée sur celle du site public, commandes visables au doigt,
+     et la chaîne des mentions qui s'empile proprement au lieu de laisser ses
+     flèches en colonne vide sur le côté. */
+  @media (max-width: 700px) {
+    .enveloppe { padding: 0 18px }
+    .chaine { display: block }
+    .maillon { min-width: 0; margin-bottom: 8px }
+    .fleche { display: block; padding: 2px 0 6px; text-align: center;
+      transform: rotate(90deg); transform-origin: center }
+    .etiquette-section { font-size: 12px }
+    .sous-titre { white-space: normal }
+    .titre-rangee { padding-top: 12px; padding-bottom: 10px }
+  }
+  @media (pointer: coarse) {
+    .btn { min-height: 44px; display: inline-flex; align-items: center; justify-content: center }
+    .onglets .btn { min-height: 44px }
+    .actions-lien .btn { min-height: 40px; padding: 4px 14px; font-size: 12.5px }
+    .input { min-height: 44px }
+  }
 </style>
 
 <header class="barre">

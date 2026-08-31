@@ -237,5 +237,43 @@ changé, et pourquoi :
   public. Le gabarit de l'application ne bouge pas.
 
 Vérifié au rendu sur les sept pages publiques, en clair et en sombre, à 1280px
-et à 390px : aucun débordement horizontal, aucune erreur console, feuille
-d'impression conservée.
+et à 390px : aucune erreur console, feuille d'impression conservée. La passe
+téléphone ci-dessous a repris cette vérification plus largement et corrigé ce
+qu'elle avait laissé passer.
+
+## Passe téléphone
+
+Un audit mesuré (320, 390 et 430px, contexte tactile, les sept pages publiques
+plus Filiations) a relevé des défauts que la vérification à l'œil n'avait pas
+vus. Ce qui a été corrigé, et la règle à retenir :
+
+- **Grilles `auto-fit`** : `minmax(320px,1fr)` force une colonne plus large que
+  l'écran et fait déborder la page. Toutes passent en
+  `minmax(min(320px,100%),1fr)` — le `min()` est ce qui rend la grille
+  réellement fluide. C'est ce qui faisait déborder `stats.html` de 24px à
+  320px.
+- **`.filtre-annees`** (carte) ne se repliait pas : « Sans rattachement » était
+  coupé net au bord. `flex-wrap:wrap`.
+- **Ombres de défilement** sur `.registre`, `.deborde` et les tables de valeurs :
+  un extrait de registre a huit colonnes, il défile forcément sur un téléphone,
+  et rien ne le disait. Motif classique — deux voiles en `background-attachment:
+  local` (ils s'effacent au bord atteint) et deux ombres en `scroll`. Sur un
+  écran large où le tableau tient, le motif se masque tout seul.
+- **Cibles tactiles** sous `@media (pointer:coarse)` — et seulement là, la
+  densité du bureau reste celle d'un outil de travail. Les commandes montent à
+  44px ; dans un registre c'est la cellule entière qui devient cliquable
+  (`.registre td a{display:block;margin:-9px -12px;padding:9px 12px}`), et dans
+  la frise c'est le titre du lieu. Les commandes de zoom de Leaflet demandent
+  `.leaflet-touch .leaflet-bar a.leaflet-control-zoom-in` : moins spécifique, la
+  règle perd contre celle de la bibliothèque.
+- **Filiations** : `.titre-rangee{padding: X 0 Y}` écrasait la gouttière de
+  `.enveloppe` — sur un écran plus étroit que `max-width`, la barre de titre
+  collait au bord. Corrigé en `padding-top`/`padding-bottom`. La chaîne des
+  mentions s'empile désormais avec sa flèche tournée, au lieu de laisser une
+  colonne de flèches vide sur le côté ; les boutons Confirmer / Écarter
+  passaient de 19px de haut à 40px.
+
+Restent volontairement inchangés : les liens en incise dans une phrase (leur
+hauteur est celle du texte, c'est normal) et le crédit d'attribution de Leaflet.
+Vérifié après correction : aucun débordement horizontal à 320, 390 ni 430px, et
+le rendu au bureau est identique à avant la passe.
