@@ -1,32 +1,41 @@
 """Rendu des recueils PDF du manuscrit de 1871, sous-district C (Etchemin).
 
 Cinq recueils « Recensements_1871NewLiverpool_Partie1..5 », deux pages du
-manuscrit par page PDF, la première en haut du cadre, la seconde en bas —
-comme ceux de 1891. Trois choses les en distinguent, et toutes trois ont coûté
-un détour avant d'être comprises :
+manuscrit par page PDF, la première en haut du cadre, la seconde en bas — comme
+ceux de 1891. **Ce qu'ils couvrent, vérifié en-tête par en-tête sur les
+98 cadres : la division 1 en entier, pages 1 à 78, puis les pages 1 à 17 de la
+division 2.** Les 56 dernières pages de la division 2 n'y sont pas. Le second
+cadre de la première page du recueil 5 porte le tableau no 2 — les morts des
+douze derniers mois de la division 1, dont le rattachement était jusqu'ici une
+inférence.
 
-1. **Le formulaire de 1871 compte 20 lignes**, non 25, et il est bien moins
-   dense. Un cadre entier se lit d'une seule image : il n'y a pas lieu de le
-   découper en bandes de colonnes comme on devait le faire en 1891.
+Quatre choses ont dû être comprises avant qu'une ligne soit lisible sans risque.
+
+1. **Le formulaire de 1871 compte 20 lignes**, non 25.
 
 2. **La détection par filets de `recueil91.py` ne transfère pas.** Le contraste
    de ces microfilms fait prendre les lignes de texte pour des filets. Ce qui
-   marche ici est plus simple et plus sûr : *les cadres sont des rectangles
-   clairs sur fond noir*. On segmente donc sur la luminance, pas sur l'encre.
+   marche est plus simple : les cadres sont des rectangles clairs sur fond noir,
+   et c'est **la texture**, non la luminance, qui les sépare de la marge blanche
+   du gabarit lettre — sans quoi la page PDF qui ne porte qu'un seul cadre, la
+   première de la division 2, se fait couper en deux.
 
-3. **La page 1 de la division 1 est photographiée deux fois**, sur les deux
-   moitiés du premier cadre du recueil 1, et le recueil 5 porte deux cadres
-   morts entre la fin de la division 1 et le début de la division 2. Le reste
-   est régulier : cadre k de la partie n = page `base + k`.
+3. **Les prises sont de travers**, d'un demi-degré à deux degrés. Sur la largeur
+   d'une page cela déporte le côté droit d'une ligne entière. Le cadre est donc
+   redressé avant tout (`redresse`).
 
-Ce que couvrent les cinq recueils, vérifié en-tête par en-tête sur les
-98 cadres : **la division 1 en entier (pages 1 à 78)**, puis les **pages 1 à 16
-de la division 2**. Les 57 dernières pages de la division 2 ne sont pas dans
-ces PDF.
+4. **Le recenseur pose son écriture bas dans la case**, presque sur le filet. À
+   faible grossissement une marque paraît appartenir à la rangée suivante. La
+   parade est `tranche()` : une demi-page magnifiée, de la marge des numéros de
+   ligne au bord droit du formulaire. Le formulaire imprime ces numéros **des
+   deux côtés**, et ce double ancrage rend la lecture des colonnes 15 à 22 sûre.
+   Attention, la marge de droite numérote une rangée plus bas que celle de
+   gauche : c'est celle de gauche qui fait foi.
 
     import recueil71 as R
-    R.cadre(1, 40)                 # image de la page 40 de la division 1
-    R.cadre(2, 5, colonnes=(0.0, 0.55))   # moitié gauche seulement
+    R.couverture()                 # ce que les recueils portent
+    R.cadre(1, 40)                 # la page 40 de la division 1, entière
+    R.tranche(1, 40, 0)            # sa moitié haute, magnifiée — l'instrument
 """
 import glob
 import os
@@ -149,26 +158,117 @@ def couverture():
         print(f'division {div} : pages {min(pages)} à {max(pages)} ({len(pages)} cadres)')
 
 
-def _angle(band):
-    """Inclinaison du cadre, en degrés, cherchée sur les filets imprimés.
+def _dephasage(a):
+    """De combien la rangée de droite tombe plus bas que celle de gauche, en px.
 
-    **Ces microfilms sont pris de travers**, d'un demi-degré à deux degrés : sur
-    la largeur d'une page, cela déporte le côté droit d'une ligne entière par
-    rapport au côté gauche. Une coche de la colonne 17 lue en face du nom de la
-    colonne 7 tombe alors sur le mauvais habitant. C'est le piège numéro un de
-    ce recueil, et il est invisible tant qu'on ne regarde qu'une bande étroite.
-
-    On cherche l'angle qui rend les filets les plus nets : celui qui maximise la
-    variance du profil des sommes de lignes.
+    On corrèle le profil d'encre d'une bande à gauche — numéros de ligne et
+    noms — avec celui d'une bande à droite — colonnes 14 à 22. Le décalage qui
+    les superpose est la chose à annuler.
     """
-    best, angle = None, 0.0
-    for a in np.arange(-2.5, 2.51, 0.1):
-        r = np.asarray(Image.fromarray(band.astype(np.uint8)).rotate(
-            a, resample=Image.BILINEAR, fillcolor=255), dtype=float)
-        v = r.mean(axis=1).var()
+    H, W = a.shape
+
+    def profil(x0, x1):
+        b = a[:, int(x0 * W):int(x1 * W)]
+        p = (b < np.percentile(b, 30)).mean(axis=1)
+        return p - p.mean()
+
+    g, d = profil(0.09, 0.33), profil(0.55, 0.82)
+    best, dec = None, 0
+    for k in range(-int(0.06 * H), int(0.06 * H) + 1):
+        v = float(np.dot(g[max(0, k):len(g) + min(0, k)], d[max(0, -k):len(d) + min(0, -k)]))
         if best is None or v > best:
-            best, angle = v, float(a)
-    return angle
+            best, dec = v, k
+    return dec
+
+
+def _pas(a):
+    """Pas des rangées, en pixels, lu dans l'autocorrélation du profil de gauche."""
+    H, W = a.shape
+    b = a[:, int(0.09 * H and 0.09 * W):int(0.33 * W)]
+    g = (b < np.percentile(b, 30)).mean(axis=1)
+    g = g - g.mean()
+    auto = [float(np.dot(g[k:], g[:len(g) - k])) for k in range(1, int(0.12 * H))]
+    d = int(0.01 * H)
+    return int(np.argmax(auto[d:])) + d + 1
+
+
+def _reference(division, ms):
+    """Le cadre brut à l'échelle 4 — support de toutes les mesures de géométrie."""
+    partie, pp, moitie = locate(division, ms)
+    y0, y1 = cadres(partie, pp)[moitie]
+    im = render(partie, pp, 4)
+    W, H = im.size
+    x0, x1 = _bornes_x(im, y0, y1)
+    return np.asarray(im.crop((int(x0 * W), int(y0 * H), int(x1 * W), int(y1 * H))), dtype=float)
+
+
+PAGES = {1: 78, 2: 17}
+_table_angles = {}
+
+
+def angles_de(division):
+    """Les inclinaisons de toutes les pages d'une division, déroulées et lissées.
+
+    La corrélation qui mesure le déphasage se cale une fois sur dix sur la rangée
+    **voisine** : la valeur saute alors d'un pas de rangée entier, et la page se
+    lirait décalée d'un cran sans que rien n'avertisse. Deux garde-fous, tous
+    deux fondés sur le fait qu'un film ne change pas d'inclinaison d'une prise à
+    l'autre :
+
+      — **déroulage** : toute valeur éloignée de la médiane de plus d'un demi-pas
+        y est ramenée en lui ajoutant ou retranchant des pas entiers ;
+      — **lissage** : ce qui reste aberrant par rapport aux six pages voisines
+        est remplacé par leur médiane.
+    """
+    if division in _table_angles:
+        return _table_angles[division]
+    n = PAGES[division]
+    bruts, pas = [], []
+    for ms in range(1, n + 1):
+        a = _reference(division, ms)
+        bruts.append(_dephasage(a))
+        pas.append(_pas(a))
+    P = int(np.median(pas))
+    med = float(np.median(bruts))
+    deroules = []
+    for v in bruts:
+        while v - med > P / 2:
+            v -= P
+        while med - v > P / 2:
+            v += P
+        deroules.append(v)
+    lisses = []
+    for i, v in enumerate(deroules):
+        voisins = deroules[max(0, i - 3):i] + deroules[i + 1:i + 4]
+        m = float(np.median(voisins)) if voisins else v
+        lisses.append(m if abs(v - m) > P / 4 else v)
+    largeur = _reference(division, 1).shape[1]
+    dx = (0.685 - 0.21) * largeur
+    _table_angles[division] = {ms: -float(np.degrees(np.arctan2(lisses[ms - 1], dx)))
+                               for ms in range(1, n + 1)}
+    return _table_angles[division]
+
+
+def angle_de(division, ms):
+    return angles_de(division)[ms]
+
+
+def _angle(a):
+    """Inclinaison d'un cadre isolé, en degrés — **mesurée**, non estimée.
+
+    Ces microfilms sont pris de travers. La première version cherchait l'angle
+    qui rend les filets les plus nets : mauvais critère, dominé par l'en-tête
+    imprimé, et il restait sur la plupart des pages un déphasage d'une
+    demi-rangée entre la colonne des noms et celle des marques. Une coche s'y
+    lisait alors sur le mauvais habitant — tantôt au-dessus, tantôt au-dessous,
+    ce qui est pire qu'une erreur constante puisque rien n'en avertit.
+
+    On mesure donc directement ce qui compte, le déphasage gauche/droite, et on
+    tourne de quoi l'annuler. Contrôlé sur cinq pages tirées au hasard : il ne
+    reste ensuite pas plus d'un pixel.
+    """
+    dx = (0.685 - 0.21) * a.shape[1]
+    return -float(np.degrees(np.arctan2(_dephasage(a), dx)))
 
 
 def _bornes_x(im, y0, y1):
@@ -199,11 +299,7 @@ def redresse(division, ms, scale, marge=0.004):
     x0, x1 = _bornes_x(im, y0, y1)
     boite = (int(x0 * W), int(max(0.0, y0 - marge) * H), int(x1 * W), int(min(1.0, y1 + marge) * H))
     c = im.crop(boite)
-    cle = (division, ms)
-    if cle not in _angles:
-        petit = np.asarray(c.resize((c.width // 4, c.height // 4)), dtype=float)
-        _angles[cle] = _angle(petit)
-    a = _angles[cle]
+    a = angle_de(division, ms)
     if abs(a) > 0.05:
         c = c.rotate(a, resample=Image.BICUBIC, fillcolor=255, expand=False)
     return ImageOps.autocontrast(c, cutoff=1), a
@@ -245,6 +341,21 @@ def tranche(division, ms, moitie, scale=8, x0=0.085, nom=None):
     p = nom or os.path.join(OUT, f'r71_D{division}_p{ms:03d}_{moitie}.png')
     out.save(p)
     print(p, out.size, f'redressé de {a:+.1f}°')
+    return p
+
+
+def zoom(division, ms, y0, y1, x0=0.085, x1=1.0, scale=14, nom=None):
+    """Un fragment de cadre, très grossi — pour trancher un chiffre ou une lettre.
+
+    `y0` et `y1` sont des fractions de la hauteur du cadre. Les vingt lignes
+    occupent grosso modo 0.22 à 0.82 : une ligne vaut donc environ 0.03.
+    """
+    c, a = redresse(division, ms, scale)
+    W, H = c.size
+    out = c.crop((int(x0 * W), int(y0 * H), int(x1 * W), int(y1 * H)))
+    p = nom or os.path.join(OUT, f'r71_D{division}_p{ms:03d}_zoom.png')
+    out.save(p)
+    print(p, out.size)
     return p
 
 
