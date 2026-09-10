@@ -20,6 +20,19 @@ function etatCivil(p) {
 function coche(v) {
   return v ? '✓' : '';
 }
+
+// Colonnes 21 et 22 de 1891. Dites en toutes lettres plutôt qu'en crochets : un
+// crochet absent se lit « non relevé », et c'est justement la confusion qu'on
+// vient de lever (voir outils/relecture-1881/tirets91.mjs). La division 1 est
+// complète — 3 548 lignes sur 3 548 —, donc le tiret ne s'affiche jamais qu'en
+// cas de donnée réellement manquante.
+function alphabetisation(p) {
+  if (p.sait_lire === undefined && p.sait_ecrire === undefined) return '—';
+  if (p.sait_lire && p.sait_ecrire) return 'lit et écrit';
+  if (p.sait_lire) return 'lit seulement';
+  if (p.sait_ecrire) return 'écrit seulement';
+  return 'ni l\'un ni l\'autre';
+}
 function nomComplet(p) {
   return [p.prenom, p.nom].filter(Boolean).join(' ') || '—';
 }
@@ -35,8 +48,9 @@ export const COLONNES_PAR_ANNEE = {
       p.origine || '', p.religion || '', p.profession || '—', coche(p.ecole)]
   },
   1891: {
-    entetes: ['Nom', 'Sexe', 'Âge', 'Lien avec le chef', 'Né(e)', 'Religion', 'Profession'],
-    valeurs: (p) => [nomComplet(p), p.sexe || '', p.age || '', p.lien_parente || '', p.lieu_naissance || '', p.religion || '', p.profession || '—']
+    entetes: ['Nom', 'Sexe', 'Âge', 'Lien avec le chef', 'Né(e)', 'Religion', 'Profession', 'Lit / écrit'],
+    valeurs: (p) => [nomComplet(p), p.sexe || '', p.age || '', p.lien_parente || '', p.lieu_naissance || '',
+      p.religion || '', p.profession || '—', alphabetisation(p)]
   }
 };
 
@@ -52,4 +66,4 @@ export function nettoyerRemarque(texte) {
     .trim();
 }
 
-export { nomComplet, etatCivil };
+export { nomComplet, etatCivil, alphabetisation };

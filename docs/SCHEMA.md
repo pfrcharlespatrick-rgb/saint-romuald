@@ -31,7 +31,13 @@ est enregistrée dans `alphabetisation_source` pour que la provenance reste
 vérifiable : `negatif_1871` (conversion de la question posée à l'envers),
 `positif_1891` (dépouillement d'origine), `relecture_pdf_cols_21_22` (case relue
 au recueil PDF), `tiret_manuscrit` (le manuscrit porte un tiret, rendu explicite
-par `outils/relecture-1881/tirets91.mjs` — pages 42 à 83 de 1891 division 1).
+par `outils/relecture-1881/tirets91.mjs`).
+
+> **1891 division 1 : les colonnes 21-22 sont complètes.** Les 3 548 lignes portent une
+> valeur ; `sait_lire`/`sait_ecrire` n'y sont jamais absents. Un `false` y signifie
+> « le recenseur a tracé un tiret », non « on ne sait pas » — la distinction que le
+> reste du schéma confie à l'absence est ici portée par
+> `alphabetisation_source: "tiret_manuscrit"`.
 
 > **La colonne de 1871 ne concerne que les adultes.** Son intitulé exact est
 > « 20 ans et plus, ne sachant pas lire / ne sachant pas écrire ». Pour les

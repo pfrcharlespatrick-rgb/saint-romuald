@@ -427,27 +427,36 @@ conforme et laissée telle quelle. Mais `docs/SCHEMA.md` dit qu'un champ absent
 signifie « information non relevée » — et le site lisait donc « non relevé » là où le
 recenseur avait écrit « ne sait pas ».
 
-**472 lignes des pages 42 à 83 portent désormais `sait_lire: false` et
-`sait_ecrire: false`**, marquées `alphabetisation_source: 'tiret_manuscrit'` pour que
-la provenance reste distincte d'une coche lue. La bande est complète : plus une seule
-personne sans valeur entre les pages 42 et 83.
+La bande 42-83 a été faite la première — 472 lignes —, puis Patrick a tranché
+d'étendre la règle au recensement entier. **1325 lignes portent désormais
+`sait_lire: false` et `sait_ecrire: false`**, marquées
+`alphabetisation_source: 'tiret_manuscrit'` pour que la provenance reste distincte
+d'une coche lue.
+
+**Les colonnes 21 et 22 sont complètes : 3548 lignes sur 3548, plus une seule sans
+valeur.** Le compte de la division : **1997 « sait lire » contre 1551 « non »**, et
+**1728 « sait écrire » contre 1820**. Chez les 1788 personnes de vingt ans et plus,
+**65,3 % lisent** et 1042 écrivent.
 
 Ce n'est **pas** une relecture : rien n'a été deviné, aucune ligne n'a reçu de drapeau
-`incertain` ni de remarque, et le compte des lignes incertaines reste à 1100. Deux
-contrôles avant écriture, tous deux passés : aucune ligne n'avait une seule des deux
-colonnes absente — signe que la passe avait bien écrit les deux ensemble —, et aucune
-ne portait déjà une provenance qu'on aurait écrasée. Des 472, **161 ont moins de cinq
-ans** et 311 en ont cinq ou plus.
+`incertain` ni de remarque, et le compte des lignes incertaines reste à 1100. Des 1325,
+**359 ont moins de cinq ans** et 494 en ont cinq ou plus.
 
-L'outil est `outils/relecture-1881/tirets91.mjs`, avec `--essai`. Il est borné aux
-pages 42 à 83 **à dessein** : la même passe a été faite depuis sur les pages 1 à 41 et
-84 à 142, mais le journal n'y a jamais écrit la règle noir sur blanc. **853 personnes
-y restent sans valeur** — 339 aux pages 1-41, 514 aux pages 84-142. Étendre la
-normalisation à ces deux bandes est une décision à prendre, pas une conséquence de ce
-qui est déjà écrit ici.
+Trois contrôles avant écriture, tous passés : aucune ligne n'avait une seule des deux
+colonnes absente — signe que la passe avait bien écrit les deux ensemble —, aucune ne
+portait déjà une provenance qu'on aurait écrasée, et **aucune page du recensement n'est
+vide ni quasi vide** de ces colonnes. Ce dernier contrôle est le plus important, parce
+qu'il est le seul qui distingue un tiret d'un trou : une page que la passe n'aurait pas
+atteinte ne porte pas des tirets. Les pages 84 et 85, que ce journal donnait pour
+franchement lacunaires, portent depuis 16 et 21 valeurs — ce dernier chiffre étant
+exactement le nombre de lignes cochées au manuscrit. Le contrôle est codé dans l'outil,
+qui s'arrête plutôt que d'écrire si une page se tait.
 
-Après coup, le compte des « sait lire » de la division : **1997 oui, 698 non,
-853 non relevés**. Pour « sait écrire » : 1728, 967, 853.
+L'outil est `outils/relecture-1881/tirets91.mjs`, avec `--essai` et une plage de pages
+facultative. Le site affiche le résultat : le registre de 1891 porte une colonne
+« Lit / écrit », dite en toutes lettres — « lit et écrit », « lit seulement »,
+« ni l'un ni l'autre » — parce qu'un crochet absent se lirait « non relevé », et c'est
+justement la confusion qu'on vient de lever.
 
 ### Les « sait écrire mais ne sait pas lire »
 

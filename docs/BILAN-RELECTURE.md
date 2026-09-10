@@ -26,6 +26,10 @@ Les journaux de campagne restent la référence de détail :
 identifiant en double, et les 86 références de personne de `documents/manifeste.json`
 pointent toutes vers quelqu'un qui existe.
 
+Une colonne est désormais **complète de bout en bout** : l'alphabétisation de 1891
+division 1, sur les 3 548 lignes. Chez les 1 788 personnes de vingt ans et plus,
+**65,3 % savent lire**.
+
 Le taux d'`incertain` n'est pas un taux d'erreur : il monte quand on relit, parce que
 relire, c'est marquer ce dont on n'est pas sûr. **1891 est le jeu le plus vérifié et
 celui qui affiche le plus de doutes** — les deux vont ensemble. Les 1 100 drapeaux de
@@ -52,20 +56,12 @@ dédiées sont closes : colonnes 21-22 (sait lire / sait écrire), colonnes 17 �
    manuscrit, plus les quatre maisons de la page 79 dont le cadre est mal calé dans le
    recueil. Réparties sur 45 pages ; rien ne se gagnera sans un meilleur tirage.
 
-3. **Le tiret des colonnes 21-22 : fait aux pages 42 à 83, à décider ailleurs.** Sur
-   cette bande, une case vide du fichier voulait dire un tiret au manuscrit — donc
-   « ne sait pas » —, mais le site lisait « non relevé ». **472 lignes portent désormais
-   `sait_lire: false` et `sait_ecrire: false`**, marquées
-   `alphabetisation_source: 'tiret_manuscrit'` ; plus une seule personne sans valeur
-   entre les pages 42 et 83. Rien n'a été deviné : aucun drapeau `incertain` ajouté, le
-   compte reste à 1100. La division porte maintenant 1 997 « sait lire » contre 698
-   « non », et 1 728 « sait écrire » contre 967.
-
-   **Restent 853 personnes sans valeur — 339 aux pages 1-41, 514 aux pages 84-142.** La
-   même passe y a été faite depuis, mais le journal n'y a jamais écrit la règle noir sur
-   blanc ; étendre la normalisation à ces deux bandes est **une décision à prendre**, pas
-   une conséquence de ce qui est déjà écrit. L'outil est prêt :
-   `outils/relecture-1881/tirets91.mjs`.
+3. ~~**Le tiret des colonnes 21-22.**~~ **Fait, sur les 142 pages.** Une case vide du
+   fichier voulait dire un tiret au manuscrit — donc « ne sait pas » —, mais le site
+   lisait « non relevé ». **1 325 lignes portent désormais `sait_lire: false` et
+   `sait_ecrire: false`**, marquées `alphabetisation_source: 'tiret_manuscrit'`. **Les
+   colonnes 21-22 sont complètes : 3 548 lignes sur 3 548.** Rien n'a été deviné :
+   aucun drapeau `incertain` ajouté, le compte reste à 1 100.
 
 4. **Les lectures laissées ouvertes** — une dizaine, listées dans
    `RELECTURE-1891-D1-questions.md` : « Losia/Rosia » (p26 L13), les prénoms anglais des
@@ -285,11 +281,6 @@ Ce qui vient ensuite, dans l'ordre où je le ferais :
    éprouvée sur la colonne 4 de 1891.
 6. **La relecture de 1871**, les deux divisions, 151 pages. Le gros morceau.
 7. **Le dépouillement de 1891 division 2**, s'il existe un manuscrit à dépouiller.
-
-Une décision à prendre, sans lecture : **étendre ou non la normalisation du tiret aux
-pages 1-41 et 84-142 de 1891** (853 personnes). La passe des colonnes 21-22 y a été faite,
-mais le journal n'y a jamais écrit la règle noir sur blanc comme il l'a fait pour la
-bande 42-83. L'outil est prêt.
 
 ## Ce qu'il faut me fournir
 

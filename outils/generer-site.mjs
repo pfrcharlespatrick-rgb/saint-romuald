@@ -13,7 +13,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { chargerDonnees, RACINE, cleMaison } from './lib/charger-donnees.mjs';
-import { colonnesDe, nettoyerRemarque, nomComplet, etatCivil } from './lib/colonnes.mjs';
+import { colonnesDe, nettoyerRemarque, nomComplet, etatCivil, alphabetisation } from './lib/colonnes.mjs';
 
 const d = chargerDonnees();
 
@@ -155,6 +155,16 @@ for (const p of d.personnes.values()) {
     ...(p.religion ? { religion: p.religion } : {}),
     ...(p.ecole ? { ecole: true } : {}),
     ...(p.ne_douze_mois ? { ne_douze_mois: p.ne_douze_mois } : {}),
+    // Colonnes 21-22 : « sait lire » / « sait écrire ». Dites en clair, parce que
+    // false et « non relevé » ne veulent pas dire la même chose.
+    //
+    // 1891 seulement, et à dessein. Le formulaire de 1871 ne posait la question
+    // qu'aux vingt ans et plus : la valeur portée par les 1 570 personnes plus
+    // jeunes vient de la conversion en polarité positive, pas du manuscrit (voir
+    // docs/SCHEMA.md). La porter à la fiche en ferait une donnée qu'elle n'est
+    // pas. 1881 n'a pas ces colonnes du tout.
+    ...(p.annee === '1891' && (p.sait_lire !== undefined || p.sait_ecrire !== undefined)
+      ? { alphabetisation: alphabetisation(p) } : {}),
     ...infirmitesDe(p),
     // Lecture douteuse signalée par le dépouillement complémentaire de 1881.
     ...(p.complement_note ? { note_complement: p.complement_note } : {}),
