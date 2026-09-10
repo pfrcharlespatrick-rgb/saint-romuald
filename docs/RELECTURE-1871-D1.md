@@ -106,12 +106,63 @@ posent enfin sur Légaré et Beaulieu.
 | 3 | 11 à 16 | fait |
 | 4 | 17 à 22 | fait |
 | 5 | 23 à 28 | fait |
+| 6 | 29 à 34 | fait |
 
 Depuis le lot 3, les colonnes à marques — 15, 17, 18 et 19 — s'écrivent en
 **chaînes de vingt caractères par page**, une par colonne. La forme oblige à se
 prononcer sur les vingt lignes plutôt que sur les seules qui changent : c'est
 ce qui garantit que la colonne est *relue*, et non seulement corrigée là où
 l'œil a accroché.
+
+## Le décalage des pages 28 à 31 — trouvé et réparé
+
+C'est la trouvaille structurelle de la campagne, et elle explique du même coup
+le **seul conflit de position des cinq recensements du site**.
+
+Le dépouillement portait, page 28 lignes 1 à 5, cinq enfants Paradis rattachés à
+la famille 104 — celle de Léon Paradis, **28 ans**, et d'Emélie, **23 ans**. Ce
+sont les mêmes cinq personnes, aux mêmes âges, que les enfants de Paradis
+François et Marie à la page 34 : Malvina 20, Louis 17, Cyprienne 15, Marie 12 et
+Catherine 26. Un couple de 28 et 23 ans n'a pas de fille de 26 ans, et le
+manuscrit, à la page 28, ne porte rien de tel : il ouvre sur Montigny François,
+85 ans.
+
+Ces cinq lignes de trop poussaient de cinq rangs tout ce qui suit, sur quatre
+pages. Arrivé à la page 31, le dépouillement s'est resynchronisé en réutilisant
+les numéros 16 à 20, déjà pris : d'où les cinq identifiants en « -2 » et la
+remarque « lignes 16-20 en conflit avec la maison 80 », qui traînait dans les
+données comme une énigme.
+
+`outils/relecture-1881/repar71.mjs` retire les cinq doublons — reconnus au nom,
+au prénom et à l'âge, jamais au seul numéro de ligne — puis renumérote d'un
+seul tenant les pages 28 à 31. **Le compte retombe juste au caractère près** :
+chacune des quatre pages reprend exactement vingt lignes, et chaque ligne
+retrouve la personne que le manuscrit y porte. Vérifié aux cinq charnières —
+Montigny François en tête de la 28, Lépine Philomène en tête de la 29, Clavette
+Luce en 29 ligne 16, Leclerc Philippe en tête de la 31, Gosselin Bénoni en
+31 ligne 16.
+
+La division passe de 1540 à **1535 personnes**, et `analyse-filiation.mjs` a été
+rejoué pour que les liens suivent les identifiants.
+
+## Le compte du manuscrit, et ce qu'il dit
+
+Le total inscrit en marge de la page 78 est **1543**. Il se vérifie : 77 pages
+de vingt lignes, plus les trois de la page 78. Le fichier en compte 1535.
+
+L'écart de huit s'explique ligne à ligne :
+
+| Page | Lignes du manuscrit | Lignes du fichier | Manquantes |
+|---|---:|---:|---|
+| 4 | 20 | 17 | L1 à L3 — Vermette Ambroise, Olivier, Joseph |
+| 49 | 20 | 19 | la dernière |
+| 61 | 20 | 19 | L1 |
+| 64 | 20 | 19 | L4 |
+| 75 | 20 | 18 | L1 et L2 |
+
+**Huit personnes manquent au dépouillement**, et cinq y figuraient en trop. Les
+cinq sont retirées ; les huit restent à réinsérer, ce qui suppose de renuméroter
+chaque page concernée.
 
 ## Ce qui reste ouvert
 
