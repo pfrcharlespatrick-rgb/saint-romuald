@@ -23,6 +23,19 @@ import { apply } from './pat71.mjs';
    verse le « Québec » de la colonne 11, que le recenseur note une fois puis
    reprend au guillemet, sans avoir à le réécrire quinze cents fois.
 
+   Une page peut aussi porter des **chaînes de vingt caractères**, une par
+   colonne à marques. C'est la forme qui convient à ces colonnes : on les lit
+   d'un coup sur l'image, rangée par rangée, et l'écrire ainsi force à se
+   prononcer sur les vingt lignes plutôt que sur les seules qui changent.
+
+     "ecole":  "-11-----11---1----11"   1 = marque en colonne 17
+     "lire":   "--------------------"   1 = marque en colonne 18, donc NE SAIT PAS lire
+     "ecrire": "--------------------"   1 = marque en colonne 19, donc NE SAIT PAS écrire
+     "etat":   "MM------V-----------"   colonne 15 : M, V, ou tiret
+
+   Attention à la polarité : le formulaire de 1871 demande qui est *incapable*
+   de lire. Un « 1 » en colonne 18 devient donc `sait_lire: false`.
+
    Les clés préfixées d'un souligné sont de la mécanique, non des champs :
      _note  — remarque de relecture, ajoutée à la ligne
      _inc   — drapeau `incertain` (true ou false)
@@ -46,8 +59,23 @@ apply(lot.division, ({ set, R, lignesDe }) => {
     if (fiche.lignes && fiche.lignes !== presentes.length)
       journal.push(`p${page} : le manuscrit porte ${fiche.lignes} lignes, le fichier en a ${presentes.length}`);
 
+    // Les chaînes de vingt caractères, dépliées en valeurs par ligne.
+    const colonnes = {};
+    for (const [cle, champ, valeur] of [
+      ['ecole', 'ecole', (c) => c === '1'],
+      ['lire', 'sait_lire', (c) => c !== '1'],
+      ['ecrire', 'sait_ecrire', (c) => c !== '1'],
+      ['etat', 'etat_matrimonial', (c) => (c === '-' ? '' : c)],
+    ]) {
+      const chaine = fiche[cle];
+      if (chaine === undefined) continue;
+      if (chaine.length !== 20)
+        throw new Error(`p${page} « ${cle} » : il faut vingt caractères, reçu ${chaine.length}`);
+      for (let i = 0; i < 20; i++) (colonnes[i + 1] = colonnes[i + 1] || {})[champ] = valeur(chaine[i]);
+    }
+
     for (const l of presentes) {
-      const propre = { ...(parLigne[String(l)] || {}) };
+      const propre = { ...(colonnes[l] || {}), ...(parLigne[String(l)] || {}) };
       const note = propre._note, inc = propre._inc;
       delete propre._note; delete propre._inc;
       const valeurs = { ...defauts, ...propre };

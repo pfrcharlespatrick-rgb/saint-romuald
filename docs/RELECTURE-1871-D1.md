@@ -86,7 +86,16 @@ posent enfin sur Légaré et Beaulieu.
   page 10 lignes 6 à 8).
 - **Une profession écrite entre deux lignes appartient à la première.** Page 3,
   le « Couturière » de Julie, 43 ans, avait glissé sur la Suzanne de 3 ans de la
-  ligne suivante.
+  ligne suivante ; page 15, l'origine irlandaise et le métier d'institutrice
+  d'Ann Manahan étaient passés à la ligne d'en dessous ; page 22, le « Commis »
+  d'Adèle Baudry avait glissé sur Damase Roberge, marchand.
+- **Le F majuscule pris pour un H**, le piège même de la division 2 de 1881 :
+  page 25 ligne 14, un « H. Xavier » qui est un **Fˢ Xavier**.
+- **Le sexe suit le prénom mal lu.** Quatre fois en vingt-huit pages, une
+  personne a changé de sexe avec son prénom : « Cook Clarisse » qui est **Coté
+  Narcisse** (p20), « Marie » qui est **Moïse** (p25 L3), « Marie » qui est
+  **Rémi** (p25 L16), « Victor » qui est **Victoire** (p27 L1). La colonne 8 du
+  manuscrit tranche à chaque fois.
 
 ## Avancement
 
@@ -94,6 +103,15 @@ posent enfin sur Légaré et Beaulieu.
 |---|---|---|
 | 1 | 1 à 4 | fait |
 | 2 | 5 à 10 | fait |
+| 3 | 11 à 16 | fait |
+| 4 | 17 à 22 | fait |
+| 5 | 23 à 28 | fait |
+
+Depuis le lot 3, les colonnes à marques — 15, 17, 18 et 19 — s'écrivent en
+**chaînes de vingt caractères par page**, une par colonne. La forme oblige à se
+prononcer sur les vingt lignes plutôt que sur les seules qui changent : c'est
+ce qui garantit que la colonne est *relue*, et non seulement corrigée là où
+l'œil a accroché.
 
 ## Ce qui reste ouvert
 
@@ -112,6 +130,12 @@ posent enfin sur Légaré et Beaulieu.
   corroboration — mais leur **origine** est bien « Française » au manuscrit, mot
   pour mot celui de la ligne 4, et non « Écossaise » comme le déduisait le
   dépouillement du seul patronyme. Corrigé, signalé.
+- **Deux numérotations à reprendre à part**, qui ne sont pas des champs de
+  personne et que l'outil de lot ne peut pas toucher :
+  la **famille 52** manque au fichier — la page 14 ligne 9 porte 53 là où le
+  manuscrit porte 52, et la page 15 ligne 2 a dû recevoir un « 53b » de fortune ;
+  et la **maison 55** manque de même — la page 22 ligne 15 porte 56 au fichier
+  quand le manuscrit porte 55, la 56 étant à la ligne 17.
 - **La numérotation des maisons de la page 40** : le manuscrit y porte 95, 96,
   97 quand le fichier porte 106, 107, 108, alors que les numéros de **famille**
   concordent. Aux pages 1 à 10 les deux séries concordent. À reprendre en
