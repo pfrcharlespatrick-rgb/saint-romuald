@@ -344,6 +344,24 @@ def tranche(division, ms, moitie, scale=8, x0=0.085, nom=None):
     return p
 
 
+def lecture(division, ms, scale=8, x=(0.145, 0.81), nom=None):
+    """La page entière en une image : les vingt rangées, colonnes 5 à 22.
+
+    Une fois le déphasage annulé (`_angle`), les marges de numéros de ligne ne
+    sont plus indispensables : les noms suffisent à identifier les rangées, et
+    les laisser tomber rend l'image assez étroite pour que les vingt rangées
+    tiennent d'un coup sans devenir illisibles. On garde les colonnes 5 et 6 —
+    maisons et familles — qui portent la structure.
+    """
+    c, a = redresse(division, ms, scale)
+    W, H = c.size
+    out = c.crop((int(x[0] * W), int(0.155 * H), int(x[1] * W), int(0.88 * H)))
+    p = nom or os.path.join(OUT, f'r71_D{division}_p{ms:03d}_lecture.png')
+    out.save(p)
+    print(p, out.size, f'redressé de {a:+.1f}°')
+    return p
+
+
 def zoom(division, ms, y0, y1, x0=0.085, x1=1.0, scale=14, nom=None):
     """Un fragment de cadre, très grossi — pour trancher un chiffre ou une lettre.
 
