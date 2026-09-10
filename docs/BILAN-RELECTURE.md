@@ -3,6 +3,10 @@
 État au 10 septembre 2026. Ce document répond à une seule question : **où en est la
 vérification au manuscrit, recensement par recensement, et qu'est-ce qui reste à faire ?**
 
+Les deux premiers chantiers de la liste sont faits — le complément de 1881 est versé
+aux fiches publiques, et le tiret des colonnes 21-22 de 1891 est rendu explicite aux
+pages 42 à 83. Les sections concernées le disent au fil du texte.
+
 Les journaux de campagne restent la référence de détail :
 `RELECTURE-1881-D1.md`, `RELECTURE-1881-D2.md`, `RELECTURE-1881-D2-questions.md`,
 `RELECTURE-1891-D1-questions.md`. Ce bilan-ci les surplombe et n'en répète pas le contenu.
@@ -48,11 +52,20 @@ dédiées sont closes : colonnes 21-22 (sait lire / sait écrire), colonnes 17 �
    manuscrit, plus les quatre maisons de la page 79 dont le cadre est mal calé dans le
    recueil. Réparties sur 45 pages ; rien ne se gagnera sans un meilleur tirage.
 
-3. **805 personnes de cinq ans et plus n'ont aucune valeur en colonnes 21-22.** Aux
-   pages 42 à 83 cette absence a un sens établi — le manuscrit y porte un tiret, donc
-   « ne sait pas ». Le champ devrait alors porter `false` et non rien : en l'état le site
-   ne peut pas distinguer « ne sait ni lire ni écrire » de « non relevé ». **Une passe de
-   normalisation, sans retour au manuscrit, réglerait la bande 42-83.**
+3. **Le tiret des colonnes 21-22 : fait aux pages 42 à 83, à décider ailleurs.** Sur
+   cette bande, une case vide du fichier voulait dire un tiret au manuscrit — donc
+   « ne sait pas » —, mais le site lisait « non relevé ». **472 lignes portent désormais
+   `sait_lire: false` et `sait_ecrire: false`**, marquées
+   `alphabetisation_source: 'tiret_manuscrit'` ; plus une seule personne sans valeur
+   entre les pages 42 et 83. Rien n'a été deviné : aucun drapeau `incertain` ajouté, le
+   compte reste à 1100. La division porte maintenant 1 997 « sait lire » contre 698
+   « non », et 1 728 « sait écrire » contre 967.
+
+   **Restent 853 personnes sans valeur — 339 aux pages 1-41, 514 aux pages 84-142.** La
+   même passe y a été faite depuis, mais le journal n'y a jamais écrit la règle noir sur
+   blanc ; étendre la normalisation à ces deux bandes est **une décision à prendre**, pas
+   une conséquence de ce qui est déjà écrit. L'outil est prêt :
+   `outils/relecture-1881/tirets91.mjs`.
 
 4. **Les lectures laissées ouvertes** — une dizaine, listées dans
    `RELECTURE-1891-D1-questions.md` : « Losia/Rosia » (p26 L13), les prénoms anglais des
@@ -63,13 +76,13 @@ dédiées sont closes : colonnes 21-22 (sait lire / sait écrire), colonnes 17 �
 
 ---
 
-## 1881 — les colonnes dépouillées ne sont pas celles qu'on voit
+## 1881 — le complément est versé, deux pages restent en suspens
 
-C'est ici que Patrick a raison de flairer un manque, et le manque n'est pas là où on
-l'attend : **les deux divisions sont intégralement relues**, mais le site public
-n'affiche qu'une partie de ce qui a été relevé.
+C'est ici que Patrick avait raison de flairer un manque, et le manque n'était pas là où
+on l'attendait : **les deux divisions sont intégralement relues**, mais le site public
+n'affichait qu'une partie de ce qui avait été relevé. C'est fait — à deux pages près.
 
-### Le vrai trou : le complément n'est pas versé aux fiches publiques
+### Ce qui manquait : le complément n'était pas versé aux fiches publiques
 
 Le formulaire de 1881 compte vingt colonnes. Les fichiers
 `recensement-1881-d*-data.js` n'en portent que six : nom, sexe, âge, état matrimonial,
@@ -87,16 +100,72 @@ Les autres **ont été dépouillées** et vivent dans des fichiers séparés,
 | Exceptions aux défauts | 182 | 240 |
 | Lectures douteuses | 26 | 23 |
 
-Ces deux dépouillements sont **complets**. L'atelier les lit et les affiche
-(`Suivi des maisons et familles.dc.html`). **`outils/generer-site.mjs` ne les lit pas
-du tout** : `outils/lib/colonnes.mjs` s'en tient, pour 1881, aux six champs communs, et
-les 3 641 fiches publiques de 1881 ignorent le lieu de naissance, la religion,
-l'origine, l'école et les infirmités — qui sont pourtant là, à côté, vérifiés page par
-page. `methode.html` le dit déjà en toutes lettres : « son intégration aux fiches
-publiques reste à faire ».
+L'atelier les lisait et les affichait (`Suivi des maisons et familles.dc.html`) ;
+`outils/generer-site.mjs` ne les lisait pas du tout, si bien que les 3 641 fiches
+publiques de 1881 ignoraient le lieu de naissance, la religion, l'origine, l'école et
+les infirmités — qui étaient pourtant là, à côté, vérifiés page par page.
 
-**C'est le chantier le plus rentable des trois recensements** : le travail de lecture est
-fait, il ne reste qu'à le brancher.
+**C'est fait.** `outils/lib/complement-1881.mjs` verse le complément au chargement, en
+reprenant **exactement la logique de l'atelier** pour que les deux vues montrent la même
+chose : rattachement par page et ligne du manuscrit, jamais de remplacement d'une valeur
+existante, provenance marquée champ par champ. Les fiches de 1881 portent désormais neuf
+colonnes au lieu de cinq, et les lectures douteuses du complément s'affichent en marge
+sous « Lecture à confirmer ».
+
+Ce que la couverture donne, une fois versée :
+
+| | 1881 D1 | 1881 D2 |
+|---|---:|---:|
+| Fiches avec un lieu de naissance | **2 140 / 2 189** | **1 452 / 1 452** |
+| Écoliers | 302 | 344 |
+| Nés dans les douze mois | 59 | 33 |
+| Lectures douteuses reportées | 26 | 23 |
+
+La division 1 compte désormais 2 105 catholiques, 20 fidèles de l'Église anglicane,
+8 protestants, 5 presbytériens et 2 épiscopaliens ; par origine, 1 996 Français,
+48 Écossais, 43 Irlandais, 25 Anglais, 16 Allemands, 6 Portugais et 6 Américains. En
+division 2 : 1 367 catholiques, 54 de l'Église d'Angleterre, 26 presbytériens,
+5 méthodistes ; 1 215 Français, 145 Irlandais, 64 Anglais, 28 Écossais.
+
+### Ce que le versement a trouvé
+
+Le rattachement se contrôle par deux ancres datées du manuscrit : une ligne marquée
+« né dans les douze derniers mois » doit porter un âge en fraction, une ligne marquée en
+colonne 16 doit porter un âge d'écolier. Le contrôle a fait apparaître trois choses.
+
+- **Page 4 de la division 1 : un décalage devenu faux.** Le complément portait
+  `decalage: 1`, écrit quand le dépouillement sautait encore la ligne 1. La relecture a
+  depuis réinséré Beaulieu Damase et renuméroté la page : le décalage déportait donc
+  d'un rang toute la page, bloc anglican compris. Retiré. **L'atelier l'appliquait aussi
+  — la correction vaut pour les deux vues.**
+- **Page 46 de la division 1 : un comptage fautif.** `lignes: 23` privait de tout
+  complément les deux derniers Simard. Le manuscrit en porte 25.
+- **Page 18 de la division 2 : une marque de trop.** « Février » en colonne 10 à la
+  ligne 1 tombe sur Catherine Williams, 15 ans, et la division ne compte aucun
+  nourrisson né en février. Retirée ; le reste de la page est juste au caractère près.
+
+**Un garde-fou permanent** en est sorti : le module refuse d'attribuer une naissance des
+douze derniers mois à qui n'est pas un nourrisson, et le générateur le signale au lieu
+de le laisser passer.
+
+### Les pages 82 et 83 de la division 1 — suspendues
+
+Celles-là ne se réparent pas ici. Le complément y décrit des personnes que le registre
+ne contient pas : une **Adèle Talbot**, 45 ans, veuve, « Cultivatrice » ; un **Robert
+Clauston**, 19 ans, donné pour fils de Johnny ; un **Michel Bilodeau**, 71 ans,
+« Retraité ». Aucun des trois ne figure dans la division, et la famille de Johnny
+Clouston s'arrête à la ligne 16 de la page 81 sans se poursuivre. **Aucun décalage de
+−3 à +3 ne raccorde les ancres** : la colonne 10 n'y marque qu'une naissance là où le
+fichier en porte deux, et la page 83 annonce un nourrisson de mai quand la division n'en
+compte aucun entre les pages 27 et 88. Les pages voisines, elles, tombent juste au mois
+près — 81 avec les Clouston écossais, 84 et 85 avec leurs mois de naissance exacts.
+L'anomalie est **bornée à ces deux pages**.
+
+Deux lectures possibles, et le manuscrit seul tranchera : ou le dépouillement a perdu un
+ménage entier, ou le complément a été transcrit sur deux images qui ne sont pas celles
+des pages 82 et 83. En attendant, **rien n'y est versé** — pas même les valeurs par
+défaut : les 49 personnes concernées gardent leurs colonnes vides plutôt que de recevoir
+une religion ou une origine invérifiable.
 
 À noter, pour ne pas le chercher en vain : **le formulaire de 1881 ne comporte aucune
 colonne « sait lire » / « sait écrire »**. La question existe en 1871, disparaît en 1881,
@@ -196,23 +265,36 @@ Le formulaire de 1871 compte **20 lignes par page**, non 25. Sur cette base :
 
 ## Dans quel ordre
 
-1. **Verser les compléments de 1881 aux fiches publiques.** Le dépouillement est fait et
-   complet ; c'est du branchement, pas de la lecture. Huit colonnes gagnées sur
-   3 641 fiches, sans ouvrir une image.
-2. **Normaliser les colonnes 21-22 de 1891 aux pages 42-83** — passer l'absence à `false`
-   là où le manuscrit porte un tiret. Là non plus, pas de retour au manuscrit.
+~~1. **Verser les compléments de 1881 aux fiches publiques.**~~ **Fait.** Neuf colonnes
+au lieu de cinq sur 3 592 des 3 641 fiches, sans ouvrir une image — et trois défauts de
+rattachement trouvés au passage.
+
+~~2. **Normaliser les colonnes 21-22 de 1891 aux pages 42-83.**~~ **Fait.** 472 lignes,
+la bande est complète.
+
+Ce qui vient ensuite, dans l'ordre où je le ferais :
+
 3. **Le comptage de lignes de 1871**, cinq pages en division 1 et une en division 2, plus
    le conflit de la page 31. Peu de pages, fort rendement : c'est ainsi qu'on retrouve
    des personnes omises.
-4. **La passe des professions de 1881 division 1** — 88 pages, colonne 14, méthode
+4. **Les pages 82 et 83 de 1881 division 1**, dont le complément décrit des personnes que
+   le registre ne contient pas. Deux pages, mais elles peuvent cacher un ménage perdu au
+   dépouillement — c'est le genre de trouvaille qui a rendu la famille 222 à la
+   division 1.
+5. **La passe des professions de 1881 division 1** — 88 pages, colonne 14, méthode
    éprouvée sur la colonne 4 de 1891.
-5. **La relecture de 1871**, les deux divisions, 151 pages. Le gros morceau.
-6. **Le dépouillement de 1891 division 2**, s'il existe un manuscrit à dépouiller.
+6. **La relecture de 1871**, les deux divisions, 151 pages. Le gros morceau.
+7. **Le dépouillement de 1891 division 2**, s'il existe un manuscrit à dépouiller.
+
+Une décision à prendre, sans lecture : **étendre ou non la normalisation du tiret aux
+pages 1-41 et 84-142 de 1891** (853 personnes). La passe des colonnes 21-22 y a été faite,
+mais le journal n'y a jamais écrit la règle noir sur blanc comme il l'a fait pour la
+bande 42-83. L'outil est prêt.
 
 ## Ce qu'il faut me fournir
 
 Les scripts retrouvent les PDF tout seuls par leur nom, mais **les fichiers joints ne
-suivent pas d'une conversation à l'autre**. Pour les points 3 à 6 il faut donc rattacher
+suivent pas d'une conversation à l'autre**. Pour les points 3 à 7 il faut donc rattacher
 les recueils correspondants : les PDF du manuscrit de **1871, divisions 1 et 2** (aucun
-n'est disponible dans cette session), et ceux de **1881 division 1** pour la passe des
-professions. Les points 1 et 2 ne demandent rien : tout est déjà dans le dépôt.
+n'est disponible dans cette session), et ceux de **1881 division 1** pour les pages 82-83
+et pour la passe des professions.

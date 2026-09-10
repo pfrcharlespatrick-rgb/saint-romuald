@@ -418,6 +418,37 @@ géométrie verticale que la bande des coches et se confronte au dépouillement 
 ligne. Cette vérification faite, la page 116 s'est révélée porter un vrai décalage du
 dépouillement, de la ligne 2 à la ligne 6.
 
+### Le tiret du manuscrit rendu explicite — pages 42 à 83
+
+Ce que la passe avait établi restait invisible au site. Aux pages 42 à 83, une case
+vide du fichier veut dire **un tiret au manuscrit** : `cols2122.mjs` ne touchait que
+les lignes divergentes, si bien qu'une case vide en face d'un tiret était tenue pour
+conforme et laissée telle quelle. Mais `docs/SCHEMA.md` dit qu'un champ absent
+signifie « information non relevée » — et le site lisait donc « non relevé » là où le
+recenseur avait écrit « ne sait pas ».
+
+**472 lignes des pages 42 à 83 portent désormais `sait_lire: false` et
+`sait_ecrire: false`**, marquées `alphabetisation_source: 'tiret_manuscrit'` pour que
+la provenance reste distincte d'une coche lue. La bande est complète : plus une seule
+personne sans valeur entre les pages 42 et 83.
+
+Ce n'est **pas** une relecture : rien n'a été deviné, aucune ligne n'a reçu de drapeau
+`incertain` ni de remarque, et le compte des lignes incertaines reste à 1100. Deux
+contrôles avant écriture, tous deux passés : aucune ligne n'avait une seule des deux
+colonnes absente — signe que la passe avait bien écrit les deux ensemble —, et aucune
+ne portait déjà une provenance qu'on aurait écrasée. Des 472, **161 ont moins de cinq
+ans** et 311 en ont cinq ou plus.
+
+L'outil est `outils/relecture-1881/tirets91.mjs`, avec `--essai`. Il est borné aux
+pages 42 à 83 **à dessein** : la même passe a été faite depuis sur les pages 1 à 41 et
+84 à 142, mais le journal n'y a jamais écrit la règle noir sur blanc. **853 personnes
+y restent sans valeur** — 339 aux pages 1-41, 514 aux pages 84-142. Étendre la
+normalisation à ces deux bandes est une décision à prendre, pas une conséquence de ce
+qui est déjà écrit ici.
+
+Après coup, le compte des « sait lire » de la division : **1997 oui, 698 non,
+853 non relevés**. Pour « sait écrire » : 1728, 967, 853.
+
 ### Les « sait écrire mais ne sait pas lire »
 
 Ils étaient 59, ils sont **56**. Cinq seulement tombaient dans les pages couvertes par un

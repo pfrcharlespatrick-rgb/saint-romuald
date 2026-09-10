@@ -27,8 +27,11 @@ manuscrit ». La distinction compte pour un chercheur — ne l'écrase pas en mi
 
 **Alphabétisation** : uniformisée en polarité positive `sait_lire` / `sait_ecrire`.
 Le formulaire de 1871 posait la question à l'envers (« ne lit pas ») ; la conversion
-est enregistrée dans `alphabetisation_source` (`negatif_1871` ou `positif_1891`)
-pour que la provenance reste vérifiable.
+est enregistrée dans `alphabetisation_source` pour que la provenance reste
+vérifiable : `negatif_1871` (conversion de la question posée à l'envers),
+`positif_1891` (dépouillement d'origine), `relecture_pdf_cols_21_22` (case relue
+au recueil PDF), `tiret_manuscrit` (le manuscrit porte un tiret, rendu explicite
+par `outils/relecture-1881/tirets91.mjs` — pages 42 à 83 de 1891 division 1).
 
 > **La colonne de 1871 ne concerne que les adultes.** Son intitulé exact est
 > « 20 ans et plus, ne sachant pas lire / ne sachant pas écrire ». Pour les
@@ -301,8 +304,26 @@ age_ajuste_rapport                   booléen — âge corrigé d'après le Rapp
 
 ### Personne — 1881
 
-Uniquement les champs communs. Le dépouillement des colonnes supplémentaires reste
-à faire — c'est le jeu le plus pauvre des trois.
+```
+lieu_naissance, religion, origine    texte
+ne_douze_mois                        texte — mois de naissance, colonne 10
+ecole                                booléen
+sourd_muet, aveugle, aliene          booléen
+```
+
+Ces champs ne sont pas dans `recensement-1881-d*-data.js` : ils viennent des
+**compléments** (`complement-1881-d1-data.js`, `complement-1881-d2-data.js`),
+rattachés par page et ligne du manuscrit et versés au chargement par
+`outils/lib/complement-1881.mjs`. Le complément ne remplace jamais une valeur
+existante : il ne comble que les champs vides.
+
+**Le formulaire de 1881 ne comporte ni « sait lire » ni « sait écrire »**, ni
+« marié dans les douze mois ». La question existe en 1871, disparaît en 1881,
+revient en 1891 : il n'y a rien à dépouiller pour ces champs.
+
+Les pages 82 et 83 de la division 1 sont **suspendues** — le complément y décrit
+des personnes que le registre ne contient pas, et rien n'en est versé tant que le
+manuscrit n'a pas tranché. Voir `docs/BILAN-RELECTURE.md`.
 
 ### Personne — 1891
 
@@ -313,7 +334,7 @@ lieu_naissance                            texte
 lieu_naissance_pere, lieu_naissance_mere  texte
 religion                                  texte
 sait_lire, sait_ecrire                    booléen
-alphabetisation_source                    "positif_1891"
+alphabetisation_source                    "positif_1891" | "relecture_pdf_cols_21_22" | "tiret_manuscrit"
 employe, patron                           booléen
 nb_employes                               texte
 chomage                                   booléen — sans emploi la semaine du recensement

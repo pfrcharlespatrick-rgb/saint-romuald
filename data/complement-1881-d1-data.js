@@ -115,8 +115,17 @@ window.COMPLEMENT_1881_D1 = {
        sur le manuscrit : dépouillement l.1 = manuscrit l.2, etc.
        Les clés ci-dessous suivent le MANUSCRIT ; decalage rétablit la
        correspondance. Corriger l'oubli fera tomber decalage à 0. */
+    /* Le « decalage: 1 » qui figurait ici datait d'avant la réinsertion de
+       Beaulieu Damase : le dépouillement sautait alors la ligne 1 du manuscrit.
+       La relecture l'a réinséré et renuméroté la page (voir RELECTURE-1881-D1),
+       si bien que le fichier suit désormais le manuscrit ligne à ligne et que le
+       décalage inverserait la correspondance. Retiré, sur deux ancres : la
+       colonne 10 porte « Décembre » à la ligne 4, où le fichier a Sara Beaulieu,
+       4/12 (déc.), et « Septembre » à la ligne 22, où il a Laly Brown, 7/12
+       (sept.) ; et le bloc anglican des lignes 18 à 23 tombe exactement sur les
+       Brown et Hazel Cambell. */
     4: {
-      lignes: 25, decalage: 1,
+      lignes: 25,
       ecole: [1],
       ne12: { 4: 'Décembre', 22: 'Septembre' },
       exceptions: {
@@ -574,7 +583,12 @@ window.COMPLEMENT_1881_D1 = {
        rien à signaler ici, la remarque "Jumeaux" est inscrite sur la ligne 4
        de la page 45. Toutes les valeurs par défaut (Québec/Catholique/Française)
        se vérifient sans exception sur les 23 lignes de cette page. */
-    46: { lignes: 23, ecole: [7, 8, 9] },
+    /* « lignes: 23 » était un comptage fautif, qui privait de tout complément
+       les deux derniers Simard de la page. Le manuscrit en porte 25 : le ménage
+       Simard se poursuit à la ligne 1 de la page 47, et les trois écoliers
+       relevés ici tombent sur les Lebel des lignes 7, 8 et 9 (11, 10 et 8 ans),
+       preuve que la numérotation est bien celle du fichier. */
+    46: { lignes: 25, ecole: [7, 8, 9] },
 
     /* Maison 187 : la famille Lockwell (Flore, 49 ans, chef de famille sans
        époux mentionné, avec Antoinette, Joseph, Arthur, Marie — et Léonard,
@@ -940,6 +954,24 @@ window.COMPLEMENT_1881_D1 = {
        Suite des Clauston : Robert, 19 ans, fils de Johnny (p. 81), toujours
        inscrit « Écossaise ». */
     82: {
+      /* SUSPENDUE — ces deux pages ne décrivent pas les personnes que le
+         dépouillement porte aux pages 82 et 83, et l'écart n'est pas un simple
+         décalage de lignes : Adèle Talbot, Robert Clauston (19 ans, « fils de
+         Johnny ») et Michel Bilodeau (71 ans, « Retraité ») ne figurent nulle
+         part dans la division, et la famille de Johnny Clouston s'arrête à la
+         ligne 16 de la page 81 sans se poursuivre. Aucun décalage de -3 à +3 ne
+         raccorde les ancres : la colonne 10 marque ici une seule naissance
+         (« Mars », ligne 20) là où le fichier en porte deux, et la page 83
+         annonce un nourrisson de mai quand la division n'en compte aucun entre
+         les pages 27 et 88.
+         Les pages voisines, elles, tombent juste au caractère près — 81 (les
+         Clouston écossais aux lignes 10 à 16), 84 et 85 (mois de naissance
+         exacts). L'anomalie est donc bornée à ces deux pages.
+         Tant que le manuscrit n'a pas tranché, rien n'en est versé : les
+         49 personnes des pages 82 et 83 gardent leurs colonnes vides plutôt que
+         de recevoir des valeurs invérifiables. Contenu conservé tel quel pour
+         la reprise. Voir docs/BILAN-RELECTURE.md. */
+      alignement_incertain: "Ne correspond pas aux personnes du dépouillement — ni par le contenu ni par aucun décalage de lignes. À reprendre au manuscrit.",
       lignes: 25, ecole: [7, 8, 15, 16],
       exceptions: { 2: { origine: 'Écossaise' } },
       ne12: { 20: 'Mars' }
@@ -950,6 +982,8 @@ window.COMPLEMENT_1881_D1 = {
        de « Rentier », plus fréquent chez les propriétaires âgés).
        Maison 370 clôt la division au bas de la page. */
     83: {
+      /* SUSPENDUE — voir la note de la page 82. */
+      alignement_incertain: "Ne correspond pas aux personnes du dépouillement — ni par le contenu ni par aucun décalage de lignes. À reprendre au manuscrit.",
       lignes: 25, ecole: [3, 4, 11],
       ne12: { 9: 'Mai' },
       remarques: { 21: '22 avril — Ol. Lambert, énumérateur' }

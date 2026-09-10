@@ -17,6 +17,15 @@ import { colonnesDe, nettoyerRemarque, nomComplet, etatCivil } from './lib/colon
 
 const d = chargerDonnees();
 
+// Le complément de 1881 est rattaché par page et ligne du manuscrit : un
+// décalage s'y voit à ce qu'une naissance des douze derniers mois tombe sur
+// quelqu'un qui n'est pas un nourrisson. Rien n'est versé dans ce cas, et on le
+// dit ici plutôt que de le laisser passer.
+if (d.anomaliesComplement.length) {
+  console.warn(`complément 1881 : ${d.anomaliesComplement.length} valeur(s) refusée(s) —`);
+  for (const a of d.anomaliesComplement) console.warn(`  ${a}`);
+}
+
 function ecrireJson(cheminRelatif, valeur) {
   const chemin = path.join(RACINE, cheminRelatif);
   fs.mkdirSync(path.dirname(chemin), { recursive: true });
@@ -54,6 +63,16 @@ function mentionDe(id) {
     nom: nomComplet(p), attribut: attributs.join(' · '),
     page_ms: p.page_ms, ligne: p.ligne
   };
+}
+
+// Colonnes 17 à 19 du formulaire de 1881 (23 à 25 en 1891). Elles ne sont
+// portées à la fiche que lorsqu'elles sont vraies : une infirmité se signale,
+// son absence ne se dit pas.
+const INFIRMITES = { sourd_muet: 'sourd-muet', aveugle: 'aveugle', aliene: 'esprit dérangé' };
+
+function infirmitesDe(p) {
+  const relevees = Object.keys(INFIRMITES).filter((cle) => p[cle] === true);
+  return relevees.length ? { infirmites: relevees.map((cle) => INFIRMITES[cle]) } : {};
 }
 
 function trajectoireDe(id) {
@@ -128,6 +147,17 @@ for (const p of d.personnes.values()) {
     remarque: nettoyerRemarque(p.remarque),
     // Ligne que le recenseur a biffée : conservée, mais hors du dénombrement.
     biffee: !!p.biffee,
+    // Colonnes du formulaire au-delà des six champs communs. Absentes de la
+    // fiche quand le recensement ne les porte pas — ce qui se lit comme
+    // « non relevé », et non comme « non ».
+    ...(p.lieu_naissance ? { lieu_naissance: p.lieu_naissance } : {}),
+    ...(p.origine ? { origine: p.origine } : {}),
+    ...(p.religion ? { religion: p.religion } : {}),
+    ...(p.ecole ? { ecole: true } : {}),
+    ...(p.ne_douze_mois ? { ne_douze_mois: p.ne_douze_mois } : {}),
+    ...infirmitesDe(p),
+    // Lecture douteuse signalée par le dépouillement complémentaire de 1881.
+    ...(p.complement_note ? { note_complement: p.complement_note } : {}),
     cle_maison: cleM,
     // Où cette personne habitait, quand le rattachement au sol est fait.
     lieux: (d.lieuxParMaison.get(cleM) || []).map((l) => ({

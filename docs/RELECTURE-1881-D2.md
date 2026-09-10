@@ -77,6 +77,25 @@ mais par recoupement entre le prénom — vérifié au manuscrit sur les 59 page
 familles formées d'un couple marié de deux personnes, 206 ont des sexes
 opposés.
 
+## Le complément versé aux fiches publiques
+
+Les colonnes 10 à 13 et 16 à 19, dépouillées à part dans
+`complement-1881-d2-data.js`, sont désormais affichées par le site — **les 59 pages,
+sans exception**. Le contrôle d'alignement (une naissance des douze derniers mois doit
+tomber sur un nourrisson, une marque d'école sur un enfant d'âge scolaire) passe sur
+toute la division, contrairement à la division 1 où deux pages ont dû être suspendues.
+
+Une seule entrée retirée : la page 18 portait « Février » en colonne 10 à la ligne 1,
+qui tombe sur Catherine Williams, 15 ans — et la division ne compte **aucun**
+nourrisson né en février. La marque relevée ne peut pas être une naissance des douze
+derniers mois. Le reste de la page est juste au caractère près : l'exception
+« Irlandaise » de la ligne 1 tombe sur les Williams, le bloc « Anglaise » des lignes 5
+à 14 sur les McCready, et « Janvier » à la ligne 24 sur Edouard McCready, 2/12 (janv.).
+
+Ce que la division porte désormais : 1 367 catholiques, 54 fidèles de l'Église
+d'Angleterre, 26 presbytériens, 5 méthodistes ; 1 215 personnes d'origine française,
+145 irlandaise, 64 anglaise, 28 écossaise ; 344 enfants marqués à l'école.
+
 ## Historique
 
 Pull requests #30 à #39. Chaque page ou lot de pages fait l'objet d'un commit
