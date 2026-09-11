@@ -196,3 +196,140 @@ div. 2) et pour tout nouveau choix d'architecture ou de design.
 - Maquette : `maquettes/refonte-2026.html` (fichier autonome, données réelles)
 - Version publiée : https://claude.ai/code/artifact/bdfd7682-fbea-472d-9282-15027f5fa4f8
 - Analyse détaillée : conversation d'août 2026 (relecture 1881 + refonte)
+
+---
+
+## Affinage esthétique (passe de finition)
+
+La refonte avait posé la structure ; cette passe travaille la **matière**. Les
+jetons de couleur du tableau ci-dessus n'ont pas bougé, ni le vocabulaire —
+papier, filets fins, madder, capitales condensées, chiffres alignés. Ce qui a
+changé, et pourquoi :
+
+- **Jetons dérivés** (`site.css`) : `--creux` (fond en retrait), `--voile-madder`
+  (survol et sélection teintés), `--lueur` (dégradé chaud en haut de page),
+  `--ombre` / `--ombre-levee` (deux niveaux au lieu d'un), `--rayon` (2px),
+  `--grain`. Tous se déduisent des jetons définitifs ; les redéfinir en mode
+  sombre suffit.
+- **Le grain du papier** : bruit SVG fin en surimpression fixe
+  (`body::before`), dosé à la limite du perceptible. C'est lui qui distingue
+  une feuille d'un aplat gris. Masqué à l'impression.
+- **Échelle typographique** : corps à 17px, titres en `clamp()`, interlignage
+  respiré, `text-wrap: balance` / `pretty`. Le masthead porte un filet madder
+  en tête de page — la signature éditoriale du site.
+- **L'ouverture de l'accueil** : la photo des chantiers n'est plus un encart au
+  milieu de page, c'est le seuil du site — bandeau pleine largeur, voile chaud,
+  titre et guichet de recherche posés dessus. La légende imprimée au bas du
+  cliché est rognée par CSS (`.ouverture-fond`), l'original n'est pas touché.
+- **Le bandeau de chiffres** : les quatre tuiles forment une réglure de
+  grand-livre (grille à `gap:1px` sur fond `--regle`), plus quatre boîtes
+  séparées. Sert aussi aux tuiles de `stats.html`.
+- **Les portes** : trois en tête, deux en pied (grille de 6 colonnes), jamais
+  une carte orpheline ; numérotées en chiffres romains.
+- **Le fil des trajectoires** : pastille de confiance au-dessus d'un pointillé
+  fléché — le lien est calculé, jamais prouvé, et le pointillé le dit.
+- **Pages de lecture suivie** (`methode.html`) : `.cadre-texte` ramène la
+  colonne à la mesure du texte ; `.deborde` laisse un tableau reprendre la
+  pleine page.
+- **`filiation.html`** : bâtie sur le système de jetons `_ds`, elle n'a pas été
+  réécrite — ses jetons sont **remappés** sur la palette du registre en tête de
+  son `<style>` (clair et sombre), et sa barre de titre reprend le masthead
+  public. Le gabarit de l'application ne bouge pas.
+
+Vérifié au rendu sur les sept pages publiques, en clair et en sombre, à 1280px
+et à 390px : aucune erreur console, feuille d'impression conservée. La passe
+téléphone ci-dessous a repris cette vérification plus largement et corrigé ce
+qu'elle avait laissé passer.
+
+## Passe téléphone
+
+Un audit mesuré (320, 390 et 430px, contexte tactile, les sept pages publiques
+plus Filiations) a relevé des défauts que la vérification à l'œil n'avait pas
+vus. Ce qui a été corrigé, et la règle à retenir :
+
+- **Grilles `auto-fit`** : `minmax(320px,1fr)` force une colonne plus large que
+  l'écran et fait déborder la page. Toutes passent en
+  `minmax(min(320px,100%),1fr)` — le `min()` est ce qui rend la grille
+  réellement fluide. C'est ce qui faisait déborder `stats.html` de 24px à
+  320px.
+- **`.filtre-annees`** (carte) ne se repliait pas : « Sans rattachement » était
+  coupé net au bord. `flex-wrap:wrap`.
+- **Ombres de défilement** sur `.registre`, `.deborde` et les tables de valeurs :
+  un extrait de registre a huit colonnes, il défile forcément sur un téléphone,
+  et rien ne le disait. Motif classique — deux voiles en `background-attachment:
+  local` (ils s'effacent au bord atteint) et deux ombres en `scroll`. Sur un
+  écran large où le tableau tient, le motif se masque tout seul.
+- **Cibles tactiles** sous `@media (pointer:coarse)` — et seulement là, la
+  densité du bureau reste celle d'un outil de travail. Les commandes montent à
+  44px ; dans un registre c'est la cellule entière qui devient cliquable
+  (`.registre td a{display:block;margin:-9px -12px;padding:9px 12px}`), et dans
+  la frise c'est le titre du lieu. Les commandes de zoom de Leaflet demandent
+  `.leaflet-touch .leaflet-bar a.leaflet-control-zoom-in` : moins spécifique, la
+  règle perd contre celle de la bibliothèque.
+- **Filiations** : `.titre-rangee{padding: X 0 Y}` écrasait la gouttière de
+  `.enveloppe` — sur un écran plus étroit que `max-width`, la barre de titre
+  collait au bord. Corrigé en `padding-top`/`padding-bottom`. La chaîne des
+  mentions s'empile désormais avec sa flèche tournée, au lieu de laisser une
+  colonne de flèches vide sur le côté ; les boutons Confirmer / Écarter
+  passaient de 19px de haut à 40px.
+
+- **La barre de rubriques sur une seule ligne.** Sous 760px elle repliait sur
+  deux à quatre lignes et repoussait le contenu (environ 100px gagnés à 320px).
+  Elle devient une ligne qui défile à l'horizontale, en pleine largeur d'écran
+  (`margin-inline: calc(var(--gouttiere) * -1)`), avec les mêmes ombres que les
+  registres et la barre de défilement masquée. **Conséquence à ne pas oublier :**
+  sur les dernières rubriques, l'onglet courant se retrouve hors du champ et
+  aucun onglet actif n'est visible — `nav.js` (site public) et
+  `recadrerOnglets()` (Filiations) le ramènent au chargement, au changement de
+  rubrique et au redimensionnement. Une barre défilante sans ce recadrage est
+  pire que le repli qu'elle remplace.
+- **Le survol collant.** Sur un écran tactile, `:hover` reste appliqué après la
+  tape : un onglet non courant gardait son soulignement à côté du vrai, un
+  bouton restait inversé, une porte restait soulevée. Tous les effets
+  *décoratifs* de survol passent sous `@media (hover:hover)`. Les états qui
+  portent de l'information (survol de ligne dans un registre) restent hors de
+  cette garde.
+
+Restent volontairement inchangés : les liens en incise dans une phrase (leur
+hauteur est celle du texte, c'est normal) et le crédit d'attribution de Leaflet.
+Vérifié après correction : aucun débordement horizontal à 320, 390 ni 430px,
+l'onglet courant visible sur chacune des huit pages, et le rendu au bureau
+identique à avant la passe — barre de rubriques non défilante, survols intacts.
+
+Une seule source pour la gouttière depuis cette passe : `--gouttiere` (24px,
+18px sous 560px), dont `.cadre`, l'ouverture et la barre défilante se servent.
+Ne pas y réintroduire de valeur en dur.
+
+### Rejouer l'audit
+
+`node outils/audit-telephone.mjs` sert le site en local, l'ouvre dans un
+Chromium en contexte tactile à 320, 390 et 430px, et vérifie les règles
+ci-dessus sur les huit pages : débordement horizontal, taille des commandes
+autonomes, barre de rubriques sur une ligne avec sa rubrique courante dans le
+champ, présence des ombres sur ce qui défile, plancher de lisibilité du texte.
+Il sort en code 1 au premier manquement, ne touche à rien, et prend ses
+identifiants de fiche dans les fichiers produits par `generer-site.mjs` — il
+suit donc les données plutôt qu'un exemple figé.
+
+    node outils/audit-telephone.mjs --page methode        # une seule page
+    node outils/audit-telephone.mjs --largeurs 360        # une seule largeur
+    node outils/audit-telephone.mjs --captures /tmp/audit # + copies d'écran
+
+Il demande Playwright (`npm install -g playwright && npx playwright install
+chromium`), qui reste **hors du site** : les pages publiques ne chargent
+toujours rien depuis le réseau.
+
+Ce qu'il n'attrape pas : le laid. Une page peut passer l'audit et rester mal
+composée — il tient les régressions mesurables, pas le coup d'œil.
+
+Deux pièges relevés en l'écrivant, à connaître avant de « corriger » ses
+signalements :
+
+- **Un style inline gagne toujours.** Les gabarits JS de `filiation.html`
+  posaient des `font-size` en dur ; la règle CSS écrite pour les relever
+  n'avait aucun effet tout en ayant l'air d'agir. Corriger à la source.
+- **Une grille en réglure ne doit pas porter ses filets dans ses gouttières.**
+  Avec `gap:1px` sur un fond coloré, une cellule vide en fin de grille (quatre
+  tuiles sur trois colonnes, entre 700 et 850px) vire au gris. Les filets sont
+  donc portés par les cases elles-mêmes, en `box-shadow`, et le débord rogné
+  par `overflow`.
