@@ -289,3 +289,32 @@ Colonne 15 : deux « Ve. » (p46 L23 Simard Délina, p47 L21 Lockwell Flore), un
 « M » manquant (p47 L10) et — pour la première fois — **un « M » de trop** :
 p48 L2, Bilkey John, marchand de bois, que le fichier donne pour marié quand la
 case est vide au manuscrit.
+
+## Lot pages 49-54 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-049-054.json`
+
+Cinq écritures, dont **un métier lu pour un autre** et **une profession décalée
+d'une rangée** :
+
+| | |
+|---|---|
+| p50 L22 — Plaisance François | → **« Journalier »**, au « do » de la ligne 21. |
+| p51 L13 — Aubert Ancile, 46 ans | « Fermier » → **« Forman »**. Le manuscrit écrit « forman » en toutes lettres — le mot que la division emploie ailleurs sous la forme « Forman ». |
+| p51 L18 — Joly Ambroise | → **« Cordonnier »**, au guillemet de la ligne 17. |
+| p51 L24 — Roberge Anastasie, 55 ans | « Journalier » → **case vide**. |
+| p51 L25 — Roberge Pierre, 25 ans | → **« Journalier »**. |
+
+### La page 51 et le « Pierre » porté F
+
+Le « Journalier » de la page 51 est à la ligne **25**, pas à la 24 : la marge de
+gauche et la colonne des noms le disent ensemble. La ligne 24 est celle
+d'Anastasie Roberge, 55 ans, que la colonne 15 porte « Ve. » et à qui le
+manuscrit ne donne aucun métier.
+
+Cela touche une question laissée ouverte dans `BILAN-RELECTURE.md` : **la ligne
+25, « Pierre », est portée F et la colonne 8 y est biffée.** Le métier qui lui
+revient est « Journalier ». Ce n'est pas une preuve, mais cela va dans le sens
+d'un homme, et donc d'une colonne 8 corrigée par le recenseur lui-même.
+
+Cinq « Ve. » relevés sans être écrits : p51 L5, L17, L24, p52 L3 et L25.
