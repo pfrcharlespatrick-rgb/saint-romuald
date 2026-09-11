@@ -161,3 +161,36 @@ bandes.
 
 Trois « Ve. » de plus, non écrits : p14 L2 (Cameron Sophy, 65), p14 L16
 (Caouette Rosalie, 53), p16 L13 (Huard Lucie).
+
+## Lot pages 19-24 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-019-024.json`
+
+Cinq écritures, dont **quatre cases que le dépouillement avait laissées vides** :
+
+| | |
+|---|---|
+| p19 L18 — Lambert Joseph | → **« Journalier »**, au « do » sous la ligne 17. |
+| p21 L5 — Levasseur Olive, 57 ans | « Ménagère » → **« Manchonnière »**. Voir ci-dessous. |
+| p22 L7 — Morin Joséphine | → **« Chapelière »**, écrit en toutes lettres. |
+| p22 L15 — Boutin Louise | → **« Domestique »**, au guillemet sous la ligne 14. |
+| p24 L17 — Toussaint Benjamin | → **« Journalier »**, au guillemet sous la ligne 16. |
+
+### « Manchonnière » — un métier que le dépouillement avait remplacé par un autre
+
+Page 21 ligne 5, Levasseur Olive, 57 ans, femme de Jérémie. Le fichier porte
+« Ménagère ». Le mot du manuscrit en compte douze lettres et commence par un M
+majuscule : **« Manchonnière »** — celle qui fait les manchons de fourrure.
+Marqué incertain, la lecture n'étant pas hors de doute ; mais « Ménagère »,
+huit lettres, n'est en aucun cas ce qui est écrit.
+
+Avec la « Chapelière » de la page 22, ce sont deux métiers de femme que la
+colonne rendait et que le fichier ne portait pas.
+
+Une case reste illisible : **p22 L23, Demers Pierre** — le mot est effacé au
+point qu'on n'en tire que sa longueur, compatible avec le « Boulanger » du
+dépouillement. Laissé tel quel.
+
+Sept « Ve. » de plus, non écrits, dont un **contre** le fichier : p19 L17
+(Lambert J.Baptiste, 45, que le fichier donne pour marié), p20 L14, p21 L10,
+p22 L3, p22 L4, p23 L1, p23 L12.
