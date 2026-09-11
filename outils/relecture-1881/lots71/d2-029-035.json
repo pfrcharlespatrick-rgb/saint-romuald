@@ -69,7 +69,7 @@
       "ecole": "---------1111-------",
       "lire":  "-------11-----------",
       "ecrire":"-------11-----------",
-      "etat":  "----MM-MM------MM---",
+      "etat":  "----MM-MM-------MM--",
       "ligne": {
         "4":  { "age": "4/12", "ne_douze_mois": "Août", "_inc": false,
                 "_note": "la colonne 9 porte la fraction 4/12 et la colonne 10 « Aot. » ; le dépouillement avait laissé l'âge en blanc" },

@@ -24,6 +24,8 @@
       "ecrire":"------1----------1--",
       "etat":  "------MM------MM-MM-",
       "ligne": {
+        "7":  { "age": "44", "_inc": false,
+                "_note": "l'âge se lit 44 — le dépouillement portait 13, l'âge de son fils Frédéric deux lignes plus bas ; sa femme Marie en a 34" },
         "16": { "age": "23", "_inc": false, "_note": "l'âge se lit 23" },
         "17": { "age": "3/12", "ne_douze_mois": "Janvier", "_inc": false,
                 "_note": "la colonne 9 porte la fraction 3/12 et la colonne 10 « Jan. » ; le dépouillement avait laissé l'âge en blanc" },

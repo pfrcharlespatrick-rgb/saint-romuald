@@ -1,0 +1,43 @@
+{
+  "division": 2,
+  "pages": {
+    "5":  { "ligne": {
+      "14": { "lieu_naissance": "Q", "_inc": false,
+              "_note": "la colonne 11 reprend « Q. » au guillemet ; le dépouillement portait « Q [?] »" }
+    } },
+    "8":  { "ligne": {
+      "2":  { "sexe": "M", "_inc": false,
+              "_note": "la colonne 8 porte « M », de la même main que les lignes voisines ; le dépouillement portait « M [?] »" }
+    } },
+    "10": { "ligne": {
+      "2":  { "profession": "Navigateur", "_inc": false,
+              "_note": "la colonne 14 porte « Navigateur » en toutes lettres ; le dépouillement portait « Navigateur [?] »" }
+    } },
+    "11": { "ligne": {
+      "17": { "age": "3/12", "ne_douze_mois": "Août", "_inc": false,
+              "_note": "la colonne 9 porte la fraction 3/12 et la colonne 10 « Août » ; le dépouillement avait laissé l'âge en blanc" }
+    } },
+    "13": { "ligne": {
+      "7":  { "_inc": true,
+              "_note": "la colonne 16 porte une marque pour Louis Boucher, 17 ans, mais la colonne 15 ne porte rien : le recenseur le dit marié dans les douze derniers mois sans le dire marié. Les deux colonnes sont rendues telles qu'il les a laissées" },
+      "17": { "ne_douze_mois": "Octobre", "_inc": false,
+              "_note": "la colonne 10 porte « O. » pour octobre, ce qui s'accorde avec les 5/12 de la colonne 9 ; le fichier portait « Mai », soit onze mois" }
+    } },
+    "14": { "ligne": {
+      "8":  { "religion": "Presbytérien", "_inc": false,
+              "_note": "la colonne 12 porte « Presbytérien » en toutes lettres à la ligne 7, pour Joseph Sleeth, et le guillemet le reprend jusqu'à la ligne 16 ; le dépouillement portait « Presbytérienne [?] »" },
+      "9":  { "religion": "Presbytérien", "_inc": true,
+              "_note": "la colonne 13 reprend au guillemet depuis la ligne 8, qui porte « Irlandaise » pour la mère, non le « Écossaise » du père : l'origine des enfants Sleeth reste ouverte, et le fichier garde la lecture du dépouillement" },
+      "10": { "religion": "Presbytérien", "_inc": true }, "11": { "religion": "Presbytérien", "_inc": true },
+      "12": { "religion": "Presbytérien", "_inc": true }, "13": { "religion": "Presbytérien", "_inc": true },
+      "14": { "religion": "Presbytérien", "_inc": true }, "15": { "religion": "Presbytérien", "_inc": true },
+      "16": { "religion": "Presbytérien", "_inc": true }
+    } },
+    "18": { "ligne": {
+      "12": { "ne_douze_mois": "", "_inc": false,
+              "_note": "le « Juin » de la colonne 16 dit un mariage dans les douze derniers mois, non une naissance : à 28 ans William Vachon n'est pas un nourrisson. La colonne 10 est rendue vide" },
+      "13": { "ne_douze_mois": "", "_inc": false,
+              "_note": "la colonne 16 reprend le « Juin » au guillemet ; la colonne 10 est rendue vide" }
+    } }
+  }
+}

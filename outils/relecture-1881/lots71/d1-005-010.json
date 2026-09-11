@@ -76,7 +76,9 @@
       "15": { "age": "13", "ecole": true, "_inc": true,
               "_note": "l'âge se lit 13 et la colonne 17 porte une marque ; le dépouillement portait 15 et pas d'école" }
     } },
-    "10": { "lignes": 20, "ligne": {
+    "10": { "lignes": 20,
+      "etat":  "----MM--MM------V---",
+      "ligne": {
       "5":  { "nom": "Brother", "_inc": true,
               "_note": "le patronyme se lit « Brother » ; le dépouillement portait « Brotto [?] »" },
       "6":  { "nom": "Brother", "origine": "Irlandaise",

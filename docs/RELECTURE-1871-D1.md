@@ -221,10 +221,12 @@ trois de la page 78 font 1543, et c'est ce que le fichier porte.
 - **« Boumier »**, page 48 ligne 5 : le mot de la colonne 14 n'est pas
   « Boulanger » — il n'a ni la haste du l ni la jambe du g, que le vrai
   « Boulanger » de la page 47 montre tous deux. Métier non identifié.
-- **« Laird » ou « Lord »**, page 3 ligne 6 et sa famille. Le manuscrit se lit
-  « Lord » ; le dépouillement porte « Laird ». Laissé tel quel faute de
-  corroboration — mais leur **origine** est bien « Française » au manuscrit, et
-  non « Écossaise » comme le déduisait le dépouillement du seul patronyme.
+- ~~**« Laird » ou « Lord »**, page 3 ligne 6 et sa famille.~~ **Tranché : le
+  manuscrit porte « Lord »** — L, o, r, d, sans le i pointé qu'exigerait
+  « Laird ». Les quatre fiches sont récrites, marquées `incertain`, la lecture du
+  dépouillement gardée en remarque. Leur **origine** est bien « Française » au
+  manuscrit, et non « Écossaise » comme le déduisait le dépouillement du seul
+  patronyme.
 - **« Peltier » sans la syllabe du milieu** : tranché aux pages 55 et 73, où le
   tracé est net. Les pages 5, 8, 15, 16 et 65 portent encore « Peltier » ou
   « Pelletier » selon les lignes ; la page 65 est réglée (c'est **Belleau**), les
@@ -233,9 +235,76 @@ trois de la page 78 font 1543, et c'est ce que le fichier porte.
   manuscrit se contredit lui-même. Signalé sur la ligne, non suivi, sauf pour
   Fany Bear (page 76) dont le métier de jardinier corrobore le M.
 
+## Le contrôle de cohérence — et le piège des chaînes de vingt caractères
+
+Les colonnes à marques se lisent comme des **chaînes de vingt caractères**, une par
+page et par colonne. C'est la bonne forme : elle oblige à se prononcer sur les vingt
+lignes plutôt que sur les seules qui changent. Mais elle a un défaut, et il est
+sournois — **une chaîne décalée d'un rang reste une chaîne valide.** Rien, dans le
+fichier, ne dit qu'elle est fausse.
+
+Un contrôle systématique a donc été passé sur les 78 pages, une fois tous les lots
+appliqués : `outils/relecture-1881/controle71.mjs`. Il ne cherche pas des marques, il
+cherche **ce qu'un décalage produit** — un enfant de cinq ans porté marié, un chef de
+ménage dont seule la femme est dite mariée, un nourrisson qui ne sait pas lire.
+
+### Neuf chaînes décalées, toutes en bas de page
+
+Le contrôle en a débusqué neuf : les pages **22, 29, 30, 31, 38, 39, 40, 54** de la
+division 1 et la page **33** de la division 2. Toutes en colonne 15, toutes sur les
+derniers couples de la page. La cause est dans l'image, non dans la lecture : le
+déphasage des prises de vue s'accumule vers le bas du cadre, et l'œil qui compare des
+milieux de cellule saute un rang.
+
+Le signal le plus sûr est le **couple de tête dissymétrique** : le chef perd son « M »,
+la ligne suivante en gagne un. Ainsi page 31, où Bénoni Gosselin, 35 ans, chef de la
+famille 119, n'était plus marié tandis que sa fille Éléonore, cinq ans, l'était.
+
+Dix-huit champs ont été rendus à leur ligne, plus un en division 2. La **page 10**, qui
+n'avait reçu aucune chaîne de colonne 15, a reçu la sienne : Charles Brother, 37 ans,
+retrouve son « M ».
+
+Deux chaînes d'alphabétisation de la **page 42** avaient le même défaut, trouvé au même
+contrôle : les marques tombaient sur Pierre Garant, quinze ans, et Françoise, treize,
+au lieu des Lavertu, vingt-trois ans tous les deux. Corrigées.
+
+### Cinq frontières de famille ouvertes une ligne trop tôt
+
+Le formulaire n'écrit les numéros des colonnes 5 et 6 **qu'à la première ligne du
+ménage**. Ouvrir une famille une ligne trop tôt décroche du ménage précédent ce qui lui
+restait. Le contrôle repère une famille dont la tête ne porte pas le patronyme
+dominant ; le manuscrit tranche, numéro de famille à l'appui.
+
+| Page | Qui était décroché | Rendu à |
+|---|---|---|
+| 12 L3 | Marcelline Cantin, 18 ans, servante | les McNaughton, famille 42 |
+| 37 L1-3 | Mary, Robert et Pepsi Clouston, 8, 4 et 2 ans | leur père Francis, famille 137 |
+| 64 L5 | Adèle Croteau, 23 ans, servante | Joséphine Godbout, famille 236 |
+| 66 L1 | Daniel Campbell, 26 ans, millwright | les Belleau, famille 244 |
+| 74 L1-2 | Malvina Paradis, servante, et Mary Ritchie, 17 ans | les Ritchie, famille 279 |
+
+Huit personnes replacées, par `outils/relecture-1881/recoller71.mjs`, qui les reconnaît
+au nom, au prénom, à l'âge, à la page et à la ligne — jamais au seul rang.
+
+**Le bruit de ce contrôle est instructif** : il signale aussi huit familles dont la tête
+porte un autre nom que les siens, et ce ne sont pas des erreurs. Ce sont des **veuves
+inscrites sous leur nom de fille**, avec des enfants au nom du père — Julie Paradis chez
+les Roberge, Angélique Boutin chez les Topping, Ann Manahan chez les Lemoine. L'usage
+québécois. L'outil montre ; il ne tranche pas.
+
+### Ce qui reste signalé, et pourquoi
+
+Quinze signalements survivent sur les 2 242 personnes relues, tous vérifiés au
+manuscrit et tous légitimes : quatorze personnes qui savent lire sans savoir écrire —
+la colonne 19 se coche parfois sans la 18 —, deux nourrissons dont le recenseur a
+oublié le mois (pages 29 et 45), deux fils mariés vivant chez leurs parents, et les
+huit veuves ci-dessus. **Aucun mineur porté illettré, aucun enfant porté marié, aucun
+âge absent, aucune valeur entre crochets.**
+
 ## Et la division 2
 
-Faite aussi, et racontée à part : `docs/RELECTURE-1871-D2.md`. Les recueils n'en
-portent que les **pages 1 à 15** — la dernière page PDF répète les pages 14 et
-15 au lieu de porter les 16 et 17. Les 58 pages suivantes demanderont d'autres
-images.
+Faite aussi, et racontée à part : `docs/RELECTURE-1871-D2.md`. Les recueils en
+portent les **pages 1 à 35** : le cinquième s'arrête à la page 15 — sa dernière
+page PDF répète les pages 14 et 15 au lieu de porter les 16 et 17 — et un
+sixième, joint plus tard, reprend exactement aux pages 16 à 35. Les 38 pages
+suivantes demanderont d'autres images.

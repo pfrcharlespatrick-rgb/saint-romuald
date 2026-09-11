@@ -43,7 +43,7 @@ cinq mois de naissance que la colonne 10 donne et que le fichier n'avait pas,
 un mariage des douze derniers mois, et une poignée de marques des colonnes 15,
 17, 18 et 19 sur des lignes que personne n'avait touchées.
 
-## Ce que la relecture signale sans y toucher
+## Les 90 champs signalés, puis tranchés par Patrick
 
 **La règle du projet est sans exception : un champ corrigé à la main n'est jamais
 réécrit ; une relecture qui propose autre chose le signale et passe son chemin.**
@@ -51,7 +51,14 @@ réécrit ; une relecture qui propose autre chose le signale et passe son chemin
 refus où la main et la relecture **ne disent pas la même chose** — un refus sur
 lequel les deux s'accordent n'apprend rien.
 
-Voici ce que la relecture a laissé : **90 champs sur 8 pages**.
+La relecture a donc **laissé 90 champs** et les a mis sous ses yeux. **Patrick les
+a lus et a tranché en faveur du manuscrit** — « corrige les 90 champs ». Ils ont été
+récrits **là où la décision vit**, c'est-à-dire dans `data/travail-personnel.json`,
+par `outils/relecture-1881/trancher71.mjs` : écrire seulement dans le recensement
+n'aurait servi à rien, `fondre.mjs` aurait remis l'ancienne valeur au passage suivant.
+`lot71.mjs` ne signale plus aucun refus sur ce lot.
+
+Les 90 se répartissent ainsi — **79 sur les pages 1 à 3**, onze ailleurs :
 
 | Page | Lignes | Champs |
 |---|---|---|
@@ -95,7 +102,10 @@ ligne 9 en colonne 19, lignes 12 et 13 en colonnes 18 et 19 — qui ne comptent
 donc pas. Le même geste se retrouve page 4 ligne 2, page 5 ligne 10, page 8
 ligne 10, page 10 ligne 4 et page 11 ligne 12.
 
-**Rien n'a été écrit sur ces lignes.** La décision revient à Patrick.
+**Ces douze lignes sont désormais les seules à porter l'incapacité** sur les trois
+pages, et le contrôle le confirme : sur les quinze premières pages de la division,
+53 personnes ne savent pas lire, et **aucune n'a moins de vingt ans**. Les deux
+divisions se répondent enfin — 22 % des adultes de la division 1, 21 % de la division 2.
 
 ### Les autres écarts
 
@@ -192,3 +202,53 @@ déjà (p. 30 et 31).
 
 **Les pages 36 à 73** — 1 058 personnes, dont 403 valeurs encore entre
 crochets — attendent leurs images.
+
+## Le contrôle de cohérence — ce qu'il a trouvé après coup
+
+Une fois les lots passés, un contrôle systématique a été promené sur tout ce que la
+relecture avait couvert : `outils/relecture-1881/controle71.mjs`. Il cherche ce qu'une
+lecture juste ne produit jamais — un enfant de cinq ans porté marié, un nourrisson qui
+ne sait pas lire, un âge absent, une frontière de famille ouverte trop tôt.
+
+Il a trouvé, en division 2 :
+
+- **Page 24, ligne 7 : Frédéric Gagné, 44 ans et non 13.** Le dépouillement lui avait
+  recopié l'âge de son fils, inscrit deux lignes plus bas et portant le même prénom. Un
+  journalier de treize ans marié à une femme de trente-quatre : le manuscrit lit 44 sans
+  hésitation.
+- **Page 33 : la chaîne de la colonne 15 décalée d'un rang.** Le « MM » du couple Bolduc
+  tombait sur Florida Huard, quatre mois, et sur Benjamin. Le manuscrit les porte
+  lignes 17 et 18. Même défaut sur huit pages de la division 1 — voir
+  `RELECTURE-1871-D1.md`, qui en fait le récit.
+- **Cinq valeurs restées entre crochets** : le lieu de naissance de Thomas Wilson
+  (p. 5), le sexe de Benjamin Lemieux (p. 8), le métier d'Étienne Roberge (p. 10), la
+  religion des neuf Sleeth (p. 14) et l'âge du petit Joseph Couture (p. 11), laissé
+  vide, que le manuscrit donne à 3/12 avec « Août » en colonne 10. **Il ne reste plus
+  aucun crochet sur les 35 pages.**
+
+### Ce que le contrôle a laissé à la main de Patrick
+
+Trois champs ont été refusés par la règle du projet, et c'est très bien ainsi. Ils sont
+notés ici pour qu'il tranche s'il le souhaite :
+
+- **Page 18, lignes 12 et 13 — William Vachon, 28 ans, et Aveline, 22.** Leur colonne 10
+  porte « Juin ». Or la colonne 10 recense les **naissances** des douze derniers mois :
+  à vingt-huit ans on n'est pas un nourrisson. Le « Juin » du manuscrit est en
+  **colonne 16** — leur mariage, que le fichier porte déjà par ailleurs. La relecture
+  proposait de vider la colonne 10 ; la main a écrit « Juin », elle l'emporte.
+- **Page 13, ligne 17 — Rosalie Boucher, 5/12.** La colonne 10 se lit « O. », octobre,
+  ce qui s'accorde avec cinq mois avant le 2 avril 1871. Le fichier porte « Mai », soit
+  onze mois. La main l'emporte.
+
+### Ce que le contrôle a vérifié et trouvé juste
+
+- **Page 2 ligne 20 et page 7 ligne 4** : Jacob Cantin, 17 ans, et Théophile Roberge,
+  22 ans, sont bien portés mariés au manuscrit, chez leurs parents. Ce n'est pas une
+  erreur, c'est l'époque.
+- **Page 13 ligne 7** : Louis Boucher, 17 ans, porte une marque en colonne 16 —
+  marié dans les douze derniers mois — et rien en colonne 15. Le recenseur se contredit
+  lui-même ; les deux colonnes sont rendues telles qu'il les a laissées, la ligne
+  marquée `incertain`.
+- **Les huit veuves qui mènent leur ménage sous leur nom de fille**, avec des enfants
+  au nom du père : Angélique Roberge chez les Fréchette (p. 31), et sept autres en
+  division 1. L'usage québécois, pas une frontière de famille mal placée.

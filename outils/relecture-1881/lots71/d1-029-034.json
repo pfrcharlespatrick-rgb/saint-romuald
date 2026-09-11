@@ -6,7 +6,7 @@
       "ecole": "-------11----1------",
       "lire":  "-----------------1--",
       "ecrire":"-----------------1--",
-      "etat":  "-M-MMMM---V---MM-MM-",
+      "etat":  "-MMMMMM---V---MM-MM-",
       "ligne": {
         "2":  { "nom": "Daigle", "_inc": true,
                 "_note": "le patronyme se lit « Daigle » ; le dépouillement portait « Drolet »" },
@@ -32,7 +32,7 @@
       "ecole": "1111-----11----111--",
       "lire":  "------------11------",
       "ecrire":"------------11------",
-      "etat":  "------MM-----MM-----",
+      "etat":  "------MM----MM------",
       "ligne": {
         "3":  { "prenom": "Elise", "_inc": true, "_note": "le prénom se lit « Elise » ; le dépouillement portait « Elisa »" },
         "6":  { "age": "2 mois", "ne_douze_mois": "Mars",
@@ -50,7 +50,7 @@
       "ecole": "----111-------------",
       "lire":  "---------11---------",
       "ecrire":"---------11---------",
-      "etat":  "MM-------MM-----MM--",
+      "etat":  "MM-------MM----MM---",
       "ligne": {
         "7":  { "prenom": "Emélie", "_inc": true, "_note": "le prénom se lit « Emélie » ; le dépouillement portait « Emilie »" },
         "8":  { "prenom": "Alcida", "_inc": true, "_note": "le prénom se lit « Alcida » ; le dépouillement portait « Alida »" },

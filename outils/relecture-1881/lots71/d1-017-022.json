@@ -113,7 +113,7 @@
       "ecole": "-1----1111----------",
       "lire":  "--------------------",
       "ecrire":"--------------------",
-      "etat":  "----MM---------MMMM-",
+      "etat":  "----MM--------MMMM--",
       "ligne": {
         "3":  { "profession": "Commis", "_note": "la colonne 14 porte « Commis » à cette ligne" },
         "4":  { "prenom": "Damase", "profession": "Marchand", "_inc": true,

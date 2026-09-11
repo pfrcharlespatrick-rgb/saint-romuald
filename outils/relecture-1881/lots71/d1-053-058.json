@@ -27,7 +27,7 @@
       "ecole": "-----1---11----111--",
       "lire":  "11------------------",
       "ecrire":"11------------------",
-      "etat":  "MM----MM-----MM-----",
+      "etat":  "MM----MM----MM------",
       "ligne": {
         "3":  { "prenom": "Télesphore", "_inc": true,
                 "_note": "le prénom se lit « Télesphore » ; le dépouillement portait « Théophane »" },

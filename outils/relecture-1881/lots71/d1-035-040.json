@@ -65,7 +65,7 @@
       "ecole": "--------------------",
       "lire":  "---1----11----------",
       "ecrire":"---1----11----------",
-      "etat":  "---MM-MMMM--MM----MM",
+      "etat":  "---MM-MMMM-MM----MM-",
       "ligne": {
         "4":  { "age": "23", "_inc": true, "_note": "l'âge se lit 23 ; le dépouillement portait 25" },
         "7":  { "prenom": "Napoléon", "marie_12_mois": true, "_inc": true,
@@ -81,7 +81,7 @@
       "ecole": "--------1--------1--",
       "lire":  "----------1-----1---",
       "ecrire":"----1-----1-----1---",
-      "etat":  "MM--MM----MM----MM--",
+      "etat":  "MM--MM----MM---MM---",
       "ligne": {
         "1":  { "nom": "Gosselin", "_inc": true, "_note": "le patronyme se lit « Gosselin » ; le dépouillement portait « Gaselin »" },
         "2":  { "nom": "Gosselin", "prenom": "Mérence", "_inc": true, "_note": "le prénom se lit « Mérence » ; le dépouillement portait « Florence »" },
@@ -99,7 +99,7 @@
       "ecole": "-1---1---1----11--11",
       "lire":  "--------------------",
       "ecrire":"--------------------",
-      "etat":  "---MM--MM---MM----V-",
+      "etat":  "---MM--MM---MM---V--",
       "ligne": {
         "1":  { "nom": "Nicol", "age": "10 mois", "ne_douze_mois": "Juin",
                 "_note": "la colonne 9 porte la fraction 10/12 et la colonne 10 « Ju. » ; le dépouillement portait « 6 mois »" },

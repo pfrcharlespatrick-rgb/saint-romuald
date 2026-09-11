@@ -3,10 +3,12 @@
 État au 11 septembre 2026. Ce document répond à une seule question : **où en est la
 vérification au manuscrit, recensement par recensement, et qu'est-ce qui reste à faire ?**
 
-Trois chantiers sont faits depuis la dernière mise à jour : le complément de 1881 est
+Quatre chantiers sont faits depuis la dernière mise à jour : le complément de 1881 est
 versé aux fiches publiques, le tiret des colonnes 21-22 de 1891 est rendu explicite aux
-pages 42 à 83, et **le recensement de 1871 a été relu au manuscrit — la division 1 en
-entier, la division 2 sur ce que les recueils en portent.**
+pages 42 à 83, **le recensement de 1871 a été relu au manuscrit** — la division 1 en
+entier, la division 2 sur ce que les recueils en portent —, et **un contrôle de
+cohérence a été passé sur tout ce que cette relecture a couvert**, qui a trouvé ce
+qu'aucune relecture ne voit d'elle-même : des chaînes de marques décalées d'un rang.
 
 Les journaux de campagne restent la référence de détail :
 `RELECTURE-1871-D1.md`, `RELECTURE-1871-D2.md`, `RELECTURE-1881-D1.md`,
@@ -252,9 +254,14 @@ d'autres images.**
 **Pages 1 à 15 : Patrick les avait déjà relevées à la main** — 215 des 300 lignes
 portent une de ses corrections. La relecture n'a donc versé que 17 champs, et
 **signalé 90 champs sans y toucher**, comme le veut la règle du projet. Le plus gros
-écart tient en trois pages : le fichier y donne 52 personnes sur 60 pour ne sachant ni
-lire ni écrire, quand le manuscrit ne coche que douze lignes, toutes d'adultes. Le
-détail est dans `RELECTURE-1871-D2.md` ; la décision revient à Patrick.
+écart tenait en trois pages : le fichier y donnait 52 personnes sur 60 pour ne sachant
+ni lire ni écrire, quand le manuscrit n'en coche que douze lignes, toutes d'adultes.
+
+**Patrick a lu ce compte rendu et tranché en faveur du manuscrit.** Les 90 champs ont
+été récrits là où la décision vit — `data/travail-personnel.json` —, puis versés au
+recensement. Les deux divisions se répondent enfin : **22 % des adultes de la
+division 1 ne savent pas lire, 21 % de la division 2**, et aucune des 53 personnes
+concernées sur les quinze premières pages n'a moins de vingt ans.
 
 **Pages 16 à 35 : tout autre chose.** Le dépouillement y avait semé ses doutes dans
 les valeurs elles-mêmes — `"age": "54 [?]"`, `"lieu_naissance": "Q [?]"` — 190 valeurs
@@ -272,9 +279,32 @@ mois ; six patronymes sont rendus.
   **famille**, eux, concordent partout. Rien n'a été touché ; une passe dédiée reste
   à faire si le site doit porter les numéros du manuscrit.
 - **Deux familles logées dans une maison à elles** par le dépouillement alors que le
-  manuscrit les met sous le toit voisin (familles 180 et 217).
+  manuscrit les met sous le toit voisin (familles 180 et 217). C'est un déplacement
+  entre objets maison, que `recoller71.mjs` ne fait pas — il déplace des personnes
+  entre familles, non des familles entre maisons.
 - **La famille 52 et la maison 55** manquent à la numérotation de la division 1.
-- **Les pages 16 à 73 de la division 2**, faute d'images.
+- **Les pages 36 à 73 de la division 2**, faute d'images.
+- **Deux champs laissés à la main de Patrick** en division 2, notés dans son journal :
+  le « Juin » de la colonne 10 pour William et Aveline Vachon (p. 18), qui appartient à
+  la colonne 16 — le mariage, non la naissance —, et le « Mai » de Rosalie Boucher
+  (p. 13 L17), que le manuscrit écrit « O. » pour octobre. La règle du projet les
+  protège ; un mot de sa part suffit à les trancher.
+
+### Le contrôle de cohérence, désormais permanent
+
+`outils/relecture-1881/controle71.mjs` cherche ce qu'une lecture juste ne produit
+jamais : un enfant porté marié, un nourrisson illettré, un âge absent, une frontière de
+famille ouverte trop tôt. Il existe parce qu'une **chaîne de vingt caractères décalée
+d'un rang reste une chaîne valide** — rien, dans le fichier, ne dit qu'elle est fausse.
+
+Passé sur les 113 pages relues, il a rendu **neuf chaînes de colonne 15 à leur rang**
+(toutes en bas de page, où le déphasage des prises de vue s'accumule), **replacé huit
+personnes** décrochées de leur maisonnée, rendu son âge à **Frédéric Gagné** (44 ans,
+non 13 : le dépouillement lui avait donné celui de son fils) et **vidé les derniers
+crochets** des pages relues. Il reste quinze signalements sur 2 242 personnes, tous
+vérifiés au manuscrit et tous légitimes — dont huit veuves inscrites sous leur nom de
+fille, ce que l'outil ne peut pas distinguer d'une erreur et que l'œil tranche en un
+instant.
 
 ### Un rappel qui vaut toujours
 
