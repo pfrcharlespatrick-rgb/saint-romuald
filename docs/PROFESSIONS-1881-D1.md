@@ -570,9 +570,7 @@ pointé, et le mot lui-même ne peut pas être le sien. Laissée vide.
 
 Six cases de plus, donc, et la colonne 14 est close : **694 professions**.
 
-## Ce qui reste à trancher — et qui n'a pas été écrit
-
-**Les 84 cases de la colonne 15.** Voir ci-dessous. C'est tout.
+## La colonne 15 — versée
 
 ## La colonne 15 — le relevé complet, non écrit
 
@@ -599,7 +597,38 @@ parlants, parce qu'ils ne sont pas un simple oubli :
 - **p19 L17, Lambert J.Baptiste, 45 ans** ;
 - **p60 L7, Guay Edouard, 25 ans**, entre deux autres « Ve. » (lignes 6 et 8).
 
-Rien de tout cela n'est écrit. `node outils/relecture-1881/prof1.mjs
-outils/relecture-1881/lots81/d1-0*.json --etat` verse les 84 cases d'un coup, le
-jour où Patrick l'aura décidé — mais **attention, cette commande réécrit aussi
-les remarques des professions déjà versées** ; mieux vaut alors un lot à la fois.
+### Ce que Patrick a décidé, et ce que ça donne
+
+Les douze cases contradictoires lui ont été montrées en planche de contact
+(`outils/relecture-1881/planche15.py`, une bande par cas, étiquetée du nom, de
+l'âge, de ce que porte le fichier et de ce que porte le manuscrit). **Il a versé
+les 84.**
+
+La division 1 passe de **zéro à 75 veufs et veuves** sur 2 189 personnes —
+23 hommes, 52 femmes, 3,4 % de la population. La division 2 en porte 0,5 %,
+1891 en porte 4,0 % : le compte se remet d'aplomb.
+
+Ce qui a emporté la décision n'est pas la lecture des cases vides, c'est
+**l'accord des cases pleines** : sur quelque 700 « M » du manuscrit, le fichier
+en manquait 6 et en portait 3 de trop. Un instrument qui tombe juste 691 fois
+sur 700 là où il y avait de quoi comparer n'invente pas 72 « Ve. » là où il n'y
+avait rien. Le dépouillement n'avait pas mal lu la colonne : **il avait relevé
+les mariés et sauté les veufs**, systématiquement, sur 88 pages.
+
+### L'âge de la page 12, tranché du même coup
+
+`prof1.mjs` est devenu idempotent au passage — une remarque déjà posée ne se
+repose pas —, ce qui a permis de repasser les quinze lots avec `--etat` sans
+empiler une deuxième fois toutes les remarques des professions.
+
+Et la page 12 se referme. La colonne 9, agrandie, porte **un seul chiffre à la
+ligne 11, « 6 »**, entre le 38 du père et le 5 de Joseph. Le complément le
+soupçonnait sans pouvoir conclure ; les quatre colonnes se répondent désormais :
+
+> Bégin Rigobert, 38 ans, tanneur, **veuf**. Marie, **6 ans**, écolière. Joseph,
+> 5 ans. Virginie, 2/12, **née en décembre**. La mère est morte à la naissance de
+> la petite.
+
+L'âge est corrigé, la note du complément est close, et le site porte la fiche
+juste. **Le fichier ne fait plus d'une enfant de six ans l'épouse de son
+père.**

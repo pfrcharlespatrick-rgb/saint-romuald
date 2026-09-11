@@ -99,7 +99,11 @@ for (const chemin of LOTS) {
           }
         }
       }
-      const note = notes[String(l)];
+      // Idempotence : une remarque déjà posée par un passage précédent ne se
+      // repose pas. Sans cela, repasser un lot — pour verser la colonne 15, par
+      // exemple — empilerait une deuxième fois toutes ses remarques.
+      let note = notes[String(l)];
+      if (note && String(pers.remarque || '').includes(note)) note = undefined;
       if (!Object.keys(champs).length && !note && !inc.has(l) && !certain.has(l)) continue;
       plan.push({ page, ligne: l, champs, inc: inc.has(l) ? true : certain.has(l) ? false : undefined, note, avant: { profession: a, etat_matrimonial: pers.etat_matrimonial || '' } });
     }

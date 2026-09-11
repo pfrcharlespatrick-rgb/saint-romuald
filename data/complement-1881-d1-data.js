@@ -234,9 +234,11 @@ window.COMPLEMENT_1881_D1 = {
     12: {
       lignes: 25, ecole: [5, 6, 7, 18, 19, 20],
       ne12: { 13: 'Décembre' },
-      incertain: {
-        11: "Âge : le manuscrit se lit « 6 », le dépouillement porte 40. Un seul chiffre est visible — à revoir sur l'original."
-      }
+      /* TRANCHÉ à la passe de la colonne 14-15 : l'âge est bien 6.
+         La colonne 9 porte un seul chiffre entre le 38 du père et le 5 de Joseph,
+         la colonne 15 porte « Ve. » sur le père et un tiret sur cette ligne, et la
+         colonne 16 y marque une écolière. Marie est sa fille, non son épouse ;
+         la mère est morte à la naissance de Virginie, en décembre. */
     },
 
     /* Maison 45 : la famille Coran est irlandaise (Patrick Coran, forgeron,
