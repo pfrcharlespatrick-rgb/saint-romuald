@@ -554,7 +554,7 @@
     "incertain": false
    },
    "1881-D2-P004-L12": {
-    "prenom": "Georges Amédée "
+    "prenom": "Georges Amédée"
    },
    "1881-D2-P004-L13": {
     "profession": "Menuisier"
@@ -777,7 +777,7 @@
    },
    "1881-D2-P009-L03": {
     "nom": "Cantin",
-    "prenom": "Étienne "
+    "prenom": "Étienne"
    },
    "1881-D2-P009-L12": {
     "prenom": "Célémire",
@@ -857,17 +857,17 @@
     "sait_ecrire": true
    },
    "1871-D2-P002-L17": {
-    "nom": "Veer ",
+    "nom": "Veer",
     "incertain": false,
     "lieu_naissance": "Québec",
-    "origine": "Irlandaise ",
+    "origine": "Irlandaise",
     "sait_lire": false,
     "sait_ecrire": false,
     "ecole": false
    },
    "1871-D2-P002-L18": {
     "incertain": false,
-    "lieu_naissance": " Québec",
+    "lieu_naissance": "Québec",
     "origine": "Française"
    },
    "1871-D2-P002-L20": {
@@ -952,10 +952,10 @@
    },
    "1871-D2-P003-L11": {
     "incertain": false,
-    "age": "41 "
+    "age": "41"
    },
    "1871-D2-P004-L01": {
-    "age": "23 ",
+    "age": "23",
     "incertain": false
    },
    "1871-D2-P003-L18": {
@@ -965,7 +965,7 @@
     "incertain": false
    },
    "1871-D2-P004-L06": {
-    "prenom": "Alvine ",
+    "prenom": "Alvine",
     "incertain": false
    },
    "1871-D2-P004-L12": {
@@ -973,13 +973,13 @@
     "incertain": false
    },
    "1871-D2-P004-L08": {
-    "age": "27 ",
+    "age": "27",
     "incertain": false,
     "sait_lire": true,
     "sait_ecrire": true
    },
    "1871-D2-P004-L07": {
-    "age": "28 ",
+    "age": "28",
     "incertain": false,
     "sait_lire": false,
     "sait_ecrire": false
@@ -990,7 +990,7 @@
    },
    "1871-D2-P004-L14": {
     "nom": "Curodo",
-    "prenom": "Adée ",
+    "prenom": "Adée",
     "incertain": false,
     "sait_lire": true
    },
@@ -1004,7 +1004,7 @@
    },
    "1871-D2-P005-L03": {
     "nom": "Curodo",
-    "age": "35 ",
+    "age": "35",
     "incertain": false,
     "sait_ecrire": true,
     "sait_lire": true
@@ -1030,23 +1030,23 @@
     "incertain": false
    },
    "1871-D2-P005-L13": {
-    "prenom": "Omérine ",
+    "prenom": "Omérine",
     "incertain": false
    },
    "1871-D2-P005-L14": {
-    "age": "52 ",
+    "age": "52",
     "incertain": false,
-    "religion": "Catholique "
+    "religion": "Catholique"
    },
    "1871-D2-P005-L20": {
-    "age": "12 ",
+    "age": "12",
     "incertain": false,
-    "religion": "Catholique "
+    "religion": "Catholique"
    },
    "1871-D2-P005-L15": {
     "age": "45",
     "incertain": false,
-    "religion": "Catholique "
+    "religion": "Catholique"
    },
    "1871-D2-P006-L06": {
     "nom": "Alice",
@@ -1056,13 +1056,13 @@
     "sait_lire": true
    },
    "1871-D2-P006-L07": {
-    "nom": "Bruneau ",
+    "nom": "Bruneau",
     "prenom": "Bibiane",
     "age": "76",
     "incertain": false
    },
    "1871-D2-P006-L19": {
-    "age": "75 ",
+    "age": "75",
     "etat_matrimonial": "V",
     "incertain": false
    },
@@ -1078,13 +1078,13 @@
     "sait_lire": true
    },
    "1871-D2-P006-L20": {
-    "age": "43 ",
+    "age": "43",
     "incertain": false,
     "sait_lire": false,
     "sait_ecrire": false
    },
    "1871-D2-P007-L03": {
-    "prenom": "Esther ",
+    "prenom": "Esther",
     "incertain": false,
     "sait_lire": true,
     "sait_ecrire": true
@@ -1112,7 +1112,7 @@
     "sait_lire": true
    },
    "1871-D2-P008-L02": {
-    "prenom": "Benjamin ",
+    "prenom": "Benjamin",
     "incertain": false
    },
    "1871-D2-P007-L20": {
@@ -1128,57 +1128,57 @@
     "ne_douze_mois": "février"
    },
    "1871-D2-P008-L05": {
-    "prenom": "Eléonore ",
+    "prenom": "Eléonore",
     "incertain": false,
     "sait_lire": false,
     "sait_ecrire": false
    },
    "1871-D2-P008-L10": {
-    "age": "13 ",
+    "age": "13",
     "incertain": false
    },
    "1871-D2-P008-L11": {
-    "age": "22 ",
+    "age": "22",
     "incertain": false,
     "sait_lire": true,
     "sait_ecrire": true
    },
    "1871-D2-P008-L15": {
-    "age": "8 ",
+    "age": "8",
     "incertain": false
    },
    "1871-D2-P008-L17": {
-    "age": "60 ",
+    "age": "60",
     "incertain": false
    },
    "1871-D2-P009-L04": {
-    "prenom": "Octave ",
-    "nom": "Demers ",
+    "prenom": "Octave",
+    "nom": "Demers",
     "incertain": false
    },
    "1871-D2-P009-L07": {
-    "prenom": "Vital ",
+    "prenom": "Vital",
     "incertain": false
    },
    "1871-D2-P009-L11": {
-    "prenom": "Bérénice ",
+    "prenom": "Bérénice",
     "incertain": false
    },
    "1871-D2-P009-L09": {
-    "age": "4 ",
+    "age": "4",
     "incertain": false
    },
    "1871-D2-P009-L05": {
-    "age": "46 ",
+    "age": "46",
     "incertain": false,
     "etat_matrimonial": "M"
    },
    "1871-D2-P009-L18": {
-    "age": "22 ",
+    "age": "22",
     "incertain": false
    },
    "1871-D2-P009-L20": {
-    "age": "24 ",
+    "age": "24",
     "incertain": false,
     "profession": "Batelier",
     "sait_lire": false,
@@ -1199,19 +1199,19 @@
    "1871-D2-P010-L18": {
     "age": "7/12",
     "incertain": false,
-    "religion": "E. d'Ecosse ",
+    "religion": "E. d'Ecosse",
     "origine": "Anglaise",
     "ne_douze_mois": "Juillet"
    },
    "1871-D2-P010-L16": {
     "incertain": false,
-    "religion": "E. d'Ecosse ",
+    "religion": "E. d'Ecosse",
     "origine": "Ecossais"
    },
    "1871-D2-P010-L17": {
     "incertain": false,
-    "lieu_naissance": "Q ",
-    "religion": "E. d'Ecosse "
+    "lieu_naissance": "Q",
+    "religion": "E. d'Ecosse"
    },
    "1871-D2-P010-L19": {
     "incertain": false,
@@ -1231,7 +1231,7 @@
     "incertain": false
    },
    "1871-D2-P011-L20": {
-    "nom": "Lavertu ",
+    "nom": "Lavertu",
     "incertain": false
    },
    "1871-D2-P011-L10": {
@@ -1249,20 +1249,20 @@
     "ne_douze_mois": "Août"
    },
    "1871-D2-P012-L12": {
-    "prenom": "Vitaline ",
-    "age": "22 ",
+    "prenom": "Vitaline",
+    "age": "22",
     "incertain": false
    },
    "1871-D2-P012-L11": {
-    "age": "18 ",
+    "age": "18",
     "incertain": false
    },
    "1871-D2-P012-L10": {
-    "age": "59 ",
+    "age": "59",
     "incertain": false
    },
    "1871-D2-P012-L09": {
-    "age": "56 ",
+    "age": "56",
     "incertain": false
    },
    "1871-D2-P012-L13": {
@@ -1272,22 +1272,22 @@
     "sait_ecrire": false
    },
    "1871-D2-P012-L20": {
-    "age": "25 ",
+    "age": "25",
     "incertain": false
    },
    "1871-D2-P012-L17": {
     "incertain": false,
-    "prenom": "Félicité "
+    "prenom": "Félicité"
    },
    "1871-D2-P013-L08": {
-    "prenom": "Julien ",
+    "prenom": "Julien",
     "incertain": false,
     "lieu_naissance": "Q.",
     "ecole": false
    },
    "1871-D2-P013-L12": {
-    "prenom": "Théatis ",
-    "age": "54 ",
+    "prenom": "Théatis",
+    "age": "54",
     "incertain": false,
     "sait_lire": true
    },
@@ -1303,7 +1303,7 @@
     "ne_douze_mois": "Mai"
    },
    "1871-D2-P013-L11": {
-    "age": "59 ",
+    "age": "59",
     "incertain": false
    },
    "1871-D2-P013-L10": {
@@ -1311,20 +1311,20 @@
     "incertain": false
    },
    "1871-D2-P013-L09": {
-    "age": "81 ",
+    "age": "81",
     "incertain": false
    },
    "1871-D2-P014-L06": {
     "prenom": "Belsimir"
    },
    "1871-D2-P014-L07": {
-    "nom": "Sleeth ",
+    "nom": "Sleeth",
     "age": "60",
     "incertain": false,
     "origine": "Ecossaise"
    },
    "1871-D2-P014-L08": {
-    "nom": "Sleeth ",
+    "nom": "Sleeth",
     "incertain": false,
     "origine": "Irlandaise"
    },
@@ -1337,7 +1337,7 @@
     "incertain": false
    },
    "1871-D2-P014-L11": {
-    "nom": "Sleeth ",
+    "nom": "Sleeth",
     "incertain": false
    },
    "1871-D2-P014-L12": {
@@ -1353,16 +1353,16 @@
     "incertain": false
    },
    "1871-D2-P014-L15": {
-    "nom": "Sleeth ",
+    "nom": "Sleeth",
     "incertain": false
    },
    "1871-D2-P014-L16": {
-    "nom": "Sleeth ",
+    "nom": "Sleeth",
     "incertain": false,
     "ecole": true
    },
    "1871-D2-P014-L18": {
-    "age": "52 ",
+    "age": "52",
     "incertain": false,
     "origine": "Française",
     "sait_lire": false,
@@ -1374,7 +1374,7 @@
     "ne_douze_mois": "Janvier"
    },
    "1871-D2-P015-L13": {
-    "age": "25 ",
+    "age": "25",
     "incertain": false,
     "sait_lire": false,
     "sait_ecrire": false
@@ -1383,7 +1383,7 @@
     "prenom": "Agathe"
    },
    "1871-D2-P015-L04": {
-    "age": "36 ",
+    "age": "36",
     "incertain": false
    },
    "1871-D2-P015-L09": {
@@ -1395,11 +1395,11 @@
     "incertain": false
    },
    "1871-D2-P016-L03": {
-    "prenom": "Aurélie ",
+    "prenom": "Aurélie",
     "incertain": false
    },
    "1871-D2-P016-L04": {
-    "age": "2 ",
+    "age": "2",
     "incertain": false
    },
    "1871-D2-P016-L07": {
@@ -1419,7 +1419,7 @@
     "ne_douze_mois": "Novembre"
    },
    "1871-D2-P016-L17": {
-    "prenom": "Clarisse ",
+    "prenom": "Clarisse",
     "incertain": false
    },
    "1871-D2-P016-L08": {
@@ -1429,27 +1429,27 @@
     "incertain": false
    },
    "1871-D2-P017-L03": {
-    "age": "2 ",
+    "age": "2",
     "incertain": false
    },
    "1871-D2-P017-L05": {
-    "prenom": "Victoire ",
+    "prenom": "Victoire",
     "incertain": false
    },
    "1871-D2-P017-L08": {
-    "age": "37 ",
+    "age": "37",
     "prenom": "Selvie",
     "incertain": false
    },
    "1871-D2-P017-L10": {
-    "age": "15 ",
+    "age": "15",
     "incertain": false
    },
    "1871-D2-P017-L07": {
     "incertain": false
    },
    "1871-D2-P018-L05": {
-    "prenom": "Virginia ",
+    "prenom": "Virginia",
     "incertain": false
    },
    "1871-D2-P017-L17": {
@@ -1483,37 +1483,37 @@
     "ne_douze_mois": "Juillet"
    },
    "1871-D2-P020-L01": {
-    "nom": "Peltier ",
+    "nom": "Peltier",
     "incertain": false
    },
    "1871-D2-P020-L07": {
-    "prenom": "Nil ",
+    "prenom": "Nil",
     "incertain": false,
-    "nom": "Peltier "
+    "nom": "Peltier"
    },
    "1871-D2-P020-L02": {
     "incertain": false,
-    "nom": "Peltier "
+    "nom": "Peltier"
    },
    "1871-D2-P020-L03": {
     "incertain": false,
-    "nom": "Peltier "
+    "nom": "Peltier"
    },
    "1871-D2-P020-L04": {
     "incertain": false,
-    "nom": "Peltier "
+    "nom": "Peltier"
    },
    "1871-D2-P020-L05": {
     "incertain": false,
-    "nom": "Peltier "
+    "nom": "Peltier"
    },
    "1871-D2-P020-L06": {
     "incertain": false,
-    "nom": "Peltier "
+    "nom": "Peltier"
    },
    "1871-D2-P020-L08": {
     "incertain": false,
-    "nom": "Peltier "
+    "nom": "Peltier"
    },
    "1871-D2-P001-L02": {
     "sexe": "F",
@@ -1722,44 +1722,44 @@
    },
    "1871-D2-P005-L16": {
     "incertain": false,
-    "religion": "Catholique "
+    "religion": "Catholique"
    },
    "1871-D2-P005-L17": {
     "incertain": false,
-    "religion": "Catholique "
+    "religion": "Catholique"
    },
    "1871-D2-P005-L18": {
     "incertain": false,
-    "religion": "Catholique "
+    "religion": "Catholique"
    },
    "1871-D2-P005-L19": {
     "incertain": false,
-    "religion": "Catholique "
+    "religion": "Catholique"
    },
    "1871-D2-P006-L01": {
     "incertain": false,
-    "religion": "Catholique "
+    "religion": "Catholique"
    },
    "1871-D2-P006-L02": {
     "incertain": false,
-    "religion": "Catholique ",
+    "religion": "Catholique",
     "ecole": false
    },
    "1871-D2-P006-L03": {
     "incertain": false,
-    "religion": "Catholique "
+    "religion": "Catholique"
    },
    "1871-D2-P006-L04": {
     "incertain": false,
-    "religion": "Catholique "
+    "religion": "Catholique"
    },
    "1871-D2-P006-L05": {
     "incertain": false,
-    "religion": "Catholique "
+    "religion": "Catholique"
    },
    "1871-D2-P006-L08": {
     "incertain": false,
-    "religion": "Catholique "
+    "religion": "Catholique"
    },
    "1891-D1-P132-L01": {
     "prenom": "Abraham"
@@ -1919,6 +1919,34 @@
    },
    "1871-D2-P019-L07": {
     "age": "25"
+   },
+   "1871-D2-P020-L09": {
+    "age": "54"
+   },
+   "1871-D2-P020-L10": {
+    "age": "51"
+   },
+   "1871-D2-P020-L12": {
+    "age": "17",
+    "profession": "Navigateur"
+   },
+   "1871-D2-P020-L14": {
+    "age": "13",
+    "prenom": "Eusèbe",
+    "sexe": "M"
+   },
+   "1871-D2-P020-L17": {
+    "age": "19"
+   },
+   "1871-D2-P020-L18": {
+    "sexe": "F",
+    "prenom": "Eugénie"
+   },
+   "1871-D2-P020-L11": {
+    "profession": "Navigateur"
+   },
+   "1871-D2-P020-L13": {
+    "ecole": true
    }
   },
   "suivi-corr-maison": {

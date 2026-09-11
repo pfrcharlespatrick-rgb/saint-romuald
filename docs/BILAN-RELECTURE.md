@@ -297,14 +297,37 @@ jamais : un enfant porté marié, un nourrisson illettré, un âge absent, une f
 famille ouverte trop tôt. Il existe parce qu'une **chaîne de vingt caractères décalée
 d'un rang reste une chaîne valide** — rien, dans le fichier, ne dit qu'elle est fausse.
 
+Il exploite aussi le seul recoupement gratuit du formulaire : le recensement est
+arrêté au **2 avril 1871**, donc un nourrisson de m douzièmes est né m mois plus tôt
+et la colonne 10 doit nommer ce mois-là. **Les colonnes 9 et 10 se contrôlent l'une
+l'autre.** Ce recoupement a rendu son âge à **vingt nourrissons** — le dépouillement
+leur mettait « 7 mois » à tous, valeur par défaut jamais lue, et la relecture avait
+repris le mois sans toujours reprendre la fraction.
+
 Passé sur les 113 pages relues, il a rendu **neuf chaînes de colonne 15 à leur rang**
 (toutes en bas de page, où le déphasage des prises de vue s'accumule), **replacé huit
 personnes** décrochées de leur maisonnée, rendu son âge à **Frédéric Gagné** (44 ans,
 non 13 : le dépouillement lui avait donné celui de son fils) et **vidé les derniers
-crochets** des pages relues. Il reste quinze signalements sur 2 242 personnes, tous
-vérifiés au manuscrit et tous légitimes — dont huit veuves inscrites sous leur nom de
-fille, ce que l'outil ne peut pas distinguer d'une erreur et que l'œil tranche en un
-instant.
+crochets** des pages relues. Il reste trente et un signalements sur 2 242 personnes,
+tous vérifiés au manuscrit et tous légitimes — huit veuves inscrites sous leur nom de
+fille, que l'outil ne peut pas distinguer d'une erreur ; et dix-huit fractions qui ne
+s'accordent pas au mois, où c'est le recenseur qui se contredit, ou bien une valeur de
+la main de Patrick que la règle protège.
+
+### Ce que le téléphone a rendu
+
+Une sauvegarde d'atelier restée de côté — huit corrections de la main de Patrick sur
+la page 20 de la division 2 — a été fondue au passage. **Elle avait raison sur les
+quatre points où elle différait du fichier** : Louis Roberge a 17 ans et non 8, Lucie
+en a 19 et non 14, et la colonne 14 reprend « Navigateur » au guillemet pour Joseph et
+Louis. Ces deux âges-là venaient du dépouillement et n'avaient jamais été confrontés
+au manuscrit — c'est ce qui a déclenché la passe sur les quatre cents âges des
+pages 16 à 35, dont treize pages concordent à la ligne près.
+
+Au passage, **quatre-vingt-dix-huit valeurs portaient un espace de trop** — « Veer »,
+« Québec », « Peltier  » —, venues du clavier de l'atelier. Invisibles à l'œil, elles
+cassaient les recherches exactes et les regroupements. Rognées sur les cinq
+recensements ; il n'en reste aucune.
 
 ### Un rappel qui vaut toujours
 

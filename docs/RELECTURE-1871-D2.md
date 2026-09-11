@@ -252,3 +252,62 @@ notés ici pour qu'il tranche s'il le souhaite :
 - **Les huit veuves qui mènent leur ménage sous leur nom de fille**, avec des enfants
   au nom du père : Angélique Roberge chez les Fréchette (p. 31), et sept autres en
   division 1. L'usage québécois, pas une frontière de famille mal placée.
+
+## Les âges, confrontés ligne à ligne — et le contrôle qui les a débusqués
+
+La relecture des pages 16 à 35 n'avait repris que les âges **entre crochets ou
+laissés vides**. Les âges ordinaires du dépouillement, eux, n'avaient été
+confrontés à rien.
+
+**C'est Patrick qui l'a montré, depuis son téléphone.** Une sauvegarde d'atelier
+restée de côté portait huit corrections sur la page 20 ; deux touchaient des âges
+que personne n'avait vérifiés — Louis Roberge donné pour 8 ans quand le manuscrit
+en porte 17, Lucie donnée pour 14 quand il en porte 19. Il avait raison sur les
+quatre points où sa main et le fichier différaient, colonne 14 comprise : le
+guillemet de « Navigateur » pour Joseph et Louis.
+
+Les vingt pages ont donc été reprises, âge par âge, les quatre cents lignes. **Les
+pages 17, 19, 21, 22, 23, 24, 26, 27, 28, 29, 30, 32 et 34 concordent à la ligne
+près.** Ce qui ne concordait pas :
+
+| Page | Ligne | Qui | Le fichier | Le manuscrit |
+|---|---|---|---|---|
+| 16 | 16 | Elzire Roberge | 11/12 | **5/12** — la main de Patrick, non touchée |
+| 18 | 5 | Virgina | 11 | pâté d'encre : 10 ou 11, marqué douteux |
+| 25 | 3 | Joseph Savard | 3/12 | **8/12** |
+| 31 | 6 | Malvina Huard | 4/12 | **1/12** |
+| 31 | 10 | Louis Fréchette | 13 | **18** |
+| 33 | 4 | Délina Bilodeau | 4/12 | **7/12** |
+| 33 | 16 | Florida Huard | 4/12 | **1/12** |
+| 35 | 9 | George Bilodeau | 7/12 | **11/12** |
+
+### Le recoupement qui rend tout cela mécanique
+
+Le recensement est arrêté au **2 avril 1871**. Un nourrisson de m douzièmes est né
+m mois plus tôt, et la colonne 10 nomme ce mois. **Les deux cases se contrôlent
+l'une l'autre** — c'est le seul endroit du formulaire où le recenseur écrit deux
+fois la même chose, et cela ne coûte rien à vérifier.
+
+`controle71.mjs` le fait désormais, sur les deux divisions. Il a sorti trente et
+un désaccords. Douze étaient des lectures à reprendre, et toutes se sont
+confirmées au manuscrit : un 8 pris pour un 3, un 11 pour un 7, un 1 pour un 4.
+**Les autres sont l'arithmétique du recenseur lui-même** — il écrit « 7/12 » et
+« Juillet » sur la même ligne, ce qui ferait neuf mois. Rendues telles quelles.
+
+### Ce qui reste à la main de Patrick
+
+Sept lignes où la relecture propose autre chose et passe son chemin, comme le veut
+la règle. Elles sont listées ici pour qu'il tranche s'il le souhaite :
+
+| | Sa main | Le manuscrit |
+|---|---|---|
+| p. 6 L17 Napoléon St-Hilaire | 5/12, Mai | 11/12 s'accorderait avec Mai |
+| p. 10 L18 John Henderson | Juillet | « S. » — septembre, qui s'accorde avec 7/12 |
+| p. 13 L17 Rosalie Boucher | Mai | « O. » — octobre, qui s'accorde avec 5/12 |
+| p. 15 L9 Elmire Lambert | Mars | « Jan. » — janvier, qui s'accorde avec 3/12 |
+| p. 15 L19 Florida Roberge | Janvier | « Ju. » — juin, qui s'accorde avec 10/12 |
+| p. 16 L16 Elzire Roberge | 11/12 | 5/12, qui s'accorde avec « N. » |
+| p. 19 L20 Ernest Hardy | Juillet | « Aot. » — août |
+
+Plus les deux déjà signalées plus haut : le « Juin » de la colonne 10 des Vachon
+(p. 18) et le « Mai » de Rosalie Boucher (p. 13 L17).

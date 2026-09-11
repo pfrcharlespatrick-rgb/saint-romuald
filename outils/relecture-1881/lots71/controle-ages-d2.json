@@ -1,0 +1,34 @@
+{
+  "division": 2,
+  "pages": {
+    "10": { "ligne": { "18": { "ne_douze_mois": "Septembre", "_inc": false,
+      "_note": "la colonne 10 porte « S. » pour septembre, ce qui s'accorde avec les 7/12 de la colonne 9 ; le fichier portait « Juillet »" } } },
+    "11": { "ligne": { "17": { "age": "8/12", "_inc": false,
+      "_note": "la colonne 9 porte la fraction 8/12, non 3/12 : août est à huit mois du 2 avril 1871, et la colonne 10 porte « Août »" } } },
+    "15": { "ligne": {
+      "9":  { "ne_douze_mois": "Janvier", "_inc": false,
+              "_note": "la colonne 10 porte « Jan. », ce qui s'accorde avec les 3/12 de la colonne 9 ; le fichier portait « Mars »" },
+      "19": { "ne_douze_mois": "Juin", "_inc": false,
+              "_note": "la colonne 10 porte « Ju. » pour juin, ce qui s'accorde avec les 10/12 de la colonne 9 ; le fichier portait « Janvier »" } } },
+    "16": { "ligne": { "16": { "age": "5/12", "_inc": false,
+      "_note": "la colonne 9 porte la fraction 5/12, non 11/12 : novembre est à cinq mois du 2 avril 1871, et la colonne 10 porte « N. »" } } },
+    "19": { "ligne": { "20": { "ne_douze_mois": "Août", "_inc": false,
+      "_note": "la colonne 10 porte « Aot. » pour août ; le fichier portait « Juillet »" } } },
+    "25": { "ligne": { "3": { "age": "8/12", "_inc": false,
+      "_note": "la colonne 9 porte la fraction 8/12, non 3/12 : la colonne 10 porte « Aot. », et août est à huit mois du 2 avril 1871" } } },
+    "31": { "ligne": {
+      "6":  { "age": "1/12", "_inc": false,
+              "_note": "la colonne 9 porte la fraction 1/12, non 4/12 : la colonne 10 porte « Mrs. » pour mars, à un mois du 2 avril 1871" },
+      "10": { "age": "18", "_inc": false,
+              "_note": "l'âge se lit 18 — c'est ce que portait le dépouillement, « 18 [?] », avant d'être ramené à 13. Il s'intercale entre Anthime, 19 ans, et Joseph, 15" } } },
+    "33": { "ligne": {
+      "4":  { "age": "7/12", "_inc": false,
+              "_note": "la colonne 9 porte la fraction 7/12, non 4/12 ; la colonne 10 porte « Aot. »" },
+      "16": { "age": "1/12", "_inc": false,
+              "_note": "la colonne 9 porte la fraction 1/12, non 4/12 ; la colonne 10 porte « Mrs. » pour mars" } } },
+    "35": { "ligne": { "9": { "age": "11/12", "_inc": false,
+      "_note": "la colonne 9 porte la fraction 11/12, non 7/12 : mai est à onze mois du 2 avril 1871, et la colonne 10 porte « Mi. »" } } },
+    "18": { "ligne": { "5": { "_inc": true,
+      "_note": "l'âge de Virgina est raturé d'un pâté d'encre : 10 ou 11, le manuscrit ne tranche pas. Le 11 du dépouillement est conservé" } } }
+  }
+}

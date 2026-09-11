@@ -106,6 +106,27 @@ bloc('enfant présumé porté marié ou veuf', gens.filter((p) => relu(p) && p.r
 bloc('âge absent', sur((p) => nombre(p.age) === null));
 bloc('mois de naissance porté alors que l\'âge dépasse un an — la colonne 10 ne vise que les nourrissons',
   sur((p) => p.ne_douze_mois && nombre(p.age) >= 1));
+// Le recensement est arrêté au **2 avril 1871**. Un nourrisson de m douzièmes
+// est donc né m mois plus tôt, et la colonne 10 doit nommer ce mois-là. Les deux
+// cases se contrôlent l'une l'autre, gratuitement : c'est le seul endroit du
+// formulaire où le recenseur écrit deux fois la même chose. Un écart de plus
+// d'un mois est une lecture à reprendre — la fraction, le mois, ou les deux.
+const MOIS = { janvier: 1, février: 2, fevrier: 2, mars: 3, avril: 4, mai: 5, juin: 6,
+  juillet: 7, août: 8, aout: 8, septembre: 9, octobre: 10, novembre: 11, décembre: 12, decembre: 12 };
+const attendu = (m) => ((4 - m - 1 + 12) % 12) + 1;   // m douzièmes avant avril
+bloc('fraction et mois de naissance qui ne s\'accordent pas', gens.filter((p) => {
+  if (!relu(p) || !p.ne_douze_mois) return false;
+  const m = nombre(p.age);
+  if (m === null || m <= 0 || m >= 1) return false;
+  const douziemes = Math.round(m * 12);
+  const dit = MOIS[String(p.ne_douze_mois).trim().toLowerCase()];
+  if (!dit) return false;
+  const cible = attendu(douziemes);
+  const ecart = Math.min(Math.abs(dit - cible), 12 - Math.abs(dit - cible));
+  return ecart > 1;
+}).map((p) => dit(p, `${Math.round(nombre(p.age) * 12)}/12 appelle ${
+  Object.keys(MOIS).find((k) => MOIS[k] === attendu(Math.round(nombre(p.age) * 12)))}, la colonne 10 porte « ${p.ne_douze_mois} »`)));
+
 bloc("âge en fraction de douze sans mois de naissance",
   sur((p) => !p.ne_douze_mois && nombre(p.age) !== null && nombre(p.age) > 0 && nombre(p.age) < 1));
 bloc('marié dans les douze mois sans état matrimonial',

@@ -1,0 +1,106 @@
+{
+  "division": 1,
+  "pages": {
+    "4": {
+      "ligne": {
+        "13": {
+          "age": "1 mois",
+          "_inc": false,
+          "_note": "la colonne 9 porte la fraction 1/12 et la colonne 10 « Mrs. » pour mars, à un mois du 2 avril 1871 ; le dépouillement portait « 7 mois », sa valeur par défaut"
+        }
+      }
+    },
+    "7": {
+      "ligne": {
+        "1": {
+          "age": "8 mois",
+          "_inc": false,
+          "_note": "la colonne 9 porte la fraction 8/12 et la colonne 10 « Aot. » ; le fichier portait « 3 mois »"
+        }
+      }
+    },
+    "15": {
+      "ligne": {
+        "17": {
+          "age": "7 mois",
+          "_inc": false,
+          "_note": "la colonne 9 porte la fraction 7/12 ; le fichier portait « 2 mois ». Le « Jull. » de la colonne 10 appellerait neuf mois : l'écart est du recenseur"
+        }
+      }
+    },
+    "18": {
+      "ligne": {
+        "7": {
+          "age": "2 mois",
+          "_inc": false,
+          "_note": "la colonne 9 porte la fraction 2/12 ; le fichier portait « 4 mois »"
+        }
+      }
+    },
+    "22": {
+      "ligne": {
+        "13": {
+          "age": "8 mois",
+          "_inc": false,
+          "_note": "la colonne 9 porte la fraction 8/12 et la colonne 10 « S. » ; le fichier portait « 3 mois »"
+        }
+      }
+    },
+    "29": {
+      "ligne": {
+        "10": {
+          "age": "1 mois",
+          "_inc": false,
+          "_note": "la colonne 9 porte la fraction 1/12 et la colonne 10 « Mrs. » pour mars ; le fichier portait « 4 mois »"
+        }
+      }
+    },
+    "32": {
+      "ligne": {
+        "17": {
+          "age": "1 mois",
+          "_inc": false,
+          "_note": "la colonne 9 porte la fraction 1/12 et la colonne 10 « Mrs. » pour mars ; le fichier portait « 4 mois »"
+        }
+      }
+    },
+    "35": {
+      "ligne": {
+        "18": {
+          "age": "7 mois",
+          "_inc": false,
+          "_note": "la colonne 9 porte la fraction 7/12 ; le fichier portait « 2 mois »"
+        }
+      }
+    },
+    "39": {
+      "ligne": {
+        "4": {
+          "age": "7 mois",
+          "_inc": false,
+          "_note": "la colonne 9 porte la fraction 7/12 et la colonne 10 « O. » pour octobre ; le fichier portait « 2 mois »"
+        }
+      }
+    },
+    "37": {
+      "ligne": {
+        "12": {
+          "age": "1 mois",
+          "ne_douze_mois": "Mars",
+          "_inc": false,
+          "_note": "la colonne 9 porte la fraction 1/12 et la colonne 10 « Mrs. » pour mars ; le fichier portait « 2 mois » et « Novembre »"
+        }
+      }
+    },
+    "38": {
+      "ligne": {
+        "20": {
+          "age": "1 mois",
+          "ne_douze_mois": "Mars",
+          "_inc": false,
+          "_note": "la colonne 9 porte la fraction 1/12 et la colonne 10 « Mrs. » pour mars ; le fichier portait « 2 mois » et « Mai »"
+        }
+      }
+    }
+  }
+}

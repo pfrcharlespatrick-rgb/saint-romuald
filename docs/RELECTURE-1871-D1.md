@@ -292,14 +292,46 @@ inscrites sous leur nom de fille**, avec des enfants au nom du père — Julie P
 les Roberge, Angélique Boutin chez les Topping, Ann Manahan chez les Lemoine. L'usage
 québécois. L'outil montre ; il ne tranche pas.
 
+### Onze nourrissons rendus à leur âge
+
+Le recensement est arrêté au **2 avril 1871**. Un nourrisson de m douzièmes est né
+m mois plus tôt, et la colonne 10 nomme ce mois : **les deux cases se contrôlent
+l'une l'autre**, gratuitement. C'est le seul endroit du formulaire où le recenseur
+écrit deux fois la même chose.
+
+Le contrôle l'exploite désormais, et il a trouvé ce que la relecture avait laissé
+passer : **le dépouillement mettait « 7 mois » à tous les nourrissons**, valeur par
+défaut jamais lue, et la relecture avait bien rendu le mois de la colonne 10 sans
+toujours reprendre la fraction de la colonne 9.
+
+| Page | Ligne | Qui | Le fichier | Le manuscrit |
+|---|---|---|---|---|
+| 4 | 13 | Alphonse Lambert | 7 mois | **1 mois**, « Mrs. » |
+| 7 | 1 | Georgiana Ouellet | 3 mois | **8 mois**, « Aot. » |
+| 15 | 17 | Joseph Gendreau | 2 mois | **7 mois** |
+| 18 | 7 | Aurélie Nolin | 4 mois | **2 mois** |
+| 22 | 13 | Elise Fortin | 3 mois | **8 mois**, « S. » |
+| 29 | 10 | Napoléon Ofarrell | 4 mois | **1 mois**, « Mrs. » |
+| 32 | 17 | Bénoni Faucher | 4 mois | **1 mois**, « Mrs. » |
+| 35 | 18 | George Rouleau | 2 mois | **7 mois** |
+| 37 | 12 | Joseph Boivin | 2 mois, Novembre | **1 mois, Mars** |
+| 38 | 20 | Caroline Couture | 2 mois, Mai | **1 mois, Mars** |
+| 39 | 4 | J. Baptiste Gosselin | 2 mois | **7 mois**, « O. » |
+
+**Les désaccords qui subsistent sont ceux du recenseur lui-même** — il écrit
+« 7/12 » et « Juillet » sur la même ligne, ce qui ferait neuf mois ; « 2/12 » et
+« Novembre », ce qui en ferait cinq. Vérifiés au manuscrit un à un, et rendus tels
+qu'il les a laissés.
+
 ### Ce qui reste signalé, et pourquoi
 
-Quinze signalements survivent sur les 2 242 personnes relues, tous vérifiés au
-manuscrit et tous légitimes : quatorze personnes qui savent lire sans savoir écrire —
-la colonne 19 se coche parfois sans la 18 —, deux nourrissons dont le recenseur a
-oublié le mois (pages 29 et 45), deux fils mariés vivant chez leurs parents, et les
-huit veuves ci-dessus. **Aucun mineur porté illettré, aucun enfant porté marié, aucun
-âge absent, aucune valeur entre crochets.**
+Trente et un signalements survivent sur les 2 242 personnes relues, tous vérifiés au
+manuscrit et tous légitimes : dix-huit fractions qui ne s'accordent pas au mois — le
+recenseur se contredisant lui-même, ou une valeur de la main de Patrick que la règle
+protège —, deux nourrissons dont il a oublié le mois (pages 29 et 45), deux fils
+mariés vivant chez leurs parents, un mariage des douze mois sans état matrimonial,
+et les huit veuves ci-dessus. **Aucun mineur porté illettré, aucun enfant porté
+marié, aucun âge absent, aucune valeur entre crochets.**
 
 ## Et la division 2
 
