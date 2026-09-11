@@ -1,0 +1,40 @@
+{
+  "division": 1,
+  "colonne": "14 — profession, occupation ou métier ; 15 — marié ou en veuvage",
+  "pages": {
+    "73": {
+      "prof": { "2": "Journalier", "3": "Journalier", "5": "Journalier", "11": "Architecte",
+                "19": "Journalier", "21": "Journalier", "25": "Mécanicien" },
+      "etat": "M---MM----MM------MM----M"
+    },
+    "74": {
+      "prof": { "3": "Journalier", "4": "Journalier", "7": "Journalier", "11": "Journalier",
+                "13": "Journalier", "16": "Journalier", "17": "Laboureur", "23": "Journalier" },
+      "etat": "MV----MM--MM----MMV---MM-",
+      "vider": [21],
+      "notes": { "21": "profession lue « Domestique » au dépouillement ; le manuscrit porte un tiret, comme aux lignes 20 et 22" }
+    },
+    "75": {
+      "prof": { "4": "Mécanicien", "12": "Polisseur", "16": "Mécanicien", "22": "Journalier" },
+      "etat": "--VMM------V---MM----MM--",
+      "notes": { "12": "profession lue « Poêlier » au dépouillement ; le manuscrit porte « Polisseur », écrit en toutes lettres" }
+    },
+    "76": {
+      "prof": { "2": "Journalier", "5": "Journalier", "6": "Journalier", "13": "Journalier",
+                "15": "Journalier", "19": "Couturière", "20": "Journalier", "21": "Couturière",
+                "22": "Journalier", "23": "Couturière", "24": "Couturière" },
+      "etat": "-MM-------V---MM---------"
+    },
+    "77": {
+      "prof": { "1": "Journalier", "3": "Journalier", "4": "Journalier", "11": "Charretier",
+                "16": "Journalier", "22": "Journalier", "24": "Journalier" },
+      "etat": "MM--------MM---MM----MMMM"
+    },
+    "78": {
+      "prof": { "1": "Journalier", "6": "Journalier", "10": "Cultivateur", "11": "Journalier",
+                "18": "Journalier", "20": "Journalier", "21": "Mécanicien", "23": "Journalier",
+                "25": "Journalier" },
+      "etat": "-----MM--V-------MM-MMMMM"
+    }
+  }
+}

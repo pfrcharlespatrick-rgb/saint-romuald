@@ -371,3 +371,53 @@ porte pas un métier, elle porte le constat de bureau que la profession n'a pas
 été déclarée. Les deux cases sont vidées, les deux lignes marquées incertaines.
 
 Quatre « Ve. » relevés sans être écrits : p67 L12, p70 L5, p72 L10 et L11.
+
+## Lot pages 73-78 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-073-078.json`
+
+Deux écritures : **p74 L21**, Maher Mary, dont le « Domestique » n'est pas au
+manuscrit — la case porte un tiret, comme celles d'au-dessus et d'en dessous ;
+et **p75 L12**, Daigle J.Baptiste, « Poêlier » → **« Polisseur »**, écrit en
+toutes lettres.
+
+### Ce que la page 76 a appris : l'ancre de dernier recours est le contenu
+
+Sur la page 76, les deux marges se sont contredites d'une rangée, et le calcul
+au pixel ne tranchait pas : la colonne 14 y est écrite haut dans la case. Ce qui
+a tranché, ce sont les données elles-mêmes :
+
+- **ligne 1, Côté Alec, quatre mois.** Le « Journalier » du haut de page ne peut
+  pas être à lui ; il est à la ligne 2 ;
+- **lignes 19 à 24**, la suite « Journalier / Couturière / Journalier /
+  Couturière » ne se répartit que d'une façon entre les Dagenais et les Carrier :
+  « Couturière » aux femmes, « Journalier » aux hommes.
+
+**Quand la géométrie hésite, c'est le sens qui décide** — un nourrisson n'a pas
+de métier, « Couturière » est un mot de femme. Le fichier était juste sur les
+deux points ; rien n'a été écrit.
+
+### Une question à trancher : les petits guillemets de la colonne 14
+
+Le recenseur reprend la valeur du dessus de quatre façons : le guillemet
+français « , le « do » anglais, le mot répété — et, sur certaines pages, **deux
+petits points**, plus discrets. Ceux-là posent problème.
+
+Page 78, la colonne 14 porte « Journalier » à la ligne 1 (Roberge Louis, 15 ans),
+puis **deux petits points aux lignes 2, 3, 4 et 5** — Jimmy 12 ans, Joseph 11,
+Alfred 9, Adélina 6 ans. Puis « Journalier » à la ligne 6 (Fecteau Ferdina, 27),
+et **les mêmes points aux lignes 7, 8 et 9** — Marie 23, Dulcina 5, Arthur 2.
+
+**Un journalier de deux ans n'existe pas.** Ou ces points ne sont pas des
+guillemets — une façon paresseuse de tirer le trait —, ou le recenseur les a
+posés sans y penser. Le dépouillement, lui, les a lus tantôt dans un sens
+(page 76 lignes 6 et 24, où il écrit « Journalier » et « Couturière »), tantôt
+dans l'autre.
+
+**Rien n'a été écrit sur ce point** : c'est une décision, pas une lecture, et
+elle revient à Patrick. Le guillemet franc, le « do » et le mot répété, eux,
+continuent d'être lus comme des reprises — c'est d'eux que viennent toutes les
+professions rendues jusqu'ici.
+
+Six « Ve. » relevés sans être écrits : p74 L2 et L19, p75 L3 et L12, p76 L11,
+p78 L10.
