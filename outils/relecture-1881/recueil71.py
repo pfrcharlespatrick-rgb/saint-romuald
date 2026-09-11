@@ -1,13 +1,17 @@
 """Rendu des recueils PDF du manuscrit de 1871, sous-district C (Etchemin).
 
-Cinq recueils « Recensements_1871NewLiverpool_Partie1..5 », deux pages du
-manuscrit par page PDF, la première en haut du cadre, la seconde en bas — comme
-ceux de 1891. **Ce qu'ils couvrent, vérifié en-tête par en-tête sur les
-98 cadres : la division 1 en entier, pages 1 à 78, puis les pages 1 à 17 de la
-division 2.** Les 56 dernières pages de la division 2 n'y sont pas. Le second
-cadre de la première page du recueil 5 porte le tableau no 2 — les morts des
-douze derniers mois de la division 1, dont le rattachement était jusqu'ici une
-inférence.
+Six recueils « Recensements_1871NewLiverpool_PartieN », deux pages du manuscrit
+par page PDF, la première en haut du cadre, la seconde en bas — comme ceux de
+1891. **Ce qu'ils couvrent, vérifié en-tête par en-tête : la division 1 en
+entier, pages 1 à 78, puis les pages 1 à 35 de la division 2.** Les 38 dernières
+pages de la division 2 n'y sont pas. Le second cadre de la première page du
+recueil 5 porte le tableau no 2 — les morts des douze derniers mois de la
+division 1, dont le rattachement était jusqu'ici une inférence.
+
+**Attention au nom des fichiers** : deux envois portent un « Partie2 », l'un pour
+la division 1 (pages 18 à 37), l'autre pour la division 2 (pages 16 à 35). Ils se
+distinguent à la taille, non au nom — voir `TAILLES` plus bas. Le second est
+appelé « recueil 6 » dans tout ce module.
 
 Quatre choses ont dû être comprises avant qu'une ligne soit lisible sans risque.
 
@@ -47,11 +51,38 @@ from PIL import Image, ImageOps
 OUT = os.environ.get('R71_OUT', os.path.dirname(os.path.abspath(__file__)))
 LIGNES = 20
 
+
+# Les recueils joints s'appellent tous « Recensements_1871NewLiverpool_PartieN ».
+# Deux d'entre eux portent le **même** N sans porter le même manuscrit : le
+# « Partie2 » du premier envoi tient les pages 18 à 37 de la division 1, celui du
+# second les pages 16 à 35 de la division 2. Le nom ne les distingue pas, et
+# prendre le premier venu ferait lire une division pour l'autre sans rien dire.
+# On les sépare donc à la taille du fichier, qui ne bouge pas d'un envoi à
+# l'autre, et on refuse de choisir quand on ne reconnaît ni l'une ni l'autre.
+TAILLES = {
+    2: 7698348,    # division 1, pages 18 à 37
+    6: 8496307,    # division 2, pages 16 à 35 — même nom de fichier que le 2
+}
+NOM_FICHIER = {6: 'partie2'}
+
+
 def _pdf(partie):
-    for chemin in sorted(glob.glob('/root/.claude/uploads/**/*.pdf', recursive=True)):
-        nom = os.path.basename(chemin).lower()
-        if '1871newliverpool' in nom and f'partie{partie}' in nom:
-            return chemin
+    motif = NOM_FICHIER.get(partie, f'partie{partie}')
+    trouves = [c for c in sorted(glob.glob('/root/.claude/uploads/**/*.pdf', recursive=True))
+               if '1871newliverpool' in os.path.basename(c).lower()
+               and motif in os.path.basename(c).lower()]
+    if len(trouves) > 1 or (trouves and partie in TAILLES):
+        exacts = [c for c in trouves if os.path.getsize(c) == TAILLES.get(partie)]
+        if exacts:
+            return exacts[0]
+        if len(trouves) > 1:
+            raise RuntimeError(
+                f'recueil {partie} : {len(trouves)} fichiers portent ce nom et aucun '
+                f'ne fait la taille attendue ({TAILLES.get(partie)} octets). '
+                f'Vérifier lequel est le bon avant de lire : '
+                + ', '.join(f'{os.path.basename(c)} ({os.path.getsize(c)} o)' for c in trouves))
+    if trouves:
+        return trouves[0]
     import sources
     return sources.trouver(f'1871NewLiverpool_Partie{partie}')
 
@@ -122,6 +153,14 @@ def _table():
       — recueil 5, page PDF 1 : la page 1 de la division 2, **seule sur sa page
         PDF** — c'est la seule page du corpus à ne porter qu'un cadre, et c'est
         elle qui a fait tomber la première version de la détection.
+      — recueil 5, page PDF 9 : **elle répète les pages 14 et 15** de la division
+        2 au lieu de porter les 16 et 17 — reprise de vue au microfilmage, les
+        deux cadres portent « Page 14 » et « Page 15 » dans leur en-tête. Le
+        recueil 5 s'arrête donc à la page 15.
+
+    Le recueil 6 — le second fichier nommé « Partie2 » — reprend exactement là,
+    aux pages 16 à 35 de la division 2, deux cadres par page PDF sans
+    irrégularité.
     """
     t = {(1, 1): (1, 0, 0)}
     for k in range(2, 18):                       # recueil 1 : pages 2 à 17
@@ -131,9 +170,12 @@ def _table():
             t[(1, base + k)] = (partie, k // 2, k % 2)
     t[(1, 78)] = (5, 0, 0)
     t[(2, 1)] = (5, 1, 0)
-    for pp in range(2, 10):                      # recueil 5 : division 2, pages 2 à 17
+    for pp in range(2, 9):                       # recueil 5 : division 2, pages 2 à 15
         t[(2, 2 * pp - 2)] = (5, pp, 0)
         t[(2, 2 * pp - 1)] = (5, pp, 1)
+    for pp in range(10):                         # recueil 6 : division 2, pages 16 à 35
+        t[(2, 16 + 2 * pp)] = (6, pp, 0)
+        t[(2, 17 + 2 * pp)] = (6, pp, 1)
     return t
 
 
@@ -202,7 +244,7 @@ def _reference(division, ms):
     return np.asarray(im.crop((int(x0 * W), int(y0 * H), int(x1 * W), int(y1 * H))), dtype=float)
 
 
-PAGES = {1: 78, 2: 17}
+PAGES = {1: 78, 2: 35}
 _table_angles = {}
 
 

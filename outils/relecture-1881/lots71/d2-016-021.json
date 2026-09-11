@@ -1,0 +1,49 @@
+{
+  "division": 2,
+  "pages": {
+    "16": { "lignes": 20,
+      "ecole": "-1-------1-11-------",
+      "lire":  "----------------111-",
+      "ecrire":"----------------111-",
+      "etat":  "M---MM-MM--------MM-",
+      "ligne": {
+        "5":  { "marie_12_mois": true,
+                "_note": "la colonne 16 porte « Fév. » : J. Baptiste Croteau et Marie sont mariés dans les douze derniers mois" },
+        "6":  { "marie_12_mois": true,
+                "_note": "la colonne 16 reprend le « Fév. » au guillemet" }
+      } },
+    "17": { "lignes": 20,
+      "ecole": "11-11-----1---11----",
+      "lire":  "------111-----------",
+      "ecrire":"------111-----------",
+      "etat":  "------MM--------MM--" },
+    "18": { "lignes": 20,
+      "ecole": "1-1-1---------------",
+      "lire":  "--------------111---",
+      "ecrire":"--------------111---",
+      "etat":  "-----MMVMM-MM-MMMM-M",
+      "ligne": {
+        "12": { "marie_12_mois": true,
+                "_note": "la colonne 16 porte « Ju. » : William Vachon et Aveline sont mariés dans les douze derniers mois" },
+        "13": { "marie_12_mois": true,
+                "_note": "la colonne 16 reprend le « Ju. » au guillemet" },
+        "19": { "ne_douze_mois": "Août",
+                "_note": "la colonne 9 porte la fraction 7/12 et la colonne 10 « Aoû. »" }
+      } },
+    "19": { "lignes": 20,
+      "ecole": "--111--------1------",
+      "lire":  "1---------1---------",
+      "ecrire":"1---------1---------",
+      "etat":  "M-----MM--V---MM----" },
+    "20": { "lignes": 20,
+      "ecole": "----111------1---11-",
+      "lire":  "11------1-----------",
+      "ecrire":"11------1-----------",
+      "etat":  "MM------MM---------M" },
+    "21": { "lignes": 20,
+      "ecole": "------11------111---",
+      "lire":  "--1-------111-------",
+      "ecrire":"--1-------111-------",
+      "etat":  "M-MMMM----MM--------" }
+  }
+}
