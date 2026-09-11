@@ -460,3 +460,109 @@ fichier lui donnait appartient à son voisin de ligne. Le dépouillement avait
 glissé d'un rang sur ce bloc-là et comblé le trou par un « Journalier » qui n'est
 nulle part. La division compte donc, en 1881, trois prêtres — le curé Gauvreau
 (p17), le vicaire Beaudet (p18) et celui-ci — plus les cinq frères de l'école.
+
+## Lot pages 85-88 — 91 rangées, et le chantier est clos
+
+`outils/relecture-1881/lots81/d1-085-088.json`
+
+**Vingt écritures** sur les quatre dernières pages — le lot le plus dense du
+chantier, et de loin.
+
+### Le couvent : dix religieuses qui n'avaient pas de métier
+
+Page 85 ligne 22 à page 86 ligne 7, le recenseur écrit **« Supérieure »** puis
+**« Soeur »**, repris au guillemet sur les lignes suivantes. Le dépouillement
+avait glissé d'un rang (« Supérieure » donné à la ligne 21, où le manuscrit
+porte un tiret) puis **laissé les neuf cases suivantes vides**. Elles sont
+rendues : une supérieure et neuf soeurs.
+
+### « Not given » : huit cases, et huit métiers inventés
+
+Le compte est clos, et il est net. Le manuscrit porte l'annotation **« Not
+given »** — d'une main plus grasse que celle du recenseur — sur **huit lignes**,
+et **sur ces huit lignes, et sur elles seules, le dépouillement a inventé un
+métier** :
+
+| | lu au dépouillement | au manuscrit |
+|---|---|---|
+| p14 L11 | Boulanger | Not given |
+| p69 L9 | Boulanger | Not given |
+| p83 L3 | Radigeur | Not given |
+| p86 L10 | Religieux | Not given |
+| p86 L11 | Religieux | do |
+| p88 L2 | Notaire | Not given |
+| p88 L3 | Notaire | do |
+| p88 L5 | Notaire | Not given |
+
+« Radigeur » n'est pas un mot français : c'est ce que donne ce gribouillis quand
+on essaie d'y lire un métier. Les huit cases sont vidées et marquées incertaines.
+**Trois des cinq « Notaire » de la division et les deux seuls « Religieux » en
+viennent.**
+
+Deux autres écritures : **p86 L8**, Landry Magloire, « Assurance » → **« premier
+agent »** ; **p87 L12 et L14**, une « Ménagère » et un « Cultivateur » repris au
+guillemet et à l'abréviation, que le dépouillement avait laissés vides.
+
+---
+
+# Le compte, à la fin
+
+**88 pages, 2 189 rangées, toutes lues.** Les quinze lots de
+`outils/relecture-1881/lots81/` portent la lecture complète de la colonne 14 —
+et celle de la colonne 15, qui n'est pas écrite.
+
+| | |
+|---|---|
+| Professions au fichier avant la passe | **667** |
+| Professions au fichier après | **688** |
+| Cases remplies que le dépouillement avait laissées vides | **36** |
+| Cases vidées : le manuscrit ne porte rien | **15** |
+| Métiers lus pour un autre | **13** |
+
+Ce que la colonne a rendu, qui n'y était pas : un **Chaloupier**, un
+**Polisseur**, un **Mouleur**, une **Manchonnière**, une **Chapelière**, un
+**Capitaine de bateau**, un **Prêtre Curé**, un **Prêtre Vicaire**, un troisième
+**Prêtre**, une **Supérieure** et neuf **Soeurs**, quatre **Fils** et un
+**Cultivateur fils**, trois **Forman** de plus.
+
+Ce qu'elle a retiré : **tous les fermiers**. Les trois « Fermier » du fichier
+étaient deux « Forman » et un « Journalier ». La division 1 de Saint-Romuald,
+en 1881, n'en compte aucun.
+
+## Ce qui reste à trancher — et qui n'a pas été écrit
+
+1. **Les 84 cases de la colonne 15.** Voir ci-dessous.
+2. **Les petits guillemets de la colonne 14** (page 78 surtout) : une décision,
+   pas une lecture.
+3. **Page 87 lignes 15 et 18** : deux petits guillemets sous « Cul.r » et
+   « fils », sur une fille de 22 ans et une de 14. Même question.
+
+## La colonne 15 — le relevé complet, non écrit
+
+Les 2 189 rangées ont été lues. La colonne 15 du manuscrit s'écarte du fichier
+**84 fois**, et de quatre façons :
+
+| | |
+|---|---|
+| case vide au fichier, **« Ve. »** au manuscrit | **72** |
+| « M » au fichier, **« Ve. »** au manuscrit | **3** |
+| case vide au fichier, **« M »** au manuscrit | 6 |
+| « M » au fichier, **case vide** au manuscrit | 3 |
+
+**Soixante-quinze veufs et veuves sur 2 189 personnes** — 3,4 %, contre 0,5 % en
+division 2 et 4,0 % en 1891. Le taux se remet d'aplomb.
+
+Les trois cas où le fichier porte « M » et le manuscrit « Ve. » sont les plus
+parlants, parce qu'ils ne sont pas un simple oubli :
+
+- **p12 L10, Bégin Rigobert, 38 ans** — et la ligne suivante, sa prétendue
+  épouse de 40 ans, porte un tiret et une marque d'école. Le complément notait
+  déjà que son âge se lit « 6 ». C'est sa fille ; la mère est morte à la
+  naissance de la petite Virginie, en décembre ;
+- **p19 L17, Lambert J.Baptiste, 45 ans** ;
+- **p60 L7, Guay Edouard, 25 ans**, entre deux autres « Ve. » (lignes 6 et 8).
+
+Rien de tout cela n'est écrit. `node outils/relecture-1881/prof1.mjs
+outils/relecture-1881/lots81/d1-0*.json --etat` verse les 84 cases d'un coup, le
+jour où Patrick l'aura décidé — mais **attention, cette commande réécrit aussi
+les remarques des professions déjà versées** ; mieux vaut alors un lot à la fois.

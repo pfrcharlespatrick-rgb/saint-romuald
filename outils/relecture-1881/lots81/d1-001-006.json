@@ -32,7 +32,7 @@
       "etat": "-VMM--MMMM--MMMM-----VMM-"
     },
     "6": {
-      "prof": { "5": "Cultivateur", "10": "Journalier", "11": "Couturière", "12": "Journalier",
+      "prof": { "5": "Cultivateur", "7": "Fils", "10": "Journalier", "11": "Couturière", "12": "Journalier",
                 "13": "Journalier", "14": "Marchande", "15": "Arrimeur", "18": "Batelier",
                 "22": "Batelier", "23": "Journalier" },
       "etat": "----MM--VMM---V--MM---MM-",

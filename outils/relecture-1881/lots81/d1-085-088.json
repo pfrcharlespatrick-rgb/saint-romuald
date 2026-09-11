@@ -1,0 +1,61 @@
+{
+  "division": 1,
+  "colonne": "14 — profession, occupation ou métier ; 15 — marié ou en veuvage",
+  "pages": {
+    "85": {
+      "prof": { "1": "Journalier", "3": "Journalier", "4": "Journalier", "9": "Journalier",
+                "13": "Journalier", "14": "Jardinier", "15": "Journalier", "18": "Cultivateur",
+                "22": "Supérieure", "23": "Soeur", "24": "Soeur", "25": "Soeur" },
+      "etat": "MM------MM---VMM---------",
+      "vider": [21],
+      "notes": {
+        "21": "profession lue « Supérieure » au dépouillement — c'est le mot de la ligne 22 ; ici le manuscrit porte un tiret",
+        "22": "la colonne 14 porte « Supérieure » ; le dépouillement l'avait porté à la ligne 21",
+        "23": "la colonne 14 porte « Soeur » ; le dépouillement l'avait porté à la ligne 22",
+        "24": "la colonne 14 reprend au guillemet le « Soeur » de la ligne 23",
+        "25": "la colonne 14 reprend au guillemet le « Soeur » de la ligne 23"
+      }
+    },
+    "86": {
+      "prof": { "1": "Soeur", "2": "Soeur", "3": "Soeur", "4": "Soeur", "5": "Soeur",
+                "6": "Soeur", "7": "Soeur", "8": "Premier agent", "16": "Entrepreneur",
+                "22": "Journalier", "24": "Journalier", "25": "Journalier" },
+      "etat": "-------MM------MM----MM-M",
+      "vider": [10, 11],
+      "inc": [10, 11],
+      "notes": {
+        "1": "la colonne 14 porte « Soeur » ; les six lignes suivantes le reprennent au guillemet. Le dépouillement avait laissé les sept cases vides.",
+        "2": "la colonne 14 reprend au guillemet le « Soeur » de la ligne 1",
+        "3": "la colonne 14 reprend au guillemet le « Soeur » de la ligne 1",
+        "4": "la colonne 14 reprend au guillemet le « Soeur » de la ligne 1",
+        "5": "la colonne 14 reprend au guillemet le « Soeur » de la ligne 1",
+        "6": "la colonne 14 reprend au guillemet le « Soeur » de la ligne 1",
+        "7": "la colonne 14 reprend au guillemet le « Soeur » de la ligne 1",
+        "8": "profession lue « Assurance » au dépouillement ; le manuscrit porte « premier agent »",
+        "10": "profession lue « Religieux » au dépouillement ; le manuscrit porte l'annotation « Not given ». Case laissée vide.",
+        "11": "profession lue « Religieux » au dépouillement ; le manuscrit porte « do » sous le « Not given » de la ligne 10. Case laissée vide."
+      }
+    },
+    "87": {
+      "prof": { "3": "Journalier", "10": "Médecin", "11": "Ménagère", "12": "Ménagère",
+                "13": "Cultivateur", "14": "Cultivateur", "16": "Fils", "17": "Fils",
+                "19": "Tailleur", "21": "Notaire", "23": "Domestique", "25": "Entrepreneur" },
+      "etat": "M-MM--.--.-VV-----MMMM-VM",
+      "notes": {
+        "12": "la colonne 14 reprend au guillemet le « Ménagère » de la ligne 11 ; le dépouillement avait laissé la case vide",
+        "14": "la colonne 14 porte « Cul.r », abrégé de Cultivateur, le r en exposant ; le dépouillement avait laissé la case vide"
+      }
+    },
+    "88": {
+      "prof": { "10": "Marchand de bois" },
+      "etat": "M--------MM-----",
+      "vider": [2, 3, 5],
+      "inc": [2, 3, 5],
+      "notes": {
+        "2": "profession lue « Notaire » au dépouillement ; le manuscrit porte l'annotation « Not given ». Case laissée vide.",
+        "3": "profession lue « Notaire » au dépouillement ; le manuscrit porte « do » sous le « Not given » de la ligne 2. Case laissée vide.",
+        "5": "profession lue « Notaire » au dépouillement ; le manuscrit porte de nouveau « Not given ». Case laissée vide."
+      }
+    }
+  }
+}
