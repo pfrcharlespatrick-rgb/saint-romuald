@@ -1,0 +1,41 @@
+{
+  "division": 1,
+  "colonne": "14 — profession, occupation ou métier ; 15 — marié ou en veuvage",
+  "pages": {
+    "31": {
+      "prof": { "1": "Journalier", "2": "Journalier", "4": "Journalier", "7": "Journalier",
+                "13": "Journalier", "15": "Journalier", "17": "Journalier", "19": "Journalier",
+                "21": "Charpentier", "23": "Batelier" },
+      "etat": "---MM-------MMMM----MMMM-"
+    },
+    "32": {
+      "prof": { "2": "Journalier", "4": "Journalier", "7": "Journalier", "8": "Journalier",
+                "12": "Journalier", "15": "Cordonnier", "17": "Cordonnier", "18": "Cordonnier",
+                "19": "Cordonnier", "21": "Marchand", "23": "Journalier", "24": "Apprenti office" },
+      "etat": "-MM--------MM-MM----MM---",
+      "notes": { "18": "la colonne 14 porte « do » sous le « Cordonnier » de la ligne 17 ; le dépouillement avait laissé la case vide",
+                 "19": "la colonne 14 porte « do » sous le « Cordonnier » de la ligne 17 ; le dépouillement avait laissé la case vide" }
+    },
+    "33": {
+      "prof": { "3": "Charpentier", "7": "Journalier", "9": "Journalier", "10": "Journalier",
+                "13": "Journalier", "14": "Journalier", "18": "Charpentier", "22": "Charpentier" },
+      "etat": "--MM--MM-----MM--MM------"
+    },
+    "34": {
+      "prof": { "3": "Maçon", "10": "Pilote", "11": "Charretier", "13": "Charpentier",
+                "15": "Charpentier", "18": "Journalier", "22": "Journalier", "24": "Journalier" },
+      "etat": "--MM-----VMMMM---MM--MMMM"
+    },
+    "35": {
+      "prof": { "1": "Journalier", "6": "Charpentier", "8": "Charpentier", "11": "Charpentier",
+                "14": "Journalier", "15": "Journalier", "19": "Journalier", "21": "Journalier",
+                "25": "Journalier" },
+      "etat": "-----MM-------MM--MM----M"
+    },
+    "36": {
+      "prof": { "7": "Mécanicien", "12": "Commis", "13": "Journalier", "16": "Journalier",
+                "20": "Mécanicien", "24": "Journalier", "25": "Charpentier" },
+      "etat": "M-----MM---MMM-MM--MM---M"
+    }
+  }
+}

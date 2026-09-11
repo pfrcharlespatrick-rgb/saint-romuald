@@ -238,3 +238,30 @@ La colonne 15 rend quatre « Ve. » (p25 L22, p27 L1, p29 L9, p29 L22) et — c'
 nouveau — **trois « M » que le dépouillement n'avait pas relevés** : p27 L2 et L3
 (Montigny Thomas, 61 ans, et Marie, mariés tous les deux), p28 L1 (Ménard Diana).
 Le manque ne portait donc pas que sur les veufs.
+
+## La marge de droite est un faux ami — c'est celle de gauche qui fait foi
+
+Le formulaire numérote ses rangées **aux deux bords**. La planche s'appuyait sur
+celle de droite, la plus loin de tout. À la page 32, les deux marges ne disent
+pas la même chose : **la droite est d'une rangée plus bas que la gauche**. Un
+degré de rotation à la prise de vue suffit — sur la largeur d'une page, un degré
+vaut une rangée.
+
+La marge de gauche, elle, **touche la colonne des noms** : rien ne peut glisser
+entre les deux. La planche porte désormais les deux, la gauche en tête, et c'est
+elle qui fait foi ; leur désaccord avertit au passage que la page est de
+travers.
+
+Les pages 1 à 31 n'étaient pas touchées : sur chacune, les professions lues
+tombaient d'accord avec le registre à trois ou quatre cases près, ce qui serait
+impossible avec un décalage d'une rangée — la garde de `prof1.mjs` aurait arrêté
+le lot dès la première ligne.
+
+## Lot pages 31-36 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-031-036.json`
+
+Deux écritures seulement, les plus propres du chantier : **p32 L18 et L19**,
+Hébert Emé et George, qui reçoivent le « Cordonnier » que la colonne reprend au
+« do » de la ligne 17. Un seul « Ve. » à signaler, p34 L10 (Chamberland Pitale,
+71 ans, pilote).

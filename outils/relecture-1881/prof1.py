@@ -18,12 +18,15 @@ LA PLANCHE. Les colonnes utiles sont aux deux bouts du formulaire : les noms en
 feraient qu'écarter l'œil et diluer l'image. On les découpe donc séparément et
 on les recolle côte à côte :
 
-    nom (7) | profession (14) | marié ou en veuvage (15) | nos de ligne
+    nos de ligne | nom (7) | profession (14) | marié/veuvage (15) | nos de ligne
 
-La marge des numéros de ligne vient de l'autre bord de la page. C'est elle qui
-permet de lire la planche seule : **le numéro imprimé en bout de rangée dit à
-quelle ligne on est**, sans avoir à recaler à l'œil. Même parade que dans
-`planche.py`, à l'autre bout du formulaire.
+**Les deux marges de numéros y sont, et c'est la GAUCHE qui fait foi.** Le
+formulaire numérote ses rangées aux deux bords, mais la prise de vue est parfois
+de guingois : à la page 32, la marge de droite est d'une rangée plus bas que
+celle de gauche — un degré de rotation suffit. La marge de gauche, elle, touche
+la colonne des noms : rien ne peut glisser entre les deux. Quand les deux marges
+ne disent pas la même chose, **c'est la gauche qu'il faut suivre**, et le
+désaccord lui-même avertit que la page est de travers.
 
 Une page tient ainsi sur une image, ses vingt-cinq rangées d'un coup.
 
@@ -36,10 +39,11 @@ from d1 import geometry, half_image, REF_X0F
 from PIL import Image
 
 # Bords relevés sur l'en-tête imprimé de la page 1, dans le repère de la référence.
+RANGS = (0.080, 0.120)        # la marge des numéros de ligne, à gauche — celle qui fait foi
 NOM = (0.225, 0.345)          # colonne 7, les noms
 PROF = (0.585, 0.700)         # colonnes 14 et 15
-NUMEROS = (0.873, 0.900)      # la marge des numéros de ligne, à droite
-FENETRES = (NOM, PROF, NUMEROS)
+NUMEROS = (0.873, 0.900)      # la marge des numéros de ligne, à droite — témoin de travers
+FENETRES = (RANGS, NOM, PROF, NUMEROS)
 
 SEPARATEUR = 6                # filet blanc entre deux fenêtres recollées
 
