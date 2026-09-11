@@ -15,10 +15,10 @@ Vérifié en-tête par en-tête sur les 98 cadres des cinq PDF :
 | | |
 |---|---|
 | Division 1 | **pages 1 à 78 — en entier** |
-| Division 2 | **pages 1 à 17 seulement** |
+| Division 2 | **pages 1 à 15 seulement** — la dernière page PDF répète les pages 14 et 15 |
 | En plus | le tableau no 2 — les morts des douze derniers mois — pour la division 1 |
 
-**Les 56 dernières pages de la division 2 ne sont pas dans ces recueils.**
+**Les 58 dernières pages de la division 2 — 16 à 73 — ne sont pas dans ces recueils.**
 
 Le tableau des morts est une trouvaille en soi : `docs/README.md` notait que la
 division du tableau des décès avait été *inférée* et restait « à confirmer par
@@ -235,6 +235,7 @@ trois de la page 78 font 1543, et c'est ce que le fichier porte.
 
 ## Et la division 2
 
-Les recueils n'en portent que les **pages 1 à 17**. C'est la prochaine tranche,
-et la dernière que ces PDF permettent. Les 56 pages suivantes de la division 2
-demanderont d'autres images.
+Faite aussi, et racontée à part : `docs/RELECTURE-1871-D2.md`. Les recueils n'en
+portent que les **pages 1 à 15** — la dernière page PDF répète les pages 14 et
+15 au lieu de porter les 16 et 17. Les 58 pages suivantes demanderont d'autres
+images.

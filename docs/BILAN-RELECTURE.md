@@ -1,28 +1,30 @@
 # Les trois recensements — ce qui est vérifié, ce qui reste
 
-État au 10 septembre 2026. Ce document répond à une seule question : **où en est la
+État au 11 septembre 2026. Ce document répond à une seule question : **où en est la
 vérification au manuscrit, recensement par recensement, et qu'est-ce qui reste à faire ?**
 
-Les deux premiers chantiers de la liste sont faits — le complément de 1881 est versé
-aux fiches publiques, et le tiret des colonnes 21-22 de 1891 est rendu explicite aux
-pages 42 à 83. Les sections concernées le disent au fil du texte.
+Trois chantiers sont faits depuis la dernière mise à jour : le complément de 1881 est
+versé aux fiches publiques, le tiret des colonnes 21-22 de 1891 est rendu explicite aux
+pages 42 à 83, et **le recensement de 1871 a été relu au manuscrit — la division 1 en
+entier, la division 2 sur ce que les recueils en portent.**
 
 Les journaux de campagne restent la référence de détail :
-`RELECTURE-1881-D1.md`, `RELECTURE-1881-D2.md`, `RELECTURE-1881-D2-questions.md`,
+`RELECTURE-1871-D1.md`, `RELECTURE-1871-D2.md`, `RELECTURE-1881-D1.md`,
+`RELECTURE-1881-D2.md`, `RELECTURE-1881-D2-questions.md`,
 `RELECTURE-1891-D1-questions.md`. Ce bilan-ci les surplombe et n'en répète pas le contenu.
 
 ## Vue d'ensemble
 
 | Jeu | Personnes | Maisons | Familles | Pages | `incertain` | Relu au manuscrit |
 |---|---:|---:|---:|---:|---:|---|
-| 1871 D1 | 1 540 | 217 | 288 | 78 | 98 (6 %) | **non** |
-| 1871 D2 | 1 457 | 178 | 249 | 73 | 547 (38 %) | **non** |
+| 1871 D1 | **1 543** | 217 | 288 | 78 | 440 (29 %) | **oui, intégralement** |
+| 1871 D2 | 1 457 | 178 | 249 | 73 | 547 (38 %) | pages 1 à 15 seulement |
 | 1881 D1 | 2 189 | 349 | 400 | 88 | 153 (7 %) | oui, intégralement |
 | 1881 D2 | 1 452 | 249 | 267 | 59 | 152 (10 %) | oui, intégralement |
 | 1891 D1 | 3 548 | 637 | 644 | 142 | 1 100 (31 %) | oui, intégralement |
 | 1891 D2 | **0** | — | — | — | — | **jeu vide** |
 
-**10 186 personnes en ligne.** Les contrôles d'intégrité passent partout : aucun
+**10 189 personnes en ligne.** Les contrôles d'intégrité passent partout : aucun
 identifiant en double, et les 86 références de personne de `documents/manifeste.json`
 pointent toutes vers quelqu'un qui existe.
 
@@ -209,55 +211,68 @@ drapeau** — elle est tranchée. Même effet, plus discret, en division 1 (154 
 
 ---
 
-## 1871 — jamais relu
+## 1871 — relu
 
-**C'est le recensement le moins vérifié des trois, et de loin.** Aucune ligne des deux
-divisions ne porte de remarque de relecture au manuscrit : les remarques de la division 1
-sont des notes de parenté (« épouse », « pensionnaire »), celles de la division 2 des
-traces de provenance du dépouillement (« Partie n p. n demi-cadre bas ; lecture visuelle
-du feuillet »). Il n'existe pas de journal `RELECTURE-1871-*`, parce qu'il n'y a pas eu
-de campagne.
+**C'était le recensement le moins vérifié des trois ; c'est désormais celui dont le
+compte tombe le plus juste.** La campagne est racontée dans
+`docs/RELECTURE-1871-D1.md` et `docs/RELECTURE-1871-D2.md`.
 
-Les 98 et 547 drapeaux `incertain` viennent du dépouillement lui-même, non d'une
-confrontation au manuscrit. **En division 2, plus d'une ligne sur trois est déjà signalée
-douteuse par le dépouilleur** — et personne n'est allé voir.
+### Division 1 — les 78 pages, et le total du recenseur retrouvé
 
-### Anomalies structurelles repérables sans ouvrir le manuscrit
+Le fichier compte **1 543 personnes — le nombre que le recenseur a lui-même inscrit
+en marge de sa page 78** — et chaque page porte exactement le nombre de lignes du
+manuscrit : 77 pages de vingt, plus les trois de la 78.
 
-Le formulaire de 1871 compte **20 lignes par page**, non 25. Sur cette base :
+Il a fallu, pour cela, défaire deux accidents du dépouillement :
 
-- **Division 1, page 31 : cinq lignes en double.** La page porte 25 enregistrements pour
-  20 positions ; les lignes 16 à 20 sont revendiquées à la fois par la maison 80
-  (Lavarais) et par la maison 81 (Gaudlin), les secondes portant un identifiant en
-  `-2` et la remarque « lignes 16-20 en conflit avec la maison 80 — à vérifier au
-  manuscrit ». **C'est le seul conflit de position des cinq jeux**, et il ne se règle
-  qu'au manuscrit.
-- **Division 1, pages incomplètes** : p4 (17 lignes, il manque L1-L3), p61 (il manque L1),
-  p64 (il manque L4), p75 (il manque L1-L2), p49 (19 lignes). C'est le signal le plus
-  rentable de tout l'outillage — en 1881 il a fait retrouver deux personnes réellement
-  omises. **Ici, cinq pages le déclenchent et aucune n'a été examinée.**
-- **Division 2, page 33** : 19 lignes.
-- **Trous de numérotation** : maisons 55 et 98, familles 52, 102, 103 et 183 en
-  division 1 ; maisons 56, 105, 121, 126, 136, 138 et **familles 152 à 158 d'un seul
-  tenant** en division 2. Un trou de sept familles consécutives n'est pas une lubie de
-  recenseur.
+- **Cinq personnes en trop**, pages 28 à 31 : les enfants de Paradis François comptés
+  une seconde fois dans la famille de Léon Paradis, qui poussaient tout de cinq rangs
+  sur quatre pages et produisaient le **seul conflit de position des cinq recensements
+  du site**. Retirés, les quatre pages renumérotées.
+- **Huit personnes manquantes**, pages 4, 49, 60, 64 et 75 : trois fils Vermette, une
+  veuve de 80 ans, deux enfants d'école, deux enfants King. Réinsérées à leur place
+  dans l'ordre des visites, les pages renumérotées.
 
-### Champs manquants ou douteux
+Quatre colonnes que le dépouillement avait laissées de côté sont maintenant servies
+partout : le **lieu de naissance** (un seul sur 1 540 auparavant), l'**école**, les
+deux colonnes d'**alphabétisation**, et le **mois de naissance** des nourrissons — le
+dépouillement leur mettait « 7 mois » à tous, valeur par défaut jamais lue.
 
-- **Le lieu de naissance est vide en division 1** : 1 personne sur 1 540 en porte un
-  (« États-Unis », p12 L7). La division 2 le porte pour tout le monde. Le site affiche
-  pour 1871 une colonne « Né(e) » qui reste blanche sur toute la division 1.
-- **La colonne « religion » de la division 1 porte la valeur « Prêtre »** sur une ligne :
-  une profession tombée dans la mauvaise colonne au dépouillement.
-- **46 personnes de la division 2 n'ont pas d'âge**, et 92 portent un âge ajusté d'après
-  le rapport (`age_ajuste_rapport`), l'âge d'origine étant conservé à côté.
-- **`sait_lire` / `sait_ecrire` de 1871 ne valent que pour les adultes.** Le formulaire
-  demandait « 20 ans et plus, ne sachant pas lire ». Pour les 1 570 personnes de moins de
-  20 ans, le `true` produit par la conversion en polarité positive **n'est pas une donnée
-  du manuscrit**. L'atelier affiche « s.o. » ; toute statistique doit filtrer sur
-  `age >= 20`. Ce n'est pas un défaut à corriger, c'est un piège à ne pas oublier.
+Le drapeau `incertain` passe de 98 à 440 lignes : ce n'est pas une dégradation, c'est
+la trace de chaque lecture que la relecture a tranchée autrement que le dépouillement,
+avec la lecture d'origine conservée en remarque.
 
----
+### Division 2 — pages 1 à 15, le reste hors d'atteinte
+
+Les recueils PDF ne portent de cette division que les **pages 1 à 15** : la dernière
+page PDF du recueil 5 répète les pages 14 et 15 au lieu de porter les 16 et 17. **Les
+pages 16 à 73 demanderont d'autres images.**
+
+Sur ces quinze pages, la division 2 était déjà relevée à la main — 215 des 300 lignes
+portent une correction de Patrick. La relecture n'a donc versé que 17 champs, et
+**signalé 90 champs sans y toucher**, comme le veut la règle du projet. Le plus gros
+écart tient en trois pages : le fichier y donne 52 personnes sur 60 pour ne sachant ni
+lire ni écrire, quand le manuscrit ne coche que douze lignes, toutes d'adultes. Le
+détail est dans `RELECTURE-1871-D2.md` ; la décision revient à Patrick.
+
+### Ce qui reste ouvert en 1871
+
+- **Les numéros de maison de la division 1 ne se raccordent pas au manuscrit** — et
+  c'est le recenseur qui le dit, deux fois en marge (« erreur page 39 », « erreur
+  page 46 »), avec des corrections qui ne rattrapent pas l'écart. Les numéros de
+  **famille**, eux, concordent partout. Rien n'a été touché ; une passe dédiée reste
+  à faire si le site doit porter les numéros du manuscrit.
+- **Deux familles logées dans une maison à elles** par le dépouillement alors que le
+  manuscrit les met sous le toit voisin (familles 180 et 217).
+- **La famille 52 et la maison 55** manquent à la numérotation de la division 1.
+- **Les pages 16 à 73 de la division 2**, faute d'images.
+
+### Un rappel qui vaut toujours
+
+**`sait_lire` / `sait_ecrire` de 1871 ne valent que pour les adultes.** Le formulaire
+ne recense que l'*incapacité*, et seulement au-dessus de 20 ans. Le `true` des mineurs
+est le produit de la conversion de polarité, non une lecture : ne jamais agréger sans
+filtrer sur `age >= 20`.
 
 ## Dans quel ordre
 
@@ -268,24 +283,34 @@ rattachement trouvés au passage.
 ~~2. **Normaliser les colonnes 21-22 de 1891 aux pages 42-83.**~~ **Fait.** 472 lignes,
 la bande est complète.
 
+~~3. **Le comptage de lignes de 1871.**~~ **Fait.** Cinq lignes en trop retirées, huit
+personnes rendues au registre, le conflit de la page 31 dissous : la division 1 retombe
+sur les 1 543 du recenseur.
+
+~~4. **La relecture de 1871.**~~ **Faite** pour la division 1 en entier et pour les
+quinze pages de la division 2 que les recueils portent.
+
 Ce qui vient ensuite, dans l'ordre où je le ferais :
 
-3. **Le comptage de lignes de 1871**, cinq pages en division 1 et une en division 2, plus
-   le conflit de la page 31. Peu de pages, fort rendement : c'est ainsi qu'on retrouve
-   des personnes omises.
-4. **Les pages 82 et 83 de 1881 division 1**, dont le complément décrit des personnes que
+5. **Trancher les 90 champs signalés en 1871 division 2**, pages 1 à 15 — au premier
+   rang les colonnes 18 et 19 des pages 1, 2 et 3. C'est une décision, pas un travail :
+   tout est déjà écrit dans `RELECTURE-1871-D2.md`.
+6. **Les pages 82 et 83 de 1881 division 1**, dont le complément décrit des personnes que
    le registre ne contient pas. Deux pages, mais elles peuvent cacher un ménage perdu au
    dépouillement — c'est le genre de trouvaille qui a rendu la famille 222 à la
    division 1.
-5. **La passe des professions de 1881 division 1** — 88 pages, colonne 14, méthode
+7. **La passe des numéros de maison de 1871 division 1** — le recenseur signale
+   lui-même deux erreurs en marge, et ses corrections ne se raccordent pas. À trancher
+   avant de toucher aux numéros du site.
+8. **La passe des professions de 1881 division 1** — 88 pages, colonne 14, méthode
    éprouvée sur la colonne 4 de 1891.
-6. **La relecture de 1871**, les deux divisions, 151 pages. Le gros morceau.
-7. **Le dépouillement de 1891 division 2**, s'il existe un manuscrit à dépouiller.
+9. **Le dépouillement de 1891 division 2**, s'il existe un manuscrit à dépouiller.
 
 ## Ce qu'il faut me fournir
 
 Les scripts retrouvent les PDF tout seuls par leur nom, mais **les fichiers joints ne
-suivent pas d'une conversation à l'autre**. Pour les points 3 à 7 il faut donc rattacher
-les recueils correspondants : les PDF du manuscrit de **1871, divisions 1 et 2** (aucun
-n'est disponible dans cette session), et ceux de **1881 division 1** pour les pages 82-83
-et pour la passe des professions.
+suivent pas d'une conversation à l'autre**. Pour reprendre l'un de ces points il faut
+donc rattacher les recueils correspondants : les cinq PDF du manuscrit de **1871** pour
+y revenir, ceux de **1881 division 1** pour les pages 82-83 et la passe des professions,
+et — pour finir la division 2 de 1871 — **des images des pages 16 à 73**, qui ne sont
+dans aucun des recueils fournis.
