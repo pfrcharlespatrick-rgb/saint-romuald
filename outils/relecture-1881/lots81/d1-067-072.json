@@ -1,0 +1,41 @@
+{
+  "division": 1,
+  "colonne": "14 — profession, occupation ou métier ; 15 — marié ou en veuvage",
+  "pages": {
+    "67": {
+      "prof": { "1": "Mécanicien", "3": "Journalier", "9": "Hôtelier", "11": "Cultivateur",
+                "13": "Épicier", "16": "Mécanicien", "23": "Domestique", "24": "Forman" },
+      "etat": "MM------MM-VMM-MM------MM"
+    },
+    "68": {
+      "prof": { "2": "Journalier", "8": "Journalier", "11": "Journalier", "12": "Journalier",
+                "14": "Journalier", "15": "Journalier", "16": "Journalier", "19": "Journalier" },
+      "etat": "-------MM--MM-----MM-----"
+    },
+    "69": {
+      "prof": { "1": "Chaloupier", "2": "Charretier", "16": "Journalier", "21": "Journalier" },
+      "etat": "-MM-----MM-----MM---MM---",
+      "vider": [9],
+      "inc": [9],
+      "notes": {
+        "1": "profession lue « Charpentier » au dépouillement ; le manuscrit porte « Chaloupier » — celui qui construit les chaloupes",
+        "9": "profession lue « Boulanger » au dépouillement ; le manuscrit ne porte pas ce mot mais l'annotation « Not given », de la même main grasse qu'à la page 14 ligne 11. Case laissée vide."
+      }
+    },
+    "70": {
+      "prof": { "2": "Journalier", "6": "Journalier", "7": "Journalier", "11": "Maçon",
+                "18": "Journalier", "23": "Charpentier" },
+      "etat": "-MM-V-----MM-----MM---MM-"
+    },
+    "71": {
+      "prof": { "4": "Mécanicien", "7": "Domestique", "8": "Journalier", "15": "Journalier",
+                "18": "Batelier" },
+      "etat": "---MM--MM---MM---MM------"
+    },
+    "72": {
+      "prof": { "1": "Forman", "5": "Manufacturier", "12": "Marchand de bois",
+                "13": "Journalier", "18": "Rentier", "25": "Journalier" },
+      "etat": "MM--MM---VV------MM-----M"
+    }
+  }
+}

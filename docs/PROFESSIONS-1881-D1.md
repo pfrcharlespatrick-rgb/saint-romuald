@@ -348,3 +348,26 @@ horizontal de `geometry` se trompe parfois de deux centièmes de largeur de page
 et une fenêtre ajustée à la colonne coupait alors la moitié de la colonne 15
 **sans le dire**. Les quatre fenêtres de la planche sont désormais prises plus
 larges que leur colonne — on préfère un peu de voisinage à un bord qui tranche.
+
+## Lot pages 67-72 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-067-072.json`
+
+Deux écritures, toutes deux à la page 69 :
+
+| | |
+|---|---|
+| p69 L1 — Naire Abel, 26 ans | « Charpentier » → **« Chaloupier »**. Le mot est écrit en toutes lettres : celui qui construit les chaloupes. Le métier n'existait nulle part dans le fichier. |
+| p69 L9 — Ferrier Léon, 30 ans | « Boulanger » → **case vide**, l'annotation « Not given » de nouveau. |
+
+### « Not given », deuxième fois — et le doute tombe
+
+Page 69 ligne 9, la même annotation qu'à la page 14 ligne 11 : **même main plus
+grasse, même tracé, même mot.** Et, des deux fois, **le dépouillement avait lu
+« Boulanger »**.
+
+Deux occurrences identiques valent mieux qu'une lecture isolée : la case ne
+porte pas un métier, elle porte le constat de bureau que la profession n'a pas
+été déclarée. Les deux cases sont vidées, les deux lignes marquées incertaines.
+
+Quatre « Ve. » relevés sans être écrits : p67 L12, p70 L5, p72 L10 et L11.
