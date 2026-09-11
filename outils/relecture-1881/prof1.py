@@ -39,10 +39,14 @@ from d1 import geometry, half_image, REF_X0F
 from PIL import Image
 
 # Bords relevés sur l'en-tête imprimé de la page 1, dans le repère de la référence.
-RANGS = (0.080, 0.120)        # la marge des numéros de ligne, à gauche — celle qui fait foi
-NOM = (0.225, 0.345)          # colonne 7, les noms
-PROF = (0.585, 0.700)         # colonnes 14 et 15
-NUMEROS = (0.873, 0.900)      # la marge des numéros de ligne, à droite — témoin de travers
+# Chaque fenêtre est prise plus large que sa colonne : le recalage horizontal de
+# `geometry` se trompe parfois de deux centièmes de largeur de page (les recueils
+# de la fin, surtout), et une fenêtre juste à la colonne coupe alors la moitié de
+# ce qu'on vient y lire — sans le dire.
+RANGS = (0.075, 0.125)        # la marge des numéros de ligne, à gauche — celle qui fait foi
+NOM = (0.222, 0.360)          # colonne 7, les noms
+PROF = (0.578, 0.730)         # colonnes 14 et 15
+NUMEROS = (0.868, 0.905)      # la marge des numéros de ligne, à droite — témoin de travers
 FENETRES = (RANGS, NOM, PROF, NUMEROS)
 
 SEPARATEUR = 6                # filet blanc entre deux fenêtres recollées

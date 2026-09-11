@@ -334,3 +334,17 @@ La colonne 15 rend huit marques, dont trois de suite à la page 60 (lignes 6, 7
 et 8 : Côté Marie Elenard, puis Guay Edouard, 25 ans, que le fichier donne pour
 marié, et son voisin de ligne). Vérifiées sur la réglette imprimée : les trois
 « Ve. » sont bien en colonne 15, le trait de pointage à côté en 16.
+
+## Lot pages 61-66 — 149 rangées
+
+`outils/relecture-1881/lots81/d1-061-066.json`
+
+Deux écritures : **p61 L5**, Boucher George, dont le « Journalier » n'est pas au
+manuscrit — la case porte un tiret, et le « Journalier » de cette maisonnée est
+à la ligne 9 ; et **p65 L23**, Morency Isaï, au « do » de la ligne 22.
+
+Les recueils de la fin ont imposé un réglage : sur ces pages, le recalage
+horizontal de `geometry` se trompe parfois de deux centièmes de largeur de page,
+et une fenêtre ajustée à la colonne coupait alors la moitié de la colonne 15
+**sans le dire**. Les quatre fenêtres de la planche sont désormais prises plus
+larges que leur colonne — on préfère un peu de voisinage à un bord qui tranche.

@@ -1,0 +1,38 @@
+{
+  "division": 1,
+  "colonne": "14 — profession, occupation ou métier ; 15 — marié ou en veuvage",
+  "pages": {
+    "61": {
+      "prof": { "9": "Journalier", "14": "Journalier", "19": "Courreur", "23": "Courreur" },
+      "etat": "M---MM--MM---MM-MMMM--MM-",
+      "vider": [5],
+      "notes": { "5": "profession lue « Journalier » au dépouillement ; le manuscrit porte un tiret. Le « Journalier » de cette maisonnée est à la ligne 9, celle de Boucher Louis." }
+    },
+    "62": {
+      "prof": { "2": "Courreur", "3": "Courreur", "4": "Menuisier", "5": "Journalier",
+                "9": "Journalier", "10": "Journalier", "12": "Journalier", "17": "Journalier",
+                "19": "Journalier", "25": "Journalier" },
+      "etat": "---VMM-M--------MM------M"
+    },
+    "63": {
+      "prof": { "4": "Journalier", "6": "Journalier", "10": "Journalier", "16": "Journalier",
+                "23": "Journalier" },
+      "etat": "M--MM----MM----MM----V---"
+    },
+    "64": {
+      "prof": { "3": "Journalier", "7": "Menuisier", "9": "Journalier", "15": "Menuisier",
+                "17": "Journalier", "19": "Journalier", "21": "Journalier", "22": "Journalier" },
+      "etat": "--MM--MM------MM--MM----V"
+    },
+    "65": {
+      "prof": { "1": "Journalier", "7": "Forgeron", "14": "Journalier", "18": "Mécanicien",
+                "22": "Journalier", "23": "Journalier" },
+      "etat": "MM----MM-----MM--MM------",
+      "notes": { "23": "la colonne 14 porte « do » sous le « Journalier » de la ligne 22 ; le dépouillement avait laissé la case vide" }
+    },
+    "66": {
+      "prof": { "4": "Forman", "6": "Commis", "7": "Journalier", "9": "Pilote", "18": "Commis" },
+      "etat": "---MM--VMM-------MM-----"
+    }
+  }
+}
