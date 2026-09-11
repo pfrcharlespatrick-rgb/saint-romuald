@@ -20,7 +20,7 @@ const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..
          "1": { "prof": { "1": "Cultivateur", "13": "Domestique" },
                 "etat": "MM-------------MM-----MM-",
                 "vider": [7],
-                "inc":   [13],
+                "inc":   [13], "certain": [15],
                 "notes": { "13": "le mot se lit …" } } } }
 
    `prof` ne porte que les cases écrites ; toutes les autres sont réputées vides
@@ -32,9 +32,16 @@ const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..
    `etat` est la colonne 15 rangée par rangée — `M`, `V`, `-` pour une case vide,
    `.` pour « pas lue ». Une page sans `etat` ne touche pas à l'état matrimonial.
 
-     node prof1.mjs lots81/d1-001-006.json [--essai]
+   LA COLONNE 15 NE S'ÉCRIT PAS TOUTE SEULE. La division 1 ne portait pas un seul
+   « V » sur 2 189 personnes quand la division 2 en porte 7 et 1891 en porte 141 :
+   c'est un manque à signaler avant d'y toucher, pas une case à remplir en
+   passant. `etat` est donc **lu et rapporté, mais pas écrit**, tant qu'on ne
+   passe pas `--etat`.
+
+     node prof1.mjs lots81/d1-001-006.json [--essai] [--etat]
 */
 const ESSAI = process.argv.includes('--essai');
+const ETAT = process.argv.includes('--etat');
 const LOTS = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 if (!LOTS.length) { console.error('usage : node prof1.mjs lots81/d1-001-006.json [--essai]'); process.exit(1); }
 
@@ -49,7 +56,8 @@ const lignesDe = (page) => [...actuel.keys()]
   .filter((k) => k.split(':')[0] === String(page))
   .map((k) => Number(k.split(':')[1])).sort((a, b) => a - b);
 
-const plan = [];   // { page, ligne, champs, inc, note }
+const plan = [];       // { page, ligne, champs, inc, note }
+const attente = [];    // la colonne 15 lue mais non écrite, faute de --etat
 let lu = 0, pagesLues = 0;
 
 for (const chemin of LOTS) {
@@ -61,6 +69,7 @@ for (const chemin of LOTS) {
     const prof = p.prof || {};
     const vider = new Set((p.vider || []).map(Number));
     const inc = new Set((p.inc || []).map(Number));
+    const certain = new Set((p.certain || []).map(Number));   // le doute levé au manuscrit
     const notes = p.notes || {};
     const etat = p.etat || '';
     if (etat && etat.length !== lignes.length)
@@ -84,12 +93,15 @@ for (const chemin of LOTS) {
         const c = etat[lignes.indexOf(l)];
         if (c !== '.') {
           const veutE = c === '-' ? '' : c;
-          if (veutE !== String(pers.etat_matrimonial || '').trim()) champs.etat_matrimonial = veutE;
+          if (veutE !== String(pers.etat_matrimonial || '').trim()) {
+            if (ETAT) champs.etat_matrimonial = veutE;
+            else attente.push(`p${page}:${l}  etat_matrimonial : « ${pers.etat_matrimonial || ''} » → « ${veutE} »`);
+          }
         }
       }
       const note = notes[String(l)];
-      if (!Object.keys(champs).length && !note && !inc.has(l)) continue;
-      plan.push({ page, ligne: l, champs, inc: inc.has(l), note, avant: { profession: a, etat_matrimonial: pers.etat_matrimonial || '' } });
+      if (!Object.keys(champs).length && !note && !inc.has(l) && !certain.has(l)) continue;
+      plan.push({ page, ligne: l, champs, inc: inc.has(l) ? true : certain.has(l) ? false : undefined, note, avant: { profession: a, etat_matrimonial: pers.etat_matrimonial || '' } });
     }
   }
 }
@@ -99,13 +111,17 @@ for (const e of plan) {
   const d = Object.entries(e.champs).map(([k, v]) => `${k} : « ${e.avant[k]} » → « ${v} »`).join(' ; ');
   console.log(`  p${e.page}:${e.ligne}  ${d || '(remarque seule)'}${e.note ? '  — ' + e.note : ''}`);
 }
+if (attente.length) {
+  console.log(`\n${attente.length} case(s) de la colonne 15 lue(s) au manuscrit et NON écrite(s) — passer --etat pour les verser :`);
+  for (const m of attente) console.log('  ' + m);
+}
 if (ESSAI) { console.log('\n--essai : rien n\'a été écrit.'); process.exit(0); }
 if (!plan.length) process.exit(0);
 
 apply(({ set, R }) => {
   for (const e of plan) {
     const o = {};
-    if (e.inc) o.inc = true;
+    if (e.inc !== undefined) o.inc = e.inc;
     if (e.note) o.rem = R(e.note);
     set(Number(e.page), [e.ligne], e.champs, o);
   }

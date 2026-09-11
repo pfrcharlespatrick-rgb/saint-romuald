@@ -1,0 +1,43 @@
+{
+  "division": 1,
+  "colonne": "14 — profession, occupation ou métier ; 15 — marié ou en veuvage",
+  "pages": {
+    "1": {
+      "prof": { "1": "Cultivateur", "13": "Domestique", "14": "Domestique", "15": "Domestique",
+                "16": "Journalier", "22": "Journalier" },
+      "etat": "MM-------------MM----MM--"
+    },
+    "2": {
+      "prof": { "3": "Journalier", "8": "Journalier", "11": "Journalier", "12": "Arrimeur",
+                "14": "Journalier", "17": "Journalier", "19": "Voyageur", "20": "Médecin" },
+      "etat": "--MM---MMVM-M---MM-MM----"
+    },
+    "3": {
+      "prof": { "1": "Cuisinière", "2": "Domestique", "3": "Menuisier", "5": "Mécanicien",
+                "8": "Mécanicien", "9": "Marchand", "11": "Marchand", "16": "Mouleur",
+                "19": "Colleur", "24": "Charron" },
+      "etat": "--MMMMV-MM-----MM-MM--VMM",
+      "notes": { "16": "profession lue « Meunier » au dépouillement ; le manuscrit porte « Mouleur » — la deuxième lettre est un o et le mot finit en « -eur », comme « Colleur » de la ligne 19" }
+    },
+    "4": {
+      "prof": { "7": "Batelier", "10": "Batelier", "11": "Batelier", "12": "Batelier",
+                "18": "Butcher", "24": "Mécanicien" },
+      "etat": "----V-MM---------MM----MM",
+      "notes": { "11": "la colonne 14 reprend au guillemet le « Batelier » de la ligne 10 ; le dépouillement avait laissé la case vide",
+                 "12": "la colonne 14 reprend au guillemet le « Batelier » de la ligne 10 ; le dépouillement avait laissé la case vide" }
+    },
+    "5": {
+      "prof": { "3": "Colleur", "7": "Boucher", "9": "Journalier", "13": "Journalier",
+                "15": "Colleur", "23": "Journalier", "25": "Journalier" },
+      "etat": "-VMM--MMMM--MMMM-----VMM-"
+    },
+    "6": {
+      "prof": { "5": "Cultivateur", "10": "Journalier", "11": "Couturière", "12": "Journalier",
+                "13": "Journalier", "14": "Marchande", "15": "Arrimeur", "18": "Batelier",
+                "22": "Batelier", "23": "Journalier" },
+      "etat": "----MM--VMM---V--MM---MM-",
+      "certain": [15],
+      "notes": { "15": "profession lue « Chrémeur » au dépouillement ; le manuscrit porte « Arrimeur », de la même main et du même tracé que l'« Arrimeur » de la page 2 ligne 12" }
+    }
+  }
+}
