@@ -265,3 +265,14 @@ Deux écritures seulement, les plus propres du chantier : **p32 L18 et L19**,
 Hébert Emé et George, qui reçoivent le « Cordonnier » que la colonne reprend au
 « do » de la ligne 17. Un seul « Ve. » à signaler, p34 L10 (Chamberland Pitale,
 71 ans, pilote).
+
+## Lot pages 37-42 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-037-042.json`
+
+Une écriture : **p38 L16, Brochu Louis, 67 ans**, qui reçoit le « Journalier »
+repris au guillemet de la ligne 15 — et que la colonne 15 porte « Ve. ». Trois
+« Ve. » au total (p38 L16, p39 L4 Hamel Flore 51 ans, p41 L21 Boivin Michel).
+
+Ces pages-là sont les plus fidèles du chantier : 149 rangées sur 150 d'accord au
+mot près.
