@@ -8,8 +8,16 @@ Image.MAX_IMAGE_PIXELS = None
 
 @lru_cache(maxsize=4)
 def half_raw(part, idx, dpi):
-    """part 0-2, idx = numéro de demi-page 1..30 dans cette partie"""
+    """part 0-2, idx = numéro de demi-page 1..2N dans cette partie"""
     doc = pdfium.PdfDocument(PARTS[part])
+    if not 1 <= idx <= 2 * len(doc):
+        # Le garde-fou du découpage : un recueil qui ne porte pas la demi-page
+        # demandée n'est pas celui pour lequel `locate` a été calibré. Mieux vaut
+        # s'arrêter que rendre une page voisine, qui aurait l'air d'une page.
+        raise IndexError(
+            f"recueil {part} : demi-page {idx} demandée, {2*len(doc)} disponibles. "
+            f"Le découpage de `d1.locate` ne correspond pas à ce recueil — "
+            f"passer `python3 verif_pages.py` et le recalibrer.")
     img = doc[(idx - 1) // 2].render(scale=dpi/72).to_pil()
     w, h = img.size
     return img.crop((0, 0, w, h//2) if idx % 2 == 1 else (0, h//2, w, h))

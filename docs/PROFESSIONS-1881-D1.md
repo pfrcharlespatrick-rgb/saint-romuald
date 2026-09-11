@@ -194,3 +194,47 @@ dépouillement. Laissé tel quel.
 Sept « Ve. » de plus, non écrits, dont un **contre** le fichier : p19 L17
 (Lambert J.Baptiste, 45, que le fichier donne pour marié), p20 L14, p21 L10,
 p22 L3, p22 L4, p23 L1, p23 L12.
+
+## Le découpage des recueils — un piège qui ne se voit pas
+
+**Arrivé à la page 30, la planche a rendu une carte de titre.** `d1.locate`
+plaçait les pages 30 à 59 dans le deuxième recueil à l'index `ms - 29` ; or le
+fichier déposé dans cette session sous ce nom **porte le manuscrit entier, pages
+1 à 89**, à l'index `ms + 1`. Le même nom de fichier, d'un dépôt à l'autre, a
+désigné tantôt un tiers du manuscrit, tantôt le tout.
+
+Ce qu'il faut en retenir : **une erreur d'un rang sur ce découpage ne se voit
+pas.** Si la carte de titre n'avait pas été là, la planche aurait rendu la page
+1 à la place de la page 30 — une page qui a l'air d'une page. Et tout ce qui
+aurait été lu ensuite aurait été juste, au manuscrit près.
+
+Trois choses sont donc en place :
+
+- `verif_pages.py` monte en planche le **« PAGE n » imprimé** en tête des
+  demi-pages demandées. Trois sondages par recueil fixent le découpage.
+  `--tout` prend le premier, le deuxième, le troisième et le dernier de chacun ;
+- `render1.half_raw` **refuse** une demi-page que le recueil ne porte pas, en
+  nommant le recalibrage à faire, plutôt que de rendre autre chose ;
+- le découpage relevé est écrit en tête de `d1.py`, avec la date de son relevé.
+
+Relevé sur les recueils de cette session : partie1 → pages 1-29 (idx = ms+1),
+partie2 → pages 1-89 (idx = ms+1, le recueil complet), partie3 → pages 60-89
+(idx = ms-59). Les pages 1 à 29 déjà lues n'étaient pas touchées : leur
+découpage était le bon, et les noms de chaque planche concordaient rangée par
+rangée avec le registre.
+
+## Lot pages 25-30 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-025-030.json`
+
+| | |
+|---|---|
+| p25 L4 — Blais Marie Anne | → **« Domestique »**, écrit en toutes lettres. |
+| p25 L25 — Paradis Joseph | → **« Journalier »**, au guillemet. |
+| p27 L1 — Montigny François, 96 ans | « Rentier » → **case vide**. Le manuscrit porte un tiret ; il y est « Ve. » et sans métier. |
+| p28 L25 — Roy Joseph | → **« Journalier »**, au guillemet. |
+
+La colonne 15 rend quatre « Ve. » (p25 L22, p27 L1, p29 L9, p29 L22) et — c'est
+nouveau — **trois « M » que le dépouillement n'avait pas relevés** : p27 L2 et L3
+(Montigny Thomas, 61 ans, et Marie, mariés tous les deux), p28 L1 (Ménard Diana).
+Le manque ne portait donc pas que sur les veufs.

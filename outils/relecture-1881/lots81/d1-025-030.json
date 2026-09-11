@@ -1,0 +1,45 @@
+{
+  "division": 1,
+  "colonne": "14 — profession, occupation ou métier ; 15 — marié ou en veuvage",
+  "pages": {
+    "25": {
+      "prof": { "4": "Domestique", "5": "Journalier", "7": "Journalier", "8": "Journalier",
+                "12": "Journalier", "20": "Marchand", "21": "Marchand", "23": "Journalier",
+                "24": "Journalier", "25": "Journalier" },
+      "etat": "----MM-----MM--------V---",
+      "notes": { "4": "la colonne 14 porte « Domestique » ; le dépouillement avait laissé la case vide",
+                 "25": "la colonne 14 reprend au guillemet le « Journalier » de la ligne 23 ; le dépouillement avait laissé la case vide" }
+    },
+    "26": {
+      "prof": { "3": "Journalier", "5": "Couturière", "6": "Ferblantier", "14": "Batelier",
+                "18": "Journalier", "20": "Journalier" },
+      "etat": "--MM---------MM--MMMM----"
+    },
+    "27": {
+      "prof": { "2": "Journalier", "6": "Journalier", "8": "Meublier", "10": "Journalier",
+                "12": "Journalier", "14": "Journalier", "19": "Journalier", "20": "Modiste",
+                "25": "Journalier" },
+      "etat": "VMM--MMMMMM--MM---MM----M",
+      "vider": [1],
+      "notes": { "1": "profession lue « Rentier » au dépouillement ; le manuscrit porte un tiret. Montigny François, 96 ans, y est porté « Ve. » et sans métier." }
+    },
+    "28": {
+      "prof": { "4": "Maçon", "6": "Boulanger", "8": "Maçon", "11": "Journalier",
+                "14": "Journalier", "16": "Journalier", "17": "Journalier", "18": "Journalier",
+                "19": "Journalier", "22": "Boulanger", "24": "Journalier", "25": "Journalier" },
+      "etat": "M--MM-----MM-MM------MM--",
+      "notes": { "25": "la colonne 14 reprend au guillemet le « Journalier » de la ligne 24 ; le dépouillement avait laissé la case vide" }
+    },
+    "29": {
+      "prof": { "6": "Journalier", "11": "Journalier", "12": "Journalier", "15": "Journalier",
+                "17": "Journalier", "18": "Journalier", "20": "Journalier", "23": "Journalier",
+                "25": "Journalier" },
+      "etat": "-----MM-V-----MM-----VMM-"
+    },
+    "30": {
+      "prof": { "2": "Journalier", "5": "Journalier", "9": "Charpentier", "13": "Journalier",
+                "15": "Journalier", "24": "Journalier" },
+      "etat": "-MM-MM--MM--MM---------MM"
+    }
+  }
+}
