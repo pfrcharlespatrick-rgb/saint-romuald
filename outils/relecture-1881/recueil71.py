@@ -344,7 +344,7 @@ def tranche(division, ms, moitie, scale=8, x0=0.085, nom=None):
     return p
 
 
-def lecture(division, ms, scale=8, x=(0.145, 0.81), nom=None):
+def lecture(division, ms, scale=8, x=(0.118, 0.81), nom=None):
     """La page entière en une image : les vingt rangées, colonnes 5 à 22.
 
     Une fois le déphasage annulé (`_angle`), les marges de numéros de ligne ne
