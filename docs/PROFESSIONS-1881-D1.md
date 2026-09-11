@@ -276,3 +276,16 @@ repris au guillemet de la ligne 15 — et que la colonne 15 porte « Ve. ». Tro
 
 Ces pages-là sont les plus fidèles du chantier : 149 rangées sur 150 d'accord au
 mot près.
+
+## Lot pages 43-48 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-043-048.json`
+
+Deux écritures, toutes deux des cases vides remplies : **p45 L11** (Bourassa
+Magloire, au guillemet du « Journalier » de la ligne 10) et **p46 L16** (Rotin
+George, au « do » du « Menuisier » de la ligne 15).
+
+Colonne 15 : deux « Ve. » (p46 L23 Simard Délina, p47 L21 Lockwell Flore), un
+« M » manquant (p47 L10) et — pour la première fois — **un « M » de trop** :
+p48 L2, Bilkey John, marchand de bois, que le fichier donne pour marié quand la
+case est vide au manuscrit.
