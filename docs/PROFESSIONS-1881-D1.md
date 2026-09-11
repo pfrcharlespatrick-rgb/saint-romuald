@@ -122,3 +122,42 @@ p11 L5, p11 L17, p11 L25, p12 L16 — et **un couple qui n'en est pas un** :
 > petite Virginie de la ligne 13 est née en décembre.
 
 Rien n'est écrit dans `etat_matrimonial`, là non plus.
+
+## Lot pages 13-18 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-013-018.json`
+
+Six écritures, dont **deux cases à vider** — ce qui n'était pas arrivé jusqu'ici :
+
+| | |
+|---|---|
+| p13 L20 — Pelletier Philippe, 16 ans | « Commis » → **« Cultivateur fils »**. Le « Commis » du dépouillement est le mot de la **ligne 21** ; le manuscrit porte ici « Cult. fils », le t de l'abréviation en exposant. |
+| p14 L11 — Guay George, 26 ans | « Boulanger » → **case vide**. Voir ci-dessous. |
+| p14 L16 — Caouette Rosalie, 53 ans | « Journalier » → **case vide**. Le manuscrit porte un tiret ; le « Journalier » est à la ligne 17, celle de son fils Jérémie. Elle est veuve et chef de ménage — l'un n'entraîne pas l'autre. |
+| p17 L16 — Larochelle Adelore | case vide → **« Charretier »**, au ditto « do » sous la ligne 15. |
+| p17 L25 — Gauvreau Antoine | « Prêtre[?] » → **« Prêtre Curé »**, en toutes lettres. Le point d'interrogation tombe. |
+| p18 L1 — Beaudet Alphonse | « Prêtre » → **« Prêtre Vicaire »**, en toutes lettres. |
+
+### « Not given » — la seule case du lot où le manuscrit refuse de répondre
+
+Page 14 ligne 11, Guay George. Le dépouillement lisait « Boulanger ». Le mot n'y
+est pas : la case porte, **d'une autre main que celle du recenseur — plus grasse,
+à la plume**, une annotation lue **« Not given »**. Ce n'est pas un métier, c'est
+un constat de bureau : la profession n'a pas été déclarée.
+
+C'est l'écart signalé de longue date dans `BILAN-RELECTURE.md` sous « un mot en
+"Not-" ». La case est vidée et la ligne marquée incertaine, la lecture de
+l'annotation n'étant pas hors de doute — mais **« Boulanger » n'est en aucun cas
+ce qui est écrit**.
+
+### Le ditto, deuxième et troisième fois
+
+Le recenseur reprend la valeur du dessus de trois façons, toutes rencontrées
+maintenant : le **guillemet** français (p4 L11-12, p18 L8-10), le **« do »**
+anglais (p8 L5-6, p15 L6, p17 L16, p18 L15), et le mot **répété en entier**
+(p15 L24-25, p17 L20). Aucune des trois n'a de sens hors de son contexte : c'est
+pourquoi la planche porte les vingt-cinq rangées d'un coup plutôt que des
+bandes.
+
+Trois « Ve. » de plus, non écrits : p14 L2 (Cameron Sophy, 65), p14 L16
+(Caouette Rosalie, 53), p16 L13 (Huard Lucie).
