@@ -421,3 +421,42 @@ professions rendues jusqu'ici.
 
 Six « Ve. » relevés sans être écrits : p74 L2 et L19, p75 L3 et L12, p76 L11,
 p78 L10.
+
+## Lot pages 79-84 — 149 rangées
+
+`outils/relecture-1881/lots81/d1-079-084.json`
+
+Six écritures, et **le plus gros glissement du chantier** :
+
+| | |
+|---|---|
+| p80 L18 — Sax P., 60 ans | « Bourgeois » → **« Prêtre »**. Le « Bourgeois » du dépouillement est le mot de la ligne 19. |
+| p80 L19 — Sax George, 54 ans | « Journalier » → **« Bourgeois »**. |
+| p80 L24 — Desroches Eugénie | « Commis » → **case vide** : le mot est à la ligne 25. |
+| p80 L25 — Desroches Georgiana | → **« Commis »**. |
+| p81 L10 — Clouston Johny, 56 ans | « Fermier » → **« Journalier »**. |
+| p83 L3 — Montminy Joseph, 48 ans | « Radigeur » → **case vide**, « Not given » une troisième fois. |
+
+### Il n'y a pas un seul fermier en division 1
+
+C'était le dernier. Les trois « Fermier » du fichier sont tombés un à un :
+deux étaient des **« Forman »** (pages 51 et 56), le troisième un **« Journalier »**
+écrit en toutes lettres. La division 1 de Saint-Romuald, en 1881, ne compte
+aucun fermier — des journaliers, des contremaîtres, des gens de chantier et de
+chaloupe. Les huit « Cultivateur » du fichier restent, eux, et se lisent tels
+quels au manuscrit.
+
+### « Not given », troisième fois — et « Radigeur » s'explique
+
+Page 83 ligne 3 : le même mot, la même main. Et le dépouillement en avait tiré
+« Radigeur », mot qui n'existe pas — comme il avait tiré « Boulanger » des deux
+autres. **Les trois cases où le manuscrit refuse de répondre sont les trois
+seules cases du recensement où le dépouillement a inventé un métier.**
+
+### Un prêtre retrouvé
+
+Page 80 ligne 18, « Sax P. » est porté **Prêtre**, et le « Bourgeois » que le
+fichier lui donnait appartient à son voisin de ligne. Le dépouillement avait
+glissé d'un rang sur ce bloc-là et comblé le trou par un « Journalier » qui n'est
+nulle part. La division compte donc, en 1881, trois prêtres — le curé Gauvreau
+(p17), le vicaire Beaudet (p18) et celui-ci — plus les cinq frères de l'école.
