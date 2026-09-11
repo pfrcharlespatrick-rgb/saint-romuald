@@ -1,0 +1,25 @@
+{
+  "division": 1,
+  "insertions": [
+    { "page": 75,
+      "apres": { "page": 74, "ligne": 20 },
+      "personne": {
+        "nom": "King", "prenom": "Maggie", "sexe": "F", "age": "5",
+        "lieu_naissance": "Québec", "religion": "Catholique", "origine": "Irlandaise",
+        "profession": "", "etat_matrimonial": "", "ecole": false,
+        "sait_lire": true, "sait_ecrire": true, "alphabetisation_source": "negatif_1871",
+        "incertain": true,
+        "remarque": "Relecture du manuscrit : ligne omise par le dépouillement. La page 75 porte vingt lignes et le fichier n'en avait que dix-huit — les deux derniers enfants de Samuel King, à la page précédente, manquaient."
+      } },
+    { "page": 75,
+      "apres": { "page": 74, "ligne": 20 },
+      "personne": {
+        "nom": "King", "prenom": "Croford", "sexe": "M", "age": "7",
+        "lieu_naissance": "Québec", "religion": "Catholique", "origine": "Irlandaise",
+        "profession": "", "etat_matrimonial": "", "ecole": true,
+        "sait_lire": true, "sait_ecrire": true, "alphabetisation_source": "negatif_1871",
+        "incertain": true,
+        "remarque": "Relecture du manuscrit : ligne omise par le dépouillement. Il ouvre la page 75, coché à l'école, avant sa sœur Maggie. Le prénom se lit « Croford »."
+      } }
+  ]
+}
