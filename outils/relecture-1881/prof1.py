@@ -1,0 +1,77 @@
+"""La colonne 14 de la division 1 de 1881 — la profession, enfin dans le cadre.
+
+POURQUOI CE FICHIER. La relecture de 1881 s'est faite sur la fenêtre
+`REF_X0F, REF_X1F = 0.075, 0.420` de `d1.py`, qui s'arrête juste après la colonne
+des âges. Les colonnes 14 (profession) et 15 (marié ou en veuvage) n'ont donc
+jamais été dans le cadre — ni pour être vérifiées, ni même pour être lues. Les
+667 professions du fichier viennent du dépouillement seul, et les 1 522 cases
+vides n'ont pas plus été regardées que les autres.
+
+Les deux constantes ne bougent pas : elles servent au recalage entre pages
+(`geometry`, `_shift`), et les élargir déréglerait l'alignement. On passe donc
+par des fenêtres à soi, **exprimées dans le repère de la page de référence** et
+décalées page à page du même `dx` que le cadre — sinon le recalage serait perdu
+en chemin.
+
+LA PLANCHE. Les colonnes utiles sont aux deux bouts du formulaire : les noms en
+7, la profession en 14. Entre les deux, six colonnes déjà dépouillées qui ne
+feraient qu'écarter l'œil et diluer l'image. On les découpe donc séparément et
+on les recolle côte à côte :
+
+    nom (7) | profession (14) | marié ou en veuvage (15) | nos de ligne
+
+La marge des numéros de ligne vient de l'autre bord de la page. C'est elle qui
+permet de lire la planche seule : **le numéro imprimé en bout de rangée dit à
+quelle ligne on est**, sans avoir à recaler à l'œil. Même parade que dans
+`planche.py`, à l'autre bout du formulaire.
+
+Une page tient ainsi sur une image, ses vingt-cinq rangées d'un coup.
+
+    python3 prof1.py 1 2 3 --sortie=/tmp/img
+"""
+import sys
+
+sys.path.insert(0, __file__.rsplit('/', 1)[0])
+from d1 import geometry, half_image, REF_X0F
+from PIL import Image
+
+# Bords relevés sur l'en-tête imprimé de la page 1, dans le repère de la référence.
+NOM = (0.225, 0.345)          # colonne 7, les noms
+PROF = (0.585, 0.700)         # colonnes 14 et 15
+NUMEROS = (0.873, 0.900)      # la marge des numéros de ligne, à droite
+FENETRES = (NOM, PROF, NUMEROS)
+
+SEPARATEUR = 6                # filet blanc entre deux fenêtres recollées
+
+
+def planche(ms, dpi=500, fenetres=FENETRES, l0=1, l1=25, sortie='.', tag='prof'):
+    """Recolle côte à côte les fenêtres utiles des rangées `l0` à `l1` de la page `ms`."""
+    x0f, _, y0f, sf = geometry(ms)
+    dx = x0f - REF_X0F                       # le recalage de cette page-là
+    img = half_image(ms, dpi)
+    W, H = img.size
+    top, rh = y0f * H, sf * H
+    haut = int(max(0, top + (l0 - 1) * rh - rh * 0.40))
+    bas = int(min(H, top + l1 * rh + rh * 0.40))
+    morceaux = [img.crop((int((a + dx) * W), haut, int((b + dx) * W), bas)) for a, b in fenetres]
+    larg = sum(m.width for m in morceaux) + SEPARATEUR * (len(morceaux) - 1)
+    out = Image.new('L', (larg, bas - haut), 255)
+    x = 0
+    for m in morceaux:
+        out.paste(m.convert('L'), (x, 0))
+        x += m.width + SEPARATEUR
+    f = f"{sortie}/d1_ms{ms:02d}_{tag}_L{l0:02d}-{l1:02d}.png"
+    out.save(f)
+    return f, out.size
+
+
+if __name__ == '__main__':
+    args = [a for a in sys.argv[1:] if not a.startswith('--')]
+    sortie, dpi, l0, l1 = '.', 500, 1, 25
+    for a in sys.argv[1:]:
+        if a.startswith('--sortie='): sortie = a.split('=', 1)[1]
+        if a.startswith('--dpi='): dpi = int(a.split('=', 1)[1])
+        if a.startswith('--lignes='): l0, l1 = (int(x) for x in a.split('=', 1)[1].split('-'))
+    for ms in (int(a) for a in args):
+        f, taille = planche(ms, dpi=dpi, l0=l0, l1=l1, sortie=sortie)
+        print(f, taille)
