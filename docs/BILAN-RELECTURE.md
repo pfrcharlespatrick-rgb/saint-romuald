@@ -18,7 +18,7 @@ Les journaux de campagne restent la référence de détail :
 | Jeu | Personnes | Maisons | Familles | Pages | `incertain` | Relu au manuscrit |
 |---|---:|---:|---:|---:|---:|---|
 | 1871 D1 | **1 543** | 217 | 288 | 78 | 440 (29 %) | **oui, intégralement** |
-| 1871 D2 | 1 457 | 178 | 249 | 73 | 547 (38 %) | pages 1 à 15 seulement |
+| 1871 D2 | 1 457 | 178 | 249 | 73 | 422 (29 %) | pages 1 à 35 seulement |
 | 1881 D1 | 2 189 | 349 | 400 | 88 | 153 (7 %) | oui, intégralement |
 | 1881 D2 | 1 452 | 249 | 267 | 59 | 152 (10 %) | oui, intégralement |
 | 1891 D1 | 3 548 | 637 | 644 | 142 | 1 100 (31 %) | oui, intégralement |
@@ -242,18 +242,27 @@ Le drapeau `incertain` passe de 98 à 440 lignes : ce n'est pas une dégradation
 la trace de chaque lecture que la relecture a tranchée autrement que le dépouillement,
 avec la lecture d'origine conservée en remarque.
 
-### Division 2 — pages 1 à 15, le reste hors d'atteinte
+### Division 2 — pages 1 à 35, le reste hors d'atteinte
 
-Les recueils PDF ne portent de cette division que les **pages 1 à 15** : la dernière
-page PDF du recueil 5 répète les pages 14 et 15 au lieu de porter les 16 et 17. **Les
-pages 16 à 73 demanderont d'autres images.**
+Les recueils PDF ne portent de cette division que les **pages 1 à 35** : le recueil 5
+s'arrête à la page 15 — sa dernière page PDF répète les pages 14 et 15 — et un sixième
+recueil, joint plus tard, reprend aux pages 16 à 35. **Les pages 36 à 73 demanderont
+d'autres images.**
 
-Sur ces quinze pages, la division 2 était déjà relevée à la main — 215 des 300 lignes
-portent une correction de Patrick. La relecture n'a donc versé que 17 champs, et
+**Pages 1 à 15 : Patrick les avait déjà relevées à la main** — 215 des 300 lignes
+portent une de ses corrections. La relecture n'a donc versé que 17 champs, et
 **signalé 90 champs sans y toucher**, comme le veut la règle du projet. Le plus gros
 écart tient en trois pages : le fichier y donne 52 personnes sur 60 pour ne sachant ni
 lire ni écrire, quand le manuscrit ne coche que douze lignes, toutes d'adultes. Le
 détail est dans `RELECTURE-1871-D2.md` ; la décision revient à Patrick.
+
+**Pages 16 à 35 : tout autre chose.** Le dépouillement y avait semé ses doutes dans
+les valeurs elles-mêmes — `"age": "54 [?]"`, `"lieu_naissance": "Q [?]"` — 190 valeurs
+sur 128 des 399 lignes, plus quinze âges laissés vides. Le manuscrit les tranche
+toutes : **il ne reste ni crochet ni âge vide**, et les lignes marquées `incertain`
+tombent de 128 à 9. La colonne 16, vide de bout en bout sur ces pages, rend quatre
+mariages des douze derniers mois ; quinze nourrissons retrouvent leur âge et leur
+mois ; six patronymes sont rendus.
 
 ### Ce qui reste ouvert en 1871
 

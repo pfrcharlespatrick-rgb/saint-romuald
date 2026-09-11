@@ -1,18 +1,34 @@
 # Recensement de 1871, division 2 — relecture au manuscrit
 
-**Pages 1 à 15 relues.** C'est tout ce que les cinq recueils PDF du sous-district
+**Pages 1 à 35 relues.** C'est tout ce que les six recueils PDF du sous-district
 C (Etchemin) portent de cette division.
 
 ## Ce que les recueils portent vraiment
 
-Le journal de la division 1 annonçait « division 2, pages 1 à 17 ». **C'est 1 à
-15.** La dernière page PDF du recueil 5 — deux cadres, comme les autres — ne
-porte pas les pages 16 et 17 : elle **répète les pages 14 et 15**, reprise de
-vue au moment du microfilmage. Les deux cadres portent en toutes lettres
-« Page 14 » et « Page 15 » dans leur en-tête.
+Le journal de la division 1 annonçait « division 2, pages 1 à 17 ». **Le
+recueil 5 s'arrête à la page 15** : sa dernière page PDF — deux cadres, comme
+les autres — ne porte pas les pages 16 et 17, elle **répète les pages 14 et
+15**, reprise de vue au moment du microfilmage. Les deux cadres portent en
+toutes lettres « Page 14 » et « Page 15 » dans leur en-tête.
 
-**Les 58 dernières pages de la division 2 — 16 à 73 — ne sont dans aucun de ces
-recueils.** Elles demanderont d'autres images.
+**Un sixième recueil**, joint plus tard, reprend exactement là : **pages 16 à
+35**, deux cadres par page PDF, sans irrégularité.
+
+### Attention au nom des fichiers
+
+Ce sixième recueil s'appelle **« Recensements_1871NewLiverpool_Partie2 »** —
+comme le deuxième recueil du premier envoi, qui tient tout autre chose : les
+pages 18 à 37 de la **division 1**. Le nom ne les distingue pas. Pris au nom,
+l'outil aurait lu une division pour l'autre sans rien dire.
+
+`recueil71.py` les sépare à la **taille du fichier**, qui ne bouge pas d'un
+envoi à l'autre (7 698 348 octets pour la division 1, 8 496 307 pour la
+division 2), et **refuse de choisir** quand il ne reconnaît ni l'une ni l'autre
+plutôt que de prendre le premier venu. Le second est le « recueil 6 » dans tout
+le module.
+
+**Les 38 dernières pages de la division 2 — 36 à 73 — ne sont dans aucun
+recueil.** Elles demanderont d'autres images.
 
 ## Une division déjà relevée à la main
 
@@ -116,3 +132,63 @@ Les pages **4, 7, 8, 10, 12, 14 et 15** concordent avec le manuscrit sur les
 quatre colonnes à marques, à la ligne près. C'est ce qui donne confiance dans
 les écarts relevés ailleurs : la méthode a été contrôlée sur des pages à vérité
 connue avant d'être opposée à quoi que ce soit.
+
+## Les pages 16 à 35 — une tout autre affaire
+
+Patrick n'a pas relu ces pages à la main : au-delà de la page 20, aucune ligne
+ne porte de correction. Et le dépouillement y est **d'une tout autre facture**
+que sur les quinze premières pages — il y a semé ses doutes **dans les valeurs
+elles-mêmes** :
+
+    "age": "54 [?]"      "lieu_naissance": "Q [?]"      "origine": "Anglaise [?]"
+    "etat_matrimonial": "V [?]"      "nom": "Granell [?]"      "age": ""
+
+**128 des 399 lignes** en portaient au moins un, pour **190 valeurs** en tout,
+et **quinze âges étaient tout simplement vides**. Le manuscrit les tranche.
+
+| | avant | après |
+|---|---:|---:|
+| valeurs entre crochets | 190 | **0** |
+| âges vides | 15 | **0** |
+| mariés dans les douze derniers mois | 0 | **8** |
+| lignes marquées `incertain` | 128 | **9** |
+
+### Ce que la relecture a trouvé
+
+- **La colonne 16 était vide de bout en bout** sur ces vingt pages, alors que le
+  manuscrit y porte quatre mariages des douze derniers mois : J. Baptiste
+  Croteau et Marie en février (p. 16), William Vachon et Aveline en juin
+  (p. 18), Joseph Huard et Julie en octobre (p. 28), Benjamin Bolduc et Délima
+  en juillet (p. 33).
+- **Quinze nourrissons rendus à leur âge et à leur mois.** Le dépouillement
+  butait sur la fraction sur douze et laissait la case vide ; le manuscrit donne
+  les deux, et ils se recoupent — un enfant de 9/12 porte « Jull. », à neuf mois
+  du 2 avril 1871.
+- **Un arbitrage explicite rendu.** Le dépouillement notait, pour Hubert
+  Roberge (p. 20), « âge maintenu 54 [?] en attente d'arbitrage », craignant une
+  lecture « 34 » et un doublon avec l'Hubert Roberge de 33 ans de la maison 41.
+  Le manuscrit lit **54** sans ambiguïté : ce sont bien deux hommes différents.
+- **« Timber Tower », le métier qui revient trois fois.** Le dépouillement le
+  lisait « Timber tower [?] » sans y croire ; le manuscrit l'écrit en toutes
+  lettres page 26, pour Charles Ward et William Andrew. Il avait raison.
+- **Trois lignes que l'index de BAC ne porte pas** — page 33, la famille de
+  Benjamin Bolduc — sont bien au manuscrit, et lisibles : Bolduc (non
+  « Bilodeau »), 23 ans, marié en juillet, avec Délima, 18 ans, et Emma, un
+  mois.
+- **Les Allen sont nés en Irlande** (p. 22), les Brown sont de l'Église
+  d'Écosse (p. 25-26), les Lee catholiques (p. 30) : le guillemet de reprise,
+  encore, que le dépouillement n'avait pas suivi.
+- **Six patronymes rendus** : « Savard », « Sinjohn », « Cegney », « Granell »,
+  « Bolduc », « Courcy ».
+- **Une trentaine de marques** des colonnes 15, 17, 18 et 19 remises à la bonne
+  ligne — dont sept écoliers que le dépouillement avait manqués.
+
+### Ce qui reste
+
+Neuf lignes restent marquées `incertain` sur les 399, et elles le sont pour des
+raisons que le manuscrit ne lève pas : un numéro de famille douteux (p. 23), le
+rattachement des enfants Paré (p. 27), deux âges que le dépouillement discutait
+déjà (p. 30 et 31).
+
+**Les pages 36 à 73** — 1 058 personnes, dont 403 valeurs encore entre
+crochets — attendent leurs images.
