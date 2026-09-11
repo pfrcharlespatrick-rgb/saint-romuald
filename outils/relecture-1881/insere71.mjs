@@ -23,9 +23,19 @@ const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..
    qu'on écrit à côté. On insère donc à la bonne place dans l'ordre des visites,
    puis on renumérote la page **d'un seul tenant**, de 1 à 20.
 
-   Contrôles avant écriture : la page doit compter vingt lignes une fois la
-   personne ajoutée, aucun identifiant ne doit se retrouver en double, et
-   l'ancre doit exister. Sinon on s'arrête sans rien écrire.
+   Quand l'insertion fait déborder la page, la renumérotation doit porter sur
+   plusieurs pages à la suite. On le dit par `renumeroter` :
+
+     "renumeroter": [{ "de": 60, "a": 61 }]
+
+   Les personnes de la plage sont alors reprises dans l'ordre du registre et
+   redistribuées vingt par page — ce qui ramène sur la page suivante la ligne
+   que le dépouillement avait gardée sur la précédente. Sans `renumeroter`,
+   chaque page touchée est renumérotée seule.
+
+   Contrôles avant écriture : chaque plage doit compter vingt lignes par page
+   une fois les personnes ajoutées, aucun identifiant ne doit se retrouver en
+   double, et l'ancre doit exister. Sinon on s'arrête sans rien écrire.
 
    Les identifiants changent : passer ensuite `node outils/analyse-filiation.mjs`.
 */
@@ -66,22 +76,35 @@ for (const ins of plan.insertions) {
               `, famille ${pose.f.no_famille}`);
 }
 
-// Renumérotation d'un seul tenant des pages touchées, dans l'ordre du registre.
-for (const page of [...pages].sort((x, y) => Number(x) - Number(y))) {
+// Les plages à renuméroter : celles du plan, plus les pages touchées qui n'y
+// figurent pas encore (chacune seule).
+const plages = (plan.renumeroter || []).map((r) => [Number(r.de), Number(r.a)]);
+for (const page of pages)
+  if (!plages.some(([a, b]) => Number(page) >= a && Number(page) <= b))
+    plages.push([Number(page), Number(page)]);
+plages.sort((x, y) => x[0] - y[0]);
+
+// Renumérotation d'un seul tenant, dans l'ordre du registre.
+for (const [de, a] of plages) {
   const suite = [];
-  for (const m of D.maisons) for (const f of m.familles || []) for (const p of f.membres || [])
-    if (String(p.page_ms) === page) suite.push(p);
-  if (suite.length !== 20)
-    throw new Error(`page ${page} : ${suite.length} lignes après insertion, 20 attendues`);
+  for (const m of D.maisons) for (const f of m.familles || []) for (const p of f.membres || []) {
+    const n = Number(p.page_ms);
+    if (n >= de && n <= a) suite.push(p);
+  }
+  const attendu = 20 * (a - de + 1);
+  if (suite.length !== attendu)
+    throw new Error(`pages ${de} à ${a} : ${suite.length} lignes après insertion, ${attendu} attendues`);
   const bouge = [];
   suite.forEach((p, i) => {
-    const ligne = String(i + 1);
+    const page = String(de + Math.floor(i / 20));
+    const ligne = String((i % 20) + 1);
     const neuf = `1871-D${plan.division}-P${page.padStart(3, '0')}-L${ligne.padStart(2, '0')}`;
-    if (p.id !== neuf) bouge.push(`${p.id} → L${ligne.padStart(2, '0')}   ${p.prenom} ${p.nom}`);
+    if (p.id !== neuf) bouge.push(`${p.id} → p${page}:L${ligne.padStart(2, '0')}   ${p.prenom} ${p.nom}`);
+    p.page_ms = page;
     p.ligne = ligne;
     p.id = neuf;
   });
-  console.log(`\npage ${page} : ${bouge.length} identifiant(s) renumérotés`);
+  console.log(`\npages ${de} à ${a} : ${bouge.length} identifiant(s) renumérotés`);
   for (const l of bouge.slice(0, 8)) console.log('  ' + l);
   if (bouge.length > 8) console.log(`  … et ${bouge.length - 8} autres`);
 }
