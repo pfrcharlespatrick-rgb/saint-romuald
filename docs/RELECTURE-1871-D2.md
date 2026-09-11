@@ -321,15 +321,29 @@ leur mariage —, que le fichier porte déjà, et qui n'a pas bougé.
 
 ### Le trait de la ligne 13, page 20 : colonne 14, non colonne 17
 
-Une dernière valeur reste protégée, et celle-ci mérite d'être expliquée. Parmi les
-huit corrections venues du téléphone, Patrick coche l'école pour **James Roberge**
+Le dernier écart de toute la campagne mérite d'être expliqué. Parmi les huit
+corrections venues du téléphone, Patrick coche l'école pour **James Roberge**
 (p. 20 L13), seize ans. Le manuscrit porte bien un trait sur cette ligne — mais
 **dans la colonne 14**, à l'aplomb de « Navigateur », non dans la 17. Sa colonne 17
 porte un tiret ; le « 1 » de l'école est une rangée plus bas, sur Eusèbe, treize ans.
 
 Le trait est donc le **guillemet de reprise du métier du père** : il court de Hubert
 Roberge, ligne 9, jusqu'à ses trois fils — Joseph vingt-cinq ans, Louis dix-sept,
-James seize. Ce que Patrick avait vu était réel ; c'est sa colonne qui se décale, et
-il avait déjà rendu deux des trois « Navigateur » de sa main. **Le troisième a été
-versé** ; l'école de la ligne 13, que la règle protège, est signalée ici sans être
-touchée.
+James seize. Ce que Patrick avait vu était réel ; c'est la colonne qui se décale d'un
+cran, et il avait déjà rendu deux des trois « Navigateur » de sa main.
+
+**Le troisième a été versé, et l'école tranchée** sur son ordre. La colonne 17 de la
+page 20 porte désormais exactement ce que porte le manuscrit — lignes 5, 6, 7, 14,
+18 et 19.
+
+## Plus aucun refus
+
+**Aucun lot de la campagne de 1871 ne signale plus d'écart entre la main de Patrick
+et le manuscrit**, sur les deux divisions. `fondre.mjs` ne trouve plus rien à verser :
+les recensements et le fichier de travail disent la même chose partout.
+
+Les vingt-deux signalements que `controle71.mjs` conserve sont tous vérifiés au
+manuscrit et tous légitimes : neuf fractions qui ne s'accordent pas au mois, toutes
+en division 1 et toutes de la main du recenseur ; huit veuves inscrites sous leur nom
+de fille ; deux nourrissons dont il a oublié le mois ; deux fils mariés vivant chez
+leurs parents ; un mariage des douze mois sans état matrimonial.

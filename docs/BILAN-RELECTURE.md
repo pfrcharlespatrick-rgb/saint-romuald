@@ -284,16 +284,15 @@ mois ; six patronymes sont rendus.
   entre familles, non des familles entre maisons.
 - **La famille 52 et la maison 55** manquent à la numérotation de la division 1.
 - **Les pages 36 à 73 de la division 2**, faute d'images.
-- **Un champ laissé à la main de Patrick** en division 2 : l'école de James Roberge
-  (p. 20 L13), seize ans. Le manuscrit porte bien un trait sur cette ligne, mais dans
-  la **colonne 14** — le guillemet de « Navigateur », qui court du père à ses trois
-  fils —, non dans la 17, qui y porte un tiret. Le troisième « Navigateur » a été
-  versé ; l'école, que la règle protège, est signalée sans être touchée.
-- Tout le reste est tranché : **les sept champs des colonnes 9 et 10** sur son ordre,
-  puis **les deux cases de la colonne 10 des Vachon**, vidées — à vingt-huit et
-  vingt-deux ans ils ne sont pas des nourrissons, et leur « Juin » est en colonne 16,
-  leur mariage, que le fichier porte déjà. **La division 2 n'a plus aucun désaccord
-  entre les colonnes 9 et 10.**
+- **Plus aucun champ en attente.** Tout ce que la relecture avait signalé sans y
+  toucher a été tranché par Patrick : les **sept champs des colonnes 9 et 10**, puis
+  les **deux cases de la colonne 10 des Vachon** — à vingt-huit et vingt-deux ans ils
+  ne sont pas des nourrissons, et leur « Juin » est en colonne 16, leur mariage, que
+  le fichier porte déjà —, puis l'**école de James Roberge** (p. 20 L13), où le trait
+  du manuscrit est en colonne 14, le guillemet de « Navigateur » qui court du père à
+  ses trois fils. **Aucun lot de 1871 ne signale plus d'écart entre sa main et le
+  manuscrit, sur les deux divisions**, et la division 2 n'a plus aucun désaccord entre
+  les colonnes 9 et 10.
 
 ### Le contrôle de cohérence, désormais permanent
 
