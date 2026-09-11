@@ -314,8 +314,22 @@ versées au recensement.
 **La division 2 n'a plus aucun désaccord entre la colonne 9 et la colonne 10.** Les
 neuf qui subsistent sont tous en division 1, et tous de la main du recenseur.
 
-Une seule valeur reste protégée : le **« Juin » de la colonne 10 pour William et
-Aveline Vachon** (p. 18, lignes 12 et 13). Ce n'est pas une fraction à corriger mais
-une case à vider — la colonne 10 recense les naissances, et à vingt-huit et
-vingt-deux ans ils ne sont pas des nourrissons. Leur « Juin » est en colonne 16, leur
-mariage, que le fichier porte déjà.
+**Les deux cases de la colonne 10 des Vachon ont été vidées ensuite**, sur son ordre
+également : la colonne 10 recense les naissances, et à vingt-huit et vingt-deux ans
+William et Aveline ne sont pas des nourrissons. Leur « Juin » est en colonne 16 —
+leur mariage —, que le fichier porte déjà, et qui n'a pas bougé.
+
+### Le trait de la ligne 13, page 20 : colonne 14, non colonne 17
+
+Une dernière valeur reste protégée, et celle-ci mérite d'être expliquée. Parmi les
+huit corrections venues du téléphone, Patrick coche l'école pour **James Roberge**
+(p. 20 L13), seize ans. Le manuscrit porte bien un trait sur cette ligne — mais
+**dans la colonne 14**, à l'aplomb de « Navigateur », non dans la 17. Sa colonne 17
+porte un tiret ; le « 1 » de l'école est une rangée plus bas, sur Eusèbe, treize ans.
+
+Le trait est donc le **guillemet de reprise du métier du père** : il court de Hubert
+Roberge, ligne 9, jusqu'à ses trois fils — Joseph vingt-cinq ans, Louis dix-sept,
+James seize. Ce que Patrick avait vu était réel ; c'est sa colonne qui se décale, et
+il avait déjà rendu deux des trois « Navigateur » de sa main. **Le troisième a été
+versé** ; l'école de la ligne 13, que la règle protège, est signalée ici sans être
+touchée.

@@ -284,13 +284,16 @@ mois ; six patronymes sont rendus.
   entre familles, non des familles entre maisons.
 - **La famille 52 et la maison 55** manquent à la numérotation de la division 1.
 - **Les pages 36 à 73 de la division 2**, faute d'images.
-- **Un champ laissé à la main de Patrick** en division 2 : le « Juin » de la colonne 10
-  pour William et Aveline Vachon (p. 18, lignes 12 et 13). Ce n'est pas une lecture à
-  reprendre mais une case à vider — la colonne 10 recense les naissances, et à
-  vingt-huit et vingt-deux ans ils ne sont pas des nourrissons ; leur « Juin » est en
-  colonne 16, leur mariage, que le fichier porte déjà. La règle du projet le protège.
-  Les **sept autres ont été tranchées** en faveur du manuscrit sur son ordre, et la
-  division 2 n'a plus aucun désaccord entre les colonnes 9 et 10.
+- **Un champ laissé à la main de Patrick** en division 2 : l'école de James Roberge
+  (p. 20 L13), seize ans. Le manuscrit porte bien un trait sur cette ligne, mais dans
+  la **colonne 14** — le guillemet de « Navigateur », qui court du père à ses trois
+  fils —, non dans la 17, qui y porte un tiret. Le troisième « Navigateur » a été
+  versé ; l'école, que la règle protège, est signalée sans être touchée.
+- Tout le reste est tranché : **les sept champs des colonnes 9 et 10** sur son ordre,
+  puis **les deux cases de la colonne 10 des Vachon**, vidées — à vingt-huit et
+  vingt-deux ans ils ne sont pas des nourrissons, et leur « Juin » est en colonne 16,
+  leur mariage, que le fichier porte déjà. **La division 2 n'a plus aucun désaccord
+  entre les colonnes 9 et 10.**
 
 ### Le contrôle de cohérence, désormais permanent
 
