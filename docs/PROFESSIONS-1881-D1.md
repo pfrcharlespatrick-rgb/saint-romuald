@@ -71,3 +71,54 @@ Les huit « Ve. » du lot : p2 L10 (Dubé Ursule, 59), p3 L7 (Taylor Anastasie,
 Bibianne, 80), p4 L5 (Boucher Esther, 62 — remarque « veuve »), p5 L2 (Lepard
 Marie, 73), p5 L22 (Cantin Josette, 80), p6 L9 (Nicolle Sophie, 74), p6 L15
 (Slater William, 37).
+
+## Lot pages 7-12 — 175 rangées (la page 6 reprise au passage)
+
+`outils/relecture-1881/lots81/d1-007-012.json`, `…/d1-006-fils.json`
+
+Cinq écritures :
+
+| | |
+|---|---|
+| p7 L12 — Kigly James, 34 ans | « Cabaretier » → **« Capitaine de bateau »**. Le manuscrit porte « Capitaine de b.at. », les deux dernières lettres en exposant. Marqué incertain : c'est l'abréviation qui reste à confirmer, pas le mot « Capitaine ». |
+| p8 L5 — Nolin Joseph, 21 ans | case vide → **« Menuisier »**. La colonne porte « do », le ditto anglais du recenseur, sous le « Menuisier » de la ligne 4. |
+| p8 L6 — Nolin Edouard, 18 ans | case vide → **« Menuisier »**, même ditto. |
+| p10 L7 — Cantin Narcisse, 17 ans | case vide → **« Fils »**. |
+| p6 L7 — Demers François, 17 ans | case vide → **« Fils »** (rectification du lot précédent). |
+
+### « fils » est une valeur de colonne, pas une remarque
+
+Les quatre cases sont de la même main et du même tracé — un « fils » à longue
+hampe, avec la coche du greffier. Aux lignes 16 et 17 de la page 87, **le
+dépouillement l'a bien relevé comme profession** ; aux pages 6 et 10, il l'avait
+versé en remarque. Les quatre disent la même chose : le fils majeur qui travaille
+sur la terre du père. Le lot les remet dans la colonne.
+
+### La coche du greffier, et pourquoi elle compte
+
+Chaque entrée de la colonne 15 est suivie d'un trait de pointage qui **déborde
+sur le bord gauche de la colonne 16**. Il ne faut pas le lire comme une marque
+d'école : il est plus gras, plus à gauche, et il suit toujours un « M. » ou un
+« Ve. ». À l'inverse, il confirme la lecture — une marque de la colonne 15 sans
+son trait de pointage mérite un second regard.
+
+C'est pour trancher ce genre de question que `prof1.py` sait désormais empiler
+la **réglette imprimée des numéros de colonne** au-dessus de la planche
+(`reglette=True`). Les colonnes 15 et 16 sont voisines et étroites ; une marque
+lue d'une colonne à côté est une erreur qu'aucune relecture ultérieure ne
+rattrape.
+
+### Ce que la colonne 15 a rendu sur ce lot
+
+Onze « Ve. » de plus — p8 L1, p8 L19, p9 L10, p10 L1, p10 L2, p10 L5, p11 L4,
+p11 L5, p11 L17, p11 L25, p12 L16 — et **un couple qui n'en est pas un** :
+
+> **Page 12, Bégin Rigobert, 38 ans.** Le manuscrit le porte « Ve. ». La ligne
+> suivante, « Bégin Marie », que le fichier donne pour son épouse de 40 ans avec
+> un « M » qui n'est nulle part au manuscrit, porte un tiret en colonne 15 — et
+> **une marque d'école en colonne 16**. Le complément notait déjà, sans pouvoir
+> conclure : « l'âge se lit « 6 », le dépouillement porte 40 ». Les trois signes
+> se répondent : Marie a six ans, elle est sa fille, et la mère est morte — la
+> petite Virginie de la ligne 13 est née en décembre.
+
+Rien n'est écrit dans `etat_matrimonial`, là non plus.

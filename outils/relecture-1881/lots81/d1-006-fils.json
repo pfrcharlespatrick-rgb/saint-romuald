@@ -1,0 +1,12 @@
+{
+  "division": 1,
+  "colonne": "14 — rectification de la page 6 : « fils » est une valeur de colonne, pas une remarque",
+  "pages": {
+    "6": {
+      "prof": { "5": "Cultivateur", "7": "Fils", "10": "Journalier", "11": "Couturière",
+                "12": "Journalier", "13": "Journalier", "14": "Marchande", "15": "Arrimeur",
+                "18": "Batelier", "22": "Batelier", "23": "Journalier" },
+      "notes": { "7": "la colonne 14 porte « fils », de la même main et du même tracé qu'aux pages 10 et 87 où le dépouillement l'a bien relevé comme profession ; ici il l'avait mis en remarque" }
+    }
+  }
+}

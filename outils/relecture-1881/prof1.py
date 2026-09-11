@@ -44,8 +44,26 @@ FENETRES = (NOM, PROF, NUMEROS)
 SEPARATEUR = 6                # filet blanc entre deux fenêtres recollées
 
 
-def planche(ms, dpi=500, fenetres=FENETRES, l0=1, l1=25, sortie='.', tag='prof'):
-    """Recolle côte à côte les fenêtres utiles des rangées `l0` à `l1` de la page `ms`."""
+def _recolle(img, dx, W, haut, bas, fenetres):
+    morceaux = [img.crop((int((a + dx) * W), haut, int((b + dx) * W), bas)) for a, b in fenetres]
+    larg = sum(m.width for m in morceaux) + SEPARATEUR * (len(morceaux) - 1)
+    bande = Image.new('L', (larg, bas - haut), 255)
+    x = 0
+    for m in morceaux:
+        bande.paste(m.convert('L'), (x, 0))
+        x += m.width + SEPARATEUR
+    return bande
+
+
+def planche(ms, dpi=500, fenetres=FENETRES, l0=1, l1=25, sortie='.', tag='prof', reglette=False):
+    """Recolle côte à côte les fenêtres utiles des rangées `l0` à `l1` de la page `ms`.
+
+    `reglette` empile par-dessus la rangée imprimée des numéros de colonne, prise
+    aux mêmes abscisses. C'est ce qui permet de dire sans hésiter dans quelle
+    colonne tombe une marque — 15 « marié ou en veuvage » et 16 « allant à
+    l'école » sont voisines et étroites, et une marque lue d'une colonne à côté
+    est une erreur qu'aucune relecture ultérieure ne rattrape.
+    """
     x0f, _, y0f, sf = geometry(ms)
     dx = x0f - REF_X0F                       # le recalage de cette page-là
     img = half_image(ms, dpi)
@@ -53,13 +71,13 @@ def planche(ms, dpi=500, fenetres=FENETRES, l0=1, l1=25, sortie='.', tag='prof')
     top, rh = y0f * H, sf * H
     haut = int(max(0, top + (l0 - 1) * rh - rh * 0.40))
     bas = int(min(H, top + l1 * rh + rh * 0.40))
-    morceaux = [img.crop((int((a + dx) * W), haut, int((b + dx) * W), bas)) for a, b in fenetres]
-    larg = sum(m.width for m in morceaux) + SEPARATEUR * (len(morceaux) - 1)
-    out = Image.new('L', (larg, bas - haut), 255)
-    x = 0
-    for m in morceaux:
-        out.paste(m.convert('L'), (x, 0))
-        x += m.width + SEPARATEUR
+    out = _recolle(img, dx, W, haut, bas, fenetres)
+    if reglette:
+        # La rangée imprimée « 13 14 15 … » tient juste au-dessus de la rangée 1.
+        r = _recolle(img, dx, W, int(top - 1.15 * rh), int(top - 0.10 * rh), fenetres)
+        pile = Image.new('L', (max(r.width, out.width), r.height + out.height + 4), 255)
+        pile.paste(r, (0, 0)); pile.paste(out, (0, r.height + 4))
+        out = pile
     f = f"{sortie}/d1_ms{ms:02d}_{tag}_L{l0:02d}-{l1:02d}.png"
     out.save(f)
     return f, out.size
@@ -73,5 +91,6 @@ if __name__ == '__main__':
         if a.startswith('--dpi='): dpi = int(a.split('=', 1)[1])
         if a.startswith('--lignes='): l0, l1 = (int(x) for x in a.split('=', 1)[1].split('-'))
     for ms in (int(a) for a in args):
-        f, taille = planche(ms, dpi=dpi, l0=l0, l1=l1, sortie=sortie)
+        f, taille = planche(ms, dpi=dpi, l0=l0, l1=l1, sortie=sortie,
+                            reglette='--reglette' in sys.argv)
         print(f, taille)

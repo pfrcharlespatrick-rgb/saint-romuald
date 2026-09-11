@@ -1,0 +1,44 @@
+{
+  "division": 1,
+  "colonne": "14 — profession, occupation ou métier ; 15 — marié ou en veuvage",
+  "pages": {
+    "7": {
+      "prof": { "2": "Colleur", "4": "Charpentier", "6": "Charpentier",
+                "12": "Capitaine de bateau", "16": "Maçon", "18": "Maçon", "20": "Maçon" },
+      "etat": "-MMMM------MM--MM--------",
+      "inc": [12],
+      "notes": { "12": "profession lue « Cabaretier » au dépouillement ; le manuscrit porte « Capitaine de b.at. », les deux dernières lettres en exposant — lu « Capitaine de bateau », l'abréviation restant à confirmer" }
+    },
+    "8": {
+      "prof": { "2": "Menuisier", "4": "Menuisier", "5": "Menuisier", "6": "Menuisier",
+                "7": "Orfèvre", "9": "Domestique", "10": "Manufacturier", "17": "Commis",
+                "18": "Commis", "20": "Domestique", "21": "Mécanicien", "22": "Journalier",
+                "24": "Journalier" },
+      "etat": "VMM---MM-MM-------V--MM--",
+      "notes": { "5": "la colonne 14 porte « do » — le ditto anglais du recenseur — sous le « Menuisier » de la ligne 4 ; le dépouillement avait laissé la case vide",
+                 "6": "la colonne 14 porte « do » — le ditto anglais du recenseur — sous le « Menuisier » de la ligne 4 ; le dépouillement avait laissé la case vide" }
+    },
+    "9": {
+      "prof": { "1": "Journalier", "6": "Forgeron", "11": "Mécanicien", "12": "Marchand",
+                "21": "Arrimeur" },
+      "etat": "-----MM--V-MM-------MM---"
+    },
+    "10": {
+      "prof": { "3": "Journalier", "5": "Cultivateur", "7": "Fils", "11": "Domestique",
+                "12": "Domestique", "13": "Domestique", "14": "Domestique", "15": "Cordonnier",
+                "17": "Meublier", "21": "Cordonnier", "22": "Meublier" },
+      "etat": "VV--V---------MM-----MM--",
+      "notes": { "7": "la colonne 14 porte « fils », comme à la page 6 ligne 7 et aux lignes 16-17 de la page 87 où le dépouillement l'a bien relevé comme profession ; ici il l'avait mis en remarque" }
+    },
+    "11": {
+      "prof": { "6": "Marchand", "12": "Domestique", "13": "Journalier", "18": "Journalier",
+                "21": "Journalier", "25": "Cordonnier" },
+      "etat": "---VVMM-----MM--V---MM--V"
+    },
+    "12": {
+      "prof": { "2": "Cordonnier", "9": "Couturière", "10": "Tanneur", "14": "Marchande",
+                "16": "Marchand", "22": "Journalier", "24": "Forgeron" },
+      "etat": "---------V-----V-----MMMM"
+    }
+  }
+}
