@@ -318,3 +318,19 @@ revient est « Journalier ». Ce n'est pas une preuve, mais cela va dans le sens
 d'un homme, et donc d'une colonne 8 corrigée par le recenseur lui-même.
 
 Cinq « Ve. » relevés sans être écrits : p51 L5, L17, L24, p52 L3 et L25.
+
+## Lot pages 55-60 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-055-060.json`
+
+Une écriture : **p56 L22, Carrier Angus, 60 ans**, « Fermier » → **« Forman »**.
+C'est le deuxième du chantier après celui de la page 51 : le dépouillement a lu
+deux fois « Fermier » là où le recenseur écrit « forman ». Il ne reste plus
+qu'un « Fermier » en division 1, page 81 ligne 10 (Clouston Johny) — à regarder
+quand la passe y arrivera. **Il n'y a presque pas de fermiers dans cette
+division ; il y a des contremaîtres.**
+
+La colonne 15 rend huit marques, dont trois de suite à la page 60 (lignes 6, 7
+et 8 : Côté Marie Elenard, puis Guay Edouard, 25 ans, que le fichier donne pour
+marié, et son voisin de ligne). Vérifiées sur la réglette imprimée : les trois
+« Ve. » sont bien en colonne 15, le trait de pointage à côté en 16.
