@@ -1070,7 +1070,7 @@
     "age": "10"
    },
    "1871-D2-P006-L17": {
-    "age": "5/12",
+    "age": "11/12",
     "incertain": false
    },
    "1871-D2-P006-L09": {
@@ -1201,7 +1201,7 @@
     "incertain": false,
     "religion": "E. d'Ecosse",
     "origine": "Anglaise",
-    "ne_douze_mois": "Juillet"
+    "ne_douze_mois": "Septembre"
    },
    "1871-D2-P010-L16": {
     "incertain": false,
@@ -1300,7 +1300,7 @@
    "1871-D2-P013-L17": {
     "age": "5/12",
     "incertain": false,
-    "ne_douze_mois": "Mai"
+    "ne_douze_mois": "Octobre"
    },
    "1871-D2-P013-L11": {
     "age": "59",
@@ -1371,7 +1371,7 @@
    "1871-D2-P015-L19": {
     "age": "10/12",
     "incertain": false,
-    "ne_douze_mois": "Janvier"
+    "ne_douze_mois": "Juin"
    },
    "1871-D2-P015-L13": {
     "age": "25",
@@ -1389,7 +1389,7 @@
    "1871-D2-P015-L09": {
     "age": "3/12",
     "incertain": false,
-    "ne_douze_mois": "Mars"
+    "ne_douze_mois": "Janvier"
    },
    "1871-D2-P015-L11": {
     "incertain": false
@@ -1414,7 +1414,7 @@
     "incertain": false
    },
    "1871-D2-P016-L16": {
-    "age": "11/12",
+    "age": "5/12",
     "incertain": false,
     "ne_douze_mois": "Novembre"
    },
@@ -1480,7 +1480,7 @@
    "1871-D2-P019-L20": {
     "age": "7/12",
     "incertain": false,
-    "ne_douze_mois": "Juillet"
+    "ne_douze_mois": "Août"
    },
    "1871-D2-P020-L01": {
     "nom": "Peltier",

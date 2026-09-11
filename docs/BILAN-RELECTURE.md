@@ -284,11 +284,13 @@ mois ; six patronymes sont rendus.
   entre familles, non des familles entre maisons.
 - **La famille 52 et la maison 55** manquent à la numérotation de la division 1.
 - **Les pages 36 à 73 de la division 2**, faute d'images.
-- **Deux champs laissés à la main de Patrick** en division 2, notés dans son journal :
-  le « Juin » de la colonne 10 pour William et Aveline Vachon (p. 18), qui appartient à
-  la colonne 16 — le mariage, non la naissance —, et le « Mai » de Rosalie Boucher
-  (p. 13 L17), que le manuscrit écrit « O. » pour octobre. La règle du projet les
-  protège ; un mot de sa part suffit à les trancher.
+- **Un champ laissé à la main de Patrick** en division 2 : le « Juin » de la colonne 10
+  pour William et Aveline Vachon (p. 18, lignes 12 et 13). Ce n'est pas une lecture à
+  reprendre mais une case à vider — la colonne 10 recense les naissances, et à
+  vingt-huit et vingt-deux ans ils ne sont pas des nourrissons ; leur « Juin » est en
+  colonne 16, leur mariage, que le fichier porte déjà. La règle du projet le protège.
+  Les **sept autres ont été tranchées** en faveur du manuscrit sur son ordre, et la
+  division 2 n'a plus aucun désaccord entre les colonnes 9 et 10.
 
 ### Le contrôle de cohérence, désormais permanent
 
@@ -308,11 +310,11 @@ Passé sur les 113 pages relues, il a rendu **neuf chaînes de colonne 15 à leu
 (toutes en bas de page, où le déphasage des prises de vue s'accumule), **replacé huit
 personnes** décrochées de leur maisonnée, rendu son âge à **Frédéric Gagné** (44 ans,
 non 13 : le dépouillement lui avait donné celui de son fils) et **vidé les derniers
-crochets** des pages relues. Il reste trente et un signalements sur 2 242 personnes,
+crochets** des pages relues. Il reste vingt-quatre signalements sur 2 242 personnes,
 tous vérifiés au manuscrit et tous légitimes — huit veuves inscrites sous leur nom de
-fille, que l'outil ne peut pas distinguer d'une erreur ; et dix-huit fractions qui ne
-s'accordent pas au mois, où c'est le recenseur qui se contredit, ou bien une valeur de
-la main de Patrick que la règle protège.
+fille, que l'outil ne peut pas distinguer d'une erreur ; et neuf fractions qui ne
+s'accordent pas au mois, toutes en division 1, où c'est le recenseur qui se contredit
+lui-même.
 
 ### Ce que le téléphone a rendu
 

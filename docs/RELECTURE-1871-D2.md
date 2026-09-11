@@ -236,9 +236,9 @@ notés ici pour qu'il tranche s'il le souhaite :
   à vingt-huit ans on n'est pas un nourrisson. Le « Juin » du manuscrit est en
   **colonne 16** — leur mariage, que le fichier porte déjà par ailleurs. La relecture
   proposait de vider la colonne 10 ; la main a écrit « Juin », elle l'emporte.
-- **Page 13, ligne 17 — Rosalie Boucher, 5/12.** La colonne 10 se lit « O. », octobre,
-  ce qui s'accorde avec cinq mois avant le 2 avril 1871. Le fichier porte « Mai », soit
-  onze mois. La main l'emporte.
+- ~~**Page 13, ligne 17 — Rosalie Boucher, 5/12.**~~ **Tranchée** en faveur du
+  manuscrit : la colonne 10 se lit « O. », octobre, ce qui s'accorde avec cinq mois
+  avant le 2 avril 1871, quand « Mai » en ferait onze.
 
 ### Ce que le contrôle a vérifié et trouvé juste
 
@@ -294,20 +294,28 @@ confirmées au manuscrit : un 8 pris pour un 3, un 11 pour un 7, un 1 pour un 4.
 **Les autres sont l'arithmétique du recenseur lui-même** — il écrit « 7/12 » et
 « Juillet » sur la même ligne, ce qui ferait neuf mois. Rendues telles quelles.
 
-### Ce qui reste à la main de Patrick
+### Les sept champs signalés, puis tranchés par Patrick
 
-Sept lignes où la relecture propose autre chose et passe son chemin, comme le veut
-la règle. Elles sont listées ici pour qu'il tranche s'il le souhaite :
+Sept lignes portaient une valeur de sa main que la relecture ne pouvait pas réécrire.
+Elles lui ont été montrées ; **il a tranché en faveur du manuscrit** — « tranche les
+sept ». Récrites dans `data/travail-personnel.json` par `trancher71.mjs`, puis
+versées au recensement.
 
 | | Sa main | Le manuscrit |
 |---|---|---|
-| p. 6 L17 Napoléon St-Hilaire | 5/12, Mai | 11/12 s'accorderait avec Mai |
-| p. 10 L18 John Henderson | Juillet | « S. » — septembre, qui s'accorde avec 7/12 |
-| p. 13 L17 Rosalie Boucher | Mai | « O. » — octobre, qui s'accorde avec 5/12 |
-| p. 15 L9 Elmire Lambert | Mars | « Jan. » — janvier, qui s'accorde avec 3/12 |
-| p. 15 L19 Florida Roberge | Janvier | « Ju. » — juin, qui s'accorde avec 10/12 |
-| p. 16 L16 Elzire Roberge | 11/12 | 5/12, qui s'accorde avec « N. » |
-| p. 19 L20 Ernest Hardy | Juillet | « Aot. » — août |
+| p. 6 L17 Napoléon St-Hilaire | 5/12, Mai | **11/12**, qui s'accorde avec Mai |
+| p. 10 L18 John Henderson | Juillet | **Septembre**, « S. », qui s'accorde avec 7/12 |
+| p. 13 L17 Rosalie Boucher | Mai | **Octobre**, « O. », qui s'accorde avec 5/12 |
+| p. 15 L9 Elmire Lambert | Mars | **Janvier**, « Jan. », qui s'accorde avec 3/12 |
+| p. 15 L19 Florida Roberge | Janvier | **Juin**, « Ju. », qui s'accorde avec 10/12 |
+| p. 16 L16 Elzire Roberge | 11/12 | **5/12**, qui s'accorde avec « N. » |
+| p. 19 L20 Ernest Hardy | Juillet | **Août**, « Aot. », qui s'accorde avec 7/12 |
 
-Plus les deux déjà signalées plus haut : le « Juin » de la colonne 10 des Vachon
-(p. 18) et le « Mai » de Rosalie Boucher (p. 13 L17).
+**La division 2 n'a plus aucun désaccord entre la colonne 9 et la colonne 10.** Les
+neuf qui subsistent sont tous en division 1, et tous de la main du recenseur.
+
+Une seule valeur reste protégée : le **« Juin » de la colonne 10 pour William et
+Aveline Vachon** (p. 18, lignes 12 et 13). Ce n'est pas une fraction à corriger mais
+une case à vider — la colonne 10 recense les naissances, et à vingt-huit et
+vingt-deux ans ils ne sont pas des nourrissons. Leur « Juin » est en colonne 16, leur
+mariage, que le fichier porte déjà.

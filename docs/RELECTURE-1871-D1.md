@@ -325,12 +325,12 @@ qu'il les a laissés.
 
 ### Ce qui reste signalé, et pourquoi
 
-Trente et un signalements survivent sur les 2 242 personnes relues, tous vérifiés au
-manuscrit et tous légitimes : dix-huit fractions qui ne s'accordent pas au mois — le
-recenseur se contredisant lui-même, ou une valeur de la main de Patrick que la règle
-protège —, deux nourrissons dont il a oublié le mois (pages 29 et 45), deux fils
-mariés vivant chez leurs parents, un mariage des douze mois sans état matrimonial,
-et les huit veuves ci-dessus. **Aucun mineur porté illettré, aucun enfant porté
+Vingt-quatre signalements survivent sur les 2 242 personnes relues, tous vérifiés au
+manuscrit et tous légitimes : neuf fractions qui ne s'accordent pas au mois — toutes
+en division 1, le recenseur se contredisant lui-même —, deux nourrissons dont il a
+oublié le mois (pages 29 et 45), deux fils mariés vivant chez leurs parents, un
+mariage des douze mois sans état matrimonial, la colonne 10 des deux Vachon que la
+main de Patrick protège, et les huit veuves ci-dessus. **Aucun mineur porté illettré, aucun enfant porté
 marié, aucun âge absent, aucune valeur entre crochets.**
 
 ## Et la division 2
