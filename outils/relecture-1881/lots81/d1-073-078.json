@@ -31,7 +31,7 @@
       "etat": "MM--------MM---MM----MMMM"
     },
     "78": {
-      "prof": { "1": "Journalier", "6": "Journalier", "10": "Cultivateur", "11": "Journalier",
+      "prof": { "1": "Journalier", "6": "Journalier", "10": "Cultivateur", "11": "Journalier", "12": "Journalier",
                 "18": "Journalier", "20": "Journalier", "21": "Mécanicien", "23": "Journalier",
                 "25": "Journalier" },
       "etat": "-----MM--V-------MM-MMMMM"

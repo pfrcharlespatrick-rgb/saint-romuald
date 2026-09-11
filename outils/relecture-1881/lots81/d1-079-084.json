@@ -21,8 +21,9 @@
       }
     },
     "81": {
-      "prof": { "1": "Journalier", "2": "Journalier", "8": "Journalier", "10": "Journalier",
-                "12": "Journalier", "17": "Journalier", "21": "Journalier", "25": "Journalier" },
+      "prof": { "1": "Journalier", "2": "Journalier", "3": "Journalier", "8": "Journalier",
+                "10": "Journalier", "12": "Journalier", "13": "Journalier", "14": "Journalier",
+                "15": "Journalier", "17": "Journalier", "21": "Journalier", "25": "Journalier" },
       "etat": "-------MMMM-----MM--MM--M",
       "notes": { "10": "profession lue « Fermier » au dépouillement ; le manuscrit porte « Journalier », écrit en toutes lettres — c'était le dernier « Fermier » de la division" }
     },

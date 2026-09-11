@@ -514,8 +514,8 @@ et celle de la colonne 15, qui n'est pas écrite.
 | | |
 |---|---|
 | Professions au fichier avant la passe | **667** |
-| Professions au fichier après | **688** |
-| Cases remplies que le dépouillement avait laissées vides | **36** |
+| Professions au fichier après | **694** |
+| Cases remplies que le dépouillement avait laissées vides | **42** |
 | Cases vidées : le manuscrit ne porte rien | **15** |
 | Métiers lus pour un autre | **13** |
 
@@ -529,13 +529,50 @@ Ce qu'elle a retiré : **tous les fermiers**. Les trois « Fermier » du fichier
 étaient deux « Forman » et un « Journalier ». La division 1 de Saint-Romuald,
 en 1881, n'en compte aucun.
 
+## Les petits guillemets — tranchés, et c'est le greffier qui a tranché
+
+La question restait ouverte : sur certaines pages le recenseur reprend la valeur
+du dessus par **deux petits points**, et le même signe court tantôt sur des
+hommes en âge de travailler, tantôt sur un enfant de deux ans. Ni l'âge ni le
+sexe n'en font une règle sûre.
+
+**La réponse était sur la page, et elle n'est pas de nous.** Chaque entrée de la
+colonne 14 que le greffier d'Ottawa a comptée porte son **trait de pointage**, à
+droite de la case. Il a compté des guillemets, et il en a laissé d'autres.
+C'est sa lecture à lui, contemporaine du registre, du même signe que nous
+hésitions à lire :
+
+| | |
+|---|---|
+| **p81 L13-15** — Clouston William 22, Thomas 22, Joseph 15 | guillemet **pointé** → Journalier |
+| **p81 L3** — Desroches Napoléon 17 | guillemet **pointé** → Journalier |
+| **p78 L12** — Boutin Arthur 13 | guillemet **pointé** → Journalier |
+| p78 L2-5 — Roberge, 12, 11, 9 et 6 ans | guillemets **non pointés** → rien |
+| p78 L7-9 — Fecteau Marie 23, Dulcina 5, Arthur 2 | guillemets **non pointés** → rien |
+| p76 L8 — Fecteau Honoré 11 | guillemet **non pointé** → rien |
+| p34 L5-9, p40 L3 | guillemets d'un tiret, non pointés → rien |
+
+La même page le dit deux fois : à la page 78, le greffier ne compte pas les
+quatre guillemets qui courent sur les enfants Roberge, ni les trois qui courent
+sur les Fecteau jusqu'au petit Arthur de deux ans — mais il compte celui de la
+ligne 12, sur Boutin Arthur, treize ans, sous le « Journalier » de son frère.
+**Un journalier de deux ans n'existait pas non plus pour lui.**
+
+Reste **p87 L15, Morneau Flavie, 22 ans**, sous le « Cul.r » de son frère : sur
+cette page le greffier n'a pointé aucune des trois cases de la suite
+« Cultivateur », pas même celles de la mère et du frère que le fichier portait
+déjà. Son silence n'y vaut donc rien. **Patrick a tranché : elle est
+cultivateur** — et le manuscrit va dans ce sens, puisque la mère, ligne 13, est
+elle-même portée « Cultivateurs ». Versé.
+
+**p87 L18, Fidéline, 14 ans**, sous le « fils » de ses frères : guillemet non
+pointé, et le mot lui-même ne peut pas être le sien. Laissée vide.
+
+Six cases de plus, donc, et la colonne 14 est close : **694 professions**.
+
 ## Ce qui reste à trancher — et qui n'a pas été écrit
 
-1. **Les 84 cases de la colonne 15.** Voir ci-dessous.
-2. **Les petits guillemets de la colonne 14** (page 78 surtout) : une décision,
-   pas une lecture.
-3. **Page 87 lignes 15 et 18** : deux petits guillemets sous « Cul.r » et
-   « fils », sur une fille de 22 ans et une de 14. Même question.
+**Les 84 cases de la colonne 15.** Voir ci-dessous. C'est tout.
 
 ## La colonne 15 — le relevé complet, non écrit
 

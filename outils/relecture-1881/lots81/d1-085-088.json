@@ -38,7 +38,7 @@
     },
     "87": {
       "prof": { "3": "Journalier", "10": "Médecin", "11": "Ménagère", "12": "Ménagère",
-                "13": "Cultivateur", "14": "Cultivateur", "16": "Fils", "17": "Fils",
+                "13": "Cultivateur", "14": "Cultivateur", "15": "Cultivateur", "16": "Fils", "17": "Fils",
                 "19": "Tailleur", "21": "Notaire", "23": "Domestique", "25": "Entrepreneur" },
       "etat": "M-MM--.--.-VV-----MMMM-VM",
       "notes": {
