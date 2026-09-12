@@ -47,7 +47,20 @@ RANGS = (0.075, 0.125)        # la marge des numéros de ligne, à gauche — ce
 NOM = (0.222, 0.360)          # colonne 7, les noms
 PROF = (0.578, 0.730)         # colonnes 14 et 15
 NUMEROS = (0.868, 0.905)      # la marge des numéros de ligne, à droite — témoin de travers
-FENETRES = (RANGS, NOM, PROF, NUMEROS)
+AGE = (0.348, 0.432)          # colonnes 8 et 9 — le sexe et l'âge
+ECOLE = (0.648, 0.758)        # colonnes 15, 16 et le bord de la 17
+
+# Deux vues, selon la colonne qu'on vient lire. Celle de l'école porte la
+# colonne 15 *avec* la 16, et ce n'est pas un luxe : le trait de pointage du
+# greffier suit le « M. » de la 15 et déborde sur le bord gauche de la 16. Lire
+# la 16 seule, c'est prendre ce trait pour une marque d'école — c'est ce qui est
+# arrivé au premier dépouillement, qui s'en méfiait pourtant par écrit.
+VUES = {
+    'prof':  (RANGS, NOM, PROF, NUMEROS),
+    'ecole': (RANGS, AGE, ECOLE),          # le rang et l'âge suffisent à situer
+    'ecole+': (RANGS, (0.222, 0.335), AGE, ECOLE),   # avec les noms, quand il faut trancher
+}
+FENETRES = VUES['prof']
 
 SEPARATEUR = 6                # filet blanc entre deux fenêtres recollées
 
@@ -94,11 +107,14 @@ def planche(ms, dpi=500, fenetres=FENETRES, l0=1, l1=25, sortie='.', tag='prof',
 if __name__ == '__main__':
     args = [a for a in sys.argv[1:] if not a.startswith('--')]
     sortie, dpi, l0, l1 = '.', 500, 1, 25
+    vue = 'prof'
     for a in sys.argv[1:]:
+        if a.startswith('--vue='): vue = a.split('=', 1)[1]
         if a.startswith('--sortie='): sortie = a.split('=', 1)[1]
         if a.startswith('--dpi='): dpi = int(a.split('=', 1)[1])
         if a.startswith('--lignes='): l0, l1 = (int(x) for x in a.split('=', 1)[1].split('-'))
     for ms in (int(a) for a in args):
         f, taille = planche(ms, dpi=dpi, l0=l0, l1=l1, sortie=sortie,
+                            fenetres=VUES[vue], tag=vue,
                             reglette='--reglette' in sys.argv)
         print(f, taille)

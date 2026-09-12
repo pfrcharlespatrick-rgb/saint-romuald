@@ -226,13 +226,13 @@ window.COMPLEMENT_1881_D1 = {
     },
 
     11: {
-      lignes: 25, ecole: [1, 8, 23],
+      lignes: 25, ecole: [1, 23],
       ne12: { 11: 'Novembre', 16: 'Janvier' },
       exceptions: { 1: { lieu_naissance: 'États-Unis' } }
     },
 
     12: {
-      lignes: 25, ecole: [5, 6, 7, 18, 19, 20],
+      lignes: 25, ecole: [5, 6, 7, 11, 18, 19, 20],
       ne12: { 13: 'Décembre' },
       /* TRANCHÉ à la passe de la colonne 14-15 : l'âge est bien 6.
          La colonne 9 porte un seul chiffre entre le 38 du père et le 5 de Joseph,
