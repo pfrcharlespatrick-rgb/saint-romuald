@@ -6,6 +6,7 @@
      18  Employé à gages (Wage earner)
      19  Sans emploi la semaine précédant le recensement
      20  Le patron dit le nombre moyen d'employés dans l'année
+     23  Sourd-muet    24  Aveugle    25  Esprit dérangé
 
    Les colonnes 17, 18 et 19 se cochent ; la 20 porte un nombre. Le fichier
    portait, sur les pages 89 à 142, deux champs `mois_metier` et
@@ -20,6 +21,9 @@
 
      { "110": { "c17": "----…", "c18": "-1-1…", "c19": "-1-1…",
                 "c20": { "3": "25" }, "notes": { "3": "…" } } }
+
+   `c23`, `c24` et `c25` — sourd-muet, aveugle, esprit dérangé — suivent la même
+   forme et sont facultatives : elles ne sont écrites que si le lot les porte.
 
    Passer `--essai` montre le relevé sans écrire.
 
@@ -57,7 +61,8 @@ const plan = [];     // { page, ligne, champs, note }
 for (const [page, l] of Object.entries(lot)) {
   const gens = parPage.get(page);
   if (!gens) throw new Error(`page ${page} absente du fichier`);
-  for (const c of ['c17', 'c18', 'c19']) {
+  for (const c of ['c17', 'c18', 'c19', 'c23', 'c24', 'c25']) {
+    if (l[c] === undefined && c >= 'c23') continue;   // 23 à 25 facultatives
     if (typeof l[c] !== 'string') throw new Error(`page ${page} : ${c} manquant`);
     if (l[c].length !== gens.length)
       throw new Error(`page ${page} : ${c} fait ${l[c].length} caractères pour ${gens.length} lignes`);
@@ -75,6 +80,8 @@ for (const [page, l] of Object.entries(lot)) {
       chomage: coche(l.c19, i) || undefined,
       nb_employes: c20[String(p.ligne)] !== undefined ? String(c20[String(p.ligne)]) : undefined,
     };
+    for (const [c, champ] of [['c23', 'sourd_muet'], ['c24', 'aveugle'], ['c25', 'aliene']])
+      if (l[c] !== undefined) lu[champ] = coche(l[c], i) || undefined;
     const champs = {};
     for (const [k, v] of Object.entries(lu)) {
       const avant = p[k];

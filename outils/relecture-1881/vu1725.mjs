@@ -27,5 +27,6 @@ for (const pg of process.argv.slice(2)) {
     b(p.patron), ' ' + b(p.employe), ' ' + b(p.chomage),
     ' ' + String(p.nb_employes ?? '·').padEnd(3),
     (p.mois_metier !== undefined ? ' m' + p.mois_metier : '  ') + (p.mois_manufacture !== undefined ? ' f' + p.mois_manufacture : '   '),
+    (p.sourd_muet ? ' sm' : '') + (p.aveugle ? ' av' : '') + (p.aliene ? ' al' : ''),
     '|', b(p.sait_lire), b(p.sait_ecrire));
 }
