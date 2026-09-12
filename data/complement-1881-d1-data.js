@@ -527,7 +527,7 @@ window.COMPLEMENT_1881_D1 = {
        filiation paternelle de l'origine.
        Joseph Gosselin (maison 189) est libraire, métier unique du dépouillement. */
     41: {
-      lignes: 25, ecole: [1, 2, 20, 24],
+      lignes: 25, ecole: [1, 2, 20, 23, 24],
       ne12: { 9: 'Septembre', 14: 'Décembre' },
       exceptions: {
         15: { origine: 'Écossaise' },
@@ -590,7 +590,7 @@ window.COMPLEMENT_1881_D1 = {
        Simard se poursuit à la ligne 1 de la page 47, et les trois écoliers
        relevés ici tombent sur les Lebel des lignes 7, 8 et 9 (11, 10 et 8 ans),
        preuve que la numérotation est bien celle du fichier. */
-    46: { lignes: 25, ecole: [7, 8, 9] },
+    46: { lignes: 25, ecole: [7, 8, 9, 20, 21, 24, 25] },
 
     /* Maison 187 : la famille Lockwell (Flore, 49 ans, chef de famille sans
        époux mentionné, avec Antoinette, Joseph, Arthur, Marie — et Léonard,
@@ -599,7 +599,7 @@ window.COMPLEMENT_1881_D1 = {
        marins français Hixe/Petitbon, p. 74-75 : autre trace de présence
        étrangère liée au port/chantier naval). */
     47: {
-      lignes: 25, ecole: [],
+      lignes: 25, ecole: [25],
       exceptions: {
         21: { origine: 'Portugaise' }, 22: { origine: 'Portugaise' },
         23: { origine: 'Portugaise' }, 24: { origine: 'Portugaise' },
@@ -614,7 +614,7 @@ window.COMPLEMENT_1881_D1 = {
        restent Catholiques/Français (défaut). Ligne 1 : suite de la famille
        Lockwell (Léonard, 9 ans) — origine Portugaise, cf. page 47. */
     48: {
-      lignes: 25, ecole: [5],
+      lignes: 25, ecole: [1, 8, 9, 10, 18, 19],
       exceptions: {
         1: { origine: 'Portugaise' },
         2: { religion: 'Protestant', origine: 'Anglaise' }

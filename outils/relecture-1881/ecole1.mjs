@@ -62,7 +62,8 @@ for (const chemin of LOTS) {
     const bloc = texte.slice(debut, fin);
     const trouve = /ecole:\s*\[([^\]]*)\]/.exec(bloc);
     const avait = trouve
-      ? trouve[1].split(',').map((x) => Number(x.trim())).filter((n) => Number.isFinite(n)).sort((a, b) => a - b)
+      ? trouve[1].split(',').map((x) => x.trim()).filter(Boolean)
+          .map(Number).filter((n) => Number.isFinite(n)).sort((a, b) => a - b)
       : [];
     pagesLues++;
 

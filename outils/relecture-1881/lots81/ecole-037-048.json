@@ -1,0 +1,22 @@
+{
+  "division": 1,
+  "colonne": "16 — allant à l'école",
+  "pages": {
+    "37": { "ecole": [6, 7, 8, 9, 15, 16, 17, 18, 23, 24] },
+    "38": { "ecole": [8, 20, 21] },
+    "39": { "ecole": [9, 10] },
+    "40": { "ecole": [8, 9, 10, 16, 19, 20] },
+    "41": { "ecole": [1, 2, 20, 23, 24],
+            "note": "ligne 23 ajoutée : Boivin Odila, 16 ans, porte un « 1 » franc, comme sa sœur de la ligne 24" },
+    "42": { "ecole": [21, 22, 23] },
+    "43": { "ecole": [3, 11, 24, 25] },
+    "44": { "ecole": [6, 7, 8, 24] },
+    "45": { "ecole": [17, 21, 22] },
+    "46": { "ecole": [7, 8, 9, 20, 21, 24, 25],
+            "note": "quatre lignes ajoutées. Les 24 et 25 s'expliquent : le complément tenait cette page pour longue de 23 lignes — le comptage a été corrigé depuis, mais la colonne 16 n'avait pas suivi. Les 20 et 21 étaient pourtant dans le cadre." },
+    "47": { "ecole": [25],
+            "note": "le complément ne relevait aucune école sur cette page ; le manuscrit en porte une, ligne 25 (14 ans)" },
+    "48": { "ecole": [1, 8, 9, 10, 18, 19],
+            "note": "la page que le contrôle de cohérence avait sortie. La ligne 5 retirée : Martel Jean Baptiste, 48 ans, pharmacien, porte un « M. » en colonne 15 et c'est le trait de pointage du greffier qui déborde — exactement la marque que la note du complément disait avoir écartée. Et les six vraies écoles de la page, sur des enfants de 6 à 12 ans, manquaient toutes." }
+  }
+}
