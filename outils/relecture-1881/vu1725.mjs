@@ -17,8 +17,22 @@ const D = JSON.parse(brut.slice(brut.indexOf('{'), brut.lastIndexOf('}') + 1));
 const tous = [];
 for (const m of D.maisons) for (const f of m.familles) for (const p of f.membres) tous.push(p);
 const b = (v) => (v === true ? '1' : v === false ? '-' : '.');
+const court = process.argv.includes('--court');
 for (const pg of process.argv.slice(2)) {
+  if (pg.startsWith('--')) continue;
   const P = tous.filter((p) => p.page_ms === String(pg)).sort((a, b2) => +a.ligne - +b2.ligne);
+  if (court) {
+    const ch = (f) => P.map((p) => (p[f] === true ? '1' : '-')).join('');
+    const n20 = P.map((p) => (p.nb_employes ?? '·')).map(String);
+    console.log(`p${String(pg).padStart(3)}  17 ${ch('patron')}  18 ${ch('employe')}  19 ${ch('chomage')}`
+      + `  20 ${n20.map((v, i) => (v === '·' ? '' : `L${P[i].ligne}=${v} `)).join('') || '—'}`
+      + `  23/24/25 ${[['sourd_muet','sm'],['aveugle','av'],['aliene','al']].map(([f, t]) =>
+          P.filter((p) => p[f]).map((p) => `${t}L${p.ligne}`).join(',')).filter(Boolean).join(' ') || '—'}`);
+    console.log(`      lire ${P.map((p) => (p.sait_lire === true ? '1' : '-')).join('')}`
+      + `  écrire ${P.map((p) => (p.sait_ecrire === true ? '1' : '-')).join('')}`
+      + `  métiers ${P.filter((p) => p.profession).map((p) => p.ligne).join(',')}`);
+    continue;
+  }
   console.log(`\n=== page ${pg} — ${P.length} lignes`);
   console.log('L   nom                        âge  profession            17 18 19 20   | 21 22');
   for (const p of P) console.log(
