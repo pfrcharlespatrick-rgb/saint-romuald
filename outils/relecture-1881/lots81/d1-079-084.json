@@ -1,0 +1,49 @@
+{
+  "division": 1,
+  "colonne": "14 — profession, occupation ou métier ; 15 — marié ou en veuvage",
+  "pages": {
+    "79": {
+      "prof": { "5": "Charpentier", "6": "Journalier", "8": "Journalier", "11": "Journalier",
+                "17": "Journalier", "20": "Journalier" },
+      "etat": "M--V-MMMM-------MM-MM----"
+    },
+    "80": {
+      "prof": { "1": "Mécanicien", "4": "Boulanger", "9": "Commis", "13": "Journalier",
+                "18": "Prêtre", "19": "Bourgeois", "20": "Domestique", "21": "Domestique",
+                "22": "Habitant C.S.", "25": "Commis" },
+      "etat": "MM-MM---MM--MM-----V-MM--",
+      "vider": [24],
+      "notes": {
+        "18": "profession lue « Bourgeois » au dépouillement — c'est le mot de la ligne 19 ; le manuscrit porte ici « Prêtre »",
+        "19": "profession lue « Journalier » au dépouillement ; le manuscrit porte « Bourgeois »",
+        "24": "profession lue « Commis » au dépouillement — c'est le mot de la ligne 25 ; ici le manuscrit porte un tiret",
+        "25": "la colonne 14 porte « Commis » ; le dépouillement l'avait porté à la ligne 24"
+      }
+    },
+    "81": {
+      "prof": { "1": "Journalier", "2": "Journalier", "3": "Journalier", "8": "Journalier",
+                "10": "Journalier", "12": "Journalier", "13": "Journalier", "14": "Journalier",
+                "15": "Journalier", "17": "Journalier", "21": "Journalier", "25": "Journalier" },
+      "etat": "-------MMMM-----MM--MM--M",
+      "notes": { "10": "profession lue « Fermier » au dépouillement ; le manuscrit porte « Journalier », écrit en toutes lettres — c'était le dernier « Fermier » de la division" }
+    },
+    "82": {
+      "prof": { "3": "Journalier", "6": "Journalier", "8": "Journalier", "12": "Charpentier",
+                "16": "Charpentier", "19": "Charpentier", "20": "Charpentier" },
+      "etat": "M-MM-MMMM--MM--MM--MM---"
+    },
+    "83": {
+      "prof": { "6": "Journalier", "12": "Cultivateur", "17": "Charpentier", "21": "Journalier",
+                "25": "Journalier" },
+      "etat": "-VMM-MM----MM---MM--MM--M",
+      "vider": [3],
+      "inc": [3],
+      "notes": { "3": "profession lue « Radigeur » au dépouillement ; le manuscrit porte l'annotation « Not given », troisième occurrence de la même main grasse (pages 14 et 69). Case laissée vide." }
+    },
+    "84": {
+      "prof": { "5": "Journalier", "10": "Journalier", "13": "Journalier", "19": "Journalier",
+                "21": "Journalier", "24": "Journalier", "25": "Journalier" },
+      "etat": "M---MM---MM-------MM-----"
+    }
+  }
+}

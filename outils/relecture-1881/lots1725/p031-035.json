@@ -1,0 +1,67 @@
+{
+ "31": {
+  "c17": "-----------1-------------",
+  "c18": "-----1-----------1--111--",
+  "c19": "-------------------------",
+  "c20": {
+   "12": "7"
+  },
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "6": "colonne 18 relue à la réglette : la case porte une coche franche, que le dépouillement n'avait pas relevée. La colonne 16 porte aussi un métier, qu'il n'a pas relevé non plus"
+  }
+ },
+ "32": {
+  "c17": "------1------------------",
+  "c18": "-------------1--1-11-1---",
+  "c19": "-------------------------",
+  "c20": {
+   "7": "1"
+  },
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "1": "colonne 18 relue à la réglette : la case porte un tiret. Seule la colonne 17 est occupée, par le code de métier du commis. Le dépouillement portait « employé à gages »"
+  }
+ },
+ "33": {
+  "c17": "-------------------------",
+  "c18": "---1-1-----1----1------1-",
+  "c19": "-------1-----------------",
+  "c20": {},
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "8": "colonnes 18 et 19 relues à la réglette : la colonne 19 porte bien la coche — sans emploi la semaine du recensement — mais la colonne 18 porte un tiret. Le dépouillement portait les deux"
+  }
+ },
+ "34": {
+  "c17": "-------------------------",
+  "c18": "1----1-----11-11--11-1---",
+  "c19": "-----1-------------------",
+  "c20": {
+   "11": "1",
+   "17": "1"
+  },
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "11": "colonne 20 relue à la réglette : la case porte « 1 », que le dépouillement n'avait pas relevé. La colonne 17 porte un tiret : le recenseur a donc compté un employé sans cocher la case de patron",
+   "17": "colonnes 18 à 20 relues à la réglette : les colonnes 18 et 19 portent un tiret, et c'est la colonne 20 qui porte « 1 ». Le dépouillement lisait « employé à gages » et « sans emploi » ; le manuscrit dit un employé compté, sans coche de patron"
+  }
+ },
+ "35": {
+  "c17": "-------------------------",
+  "c18": "-1-11----1-11--1-1-1----1",
+  "c19": "-1-----------------------",
+  "c20": {},
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------"
+ }
+}

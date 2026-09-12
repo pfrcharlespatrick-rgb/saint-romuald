@@ -98,6 +98,11 @@
     }).join('');
     var marginale = f.remarque
       ? '<div class="marginale"><b>En marge du dépouillement</b>' + esc(f.remarque) + '</div>' : '';
+    // Lecture que le dépouillement complémentaire de 1881 n'a pas su trancher.
+    // Elle est dite ici plutôt que tue : la valeur affichée reste discutable.
+    if (f.note_complement) {
+      marginale += '<div class="marginale"><b>Lecture à confirmer</b>' + esc(f.note_complement) + '</div>';
+    }
     // Le recenseur a rayé cette ligne : la personne est conservée dans le site,
     // mais elle ne compte pas dans le dénombrement officiel de 1891.
     if (f.biffee) {

@@ -151,6 +151,52 @@ Vérifié au manuscrit, à ne pas « réparer » lors d'un passage ultérieur.
 - **Gagnon Frédéric et Gagnon Geneviève** relèvent de deux familles et de deux
   maisons distinctes, conformément au manuscrit.
 
+## Le complément versé aux fiches publiques — et deux pages qui résistent
+
+Les colonnes 10 à 13 et 16 à 19 du formulaire, dépouillées à part dans
+`complement-1881-d1-data.js`, sont désormais affichées par le site : le lieu de
+naissance, la religion, l'origine et l'école figurent sur les fiches de personne et
+dans l'extrait de registre. **86 des 88 pages** sont versées.
+
+Le rattachement se contrôle par deux ancres datées du manuscrit : une ligne marquée
+« né dans les douze derniers mois » doit porter un âge en fraction, et une ligne
+marquée en colonne 16 doit porter un âge d'écolier. Ce contrôle a trouvé trois choses.
+
+**Page 4 — un décalage devenu faux.** Le complément portait `decalage: 1`, écrit
+quand le dépouillement sautait encore la ligne 1 du manuscrit. Depuis, la relecture a
+réinséré Beaulieu Damase et renuméroté la page : le décalage inversait donc la
+correspondance et déportait d'un rang toute la page, le bloc anglican compris.
+Retiré, sur deux ancres — la colonne 10 porte « Décembre » à la ligne 4, où le
+fichier a Sara Beaulieu, 4/12 (déc.), et « Septembre » à la ligne 22, où il a Laly
+Brown, 7/12 (sept.).
+
+**Page 46 — un comptage fautif.** `lignes: 23` privait de tout complément les deux
+derniers Simard de la page. Le manuscrit en porte 25 : le ménage se poursuit à la
+ligne 1 de la page 47, et les trois écoliers relevés tombent sur les Lebel des lignes
+7, 8 et 9 (11, 10 et 8 ans).
+
+**Pages 82 et 83 — suspendues.** Celles-là ne se réparent pas. Le complément y décrit
+des personnes que le registre ne contient pas : une **Adèle Talbot**, 45 ans, veuve,
+« Cultivatrice » ; un **Robert Clauston**, 19 ans, donné pour fils de Johnny ; un
+**Michel Bilodeau**, 71 ans, « Retraité ». Aucun des trois ne figure dans la division,
+et la famille de Johnny Clouston s'arrête à la ligne 16 de la page 81 sans se
+poursuivre. Aucun décalage de −3 à +3 ne raccorde les ancres : la colonne 10 n'y
+marque qu'une naissance là où le fichier en porte deux, et la page 83 annonce un
+nourrisson de mai quand la division n'en compte aucun entre les pages 27 et 88. Les
+pages voisines, elles, tombent juste au mois près — 81 avec les Clouston écossais,
+84 et 85 avec leurs mois de naissance exacts. **L'anomalie est bornée à ces deux
+pages.**
+
+Deux lectures possibles, et le manuscrit seul tranchera : ou le dépouillement a perdu
+un ménage entier quelque part, ou le complément a été transcrit sur deux images qui ne
+sont pas celles des pages 82 et 83. En attendant, **rien n'est versé sur ces deux
+pages** — pas même les valeurs par défaut : les 49 personnes concernées gardent leurs
+colonnes vides plutôt que de recevoir une religion ou une origine invérifiable.
+
+Le garde-fou est désormais permanent : `outils/lib/complement-1881.mjs` refuse
+d'attribuer une naissance des douze derniers mois à qui n'est pas un nourrisson, et
+`generer-site.mjs` le signale au lieu de le laisser passer.
+
 ## Questions restées ouvertes
 
 À soumettre à qui connaît les familles de la paroisse :

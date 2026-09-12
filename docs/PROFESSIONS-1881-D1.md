@@ -1,0 +1,634 @@
+# La colonne 14 de 1881 division 1 — journal de la passe
+
+**Ce n'est pas une vérification, c'est une lecture.** La colonne des professions
+n'avait jamais été dans le cadre : la relecture de 1881 s'est faite sur la
+fenêtre `REF_X0F, REF_X1F = 0.075, 0.420` de `outils/relecture-1881/d1.py`, qui
+s'arrête juste après la colonne des âges. Les 667 professions du fichier
+viennent donc du dépouillement seul — et les 1 522 cases vides n'ont pas plus
+été regardées que les autres. **Une profession que le dépouillement a manquée
+est une perte au même titre qu'une profession mal lue.**
+
+## L'outillage
+
+Les deux constantes ne bougent pas : elles servent au recalage entre pages
+(`geometry`, `_shift`). `outils/relecture-1881/prof1.py` passe donc par des
+fenêtres à soi, **décalées page à page du même `dx` que le cadre**, et recolle
+côte à côte les trois morceaux utiles — qui sont aux deux bouts du formulaire :
+
+    nom (7) | profession (14) | marié ou en veuvage (15) | nos de ligne
+
+La marge des numéros de ligne vient du bord droit de la page. C'est elle qui
+rend la planche lisible seule : le numéro imprimé en bout de rangée dit à quelle
+ligne on est, sans avoir à recaler à l'œil sur des noms qui sont à l'autre bout.
+Une page tient sur une image, ses vingt-cinq rangées d'un coup.
+
+`outils/relecture-1881/prof1.mjs` verse un lot de `outils/relecture-1881/lots81/`.
+Deux gardes y sont posées :
+
+- il **refuse de s'exécuter** si le fichier porte une profession sur une ligne
+  que le lot laisse vide sans la nommer dans `vider`. Une suppression est une
+  décision, elle s'écrit — et c'est ce qui empêche une page lue à moitié de
+  passer pour une page lue ;
+- la colonne 15 est **lue et rapportée, mais pas écrite** tant qu'on ne passe pas
+  `--etat` (voir ci-dessous).
+
+## Le signal des « V » — confirmé au manuscrit dès la première page
+
+**La colonne 15 porte bien des veufs et des veuves en division 1, et le
+dépouillement les a tous perdus.** Sur les six premières pages — 150 rangées —
+la colonne 15 du manuscrit s'accorde au fichier **partout où elle porte un
+« M »**, et s'en écarte **partout où elle porte un « Ve. »** : huit fois.
+
+Le détail est plus bas, sous chaque lot. Rien n'est écrit dans
+`etat_matrimonial` tant que Patrick n'a pas tranché.
+
+## Lot pages 1-6 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-001-006.json`
+
+Quatre écritures :
+
+| | |
+|---|---|
+| p3 L16 — McQuilkel William | « Meunier » → **« Mouleur »**. La deuxième lettre est un o, et le mot finit en « -eur » comme le « Colleur » de la ligne 19. |
+| p4 L11 — Dubois Pierre, 20 ans | case vide → **« Batelier »**, repris au guillemet du père (ligne 10). |
+| p4 L12 — Dubois Joseph, 18 ans | case vide → **« Batelier »**, même guillemet. |
+| p6 L15 — Slater William, 37 ans | « Chrémeur » (marqué incertain) → **« Arrimeur »**, même main et même tracé que l'« Arrimeur » de la page 2 ligne 12. Le doute est levé. |
+
+Les 146 autres rangées concordent au mot près.
+
+Deux cas laissés tels quels, pour mémoire :
+
+- **p2 L14, Hamelin Pierre** : « Journalier » est repassé d'un trait plus noir au
+  milieu du mot. Ce n'est pas une rature — le mot reste entier et la coche du
+  greffier est là. Lu « Journalier », comme le dépouillement.
+- **p6 L7, Demers François, 17 ans** : la colonne 14 porte un tiret, et « fils »
+  est écrit par-dessus en travers, d'une autre encre. Le tiret est la réponse ;
+  le mot « fils » était déjà consigné en remarque par le dépouillement.
+
+Les huit « Ve. » du lot : p2 L10 (Dubé Ursule, 59), p3 L7 (Taylor Anastasie,
+62 — le dépouillement notait déjà « veuve [?] » en remarque), p3 L23 (Wilson
+Bibianne, 80), p4 L5 (Boucher Esther, 62 — remarque « veuve »), p5 L2 (Lepard
+Marie, 73), p5 L22 (Cantin Josette, 80), p6 L9 (Nicolle Sophie, 74), p6 L15
+(Slater William, 37).
+
+## Lot pages 7-12 — 175 rangées (la page 6 reprise au passage)
+
+`outils/relecture-1881/lots81/d1-007-012.json`, `…/d1-006-fils.json`
+
+Cinq écritures :
+
+| | |
+|---|---|
+| p7 L12 — Kigly James, 34 ans | « Cabaretier » → **« Capitaine de bateau »**. Le manuscrit porte « Capitaine de b.at. », les deux dernières lettres en exposant. Marqué incertain : c'est l'abréviation qui reste à confirmer, pas le mot « Capitaine ». |
+| p8 L5 — Nolin Joseph, 21 ans | case vide → **« Menuisier »**. La colonne porte « do », le ditto anglais du recenseur, sous le « Menuisier » de la ligne 4. |
+| p8 L6 — Nolin Edouard, 18 ans | case vide → **« Menuisier »**, même ditto. |
+| p10 L7 — Cantin Narcisse, 17 ans | case vide → **« Fils »**. |
+| p6 L7 — Demers François, 17 ans | case vide → **« Fils »** (rectification du lot précédent). |
+
+### « fils » est une valeur de colonne, pas une remarque
+
+Les quatre cases sont de la même main et du même tracé — un « fils » à longue
+hampe, avec la coche du greffier. Aux lignes 16 et 17 de la page 87, **le
+dépouillement l'a bien relevé comme profession** ; aux pages 6 et 10, il l'avait
+versé en remarque. Les quatre disent la même chose : le fils majeur qui travaille
+sur la terre du père. Le lot les remet dans la colonne.
+
+### La coche du greffier, et pourquoi elle compte
+
+Chaque entrée de la colonne 15 est suivie d'un trait de pointage qui **déborde
+sur le bord gauche de la colonne 16**. Il ne faut pas le lire comme une marque
+d'école : il est plus gras, plus à gauche, et il suit toujours un « M. » ou un
+« Ve. ». À l'inverse, il confirme la lecture — une marque de la colonne 15 sans
+son trait de pointage mérite un second regard.
+
+C'est pour trancher ce genre de question que `prof1.py` sait désormais empiler
+la **réglette imprimée des numéros de colonne** au-dessus de la planche
+(`reglette=True`). Les colonnes 15 et 16 sont voisines et étroites ; une marque
+lue d'une colonne à côté est une erreur qu'aucune relecture ultérieure ne
+rattrape.
+
+### Ce que la colonne 15 a rendu sur ce lot
+
+Onze « Ve. » de plus — p8 L1, p8 L19, p9 L10, p10 L1, p10 L2, p10 L5, p11 L4,
+p11 L5, p11 L17, p11 L25, p12 L16 — et **un couple qui n'en est pas un** :
+
+> **Page 12, Bégin Rigobert, 38 ans.** Le manuscrit le porte « Ve. ». La ligne
+> suivante, « Bégin Marie », que le fichier donne pour son épouse de 40 ans avec
+> un « M » qui n'est nulle part au manuscrit, porte un tiret en colonne 15 — et
+> **une marque d'école en colonne 16**. Le complément notait déjà, sans pouvoir
+> conclure : « l'âge se lit « 6 », le dépouillement porte 40 ». Les trois signes
+> se répondent : Marie a six ans, elle est sa fille, et la mère est morte — la
+> petite Virginie de la ligne 13 est née en décembre.
+
+Rien n'est écrit dans `etat_matrimonial`, là non plus.
+
+## Lot pages 13-18 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-013-018.json`
+
+Six écritures, dont **deux cases à vider** — ce qui n'était pas arrivé jusqu'ici :
+
+| | |
+|---|---|
+| p13 L20 — Pelletier Philippe, 16 ans | « Commis » → **« Cultivateur fils »**. Le « Commis » du dépouillement est le mot de la **ligne 21** ; le manuscrit porte ici « Cult. fils », le t de l'abréviation en exposant. |
+| p14 L11 — Guay George, 26 ans | « Boulanger » → **case vide**. Voir ci-dessous. |
+| p14 L16 — Caouette Rosalie, 53 ans | « Journalier » → **case vide**. Le manuscrit porte un tiret ; le « Journalier » est à la ligne 17, celle de son fils Jérémie. Elle est veuve et chef de ménage — l'un n'entraîne pas l'autre. |
+| p17 L16 — Larochelle Adelore | case vide → **« Charretier »**, au ditto « do » sous la ligne 15. |
+| p17 L25 — Gauvreau Antoine | « Prêtre[?] » → **« Prêtre Curé »**, en toutes lettres. Le point d'interrogation tombe. |
+| p18 L1 — Beaudet Alphonse | « Prêtre » → **« Prêtre Vicaire »**, en toutes lettres. |
+
+### « Not given » — la seule case du lot où le manuscrit refuse de répondre
+
+Page 14 ligne 11, Guay George. Le dépouillement lisait « Boulanger ». Le mot n'y
+est pas : la case porte, **d'une autre main que celle du recenseur — plus grasse,
+à la plume**, une annotation lue **« Not given »**. Ce n'est pas un métier, c'est
+un constat de bureau : la profession n'a pas été déclarée.
+
+C'est l'écart signalé de longue date dans `BILAN-RELECTURE.md` sous « un mot en
+"Not-" ». La case est vidée et la ligne marquée incertaine, la lecture de
+l'annotation n'étant pas hors de doute — mais **« Boulanger » n'est en aucun cas
+ce qui est écrit**.
+
+### Le ditto, deuxième et troisième fois
+
+Le recenseur reprend la valeur du dessus de trois façons, toutes rencontrées
+maintenant : le **guillemet** français (p4 L11-12, p18 L8-10), le **« do »**
+anglais (p8 L5-6, p15 L6, p17 L16, p18 L15), et le mot **répété en entier**
+(p15 L24-25, p17 L20). Aucune des trois n'a de sens hors de son contexte : c'est
+pourquoi la planche porte les vingt-cinq rangées d'un coup plutôt que des
+bandes.
+
+Trois « Ve. » de plus, non écrits : p14 L2 (Cameron Sophy, 65), p14 L16
+(Caouette Rosalie, 53), p16 L13 (Huard Lucie).
+
+## Lot pages 19-24 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-019-024.json`
+
+Cinq écritures, dont **quatre cases que le dépouillement avait laissées vides** :
+
+| | |
+|---|---|
+| p19 L18 — Lambert Joseph | → **« Journalier »**, au « do » sous la ligne 17. |
+| p21 L5 — Levasseur Olive, 57 ans | « Ménagère » → **« Manchonnière »**. Voir ci-dessous. |
+| p22 L7 — Morin Joséphine | → **« Chapelière »**, écrit en toutes lettres. |
+| p22 L15 — Boutin Louise | → **« Domestique »**, au guillemet sous la ligne 14. |
+| p24 L17 — Toussaint Benjamin | → **« Journalier »**, au guillemet sous la ligne 16. |
+
+### « Manchonnière » — un métier que le dépouillement avait remplacé par un autre
+
+Page 21 ligne 5, Levasseur Olive, 57 ans, femme de Jérémie. Le fichier porte
+« Ménagère ». Le mot du manuscrit en compte douze lettres et commence par un M
+majuscule : **« Manchonnière »** — celle qui fait les manchons de fourrure.
+Marqué incertain, la lecture n'étant pas hors de doute ; mais « Ménagère »,
+huit lettres, n'est en aucun cas ce qui est écrit.
+
+Avec la « Chapelière » de la page 22, ce sont deux métiers de femme que la
+colonne rendait et que le fichier ne portait pas.
+
+Une case reste illisible : **p22 L23, Demers Pierre** — le mot est effacé au
+point qu'on n'en tire que sa longueur, compatible avec le « Boulanger » du
+dépouillement. Laissé tel quel.
+
+Sept « Ve. » de plus, non écrits, dont un **contre** le fichier : p19 L17
+(Lambert J.Baptiste, 45, que le fichier donne pour marié), p20 L14, p21 L10,
+p22 L3, p22 L4, p23 L1, p23 L12.
+
+## Le découpage des recueils — un piège qui ne se voit pas
+
+**Arrivé à la page 30, la planche a rendu une carte de titre.** `d1.locate`
+plaçait les pages 30 à 59 dans le deuxième recueil à l'index `ms - 29` ; or le
+fichier déposé dans cette session sous ce nom **porte le manuscrit entier, pages
+1 à 89**, à l'index `ms + 1`. Le même nom de fichier, d'un dépôt à l'autre, a
+désigné tantôt un tiers du manuscrit, tantôt le tout.
+
+Ce qu'il faut en retenir : **une erreur d'un rang sur ce découpage ne se voit
+pas.** Si la carte de titre n'avait pas été là, la planche aurait rendu la page
+1 à la place de la page 30 — une page qui a l'air d'une page. Et tout ce qui
+aurait été lu ensuite aurait été juste, au manuscrit près.
+
+Trois choses sont donc en place :
+
+- `verif_pages.py` monte en planche le **« PAGE n » imprimé** en tête des
+  demi-pages demandées. Trois sondages par recueil fixent le découpage.
+  `--tout` prend le premier, le deuxième, le troisième et le dernier de chacun ;
+- `render1.half_raw` **refuse** une demi-page que le recueil ne porte pas, en
+  nommant le recalibrage à faire, plutôt que de rendre autre chose ;
+- le découpage relevé est écrit en tête de `d1.py`, avec la date de son relevé.
+
+Relevé sur les recueils de cette session : partie1 → pages 1-29 (idx = ms+1),
+partie2 → pages 1-89 (idx = ms+1, le recueil complet), partie3 → pages 60-89
+(idx = ms-59). Les pages 1 à 29 déjà lues n'étaient pas touchées : leur
+découpage était le bon, et les noms de chaque planche concordaient rangée par
+rangée avec le registre.
+
+## Lot pages 25-30 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-025-030.json`
+
+| | |
+|---|---|
+| p25 L4 — Blais Marie Anne | → **« Domestique »**, écrit en toutes lettres. |
+| p25 L25 — Paradis Joseph | → **« Journalier »**, au guillemet. |
+| p27 L1 — Montigny François, 96 ans | « Rentier » → **case vide**. Le manuscrit porte un tiret ; il y est « Ve. » et sans métier. |
+| p28 L25 — Roy Joseph | → **« Journalier »**, au guillemet. |
+
+La colonne 15 rend quatre « Ve. » (p25 L22, p27 L1, p29 L9, p29 L22) et — c'est
+nouveau — **trois « M » que le dépouillement n'avait pas relevés** : p27 L2 et L3
+(Montigny Thomas, 61 ans, et Marie, mariés tous les deux), p28 L1 (Ménard Diana).
+Le manque ne portait donc pas que sur les veufs.
+
+## La marge de droite est un faux ami — c'est celle de gauche qui fait foi
+
+Le formulaire numérote ses rangées **aux deux bords**. La planche s'appuyait sur
+celle de droite, la plus loin de tout. À la page 32, les deux marges ne disent
+pas la même chose : **la droite est d'une rangée plus bas que la gauche**. Un
+degré de rotation à la prise de vue suffit — sur la largeur d'une page, un degré
+vaut une rangée.
+
+La marge de gauche, elle, **touche la colonne des noms** : rien ne peut glisser
+entre les deux. La planche porte désormais les deux, la gauche en tête, et c'est
+elle qui fait foi ; leur désaccord avertit au passage que la page est de
+travers.
+
+Les pages 1 à 31 n'étaient pas touchées : sur chacune, les professions lues
+tombaient d'accord avec le registre à trois ou quatre cases près, ce qui serait
+impossible avec un décalage d'une rangée — la garde de `prof1.mjs` aurait arrêté
+le lot dès la première ligne.
+
+## Lot pages 31-36 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-031-036.json`
+
+Deux écritures seulement, les plus propres du chantier : **p32 L18 et L19**,
+Hébert Emé et George, qui reçoivent le « Cordonnier » que la colonne reprend au
+« do » de la ligne 17. Un seul « Ve. » à signaler, p34 L10 (Chamberland Pitale,
+71 ans, pilote).
+
+## Lot pages 37-42 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-037-042.json`
+
+Une écriture : **p38 L16, Brochu Louis, 67 ans**, qui reçoit le « Journalier »
+repris au guillemet de la ligne 15 — et que la colonne 15 porte « Ve. ». Trois
+« Ve. » au total (p38 L16, p39 L4 Hamel Flore 51 ans, p41 L21 Boivin Michel).
+
+Ces pages-là sont les plus fidèles du chantier : 149 rangées sur 150 d'accord au
+mot près.
+
+## Lot pages 43-48 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-043-048.json`
+
+Deux écritures, toutes deux des cases vides remplies : **p45 L11** (Bourassa
+Magloire, au guillemet du « Journalier » de la ligne 10) et **p46 L16** (Rotin
+George, au « do » du « Menuisier » de la ligne 15).
+
+Colonne 15 : deux « Ve. » (p46 L23 Simard Délina, p47 L21 Lockwell Flore), un
+« M » manquant (p47 L10) et — pour la première fois — **un « M » de trop** :
+p48 L2, Bilkey John, marchand de bois, que le fichier donne pour marié quand la
+case est vide au manuscrit.
+
+## Lot pages 49-54 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-049-054.json`
+
+Cinq écritures, dont **un métier lu pour un autre** et **une profession décalée
+d'une rangée** :
+
+| | |
+|---|---|
+| p50 L22 — Plaisance François | → **« Journalier »**, au « do » de la ligne 21. |
+| p51 L13 — Aubert Ancile, 46 ans | « Fermier » → **« Forman »**. Le manuscrit écrit « forman » en toutes lettres — le mot que la division emploie ailleurs sous la forme « Forman ». |
+| p51 L18 — Joly Ambroise | → **« Cordonnier »**, au guillemet de la ligne 17. |
+| p51 L24 — Roberge Anastasie, 55 ans | « Journalier » → **case vide**. |
+| p51 L25 — Roberge Pierre, 25 ans | → **« Journalier »**. |
+
+### La page 51 et le « Pierre » porté F
+
+Le « Journalier » de la page 51 est à la ligne **25**, pas à la 24 : la marge de
+gauche et la colonne des noms le disent ensemble. La ligne 24 est celle
+d'Anastasie Roberge, 55 ans, que la colonne 15 porte « Ve. » et à qui le
+manuscrit ne donne aucun métier.
+
+Cela touche une question laissée ouverte dans `BILAN-RELECTURE.md` : **la ligne
+25, « Pierre », est portée F et la colonne 8 y est biffée.** Le métier qui lui
+revient est « Journalier ». Ce n'est pas une preuve, mais cela va dans le sens
+d'un homme, et donc d'une colonne 8 corrigée par le recenseur lui-même.
+
+Cinq « Ve. » relevés sans être écrits : p51 L5, L17, L24, p52 L3 et L25.
+
+## Lot pages 55-60 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-055-060.json`
+
+Une écriture : **p56 L22, Carrier Angus, 60 ans**, « Fermier » → **« Forman »**.
+C'est le deuxième du chantier après celui de la page 51 : le dépouillement a lu
+deux fois « Fermier » là où le recenseur écrit « forman ». Il ne reste plus
+qu'un « Fermier » en division 1, page 81 ligne 10 (Clouston Johny) — à regarder
+quand la passe y arrivera. **Il n'y a presque pas de fermiers dans cette
+division ; il y a des contremaîtres.**
+
+La colonne 15 rend huit marques, dont trois de suite à la page 60 (lignes 6, 7
+et 8 : Côté Marie Elenard, puis Guay Edouard, 25 ans, que le fichier donne pour
+marié, et son voisin de ligne). Vérifiées sur la réglette imprimée : les trois
+« Ve. » sont bien en colonne 15, le trait de pointage à côté en 16.
+
+## Lot pages 61-66 — 149 rangées
+
+`outils/relecture-1881/lots81/d1-061-066.json`
+
+Deux écritures : **p61 L5**, Boucher George, dont le « Journalier » n'est pas au
+manuscrit — la case porte un tiret, et le « Journalier » de cette maisonnée est
+à la ligne 9 ; et **p65 L23**, Morency Isaï, au « do » de la ligne 22.
+
+Les recueils de la fin ont imposé un réglage : sur ces pages, le recalage
+horizontal de `geometry` se trompe parfois de deux centièmes de largeur de page,
+et une fenêtre ajustée à la colonne coupait alors la moitié de la colonne 15
+**sans le dire**. Les quatre fenêtres de la planche sont désormais prises plus
+larges que leur colonne — on préfère un peu de voisinage à un bord qui tranche.
+
+## Lot pages 67-72 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-067-072.json`
+
+Deux écritures, toutes deux à la page 69 :
+
+| | |
+|---|---|
+| p69 L1 — Naire Abel, 26 ans | « Charpentier » → **« Chaloupier »**. Le mot est écrit en toutes lettres : celui qui construit les chaloupes. Le métier n'existait nulle part dans le fichier. |
+| p69 L9 — Ferrier Léon, 30 ans | « Boulanger » → **case vide**, l'annotation « Not given » de nouveau. |
+
+### « Not given », deuxième fois — et le doute tombe
+
+Page 69 ligne 9, la même annotation qu'à la page 14 ligne 11 : **même main plus
+grasse, même tracé, même mot.** Et, des deux fois, **le dépouillement avait lu
+« Boulanger »**.
+
+Deux occurrences identiques valent mieux qu'une lecture isolée : la case ne
+porte pas un métier, elle porte le constat de bureau que la profession n'a pas
+été déclarée. Les deux cases sont vidées, les deux lignes marquées incertaines.
+
+Quatre « Ve. » relevés sans être écrits : p67 L12, p70 L5, p72 L10 et L11.
+
+## Lot pages 73-78 — 150 rangées
+
+`outils/relecture-1881/lots81/d1-073-078.json`
+
+Deux écritures : **p74 L21**, Maher Mary, dont le « Domestique » n'est pas au
+manuscrit — la case porte un tiret, comme celles d'au-dessus et d'en dessous ;
+et **p75 L12**, Daigle J.Baptiste, « Poêlier » → **« Polisseur »**, écrit en
+toutes lettres.
+
+### Ce que la page 76 a appris : l'ancre de dernier recours est le contenu
+
+Sur la page 76, les deux marges se sont contredites d'une rangée, et le calcul
+au pixel ne tranchait pas : la colonne 14 y est écrite haut dans la case. Ce qui
+a tranché, ce sont les données elles-mêmes :
+
+- **ligne 1, Côté Alec, quatre mois.** Le « Journalier » du haut de page ne peut
+  pas être à lui ; il est à la ligne 2 ;
+- **lignes 19 à 24**, la suite « Journalier / Couturière / Journalier /
+  Couturière » ne se répartit que d'une façon entre les Dagenais et les Carrier :
+  « Couturière » aux femmes, « Journalier » aux hommes.
+
+**Quand la géométrie hésite, c'est le sens qui décide** — un nourrisson n'a pas
+de métier, « Couturière » est un mot de femme. Le fichier était juste sur les
+deux points ; rien n'a été écrit.
+
+### Une question à trancher : les petits guillemets de la colonne 14
+
+Le recenseur reprend la valeur du dessus de quatre façons : le guillemet
+français « , le « do » anglais, le mot répété — et, sur certaines pages, **deux
+petits points**, plus discrets. Ceux-là posent problème.
+
+Page 78, la colonne 14 porte « Journalier » à la ligne 1 (Roberge Louis, 15 ans),
+puis **deux petits points aux lignes 2, 3, 4 et 5** — Jimmy 12 ans, Joseph 11,
+Alfred 9, Adélina 6 ans. Puis « Journalier » à la ligne 6 (Fecteau Ferdina, 27),
+et **les mêmes points aux lignes 7, 8 et 9** — Marie 23, Dulcina 5, Arthur 2.
+
+**Un journalier de deux ans n'existe pas.** Ou ces points ne sont pas des
+guillemets — une façon paresseuse de tirer le trait —, ou le recenseur les a
+posés sans y penser. Le dépouillement, lui, les a lus tantôt dans un sens
+(page 76 lignes 6 et 24, où il écrit « Journalier » et « Couturière »), tantôt
+dans l'autre.
+
+**Rien n'a été écrit sur ce point** : c'est une décision, pas une lecture, et
+elle revient à Patrick. Le guillemet franc, le « do » et le mot répété, eux,
+continuent d'être lus comme des reprises — c'est d'eux que viennent toutes les
+professions rendues jusqu'ici.
+
+Six « Ve. » relevés sans être écrits : p74 L2 et L19, p75 L3 et L12, p76 L11,
+p78 L10.
+
+## Lot pages 79-84 — 149 rangées
+
+`outils/relecture-1881/lots81/d1-079-084.json`
+
+Six écritures, et **le plus gros glissement du chantier** :
+
+| | |
+|---|---|
+| p80 L18 — Sax P., 60 ans | « Bourgeois » → **« Prêtre »**. Le « Bourgeois » du dépouillement est le mot de la ligne 19. |
+| p80 L19 — Sax George, 54 ans | « Journalier » → **« Bourgeois »**. |
+| p80 L24 — Desroches Eugénie | « Commis » → **case vide** : le mot est à la ligne 25. |
+| p80 L25 — Desroches Georgiana | → **« Commis »**. |
+| p81 L10 — Clouston Johny, 56 ans | « Fermier » → **« Journalier »**. |
+| p83 L3 — Montminy Joseph, 48 ans | « Radigeur » → **case vide**, « Not given » une troisième fois. |
+
+### Il n'y a pas un seul fermier en division 1
+
+C'était le dernier. Les trois « Fermier » du fichier sont tombés un à un :
+deux étaient des **« Forman »** (pages 51 et 56), le troisième un **« Journalier »**
+écrit en toutes lettres. La division 1 de Saint-Romuald, en 1881, ne compte
+aucun fermier — des journaliers, des contremaîtres, des gens de chantier et de
+chaloupe. Les huit « Cultivateur » du fichier restent, eux, et se lisent tels
+quels au manuscrit.
+
+### « Not given », troisième fois — et « Radigeur » s'explique
+
+Page 83 ligne 3 : le même mot, la même main. Et le dépouillement en avait tiré
+« Radigeur », mot qui n'existe pas — comme il avait tiré « Boulanger » des deux
+autres. **Les trois cases où le manuscrit refuse de répondre sont les trois
+seules cases du recensement où le dépouillement a inventé un métier.**
+
+### Un prêtre retrouvé
+
+Page 80 ligne 18, « Sax P. » est porté **Prêtre**, et le « Bourgeois » que le
+fichier lui donnait appartient à son voisin de ligne. Le dépouillement avait
+glissé d'un rang sur ce bloc-là et comblé le trou par un « Journalier » qui n'est
+nulle part. La division compte donc, en 1881, trois prêtres — le curé Gauvreau
+(p17), le vicaire Beaudet (p18) et celui-ci — plus les cinq frères de l'école.
+
+## Lot pages 85-88 — 91 rangées, et le chantier est clos
+
+`outils/relecture-1881/lots81/d1-085-088.json`
+
+**Vingt écritures** sur les quatre dernières pages — le lot le plus dense du
+chantier, et de loin.
+
+### Le couvent : dix religieuses qui n'avaient pas de métier
+
+Page 85 ligne 22 à page 86 ligne 7, le recenseur écrit **« Supérieure »** puis
+**« Soeur »**, repris au guillemet sur les lignes suivantes. Le dépouillement
+avait glissé d'un rang (« Supérieure » donné à la ligne 21, où le manuscrit
+porte un tiret) puis **laissé les neuf cases suivantes vides**. Elles sont
+rendues : une supérieure et neuf soeurs.
+
+### « Not given » : huit cases, et huit métiers inventés
+
+Le compte est clos, et il est net. Le manuscrit porte l'annotation **« Not
+given »** — d'une main plus grasse que celle du recenseur — sur **huit lignes**,
+et **sur ces huit lignes, et sur elles seules, le dépouillement a inventé un
+métier** :
+
+| | lu au dépouillement | au manuscrit |
+|---|---|---|
+| p14 L11 | Boulanger | Not given |
+| p69 L9 | Boulanger | Not given |
+| p83 L3 | Radigeur | Not given |
+| p86 L10 | Religieux | Not given |
+| p86 L11 | Religieux | do |
+| p88 L2 | Notaire | Not given |
+| p88 L3 | Notaire | do |
+| p88 L5 | Notaire | Not given |
+
+« Radigeur » n'est pas un mot français : c'est ce que donne ce gribouillis quand
+on essaie d'y lire un métier. Les huit cases sont vidées et marquées incertaines.
+**Trois des cinq « Notaire » de la division et les deux seuls « Religieux » en
+viennent.**
+
+Deux autres écritures : **p86 L8**, Landry Magloire, « Assurance » → **« premier
+agent »** ; **p87 L12 et L14**, une « Ménagère » et un « Cultivateur » repris au
+guillemet et à l'abréviation, que le dépouillement avait laissés vides.
+
+---
+
+# Le compte, à la fin
+
+**88 pages, 2 189 rangées, toutes lues.** Les quinze lots de
+`outils/relecture-1881/lots81/` portent la lecture complète de la colonne 14 —
+et celle de la colonne 15, qui n'est pas écrite.
+
+| | |
+|---|---|
+| Professions au fichier avant la passe | **667** |
+| Professions au fichier après | **694** |
+| Cases remplies que le dépouillement avait laissées vides | **42** |
+| Cases vidées : le manuscrit ne porte rien | **15** |
+| Métiers lus pour un autre | **13** |
+
+Ce que la colonne a rendu, qui n'y était pas : un **Chaloupier**, un
+**Polisseur**, un **Mouleur**, une **Manchonnière**, une **Chapelière**, un
+**Capitaine de bateau**, un **Prêtre Curé**, un **Prêtre Vicaire**, un troisième
+**Prêtre**, une **Supérieure** et neuf **Soeurs**, quatre **Fils** et un
+**Cultivateur fils**, trois **Forman** de plus.
+
+Ce qu'elle a retiré : **tous les fermiers**. Les trois « Fermier » du fichier
+étaient deux « Forman » et un « Journalier ». La division 1 de Saint-Romuald,
+en 1881, n'en compte aucun.
+
+## Les petits guillemets — tranchés, et c'est le greffier qui a tranché
+
+La question restait ouverte : sur certaines pages le recenseur reprend la valeur
+du dessus par **deux petits points**, et le même signe court tantôt sur des
+hommes en âge de travailler, tantôt sur un enfant de deux ans. Ni l'âge ni le
+sexe n'en font une règle sûre.
+
+**La réponse était sur la page, et elle n'est pas de nous.** Chaque entrée de la
+colonne 14 que le greffier d'Ottawa a comptée porte son **trait de pointage**, à
+droite de la case. Il a compté des guillemets, et il en a laissé d'autres.
+C'est sa lecture à lui, contemporaine du registre, du même signe que nous
+hésitions à lire :
+
+| | |
+|---|---|
+| **p81 L13-15** — Clouston William 22, Thomas 22, Joseph 15 | guillemet **pointé** → Journalier |
+| **p81 L3** — Desroches Napoléon 17 | guillemet **pointé** → Journalier |
+| **p78 L12** — Boutin Arthur 13 | guillemet **pointé** → Journalier |
+| p78 L2-5 — Roberge, 12, 11, 9 et 6 ans | guillemets **non pointés** → rien |
+| p78 L7-9 — Fecteau Marie 23, Dulcina 5, Arthur 2 | guillemets **non pointés** → rien |
+| p76 L8 — Fecteau Honoré 11 | guillemet **non pointé** → rien |
+| p34 L5-9, p40 L3 | guillemets d'un tiret, non pointés → rien |
+
+La même page le dit deux fois : à la page 78, le greffier ne compte pas les
+quatre guillemets qui courent sur les enfants Roberge, ni les trois qui courent
+sur les Fecteau jusqu'au petit Arthur de deux ans — mais il compte celui de la
+ligne 12, sur Boutin Arthur, treize ans, sous le « Journalier » de son frère.
+**Un journalier de deux ans n'existait pas non plus pour lui.**
+
+Reste **p87 L15, Morneau Flavie, 22 ans**, sous le « Cul.r » de son frère : sur
+cette page le greffier n'a pointé aucune des trois cases de la suite
+« Cultivateur », pas même celles de la mère et du frère que le fichier portait
+déjà. Son silence n'y vaut donc rien. **Patrick a tranché : elle est
+cultivateur** — et le manuscrit va dans ce sens, puisque la mère, ligne 13, est
+elle-même portée « Cultivateurs ». Versé.
+
+**p87 L18, Fidéline, 14 ans**, sous le « fils » de ses frères : guillemet non
+pointé, et le mot lui-même ne peut pas être le sien. Laissée vide.
+
+Six cases de plus, donc, et la colonne 14 est close : **694 professions**.
+
+## La colonne 15 — versée
+
+## La colonne 15 — le relevé complet, non écrit
+
+Les 2 189 rangées ont été lues. La colonne 15 du manuscrit s'écarte du fichier
+**84 fois**, et de quatre façons :
+
+| | |
+|---|---|
+| case vide au fichier, **« Ve. »** au manuscrit | **72** |
+| « M » au fichier, **« Ve. »** au manuscrit | **3** |
+| case vide au fichier, **« M »** au manuscrit | 6 |
+| « M » au fichier, **case vide** au manuscrit | 3 |
+
+**Soixante-quinze veufs et veuves sur 2 189 personnes** — 3,4 %, contre 0,5 % en
+division 2 et 4,0 % en 1891. Le taux se remet d'aplomb.
+
+Les trois cas où le fichier porte « M » et le manuscrit « Ve. » sont les plus
+parlants, parce qu'ils ne sont pas un simple oubli :
+
+- **p12 L10, Bégin Rigobert, 38 ans** — et la ligne suivante, sa prétendue
+  épouse de 40 ans, porte un tiret et une marque d'école. Le complément notait
+  déjà que son âge se lit « 6 ». C'est sa fille ; la mère est morte à la
+  naissance de la petite Virginie, en décembre ;
+- **p19 L17, Lambert J.Baptiste, 45 ans** ;
+- **p60 L7, Guay Edouard, 25 ans**, entre deux autres « Ve. » (lignes 6 et 8).
+
+### Ce que Patrick a décidé, et ce que ça donne
+
+Les douze cases contradictoires lui ont été montrées en planche de contact
+(`outils/relecture-1881/planche15.py`, une bande par cas, étiquetée du nom, de
+l'âge, de ce que porte le fichier et de ce que porte le manuscrit). **Il a versé
+les 84.**
+
+La division 1 passe de **zéro à 75 veufs et veuves** sur 2 189 personnes —
+23 hommes, 52 femmes, 3,4 % de la population. La division 2 en porte 0,5 %,
+1891 en porte 4,0 % : le compte se remet d'aplomb.
+
+Ce qui a emporté la décision n'est pas la lecture des cases vides, c'est
+**l'accord des cases pleines** : sur quelque 700 « M » du manuscrit, le fichier
+en manquait 6 et en portait 3 de trop. Un instrument qui tombe juste 691 fois
+sur 700 là où il y avait de quoi comparer n'invente pas 72 « Ve. » là où il n'y
+avait rien. Le dépouillement n'avait pas mal lu la colonne : **il avait relevé
+les mariés et sauté les veufs**, systématiquement, sur 88 pages.
+
+### L'âge de la page 12, tranché du même coup
+
+`prof1.mjs` est devenu idempotent au passage — une remarque déjà posée ne se
+repose pas —, ce qui a permis de repasser les quinze lots avec `--etat` sans
+empiler une deuxième fois toutes les remarques des professions.
+
+Et la page 12 se referme. La colonne 9, agrandie, porte **un seul chiffre à la
+ligne 11, « 6 »**, entre le 38 du père et le 5 de Joseph. Le complément le
+soupçonnait sans pouvoir conclure ; les quatre colonnes se répondent désormais :
+
+> Bégin Rigobert, 38 ans, tanneur, **veuf**. Marie, **6 ans**, écolière. Joseph,
+> 5 ans. Virginie, 2/12, **née en décembre**. La mère est morte à la naissance de
+> la petite.
+
+L'âge est corrigé, la note du complément est close, et le site porte la fiche
+juste. **Le fichier ne fait plus d'une enfant de six ans l'épouse de son
+père.**

@@ -80,8 +80,14 @@ window.COMPLEMENT_1881_D1 = {
   },
 
   /* Aucune infirmité (colonnes 17-19) n'est déclarée sur les pages 1 à 9 :
-     le recenseur a tiré un trait sur chaque ligne. Les deux seules infirmités
-     relevées jusqu'ici sont en colonne 19 : page 17 ligne 17 et page 29 ligne 10. */
+     le recenseur a tiré un trait sur chaque ligne.
+
+     LA DIVISION EN COMPTE CINQ, ET NON DEUX. Deux en colonne 19 (page 17 ligne 17,
+     page 29 ligne 10), relevées de longue date — et trois en colonne 17, trouvées
+     à la passe de la colonne 16 et versées le 12 septembre 2026 : page 11 ligne 8,
+     page 50 lignes 16 et 17. Le premier relevé les avait lues « école », la
+     colonne 17 touchant la 16. Toutes trois sont vérifiées à la réglette imprimée
+     des numéros de colonne : la marque est sous le 17, et le 16 porte un tiret. */
   pages: {
     1: { lignes: 25, ecole: [5, 6, 7, 8, 9, 10, 24] },
 
@@ -115,8 +121,17 @@ window.COMPLEMENT_1881_D1 = {
        sur le manuscrit : dépouillement l.1 = manuscrit l.2, etc.
        Les clés ci-dessous suivent le MANUSCRIT ; decalage rétablit la
        correspondance. Corriger l'oubli fera tomber decalage à 0. */
+    /* Le « decalage: 1 » qui figurait ici datait d'avant la réinsertion de
+       Beaulieu Damase : le dépouillement sautait alors la ligne 1 du manuscrit.
+       La relecture l'a réinséré et renuméroté la page (voir RELECTURE-1881-D1),
+       si bien que le fichier suit désormais le manuscrit ligne à ligne et que le
+       décalage inverserait la correspondance. Retiré, sur deux ancres : la
+       colonne 10 porte « Décembre » à la ligne 4, où le fichier a Sara Beaulieu,
+       4/12 (déc.), et « Septembre » à la ligne 22, où il a Laly Brown, 7/12
+       (sept.) ; et le bloc anglican des lignes 18 à 23 tombe exactement sur les
+       Brown et Hazel Cambell. */
     4: {
-      lignes: 25, decalage: 1,
+      lignes: 25,
       ecole: [1],
       ne12: { 4: 'Décembre', 22: 'Septembre' },
       exceptions: {
@@ -217,17 +232,25 @@ window.COMPLEMENT_1881_D1 = {
     },
 
     11: {
-      lignes: 25, ecole: [1, 8, 23],
+      lignes: 25, ecole: [1, 23],
       ne12: { 11: 'Novembre', 16: 'Janvier' },
-      exceptions: { 1: { lieu_naissance: 'États-Unis' } }
+      exceptions: {
+        1: { lieu_naissance: 'États-Unis' },
+        /* Colonne 17, vérifiée à la réglette imprimée : la marque est sous le 17,
+           et la colonne 16 porte un tiret. Le premier relevé l'avait lue « école ». */
+        8: { sourd_muet: true }
+      },
+      remarques: { 8: 'Bégin G. Honoré, 5 ans — marque en colonne 17 (sourds-muets), non en 16' }
     },
 
     12: {
-      lignes: 25, ecole: [5, 6, 7, 18, 19, 20],
+      lignes: 25, ecole: [5, 6, 7, 11, 18, 19, 20],
       ne12: { 13: 'Décembre' },
-      incertain: {
-        11: "Âge : le manuscrit se lit « 6 », le dépouillement porte 40. Un seul chiffre est visible — à revoir sur l'original."
-      }
+      /* TRANCHÉ à la passe de la colonne 14-15 : l'âge est bien 6.
+         La colonne 9 porte un seul chiffre entre le 38 du père et le 5 de Joseph,
+         la colonne 15 porte « Ve. » sur le père et un tiret sur cette ligne, et la
+         colonne 16 y marque une écolière. Marie est sa fille, non son épouse ;
+         la mère est morte à la naissance de Virginie, en décembre. */
     },
 
     /* Maison 45 : la famille Coran est irlandaise (Patrick Coran, forgeron,
@@ -327,7 +350,7 @@ window.COMPLEMENT_1881_D1 = {
 
     23: {
       lignes: 25, ecole: [16, 19],
-      ne12: { 9: 'Mars', 15: 'Août' },
+      ne12: { 9: 'Mars', 15: 'Avril' },
       remarques: { 1: '8 avril — Ol. Lambert, énumérateur' },
       incertain: {
         15: "Âge en fraction de mois peu lisible (3/12 ou 9/12) alors que la colonne 10 porte « Août » ; un âge de 8/12 serait cohérent avec le 4 avril 1881."
@@ -383,7 +406,7 @@ window.COMPLEMENT_1881_D1 = {
 
     30: {
       lignes: 25, ecole: [8],
-      ne12: { 4: 'Août' }
+      ne12: { 4: 'Avril' }
     },
 
     /* Maison 122 : James Keley, charpentier irlandais de 60 ans, a épousé une
@@ -516,7 +539,7 @@ window.COMPLEMENT_1881_D1 = {
        filiation paternelle de l'origine.
        Joseph Gosselin (maison 189) est libraire, métier unique du dépouillement. */
     41: {
-      lignes: 25, ecole: [1, 2, 20, 24],
+      lignes: 25, ecole: [1, 2, 20, 23, 24],
       ne12: { 9: 'Septembre', 14: 'Décembre' },
       exceptions: {
         15: { origine: 'Écossaise' },
@@ -544,7 +567,7 @@ window.COMPLEMENT_1881_D1 = {
 
     43: {
       lignes: 25, ecole: [3, 11, 24, 25],
-      ne12: { 5: 'Août' }
+      ne12: { 5: 'Avril' }
     },
 
     /* Louis Couture, 42 ans, maison 202 : profession « Artiste » — la seule du
@@ -574,7 +597,12 @@ window.COMPLEMENT_1881_D1 = {
        rien à signaler ici, la remarque "Jumeaux" est inscrite sur la ligne 4
        de la page 45. Toutes les valeurs par défaut (Québec/Catholique/Française)
        se vérifient sans exception sur les 23 lignes de cette page. */
-    46: { lignes: 23, ecole: [7, 8, 9] },
+    /* « lignes: 23 » était un comptage fautif, qui privait de tout complément
+       les deux derniers Simard de la page. Le manuscrit en porte 25 : le ménage
+       Simard se poursuit à la ligne 1 de la page 47, et les trois écoliers
+       relevés ici tombent sur les Lebel des lignes 7, 8 et 9 (11, 10 et 8 ans),
+       preuve que la numérotation est bien celle du fichier. */
+    46: { lignes: 25, ecole: [7, 8, 9, 20, 21, 24, 25] },
 
     /* Maison 187 : la famille Lockwell (Flore, 49 ans, chef de famille sans
        époux mentionné, avec Antoinette, Joseph, Arthur, Marie — et Léonard,
@@ -583,7 +611,7 @@ window.COMPLEMENT_1881_D1 = {
        marins français Hixe/Petitbon, p. 74-75 : autre trace de présence
        étrangère liée au port/chantier naval). */
     47: {
-      lignes: 25, ecole: [],
+      lignes: 25, ecole: [25],
       exceptions: {
         21: { origine: 'Portugaise' }, 22: { origine: 'Portugaise' },
         23: { origine: 'Portugaise' }, 24: { origine: 'Portugaise' },
@@ -598,7 +626,7 @@ window.COMPLEMENT_1881_D1 = {
        restent Catholiques/Français (défaut). Ligne 1 : suite de la famille
        Lockwell (Léonard, 9 ans) — origine Portugaise, cf. page 47. */
     48: {
-      lignes: 25, ecole: [5],
+      lignes: 25, ecole: [1, 8, 9, 10, 18, 19],
       exceptions: {
         1: { origine: 'Portugaise' },
         2: { religion: 'Protestant', origine: 'Anglaise' }
@@ -606,7 +634,7 @@ window.COMPLEMENT_1881_D1 = {
       remarques: { 2: "Bilkey John, marchand de bois — Protestant, origine Anglaise (seule occurrence)" }
     },
 
-    49: { lignes: 25, ecole: [8] },
+    49: { lignes: 25, ecole: [9] },
 
     /* Maison 197 : William Findley, 40 ans, mécanicien, né en ÉCOSSE —
        Protestant, origine Écossaise. Son épouse Amélie (48) est
@@ -615,19 +643,28 @@ window.COMPLEMENT_1881_D1 = {
        partout ailleurs dans ce dépouillement (attribution par le père seul).
        Alexina Dorey (5 ans), pensionnaire dans le ménage, reste Française. */
     50: {
-      lignes: 25, ecole: [1],
+      lignes: 25, ecole: [5, 6, 7, 12, 13, 23],
       exceptions: {
         10: { lieu_naissance: 'Écosse', religion: 'Protestant', origine: 'Écossaise' },
-        12: { origine: 'Écossaise' }
+        12: { origine: 'Écossaise' },
+        /* Colonne 17, vérifiée à la réglette imprimée : les deux marques sont sous
+           le 17, et la colonne 16 porte un tiret sur ces deux lignes. Le premier
+           relevé les avait lues « école ». Frère et sœur. */
+        16: { sourd_muet: true },
+        17: { sourd_muet: true }
       },
-      remarques: { 10: 'Findley William, mécanicien — né en Écosse, Protestant, origine Écossaise' }
+      remarques: {
+        10: 'Findley William, mécanicien — né en Écosse, Protestant, origine Écossaise',
+        16: 'Plaisance Marie Louise — marque en colonne 17 (sourds-muets), non en 16',
+        17: 'Plaisance Pierre, 33 ans — marque en colonne 17 (sourds-muets), non en 16'
+      }
     },
 
-    51: { lignes: 25, ecole: [] },
+    51: { lignes: 25, ecole: [2, 3, 4, 8, 9, 10, 11, 12, 15, 16] },
 
     52: { lignes: 25, ecole: [7, 16, 17] },
 
-    53: { lignes: 25, ecole: [], ne12: { 23: 'Juillet' } },
+    53: { lignes: 25, ecole: [17], ne12: { 23: 'Juillet' } },
 
     /* Maison 214 : Stanislas Sirois — remarque manuscrite en colonne 20,
        ligne 13, mentionnant un départ pour les États-Unis le 15 août 1881
@@ -636,14 +673,14 @@ window.COMPLEMENT_1881_D1 = {
        dans ce district (à rapprocher des quatre familles US identifiées
        dans les pages 1-45/60-88). */
     54: {
-      lignes: 25, ecole: [],
+      lignes: 25, ecole: [20],
       remarques: { 13: "15 août 81 — États-Unis (départ noté après le recensement, lecture partielle)" },
       incertain: { 13: "Fin de la remarque difficile à lire au-delà de « 15 août 81 États-Unis »" }
     },
 
-    55: { lignes: 25, ecole: [17, 18, 19] },
+    55: { lignes: 25, ecole: [11, 12, 13, 15, 16, 17] },
 
-    56: { lignes: 25, ecole: [4] },
+    56: { lignes: 25, ecole: [4, 5, 6, 18] },
 
     /* Maison 225 : le chef de famille est OLIVIER LAMBERT lui-même, 36 ans,
        régisseur de moulin — l'énumérateur recense son propre ménage.
@@ -653,16 +690,16 @@ window.COMPLEMENT_1881_D1 = {
        donc établie en Ontario puis est revenue au Québec entre ~1871 et 1874.
        La famille se poursuit à la page 58, lignes 1-2 (Marie Louise, Augusta). */
     57: {
-      lignes: 25, ecole: [],
+      lignes: 25, ecole: [2, 3, 4, 14, 15, 16, 17, 18, 19, 23, 24, 25],
       exceptions: { 23: { lieu_naissance: 'Ontario' } },
       remarques: { 23: "Joseph Édouard Lambert, fils de l'énumérateur Olivier Lambert, né en Ontario" }
     },
 
     /* Lignes 1-2 : suite du ménage de l'énumérateur Olivier Lambert (cf. p.57) —
        Marie Louise (5 ans) et Augusta (7/12, née en septembre). */
-    58: { lignes: 25, ecole: [], ne12: { 2: 'Septembre' } },
+    58: { lignes: 25, ecole: [5, 6, 7, 14], ne12: { 2: 'Septembre' } },
 
-    59: { lignes: 25, ecole: [20] },
+    59: { lignes: 25, ecole: [3, 12] },
 
     /* Maison 234 : trois veufs sous le même toit (Édouard Guay 28 ans commis,
        Louis Guay 58, Marie Léonard 66) plus Marie Loiselle, 80 ans. */
@@ -715,7 +752,7 @@ window.COMPLEMENT_1881_D1 = {
        Marie Gobeille, 80 ans, est recensée seule dans la maison des Carrier. */
     66: {
       lignes: 24, ecole: [1, 11, 12, 13],
-      ne12: { 23: 'Août' },
+      ne12: { 23: 'Avril' },
       exceptions: {
         18: { religion: 'Église anglicane', origine: 'Anglaise' },
         20: { religion: 'Église anglicane', origine: 'Anglaise' },
@@ -745,7 +782,7 @@ window.COMPLEMENT_1881_D1 = {
        journaliers — le plus gros regroupement de travailleurs adultes relevé. */
     68: {
       lignes: 25, ecole: [4, 21, 22],
-      ne12: { 10: 'Juin', 25: 'Août' }
+      ne12: { 10: 'Juin', 25: 'Avril' }
     },
 
     /* Abel Maire, 26 ans, « Chaloupier » : premier métier de construction de
@@ -889,7 +926,7 @@ window.COMPLEMENT_1881_D1 = {
        355 (Fecteau) compte des enfants de 7, 9 et 14 ans. Le contraste avec les
        pages voisines est net et mérite vérification sur l'original. */
     79: {
-      lignes: 25, ecole: [19],
+      lignes: 25, ecole: [19, 25],
       remarques: { 17: '21 avril — Ol. Lambert, énumérateur' }
     },
 
@@ -940,6 +977,24 @@ window.COMPLEMENT_1881_D1 = {
        Suite des Clauston : Robert, 19 ans, fils de Johnny (p. 81), toujours
        inscrit « Écossaise ». */
     82: {
+      /* SUSPENDUE — ces deux pages ne décrivent pas les personnes que le
+         dépouillement porte aux pages 82 et 83, et l'écart n'est pas un simple
+         décalage de lignes : Adèle Talbot, Robert Clauston (19 ans, « fils de
+         Johnny ») et Michel Bilodeau (71 ans, « Retraité ») ne figurent nulle
+         part dans la division, et la famille de Johnny Clouston s'arrête à la
+         ligne 16 de la page 81 sans se poursuivre. Aucun décalage de -3 à +3 ne
+         raccorde les ancres : la colonne 10 marque ici une seule naissance
+         (« Mars », ligne 20) là où le fichier en porte deux, et la page 83
+         annonce un nourrisson de mai quand la division n'en compte aucun entre
+         les pages 27 et 88.
+         Les pages voisines, elles, tombent juste au caractère près — 81 (les
+         Clouston écossais aux lignes 10 à 16), 84 et 85 (mois de naissance
+         exacts). L'anomalie est donc bornée à ces deux pages.
+         Tant que le manuscrit n'a pas tranché, rien n'en est versé : les
+         49 personnes des pages 82 et 83 gardent leurs colonnes vides plutôt que
+         de recevoir des valeurs invérifiables. Contenu conservé tel quel pour
+         la reprise. Voir docs/BILAN-RELECTURE.md. */
+      alignement_incertain: "Ne correspond pas aux personnes du dépouillement — ni par le contenu ni par aucun décalage de lignes. À reprendre au manuscrit.",
       lignes: 25, ecole: [7, 8, 15, 16],
       exceptions: { 2: { origine: 'Écossaise' } },
       ne12: { 20: 'Mars' }
@@ -950,6 +1005,8 @@ window.COMPLEMENT_1881_D1 = {
        de « Rentier », plus fréquent chez les propriétaires âgés).
        Maison 370 clôt la division au bas de la page. */
     83: {
+      /* SUSPENDUE — voir la note de la page 82. */
+      alignement_incertain: "Ne correspond pas aux personnes du dépouillement — ni par le contenu ni par aucun décalage de lignes. À reprendre au manuscrit.",
       lignes: 25, ecole: [3, 4, 11],
       ne12: { 9: 'Mai' },
       remarques: { 21: '22 avril — Ol. Lambert, énumérateur' }
@@ -959,7 +1016,7 @@ window.COMPLEMENT_1881_D1 = {
        deux derniers chiffres sont sûrs : ..84 à ..89) ; à confirmer sur
        l'original, la centaine est déduite de la suite (365 à la p. 81). */
     84: {
-      lignes: 25, ecole: [14, 15, 16, 21, 22, 23],
+      lignes: 25, ecole: [14, 22, 23],
       ne12: { 4: 'Juillet' },
       incertain: {
         1: "Numéros de maison coupés en marge (..84 à ..89 lisibles, centaine supposée 3xx par suite logique)."
@@ -974,7 +1031,7 @@ window.COMPLEMENT_1881_D1 = {
        communauté des origines différentes, chacune énumérée pour elle-même
        plutôt que rattachée à un chef de famille. */
     85: {
-      lignes: 25, ecole: [6, 7],
+      lignes: 25, ecole: [7],
       ne12: { 17: 'Janvier' },
       exceptions: {
         14: { lieu_naissance: 'Irlande', religion: 'Église anglicane', origine: 'Irlandaise' },
@@ -992,7 +1049,7 @@ window.COMPLEMENT_1881_D1 = {
        Pierre Côté (34) logé comme domestique ; Bouchard Ludger (35) amorce la
        maison suivante. */
     86: {
-      lignes: 25, ecole: [12, 13, 18, 19],
+      lignes: 25, ecole: [11, 12, 13, 18],
       incertain: {
         1: "Noms de religion des sept religieuses difficiles à déchiffrer précisément (ex. « Sainte Prophère », « Sainte Angilbert ») — lecture approximative.",
         9: "Prénom de l'épouse de Landry Magloire incertain (« Euchère » ou proche).",
@@ -1007,7 +1064,7 @@ window.COMPLEMENT_1881_D1 = {
        Narcisse 17, Frédéline 14 — rare ménage entièrement dirigé par une femme
        parmi des enfants déjà adultes. */
     87: {
-      lignes: 25, ecole: [2, 5, 8, 9, 18],
+      lignes: 25, ecole: [2, 9],
       incertain: {
         6: "Prénom du fils Bouchard/Savard à la ligne 6 lu « Térène » ou « Kéréné », sexe noté masculin.",
         9: "Prénom lu « Emcède » ou « Émide » — incertain."
@@ -1026,7 +1083,7 @@ window.COMPLEMENT_1881_D1 = {
        totaux du recenseur (encerclés : 16, 9-9) et la mention « 26 avril —
        O. Lambert, énumérateur ». */
     88: {
-      lignes: 20,
+      lignes: 20, ecole: [7, 8, 12, 13, 14, 15],
       exceptions: {
         11: { religion: 'Église anglicane', origine: 'Anglaise' },
         12: { religion: 'Église anglicane', origine: 'Anglaise' },
@@ -1063,12 +1120,41 @@ window.COMPLEMENT_1881_D1 = {
       lecture: 'mot court commençant par « Not » — Notaire ? à revoir' }
   ],
 
-  /* Limite de méthode, à connaître avant de se fier à la colonne « école ».
-     En colonne 15, le recenseur accole au « M. » ou au « V° » une petite marque
-     de pointage qui déborde sur la colonne 16. Sur les lignes portant un état
-     matrimonial, une marque isolée n'est donc pas une réponse fiable. Seules
-     les marques nettement centrées en colonne 16, sur des lignes sans état
-     matrimonial, ont été retenues comme « allant à l'école ». Le relevé est
-     donc prudent : il peut manquer des écoliers, il n'en invente pas. */
-  reserve_ecole: true
+  /* LA COLONNE 16 A ÉTÉ REPRISE AU MANUSCRIT, LES 88 PAGES.
+     La mise en garde qui tenait ici disait vrai sur le mécanisme — en colonne 15
+     le recenseur accole au « M. » ou au « Ve. » une petite marque de pointage qui
+     déborde sur la colonne 16 — mais concluait à tort que le relevé « peut
+     manquer des écoliers, il n'en invente pas ». Il faisait les deux.
+
+     La passe dédiée (outils/relecture-1881/lots81/ecole-*.json, planches
+     `prof1.py --vue=ecole`, qui porte la colonne 15 À CÔTÉ de la 16) a trouvé :
+     20 pages fautives sur 88, 66 écoliers ajoutés et 16 retirés. Le compte passe
+     de 309 à 353. Le défaut est concentré sur les pages 48 à 60, où dix pages sur
+     douze étaient fausses — quatre ne relevaient rien du tout.
+
+     CE QUI DISTINGUE LES DEUX MARQUES, et qu'il faut savoir avant d'y revenir :
+       école    un « 1 » franc, haut, CENTRÉ sous le 16
+       pointage un petit signe bas et penché, COLLÉ AU BORD GAUCHE de la 16, qui
+                suit toujours un « M. » ou un « Ve. » de la colonne 15
+     Le greffier pointe aussi la colonne 16 elle-même, et cette coche-là tombe au
+     bord gauche de la 17.
+
+     Les pages 82 et 83 restent suspendues et n'ont pas été touchées : voir le
+     bloc de la page 82. Ce qu'on lit au manuscrit les concernant est dans
+     docs/ECOLE-1881-D1.md — il confirme la suspicion. */
+  ecole_relue_au_manuscrit: '2026-09-12, les 88 pages',
+
+  /* LA COLONNE 10 NE PORTE PAS UN SEUL « AOÛT ».
+     Les cinq « Août » qui figuraient ici (p23 L15, p30 L4, p43 L5, p66 L23,
+     p68 L25) sont tous des « Avril », relus à la réglette imprimée : un A
+     bouclé, « vril », un l final à hampe haute. Le « Août » de ce recenseur est
+     court et sans hampe — comparer au « Mars » de la page 2 et au « Juin » de la
+     page 68. Les trois âges qui portaient « août » entre parenthèses ont été
+     corrigés du même coup dans le recensement.
+
+     À noter pour qui reviendra sur le recoupement fraction/mois : la p66 L23
+     (8/12) s'accordait avec « Août » et ne s'accorde plus avec « Avril ». Le
+     mauvais mois la rendait cohérente par accident ; la bonne lecture la range
+     parmi les lignes où le recenseur se contredit. */
+  col10_relue_au_manuscrit: '2026-09-12, les cinq entrées en « Août »'
 };

@@ -1,0 +1,48 @@
+{
+  "division": 1,
+  "colonne": "14 — profession, occupation ou métier ; 15 — marié ou en veuvage",
+  "pages": {
+    "49": {
+      "prof": { "1": "Journalier", "4": "Journalier", "6": "Journalier", "10": "Journalier",
+                "13": "Journalier", "14": "Journalier", "15": "Journalier", "17": "Journalier",
+                "20": "Journalier", "22": "Journalier", "24": "Batelier" },
+      "etat": "MM-MM----MM---MM-------MM"
+    },
+    "50": {
+      "prof": { "3": "Colleur", "9": "Domestique", "10": "Mécanicien", "14": "Charretier",
+                "17": "Journalier", "19": "Journalier", "21": "Journalier", "22": "Journalier",
+                "24": "Journalier" },
+      "etat": "--MM-----MM--MM--------MM",
+      "notes": { "22": "la colonne 14 porte « do » sous le « Journalier » de la ligne 21 ; le dépouillement avait laissé la case vide" }
+    },
+    "51": {
+      "prof": { "6": "Journalier", "8": "Journalier", "13": "Forman", "17": "Cordonnier",
+                "18": "Cordonnier", "19": "Cordonnier", "21": "Journalier", "25": "Journalier" },
+      "etat": "----VMM-----MM--V---MM-V-",
+      "vider": [24],
+      "notes": {
+        "13": "profession lue « Fermier » au dépouillement ; le manuscrit porte « forman » — le mot que la division emploie ailleurs sous la forme « Forman »",
+        "18": "la colonne 14 reprend au guillemet le « Cordonnier » de la ligne 17 ; le dépouillement avait laissé la case vide",
+        "24": "profession lue « Journalier » au dépouillement ; au manuscrit la case est vide et le « Journalier » est à la ligne 25",
+        "25": "la colonne 14 porte « Journalier » ; le dépouillement l'avait porté à la ligne 24"
+      }
+    },
+    "52": {
+      "prof": { "4": "Journalier", "5": "Journalier", "8": "Journalier", "10": "Charretier",
+                "13": "Journalier", "14": "Journalier", "21": "Journalier" },
+      "etat": "--V----MMMM---------MM--V"
+    },
+    "53": {
+      "prof": { "1": "Journalier", "2": "Journalier", "3": "Journalier", "4": "Journalier",
+                "5": "Journalier", "7": "Journalier", "9": "Journalier", "10": "Batelier",
+                "12": "Journalier", "14": "Mécanicien", "15": "Journalier", "19": "Journalier",
+                "24": "Charpentier" },
+      "etat": "----MM---MM-------MM---MM"
+    },
+    "54": {
+      "prof": { "4": "Journalier", "8": "Journalier", "9": "Journalier", "13": "Journalier",
+                "18": "Journalier", "24": "Journalier" },
+      "etat": "---MM---MM--MM---MM----MM"
+    }
+  }
+}

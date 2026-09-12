@@ -1,0 +1,23 @@
+{
+  "division": 1,
+  "pages": {
+    "1": { "ligne": {
+      "20": { "nom": "Depin", "_inc": true,
+              "_note": "le patronyme se lit « Depin », la fin du mot reprise d'un trait par le recenseur ; le dépouillement portait « Depin [?] ». Née aux États-Unis, elle pourrait porter le « Depew » américain — le manuscrit ne tranche pas" }
+    } },
+    "2": { "ligne": {
+      "3":  { "age": "85", "_inc": false,
+              "_note": "l'âge se lit 85 sans crochet — sa femme Marie en a 75 ; le dépouillement portait « 85 [?] »" }
+    } },
+    "3": { "ligne": {
+      "6":  { "nom": "Lord", "_inc": true,
+              "_note": "le patronyme se lit « Lord » — L, o, r, d, sans le i point du « Laird » que portait le dépouillement. La question était ouverte depuis le premier lot ; le manuscrit dit « Lord »" },
+      "7":  { "nom": "Lord", "_inc": true, "_note": "le patronyme se lit « Lord » à la ligne 6, repris au guillemet" },
+      "8":  { "nom": "Lord", "_inc": true }, "9": { "nom": "Lord", "_inc": true },
+      "10": { "profession": "Insp. de bois", "_inc": false,
+              "_note": "la colonne 14 porte « Insp. de bois » en toutes lettres ; le dépouillement portait « Insp. de bois [?] »" },
+      "15": { "profession": "Ingénieur", "_inc": false,
+              "_note": "la colonne 14 porte « Ingénieur », qu'Edward reprend au guillemet à la ligne 16 ; le dépouillement portait « Ingénieur [?] »" }
+    } }
+  }
+}

@@ -418,6 +418,46 @@ géométrie verticale que la bande des coches et se confronte au dépouillement 
 ligne. Cette vérification faite, la page 116 s'est révélée porter un vrai décalage du
 dépouillement, de la ligne 2 à la ligne 6.
 
+### Le tiret du manuscrit rendu explicite — pages 42 à 83
+
+Ce que la passe avait établi restait invisible au site. Aux pages 42 à 83, une case
+vide du fichier veut dire **un tiret au manuscrit** : `cols2122.mjs` ne touchait que
+les lignes divergentes, si bien qu'une case vide en face d'un tiret était tenue pour
+conforme et laissée telle quelle. Mais `docs/SCHEMA.md` dit qu'un champ absent
+signifie « information non relevée » — et le site lisait donc « non relevé » là où le
+recenseur avait écrit « ne sait pas ».
+
+La bande 42-83 a été faite la première — 472 lignes —, puis Patrick a tranché
+d'étendre la règle au recensement entier. **1325 lignes portent désormais
+`sait_lire: false` et `sait_ecrire: false`**, marquées
+`alphabetisation_source: 'tiret_manuscrit'` pour que la provenance reste distincte
+d'une coche lue.
+
+**Les colonnes 21 et 22 sont complètes : 3548 lignes sur 3548, plus une seule sans
+valeur.** Le compte de la division : **1997 « sait lire » contre 1551 « non »**, et
+**1728 « sait écrire » contre 1820**. Chez les 1788 personnes de vingt ans et plus,
+**65,3 % lisent** et 1042 écrivent.
+
+Ce n'est **pas** une relecture : rien n'a été deviné, aucune ligne n'a reçu de drapeau
+`incertain` ni de remarque, et le compte des lignes incertaines reste à 1100. Des 1325,
+**359 ont moins de cinq ans** et 494 en ont cinq ou plus.
+
+Trois contrôles avant écriture, tous passés : aucune ligne n'avait une seule des deux
+colonnes absente — signe que la passe avait bien écrit les deux ensemble —, aucune ne
+portait déjà une provenance qu'on aurait écrasée, et **aucune page du recensement n'est
+vide ni quasi vide** de ces colonnes. Ce dernier contrôle est le plus important, parce
+qu'il est le seul qui distingue un tiret d'un trou : une page que la passe n'aurait pas
+atteinte ne porte pas des tirets. Les pages 84 et 85, que ce journal donnait pour
+franchement lacunaires, portent depuis 16 et 21 valeurs — ce dernier chiffre étant
+exactement le nombre de lignes cochées au manuscrit. Le contrôle est codé dans l'outil,
+qui s'arrête plutôt que d'écrire si une page se tait.
+
+L'outil est `outils/relecture-1881/tirets91.mjs`, avec `--essai` et une plage de pages
+facultative. Le site affiche le résultat : le registre de 1891 porte une colonne
+« Lit / écrit », dite en toutes lettres — « lit et écrit », « lit seulement »,
+« ni l'un ni l'autre » — parce qu'un crochet absent se lirait « non relevé », et c'est
+justement la confusion qu'on vient de lever.
+
 ### Les « sait écrire mais ne sait pas lire »
 
 Ils étaient 59, ils sont **56**. Cinq seulement tombaient dans les pages couvertes par un

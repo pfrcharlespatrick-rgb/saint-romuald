@@ -1,0 +1,21 @@
+{
+  "division": 1,
+  "colonne": "16 — allant à l'école",
+  "pages": {
+    "1":  { "ecole": [5, 6, 7, 8, 9, 10, 24] },
+    "2":  { "ecole": [23, 24] },
+    "3":  { "ecole": [15] },
+    "4":  { "ecole": [1] },
+    "5":  { "ecole": [11, 17] },
+    "6":  { "ecole": [8, 16, 17] },
+    "7":  { "ecole": [8, 9, 10, 18, 19, 22, 23, 24],
+            "note": "la ligne 19, Bitner Ema, 20 ans, porte bien un « 1 » franc en colonne 16 : l'écolière de vingt ans que le contrôle signalait est au manuscrit" },
+    "8":  { "ecole": [6, 12, 13, 14] },
+    "9":  { "ecole": [2, 3, 15, 16, 17, 18, 19, 20] },
+    "10": { "ecole": [7, 8, 9, 10, 19, 20, 24, 25] },
+    "11": { "ecole": [1, 23],
+            "note": "ligne 8 retirée : la réglette imprimée met la marque sous le 17, non sous le 16. La colonne 16 y porte un tiret. La marque de la colonne 17 (sourds-muets) n'est pas versée — elle est signalée." },
+    "12": { "ecole": [5, 6, 7, 11, 18, 19, 20],
+            "note": "ligne 11 ajoutée : Bégin Marie, six ans, porte un « 1 » franc. C'est la marque d'école qui avait servi, avec le « Ve. » du père et l'âge à un seul chiffre, à établir qu'elle est sa fille et non son épouse." }
+  }
+}

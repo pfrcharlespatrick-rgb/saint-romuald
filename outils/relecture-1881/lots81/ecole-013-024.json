@@ -1,0 +1,19 @@
+{
+  "division": 1,
+  "colonne": "16 — allant à l'école",
+  "note": "Douze pages lues, douze concordantes : rien à écrire. Le lot est la trace de la lecture.",
+  "pages": {
+    "13": { "ecole": [3, 4, 5, 13, 20] },
+    "14": { "ecole": [8, 9, 21] },
+    "15": { "ecole": [17, 18] },
+    "16": { "ecole": [5, 6, 9, 10, 19, 20, 24, 25] },
+    "17": { "ecole": [7, 8, 9, 24] },
+    "18": { "ecole": [25] },
+    "19": { "ecole": [13, 14, 15, 21, 22, 25] },
+    "20": { "ecole": [1, 2, 11] },
+    "21": { "ecole": [1, 2, 3, 11, 14, 19, 20] },
+    "22": { "ecole": [8, 9] },
+    "23": { "ecole": [16, 19] },
+    "24": { "ecole": [9, 22, 25] }
+  }
+}

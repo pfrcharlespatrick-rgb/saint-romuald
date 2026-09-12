@@ -1,0 +1,53 @@
+{
+  "division": 1,
+  "defauts": { "lieu_naissance": "Québec" },
+  "pages": {
+    "1": { "lignes": 20, "ligne": {
+      "5":  { "nom": "Laverty", "age": "23", "_inc": true,
+              "_note": "le patronyme se lit « Laverty », peut-être « Laverdy » — le dépouillement portait « Lavorky [?] » — et l'âge est 23, non 25" },
+      "7":  { "nom": "Bissonet", "_inc": true,
+              "_note": "le patronyme se lit « Bissonet » ; le dépouillement portait « Bisonnette [?] »" },
+      "8":  { "nom": "Bissonet" }, "9": { "nom": "Bissonet" }, "10": { "nom": "Bissonet" },
+      "14": { "prenom": "Hélène", "_inc": true,
+              "_note": "le prénom se lit « Hélène » ; le dépouillement portait « Rebecca »" },
+      "19": { "nom": "McNaughton",
+              "_note": "le patronyme se lit « McNaughton » ; le dépouillement portait « McLaughton »" },
+      "20": { "lieu_naissance": "États-Unis", "religion": "Église d'Angleterre",
+              "_note": "la colonne 11 porte « États-Unis » et la colonne 12 « É. d'Angleterre » — le dépouillement l'avait dit en remarque mais laissait la religion à « Catholique »" }
+    } },
+    "2": { "lignes": 20, "ligne": {
+      "1":  { "nom": "McNaughton",
+              "_note": "le patronyme se lit « McNaughton » ; le dépouillement portait « McLaughton »" },
+      "11": { "age": "7", "ecole": true, "_inc": true,
+              "_note": "l'âge se lit 7, non 4 — le 7 de cette main s'ouvre en haut et se confond avec un 4 — et la colonne 17 porte une marque d'école, ce qui va avec 7 ans" },
+      "13": { "age": "27", "_inc": true,
+              "_note": "l'âge se lit 27 au grossissement ; le dépouillement portait 37" },
+      "15": { "lieu_naissance": "Irlande" },
+      "19": { "ecole": true, "_note": "la colonne 17 porte une marque à cette ligne" }
+    } },
+    "3": { "lignes": 20, "ligne": {
+      "3":  { "ecole": true, "_note": "la colonne 17 porte une marque à cette ligne" },
+      "4":  { "nom": "Lavergne", "etat_matrimonial": "V", "_inc": true,
+              "_note": "le patronyme se lit « Lavergne » et la colonne 15 porte un V bien distinct des M voisins ; le dépouillement portait « Lauzon » et M" },
+      "5":  { "nom": "Lavergne", "_inc": true,
+              "_note": "le patronyme se lit « Lavergne » ; le dépouillement portait « Lauzon »" },
+      "6":  { "origine": "Française", "_inc": true,
+              "_note": "la colonne 13 porte « Française », mot pour mot celui de la ligne 4, vérifié au plus fort grossissement ; le dépouillement portait « Écossaise », vraisemblablement déduite du patronyme" },
+      "7":  { "origine": "Française" }, "8": { "origine": "Française" }, "9": { "origine": "Française" },
+      "14": { "age": "26", "profession": "Armurier", "_inc": true,
+              "_note": "l'âge se lit 26 et la profession « Armurier » ; le dépouillement portait 36 et « Arrimeur [?] »" },
+      "17": { "profession": "Couturière",
+              "_note": "la colonne 14 porte « Couturière » à cette ligne, non à la suivante" },
+      "18": { "profession": "",
+              "_note": "la colonne 14 est vide à cette ligne : le « Couturière » du dépouillement appartient à la ligne 17, celle de Julie, 43 ans — cette Suzanne a 3 ans" }
+    } },
+    "4": { "lignes": 20, "ligne": {
+      "4":  { "profession": "Journalier",
+              "_note": "la colonne 14 reprend au guillemet le « Journalier » de la ligne 1" },
+      "5":  { "prenom": "Julienne", "_inc": true,
+              "_note": "le prénom se lit « Julienne » ; le dépouillement portait « Pauline »" },
+      "13": { "ne_douze_mois": "Mars" },
+      "19": { "ecole": true, "_note": "la colonne 17 porte une marque à cette ligne" }
+    } }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "division": 2,
+  "pages": {
+    "20": { "ligne": {
+      "18": { "sexe": "F", "_inc": false,
+              "_note": "la colonne 8 porte F pour Eugénie Roberge" } } },
+    "24": { "ligne": {
+      "6":  { "prenom": "Odina", "_inc": false, "_note": "le prénom se lit « Odina »" },
+      "9":  { "sexe": "M", "_inc": false, "_note": "la colonne 8 porte M pour Frédéric Gagné" },
+      "15": { "prenom": "Odina", "_inc": false, "_note": "le prénom se lit « Odina »" } } }
+  }
+}

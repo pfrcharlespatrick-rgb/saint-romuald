@@ -628,9 +628,9 @@ window.COMPLEMENT_1881_D2 = {
         13
       ],
       "ne12": {
-        "1": "Février",
         "24": "Janvier"
       },
+      "_ne12_retire": "La ligne 1 portait « Février ». Elle tombe sur Catherine Williams, 15 ans, et la division ne compte aucun nourrisson né en février : la marque relevée en colonne 10 ne peut pas être une naissance des douze derniers mois. Retirée. Le reste de la page est bien aligné — l'exception « Irlandaise » de la ligne 1 tombe sur les Williams, le bloc « Anglaise » des lignes 5 à 14 sur les McCready, et « Janvier » à la ligne 24 sur Edouard McCready, 2/12 (janv.).",
       "exceptions": {
         "1": {
           "origine": "Irlandaise"

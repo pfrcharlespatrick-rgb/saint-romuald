@@ -1,0 +1,92 @@
+{
+  "division": 1,
+  "defauts": { "lieu_naissance": "Québec" },
+  "pages": {
+    "3": { "lignes": 20, "ligne": {
+      "5": { "etat_matrimonial": "",
+             "_note": "la colonne 15 est vide à cette ligne — le M du dépouillement n'y est pas ; Bazile, ligne 4, porte V" }
+    } },
+    "5": { "lignes": 20, "ligne": {
+      "2":  { "profession": "Journalier", "sait_lire": false, "sait_ecrire": false,
+              "_note": "la colonne 14 porte « Journalier », non « Forgeron » — celui-là est à la ligne 1 — et les colonnes 18 et 19 portent chacune un 1" },
+      "3":  { "sait_lire": false, "sait_ecrire": false },
+      "6":  { "age": "23", "_inc": true,
+              "_note": "l'âge se lit 23 ; le dépouillement portait 35" },
+      "7":  { "age": "25", "_inc": true,
+              "_note": "l'âge se lit 25 ; le dépouillement portait 23" },
+      "8":  { "age": "8 mois", "ne_douze_mois": "Août",
+              "_note": "la colonne 9 porte la fraction 8/12 et la colonne 10 « Août » ; le dépouillement portait « 7 mois »" },
+      "9":  { "nom": "Peltier", "_inc": true,
+              "_note": "le patronyme se lit « Peltier » ; le dépouillement portait « Pelletier »" },
+      "11": { "prenom": "Élise", "_inc": true,
+              "_note": "le prénom se lit « Élise » ; le dépouillement portait « Élisa »" },
+      "13": { "age": "33", "_inc": true,
+              "_note": "l'âge se lit 33 ; le dépouillement portait 35" },
+      "19": { "sait_lire": false, "sait_ecrire": false,
+              "_note": "les colonnes 18 et 19 portent chacune un 1 à cette ligne comme à la suivante" }
+    } },
+    "6": { "lignes": 20, "ligne": {
+      "2":  { "age": "22", "_inc": true, "_note": "l'âge se lit 22 ; le dépouillement portait 23" },
+      "7":  { "ecole": true, "_note": "la colonne 17 porte une marque à cette ligne" },
+      "10": { "sait_lire": false, "sait_ecrire": false,
+              "_note": "les colonnes 18 et 19 portent chacune un 1 à cette ligne comme à la suivante" },
+      "11": { "sait_lire": false, "sait_ecrire": false },
+      "12": { "age": "4 mois", "ne_douze_mois": "Décembre",
+              "_note": "la colonne 9 porte la fraction 4/12 et la colonne 10 « D. » pour décembre ; le dépouillement portait « 7 mois »" },
+      "13": { "etat_matrimonial": "V",
+              "_note": "le V de la colonne 15 est à cette ligne, celle d'Anastasie, 46 ans, et non à la suivante" },
+      "14": { "etat_matrimonial": "" }
+    } },
+    "7": { "lignes": 20, "ligne": {
+      "1":  { "age": "3 mois", "ne_douze_mois": "Août",
+              "_note": "la colonne 9 porte la fraction 3/12 et la colonne 10 « Aoû. » ; le dépouillement portait « 7 mois »" },
+      "2":  { "sait_lire": false, "sait_ecrire": false,
+              "_note": "les colonnes 18 et 19 portent chacune un 1 à cette ligne comme à la suivante" },
+      "5":  { "profession": "Journalier",
+              "_note": "la colonne 14 porte « do », reprise du « Journalier » de la ligne 4" },
+      "8":  { "prenom": "Élise", "_inc": true,
+              "_note": "le prénom se lit « Élise » ; le dépouillement portait « Chase »" },
+      "20": { "age": "3 mois", "ne_douze_mois": "Janvier",
+              "_note": "la colonne 9 porte la fraction 3/12 et la colonne 10 « Jan. » ; le dépouillement portait « 7 mois »" }
+    } },
+    "8": { "lignes": 20, "ligne": {
+      "13": { "age": "14", "_inc": true, "_note": "l'âge se lit 14 ; le dépouillement portait 16" },
+      "14": { "age": "52", "_inc": true, "_note": "l'âge se lit 52 ; le dépouillement portait 53" },
+      "16": { "origine": "Irlandaise",
+              "_note": "la colonne 13 reprend au guillemet l'« Irlandaise » de la ligne 15 ; le dépouillement portait « Française »" },
+      "17": { "nom": "Labrie", "_inc": true,
+              "_note": "le patronyme se lit « Labrie » ; le dépouillement portait « Sabrie [?] »" },
+      "18": { "nom": "Labrie" }, "19": { "nom": "Labrie" }, "20": { "nom": "Labrie" }
+    } },
+    "9": { "lignes": 20, "ligne": {
+      "1":  { "nom": "Labrie", "ecole": true, "_inc": true,
+              "_note": "le patronyme se lit « Labrie » ; le dépouillement portait « Sabrie ». La colonne 17 porte une marque à cette ligne" },
+      "2":  { "nom": "Labrie", "ecole": true },
+      "3":  { "nom": "Labrie", "ecole": false,
+              "_note": "la colonne 17 ne porte rien à cette ligne : les marques de la page sont aux lignes 1, 2 et 5" },
+      "4":  { "nom": "Labrie" },
+      "5":  { "nom": "Labrie", "ecole": true },
+      "6":  { "ecole": false,
+              "_note": "la colonne 17 ne porte rien à cette ligne" },
+      "7":  { "etat_matrimonial": "M",
+              "_note": "la colonne 15 porte M à cette ligne" },
+      "9":  { "age": "1 mois", "ne_douze_mois": "Mars", "etat_matrimonial": "",
+              "_note": "la colonne 9 porte la fraction 1/12 et la colonne 10 « Mars » ; le dépouillement portait « 7 mois » et un M en colonne 15, qui n'y est pas" },
+      "11": { "age": "23", "_inc": true, "_note": "l'âge se lit 23 ; le dépouillement portait 35" },
+      "15": { "age": "13", "ecole": true, "_inc": true,
+              "_note": "l'âge se lit 13 et la colonne 17 porte une marque ; le dépouillement portait 15 et pas d'école" }
+    } },
+    "10": { "lignes": 20,
+      "etat":  "----MM--MM------V---",
+      "ligne": {
+      "5":  { "nom": "Brother", "_inc": true,
+              "_note": "le patronyme se lit « Brother » ; le dépouillement portait « Brotto [?] »" },
+      "6":  { "nom": "Brother", "origine": "Irlandaise",
+              "_note": "la colonne 13 reprend au guillemet l'« Irlandaise » de la ligne 5" },
+      "7":  { "nom": "Brother", "origine": "Irlandaise" },
+      "8":  { "nom": "Brother", "origine": "Irlandaise" },
+      "16": { "age": "2 mois", "ne_douze_mois": "Janvier",
+              "_note": "la colonne 9 porte la fraction 2/12 et la colonne 10 « Jan. » ; le dépouillement portait « 7 mois »" }
+    } }
+  }
+}

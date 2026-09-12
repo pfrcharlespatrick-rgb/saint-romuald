@@ -1,0 +1,70 @@
+{
+ "66": {
+  "c17": "--------1----1-----------",
+  "c18": "1-1--11------------11--1-",
+  "c19": "--1-----------------1----",
+  "c20": {
+   "9": "2",
+   "14": "4"
+  },
+  "c23": "----1--------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "5": "colonne 23 relue à la réglette : la case porte une coche franche. Le dépouillement n'avait rien relevé — septième infirmité de la division",
+   "19": "colonne 18 relue à la réglette : la case porte un tiret. Les deux coches voisines sont aux lignes 20 et 21"
+  }
+ },
+ "67": {
+  "c17": "-------------------------",
+  "c18": "1111---11--1-----1--1---1",
+  "c19": "---1-------1-----1-------",
+  "c20": {
+   "13": "2"
+  },
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "12": "c'est la ligne qui a rouvert cette passe. À la réglette, les deux marques de Kily James sont dans les colonnes 18 et 19, non 17 et 18 : il est employé à gages et sans emploi la semaine du recensement, non patron et employé. La case de la colonne 17 ne porte que le code de métier du commis",
+   "13": "colonne 20 relue à la réglette : le « 2 » est sur ce rang, non sur le 12. La colonne 18 y porte un tiret",
+   "20": "colonne 17 relue à la réglette : la case porte un tiret. Le dépouillement portait « patron »"
+  }
+ },
+ "68": {
+  "c17": "-------------------------",
+  "c18": "11-11--1-1--1---11-1---1-",
+  "c19": "---1--------1----1-------",
+  "c20": {},
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------"
+ },
+ "69": {
+  "c17": "-------------------------",
+  "c18": "-------1-1---------1-1-11",
+  "c19": "---------1---------1-----",
+  "c20": {},
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "18": "colonne 18 relue à la réglette : la case porte un tiret. Le dépouillement portait « employé à gages »"
+  }
+ },
+ "70": {
+  "c17": "-------------------------",
+  "c18": "------1----1-----------11",
+  "c19": "-----------------------1-",
+  "c20": {
+   "22": "1"
+  },
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "19": "colonne 18 relue à la réglette : la case porte un tiret. Le dépouillement portait « employé à gages »",
+   "22": "colonnes 18 et 20 relues à la réglette : la colonne 18 porte un tiret et c'est la colonne 20 qui porte « 1 ». Le recenseur compte un employé sans cocher la case de patron"
+  }
+ }
+}

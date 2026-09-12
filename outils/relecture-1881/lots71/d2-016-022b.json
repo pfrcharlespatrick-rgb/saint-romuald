@@ -1,0 +1,73 @@
+{
+  "division": 2,
+  "pages": {
+    "16": {
+      "ligne": {
+        "13": { "sexe": "F",
+                "_note": "la colonne 8 porte F sans ambiguïté ; le dépouillement portait « F [?] »" }
+      } },
+    "20": {
+      "ligne": {
+        "9":  { "age": "54", "_inc": false,
+                "_note": "l'âge se lit 54 sans ambiguïté : la lecture « 34 » que le dépouillement tenait pour possible ne tient pas. Hubert Roberge, 54 ans, est bien distinct de l'Hubert Roberge de 33 ans de la maison 41" },
+        "10": { "age": "51", "_inc": false,
+                "_note": "l'âge se lit 51" },
+        "14": { "prenom": "Eusèbe", "sexe": "M", "age": "13", "_inc": false,
+                "_note": "la ligne se lit « Eusèbe », M, 13 ans — et la colonne 17 le coche, que le dépouillement avait manqué" },
+        "18": { "prenom": "Eugénie", "_inc": false,
+                "_note": "le prénom se lit « Eugénie »" },
+        "20": { "age": "52", "_inc": false,
+                "_note": "l'âge se lit 52" }
+      } },
+    "21": {
+      "ligne": {
+        "1":  { "prenom": "Esther", "_inc": false,
+                "_note": "le prénom se lit « Esther »" },
+        "3":  { "nom": "Lefebvre", "_inc": false,
+                "_note": "le patronyme se lit « Lefebvre »" },
+        "4":  { "nom": "Lefebvre", "_inc": false },
+        "10": { "prenom": "Arsilie", "_inc": false,
+                "_note": "le prénom se lit « Arsilie »" },
+        "11": { "age": "52", "_inc": false,
+                "_note": "l'âge se lit 52" },
+        "12": { "age": "43", "_inc": false,
+                "_note": "l'âge se lit 43" },
+        "20": { "age": "20", "_inc": false,
+                "_note": "l'âge se lit 20" }
+      } },
+    "22": { "lignes": 20,
+      "ecole": "-1-------------11111",
+      "lire":  "--------------------",
+      "ecrire":"--------------------",
+      "etat":  "V--V---MM---MM------",
+      "ligne": {
+        "1":  { "age": "29", "_inc": false,
+                "_note": "l'âge se lit 29 ; le dépouillement portait « 28 [?] »" },
+        "4":  { "etat_matrimonial": "V", "_inc": false,
+                "_note": "la colonne 15 porte « V » sans ambiguïté" },
+        "5":  { "age": "25", "_inc": false, "_note": "l'âge se lit 25" },
+        "6":  { "age": "23", "_inc": false, "_note": "l'âge se lit 23" },
+        "7":  { "prenom": "John", "_inc": false, "_note": "le prénom se lit « John »" },
+        "8":  { "lieu_naissance": "Irlande", "origine": "Irlandaise", "_inc": false,
+                "_note": "la colonne 11 reprend au guillemet l'« Irlande » de John Redmond, la ligne au-dessus : David Allen et sa femme sont nés en Irlande, leurs enfants au Québec" },
+        "9":  { "lieu_naissance": "Irlande", "origine": "Irlandaise", "age": "50", "_inc": false,
+                "_note": "l'âge se lit 50 ; le dépouillement portait 56" },
+        "10": { "lieu_naissance": "Québec", "origine": "Irlandaise", "_inc": false,
+                "_note": "la colonne 11 porte « Q. » écrit en toutes lettres, et le guillemet la reprend jusqu'au bas de la page" },
+        "11": { "lieu_naissance": "Québec", "origine": "Irlandaise", "_inc": false },
+        "12": { "lieu_naissance": "Québec", "origine": "Irlandaise", "_inc": false },
+        "13": { "lieu_naissance": "Québec", "profession": "Timber Trever", "_inc": true,
+                "_note": "la colonne 14 porte « Timber » suivi d'un mot que je ne sais pas trancher : il se lit « Trever » ou « Trover », peut-être « Trader ». Le dépouillement portait « Timber tower [?] ». Le premier mot, lui, est net" },
+        "14": { "prenom": "Délima", "age": "47", "_inc": false,
+                "_note": "le prénom se lit « Délima » et l'âge 47 ; le dépouillement portait 44" },
+        "15": { "origine": "Anglaise", "_inc": false,
+                "_note": "la colonne 13 porte « Anglaise » écrit en toutes lettres pour Napoléon, puis le guillemet la reprend jusqu'au bas de la page" },
+        "16": { "origine": "Anglaise", "_inc": false },
+        "17": { "origine": "Anglaise", "_inc": false },
+        "18": { "origine": "Anglaise", "_inc": false },
+        "19": { "prenom": "Albert", "origine": "Anglaise", "_inc": false,
+                "_note": "le prénom se lit « Albert »" },
+        "20": { "origine": "Anglaise", "_inc": false }
+      } }
+  }
+}

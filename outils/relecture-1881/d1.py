@@ -4,10 +4,26 @@ from functools import lru_cache
 from PIL import Image
 from render1 import half_raw
 
+# CE DÉCOUPAGE SE VÉRIFIE, IL NE SE DEVINE PAS.
+#
+# Les recueils PDF du manuscrit ne se découpent pas de la même façon d'un dépôt
+# à l'autre : le même nom de fichier a déjà désigné, d'une session à l'autre,
+# tantôt un tiers du manuscrit, tantôt le manuscrit entier. Une erreur d'un rang
+# ici ne se voit pas — elle rend une page voisine, qui a l'air d'une page —, et
+# elle fausse tout ce qui est lu ensuite.
+#
+# Relevé sur les recueils de cette session avec `python3 verif_pages.py`, qui
+# monte en planche le « PAGE n » imprimé en tête de chaque demi-page :
+#
+#   partie1 : 15 pages PDF — demi-page idx = ms + 1, manuscrit 1 à 29
+#   partie2 : 45 pages PDF — demi-page idx = ms + 1, manuscrit 1 à 89 (complet)
+#   partie3 : 15 pages PDF — demi-page idx = ms - 59, manuscrit 60 à 89
+#
+# Passer `verif_pages.py` avant toute campagne sur de nouveaux fichiers.
 def locate(ms):
-    """page manuscrit 1..88 -> (partie 0-2, index de demi-page 1..30)"""
+    """page manuscrit 1..89 -> (partie 0-2, index de demi-page)"""
     if ms <= 29:  return 0, ms + 1      # la partie 1 s'ouvre sur une page de titre
-    if ms <= 59:  return 1, ms - 29
+    if ms <= 59:  return 1, ms + 1      # la partie 2 porte le manuscrit entier
     return 2, ms - 59
 
 def half_image(ms, dpi=150):

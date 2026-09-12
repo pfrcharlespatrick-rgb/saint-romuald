@@ -1,0 +1,72 @@
+{
+ "56": {
+  "c17": "---------------1---------",
+  "c18": "----1-1----1--1---11---1-",
+  "c19": "-----------1-----------1-",
+  "c20": {
+   "16": "2"
+  },
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "16": "la case de la colonne 17 est entièrement couverte par le code de métier du commis : la coche de patron ne s'y voit pas. Elle est maintenue parce que la colonne 20 porte « 2 », ce qu'un simple employé à gages ne déclare pas"
+  }
+ },
+ "57": {
+  "c17": "----1--------------------",
+  "c18": "1------------1--1-1---1--",
+  "c19": "1------------1-----------",
+  "c20": {},
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "5": "colonne 17 relue à la réglette et au plus fort grossissement : la case porte un trait fin en diagonale par-dessus le tiret, de la main du recenseur et non du commis. C'est la seule coche de patron visible sur la page",
+   "8": "colonne 17 relue à la réglette : la case ne porte que le code de métier du commis, d'une plume grasse, sans trait fin. Le dépouillement portait « patron » ici ; la coche est à la ligne 5"
+  }
+ },
+ "58": {
+  "c17": "-------------------------",
+  "c18": "1111-1-1--1--------------",
+  "c19": "-------------------------",
+  "c20": {},
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "20": "colonne 18 relue à la réglette : la case porte un tiret, comme toutes celles des lignes 12 à 25 de cette page. Le dépouillement portait « employé à gages »"
+  }
+ },
+ "59": {
+  "c17": "1---------------1--------",
+  "c18": "--1--1-1-1-1-1-1--11-----",
+  "c19": "-----------1---1---------",
+  "c20": {
+   "1": "3",
+   "17": "6"
+  },
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "5": "colonne 18 relue à la réglette : la case porte un tiret. Le dépouillement portait « employé à gages »"
+  }
+ },
+ "60": {
+  "c17": "-1-----------1--1----1--1",
+  "c18": "-----------------------1-",
+  "c19": "-------------------------",
+  "c20": {
+   "14": "1",
+   "17": "3",
+   "22": "4"
+  },
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "25": "la case de la colonne 17 est prise dans le code de métier du commis, qui court sur les lignes 24 et 25 : la coche de patron ne s'y distingue pas. Elle est maintenue telle que le dépouillement la portait"
+  }
+ }
+}

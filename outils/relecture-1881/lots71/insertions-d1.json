@@ -1,0 +1,15 @@
+{
+  "division": 1,
+  "insertions": [
+    { "page": 49,
+      "apres": { "page": 48, "ligne": 20 },
+      "personne": {
+        "nom": "Lecours", "prenom": "Catherine", "sexe": "F", "age": "80",
+        "lieu_naissance": "Québec", "religion": "Catholique", "origine": "Française",
+        "profession": "", "etat_matrimonial": "V", "ecole": false,
+        "sait_lire": false, "sait_ecrire": false, "alphabetisation_source": "negatif_1871",
+        "incertain": true,
+        "remarque": "Relecture du manuscrit : ligne omise par le dépouillement — la page 49 porte vingt lignes et le fichier n'en avait que dix-neuf. Elle ouvre la page, dans la maisonnée de Louis Gelly, veuve, 80 ans, ne sachant ni lire ni écrire. Le patronyme se lit « Lecours » ; la majuscule est celle du « Leclerc » de la ligne 14, mais elle pourrait aussi se lire « Secours »."
+      } }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "division": 1,
+  "colonne": "14 — profession, occupation ou métier ; 15 — marié ou en veuvage",
+  "pages": {
+    "37": {
+      "prof": { "3": "Couturière", "4": "Commis", "12": "Mécanicien", "21": "Journalier" },
+      "etat": "M--MM------MM-------MM---"
+    },
+    "38": {
+      "prof": { "2": "Journalier", "6": "Charretier", "12": "Journalier", "14": "Journalier",
+                "15": "Journalier", "16": "Journalier", "17": "Marchand", "25": "Journalier" },
+      "etat": "-MM--MM----MM--VMM------M",
+      "notes": { "16": "la colonne 14 reprend au guillemet le « Journalier » de la ligne 15 ; le dépouillement avait laissé la case vide" }
+    },
+    "39": {
+      "prof": { "5": "Journalier", "6": "Journalier", "7": "Couturière", "8": "Journalier",
+                "11": "Journalier", "15": "Journalier", "16": "Journalier", "17": "Marchand",
+                "23": "Journalier" },
+      "etat": "M--V------MM----MM----MM-"
+    },
+    "40": {
+      "prof": { "2": "Journalier", "4": "Journalier", "6": "Boucher", "13": "Menuisier",
+                "15": "Journalier", "17": "Journalier", "23": "Journalier" },
+      "etat": "-MMMMMM-----MM--MM----MM-"
+    },
+    "41": {
+      "prof": { "3": "Journalier", "6": "Libraire", "10": "Journalier", "15": "Journalier",
+                "19": "Journalier", "21": "Marchand", "22": "Commis", "25": "Domestique" },
+      "etat": "--MM-MM--MM---MM----V----"
+    },
+    "42": {
+      "prof": { "1": "Journalier", "3": "Journalier", "11": "Journalier", "13": "Marin",
+                "14": "Marin", "15": "Journalier", "17": "Journalier" },
+      "etat": "MM--------MM--MM---------"
+    }
+  }
+}

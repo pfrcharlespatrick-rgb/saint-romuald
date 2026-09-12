@@ -1,0 +1,25 @@
+{
+  "division": 1,
+  "colonne": "16 — allant à l'école",
+  "note": "Dix pages fautives sur douze. C'est ici que le dépouillement de la colonne 16 a lâché.",
+  "pages": {
+    "49": { "ecole": [9],
+            "note": "décalage d'un rang : la marque est sur Delvina, 12 ans (ligne 9), non sur Louis, 13 ans (ligne 8). La réglette imprimée le montre sans ambiguïté." },
+    "50": { "ecole": [5, 6, 7, 12, 13, 23],
+            "note": "la seule école relevée était la ligne 1 — Paquet Philéas, 1 an, où le manuscrit porte un tiret. Six vraies écoles manquaient. Deux marques de la colonne 17 (lignes 16 et 17) sont signalées, non versées." },
+    "51": { "ecole": [2, 3, 4, 8, 9, 10, 11, 12, 15, 16],
+            "note": "le complément ne relevait rien sur cette page. Le manuscrit y porte dix marques : la fratrie Guenette (10, 8 et 6 ans), les cinq enfants Lapierre (16, 14, 11, 9 et 7 ans) et deux Aubert (15 et 12 ans)." },
+    "52": { "ecole": [7, 16, 17] },
+    "53": { "ecole": [17], "note": "aucune école relevée ; le manuscrit en porte une, ligne 17 (7 ans)" },
+    "54": { "ecole": [20], "note": "aucune école relevée ; le manuscrit en porte une, ligne 20 (8 ans)" },
+    "55": { "ecole": [11, 12, 13, 15, 16, 17],
+            "note": "le complément relevait les lignes 17, 18 et 19 ; les 18 et 19 portent un tiret, et cinq marques manquaient au-dessus. Le relevé était décalé de plusieurs rangs." },
+    "56": { "ecole": [4, 5, 6, 18], "note": "trois lignes ajoutées à côté de celle qui était juste" },
+    "57": { "ecole": [2, 3, 4, 14, 15, 16, 17, 18, 19, 23, 24, 25],
+            "note": "le complément ne relevait rien. Douze marques au manuscrit, vérifiées à la réglette : trois Cantin, la suite des six enfants Marceau (19 à 7 ans) et trois Lambert." },
+    "58": { "ecole": [5, 6, 7, 14], "note": "aucune école relevée ; le manuscrit en porte quatre" },
+    "59": { "ecole": [3, 12],
+            "note": "le complément relevait la ligne 20 — Roberge Albert, six mois, où le manuscrit porte un tiret. Les deux vraies écoles, lignes 3 et 12, manquaient." },
+    "60": { "ecole": [2, 3, 23] }
+  }
+}

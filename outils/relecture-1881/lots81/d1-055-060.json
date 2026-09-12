@@ -1,0 +1,36 @@
+{
+  "division": 1,
+  "colonne": "14 — profession, occupation ou métier ; 15 — marié ou en veuvage",
+  "pages": {
+    "55": {
+      "prof": { "4": "Charpentier", "7": "Tonnelier", "8": "Journalier", "9": "Colleur",
+                "11": "Journalier", "21": "Journalier" },
+      "etat": "---VV-V-MM----------MM---"
+    },
+    "56": {
+      "prof": { "2": "Journalier", "10": "Blanchisseuse", "14": "Journalier", "16": "Journalier",
+                "20": "Journalier", "22": "Forman", "25": "Charpentier" },
+      "etat": "-MM-------V--MM----MMMM-M",
+      "notes": { "22": "profession lue « Fermier » au dépouillement ; le manuscrit porte « forman », comme à la page 51 ligne 13 et à la page 59 ligne 24 où il est écrit « Forman »" }
+    },
+    "57": {
+      "prof": { "8": "Tanneur", "11": "Commis", "12": "Tanneur", "13": "Commis",
+                "15": "Tanneur", "21": "Régisseur, moulin" },
+      "etat": "M-----VMM-----------MM---"
+    },
+    "58": {
+      "prof": { "3": "Charretier", "10": "Journalier", "18": "Journalier", "22": "Charpentier" },
+      "etat": "--MM-----MM------MM--MM--"
+    },
+    "59": {
+      "prof": { "9": "Charretier", "14": "Journalier", "21": "Forgeron", "22": "Couturière",
+                "24": "Forman" },
+      "etat": "--------MM---MM-----MM-MM"
+    },
+    "60": {
+      "prof": { "7": "Commis", "12": "Commis", "13": "Menuisier", "14": "Journalier",
+                "20": "Journalier", "25": "Journalier" },
+      "etat": "-----VVV-----MM---V-----M"
+    }
+  }
+}

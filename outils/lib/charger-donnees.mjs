@@ -7,6 +7,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { chargerComplements, appliquerComplement } from './complement-1881.mjs';
 
 const ICI = path.dirname(fileURLToPath(import.meta.url));
 export const RACINE = path.resolve(ICI, '..', '..');
@@ -49,6 +50,9 @@ export function cleMaison(annee, division, noMaison) {
 
 export function chargerDonnees() {
   const recensements = RECENSEMENTS.map(chargerObjetGlobal);
+  // Colonnes 10-13 et 16-19 de 1881, dépouillées à part — voir complement-1881.mjs.
+  const complements = chargerComplements(RACINE);
+  const anomaliesComplement = [];
 
   const personnes = new Map();      // id -> fiche enrichie
   const maisons = new Map();        // cleMaison -> { annee, division, no_maison, familles: [...], ... }
@@ -57,6 +61,7 @@ export function chargerDonnees() {
   for (const rec of recensements) {
     const { annee, division } = rec;
     const cleAD = `${annee}-D${division}`;
+    const complement = complements.get(cleAD) || null;
     const ordre = [];
     for (const maison of rec.maisons || []) {
       const cle = cleMaison(annee, division, maison.no_maison);
@@ -67,7 +72,7 @@ export function chargerDonnees() {
         for (const p of famille.membres || []) {
           if (!p || !p.id) continue;
           personnes.set(p.id, {
-            ...p,
+            ...appliquerComplement(p, complement, anomaliesComplement),
             annee, division,
             no_maison: String(maison.no_maison),
             no_famille: String(famille.no_famille),
@@ -222,6 +227,7 @@ export function chargerDonnees() {
 
   return {
     recensements, personnes, maisons, maisonsParAnneeDiv, annexes,
+    anomaliesComplement,
     filiation, manifeste, bussiere,
     liensDe, liensVers, evenementsParPersonne, evenementsParMenage, documentsParPersonne,
     concordancesParMaison,

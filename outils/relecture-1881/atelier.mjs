@@ -58,12 +58,20 @@ export function sansRelecture(remarque) {
 
     Renvoie ce qui reste à écrire, le compte-rendu de ce qui a été laissé, et si
     la ligne est tenue pour tranchée — auquel cas elle ne reçoit plus ni drapeau
-    `incertain` ni remarque de relecture. */
+    `incertain` ni remarque de relecture.
+
+    **Tous** les champs corrigés à la main sont écartés de `retenus`, sans
+    exception. Mais le compte-rendu ne retient que ceux où la main et la
+    relecture ne disent pas la même chose : un refus sur lequel les deux
+    s'accordent n'apprend rien et noie les vrais désaccords. */
 export function filtrer(p, champs, etiquette) {
   const garde = Object.keys(champs).filter(k => protege(p.id, k));
+  const main = manuel(p.id);
+  const different = (k) => JSON.stringify(main[k]) !== JSON.stringify(champs[k]);
   return {
     retenus: Object.fromEntries(Object.entries(champs).filter(([k]) => !garde.includes(k))),
-    refuses: garde.map(k => `${etiquette} ${k} — la main a écrit « ${manuel(p.id)[k]} », la relecture proposait « ${champs[k]} »`),
+    refuses: garde.filter(different)
+      .map(k => `${etiquette} ${k} — la main a écrit « ${main[k]} », la relecture proposait « ${champs[k]} »`),
     tranchee: touche(p.id),
   };
 }

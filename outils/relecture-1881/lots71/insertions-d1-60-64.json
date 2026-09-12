@@ -1,0 +1,26 @@
+{
+  "division": 1,
+  "renumeroter": [{ "de": 60, "a": 61 }],
+  "insertions": [
+    { "page": 60,
+      "apres": { "page": 60, "ligne": 3 },
+      "personne": {
+        "nom": "Richard", "prenom": "Stanislas", "sexe": "M", "age": "10",
+        "lieu_naissance": "Québec", "religion": "Catholique", "origine": "Française",
+        "profession": "", "etat_matrimonial": "", "ecole": true,
+        "sait_lire": true, "sait_ecrire": true, "alphabetisation_source": "negatif_1871",
+        "incertain": true,
+        "remarque": "Relecture du manuscrit : ligne omise par le dépouillement. Le manuscrit porte, à la page 60 ligne 4, un second Stanislas Richard de 10 ans, coché à l'école, entre son père et son frère George. Son omission poussait d'un rang tout le reste de la page et faisait passer la Léda Landry de la page 61 sur la page 60."
+      } },
+    { "page": 64,
+      "apres": { "page": 64, "ligne": 1 },
+      "personne": {
+        "nom": "Godbout", "prenom": "Joséphine", "sexe": "F", "age": "7",
+        "lieu_naissance": "Québec", "religion": "Catholique", "origine": "Française",
+        "profession": "", "etat_matrimonial": "", "ecole": true,
+        "sait_lire": true, "sait_ecrire": true, "alphabetisation_source": "negatif_1871",
+        "incertain": true,
+        "remarque": "Relecture du manuscrit : ligne omise par le dépouillement. Le manuscrit porte, à la page 64 ligne 2, une Joséphine Godbout de 7 ans, cochée à l'école, entre sa mère et sa sœur Adèle. Le fichier sautait le numéro de ligne 4 sans que rien y manque : c'est ici, à la ligne 2, que le trou était."
+      } }
+  ]
+}

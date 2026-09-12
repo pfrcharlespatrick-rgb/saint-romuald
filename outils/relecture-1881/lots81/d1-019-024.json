@@ -1,0 +1,45 @@
+{
+  "division": 1,
+  "colonne": "14 — profession, occupation ou métier ; 15 — marié ou en veuvage",
+  "pages": {
+    "19": {
+      "prof": { "2": "Domestique", "3": "Tabaconiste", "6": "Journalier", "9": "Journalier",
+                "11": "Journalier", "17": "Journalier", "18": "Journalier", "23": "Journalier" },
+      "etat": "-----MM-MM------V-----MM-",
+      "notes": { "18": "la colonne 14 porte « do » sous le « Journalier » de la ligne 17 ; le dépouillement avait laissé la case vide" }
+    },
+    "20": {
+      "prof": { "9": "Charretier", "15": "Marchand", "17": "Commis", "18": "Boulanger",
+                "22": "Mécanicien" },
+      "etat": "--------MM---VMM-----MM--"
+    },
+    "21": {
+      "prof": { "4": "Journalier", "5": "Manchonnière", "7": "Journalier", "10": "Journalier",
+                "12": "Charretier", "17": "Charretier", "23": "Journalier", "24": "Blanchisseuse" },
+      "etat": "---MM----V-MM---MM----MM-",
+      "inc": [5],
+      "notes": { "5": "profession lue « Ménagère » au dépouillement ; le mot du manuscrit en compte douze lettres et se lit « Manchonnière » — lecture non certaine, mais « Ménagère » est trop court pour être ce qui est écrit" }
+    },
+    "22": {
+      "prof": { "6": "Journalier", "7": "Chapelière", "11": "Rentier", "13": "Notaire",
+                "14": "Domestique", "15": "Domestique", "16": "Charretier", "18": "Charretier",
+                "23": "Boulanger" },
+      "etat": "--VV-MM---MM---MM-----MM-",
+      "notes": { "7": "la colonne 14 porte « Chapelière » ; le dépouillement avait laissé la case vide",
+                 "15": "la colonne 14 reprend au guillemet le « Domestique » de la ligne 14 ; le dépouillement avait laissé la case vide" }
+    },
+    "23": {
+      "prof": { "1": "Barbier", "2": "Couturière", "3": "Apprentie", "4": "Journalier",
+                "10": "Journalier", "12": "Journalier", "13": "Boulanger", "17": "Charretier",
+                "22": "Régisseur", "24": "Journalier" },
+      "etat": "V--MM----MMVMM--MM---MM--"
+    },
+    "24": {
+      "prof": { "2": "Journalier", "5": "Journalier", "7": "Journalier", "13": "Menuisier",
+                "16": "Journalier", "17": "Journalier", "19": "Journalier", "20": "Menuisier",
+                "23": "Charpentier" },
+      "etat": "-MM-MMMM----MM-----MM-MM-",
+      "notes": { "17": "la colonne 14 reprend au guillemet le « Journalier » de la ligne 16 ; le dépouillement avait laissé la case vide" }
+    }
+  }
+}

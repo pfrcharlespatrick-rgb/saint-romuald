@@ -1,0 +1,55 @@
+{
+  "division": 1,
+  "colonne": "14 — profession, occupation ou métier ; 15 — marié ou en veuvage",
+  "pages": {
+    "13": {
+      "prof": { "9": "Journalier", "11": "Journalier", "17": "Marchand",
+                "20": "Cultivateur fils", "21": "Commis", "22": "Tailleur" },
+      "etat": "--------MM------MM---MM--",
+      "inc": [20],
+      "notes": { "20": "profession lue « Commis » au dépouillement — c'est le mot de la ligne 21 ; le manuscrit porte ici « Cult. fils », le t de l'abréviation en exposant, lu « Cultivateur fils »" }
+    },
+    "14": {
+      "prof": { "1": "Barbier", "2": "Marchande", "5": "Journalier", "15": "Domestique",
+                "17": "Journalier", "19": "Journalier", "22": "Journalier", "24": "Journalier" },
+      "etat": "-V--MM----MM---V-----MM--",
+      "vider": [11, 16],
+      "inc": [11],
+      "notes": {
+        "11": "profession lue « Boulanger » au dépouillement ; le manuscrit ne porte pas ce mot mais une annotation d'une autre main, plus grasse, lue « Not given » — la profession n'a pas été déclarée. Case laissée vide.",
+        "16": "profession lue « Journalier » au dépouillement ; le manuscrit porte un tiret. Le « Journalier » est à la ligne 17, celle de son fils Jérémie."
+      }
+    },
+    "15": {
+      "prof": { "1": "Rentier", "2": "Journalier", "5": "Journalier", "6": "Journalier",
+                "8": "Menuisier", "14": "Journalier", "22": "Cordonnier", "24": "Cordonnier",
+                "25": "Cordonnier" },
+      "etat": "-MM----MM----MM------MM--"
+    },
+    "16": {
+      "prof": { "2": "Cordonnier", "7": "Ferblantier", "14": "En service", "16": "En service",
+                "21": "Jardinier" },
+      "etat": "------MM----V-------MM---"
+    },
+    "17": {
+      "prof": { "2": "Charron", "4": "Commis", "5": "Peintre", "10": "Domestique",
+                "11": "Modiste", "12": "Modiste", "13": "Charretier", "15": "Charretier",
+                "16": "Charretier", "18": "Mécanicien", "20": "Mécanicien", "25": "Prêtre Curé" },
+      "etat": "-MM---------MM---MM------",
+      "certain": [25],
+      "notes": {
+        "16": "la colonne 14 porte « do », le ditto anglais du recenseur, sous le « Charretier » de la ligne 15 ; le dépouillement avait laissé la case vide",
+        "25": "le manuscrit porte « Prêtre Curé » en toutes lettres — le point d'interrogation du dépouillement tombe"
+      }
+    },
+    "18": {
+      "prof": { "1": "Prêtre Vicaire", "2": "Domestique", "3": "Domestique", "4": "Domestique",
+                "5": "Domestique", "6": "Frère Directeur", "7": "Frère", "8": "Frère",
+                "9": "Frère", "10": "Frère", "11": "Boulanger", "14": "Boulanger",
+                "15": "Boulanger", "16": "Marchand", "17": "Commis", "18": "Journalier",
+                "19": "Modiste", "21": "Modiste", "22": "Marchand", "24": "Commis" },
+      "etat": "----------MM-----MM--MM--",
+      "notes": { "1": "le manuscrit porte « Prêtre Vicaire » en toutes lettres, comme « Prêtre Curé » à la ligne 25 de la page 17" }
+    }
+  }
+}

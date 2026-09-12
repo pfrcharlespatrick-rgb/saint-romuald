@@ -1,0 +1,26 @@
+{
+  "division": 1,
+  "insertions": [
+    { "page": 4, "apres": { "page": 3, "ligne": 20 },
+      "personne": { "nom": "Vermette", "prenom": "Joseph", "sexe": "M", "age": "21",
+        "lieu_naissance": "Québec", "religion": "Catholique", "origine": "Française",
+        "profession": "Journalier", "etat_matrimonial": "", "ecole": false,
+        "sait_lire": true, "sait_ecrire": true, "alphabetisation_source": "negatif_1871",
+        "incertain": true,
+        "remarque": "Relecture du manuscrit : ligne omise par le dépouillement. Le manuscrit ouvre la page 4 sur trois fils d'Olivier Vermette et de Thérèse — Ambroise, Olivier et Joseph — que le fichier avait sautés ; la colonne 14 porte « Journalier » pour l'aîné et le guillemet pour les deux autres." } },
+    { "page": 4, "apres": { "page": 3, "ligne": 20 },
+      "personne": { "nom": "Vermette", "prenom": "Olivier", "sexe": "M", "age": "31",
+        "lieu_naissance": "Québec", "religion": "Catholique", "origine": "Française",
+        "profession": "Journalier", "etat_matrimonial": "", "ecole": false,
+        "sait_lire": true, "sait_ecrire": true, "alphabetisation_source": "negatif_1871",
+        "incertain": true,
+        "remarque": "Relecture du manuscrit : ligne omise par le dépouillement. Il porte le prénom de son père, chef de la famille 13." } },
+    { "page": 4, "apres": { "page": 3, "ligne": 20 },
+      "personne": { "nom": "Vermette", "prenom": "Ambroise", "sexe": "M", "age": "35",
+        "lieu_naissance": "Québec", "religion": "Catholique", "origine": "Française",
+        "profession": "Journalier", "etat_matrimonial": "", "ecole": false,
+        "sait_lire": true, "sait_ecrire": true, "alphabetisation_source": "negatif_1871",
+        "incertain": true,
+        "remarque": "Relecture du manuscrit : ligne omise par le dépouillement. Il ouvre la page 4, journalier, dans la maisonnée 10 de son père Olivier Vermette." } }
+  ]
+}

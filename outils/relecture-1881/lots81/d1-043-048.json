@@ -1,0 +1,39 @@
+{
+  "division": 1,
+  "colonne": "14 — profession, occupation ou métier ; 15 — marié ou en veuvage",
+  "pages": {
+    "43": {
+      "prof": { "1": "Journalier", "6": "Journalier", "9": "Journalier", "12": "Charpentier",
+                "14": "Journalier", "16": "Journalier", "17": "Journalier", "20": "Cordonnier",
+                "22": "Cordonnier" },
+      "etat": "MM---MM----MM---MM-MM----"
+    },
+    "44": {
+      "prof": { "4": "Batelier", "12": "Artiste", "16": "Forgeron", "19": "Peintre" },
+      "etat": "---MM------MM--MM-MM-----"
+    },
+    "45": {
+      "prof": { "2": "Journalier", "6": "Journalier", "8": "Journalier", "10": "Journalier",
+                "11": "Journalier", "12": "Journalier", "14": "Couturière", "18": "Forgeron" },
+      "etat": "-MM--MM----MM----MM------",
+      "notes": { "11": "la colonne 14 reprend au guillemet le « Journalier » de la ligne 10 ; le dépouillement avait laissé la case vide" }
+    },
+    "46": {
+      "prof": { "1": "Journalier", "5": "Hôtelier", "13": "Menuisier", "15": "Menuisier",
+                "16": "Menuisier", "23": "Marchande" },
+      "etat": "MM--MM------MM--------V--",
+      "notes": { "16": "la colonne 14 porte « do » sous le « Menuisier » de la ligne 15 ; le dépouillement avait laissé la case vide" }
+    },
+    "47": {
+      "prof": { "2": "Journalier", "4": "Commis", "5": "Journalier", "6": "Journalier",
+                "7": "Couturière", "8": "Couturière", "9": "Hôtelier", "11": "Journalier",
+                "13": "Journalier", "14": "Journalier", "23": "Journalier", "24": "Journalier" },
+      "etat": "-MM--MM-MMMM--------V----"
+    },
+    "48": {
+      "prof": { "2": "Marchand de bois", "5": "Pharmacien", "13": "Journalier",
+                "15": "Journalier", "23": "Journalier" },
+      "etat": "----MM------MM--------MM-"
+    }
+  }
+}

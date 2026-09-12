@@ -13,9 +13,18 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { chargerDonnees, RACINE, cleMaison } from './lib/charger-donnees.mjs';
-import { colonnesDe, nettoyerRemarque, nomComplet, etatCivil } from './lib/colonnes.mjs';
+import { colonnesDe, nettoyerRemarque, nomComplet, etatCivil, alphabetisation } from './lib/colonnes.mjs';
 
 const d = chargerDonnees();
+
+// Le complément de 1881 est rattaché par page et ligne du manuscrit : un
+// décalage s'y voit à ce qu'une naissance des douze derniers mois tombe sur
+// quelqu'un qui n'est pas un nourrisson. Rien n'est versé dans ce cas, et on le
+// dit ici plutôt que de le laisser passer.
+if (d.anomaliesComplement.length) {
+  console.warn(`complément 1881 : ${d.anomaliesComplement.length} valeur(s) refusée(s) —`);
+  for (const a of d.anomaliesComplement) console.warn(`  ${a}`);
+}
 
 function ecrireJson(cheminRelatif, valeur) {
   const chemin = path.join(RACINE, cheminRelatif);
@@ -54,6 +63,16 @@ function mentionDe(id) {
     nom: nomComplet(p), attribut: attributs.join(' · '),
     page_ms: p.page_ms, ligne: p.ligne
   };
+}
+
+// Colonnes 17 à 19 du formulaire de 1881 (23 à 25 en 1891). Elles ne sont
+// portées à la fiche que lorsqu'elles sont vraies : une infirmité se signale,
+// son absence ne se dit pas.
+const INFIRMITES = { sourd_muet: 'sourd-muet', aveugle: 'aveugle', aliene: 'esprit dérangé' };
+
+function infirmitesDe(p) {
+  const relevees = Object.keys(INFIRMITES).filter((cle) => p[cle] === true);
+  return relevees.length ? { infirmites: relevees.map((cle) => INFIRMITES[cle]) } : {};
 }
 
 function trajectoireDe(id) {
@@ -128,6 +147,27 @@ for (const p of d.personnes.values()) {
     remarque: nettoyerRemarque(p.remarque),
     // Ligne que le recenseur a biffée : conservée, mais hors du dénombrement.
     biffee: !!p.biffee,
+    // Colonnes du formulaire au-delà des six champs communs. Absentes de la
+    // fiche quand le recensement ne les porte pas — ce qui se lit comme
+    // « non relevé », et non comme « non ».
+    ...(p.lieu_naissance ? { lieu_naissance: p.lieu_naissance } : {}),
+    ...(p.origine ? { origine: p.origine } : {}),
+    ...(p.religion ? { religion: p.religion } : {}),
+    ...(p.ecole ? { ecole: true } : {}),
+    ...(p.ne_douze_mois ? { ne_douze_mois: p.ne_douze_mois } : {}),
+    // Colonnes 21-22 : « sait lire » / « sait écrire ». Dites en clair, parce que
+    // false et « non relevé » ne veulent pas dire la même chose.
+    //
+    // 1891 seulement, et à dessein. Le formulaire de 1871 ne posait la question
+    // qu'aux vingt ans et plus : la valeur portée par les 1 570 personnes plus
+    // jeunes vient de la conversion en polarité positive, pas du manuscrit (voir
+    // docs/SCHEMA.md). La porter à la fiche en ferait une donnée qu'elle n'est
+    // pas. 1881 n'a pas ces colonnes du tout.
+    ...(p.annee === '1891' && (p.sait_lire !== undefined || p.sait_ecrire !== undefined)
+      ? { alphabetisation: alphabetisation(p) } : {}),
+    ...infirmitesDe(p),
+    // Lecture douteuse signalée par le dépouillement complémentaire de 1881.
+    ...(p.complement_note ? { note_complement: p.complement_note } : {}),
     cle_maison: cleM,
     // Où cette personne habitait, quand le rattachement au sol est fait.
     lieux: (d.lieuxParMaison.get(cleM) || []).map((l) => ({
@@ -347,25 +387,36 @@ function frequences(annee, champ, limite, normaliser) {
   return [...compte.entries()].sort((a, b) => b[1] - a[1]).slice(0, limite);
 }
 
+// Une ligne que le recenseur a rayée n'est pas dans son dénombrement. La fiche
+// de la personne le dit déjà — « à écarter de tout décompte de population » —,
+// et les totaux doivent le dire aussi : ils la comptaient. Elle reste au site,
+// parce que le manuscrit porte son nom et son âge ; elle ne compte pas.
+const biffee = (p) => p.biffee === true;
+
 function comptesAnnee(annee) {
   const maisonsSet = new Set();
   const famillesSet = new Set();
-  let personnesCompte = 0;
+  let personnesCompte = 0, rayees = 0;
   for (const p of d.personnes.values()) {
     if (p.annee !== String(annee)) continue;
+    if (biffee(p)) { rayees++; continue; }
     personnesCompte++;
     maisonsSet.add(`${p.division}-${p.no_maison}`);
     famillesSet.add(`${p.division}-${p.no_maison}-${p.no_famille}`);
   }
-  return { personnes: personnesCompte, maisons: maisonsSet.size, familles: famillesSet.size };
+  const c = { personnes: personnesCompte, maisons: maisonsSet.size, familles: famillesSet.size };
+  if (rayees) c.rayees = rayees;
+  return c;
 }
 
 const comptesParAnnee = { 1871: comptesAnnee(1871), 1881: comptesAnnee(1881), 1891: comptesAnnee(1891) };
 const stats = {
   genere_le: d.filiation.genere_le,
   totaux: {
-    personnes: d.personnes.size, maisons: d.maisons.size,
-    familles: Object.values(comptesParAnnee).reduce((s, c) => s + c.familles, 0)
+    personnes: Object.values(comptesParAnnee).reduce((s, c) => s + c.personnes, 0),
+    maisons: d.maisons.size,
+    familles: Object.values(comptesParAnnee).reduce((s, c) => s + c.familles, 0),
+    rayees: Object.values(comptesParAnnee).reduce((s, c) => s + (c.rayees || 0), 0)
   },
   par_annee: comptesParAnnee,
   pyramide_1891: pyramideAges(1891),
