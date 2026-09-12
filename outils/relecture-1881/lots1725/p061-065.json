@@ -1,0 +1,76 @@
+{
+ "61": {
+  "c17": "-1-------------1-------1-",
+  "c18": "1------------------------",
+  "c19": "-------------------------",
+  "c20": {
+   "2": "2",
+   "16": "4",
+   "24": "4"
+  },
+  "c23": "---1---------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "4": "colonne 23 relue à la réglette : la case porte une coche franche, isolée au milieu de tirets. Le dépouillement n'avait rien relevé. C'est un sixième sourd-muet pour la division"
+  }
+ },
+ "62": {
+  "c17": "--1----------------------",
+  "c18": "----1--1-1--1--1-----1---",
+  "c19": "-------1----1--1---------",
+  "c20": {
+   "3": "2"
+  },
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------"
+ },
+ "63": {
+  "c17": "----1----1---------------",
+  "c18": "--------1----111-1----1-1",
+  "c19": "---------------1---------",
+  "c20": {
+   "5": "8",
+   "10": "2"
+  },
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "4": "colonnes 17 et 20 relues à la réglette : les deux cases portent un tiret. La coche de patron et le « 8 » sont sur la ligne 5, qui porte aussi un métier en colonne 16 que le dépouillement n'a pas relevé",
+   "5": "colonnes 17 et 20 relues à la réglette : c'est ici qu'est la coche de patron et le « 8 » d'employés, non à la ligne 4"
+  }
+ },
+ "64": {
+  "c17": "--------------1-----1---1",
+  "c18": "-----1-11-11---------1---",
+  "c19": "---------------------1---",
+  "c20": {
+   "15": "1",
+   "25": "4"
+  },
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "15": "colonne 20 relue à la réglette : la case porte « 1 », que le dépouillement n'avait pas relevé. La coche de patron est maintenue : la case de la colonne 17 est couverte par le code de métier du commis et l'absence ne s'y constate pas",
+   "21": "colonne 17 relue à la réglette : la case porte une coche fine, sous le code de métier du commis. Le dépouillement n'avait pas relevé ce patron"
+  }
+ },
+ "65": {
+  "c17": "-------------------1-----",
+  "c18": "-1-----1--1----------11--",
+  "c19": "-----1----1--------------",
+  "c20": {
+   "12": "1"
+  },
+  "c23": "-------------------------",
+  "c24": "-------------------------",
+  "c25": "-------------------------",
+  "notes": {
+   "12": "colonne 20 relue à la réglette : la case porte « 1 », que le dépouillement n'avait pas relevé. La colonne 17 porte un tiret",
+   "20": "colonnes 17 et 18 relues à la réglette : la coche est dans la colonne 17, sous le code de métier du commis, non dans la 18. Ce cordonnier est patron, non employé à gages. La case de la colonne 20 porte une tache qui pourrait être un chiffre ; ce tirage ne la lit pas"
+  }
+ }
+}
