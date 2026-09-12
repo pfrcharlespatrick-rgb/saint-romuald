@@ -387,25 +387,36 @@ function frequences(annee, champ, limite, normaliser) {
   return [...compte.entries()].sort((a, b) => b[1] - a[1]).slice(0, limite);
 }
 
+// Une ligne que le recenseur a rayée n'est pas dans son dénombrement. La fiche
+// de la personne le dit déjà — « à écarter de tout décompte de population » —,
+// et les totaux doivent le dire aussi : ils la comptaient. Elle reste au site,
+// parce que le manuscrit porte son nom et son âge ; elle ne compte pas.
+const biffee = (p) => p.biffee === true;
+
 function comptesAnnee(annee) {
   const maisonsSet = new Set();
   const famillesSet = new Set();
-  let personnesCompte = 0;
+  let personnesCompte = 0, rayees = 0;
   for (const p of d.personnes.values()) {
     if (p.annee !== String(annee)) continue;
+    if (biffee(p)) { rayees++; continue; }
     personnesCompte++;
     maisonsSet.add(`${p.division}-${p.no_maison}`);
     famillesSet.add(`${p.division}-${p.no_maison}-${p.no_famille}`);
   }
-  return { personnes: personnesCompte, maisons: maisonsSet.size, familles: famillesSet.size };
+  const c = { personnes: personnesCompte, maisons: maisonsSet.size, familles: famillesSet.size };
+  if (rayees) c.rayees = rayees;
+  return c;
 }
 
 const comptesParAnnee = { 1871: comptesAnnee(1871), 1881: comptesAnnee(1881), 1891: comptesAnnee(1891) };
 const stats = {
   genere_le: d.filiation.genere_le,
   totaux: {
-    personnes: d.personnes.size, maisons: d.maisons.size,
-    familles: Object.values(comptesParAnnee).reduce((s, c) => s + c.familles, 0)
+    personnes: Object.values(comptesParAnnee).reduce((s, c) => s + c.personnes, 0),
+    maisons: d.maisons.size,
+    familles: Object.values(comptesParAnnee).reduce((s, c) => s + c.familles, 0),
+    rayees: Object.values(comptesParAnnee).reduce((s, c) => s + (c.rayees || 0), 0)
   },
   par_annee: comptesParAnnee,
   pyramide_1891: pyramideAges(1891),
