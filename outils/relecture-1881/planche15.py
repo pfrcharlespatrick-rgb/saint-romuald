@@ -5,9 +5,15 @@ de ce que porte le fichier et de ce que porte le manuscrit. On y voit la colonne
 des noms et les colonnes 14-15 côte à côte, plus la marge des numéros de ligne —
 de quoi juger sans ouvrir le registre.
 
-    python3 planche15.py cas.json sortie.png
+    python3 planche15.py cas.json sortie.png [--vue=etat|age|ecole]
 
 `cas.json` : [{"page":12,"ligne":10,"etiquette":"Bégin Rigobert, 38 — fichier M, manuscrit Ve."}, …]
+
+Trois vues, selon la colonne qu'on vient regarder :
+
+    etat   nom (7) + profession (14) et marié/veuvage (15)   — le défaut
+    age    nom (7) + sexe (8), âge (9) et né dans l'année (10)
+    ecole  nom (7) + âge (9) et école (16) avec les infirmités
 """
 import json
 import sys
@@ -17,15 +23,21 @@ from prof1 import planche, RANGS
 from PIL import Image, ImageDraw
 
 MARGE = 470           # la place laissée à l'étiquette
-FENETRES = (RANGS, (0.222, 0.360), (0.578, 0.730))
+VUES = {
+    'etat':  (RANGS, (0.222, 0.360), (0.578, 0.730)),
+    'age':   (RANGS, (0.222, 0.360), (0.340, 0.470)),
+    'ecole': (RANGS, (0.222, 0.360), (0.355, 0.425), (0.680, 0.790)),
+}
+FENETRES = VUES['etat']
 
 
-def contact(cas, sortie, dpi=620, avant=1, apres=1):
+def contact(cas, sortie, dpi=620, avant=1, apres=1, fenetres=None):
+    fenetres = fenetres or FENETRES
     bandes = []
     for c in cas:
         l0 = max(1, c['ligne'] - avant)
         l1 = min(25, c['ligne'] + apres)
-        f, _ = planche(c['page'], dpi=dpi, fenetres=FENETRES, l0=l0, l1=l1,
+        f, _ = planche(c['page'], dpi=dpi, fenetres=fenetres, l0=l0, l1=l1,
                        sortie='/tmp', tag='c15')
         bandes.append((c['etiquette'], Image.open(f).convert('L')))
     larg = max(b.width for _, b in bandes) + MARGE
@@ -44,4 +56,8 @@ def contact(cas, sortie, dpi=620, avant=1, apres=1):
 
 
 if __name__ == '__main__':
-    contact(json.load(open(sys.argv[1])), sys.argv[2])
+    vue = 'etat'
+    for a in sys.argv[1:]:
+        if a.startswith('--vue='): vue = a.split('=', 1)[1]
+    args = [a for a in sys.argv[1:] if not a.startswith('--')]
+    contact(json.load(open(args[0])), args[1], fenetres=VUES[vue])
