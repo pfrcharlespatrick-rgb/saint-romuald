@@ -48,6 +48,18 @@ ligne à ligne et 35 autres.
 dédiées sont closes : colonnes 21-22 (sait lire / sait écrire), colonnes 17 à 25
 (patron, employé, chômage, effectifs, infirmités), colonne 4 (le code de logement).
 
+> **La passe des colonnes 17 à 25 a été refaite en entier.** Elle était annoncée
+> close sur les 142 pages ; le drapeau ne couvrait en fait que 44 pages, et la
+> table des colonnes elle-même était fausse — la 19 n'est pas « mois employé à son
+> métier » mais « sans emploi la semaine précédant le recensement », la 20 n'est
+> pas « mois employé en manufacture » mais le nombre d'employés que le patron
+> déclare. 271 lignes ont changé, 124 valeurs périmées ont été retirées, et la
+> colonne 19 est passée de 86 à 262 chômages. Les 3 548 lignes portent désormais
+> le drapeau. Voir `docs/COLONNES-17-25-1891.md`.
+>
+> **Ce que cela dit des autres passes** : une passe annoncée close peut ne pas
+> l'être, et un intitulé de colonne se vérifie au formulaire, pas à la mémoire.
+
 ### Ce qui reste
 
 1. **La division 2 n'existe pas.** `data/recensement-1891-d2-data.js` est une coquille
