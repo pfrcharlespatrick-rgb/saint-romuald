@@ -905,7 +905,7 @@ window.COMPLEMENT_1881_D1 = {
        355 (Fecteau) compte des enfants de 7, 9 et 14 ans. Le contraste avec les
        pages voisines est net et mérite vérification sur l'original. */
     79: {
-      lignes: 25, ecole: [19],
+      lignes: 25, ecole: [19, 25],
       remarques: { 17: '21 avril — Ol. Lambert, énumérateur' }
     },
 
@@ -995,7 +995,7 @@ window.COMPLEMENT_1881_D1 = {
        deux derniers chiffres sont sûrs : ..84 à ..89) ; à confirmer sur
        l'original, la centaine est déduite de la suite (365 à la p. 81). */
     84: {
-      lignes: 25, ecole: [14, 15, 16, 21, 22, 23],
+      lignes: 25, ecole: [14, 22, 23],
       ne12: { 4: 'Juillet' },
       incertain: {
         1: "Numéros de maison coupés en marge (..84 à ..89 lisibles, centaine supposée 3xx par suite logique)."
@@ -1010,7 +1010,7 @@ window.COMPLEMENT_1881_D1 = {
        communauté des origines différentes, chacune énumérée pour elle-même
        plutôt que rattachée à un chef de famille. */
     85: {
-      lignes: 25, ecole: [6, 7],
+      lignes: 25, ecole: [7],
       ne12: { 17: 'Janvier' },
       exceptions: {
         14: { lieu_naissance: 'Irlande', religion: 'Église anglicane', origine: 'Irlandaise' },
@@ -1028,7 +1028,7 @@ window.COMPLEMENT_1881_D1 = {
        Pierre Côté (34) logé comme domestique ; Bouchard Ludger (35) amorce la
        maison suivante. */
     86: {
-      lignes: 25, ecole: [12, 13, 18, 19],
+      lignes: 25, ecole: [11, 12, 13, 18],
       incertain: {
         1: "Noms de religion des sept religieuses difficiles à déchiffrer précisément (ex. « Sainte Prophère », « Sainte Angilbert ») — lecture approximative.",
         9: "Prénom de l'épouse de Landry Magloire incertain (« Euchère » ou proche).",
@@ -1043,7 +1043,7 @@ window.COMPLEMENT_1881_D1 = {
        Narcisse 17, Frédéline 14 — rare ménage entièrement dirigé par une femme
        parmi des enfants déjà adultes. */
     87: {
-      lignes: 25, ecole: [2, 5, 8, 9, 18],
+      lignes: 25, ecole: [2, 9],
       incertain: {
         6: "Prénom du fils Bouchard/Savard à la ligne 6 lu « Térène » ou « Kéréné », sexe noté masculin.",
         9: "Prénom lu « Emcède » ou « Émide » — incertain."
@@ -1062,7 +1062,7 @@ window.COMPLEMENT_1881_D1 = {
        totaux du recenseur (encerclés : 16, 9-9) et la mention « 26 avril —
        O. Lambert, énumérateur ». */
     88: {
-      lignes: 20,
+      lignes: 20, ecole: [7, 8, 12, 13, 14, 15],
       exceptions: {
         11: { religion: 'Église anglicane', origine: 'Anglaise' },
         12: { religion: 'Église anglicane', origine: 'Anglaise' },
@@ -1099,12 +1099,27 @@ window.COMPLEMENT_1881_D1 = {
       lecture: 'mot court commençant par « Not » — Notaire ? à revoir' }
   ],
 
-  /* Limite de méthode, à connaître avant de se fier à la colonne « école ».
-     En colonne 15, le recenseur accole au « M. » ou au « V° » une petite marque
-     de pointage qui déborde sur la colonne 16. Sur les lignes portant un état
-     matrimonial, une marque isolée n'est donc pas une réponse fiable. Seules
-     les marques nettement centrées en colonne 16, sur des lignes sans état
-     matrimonial, ont été retenues comme « allant à l'école ». Le relevé est
-     donc prudent : il peut manquer des écoliers, il n'en invente pas. */
-  reserve_ecole: true
+  /* LA COLONNE 16 A ÉTÉ REPRISE AU MANUSCRIT, LES 88 PAGES.
+     La mise en garde qui tenait ici disait vrai sur le mécanisme — en colonne 15
+     le recenseur accole au « M. » ou au « Ve. » une petite marque de pointage qui
+     déborde sur la colonne 16 — mais concluait à tort que le relevé « peut
+     manquer des écoliers, il n'en invente pas ». Il faisait les deux.
+
+     La passe dédiée (outils/relecture-1881/lots81/ecole-*.json, planches
+     `prof1.py --vue=ecole`, qui porte la colonne 15 À CÔTÉ de la 16) a trouvé :
+     20 pages fautives sur 88, 66 écoliers ajoutés et 16 retirés. Le compte passe
+     de 309 à 353. Le défaut est concentré sur les pages 48 à 60, où dix pages sur
+     douze étaient fausses — quatre ne relevaient rien du tout.
+
+     CE QUI DISTINGUE LES DEUX MARQUES, et qu'il faut savoir avant d'y revenir :
+       école    un « 1 » franc, haut, CENTRÉ sous le 16
+       pointage un petit signe bas et penché, COLLÉ AU BORD GAUCHE de la 16, qui
+                suit toujours un « M. » ou un « Ve. » de la colonne 15
+     Le greffier pointe aussi la colonne 16 elle-même, et cette coche-là tombe au
+     bord gauche de la 17.
+
+     Les pages 82 et 83 restent suspendues et n'ont pas été touchées : voir le
+     bloc de la page 82. Ce qu'on lit au manuscrit les concernant est dans
+     docs/ECOLE-1881-D1.md — il confirme la suspicion. */
+  ecole_relue_au_manuscrit: '2026-09-12, les 88 pages'
 };
