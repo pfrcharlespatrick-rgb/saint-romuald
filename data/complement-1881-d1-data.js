@@ -80,8 +80,14 @@ window.COMPLEMENT_1881_D1 = {
   },
 
   /* Aucune infirmité (colonnes 17-19) n'est déclarée sur les pages 1 à 9 :
-     le recenseur a tiré un trait sur chaque ligne. Les deux seules infirmités
-     relevées jusqu'ici sont en colonne 19 : page 17 ligne 17 et page 29 ligne 10. */
+     le recenseur a tiré un trait sur chaque ligne.
+
+     LA DIVISION EN COMPTE CINQ, ET NON DEUX. Deux en colonne 19 (page 17 ligne 17,
+     page 29 ligne 10), relevées de longue date — et trois en colonne 17, trouvées
+     à la passe de la colonne 16 et versées le 12 septembre 2026 : page 11 ligne 8,
+     page 50 lignes 16 et 17. Le premier relevé les avait lues « école », la
+     colonne 17 touchant la 16. Toutes trois sont vérifiées à la réglette imprimée
+     des numéros de colonne : la marque est sous le 17, et le 16 porte un tiret. */
   pages: {
     1: { lignes: 25, ecole: [5, 6, 7, 8, 9, 10, 24] },
 
@@ -228,7 +234,13 @@ window.COMPLEMENT_1881_D1 = {
     11: {
       lignes: 25, ecole: [1, 23],
       ne12: { 11: 'Novembre', 16: 'Janvier' },
-      exceptions: { 1: { lieu_naissance: 'États-Unis' } }
+      exceptions: {
+        1: { lieu_naissance: 'États-Unis' },
+        /* Colonne 17, vérifiée à la réglette imprimée : la marque est sous le 17,
+           et la colonne 16 porte un tiret. Le premier relevé l'avait lue « école ». */
+        8: { sourd_muet: true }
+      },
+      remarques: { 8: 'Bégin G. Honoré, 5 ans — marque en colonne 17 (sourds-muets), non en 16' }
     },
 
     12: {
@@ -634,9 +646,18 @@ window.COMPLEMENT_1881_D1 = {
       lignes: 25, ecole: [5, 6, 7, 12, 13, 23],
       exceptions: {
         10: { lieu_naissance: 'Écosse', religion: 'Protestant', origine: 'Écossaise' },
-        12: { origine: 'Écossaise' }
+        12: { origine: 'Écossaise' },
+        /* Colonne 17, vérifiée à la réglette imprimée : les deux marques sont sous
+           le 17, et la colonne 16 porte un tiret sur ces deux lignes. Le premier
+           relevé les avait lues « école ». Frère et sœur. */
+        16: { sourd_muet: true },
+        17: { sourd_muet: true }
       },
-      remarques: { 10: 'Findley William, mécanicien — né en Écosse, Protestant, origine Écossaise' }
+      remarques: {
+        10: 'Findley William, mécanicien — né en Écosse, Protestant, origine Écossaise',
+        16: 'Plaisance Marie Louise — marque en colonne 17 (sourds-muets), non en 16',
+        17: 'Plaisance Pierre, 33 ans — marque en colonne 17 (sourds-muets), non en 16'
+      }
     },
 
     51: { lignes: 25, ecole: [2, 3, 4, 8, 9, 10, 11, 12, 15, 16] },

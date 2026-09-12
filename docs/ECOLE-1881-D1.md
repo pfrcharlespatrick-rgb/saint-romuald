@@ -77,7 +77,7 @@ y décrit des personnes que le registre ne contient pas. **Ce relevé-ci va dans
 le même sens et le renforce** : ce n'est pas un décalage de lignes, c'est un
 autre feuillet. Rien n'y a été touché.
 
-### Trois marques en colonne 17 — les sourds-muets
+### Trois marques en colonne 17 — les sourds-muets (**versées depuis**)
 
 Trois lignes portent une marque **sous le 17**, vérifiée à la réglette imprimée,
 là où le complément avait lu une école :
@@ -86,10 +86,16 @@ là où le complément avait lu une école :
 - **p50 L16** — Plaisance Marie Louise, 38 ans
 - **p50 L17** — Plaisance Pierre, 33 ans
 
-Le complément ne déclare que deux infirmités dans toute la division (p17 L17 et
-p29 L10, en colonne 19). **Les fausses écoles sont retirées ; les marques de la
-colonne 17 ne sont pas versées** — porter une infirmité sur quelqu'un est une
-décision, pas une lecture, et elle revient à Patrick.
+Le complément ne déclarait que deux infirmités dans toute la division (p17 L17 et
+p29 L10, en colonne 19). Les fausses écoles ont été retirées tout de suite ; les
+marques de la colonne 17, elles, ont attendu — porter une infirmité sur quelqu'un
+est une décision, pas une lecture.
+
+**Patrick a tranché : les trois sont versées.** Elles ont été revérifiées une
+dernière fois à la réglette avant écriture — la marque est sous le 17, la
+colonne 16 porte un tiret sur les trois lignes. **La division 1 compte donc cinq
+infirmités déclarées et non deux** : deux en colonne 19, trois en colonne 17.
+Marie Louise et Pierre Plaisance sont sœur et frère, sous le même toit.
 
 ## L'outillage
 
