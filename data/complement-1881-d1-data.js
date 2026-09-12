@@ -338,7 +338,7 @@ window.COMPLEMENT_1881_D1 = {
 
     23: {
       lignes: 25, ecole: [16, 19],
-      ne12: { 9: 'Mars', 15: 'Août' },
+      ne12: { 9: 'Mars', 15: 'Avril' },
       remarques: { 1: '8 avril — Ol. Lambert, énumérateur' },
       incertain: {
         15: "Âge en fraction de mois peu lisible (3/12 ou 9/12) alors que la colonne 10 porte « Août » ; un âge de 8/12 serait cohérent avec le 4 avril 1881."
@@ -394,7 +394,7 @@ window.COMPLEMENT_1881_D1 = {
 
     30: {
       lignes: 25, ecole: [8],
-      ne12: { 4: 'Août' }
+      ne12: { 4: 'Avril' }
     },
 
     /* Maison 122 : James Keley, charpentier irlandais de 60 ans, a épousé une
@@ -555,7 +555,7 @@ window.COMPLEMENT_1881_D1 = {
 
     43: {
       lignes: 25, ecole: [3, 11, 24, 25],
-      ne12: { 5: 'Août' }
+      ne12: { 5: 'Avril' }
     },
 
     /* Louis Couture, 42 ans, maison 202 : profession « Artiste » — la seule du
@@ -731,7 +731,7 @@ window.COMPLEMENT_1881_D1 = {
        Marie Gobeille, 80 ans, est recensée seule dans la maison des Carrier. */
     66: {
       lignes: 24, ecole: [1, 11, 12, 13],
-      ne12: { 23: 'Août' },
+      ne12: { 23: 'Avril' },
       exceptions: {
         18: { religion: 'Église anglicane', origine: 'Anglaise' },
         20: { religion: 'Église anglicane', origine: 'Anglaise' },
@@ -761,7 +761,7 @@ window.COMPLEMENT_1881_D1 = {
        journaliers — le plus gros regroupement de travailleurs adultes relevé. */
     68: {
       lignes: 25, ecole: [4, 21, 22],
-      ne12: { 10: 'Juin', 25: 'Août' }
+      ne12: { 10: 'Juin', 25: 'Avril' }
     },
 
     /* Abel Maire, 26 ans, « Chaloupier » : premier métier de construction de
@@ -1121,5 +1121,19 @@ window.COMPLEMENT_1881_D1 = {
      Les pages 82 et 83 restent suspendues et n'ont pas été touchées : voir le
      bloc de la page 82. Ce qu'on lit au manuscrit les concernant est dans
      docs/ECOLE-1881-D1.md — il confirme la suspicion. */
-  ecole_relue_au_manuscrit: '2026-09-12, les 88 pages'
+  ecole_relue_au_manuscrit: '2026-09-12, les 88 pages',
+
+  /* LA COLONNE 10 NE PORTE PAS UN SEUL « AOÛT ».
+     Les cinq « Août » qui figuraient ici (p23 L15, p30 L4, p43 L5, p66 L23,
+     p68 L25) sont tous des « Avril », relus à la réglette imprimée : un A
+     bouclé, « vril », un l final à hampe haute. Le « Août » de ce recenseur est
+     court et sans hampe — comparer au « Mars » de la page 2 et au « Juin » de la
+     page 68. Les trois âges qui portaient « août » entre parenthèses ont été
+     corrigés du même coup dans le recensement.
+
+     À noter pour qui reviendra sur le recoupement fraction/mois : la p66 L23
+     (8/12) s'accordait avec « Août » et ne s'accorde plus avec « Avril ». Le
+     mauvais mois la rendait cohérente par accident ; la bonne lecture la range
+     parmi les lignes où le recenseur se contredit. */
+  col10_relue_au_manuscrit: '2026-09-12, les cinq entrées en « Août »'
 };
