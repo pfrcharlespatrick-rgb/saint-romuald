@@ -622,7 +622,7 @@ window.COMPLEMENT_1881_D1 = {
       remarques: { 2: "Bilkey John, marchand de bois — Protestant, origine Anglaise (seule occurrence)" }
     },
 
-    49: { lignes: 25, ecole: [8] },
+    49: { lignes: 25, ecole: [9] },
 
     /* Maison 197 : William Findley, 40 ans, mécanicien, né en ÉCOSSE —
        Protestant, origine Écossaise. Son épouse Amélie (48) est
@@ -631,7 +631,7 @@ window.COMPLEMENT_1881_D1 = {
        partout ailleurs dans ce dépouillement (attribution par le père seul).
        Alexina Dorey (5 ans), pensionnaire dans le ménage, reste Française. */
     50: {
-      lignes: 25, ecole: [1],
+      lignes: 25, ecole: [5, 6, 7, 12, 13, 23],
       exceptions: {
         10: { lieu_naissance: 'Écosse', religion: 'Protestant', origine: 'Écossaise' },
         12: { origine: 'Écossaise' }
@@ -639,11 +639,11 @@ window.COMPLEMENT_1881_D1 = {
       remarques: { 10: 'Findley William, mécanicien — né en Écosse, Protestant, origine Écossaise' }
     },
 
-    51: { lignes: 25, ecole: [] },
+    51: { lignes: 25, ecole: [2, 3, 4, 8, 9, 10, 11, 12, 15, 16] },
 
     52: { lignes: 25, ecole: [7, 16, 17] },
 
-    53: { lignes: 25, ecole: [], ne12: { 23: 'Juillet' } },
+    53: { lignes: 25, ecole: [17], ne12: { 23: 'Juillet' } },
 
     /* Maison 214 : Stanislas Sirois — remarque manuscrite en colonne 20,
        ligne 13, mentionnant un départ pour les États-Unis le 15 août 1881
@@ -652,14 +652,14 @@ window.COMPLEMENT_1881_D1 = {
        dans ce district (à rapprocher des quatre familles US identifiées
        dans les pages 1-45/60-88). */
     54: {
-      lignes: 25, ecole: [],
+      lignes: 25, ecole: [20],
       remarques: { 13: "15 août 81 — États-Unis (départ noté après le recensement, lecture partielle)" },
       incertain: { 13: "Fin de la remarque difficile à lire au-delà de « 15 août 81 États-Unis »" }
     },
 
-    55: { lignes: 25, ecole: [17, 18, 19] },
+    55: { lignes: 25, ecole: [11, 12, 13, 15, 16, 17] },
 
-    56: { lignes: 25, ecole: [4] },
+    56: { lignes: 25, ecole: [4, 5, 6, 18] },
 
     /* Maison 225 : le chef de famille est OLIVIER LAMBERT lui-même, 36 ans,
        régisseur de moulin — l'énumérateur recense son propre ménage.
@@ -669,16 +669,16 @@ window.COMPLEMENT_1881_D1 = {
        donc établie en Ontario puis est revenue au Québec entre ~1871 et 1874.
        La famille se poursuit à la page 58, lignes 1-2 (Marie Louise, Augusta). */
     57: {
-      lignes: 25, ecole: [],
+      lignes: 25, ecole: [2, 3, 4, 14, 15, 16, 17, 18, 19, 23, 24, 25],
       exceptions: { 23: { lieu_naissance: 'Ontario' } },
       remarques: { 23: "Joseph Édouard Lambert, fils de l'énumérateur Olivier Lambert, né en Ontario" }
     },
 
     /* Lignes 1-2 : suite du ménage de l'énumérateur Olivier Lambert (cf. p.57) —
        Marie Louise (5 ans) et Augusta (7/12, née en septembre). */
-    58: { lignes: 25, ecole: [], ne12: { 2: 'Septembre' } },
+    58: { lignes: 25, ecole: [5, 6, 7, 14], ne12: { 2: 'Septembre' } },
 
-    59: { lignes: 25, ecole: [20] },
+    59: { lignes: 25, ecole: [3, 12] },
 
     /* Maison 234 : trois veufs sous le même toit (Édouard Guay 28 ans commis,
        Louis Guay 58, Marie Léonard 66) plus Marie Loiselle, 80 ans. */
