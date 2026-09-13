@@ -44,16 +44,6 @@ window.LIEUX = {
           "origine": "source",
           "motif": "Hubert Roberge, 54 a., navigateur — trois Hubert Roberge navigateurs coexistent (maisons 41, 51, 76)",
           "ajoute_le": "2026-08-10"
-        },
-        {
-          "annee": "1881",
-          "division": "2",
-          "no_maison": "63",
-          "statut": "rejete",
-          "confiance": "faible",
-          "origine": "source",
-          "motif": "Hubert Roberge, 40 a., batelier — retirée de l'atelier le 13 septembre 2026 ; conservée ici comme rapprochement écarté, conformément à docs/LIEUX.md. À confirmer.",
-          "ajoute_le": "2026-08-10"
         }
       ],
       "adresses_anciennes": [],
