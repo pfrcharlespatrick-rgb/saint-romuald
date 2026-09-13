@@ -20,14 +20,7 @@ Un lieu déjà rattaché désigne un ménage. On suit ce ménage dans les année
 lieu ne porte rien. L'ancre est un rattachement déjà admis, non un nom lu dans une
 brochure : c'est la passe la plus sûre.
 
-### Maison de Joseph Mc Kenzie — 1891, division 1, maison 513
-
-*Confiance : **forte**.* Lieu `1633-cf` — 1633, chemin du Fleuve.
-
-- **Ancre** : Raphaël Joncas, 27 a., Journalier — 1881, division 2, maison 103 (rattachement déjà admis).
-- **Retrouvé** : Raphael Joncas, 40 a., Débardeur, chef de ménage.
-- **Âge** : cohérent à 3 ans près sur la décennie.
-- **Sous le même toit** : Raphael Joncas, Raphael Joncas, Thomas Joncas, Malcom Joncas — 4 personnes du ménage précédent s'y retrouvent.
+Aucune : chaque lieu rattaché l'est déjà pour les trois recensements.
 
 ---
 
@@ -150,8 +143,18 @@ qu'on y recense telle année. Rien n'est versé automatiquement.
 - **Julien** → 1 ménage : 1871 D1 maison 152 (Joseph Julien, 37 a., Boucher)
 - **Julien Lambert** → 4 ménages : 1871 D1 maison 10 (Julien Lambert, 66 a., Cultivateur) ; 1881 D2 maison 6 (Julien Lambert, 77 a., Journalier) ; 1881 D2 maison 183 (Julien Lambert, 34 a., Journalier) ; 1891 D1 maison 448 (Julien Lambert, 45 a., Navigateur)
 
+### L'Anglican Christ'Church — 120, Côte Rouge
+
+- **John Ritchie** → 1 ménage : 1871 D1 maison 207 (John Ritchie, 35 a., Bourgeois)
+
 ### Maison-école — 83, rue Saint-Damase
 
 > Famille McReady (magasin général au 1588, chemin du Fleuve, même emplacement que la 2e école)
 
 - **McReady** → 13 ménages : 1871 D2 maison 58 (John Macready, 50 a., Timber Tower) ; 1871 D2 maison 75 (Robert Macready, 39 a., Marchand) ; 1881 D2 maison 67 (Napoléon McCready, 30 a., Charcuterie) ; 1881 D2 maison 71 (Robert McCready, 50 a., Marchand) ; 1881 D2 maison 72 (Rose Delima McCready, 60 a., Navigateur) ; 1881 D2 maison 73 (Edouard McCready, 27 a.) ; 1881 D2 maison 149 (Henry McCready, 25 a., Journalier) ; 1891 D1 maison 473 (Johnny McCready, 35 a., Débardeur) ; 1891 D1 maison 502 (Delima McReady, 66 a.) ; 1891 D1 maison 504 (Éléonore McReady, 56 a., Marchande) ; 1891 D1 maison 510 (Edouard McReady, 36 a., Commerçant) ; 1891 D1 maison 511 (Napoleon McReady, 40 a., Marchand général) ; 1891 D1 maison 530 (Peter McCready, 35 a., Débardeur)
+- **Robert MacReady** → 2 ménages : 1871 D2 maison 75 (Robert Macready, 39 a., Marchand) ; 1881 D2 maison 71 (Robert McCready, 50 a., Marchand)
+
+### Maison d'École — 2211, rue Saint-Jean-Baptiste
+
+- **Benjamin Demers** → 1 ménage : 1871 D1 maison 66 (Benjamin Demers, 48 a., Cultivateur)
+- **Julien Demers** → 3 ménages : 1881 D1 maison 67 (L.Julien Demers, 31 a., Marchand) ; 1881 D1 maison 205 (Julie Demers, 54 a.) ; 1891 D1 maison 129 (Louis Julien Demers, 41 a., Marchand de marchandises sèches)

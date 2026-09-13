@@ -62,6 +62,69 @@ window.LIEUX = {
       "documents": []
     },
     {
+      "id": "1588-cf",
+      "nom": "Le magasin général McReady",
+      "voie": "chemin du Fleuve",
+      "adresse_actuelle": "1588, chemin du Fleuve",
+      "designe_aujourdhui": "",
+      "etat": "inconnu",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.747862,
+        "lon": -71.260098,
+        "precision": "secteur",
+        "pose_par": "interpolation entre le 1506 et le 1604, tous deux relevés à la main",
+        "pose_le": "2026-09-13"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "Famille McReady — Robert MacReady, marchand, puis sa veuve Éléonore ; le magasin général de la famille",
+      "resume": "",
+      "notes": [
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-13",
+          "texte": "Emplacement créé le 13 septembre 2026. La notice du 83, rue Saint-Damase donnait la famille McReady et son magasin général « au 1588, chemin du Fleuve » — mais c'est ici qu'ils habitaient, non rue Saint-Damase. L'adresse méritait donc un lieu à elle. La position n'est pas relevée : elle est interpolée entre le 1506 et le 1604, au prorata du numéro civique, et reste à replacer à l'atelier."
+        }
+      ],
+      "occupations": [
+        {
+          "annee": "1871",
+          "division": "2",
+          "no_maison": "75",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Robert Macready, 39 a., marchand, avec Éléonore (31 a.), six enfants, une commis et une domestique — la maison du marchand McReady, d'après Patrick Blanchet.",
+          "ajoute_le": "2026-09-13"
+        },
+        {
+          "annee": "1881",
+          "division": "2",
+          "no_maison": "71",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Robert McCready, 50 a., marchand, avec Éléonore (46 a.) et neuf enfants — le même ménage qu'en 1871, sous la graphie « McCready ».",
+          "ajoute_le": "2026-09-13"
+        },
+        {
+          "annee": "1891",
+          "division": "1",
+          "no_maison": "504",
+          "statut": "propose",
+          "confiance": "moyenne",
+          "origine": "chercheur",
+          "motif": "Éléonore McReady, 56 a., MARCHANDE et chef de ménage, avec neuf enfants dont les âges répondent un à un à ceux de 1881 (Michel 21→31, Mary Jane 19→28, Emélie 16→25, Pierre 13→22, Éléonore 11→20, Emma 7→16, Alice 2→11). Robert est mort entre les deux recensements et sa veuve continue le commerce. L'identification du ménage est certaine ; qu'il soit resté au même bâtiment est une déduction, non un fait attesté.",
+          "ajoute_le": "2026-09-13"
+        }
+      ],
+      "adresses_anciennes": [],
+      "cadastre": {},
+      "photos": [],
+      "documents": []
+    },
+    {
       "id": "1604-cf",
       "nom": "Maison d'Albert Forcade",
       "voie": "chemin du Fleuve",
@@ -160,6 +223,16 @@ window.LIEUX = {
           "origine": "chercheur",
           "motif": "Augustin Joncas, 59 a., Journalier — suivi depuis 1871 (division 2, maison 131) ; âge cohérent à 1 an près ; 2 personnes du même ménage retrouvées : Augustin Joncas, Raphaël Joncas",
           "ajoute_le": "2026-09-13"
+        },
+        {
+          "annee": "1891",
+          "division": "1",
+          "no_maison": "513",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Raphael Joncas, 40 a., débardeur, chef de son propre ménage — fils d'Augustin, il tenait déjà en 1881 la seconde famille de la maison 103. Il a désormais sept enfants et sa tante Marie Roberge sous son toit. Son âge déclaré avance de trois ans sur la décennie ; qu'il soit resté sous le toit paternel plutôt que d'avoir déménagé reste à établir.",
+          "ajoute_le": "2026-09-13"
         }
       ],
       "adresses_anciennes": [],
@@ -188,6 +261,43 @@ window.LIEUX = {
       "personnages": "",
       "resume": "",
       "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {},
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "1720-chemin-du-fleuve",
+      "nom": "1720, chemin du Fleuve",
+      "voie": "chemin du Fleuve",
+      "adresse_actuelle": "1720, chemin du Fleuve",
+      "designe_aujourdhui": "",
+      "etat": "inconnu",
+      "construit": "v.1850",
+      "disparu": "",
+      "coord": {
+        "lat": 46.749819,
+        "lon": -71.253564,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-13"
+      },
+      "source": "SHSR",
+      "personnages": "",
+      "resume": "",
+      "notes": [
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-13",
+          "texte": "Construite en pièce sur pièce vers 1850, cette maison a évolué au fil du temps, cependant, son plan rectangulaire d’origine est toujours manifeste.\n\n\n​D’inspiration québécoise, elle se caractérise par la symétrie des éléments architecturaux : une porte centrale, nombre pair de fenêtres, trois lucarnes à l’étage et une galerie le long de la façade. Suite aux derniers travaux de rénovation, une annexe s’est ajoutée du côté droit de la maison.\n\n\nÀ l’intérieur, les boiseries et rampes d’escalier ouvragées nous laissent croire qu’il s’agit d’une maison appartenant à l’un des prospères marchands de bois.\n\n​Cette résidence ainsi que la maison de la douane et la petite maison de l’autre côté de la rue représentent les derniers témoins de l’industrie du bois et de la construction navale au 19e siècle à Saint-Romuald.\n\n"
+        },
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-13",
+          "texte": "https://www.histoiresaintromuald.com/post/maison-de-l-anse\n"
+        }
+      ],
       "occupations": [],
       "adresses_anciennes": [],
       "cadastre": {},
@@ -1180,6 +1290,142 @@ window.LIEUX = {
       "documents": []
     },
     {
+      "id": "maison-boutin-bourassa",
+      "nom": "Maison Boutin-Bourassa",
+      "voie": "",
+      "adresse_actuelle": "143, rue Demers",
+      "designe_aujourdhui": "",
+      "etat": "debout",
+      "construit": "v. 1850",
+      "disparu": "",
+      "coord": {
+        "lat": 46.757264,
+        "lon": -71.237529,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-13"
+      },
+      "source": "SHSR",
+      "personnages": "",
+      "resume": "",
+      "notes": [
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-13",
+          "texte": "Accroche : Joseph Bourassa père achète la propriété en 1859. Cette résidence à deux étages construite vers 1850 sur une terre appartenant à Benjamin Demers s’inscrit dans une architecture de conception québécoise. Ses fondations sont en pierre et l’ossature en bois. Au cours des années, elle a connu plusieurs modifications : les lucarnes, une partie de la grande galerie qui a été enlevée et l’annexion d’une nouvelle construction du côté droit de l’entrée principale vers 1910.\n\n\nJoseph Boutin dit Bourassa (1854-1943)\n\n\nIl est le fils de Joseph Boutin et de Charlotte Cantin et fils adoptif de Joseph Bourassa et de Geneviève Cantin. Il fait ses études au Collège de Lévis, au Séminaire de Québec et au Collège de Ste-Anne où il termine son cours classique en 1876. Par la suite, il obtient son diplôme de bachelier en droit à l'Université Laval. Le 20 mai 1880, il est admis à la pratique du notariat. Il a toujours exercé sa profession à Saint-Romuald.\n\n​\n\nLe 14 juin 1882, il épouse Ursule Cantin (1854-1928), fille de Narcisse Cantin et d’Ursule Cantin. Ils n’ont pas eu de descendance.\n\n​\n\nMe Boutin-Bourassa était aussi un homme politique. Il a été maire de Saint-Romuald de 1892 à 1897. Il tenta de devenir député de Lévis en 1908, mais sans succès. Il devint député du Parti libéral du Canada dans la circonscription fédérale de Lévis en 1911 et il est réélu en 1917 et en 1921. Le 1ᵉʳ septembre 1925, il est nommé membre de la Commission du Havre de Québec où il agit comme représentant de la rive-sud pendant cinq ans.\n\nIl décède à Saint-Romuald le 12 juillet 1943."
+        },
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-13",
+          "texte": "https://www.histoiresaintromuald.com/post/maison-boutin-bourassa"
+        },
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-13",
+          "texte": "Les trois rattachements suivent un seul ménage sur vingt ans : Joseph Bourassa père, 56 puis 66 puis 76 ans, et Geneviève Cantin son épouse. Marie Cantin y sert de 1871 à 1891. En 1881 le fils, Joseph Boutin dit Bourassa, y figure à 26 ans avec le titre de notaire — il avait été admis à la pratique le 20 mai 1880. En 1891, marié depuis 1882, il n'habite plus chez son père."
+        }
+      ],
+      "occupations": [
+        {
+          "annee": "1871",
+          "division": "1",
+          "no_maison": "63",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Joseph Bourassa, 56 a., cultivateur, avec Geneviève (51 a.) et Joseph, 17 a. — le père acquéreur de 1859 selon la Société d'histoire. Le fils de dix-sept ans est le futur notaire Joseph Boutin dit Bourassa (1854-1943).",
+          "ajoute_le": "2026-09-13"
+        },
+        {
+          "annee": "1881",
+          "division": "1",
+          "no_maison": "83",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Joseph Bourassa, 66 a., rentier, avec Geneviève (61 a.) et Joseph Boutin dit Bourassa, 26 a., NOTAIRE — admis à la pratique du notariat le 20 mai 1880. Marie Cantin, domestique, sert la maison depuis 1871.",
+          "ajoute_le": "2026-09-13"
+        },
+        {
+          "annee": "1891",
+          "division": "1",
+          "no_maison": "630",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Joseph Bourassa, 76 a., rentier, avec Geneviève (72 a.) et les mêmes domestiques, Marie Cantin et Louise Bouton — vingt ans de suite sous le même toit. Le notaire, marié à Ursule Cantin en 1882, n'y est plus.",
+          "ajoute_le": "2026-09-13"
+        }
+      ],
+      "adresses_anciennes": [],
+      "cadastre": {},
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "maison-olivier-frere",
+      "nom": "Maison Olivier & Frère",
+      "voie": "Chemin du Fleuve",
+      "adresse_actuelle": "2321, chemin du Fleuve",
+      "designe_aujourdhui": "",
+      "etat": "debout",
+      "construit": "v. 1934",
+      "disparu": "",
+      "coord": {
+        "lat": 46.759539,
+        "lon": -71.236053,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-13"
+      },
+      "source": "SHSR",
+      "personnages": "",
+      "resume": "",
+      "notes": [
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-13",
+          "texte": "Fondée en 1934 par les frères Joseph et Achille Olivier, la Maison Olivier & Frère entreprend ses activités commerciales dans un bâtiment, aujourd’hui disparu.\n\nEn 1944, les deux frères achètent la propriété voisine de leur boutique, qu’ils démolissent pour construire le bâtiment actuel. Inauguré en 1946, le magasin Olivier & Frère possède au départ une boucherie et une épicerie. Au fil des années, le commerce s’agrandit afin de répondre aux exigences de plus en plus croissantes de la clientèle romualdienne et de ses environs. Avant-gardistes pour l’époque, les frères Olivier apportent un vent de modernité en installant dans leur épicerie des comptoirs réfrigérés pour conserver les denrées périssables.\n\n\nEn 1955-1956, le magasin familial est transformé en supermarché.\n\n​\n\nLe commerce qui est l’une des entreprises locales les plus prospères de Saint-Romuald représente un bel exemple de la vocation commerçante de l’artère nommée à l’époque rue Commerciale. C’est effectivement ici qu’entre les années 1900 et 1970 se développe le centre d’affaires de la Ville de Saint-Romuald. À l’époque, l’activité économique bouillonne et des entreprises de tout genre se côtoient. On y retrouve de nombreux commerces de services (cabinets de médecins, pharmaciens, notaires, etc.), des industries, des institutions bancaires, un bureau de poste ainsi que l’hôtel de ville de Saint-Romuald.\n\n​\nEn 1977, la Maison Olivier & Frère ferme ses portes suite à un incendie."
+        },
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-13",
+          "texte": "https://www.histoiresaintromuald.com/post/maison-olivier-fr%C3%A8re"
+        }
+      ],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {},
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "aa-1616-lot-523-goad-29",
+      "nom": "AA. 1616; lot 523; Goad 29",
+      "voie": "Chemin du Fleuve",
+      "adresse_actuelle": "",
+      "designe_aujourdhui": "Julie-Marie Dorval, prop. Boudoir aux Arômes",
+      "etat": "inconnu",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.748174,
+        "lon": -71.259179,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-08-18"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": "",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {},
+      "photos": [],
+      "documents": []
+    },
+    {
       "id": "120-coterouge",
       "nom": "L'Anglican Christ'Church",
       "voie": "Côte Rouge",
@@ -1223,26 +1469,36 @@ window.LIEUX = {
       "documents": []
     },
     {
-      "id": "171-eglise",
-      "nom": "Le couvent Notre-Dame",
-      "voie": "rue de l'Église",
-      "adresse_actuelle": "171, rue de l'Église",
+      "id": "305-rue-de-saint-romuald",
+      "nom": "Maison Henri-Dutil",
+      "voie": "de Saint-Romuald",
+      "adresse_actuelle": "305, rue de Saint-Romuald",
       "designe_aujourdhui": "",
-      "etat": "inconnu",
-      "construit": "1871-1873",
+      "etat": "debout",
+      "construit": "v. 1923",
       "disparu": "",
       "coord": {
-        "lat": 46.75366,
-        "lon": -71.243742,
+        "lat": 46.754828,
+        "lon": -71.234488,
         "precision": "releve",
         "pose_par": "Patrick Blanchet",
         "pose_le": "2026-09-13"
       },
-      "source": "Bussière 1990",
-      "source_ref": "bussiere:171-eglise",
+      "source": "Patrick Blanchet",
       "personnages": "",
       "resume": "",
-      "notes": [],
+      "notes": [
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-13",
+          "texte": "n avril 1922, M. Henri Dutil obtient d’Alphonse Roberge une concession, un bail à rente foncière annuelle, pour le terrain. Sur l’acte notarié passé devant Me Charles Cantin, il est stipulé qu’une maison devra être construite sur ce terrain au cours de l’été 1923.\n\nM. Dutil fait donc construire cette résidence à trois étages, d’inspiration cubique (Four-square style), qui se caractérise par son toit en pavillon, la disposition symétrique des ouvertures et son revêtement extérieur en crépi. On remarque aussi des fenêtres en arc bombé ou ornées d’arcades.\n\n\nAutrefois, une galerie couverte complétait le carré original de la maison du côté sud. Elle fut transformée lors d’un agrandissement pour lui donner sa configuration actuelle. La propriété incluait aussi un terrain de tennis aménagé au début des années 30, qui fut très fréquenté par des amis et des sportifs amateurs des environs.\n\n\nLa famille Dutil a habité cette maison pendant 60 ans, soit jusqu’en 1981. Depuis, elle est occupée par des professionnels qui y tiennent leurs bureaux d’affaires.\n\n\nHenri Dutil (1891-1980) \n\n\nHenri Dutil est né à Saint-Calixte (Plessisville) le 7 décembre 1891. Il est le fils d’Henri Dutil et de Hedwidge Doucet. Le 5 juin 1917, à l’âge de 26 ans, il épouse, à Saint-Romuald, Cécile Dionne (1899-1978) de Saint-Antoine-de-Tilly. Elle était la fille d’Arthur Dionne et d’Angélique Lafleur. Henri et Cécile fondent ensuite une grande famille puisqu’ils auront cinq filles et cinq garçons.\n\n​\n\nHenri fait ses études au Séminaire de Québec et plus tard à l’Université Laval, où il obtient son diplôme en journalisme. Il exerce sa carrière professionnelle pendant 37 ans, d’abord comme journaliste et éditorialiste à L’Événement-journal, puis comme chroniqueur parlementaire durant 30 ans pour le journal Le Soleil à l’Assemblée nationale. En raison de son travail remarquable, il est nommé président de la Galerie de la Presse parlementaire.\n\n​\n\nÀ Saint-Romuald, il a assumé la fonction de maître de poste de 1920 à 1931 et de 1937 à 1947. Henri Dutil s’est aussi impliqué activement pendant plus de 25 ans au conseil d’administration de la Caisse Populaire de Saint-Romuald. Il en a été le vice-président de 1947 à 1961, puis président de 1962 à 1974. Monsieur Dutil a pris sa retraite à l’âge 75 ans. Il est décédé le 9 juillet 1980."
+        },
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-13",
+          "texte": "https://www.histoiresaintromuald.com/post/maison-henri-dutil"
+        }
+      ],
       "occupations": [],
       "adresses_anciennes": [],
       "cadastre": {},
@@ -1266,6 +1522,33 @@ window.LIEUX = {
         "pose_le": "2026-09-13"
       },
       "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": "",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {},
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "171-eglise",
+      "nom": "Le couvent Notre-Dame",
+      "voie": "rue de l'Église",
+      "adresse_actuelle": "171, rue de l'Église",
+      "designe_aujourdhui": "",
+      "etat": "inconnu",
+      "construit": "1871-1873",
+      "disparu": "",
+      "coord": {
+        "lat": 46.75366,
+        "lon": -71.243742,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-13"
+      },
+      "source": "Bussière 1990",
+      "source_ref": "bussiere:171-eglise",
       "personnages": "",
       "resume": "",
       "notes": [],
@@ -1523,216 +1806,6 @@ window.LIEUX = {
         }
       ],
       "occupations": [],
-      "adresses_anciennes": [],
-      "cadastre": {},
-      "photos": [],
-      "documents": []
-    },
-    {
-      "id": "aa-1616-lot-523-goad-29",
-      "nom": "AA. 1616; lot 523; Goad 29",
-      "voie": "Chemin du Fleuve",
-      "adresse_actuelle": "",
-      "designe_aujourdhui": "Julie-Marie Dorval, prop. Boudoir aux Arômes",
-      "etat": "inconnu",
-      "construit": "",
-      "disparu": "",
-      "coord": {
-        "lat": 46.748174,
-        "lon": -71.259179,
-        "precision": "releve",
-        "pose_par": "Patrick Blanchet",
-        "pose_le": "2026-08-18"
-      },
-      "source": "Patrick Blanchet",
-      "personnages": "",
-      "resume": "",
-      "notes": [],
-      "occupations": [],
-      "adresses_anciennes": [],
-      "cadastre": {},
-      "photos": [],
-      "documents": []
-    },
-    {
-      "id": "1720-chemin-du-fleuve",
-      "nom": "1720, chemin du Fleuve",
-      "voie": "chemin du Fleuve",
-      "adresse_actuelle": "1720, chemin du Fleuve",
-      "designe_aujourdhui": "",
-      "etat": "inconnu",
-      "construit": "v.1850",
-      "disparu": "",
-      "coord": {
-        "lat": 46.749819,
-        "lon": -71.253564,
-        "precision": "releve",
-        "pose_par": "Patrick Blanchet",
-        "pose_le": "2026-09-13"
-      },
-      "source": "SHSR",
-      "personnages": "",
-      "resume": "",
-      "notes": [
-        {
-          "auteur": "Patrick Blanchet",
-          "date": "2026-09-13",
-          "texte": "Construite en pièce sur pièce vers 1850, cette maison a évolué au fil du temps, cependant, son plan rectangulaire d’origine est toujours manifeste.\n\n\n​D’inspiration québécoise, elle se caractérise par la symétrie des éléments architecturaux : une porte centrale, nombre pair de fenêtres, trois lucarnes à l’étage et une galerie le long de la façade. Suite aux derniers travaux de rénovation, une annexe s’est ajoutée du côté droit de la maison.\n\n\nÀ l’intérieur, les boiseries et rampes d’escalier ouvragées nous laissent croire qu’il s’agit d’une maison appartenant à l’un des prospères marchands de bois.\n\n​Cette résidence ainsi que la maison de la douane et la petite maison de l’autre côté de la rue représentent les derniers témoins de l’industrie du bois et de la construction navale au 19e siècle à Saint-Romuald.\n\n"
-        },
-        {
-          "auteur": "Patrick Blanchet",
-          "date": "2026-09-13",
-          "texte": "https://www.histoiresaintromuald.com/post/maison-de-l-anse\n"
-        }
-      ],
-      "occupations": [],
-      "adresses_anciennes": [],
-      "cadastre": {},
-      "photos": [],
-      "documents": []
-    },
-    {
-      "id": "305-rue-de-saint-romuald",
-      "nom": "Maison Henri-Dutil",
-      "voie": "de Saint-Romuald",
-      "adresse_actuelle": "305, rue de Saint-Romuald",
-      "designe_aujourdhui": "",
-      "etat": "debout",
-      "construit": "v. 1923",
-      "disparu": "",
-      "coord": {
-        "lat": 46.754828,
-        "lon": -71.234488,
-        "precision": "releve",
-        "pose_par": "Patrick Blanchet",
-        "pose_le": "2026-09-13"
-      },
-      "source": "Patrick Blanchet",
-      "personnages": "",
-      "resume": "",
-      "notes": [
-        {
-          "auteur": "Patrick Blanchet",
-          "date": "2026-09-13",
-          "texte": "n avril 1922, M. Henri Dutil obtient d’Alphonse Roberge une concession, un bail à rente foncière annuelle, pour le terrain. Sur l’acte notarié passé devant Me Charles Cantin, il est stipulé qu’une maison devra être construite sur ce terrain au cours de l’été 1923.\n\nM. Dutil fait donc construire cette résidence à trois étages, d’inspiration cubique (Four-square style), qui se caractérise par son toit en pavillon, la disposition symétrique des ouvertures et son revêtement extérieur en crépi. On remarque aussi des fenêtres en arc bombé ou ornées d’arcades.\n\n\nAutrefois, une galerie couverte complétait le carré original de la maison du côté sud. Elle fut transformée lors d’un agrandissement pour lui donner sa configuration actuelle. La propriété incluait aussi un terrain de tennis aménagé au début des années 30, qui fut très fréquenté par des amis et des sportifs amateurs des environs.\n\n\nLa famille Dutil a habité cette maison pendant 60 ans, soit jusqu’en 1981. Depuis, elle est occupée par des professionnels qui y tiennent leurs bureaux d’affaires.\n\n\nHenri Dutil (1891-1980) \n\n\nHenri Dutil est né à Saint-Calixte (Plessisville) le 7 décembre 1891. Il est le fils d’Henri Dutil et de Hedwidge Doucet. Le 5 juin 1917, à l’âge de 26 ans, il épouse, à Saint-Romuald, Cécile Dionne (1899-1978) de Saint-Antoine-de-Tilly. Elle était la fille d’Arthur Dionne et d’Angélique Lafleur. Henri et Cécile fondent ensuite une grande famille puisqu’ils auront cinq filles et cinq garçons.\n\n​\n\nHenri fait ses études au Séminaire de Québec et plus tard à l’Université Laval, où il obtient son diplôme en journalisme. Il exerce sa carrière professionnelle pendant 37 ans, d’abord comme journaliste et éditorialiste à L’Événement-journal, puis comme chroniqueur parlementaire durant 30 ans pour le journal Le Soleil à l’Assemblée nationale. En raison de son travail remarquable, il est nommé président de la Galerie de la Presse parlementaire.\n\n​\n\nÀ Saint-Romuald, il a assumé la fonction de maître de poste de 1920 à 1931 et de 1937 à 1947. Henri Dutil s’est aussi impliqué activement pendant plus de 25 ans au conseil d’administration de la Caisse Populaire de Saint-Romuald. Il en a été le vice-président de 1947 à 1961, puis président de 1962 à 1974. Monsieur Dutil a pris sa retraite à l’âge 75 ans. Il est décédé le 9 juillet 1980."
-        },
-        {
-          "auteur": "Patrick Blanchet",
-          "date": "2026-09-13",
-          "texte": "https://www.histoiresaintromuald.com/post/maison-henri-dutil"
-        }
-      ],
-      "occupations": [],
-      "adresses_anciennes": [],
-      "cadastre": {},
-      "photos": [],
-      "documents": []
-    },
-    {
-      "id": "maison-olivier-frere",
-      "nom": "Maison Olivier & Frère",
-      "voie": "Chemin du Fleuve",
-      "adresse_actuelle": "2321, chemin du Fleuve",
-      "designe_aujourdhui": "",
-      "etat": "debout",
-      "construit": "v. 1934",
-      "disparu": "",
-      "coord": {
-        "lat": 46.759539,
-        "lon": -71.236053,
-        "precision": "releve",
-        "pose_par": "Patrick Blanchet",
-        "pose_le": "2026-09-13"
-      },
-      "source": "SHSR",
-      "personnages": "",
-      "resume": "",
-      "notes": [
-        {
-          "auteur": "Patrick Blanchet",
-          "date": "2026-09-13",
-          "texte": "Fondée en 1934 par les frères Joseph et Achille Olivier, la Maison Olivier & Frère entreprend ses activités commerciales dans un bâtiment, aujourd’hui disparu.\n\nEn 1944, les deux frères achètent la propriété voisine de leur boutique, qu’ils démolissent pour construire le bâtiment actuel. Inauguré en 1946, le magasin Olivier & Frère possède au départ une boucherie et une épicerie. Au fil des années, le commerce s’agrandit afin de répondre aux exigences de plus en plus croissantes de la clientèle romualdienne et de ses environs. Avant-gardistes pour l’époque, les frères Olivier apportent un vent de modernité en installant dans leur épicerie des comptoirs réfrigérés pour conserver les denrées périssables.\n\n\nEn 1955-1956, le magasin familial est transformé en supermarché.\n\n​\n\nLe commerce qui est l’une des entreprises locales les plus prospères de Saint-Romuald représente un bel exemple de la vocation commerçante de l’artère nommée à l’époque rue Commerciale. C’est effectivement ici qu’entre les années 1900 et 1970 se développe le centre d’affaires de la Ville de Saint-Romuald. À l’époque, l’activité économique bouillonne et des entreprises de tout genre se côtoient. On y retrouve de nombreux commerces de services (cabinets de médecins, pharmaciens, notaires, etc.), des industries, des institutions bancaires, un bureau de poste ainsi que l’hôtel de ville de Saint-Romuald.\n\n​\nEn 1977, la Maison Olivier & Frère ferme ses portes suite à un incendie."
-        },
-        {
-          "auteur": "Patrick Blanchet",
-          "date": "2026-09-13",
-          "texte": "https://www.histoiresaintromuald.com/post/maison-olivier-fr%C3%A8re"
-        }
-      ],
-      "occupations": [],
-      "adresses_anciennes": [],
-      "cadastre": {},
-      "photos": [],
-      "documents": []
-    },
-    {
-      "id": "maison-boutin-bourassa",
-      "nom": "Maison Boutin-Bourassa",
-      "voie": "",
-      "adresse_actuelle": "143, rue Demers",
-      "designe_aujourdhui": "",
-      "etat": "debout",
-      "construit": "v. 1850",
-      "disparu": "",
-      "coord": {
-        "lat": 46.757264,
-        "lon": -71.237529,
-        "precision": "releve",
-        "pose_par": "Patrick Blanchet",
-        "pose_le": "2026-09-13"
-      },
-      "source": "SHSR",
-      "personnages": "",
-      "resume": "",
-      "notes": [
-        {
-          "auteur": "Patrick Blanchet",
-          "date": "2026-09-13",
-          "texte": "Accroche : Joseph Bourassa père achète la propriété en 1859. Cette résidence à deux étages construite vers 1850 sur une terre appartenant à Benjamin Demers s’inscrit dans une architecture de conception québécoise. Ses fondations sont en pierre et l’ossature en bois. Au cours des années, elle a connu plusieurs modifications : les lucarnes, une partie de la grande galerie qui a été enlevée et l’annexion d’une nouvelle construction du côté droit de l’entrée principale vers 1910.\n\n\nJoseph Boutin dit Bourassa (1854-1943)\n\n\nIl est le fils de Joseph Boutin et de Charlotte Cantin et fils adoptif de Joseph Bourassa et de Geneviève Cantin. Il fait ses études au Collège de Lévis, au Séminaire de Québec et au Collège de Ste-Anne où il termine son cours classique en 1876. Par la suite, il obtient son diplôme de bachelier en droit à l'Université Laval. Le 20 mai 1880, il est admis à la pratique du notariat. Il a toujours exercé sa profession à Saint-Romuald.\n\n​\n\nLe 14 juin 1882, il épouse Ursule Cantin (1854-1928), fille de Narcisse Cantin et d’Ursule Cantin. Ils n’ont pas eu de descendance.\n\n​\n\nMe Boutin-Bourassa était aussi un homme politique. Il a été maire de Saint-Romuald de 1892 à 1897. Il tenta de devenir député de Lévis en 1908, mais sans succès. Il devint député du Parti libéral du Canada dans la circonscription fédérale de Lévis en 1911 et il est réélu en 1917 et en 1921. Le 1ᵉʳ septembre 1925, il est nommé membre de la Commission du Havre de Québec où il agit comme représentant de la rive-sud pendant cinq ans.\n\nIl décède à Saint-Romuald le 12 juillet 1943."
-        },
-        {
-          "auteur": "Patrick Blanchet",
-          "date": "2026-09-13",
-          "texte": "https://www.histoiresaintromuald.com/post/maison-boutin-bourassa"
-        },
-        {
-          "auteur": "Patrick Blanchet",
-          "date": "2026-09-13",
-          "texte": "Les trois rattachements suivent un seul ménage sur vingt ans : Joseph Bourassa père, 56 puis 66 puis 76 ans, et Geneviève Cantin son épouse. Marie Cantin y sert de 1871 à 1891. En 1881 le fils, Joseph Boutin dit Bourassa, y figure à 26 ans avec le titre de notaire — il avait été admis à la pratique le 20 mai 1880. En 1891, marié depuis 1882, il n'habite plus chez son père."
-        }
-      ],
-      "occupations": [
-        {
-          "annee": "1871",
-          "division": "1",
-          "no_maison": "63",
-          "statut": "propose",
-          "confiance": "forte",
-          "origine": "chercheur",
-          "motif": "Joseph Bourassa, 56 a., cultivateur, avec Geneviève (51 a.) et Joseph, 17 a. — le père acquéreur de 1859 selon la Société d'histoire. Le fils de dix-sept ans est le futur notaire Joseph Boutin dit Bourassa (1854-1943).",
-          "ajoute_le": "2026-09-13"
-        },
-        {
-          "annee": "1881",
-          "division": "1",
-          "no_maison": "83",
-          "statut": "propose",
-          "confiance": "forte",
-          "origine": "chercheur",
-          "motif": "Joseph Bourassa, 66 a., rentier, avec Geneviève (61 a.) et Joseph Boutin dit Bourassa, 26 a., NOTAIRE — admis à la pratique du notariat le 20 mai 1880. Marie Cantin, domestique, sert la maison depuis 1871.",
-          "ajoute_le": "2026-09-13"
-        },
-        {
-          "annee": "1891",
-          "division": "1",
-          "no_maison": "630",
-          "statut": "propose",
-          "confiance": "forte",
-          "origine": "chercheur",
-          "motif": "Joseph Bourassa, 76 a., rentier, avec Geneviève (72 a.) et les mêmes domestiques, Marie Cantin et Louise Bouton — vingt ans de suite sous le même toit. Le notaire, marié à Ursule Cantin en 1882, n'y est plus.",
-          "ajoute_le": "2026-09-13"
-        }
-      ],
       "adresses_anciennes": [],
       "cadastre": {},
       "photos": [],

@@ -373,9 +373,22 @@ function nomsDansTexte(texte) {
   return trouves;
 }
 
+// Au-delà de quel nombre de ménages un patronyme cesse-t-il de renseigner ?
+// « Roberge » en compte soixante-quatorze : la liste ne se lit plus, et proposer
+// soixante-quatorze pistes n'est pas proposer une piste.
+const TROP_REPANDU = 15;
+
 function amorce(lieu) {
-  const textes = [lieu.nom || '', lieu.personnages || ''].join(' ; ');
-  const noms = nomsDansTexte(textes);
+  // Le titre et les personnages nomment court ; les notes nomment au fil du
+  // texte. Les deux valent, mais pas au même prix : dans une notice de la
+  // Société d'histoire, un patronyme isolé est le plus souvent un homonyme de
+  // passage, alors qu'un prénom accolé à un nom désigne quelqu'un. On n'y
+  // retient donc que les noms complets — c'est ainsi que « Joseph Bourassa
+  // père achète la propriété en 1859 » a rendu le 143, rue Demers.
+  const brefs = nomsDansTexte([lieu.nom || '', lieu.personnages || ''].join(' ; '));
+  const longs = nomsDansTexte((lieu.notes || []).map((n) => n.texte || '').join(' ; '))
+    .filter((n) => n.prenom);
+  const noms = [...brefs, ...longs];
   if (!noms.length) return [];
   const vus = new Set();
   const pistes = [];
@@ -394,7 +407,13 @@ function amorce(lieu) {
         if (!menages.has(cle)) menages.set(cle, p);
       }
     }
-    if (menages.size) pistes.push({ lieu: lieu.id, cherche: (n.prenom ? n.prenom + ' ' : '') + n.nom, menages: [...menages.values()] });
+    if (!menages.size) continue;
+    pistes.push({
+      lieu: lieu.id,
+      cherche: (n.prenom ? n.prenom + ' ' : '') + n.nom,
+      repandu: menages.size > TROP_REPANDU,
+      menages: [...menages.values()]
+    });
   }
   return pistes;
 }
@@ -472,6 +491,10 @@ function lignesAmorce() {
     out.push('');
     if (l.personnages) out.push(`> ${l.personnages}`, '');
     for (const p of pistes) {
+      if (p.repandu) {
+        out.push(`- **${p.cherche}** → ${p.menages.length} ménages : nom trop répandu au village pour qu'une liste renseigne. Il faudra un prénom, une date d'acquisition ou un numéro de lot.`);
+        continue;
+      }
       const menages = p.menages
         .sort((a, b) => Number(a.annee) - Number(b.annee))
         .map((m) => `${m.annee} D${m.division} maison ${m.no_maison} (${m.prenom} ${m.nom}, ${ageEnAnnees(m.age) ?? '?'} a.${m.profession ? ', ' + m.profession : ''})`);
