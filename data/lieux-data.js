@@ -44,6 +44,16 @@ window.LIEUX = {
           "origine": "source",
           "motif": "Hubert Roberge, 54 a., navigateur — trois Hubert Roberge navigateurs coexistent (maisons 41, 51, 76)",
           "ajoute_le": "2026-08-10"
+        },
+        {
+          "annee": "1881",
+          "division": "2",
+          "no_maison": "147",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Hubert Roberge, 63 a., Journalier — suivi depuis 1871 (division 2, maison 51) ; âge cohérent à 1 an près ; 6 personnes du même ménage retrouvées : Hubert Roberge, Elisabeth Roberge, Louis Roberge, James Roberge, Eusèbe Roberge, Eugénie Roberge",
+          "ajoute_le": "2026-09-13"
         }
       ],
       "adresses_anciennes": [],
@@ -82,6 +92,16 @@ window.LIEUX = {
           "origine": "source",
           "motif": "Albert Forcade, 32 a., menuisier — seul Albert Forcade adulte du secteur",
           "ajoute_le": "2026-08-10"
+        },
+        {
+          "annee": "1881",
+          "division": "2",
+          "no_maison": "70",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Albert Forcade, 42 a., Marchand — suivi depuis 1871 (division 2, maison 43) ; âge cohérent à 0 an près ; 2 personnes du même ménage retrouvées : Albert Forcade, Rosalie Forcade",
+          "ajoute_le": "2026-09-13"
         },
         {
           "annee": "1891",
@@ -130,6 +150,16 @@ window.LIEUX = {
           "origine": "source",
           "motif": "Ménage McKenzie : John McKenzie, ship chandler, et son fils Joseph (8 a.) — l'attribution à « Joseph » reste à vérifier",
           "ajoute_le": "2026-08-10"
+        },
+        {
+          "annee": "1881",
+          "division": "2",
+          "no_maison": "103",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Augustin Joncas, 59 a., Journalier — suivi depuis 1871 (division 2, maison 131) ; âge cohérent à 1 an près ; 2 personnes du même ménage retrouvées : Augustin Joncas, Raphaël Joncas",
+          "ajoute_le": "2026-09-13"
         }
       ],
       "adresses_anciennes": [],
@@ -553,6 +583,16 @@ window.LIEUX = {
           "origine": "source",
           "motif": "Isaïe [?] Bergeron, 49 a., cultivateur — homonyme plus âgé, à trancher",
           "ajoute_le": "2026-08-10"
+        },
+        {
+          "annee": "1891",
+          "division": "1",
+          "no_maison": "272",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Isaï Bergeron, 68 a., Culler (mesureur de bois) — suivi depuis 1871 (division 2, maison 116) ; âge cohérent à 1 an près ; 2 personnes du même ménage retrouvées : Isaï Bergeron, Marie Louise Bergeron",
+          "ajoute_le": "2026-09-13"
         }
       ],
       "adresses_anciennes": [],
@@ -591,6 +631,16 @@ window.LIEUX = {
           "origine": "source",
           "motif": "Théophile Hallé, 18 a., dans le ménage des forgerons Hallé (George et Philippe)",
           "ajoute_le": "2026-08-10"
+        },
+        {
+          "annee": "1881",
+          "division": "1",
+          "no_maison": "30",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Théophile Hâle, 30 a., Forgeron — suivi depuis 1891 (division 1, maison 287) ; âge cohérent à 0 an près ; 3 personnes du même ménage retrouvées : Théophile Hâle, Barbe Hâle, Jules Hâle",
+          "ajoute_le": "2026-09-13"
         },
         {
           "annee": "1891",
@@ -639,6 +689,16 @@ window.LIEUX = {
           "origine": "source",
           "motif": "Louis St.Hilaire, 28 a., marchand — la boutique du tailleur, maison bâtie v.1880",
           "ajoute_le": "2026-08-10"
+        },
+        {
+          "annee": "1891",
+          "division": "1",
+          "no_maison": "460",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Louis St Hilaire, 35 a., Charpentier — suivi depuis 1881 (division 2, maison 161) ; âge cohérent à 0 an près ; 2 personnes du même ménage retrouvées : Louis St Hilaire, Philomène St Hilaire",
+          "ajoute_le": "2026-09-13"
         }
       ],
       "adresses_anciennes": [],
@@ -1003,6 +1063,16 @@ window.LIEUX = {
       "notes": [],
       "occupations": [
         {
+          "annee": "1881",
+          "division": "1",
+          "no_maison": "262",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Favien Rochette, 38 a., Mécanicien — suivi depuis 1891 (division 1, maison 93) ; âge cohérent à 0 an près ; 4 personnes du même ménage retrouvées : Favien Rochette, Marie Zoé Rochette, Alfred Rochette, Joseph Rochette",
+          "ajoute_le": "2026-09-13"
+        },
+        {
           "annee": "1891",
           "division": "1",
           "no_maison": "93",
@@ -1262,6 +1332,26 @@ window.LIEUX = {
       "notes": [],
       "occupations": [
         {
+          "annee": "1871",
+          "division": "2",
+          "no_maison": "9",
+          "statut": "propose",
+          "confiance": "moyenne",
+          "origine": "chercheur",
+          "motif": "Joseph Roberge, 28 a., Journalier — suivi depuis 1891 (division 1, maison 430) ; âge cohérent à 2 ans près ; 1 personne du même ménage retrouvée : Joseph Roberge ; autres candidats : Joseph Roberge (maison 8) ; Joseph Roberge (maison 73)",
+          "ajoute_le": "2026-09-13"
+        },
+        {
+          "annee": "1881",
+          "division": "1",
+          "no_maison": "32",
+          "statut": "propose",
+          "confiance": "moyenne",
+          "origine": "chercheur",
+          "motif": "Joseph Roberge, 36 a., Arrimeur — suivi depuis 1891 (division 1, maison 430) ; âge cohérent à 0 an près ; 5 personnes du même ménage retrouvées : Joseph Roberge, Alice Roberge, William Roberge, Anna Roberge, Edouard Roberge ; autres candidats : Joseph Roberge (maison 123)",
+          "ajoute_le": "2026-09-13"
+        },
+        {
           "annee": "1891",
           "division": "1",
           "no_maison": "430",
@@ -1299,6 +1389,26 @@ window.LIEUX = {
       "resume": "",
       "notes": [],
       "occupations": [
+        {
+          "annee": "1871",
+          "division": "2",
+          "no_maison": "94",
+          "statut": "propose",
+          "confiance": "moyenne",
+          "origine": "chercheur",
+          "motif": "Thomas Vallières, 25 a., Journalier — suivi depuis 1891 (division 1, maison 457) ; âge cohérent à 0 an près ; 2 personnes du même ménage retrouvées : Thomas Vallières, Philomène Vallières ; autres candidats : Joseph Vallières (maison 54)",
+          "ajoute_le": "2026-09-13"
+        },
+        {
+          "annee": "1881",
+          "division": "2",
+          "no_maison": "176",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Thomas Vallière, 36 a., Navigateur — suivi depuis 1891 (division 1, maison 457) ; âge cohérent à 1 an près ; 5 personnes du même ménage retrouvées : Thomas Vallière, Philomène Vallière, Joseph Vallière, Mary Vallière, Célinda Vallière",
+          "ajoute_le": "2026-09-13"
+        },
         {
           "annee": "1891",
           "division": "1",
