@@ -21,8 +21,13 @@
       var a = s.par_annee[an];
       var div = document.createElement('div');
       div.className = 'tuile';
+      var detail = fr(a.maisons) + ' maisons, ' + fr(a.familles) + ' familles';
+      var t = a.territoires_reconstitues;
+      if (t) {
+        detail += '<br>dont, par territoire reconstitué : div. 1 ' + fr(t.D1.personnes) + ' pers., div. 2 ' + fr(t.D2.personnes) + ' pers.';
+      }
       div.innerHTML = '<div class="gros">' + fr(a.personnes) + '</div><div class="quoi">' + an + '</div>' +
-        '<div class="detail">' + fr(a.maisons) + ' maisons, ' + fr(a.familles) + ' familles</div>';
+        '<div class="detail">' + detail + '</div>';
       tuilesAnnees.appendChild(div);
     });
 

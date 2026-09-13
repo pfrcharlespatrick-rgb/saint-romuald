@@ -45,7 +45,8 @@
     mentions.forEach(function (m, i) {
       cellules.push(
         '<a class="mention" href="personne.html#' + esc(m.id) + '">' +
-        '<div class="an">' + esc(m.annee) + ' · division ' + esc(m.division) + '</div>' +
+        '<div class="an">' + esc(m.annee) + ' · division ' + esc(m.division) +
+        (m.division_reconstituee ? ' <span title="Le recensement de 1891 ne distingue pas les divisions : territoire reconstitué d\'après 1871-1881">(terr. D' + esc(m.division_reconstituee) + ')</span>' : '') + '</div>' +
         '<div class="nom">' + esc(m.nom) + '</div>' +
         '<div class="att">' + esc(m.attribut) + '<br>p. ' + esc(m.page_ms) + ', ligne ' + esc(m.ligne) + '</div>' +
         '</a>'
@@ -98,6 +99,13 @@
     }).join('');
     var marginale = f.remarque
       ? '<div class="marginale"><b>En marge du dépouillement</b>' + esc(f.remarque) + '</div>' : '';
+    // 1891 : la division n'est pas au manuscrit, elle est projetée depuis
+    // 1871-1881 maison par maison (docs/DIVISIONS-1891.md).
+    if (f.division_reconstituee) {
+      marginale += '<div class="marginale"><b>Territoire de la division ' + esc(f.division_reconstituee) + ' (reconstitué)</b>' +
+        'Le recensement de 1891 ne distingue pas les deux divisions de 1871 et 1881. Cette maison est placée dans le territoire ' +
+        'de la division ' + esc(f.division_reconstituee) + ' d\'après les liens de filiation de ses habitants : ' + esc(f.appui_division || '') + '.</div>';
+    }
     // Lecture que le dépouillement complémentaire de 1881 n'a pas su trancher.
     // Elle est dite ici plutôt que tue : la valeur affichée reste discutable.
     if (f.note_complement) {

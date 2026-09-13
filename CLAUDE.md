@@ -38,6 +38,16 @@ fichier de travail.
 les fichiers partent ainsi d'accord avec la main. L'opération est idempotente et
 `--essai` montre sans écrire.
 
+## 1891 n'a qu'une division
+
+Le formulaire de 1891 n'a pas de case « division » : `recensement-1891-d1-data.js`
+est la paroisse entière et le jeu « d2 » restera vide. La coupure de 1871-1881 y est
+**reconstituée** maison par maison (`maison.division_reconstituee`,
+`maison.appui_division`) par `outils/relecture-1881/divisions91.mjs` ; les bornes
+des blocs sont une décision consignée dans `docs/DIVISIONS-1891.md`. Ne jamais
+présenter cette division comme celle du manuscrit, ni toucher au champ `division`
+ni aux identifiants `1891-D1-…`.
+
 ## Gabarit « dictionnaire biographique »
 
 Quand l'utilisateur fournit ou demande une mise en page de fiches biographiques (ex. extraits d'ouvrages comme *Mission New Liverpool* de Julie Doyon), utiliser ce gabarit — c'est le format que l'utilisateur préfère pour ce type de contenu :

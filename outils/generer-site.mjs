@@ -60,6 +60,7 @@ function mentionDe(id) {
   if (p.chef) attributs.push('chef(fe) de ménage');
   return {
     id, annee: p.annee, division: p.division,
+    division_reconstituee: p.division_reconstituee || undefined,
     nom: nomComplet(p), attribut: attributs.join(' · '),
     page_ms: p.page_ms, ligne: p.ligne
   };
@@ -141,6 +142,8 @@ for (const p of d.personnes.values()) {
     profession: p.profession, etat_matrimonial: p.etat_matrimonial,
     etat_civil: etatCivil(p),
     annee: p.annee, division: p.division,
+    division_reconstituee: p.division_reconstituee || undefined,
+    appui_division: maison?.appui_division || undefined,
     no_maison: p.no_maison, no_famille: p.no_famille, chef: !!p.chef,
     page_ms: p.page_ms, ligne: p.ligne,
     incertain: !!p.incertain,
@@ -230,6 +233,8 @@ for (const [cleM, maison] of d.maisons) {
 
   lot[cleM] = {
     cle: cleM, annee: maison.annee, division: maison.division, no_maison: maison.no_maison,
+    division_reconstituee: maison.division_reconstituee || undefined,
+    appui_division: maison.appui_division || undefined,
     no_famille_ms: maison.no_famille_ms,
     logement: maison.logement, logement_partage: maison.logement_partage,
     remarque_logement: nettoyerRemarque(maison.remarque_logement),
@@ -409,7 +414,21 @@ function comptesAnnee(annee) {
   return c;
 }
 
+// 1891 n'a pas de division au manuscrit : la coupure de 1871-1881 y est
+// projetée maison par maison (docs/DIVISIONS-1891.md). Les tuiles la donnent
+// à part, pour qu'on puisse comparer d'un recensement à l'autre.
+function territoires1891() {
+  const t = { 1: { personnes: 0, maisons: new Set() }, 2: { personnes: 0, maisons: new Set() } };
+  for (const p of d.personnes.values()) {
+    if (p.annee !== '1891' || biffee(p) || !t[p.division_reconstituee]) continue;
+    t[p.division_reconstituee].personnes++;
+    t[p.division_reconstituee].maisons.add(`${p.division}-${p.no_maison}`);
+  }
+  return { D1: { personnes: t[1].personnes, maisons: t[1].maisons.size }, D2: { personnes: t[2].personnes, maisons: t[2].maisons.size } };
+}
+
 const comptesParAnnee = { 1871: comptesAnnee(1871), 1881: comptesAnnee(1881), 1891: comptesAnnee(1891) };
+comptesParAnnee[1891].territoires_reconstitues = territoires1891();
 const stats = {
   genere_le: d.filiation.genere_le,
   totaux: {
