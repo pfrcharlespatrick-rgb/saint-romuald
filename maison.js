@@ -103,10 +103,22 @@
       '<span class="etiquette">Fiche de maison · recensement de ' + esc(f.annee) + ', division ' + esc(f.division) + '</span>' +
       '<h2 class="titre-vue">Maison ' + esc(f.no_maison) + '</h2>' +
       '<p class="sous-titre">' + esc(sousTitre) + esc(logementTxt) + '</p>' +
+      rendreDivisionReconstituee(f) +
       '<div class="actions-fiche"><button class="bouton" onclick="window.print()">Imprimer / exporter en PDF</button></div>' +
       f.familles.map(function (fam) { return rendreFamille(f, fam); }).join('') +
       rendreRenvois(f) +
       rendreAdresse(f)
+    );
+  }
+
+  // Le manuscrit de 1891 ne connaît qu'une division ; celle de 1871-1881 y est
+  // projetée maison par maison d'après les liens de filiation
+  // (docs/DIVISIONS-1891.md). Elle est dite pour ce qu'elle est : reconstituée.
+  function rendreDivisionReconstituee(f) {
+    if (!f.division_reconstituee) return '';
+    return (
+      '<p class="bloc-note">Territoire de la <b>division ' + esc(f.division_reconstituee) + '</b> de 1871-1881, ' +
+      'reconstitué — le recensement de 1891 ne distingue pas les deux divisions. Appui : ' + esc(f.appui_division || '') + '.</p>'
     );
   }
 

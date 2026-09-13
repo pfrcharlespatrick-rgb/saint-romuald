@@ -216,6 +216,12 @@ Six fichiers, même structure :
 | `recensement-1891-d1-data.js` | `RECENSEMENT_1891_D1` | 637 | 3 548 |
 | `recensement-1891-d2-data.js` | `RECENSEMENT_1891_D2` | 0 | 0 |
 
+> **1891 n'a qu'une division au manuscrit.** Le formulaire de 1891 n'a pas de case
+> « division » : un seul sous-district (L, St Romuald), un seul recenseur, 142 pages.
+> Le fichier « d1 » est la paroisse entière et le jeu « d2 » restera vide. La
+> coupure de 1871-1881 y est **reconstituée** maison par maison
+> (`division_reconstituee`, voir `DIVISIONS-1891.md`).
+
 ### Racine
 
 ```
@@ -239,6 +245,7 @@ familles_ms_par_page      nombre de familles relevées par page (89 à 113)
 carte_scans               règle de correspondance entre n° de scan et page manuscrite
 colonnes_17_25            avancement du relevé des colonnes 17 à 25
 note_no_famille_ms        note sur la numérotation des familles au manuscrit
+divisions_reconstituees   méthode, blocs et totaux de la projection des divisions de 1871-1881 (DIVISIONS-1891.md)
 ```
 
 ### Maison
@@ -253,6 +260,8 @@ remarque_logement    texte
 remarque_nom         texte — note de relecture
 source_ms            texte
 remarque             texte
+division_reconstituee  "1" | "2" — 1891 seulement : territoire de 1871-1881 projeté sur la maison (DIVISIONS-1891.md)
+appui_division       texte — 1891 seulement : sur quoi repose division_reconstituee (liens vers 1881, continuité du parcours…)
 ```
 
 `logement.materiau` : « Bois » | « Brique » | « Pierre ».

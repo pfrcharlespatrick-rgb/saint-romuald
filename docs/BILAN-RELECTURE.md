@@ -24,7 +24,13 @@ Les journaux de campagne restent la référence de détail :
 | 1881 D1 | 2 189 | 349 | 400 | 88 | 153 (7 %) | oui, intégralement |
 | 1881 D2 | 1 452 | 249 | 267 | 59 | 152 (10 %) | oui, intégralement |
 | 1891 D1 | 3 548 | 637 | 644 | 142 | 1 100 (31 %) | oui, intégralement |
-| 1891 D2 | **0** | — | — | — | — | **jeu vide** |
+| 1891 D2 | **0** | — | — | — | — | **jeu vide — et le restera** |
+
+> **1891 n'a qu'une division.** Le formulaire de 1891 n'a pas de case « division » :
+> le fichier « D1 » est la paroisse entière (un sous-district, un recenseur, 142
+> pages). La coupure de 1871-1881 y est reconstituée maison par maison d'après les
+> liens de filiation — 438 maisons et 2 438 personnes en territoire de la division 1,
+> 199 et 1 110 en territoire de la division 2. Voir `DIVISIONS-1891.md`.
 
 **10 189 personnes en ligne.** Les contrôles d'intégrité passent partout : aucun
 identifiant en double, et les 86 références de personne de `documents/manifeste.json`

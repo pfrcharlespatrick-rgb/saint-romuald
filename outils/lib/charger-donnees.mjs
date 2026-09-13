@@ -74,6 +74,9 @@ export function chargerDonnees() {
           personnes.set(p.id, {
             ...appliquerComplement(p, complement, anomaliesComplement),
             annee, division,
+            // 1891 seulement : la division projetée depuis 1871-1881, la
+            // maison de recensement n'en portant aucune (docs/DIVISIONS-1891.md).
+            division_reconstituee: maison.division_reconstituee || '',
             no_maison: String(maison.no_maison),
             no_famille: String(famille.no_famille),
             // Convention du registre : la personne inscrite en premier dans la
@@ -93,6 +96,8 @@ export function chargerDonnees() {
         annee, division,
         no_maison: String(maison.no_maison),
         no_famille_ms: maison.no_famille_ms || '',
+        division_reconstituee: maison.division_reconstituee || '',
+        appui_division: maison.appui_division || '',
         logement: maison.logement || null,
         logement_partage: !!maison.logement_partage,
         remarque_logement: maison.remarque_logement || '',
