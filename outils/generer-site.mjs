@@ -263,6 +263,7 @@ function menageeDe(cleM) {
   if (!maison) return null;
   return {
     cle: cleM,
+    division_reconstituee: maison.division_reconstituee || undefined,
     familles: maison.familles.map((f) => {
       const membres = f.membres.map((id) => d.personnes.get(id)).filter(Boolean);
       const chef = membres[0];

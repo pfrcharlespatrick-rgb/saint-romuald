@@ -23,6 +23,10 @@
   // couche par plan affiché, trois poignées de calage quand on en règle un.
   var plans = [], couchesPlans = {}, poigneesPlan = [], planEnCalage = null;
 
+  // La frontière des deux divisions de 1871-1881 (docs/DIVISIONS-1891.md) :
+  // une ligne tiretée, deux étiquettes, et en atelier une poignée par sommet.
+  var frontiere = null, coucheFrontiere = null, poigneesFrontiere = [];
+
   function parId(id) {
     for (var i = 0; i < etat.lieux.length; i++) if (etat.lieux[i].id === id) return etat.lieux[i];
     return null;
@@ -66,11 +70,27 @@
     };
   }
 
+  /* De quel côté de la frontière ses maisons le placent : la division de 1871
+     et 1881, le territoire reconstitué de 1891 (maisonnee.division_reconstituee). */
+  function coteDe(l) {
+    var divs = [];
+    (l.occupations || []).forEach(function (o) {
+      if (o.statut === 'rejete') return;
+      var d = o.annee === '1891' ? ((o.maisonnee || {}).division_reconstituee || '') : (o.division || '');
+      if (d && divs.indexOf(d) === -1) divs.push(d);
+    });
+    if (!divs.length) return '';
+    if (divs.length === 1) return 'côté division ' + divs[0] + ', d\'après ses maisons';
+    return 'maisons des deux divisions — près de la frontière, ou un rattachement à revoir';
+  }
+
   function popupDe(l) {
     var annees = anneesDe(l);
+    var cote = coteDe(l);
     return '<div class="popup-lieu"><b>' + esc(l.nom) + '</b>' +
       (l.adresse_actuelle ? '<span>' + esc(l.adresse_actuelle) + '</span>' : '<span>sans adresse actuelle</span>') +
       (annees.length ? '<span>recensé en ' + esc(annees.join(', ')) + '</span>' : '<span>aucun rattachement</span>') +
+      (cote ? '<span>' + esc(cote) + '</span>' : '') +
       '<a href="lieu.html#' + esc(l.id) + '">Ouvrir la fiche →</a></div>';
   }
 
@@ -135,6 +155,79 @@
       if (!etat.poser) return;
       creerLieu(e.latlng);
     });
+  }
+
+  // ── frontière des divisions ──────────────────────────────────────────────
+
+  function traceDe(f) {
+    return (f.trace || []).map(function (p) { return [p.lat, p.lon]; });
+  }
+
+  function dessinerFrontiere() {
+    if (!carte || !frontiere) return;
+    if (!coucheFrontiere) coucheFrontiere = L.layerGroup().addTo(carte);
+    coucheFrontiere.clearLayers();
+    poigneesFrontiere = [];
+    var pts = traceDe(frontiere);
+    if (pts.length < 2) return;
+    L.polyline(pts, { color: '#1A6FA8', weight: 3, opacity: 0.85, dashArray: '10 8', lineCap: 'butt', interactive: false }).addTo(coucheFrontiere);
+    Object.keys(frontiere.etiquettes || {}).forEach(function (k) {
+      var e = frontiere.etiquettes[k];
+      if (!e || e.lat == null) return;
+      var m = L.marker([e.lat, e.lon], {
+        draggable: etat.atelier, interactive: etat.atelier, keyboard: false,
+        // Leaflet positionne l'icône par un transform en ligne ; le centrage se
+        // fait donc sur une étiquette intérieure, pas sur l'icône elle-même.
+        icon: L.divIcon({ className: 'porte-etiquette-division', html: '<span class="etiquette-division">' + esc(e.texte || ('Division ' + k)) + '</span>', iconSize: [0, 0] })
+      });
+      if (etat.atelier) {
+        m.on('dragend', function (ev) {
+          var p = ev.target.getLatLng();
+          var et = JSON.parse(JSON.stringify(frontiere.etiquettes));
+          et[k] = Object.assign({}, et[k], { lat: Number(p.lat.toFixed(6)), lon: Number(p.lng.toFixed(6)) });
+          frontiere.etiquettes = et;
+          frontiere._local = true;
+          LX.majFrontiere({ etiquettes: et });
+          rendreBarreAtelier();
+        });
+      }
+      m.addTo(coucheFrontiere);
+    });
+    if (etat.atelier) {
+      // Une poignée par sommet : glisser déplace la ligne, et le geste vaut
+      // décision — la précision passe de « approximative » à « posée à la main ».
+      pts.forEach(function (pt, i) {
+        var m = L.marker(pt, {
+          draggable: true,
+          icon: L.divIcon({ className: 'poignee-frontiere', html: String(i + 1), iconSize: [22, 22], iconAnchor: [11, 11] })
+        });
+        m.on('drag', function (ev) {
+          frontiere.trace[i] = { lat: ev.latlng.lat, lon: ev.latlng.lng };
+          coucheFrontiere.eachLayer(function (c) { if (c instanceof L.Polyline) c.setLatLngs(traceDe(frontiere)); });
+        });
+        m.on('dragend', function (ev) {
+          var p = ev.target.getLatLng();
+          frontiere.trace[i] = { lat: Number(p.lat.toFixed(6)), lon: Number(p.lng.toFixed(6)) };
+          frontiere.precision = 'posee';
+          frontiere._local = true;
+          LX.majFrontiere({ trace: frontiere.trace, precision: 'posee' });
+          rendreBarreAtelier();
+          majNoteFrontiere();
+        });
+        m.addTo(coucheFrontiere);
+        poigneesFrontiere.push(m);
+      });
+    }
+  }
+
+  function majNoteFrontiere() {
+    var n = document.getElementById('note-frontiere');
+    if (!n) return;
+    if (!frontiere) { n.textContent = ''; return; }
+    n.innerHTML = '<b>La frontière des divisions.</b> ' + esc(frontiere.note || '') +
+      (frontiere.precision === 'posee' ? ' Tracé replacé à la main.' : '') +
+      ' Détail et méthode : <a href="' + esc(frontiere.journal || 'docs/DIVISIONS-1891.md') + '">le journal de la reconstitution</a>.' +
+      (etat.atelier ? ' <i>En atelier, glissez les sommets numérotés et les deux étiquettes.</i>' : '');
   }
 
   // ── plans anciens ────────────────────────────────────────────────────────
@@ -556,7 +649,9 @@
       '<button type="button" class="bouton' + (etat.poser ? ' actif' : '') + '" id="poser-lieu">' +
       (etat.poser ? 'Cliquez sur la carte…' : '+ Poser un lieu') + '</button>' +
       '<button type="button" class="bouton" id="exporter-lieux">Télécharger data/lieux-data.js</button>' +
-      '<span class="barre-note">' + locaux + ' lieu' + (locaux > 1 ? 'x' : '') + ' en travail local. ' +
+      (frontiere && frontiere._local ? '<button type="button" class="bouton" id="exporter-frontiere">Télécharger data/frontiere-divisions-data.js</button>' : '') +
+      '<span class="barre-note">' + locaux + ' lieu' + (locaux > 1 ? 'x' : '') + ' en travail local' +
+      (frontiere && frontiere._local ? ', frontière déplacée' : '') + '. ' +
       'Ils partent aussi dans la sauvegarde de l\'atelier (clé <code>suivi-lieux</code>).</span>';
     document.querySelector('.carte-outils').insertAdjacentElement('afterend', barre);
   }
@@ -592,6 +687,8 @@
       history.replaceState(null, '', url);
       rendreBarreAtelier();
       dessinerMarqueurs();
+      dessinerFrontiere();
+      majNoteFrontiere();
       rendrePanneau();
       rendreControlePlans();
     });
@@ -601,6 +698,10 @@
       if (t.id === 'poser-lieu') { etat.poser = !etat.poser; rendreBarreAtelier(); return; }
       if (t.id === 'exporter-lieux') {
         LX.telecharger('lieux-data.js', LX.versFichierDonnees(etat.lieux), 'text/javascript');
+        return;
+      }
+      if (t.id === 'exporter-frontiere' && frontiere) {
+        LX.telecharger('frontiere-divisions-data.js', LX.versFichierFrontiere(frontiere), 'text/javascript');
         return;
       }
       var aller = t.closest && t.closest('[data-aller]');
@@ -775,6 +876,9 @@
   plans = LX.chargerPlans();
   brancherPlans();
   rendreControlePlans();
+  frontiere = LX.chargerFrontiere();
+  dessinerFrontiere();
+  majNoteFrontiere();
 
   Promise.all([LX.charger(), LX.chargerMaisons(), LX.photosLocales()]).then(function (r) {
     etat.lieux = r[0].lieux;

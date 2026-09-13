@@ -38,6 +38,12 @@ change de lieu sans que rien d'autre bouge.
 
 `data/lieux-data.js` → `window.LIEUX = { format, version, mis_a_jour, note, lieux }`.
 
+À côté, deux petits fichiers que la carte charge par balise `<script>` et que
+l'atelier déplace de la même façon (clés `suivi-plans` et `suivi-frontiere`,
+versées par `outils/lieux/fondre.mjs`) : `data/plans-data.js`, les plans anciens
+en surimpression, et `data/frontiere-divisions-data.js`, la frontière des deux
+divisions de 1871-1881 — voir `DIVISIONS-1891.md`, « Sur la carte ».
+
 ```js
 {
   id: "manoir-longwood",         // identifiant court et stable

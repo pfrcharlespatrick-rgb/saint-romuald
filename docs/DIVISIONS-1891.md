@@ -138,15 +138,53 @@ Le script est idempotent. Si la table des filiations est recalculée, le relance
 recompte les appuis ; les bornes des blocs, elles, sont une décision consignée
 ici, et ne changent que si l'on rouvre ce journal.
 
+## Sur la carte
+
+La carte (`carte.html`) porte la frontière en **ligne tiretée bleue**, avec une
+étiquette de chaque côté — « Division 1 — le village » vers le nord-est,
+« Division 2 — New Liverpool » vers le sud-ouest. Le tracé vit dans
+`data/frontiere-divisions-data.js` (`window.FRONTIERE_DIVISIONS` : `trace`,
+`etiquettes`, `precision`, `appuis`), chargé par la page comme les plans anciens.
+
+Il est **approximatif**, et n'est appuyé qu'à deux endroits, là où des lieux placés
+des deux divisions se font face :
+
+- **le chemin du Fleuve, entre le 2052 et le 2058** — les maisons Cantin (2039 et
+  2052 : 1871 D1 maison 18, 1881 D1 maison 33, 1891 maison 291) sont en division 1,
+  le bâtiment Lee (2058-2060 : 1871 D2 maison 78, 1891 maison 405) en division 2 ;
+- **la rue du Collège, entre le 65 et le 105** — le 65 (1891 maison 430) est en
+  territoire de la division 1, le 105 (1891 maisons 446 et 457, Lauréat Vallière)
+  ouvre le grand bloc de la division 2.
+
+Les villas jumelles (2071-2065 : 1881 D2 maison 244, la dernière du parcours de la
+division 2) et la maison Saint-Hilaire (2123 : 1881 D2 maison 161) disent que la
+ligne serre le chemin de près à cet endroit ; leurs positions sont interpolées le
+long du chemin, non relevées, et ne fixent rien de plus. Au-delà de ces deux
+appuis, la ligne est prolongée à vue vers le fleuve et vers l'intérieur des
+terres ; tout ce qui est placé à l'ouest du 1984 relève de la division 2, tout ce
+qui est à l'est du 2104 de la division 1.
+
+**La main l'emporte ici aussi.** En mode Atelier, les quatre sommets numérotés et
+les deux étiquettes se glissent ; le geste passe la précision de « approximative »
+à « posée à la main », part dans `localStorage` sous `suivi-frontiere`, voyage
+avec la sauvegarde de l'atelier dans `data/travail-personnel.json`, et
+`outils/lieux/fondre.mjs` le verse dans le fichier de données. La barre d'atelier
+offre aussi le téléchargement direct du fichier.
+
+La bulle de chaque lieu dit de quel côté ses maisons le placent (« côté
+division 2, d'après ses maisons »), ou signale des maisons des deux divisions —
+près de la frontière, ou un rattachement à revoir.
+
 ## Limites
 
 - La frontière est celle des liens de filiation : une maison sans lien reçoit la
   division de son bloc, sans preuve propre (194 maisons sur 637, dites « par
   continuité »). Aux bornes 414/415 et 444/445, l'incertitude porte sur trois ou
   quatre maisons.
-- Rien ne dit où passait la ligne au sol. Quand la couche « lieux »
-  (`docs/LIEUX.md`) aura placé assez de maisons de 1881 et de 1891, elle pourra
-  dessiner la frontière sur la carte et confirmer ou corriger ces bornes.
+- Au sol, la ligne n'est appuyée qu'en deux points (voir « Sur la carte »).
+  Chaque maison de 1881 ou de 1891 que la couche « lieux » (`docs/LIEUX.md`)
+  placera près du chemin du Fleuve 2050-2130 ou de la rue du Collège
+  précisera le tracé, et pourra le prolonger vers l'intérieur des terres.
 - Les 2 150 personnes de 1891 sans lien vers 1881 ne pèsent pas dans le vote ; le
   recalcul de la filiation, s'il en rattache davantage, affinera les appuis sans
   déplacer les bornes, sauf à ce que le journal soit rouvert.

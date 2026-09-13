@@ -11,6 +11,7 @@ window.LX = (function () {
 
   var CLE_TRAVAIL = 'suivi-lieux';
   var CLE_PLANS = 'suivi-plans';
+  var CLE_FRONTIERE = 'suivi-frontiere';
 
   var ETATS = {
     debout: { label: 'Encore debout', court: 'debout' },
@@ -117,6 +118,41 @@ window.LX = (function () {
       p._modifie_le = mod._modifie_le || '';
     });
     return base;
+  }
+
+  // ── frontière des divisions ──────────────────────────────────────────────
+  // Même mécanique que les plans : data/frontiere-divisions-data.js
+  // (window.FRONTIERE_DIVISIONS) est l'état versé, `suivi-frontiere` ce que
+  // Patrick vient de déplacer dans ce navigateur. Voir docs/DIVISIONS-1891.md.
+
+  function frontiereOverlay() { return lire(CLE_FRONTIERE, '{}'); }
+
+  function majFrontiere(champs) {
+    var o = Object.assign({}, frontiereOverlay(), champs, { _modifie_le: new Date().toISOString().slice(0, 10) });
+    ecrire(CLE_FRONTIERE, o);
+    return o;
+  }
+
+  function chargerFrontiere() {
+    if (!window.FRONTIERE_DIVISIONS) return null;
+    var f = JSON.parse(JSON.stringify(window.FRONTIERE_DIVISIONS));
+    var o = frontiereOverlay();
+    Object.keys(o).forEach(function (k) { if (k.charAt(0) !== '_') f[k] = o[k]; });
+    f._local = !!o._modifie_le;
+    f._modifie_le = o._modifie_le || '';
+    return f;
+  }
+
+  function versFichierFrontiere(f) {
+    var c = {};
+    ['format', 'version', 'precision', 'note', 'trace', 'etiquettes', 'appuis', 'journal'].forEach(function (k) {
+      if (f[k] !== undefined) c[k] = f[k];
+    });
+    c.mis_a_jour = new Date().toISOString().slice(0, 10);
+    return '// Frontière entre les deux divisions de recensement de 1871-1881 — voir docs/DIVISIONS-1891.md.\n' +
+      '// Tracé approximatif, posé d\'après les lieux rattachés à des maisons des deux divisions ;\n' +
+      '// se déplace depuis carte.html (mode Atelier), se verse par outils/lieux/fondre.mjs.\n' +
+      'window.FRONTIERE_DIVISIONS = ' + JSON.stringify(c, null, 2) + ';\n';
   }
 
   function versFichierPlans(plans) {
@@ -322,6 +358,7 @@ window.LX = (function () {
     chargerMaisons: chargerMaisons, chercherMaisons: chercherMaisons,
     photosLocales: photosLocales, ajouterPhoto: ajouterPhoto, majPhoto: majPhoto, retirerPhoto: retirerPhoto,
     telecharger: telecharger, versFichierDonnees: versFichierDonnees,
-    chargerPlans: chargerPlans, majPlan: majPlan, plansOverlay: plansOverlay, versFichierPlans: versFichierPlans
+    chargerPlans: chargerPlans, majPlan: majPlan, plansOverlay: plansOverlay, versFichierPlans: versFichierPlans,
+    chargerFrontiere: chargerFrontiere, majFrontiere: majFrontiere, versFichierFrontiere: versFichierFrontiere
   };
 })();

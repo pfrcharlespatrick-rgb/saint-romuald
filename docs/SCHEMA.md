@@ -216,6 +216,11 @@ Six fichiers, même structure :
 | `recensement-1891-d1-data.js` | `RECENSEMENT_1891_D1` | 637 | 3 548 |
 | `recensement-1891-d2-data.js` | `RECENSEMENT_1891_D2` | 0 | 0 |
 
+> **La frontière des deux divisions** est tracée sur la carte depuis
+> `data/frontiere-divisions-data.js` (`FRONTIERE_DIVISIONS` : `trace`, `etiquettes`,
+> `precision`, `appuis`) — tracé approximatif, déplaçable en atelier. Voir
+> `DIVISIONS-1891.md`, « Sur la carte ».
+
 > **1891 n'a qu'une division au manuscrit.** Le formulaire de 1891 n'a pas de case
 > « division » : un seul sous-district (L, St Romuald), un seul recenseur, 142 pages.
 > Le fichier « d1 » est la paroisse entière et le jeu « d2 » restera vide. La

@@ -25,6 +25,7 @@ import { fileURLToPath } from 'node:url';
 const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const CIBLE = path.join(RACINE, 'data', 'lieux-data.js');
 const CIBLE_PLANS = path.join(RACINE, 'data', 'plans-data.js');
+const CIBLE_FRONTIERE = path.join(RACINE, 'data', 'frontiere-divisions-data.js');
 const TRAVAIL = path.join(RACINE, 'data', 'travail-personnel.json');
 const ESSAI = process.argv.includes('--essai');
 
@@ -144,5 +145,42 @@ if (Object.keys(suiviPlans).length && fs.existsSync(CIBLE_PLANS)) {
     }
   } else {
     console.log(`${prefixe}data/plans-data.js est déjà d'accord avec le travail personnel.`);
+  }
+}
+
+// ─── frontière des divisions ────────────────────────────────────────────────
+// Le tracé déplacé en atelier vit sous `suivi-frontiere` et se verse dans
+// data/frontiere-divisions-data.js — même règle, champ par champ. Voir
+// docs/DIVISIONS-1891.md.
+
+const suiviFrontiere = (travail.donnees || {})['suivi-frontiere'] || {};
+if (Object.keys(suiviFrontiere).length && fs.existsSync(CIBLE_FRONTIERE)) {
+  const ctxF = { window: {} };
+  vm.createContext(ctxF);
+  vm.runInContext(fs.readFileSync(CIBLE_FRONTIERE, 'utf8'), ctxF);
+  const baseF = ctxF.window.FRONTIERE_DIVISIONS;
+  const CHAMPS_FRONTIERE = ['trace', 'etiquettes', 'precision', 'note'];
+  const touchesF = [];
+  for (const champ of CHAMPS_FRONTIERE) {
+    if (!(champ in suiviFrontiere)) continue;
+    if (JSON.stringify(baseF[champ]) === JSON.stringify(suiviFrontiere[champ])) continue;
+    baseF[champ] = suiviFrontiere[champ];
+    touchesF.push(champ);
+  }
+  if (touchesF.length) {
+    console.log(`${prefixe}  ~ frontière — ${touchesF.join(', ')}`);
+    if (!ESSAI) {
+      baseF.mis_a_jour = new Date().toISOString().slice(0, 10);
+      fs.writeFileSync(CIBLE_FRONTIERE,
+        '// Frontière entre les deux divisions de recensement de 1871-1881 — voir docs/DIVISIONS-1891.md.\n' +
+        "// Tracé approximatif, posé d'après les lieux rattachés à des maisons des deux divisions ;\n" +
+        '// se déplace depuis carte.html (mode Atelier), se verse par outils/lieux/fondre.mjs.\n' +
+        'window.FRONTIERE_DIVISIONS = ' + JSON.stringify(baseF, null, 2) + ';\n');
+      console.log('data/frontiere-divisions-data.js écrit.');
+    } else {
+      console.log(`[essai] ${CIBLE_FRONTIERE} non modifié.`);
+    }
+  } else {
+    console.log(`${prefixe}data/frontiere-divisions-data.js est déjà d'accord avec le travail personnel.`);
   }
 }
