@@ -305,9 +305,25 @@ window.LIEUX = {
           "auteur": "Patrick Blanchet",
           "date": "2026-09-13",
           "texte": "https://www.histoiresaintromuald.com/post/maison-bourassa"
+        },
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-13",
+          "texte": "Le rattachement de 1871 (division 2, maison 158) repose sur la notice de la Société d'histoire, qui donne l'aubergiste François Bourassa pour premier propriétaire. C'est le seul François Bourassa à tenir maison dans les cinq recensements. Rien sous ce nom en 1881 ni en 1891."
         }
       ],
-      "occupations": [],
+      "occupations": [
+        {
+          "annee": "1871",
+          "division": "2",
+          "no_maison": "158 [?]",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "François Bourassa, 44 a., marchand, avec Marguerite (41 a.), quatre fils et une domestique — l'aubergiste à qui la Société d'histoire attribue la propriété d'origine, et le seul François Bourassa chef de ménage des cinq recensements. Le numéro de maison porte une marque d'incertitude au manuscrit.",
+          "ajoute_le": "2026-09-13"
+        }
+      ],
       "adresses_anciennes": [],
       "cadastre": {},
       "photos": [],
@@ -1193,6 +1209,11 @@ window.LIEUX = {
           "auteur": "Patrick Blanchet",
           "date": "2026-09-13",
           "texte": "https://www.histoiresaintromuald.com/post/christ-church-new-liverpool"
+        },
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-13",
+          "texte": "John Ritchie a commandité la construction de l'église, mais n'y habitait pas : il n'y a pas de rattachement de recensement à chercher de ce côté. Décision de Patrick Blanchet, 13 septembre 2026."
         }
       ],
       "occupations": [],
@@ -1494,7 +1515,13 @@ window.LIEUX = {
       "source_ref": "bussiere:83-stdamase",
       "personnages": "Famille McReady (magasin général au 1588, chemin du Fleuve, même emplacement que la 2e école)",
       "resume": "",
-      "notes": [],
+      "notes": [
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-13",
+          "texte": "La famille McReady tenait son magasin général au 1588, chemin du Fleuve, où habitait Robert MacReady — et non ici. Les treize ménages McReady des recensements ne se rattachent donc pas au 83, rue Saint-Damase, dont aucun habitant n'est identifié pour l'instant. Décision de Patrick Blanchet, 13 septembre 2026."
+        }
+      ],
       "occupations": [],
       "adresses_anciennes": [],
       "cadastre": {},
@@ -1667,9 +1694,45 @@ window.LIEUX = {
           "auteur": "Patrick Blanchet",
           "date": "2026-09-13",
           "texte": "https://www.histoiresaintromuald.com/post/maison-boutin-bourassa"
+        },
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-13",
+          "texte": "Les trois rattachements suivent un seul ménage sur vingt ans : Joseph Bourassa père, 56 puis 66 puis 76 ans, et Geneviève Cantin son épouse. Marie Cantin y sert de 1871 à 1891. En 1881 le fils, Joseph Boutin dit Bourassa, y figure à 26 ans avec le titre de notaire — il avait été admis à la pratique le 20 mai 1880. En 1891, marié depuis 1882, il n'habite plus chez son père."
         }
       ],
-      "occupations": [],
+      "occupations": [
+        {
+          "annee": "1871",
+          "division": "1",
+          "no_maison": "63",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Joseph Bourassa, 56 a., cultivateur, avec Geneviève (51 a.) et Joseph, 17 a. — le père acquéreur de 1859 selon la Société d'histoire. Le fils de dix-sept ans est le futur notaire Joseph Boutin dit Bourassa (1854-1943).",
+          "ajoute_le": "2026-09-13"
+        },
+        {
+          "annee": "1881",
+          "division": "1",
+          "no_maison": "83",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Joseph Bourassa, 66 a., rentier, avec Geneviève (61 a.) et Joseph Boutin dit Bourassa, 26 a., NOTAIRE — admis à la pratique du notariat le 20 mai 1880. Marie Cantin, domestique, sert la maison depuis 1871.",
+          "ajoute_le": "2026-09-13"
+        },
+        {
+          "annee": "1891",
+          "division": "1",
+          "no_maison": "630",
+          "statut": "propose",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Joseph Bourassa, 76 a., rentier, avec Geneviève (72 a.) et les mêmes domestiques, Marie Cantin et Louise Bouton — vingt ans de suite sous le même toit. Le notaire, marié à Ursule Cantin en 1882, n'y est plus.",
+          "ajoute_le": "2026-09-13"
+        }
+      ],
       "adresses_anciennes": [],
       "cadastre": {},
       "photos": [],

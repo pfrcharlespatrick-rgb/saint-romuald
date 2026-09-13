@@ -97,10 +97,6 @@ qu'on y recense telle année. Rien n'est versé automatiquement.
 
 - **bois** → 5 ménages : 1871 D2 maison 4 (Célestin Bois, 40 a., Journalier) ; 1871 D2 maison 165 [?] (Louis Bois, 21 a., Journalier) ; 1881 D1 maison 118 (Célestin Bois, 49 a., Journalier) ; 1881 D1 maison 218 (Elzéar Bois, 33 a., Journalier) ; 1891 D1 maison 364 (Émélie Bois, 44 a.)
 
-### La maison Bourassa — 1900, chemin du Fleuve
-
-- **Bourassa** → 12 ménages : 1871 D1 maison 63 (Joseph Bourassa, 56 a., Cultivateur) ; 1871 D1 maison 108 (Edouard Bourassa, 39 a., Cultivateur) ; 1871 D2 maison 81 (Benjamin Bourassa, 26 a., Journalier) ; 1871 D2 maison 134 (Benjamin Bourassa, 43 a., Journalier) ; 1871 D2 maison 158 [?] (François Bourassa, 44 a., Marchand) ; 1881 D1 maison 69 (Edouard Bourassa, 50 a., Marchand) ; 1881 D1 maison 83 (Joseph Bourassa, 66 a., Rentier) ; 1881 D1 maison 176 (Pierre Bourassa, 63 a., Journalier) ; 1881 D2 maison 115 (Benjamin Bourassa, 36 a., Journalier) ; 1891 D1 maison 524 (Benjamin Bourassa, 48 a., Batelier) ; 1891 D1 maison 613 (Edouard Bourassa, 60 a., Marchand général) ; 1891 D1 maison 630 (Joseph Bourassa, 76 a., Rentier)
-
 ### Maison de Pierre Cantin — 2052, chemin du Fleuve
 
 > Pierre Cantin, avocat, fils de Narcisse Cantin et Euphrosine Bégin
