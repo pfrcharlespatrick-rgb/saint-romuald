@@ -174,6 +174,32 @@ for (const l of lieux) {
 const conflits = [];
 const impossibles = [];
 
+// ── ce que Patrick a refusé ──
+//
+// Une proposition supprimée du fichier ne laisse plus rien pour l'arrêter : la
+// passe suivante la retrouverait et la réécrirait, indéfiniment. La règle du
+// projet vaut ici comme ailleurs — la main l'emporte — mais elle a besoin d'un
+// endroit où se souvenir. Le voici.
+//
+// Une ligne : [lieu, année, maison, la raison du refus, la date].
+const ECARTES = [
+  ['65-college', '1871', '9', 'trois Joseph Roberge chefs de ménage coexistent en 1871', '2026-09-13'],
+  ['65-college', '1881', '32', 'deux Joseph Roberge chefs de ménage en 1881', '2026-09-13'],
+  ['105-college', '1871', '94', 'deux Vallières chefs de ménage en 1871', '2026-09-13'],
+  ['2052-cf', '1871', '18', 'ménage de Narcisse Cantin ; Pierre y a trois ans', '2026-09-13'],
+  ['2052-cf', '1891', '291', 'ménage de Narcisse Cantin ; Pierre y est étudiant chez son père', '2026-09-13'],
+  ['2058-2060-cf', '1871', '78', 'bâtiment commercial de v.1925', '2026-09-13'],
+  ['2058-2060-cf', '1891', '405', 'bâtiment commercial de v.1925', '2026-09-13'],
+  ['2071-2065-cf', '1881', '244', 'villas bâties en 1908-1909', '2026-09-13'],
+  ['2071-2065-cf', '1891', '622', 'villas bâties en 1908-1909', '2026-09-13'],
+  ['2416-cf', '1891', '67', 'maison de v.1910 ; Alphonse Villeneuve est chez son père', '2026-09-13'],
+  ['2426-cf', '1891', '67', 'ménage de Ferdinand Villeneuve ; Joseph y est chez son père', '2026-09-13'],
+];
+
+const refuses = new Set(ECARTES.map(([id, an, no]) => `${id}|${an}|${no}`));
+const refusesParLieuAnnee = new Set(ECARTES.map(([id, an]) => `${id}|${an}`));
+const refusesRencontres = [];
+
 // ───────────────────────── passe « continuité » ─────────────────────────
 //
 // L'ancre d'un lieu, c'est le chef de la maison qui y est déjà rattachée. On
@@ -210,6 +236,16 @@ function continuite(lieu) {
   for (const annee of ANNEES) {
     if (dejaVues.has(annee)) continue;
 
+    // Question préalable : l'année a-t-elle déjà été refusée pour ce lieu ?
+    // Le refus porte sur l'année entière, non sur un numéro de maison. Quand
+    // Patrick écarte un Joseph Roberge parce que trois hommes de ce nom tiennent
+    // maison la même année, lui proposer le deuxième puis le troisième ne
+    // répond pas à son objection : c'est la reposer.
+    if (refusesParLieuAnnee.has(`${lieu.id}|${annee}`)) {
+      refusesRencontres.push({ lieu: lieu.id, annee });
+      continue;
+    }
+
     // Première question : le lieu existait-il ? Une maison bâtie en 1878 ne
     // loge personne en 1871, quelque nom qu'on y retrouve.
     const age = existaitEn(lieu, annee);
@@ -241,6 +277,11 @@ function continuite(lieu) {
     // c'est que l'homme a déménagé — ou que l'un des deux rattachements est
     // faux. Dans les deux cas la question se pose à Patrick, pas au script.
     const libres = liste.filter((c) => {
+      // Refusé à la main : on ne repropose pas ce qui a été tranché.
+      if (refuses.has(`${lieu.id}|${annee}|${c.personne.no_maison}`)) {
+        refusesRencontres.push({ lieu: lieu.id, annee, no_maison: c.personne.no_maison });
+        return false;
+      }
       const pris = (occupeePar.get(c.cle) || []).filter((id) => id !== lieu.id);
       if (!pris.length) return true;
       conflits.push({
@@ -538,6 +579,14 @@ const rapport = [
   '---',
   '',
   '## 4. Écarté en chemin',
+  '',
+  ...(refusesRencontres.length ? [
+    `**Refusés à la main** (${refusesRencontres.length}). La reprise les a retrouvés et s'est arrêtée : ils figurent dans \`ECARTES\`, en tête de \`outils/lieux/rapprocher.mjs\`, avec le motif du refus.`,
+    '',
+    ...ECARTES.map(([id, an, no, pourquoi, date]) =>
+      `- ${(parLieu[id] || {}).nom || id} — ${an}, maison ${no} : ${pourquoi} *(refusé le ${date})*.`),
+    ''
+  ] : []),
   '',
   'Ce que la reprise a trouvé puis rejeté, et pourquoi. C\'est la part la plus utile',
   'du rapport : elle dit ce qu\'un rapprochement naïf aurait écrit.',

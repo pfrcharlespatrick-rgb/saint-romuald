@@ -20,107 +20,14 @@ Un lieu déjà rattaché désigne un ménage. On suit ce ménage dans les année
 lieu ne porte rien. L'ancre est un rattachement déjà admis, non un nom lu dans une
 brochure : c'est la passe la plus sûre.
 
-### Maison de Lauréat Vallière — 1881, division 2, maison 176
-
-*Confiance : **forte**.* Lieu `105-college` — 105, rue du Collège.
-
-- **Ancre** : Thomas Vallière, 45 a., Batelier — 1891, division 1, maison 457 (rattachement déjà admis).
-- **Retrouvé** : Thomas Vallière, 36 a., Navigateur, chef de ménage.
-- **Âge** : cohérent à 1 an près sur la décennie.
-- **Sous le même toit** : Thomas Vallière, Philomène Vallière, Joseph Vallière, Mary Vallière, Célinda Vallière — 5 personnes du ménage précédent s'y retrouvent.
-
-### La maison Malakoff — 1881, division 2, maison 147
-
-*Confiance : **forte**.* Lieu `1506-cf` — 1506, chemin du Fleuve.
-
-- **Ancre** : Hubert Roberge, 54 a., Navigateur — 1871, division 2, maison 51 (rattachement déjà admis).
-- **Retrouvé** : Hubert Roberge, 63 a., Journalier, chef de ménage.
-- **Âge** : cohérent à 1 an près sur la décennie.
-- **Sous le même toit** : Hubert Roberge, Elisabeth Roberge, Louis Roberge, James Roberge, Eusèbe Roberge, Eugénie Roberge — 6 personnes du ménage précédent s'y retrouvent.
-
-### Maison d'Albert Forcade — 1881, division 2, maison 70
-
-*Confiance : **forte**.* Lieu `1604-cf` — 1604, chemin du Fleuve.
-
-- **Ancre** : Albert Forcade, 32 a., Menuisier — 1871, division 2, maison 43 (rattachement déjà admis).
-- **Retrouvé** : Albert Forcade, 42 a., Marchand, chef de ménage.
-- **Âge** : cohérent à 0 an près sur la décennie.
-- **Sous le même toit** : Albert Forcade, Rosalie Forcade — 2 personnes du ménage précédent s'y retrouvent.
-
-### Maison de Joseph Mc Kenzie — 1881, division 2, maison 103
+### Maison de Joseph Mc Kenzie — 1891, division 1, maison 513
 
 *Confiance : **forte**.* Lieu `1633-cf` — 1633, chemin du Fleuve.
 
-- **Ancre** : Augustin Joncas [?], 50 a., Journalier — 1871, division 2, maison 131 (rattachement déjà admis).
-- **Retrouvé** : Augustin Joncas, 59 a., Journalier, chef de ménage.
-- **Âge** : cohérent à 1 an près sur la décennie.
-- **Sous le même toit** : Augustin Joncas, Raphaël Joncas — 2 personnes du ménage précédent s'y retrouvent.
-
-### Maison d'Isaïe Bergeron — 1891, division 1, maison 272
-
-*Confiance : **forte**.* Lieu `2104-cf` — 2104, chemin du Fleuve.
-
-- **Ancre** : Isaïe [?] Bergeron, 49 a., Cultivateur — 1871, division 2, maison 116 (rattachement déjà admis).
-- **Retrouvé** : Isaï Bergeron, 68 a., Culler (mesureur de bois), chef de ménage.
-- **Âge** : cohérent à 1 an près sur la décennie.
-- **Sous le même toit** : Isaï Bergeron, Marie Louise Bergeron — 2 personnes du ménage précédent s'y retrouvent.
-
-### Maison Hallé — 1881, division 1, maison 30
-
-*Confiance : **forte**.* Lieu `2111-cf` — 2111, chemin du Fleuve.
-
-- **Ancre** : Théophile Hallé, 40 a., Forgeron — 1891, division 1, maison 287 (rattachement déjà admis).
-- **Retrouvé** : Théophile Hâle, 30 a., Forgeron, chef de ménage.
-- **Âge** : cohérent à 0 an près sur la décennie.
-- **Sous le même toit** : Théophile Hâle, Barbe Hâle, Jules Hâle — 3 personnes du ménage précédent s'y retrouvent.
-
-### La maison Saint-Hilaire — 1891, division 1, maison 460
-
-*Confiance : **forte**.* Lieu `2123-cf` — 2123, chemin du Fleuve.
-
-- **Ancre** : Louis St.Hilaire, 25 a., Marchand — 1881, division 2, maison 161 (rattachement déjà admis).
-- **Retrouvé** : Louis St Hilaire, 35 a., Charpentier, chef de ménage.
-- **Âge** : cohérent à 0 an près sur la décennie.
-- **Sous le même toit** : Louis St Hilaire, Philomène St Hilaire — 2 personnes du ménage précédent s'y retrouvent.
-
-### Maison monumentale en brique — 1881, division 1, maison 262
-
-*Confiance : **forte**.* Lieu `2458-cf` — 2458, chemin du Fleuve.
-
-- **Ancre** : Fabien Rochette, 48 a., Menuisier — 1891, division 1, maison 93 (rattachement déjà admis).
-- **Retrouvé** : Favien Rochette, 38 a., Mécanicien, chef de ménage.
-- **Âge** : cohérent à 0 an près sur la décennie.
-- **Sous le même toit** : Favien Rochette, Marie Zoé Rochette, Alfred Rochette, Joseph Rochette — 4 personnes du ménage précédent s'y retrouvent.
-
-### Maison de Lauréat Vallière — 1871, division 2, maison 94
-
-*Confiance : **moyenne**.* Lieu `105-college` — 105, rue du Collège.
-
-- **Ancre** : Thomas Vallière, 45 a., Batelier — 1891, division 1, maison 457 (rattachement déjà admis).
-- **Retrouvé** : Thomas Vallières, 25 a., Journalier, chef de ménage.
-- **Âge** : cohérent à 0 an près sur la décennie.
-- **Sous le même toit** : Thomas Vallières, Philomène Vallières — 2 personnes du ménage précédent s'y retrouvent.
-- **Autres candidats** : Joseph Vallières (maison 54).
-
-### Première centrale téléphonique — 1871, division 2, maison 9
-
-*Confiance : **moyenne**.* Lieu `65-college` — 65, rue du Collège.
-
-- **Ancre** : Joseph Roberge, 46 a., Marin — 1891, division 1, maison 430 (rattachement déjà admis).
-- **Retrouvé** : Joseph Roberge, 28 a., Journalier, chef de ménage.
-- **Âge** : cohérent à 2 ans près sur la décennie.
-- **Sous le même toit** : Joseph Roberge — 1 personne du ménage précédent s'y retrouve.
-- **Autres candidats** : Joseph Roberge (maison 8) ; Joseph Roberge (maison 73).
-
-### Première centrale téléphonique — 1881, division 1, maison 32
-
-*Confiance : **moyenne**.* Lieu `65-college` — 65, rue du Collège.
-
-- **Ancre** : Joseph Roberge, 46 a., Marin — 1891, division 1, maison 430 (rattachement déjà admis).
-- **Retrouvé** : Joseph Roberge, 36 a., Arrimeur, chef de ménage.
-- **Âge** : cohérent à 0 an près sur la décennie.
-- **Sous le même toit** : Joseph Roberge, Alice Roberge, William Roberge, Anna Roberge, Edouard Roberge — 5 personnes du ménage précédent s'y retrouvent.
-- **Autres candidats** : Joseph Roberge (maison 123).
+- **Ancre** : Raphaël Joncas, 27 a., Journalier — 1881, division 2, maison 103 (rattachement déjà admis).
+- **Retrouvé** : Raphael Joncas, 40 a., Débardeur, chef de ménage.
+- **Âge** : cohérent à 3 ans près sur la décennie.
+- **Sous le même toit** : Raphael Joncas, Raphael Joncas, Thomas Joncas, Malcom Joncas — 4 personnes du ménage précédent s'y retrouvent.
 
 ---
 
@@ -132,16 +39,7 @@ propositions de la brochure, qui rattachait un nom à une adresse sans dater le
 rattachement — c'est exactement le défaut que la couche des lieux a été écrite
 pour corriger.
 
-- **Bâtiment commercial de la famille Lee** (2058-2060, chemin du Fleuve) — rattachement 1871, division 2, maison 78 : bâti en v.1925, soit 54 an(s) après le recensement de 1871.
-  <br>Motif inscrit : « Thomas Lee, 42 a., navigateur — souche de la famille Lee »
-- **Bâtiment commercial de la famille Lee** (2058-2060, chemin du Fleuve) — rattachement 1891, division 1, maison 405 : bâti en v.1925, soit 34 an(s) après le recensement de 1891.
-  <br>Motif inscrit : « Thomas Lee, 34 a., débardeur — famille Lee du secteur, une génération avant la construction de 1925 »
-- **Villas jumelles** (2071 et 2065, chemin du Fleuve) — rattachement 1881, division 2, maison 244 : bâti en 1908-1909, soit 27 an(s) après le recensement de 1881.
-  <br>Motif inscrit : « Ferdinand St.Hilaire, 12 a., chez Louis St.Hilaire, menuisier — âge divergent du précédent, à trancher »
-- **Villas jumelles** (2071 et 2065, chemin du Fleuve) — rattachement 1891, division 1, maison 622 : bâti en 1908-1909, soit 17 an(s) après le recensement de 1891.
-  <br>Motif inscrit : « Ferdinand St-Hilaire, 15 a. — un des deux artisans bâtisseurs de 1908-1909, âge plausible »
-- **Maison du Dr Joseph Alphonse Villeneuve** (2416, chemin du Fleuve) — rattachement 1891, division 1, maison 67 : bâti en v.1910, soit 19 an(s) après le recensement de 1891.
-  <br>Motif inscrit : « Alphonse Villeneuve, 25 a., médecin chirurgien, fils de Ferdinand et Odile — ménage d'origine, avant la maison de 1910 »
+Aucune : tous les rattachements en place sont compatibles avec la date de bâti.
 
 ---
 
@@ -152,37 +50,39 @@ plusieurs lieux, au moins un des rattachements est faux — le plus souvent parc
 qu'un fils recensé chez son père a été porté au crédit de la maison qu'il
 habitera plus tard.
 
-- **1871, division 1, maison 18** — Narcisse Cantin, 40 a., Cultivateur
-  <br>rattachée à 2 lieux : Maison de Narcisse Cantin · Maison de Pierre Cantin
-- **1891, division 1, maison 291** — Narcisse Cantin, 59 a., Cultivateur
-  <br>rattachée à 2 lieux : Maison de Narcisse Cantin · Maison de Pierre Cantin
-- **1891, division 1, maison 67** — Ferdinand Villeneuve, 59 a., Architecte-sculpteur-doreur d'églises
-  <br>rattachée à 3 lieux : La maison du curé Sax · Maison du Dr Joseph Alphonse Villeneuve · Maison de Joseph Villeneuve
+Aucune : chaque maison rattachée ne l'est qu'à un seul lieu.
 
 ---
 
 ## 4. Écarté en chemin
+
+**Refusés à la main** (3). La reprise les a retrouvés et s'est arrêtée : ils figurent dans `ECARTES`, en tête de `outils/lieux/rapprocher.mjs`, avec le motif du refus.
+
+- Première centrale téléphonique — 1871, maison 9 : trois Joseph Roberge chefs de ménage coexistent en 1871 *(refusé le 2026-09-13)*.
+- Première centrale téléphonique — 1881, maison 32 : deux Joseph Roberge chefs de ménage en 1881 *(refusé le 2026-09-13)*.
+- Maison de Lauréat Vallière — 1871, maison 94 : deux Vallières chefs de ménage en 1871 *(refusé le 2026-09-13)*.
+- Maison de Pierre Cantin — 1871, maison 18 : ménage de Narcisse Cantin ; Pierre y a trois ans *(refusé le 2026-09-13)*.
+- Maison de Pierre Cantin — 1891, maison 291 : ménage de Narcisse Cantin ; Pierre y est étudiant chez son père *(refusé le 2026-09-13)*.
+- Bâtiment commercial de la famille Lee — 1871, maison 78 : bâtiment commercial de v.1925 *(refusé le 2026-09-13)*.
+- Bâtiment commercial de la famille Lee — 1891, maison 405 : bâtiment commercial de v.1925 *(refusé le 2026-09-13)*.
+- Villas jumelles — 1881, maison 244 : villas bâties en 1908-1909 *(refusé le 2026-09-13)*.
+- Villas jumelles — 1891, maison 622 : villas bâties en 1908-1909 *(refusé le 2026-09-13)*.
+- Maison du Dr Joseph Alphonse Villeneuve — 1891, maison 67 : maison de v.1910 ; Alphonse Villeneuve est chez son père *(refusé le 2026-09-13)*.
+- Maison de Joseph Villeneuve — 1891, maison 67 : ménage de Ferdinand Villeneuve ; Joseph y est chez son père *(refusé le 2026-09-13)*.
+
 
 Ce que la reprise a trouvé puis rejeté, et pourquoi. C'est la part la plus utile
 du rapport : elle dit ce qu'un rapprochement naïf aurait écrit.
 
 **Dates et statuts.**
 
-- Bâtiment commercial de la famille Lee — 1881 : bâti en v.1925, soit 44 an(s) après le recensement de 1881.
-- Villas jumelles — 1871 : bâti en 1908-1909, soit 37 an(s) après le recensement de 1871.
 - La maison Saint-Hilaire — 1871 : bâti en v.1880, soit 9 an(s) après le recensement de 1871.
 - La maison Demers — 1871 : Louis Demers y est recensé sans être chef de ménage (1871, division 1, maison 66) — il y loge, il n'y tient pas maison.
 - La maison du curé Sax — 1871 : bâti en 1877, soit 6 an(s) après le recensement de 1871.
-- Maison du Dr Joseph Alphonse Villeneuve — 1871 : bâti en v.1910, soit 39 an(s) après le recensement de 1871.
-- Maison du Dr Joseph Alphonse Villeneuve — 1881 : bâti en v.1910, soit 29 an(s) après le recensement de 1881.
-- Maison de Joseph Villeneuve — 1871 : bâti en v.1884, soit 13 an(s) après le recensement de 1871.
 
 **Maisons déjà prises ailleurs.** Le ménage s'y retrouve, mais la maison appartient déjà à un autre emplacement : c'est le signe d'un déménagement, ou d'une erreur à trancher.
 
-- Maison de Pierre Cantin — 1881, division 1, maison 33 : Narcisse Cantin y est bien, mais la maison est déjà rattachée à Maison de Narcisse Cantin.
-- Maison de Joseph Villeneuve — 1881, division 1, maison 286 : Ferdinand Villeneuve y est bien, mais la maison est déjà rattachée à La maison du curé Sax.
 - Manoir Longwood — 1881, division 2, maison 237 : Edouard Benson y est bien, mais la maison est déjà rattachée à Maison Benson.
-- Première centrale téléphonique — 1871, division 2, maison 51 : Joseph Roberge y est bien, mais la maison est déjà rattachée à La maison Malakoff.
 
 ---
 
@@ -201,12 +101,43 @@ qu'on y recense telle année. Rien n'est versé automatiquement.
 
 - **Bourassa** → 12 ménages : 1871 D1 maison 63 (Joseph Bourassa, 56 a., Cultivateur) ; 1871 D1 maison 108 (Edouard Bourassa, 39 a., Cultivateur) ; 1871 D2 maison 81 (Benjamin Bourassa, 26 a., Journalier) ; 1871 D2 maison 134 (Benjamin Bourassa, 43 a., Journalier) ; 1871 D2 maison 158 [?] (François Bourassa, 44 a., Marchand) ; 1881 D1 maison 69 (Edouard Bourassa, 50 a., Marchand) ; 1881 D1 maison 83 (Joseph Bourassa, 66 a., Rentier) ; 1881 D1 maison 176 (Pierre Bourassa, 63 a., Journalier) ; 1881 D2 maison 115 (Benjamin Bourassa, 36 a., Journalier) ; 1891 D1 maison 524 (Benjamin Bourassa, 48 a., Batelier) ; 1891 D1 maison 613 (Edouard Bourassa, 60 a., Marchand général) ; 1891 D1 maison 630 (Joseph Bourassa, 76 a., Rentier)
 
+### Maison de Pierre Cantin — 2052, chemin du Fleuve
+
+> Pierre Cantin, avocat, fils de Narcisse Cantin et Euphrosine Bégin
+
+- **Pierre Cantin** → 3 ménages : 1871 D2 maison 6 (Pierre Cantin, 64 a., Cultivateur) ; 1881 D1 maison 190 (Pierre Cantin, 47 a., Journalier) ; 1881 D2 maison 225 (Pierre Cantin, 71 a., Cultivateur)
+- **Narcisse Cantin** → 3 ménages : 1871 D1 maison 18 (Narcisse Cantin, 40 a., Cultivateur) ; 1881 D1 maison 33 (Narcisse Cantin, 50 a., Cultivateur) ; 1891 D1 maison 291 (Narcisse Cantin, 59 a., Cultivateur)
+
+### Bâtiment commercial de la famille Lee — 2058-2060, chemin du Fleuve
+
+> Famille Lee
+
+- **Lee** → 6 ménages : 1871 D2 maison 78 (Thomas Lee, 42 a., Navigateur) ; 1881 D2 maison 106 (Marguerite Lee, 48 a.) ; 1891 D1 maison 310 (William Lee, 32 a., Débardeur) ; 1891 D1 maison 405 (Thomas Lee, 34 a., Débardeur) ; 1891 D1 maison 512 (Robert Lee, 29 a., Débardeur) ; 1891 D1 maison 540 (Margaret Lee, 57 a.)
+
+### Villas jumelles — 2071 et 2065, chemin du Fleuve
+
+> Terrains de Narcisse Cantin, cultivateur ; construites par Joseph Lacroix (2071) et Ferdinand St-Hilaire (2065)
+
+- **Narcisse Cantin** → 3 ménages : 1871 D1 maison 18 (Narcisse Cantin, 40 a., Cultivateur) ; 1881 D1 maison 33 (Narcisse Cantin, 50 a., Cultivateur) ; 1891 D1 maison 291 (Narcisse Cantin, 59 a., Cultivateur)
+
 ### L'hôtel de ville — 2175, chemin du Fleuve
 
 > Henry Atkinson II, maire ; architecte Eugène M. Talbot
 
 - **Henry Atkinson** → 3 ménages : 1871 D1 maison 214 (Henry Atkinson, 38 a., Bourgeois) ; 1881 D1 maison 349 (Henry Atkinson, 48 a., Marchand de bois) ; 1891 D1 maison 440 (Henry Atkinson, 59 a., Marchand de bois)
 - **Talbot** → 1 ménage : 1881 D1 maison 131 (Alphonse Talbot, 69 a., Charretier)
+
+### Maison du Dr Joseph Alphonse Villeneuve — 2416, chemin du Fleuve
+
+> Dr Joseph Alphonse Villeneuve, fils de Ferdinand Villeneuve et Odile Morin
+
+- **Ferdinand Villeneuve** → 3 ménages : 1871 D1 maison 33 (Ferdinand Villeneuve, 39 a., Sculpteur) ; 1881 D1 maison 286 (Ferdinand Villeneuve, 49 a., Architecte) ; 1891 D1 maison 67 (Ferdinand Villeneuve, 59 a., Architecte-sculpteur-doreur d'églises)
+
+### Maison de Joseph Villeneuve — 2426, chemin du Fleuve
+
+> Joseph Villeneuve, entrepreneur, fils de Ferdinand Villeneuve (architecte-sculpteur, atelier fondé 1852, maire de la paroisse en 1879)
+
+- **Ferdinand Villeneuve** → 3 ménages : 1871 D1 maison 33 (Ferdinand Villeneuve, 39 a., Sculpteur) ; 1881 D1 maison 286 (Ferdinand Villeneuve, 49 a., Architecte) ; 1891 D1 maison 67 (Ferdinand Villeneuve, 59 a., Architecte-sculpteur-doreur d'églises)
 
 ### La Boulangerie Gagnon — 2479, chemin du Fleuve
 

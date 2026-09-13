@@ -418,29 +418,14 @@ window.LIEUX = {
       "source_ref": "bussiere:2052-cf",
       "personnages": "Pierre Cantin, avocat, fils de Narcisse Cantin et Euphrosine Bégin",
       "resume": "",
-      "notes": [],
-      "occupations": [
+      "notes": [
         {
-          "annee": "1871",
-          "division": "1",
-          "no_maison": "18",
-          "statut": "propose",
-          "confiance": "forte",
-          "origine": "source",
-          "motif": "Narcisse Cantin (40 a.), Euphrosine (43 a.) et Pierre (3 a.) — filiation identique à la brochure",
-          "ajoute_le": "2026-08-10"
-        },
-        {
-          "annee": "1891",
-          "division": "1",
-          "no_maison": "291",
-          "statut": "propose",
-          "confiance": "forte",
-          "origine": "source",
-          "motif": "Pierre Cantin, 22 a., étudiant en droit, chez Narcisse Cantin (59 a., cultivateur)",
-          "ajoute_le": "2026-08-10"
+          "auteur": "Reprise des rattachements",
+          "date": "2026-09-13",
+          "texte": "Les rattachements de 1871 (maison 18) et 1891 (maison 291) ont été retirés le 13 septembre 2026 : dans les deux cas il s'agit du ménage de Narcisse Cantin, déjà rattaché au 2039-2030. Pierre y a trois ans en 1871, et vingt-deux en 1891, étudiant en droit chez son père."
         }
       ],
+      "occupations": [],
       "adresses_anciennes": [],
       "cadastre": {},
       "photos": [],
@@ -466,29 +451,14 @@ window.LIEUX = {
       "source_ref": "bussiere:2058-2060-cf",
       "personnages": "Famille Lee",
       "resume": "",
-      "notes": [],
-      "occupations": [
+      "notes": [
         {
-          "annee": "1871",
-          "division": "2",
-          "no_maison": "78",
-          "statut": "propose",
-          "confiance": "faible",
-          "origine": "source",
-          "motif": "Thomas Lee, 42 a., navigateur — souche de la famille Lee",
-          "ajoute_le": "2026-08-10"
-        },
-        {
-          "annee": "1891",
-          "division": "1",
-          "no_maison": "405",
-          "statut": "propose",
-          "confiance": "faible",
-          "origine": "source",
-          "motif": "Thomas Lee, 34 a., débardeur — famille Lee du secteur, une génération avant la construction de 1925",
-          "ajoute_le": "2026-08-10"
+          "auteur": "Reprise des rattachements",
+          "date": "2026-09-13",
+          "texte": "Les rattachements de 1871 (maison 78) et 1891 (maison 405) ont été retirés le 13 septembre 2026. Ils venaient de la brochure Bussière, qui rattachait la famille Lee à cette adresse sans dater le rattachement : le bâtiment commercial date de v.1925. La famille est la bonne, l'emplacement ne peut pas l'être."
         }
       ],
+      "occupations": [],
       "adresses_anciennes": [],
       "cadastre": {},
       "photos": [],
@@ -514,29 +484,14 @@ window.LIEUX = {
       "source_ref": "bussiere:2071-2065-cf",
       "personnages": "Terrains de Narcisse Cantin, cultivateur ; construites par Joseph Lacroix (2071) et Ferdinand St-Hilaire (2065)",
       "resume": "",
-      "notes": [],
-      "occupations": [
+      "notes": [
         {
-          "annee": "1881",
-          "division": "2",
-          "no_maison": "244",
-          "statut": "propose",
-          "confiance": "faible",
-          "origine": "source",
-          "motif": "Ferdinand St.Hilaire, 12 a., chez Louis St.Hilaire, menuisier — âge divergent du précédent, à trancher",
-          "ajoute_le": "2026-08-10"
-        },
-        {
-          "annee": "1891",
-          "division": "1",
-          "no_maison": "622",
-          "statut": "propose",
-          "confiance": "faible",
-          "origine": "source",
-          "motif": "Ferdinand St-Hilaire, 15 a. — un des deux artisans bâtisseurs de 1908-1909, âge plausible",
-          "ajoute_le": "2026-08-10"
+          "auteur": "Reprise des rattachements",
+          "date": "2026-09-13",
+          "texte": "Les rattachements de 1881 (maison 244) et 1891 (maison 622) ont été retirés le 13 septembre 2026 : les villas sont bâties en 1908-1909, et Ferdinand St-Hilaire y figurait à 12 puis 15 ans. C'est le bâtisseur qu'on lisait, pas un occupant."
         }
       ],
+      "occupations": [],
       "adresses_anciennes": [],
       "cadastre": {},
       "photos": [],
@@ -984,19 +939,14 @@ window.LIEUX = {
       "source_ref": "bussiere:2416-cf",
       "personnages": "Dr Joseph Alphonse Villeneuve, fils de Ferdinand Villeneuve et Odile Morin",
       "resume": "",
-      "notes": [],
-      "occupations": [
+      "notes": [
         {
-          "annee": "1891",
-          "division": "1",
-          "no_maison": "67",
-          "statut": "propose",
-          "confiance": "moyenne",
-          "origine": "source",
-          "motif": "Alphonse Villeneuve, 25 a., médecin chirurgien, fils de Ferdinand et Odile — ménage d'origine, avant la maison de 1910",
-          "ajoute_le": "2026-08-10"
+          "auteur": "Reprise des rattachements",
+          "date": "2026-09-13",
+          "texte": "Le rattachement de 1891 (maison 67) a été retiré le 13 septembre 2026 : la maison est bâtie vers 1910, et Alphonse Villeneuve, 25 ans, médecin, était alors recensé chez son père Ferdinand. Filiation, non occupation."
         }
       ],
+      "occupations": [],
       "adresses_anciennes": [],
       "cadastre": {},
       "photos": [],
@@ -1022,19 +972,14 @@ window.LIEUX = {
       "source_ref": "bussiere:2426-cf",
       "personnages": "Joseph Villeneuve, entrepreneur, fils de Ferdinand Villeneuve (architecte-sculpteur, atelier fondé 1852, maire de la paroisse en 1879)",
       "resume": "",
-      "notes": [],
-      "occupations": [
+      "notes": [
         {
-          "annee": "1891",
-          "division": "1",
-          "no_maison": "67",
-          "statut": "propose",
-          "confiance": "moyenne",
-          "origine": "source",
-          "motif": "Joseph Villeneuve, 23 a., sculpteur-doreur, encore chez son père Ferdinand — la maison de 1884 reste à confirmer",
-          "ajoute_le": "2026-08-10"
+          "auteur": "Reprise des rattachements",
+          "date": "2026-09-13",
+          "texte": "Le rattachement de 1891 (maison 67) a été retiré le 13 septembre 2026 : c'est le ménage de Ferdinand Villeneuve, où Joseph, 23 ans, sculpteur-doreur, vit encore chez son père. La maison du 2426 est bâtie vers 1884, mais rien n'établit qu'il l'occupe en 1891."
         }
       ],
+      "occupations": [],
       "adresses_anciennes": [],
       "cadastre": {},
       "photos": [],
@@ -1329,28 +1274,14 @@ window.LIEUX = {
       "source_ref": "bussiere:65-college",
       "personnages": "William John Roberge et son père ; famille L'Hébreux",
       "resume": "",
-      "notes": [],
+      "notes": [
+        {
+          "auteur": "Reprise des rattachements",
+          "date": "2026-09-13",
+          "texte": "Les rattachements de 1871 (maison 9) et 1881 (maison 32) ont été proposés puis retirés le 13 septembre 2026 : trois Joseph Roberge chefs de ménage coexistent au village, et rien ne désigne celui-ci plutôt qu'un autre."
+        }
+      ],
       "occupations": [
-        {
-          "annee": "1871",
-          "division": "2",
-          "no_maison": "9",
-          "statut": "propose",
-          "confiance": "moyenne",
-          "origine": "chercheur",
-          "motif": "Joseph Roberge, 28 a., Journalier — suivi depuis 1891 (division 1, maison 430) ; âge cohérent à 2 ans près ; 1 personne du même ménage retrouvée : Joseph Roberge ; autres candidats : Joseph Roberge (maison 8) ; Joseph Roberge (maison 73)",
-          "ajoute_le": "2026-09-13"
-        },
-        {
-          "annee": "1881",
-          "division": "1",
-          "no_maison": "32",
-          "statut": "propose",
-          "confiance": "moyenne",
-          "origine": "chercheur",
-          "motif": "Joseph Roberge, 36 a., Arrimeur — suivi depuis 1891 (division 1, maison 430) ; âge cohérent à 0 an près ; 5 personnes du même ménage retrouvées : Joseph Roberge, Alice Roberge, William Roberge, Anna Roberge, Edouard Roberge ; autres candidats : Joseph Roberge (maison 123)",
-          "ajoute_le": "2026-09-13"
-        },
         {
           "annee": "1891",
           "division": "1",
@@ -1387,18 +1318,14 @@ window.LIEUX = {
       "source_ref": "bussiere:105-college",
       "personnages": "Lauréat Vallière, sculpteur (fils de Joseph Vallière, navigateur) ; atelier ouvert en 1946",
       "resume": "",
-      "notes": [],
-      "occupations": [
+      "notes": [
         {
-          "annee": "1871",
-          "division": "2",
-          "no_maison": "94",
-          "statut": "propose",
-          "confiance": "moyenne",
-          "origine": "chercheur",
-          "motif": "Thomas Vallières, 25 a., Journalier — suivi depuis 1891 (division 1, maison 457) ; âge cohérent à 0 an près ; 2 personnes du même ménage retrouvées : Thomas Vallières, Philomène Vallières ; autres candidats : Joseph Vallières (maison 54)",
-          "ajoute_le": "2026-09-13"
-        },
+          "auteur": "Reprise des rattachements",
+          "date": "2026-09-13",
+          "texte": "Le rattachement de 1871 (maison 94) a été proposé puis retiré le 13 septembre 2026 : deux Vallières chefs de ménage coexistent en 1871. Celui de 1881 (maison 176), corroboré par cinq membres du ménage, est conservé."
+        }
+      ],
+      "occupations": [
         {
           "annee": "1881",
           "division": "2",
@@ -1727,7 +1654,7 @@ window.LIEUX = {
         "pose_par": "Patrick Blanchet",
         "pose_le": "2026-09-13"
       },
-      "source": "SSR",
+      "source": "SHSR",
       "personnages": "",
       "resume": "",
       "notes": [
