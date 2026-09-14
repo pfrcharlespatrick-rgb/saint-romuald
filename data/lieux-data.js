@@ -67,7 +67,7 @@ window.LIEUX = {
       "voie": "chemin du Fleuve",
       "adresse_actuelle": "1596, chemin du Fleuve",
       "designe_aujourdhui": "",
-      "etat": "inconnu",
+      "etat": "debout",
       "construit": "",
       "disparu": "",
       "coord": {
@@ -85,6 +85,11 @@ window.LIEUX = {
           "auteur": "Patrick Blanchet",
           "date": "2026-09-14",
           "texte": "La maison se tient au coin du chemin du Fleuve et de la rue Saint-Vincent, à l'emplacement du 1596, chemin du Fleuve d'aujourd'hui. C'est l'adresse que porte désormais ce lieu ; le 1588, que donnait la notice du 83, rue Saint-Damase, est conservé parmi les adresses anciennes.\n\nRobert MacReady y tient le magasin général aux recensements de 1871 et 1881. À sa mort, sa veuve Éléonore ne déménage pas : elle reprend le commerce et y est recensée marchande en 1891, avec neuf de leurs enfants.\n\nLa position n'est pas relevée. La rue Saint-Vincent ne figure dans aucune donnée du dépôt, et le point n'est qu'une interpolation entre le 1506 et le 1604 au prorata du numéro civique : il reste à poser sur le coin même, à l'atelier de la carte."
+        },
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-14",
+          "texte": "Le bâtiment est toujours debout, mais modifié : ce n'est donc pas une reconstruction sur le terrain de l'ancien, et le 1596 d'aujourd'hui désigne bien la maison où les McReady tenaient leur magasin. La nature et la date des transformations restent à établir."
         }
       ],
       "occupations": [
