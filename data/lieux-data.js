@@ -1424,41 +1424,6 @@ window.LIEUX = {
       "documents": []
     },
     {
-      "id": "aa-1616-lot-523-goad-29",
-      "nom": "1610, chemin du Fleuve",
-      "voie": "Chemin du Fleuve",
-      "adresse_actuelle": "1610, chemin du Fleuve",
-      "designe_aujourdhui": "",
-      "etat": "debout",
-      "construit": "",
-      "disparu": "",
-      "coord": {
-        "lat": 46.748174,
-        "lon": -71.259179,
-        "precision": "releve",
-        "pose_par": "Patrick Blanchet",
-        "pose_le": "2026-08-18"
-      },
-      "source": "Patrick Blanchet",
-      "personnages": "",
-      "resume": "",
-      "notes": [
-        {
-          "auteur": "Patrick Blanchet",
-          "date": "2026-09-14",
-          "texte": "Maison en bois sur Goad"
-        }
-      ],
-      "occupations": [],
-      "adresses_anciennes": [],
-      "cadastre": {
-        "goad_feuillet": "14",
-        "goad_no": "31"
-      },
-      "photos": [],
-      "documents": []
-    },
-    {
       "id": "120-coterouge",
       "nom": "L'Anglican Christ'Church",
       "voie": "Côte Rouge",
