@@ -1,7 +1,7 @@
 {
  "format": "suivi-saint-romuald-travail",
  "version": 1,
- "exporte": "2026-08-11T17:58:51.953Z",
+ "exporte": "2026-09-14T21:19:49.884Z",
  "donnees": {
   "suivi-familles-notes": {
    "1881-2-72-80": {
@@ -554,7 +554,7 @@
     "incertain": false
    },
    "1881-D2-P004-L12": {
-    "prenom": "Georges Amédée"
+    "prenom": "Georges Amédée "
    },
    "1881-D2-P004-L13": {
     "profession": "Menuisier"
@@ -777,7 +777,7 @@
    },
    "1881-D2-P009-L03": {
     "nom": "Cantin",
-    "prenom": "Étienne"
+    "prenom": "Étienne "
    },
    "1881-D2-P009-L12": {
     "prenom": "Célémire",
@@ -838,59 +838,59 @@
     "etat_matrimonial": "M",
     "religion": "Catholique",
     "origine": "Française",
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P002-L09": {
     "marie_12_mois": false,
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P002-L05": {
     "marie_12_mois": false,
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P002-L06": {
     "marie_12_mois": false,
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P002-L17": {
-    "nom": "Veer",
+    "nom": "Veer ",
     "incertain": false,
     "lieu_naissance": "Québec",
-    "origine": "Irlandaise",
+    "origine": "Irlandaise ",
     "sait_lire": false,
     "sait_ecrire": false,
     "ecole": false
    },
    "1871-D2-P002-L18": {
     "incertain": false,
-    "lieu_naissance": "Québec",
+    "lieu_naissance": " Québec",
     "origine": "Française"
    },
    "1871-D2-P002-L20": {
     "age": "17",
     "profession": "Cultivateur",
     "etat_matrimonial": "M",
-    "sait_lire": true,
-    "sait_ecrire": true,
+    "sait_lire": false,
+    "sait_ecrire": false,
     "lieu_naissance": "Québec",
     "origine": "Française"
    },
    "1871-D2-P003-L01": {
     "age": "15",
     "profession": "Cultivateur",
-    "sait_lire": true,
-    "sait_ecrire": true,
+    "sait_lire": false,
+    "sait_ecrire": false,
     "lieu_naissance": "Québec",
     "origine": "Française"
    },
    "1871-D2-P003-L02": {
     "age": "12",
-    "sait_lire": true,
-    "sait_ecrire": true,
+    "sait_lire": false,
+    "sait_ecrire": false,
     "lieu_naissance": "Québec",
     "origine": "Française"
    },
@@ -899,34 +899,34 @@
     "ecole": true,
     "lieu_naissance": "Québec",
     "origine": "Française",
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P003-L04": {
     "age": "10",
     "lieu_naissance": "Québec",
     "origine": "Française",
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P003-L05": {
     "age": "9",
     "lieu_naissance": "Québec",
     "origine": "Française",
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P003-L06": {
     "age": "8",
     "lieu_naissance": "Québec",
     "origine": "Française",
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P003-L07": {
     "age": "5",
-    "sait_ecrire": true,
-    "sait_lire": true,
+    "sait_ecrire": false,
+    "sait_lire": false,
     "lieu_naissance": "Québec",
     "origine": "Française"
    },
@@ -936,26 +936,26 @@
     "origine": "Française"
    },
    "1871-D2-P003-L09": {
-    "sait_ecrire": true,
-    "sait_lire": true,
+    "sait_ecrire": false,
+    "sait_lire": false,
     "lieu_naissance": "Québec",
     "age": "33",
     "origine": "Française"
    },
    "1871-D2-P003-L17": {
-    "sait_ecrire": true,
-    "sait_lire": true
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P003-L16": {
-    "sait_ecrire": true,
-    "sait_lire": true
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P003-L11": {
     "incertain": false,
-    "age": "41"
+    "age": "41 "
    },
    "1871-D2-P004-L01": {
-    "age": "23",
+    "age": "23 ",
     "incertain": false
    },
    "1871-D2-P003-L18": {
@@ -965,7 +965,7 @@
     "incertain": false
    },
    "1871-D2-P004-L06": {
-    "prenom": "Alvine",
+    "prenom": "Alvine ",
     "incertain": false
    },
    "1871-D2-P004-L12": {
@@ -973,13 +973,13 @@
     "incertain": false
    },
    "1871-D2-P004-L08": {
-    "age": "27",
+    "age": "27 ",
     "incertain": false,
     "sait_lire": true,
     "sait_ecrire": true
    },
    "1871-D2-P004-L07": {
-    "age": "28",
+    "age": "28 ",
     "incertain": false,
     "sait_lire": false,
     "sait_ecrire": false
@@ -990,7 +990,7 @@
    },
    "1871-D2-P004-L14": {
     "nom": "Curodo",
-    "prenom": "Adée",
+    "prenom": "Adée ",
     "incertain": false,
     "sait_lire": true
    },
@@ -1004,10 +1004,10 @@
    },
    "1871-D2-P005-L03": {
     "nom": "Curodo",
-    "age": "35",
+    "age": "35 ",
     "incertain": false,
-    "sait_ecrire": true,
-    "sait_lire": true
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P005-L04": {
     "nom": "Curodo",
@@ -1030,39 +1030,39 @@
     "incertain": false
    },
    "1871-D2-P005-L13": {
-    "prenom": "Omérine",
+    "prenom": "Omérine ",
     "incertain": false
    },
    "1871-D2-P005-L14": {
-    "age": "52",
+    "age": "52 ",
     "incertain": false,
-    "religion": "Catholique"
+    "religion": "Catholique "
    },
    "1871-D2-P005-L20": {
-    "age": "12",
+    "age": "12 ",
     "incertain": false,
-    "religion": "Catholique"
+    "religion": "Catholique "
    },
    "1871-D2-P005-L15": {
     "age": "45",
     "incertain": false,
-    "religion": "Catholique"
+    "religion": "Catholique "
    },
    "1871-D2-P006-L06": {
     "nom": "Alice",
     "age": "68",
     "incertain": false,
-    "sait_ecrire": true,
-    "sait_lire": true
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P006-L07": {
-    "nom": "Bruneau",
+    "nom": "Bruneau ",
     "prenom": "Bibiane",
     "age": "76",
     "incertain": false
    },
    "1871-D2-P006-L19": {
-    "age": "75",
+    "age": "75 ",
     "etat_matrimonial": "V",
     "incertain": false
    },
@@ -1070,21 +1070,21 @@
     "age": "10"
    },
    "1871-D2-P006-L17": {
-    "age": "11/12",
+    "age": "5/12",
     "incertain": false
    },
    "1871-D2-P006-L09": {
     "incertain": false,
-    "sait_lire": true
+    "sait_lire": false
    },
    "1871-D2-P006-L20": {
-    "age": "43",
+    "age": "43 ",
     "incertain": false,
     "sait_lire": false,
     "sait_ecrire": false
    },
    "1871-D2-P007-L03": {
-    "prenom": "Esther",
+    "prenom": "Esther ",
     "incertain": false,
     "sait_lire": true,
     "sait_ecrire": true
@@ -1112,7 +1112,7 @@
     "sait_lire": true
    },
    "1871-D2-P008-L02": {
-    "prenom": "Benjamin",
+    "prenom": "Benjamin ",
     "incertain": false
    },
    "1871-D2-P007-L20": {
@@ -1128,57 +1128,57 @@
     "ne_douze_mois": "février"
    },
    "1871-D2-P008-L05": {
-    "prenom": "Eléonore",
+    "prenom": "Eléonore ",
     "incertain": false,
     "sait_lire": false,
     "sait_ecrire": false
    },
    "1871-D2-P008-L10": {
-    "age": "13",
+    "age": "13 ",
     "incertain": false
    },
    "1871-D2-P008-L11": {
-    "age": "22",
+    "age": "22 ",
     "incertain": false,
     "sait_lire": true,
     "sait_ecrire": true
    },
    "1871-D2-P008-L15": {
-    "age": "8",
+    "age": "8 ",
     "incertain": false
    },
    "1871-D2-P008-L17": {
-    "age": "60",
+    "age": "60 ",
     "incertain": false
    },
    "1871-D2-P009-L04": {
-    "prenom": "Octave",
-    "nom": "Demers",
+    "prenom": "Octave ",
+    "nom": "Demers ",
     "incertain": false
    },
    "1871-D2-P009-L07": {
-    "prenom": "Vital",
+    "prenom": "Vital ",
     "incertain": false
    },
    "1871-D2-P009-L11": {
-    "prenom": "Bérénice",
+    "prenom": "Bérénice ",
     "incertain": false
    },
    "1871-D2-P009-L09": {
-    "age": "4",
+    "age": "4 ",
     "incertain": false
    },
    "1871-D2-P009-L05": {
-    "age": "46",
+    "age": "46 ",
     "incertain": false,
-    "etat_matrimonial": "M"
+    "etat_matrimonial": "V"
    },
    "1871-D2-P009-L18": {
-    "age": "22",
+    "age": "22 ",
     "incertain": false
    },
    "1871-D2-P009-L20": {
-    "age": "24",
+    "age": "24 ",
     "incertain": false,
     "profession": "Batelier",
     "sait_lire": false,
@@ -1199,19 +1199,19 @@
    "1871-D2-P010-L18": {
     "age": "7/12",
     "incertain": false,
-    "religion": "E. d'Ecosse",
+    "religion": "E. d'Ecosse ",
     "origine": "Anglaise",
-    "ne_douze_mois": "Septembre"
+    "ne_douze_mois": "Juillet"
    },
    "1871-D2-P010-L16": {
     "incertain": false,
-    "religion": "E. d'Ecosse",
+    "religion": "E. d'Ecosse ",
     "origine": "Ecossais"
    },
    "1871-D2-P010-L17": {
     "incertain": false,
-    "lieu_naissance": "Q",
-    "religion": "E. d'Ecosse"
+    "lieu_naissance": "Q ",
+    "religion": "E. d'Ecosse "
    },
    "1871-D2-P010-L19": {
     "incertain": false,
@@ -1231,7 +1231,7 @@
     "incertain": false
    },
    "1871-D2-P011-L20": {
-    "nom": "Lavertu",
+    "nom": "Lavertu ",
     "incertain": false
    },
    "1871-D2-P011-L10": {
@@ -1249,20 +1249,20 @@
     "ne_douze_mois": "Août"
    },
    "1871-D2-P012-L12": {
-    "prenom": "Vitaline",
-    "age": "22",
+    "prenom": "Vitaline ",
+    "age": "22 ",
     "incertain": false
    },
    "1871-D2-P012-L11": {
-    "age": "18",
+    "age": "18 ",
     "incertain": false
    },
    "1871-D2-P012-L10": {
-    "age": "59",
+    "age": "59 ",
     "incertain": false
    },
    "1871-D2-P012-L09": {
-    "age": "56",
+    "age": "56 ",
     "incertain": false
    },
    "1871-D2-P012-L13": {
@@ -1272,22 +1272,22 @@
     "sait_ecrire": false
    },
    "1871-D2-P012-L20": {
-    "age": "25",
+    "age": "25 ",
     "incertain": false
    },
    "1871-D2-P012-L17": {
     "incertain": false,
-    "prenom": "Félicité"
+    "prenom": "Félicité "
    },
    "1871-D2-P013-L08": {
-    "prenom": "Julien",
+    "prenom": "Julien ",
     "incertain": false,
     "lieu_naissance": "Q.",
-    "ecole": false
+    "ecole": true
    },
    "1871-D2-P013-L12": {
-    "prenom": "Théatis",
-    "age": "54",
+    "prenom": "Théatis ",
+    "age": "54 ",
     "incertain": false,
     "sait_lire": true
    },
@@ -1300,10 +1300,10 @@
    "1871-D2-P013-L17": {
     "age": "5/12",
     "incertain": false,
-    "ne_douze_mois": "Octobre"
+    "ne_douze_mois": "Mai"
    },
    "1871-D2-P013-L11": {
-    "age": "59",
+    "age": "59 ",
     "incertain": false
    },
    "1871-D2-P013-L10": {
@@ -1311,20 +1311,20 @@
     "incertain": false
    },
    "1871-D2-P013-L09": {
-    "age": "81",
+    "age": "81 ",
     "incertain": false
    },
    "1871-D2-P014-L06": {
     "prenom": "Belsimir"
    },
    "1871-D2-P014-L07": {
-    "nom": "Sleeth",
+    "nom": "Sleeth ",
     "age": "60",
     "incertain": false,
     "origine": "Ecossaise"
    },
    "1871-D2-P014-L08": {
-    "nom": "Sleeth",
+    "nom": "Sleeth ",
     "incertain": false,
     "origine": "Irlandaise"
    },
@@ -1337,7 +1337,7 @@
     "incertain": false
    },
    "1871-D2-P014-L11": {
-    "nom": "Sleeth",
+    "nom": "Sleeth ",
     "incertain": false
    },
    "1871-D2-P014-L12": {
@@ -1353,16 +1353,16 @@
     "incertain": false
    },
    "1871-D2-P014-L15": {
-    "nom": "Sleeth",
+    "nom": "Sleeth ",
     "incertain": false
    },
    "1871-D2-P014-L16": {
-    "nom": "Sleeth",
+    "nom": "Sleeth ",
     "incertain": false,
     "ecole": true
    },
    "1871-D2-P014-L18": {
-    "age": "52",
+    "age": "52 ",
     "incertain": false,
     "origine": "Française",
     "sait_lire": false,
@@ -1371,10 +1371,10 @@
    "1871-D2-P015-L19": {
     "age": "10/12",
     "incertain": false,
-    "ne_douze_mois": "Juin"
+    "ne_douze_mois": "Janvier"
    },
    "1871-D2-P015-L13": {
-    "age": "25",
+    "age": "25 ",
     "incertain": false,
     "sait_lire": false,
     "sait_ecrire": false
@@ -1383,23 +1383,23 @@
     "prenom": "Agathe"
    },
    "1871-D2-P015-L04": {
-    "age": "36",
+    "age": "36 ",
     "incertain": false
    },
    "1871-D2-P015-L09": {
     "age": "3/12",
     "incertain": false,
-    "ne_douze_mois": "Janvier"
+    "ne_douze_mois": "Mars"
    },
    "1871-D2-P015-L11": {
     "incertain": false
    },
    "1871-D2-P016-L03": {
-    "prenom": "Aurélie",
+    "prenom": "Aurélie ",
     "incertain": false
    },
    "1871-D2-P016-L04": {
-    "age": "2",
+    "age": "2 ",
     "incertain": false
    },
    "1871-D2-P016-L07": {
@@ -1414,12 +1414,12 @@
     "incertain": false
    },
    "1871-D2-P016-L16": {
-    "age": "5/12",
+    "age": "11/12",
     "incertain": false,
     "ne_douze_mois": "Novembre"
    },
    "1871-D2-P016-L17": {
-    "prenom": "Clarisse",
+    "prenom": "Clarisse ",
     "incertain": false
    },
    "1871-D2-P016-L08": {
@@ -1429,27 +1429,27 @@
     "incertain": false
    },
    "1871-D2-P017-L03": {
-    "age": "2",
+    "age": "2 ",
     "incertain": false
    },
    "1871-D2-P017-L05": {
-    "prenom": "Victoire",
+    "prenom": "Victoire ",
     "incertain": false
    },
    "1871-D2-P017-L08": {
-    "age": "37",
+    "age": "37 ",
     "prenom": "Selvie",
     "incertain": false
    },
    "1871-D2-P017-L10": {
-    "age": "15",
+    "age": "15 ",
     "incertain": false
    },
    "1871-D2-P017-L07": {
     "incertain": false
    },
    "1871-D2-P018-L05": {
-    "prenom": "Virginia",
+    "prenom": "Virginia ",
     "incertain": false
    },
    "1871-D2-P017-L17": {
@@ -1461,11 +1461,11 @@
    },
    "1871-D2-P018-L12": {
     "incertain": false,
-    "ne_douze_mois": ""
+    "ne_douze_mois": "Juin"
    },
    "1871-D2-P018-L13": {
     "incertain": false,
-    "ne_douze_mois": ""
+    "ne_douze_mois": "Juin"
    },
    "1871-D2-P018-L16": {
     "age": "27"
@@ -1480,40 +1480,40 @@
    "1871-D2-P019-L20": {
     "age": "7/12",
     "incertain": false,
-    "ne_douze_mois": "Août"
+    "ne_douze_mois": "Juillet"
    },
    "1871-D2-P020-L01": {
-    "nom": "Peltier",
+    "nom": "Peltier ",
     "incertain": false
    },
    "1871-D2-P020-L07": {
-    "prenom": "Nil",
+    "prenom": "Nil ",
     "incertain": false,
-    "nom": "Peltier"
+    "nom": "Peltier "
    },
    "1871-D2-P020-L02": {
     "incertain": false,
-    "nom": "Peltier"
+    "nom": "Peltier "
    },
    "1871-D2-P020-L03": {
     "incertain": false,
-    "nom": "Peltier"
+    "nom": "Peltier "
    },
    "1871-D2-P020-L04": {
     "incertain": false,
-    "nom": "Peltier"
+    "nom": "Peltier "
    },
    "1871-D2-P020-L05": {
     "incertain": false,
-    "nom": "Peltier"
+    "nom": "Peltier "
    },
    "1871-D2-P020-L06": {
     "incertain": false,
-    "nom": "Peltier"
+    "nom": "Peltier "
    },
    "1871-D2-P020-L08": {
     "incertain": false,
-    "nom": "Peltier"
+    "nom": "Peltier "
    },
    "1871-D2-P001-L02": {
     "sexe": "F",
@@ -1521,32 +1521,32 @@
     "origine": "Française",
     "religion": "Catholique",
     "etat_matrimonial": "M",
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P001-L03": {
     "sexe": "M",
     "lieu_naissance": "Québec",
     "origine": "Française",
     "religion": "Catholique",
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P001-L04": {
     "sexe": "M",
     "lieu_naissance": "Québec",
     "origine": "Française",
     "religion": "Catholique",
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P001-L05": {
     "sexe": "M",
     "lieu_naissance": "Québec",
     "origine": "Française",
     "religion": "Catholique",
-    "sait_lire": true,
-    "sait_ecrire": true,
+    "sait_lire": false,
+    "sait_ecrire": false,
     "ecole": true
    },
    "1871-D2-P001-L06": {
@@ -1555,8 +1555,8 @@
     "origine": "Française",
     "religion": "Catholique",
     "ecole": true,
-    "sait_ecrire": true,
-    "sait_lire": true
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L07": {
     "sexe": "M",
@@ -1564,8 +1564,8 @@
     "origine": "Française",
     "religion": "Catholique",
     "ecole": true,
-    "sait_ecrire": true,
-    "sait_lire": true
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L08": {
     "sexe": "M",
@@ -1573,8 +1573,8 @@
     "origine": "Française",
     "religion": "Catholique",
     "ecole": true,
-    "sait_ecrire": true,
-    "sait_lire": true
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L09": {
     "sexe": "M",
@@ -1582,24 +1582,24 @@
     "origine": "Française",
     "religion": "Catholique",
     "ecole": false,
-    "sait_ecrire": true,
-    "sait_lire": true
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L10": {
     "sexe": "F",
     "lieu_naissance": "Québec",
     "origine": "Française",
     "religion": "Catholique",
-    "sait_ecrire": true,
-    "sait_lire": true
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L19": {
     "sexe": "F",
     "lieu_naissance": "Québec",
     "religion": "Catholique",
     "origine": "Française",
-    "sait_ecrire": true,
-    "sait_lire": true,
+    "sait_ecrire": false,
+    "sait_lire": false,
     "ecole": false
    },
    "1871-D2-P001-L18": {
@@ -1608,8 +1608,8 @@
     "religion": "Catholique",
     "origine": "Française",
     "ecole": true,
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P001-L17": {
     "sexe": "F",
@@ -1617,8 +1617,8 @@
     "religion": "Catholique",
     "origine": "Française",
     "ecole": true,
-    "sait_ecrire": true,
-    "sait_lire": true
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L16": {
     "sexe": "F",
@@ -1626,8 +1626,8 @@
     "religion": "Catholique",
     "origine": "Française",
     "ecole": false,
-    "sait_ecrire": true,
-    "sait_lire": true
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L15": {
     "sexe": "F",
@@ -1635,16 +1635,16 @@
     "religion": "Catholique",
     "origine": "Française",
     "ecole": false,
-    "sait_ecrire": true,
-    "sait_lire": true
+    "sait_ecrire": false,
+    "sait_lire": false
    },
    "1871-D2-P001-L14": {
     "sexe": "M",
     "lieu_naissance": "Québec",
     "religion": "Catholique",
     "origine": "Française",
-    "sait_ecrire": true,
-    "sait_lire": true,
+    "sait_ecrire": false,
+    "sait_lire": false,
     "ecole": false
    },
    "1871-D2-P001-L13": {
@@ -1653,35 +1653,35 @@
     "religion": "Catholique",
     "origine": "Française",
     "ecole": true,
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P002-L01": {
     "origine": "Française",
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P002-L02": {
     "origine": "Française",
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P002-L14": {
     "ecole": true,
     "origine": "Française",
-    "sait_ecrire": true,
-    "sait_lire": true,
+    "sait_ecrire": false,
+    "sait_lire": false,
     "lieu_naissance": "Québec"
    },
    "1871-D2-P002-L16": {
-    "sait_lire": true,
-    "sait_ecrire": true,
+    "sait_lire": false,
+    "sait_ecrire": false,
     "origine": "Française",
     "lieu_naissance": "Québec"
    },
    "1871-D2-P002-L15": {
-    "sait_ecrire": true,
-    "sait_lire": true,
+    "sait_ecrire": false,
+    "sait_lire": false,
     "origine": "Française",
     "lieu_naissance": "Québec"
    },
@@ -1699,22 +1699,22 @@
    },
    "1871-D2-P002-L12": {
     "origine": "Française",
-    "sait_lire": true,
-    "sait_ecrire": true,
+    "sait_lire": false,
+    "sait_ecrire": false,
     "lieu_naissance": "Québec"
    },
    "1871-D2-P002-L13": {
     "origine": "Française",
-    "sait_lire": true,
-    "sait_ecrire": true,
+    "sait_lire": false,
+    "sait_ecrire": false,
     "lieu_naissance": "Québec"
    },
    "1871-D2-P002-L07": {
-    "sait_ecrire": true
+    "sait_ecrire": false
    },
    "1871-D2-P002-L08": {
-    "sait_lire": true,
-    "sait_ecrire": true
+    "sait_lire": false,
+    "sait_ecrire": false
    },
    "1871-D2-P002-L19": {
     "lieu_naissance": "Québec",
@@ -1722,44 +1722,44 @@
    },
    "1871-D2-P005-L16": {
     "incertain": false,
-    "religion": "Catholique"
+    "religion": "Catholique "
    },
    "1871-D2-P005-L17": {
     "incertain": false,
-    "religion": "Catholique"
+    "religion": "Catholique "
    },
    "1871-D2-P005-L18": {
     "incertain": false,
-    "religion": "Catholique"
+    "religion": "Catholique "
    },
    "1871-D2-P005-L19": {
     "incertain": false,
-    "religion": "Catholique"
+    "religion": "Catholique "
    },
    "1871-D2-P006-L01": {
     "incertain": false,
-    "religion": "Catholique"
+    "religion": "Catholique "
    },
    "1871-D2-P006-L02": {
     "incertain": false,
-    "religion": "Catholique",
+    "religion": "Catholique ",
     "ecole": false
    },
    "1871-D2-P006-L03": {
     "incertain": false,
-    "religion": "Catholique"
+    "religion": "Catholique "
    },
    "1871-D2-P006-L04": {
     "incertain": false,
-    "religion": "Catholique"
+    "religion": "Catholique "
    },
    "1871-D2-P006-L05": {
     "incertain": false,
-    "religion": "Catholique"
+    "religion": "Catholique "
    },
    "1871-D2-P006-L08": {
     "incertain": false,
-    "religion": "Catholique"
+    "religion": "Catholique "
    },
    "1891-D1-P132-L01": {
     "prenom": "Abraham"
@@ -1831,7 +1831,7 @@
     "sait_lire": true
    },
    "1871-D2-P011-L06": {
-    "ecole": true
+    "ecole": false
    },
    "1871-D2-P011-L19": {
     "ecole": true
@@ -1858,11 +1858,11 @@
     "lieu_naissance": "Irland"
    },
    "1871-D2-P013-L15": {
-    "etat_matrimonial": "",
-    "ecole": true
+    "etat_matrimonial": "C",
+    "ecole": false
    },
    "1871-D2-P013-L16": {
-    "ecole": false
+    "ecole": true
    },
    "1871-D2-P014-L02": {
     "ecole": false
@@ -1921,18 +1921,18 @@
     "age": "25"
    },
    "1871-D2-P020-L09": {
-    "age": "54"
+    "age": "54 "
    },
    "1871-D2-P020-L10": {
-    "age": "51"
+    "age": "51 "
    },
    "1871-D2-P020-L12": {
     "age": "17",
     "profession": "Navigateur"
    },
    "1871-D2-P020-L14": {
-    "age": "13",
-    "prenom": "Eusèbe",
+    "age": "13 ",
+    "prenom": "Eusèbe ",
     "sexe": "M"
    },
    "1871-D2-P020-L17": {
@@ -1946,7 +1946,7 @@
     "profession": "Navigateur"
    },
    "1871-D2-P020-L13": {
-    "ecole": false
+    "ecole": true
    }
   },
   "suivi-corr-maison": {
@@ -2157,6 +2157,1165 @@
    "perso-1616-chemin-du-fleuve": [
     "1411, rue Commerciale"
    ]
+  },
+  "suivi-lieux": {
+   "55": {
+    "id": "55",
+    "nom": "55 : maison en bois - Goad",
+    "voie": "",
+    "adresse_actuelle": "",
+    "designe_aujourdhui": "",
+    "etat": "disparu",
+    "construit": "1876",
+    "disparu": "",
+    "coord": {
+     "lat": 46.742765,
+     "lon": -71.276572,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-14"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "15",
+     "goad_no": "Goad"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-14"
+   },
+   "aa-1616-lot-523-goad-29": {
+    "id": "aa-1616-lot-523-goad-29",
+    "nom": "1610, chemin du Fleuve",
+    "voie": "Chemin du Fleuve",
+    "adresse_actuelle": "1610, chemin du Fleuve",
+    "designe_aujourdhui": "",
+    "etat": "debout",
+    "construit": "",
+    "disparu": "",
+    "coord": {
+     "lat": 46.748174,
+     "lon": -71.259179,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-08-18"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-14",
+      "texte": "Maison en bois sur Goad"
+     }
+    ],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "14",
+     "goad_no": "31"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-14"
+   },
+   "1506-cf": {
+    "coord": {
+     "lat": 46.746522,
+     "lon": -71.263752,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout",
+    "occupations": [
+     {
+      "annee": "1871",
+      "division": "2",
+      "no_maison": "51",
+      "statut": "confirme",
+      "confiance": "moyenne",
+      "origine": "source",
+      "motif": "Hubert Roberge, 54 a., navigateur — trois Hubert Roberge navigateurs coexistent (maisons 41, 51, 76)",
+      "ajoute_le": "2026-08-10",
+      "cle_maison": "1871-D2-M51",
+      "maisonnee": {
+       "cle": "1871-D2-M51",
+       "familles": [
+        {
+         "no_famille": "63",
+         "chef": "Roberge Hubert",
+         "chef_id": "1871-D2-P020-L09",
+         "chef_profession": "Navigateur",
+         "chef_age": "54",
+         "effectif": 11
+        }
+       ],
+       "logement": null
+      }
+     }
+    ],
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-13",
+      "texte": "Cette habitation fut construite entre 1866 et 1868 par Louis-Hubert Roberge, navigateur et maître charpentier. D’esprit québécois, la Maison Malakoff se distingue par la qualité de l’ornementation accrochée au support de la galerie. Connues sous le nom de serpents scandinaves, ces figures étaient à l’origine utilisées pour éloigner les mauvais esprits.\nLa maison Malakoff doit son nom au cap qui surplombe New Liverpool depuis la côte Rouge. D’origine russe, ce toponyme provient d’un port protégé, sur la côte de Crimée, par une série de redoutes dont la tour Malakoff. "
+     }
+    ]
+   },
+   "1604-cf": {
+    "coord": {
+     "lat": 46.748124,
+     "lon": -71.259385,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-14",
+    "cadastre": {
+     "goad_feuillet": "14",
+     "goad_no": "33"
+    },
+    "etat": "debout",
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-14",
+      "texte": "maison en bois"
+     }
+    ]
+   },
+   "52-56-hardy": {
+    "coord": {
+     "lat": 46.746533,
+     "lon": -71.264859,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "adresse_actuelle": "52 , rue Hardy"
+   },
+   "1633-cf": {
+    "coord": {
+     "lat": 46.74897,
+     "lon": -71.258205,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "manoir-longwood": {
+    "coord": {
+     "lat": 46.754828,
+     "lon": -71.248199,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "65-stdamase": {
+    "coord": {
+     "lat": 46.748198,
+     "lon": -71.258235,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "83-stdamase": {
+    "coord": {
+     "lat": 46.747781,
+     "lon": -71.257748,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "1719-1720-cf": {
+    "coord": {
+     "lat": 46.750341,
+     "lon": -71.253735,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "1736-cf": {
+    "coord": {
+     "lat": 46.750036,
+     "lon": -71.252673,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "1871-cf": {
+    "coord": {
+     "lat": 46.754387,
+     "lon": -71.249041,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "1900-cf": {
+    "coord": {
+     "lat": 46.755167,
+     "lon": -71.248054,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout",
+    "nom": "La maison Bourassa",
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-13",
+      "texte": "Érigée en 1857, cette demeure d’esprit québécois, est intéressante autant du point de vue historique que par sa position, située sur la Pointe Benson.\n\n\nElle a été construite avec la pierre excédentaire de l’église de Saint-Romuald après son érection en 1854.\n\n\n​Connue sous le nom de « Maison des capitaines de bateaux », la propriété, qui appartient à l’origine à l’aubergiste François Bourassa, compte plusieurs autres bâtiments aujourd’hui disparus dont une étable, un hangar, une glacière et une forge. C’est ici, qu’à cette époque, les capitaines de bateaux ancrés à New Liverpool, séjournent et prennent un verre !\n\nCe bâtiment a été témoin d’un développement économique très important lié aux activités portuaires qui se sont déroulées à proximité: le commerce du bois, les chantiers navals et le transport fluvial des passagers. En 1885, la Compagnie Maritime et Industrielle de Lévis construit le « quai du bateau » d’où partait le traversier Frontenac reliant Saint-Romuald à Sillery.\n\n\nOmer Roberge, 1898-1974\n\n\nEn 1921,  Monsieur Omer Roberge achète cette propriété qu’il conservera jusqu’en 1946. Il sera maire de la ville de Saint-Romuald de 1940 à 1945 et un des fondateurs de la Caisse populaire de Saint-Romuald en 1940.\n\n​\n\nSuite à un grave incendie survenu en 1981, la maison a fait l’objet d’une restauration respectueuse de ses caractéristiques d’origine en 1985"
+     },
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-13",
+      "texte": "https://www.histoiresaintromuald.com/post/maison-bourassa"
+     }
+    ],
+    "source": "SHSR"
+   },
+   "120-coterouge": {
+    "coord": {
+     "lat": 46.752212,
+     "lon": -71.248515,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-13",
+      "texte": "L'Église anglicane Christ Church New Liverpool, fut construite entre 1840 et 1841. Elle est aussi connue sous la désignation populaire de « la mitaine », expression déformée de la langue anglaise « meeting house » pour indiquer l’endroit où les anglophones se réunissaient.\n\n​De plan rectangulaire, elle est bâtie en pierre, face au fleuve, sur un terrain appartenant à l’époque à William Price, marchand de bois. Ce dernier fait don d’un lot de terre d’environ 30 000 pi², au Diocèse de l'Église anglicane de Québec, qui sera consacré à une église et à l’érection d’une future paroisse. Une partie du terrain était destinée au cimetière.\n\n​Jusqu’en 1854, le territoire de Saint-Romuald fait partie de la paroisse de Saint-Jean-Chrysostome où des familles anglicanes étaient déjà établies.\n\n\nEn 1840, deux paroissiens de Saint-Jean-Chrysostome, Timothy Amiraux et John Ritchie, ainsi que le révérend Francis James Lundy, ministre de l'Église anglicane, sont nommés Syndics pour l’érection d’une église au lieu nommé New Liverpool.\n\n\n​Le contrat de construction fut signé le 9 décembre 1840 avec Pierre Gauvreau, à l’époque maître maçon de Québec. Celui-ci deviendra architecte à partir de 1844. En 1854, il fait breveter son invention, le « ciment Gauvreau ». Ce ciment est utilisé à travers le Canada jusqu'au début du XXe siècle.\n\n\nEn 1878, Edward Cambria et Ernest William Benson cèdent à l'Église anglicane une parcelle de terre située en haut de la Côte Rouge pour la construction du presbytère de la Christ Church, destiné à loger le révérend responsable de la paroisse. Ce bâtiment existe toujours.\n\n​\n\nLa communauté anglicane de New Liverpool a soutenu et entretenu l’église jusqu’en 1975. Cette année-là et en accord avec les autorités religieuses, la communauté décide de mettre en vente la propriété.\n\n​\n\nLes tombes du cimetière, autrefois existant, furent déménagées au cimetière Mount Hermon à Sillery où elles se trouvent regroupées et identifiées comme provenant de la Christ Church New Liverpool.\n\n​\n\nL’église est aujourd’hui une résidence privée. L’ensemble immobilier (l’église et le presbytère) conserve toujours son apparence d’origine et il constitue un domaine exceptionnel où ces bâtiments patrimoniaux sont conservés et mis en valeur.\n\n​\n\nLa Christ Church New Liverpool représente un chapitre important et parfois méconnu de l’héritage et de la contribution de la communauté anglophone à l’histoire économique et sociale de Saint-Romuald."
+     },
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-13",
+      "texte": "https://www.histoiresaintromuald.com/post/christ-church-new-liverpool"
+     }
+    ],
+    "source": "Bussière 1990; SHSR"
+   },
+   "1984-cf": {
+    "coord": {
+     "lat": 46.755637,
+     "lon": -71.244513,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout"
+   },
+   "2039-2030-cf": {
+    "coord": {
+     "lat": 46.756423,
+     "lon": -71.2433,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout"
+   },
+   "182-eglise": {
+    "coord": {
+     "lat": 46.755982,
+     "lon": -71.237219,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "nom": "l'Église",
+    "adresse_actuelle": "170, rue Saint-Romuad",
+    "etat": "debout",
+    "construit": "1860",
+    "source": "Patrick Blanchet"
+   },
+   "171-eglise": {
+    "coord": {
+     "lat": 46.75366,
+     "lon": -71.243742,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "2052-cf": {
+    "coord": {
+     "lat": 46.756446,
+     "lon": -71.242781,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout"
+   },
+   "2104-cf": {
+    "coord": {
+     "lat": 46.757138,
+     "lon": -71.241647,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout"
+   },
+   "2111-cf": {
+    "coord": {
+     "lat": 46.757331,
+     "lon": -71.241761,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout"
+   },
+   "2123-cf": {
+    "coord": {
+     "lat": 46.757504,
+     "lon": -71.241525,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "occupations": [
+     {
+      "annee": "1881",
+      "division": "2",
+      "no_maison": "161",
+      "statut": "confirme",
+      "confiance": "forte",
+      "origine": "source",
+      "motif": "Louis St.Hilaire, 28 a., marchand — la boutique du tailleur, maison bâtie v.1880",
+      "ajoute_le": "2026-08-10",
+      "cle_maison": "1881-D2-M161",
+      "maisonnee": {
+       "cle": "1881-D2-M161",
+       "familles": [
+        {
+         "no_famille": "177",
+         "chef": "St.Hilaire Louis",
+         "chef_id": "1881-D2-P038-L18",
+         "chef_profession": "Marchand",
+         "chef_age": "25",
+         "effectif": 2
+        }
+       ],
+       "logement": null
+      }
+     }
+    ],
+    "etat": "debout"
+   },
+   "2175-cf": {
+    "coord": {
+     "lat": 46.758188,
+     "lon": -71.240511,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "2172-cf": {
+    "coord": {
+     "lat": 46.757938,
+     "lon": -71.240221,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout"
+   },
+   "2190-cf": {
+    "coord": {
+     "lat": 46.758125,
+     "lon": -71.239828,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout"
+   },
+   "2058-2060-cf": {
+    "coord": {
+     "lat": 46.75653,
+     "lon": -71.242631,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout"
+   },
+   "2071-2065-cf": {
+    "coord": {
+     "lat": 46.756852,
+     "lon": -71.242607,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout"
+   },
+   "65-college": {
+    "coord": {
+     "lat": 46.757067,
+     "lon": -71.241107,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout"
+   },
+   "105-college": {
+    "coord": {
+     "lat": 46.75651,
+     "lon": -71.240235,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout"
+   },
+   "2220-cf": {
+    "coord": {
+     "lat": 46.758459,
+     "lon": -71.239091,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout"
+   },
+   "2219-2223-cf": {
+    "coord": {
+     "lat": 46.758702,
+     "lon": -71.239232,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "2229-cf": {
+    "coord": {
+     "lat": 46.75893,
+     "lon": -71.238854,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "2560-cf": {
+    "coord": {
+     "lat": 46.758867,
+     "lon": -71.22938,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "2547-cf": {
+    "coord": {
+     "lat": 46.759149,
+     "lon": -71.229625,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "30-juvenat": {
+    "coord": {
+     "lat": 46.761826,
+     "lon": -71.235416,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "disparu"
+   },
+   "2248-2256-cf": {
+    "coord": {
+     "lat": 46.75895,
+     "lon": -71.237841,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "disparu"
+   },
+   "2393-cf": {
+    "coord": {
+     "lat": 46.759933,
+     "lon": -71.233534,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout"
+   },
+   "2416-cf": {
+    "coord": {
+     "lat": 46.759775,
+     "lon": -71.232937,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "2426-cf": {
+    "coord": {
+     "lat": 46.759722,
+     "lon": -71.232734,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13",
+    "etat": "debout"
+   },
+   "2458-cf": {
+    "coord": {
+     "lat": 46.7594,
+     "lon": -71.231875,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "2479-cf": {
+    "coord": {
+     "lat": 46.759426,
+     "lon": -71.231263,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "_modifie_le": "2026-09-13"
+   },
+   "1720-chemin-du-fleuve": {
+    "id": "1720-chemin-du-fleuve",
+    "nom": "1720, chemin du Fleuve",
+    "voie": "chemin du Fleuve",
+    "adresse_actuelle": "1720, chemin du Fleuve",
+    "designe_aujourdhui": "",
+    "etat": "inconnu",
+    "construit": "v.1850",
+    "disparu": "",
+    "coord": {
+     "lat": 46.749819,
+     "lon": -71.253564,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "source": "SHSR",
+    "personnages": "",
+    "resume": "",
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-13",
+      "texte": "Construite en pièce sur pièce vers 1850, cette maison a évolué au fil du temps, cependant, son plan rectangulaire d’origine est toujours manifeste.\n\n\n​D’inspiration québécoise, elle se caractérise par la symétrie des éléments architecturaux : une porte centrale, nombre pair de fenêtres, trois lucarnes à l’étage et une galerie le long de la façade. Suite aux derniers travaux de rénovation, une annexe s’est ajoutée du côté droit de la maison.\n\n\nÀ l’intérieur, les boiseries et rampes d’escalier ouvragées nous laissent croire qu’il s’agit d’une maison appartenant à l’un des prospères marchands de bois.\n\n​Cette résidence ainsi que la maison de la douane et la petite maison de l’autre côté de la rue représentent les derniers témoins de l’industrie du bois et de la construction navale au 19e siècle à Saint-Romuald.\n\n"
+     },
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-13",
+      "texte": "https://www.histoiresaintromuald.com/post/maison-de-l-anse\n"
+     }
+    ],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {},
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-13"
+   },
+   "305-rue-de-saint-romuald": {
+    "id": "305-rue-de-saint-romuald",
+    "nom": "Maison Henri-Dutil",
+    "voie": "de Saint-Romuald",
+    "adresse_actuelle": "305, rue de Saint-Romuald",
+    "designe_aujourdhui": "",
+    "etat": "debout",
+    "construit": "v. 1923",
+    "disparu": "",
+    "coord": {
+     "lat": 46.754828,
+     "lon": -71.234488,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-13",
+      "texte": "n avril 1922, M. Henri Dutil obtient d’Alphonse Roberge une concession, un bail à rente foncière annuelle, pour le terrain. Sur l’acte notarié passé devant Me Charles Cantin, il est stipulé qu’une maison devra être construite sur ce terrain au cours de l’été 1923.\n\nM. Dutil fait donc construire cette résidence à trois étages, d’inspiration cubique (Four-square style), qui se caractérise par son toit en pavillon, la disposition symétrique des ouvertures et son revêtement extérieur en crépi. On remarque aussi des fenêtres en arc bombé ou ornées d’arcades.\n\n\nAutrefois, une galerie couverte complétait le carré original de la maison du côté sud. Elle fut transformée lors d’un agrandissement pour lui donner sa configuration actuelle. La propriété incluait aussi un terrain de tennis aménagé au début des années 30, qui fut très fréquenté par des amis et des sportifs amateurs des environs.\n\n\nLa famille Dutil a habité cette maison pendant 60 ans, soit jusqu’en 1981. Depuis, elle est occupée par des professionnels qui y tiennent leurs bureaux d’affaires.\n\n\nHenri Dutil (1891-1980) \n\n\nHenri Dutil est né à Saint-Calixte (Plessisville) le 7 décembre 1891. Il est le fils d’Henri Dutil et de Hedwidge Doucet. Le 5 juin 1917, à l’âge de 26 ans, il épouse, à Saint-Romuald, Cécile Dionne (1899-1978) de Saint-Antoine-de-Tilly. Elle était la fille d’Arthur Dionne et d’Angélique Lafleur. Henri et Cécile fondent ensuite une grande famille puisqu’ils auront cinq filles et cinq garçons.\n\n​\n\nHenri fait ses études au Séminaire de Québec et plus tard à l’Université Laval, où il obtient son diplôme en journalisme. Il exerce sa carrière professionnelle pendant 37 ans, d’abord comme journaliste et éditorialiste à L’Événement-journal, puis comme chroniqueur parlementaire durant 30 ans pour le journal Le Soleil à l’Assemblée nationale. En raison de son travail remarquable, il est nommé président de la Galerie de la Presse parlementaire.\n\n​\n\nÀ Saint-Romuald, il a assumé la fonction de maître de poste de 1920 à 1931 et de 1937 à 1947. Henri Dutil s’est aussi impliqué activement pendant plus de 25 ans au conseil d’administration de la Caisse Populaire de Saint-Romuald. Il en a été le vice-président de 1947 à 1961, puis président de 1962 à 1974. Monsieur Dutil a pris sa retraite à l’âge 75 ans. Il est décédé le 9 juillet 1980."
+     },
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-13",
+      "texte": "https://www.histoiresaintromuald.com/post/maison-henri-dutil"
+     }
+    ],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {},
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-13"
+   },
+   "maison-olivier-frere": {
+    "id": "maison-olivier-frere",
+    "nom": "Maison Olivier & Frère",
+    "voie": "Chemin du Fleuve",
+    "adresse_actuelle": "2321, chemin du Fleuve",
+    "designe_aujourdhui": "",
+    "etat": "debout",
+    "construit": "v. 1934",
+    "disparu": "",
+    "coord": {
+     "lat": 46.759539,
+     "lon": -71.236053,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "source": "SHSR",
+    "personnages": "",
+    "resume": "",
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-13",
+      "texte": "Fondée en 1934 par les frères Joseph et Achille Olivier, la Maison Olivier & Frère entreprend ses activités commerciales dans un bâtiment, aujourd’hui disparu.\n\nEn 1944, les deux frères achètent la propriété voisine de leur boutique, qu’ils démolissent pour construire le bâtiment actuel. Inauguré en 1946, le magasin Olivier & Frère possède au départ une boucherie et une épicerie. Au fil des années, le commerce s’agrandit afin de répondre aux exigences de plus en plus croissantes de la clientèle romualdienne et de ses environs. Avant-gardistes pour l’époque, les frères Olivier apportent un vent de modernité en installant dans leur épicerie des comptoirs réfrigérés pour conserver les denrées périssables.\n\n\nEn 1955-1956, le magasin familial est transformé en supermarché.\n\n​\n\nLe commerce qui est l’une des entreprises locales les plus prospères de Saint-Romuald représente un bel exemple de la vocation commerçante de l’artère nommée à l’époque rue Commerciale. C’est effectivement ici qu’entre les années 1900 et 1970 se développe le centre d’affaires de la Ville de Saint-Romuald. À l’époque, l’activité économique bouillonne et des entreprises de tout genre se côtoient. On y retrouve de nombreux commerces de services (cabinets de médecins, pharmaciens, notaires, etc.), des industries, des institutions bancaires, un bureau de poste ainsi que l’hôtel de ville de Saint-Romuald.\n\n​\nEn 1977, la Maison Olivier & Frère ferme ses portes suite à un incendie."
+     },
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-13",
+      "texte": "https://www.histoiresaintromuald.com/post/maison-olivier-fr%C3%A8re"
+     }
+    ],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {},
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-13"
+   },
+   "maison-boutin-bourassa": {
+    "id": "maison-boutin-bourassa",
+    "nom": "Maison Boutin-Bourassa",
+    "voie": "",
+    "adresse_actuelle": "143, rue Demers",
+    "designe_aujourdhui": "",
+    "etat": "debout",
+    "construit": "v. 1850",
+    "disparu": "",
+    "coord": {
+     "lat": 46.757264,
+     "lon": -71.237529,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "source": "SSR",
+    "personnages": "",
+    "resume": "",
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-13",
+      "texte": "Accroche : Joseph Bourassa père achète la propriété en 1859. Cette résidence à deux étages construite vers 1850 sur une terre appartenant à Benjamin Demers s’inscrit dans une architecture de conception québécoise. Ses fondations sont en pierre et l’ossature en bois. Au cours des années, elle a connu plusieurs modifications : les lucarnes, une partie de la grande galerie qui a été enlevée et l’annexion d’une nouvelle construction du côté droit de l’entrée principale vers 1910.\n\n\nJoseph Boutin dit Bourassa (1854-1943)\n\n\nIl est le fils de Joseph Boutin et de Charlotte Cantin et fils adoptif de Joseph Bourassa et de Geneviève Cantin. Il fait ses études au Collège de Lévis, au Séminaire de Québec et au Collège de Ste-Anne où il termine son cours classique en 1876. Par la suite, il obtient son diplôme de bachelier en droit à l'Université Laval. Le 20 mai 1880, il est admis à la pratique du notariat. Il a toujours exercé sa profession à Saint-Romuald.\n\n​\n\nLe 14 juin 1882, il épouse Ursule Cantin (1854-1928), fille de Narcisse Cantin et d’Ursule Cantin. Ils n’ont pas eu de descendance.\n\n​\n\nMe Boutin-Bourassa était aussi un homme politique. Il a été maire de Saint-Romuald de 1892 à 1897. Il tenta de devenir député de Lévis en 1908, mais sans succès. Il devint député du Parti libéral du Canada dans la circonscription fédérale de Lévis en 1911 et il est réélu en 1917 et en 1921. Le 1ᵉʳ septembre 1925, il est nommé membre de la Commission du Havre de Québec où il agit comme représentant de la rive-sud pendant cinq ans.\n\nIl décède à Saint-Romuald le 12 juillet 1943."
+     },
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-13",
+      "texte": "https://www.histoiresaintromuald.com/post/maison-boutin-bourassa"
+     }
+    ],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {},
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-13"
+   },
+   "maison-d-ecole": {
+    "id": "maison-d-ecole",
+    "nom": "Maison d'École",
+    "voie": "Saint-Jean-Baptiste",
+    "adresse_actuelle": "2211, rue Saint-Jean-Baptiste",
+    "designe_aujourdhui": "",
+    "etat": "debout",
+    "construit": "1885",
+    "disparu": "",
+    "coord": {
+     "lat": 46.757451,
+     "lon": -71.238268,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-13"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-13",
+      "texte": "Cette résidence à deux étages fût construite en 1885. Elle se situe sur un lot appartenant à Benjamin Demers. Il s’agit de l’ancienne maison d’école, un bâtiment institutionnel. Elle se caractérise par son toit pavillon en tôle à baguettes, orné de cinq lucarnes-pignon symétriques d’inspiration néo-gothique et sa galerie couverte. Elle était localisée, à l’origine, de l’autre côté de la rue dans le parc des Pionniers.\n\n​\n\nLe 8 août 1829, Julien Demers, cultivateur, et Geneviève Roberge, son épouse, cèdent gratuitement un terrain (aujourd’hui le parc des Pionniers) exclusivement destiné à l’érection d’une maison d’école.\n\n​\n\nMis à part sa vocation principale, la maison d’école remplissait autrefois plusieurs fonctions : comme cour de commissaires, tribunal pour les plaintes et pour les séances du conseil municipal. La maison d’école était le centre décisif du village.\n\n​\n\nEn 1853, un premier agrandissement est fait pour aménager une chapelle provisoire et recevoir le nouveau curé, Pierre-Télesphore Sax.\n\n​\n\nLa Commission scolaire d’Etchemin Village est fondée en 1856. À cette époque, on parlait de la Maison d’École N°1 et elle était destinée aux garçons.\n\n\nEn 1880, cinq Frères du Sacré-Cœur arrivent à Saint-Romuald pour s’occuper de l’enseignement des garçons. En attendant la construction du collège (qui sera prêt en 1884), les Frères « donnent les classes » dans la maison d’école.\n\n​\n\nEn raison du prolongement de la rue de l’Église, des travaux majeurs ont été réalisés sur le bâtiment en 1885, ce qui lui donna son apparence actuelle. Il a fallu couper la maison d’école en deux et la déplacer puisqu’elle se trouvait en partie sur le chemin projeté.\n\n​\n\n En 1886, les Frères du Sacré-Cœur quittent le collège. Les maîtresses d’école assument l’éducation des garçons jusqu’à l’arrivée des Frères Maristes en 1897. En septembre 1898, un incendie ravage le collège et l’enseignement se poursuit dans l’ancienne maison d’école jusqu’en 1900, fin de la reconstruction du collège.\n\nDans un rapport daté de février 1905, l’inspecteur d’école conclut que le terrain non clôturé n’était pas sécuritaire dû au danger potentiel du cap. Alors, les commissaires décident lors d’une séance de vendre la maison d’école à l’enchère publique.\n\n​\n\nLa dernière session des commissaires à la maison d’école eut lieu le 22 juillet 1907. Cette année-là, elle a déménagé à son emplacement actuel, lequel était la propriété de Damase Siméon Bilodeau depuis 1904."
+     },
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-13",
+      "texte": "https://www.histoiresaintromuald.com/post/maison-d-%C3%A9cole"
+     }
+    ],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {},
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-13"
+   },
+   "1596-cf": {
+    "coord": {
+     "lat": 46.747889,
+     "lon": -71.259757,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-14"
+    },
+    "_modifie_le": "2026-09-14",
+    "nom": "Maison MacReady",
+    "personnages": "Robert MacReady",
+    "designe_aujourdhui": "Résidence privée",
+    "construit": "v. 1860",
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-09-14",
+      "texte": "À l'origine, le lot abritait la résidence privée de Robert MacReady. sur le plan Goad nous voyons une maison en brique un peu plus grande que celle de McKensy.  Détruite lors d'un incendie, la demeure a fait place à un magasin général qu'il a fait construire et dont sa veuve a ensuite pris la relève. Dans les années 1950, le bâtiment a été transformé en école, pour finalement boucler la boucle et redevenir la résidence privée qu'il est aujourd'hui."
+     }
+    ],
+    "cadastre": {
+     "goad_feuillet": "14",
+     "goad_no": "35"
+    },
+    "adresses_anciennes": []
+   },
+   "35-goad": {
+    "id": "35-goad",
+    "nom": "35 : maison en bois - Goad",
+    "voie": "",
+    "adresse_actuelle": "",
+    "designe_aujourdhui": "",
+    "etat": "disparu",
+    "construit": "1876",
+    "disparu": "",
+    "coord": {
+     "lat": 46.743346,
+     "lon": -71.275789,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-14"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "15",
+     "goad_no": "35"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-14"
+   },
+   "40-goad": {
+    "id": "40-goad",
+    "nom": "40 : maison en bois - Goad",
+    "voie": "",
+    "adresse_actuelle": "",
+    "designe_aujourdhui": "",
+    "etat": "disparu",
+    "construit": "1876",
+    "disparu": "",
+    "coord": {
+     "lat": 46.743074,
+     "lon": -71.276046,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-14"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "15",
+     "goad_no": "40"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-14"
+   },
+   "32-goad": {
+    "id": "32-goad",
+    "nom": "32:  Dépendances en bois, remises et bâtiments secondaires non habités",
+    "voie": "",
+    "adresse_actuelle": "",
+    "designe_aujourdhui": "",
+    "etat": "disparu",
+    "construit": "1876",
+    "disparu": "",
+    "coord": {
+     "lat": 46.743614,
+     "lon": -71.275783,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-14"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "15",
+     "goad_no": "32"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-14"
+   },
+   "30-goad": {
+    "id": "30-goad",
+    "nom": "30: maison en bois - Goad",
+    "voie": "",
+    "adresse_actuelle": "",
+    "designe_aujourdhui": "",
+    "etat": "disparu",
+    "construit": "1876",
+    "disparu": "",
+    "coord": {
+     "lat": 46.743443,
+     "lon": -71.275402,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-14"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "15",
+     "goad_no": "30"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-14"
+   },
+   "ritchie-and-cull": {
+    "id": "ritchie-and-cull",
+    "nom": "Ritchie and cull",
+    "voie": "",
+    "adresse_actuelle": "",
+    "designe_aujourdhui": "",
+    "etat": "inconnu",
+    "construit": "",
+    "disparu": "",
+    "coord": {
+     "lat": 46.74418,
+     "lon": -71.275536,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-14"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "15"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-14"
+   },
+   "cours-a-bois-c-goad": {
+    "id": "cours-a-bois-c-goad",
+    "nom": ": Bois empilé; zones de stockage à haut risque de feu - Goad",
+    "voie": "",
+    "adresse_actuelle": "",
+    "designe_aujourdhui": "",
+    "etat": "disparu",
+    "construit": "1876",
+    "disparu": "",
+    "coord": {
+     "lat": 46.74434,
+     "lon": -71.271449,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-14"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "15",
+     "goad_no": "C"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-14"
+   },
+   "15-goad": {
+    "id": "15-goad",
+    "nom": "15 : maison en bois - Goad",
+    "voie": "",
+    "adresse_actuelle": "",
+    "designe_aujourdhui": "",
+    "etat": "disparu",
+    "construit": "",
+    "disparu": "",
+    "coord": {
+     "lat": 46.744754,
+     "lon": -71.270301,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-14"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "15",
+     "goad_no": "15"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-14"
+   },
+   "ours-a-bois-b-goad": {
+    "id": "ours-a-bois-b-goad",
+    "nom": "B:  Bois empilé; zones de stockage à haut risque de feu - Goad",
+    "voie": "",
+    "adresse_actuelle": "",
+    "designe_aujourdhui": "",
+    "etat": "disparu",
+    "construit": "1876",
+    "disparu": "",
+    "coord": {
+     "lat": 46.744827,
+     "lon": -71.271218,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-14"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "15",
+     "goad_no": "B"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-14"
+   },
+   "cours-a-bois-a-goad": {
+    "id": "cours-a-bois-a-goad",
+    "nom": "A : Bois empilé; zones de stockage à haut risque de feu - Goad",
+    "voie": "",
+    "adresse_actuelle": "",
+    "designe_aujourdhui": "",
+    "etat": "disparu",
+    "construit": "1876",
+    "disparu": "",
+    "coord": {
+     "lat": 46.745174,
+     "lon": -71.270059,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-14"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "15",
+     "goad_no": "A"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-14"
+   },
+   "albert-cove": {
+    "id": "albert-cove",
+    "nom": "Albert Cove - Goad",
+    "voie": "",
+    "adresse_actuelle": "",
+    "designe_aujourdhui": "",
+    "etat": "inconnu",
+    "construit": "",
+    "disparu": "",
+    "coord": {
+     "lat": 46.744519,
+     "lon": -71.274112,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-14"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "15"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-14"
+   },
+   "maison-julie-marie": {
+    "id": "maison-julie-marie",
+    "nom": "Maison Julie-Marie",
+    "voie": "",
+    "adresse_actuelle": "1616, chemin du Fleuve",
+    "designe_aujourdhui": "",
+    "etat": "debout",
+    "construit": "",
+    "disparu": "",
+    "coord": {
+     "lat": 46.748254,
+     "lon": -71.25896,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-14"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "lot": "523",
+     "lot_annee": "1879",
+     "goad_feuillet": "14",
+     "goad_no": "29"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-14"
+   },
+   "1610-chemin-du-fleuve": {
+    "id": "1610-chemin-du-fleuve",
+    "nom": "1610, Chemin du Fleuve",
+    "voie": "chemin du Fleuve",
+    "adresse_actuelle": "1610, Chemin du Fleuve",
+    "designe_aujourdhui": "",
+    "etat": "debout",
+    "construit": "",
+    "disparu": "",
+    "coord": {
+     "lat": 46.748371,
+     "lon": -71.258794,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-09-14"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "14",
+     "goad_no": "25"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-09-14"
+   }
   },
   "suivi-migration-ids-v1": {
    "corrections": 0,
