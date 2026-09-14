@@ -4,7 +4,7 @@
 window.LIEUX = {
   "format": "lieux-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-09-13",
+  "mis_a_jour": "2026-09-14",
   "note": "Couche « lieux » : un emplacement au sol, sa position, son état, et les maisons de recensement qui y ont été recensées année par année. Ne remplace jamais data/bussiere1990-data.js, qui reste la source publiée : un lieu portant source_ref hérite du titre, des personnages et du résumé de la brochure, et n'y ajoute que ce que le chercheur établit. Voir docs/LIEUX.md.",
   "lieux": [
     {
@@ -62,20 +62,20 @@ window.LIEUX = {
       "documents": []
     },
     {
-      "id": "1588-cf",
+      "id": "1596-cf",
       "nom": "Le magasin général McReady",
       "voie": "chemin du Fleuve",
-      "adresse_actuelle": "1588, chemin du Fleuve",
+      "adresse_actuelle": "1596, chemin du Fleuve",
       "designe_aujourdhui": "",
       "etat": "inconnu",
       "construit": "",
       "disparu": "",
       "coord": {
-        "lat": 46.747862,
-        "lon": -71.260098,
+        "lat": 46.747993,
+        "lon": -71.259741,
         "precision": "secteur",
         "pose_par": "interpolation entre le 1506 et le 1604, tous deux relevés à la main",
-        "pose_le": "2026-09-13"
+        "pose_le": "2026-09-14"
       },
       "source": "Patrick Blanchet",
       "personnages": "Famille McReady — Robert MacReady, marchand, puis sa veuve Éléonore ; le magasin général de la famille",
@@ -83,8 +83,8 @@ window.LIEUX = {
       "notes": [
         {
           "auteur": "Patrick Blanchet",
-          "date": "2026-09-13",
-          "texte": "Emplacement créé le 13 septembre 2026. La notice du 83, rue Saint-Damase donnait la famille McReady et son magasin général « au 1588, chemin du Fleuve » — mais c'est ici qu'ils habitaient, non rue Saint-Damase. L'adresse méritait donc un lieu à elle. La position n'est pas relevée : elle est interpolée entre le 1506 et le 1604, au prorata du numéro civique, et reste à replacer à l'atelier."
+          "date": "2026-09-14",
+          "texte": "La maison se tient au coin du chemin du Fleuve et de la rue Saint-Vincent, à l'emplacement du 1596, chemin du Fleuve d'aujourd'hui. C'est l'adresse que porte désormais ce lieu ; le 1588, que donnait la notice du 83, rue Saint-Damase, est conservé parmi les adresses anciennes.\n\nRobert MacReady y tient le magasin général aux recensements de 1871 et 1881. À sa mort, sa veuve Éléonore ne déménage pas : elle reprend le commerce et y est recensée marchande en 1891, avec neuf de leurs enfants.\n\nLa position n'est pas relevée. La rue Saint-Vincent ne figure dans aucune donnée du dépôt, et le point n'est qu'une interpolation entre le 1506 et le 1604 au prorata du numéro civique : il reste à poser sur le coin même, à l'atelier de la carte."
         }
       ],
       "occupations": [
@@ -113,13 +113,15 @@ window.LIEUX = {
           "division": "1",
           "no_maison": "504",
           "statut": "propose",
-          "confiance": "moyenne",
+          "confiance": "forte",
           "origine": "chercheur",
-          "motif": "Éléonore McReady, 56 a., MARCHANDE et chef de ménage, avec neuf enfants dont les âges répondent un à un à ceux de 1881 (Michel 21→31, Mary Jane 19→28, Emélie 16→25, Pierre 13→22, Éléonore 11→20, Emma 7→16, Alice 2→11). Robert est mort entre les deux recensements et sa veuve continue le commerce. L'identification du ménage est certaine ; qu'il soit resté au même bâtiment est une déduction, non un fait attesté.",
+          "motif": "Éléonore McReady, 56 a., MARCHANDE et chef de ménage, avec neuf enfants dont les âges répondent un à un à ceux de 1881 (Michel 21→31, Mary Jane 19→28, Emélie 16→25, Pierre 13→22, Éléonore 11→20, Emma 7→16, Alice 2→11). Robert est mort entre les deux recensements et sa veuve a continué le commerce — dans la même maison, établi par Patrick Blanchet le 14 septembre 2026.",
           "ajoute_le": "2026-09-13"
         }
       ],
-      "adresses_anciennes": [],
+      "adresses_anciennes": [
+        "1588, chemin du Fleuve"
+      ],
       "cadastre": {},
       "photos": [],
       "documents": []
