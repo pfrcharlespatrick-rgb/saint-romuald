@@ -184,19 +184,30 @@ l'indique alors, « pas encore versé au dépôt » — mais pas pour les visite
 
 ## Les plans anciens en surimpression
 
+> **La couche est vide depuis le 14 septembre 2026.** Les cinq plans qui s'y
+> trouvaient — le cadastre de 1879 et les feuilles 12 à 15 de Goad — ont été
+> retirés du dépôt avec leurs images, sur décision de Patrick : aucun n'avait pu
+> être calé de façon sûre, et un ancrage posé à l'œil sur une carte de recherche
+> est une erreur qui se propage à tout ce qu'on lit dessus. On les reposera
+> depuis les numéros de lot et les renvois Goad que Patrick consigne désormais
+> dans les notes des lieux — c'est-à-dire en partant du terrain connu, et non
+> d'un cadrage approché. **`docs/PLANS-ANCIENS.md`** garde les cotes d'archives,
+> le contenu de chaque feuille et tout ce que les calages successifs avaient
+> appris. Ce qui suit décrit le mécanisme, qui n'a pas bougé.
+
 `data/plans-data.js` → `window.PLANS`. Chaque plan est une image rangée dans
 `assets/plans/`, ancrée par **trois coins** — nord-ouest, nord-est, sud-ouest de
 l'image — ce qui permet de la tourner et de l'étirer pour l'amener sur le
 terrain (`lib/leaflet-pivote.js`, écrit pour ce projet : le site n'embarque que
 ce qu'il range lui-même dans `lib/`).
 
-Le premier plan versé est le **cadastre officiel de 1879** (« Plan officiel de
+Le premier plan versé avait été le **cadastre officiel de 1879** (« Plan officiel de
 la paroisse de St-Romuald d'Etchemin », 11 juin 1879), fourni par Patrick. Il
 donne les numéros de lots — ceux-là mêmes que les fiches de lieu consignent
 dans `cadastre.lot` — et, en renvoi, les numéros du cadastre seigneurial de la
 seigneurie de Lauzon.
 
-S'y ajoutent les **feuilles 12 à 15 des plans d'assurance-incendie de
+S'y étaient ajoutées les **feuilles 12 à 15 des plans d'assurance-incendie de
 Charles E. Goad** (« Quebec Coves. South Shore », mars 1876 — BAnQ,
 P600,S4,SS1,D67), fournies par Patrick. Échelle de 200 pieds au pouce, chaque
 bâtiment dessiné individuellement avec son numéro et son matériau (jaune =
@@ -255,22 +266,25 @@ enfler un fichier que tous les visiteurs chargent.
 
 ## Ce qui reste à faire
 
-1. **Replacer les 39 points à la main.** C'est le seul vrai travail restant, et
+1. **Replacer les points restants à la main.** C'est le seul vrai travail restant, et
    personne d'autre que Patrick ne peut le faire : lui seul sait où était le
    bâti démoli. Une soirée sur la carte, en glissant les repères.
 2. **La position de Longwood.** Le rapport de fouille archéologique donnerait la
    coordonnée exacte ; le point actuel n'est qu'un repère de secteur.
-3. **Rattacher les 19 lieux encore sans occupation** — le filtre « Sans
+3. **Rattacher les lieux encore sans occupation** — le filtre « Sans
    rattachement » de la carte les isole, et la recherche par nom de chef de
    ménage fait le reste.
-4. **Caler le cadastre de 1879** — le mécanisme est en place (voir « Les plans
-   anciens en surimpression »), il ne manque que le geste. Une fois calé, le
-   plan devient le meilleur guide pour replacer les points des lieux : les lots
-   y sont dessinés, il suffit de glisser chaque point sur le sien.
-5. **Ajuster le calage des feuilles Goad de 1876** — les feuilles 13, 14 et 15
-   sont versées avec un calage initial estimé ; reste à les ajuster aux
-   poignées dans l'atelier, puis à reporter les numéros de bâtiments dans les
-   champs `cadastre.goad_feuillet` et `goad_no` des fiches de lieu.
+4. **Consigner les numéros de lot et les renvois Goad** dans les notes des
+   lieux — champs `cadastre.lot`, `cadastre.goad_feuillet`, `cadastre.goad_no`.
+   C'est l'étape que Patrick a choisi de faire passer avant tout calage : un
+   plan calé sur des repères connus vaut mieux qu'un plan calé à l'œil, puis
+   corrigé indéfiniment.
+5. **Reposer les plans anciens**, une fois ces numéros en main — le mécanisme
+   est intact et `docs/PLANS-ANCIENS.md` dit ce qu'il faut retélécharger et ce
+   que les calages précédents avaient appris, échecs compris. Une fois calé, le
+   cadastre de 1879 devient le meilleur guide pour replacer les points des
+   lieux : les lots y sont dessinés, il suffit de glisser chaque point sur le
+   sien.
 6. **Le géocodage automatique** des adresses encore debout, quand un accès à
    Nominatim sera disponible — il n'est pas joignable depuis l'outillage
    actuel. Il ne remplacerait pas le placement à la main, il l'amorcerait mieux.
