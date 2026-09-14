@@ -435,6 +435,20 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .barre-atelier .barre-note{font-size:12.5px;color:var(--sepia);font-style:italic}
 .barre-atelier code,.pan-aide code{font-family:var(--etiq);font-size:12px;background:var(--regle-faible);padding:1px 5px}
 
+/* « Enregistrer dans le dépôt » — la poussée vers GitHub depuis la carte. */
+.barre-atelier .bouton-fort{background:var(--madder);border-color:var(--madder);color:#FFFFFE}
+.barre-atelier .bouton-fort[disabled]{opacity:.55;cursor:progress}
+.barre-atelier .bouton-discret{font-size:12px;padding:3px 9px;color:var(--sepia)}
+.depot-boite{flex:1 1 100%;display:flex;flex-direction:column;gap:6px;margin-top:4px;
+  padding-top:9px;border-top:1px solid var(--regle-faible)}
+.depot-boite label{font-size:12.5px;color:var(--sepia);max-width:78ch;text-wrap:pretty}
+.depot-ligne{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.depot-boite input{flex:1 1 280px;min-width:0;max-width:380px;font:inherit;font-size:13px;
+  padding:5px 9px;border:1px solid var(--regle);border-radius:var(--rayon);background:var(--surface);color:inherit}
+.depot-message{flex:1 1 100%;margin:4px 0 0;font-size:13px;color:var(--madder-encre)}
+.depot-message.en-echec{color:var(--madder);font-weight:600}
+.depot-message a{color:inherit}
+
 .carte-scene{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(280px,1fr);gap:16px;align-items:stretch}
 .carte-toile{height:520px;border:1px solid var(--regle);border-radius:var(--rayon);isolation:isolate;
   box-shadow:var(--ombre);background:var(--regle-faible)}

@@ -15,7 +15,10 @@
     lieux: [], maisons: [], mis_a_jour: '',
     filtre: '', q: '', selection: null,
     atelier: /[?&]atelier=1/.test(location.search),
-    poser: false, resultats: []
+    poser: false, resultats: [],
+    // « Enregistrer dans le dépôt » : demande de jeton ouverte, écriture en
+    // cours, et le dernier mot dit à Patrick.
+    depotJeton: false, depotEnCours: false, depotMessage: '', depotErreur: false, depotUrl: ''
   };
   var carte, coucheLieux, marqueurs = {};
 
@@ -555,10 +558,77 @@
     barre.innerHTML =
       '<button type="button" class="bouton' + (etat.poser ? ' actif' : '') + '" id="poser-lieu">' +
       (etat.poser ? 'Cliquez sur la carte…' : '+ Poser un lieu') + '</button>' +
+      '<button type="button" class="bouton bouton-fort" id="enregistrer-depot"' +
+      (etat.depotEnCours ? ' disabled' : '') + '>' +
+      (etat.depotEnCours ? 'Enregistrement…' : 'Enregistrer dans le dépôt') + '</button>' +
       '<button type="button" class="bouton" id="exporter-lieux">Télécharger data/lieux-data.js</button>' +
       '<span class="barre-note">' + locaux + ' lieu' + (locaux > 1 ? 'x' : '') + ' en travail local. ' +
-      'Ils partent aussi dans la sauvegarde de l\'atelier (clé <code>suivi-lieux</code>).</span>';
+      'Ils partent aussi dans la sauvegarde de l\'atelier (clé <code>suivi-lieux</code>).</span>' +
+      rendreDepot();
     document.querySelector('.carte-outils').insertAdjacentElement('afterend', barre);
+  }
+
+  /* « Enregistrer dans le dépôt » — le pan de la barre qui parle à GitHub.
+     Trois visages : la demande de jeton tant qu'il n'y en a pas, l'avancement
+     pendant l'écriture, et le renvoi vers la pull request une fois posée. */
+  function rendreDepot() {
+    var h = '';
+    if (etat.depotJeton) {
+      h += '<form class="depot-boite" id="depot-jeton-forme">' +
+        '<label for="depot-jeton">Jeton d\'accès GitHub — « fine-grained », limité à ce dépôt, ' +
+        'permissions <em>Contents</em> et <em>Pull requests</em> en lecture/écriture. ' +
+        'Il reste dans ce navigateur.</label>' +
+        '<span class="depot-ligne">' +
+        '<input type="password" id="depot-jeton" autocomplete="off" ' +
+        'placeholder="github_pat_… ou ghp_…">' +
+        '<button type="submit" class="bouton">Garder le jeton</button>' +
+        '<button type="button" class="bouton" id="depot-annuler">Annuler</button>' +
+        '</span></form>';
+    }
+    if (etat.depotMessage) {
+      h += '<p class="depot-message' + (etat.depotErreur ? ' en-echec' : '') + '">' + esc(etat.depotMessage) +
+        (etat.depotUrl ? ' <a href="' + esc(etat.depotUrl) + '" target="_blank" rel="noopener">Voir la demande</a>' : '') +
+        '</p>';
+    }
+    if (!etat.depotJeton && !etat.depotEnCours && DEPOT.jeton()) {
+      h += '<button type="button" class="bouton bouton-discret" id="depot-oublier">Oublier le jeton</button>';
+    }
+    return h;
+  }
+
+  function direDepot(message, options) {
+    var o = options || {};
+    etat.depotMessage = message;
+    etat.depotErreur = !!o.erreur;
+    etat.depotUrl = o.url || '';
+    rendreBarreAtelier();
+  }
+
+  function enregistrerDansDepot() {
+    if (etat.depotEnCours) return;
+    if (!DEPOT.jeton()) {
+      etat.depotJeton = true;
+      direDepot('');
+      var champ = document.getElementById('depot-jeton');
+      if (champ) champ.focus();
+      return;
+    }
+    etat.depotEnCours = true;
+    etat.depotJeton = false;
+    direDepot('Préparation…');
+    DEPOT.enregistrer(function (etape) {
+      if (etat.depotEnCours) direDepot(etape);
+    }).then(function (r) {
+      etat.depotEnCours = false;
+      direDepot('Enregistré. La demande de fusion a été ' + (r.miseAJour ? 'mise à jour' : 'ouverte') + '.', { url: r.url });
+    }).catch(function (e) {
+      etat.depotEnCours = false;
+      var message = 'Échec : ' + e.message;
+      if (e.status === 401 || e.status === 403) {
+        message += ' — le jeton est peut-être périmé ou trop restreint. « Oublier le jeton », puis recommencez.';
+      }
+      direDepot(message, { erreur: true });
+    });
   }
 
   // ── événements ───────────────────────────────────────────────────────────
@@ -596,9 +666,29 @@
       rendreControlePlans();
     });
 
+    // Le jeton saisi : on le garde, puis on enchaîne tout de suite sur
+    // l'enregistrement — c'est ce que Patrick voulait faire en cliquant.
+    document.body.addEventListener('submit', function (e) {
+      if (e.target.id !== 'depot-jeton-forme') return;
+      e.preventDefault();
+      var champ = document.getElementById('depot-jeton');
+      var v = champ ? champ.value.trim() : '';
+      if (!v) return;
+      if (!DEPOT.poserJeton(v)) { direDepot('Ce navigateur refuse de garder le jeton.', { erreur: true }); return; }
+      etat.depotJeton = false;
+      enregistrerDansDepot();
+    });
+
     document.body.addEventListener('click', function (e) {
       var t = e.target;
       if (t.id === 'poser-lieu') { etat.poser = !etat.poser; rendreBarreAtelier(); return; }
+      if (t.id === 'enregistrer-depot') { enregistrerDansDepot(); return; }
+      if (t.id === 'depot-annuler') { etat.depotJeton = false; direDepot(''); return; }
+      if (t.id === 'depot-oublier') {
+        DEPOT.oublierJeton();
+        direDepot('Jeton oublié. Il reste valide sur GitHub tant que vous ne l\'y révoquez pas.');
+        return;
+      }
       if (t.id === 'exporter-lieux') {
         LX.telecharger('lieux-data.js', LX.versFichierDonnees(etat.lieux), 'text/javascript');
         return;

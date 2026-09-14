@@ -161,8 +161,10 @@ data/bussiere1990-data.js ──────────────────
 
 carte.html?atelier=1 ──▶ localStorage « suivi-lieux »
                               │
-                              ├─▶ data/travail-personnel.json  (sauvegarde de l'atelier,
-                              │      bouton « Pousser vers GitHub » — la clé voyage avec le reste)
+                              ├─▶ data/travail-personnel.json  (bouton « Enregistrer dans
+                              │      le dépôt », sur la carte même — ou « Pousser vers
+                              │      GitHub » dans l'autre atelier : même branche,
+                              │      même fichier, même jeton)
                               │
                               └─▶ outils/lieux/fondre.mjs ──▶ data/lieux-data.js
 ```
@@ -171,7 +173,34 @@ Rien ne circule par magie : `fondre.mjs` verse le travail dans les données, et
 `generer-site.mjs` le propage aux fiches. Les deux sont idempotents et acceptent
 `--essai`.
 
+### Enregistrer sans quitter la carte
+
+`depot-github.js` donne à la barre d'atelier un bouton **« Enregistrer dans le
+dépôt »**. Il écrit `data/travail-personnel.json` sur la branche
+`atelier-sauvegarde` et ouvre — ou met à jour — une pull request. Jamais sur
+`main` : la sauvegarde d'un atelier est une proposition, pas une publication.
+
+Trois choses à savoir :
+
+- **Le jeton est commun aux deux ateliers** (`localStorage['suivi-github-token']`).
+  Saisi une fois ici ou dans « Suivi des maisons et familles », il sert aux deux.
+  Il faut un jeton *fine-grained* limité à ce dépôt, permissions **Contents** et
+  **Pull requests** en lecture/écriture.
+- **Le fichier part en entier**, toutes les clés du travail personnel réunies —
+  celles de la carte comme celles de l'autre atelier. Enregistrer depuis la carte
+  n'efface donc pas les corrections de recensement, et réciproquement. Les deux
+  listes `CLES_TRAVAIL` doivent rester d'accord.
+- **La branche n'est rembobinée sur `main` que si aucune pull request n'attend.**
+  Tant qu'une sauvegarde n'est pas fondue, l'enregistrement suivant s'empile
+  dessus au lieu de l'écraser.
+
+Les photographies restent hors de ce mécanisme — binaires et volumineuses,
+elles passent par « Télécharger une sauvegarde » dans l'autre atelier.
+
 ### Marche à suivre après une séance de travail
+
+Sur la carte : **« Enregistrer dans le dépôt »**, puis suivre le lien vers la
+pull request et la fondre. Ensuite, dans le dépôt :
 
 ```sh
 node outils/lieux/fondre.mjs --essai   # ce qui serait versé
@@ -181,6 +210,11 @@ node outils/generer-site.mjs           # propager aux fiches
 
 Sans cela, le travail reste visible dans le navigateur de Patrick — la fiche
 l'indique alors, « pas encore versé au dépôt » — mais pas pour les visiteurs.
+
+Le bouton « Télécharger data/lieux-data.js » reste à côté, pour les fois où l'on
+préfère passer le fichier de la main à la main. Attention alors : ce fichier est
+l'instantané du navigateur, et le dépôt a pu bouger depuis. Il se fusionne champ
+par champ, pas en remplacement.
 
 ## Les plans anciens en surimpression
 

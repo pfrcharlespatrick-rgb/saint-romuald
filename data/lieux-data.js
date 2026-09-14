@@ -66,15 +66,15 @@ window.LIEUX = {
       "nom": "Le magasin général McReady",
       "voie": "chemin du Fleuve",
       "adresse_actuelle": "1596, chemin du Fleuve",
-      "designe_aujourdhui": "",
+      "designe_aujourdhui": "Résidence privée",
       "etat": "debout",
-      "construit": "",
+      "construit": "v. 1860",
       "disparu": "",
       "coord": {
-        "lat": 46.747993,
-        "lon": -71.259741,
-        "precision": "secteur",
-        "pose_par": "interpolation entre le 1506 et le 1604, tous deux relevés à la main",
+        "lat": 46.747889,
+        "lon": -71.259757,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
         "pose_le": "2026-09-14"
       },
       "source": "Patrick Blanchet",
@@ -90,6 +90,11 @@ window.LIEUX = {
           "auteur": "Patrick Blanchet",
           "date": "2026-09-14",
           "texte": "Le bâtiment est toujours debout, mais modifié : ce n'est donc pas une reconstruction sur le terrain de l'ancien, et le 1596 d'aujourd'hui désigne bien la maison où les McReady tenaient leur magasin. La nature et la date des transformations restent à établir."
+        },
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-14",
+          "texte": "À l'origine, le lot abritait la résidence privée de Robert MacReady. sur le plan Goad nous voyons une maison en brique un peu plus grande que celle de McKensy.  Détruite lors d'un incendie, la demeure a fait place à un magasin général qu'il a fait construire et dont sa veuve a ensuite pris la relève. Dans les années 1950, le bâtiment a été transformé en école, pour finalement boucler la boucle et redevenir la résidence privée qu'il est aujourd'hui."
         }
       ],
       "occupations": [
@@ -127,7 +132,10 @@ window.LIEUX = {
       "adresses_anciennes": [
         "1588, chemin du Fleuve"
       ],
-      "cadastre": {},
+      "cadastre": {
+        "goad_feuillet": "14",
+        "goad_no": "35"
+      },
       "photos": [],
       "documents": []
     },
@@ -137,7 +145,7 @@ window.LIEUX = {
       "voie": "chemin du Fleuve",
       "adresse_actuelle": "1604, chemin du Fleuve",
       "designe_aujourdhui": "",
-      "etat": "inconnu",
+      "etat": "debout",
       "construit": "v.1847",
       "disparu": "",
       "coord": {
@@ -151,7 +159,13 @@ window.LIEUX = {
       "source_ref": "bussiere:1604-cf",
       "personnages": "Albert Forcade, navigateur (magasin général et bureau de poste, 1870-1892) ; famille Charest (« Victoria Magasin »), Auxilia Charest (jusqu'à la fin des années 1970)",
       "resume": "",
-      "notes": [],
+      "notes": [
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-09-14",
+          "texte": "maison en bois"
+        }
+      ],
       "occupations": [
         {
           "annee": "1871",
@@ -185,7 +199,10 @@ window.LIEUX = {
         }
       ],
       "adresses_anciennes": [],
-      "cadastre": {},
+      "cadastre": {
+        "goad_feuillet": "14",
+        "goad_no": "33"
+      },
       "photos": [],
       "documents": []
     },
@@ -1407,32 +1424,6 @@ window.LIEUX = {
       "documents": []
     },
     {
-      "id": "aa-1616-lot-523-goad-29",
-      "nom": "AA. 1616; lot 523; Goad 29",
-      "voie": "Chemin du Fleuve",
-      "adresse_actuelle": "",
-      "designe_aujourdhui": "Julie-Marie Dorval, prop. Boudoir aux Arômes",
-      "etat": "inconnu",
-      "construit": "",
-      "disparu": "",
-      "coord": {
-        "lat": 46.748174,
-        "lon": -71.259179,
-        "precision": "releve",
-        "pose_par": "Patrick Blanchet",
-        "pose_le": "2026-08-18"
-      },
-      "source": "Patrick Blanchet",
-      "personnages": "",
-      "resume": "",
-      "notes": [],
-      "occupations": [],
-      "adresses_anciennes": [],
-      "cadastre": {},
-      "photos": [],
-      "documents": []
-    },
-    {
       "id": "120-coterouge",
       "nom": "L'Anglican Christ'Church",
       "voie": "Côte Rouge",
@@ -1852,6 +1843,383 @@ window.LIEUX = {
       "occupations": [],
       "adresses_anciennes": [],
       "cadastre": {},
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "55",
+      "nom": "55 : maison en bois - Goad",
+      "voie": "",
+      "adresse_actuelle": "",
+      "designe_aujourdhui": "",
+      "etat": "disparu",
+      "construit": "1876",
+      "disparu": "",
+      "coord": {
+        "lat": 46.742765,
+        "lon": -71.276572,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-14"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": "",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "15",
+        "goad_no": "Goad"
+      },
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "35-goad",
+      "nom": "35 : maison en bois - Goad",
+      "voie": "",
+      "adresse_actuelle": "",
+      "designe_aujourdhui": "",
+      "etat": "disparu",
+      "construit": "1876",
+      "disparu": "",
+      "coord": {
+        "lat": 46.743346,
+        "lon": -71.275789,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-14"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": "",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "15",
+        "goad_no": "35"
+      },
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "40-goad",
+      "nom": "40 : maison en bois - Goad",
+      "voie": "",
+      "adresse_actuelle": "",
+      "designe_aujourdhui": "",
+      "etat": "disparu",
+      "construit": "1876",
+      "disparu": "",
+      "coord": {
+        "lat": 46.743074,
+        "lon": -71.276046,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-14"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": "",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "15",
+        "goad_no": "40"
+      },
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "32-goad",
+      "nom": "32:  Dépendances en bois, remises et bâtiments secondaires non habités",
+      "voie": "",
+      "adresse_actuelle": "",
+      "designe_aujourdhui": "",
+      "etat": "disparu",
+      "construit": "1876",
+      "disparu": "",
+      "coord": {
+        "lat": 46.743614,
+        "lon": -71.275783,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-14"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": "",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "15",
+        "goad_no": "32"
+      },
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "30-goad",
+      "nom": "30: maison en bois - Goad",
+      "voie": "",
+      "adresse_actuelle": "",
+      "designe_aujourdhui": "",
+      "etat": "disparu",
+      "construit": "1876",
+      "disparu": "",
+      "coord": {
+        "lat": 46.743443,
+        "lon": -71.275402,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-14"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": "",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "15",
+        "goad_no": "30"
+      },
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "ritchie-and-cull",
+      "nom": "Ritchie and cull",
+      "voie": "",
+      "adresse_actuelle": "",
+      "designe_aujourdhui": "",
+      "etat": "inconnu",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.74418,
+        "lon": -71.275536,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-14"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": "",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "15"
+      },
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "cours-a-bois-c-goad",
+      "nom": ": Bois empilé; zones de stockage à haut risque de feu - Goad",
+      "voie": "",
+      "adresse_actuelle": "",
+      "designe_aujourdhui": "",
+      "etat": "disparu",
+      "construit": "1876",
+      "disparu": "",
+      "coord": {
+        "lat": 46.74434,
+        "lon": -71.271449,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-14"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": "",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "15",
+        "goad_no": "C"
+      },
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "15-goad",
+      "nom": "15 : maison en bois - Goad",
+      "voie": "",
+      "adresse_actuelle": "",
+      "designe_aujourdhui": "",
+      "etat": "disparu",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.744754,
+        "lon": -71.270301,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-14"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": "",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "15",
+        "goad_no": "15"
+      },
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "ours-a-bois-b-goad",
+      "nom": "B:  Bois empilé; zones de stockage à haut risque de feu - Goad",
+      "voie": "",
+      "adresse_actuelle": "",
+      "designe_aujourdhui": "",
+      "etat": "disparu",
+      "construit": "1876",
+      "disparu": "",
+      "coord": {
+        "lat": 46.744827,
+        "lon": -71.271218,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-14"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": "",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "15",
+        "goad_no": "B"
+      },
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "cours-a-bois-a-goad",
+      "nom": "A : Bois empilé; zones de stockage à haut risque de feu - Goad",
+      "voie": "",
+      "adresse_actuelle": "",
+      "designe_aujourdhui": "",
+      "etat": "disparu",
+      "construit": "1876",
+      "disparu": "",
+      "coord": {
+        "lat": 46.745174,
+        "lon": -71.270059,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-14"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": "",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "15",
+        "goad_no": "A"
+      },
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "albert-cove",
+      "nom": "Albert Cove - Goad",
+      "voie": "",
+      "adresse_actuelle": "",
+      "designe_aujourdhui": "",
+      "etat": "inconnu",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.744519,
+        "lon": -71.274112,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-14"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": "",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "15"
+      },
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "maison-julie-marie",
+      "nom": "Maison Julie-Marie",
+      "voie": "",
+      "adresse_actuelle": "1616, chemin du Fleuve",
+      "designe_aujourdhui": "Julie-Marie Dorval, prop. Boudoir aux Arômes",
+      "etat": "debout",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.748254,
+        "lon": -71.25896,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-14"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": "",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "lot": "523",
+        "lot_annee": "1879",
+        "goad_feuillet": "14",
+        "goad_no": "29"
+      },
+      "photos": [],
+      "documents": []
+    },
+    {
+      "id": "1610-chemin-du-fleuve",
+      "nom": "1610, Chemin du Fleuve",
+      "voie": "chemin du Fleuve",
+      "adresse_actuelle": "1610, Chemin du Fleuve",
+      "designe_aujourdhui": "",
+      "etat": "debout",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.748371,
+        "lon": -71.258794,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-09-14"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": "",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "14",
+        "goad_no": "25"
+      },
       "photos": [],
       "documents": []
     }
