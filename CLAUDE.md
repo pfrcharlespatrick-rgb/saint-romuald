@@ -38,6 +38,30 @@ fichier de travail.
 les fichiers partent ainsi d'accord avec la main. L'opération est idempotente et
 `--essai` montre sans écrire.
 
+## Les lieux : la file de l'atelier de la carte se vide une fois versée
+
+L'atelier de la carte (`carte.html?atelier=1`) garde son travail sous
+`suivi-lieux`, dans le même `data/travail-personnel.json`. Contrairement aux
+corrections de recensement, **ce n'est pas une archive : c'est une file**. Une
+entrée versée par `outils/lieux/fondre.mjs` est consignée au registre `verse` de
+`data/lieux-data.js` (son empreinte) et **n'est plus jamais réappliquée** ; le
+navigateur la retire de son travail local dès qu'il voit le registre publié.
+Voir `docs/LIEUX.md`, « Le registre des versements ».
+
+Ce que cela impose :
+
+1. **Ne jamais fondre une sauvegarde de l'atelier les yeux fermés.** Lire d'abord
+   `node outils/lieux/fondre.mjs --essai`, et en particulier « La main a
+   retiré » : un rattachement ou une note qui s'en va doit être voulu.
+2. **Un travail intégré à la main** (un `lieux-data.js` téléchargé et fusionné
+   champ par champ) se déclare ensuite par
+   `node outils/lieux/fondre.mjs --tenir-pour-verse`, sinon la file revient.
+3. **Ne pas retirer d'entrée du registre `verse`**, même pour un lieu supprimé :
+   c'est elle qui dit au navigateur d'oublier.
+4. Les valeurs de `suivi-familles-corrections` se lisent **rognées**
+   (`atelier.mjs`) : « Peltier  » est « Peltier ». Le fichier, lui, n'est pas
+   réécrit.
+
 ## 1891 n'a qu'une division
 
 Le formulaire de 1891 n'a pas de case « division » : `recensement-1891-d1-data.js`

@@ -6,11 +6,25 @@
 //   localStorage        ce que Patrick vient d'établir et n'a pas encore versé
 // Le second se pose par-dessus le premier sans jamais l'écraser en place, et
 // il repart dans data/travail-personnel.json comme le reste de l'atelier.
+//
+// Le second étage est une file d'attente, pas une archive. Une fois qu'une
+// modification a été versée par outils/lieux/fondre.mjs, le dépôt le dit —
+// fiches/lieux.json publie un registre `verse`, une empreinte par lieu — et le
+// navigateur la retire de son travail local au chargement suivant. Sans cela,
+// une correction d'août reviendrait écraser en novembre ce qu'une autre main a
+// établi entre-temps dans le dépôt ; c'est arrivé, voir docs/LIEUX.md.
+//
+// Ce fichier est aussi chargé par fondre.mjs (Node) pour calculer les mêmes
+// empreintes : rien ici ne doit toucher au navigateur au moment du chargement.
 window.LX = (function () {
   'use strict';
 
   var CLE_TRAVAIL = 'suivi-lieux';
   var CLE_PLANS = 'suivi-plans';
+
+  // Les champs que le générateur calcule dans une occupation publiée : ils
+  // n'existent pas dans le travail local et ne comptent pas dans une comparaison.
+  var CALCULES = ['cle_maison', 'maisonnee'];
 
   var ETATS = {
     debout: { label: 'Encore debout', court: 'debout' },
@@ -49,6 +63,72 @@ window.LX = (function () {
   }
 
   function overlay() { return lire(CLE_TRAVAIL, '{}'); }
+
+  function trierCles(v) {
+    if (Array.isArray(v)) return v.map(trierCles);
+    if (v && typeof v === 'object') {
+      var o = {};
+      Object.keys(v).sort().forEach(function (k) { o[k] = trierCles(v[k]); });
+      return o;
+    }
+    return v;
+  }
+
+  /* L'empreinte d'une entrée du travail local : FNV-1a sur son JSON à clés
+     triées, sans la date de modification. C'est ce que fondre.mjs consigne
+     dans le registre `verse` quand il l'a versée, et ce que reconcilier()
+     compare pour savoir si elle a encore quelque chose à dire. `_supprime`
+     compte : retirer un lieu déjà versé est une décision de plus. */
+  function empreinte(entree) {
+    var propre = {};
+    Object.keys(entree).forEach(function (k) { if (k !== '_modifie_le' && k !== '_local') propre[k] = entree[k]; });
+    var s = JSON.stringify(trierCles(propre));
+    var h = 0x811c9dc5;
+    for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; }
+    return ('0000000' + h.toString(16)).slice(-8);
+  }
+
+  function sansCalcules(o) {
+    var c = {};
+    Object.keys(o).forEach(function (k) { if (CALCULES.indexOf(k) === -1) c[k] = o[k]; });
+    return c;
+  }
+
+  /* Un champ du travail local dit-il la même chose que le lieu publié ? Les
+     occupations se comparent sans les champs calculés et dans le même ordre ;
+     les documents publiés sont des fiches, le travail local des identifiants. */
+  function memeValeur(champ, local, publie) {
+    if (champ === 'occupations') {
+      var cle = function (o) { return [o.annee, o.division, o.no_maison].join('|'); };
+      var ordre = function (a, b) { return cle(a) < cle(b) ? -1 : cle(a) > cle(b) ? 1 : 0; };
+      local = (local || []).map(sansCalcules).sort(ordre);
+      publie = (publie || []).map(sansCalcules).sort(ordre);
+    } else if (champ === 'documents') {
+      publie = (publie || []).map(function (d) { return d && d.id ? d.id : d; });
+    }
+    if (publie === undefined || publie === null) publie = Array.isArray(local) ? [] : (typeof local === 'object' ? {} : '');
+    return JSON.stringify(trierCles(local)) === JSON.stringify(trierCles(publie));
+  }
+
+  /* Retire du travail local ce que le dépôt a déjà versé : une entrée dont
+     l'empreinte figure au registre `verse`, ou dont chaque champ dit déjà ce
+     que le lieu publié dit. Ce qui reste est ce qui attend encore d'être
+     enregistré — et rien d'autre. Renvoie le nombre d'entrées retirées. */
+  function reconcilier(pub) {
+    var o = overlay(), verse = pub.verse || {}, parId = {}, retires = 0;
+    (pub.lieux || []).forEach(function (l) { parId[l.id] = l; });
+    Object.keys(o).forEach(function (id) {
+      var e = o[id] || {}, v = verse[id];
+      if (v && v.empreinte === empreinte(e)) { delete o[id]; retires++; return; }
+      if (e._supprime) return;
+      var l = parId[id];
+      if (!l) return;
+      var champs = Object.keys(e).filter(function (k) { return k.charAt(0) !== '_' && k !== 'id'; });
+      if (champs.every(function (k) { return memeValeur(k, e[k], l[k]); })) { delete o[id]; retires++; }
+    });
+    if (retires) ecrire(CLE_TRAVAIL, o);
+    return retires;
+  }
 
   /* Enregistre une modification. `champs` est partiel : seuls les champs
      effectivement touchés sont conservés, exactement comme
@@ -139,16 +219,25 @@ window.LX = (function () {
   var cachePublie = null;
   function chargerPublie() {
     if (cachePublie) return cachePublie;
-    cachePublie = fetch('fiches/lieux.json')
+    // `no-cache` : on revalide auprès du serveur plutôt que de relire dix minutes
+    // durant une copie d'avant le dernier versement — c'est elle qui dit au
+    // navigateur ce qu'il peut oublier, autant qu'elle soit à jour.
+    cachePublie = fetch('fiches/lieux.json', { cache: 'no-cache' })
       .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-      .catch(function () { return { lieux: [], mis_a_jour: '' }; });
+      .catch(function () { return { lieux: [], mis_a_jour: '', verse: {}, indisponible: true }; });
     return cachePublie;
   }
 
   function charger() {
     return chargerPublie().then(function (pub) {
+      // Sans le fichier publié on ne réconcilie rien : on ne va pas retirer du
+      // travail local sur la foi d'une liste vide.
+      var verses = pub.indisponible ? 0 : reconcilier(pub);
       var lieux = fusionner(pub.lieux || [], overlay());
-      return { lieux: lieux, mis_a_jour: pub.mis_a_jour || '', publies: (pub.lieux || []).length };
+      return {
+        lieux: lieux, mis_a_jour: pub.mis_a_jour || '', publies: (pub.lieux || []).length,
+        verse: pub.verse || {}, verses: verses
+      };
     });
   }
 
@@ -294,13 +383,13 @@ window.LX = (function () {
      outils/lieux/fondre.mjs recompose depuis data/travail-personnel.json.
      Les champs hérités de Bussière (resume_source) ne sont pas réécrits — ils
      appartiennent à la source, pas à la couche de travail. */
-  function versFichierDonnees(lieux) {
+  function versFichierDonnees(lieux, verse) {
     var propres = lieux.map(function (l) {
       var c = {};
       ['id', 'nom', 'voie', 'adresse_actuelle', 'designe_aujourdhui', 'etat', 'construit', 'disparu',
         'coord', 'source', 'source_ref', 'personnages', 'resume', 'notes', 'occupations',
         'adresses_anciennes', 'cadastre', 'photos', 'documents'].forEach(function (k) {
-          if (l[k] !== undefined) c[k] = l[k];
+          if (l[k] !== undefined) c[k] = k === 'occupations' ? (l[k] || []).map(sansCalcules) : l[k];
         });
       return c;
     });
@@ -311,13 +400,18 @@ window.LX = (function () {
         format: 'lieux-saint-romuald', version: 1,
         mis_a_jour: new Date().toISOString().slice(0, 10),
         note: "Couche « lieux » : un emplacement au sol, sa position, son état, et les maisons de recensement qui y ont été recensées année par année. Ne remplace jamais data/bussiere1990-data.js, qui reste la source publiée. Voir docs/LIEUX.md.",
-        lieux: propres
+        lieux: propres,
+        // Le registre des versements voyage avec le fichier : un instantané qui
+        // le perdrait ferait revenir, au prochain chargement, tout ce que le
+        // navigateur avait le droit d'oublier.
+        verse: verse || {}
       }, null, 2) + ';\n';
   }
 
   return {
     ETATS: ETATS, STATUTS: STATUTS, PRECISIONS: PRECISIONS, CLE_TRAVAIL: CLE_TRAVAIL,
     esc: esc, slug: slug, nouvelId: nouvelId,
+    empreinte: empreinte, reconcilier: reconcilier,
     charger: charger, overlay: overlay, majLieu: majLieu, oublierLieu: oublierLieu,
     chargerMaisons: chargerMaisons, chercherMaisons: chercherMaisons,
     photosLocales: photosLocales, ajouterPhoto: ajouterPhoto, majPhoto: majPhoto, retirerPhoto: retirerPhoto,

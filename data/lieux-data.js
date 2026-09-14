@@ -1935,7 +1935,7 @@ window.LIEUX = {
     },
     {
       "id": "32-goad",
-      "nom": "32:  Dépendances en bois, remises et bâtiments secondaires non habités",
+      "nom": "32 : Dépendances en bois, remises et bâtiments secondaires non habités",
       "voie": "",
       "adresse_actuelle": "",
       "designe_aujourdhui": "",
@@ -1964,7 +1964,7 @@ window.LIEUX = {
     },
     {
       "id": "30-goad",
-      "nom": "30: maison en bois - Goad",
+      "nom": "30 : maison en bois - Goad",
       "voie": "",
       "adresse_actuelle": "",
       "designe_aujourdhui": "",
@@ -1993,7 +1993,7 @@ window.LIEUX = {
     },
     {
       "id": "ritchie-and-cull",
-      "nom": "Ritchie and cull",
+      "nom": "Ritchie and Cull",
       "voie": "",
       "adresse_actuelle": "",
       "designe_aujourdhui": "",
@@ -2021,7 +2021,7 @@ window.LIEUX = {
     },
     {
       "id": "cours-a-bois-c-goad",
-      "nom": ": Bois empilé; zones de stockage à haut risque de feu - Goad",
+      "nom": "C : Bois empilé; zones de stockage à haut risque de feu - Goad",
       "voie": "",
       "adresse_actuelle": "",
       "designe_aujourdhui": "",
@@ -2078,8 +2078,8 @@ window.LIEUX = {
       "documents": []
     },
     {
-      "id": "ours-a-bois-b-goad",
-      "nom": "B:  Bois empilé; zones de stockage à haut risque de feu - Goad",
+      "id": "cours-a-bois-b-goad",
+      "nom": "B : Bois empilé; zones de stockage à haut risque de feu - Goad",
       "voie": "",
       "adresse_actuelle": "",
       "designe_aujourdhui": "",
@@ -2166,7 +2166,7 @@ window.LIEUX = {
     {
       "id": "maison-julie-marie",
       "nom": "Maison Julie-Marie",
-      "voie": "",
+      "voie": "chemin du Fleuve",
       "adresse_actuelle": "1616, chemin du Fleuve",
       "designe_aujourdhui": "Julie-Marie Dorval, prop. Boudoir aux Arômes",
       "etat": "debout",
@@ -2196,9 +2196,9 @@ window.LIEUX = {
     },
     {
       "id": "1610-chemin-du-fleuve",
-      "nom": "1610, Chemin du Fleuve",
+      "nom": "1610, chemin du Fleuve",
       "voie": "chemin du Fleuve",
-      "adresse_actuelle": "1610, Chemin du Fleuve",
+      "adresse_actuelle": "1610, chemin du Fleuve",
       "designe_aujourdhui": "",
       "etat": "debout",
       "construit": "",
@@ -2223,5 +2223,243 @@ window.LIEUX = {
       "photos": [],
       "documents": []
     }
-  ]
+  ],
+  "verse": {
+    "55": {
+      "le": "2026-09-14",
+      "empreinte": "0f192612"
+    },
+    "aa-1616-lot-523-goad-29": {
+      "le": "2026-09-14",
+      "empreinte": "6f5f1f1c"
+    },
+    "1506-cf": {
+      "le": "2026-09-14",
+      "empreinte": "5310c2ae"
+    },
+    "1604-cf": {
+      "le": "2026-09-14",
+      "empreinte": "72412ef1"
+    },
+    "52-56-hardy": {
+      "le": "2026-09-14",
+      "empreinte": "c065c9a2"
+    },
+    "1633-cf": {
+      "le": "2026-09-14",
+      "empreinte": "0684e9d1"
+    },
+    "manoir-longwood": {
+      "le": "2026-09-14",
+      "empreinte": "4fcfca75"
+    },
+    "65-stdamase": {
+      "le": "2026-09-14",
+      "empreinte": "91c28068"
+    },
+    "83-stdamase": {
+      "le": "2026-09-14",
+      "empreinte": "c38b4e3d"
+    },
+    "1719-1720-cf": {
+      "le": "2026-09-14",
+      "empreinte": "6f82160d"
+    },
+    "1736-cf": {
+      "le": "2026-09-14",
+      "empreinte": "9706a308"
+    },
+    "1871-cf": {
+      "le": "2026-09-14",
+      "empreinte": "b8341b64"
+    },
+    "1900-cf": {
+      "le": "2026-09-14",
+      "empreinte": "c7f69435"
+    },
+    "120-coterouge": {
+      "le": "2026-09-14",
+      "empreinte": "3371b07b"
+    },
+    "1984-cf": {
+      "le": "2026-09-14",
+      "empreinte": "fd66d215"
+    },
+    "2039-2030-cf": {
+      "le": "2026-09-14",
+      "empreinte": "b00101cc"
+    },
+    "182-eglise": {
+      "le": "2026-09-14",
+      "empreinte": "7fc4b006"
+    },
+    "171-eglise": {
+      "le": "2026-09-14",
+      "empreinte": "55d7c99b"
+    },
+    "2052-cf": {
+      "le": "2026-09-14",
+      "empreinte": "7ddd587d"
+    },
+    "2104-cf": {
+      "le": "2026-09-14",
+      "empreinte": "6c041ab2"
+    },
+    "2111-cf": {
+      "le": "2026-09-14",
+      "empreinte": "8ef8df2a"
+    },
+    "2123-cf": {
+      "le": "2026-09-14",
+      "empreinte": "7e71f616"
+    },
+    "2175-cf": {
+      "le": "2026-09-14",
+      "empreinte": "22b02b7e"
+    },
+    "2172-cf": {
+      "le": "2026-09-14",
+      "empreinte": "5213621f"
+    },
+    "2190-cf": {
+      "le": "2026-09-14",
+      "empreinte": "e5577e41"
+    },
+    "2058-2060-cf": {
+      "le": "2026-09-14",
+      "empreinte": "fa5b29b1"
+    },
+    "2071-2065-cf": {
+      "le": "2026-09-14",
+      "empreinte": "1fd8fe63"
+    },
+    "65-college": {
+      "le": "2026-09-14",
+      "empreinte": "da48a98e"
+    },
+    "105-college": {
+      "le": "2026-09-14",
+      "empreinte": "613df8b5"
+    },
+    "2220-cf": {
+      "le": "2026-09-14",
+      "empreinte": "3ad5b53d"
+    },
+    "2219-2223-cf": {
+      "le": "2026-09-14",
+      "empreinte": "cb7dcc50"
+    },
+    "2229-cf": {
+      "le": "2026-09-14",
+      "empreinte": "82ab390c"
+    },
+    "2560-cf": {
+      "le": "2026-09-14",
+      "empreinte": "a5712455"
+    },
+    "2547-cf": {
+      "le": "2026-09-14",
+      "empreinte": "13e1ffe1"
+    },
+    "30-juvenat": {
+      "le": "2026-09-14",
+      "empreinte": "e71f93ad"
+    },
+    "2248-2256-cf": {
+      "le": "2026-09-14",
+      "empreinte": "d29fa323"
+    },
+    "2393-cf": {
+      "le": "2026-09-14",
+      "empreinte": "0233a88b"
+    },
+    "2416-cf": {
+      "le": "2026-09-14",
+      "empreinte": "c0f961d8"
+    },
+    "2426-cf": {
+      "le": "2026-09-14",
+      "empreinte": "b79d4578"
+    },
+    "2458-cf": {
+      "le": "2026-09-14",
+      "empreinte": "410c84ad"
+    },
+    "2479-cf": {
+      "le": "2026-09-14",
+      "empreinte": "82d881f0"
+    },
+    "1720-chemin-du-fleuve": {
+      "le": "2026-09-14",
+      "empreinte": "741f7772"
+    },
+    "305-rue-de-saint-romuald": {
+      "le": "2026-09-14",
+      "empreinte": "af80a52e"
+    },
+    "maison-olivier-frere": {
+      "le": "2026-09-14",
+      "empreinte": "d9dae1ab"
+    },
+    "maison-boutin-bourassa": {
+      "le": "2026-09-14",
+      "empreinte": "90c92580"
+    },
+    "maison-d-ecole": {
+      "le": "2026-09-14",
+      "empreinte": "b6751dc0"
+    },
+    "1596-cf": {
+      "le": "2026-09-14",
+      "empreinte": "f7d13b85"
+    },
+    "35-goad": {
+      "le": "2026-09-14",
+      "empreinte": "aea50c24"
+    },
+    "40-goad": {
+      "le": "2026-09-14",
+      "empreinte": "d2dc152f"
+    },
+    "32-goad": {
+      "le": "2026-09-14",
+      "empreinte": "e7b5cc92"
+    },
+    "30-goad": {
+      "le": "2026-09-14",
+      "empreinte": "ca93b213"
+    },
+    "ritchie-and-cull": {
+      "le": "2026-09-14",
+      "empreinte": "ce16f2e5"
+    },
+    "cours-a-bois-c-goad": {
+      "le": "2026-09-14",
+      "empreinte": "4bfa1041"
+    },
+    "15-goad": {
+      "le": "2026-09-14",
+      "empreinte": "cffe53fb"
+    },
+    "ours-a-bois-b-goad": {
+      "le": "2026-09-14",
+      "empreinte": "24f2153c"
+    },
+    "cours-a-bois-a-goad": {
+      "le": "2026-09-14",
+      "empreinte": "d9172a2c"
+    },
+    "albert-cove": {
+      "le": "2026-09-14",
+      "empreinte": "b2f0561f"
+    },
+    "maison-julie-marie": {
+      "le": "2026-09-14",
+      "empreinte": "3b11f831"
+    },
+    "1610-chemin-du-fleuve": {
+      "le": "2026-09-14",
+      "empreinte": "1d8a226d"
+    }
+  }
 };

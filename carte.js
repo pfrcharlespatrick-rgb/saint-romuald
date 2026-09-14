@@ -534,7 +534,11 @@
     document.getElementById('resume-carte').innerHTML =
       n + ' lieux, dont ' + rattaches + ' rattachés à au moins une maison de recensement. ' +
       places + ' portent une position, ' + releves + ' ont été posés à la main.' +
-      (locaux ? ' <b>' + locaux + ' modifié' + (locaux > 1 ? 's' : '') + ' dans ce navigateur et pas encore versé' + (locaux > 1 ? 's' : '') + ' au dépôt.</b>' : '');
+      (locaux ? ' <b>' + locaux + ' modifié' + (locaux > 1 ? 's' : '') + ' dans ce navigateur et pas encore versé' + (locaux > 1 ? 's' : '') + ' au dépôt.</b>' : '') +
+      // Ce que le dépôt vient de reconnaître comme versé n'attend plus rien
+      // ici : on le dit une fois, pour que le compte qui précède se comprenne.
+      (etat.verses ? ' <span class="verses">' + etat.verses + ' modification' + (etat.verses > 1 ? 's' : '') +
+        ' de ce navigateur ' + (etat.verses > 1 ? 'ont été versées' : 'a été versée') + ' au dépôt et n\'' + (etat.verses > 1 ? 'ont' : 'a') + ' plus à l\'être.</span>' : '');
 
     var aReplacer = places - releves;
     document.getElementById('avis-carte').innerHTML = aReplacer
@@ -690,7 +694,7 @@
         return;
       }
       if (t.id === 'exporter-lieux') {
-        LX.telecharger('lieux-data.js', LX.versFichierDonnees(etat.lieux), 'text/javascript');
+        LX.telecharger('lieux-data.js', LX.versFichierDonnees(etat.lieux, etat.verse), 'text/javascript');
         return;
       }
       var aller = t.closest && t.closest('[data-aller]');
@@ -869,6 +873,8 @@
   Promise.all([LX.charger(), LX.chargerMaisons(), LX.photosLocales()]).then(function (r) {
     etat.lieux = r[0].lieux;
     etat.mis_a_jour = r[0].mis_a_jour;
+    etat.verse = r[0].verse;
+    etat.verses = r[0].verses;
     etat.maisons = r[1];
     etat.photosLocales = r[2];
     dessinerMarqueurs();
