@@ -18,12 +18,23 @@ const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..
 
 const FICHIER = RACINE + '/data/travail-personnel.json';
 
+/* Les cases de l'atelier gardent les espaces qu'une frappe y laisse — « Peltier  »,
+   « 36  ». Ce n'est pas une décision, c'est du clavier : on rogne à la lecture,
+   sans toucher au fichier, pour que « Peltier » ne devienne jamais « Peltier  »
+   dans un recensement ni ne repasse pour un changement à chaque versement. */
+function rogner(entree) {
+  const propre = {};
+  for (const [k, v] of Object.entries(entree)) propre[k] = typeof v === 'string' ? v.trim() : v;
+  return propre;
+}
+
 let cache = null;
 export function corrections() {
   if (cache) return cache;
   try {
     const j = JSON.parse(fs.readFileSync(FICHIER, 'utf8'));
-    cache = (j.donnees || {})['suivi-familles-corrections'] || {};
+    const brut = (j.donnees || {})['suivi-familles-corrections'] || {};
+    cache = Object.fromEntries(Object.entries(brut).map(([id, e]) => [id, rogner(e)]));
   } catch (e) {
     // Pas de fichier de travail : rien n'est protégé, et ce n'est pas une erreur.
     cache = {};
