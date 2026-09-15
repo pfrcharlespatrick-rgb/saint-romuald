@@ -236,6 +236,9 @@ export function chargerDonnees() {
     filiation, manifeste, bussiere,
     liensDe, liensVers, evenementsParPersonne, evenementsParMenage, documentsParPersonne,
     concordancesParMaison,
-    lieux, lieuxParId, lieuxParMaison, lieuxMeta: { mis_a_jour: lieuxBrut.mis_a_jour || '', version: lieuxBrut.version || 0 }
+    lieux, lieuxParId, lieuxParMaison,
+    // `verse` : le registre de ce que fondre.mjs a versé depuis l'atelier de la
+    // carte — publié avec les lieux pour que le navigateur sache quoi oublier.
+    lieuxMeta: { mis_a_jour: lieuxBrut.mis_a_jour || '', version: lieuxBrut.version || 0, verse: lieuxBrut.verse || {} }
   };
 }

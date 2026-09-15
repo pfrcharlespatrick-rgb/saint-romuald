@@ -324,6 +324,7 @@ console.log(`fiches/maisons-index.json : ${maisonsIndex.length} maisons, ${(fs.s
 
 const cheminLieux = ecrireJson('fiches/lieux.json', {
   mis_a_jour: d.lieuxMeta.mis_a_jour,
+  verse: d.lieuxMeta.verse,
   lieux: lieuxSortie
 });
 const nAncres = lieuxSortie.filter((l) => l.coord).length;

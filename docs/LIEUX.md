@@ -197,15 +197,55 @@ Trois choses à savoir :
 Les photographies restent hors de ce mécanisme — binaires et volumineuses,
 elles passent par « Télécharger une sauvegarde » dans l'autre atelier.
 
+### Le registre des versements — la file se vide
+
+Le travail local est une **file d'attente, pas une archive**. C'est la leçon du
+14 septembre 2026 : le navigateur de Patrick portait encore, sous `suivi-lieux`,
+tout ce qu'il avait touché depuis août — quarante-trois positions replacées le
+13 septembre et déjà versées, cinq lieux créés en août avec leurs champs d'alors.
+Entre-temps, le dépôt avait avancé sur ces mêmes lieux : rattachements ajoutés,
+notes, un nom précisé. Rejouer la file telle quelle aurait **recréé un lieu
+supprimé, effacé trois rattachements et deux notes, ramené un nom d'avant**. La
+main l'emporte, oui — mais la main ne parle qu'une fois.
+
+Le mécanisme, en trois temps :
+
+1. **`fondre.mjs` consigne ce qu'il verse.** Pour chaque entrée appliquée, il
+   inscrit au registre `verse` de `data/lieux-data.js` son *empreinte* — un
+   condensé de son contenu, la date de modification exclue, `_supprime`
+   compris. Une entrée dont l'empreinte est déjà au registre est **sautée**,
+   quoi que le fichier de données dise depuis : elle a eu son tour.
+2. **Le registre part sur le site.** `generer-site.mjs` le recopie dans
+   `fiches/lieux.json`, que la carte et la fiche de lieu chargent en revalidant
+   auprès du serveur (`cache: 'no-cache'`).
+3. **Le navigateur oublie ce qui est versé.** Au chargement, `LX.reconcilier()`
+   retire du travail local toute entrée dont l'empreinte figure au registre —
+   ou dont chaque champ dit déjà ce que le lieu publié dit. La carte l'annonce
+   une fois (« N modifications de ce navigateur ont été versées au dépôt »), et
+   « N lieux en travail local » ne compte plus que ce qui attend vraiment.
+
+L'empreinte est calculée par le même code des deux côtés : `fondre.mjs` charge
+`lieux-commun.js` tel quel. Une entrée modifiée après son versement a une autre
+empreinte, donc elle repasse ; une entrée supprimée après versement aussi.
+
+**Un travail intégré à la main** — un fichier fusionné champ par champ hors de
+`fondre.mjs`, comme le 14 septembre — se déclare ensuite :
+
+```sh
+node outils/lieux/fondre.mjs --tenir-pour-verse   # consigne la file au registre, n'applique rien
+```
+
+Sans quoi la file reviendrait, intacte, au prochain enregistrement.
+
 ### Marche à suivre après une séance de travail
 
 Sur la carte : **« Enregistrer dans le dépôt »**, puis suivre le lien vers la
 pull request et la fondre. Ensuite, dans le dépôt :
 
 ```sh
-node outils/lieux/fondre.mjs --essai   # ce qui serait versé
-node outils/lieux/fondre.mjs           # verser
-node outils/generer-site.mjs           # propager aux fiches
+node outils/lieux/fondre.mjs --essai   # ce qui serait versé — lire « La main a retiré »
+node outils/lieux/fondre.mjs           # verser, et consigner au registre
+node outils/generer-site.mjs           # propager aux fiches, registre compris
 ```
 
 Sans cela, le travail reste visible dans le navigateur de Patrick — la fiche
@@ -214,7 +254,7 @@ l'indique alors, « pas encore versé au dépôt » — mais pas pour les visite
 Le bouton « Télécharger data/lieux-data.js » reste à côté, pour les fois où l'on
 préfère passer le fichier de la main à la main. Attention alors : ce fichier est
 l'instantané du navigateur, et le dépôt a pu bouger depuis. Il se fusionne champ
-par champ, pas en remplacement.
+par champ, pas en remplacement — puis on passe `--tenir-pour-verse`.
 
 ## Les plans anciens en surimpression
 
