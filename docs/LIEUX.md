@@ -156,7 +156,7 @@ data/bussiere1990-data.js ──────────────────
                                                      ▼
                               fiches/lieux.json ── carte.html, lieu.html
                               fiches/maison/*.json ─ maison.html  (champ « lieux »)
-                              fiches/personne/*.json ─ personne.html (champ « lieux »)
+                              fiches/personne/*/P*.json ─ personne.html (champ « lieux »)
                               fiches/maisons-index.json ─ recherche par nom
 
 carte.html?atelier=1 ──▶ localStorage « suivi-lieux »
