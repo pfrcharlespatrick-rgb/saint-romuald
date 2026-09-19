@@ -123,16 +123,35 @@ confirmées `--color-accent-700`, en cours `--color-accent-400`,
 à vérifier `--color-neutral-300`. Puis la légende chiffrée et le pourcentage de
 confirmées en Barlow Condensed 14 px `--color-accent-700`.
 
-Calculé sur la division affichée uniquement.
+Calculé sur la division affichée uniquement — et, en 1891, sur le territoire
+choisi par le filtre de territoire (voir ci-dessous), comme le compte du cartouche.
 
 ### 5. Filtres locaux
 
-Carte, grille `2fr 1.4fr auto` : nom de famille (filtre la division affichée),
-liste déroulante des professions (construite dynamiquement à partir des données
-corrigées, triée), bouton bascule « Enfants à l'école ».
+Carte, rangée en `flex-wrap` : nom de famille (filtre la division affichée,
+`flex:2 1 220px`), liste déroulante des professions (construite dynamiquement à
+partir des données corrigées, triée, `flex:1.4 1 180px`), puis les boutons
+bascule et le champ de page, qui passent à la ligne quand la largeur manque.
+
+- Bouton bascule « Enfants à l'école ».
+- **1891 seulement** : un bouton bascule à trois états, « Tout le territoire » →
+  « Terr. D1 » → « Terr. D2 », qui restreint la liste aux maisons dont
+  `division_reconstituee` vaut 1 ou 2 (`docs/DIVISIONS-1891.md`). `btn-primary`
+  quand un territoire est choisi, `btn-secondary` sinon ; l'infobulle rappelle que
+  la coupure est reconstituée. L'avancement, le cartouche et la pagination suivent
+  le filtre (438 maisons et 2 438 personnes en D1, 199 et 1 110 en D2). Le bouton
+  n'apparaît pas en 1871 et 1881, dont les divisions sont celles du manuscrit.
+- « Aller à la page du manuscrit » (les trois recensements) : un numéro de page,
+  puis « Aller » ou Entrée. L'atelier lève les filtres locaux, ouvre la page de
+  liste qui contient la **première maison dont une personne est inscrite à cette
+  page** (dans l'ordre du recenseur, corrections comprises), déplie la ou les
+  familles concernées et fait défiler jusqu'à la maison. En 1891, le territoire
+  choisi est gardé s'il contient une maison de cette page, levé sinon — et la
+  phrase de confirmation le dit. Une page sans personne, ou un champ vide,
+  produit un message en `--color-accent-900` sans rien changer à la liste.
 
 À ne pas confondre avec la recherche globale : celle-ci trouve et transporte,
-celle-là restreint la liste courante.
+celle-là restreint la liste courante — et le champ de page y navigue.
 
 ### 6. Barre d'édition (collante sous l'en-tête)
 
