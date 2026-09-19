@@ -229,8 +229,9 @@ recherche sur ce patronyme.
 2. **1891 n'a pas de tableau 3** (lieu de résidence) : impossible de confirmer où
    vivait chaque famille. Les numéros de maison de 1891 sont ceux de l'ordre du
    recenseur, pas des numéros civiques. L'avertissement à l'écran doit rester.
-3. **1891 division 2 est vide** mais déclarée disponible. Soit tu la retires de la
-   liste, soit tu affiches un état vide explicite.
+3. **1891 division 2 est vide, et le restera** : le formulaire de 1891 n'a pas de
+   case « division » (voir `DIVISIONS-1891.md`). L'atelier la déclare indisponible
+   et l'explique.
 4. **Deux bâtiments font doublon** dans l'annexe : « 1617-1619 » (Maison Louis
    Demers, celui qui porte la photo) et « 1616, chemin du Fleuve » (Maison de Louis
    Demers, créé automatiquement par le prototype). À faire trancher par Patrick, pas

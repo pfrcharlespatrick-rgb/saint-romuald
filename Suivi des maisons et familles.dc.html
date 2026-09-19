@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atelier — Saint-Romuald, suivi des maisons et familles</title>
 <script src="./support.js"></script>
 </head>
 <body>
@@ -548,6 +549,9 @@ a:hover{color:var(--color-accent-900)}
             <sc-if value="{{ maison.hasNoMs }}" hint-placeholder-val="{{ false }}">
               <span class="tag tag-outline" style="flex:none" title="Numéro porté en colonne 5 du manuscrit — ne correspond pas au numéro utilisé par l'application">{{ maison.noMsLabel }}</span>
             </sc-if>
+            <sc-if value="{{ maison.hasTerritoire }}" hint-placeholder-val="{{ false }}">
+              <span class="tag tag-outline" style="flex:none" title="{{ maison.territoireTitre }}">{{ maison.territoireLabel }}</span>
+            </sc-if>
             <sc-if value="{{ maison.msConforme }}" hint-placeholder-val="{{ false }}">
               <span style="flex:none;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--color-neutral-600)" title="Numéro vérifié en colonne 5 du manuscrit — conforme">n° vérifié</span>
             </sc-if>
@@ -830,7 +834,8 @@ a:hover{color:var(--color-accent-900)}
                     </table>
                     </div>
                   </sc-if>
-
+                </div>
+              </sc-if>
             </div>
           </sc-for>
         </div>
@@ -980,7 +985,7 @@ a:hover{color:var(--color-accent-900)}
     <div class="card blueprint" style="padding:var(--space-6);text-align:center">
       <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
       <div style="font-family:var(--font-heading);font-size:22px;font-weight:600;margin-bottom:6px">Aucune donnée pour l'instant</div>
-      <p style="font-size:14px;color:var(--color-neutral-700);margin:0">Recensement {{ activeYear }}, Division {{ activeDivision }} — déposez le fichier correspondant pour activer cet onglet.</p>
+      <p style="font-size:14px;color:var(--color-neutral-700);margin:0;text-wrap:pretty">{{ noDataTexte }}</p>
     </div>
   </div>
 </sc-if>
@@ -1003,7 +1008,10 @@ class Component extends DCLogic {
   MATERIAUX = ['Bois', 'Brique', 'Pierre'];
   LETTRE_MATERIAU = { 'Bois': 'B', 'Brique': 'Br', 'Pierre': 'P' };
   YEARS = ['1861', '1871', '1881', '1891', '1901', '1911'];
-  DATA_AVAILABLE = { '1871-2': true, '1871-1': true, '1881-1': true, '1881-2': true, '1891-1': true, '1891-2': true };
+  // 1891 n'a qu'une division : le formulaire n'a pas de case « division », le
+  // jeu « D1 » est la paroisse entière et « D2 » restera vide
+  // (docs/DIVISIONS-1891.md). L'onglet se déclare indisponible et l'explique.
+  DATA_AVAILABLE = { '1871-2': true, '1871-1': true, '1881-1': true, '1881-2': true, '1891-1': true, '1891-2': false };
   PARTIAL = {
     '1891-1': "Recensement de 1891 : le tableau 3 (lieu de résidence) ne survit pas — impossible de confirmer où vivait chaque famille. Les maisons sont numérotées selon l'ordre du recenseur (tableau 1) et rapprochées de 1881 par similarité de noms.",
     '1891-2': "Recensement de 1891 : le tableau 3 (lieu de résidence) ne survit pas — impossible de confirmer où vivait chaque famille. Les maisons sont numérotées selon l'ordre du recenseur (tableau 1) et rapprochées de 1881 par similarité de noms."
@@ -1992,7 +2000,14 @@ class Component extends DCLogic {
         y, dispo, absent: !dispo,
         cls: y === activeYear ? 'btn-primary' : 'btn-secondary',
         style: 'padding:3px 11px;font-size:14px;white-space:nowrap;letter-spacing:.02em' + (dispo ? '' : ';opacity:.42'),
-        go: () => this.setState({ activeYear: y, currentPage: 1 })
+        // Changer d'année garde la division courante quand elle existe pour
+        // cette année ; sinon on retombe sur la première division disponible
+        // (1891 n'en a qu'une) plutôt que sur un écran vide.
+        go: () => this.setState({
+          activeYear: y, currentPage: 1,
+          activeDivision: this.DATA_AVAILABLE[y + '-' + activeDivision] ? activeDivision
+            : (['1', '2'].find(d => this.DATA_AVAILABLE[y + '-' + d]) || activeDivision)
+        })
       };
     });
     const divisionTabs = ['1', '2'].map(d => ({
@@ -2132,6 +2147,9 @@ class Component extends DCLogic {
     const annexeCount = Object.values(hypotheses).reduce((t, l) => t + l.length, 0);
     const annexeVals = {
       showAnnexe, showMain: !showAnnexe && hasData, showMainNoData: !showAnnexe && !hasData,
+      noDataTexte: activeYear === '1891'
+        ? 'Le recensement de 1891 n’a qu’une division : le formulaire n’a pas de case « division », un seul recenseur a parcouru toute la paroisse, et « Div. 1 » contient ses 3 548 personnes. La coupure de 1871-1881 y est reconstituée maison par maison d’après les liens de filiation — chaque maison de 1891 porte son territoire (« terr. D1 » ou « terr. D2 »).'
+        : 'Recensement ' + activeYear + ', division ' + activeDivision + ' — aucun dépouillement n’existe pour cet onglet.',
       annexeBtnClass: showAnnexe ? 'btn-primary' : 'btn-secondary',
       annexeCountSuffix: annexeCount > 0 ? ' (' + annexeCount + ')' : '',
       onToggleAnnexe: () => this.setState(s => ({ showAnnexe: !s.showAnnexe })),
@@ -2388,6 +2406,13 @@ class Component extends DCLogic {
         logementIncertain: !!(lg0.incertain && !cm.materiau),
         hasNoMs: !!maison.no_famille_ms && maison.no_famille_ms !== maison.no_maison,
         noMsLabel: maison.no_famille_ms ? 'n° ms ' + maison.no_famille_ms : '',
+        // 1891 : territoire de la division de 1871-1881, reconstitué maison par
+        // maison (docs/DIVISIONS-1891.md). Une étiquette, l'appui en infobulle.
+        hasTerritoire: !!maison.division_reconstituee,
+        territoireLabel: maison.division_reconstituee ? 'terr. D' + maison.division_reconstituee : '',
+        territoireTitre: maison.division_reconstituee
+          ? 'Territoire de la division ' + maison.division_reconstituee + ' de 1871-1881, reconstitué — le recensement de 1891 ne distingue pas les divisions. ' + (maison.appui_division || '')
+          : '',
         msConforme: !!maison.no_famille_ms && maison.no_famille_ms === maison.no_maison,
         hasRemarqueNom: !!maison.remarque_nom,
         remarqueNom: maison.remarque_nom || '',

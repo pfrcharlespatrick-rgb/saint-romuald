@@ -398,7 +398,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .point-carte .adresse{font-family:var(--etiq);font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:var(--madder-encre)}
 .point-carte h3{margin:2px 0 4px;font-size:19px}
 .point-carte .personnages{font-size:13.5px;color:var(--sepia);margin:0 0 6px}
-.point-carte .resume{font-size:14.5px;margin:0 0 8px}
+.point-carte .resume{font-size:14.5px;margin:0 0 8px;overflow-wrap:anywhere}
 .rattachements{display:flex;flex-wrap:wrap;gap:8px}
 .rattachements a{font-family:var(--etiq);font-size:12px;letter-spacing:.04em;color:var(--encre);
   border:1px solid var(--regle);border-radius:999px;padding:4px 12px;display:inline-block;
@@ -566,7 +566,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .galerie figcaption{font-size:13px;color:var(--sepia);margin-top:5px}
 .galerie .credit{display:block;font-family:var(--etiq);font-size:11px;letter-spacing:.05em;text-transform:uppercase}
 .photo-locale img{border-style:dashed}
-.note-suite{border-left:2px solid var(--regle);padding-left:10px;color:var(--sepia)}
+.note-suite{border-left:2px solid var(--regle);padding-left:10px;color:var(--sepia);overflow-wrap:anywhere}
 .point-actif{border-color:var(--lien);border-width:2px}
 .aller-carte{font-family:var(--etiq);font-size:12px;letter-spacing:.04em;background:none;
   border:1px dashed var(--regle);color:var(--lien);padding:4px 10px;cursor:pointer}

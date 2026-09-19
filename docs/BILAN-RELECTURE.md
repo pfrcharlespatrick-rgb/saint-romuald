@@ -68,11 +68,13 @@ dédiées sont closes : colonnes 21-22 (sait lire / sait écrire), colonnes 17 �
 
 ### Ce qui reste
 
-1. **La division 2 n'existe pas.** `data/recensement-1891-d2-data.js` est une coquille
-   vide de 180 octets. Ce n'est pas une relecture qui manque, c'est le dépouillement
-   entier — la moitié de la paroisse en 1891. **C'est le plus gros trou des trois
-   recensements**, et le seul qui ne se comble pas par une vérification : il faut
-   dépouiller.
+1. **Il n'y a pas de division 2 à dépouiller.** Ce point disait « le plus gros trou
+   des trois recensements » ; c'était une fausse piste. Le formulaire de 1891 n'a pas
+   de case « division » : le fichier « D1 » est la paroisse entière (3 548 personnes,
+   un seul recenseur, 142 pages), et `data/recensement-1891-d2-data.js` restera une
+   coquille vide. La coupure de 1871-1881 y est **reconstituée maison par maison**
+   (`DIVISIONS-1891.md`, septembre 2026). Ce qui reste de ce côté : confirmer les
+   bornes au sol quand la carte aura placé assez de maisons de 1881 et de 1891.
 
 2. **41 maisons sans code de logement**, sur 637. Cases raturées, tachées ou vides au
    manuscrit, plus les quatre maisons de la page 79 dont le cadre est mal calé dans le
@@ -388,7 +390,8 @@ Ce qui vient ensuite, dans l'ordre où je le ferais :
    avant de toucher aux numéros du site.
 8. **La passe des professions de 1881 division 1** — 88 pages, colonne 14, méthode
    éprouvée sur la colonne 4 de 1891.
-9. **Le dépouillement de 1891 division 2**, s'il existe un manuscrit à dépouiller.
+9. ~~Le dépouillement de 1891 division 2~~ — sans objet : 1891 n'a qu'une division
+   (`DIVISIONS-1891.md`).
 
 ## Ce qu'il faut me fournir
 
