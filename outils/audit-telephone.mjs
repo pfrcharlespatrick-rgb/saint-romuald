@@ -147,6 +147,18 @@ function pagesAVisiter() {
   if (lieu && lieu.id) {
     pages.splice(4, 0, { cle: 'lieu', url: `lieu.html#${lieu.id}`, nom: 'Lieu' });
   }
+  // La liste complète des résultats se visite sur le nom de famille le plus
+  // porté de l'index : c'est là que la page est longue et que ses filtres
+  // ont le plus de métiers à offrir.
+  if (index && index.length) {
+    const frequences = new Map();
+    for (const [, nom] of index) {
+      const famille = String(nom).trim().split(/\s+/).pop();
+      frequences.set(famille, (frequences.get(famille) || 0) + 1);
+    }
+    const [nomFrequent] = [...frequences].sort((a, b) => b[1] - a[1])[0];
+    pages.splice(1, 0, { cle: 'recherche', url: `recherche.html?q=${encodeURIComponent(nomFrequent)}`, nom: 'Recherche' });
+  }
   return pages;
 }
 
@@ -266,8 +278,8 @@ const AIDE = `Audit du site public sur petit écran.
   node outils/audit-telephone.mjs [options]
 
   --largeurs 320,390,430   largeurs à contrôler (défaut : 320,390,430)
-  --page <clé>             une seule page (accueil, personne, maison, carte,
-                           lieu, stats, methode, filiations)
+  --page <clé>             une seule page (accueil, recherche, personne, maison,
+                           carte, lieu, stats, methode, filiations)
   --captures <dossier>     y déposer une copie d'écran par page et largeur
   --port <n>               port du serveur local (défaut : libre)
   --aide                   ce texte

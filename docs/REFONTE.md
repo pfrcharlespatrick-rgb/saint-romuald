@@ -305,7 +305,7 @@ Ne pas y réintroduire de valeur en dur.
 
 `node outils/audit-telephone.mjs` sert le site en local, l'ouvre dans un
 Chromium en contexte tactile à 320, 390 et 430px, et vérifie les règles
-ci-dessus sur les huit pages : débordement horizontal, taille des commandes
+ci-dessus sur les neuf pages : débordement horizontal, taille des commandes
 autonomes, barre de rubriques sur une ligne avec sa rubrique courante dans le
 champ, présence des ombres sur ce qui défile, plancher de lisibilité du texte.
 Il sort en code 1 au premier manquement, ne touche à rien, et prend ses
@@ -334,3 +334,30 @@ signalements :
   tuiles sur trois colonnes, entre 700 et 850px) vire au gris. Les filets sont
   donc portés par les cases elles-mêmes, en `box-shadow`, et le débord rogné
   par `overflow`.
+
+## La recherche et sa liste complète
+
+Septembre 2026. Le guichet de l'accueil cherche par mots dans n'importe quel
+ordre, classe les mots entiers avant le reste, accepte une année (« Roberge
+1881 ») et ne montre que vingt résultats. Pour voir le reste, `recherche.html` :
+la liste complète, groupée par recensement, avec l'année, la division, la page
+et la ligne du manuscrit, le métier, et un lien vers chaque fiche. Deux filtres,
+qui se comptent l'un dans l'autre — le recensement, et le métier parmi ceux
+présents dans les résultats. L'adresse porte tout
+(`recherche.html?q=roberge&annee=1881&metier=Journalier`) : un résultat se
+partage tel quel, et la ligne « … et N autres » du guichet y mène. Entrée dans
+le guichet de l'accueil y mène aussi.
+
+Le code de recherche — `preparer`, `chercher`, `noter`, `decouper` — vit dans
+`recherche-commun.js`, chargé par les deux pages avant leur script
+(`recherche.js` pour l'accueil, `recherche-page.js` pour la liste). Même façon
+de faire que `lieux-commun.js` : un objet global (`window.RECHERCHE`), pas de
+module ni de bundler, et rien qui touche au navigateur au chargement, si bien
+que Node peut le lire tel quel pour vérifier ses résultats. Ne pas dupliquer
+cette logique dans une page : la modifier là, une fois.
+
+La page reprend le vocabulaire du guichet — la même barre, posée sur le papier,
+et les mêmes lignes de résultat, devenues de vrais liens — et le sélecteur
+d'années de la carte pour ses filtres. Elle est auditée par
+`outils/audit-telephone.mjs` sur le nom de famille le plus porté de l'index,
+là où la liste est la plus longue.

@@ -188,7 +188,7 @@
       contenu.innerHTML = (
         '<span class="etiquette">Fiche de personne</span>' +
         '<h2 class="titre-vue">Aucune personne sélectionnée</h2>' +
-        '<p class="sous-titre">Cherchez une personne depuis <a href="index.html">l\'accueil</a> pour ouvrir sa fiche.</p>'
+        '<p class="sous-titre">Cherchez une personne depuis <a href="index.html">l\'accueil</a> ou la <a href="recherche.html">liste complète des résultats</a> pour ouvrir sa fiche.</p>'
       );
       return;
     }
