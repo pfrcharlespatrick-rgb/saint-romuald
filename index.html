@@ -32,12 +32,12 @@
     <h2 class="ouverture-titre">Ceux qui vivaient le long du chemin du Fleuve</h2>
     <p class="ouverture-lead">Les recensements nominatifs de New Liverpool et de Saint-Romuald, dépouillés ligne à ligne et relus au manuscrit. Une personne, une maison, une trajectoire d'un recensement à l'autre — avec ce qui est établi et ce qui reste incertain.</p>
 
-    <form class="recherche-bloc" role="search" onsubmit="return false">
+    <form class="recherche-bloc" role="search" action="recherche.html" method="get">
       <label for="q"><span class="etiquette">Chercher dans les trois recensements</span></label>
       <div class="guichet">
         <div class="champ-recherche">
           <svg class="loupe" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.4 15.4 21 21"/></svg>
-          <input id="q" type="search" placeholder="Un nom, un métier… essayez « Lee » ou « navigateur »" autocomplete="off">
+          <input id="q" name="q" type="search" placeholder="Un nom, un métier… essayez « Lee » ou « navigateur »" autocomplete="off">
         </div>
         <div class="resultats" id="resultats"></div>
       </div>
@@ -86,6 +86,7 @@
   </span>
 </div></footer>
 
+<script src="recherche-commun.js"></script>
 <script src="recherche.js"></script>
 <script src="nav.js"></script>
 </body>
