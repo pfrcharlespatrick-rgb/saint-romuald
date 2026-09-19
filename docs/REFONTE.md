@@ -173,8 +173,9 @@ partie publique (la maquette est en HTML/CSS/JS nu — c'est suffisant).
 - **Champs par année** : une case absente peut vouloir dire « relevé vide »,
   « pas encore dépouillé » ou « hors formulaire ». `SCHEMA.md` fait foi ;
   l'écran Méthode de la maquette montre comment l'afficher honnêtement.
-- **1891 division 2 n'est pas dépouillée** (fichier quasi vide). Origines et
-  religion absentes du dépouillement 1881. Ne pas « corriger » ces vides.
+- **1891 n'a qu'une division** : le fichier « D2 » restera vide, ce n'est pas un
+  manque (`docs/DIVISIONS-1891.md`). Origines et religion absentes du
+  dépouillement 1881. Ne pas « corriger » ces vides.
 - **Les remarques sont une richesse, pas du bruit** : 1 715 lignes annotées en
   1881, 338 incertaines conservant la lecture d'origine. Les afficher en
   marginalia sur les fiches.

@@ -194,6 +194,11 @@
     }
     var m = id.match(/^(\d{4})-D(\d)-/);
     if (!m) { rendreErreur('Identifiant de personne invalide : ' + id); return; }
+    if (m[1] === '1891' && m[2] === '2') {
+      rendreErreur('Le recensement de 1891 n’a qu’une division : toutes ses personnes sont sous « 1891-D1 ». ' +
+        'La coupure de 1871-1881 y est reconstituée maison par maison, et chaque fiche de 1891 dit son territoire.');
+      return;
+    }
     contenu.innerHTML = '<p class="chargement">Chargement de la fiche…</p>';
     chargerLot(m[1] + '-D' + m[2])
       .then(function (lot) {
