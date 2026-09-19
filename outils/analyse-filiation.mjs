@@ -30,6 +30,19 @@
  *    l'exception, pas la règle ; la tolérance est donc large, ce qui ouvre la
  *    porte aux homonymes. D'où le poids donné au voisinage domestique.
  *
+ * Ce que la main a tranché est repris tel quel
+ * ---------------------------------------------
+ * L'atelier et l'annexe des filiations gardent dans data/travail-personnel.json
+ * les rapprochements que Patrick a confirmés (suivi-liens) ou écartés
+ * (suivi-filiation-rejets). Le programme les relit à chaque recalcul, avant
+ * de retenir quoi que ce soit : un lien confirmé est retenu d'office, à la
+ * place de ce que le calcul aurait choisi pour l'une ou l'autre des deux
+ * personnes, et sort avec l'origine « main » ; un lien écarté n'est jamais
+ * retenu — le candidat suivant prend sa place — et reste consultable sous
+ * `ecartes`. Les événements se déduisent de l'ensemble ainsi tranché. C'est ce
+ * qui fait qu'une décision de la main survit au recalcul : elle en est une
+ * entrée, pas une retouche après coup. Voir docs/FILIATION.md.
+ *
  * Usage : node outils/analyse-filiation.mjs
  * Écrit  : data/filiation-data.js
  */
@@ -40,6 +53,7 @@ import { fileURLToPath } from 'node:url';
 import {
   clesPrenom, clePatronyme, clesIndex, similarPatronyme, similarPrenom, ageEnAnnees, normaliser,
 } from './noms.mjs';
+import { resoudreLiens, rejets as rejetsAtelier } from './relecture-1881/atelier.mjs';
 
 const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -261,7 +275,7 @@ function scorerCouple(avant, apres, ecart) {
  *           confirme chacun de ses membres.
  * Passe 3 : attribution, au mieux-disant, en gardant les concurrents.
  */
-function rapprocher(personnesAvant, personnesApres, ecart) {
+function rapprocher(personnesAvant, personnesApres, ecart, main = { forces: [], rejetes: new Set() }) {
   const parPatronyme = new Map();
   for (const p of personnesApres) {
     if (!p.clePatronyme) continue;
@@ -315,16 +329,42 @@ function rapprocher(personnesAvant, personnesApres, ecart) {
     }
   }
 
-  // Passe 3 — attribution. Le meilleur couple gagne ; les autres restent
-  // consultables comme concurrents, jamais supprimés en silence.
+  // Passe 3 — attribution. La main d'abord : un rapprochement confirmé dans
+  // l'atelier est retenu avant tout calcul, et prend la place de ce que le
+  // calcul aurait choisi pour l'une ou l'autre des deux personnes. Un
+  // rapprochement écarté à la main n'est jamais retenu — le candidat suivant,
+  // s'il en est un, prend sa place. Puis le meilleur couple gagne ; les autres
+  // restent consultables comme concurrents, jamais supprimés en silence.
   couples.sort((a, b) => b.score - a.score);
   const prisAvant = new Map();
   const prisApres = new Map();
   const retenus = [];
+  const ecartes = [];
   const concurrents = new Map();
 
+  const parPaire = new Map(couples.map(c => [`${c.avant.id}__${c.apres.id}`, c]));
+  for (const f of main.forces) {
+    const calcule = parPaire.get(`${f.avant.id}__${f.apres.id}`);
+    const c = calcule || {
+      avant: f.avant, apres: f.apres, compagnons: 0,
+      motifs: ['aucun indice calculé : le rapprochement ne tient qu\'à la main'],
+    };
+    c.score = 1;
+    c.main = true;
+    // Un lien que rien ne corrobore — ni nom, ni âge, ni ménage — est retenu
+    // quand même, mais dit comme tel : c'est souvent un identifiant qui a
+    // glissé depuis la confirmation, et il faut que ça se voie.
+    if (!calcule) c.sansIndice = true;
+    c.motifs = [...c.motifs, `rapprochement confirmé à la main dans l'atelier${f.note ? ' — ' + f.note : ''}`];
+    prisAvant.set(c.avant.id, c);
+    prisApres.set(c.apres.id, c);
+    retenus.push(c);
+  }
+
   for (const c of couples) {
+    if (c.main) continue; // déjà retenu, par la main
     if (c.score < SEUILS.faible) continue;
+    if (main.rejetes.has(`${c.avant.id}__${c.apres.id}`)) { ecartes.push(c); continue; }
     if (prisAvant.has(c.avant.id) || prisApres.has(c.apres.id)) {
       const detenteur = prisAvant.get(c.avant.id);
       if (detenteur && c.score >= detenteur.score - 0.12) {
@@ -344,6 +384,7 @@ function rapprocher(personnesAvant, personnesApres, ecart) {
   for (const c of retenus) {
     c.score = Math.min(1, c.score);
     c.concurrents = concurrents.get(c.avant.id) || [];
+    if (c.main) { c.homonymie = false; continue; } // la main a tranché : rien à signaler
     // Un concurrent quasiment à égalité veut dire que le programme a tranché
     // entre deux homonymes sur presque rien. Le dire franchement plutôt que
     // d'afficher une confiance « forte » qui n'est pas méritée.
@@ -354,7 +395,7 @@ function rapprocher(personnesAvant, personnesApres, ecart) {
       c.motifs.push(`homonyme de force comparable dans le même recensement — le choix entre les deux ne repose pas sur les données disponibles`);
     }
   }
-  return retenus;
+  return { retenus, ecartes };
 }
 
 function niveau(score, homonymie) {
@@ -370,6 +411,23 @@ function resumer(p) {
   if (p.age != null) bouts.push(`${p.age} ans`);
   if (p.profession) bouts.push(p.profession);
   return `${bouts.join(', ')} — ${p.annee} D${p.division}, maison ${p.no_maison}`;
+}
+
+/** Un rapprochement que la main a écarté : consigné pour mémoire, avec le
+    score que le calcul lui aurait donné, jamais retenu. */
+function lienEcarte(l, intervalle) {
+  return {
+    de: l.avant.id,
+    vers: l.apres.id,
+    intervalle,
+    score: Math.round(l.score * 100) / 100,
+    confiance: niveau(l.score, false),
+    origine: 'analyse',
+    ecarte: true,
+    motifs: [...l.motifs, 'rapprochement écarté à la main dans l\'annexe des filiations'],
+    resume_de: resumer(l.avant),
+    resume_vers: resumer(l.apres),
+  };
 }
 
 /* ─── Événements ─────────────────────────────────────────────────────── */
@@ -574,6 +632,19 @@ function main() {
   const { personnes, menages } = extrairePersonnes(bac);
   const anomalies = verifierSexes(personnes);
 
+  /* La main, lue avant tout calcul : les rapprochements confirmés dans
+     l'atelier ou l'annexe des filiations, et ceux qui y ont été écartés. */
+  const parId = new Map(personnes.map(p => [p.id, p]));
+  const positions = new Map(personnes.map(p => [`${p.annee}|${p.division}|${p.page_ms}|${p.ligne}`, p.id]));
+  const { resolus: liensMain, laisses: liensLaisses } = resoudreLiens(positions, id => parId.has(id));
+  const rejetes = rejetsAtelier();
+  process.stderr.write(`Main : ${liensMain.length} rapprochement(s) confirmé(s), ${rejetes.size} écarté(s)\n`);
+  for (const x of liensLaisses) process.stderr.write(`  lien laissé — ${x}\n`);
+  const forcesEntre = (anneeDe, anneeVers) => liensMain
+    .filter(r => r.de.startsWith(anneeDe + '-') && r.vers.startsWith(anneeVers + '-'))
+    .map(r => ({ avant: parId.get(r.de), apres: parId.get(r.vers), note: r.note }));
+  const ecartes = [];
+
   const parAnnee = new Map();
   for (const p of personnes) {
     if (!parAnnee.has(p.annee)) parAnnee.set(p.annee, []);
@@ -595,8 +666,9 @@ function main() {
     const intervalle = `${anneeAvant}-${anneeApres}`;
     process.stderr.write(`Rapprochement ${intervalle} : ${avant.length} → ${apres.length} personnes…\n`);
 
-    const retenus = rapprocher(avant, apres, ecart);
-    process.stderr.write(`  ${retenus.length} lien(s) retenu(s)\n`);
+    const { retenus, ecartes: ecartesIci } = rapprocher(avant, apres, ecart, { forces: forcesEntre(anneeAvant, anneeApres), rejetes });
+    process.stderr.write(`  ${retenus.length} lien(s) retenu(s), dont ${retenus.filter(l => l.main).length} de la main ; ${ecartesIci.length} écarté(s) par la main\n`);
+    ecartes.push(...ecartesIci.map(l => lienEcarte(l, intervalle)));
 
     for (const l of retenus) {
       liens.push({
@@ -606,7 +678,8 @@ function main() {
         score: Math.round(l.score * 100) / 100,
         confiance: niveau(l.score, l.homonymie),
         homonymie: l.homonymie || undefined,
-        origine: 'analyse',
+        origine: l.main ? 'main' : 'analyse',
+        sans_indice: l.sansIndice || undefined,
         motifs: l.motifs,
         concurrents: l.concurrents,
         resume_de: resumer(l.avant),
@@ -635,8 +708,9 @@ function main() {
     const intervalle = `${premiere}-${derniere}`;
     process.stderr.write(`Rapprochement ${intervalle} par-dessus ${annees[1]} : ${orphelinsAvant.length} → ${orphelinsApres.length} personnes sans rattachement…\n`);
 
-    const retenus = rapprocher(orphelinsAvant, orphelinsApres, ecart);
-    process.stderr.write(`  ${retenus.length} lien(s) retenu(s)\n`);
+    const { retenus, ecartes: ecartesIci } = rapprocher(orphelinsAvant, orphelinsApres, ecart, { forces: forcesEntre(premiere, derniere), rejetes });
+    process.stderr.write(`  ${retenus.length} lien(s) retenu(s), dont ${retenus.filter(l => l.main).length} de la main ; ${ecartesIci.length} écarté(s) par la main\n`);
+    ecartes.push(...ecartesIci.map(l => lienEcarte(l, intervalle)));
 
     for (const l of retenus) {
       liens.push({
@@ -647,7 +721,8 @@ function main() {
         score: Math.round(l.score * 100) / 100,
         confiance: niveau(l.score, l.homonymie),
         homonymie: l.homonymie || undefined,
-        origine: 'analyse',
+        origine: l.main ? 'main' : 'analyse',
+        sans_indice: l.sansIndice || undefined,
         motifs: [...l.motifs, `absent du recensement de ${annees[1]} — rapprochement établi par-dessus`],
         concurrents: l.concurrents,
         resume_de: resumer(l.avant),
@@ -658,6 +733,18 @@ function main() {
       .filter(e => e.type !== 'disparition' && e.type !== 'arrivee'));
   }
 
+  /* Le calcul ne donne jamais deux liens sortants ou entrants à une même
+     personne ; la main, elle, peut contredire le calcul d'un intervalle à
+     l'autre. On le dit plutôt que de le taire. */
+  const sortants = new Map(), entrants = new Map();
+  for (const l of liens) {
+    sortants.set(l.de, (sortants.get(l.de) || 0) + 1);
+    entrants.set(l.vers, (entrants.get(l.vers) || 0) + 1);
+  }
+  for (const [id, n] of sortants) if (n > 1) process.stderr.write(`  attention : ${id} a ${n} liens sortants — la main et le calcul ne s'accordent pas, à trancher dans l'annexe des filiations\n`);
+  for (const [id, n] of entrants) if (n > 1) process.stderr.write(`  attention : ${id} a ${n} liens entrants — la main et le calcul ne s'accordent pas, à trancher dans l'annexe des filiations\n`);
+  for (const l of liens) if (l.sans_indice) process.stderr.write(`  attention : lien tenu par la main seule, sans aucun indice calculé — ${l.resume_de} → ${l.resume_vers} ; à vérifier dans l'annexe des filiations\n`);
+
   const comptes = {
     personnes: personnes.length,
     menages: menages.size,
@@ -667,6 +754,8 @@ function main() {
     liens_faible: liens.filter(l => l.confiance === 'faible').length,
     liens_homonymie: liens.filter(l => l.homonymie).length,
     liens_par_dessus: liens.filter(l => l.saut).length,
+    liens_main: liens.filter(l => l.origine === 'main').length,
+    liens_ecartes: ecartes.length,
   };
   for (const t of ['menage_continu', 'veuvage', 'essaimage', 'disparition', 'arrivee', 'age_incoherent']) {
     comptes[t] = evenements.filter(e => e.type === t).length;
@@ -676,11 +765,12 @@ function main() {
     format: 'filiation-saint-romuald',
     version: 1,
     genere_le: new Date().toISOString().slice(0, 10),
-    methode: 'Rapprochement automatique par patronyme, prénom, progression de l\'âge et corroboration domestique. Aucun lien n\'est une preuve : chacun porte ses indices et doit être validé par le chercheur.',
+    methode: 'Rapprochement automatique par patronyme, prénom, progression de l\'âge et corroboration domestique. Aucun lien n\'est une preuve : chacun porte ses indices et doit être validé par le chercheur. Les rapprochements confirmés à la main dans l\'atelier sont repris tels quels (origine « main ») ; ceux que la main a écartés ne sont jamais retenus, et restent consultables sous « ecartes ».',
     seuils: SEUILS,
     comptes,
     anomalies_donnees: anomalies,
     liens,
+    ecartes,
     evenements,
   };
 

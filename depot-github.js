@@ -34,7 +34,7 @@ window.DEPOT = (function () {
   // Les deux listes doivent rester d'accord : voir CLES_TRAVAIL dans
   // « Suivi des maisons et familles.dc.html ».
   var CLES_TRAVAIL = ['suivi-familles-notes', 'suivi-familles-corrections', 'suivi-corr-maison',
-    'suivi-corr-famille', 'suivi-liens', 'suivi-hypotheses-adresses', 'suivi-annexe-batiments',
+    'suivi-corr-famille', 'suivi-liens', 'suivi-filiation-rejets', 'suivi-hypotheses-adresses', 'suivi-annexe-batiments',
     'suivi-annexe-details', 'suivi-annexe-adresses', 'suivi-lieux', 'suivi-plans',
     'suivi-migration-ids-v1'];
 

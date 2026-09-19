@@ -435,7 +435,7 @@ a:hover{color:var(--color-accent-900)}
   <div style="max-width:1180px;margin:0 auto;padding:var(--space-6) var(--space-4);display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:var(--space-6);align-items:center">
     <div>
       <h1 style="font-family:var(--font-heading);font-weight:600;font-size:34px;letter-spacing:.01em;margin:0 0 4px;color:#fff;text-wrap:pretty">Maisons &amp; familles</h1>
-      <p style="margin:0 0 var(--space-4);font-size:14px;color:var(--color-accent-200);max-width:56ch;text-wrap:pretty">Qui habite chaque maison, le métier de chacun, la scolarité des enfants — recensement de {{ activeYear }}, division {{ activeDivision }}.</p>
+      <p style="margin:0 0 var(--space-4);font-size:14px;color:var(--color-accent-200);max-width:56ch;text-wrap:pretty">Qui habite chaque maison, le métier de chacun, la scolarité des enfants — recensement de {{ activeYear }}, division {{ activeDivision }}{{ cartoucheTerritoire }}.</p>
       <div style="display:flex;gap:var(--space-6);flex-wrap:wrap">
         <div style="display:grid;gap:1px">
           <span style="font-family:var(--font-heading);font-size:27px;font-weight:600;line-height:1;color:#fff">{{ totalMaisons }}</span>
@@ -479,12 +479,12 @@ a:hover{color:var(--color-accent-900)}
 <div style="max-width:1180px;margin:0 auto;padding:var(--space-6) var(--space-4) var(--space-8)">
 
   <div class="card" style="margin-bottom:var(--space-4);padding:var(--space-3) var(--space-4)">
-    <div style="display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1.4fr) auto;gap:var(--space-3);align-items:end">
-      <div class="field" style="margin:0">
+    <div style="display:flex;flex-wrap:wrap;gap:var(--space-3);align-items:flex-end">
+      <div class="field" style="margin:0;flex:2 1 220px;min-width:0">
         <label for="search">Filtrer la division affichée — nom de famille</label>
         <input class="input" id="search" style="min-height:32px" placeholder="ex. Roberge, Cantin…" value="{{ search }}" onInput="{{ onSearch }}"></input>
       </div>
-      <div class="field" style="margin:0">
+      <div class="field" style="margin:0;flex:1.4 1 180px;min-width:0">
         <label for="prof">Profession</label>
         <select class="input" id="prof" style="min-height:32px" value="{{ profession }}" onChange="{{ onProfession }}">
           <option value="">Toutes les professions</option>
@@ -493,8 +493,23 @@ a:hover{color:var(--color-accent-900)}
           </sc-for>
         </select>
       </div>
-      <button type="button" class="btn {{ ecoleBtnClass }}" onClick="{{ onEcoleToggle }}" style="white-space:nowrap;padding:5px 12px">Enfants à l'école</button>
+      <div style="display:flex;gap:var(--space-2);flex-wrap:wrap;flex:none">
+        <button type="button" class="btn {{ ecoleBtnClass }}" onClick="{{ onEcoleToggle }}" style="white-space:nowrap;padding:5px 12px">Enfants à l'école</button>
+        <sc-if value="{{ aTerritoires }}" hint-placeholder-val="{{ false }}">
+          <button type="button" class="btn {{ territoireBtnClass }}" onClick="{{ onTerritoireToggle }}" title="{{ territoireBtnTitre }}" style="white-space:nowrap;padding:5px 12px;min-width:136px">{{ territoireBtnLabel }}</button>
+        </sc-if>
+      </div>
+      <div class="field" style="margin:0;flex:none">
+        <label for="page-ms">Aller à la page du manuscrit</label>
+        <div style="display:flex;gap:var(--space-2)">
+          <input class="input" id="page-ms" type="text" inputMode="numeric" pattern="[0-9]*" style="min-height:32px;width:88px" placeholder="n° de page" value="{{ pageCible }}" onInput="{{ onPageCible }}" onKeyDown="{{ onPageCibleKey }}"></input>
+          <button type="button" class="btn btn-secondary" onClick="{{ onAllerPage }}" title="Ouvrir la première maison dont une personne est inscrite à cette page du manuscrit" style="white-space:nowrap;padding:5px 12px">Aller</button>
+        </div>
+      </div>
     </div>
+    <sc-if value="{{ aPageMessage }}" hint-placeholder-val="{{ false }}">
+      <p style="{{ pageMessageStyle }}">{{ pageMessage }}</p>
+    </sc-if>
   </div>
 
   <sc-if value="{{ hasPartialNote }}" hint-placeholder-val="{{ false }}">
@@ -538,7 +553,7 @@ a:hover{color:var(--color-accent-900)}
 
   <div style="display:grid;gap:var(--space-4)">
     <sc-for list="{{ maisons }}" as="maison" hint-placeholder-count="4">
-      <div class="card" style="padding:var(--space-4);min-width:0">
+      <div class="card" id="{{ maison.domId }}" style="padding:var(--space-4);min-width:0;scroll-margin-top:150px">
         <div style="display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-3);padding-bottom:var(--space-3);border-bottom:1px solid var(--color-neutral-300);min-width:0">
           <span style="font-family:var(--font-heading);font-size:22px;font-weight:600;line-height:1;color:var(--color-accent-100);background:var(--color-accent-900);padding:6px 10px;min-width:44px;text-align:center;flex:none">{{ maison.no_maison }}</span>
           <div style="flex:none">
@@ -994,7 +1009,7 @@ a:hover{color:var(--color-accent-900)}
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{&quot;anneeInitiale&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;1871&quot;,&quot;1881&quot;,&quot;1891&quot;],&quot;default&quot;:&quot;1871&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Ouverture&quot;,&quot;label&quot;:&quot;Recensement à l'ouverture&quot;},&quot;montrerCartouche&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Ouverture&quot;,&quot;label&quot;:&quot;Afficher l'en-tête au chargement&quot;},&quot;maisonsParPage&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:50,&quot;min&quot;:5,&quot;max&quot;:100,&quot;step&quot;:5,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Liste&quot;,&quot;label&quot;:&quot;Maisons par page&quot;}}">
 class Component extends DCLogic {
-  state = { search: '', profession: '', ecoleOnly: false, expanded: {}, currentPage: 1, notes: {}, corrections: {}, activeYear: (this.props.anneeInitiale || '1871'), activeDivision: '2',
+  state = { search: '', profession: '', ecoleOnly: false, territoire: '', pageCible: '', pageMessage: '', pageMessageErreur: false, expanded: {}, currentPage: 1, notes: {}, corrections: {}, activeYear: (this.props.anneeInitiale || '1871'), activeDivision: '2',
             editMode: false, corrMaison: {}, corrFamille: {}, liens: {}, linkForm: {},
             showAnnexe: false, annexeSearch: '', hypotheses: {}, hypForm: {}, propEtat: {},
             annexeSource: '', customEntries: [], showNewEntry: false, newEntry: {},
@@ -1007,6 +1022,11 @@ class Component extends DCLogic {
   SOURCE_DEFAULT = 'Patrick Blanchet';
   MATERIAUX = ['Bois', 'Brique', 'Pierre'];
   LETTRE_MATERIAU = { 'Bois': 'B', 'Brique': 'Br', 'Pierre': 'P' };
+  // Filtre de territoire (1891 seulement) : « » = tout le territoire, puis la
+  // division reconstituée 1 ou 2 (maison.division_reconstituee, docs/DIVISIONS-1891.md).
+  // Un seul bouton bascule qui parcourt les trois états dans cet ordre.
+  TERRITOIRES = ['', '1', '2'];
+  TERRITOIRE_LABELS = { '': 'Tout le territoire', '1': 'Terr. D1', '2': 'Terr. D2' };
   YEARS = ['1861', '1871', '1881', '1891', '1901', '1911'];
   // 1891 n'a qu'une division : le formulaire n'a pas de case « division », le
   // jeu « D1 » est la paroisse entière et « D2 » restera vide
@@ -1576,6 +1596,72 @@ class Component extends DCLogic {
     });
   }
 
+  pageSize() { return Math.max(5, this.props.maisonsParPage || 20); }
+
+  /* Les maisons du territoire demandé — toutes si aucun territoire n'est choisi
+     ou si le jeu n'en porte pas (1871 et 1881 ont de vraies divisions). */
+  maisonsDuTerritoire(maisons, territoire) {
+    if (!territoire) return maisons;
+    return maisons.filter(m => String(m.division_reconstituee || '') === territoire);
+  }
+
+  /* « Aller à la page du manuscrit » : la première maison de la division affichée
+     dont une personne est inscrite à cette page, dans l'ordre du recenseur. Les
+     filtres locaux sont levés pour qu'elle soit visible ; le territoire (1891) est
+     gardé s'il contient une maison de cette page, levé sinon. La ou les familles
+     inscrites à la page sont dépliées, la page de la liste recalculée, et la
+     maison amenée à l'écran. */
+  allerALaPage() {
+    const { activeYear, activeDivision, territoire } = this.state;
+    const brut = String(this.state.pageCible || '').trim();
+    if (!/^\d+$/.test(brut) || parseInt(brut, 10) < 1) {
+      this.setState({ pageMessage: 'Indiquer un numéro de page du manuscrit.', pageMessageErreur: true });
+      return;
+    }
+    const page = String(parseInt(brut, 10));
+    const data = this.resolveYearData(activeYear, activeDivision);
+    const surPage = p => String(this.mergeCorrections(p).page_ms || '').trim() === page;
+    const maisonSurPage = m => (m.familles || []).some(f => (f.membres || []).some(surPage));
+    let terr = data.maisons.some(m => m.division_reconstituee) ? territoire : '';
+    let liste = this.maisonsDuTerritoire(data.maisons, terr);
+    let maison = liste.find(maisonSurPage);
+    let territoireLeve = false;
+    if (!maison && terr) {
+      terr = ''; liste = data.maisons; maison = liste.find(maisonSurPage); territoireLeve = !!maison;
+    }
+    if (!maison) {
+      this.setState({
+        pageMessage: 'Aucune personne n’est inscrite à la page ' + page + ' du recensement de ' + activeYear + ', division ' + activeDivision + '.',
+        pageMessageErreur: true
+      });
+      return;
+    }
+    const familles = (maison.familles || []).filter(f => (f.membres || []).some(surPage));
+    const expanded = {};
+    familles.forEach(f => { expanded[this.cleFamille(activeYear, activeDivision, maison.no_maison, f.no_famille)] = true; });
+    const lignes = [];
+    familles.forEach(f => (f.membres || []).forEach(p => {
+      if (!surPage(p)) return;
+      const l = String(this.mergeCorrections(p).ligne || '').trim();
+      if (/^\d+$/.test(l)) lignes.push(parseInt(l, 10));
+    }));
+    const lMin = lignes.length ? Math.min(...lignes) : 0, lMax = lignes.length ? Math.max(...lignes) : 0;
+    const mKey = activeYear + '-' + activeDivision + '-' + maison.no_maison;
+    const message = 'Page ' + page + ' — maison ' + maison.no_maison
+      + (familles.length === 1 ? ', famille ' + familles[0].no_famille : ', ' + familles.length + ' familles')
+      + (lignes.length ? (lMin === lMax ? ' (ligne ' + lMin + ')' : ' (lignes ' + lMin + ' à ' + lMax + ')') : '')
+      + ' — dépliée plus bas.'
+      + (territoireLeve ? ' Le filtre de territoire a été levé : cette maison est en territoire D' + (maison.division_reconstituee || '?') + '.' : '');
+    this.setState({
+      search: '', profession: '', ecoleOnly: false, territoire: terr,
+      currentPage: Math.floor(liste.indexOf(maison) / this.pageSize()) + 1,
+      expanded, pageMessage: message, pageMessageErreur: false
+    }, () => {
+      const el = document.getElementById('maison-' + mKey);
+      if (el && el.scrollIntoView) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
+
   avancement(maisons, annee, division) {
     let confirme = 0, enCours = 0, aVerifier = 0;
     (maisons || []).forEach(m => (m.familles || []).forEach(f => {
@@ -1602,8 +1688,12 @@ class Component extends DCLogic {
      Atelier), pas par cet écran-ci : positions, états, notes et rattachements
      des lieux. Il voyage néanmoins avec le reste — même sauvegarde, même
      poussée vers GitHub. Voir docs/LIEUX.md. */
+  /* `suivi-filiation-rejets` est écrit par l'annexe des filiations
+     (filiation.html) : les rapprochements que Patrick a écartés. Il voyage avec
+     `suivi-liens`, son pendant, pour que l'analyse des filiations
+     (outils/analyse-filiation.mjs) relise les deux à chaque recalcul. */
   CLES_TRAVAIL = ['suivi-familles-notes', 'suivi-familles-corrections', 'suivi-corr-maison', 'suivi-corr-famille',
-    'suivi-liens', 'suivi-hypotheses-adresses', 'suivi-propositions-etat', 'suivi-annexe-batiments',
+    'suivi-liens', 'suivi-filiation-rejets', 'suivi-hypotheses-adresses', 'suivi-propositions-etat', 'suivi-annexe-batiments',
     'suivi-annexe-details', 'suivi-annexe-adresses', 'suivi-lieux', 'suivi-plans', 'suivi-migration-ids-v1'];
 
   async exportSauvegarde() {
@@ -1934,7 +2024,23 @@ class Component extends DCLogic {
   ficheFamille(notes, cle, cleHeritee) {
     if (notes[cle]) return notes[cle];
     if (cleHeritee && notes[cleHeritee] && this.cleHeriteeSansAmbiguite(cleHeritee)) return notes[cleHeritee];
+    const ancienne = this.cleAvantRenumerotation(cle);
+    if (ancienne && notes[ancienne]) return notes[ancienne];
     return { status: 'a_verifier', text: '' };
+  }
+
+  /* Une famille dont le numéro a été corrigé ici puis versé dans le recensement
+     (outils/relecture-1881/fondre.mjs) change de clé : « 1871-2-25-31 [?] »
+     devient « 1871-2-25-31 ». La correction, elle, reste archivée sous
+     l'ancienne clé — c'est elle qui permet de retrouver la note de suivi et le
+     statut classés avant le versement. */
+  cleAvantRenumerotation(cle) {
+    for (const [ancienne, corr] of Object.entries(this.state.corrFamille || {})) {
+      const nouveau = String(corr.no_famille || '').trim();
+      if (!nouveau || ancienne === cle || !cle.endsWith('-' + nouveau)) continue;
+      if (ancienne.startsWith(cle.slice(0, cle.length - nouveau.length))) return ancienne;
+    }
+    return null;
   }
 
   updateNote(key, cleHeritee, text) {
@@ -2004,7 +2110,7 @@ class Component extends DCLogic {
         // cette année ; sinon on retombe sur la première division disponible
         // (1891 n'en a qu'une) plutôt que sur un écran vide.
         go: () => this.setState({
-          activeYear: y, currentPage: 1,
+          activeYear: y, currentPage: 1, pageMessage: '',
           activeDivision: this.DATA_AVAILABLE[y + '-' + activeDivision] ? activeDivision
             : (['1', '2'].find(d => this.DATA_AVAILABLE[y + '-' + d]) || activeDivision)
         })
@@ -2014,7 +2120,7 @@ class Component extends DCLogic {
       d, label: 'Div. ' + d,
       cls: d === activeDivision ? 'btn-primary' : 'btn-secondary',
       style: 'padding:3px 11px;font-size:14px;white-space:nowrap' + (this.DATA_AVAILABLE[activeYear + '-' + d] ? '' : ';opacity:.42'),
-      go: () => this.setState({ activeDivision: d, currentPage: 1 })
+      go: () => this.setState({ activeDivision: d, currentPage: 1, pageMessage: '' })
     }));
     const gResults = this.rechercheGlobale(this.state.gSearch);
     const shellVals = {
@@ -2207,8 +2313,8 @@ class Component extends DCLogic {
       manquants, aManquants: manquants.length > 0
     };
     const rosterFull = special.roster || [];
-    const { search, profession, ecoleOnly, expanded, notes, currentPage, corrections } = this.state;
-    const PAGE_SIZE = Math.max(5, this.props.maisonsParPage || 20);
+    const { search, profession, ecoleOnly, territoire, pageCible, pageMessage, pageMessageErreur, expanded, notes, currentPage, corrections } = this.state;
+    const PAGE_SIZE = this.pageSize();
 
     const professionsSet = new Set();
     data.maisons.forEach(m => m.familles.forEach(f => f.membres.forEach(p => {
@@ -2220,7 +2326,14 @@ class Component extends DCLogic {
     const filteredMaisons = [];
     let totalFamilles = 0, totalPersonnes = 0;
 
-    data.maisons.forEach(maison => {
+    // 1891 : le territoire reconstitué restreint la liste comme la division le
+    // fait en 1871-1881 — l'avancement et le cartouche le suivent. Sans champ
+    // division_reconstituee (1871, 1881), le filtre est sans effet et son bouton absent.
+    const aTerritoires = data.maisons.some(m => m.division_reconstituee);
+    const territoireActif = aTerritoires ? territoire : '';
+    const maisonsTerritoire = this.maisonsDuTerritoire(data.maisons, territoireActif);
+
+    maisonsTerritoire.forEach(maison => {
       const familiesWithMerged = maison.familles.map(f => ({ f, merged: f.membres.map(m => this.mergeCorrections(m)) }));
       const matching = familiesWithMerged.filter(({ merged }) => this.matchesFamily(merged, search, profession, ecoleOnly));
       if (matching.length === 0) return;
@@ -2382,7 +2495,7 @@ class Component extends DCLogic {
       filteredMaisons.push({
         no_maison: cm.no_maison !== undefined && cm.no_maison !== '' ? cm.no_maison : maison.no_maison,
         familles,
-        mKey,
+        mKey, domId: 'maison-' + mKey,
         maisonCorrigee: Object.keys(cm).length > 0,
         editMode: this.state.editMode,
         eMateriau: materiau, eEtages: String(etages || ''), eChambres: String(chambres || ''),
@@ -2439,9 +2552,24 @@ class Component extends DCLogic {
     return {
       ...commonTabVals,
       ...annexeVals,
-      avancement: this.avancement(data.maisons, activeYear, activeDivision),
+      avancement: this.avancement(maisonsTerritoire, activeYear, activeDivision),
       search, profession, professions,
       ecoleBtnClass: ecoleOnly ? 'btn-primary' : 'btn-secondary',
+      aTerritoires,
+      territoireBtnLabel: this.TERRITOIRE_LABELS[territoireActif] || this.TERRITOIRE_LABELS[''],
+      territoireBtnClass: territoireActif ? 'btn-primary' : 'btn-secondary',
+      territoireBtnTitre: 'Territoire de la division de 1871-1881, reconstitué maison par maison — le recensement de 1891 ne distingue pas les divisions. Cliquer pour passer de « Tout le territoire » à « Terr. D1 », puis « Terr. D2 ».',
+      onTerritoireToggle: () => this.setState(s => ({
+        territoire: this.TERRITOIRES[(this.TERRITOIRES.indexOf(s.territoire) + 1) % this.TERRITOIRES.length],
+        currentPage: 1, pageMessage: ''
+      })),
+      cartoucheTerritoire: territoireActif ? ', territoire de la division ' + territoireActif + ' de 1871-1881 (reconstitué)' : '',
+      pageCible,
+      pageMessage, aPageMessage: !!pageMessage,
+      pageMessageStyle: 'margin:var(--space-2) 0 0;font-size:12.5px;color:' + (pageMessageErreur ? 'var(--color-accent-900)' : 'var(--color-neutral-700)'),
+      onPageCible: (e) => this.setState({ pageCible: e.target.value, pageMessage: '' }),
+      onPageCibleKey: (e) => { if (e.key === 'Enter') { e.preventDefault(); this.allerALaPage(); } },
+      onAllerPage: () => this.allerALaPage(),
       editMode: this.state.editMode,
       editBtnClass: this.state.editMode ? 'btn-primary' : 'btn-secondary',
       editBtnLabel: this.state.editMode ? 'Quitter le mode édition' : 'Mode édition',
@@ -2457,7 +2585,7 @@ class Component extends DCLogic {
       onPrevPage: () => this.setState(s => ({ currentPage: Math.max(1, s.currentPage - 1) })),
       onNextPage: () => this.setState(s => ({ currentPage: Math.min(totalPages, s.currentPage + 1) })),
       is1891Year: is1891Year && rosterRemaining.length > 0, rosterRemainingCount: rosterRemaining.length, roster,
-      pageUnitLabel: '20 maisons par page',
+      pageUnitLabel: PAGE_SIZE + ' maisons par page',
       noResults: is1891Year ? (filteredMaisons.length === 0 && rosterRemaining.length === 0 && rosterFull.length > 0) : (filteredMaisons.length === 0),
       noResultsMessage: is1891Year
         ? 'Aucune personne ne correspond à cette recherche.'
