@@ -101,7 +101,7 @@ function verserMaison(m, corr, etiquette, faits, laisses) {
     if (champ === 'no_maison') {
       if (!memeValeur(m.no_maison, valeur)) {
         laisses.push(`${etiquette} no_maison « ${m.no_maison} » -> « ${valeur} » : le numéro de maison est un identifiant`
-          + ' (clés de l\'atelier, lieux, annexes) — à changer à la main, avec tout ce qui s\'y rattache');
+          + ' (clés de l\'atelier, lieux, annexes) — outils/relecture-1881/renumeroter.mjs le change avec tout ce qui s\'y rattache');
       }
       continue;
     }
@@ -153,10 +153,22 @@ export function fondre(recensement, { essai = false } = {}) {
     clesMaisonsVues.add(cleMaisonAtelier(annee, division, m.no_maison));
     verserMaison(m, corr, `maison ${m.no_maison}`, faits, laisses);
   }
-  for (const cle of Object.keys(correctionsMaisons())) {
-    if (recensementDeCle(cle) === recensement && !clesMaisonsVues.has(cle)) {
-      laisses.push(`${cle} : aucune maison de ce numéro dans le recensement, correction laissée`);
-    }
+  // Une maison renumérotée depuis (outils/relecture-1881/renumeroter.mjs)
+  // n'est plus sous le numéro que porte la clé de l'atelier : on la reconnaît
+  // sous le nouveau — celui que la main a écrit dans no_maison — et le reste
+  // de la correction s'y verse. L'ancien numéro sert encore aux familles.
+  const renumerotees = new Map(); // ancien numéro (clé de l'atelier) -> maison
+  for (const [cle, corr] of Object.entries(correctionsMaisons())) {
+    if (recensementDeCle(cle) !== recensement || clesMaisonsVues.has(cle)) continue;
+    const ancien = cle.slice(cleMaisonAtelier(annee, division, '').length);
+    const m = corr.no_maison ? (D.maisons || []).find(x => memeValeur(x.no_maison, corr.no_maison)) : null;
+    if (!m) { laisses.push(`${cle} : aucune maison de ce numéro dans le recensement, correction laissée`); continue; }
+    vus.maisons++;
+    clesMaisonsVues.add(cle);
+    renumerotees.set(ancien, m);
+    const reste = { ...corr };
+    delete reste.no_maison;
+    if (Object.keys(reste).length) verserMaison(m, reste, `maison ${m.no_maison} (ex-« ${ancien} »)`, faits, laisses);
   }
 
   // ── Familles ──
@@ -164,9 +176,11 @@ export function fondre(recensement, { essai = false } = {}) {
   // sous le nouveau. On reconnaît donc les deux cas : à verser, ou déjà versé.
   const clesFamillesVues = new Set();
   for (const m of D.maisons || []) {
-    const prefixe = cleMaisonAtelier(annee, division, m.no_maison) + '-';
+    const prefixes = [cleMaisonAtelier(annee, division, m.no_maison) + '-'];
+    for (const [ancien, mm] of renumerotees) if (mm === m) prefixes.push(cleMaisonAtelier(annee, division, ancien) + '-');
     for (const [cle, corr] of Object.entries(correctionsFamilles())) {
-      if (!cle.startsWith(prefixe)) continue;
+      const prefixe = prefixes.find(p => cle.startsWith(p));
+      if (!prefixe) continue;
       const noOrigine = cle.slice(prefixe.length);
       const nouveau = corr.no_famille;
       const f = (m.familles || []).find(x => memeValeur(x.no_famille, noOrigine));
