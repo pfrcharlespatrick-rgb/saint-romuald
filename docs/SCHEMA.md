@@ -255,6 +255,8 @@ no_maison            texte — numéro utilisé par l'application
 familles             Famille[]
 no_famille_ms        texte — numéro porté en colonne 5 du manuscrit (1891)
 logement             { materiau, etages, chambres, code_ms, incertain }
+colonne_logement     "2" | "3" | "4" — maison en construction, inhabitée, habitée ; absent = non relevé, tenu pour habitée
+adresse              texte — adresse notée à la main dans l'atelier ; le rattachement au sol vit dans la couche lieux (LIEUX.md)
 logement_partage     booléen
 remarque_logement    texte
 remarque_nom         texte — note de relecture
@@ -266,6 +268,11 @@ appui_division       texte — 1891 seulement : sur quoi repose division_reconst
 
 `logement.materiau` : « Bois » | « Brique » | « Pierre ».
 `code_ms` est la notation du manuscrit (B 1/4 = bois, 1 étage, 4 pièces).
+`colonne_logement` est un code, pas le numéro de la colonne, qui diffère d'un
+formulaire à l'autre (2-3-4 en 1871, 3-4-5 en 1881). Il est posé dans l'atelier
+(`suivi-corr-maison`, champ `colonne`) et versé par
+`outils/relecture-1881/fondre.mjs`, comme `logement.materiau`, `etages`,
+`chambres` et `adresse`.
 
 ### Famille
 
@@ -512,6 +519,7 @@ tables.** Clés `localStorage` :
 | `suivi-corr-maison` | n°, colonne, logement, adresse | `annee-division-maison` |
 | `suivi-corr-famille` | numéro de famille corrigé | clé de famille |
 | `suivi-liens` | liens vers d'autres recensements | identifiant de personne |
+| `suivi-filiation-rejets` | rapprochements écartés dans l'annexe des filiations | `de__vers` (deux identifiants de personne) |
 | `suivi-hypotheses-adresses` | concordances adresse-maison | identifiant de bâtiment |
 | `suivi-propositions-etat` | proposition retenue / écartée | `batimentId#index` |
 | `suivi-annexe-batiments` | bâtiments ajoutés | — (tableau) |
@@ -533,6 +541,17 @@ Un lien est un tableau d'objets
 saisie à la main (texte libre). **Sur le site, elle devrait pointer un identifiant de
 personne réel** — c'est la priorité n° 3 de Patrick et l'amélioration la plus utile
 que tu puisses apporter à la structure.
+
+**Ce qui est versé dans les données, et par quoi.** La distinction entre le
+manuscrit et le chercheur ne se lit plus dans deux fichiers mais dans l'archive :
+le recensement porte la valeur tranchée, `travail-personnel.json` garde la trace
+de ce qui l'a été à la main, et n'est jamais réécrit par les outils.
+`outils/relecture-1881/fondre.mjs` verse `suivi-familles-corrections`,
+`suivi-corr-maison` (dans `colonne_logement`, `logement`, `adresse` — jamais
+`no_maison`, qui est un identifiant) et `suivi-corr-famille` (dans
+`no_famille`) ; `outils/analyse-filiation.mjs` relit `suivi-liens` et
+`suivi-filiation-rejets` à chaque recalcul ; `outils/lieux/fondre.mjs` verse
+`suivi-lieux` et `suivi-plans`. Voir `CLAUDE.md` et `FILIATION.md`.
 
 ### Sauvegarde vers le dépôt (chantier 3)
 

@@ -1602,8 +1602,12 @@ class Component extends DCLogic {
      Atelier), pas par cet écran-ci : positions, états, notes et rattachements
      des lieux. Il voyage néanmoins avec le reste — même sauvegarde, même
      poussée vers GitHub. Voir docs/LIEUX.md. */
+  /* `suivi-filiation-rejets` est écrit par l'annexe des filiations
+     (filiation.html) : les rapprochements que Patrick a écartés. Il voyage avec
+     `suivi-liens`, son pendant, pour que l'analyse des filiations
+     (outils/analyse-filiation.mjs) relise les deux à chaque recalcul. */
   CLES_TRAVAIL = ['suivi-familles-notes', 'suivi-familles-corrections', 'suivi-corr-maison', 'suivi-corr-famille',
-    'suivi-liens', 'suivi-hypotheses-adresses', 'suivi-propositions-etat', 'suivi-annexe-batiments',
+    'suivi-liens', 'suivi-filiation-rejets', 'suivi-hypotheses-adresses', 'suivi-propositions-etat', 'suivi-annexe-batiments',
     'suivi-annexe-details', 'suivi-annexe-adresses', 'suivi-lieux', 'suivi-plans', 'suivi-migration-ids-v1'];
 
   async exportSauvegarde() {
@@ -1934,7 +1938,23 @@ class Component extends DCLogic {
   ficheFamille(notes, cle, cleHeritee) {
     if (notes[cle]) return notes[cle];
     if (cleHeritee && notes[cleHeritee] && this.cleHeriteeSansAmbiguite(cleHeritee)) return notes[cleHeritee];
+    const ancienne = this.cleAvantRenumerotation(cle);
+    if (ancienne && notes[ancienne]) return notes[ancienne];
     return { status: 'a_verifier', text: '' };
+  }
+
+  /* Une famille dont le numéro a été corrigé ici puis versé dans le recensement
+     (outils/relecture-1881/fondre.mjs) change de clé : « 1871-2-25-31 [?] »
+     devient « 1871-2-25-31 ». La correction, elle, reste archivée sous
+     l'ancienne clé — c'est elle qui permet de retrouver la note de suivi et le
+     statut classés avant le versement. */
+  cleAvantRenumerotation(cle) {
+    for (const [ancienne, corr] of Object.entries(this.state.corrFamille || {})) {
+      const nouveau = String(corr.no_famille || '').trim();
+      if (!nouveau || ancienne === cle || !cle.endsWith('-' + nouveau)) continue;
+      if (ancienne.startsWith(cle.slice(0, cle.length - nouveau.length))) return ancienne;
+    }
+    return null;
   }
 
   updateNote(key, cleHeritee, text) {

@@ -104,6 +104,7 @@
       '<h2 class="titre-vue">Maison ' + esc(f.no_maison) + '</h2>' +
       '<p class="sous-titre">' + esc(sousTitre) + esc(logementTxt) + '</p>' +
       rendreDivisionReconstituee(f) +
+      rendreColonne(f) +
       '<div class="actions-fiche"><button class="bouton" onclick="window.print()">Imprimer / exporter en PDF</button></div>' +
       f.familles.map(function (fam) { return rendreFamille(f, fam); }).join('') +
       rendreRenvois(f) +
@@ -122,6 +123,23 @@
     );
   }
 
+  // Colonnes du formulaire de recensement : maison en construction, inhabitée,
+  // habitée (2-3-4 en 1871, 3-4-5 en 1881). Le code vit dans colonne_logement,
+  // posé à la main dans l'atelier et versé par outils/relecture-1881/fondre.mjs.
+  var COLONNES = {
+    '2': ['en construction', 'maisons en construction'],
+    '3': ['inhabitée', 'maisons inhabitées'],
+    '4': ['habitée', 'maisons habitées']
+  };
+  function rendreColonne(f) {
+    var c = COLONNES[String(f.colonne_logement || '')];
+    if (!c) return '';
+    return (
+      '<p class="bloc-note">Maison <b>' + c[0] + '</b> au moment du recensement : ' +
+      'le recenseur l\'a portée dans la colonne « ' + c[1] + ' » du formulaire.</p>'
+    );
+  }
+
   // Où cette maison se trouve au sol. Le rattachement vit désormais dans la
   // couche « lieux » (docs/LIEUX.md) : un lieu a une position, un état — encore
   // debout, disparu, remplacé — et peut n'avoir aucune adresse actuelle, ce qui
@@ -129,10 +147,12 @@
   // restent affichées à part quand elles n'ont pas encore été tranchées.
   function rendreAdresse(f) {
     var titre = '<h3 class="bloc-titre">Où était cette maison</h3>';
+    // Adresse notée à la main dans l'atelier — un repère, pas un rattachement.
+    var notee = f.adresse ? '<div class="marginale"><b>Adresse notée dans l\'atelier</b>' + esc(f.adresse) + '</div>' : '';
     var lieux = f.lieux || [];
     if (!lieux.length) {
       return (
-        '<section class="bloc">' + titre +
+        '<section class="bloc">' + titre + notee +
         '<div class="vide">Cette maison n\'est encore rattachée à aucun lieu. Voir <a href="carte.html">la carte du chemin du Fleuve</a> pour les lieux déjà situés.</div></section>'
       );
     }
@@ -149,7 +169,7 @@
         ' · <a href="carte.html#l-' + esc(l.lieu_id) + '">le situer sur la carte</a></div>'
       );
     }).join('');
-    return '<section class="bloc">' + titre + items + '</section>';
+    return '<section class="bloc">' + titre + notee + items + '</section>';
   }
 
   function rendreErreur(msg) {

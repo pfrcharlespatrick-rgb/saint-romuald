@@ -99,7 +99,9 @@ function trajectoireDe(id) {
   return {
     mentions: chaine.map(mentionDe).filter(Boolean),
     liaisons: liaisons.map((l) => ({
-      confiance: l.confiance, motifs: l.motifs || [], score: l.score
+      confiance: l.confiance, motifs: l.motifs || [], score: l.score,
+      // Un rapprochement confirmé à la main (docs/FILIATION.md) le dit à la fiche.
+      ...(l.origine === 'main' ? { origine: 'main' } : {})
     }))
   };
 }
@@ -237,6 +239,10 @@ for (const [cleM, maison] of d.maisons) {
     appui_division: maison.appui_division || undefined,
     no_famille_ms: maison.no_famille_ms,
     logement: maison.logement, logement_partage: maison.logement_partage,
+    // Colonne du formulaire et adresse notée à la main (atelier, puis
+    // outils/relecture-1881/fondre.mjs) — absentes quand rien n'a été relevé.
+    ...(maison.colonne_logement ? { colonne_logement: maison.colonne_logement } : {}),
+    ...(maison.adresse ? { adresse: maison.adresse } : {}),
     remarque_logement: nettoyerRemarque(maison.remarque_logement),
     remarque_nom: nettoyerRemarque(maison.remarque_nom),
     remarque: nettoyerRemarque(maison.remarque),
