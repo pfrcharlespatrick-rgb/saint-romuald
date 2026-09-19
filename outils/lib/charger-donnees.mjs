@@ -100,6 +100,11 @@ export function chargerDonnees() {
         appui_division: maison.appui_division || '',
         logement: maison.logement || null,
         logement_partage: !!maison.logement_partage,
+        // Posés dans l'atelier, versés par outils/relecture-1881/fondre.mjs :
+        // la colonne du formulaire (2 en construction, 3 inhabitée, 4 habitée)
+        // et l'adresse notée à la main.
+        colonne_logement: maison.colonne_logement ? String(maison.colonne_logement) : '',
+        adresse: maison.adresse || '',
         remarque_logement: maison.remarque_logement || '',
         remarque_nom: maison.remarque_nom || '',
         remarque: maison.remarque || '',

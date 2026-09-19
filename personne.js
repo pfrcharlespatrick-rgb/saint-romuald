@@ -53,9 +53,12 @@
       );
       if (i < liaisons.length) {
         var l = liaisons[i];
+        // Un rapprochement confirmé à la main dans l'atelier le dit ; les
+        // autres portent la confiance du calcul.
+        var etiquette = l.origine === 'main' ? 'confirmé à la main' : esc(l.confiance);
         cellules.push(
           '<div class="lien-traj"><span class="puce-conf conf-' + esc(l.confiance) + '">' +
-          esc(l.confiance) + ' · ' + l.motifs.length + ' indice' + (l.motifs.length > 1 ? 's' : '') +
+          etiquette + ' · ' + l.motifs.length + ' indice' + (l.motifs.length > 1 ? 's' : '') +
           '</span><span class="fil">→</span></div>'
         );
       }
@@ -64,7 +67,7 @@
     var indices = liaisons.length ? '<ul class="indices">' + liaisons.flatMap(function (l) { return l.motifs; }).map(function (m) { return '<li>' + esc(m) + '</li>'; }).join('') + '</ul>' : '';
     return (
       '<section class="bloc"><h3 class="bloc-titre">Sa trajectoire, ' + esc(mentions[0].annee) + ' → ' + esc(mentions[mentions.length - 1].annee) + '</h3>' +
-      '<p class="bloc-note">Les rapprochements sont calculés, non prouvés. La pastille dit la confiance du calcul ; les indices sont détaillés dessous, et un document d\'archive peut confirmer ou infirmer chaque lien.</p>' +
+      '<p class="bloc-note">Les rapprochements sont calculés, non prouvés. La pastille dit la confiance du calcul — ou que le lien a été confirmé à la main dans l\'atelier ; les indices sont détaillés dessous, et un document d\'archive peut confirmer ou infirmer chaque lien.</p>' +
       '<div class="trajectoire' + classeTaille + '">' + cellules.join('') + '</div>' +
       indices +
       '</section>'

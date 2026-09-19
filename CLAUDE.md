@@ -38,6 +38,44 @@ fichier de travail.
 les fichiers partent ainsi d'accord avec la main. L'opération est idempotente et
 `--essai` montre sans écrire.
 
+### Les maisons, les familles et les liens sont versés aussi
+
+Le même fichier de travail porte trois autres clés tranchées à la main. Elles
+ne restent plus dans l'atelier : elles sont versées, et par ces outils.
+
+| Clé | Ce qu'elle dit | Versée par | Où elle va |
+|---|---|---|---|
+| `suivi-corr-maison` | colonne du formulaire, logement, adresse d'une maison — clé `annee-division-no` | `outils/relecture-1881/fondre.mjs` | `maison.colonne_logement` (2 en construction, 3 inhabitée, 4 habitée), `maison.logement.{materiau,etages,chambres}`, `maison.adresse` |
+| `suivi-corr-famille` | numéro de famille corrigé — clé `annee-division-maison-numéro d'origine`, valeur rognée | `outils/relecture-1881/fondre.mjs` | `famille.no_famille` |
+| `suivi-liens`, et son pendant `suivi-filiation-rejets` | rapprochements entre recensements confirmés ou écartés | `outils/analyse-filiation.mjs`, à chaque recalcul | `data/filiation-data.js` : `origine: "main"` pour un lien confirmé, liste `ecartes` pour un lien écarté |
+
+Les mêmes règles valent : seuls les champs touchés sont écrits, un logement
+sur lequel la main s'est posée perd son drapeau `incertain`, une famille
+renumérotée est reconnue sous son nouveau numéro au passage suivant, et
+l'opération est idempotente. Deux choses que `fondre.mjs` **laisse** et
+signale : un `no_maison` corrigé — c'est l'identifiant dont dépendent les clés
+de l'atelier, des lieux et des annexes, à changer à la main avec ce qui s'y
+rattache — et un lien dont la relation est une parenté (« veuve de… ») plutôt
+qu'un suivi de la même personne.
+
+Les liens ne se versent pas dans un recensement : l'analyse des filiations
+relit `suivi-liens` et `suivi-filiation-rejets` **avant** de retenir ses
+rapprochements et d'en déduire les événements, si bien qu'une décision de la
+main survit à chaque recalcul par construction (voir `docs/FILIATION.md`,
+« La main survit au recalcul »). `fondre.mjs --essai` dit si
+`data/filiation-data.js` est en retard sur la main. L'ordre, après qu'une
+sauvegarde de l'atelier a été fondue dans `main` :
+
+```sh
+node outils/relecture-1881/fondre.mjs --essai   # ce qui serait versé, et ce qui est laissé
+node outils/relecture-1881/fondre.mjs           # verser personnes, maisons, familles
+node outils/analyse-filiation.mjs               # reprendre les liens de la main
+node outils/generer-site.mjs                    # propager aux fiches du site
+```
+
+`data/travail-personnel.json` n'est jamais réécrit par ces outils : c'est
+l'archive de ce qui a été tranché.
+
 ## Les lieux : la file de l'atelier de la carte se vide une fois versée
 
 L'atelier de la carte (`carte.html?atelier=1`) garde son travail sous

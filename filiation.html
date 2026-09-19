@@ -481,11 +481,24 @@
     return null;
   }
 
+  /* Ce que l'analyse a déjà repris de la main — un lien confirmé (origine
+     « main ») ou écarté (liste `ecartes`) dans data/filiation-data.js — se lit
+     comme tel même dans un navigateur sans travail local. Une décision défaite
+     dans cette session (« Annuler la confirmation », « Rétablir ») l'emporte
+     jusqu'au prochain recalcul : elle vit dans suivi-liens et
+     suivi-filiation-rejets, que l'analyse relira. */
+  var DEFAITS = Object.create(null);
+
   /** confirme | rejete | calcule — pour un lien (calculé ou ajouté à la main). */
   function statutLien(l) {
-    if (REJETS[clePaire(l.de, l.vers)]) return 'rejete';
+    var cle = clePaire(l.de, l.vers);
+    if (REJETS[cle]) return 'rejete';
     var apres = personnes[l.vers];
     if (apres && trouverLienUtilisateur(l.de, apres)) return 'confirme';
+    if (!DEFAITS[cle]) {
+      if (l.ecarte) return 'rejete';
+      if (l.origine === 'main') return 'confirme';
+    }
     return 'calcule';
   }
 
@@ -501,10 +514,12 @@
     LIENS_UTIL = Object.assign({}, LIENS_UTIL); LIENS_UTIL[l.de] = liste;
     sauverLiensUtilisateur(LIENS_UTIL);
     delete REJETS[clePaire(l.de, l.vers)]; sauverRejets(REJETS);
+    delete DEFAITS[clePaire(l.de, l.vers)];
     reconstruireLiensEffectifs();
   }
 
   function annulerConfirmation(l) {
+    DEFAITS[clePaire(l.de, l.vers)] = true;
     var apres = personnes[l.vers];
     if (!apres) return;
     var trouve = trouverLienUtilisateur(l.de, apres);
@@ -524,6 +539,7 @@
   }
 
   function retablirLien(l) {
+    DEFAITS[clePaire(l.de, l.vers)] = true;
     REJETS = Object.assign({}, REJETS); delete REJETS[clePaire(l.de, l.vers)];
     sauverRejets(REJETS);
     reconstruireLiensEffectifs();
@@ -556,6 +572,12 @@
         entrant[versId] = sortant[deId];
       });
     }
+    // Les rapprochements que la main a écartés et que l'analyse a consignés
+    // restent visibles, marqués et barrés, là où rien d'autre ne les remplace.
+    (F.ecartes || []).forEach(function (l) {
+      if (sortant[l.de] || entrant[l.vers]) return;
+      sortant[l.de] = l; entrant[l.vers] = l;
+    });
   }
   reconstruireLiensEffectifs();
 
@@ -951,6 +973,7 @@
     ['liens', 'Rapprochements retenus'],
     ['liens_forte', 'dont confiance forte'],
     ['liens_homonymie', 'dont homonymie à trancher'],
+    ['liens_main', 'dont confirmés à la main'],
     ['menage_continu', 'Ménages suivis'],
     ['veuvage', 'Veuvages probables'],
     ['essaimage', 'Essaimages'],
@@ -1271,7 +1294,8 @@
 
     '<h3>Relancer l’analyse</h3>' +
     '<p>Après une correction de dépouillement : <code>node outils/analyse-filiation.mjs</code>, ' +
-    'qui réécrit <code>data/filiation-data.js</code>. Généré le ' + ech(F.genere_le) + '.</p>';
+    'qui réécrit <code>data/filiation-data.js</code> — en relisant les rapprochements confirmés ou écartés à la main ' +
+    '(sauvegarde de l’atelier), qui survivent ainsi au recalcul. Généré le ' + ech(F.genere_le) + '.</p>';
 
   /* ─── Navigation ────────────────────────────────────────────────── */
 

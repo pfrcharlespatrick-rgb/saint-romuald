@@ -75,6 +75,35 @@ rattachement d'un lien saisi à la main se fait par position exacte
 (année-division-page-ligne) ; sans ces quatre champs, le lien reste dans la
 base de données mais n'est pas repris dans Filiations.
 
+### La main survit au recalcul
+
+`data/filiation-data.js` est recalculé par `outils/analyse-filiation.mjs` à
+chaque correction de dépouillement, et un lien qui ne vivrait que dans le
+navigateur serait perdu pour le site. Le programme relit donc lui-même, à
+chaque passage, ce que la main a tranché dans `data/travail-personnel.json` —
+la sauvegarde de l'atelier, poussée par la branche `atelier-sauvegarde` et
+fondue dans `main` :
+
+- un rapprochement **confirmé** (`suivi-liens`, relation « Suivi (Filiations) »
+  ou sans relation) est retenu d'office, **avant** l'attribution et la déduction
+  des événements ; il prend la place de ce que le calcul aurait choisi pour
+  l'une ou l'autre des deux personnes, et le candidat évincé redevient libre.
+  Il sort avec `origine: "main"`, la confiance la plus haute, et ses motifs
+  disent qu'il vient de la main ;
+- un rapprochement **écarté** (`suivi-filiation-rejets`, clé `de__vers`) n'est
+  jamais retenu : le candidat suivant, s'il en est un, prend sa place. Il reste
+  consultable sous `ecartes`, avec le score que le calcul lui aurait donné, et
+  s'affiche ici barré, avec son bouton « Rétablir » ;
+- un lien dont la relation est une **parenté** (« veuve de… ») relie deux
+  personnes distinctes : ce n'est pas un suivi de la même personne, il est
+  laissé, et dit sur la sortie du programme.
+
+C'est le mécanisme le plus simple qui tienne la règle : pas de fusion après
+coup, pas de registre — la main est une entrée du calcul, donc ses décisions y
+sont à chaque fois. Sur le site, la fiche de personne dit « confirmé à la
+main » sur le maillon concerné. `node outils/relecture-1881/fondre.mjs --essai`
+dit si le fichier est en retard sur la main, et quoi relancer.
+
 ---
 
 ## Ce que le programme rapproche
@@ -219,7 +248,10 @@ Le programme relit les six fichiers de recensement et réécrit
 `data/filiation-data.js`. Il est déterministe : les mêmes données donnent les
 mêmes résultats. Après toute correction de dépouillement — y compris celles
 importées depuis une sauvegarde du site — le relancer répercute la correction
-sur les rapprochements.
+sur les rapprochements. Il relit aussi `data/travail-personnel.json` : les
+rapprochements confirmés ou écartés à la main y sont repris (voir « La main
+survit au recalcul »), et `suivi-filiation-rejets` fait partie des clés que
+l'atelier pousse avec sa sauvegarde.
 
 ---
 
