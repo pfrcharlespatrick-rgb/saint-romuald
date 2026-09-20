@@ -4,7 +4,7 @@
 window.LIEUX = {
   "format": "lieux-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-09-14",
+  "mis_a_jour": "2026-09-19",
   "note": "Couche « lieux » : un emplacement au sol, sa position, son état, et les maisons de recensement qui y ont été recensées année par année. Ne remplace jamais data/bussiere1990-data.js, qui reste la source publiée : un lieu portant source_ref hérite du titre, des personnages et du résumé de la brochure, et n'y ajoute que ce que le chercheur établit. Voir docs/LIEUX.md.",
   "lieux": [
     {
@@ -208,11 +208,11 @@ window.LIEUX = {
     },
     {
       "id": "1633-cf",
-      "nom": "Maison de Joseph Mc Kenzie",
+      "nom": "Maison McKenzie",
       "voie": "chemin du Fleuve",
       "adresse_actuelle": "1633, chemin du Fleuve",
       "designe_aujourdhui": "",
-      "etat": "inconnu",
+      "etat": "debout",
       "construit": "v.1870",
       "disparu": "",
       "coord": {
@@ -231,32 +231,12 @@ window.LIEUX = {
         {
           "annee": "1871",
           "division": "2",
-          "no_maison": "131",
-          "statut": "propose",
-          "confiance": "moyenne",
-          "origine": "source",
-          "motif": "Ménage McKenzie : John McKenzie, ship chandler, et son fils Joseph (8 a.) — l'attribution à « Joseph » reste à vérifier",
-          "ajoute_le": "2026-08-10"
-        },
-        {
-          "annee": "1881",
-          "division": "2",
-          "no_maison": "103",
-          "statut": "propose",
-          "confiance": "forte",
+          "no_maison": "147",
+          "statut": "confirme",
+          "confiance": "",
           "origine": "chercheur",
-          "motif": "Augustin Joncas, 59 a., Journalier — suivi depuis 1871 (division 2, maison 131) ; âge cohérent à 1 an près ; 2 personnes du même ménage retrouvées : Augustin Joncas, Raphaël Joncas",
-          "ajoute_le": "2026-09-13"
-        },
-        {
-          "annee": "1891",
-          "division": "1",
-          "no_maison": "513",
-          "statut": "propose",
-          "confiance": "forte",
-          "origine": "chercheur",
-          "motif": "Raphael Joncas, 40 a., débardeur, chef de son propre ménage — fils d'Augustin, il tenait déjà en 1881 la seconde famille de la maison 103. Il a désormais sept enfants et sa tante Marie Roberge sous son toit. Son âge déclaré avance de trois ans sur la décennie ; qu'il soit resté sous le toit paternel plutôt que d'avoir déménagé reste à établir.",
-          "ajoute_le": "2026-09-13"
+          "motif": "John McKenzie ",
+          "ajoute_le": "2026-09-19"
         }
       ],
       "adresses_anciennes": [],
@@ -2246,8 +2226,8 @@ window.LIEUX = {
       "empreinte": "c065c9a2"
     },
     "1633-cf": {
-      "le": "2026-09-14",
-      "empreinte": "0684e9d1"
+      "le": "2026-09-19",
+      "empreinte": "2a2000a8"
     },
     "manoir-longwood": {
       "le": "2026-09-14",
@@ -2460,6 +2440,10 @@ window.LIEUX = {
     "1610-chemin-du-fleuve": {
       "le": "2026-09-14",
       "empreinte": "1d8a226d"
+    },
+    "test": {
+      "le": "2026-09-19",
+      "empreinte": "46712378"
     }
   }
 };

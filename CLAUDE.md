@@ -54,9 +54,24 @@ sur lequel la main s'est posée perd son drapeau `incertain`, une famille
 renumérotée est reconnue sous son nouveau numéro au passage suivant, et
 l'opération est idempotente. Deux choses que `fondre.mjs` **laisse** et
 signale : un `no_maison` corrigé — c'est l'identifiant dont dépendent les clés
-de l'atelier, des lieux et des annexes, à changer à la main avec ce qui s'y
-rattache — et un lien dont la relation est une parenté (« veuve de… ») plutôt
-qu'un suivi de la même personne.
+de l'atelier, des lieux et des annexes — et un lien dont la relation est une
+parenté (« veuve de… ») plutôt qu'un suivi de la même personne.
+
+**Un numéro de maison se change avec `outils/relecture-1881/renumeroter.mjs`**,
+qui le fait partout où il sert de clé (recensement, tableaux annexes, Rapport
+de 1871, lieux) et dit ce qu'il a touché ; le même outil sort une famille de
+sa maison pour la mettre dans une autre, créée au besoin — ce que l'atelier ne
+sait pas faire :
+
+```sh
+node outils/relecture-1881/renumeroter.mjs maison 1871 2 "131 [?]" 147 --essai
+node outils/relecture-1881/renumeroter.mjs famille 1871 2 137 175 138 --essai
+```
+
+Le fichier de travail n'est pas réécrit pour autant : ses clés gardent
+l'ancien numéro, et `fondre.mjs` reconnaît la maison sous le nouveau (celui que
+la main a écrit dans `no_maison`), familles comprises. Après une
+renumérotation, relancer l'analyse des filiations et la génération du site.
 
 Les liens ne se versent pas dans un recensement : l'analyse des filiations
 relit `suivi-liens` et `suivi-filiation-rejets` **avant** de retenir ses

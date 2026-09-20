@@ -347,3 +347,26 @@ manuscrit et tous légitimes : neuf fractions qui ne s'accordent pas au mois, to
 en division 1 et toutes de la main du recenseur ; huit veuves inscrites sous leur nom
 de fille ; deux nourrissons dont il a oublié le mois ; deux fils mariés vivant chez
 leurs parents ; un mariage des douze mois sans état matrimonial.
+
+## Décisions de la main — 19 septembre 2026
+
+Versées depuis la sauvegarde de l'atelier du 19 septembre (`fondre.mjs`,
+152 changements, dont les McKenzie de la page 57 tranchés sans marque de doute),
+puis appliquées avec `renumeroter.mjs`, que `fondre.mjs` ne fait pas seul :
+
+- **Maison 138 créée pour la famille 175** (Nazaire Cadoret, page 53, lignes
+  2-3). Le dépouillement l'avait laissée dans la maison 137 avec la famille 174
+  (Villers), faute de nouveau numéro lisible sur la ligne ; Patrick lit 138 au
+  manuscrit. Le Rapport de 1871 donne d'ailleurs à chaque famille sa maison
+  (143 pour la 174, 144 pour la 175, 145 pour la 176 — sa numérotation est
+  décalée de six). La famille 175 est désormais sous « 138-175 » dans le
+  rattachement au Rapport.
+- **Quatre numéros de maison tranchés** : « 121 [?] » → 121 (famille 158, elle
+  aussi délestée de sa marque), « 126 [?] » → 126, « 136 [?] » → 136, et
+  « 131 [?] » → **147** (John McKenzie, page 57 ; le lieu 1633, chemin du Fleuve,
+  « Maison McKenzie », lui est rattaché sous ce numéro, et la ligne du tableau
+  foncier suit). La maison 131 sans marque (famille 168, Joncas) est une autre
+  maison et n'a pas bougé.
+
+Les clés de l'atelier gardent les anciens numéros dans `data/travail-personnel.json`
+(archive de la main) ; `fondre.mjs` les reconnaît sous les nouveaux.
