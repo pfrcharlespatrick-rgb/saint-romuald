@@ -2,7 +2,9 @@
 // Générateur du site public (chantier 2 de la refonte — voir docs/REFONTE.md).
 // Lit data/*.js et documents/manifeste.json, produit :
 //   recherche-index.json           — index compact, chargé par index.html
-//   fiches/personne/<annee-D>.json — fiches de personne, par lot annee-division
+//   fiches/personne/<annee-D>/P<page>.json — fiches de personne, une page de
+//                                  manuscrit par fragment (docs/REFONTE.md :
+//                                  jamais 5 Mo au chargement)
 //   fiches/maison/<annee-D>.json   — fiches de maison, par lot annee-division
 //   fiches/lieux.json              — lieux résolus, pour carte.html et lieu.html
 //   stats-donnees.json             — statistiques précalculées pour stats.html
@@ -107,13 +109,30 @@ function trajectoireDe(id) {
 }
 
 // ───────────────────────── fiches de personne ─────────────────────────
+// Un fragment par page de manuscrit — fiches/personne/<annee>-D<division>/P<page>.json,
+// un objet { id: fiche } — et non plus un fichier par lot annee-division : le
+// lot de 1891 pesait 7,4 Mo là où docs/REFONTE.md interdit 5 Mo au chargement,
+// quand une page fait quelques dizaines de Ko. L'identifiant porte déjà sa page
+// (1891-D1-P069-L22 → 1891-D1/P069.json) : personne.js en déduit le chemin sans
+// index supplémentaire. Le fragment est donc nommé d'après l'identifiant, tel
+// que le navigateur le lira ; page_ms s'y accorde par construction, et on le
+// dit si ce n'était plus le cas.
 
-const parLotPersonne = new Map(); // "annee-Ddivision" -> { id: fiche }
+const PAGE_DANS_ID = /^(\d{4})-D(\d)-P(\d{3})-/;
+const parLotPersonne = new Map(); // "annee-Ddivision" -> Map "page" -> { id: fiche }
 
 for (const p of d.personnes.values()) {
-  const cleAD = `${p.annee}-D${p.division}`;
-  if (!parLotPersonne.has(cleAD)) parLotPersonne.set(cleAD, {});
-  const lot = parLotPersonne.get(cleAD);
+  const dansId = p.id.match(PAGE_DANS_ID);
+  if (!dansId) throw new Error(`fiches de personne : identifiant sans page de manuscrit — ${p.id}`);
+  const cleAD = `${dansId[1]}-D${dansId[2]}`;
+  const page = dansId[3];
+  if (String(p.page_ms).padStart(3, '0') !== page) {
+    console.warn(`  ${p.id} : page_ms « ${p.page_ms} » ne s'accorde pas avec l'identifiant — fiche classée sous P${page}`);
+  }
+  if (!parLotPersonne.has(cleAD)) parLotPersonne.set(cleAD, new Map());
+  const pages = parLotPersonne.get(cleAD);
+  if (!pages.has(page)) pages.set(page, {});
+  const lot = pages.get(page);
 
   const cleM = cleMaison(p.annee, p.division, p.no_maison);
   const maison = d.maisons.get(cleM);
@@ -186,12 +205,39 @@ for (const p of d.personnes.values()) {
   };
 }
 
-let totalOctetsPersonne = 0;
-for (const [cleAD, lot] of parLotPersonne) {
-  const chemin = ecrireJson(`fiches/personne/${cleAD}.json`, lot);
-  totalOctetsPersonne += fs.statSync(chemin).size;
+const fragmentsEcrits = new Map(); // chemin absolu -> octets
+for (const [cleAD, pages] of parLotPersonne) {
+  for (const [page, lot] of pages) {
+    const chemin = ecrireJson(`fiches/personne/${cleAD}/P${page}.json`, lot);
+    fragmentsEcrits.set(chemin, fs.statSync(chemin).size);
+  }
 }
-console.log(`fiches/personne/*.json : ${parLotPersonne.size} lots, ${(totalOctetsPersonne / 1024).toFixed(0)} Ko au total`);
+
+// Ce qui traîne dans fiches/personne/ sans avoir été écrit à l'instant ne doit
+// plus être servi : un ancien lot annee-division de plusieurs Mo, ou la page
+// d'un recensement dont le numéro a changé à l'atelier. On l'enlève, et on le dit.
+function fichiersSous(dossier) {
+  if (!fs.existsSync(dossier)) return [];
+  return fs.readdirSync(dossier, { withFileTypes: true }).flatMap((e) => {
+    const chemin = path.join(dossier, e.name);
+    return e.isDirectory() ? fichiersSous(chemin) : [chemin];
+  });
+}
+const dossierPersonne = path.join(RACINE, 'fiches', 'personne');
+for (const chemin of fichiersSous(dossierPersonne)) {
+  if (fragmentsEcrits.has(chemin)) continue;
+  fs.rmSync(chemin);
+  console.log(`  retiré : ${path.relative(RACINE, chemin)} — n'est plus produit`);
+  const dossier = path.dirname(chemin);
+  if (dossier !== dossierPersonne && fs.readdirSync(dossier).length === 0) fs.rmdirSync(dossier);
+}
+
+const tailles = [...fragmentsEcrits.values()].sort((a, b) => a - b);
+const [cheminPlusLourd, octetsPlusLourd] = [...fragmentsEcrits].reduce((a, b) => (b[1] > a[1] ? b : a));
+const totalOctetsPersonne = tailles.reduce((s, o) => s + o, 0);
+console.log(`fiches/personne/<annee-D>/P<page>.json : ${fragmentsEcrits.size} pages en ${parLotPersonne.size} lots, ` +
+  `${(totalOctetsPersonne / 1024).toFixed(0)} Ko au total — la plus lourde, ${path.relative(dossierPersonne, cheminPlusLourd)}, ` +
+  `fait ${(octetsPlusLourd / 1024).toFixed(0)} Ko ; médiane ${(tailles[Math.floor(tailles.length / 2)] / 1024).toFixed(0)} Ko`);
 
 // ───────────────────────── fiches de maison ─────────────────────────
 

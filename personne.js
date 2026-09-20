@@ -1,6 +1,8 @@
 // Fiche de personne — routée par le fragment d'URL (#1871-D2-P030-L13).
-// Charge à la demande le lot fiches/personne/<annee>-D<division>.json qui
-// contient cette personne ; jamais les recensements complets.
+// Charge à la demande la seule page de manuscrit qui porte cette personne,
+// fiches/personne/<annee>-D<division>/P<page>.json (quelques dizaines de Ko) :
+// l'année, la division et la page se lisent dans l'identifiant. Jamais un lot
+// annee-division entier, encore moins un recensement complet.
 (function () {
   'use strict';
 
@@ -13,11 +15,20 @@
     });
   }
 
-  function chargerLot(cleAD) {
-    if (cache[cleAD]) return Promise.resolve(cache[cleAD]);
-    return fetch('fiches/personne/' + cleAD + '.json')
-      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-      .then(function (lot) { cache[cleAD] = lot; return lot; });
+  // Un fragment par page de manuscrit, gardé une fois chargé : les gens d'une
+  // même maisonnée se suivent sur la page, on ne la redemande pas à chaque clic.
+  // Les autres mentions d'une trajectoire renvoient à d'autres pages, chargées
+  // seulement quand on les ouvre. Une page qui n'existe pas (404) se lit comme
+  // « personne introuvable » ; elle n'est pas gardée en cache.
+  function chargerPage(annee, division, page) {
+    var cle = annee + '-D' + division + '/P' + page;
+    if (cache[cle]) return Promise.resolve(cache[cle]);
+    return fetch('fiches/personne/' + cle + '.json')
+      .then(function (r) {
+        if (r.status === 404) return {};
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json().then(function (fragment) { cache[cle] = fragment; return fragment; });
+      });
   }
 
   function phraseIdentite(f) {
@@ -195,7 +206,7 @@
       );
       return;
     }
-    var m = id.match(/^(\d{4})-D(\d)-/);
+    var m = id.match(/^(\d{4})-D(\d)-P(\d{3})-/);
     if (!m) { rendreErreur('Identifiant de personne invalide : ' + id); return; }
     if (m[1] === '1891' && m[2] === '2') {
       rendreErreur('Le recensement de 1891 n’a qu’une division : toutes ses personnes sont sous « 1891-D1 ». ' +
@@ -203,9 +214,9 @@
       return;
     }
     contenu.innerHTML = '<p class="chargement">Chargement de la fiche…</p>';
-    chargerLot(m[1] + '-D' + m[2])
-      .then(function (lot) {
-        var f = lot[id];
+    chargerPage(m[1], m[2], m[3])
+      .then(function (fragment) {
+        var f = fragment[id];
         if (!f) { rendreErreur('Personne introuvable : ' + id); return; }
         rendre(id, f);
       })
