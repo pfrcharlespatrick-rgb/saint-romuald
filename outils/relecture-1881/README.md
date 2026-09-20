@@ -50,6 +50,8 @@ la ligne 1.
 | `verif.mjs` | contrôles d'intégrité de la division 2 |
 | `diag1.mjs` | diagnostic structurel de la division 1 |
 | `pat.mjs`, `pat1.mjs`, `pat91.mjs` | ossature d'édition du fichier de données |
+| `fondre.mjs` | verse dans les recensements ce que la main a corrigé dans l'atelier (voir `CLAUDE.md`) |
+| `renumeroter.mjs` | renumérote une maison, ou déplace une famille dans une autre maison, partout où le numéro sert de clé — ce que `fondre.mjs` refuse de faire seul |
 | `r91.py`, `r91b.py` | 1891 division 1 : rendu des PDF de manuscrit (pages 62-83, puis 84-142) |
 
 Exemples :

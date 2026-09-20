@@ -133,6 +133,11 @@ journal la note sans l'expliquer.
 - Le site : la fiche de maison et la fiche de personne disent le territoire et
   son appui ; la trajectoire marque « (terr. D2) » à côté de la mention de 1891 ;
   la page des statistiques donne les deux populations sous la tuile de 1891.
+- L'atelier (`Suivi des maisons et familles.dc.html`) : chaque maison de 1891
+  porte l'étiquette « terr. D1 » ou « terr. D2 », l'appui en infobulle ; le
+  bouton « Tout le territoire / Terr. D1 / Terr. D2 » des filtres locaux
+  restreint la liste, l'avancement et le cartouche à un territoire, sans rien
+  changer aux identifiants `1891-D1-…` ni au champ `division`.
 
 Le script est idempotent. Si la table des filiations est recalculée, le relancer
 recompte les appuis ; les bornes des blocs, elles, sont une décision consignée

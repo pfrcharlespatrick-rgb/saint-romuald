@@ -368,7 +368,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 
 @media print{
   body::before{display:none}
-  .avis, nav.onglets, .pied, .actions-fiche, .recherche-bloc, .infobulle{display:none !important}
+  .avis, nav.onglets, .pied, .actions-fiche, .recherche-bloc, .filtres, .infobulle{display:none !important}
   .ouverture{background:none;border-bottom:1px solid #000}
   .ouverture-fond, .ouverture::after, .ouverture-credit{display:none}
   .ouverture-titre, .ouverture-kicker, .ouverture-lead{color:#000}
@@ -398,7 +398,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .point-carte .adresse{font-family:var(--etiq);font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:var(--madder-encre)}
 .point-carte h3{margin:2px 0 4px;font-size:19px}
 .point-carte .personnages{font-size:13.5px;color:var(--sepia);margin:0 0 6px}
-.point-carte .resume{font-size:14.5px;margin:0 0 8px}
+.point-carte .resume{font-size:14.5px;margin:0 0 8px;overflow-wrap:anywhere}
 .rattachements{display:flex;flex-wrap:wrap;gap:8px}
 .rattachements a{font-family:var(--etiq);font-size:12px;letter-spacing:.04em;color:var(--encre);
   border:1px solid var(--regle);border-radius:999px;padding:4px 12px;display:inline-block;
@@ -566,7 +566,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
 .galerie figcaption{font-size:13px;color:var(--sepia);margin-top:5px}
 .galerie .credit{display:block;font-family:var(--etiq);font-size:11px;letter-spacing:.05em;text-transform:uppercase}
 .photo-locale img{border-style:dashed}
-.note-suite{border-left:2px solid var(--regle);padding-left:10px;color:var(--sepia)}
+.note-suite{border-left:2px solid var(--regle);padding-left:10px;color:var(--sepia);overflow-wrap:anywhere}
 .point-actif{border-color:var(--lien);border-width:2px}
 .aller-carte{font-family:var(--etiq);font-size:12px;letter-spacing:.04em;background:none;
   border:1px dashed var(--regle);color:var(--lien);padding:4px 10px;cursor:pointer}
@@ -591,6 +591,32 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
   .carte-outils,.barre-atelier,.carte-panneau,.carte-legende,.aller-carte,.bouton-atelier,#plans-controle{display:none}
   .carte-toile,.carte-mini{height:280px}
 }
+
+/* ===== recherche : la liste complète (recherche.html) =====
+   L'accueil ne montre que vingt résultats ; cette page les montre tous,
+   groupés par recensement, dans le vocabulaire du guichet — la même barre,
+   posée sur le papier, et les mêmes lignes de résultat, devenues de vrais
+   liens. Les filtres reprennent le sélecteur d'années de la carte. */
+.page .recherche-bloc{margin:0;max-width:720px}
+.page .champ-recherche{box-shadow:var(--ombre)}
+a.resultat{color:inherit}
+@media (hover:hover){a.resultat:hover{text-decoration:none}}
+/* La dernière ligne du guichet, quand il reste des résultats à voir. */
+.resultat-suite .suite{margin-left:auto;font-family:var(--etiq);font-size:12.5px;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--madder-encre);white-space:nowrap}
+.filtres{display:flex;gap:12px;align-items:stretch;flex-wrap:wrap;margin:26px 0 0}
+.filtres[hidden]{display:none}
+.filtre-annees button .compte{margin-left:5px;letter-spacing:0;opacity:.72;font-variant-numeric:tabular-nums}
+.filtre-annees button[disabled]{opacity:.4;cursor:default}
+.filtre-annees button[disabled]:hover{background:none;color:var(--sepia)}
+.filtre-metier{flex:1 1 240px;min-width:0;display:flex}
+.selecteur{width:100%;font-family:var(--serif);font-size:15px;padding:8px 14px;border:1px solid var(--regle);
+  border-radius:var(--rayon);background:var(--surface);color:var(--encre)}
+.groupe-annee .bloc-titre .compte{font-family:var(--etiq);font-size:12.5px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--sepia);font-weight:400;margin-left:10px;white-space:nowrap}
+.liste-personnes{background:var(--surface);border:1px solid var(--regle);border-top:3px solid var(--madder);
+  border-radius:var(--rayon);box-shadow:var(--ombre)}
+.liste-personnes .qui{color:var(--lien)}
 
 /* ===== téléphone : ce qui déborde, ce qui se touche ===== */
 
@@ -630,7 +656,7 @@ details.table-donnees th{font-family:var(--etiq);font-size:11px;letter-spacing:.
   .bouton,.filtre-annees button,.aller-carte,.rattachements a{
     min-height:44px;display:inline-flex;align-items:center;justify-content:center}
   nav.onglets a.atelier{min-height:42px;display:inline-flex;align-items:center}
-  #recherche-lieu{min-height:44px}
+  #recherche-lieu,.selecteur{min-height:44px}
   /* Dans un registre, on vise un nom : c'est la cellule entière qui répond. */
   .registre td a{display:block;margin:-9px -12px;padding:9px 12px}
   /* Dans la frise des lieux, le titre est la porte d'entrée du lieu. */
