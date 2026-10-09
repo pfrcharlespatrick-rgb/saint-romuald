@@ -129,10 +129,7 @@
     // ici la feuille et les images sont rangées à la main dans lib/.
     L.Icon.Default.prototype.options.imagePath = 'lib/images/';
     carte = L.map('carte', { scrollWheelZoom: true }).setView(CENTRE, 14);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 19,
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(carte);
+    LX.poserFonds(carte);
     coucheLieux = L.layerGroup().addTo(carte);
     carte.on('click', function (e) {
       if (!etat.poser) return;

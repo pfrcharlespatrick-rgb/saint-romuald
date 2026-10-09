@@ -408,8 +408,42 @@ window.LX = (function () {
       }, null, 2) + ';\n';
   }
 
+  // ── fonds de carte ─────────────────────────────────────────────────────────
+  // Plusieurs fonds au choix (bouton en haut à droite de la carte). Le choix
+  // du lecteur est retenu dans son navigateur ; à défaut, « Doux » — un fond
+  // aux couleurs passées, plus calme que celui d'OpenStreetMap, qui laisse
+  // ressortir les points des lieux.
+  var CLE_FOND = 'carte-fond';
+  var FONDS = [
+    { nom: 'Doux', url: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+      opts: { subdomains: 'abcd', maxZoom: 20,
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · © <a href="https://carto.com/attributions">CARTO</a>' } },
+    { nom: 'Pâle', url: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+      opts: { subdomains: 'abcd', maxZoom: 20,
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · © <a href="https://carto.com/attributions">CARTO</a>' } },
+    { nom: 'Satellite', url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+      opts: { maxZoom: 19, attribution: 'Imagerie © Esri, Maxar, Earthstar Geographics' } },
+    { nom: 'Relief', url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
+      opts: { maxZoom: 19, attribution: '© Esri, HERE, Garmin, USGS, OpenStreetMap' } },
+    { nom: 'OpenStreetMap', url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+      opts: { maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' } }
+  ];
+
+  function poserFonds(carte) {
+    var choix = null;
+    try { choix = localStorage.getItem(CLE_FOND); } catch (e) { /* stockage bloqué */ }
+    var couches = {};
+    FONDS.forEach(function (f) { couches[f.nom] = L.tileLayer(f.url, f.opts); });
+    (couches[choix] || couches[FONDS[0].nom]).addTo(carte);
+    L.control.layers(couches, null, { position: 'topright' }).addTo(carte);
+    carte.on('baselayerchange', function (e) {
+      try { localStorage.setItem(CLE_FOND, e.name); } catch (err) { /* stockage bloqué */ }
+    });
+  }
+
   return {
     ETATS: ETATS, STATUTS: STATUTS, PRECISIONS: PRECISIONS, CLE_TRAVAIL: CLE_TRAVAIL,
+    poserFonds: poserFonds,
     esc: esc, slug: slug, nouvelId: nouvelId,
     empreinte: empreinte, reconcilier: reconcilier,
     charger: charger, overlay: overlay, majLieu: majLieu, oublierLieu: oublierLieu,
