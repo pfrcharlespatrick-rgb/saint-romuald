@@ -57,10 +57,7 @@
     if (carteMini) { carteMini.remove(); carteMini = null; }
     carteMini = L.map(noeud, { scrollWheelZoom: false, attributionControl: true })
       .setView([l.coord.lat, l.coord.lon], l.coord.precision === 'releve' ? 18 : 16);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 19,
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(carteMini);
+    LX.poserFonds(carteMini);
     var approx = l.coord.precision !== 'releve';
     L.circleMarker([l.coord.lat, l.coord.lon], {
       radius: 9, color: '#A4343A', weight: 2,
