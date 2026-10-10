@@ -55,6 +55,9 @@
     var marginale = famille.remarque_nom
       ? '<div class="marginale"><b>Renvoi de nom</b>' + esc(famille.remarque_nom) + '</div>' : '';
 
+    var note = famille.note
+      ? '<div class="note-chercheur" style="margin-top:10px"><span class="qual">Note du chercheur</span>' + esc(famille.note) + '</div>' : '';
+
     var devenir = '';
     if (famille.devenir && famille.devenir.length) {
       devenir = (
@@ -69,7 +72,7 @@
       '<section class="bloc"><h3 class="bloc-titre">Famille ' + esc(famille.no_famille) + (famille.chef ? ' — ' + esc(famille.chef) : '') + '</h3>' +
       (titrePage ? '<p class="bloc-note">' + titrePage + '</p>' : '') +
       '<div class="registre"><table><thead>' + thead + '</thead><tbody>' + lignes + '</tbody></table></div>' +
-      marginale + devenir +
+      marginale + note + devenir +
       '</section>'
     );
   }
