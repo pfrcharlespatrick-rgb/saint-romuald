@@ -1,7 +1,7 @@
 {
  "format": "suivi-saint-romuald-travail",
  "version": 1,
- "exporte": "2026-09-19T19:08:52.739Z",
+ "exporte": "2026-10-10T19:57:42.671Z",
  "donnees": {
   "suivi-familles-notes": {
    "1881-2-72-80": {
@@ -2169,6 +2169,161 @@
    },
    "1871-D2-P053-L03": {
     "age": "20"
+   },
+   "1871-D1-P001-L05": {
+    "nom": "Lavertu",
+    "remarque": ""
+   },
+   "1871-D1-P001-L06": {
+    "prenom": "Hyacinthe"
+   },
+   "1871-D1-P001-L09": {
+    "ecole": false,
+    "sait_lire": true,
+    "sait_ecrire": true
+   },
+   "1871-D1-P001-L13": {
+    "ecole": true
+   },
+   "1871-D1-P001-L20": {
+    "nom": "Depree",
+    "etat_matrimonial": "V",
+    "remarque": ""
+   },
+   "1871-D1-P001-L19": {
+    "profession": "Culler ",
+    "etat_matrimonial": "V",
+    "remarque": ""
+   },
+   "1871-D1-P002-L01": {
+    "remarque": "",
+    "prenom": "Elvina"
+   },
+   "1871-D1-P002-L02": {
+    "nom": "Olary",
+    "prenom": "Marry"
+   },
+   "1871-D1-P002-L11": {
+    "remarque": ""
+   },
+   "1871-D1-P002-L15": {
+    "nom": "Moore"
+   },
+   "1871-D1-P002-L16": {
+    "nom": "Moore"
+   },
+   "1871-D1-P002-L17": {
+    "nom": "Moore"
+   },
+   "1871-D1-P002-L18": {
+    "nom": "Moore"
+   },
+   "1871-D1-P002-L19": {
+    "nom": "Moore"
+   },
+   "1871-D1-P002-L20": {
+    "nom": "Moore"
+   },
+   "1871-D1-P003-L01": {
+    "nom": "Moore"
+   },
+   "1871-D1-P003-L02": {
+    "nom": "Moore"
+   },
+   "1871-D1-P003-L03": {
+    "nom": "Moore"
+   },
+   "1871-D1-P003-L15": {
+    "age": "29"
+   },
+   "1871-D1-P003-L17": {
+    "age": "49"
+   },
+   "1871-D1-P003-L13": {
+    "age": "25"
+   },
+   "1871-D1-P004-L13": {
+    "age": "1 mois"
+   },
+   "1871-D1-P005-L04": {
+    "sait_ecrire": true,
+    "sait_lire": true
+   },
+   "1871-D1-P005-L06": {
+    "remarque": ""
+   },
+   "1871-D1-P005-L11": {
+    "remarque": ""
+   },
+   "1871-D1-P005-L09": {
+    "remarque": ""
+   },
+   "1871-D1-P005-L08": {
+    "remarque": ""
+   },
+   "1871-D1-P005-L07": {
+    "remarque": ""
+   },
+   "1871-D1-P005-L10": {
+    "profession": "Servante"
+   },
+   "1871-D1-P005-L19": {
+    "profession": "Boomer (Boom man)"
+   },
+   "1871-D1-P007-L02": {
+    "nom": "Lemelin"
+   },
+   "1871-D1-P007-L03": {
+    "nom": "Lemelin"
+   },
+   "1871-D1-P007-L04": {
+    "nom": "Lemelin"
+   },
+   "1871-D1-P007-L05": {
+    "nom": "Lemelin"
+   },
+   "1871-D1-P007-L06": {
+    "nom": "Lemelin"
+   },
+   "1871-D1-P007-L07": {
+    "nom": "Lemelin"
+   },
+   "1871-D1-P007-L08": {
+    "nom": "Lemelin"
+   },
+   "1871-D1-P007-L09": {
+    "nom": "Lemelin"
+   },
+   "1871-D1-P007-L10": {
+    "nom": "Lemelin"
+   },
+   "1871-D1-P007-L19": {
+    "age": "2"
+   },
+   "1871-D1-P008-L03": {
+    "nom": "Bernier"
+   },
+   "1871-D1-P008-L04": {
+    "nom": "Bernier"
+   },
+   "1871-D1-P008-L05": {
+    "nom": "Bernier"
+   },
+   "1871-D1-P008-L06": {
+    "nom": "Bernier"
+   },
+   "1871-D1-P008-L07": {
+    "nom": "Bernier",
+    "prenom": "François Xavier"
+   },
+   "1871-D1-P008-L08": {
+    "nom": "Bernier"
+   },
+   "1871-D1-P008-L09": {
+    "nom": "Bernier"
+   },
+   "1871-D1-P008-L10": {
+    "nom": "Parent"
    }
   },
   "suivi-corr-maison": {
@@ -2327,7 +2482,7 @@
      "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
     }
    ],
-   "1871-D1-P031-L02": [
+   "1871-D1-P031-L07": [
     {
      "relation": "Suivi (Filiations)",
      "annee": "1881",
@@ -2400,21 +2555,72 @@
    ]
   },
   "suivi-lieux": {
-   "test": {
-    "id": "test",
-    "nom": "test",
-    "voie": "",
-    "adresse_actuelle": "",
-    "designe_aujourdhui": "",
-    "etat": "inconnu",
+   "1633-cf": {
+    "cadastre": {
+     "goad_feuillet": "14",
+     "goad_no": "20"
+    },
+    "_modifie_le": "2026-10-09",
+    "designe_aujourdhui": "Maison ancestrale bien conservée",
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-10-09",
+      "texte": "Selon le plan Goad nous voyons une grande maison en brique rouge de la même dimensions que celle  au 35, celle des McReady"
+     }
+    ]
+   },
+   "1644-chemin-du-fleuve": {
+    "id": "1644-chemin-du-fleuve",
+    "nom": "1644 chemin du Fleuve",
+    "voie": "chemin du Fleuve",
+    "adresse_actuelle": "1644 chemin du Fleuve",
+    "designe_aujourdhui": "Maison rectangulaire",
+    "etat": "debout",
     "construit": "",
     "disparu": "",
     "coord": {
-     "lat": 46.765677,
-     "lon": -71.212688,
+     "lat": 46.749007,
+     "lon": -71.258085,
      "precision": "releve",
      "pose_par": "Patrick Blanchet",
-     "pose_le": "2026-09-14"
+     "pose_le": "2026-10-09"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-10-09",
+      "texte": "Selon le plan Goad c'est une maison en bois"
+     }
+    ],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "14",
+     "goad_no": "18"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-10-09"
+   },
+   "maison-denis-bordeleau": {
+    "id": "maison-denis-bordeleau",
+    "nom": "Maison Denis Bordeleau",
+    "voie": "Chemin du fleuve",
+    "adresse_actuelle": "1623 Chemin du fleuve",
+    "designe_aujourdhui": "",
+    "etat": "debout",
+    "construit": "",
+    "disparu": "",
+    "coord": {
+     "lat": 46.748616,
+     "lon": -71.25877,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-10-09"
     },
     "source": "Patrick Blanchet",
     "personnages": "",
@@ -2422,39 +2628,378 @@
     "notes": [],
     "occupations": [],
     "adresses_anciennes": [],
-    "cadastre": {},
+    "cadastre": {
+     "goad_feuillet": "14",
+     "goad_no": "24"
+    },
     "photos": [],
     "documents": [],
-    "_modifie_le": "2026-09-14"
+    "_modifie_le": "2026-10-09"
    },
-   "1633-cf": {
+   "1727-chemin-du-fleuve": {
+    "id": "1727-chemin-du-fleuve",
+    "nom": "1727 Chemin du fleuve",
+    "voie": "chemin du Fleuve",
+    "adresse_actuelle": "1727 Chemin du fleuve",
+    "designe_aujourdhui": "",
     "etat": "debout",
-    "_modifie_le": "2026-09-19",
+    "construit": "",
+    "disparu": "",
+    "coord": {
+     "lat": 46.748676,
+     "lon": -71.25867,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-10-09"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-10-09",
+      "texte": "Fait partie d'un ensemble de maison de bois et de terrain tous identifier sous le no 24 dans le plan Goad"
+     }
+    ],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "14",
+     "goad_no": "24"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-10-09"
+   },
+   "1631-chemin-du-fleuve": {
+    "id": "1631-chemin-du-fleuve",
+    "nom": "1631 chemin du fleuve",
+    "voie": "chemin du Fleuve",
+    "adresse_actuelle": "1631 chemin du fleuve",
+    "designe_aujourdhui": "",
+    "etat": "inconnu",
+    "construit": "",
+    "disparu": "",
+    "coord": {
+     "lat": 46.748784,
+     "lon": -71.258494,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-10-09"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-10-09",
+      "texte": "Fais partie d'un ensemble de maisons de bois tous identifiés sous le non 24 dans le plan Goad"
+     }
+    ],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "14",
+     "goad_no": "24"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-10-09"
+   },
+   "1626-chemin-du-fleuve": {
+    "id": "1626-chemin-du-fleuve",
+    "nom": "1626 Chemin du fleuve",
+    "voie": "chemin du Fleuve",
+    "adresse_actuelle": "1626 Chemin du fleuve",
+    "designe_aujourdhui": "",
+    "etat": "debout",
+    "construit": "",
+    "disparu": "",
+    "coord": {
+     "lat": 46.748509,
+     "lon": -71.25853,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-10-09"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "14",
+     "goad_no": "23"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-10-09"
+   },
+   "1628-chemin-du-fleuve": {
+    "id": "1628-chemin-du-fleuve",
+    "nom": "1628 chemin du fleuve",
+    "voie": "chemin du Fleuve",
+    "adresse_actuelle": "1628 chemin du fleuve",
+    "designe_aujourdhui": "",
+    "etat": "debout",
+    "construit": "",
+    "disparu": "",
+    "coord": {
+     "lat": 46.748609,
+     "lon": -71.258379,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-10-09"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "14",
+     "goad_no": "21"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-10-09"
+   },
+   "1640-chemin-du-fleuve": {
+    "id": "1640-chemin-du-fleuve",
+    "nom": "1640 chemin du fleuve",
+    "voie": "chemin du Fleuve",
+    "adresse_actuelle": "1640 chemin du fleuve",
+    "designe_aujourdhui": "",
+    "etat": "inconnu",
+    "construit": "",
+    "disparu": "",
+    "coord": {
+     "lat": 46.748767,
+     "lon": -71.258009,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-10-09"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "14",
+     "goad_no": "17"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-10-09"
+   },
+   "1630-34-38-cemin-du-fleuve": {
+    "id": "1630-34-38-cemin-du-fleuve",
+    "nom": "1630-34-38 Cemin du Fleuve",
+    "voie": "",
+    "adresse_actuelle": "1630-34-38 Cemin du Fleuve",
+    "designe_aujourdhui": "",
+    "etat": "inconnu",
+    "construit": "",
+    "disparu": "",
+    "coord": {
+     "lat": 46.748679,
+     "lon": -71.258168,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-10-09"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [
+     {
+      "auteur": "Patrick Blanchet",
+      "date": "2026-10-09",
+      "texte": "Sur le plan Goad les deux maisons en bois semblent associées au même no. 17. Entrepot ou hangard arrière"
+     }
+    ],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "14",
+     "goad_no": "17"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-10-09"
+   },
+   "1648-chemin-du-fleuve": {
+    "id": "1648-chemin-du-fleuve",
+    "nom": "1654 chemin du fleuve",
+    "voie": "chemin du Fleuve",
+    "adresse_actuelle": "1654 chemin du fleuve",
+    "designe_aujourdhui": "",
+    "etat": "inconnu",
+    "construit": "",
+    "disparu": "",
+    "coord": {
+     "lat": 46.748964,
+     "lon": -71.257313,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-10-09"
+    },
+    "source": "Patrick Blanchet",
+    "personnages": "",
+    "resume": "",
+    "notes": [],
+    "occupations": [],
+    "adresses_anciennes": [],
+    "cadastre": {
+     "goad_feuillet": "14",
+     "goad_no": "14"
+    },
+    "photos": [],
+    "documents": [],
+    "_modifie_le": "2026-10-09"
+   },
+   "2393-cf": {
     "occupations": [
      {
+      "annee": "1881",
+      "division": "1",
+      "no_maison": "286",
+      "statut": "propose",
+      "confiance": "moyenne",
+      "origine": "source",
+      "motif": "Ferdinand Villeneuve, 49 a., architecte — deux ans avant l'achat de 1883",
+      "ajoute_le": "2026-08-10",
+      "cle_maison": "1881-D1-M286",
+      "maisonnee": {
+       "cle": "1881-D1-M286",
+       "familles": [
+        {
+         "no_famille": "327",
+         "chef": "Villeneuve Ferdinand",
+         "chef_id": "1881-D1-P073-L11",
+         "chef_profession": "Architecte",
+         "chef_age": "49",
+         "effectif": 8
+        }
+       ],
+       "logement": null
+      }
+     },
+     {
+      "annee": "1891",
+      "division": "1",
+      "no_maison": "67",
+      "statut": "propose",
+      "confiance": "forte",
+      "origine": "source",
+      "motif": "Ferdinand Villeneuve, 59 a., architecte-sculpteur-doreur d'églises — acquéreur de la maison du curé Sax en 1883",
+      "ajoute_le": "2026-08-10",
+      "cle_maison": "1891-D1-M67",
+      "maisonnee": {
+       "cle": "1891-D1-M67",
+       "familles": [
+        {
+         "no_famille": "67",
+         "chef": "Villeneuve Ferdinand",
+         "chef_id": "1891-D1-P017-L05",
+         "chef_profession": "Architecte-sculpteur-doreur d'églises",
+         "chef_age": "59",
+         "effectif": 6
+        }
+       ],
+       "logement": null
+      }
+     },
+     {
       "annee": "1871",
-      "division": "2",
-      "no_maison": "131 [?]",
-      "cle_maison": "1871-D2-M131 [?]",
+      "division": "1",
+      "no_maison": "217",
+      "cle_maison": "1871-D1-M217",
       "statut": "confirme",
       "confiance": "",
       "origine": "chercheur",
-      "motif": "John McKenzie ",
-      "ajoute_le": "2026-09-19",
+      "motif": "Pierre Sax",
+      "ajoute_le": "2026-10-09",
       "maisonnee": {
-       "cle": "1871-D2-M131 [?]",
+       "cle": "1871-D1-M217",
        "familles": [
         {
          "no_famille": "",
-         "chef": "John McKenzie [?]",
+         "chef": "Pierre Sax",
          "chef_id": "",
-         "effectif": 13
+         "effectif": 3
         }
        ]
       }
      }
     ],
-    "nom": "Maison McKenzie"
+    "_modifie_le": "2026-10-09",
+    "coord": {
+     "lat": 46.759996,
+     "lon": -71.233648,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-10-09"
+    },
+    "cadastre": {
+     "goad_feuillet": "12",
+     "goad_no": "68"
+    }
+   },
+   "30-juvenat": {
+    "coord": {
+     "lat": 46.761385,
+     "lon": -71.236896,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-10-09"
+    },
+    "_modifie_le": "2026-10-09",
+    "cadastre": {
+     "goad_feuillet": "12",
+     "goad_no": "142"
+    }
+   },
+   "1736-cf": {
+    "coord": {
+     "lat": 46.750032,
+     "lon": -71.252689,
+     "precision": "releve",
+     "pose_par": "Patrick Blanchet",
+     "pose_le": "2026-10-09"
+    },
+    "_modifie_le": "2026-10-09",
+    "cadastre": {
+     "goad_feuillet": "14",
+     "goad_no": "1"
+    }
+   },
+   "1720-chemin-du-fleuve": {
+    "cadastre": {
+     "goad_no": "5",
+     "goad_feuillet": "14"
+    },
+    "_modifie_le": "2026-10-09"
+   },
+   "1719-1720-cf": {
+    "cadastre": {
+     "goad_no": "6",
+     "goad_feuillet": "14"
+    },
+    "_modifie_le": "2026-10-09"
+   },
+   "120-coterouge": {
+    "cadastre": {
+     "goad_feuillet": "13",
+     "goad_no": "37"
+    },
+    "_modifie_le": "2026-10-09"
    }
   },
   "suivi-migration-ids-v1": {

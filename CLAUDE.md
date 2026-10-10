@@ -91,6 +91,17 @@ node outils/generer-site.mjs                    # propager aux fiches du site
 `data/travail-personnel.json` n'est jamais réécrit par ces outils : c'est
 l'archive de ce qui a été tranché.
 
+### Où en est la relecture à la main
+
+| Recensement | Relu par Patrick jusqu'à | Versé dans le site |
+|---|---|---|
+| 1871, division 1 | famille 29 incluse (maison 20, page 8 ligne 13) | oui — sauvegarde de l'atelier du 2026-10-10 19:57 |
+
+Une ligne de ce tableau dit « relu », pas « corrigé » : une famille relue sans
+correction n'a pas d'entrée dans `suivi-familles-corrections` (ainsi la
+famille 29 de 1871-D1). Mettre le tableau à jour à chaque nouvelle sauvegarde
+versée.
+
 ## Les lieux : la file de l'atelier de la carte se vide une fois versée
 
 L'atelier de la carte (`carte.html?atelier=1`) garde son travail sous
