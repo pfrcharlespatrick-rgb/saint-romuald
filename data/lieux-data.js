@@ -2203,7 +2203,7 @@ window.LIEUX = {
       "occupations": [],
       "adresses_anciennes": [],
       "cadastre": {
-        "lot": "523",
+        "lot": "516",
         "lot_annee": "1879",
         "goad_feuillet": "14",
         "goad_no": "29"
