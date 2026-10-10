@@ -2201,7 +2201,7 @@ window.LIEUX = {
       "resume": "",
       "notes": [],
       "occupations": [],
-      "adresses_anciennes": [],
+      "adresses_anciennes": ["1411, rue Commerciale"],
       "cadastre": {
         "lot": "516",
         "lot_annee": "1879",
