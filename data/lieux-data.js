@@ -4,7 +4,7 @@
 window.LIEUX = {
   "format": "lieux-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-09-19",
+  "mis_a_jour": "2026-10-10",
   "note": "Couche « lieux » : un emplacement au sol, sa position, son état, et les maisons de recensement qui y ont été recensées année par année. Ne remplace jamais data/bussiere1990-data.js, qui reste la source publiée : un lieu portant source_ref hérite du titre, des personnages et du résumé de la brochure, et n'y ajoute que ce que le chercheur établit. Voir docs/LIEUX.md.",
   "lieux": [
     {
@@ -211,7 +211,7 @@ window.LIEUX = {
       "nom": "Maison McKenzie",
       "voie": "chemin du Fleuve",
       "adresse_actuelle": "1633, chemin du Fleuve",
-      "designe_aujourdhui": "",
+      "designe_aujourdhui": "Maison ancestrale bien conservée",
       "etat": "debout",
       "construit": "v.1870",
       "disparu": "",
@@ -226,7 +226,13 @@ window.LIEUX = {
       "source_ref": "bussiere:1633-cf",
       "personnages": "Joseph Mc Kenzie ; puis les frères Cadoret",
       "resume": "",
-      "notes": [],
+      "notes": [
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-10-09",
+          "texte": "Selon le plan Goad nous voyons une grande maison en brique rouge de la même dimensions que celle  au 35, celle des McReady"
+        }
+      ],
       "occupations": [
         {
           "annee": "1871",
@@ -240,7 +246,10 @@ window.LIEUX = {
         }
       ],
       "adresses_anciennes": [],
-      "cadastre": {},
+      "cadastre": {
+        "goad_feuillet": "14",
+        "goad_no": "20"
+      },
       "photos": [],
       "documents": []
     },
@@ -267,7 +276,10 @@ window.LIEUX = {
       "notes": [],
       "occupations": [],
       "adresses_anciennes": [],
-      "cadastre": {},
+      "cadastre": {
+        "goad_no": "6",
+        "goad_feuillet": "14"
+      },
       "photos": [],
       "documents": []
     },
@@ -304,7 +316,10 @@ window.LIEUX = {
       ],
       "occupations": [],
       "adresses_anciennes": [],
-      "cadastre": {},
+      "cadastre": {
+        "goad_no": "5",
+        "goad_feuillet": "14"
+      },
       "photos": [],
       "documents": []
     },
@@ -318,11 +333,11 @@ window.LIEUX = {
       "construit": "v.1850",
       "disparu": "",
       "coord": {
-        "lat": 46.750036,
-        "lon": -71.252673,
+        "lat": 46.750032,
+        "lon": -71.252689,
         "precision": "releve",
         "pose_par": "Patrick Blanchet",
-        "pose_le": "2026-09-13"
+        "pose_le": "2026-10-09"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:1736-cf",
@@ -331,7 +346,10 @@ window.LIEUX = {
       "notes": [],
       "occupations": [],
       "adresses_anciennes": [],
-      "cadastre": {},
+      "cadastre": {
+        "goad_feuillet": "14",
+        "goad_no": "1"
+      },
       "photos": [],
       "documents": []
     },
@@ -1011,11 +1029,11 @@ window.LIEUX = {
       "construit": "1877",
       "disparu": "",
       "coord": {
-        "lat": 46.759933,
-        "lon": -71.233534,
+        "lat": 46.759996,
+        "lon": -71.233648,
         "precision": "releve",
         "pose_par": "Patrick Blanchet",
-        "pose_le": "2026-09-13"
+        "pose_le": "2026-10-09"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:2393-cf",
@@ -1042,10 +1060,23 @@ window.LIEUX = {
           "origine": "source",
           "motif": "Ferdinand Villeneuve, 59 a., architecte-sculpteur-doreur d'églises — acquéreur de la maison du curé Sax en 1883",
           "ajoute_le": "2026-08-10"
+        },
+        {
+          "annee": "1871",
+          "division": "1",
+          "no_maison": "217",
+          "statut": "confirme",
+          "confiance": "",
+          "origine": "chercheur",
+          "motif": "Pierre Sax",
+          "ajoute_le": "2026-10-09"
         }
       ],
       "adresses_anciennes": [],
-      "cadastre": {},
+      "cadastre": {
+        "goad_feuillet": "12",
+        "goad_no": "68"
+      },
       "photos": [],
       "documents": []
     },
@@ -1442,7 +1473,10 @@ window.LIEUX = {
       ],
       "occupations": [],
       "adresses_anciennes": [],
-      "cadastre": {},
+      "cadastre": {
+        "goad_feuillet": "13",
+        "goad_no": "37"
+      },
       "photos": [],
       "documents": []
     },
@@ -1654,11 +1688,11 @@ window.LIEUX = {
       "construit": "à partir de 1856",
       "disparu": "",
       "coord": {
-        "lat": 46.761826,
-        "lon": -71.235416,
+        "lat": 46.761385,
+        "lon": -71.236896,
         "precision": "releve",
         "pose_par": "Patrick Blanchet",
-        "pose_le": "2026-09-13"
+        "pose_le": "2026-10-09"
       },
       "source": "Bussière 1990",
       "source_ref": "bussiere:30-juvenat",
@@ -1698,7 +1732,10 @@ window.LIEUX = {
         }
       ],
       "adresses_anciennes": [],
-      "cadastre": {},
+      "cadastre": {
+        "goad_feuillet": "12",
+        "goad_no": "142"
+      },
       "photos": [],
       "documents": []
     },
@@ -2202,6 +2239,291 @@ window.LIEUX = {
       },
       "photos": [],
       "documents": []
+    },
+    {
+      "id": "1644-chemin-du-fleuve",
+      "notes": [
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-10-09",
+          "texte": "Selon le plan Goad c'est une maison en bois"
+        }
+      ],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "14",
+        "goad_no": "18"
+      },
+      "photos": [],
+      "documents": [],
+      "nom": "1644 chemin du Fleuve",
+      "voie": "chemin du Fleuve",
+      "adresse_actuelle": "1644 chemin du Fleuve",
+      "designe_aujourdhui": "Maison rectangulaire",
+      "etat": "debout",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.749007,
+        "lon": -71.258085,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-10-09"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": ""
+    },
+    {
+      "id": "maison-denis-bordeleau",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "14",
+        "goad_no": "24"
+      },
+      "photos": [],
+      "documents": [],
+      "nom": "Maison Denis Bordeleau",
+      "voie": "Chemin du fleuve",
+      "adresse_actuelle": "1623 Chemin du fleuve",
+      "designe_aujourdhui": "",
+      "etat": "debout",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.748616,
+        "lon": -71.25877,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-10-09"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": ""
+    },
+    {
+      "id": "1727-chemin-du-fleuve",
+      "notes": [
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-10-09",
+          "texte": "Fait partie d'un ensemble de maison de bois et de terrain tous identifier sous le no 24 dans le plan Goad"
+        }
+      ],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "14",
+        "goad_no": "24"
+      },
+      "photos": [],
+      "documents": [],
+      "nom": "1727 Chemin du fleuve",
+      "voie": "chemin du Fleuve",
+      "adresse_actuelle": "1727 Chemin du fleuve",
+      "designe_aujourdhui": "",
+      "etat": "debout",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.748676,
+        "lon": -71.25867,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-10-09"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": ""
+    },
+    {
+      "id": "1631-chemin-du-fleuve",
+      "notes": [
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-10-09",
+          "texte": "Fais partie d'un ensemble de maisons de bois tous identifiés sous le non 24 dans le plan Goad"
+        }
+      ],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "14",
+        "goad_no": "24"
+      },
+      "photos": [],
+      "documents": [],
+      "nom": "1631 chemin du fleuve",
+      "voie": "chemin du Fleuve",
+      "adresse_actuelle": "1631 chemin du fleuve",
+      "designe_aujourdhui": "",
+      "etat": "inconnu",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.748784,
+        "lon": -71.258494,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-10-09"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": ""
+    },
+    {
+      "id": "1626-chemin-du-fleuve",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "14",
+        "goad_no": "23"
+      },
+      "photos": [],
+      "documents": [],
+      "nom": "1626 Chemin du fleuve",
+      "voie": "chemin du Fleuve",
+      "adresse_actuelle": "1626 Chemin du fleuve",
+      "designe_aujourdhui": "",
+      "etat": "debout",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.748509,
+        "lon": -71.25853,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-10-09"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": ""
+    },
+    {
+      "id": "1628-chemin-du-fleuve",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "14",
+        "goad_no": "21"
+      },
+      "photos": [],
+      "documents": [],
+      "nom": "1628 chemin du fleuve",
+      "voie": "chemin du Fleuve",
+      "adresse_actuelle": "1628 chemin du fleuve",
+      "designe_aujourdhui": "",
+      "etat": "debout",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.748609,
+        "lon": -71.258379,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-10-09"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": ""
+    },
+    {
+      "id": "1640-chemin-du-fleuve",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "14",
+        "goad_no": "17"
+      },
+      "photos": [],
+      "documents": [],
+      "nom": "1640 chemin du fleuve",
+      "voie": "chemin du Fleuve",
+      "adresse_actuelle": "1640 chemin du fleuve",
+      "designe_aujourdhui": "",
+      "etat": "inconnu",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.748767,
+        "lon": -71.258009,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-10-09"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": ""
+    },
+    {
+      "id": "1630-34-38-cemin-du-fleuve",
+      "notes": [
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-10-09",
+          "texte": "Sur le plan Goad les deux maisons en bois semblent associées au même no. 17. Entrepot ou hangard arrière"
+        }
+      ],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "14",
+        "goad_no": "17"
+      },
+      "photos": [],
+      "documents": [],
+      "nom": "1630-34-38 Cemin du Fleuve",
+      "voie": "",
+      "adresse_actuelle": "1630-34-38 Cemin du Fleuve",
+      "designe_aujourdhui": "",
+      "etat": "inconnu",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.748679,
+        "lon": -71.258168,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-10-09"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": ""
+    },
+    {
+      "id": "1648-chemin-du-fleuve",
+      "notes": [],
+      "occupations": [],
+      "adresses_anciennes": [],
+      "cadastre": {
+        "goad_feuillet": "14",
+        "goad_no": "14"
+      },
+      "photos": [],
+      "documents": [],
+      "nom": "1654 chemin du fleuve",
+      "voie": "chemin du Fleuve",
+      "adresse_actuelle": "1654 chemin du fleuve",
+      "designe_aujourdhui": "",
+      "etat": "inconnu",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.748964,
+        "lon": -71.257313,
+        "precision": "releve",
+        "pose_par": "Patrick Blanchet",
+        "pose_le": "2026-10-09"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "",
+      "resume": ""
     }
   ],
   "verse": {
@@ -2226,8 +2548,8 @@ window.LIEUX = {
       "empreinte": "c065c9a2"
     },
     "1633-cf": {
-      "le": "2026-09-19",
-      "empreinte": "2a2000a8"
+      "le": "2026-10-10",
+      "empreinte": "a445d2f9"
     },
     "manoir-longwood": {
       "le": "2026-09-14",
@@ -2242,12 +2564,12 @@ window.LIEUX = {
       "empreinte": "c38b4e3d"
     },
     "1719-1720-cf": {
-      "le": "2026-09-14",
-      "empreinte": "6f82160d"
+      "le": "2026-10-10",
+      "empreinte": "f27e3f72"
     },
     "1736-cf": {
-      "le": "2026-09-14",
-      "empreinte": "9706a308"
+      "le": "2026-10-10",
+      "empreinte": "6faebacc"
     },
     "1871-cf": {
       "le": "2026-09-14",
@@ -2258,8 +2580,8 @@ window.LIEUX = {
       "empreinte": "c7f69435"
     },
     "120-coterouge": {
-      "le": "2026-09-14",
-      "empreinte": "3371b07b"
+      "le": "2026-10-10",
+      "empreinte": "ee1b529f"
     },
     "1984-cf": {
       "le": "2026-09-14",
@@ -2342,16 +2664,16 @@ window.LIEUX = {
       "empreinte": "13e1ffe1"
     },
     "30-juvenat": {
-      "le": "2026-09-14",
-      "empreinte": "e71f93ad"
+      "le": "2026-10-10",
+      "empreinte": "cde49739"
     },
     "2248-2256-cf": {
       "le": "2026-09-14",
       "empreinte": "d29fa323"
     },
     "2393-cf": {
-      "le": "2026-09-14",
-      "empreinte": "0233a88b"
+      "le": "2026-10-10",
+      "empreinte": "d4afa0b6"
     },
     "2416-cf": {
       "le": "2026-09-14",
@@ -2370,8 +2692,8 @@ window.LIEUX = {
       "empreinte": "82d881f0"
     },
     "1720-chemin-du-fleuve": {
-      "le": "2026-09-14",
-      "empreinte": "741f7772"
+      "le": "2026-10-10",
+      "empreinte": "fd0064fd"
     },
     "305-rue-de-saint-romuald": {
       "le": "2026-09-14",
@@ -2444,6 +2766,42 @@ window.LIEUX = {
     "test": {
       "le": "2026-09-19",
       "empreinte": "46712378"
+    },
+    "1644-chemin-du-fleuve": {
+      "le": "2026-10-10",
+      "empreinte": "9eb9acaf"
+    },
+    "maison-denis-bordeleau": {
+      "le": "2026-10-10",
+      "empreinte": "c1b28aa1"
+    },
+    "1727-chemin-du-fleuve": {
+      "le": "2026-10-10",
+      "empreinte": "c24b528b"
+    },
+    "1631-chemin-du-fleuve": {
+      "le": "2026-10-10",
+      "empreinte": "4a415ede"
+    },
+    "1626-chemin-du-fleuve": {
+      "le": "2026-10-10",
+      "empreinte": "ec78f553"
+    },
+    "1628-chemin-du-fleuve": {
+      "le": "2026-10-10",
+      "empreinte": "4e70f30f"
+    },
+    "1640-chemin-du-fleuve": {
+      "le": "2026-10-10",
+      "empreinte": "e14233fc"
+    },
+    "1630-34-38-cemin-du-fleuve": {
+      "le": "2026-10-10",
+      "empreinte": "463fa695"
+    },
+    "1648-chemin-du-fleuve": {
+      "le": "2026-10-10",
+      "empreinte": "ff385a97"
     }
   }
 };
