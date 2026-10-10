@@ -89,6 +89,8 @@ export function chargerDonnees() {
           chef: famille.chef || '',
           no_famille_ms: famille.no_famille_ms || '',
           remarque_nom: famille.remarque_nom || '',
+          // Note écrite par Patrick dans l'atelier, versée par fondre.mjs.
+          note: famille.note || '',
           membres
         };
       });

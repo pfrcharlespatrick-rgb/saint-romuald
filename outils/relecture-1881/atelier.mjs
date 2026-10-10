@@ -147,6 +147,15 @@ export function correctionsFamilles() {
   return cacheFamilles;
 }
 
+let cacheNotes = null;
+/** Les notes de suivi des familles, par clé d'atelier (« 1881-2-28-33 ») :
+    { status, text }, rognés. Le statut est une coche de travail ; le texte est
+    ce que Patrick a écrit sur la famille. */
+export function notesFamilles() {
+  if (!cacheNotes) cacheNotes = rognerTout(travail()['suivi-familles-notes']);
+  return cacheNotes;
+}
+
 /** Les champs qu'une main a fixés sur cette maison, ou un objet vide. */
 export function manuelMaison(annee, division, noMaison) {
   return correctionsMaisons()[cleMaisonAtelier(annee, division, noMaison)] || {};

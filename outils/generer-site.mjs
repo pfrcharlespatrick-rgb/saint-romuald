@@ -266,6 +266,7 @@ for (const [cleM, maison] of d.maisons) {
     return {
       no_famille: f.no_famille, chef: f.chef, no_famille_ms: f.no_famille_ms,
       remarque_nom: f.remarque_nom,
+      ...(f.note ? { note: f.note } : {}),
       entetes: cols.entetes, membres, devenir
     };
   });

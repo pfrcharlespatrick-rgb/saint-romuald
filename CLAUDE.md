@@ -40,13 +40,14 @@ les fichiers partent ainsi d'accord avec la main. L'opération est idempotente e
 
 ### Les maisons, les familles et les liens sont versés aussi
 
-Le même fichier de travail porte trois autres clés tranchées à la main. Elles
+Le même fichier de travail porte quatre autres clés tranchées à la main. Elles
 ne restent plus dans l'atelier : elles sont versées, et par ces outils.
 
 | Clé | Ce qu'elle dit | Versée par | Où elle va |
 |---|---|---|---|
 | `suivi-corr-maison` | colonne du formulaire, logement, adresse d'une maison — clé `annee-division-no` | `outils/relecture-1881/fondre.mjs` | `maison.colonne_logement` (2 en construction, 3 inhabitée, 4 habitée), `maison.logement.{materiau,etages,chambres}`, `maison.adresse` |
 | `suivi-corr-famille` | numéro de famille corrigé — clé `annee-division-maison-numéro d'origine`, valeur rognée | `outils/relecture-1881/fondre.mjs` | `famille.no_famille` |
+| `suivi-familles-notes` | note de Patrick sur une famille (`text`) ; le statut « confirmé » reste une coche de l'atelier — même clé que `suivi-corr-famille` | `outils/relecture-1881/fondre.mjs` | `famille.note`, affichée « Note du chercheur » sur la fiche de maison |
 | `suivi-liens`, et son pendant `suivi-filiation-rejets` | rapprochements entre recensements confirmés ou écartés | `outils/analyse-filiation.mjs`, à chaque recalcul | `data/filiation-data.js` : `origine: "main"` pour un lien confirmé, liste `ecartes` pour un lien écarté |
 
 Les mêmes règles valent : seuls les champs touchés sont écrits, un logement

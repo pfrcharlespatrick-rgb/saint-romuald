@@ -3,7 +3,8 @@ import { fileURLToPath } from 'url';
 import fs from 'fs';
 import {
   corrections, manuel, touche, sansRelecture,
-  correctionsMaisons, correctionsFamilles, manuelMaison, cleMaisonAtelier, recensementDeCle,
+  correctionsMaisons, correctionsFamilles, manuelMaison, cleMaisonAtelier, cleFamilleAtelier, recensementDeCle,
+  notesFamilles,
   resoudreLiens, rejets,
 } from './atelier.mjs';
 const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
@@ -19,7 +20,7 @@ const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..
    public, lui, lit les recensements. Les verser est donc ce qui les rend
    visibles partout — et ce qui met les fichiers d'accord avec la main.
 
-   Trois clés du fichier de travail sont versées ici, champ par champ, sans
+   Quatre clés du fichier de travail sont versées ici, champ par champ, sans
    jamais toucher au fichier de travail lui-même (c'est l'archive de ce qui a
    été tranché) :
 
@@ -39,8 +40,11 @@ const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..
      `no_famille`. La clé de l'atelier porte le numéro d'origine (« 31 [?] »),
      la valeur le nouveau (« 31 ») ; une fois versée, la famille se retrouve
      sous son nouveau numéro et l'entrée est tenue pour versée.
+   - `suivi-familles-notes`, par famille : le texte de la note va dans
+     `famille.note`, que la fiche de maison du site affiche. Le statut
+     (« confirmé ») reste une coche de l'atelier et n'est pas versé.
 
-   Le quatrième chantier de la main, `suivi-liens`, ne se verse pas dans un
+   Le cinquième chantier de la main, `suivi-liens`, ne se verse pas dans un
    recensement : l'analyse des filiations (outils/analyse-filiation.mjs) le
    relit elle-même à chaque recalcul. On vérifie seulement ici que
    data/filiation-data.js est à jour de la main, et on dit sinon quoi relancer.
@@ -67,7 +71,8 @@ function lireJson(chemin) {
 export function recensementsTouches() {
   const vises = new Set();
   for (const id of Object.keys(corrections())) vises.add(id.slice(0, id.indexOf('-P')));
-  for (const cle of [...Object.keys(correctionsMaisons()), ...Object.keys(correctionsFamilles())]) {
+  const notesEcrites = Object.entries(notesFamilles()).filter(([, n]) => n.text).map(([cle]) => cle);
+  for (const cle of [...Object.keys(correctionsMaisons()), ...Object.keys(correctionsFamilles()), ...notesEcrites]) {
     const r = recensementDeCle(cle);
     if (r) vises.add(r);
   }
@@ -205,6 +210,39 @@ export function fondre(recensement, { essai = false } = {}) {
   for (const cle of Object.keys(correctionsFamilles())) {
     if (recensementDeCle(cle) === recensement && !clesFamillesVues.has(cle)) {
       laisses.push(`${cle} : aucune famille de ce numéro dans le recensement, correction laissée`);
+    }
+  }
+
+  // ── Notes de famille ──
+  // Le texte d'une note va dans famille.note ; le statut (« confirmé ») reste
+  // une coche de l'atelier. Une famille renumérotée se reconnaît sous ses
+  // anciens numéros, ceux que portent les clés.
+  const notes = notesFamilles();
+  const clesNotesVues = new Set();
+  for (const m of D.maisons || []) {
+    const nosMaison = [m.no_maison];
+    for (const [ancien, mm] of renumerotees) if (mm === m) nosMaison.push(ancien);
+    for (const f of m.familles || []) {
+      const nosFamille = [f.no_famille];
+      for (const noM of nosMaison) {
+        const prefixe = cleMaisonAtelier(annee, division, noM) + '-';
+        for (const [cle, corr] of Object.entries(correctionsFamilles())) {
+          if (cle.startsWith(prefixe) && memeValeur(f.no_famille, corr.no_famille)) nosFamille.push(cle.slice(prefixe.length));
+        }
+      }
+      const cle = nosMaison.flatMap(noM => nosFamille.map(noF => cleFamilleAtelier(annee, division, noM, noF)))
+        .find(c => notes[c]);
+      if (!cle) continue;
+      clesNotesVues.add(cle);
+      const texte = notes[cle].text || '';
+      const etiquette = `maison ${m.no_maison} famille ${f.no_famille}`;
+      if (texte) poser(f, 'note', texte, etiquette, faits);
+      else if (f.note) { faits.push(`${etiquette} note retirée (vidée dans l'atelier)`); delete f.note; }
+    }
+  }
+  for (const [cle, n] of Object.entries(notes)) {
+    if (recensementDeCle(cle) === recensement && n.text && !clesNotesVues.has(cle)) {
+      laisses.push(`${cle} : note de famille sans famille de ce numéro dans le recensement, laissée`);
     }
   }
 
