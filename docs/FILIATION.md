@@ -11,9 +11,7 @@ preuves documentaires viendront les trancher.
 | Pièce | Rôle | Autorité |
 |---|---|---|
 | `outils/analyse-filiation.mjs` | Calcule les rapprochements et les événements | Hypothèses |
-| `outils/deduire-sexe.mjs` | Déduit le sexe du prénom là où la colonne est inexploitable | Déductions |
 | `data/filiation-data.js` | Résultat du calcul, relu par le site | Hypothèses |
-| `data/complement-sexe-1881-d2-data.js` | Sexes déduits, non destructif | Déductions |
 | `documents/` | Actes et sources versés par le chercheur | **Preuves — l'emportent** |
 
 La séparation est délibérée, et de même nature que celle entre `personne` et
@@ -257,46 +255,17 @@ l'atelier pousse avec sa sauvegarde.
 
 ## Le sexe de 1881 division 2
 
-**Le problème.** La colonne y porte 1 334 fiches « F » pour 104 « M », soit 93 %
-d'un seul sexe là où les autres jeux se répartissent également. Les fils Lee,
-tous navigateurs, y sont notés féminins. Elle a manifestement été remplie par
-défaut, sauf pour les 104 fiches où un « M » a été saisi délibérément.
+La colonne « sexe » de 1881 division 2 avait été remplie par défaut : 1 334
+« F » pour 104 « M ». Un complément (`outils/deduire-sexe.mjs`, qui écrivait
+`data/complement-sexe-1881-d2-data.js`) déduisait le sexe du prénom et listait
+les contradictions dans l'onglet **Contrôles**.
 
-**La méthode.** Plutôt qu'une liste de prénoms écrite à la main, la table est
-apprise des quatre jeux dont la colonne est fiable — 1871 D1, 1871 D2, 1881 D1,
-1891 D1. Ce sont les mêmes familles, la même population franco-irlandaise : la
-source la mieux placée pour dire si « Célanire » est masculin ou féminin dans
-cette paroisse.
-
-**Ce que ça vaut.** Deux mesures indépendantes :
-
-| Épreuve | Résultat |
-|---|---|
-| Validation croisée, un jeu retiré à la fois | **99,53 %** de justesse sur 7 199 prédictions |
-| Confrontation aux 104 « M » attestés de 1881 D2 | 94 concordances, **aucune discordance** |
-
-La seconde est la plus parlante : elle confirme à la fois que ces 104 « M »
-avaient bien été saisis à dessein, et que la déduction les retrouve tous.
-
-**Le résultat.**
-
-| | Fiches |
-|---|---|
-| « M » attestés, jamais recouverts | 104 |
-| Déductions confirmant le « F » saisi | 553 |
-| **Fiches saisies « F » que le prénom dit masculines** | **540** |
-| Prénoms trop rares ou mixtes, non tranchés | 241 |
-
-Les 540 contradictions sont listées dans l'onglet **Contrôles** du site, triées
-par page et ligne pour que la relecture au manuscrit suive l'ordre du registre.
-
-**La portée.** Le résultat vit dans `data/complement-sexe-1881-d2-data.js`, sur
-le modèle de `complement-1881-d1-data.js` : il ne modifie aucune donnée de
-recensement, les 104 « M » attestés ne sont jamais recouverts, et le supprimer
-laisse le dépouillement d'origine intact. Une relecture ultérieure se compare au
-complément au lieu de l'écraser.
-
-Regénérer : `node outils/deduire-sexe.mjs`.
+La colonne a depuis été reprise au manuscrit (714 « M », 738 « F »), et Patrick
+a vérifié la liste des contradictions à la main le 2026-10-11 — une seule
+erreur, p. 22 l. 13, Philomène Cantin, qui est bien une femme. Le complément,
+devenu périmé (il était indexé sur des lignes qui ont bougé depuis), a été
+retiré avec l'outil qui le produisait et la section de l'onglet Contrôles : le
+calcul lit le sexe tel que le recensement le porte. L'historique git les garde.
 
 ---
 

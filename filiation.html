@@ -355,8 +355,7 @@
     </p>
 
     <div style="display:flex;gap:var(--space-1);flex-wrap:wrap;margin-bottom:var(--space-4)">
-      <button type="button" class="btn btn-primary" data-ctl="sexe">Sexe — 1881 division 2</button>
-      <button type="button" class="btn btn-secondary" data-ctl="age">Âges incompatibles</button>
+      <button type="button" class="btn btn-primary" data-ctl="age">Âges incompatibles</button>
     </div>
     <div id="zone-controles"></div>
   </section>
@@ -389,7 +388,6 @@
 <script src="data/recensement-1881-d2-data.js"></script>
 <script src="data/recensement-1891-d1-data.js"></script>
 <script src="data/recensement-1891-d2-data.js"></script>
-<script src="data/complement-sexe-1881-d2-data.js"></script>
 <script src="data/filiation-data.js"></script>
 
 <script>
@@ -1055,49 +1053,8 @@
   /* ─── Vue : contrôles ───────────────────────────────────────────── */
 
   var zoneCtl = document.getElementById('zone-controles');
-  var CS = window.COMPLEMENT_SEXE_1881_D2 || null;
 
   function rendreControles(quoi) {
-    if (quoi === 'sexe') {
-      if (!CS) {
-        zoneCtl.innerHTML = '<div class="vide-msg">Le complément de sexe n’a pas pu être chargé.</div>';
-        return;
-      }
-      var c = CS.comptes, v = CS.validation;
-      var lignes = (CS.contradictions || []).map(function (x) {
-        return '<tr><td>p. ' + ech(x.page_ms) + ', l. ' + ech(x.ligne) + '</td>' +
-               '<td><strong>' + ech((x.prenom + ' ' + x.nom).trim()) + '</strong></td>' +
-               '<td>' + ech(x.age) + '</td>' +
-               '<td>' + ech(x.profession) + '</td>' +
-               '<td>m. ' + ech(x.maison) + '</td>' +
-               '<td>saisi <strong>F</strong> → lu <strong>M</strong></td></tr>';
-      }).join('');
-
-      zoneCtl.innerHTML =
-        '<div class="avert"><strong>La colonne a été remplie par défaut</strong>' +
-        '1881 division 2 porte ' + ech(1438 - c.sexe_atteste_m) + ' fiches « F » pour seulement ' +
-        ech(c.sexe_atteste_m) + ' « M », là où les autres recensements se répartissent également. ' +
-        'Les fils Lee, tous navigateurs, y sont notés féminins. Le sexe a donc été déduit du prénom, ' +
-        'à partir d’une table apprise des quatre jeux fiables — même paroisse, même population. ' +
-        'Justesse mesurée par validation croisée : <strong>' + ech(v.justesse_globale) + ' %</strong> sur ' +
-        ech(v.predictions) + ' prédictions. Confrontée aux ' + ech(c.sexe_atteste_m) +
-        ' « M » attestés, la déduction n’en contredit aucun.</div>' +
-
-        '<div class="chiffres">' +
-          '<div class="chiffre"><b>' + ech(c.sexe_atteste_m) + '</b><span>« M » attestés, jamais recouverts</span></div>' +
-          '<div class="chiffre"><b>' + ech(c.deductions_confirmant_la_saisie) + '</b><span>déductions confirmant le « F » saisi</span></div>' +
-          '<div class="chiffre"><b>' + ech(c.contradictions) + '</b><span>fiches à corriger en « M »</span></div>' +
-          '<div class="chiffre"><b>' + ech(c.abstentions) + '</b><span>prénoms non tranchés</span></div>' +
-        '</div>' +
-
-        '<div class="etiquette-section">Fiches saisies « F » que le prénom dit masculines — ' +
-        ech(c.contradictions) + ' cas, dans l’ordre du registre</div>' +
-        '<table class="tbl"><thead><tr><th>Manuscrit</th><th>Personne</th><th>Âge</th>' +
-        '<th>Profession</th><th>Maison</th><th>Correction</th></tr></thead><tbody>' +
-        lignes + '</tbody></table>';
-      return;
-    }
-
     var ages = F.evenements.filter(function (e) { return e.type === 'age_incoherent'; });
     if (!ages.length) {
       zoneCtl.innerHTML = '<div class="vide-msg">Aucune incohérence d’âge relevée.</div>';
@@ -1273,14 +1230,9 @@
     'veuvages et versés aux contrôles.</p>' +
 
     '<h3>Le sexe de 1881 division 2</h3>' +
-    '<p>La colonne y porte 1 334 « F » pour 104 « M » : elle a été remplie par défaut. Plutôt qu’une liste ' +
-    'de prénoms écrite à la main, la table a été apprise des quatre jeux fiables — même paroisse, même ' +
-    'population franco-irlandaise. Justesse mesurée par validation croisée : ' +
-    (CS ? ech(CS.validation.justesse_globale) + ' % sur ' + ech(CS.validation.predictions) + ' prédictions' : 'voir les contrôles') +
-    '. Le résultat vit dans un fichier de complément qui ne modifie aucune donnée d’origine, sur le modèle ' +
-    'du complément de 1881 division 1 : le supprimer laisse le dépouillement intact, et les 104 « M » ' +
-    'attestés ne sont jamais recouverts. Les contradictions sont listées dans l’onglet Contrôles, dans ' +
-    'l’ordre du registre, pour relecture au manuscrit.</p>' +
+    '<p>La colonne y avait été remplie par défaut (« F » presque partout). Elle a été reprise au ' +
+    'manuscrit, et les hommes et les femmes vérifiés à la main : le calcul lit désormais le sexe tel ' +
+    'que le recensement le porte, sans déduction tirée du prénom.</p>' +
 
     '<h3>Ce que le programme ne fait pas</h3>' +
     '<p>Il ne modifie aucune donnée de recensement. Il ne comble aucun trou. Il ne tranche aucun cas ' +
@@ -1334,7 +1286,7 @@
   document.getElementById('chargement').hidden = true;
   document.getElementById('app').hidden = false;
   rendreEvenements('veuvage');
-  rendreControles('sexe');
+  rendreControles('age');
   rendreAlphaNav();
   rendreBibliographie();
   recadrerOnglets();

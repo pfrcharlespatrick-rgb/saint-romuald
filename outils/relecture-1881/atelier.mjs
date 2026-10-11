@@ -236,3 +236,25 @@ export function resoudreLiens(positions, existe) {
   }
   return { resolus, laisses };
 }
+
+/* ─── Lignes ajoutées, retirées, déplacées ────────────────────────────── */
+
+/* `suivi-lignes` dit ce que la main a fait aux lignes elles-mêmes, et non à
+   leurs champs. Une entrée par identifiant de personne :
+
+     { "1871-D1-P014-L01": { "famille": "1871-1-33-49" } }       déplacée
+     { "1871-D1-P014-L26": { "ajoutee": true, "famille": "1871-1-33-49",
+                             "page_ms": "14", "ligne": "26" } }   ajoutée
+     { "1871-D1-P020-L05": { "retiree": true } }                  retirée
+
+   `famille` est la clé de famille de l'atelier (cleFamilleAtelier) visée par
+   la ligne. Les champs d'une ligne ajoutée (nom, prénom, âge…) ne sont pas
+   ici : ils vivent dans suivi-familles-corrections, sous son identifiant,
+   comme ceux de toute autre ligne. */
+
+let cacheLignes = null;
+/** Les lignes ajoutées, retirées ou déplacées à la main, par identifiant, rognées. */
+export function lignes() {
+  if (!cacheLignes) cacheLignes = rognerTout(travail()['suivi-lignes']);
+  return cacheLignes;
+}

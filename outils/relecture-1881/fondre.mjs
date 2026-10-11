@@ -4,7 +4,7 @@ import fs from 'fs';
 import {
   corrections, manuel, touche, sansRelecture,
   correctionsMaisons, correctionsFamilles, manuelMaison, cleMaisonAtelier, cleFamilleAtelier, recensementDeCle,
-  notesFamilles,
+  notesFamilles, lignes,
   resoudreLiens, rejets,
 } from './atelier.mjs';
 const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
@@ -44,6 +44,12 @@ const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..
      `famille.note`, que la fiche de maison du site affiche. Le statut
      (« confirmé ») reste une coche de l'atelier et n'est pas versé.
 
+   - `suivi-lignes`, par personne : les lignes que la main a ajoutées,
+     retirées ou changées de famille (une servante rangée par erreur dans la
+     famille suivante). C'est versé en premier, pour qu'une ligne ajoutée
+     reçoive ensuite ses champs de suivi-familles-corrections. Une ligne
+     déplacée garde son identifiant ; une ligne retirée quitte le recensement.
+
    Le cinquième chantier de la main, `suivi-liens`, ne se verse pas dans un
    recensement : l'analyse des filiations (outils/analyse-filiation.mjs) le
    relit elle-même à chaque recalcul. On vérifie seulement ici que
@@ -72,6 +78,7 @@ export function recensementsTouches() {
   const vises = new Set();
   for (const id of Object.keys(corrections())) vises.add(id.slice(0, id.indexOf('-P')));
   const notesEcrites = Object.entries(notesFamilles()).filter(([, n]) => n.text).map(([cle]) => cle);
+  for (const id of Object.keys(lignes())) vises.add(id.slice(0, id.indexOf('-P')));
   for (const cle of [...Object.keys(correctionsMaisons()), ...Object.keys(correctionsFamilles()), ...notesEcrites]) {
     const r = recensementDeCle(cle);
     if (r) vises.add(r);
@@ -125,6 +132,111 @@ function verserMaison(m, corr, etiquette, faits, laisses) {
   }
 }
 
+/* ─── Lignes ajoutées, retirées, déplacées ─── */
+
+/** Les familles du recensement sous toutes les clés d'atelier qui peuvent les
+    désigner : le numéro actuel, et l'ancien quand la maison ou la famille a été
+    renumérotée depuis (la clé garde le numéro d'origine). */
+function indexFamilles(D) {
+  const annee = String(D.annee), division = String(D.division);
+  const index = new Map();
+  for (const m of D.maisons || []) {
+    const nosMaison = new Set([String(m.no_maison)]);
+    for (const [cle, corr] of Object.entries(correctionsMaisons())) {
+      const prefixe = cleMaisonAtelier(annee, division, '');
+      if (cle.startsWith(prefixe) && corr.no_maison && memeValeur(m.no_maison, corr.no_maison)) nosMaison.add(cle.slice(prefixe.length));
+    }
+    for (const f of m.familles || []) {
+      for (const noM of nosMaison) {
+        const nosFamille = new Set([String(f.no_famille)]);
+        const prefixe = cleMaisonAtelier(annee, division, noM) + '-';
+        for (const [cle, corr] of Object.entries(correctionsFamilles())) {
+          if (cle.startsWith(prefixe) && corr.no_famille && memeValeur(f.no_famille, corr.no_famille)) nosFamille.add(cle.slice(prefixe.length));
+        }
+        for (const noF of nosFamille) {
+          const cle = cleFamilleAtelier(annee, division, noM, noF);
+          if (!index.has(cle)) index.set(cle, { m, f });
+        }
+      }
+    }
+  }
+  return index;
+}
+
+function ou(D, id) {
+  for (const m of D.maisons || []) for (const f of m.familles || []) {
+    const i = (f.membres || []).findIndex(p => p.id === id);
+    if (i !== -1) return { m, f, i };
+  }
+  return null;
+}
+
+const rang = (p) => [+p.page_ms || 0, +p.ligne || 0];
+
+/** Range une personne dans une famille à sa place dans l'ordre du manuscrit
+    (page, puis ligne) — jamais devant le chef, qui reste en tête. */
+function ranger(f, p) {
+  if (!f.membres) f.membres = [];
+  const [pg, li] = rang(p);
+  let i = f.membres.length;
+  while (i > 1) {
+    const [pg2, li2] = rang(f.membres[i - 1]);
+    if (pg2 < pg || (pg2 === pg && li2 <= li)) break;
+    i--;
+  }
+  f.membres.splice(i, 0, p);
+}
+
+/** Le chef d'une famille suit sa première ligne, quand elle change. */
+function chefSuit(f, etiquette, faits) {
+  const p = (f.membres || [])[0];
+  const chef = p ? `${p.nom || ''} ${p.prenom || ''}`.trim() : '';
+  if (p && f.chef !== chef) {
+    faits.push(`${etiquette} chef : « ${f.chef || ''} » -> « ${chef} »`);
+    f.chef = chef;
+  }
+}
+
+const etiquetteFamille = ({ m, f }) => `maison ${m.no_maison} famille ${f.no_famille}`;
+
+function verserLignes(D, recensement, faits, laisses, vus) {
+  const prefixe = `${D.annee}-D${D.division}-`;
+  const entrees = Object.entries(lignes()).filter(([id]) => id.startsWith(prefixe));
+  if (!entrees.length) return;
+  const index = indexFamilles(D);
+  for (const [id, e] of entrees) {
+    const ici = ou(D, id);
+    if (e.retiree) {
+      if (!ici) continue; // déjà retirée, ou ajoutée puis retirée avant d'être versée
+      vus.lignes++;
+      ici.f.membres.splice(ici.i, 1);
+      faits.push(`${id} retirée de la ${etiquetteFamille(ici)}`);
+      if (!ici.f.membres.length) laisses.push(`${etiquetteFamille(ici)} : plus aucune ligne — famille vide, à revoir`);
+      else if (ici.i === 0) chefSuit(ici.f, etiquetteFamille(ici), faits);
+      continue;
+    }
+    if (!e.famille) { laisses.push(`${id} : ligne sans famille visée, laissée`); continue; }
+    const cible = index.get(e.famille);
+    if (!cible) { laisses.push(`${id} : la famille « ${e.famille} » est introuvable dans le recensement, laissée`); continue; }
+    vus.lignes++;
+    if (!ici) {
+      if (!e.ajoutee) { laisses.push(`${id} : personne introuvable dans le recensement, déplacement laissé`); continue; }
+      const p = { id, nom: '', prenom: '', page_ms: String(e.page_ms || ''), ligne: String(e.ligne || ''),
+        incertain: false, remarque: '', annee: String(D.annee), division: String(D.division), ajoutee_main: true };
+      ranger(cible.f, p);
+      faits.push(`${id} ajoutée à la ${etiquetteFamille(cible)} (page ${p.page_ms}, ligne ${p.ligne})`);
+      if (cible.f.membres[0] === p) chefSuit(cible.f, etiquetteFamille(cible), faits);
+      continue;
+    }
+    if (ici.f === cible.f) continue; // déjà à sa place
+    const [p] = ici.f.membres.splice(ici.i, 1);
+    ranger(cible.f, p);
+    faits.push(`${id} (${[p.prenom, p.nom].filter(Boolean).join(' ')}) : ${etiquetteFamille(ici)} -> ${etiquetteFamille(cible)}`);
+    if (!ici.f.membres.length) laisses.push(`${etiquetteFamille(ici)} : plus aucune ligne — famille vide, à revoir`);
+    else if (ici.i === 0) chefSuit(ici.f, etiquetteFamille(ici), faits);
+  }
+}
+
 export function fondre(recensement, { essai = false } = {}) {
   const chemin = FICHIERS[recensement];
   if (!chemin) throw new Error('recensement inconnu : ' + recensement);
@@ -132,7 +244,11 @@ export function fondre(recensement, { essai = false } = {}) {
   const annee = String(D.annee), division = String(D.division);
   const faits = [];
   const laisses = [];
-  const vus = { personnes: 0, maisons: 0, familles: 0 };
+  const vus = { personnes: 0, maisons: 0, familles: 0, lignes: 0 };
+
+  // ── Lignes ajoutées, retirées, déplacées ── (en premier : une ligne
+  // ajoutée reçoit ensuite ses champs avec les autres personnes)
+  verserLignes(D, recensement, faits, laisses, vus);
 
   // ── Personnes ──
   for (const m of D.maisons || []) for (const f of m.familles || []) for (const p of f.membres || []) {
@@ -287,7 +403,8 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   for (const r of cibles) {
     const { faits, laisses, vus, chemin } = fondre(r, { essai });
     console.log(`\n=== ${r} — ${chemin} ===`);
-    console.log(`${vus.personnes} ligne(s), ${vus.maisons} maison(s), ${vus.familles} famille(s) corrigée(s) à la main, ${faits.length} changement(s)`);
+    console.log(`${vus.personnes} ligne(s), ${vus.maisons} maison(s), ${vus.familles} famille(s) corrigée(s) à la main`
+      + (vus.lignes ? `, ${vus.lignes} ligne(s) ajoutée(s), retirée(s) ou déplacée(s)` : '') + `, ${faits.length} changement(s)`);
     faits.forEach(x => console.log('  ' + x));
     if (laisses.length) {
       console.log(`${laisses.length} laissé(s) :`);
