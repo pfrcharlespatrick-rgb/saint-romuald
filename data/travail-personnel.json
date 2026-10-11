@@ -1,7 +1,7 @@
 {
  "format": "suivi-saint-romuald-travail",
  "version": 1,
- "exporte": "2026-10-10T19:57:42.671Z",
+ "exporte": "2026-10-11T20:33:49.603Z",
  "donnees": {
   "suivi-familles-notes": {
    "1881-2-72-80": {
@@ -2271,7 +2271,8 @@
     "profession": "Boomer (Boom man)"
    },
    "1871-D1-P007-L02": {
-    "nom": "Lemelin"
+    "nom": "Lemelin",
+    "remarque": ""
    },
    "1871-D1-P007-L03": {
     "nom": "Lemelin"
@@ -2301,33 +2302,199 @@
     "age": "2"
    },
    "1871-D1-P008-L03": {
-    "nom": "Bernier"
+    "nom": "Boucher"
    },
    "1871-D1-P008-L04": {
-    "nom": "Bernier"
+    "nom": "Boucher"
    },
    "1871-D1-P008-L05": {
-    "nom": "Bernier"
+    "nom": "Boucher"
    },
    "1871-D1-P008-L06": {
-    "nom": "Bernier"
+    "nom": "Boucher"
    },
    "1871-D1-P008-L07": {
-    "nom": "Bernier",
+    "nom": "Boucher",
     "prenom": "François Xavier"
    },
    "1871-D1-P008-L08": {
-    "nom": "Bernier"
+    "nom": "Boucher"
    },
    "1871-D1-P008-L09": {
-    "nom": "Bernier"
+    "nom": "Boucher"
    },
    "1871-D1-P008-L10": {
     "nom": "Parent"
    },
-   "1881-D2-P022-L13": {
-    "prenom": "Philomène",
-    "sexe": "F"
+   "1871-D1-P008-L11": {
+    "remarque": "Le charron est un artisan spécialiste du travail du bois et du fer qui conçoit, construit et répare les véhicules à traction animale (charrettes, chariots, calèches, carrioles)"
+   },
+   "1871-D1-P008-L13": {
+    "remarque": ""
+   },
+   "1871-D1-P007-L12": {
+    "prenom": "Tharsile"
+   },
+   "1871-D1-P009-L01": {
+    "prenom": "Belzémire",
+    "remarque": ""
+   },
+   "1871-D1-P009-L04": {
+    "prenom": "François Xavier"
+   },
+   "1871-D1-P008-L17": {
+    "remarque": "26 avril; fin de la journée de l'énumérateur"
+   },
+   "1871-D1-P009-L03": {
+    "remarque": ""
+   },
+   "1871-D1-P009-L07": {
+    "remarque": ""
+   },
+   "1871-D1-P009-L09": {
+    "remarque": "R"
+   },
+   "1871-D1-P009-L10": {
+    "remarque": ""
+   },
+   "1871-D1-P009-L11": {
+    "remarque": "épouse "
+   },
+   "1871-D1-P009-L15": {
+    "age": "10"
+   },
+   "1871-D1-P010-L03": {
+    "prenom": "Delphine"
+   },
+   "1871-D1-P010-L16": {
+    "age": "3 mois"
+   },
+   "1871-D1-P010-L17": {
+    "nom": "Dussault"
+   },
+   "1871-D1-P010-L18": {
+    "age": "34",
+    "remarque": ""
+   },
+   "1871-D1-P010-L20": {
+    "remarque": "Maison en pierres d’esprit québécois, cette maison est construite sur les terres de Narcisse Cantin, cultivateur. Il épouse en 1853 sa parente, Ursule Cantin. Cette alliance lui permettra de consolider les propriétés qu’il avait acquises de son beau-père François Cantin. Selon certains historiens, elle serait une des plus vieilles maisons de Saint-Romuald, sinon la plus vieille à cause de son implantation en contre-bas de la rue. Nous savons que la maison existait déjà en 1830. Cette même année, Antoine Hallé a reçu une concession, de son beau-frère François Cantin, pour un emplacement situé près du fleuve Saint-Laurent et borné par le chemin du Roy.   Théophile Hallé, maître forgeron   Celui-ci a reçu en 1877, par donation de sa mère Ursule Dusseault, épouse d’Antoine Hallé, les bâtiments et tous les outils et appareils de forge. C’est dans son atelier, situé à droite du bâtiment, où se trouve actuellement le garage de l’habitation voisine, qu’il travaillera avec son fils Jules. Ensemble, ils ont fabriqué plusieurs ornementations d’église dont la croix qui se trouve au sommet du clocher de l’église de Saint- Romuald.     Théophile Hallé est décédé en 1911 en laissant tout son héritage à son épouse Barbe Bégin. Avant sa mort en 1933, elle nomme son fils Jules, légataire universel. Ainsi, la forge continuera ses activités jusqu’au décès de celui-ci survenu en 1936."
+   },
+   "1871-D1-P011-L07": {
+    "profession": "Journalier"
+   },
+   "1871-D1-P011-L05": {
+    "etat_matrimonial": "V"
+   },
+   "1871-D1-P011-L15": {
+    "profession": "Culler"
+   },
+   "1871-D1-P011-L16": {
+    "origine": "Irlandaise",
+    "age": "33"
+   },
+   "1871-D1-P011-L17": {
+    "origine": "Irlandaise"
+   },
+   "1871-D1-P011-L18": {
+    "origine": "Irlandaise"
+   },
+   "1871-D1-P011-L19": {
+    "origine": "Irlandaise"
+   },
+   "1871-D1-P011-L20": {
+    "origine": "Irlandaise"
+   },
+   "1871-D1-P012-L03": {
+    "profession": "Servante"
+   },
+   "1871-D1-P012-L04": {
+    "remarque": "",
+    "etat_matrimonial": ""
+   },
+   "1871-D1-P012-L05": {
+    "etat_matrimonial": ""
+   },
+   "1871-D1-P012-L06": {
+    "origine": "Française"
+   },
+   "1871-D1-P012-L07": {
+    "origine": "Française"
+   },
+   "1871-D1-P012-L08": {
+    "origine": "Française",
+    "lieu_naissance": "États-Unis"
+   },
+   "1871-D1-P012-L09": {
+    "lieu_naissance": "États-Unis"
+   },
+   "1871-D1-P012-L10": {
+    "lieu_naissance": "États-Unis"
+   },
+   "1871-D1-P012-L11": {
+    "lieu_naissance": "États-Unis"
+   },
+   "1871-D1-P012-L12": {
+    "lieu_naissance": "États-Unis"
+   },
+   "1871-D1-P013-L03": {
+    "profession": "Mouleur",
+    "nom": "Quilkin"
+   },
+   "1871-D1-P013-L04": {
+    "nom": "Quilkin"
+   },
+   "1871-D1-P013-L05": {
+    "nom": "Quilkin"
+   },
+   "1871-D1-P013-L06": {
+    "nom": "Quilkin"
+   },
+   "1871-D1-P013-L08": {
+    "nom": "Haern"
+   },
+   "1871-D1-P013-L09": {
+    "nom": "Haern"
+   },
+   "1871-D1-P013-L10": {
+    "nom": "Hennkem"
+   },
+   "1871-D1-P013-L11": {
+    "prenom": "Hérédore"
+   },
+   "1871-D1-P014-L02": {
+    "remarque": "",
+    "prenom": "Gilbert"
+   },
+   "1871-D1-P014-L08": {
+    "remarque": ""
+   },
+   "1871-D1-P014-L06": {
+    "remarque": ""
+   },
+   "1871-D1-P014-L10": {
+    "remarque": "épouse "
+   },
+   "1871-D1-P015-L03": {
+    "lieu_naissance": "Ontario"
+   },
+   "1871-D1-P015-L11": {
+    "prenom": "François Xavier"
+   },
+   "1871-D1-P015-L13": {
+    "remarque": ""
+   },
+   "1871-D1-P015-L09": {
+    "remarque": ""
+   },
+   "1871-D1-P015-L15": {
+    "nom": "Tondreau"
+   },
+   "1871-D1-P015-L16": {
+    "nom": "Tondreau"
+   },
+   "1871-D1-P015-L17": {
+    "nom": "Tondreau",
+    "age": "9 mois"
    }
   },
   "suivi-corr-maison": {
@@ -2362,6 +2529,12 @@
    },
    "1871-2-121 [?]-158 [?]": {
     "no_famille": "158"
+   },
+   "1871-1-35-53": {
+    "no_famille": "52"
+   },
+   "1871-1-36-53b": {
+    "no_famille": "53"
    }
   },
   "suivi-liens": {
@@ -2486,17 +2659,6 @@
      "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
     }
    ],
-   "1871-D1-P031-L02": [
-    {
-     "relation": "Suivi (Filiations)",
-     "annee": "1881",
-     "division": "1",
-     "page": "20",
-     "ligne": "23",
-     "nom": "Adèle Leclerc",
-     "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
-    }
-   ],
    "1881-D1-P020-L23": [
     {
      "relation": "Suivi (Filiations)",
@@ -2540,7 +2702,26 @@
      "nom": "Louis Demers",
      "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
     }
+   ],
+   "1871-D1-P031-L02": [
+    {
+     "relation": "Suivi (Filiations)",
+     "annee": "1881",
+     "division": "1",
+     "page": "20",
+     "ligne": "23",
+     "nom": "",
+     "note": ""
+    }
    ]
+  },
+  "suivi-lignes": {
+   "1871-D1-P014-L01": {
+    "famille": "1871-1-33-49"
+   },
+   "1871-D1-P016-L01": {
+    "famille": "1871-1-38-56"
+   }
   },
   "suivi-filiation-rejets": {},
   "suivi-hypotheses-adresses": {},
@@ -3011,11 +3192,6 @@
    "liens": 0,
    "orphelins": 0,
    "date": "2026-07-28"
-  },
-  "suivi-lignes": {
-   "1871-D1-P014-L01": {
-    "famille": "1871-1-33-49"
-   }
   }
  }
 }
