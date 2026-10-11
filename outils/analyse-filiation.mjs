@@ -80,7 +80,10 @@ const SEUILS = { forte: 0.80, moyenne: 0.62, faible: 0.48 };
    remplacent jamais une valeur attestée : ils comblent les colonnes vides ou
    corrigent une colonne dont le contrôle de cohérence a montré qu'elle est
    inexploitable. Voir outils/deduire-sexe.mjs. */
-const COMPLEMENTS = ['complement-sexe-1881-d2-data.js'];
+// Le complément de sexe de 1881 D2 (deduire-sexe.mjs) a été retiré : la
+// colonne a été reprise au manuscrit et vérifiée à la main, le recensement
+// fait foi. La liste reste prête pour un prochain complément.
+const COMPLEMENTS = [];
 
 function chargerJeux() {
   const bac = {};
