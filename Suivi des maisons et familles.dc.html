@@ -755,7 +755,23 @@ a:hover{color:var(--color-accent-900)}
                           <td style="text-align:center"><sc-if value="{{ m.aveugleReleve }}" hint-placeholder-val="{{ true }}"><input type="checkbox" checked="{{ m.aveugle }}" onChange="{{ m.onAveugleChange }}"></input></sc-if><sc-if value="{{ m.aveugleReleveNon }}" hint-placeholder-val="{{ false }}"><span title="colonne non dépouillée — l'information n'a pas été relevée au manuscrit" style="color:var(--color-neutral-500)">—</span></sc-if></td>
                           <td style="text-align:center"><sc-if value="{{ m.alieneReleve }}" hint-placeholder-val="{{ true }}"><input type="checkbox" checked="{{ m.aliene }}" onChange="{{ m.onAlieneChange }}"></input></sc-if><sc-if value="{{ m.alieneReleveNon }}" hint-placeholder-val="{{ false }}"><span title="colonne non dépouillée — l'information n'a pas été relevée au manuscrit" style="color:var(--color-neutral-500)">—</span></sc-if></td>
                           <td style="max-width:260px;min-width:180px"><input class="input" style="width:100%;padding:4px 6px;font-size:12px;background:transparent" value="{{ m.remarque }}" onChange="{{ m.onRemarqueChange }}"></input></td>
-                          <td>
+                          <td style="white-space:nowrap">
+                            <sc-if value="{{ m.aEtatLigne }}" hint-placeholder-val="{{ false }}">
+                              <span class="tag tag-accent" style="font-size:11px;margin-right:4px">{{ m.etatLigne }}</span>
+                            </sc-if>
+                            <sc-if value="{{ fam.editMode }}" hint-placeholder-val="{{ false }}">
+                              <sc-if value="{{ m.pasRetiree }}" hint-placeholder-val="{{ true }}">
+                                <select class="input" title="Changer cette ligne de famille" style="width:150px;padding:2px 4px;font-size:12px;margin-right:4px" value="{{ m.familleCle }}" onChange="{{ m.onDeplacer }}">
+                                  <sc-for list="{{ fam.optionsDeplacement }}" as="o" hint-placeholder-count="0">
+                                    <option value="{{ o.value }}">{{ o.label }}</option>
+                                  </sc-for>
+                                </select>
+                                <button type="button" class="btn btn-ghost" title="Retirer cette ligne du recensement" style="font-size:12px;padding:2px 8px" onClick="{{ m.onRetirer }}">Retirer</button>
+                              </sc-if>
+                              <sc-if value="{{ m.retiree }}" hint-placeholder-val="{{ false }}">
+                                <button type="button" class="btn btn-ghost" title="Annuler le retrait" style="font-size:12px;padding:2px 8px;text-decoration:none" onClick="{{ m.onRetablir }}">Rétablir</button>
+                              </sc-if>
+                            </sc-if>
                             <sc-if value="{{ m.corrige }}" hint-placeholder-val="{{ false }}">
                               <button type="button" class="btn btn-ghost btn-icon" title="Annuler la correction" onClick="{{ m.onResetCorrection }}" style="width:26px;height:26px">
                                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path></svg>
@@ -767,6 +783,13 @@ a:hover{color:var(--color-accent-900)}
                     </tbody>
                   </table>
                   </div>
+
+                  <sc-if value="{{ fam.editMode }}" hint-placeholder-val="{{ false }}">
+                    <div style="display:flex;gap:var(--space-2);align-items:center;flex-wrap:wrap;margin:-6px 0 var(--space-3)">
+                      <button type="button" class="btn btn-secondary" style="font-size:12px;padding:4px 10px" onClick="{{ fam.onAjouterLigne }}">+ Ajouter une ligne</button>
+                      <span style="font-size:11px;color:var(--color-neutral-700)">La nouvelle ligne prend la page de la dernière et la ligne suivante ; corrigez-les au besoin. Le menu de chaque ligne la change de famille ; « Retirer » l’enlève.</span>
+                    </div>
+                  </sc-if>
 
                   <sc-if value="{{ fam.hasLiens }}" hint-placeholder-val="{{ false }}">
                     <div style="display:grid;gap:var(--space-2);margin-bottom:var(--space-3)">
@@ -1010,7 +1033,7 @@ a:hover{color:var(--color-accent-900)}
 <script type="text/x-dc" data-dc-script data-props="{&quot;anneeInitiale&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;1871&quot;,&quot;1881&quot;,&quot;1891&quot;],&quot;default&quot;:&quot;1871&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Ouverture&quot;,&quot;label&quot;:&quot;Recensement à l'ouverture&quot;},&quot;montrerCartouche&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Ouverture&quot;,&quot;label&quot;:&quot;Afficher l'en-tête au chargement&quot;},&quot;maisonsParPage&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:50,&quot;min&quot;:5,&quot;max&quot;:100,&quot;step&quot;:5,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Liste&quot;,&quot;label&quot;:&quot;Maisons par page&quot;}}">
 class Component extends DCLogic {
   state = { search: '', profession: '', ecoleOnly: false, territoire: '', pageCible: '', pageMessage: '', pageMessageErreur: false, expanded: {}, currentPage: 1, notes: {}, corrections: {}, activeYear: (this.props.anneeInitiale || '1871'), activeDivision: '2',
-            editMode: false, corrMaison: {}, corrFamille: {}, liens: {}, linkForm: {},
+            editMode: false, corrMaison: {}, corrFamille: {}, liens: {}, linkForm: {}, lignes: {},
             showAnnexe: false, annexeSearch: '', hypotheses: {}, hypForm: {}, propEtat: {},
             annexeSource: '', customEntries: [], showNewEntry: false, newEntry: {},
             annexeDetails: {}, photos: {}, editingEntry: null, editForm: {},
@@ -1087,7 +1110,121 @@ class Component extends DCLogic {
 
   resolveYearData(year, division) {
     const maisons = (this.jeu(year, division) || {}).maisons || [];
-    return { maisons: this.appliquerComplement(maisons, this.complement(year, division)) };
+    return { maisons: this.appliquerLignes(this.appliquerComplement(maisons, this.complement(year, division)), year, division) };
+  }
+
+  /* ─── Lignes ajoutées, retirées, déplacées (suivi-lignes) ─────────────
+     Une entrée par identifiant de personne : { famille } pour une ligne
+     changée de famille, { ajoutee, famille, page_ms, ligne } pour une ligne
+     créée dans l'atelier, { retiree } pour une ligne à enlever. `famille`
+     est la clé de famille de l'atelier (« 1871-1-33-49 »). Les champs d'une
+     ligne ajoutée vivent dans suivi-familles-corrections, comme ceux de
+     toute ligne. outils/relecture-1881/fondre.mjs verse le tout dans le
+     recensement ; ici, on ne fait que le montrer par-dessus les données. */
+  cleFamilleDe(year, division, m, f) { return year + '-' + division + '-' + m.no_maison + '-' + f.no_famille; }
+
+  rangerLigne(membres, p) {
+    const rang = (x) => [+x.page_ms || 0, +x.ligne || 0];
+    const [pg, li] = rang(p);
+    let i = membres.length;
+    while (i > 1) {
+      const [pg2, li2] = rang(membres[i - 1]);
+      if (pg2 < pg || (pg2 === pg && li2 <= li)) break;
+      i--;
+    }
+    membres.splice(i, 0, p);
+  }
+
+  appliquerLignes(maisons, year, division) {
+    const prefixe = year + '-D' + division + '-';
+    const entrees = Object.entries(this.state.lignes || {}).filter(([id]) => id.startsWith(prefixe));
+    if (!entrees.length) return maisons;
+    const copie = maisons.map(m => ({ ...m, familles: (m.familles || []).map(f => ({ ...f, membres: [...(f.membres || [])] })) }));
+    const parCle = new Map(), parId = new Map();
+    copie.forEach(m => m.familles.forEach(f => {
+      parCle.set(this.cleFamilleDe(year, division, m, f), f);
+      f.membres.forEach(p => parId.set(p.id, f));
+    }));
+    entrees.forEach(([id, e]) => {
+      const ici = parId.get(id);
+      const cible = e.famille ? parCle.get(e.famille) : null;
+      if (e.retiree) {
+        if (ici) { const i = ici.membres.findIndex(p => p.id === id); ici.membres[i] = { ...ici.membres[i], retiree_main: true }; }
+        return;
+      }
+      if (!cible) return;
+      if (!ici) {
+        if (e.ajoutee) this.rangerLigne(cible.membres, { id, nom: '', prenom: '', page_ms: String(e.page_ms || ''), ligne: String(e.ligne || ''),
+          annee: year, division, incertain: false, remarque: '', ajoutee_main: true });
+        return;
+      }
+      if (ici === cible) return;
+      const i = ici.membres.findIndex(p => p.id === id);
+      const [p] = ici.membres.splice(i, 1);
+      this.rangerLigne(cible.membres, { ...p, deplacee_main: true });
+    });
+    return copie;
+  }
+
+  saveLignes(lignes) { this.save('suivi-lignes', lignes); return { lignes }; }
+
+  /** La clé de famille où le recensement range cette personne, avant toute main. */
+  familleOrigine(year, division, id) {
+    let cle = '';
+    ((this.jeu(year, division) || {}).maisons || []).forEach(m => (m.familles || []).forEach(f => {
+      if ((f.membres || []).some(p => p.id === id)) cle = this.cleFamilleDe(year, division, m, f);
+    }));
+    return cle;
+  }
+
+  ajouterLigne(year, division, fK, membres) {
+    const derniere = membres[membres.length - 1] || {};
+    const page = String(derniere.page_ms || '');
+    const ligne = String((+derniere.ligne || 0) + 1);
+    const pris = new Set(Object.keys(this.state.lignes || {}));
+    ((this.jeu(year, division) || {}).maisons || []).forEach(m => (m.familles || []).forEach(f => (f.membres || []).forEach(p => pris.add(p.id))));
+    const base = year + '-D' + division + '-P' + page.padStart(3, '0') + '-L' + ligne.padStart(2, '0');
+    let id = base;
+    for (let k = 0; pris.has(id); k++) id = base + 'bcdefghijklmnopqrstuvwxyz'[k];
+    this.setState(s => this.saveLignes({ ...s.lignes, [id]: { ajoutee: true, famille: fK, page_ms: page, ligne } }));
+  }
+
+  retirerLigne(id, nom) {
+    if (!window.confirm('Retirer la ligne « ' + (nom || id) + ' » du recensement ?\n\nElle reste visible, barrée, jusqu’au versement ; « Rétablir » l’annule.')) return;
+    this.setState(s => {
+      const lignes = { ...s.lignes };
+      const e = lignes[id] || {};
+      if (e.ajoutee) {
+        // Une ligne créée dans l'atelier et jamais versée s'efface tout simplement.
+        delete lignes[id];
+        const corrections = { ...s.corrections }; delete corrections[id];
+        this.persistCorrections(corrections);
+        return { ...this.saveLignes(lignes), corrections };
+      }
+      lignes[id] = { retiree: true };
+      return this.saveLignes(lignes);
+    });
+  }
+
+  retablirLigne(id) {
+    this.setState(s => {
+      const lignes = { ...s.lignes };
+      const e = { ...(lignes[id] || {}) }; delete e.retiree;
+      if (Object.keys(e).length) lignes[id] = e; else delete lignes[id];
+      return this.saveLignes(lignes);
+    });
+  }
+
+  deplacerLigne(year, division, id, cible) {
+    if (!cible) return;
+    this.setState(s => {
+      const lignes = { ...s.lignes };
+      const e = { ...(lignes[id] || {}), famille: cible };
+      // Ramenée dans sa famille d'origine : il n'y a plus rien à dire.
+      if (!e.ajoutee && !e.retiree && cible === this.familleOrigine(year, division, id)) delete lignes[id];
+      else lignes[id] = e;
+      return this.saveLignes(lignes);
+    });
   }
   resolveSpecial(year, division) { return year === '1891' ? (this.jeu(year, division) || {}) : null; }
 
@@ -1164,13 +1301,14 @@ class Component extends DCLogic {
       const corrMaison = JSON.parse(localStorage.getItem('suivi-corr-maison') || '{}');
       const corrFamille = JSON.parse(localStorage.getItem('suivi-corr-famille') || '{}');
       const liens = JSON.parse(localStorage.getItem('suivi-liens') || '{}');
+      const lignes = JSON.parse(localStorage.getItem('suivi-lignes') || '{}');
       const hypotheses = JSON.parse(localStorage.getItem('suivi-hypotheses-adresses') || '{}');
       const propEtat = JSON.parse(localStorage.getItem('suivi-propositions-etat') || '{}');
       const customEntries = JSON.parse(localStorage.getItem('suivi-annexe-batiments') || '[]');
       const annexeDetails = JSON.parse(localStorage.getItem('suivi-annexe-details') || '{}');
       const altAddresses = JSON.parse(localStorage.getItem('suivi-annexe-adresses') || '{}');
       const migres = this.migrerIdentifiants(corrections, liens);
-      this.setState({ notes, corrections: migres.corrections, corrMaison, corrFamille, liens: migres.liens,
+      this.setState({ notes, corrections: migres.corrections, corrMaison, corrFamille, liens: migres.liens, lignes,
         hypotheses, propEtat, customEntries, annexeDetails, altAddresses,
         migration: migres.rapport });
       this.loadPhotos();
@@ -1513,7 +1651,7 @@ class Component extends DCLogic {
   exportCorrections() {
     const blob = new Blob([JSON.stringify({
       personnes: this.state.corrections, maisons: this.state.corrMaison,
-      familles: this.state.corrFamille, liens: this.state.liens
+      familles: this.state.corrFamille, liens: this.state.liens, lignes: this.state.lignes
     }, null, 2)], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
@@ -1693,7 +1831,7 @@ class Component extends DCLogic {
      `suivi-liens`, son pendant, pour que l'analyse des filiations
      (outils/analyse-filiation.mjs) relise les deux à chaque recalcul. */
   CLES_TRAVAIL = ['suivi-familles-notes', 'suivi-familles-corrections', 'suivi-corr-maison', 'suivi-corr-famille',
-    'suivi-liens', 'suivi-filiation-rejets', 'suivi-hypotheses-adresses', 'suivi-propositions-etat', 'suivi-annexe-batiments',
+    'suivi-liens', 'suivi-lignes', 'suivi-filiation-rejets', 'suivi-hypotheses-adresses', 'suivi-propositions-etat', 'suivi-annexe-batiments',
     'suivi-annexe-details', 'suivi-annexe-adresses', 'suivi-lieux', 'suivi-plans', 'suivi-migration-ids-v1'];
 
   async exportSauvegarde() {
@@ -2333,6 +2471,16 @@ class Component extends DCLogic {
     const territoireActif = aTerritoires ? territoire : '';
     const maisonsTerritoire = this.maisonsDuTerritoire(data.maisons, territoireActif);
 
+    // Mode édition : une ligne peut changer de famille, vers sa maison ou les
+    // deux maisons de part et d'autre — là où tombent les erreurs de coupure.
+    const optionsDeplacement = (maison) => {
+      const i = data.maisons.indexOf(maison);
+      return data.maisons.slice(Math.max(0, i - 2), i + 3).flatMap(mm => (mm.familles || []).map(ff => ({
+        value: this.cleFamilleDe(activeYear, activeDivision, mm, ff),
+        label: 'Maison ' + mm.no_maison + ' · famille ' + ff.no_famille + ' — ' + (ff.chef || '')
+      })));
+    };
+
     maisonsTerritoire.forEach(maison => {
       const familiesWithMerged = maison.familles.map(f => ({ f, merged: f.membres.map(m => this.mergeCorrections(m)) }));
       const matching = familiesWithMerged.filter(({ merged }) => this.matchesFamily(merged, search, profession, ecoleOnly));
@@ -2361,7 +2509,9 @@ class Component extends DCLogic {
           rapportFlags,
           ageAjustee,
           is1891: activeYear === '1891',
-          key, chef: chefLabel, nb_membres: merged.length,
+          key, chef: chefLabel, nb_membres: merged.filter(m => !m.retiree_main).length,
+          optionsDeplacement: this.state.editMode ? optionsDeplacement(maison) : [],
+          onAjouterLigne: () => this.ajouterLigne(activeYear, activeDivision, this.cleFamilleDe(activeYear, activeDivision, maison, f), merged),
           ...(() => {
             const mK = activeYear + '-' + activeDivision + '-' + maison.no_maison;
             const fK = mK + '-' + f.no_famille;
@@ -2445,7 +2595,15 @@ class Component extends DCLogic {
             lieuNaissancePere: m.lieu_naissance_pere || '', lieuNaissanceMere: m.lieu_naissance_mere || '',
             patron: !!m.patron, employe: !!m.employe, chomage: !!m.chomage, nbEmployes: m.nb_employes || '',
             corrige: !!corrections[m.id], ajusteRapport: !!m.age_ajuste_rapport && !corrections[m.id],
-            rowStyle: corrections[m.id] ? 'background:var(--color-accent-100)' : '',
+            rowStyle: m.retiree_main ? 'opacity:.45;text-decoration:line-through'
+              : (corrections[m.id] || m.ajoutee_main || m.deplacee_main ? 'background:var(--color-accent-100)' : ''),
+            retiree: !!m.retiree_main, pasRetiree: !m.retiree_main,
+            etatLigne: m.ajoutee_main ? 'ajoutée' : (m.deplacee_main ? 'déplacée' : ''),
+            aEtatLigne: !!(m.ajoutee_main || m.deplacee_main),
+            familleCle: this.cleFamilleDe(activeYear, activeDivision, maison, f),
+            onDeplacer: (e) => this.deplacerLigne(activeYear, activeDivision, m.id, e.target.value),
+            onRetirer: () => this.retirerLigne(m.id, [m.prenom, m.nom].filter(Boolean).join(' ')),
+            onRetablir: () => this.retablirLigne(m.id),
             onLienParenteChange: (e) => this.updateCorrection(m.id, 'lien_parente', e.target.value),
             onCanadienFrancaisChange: () => this.updateCorrection(m.id, 'canadien_francais', !m.canadien_francais),
             onLieuNaissancePereChange: (e) => this.updateCorrection(m.id, 'lieu_naissance_pere', e.target.value),
@@ -2574,9 +2732,9 @@ class Component extends DCLogic {
       editBtnClass: this.state.editMode ? 'btn-primary' : 'btn-secondary',
       editBtnLabel: this.state.editMode ? 'Quitter le mode édition' : 'Mode édition',
       editHint: this.state.editMode
-        ? 'Numéros de maison et de famille, colonnes 2 à 4, adresse et liens entre recensements sont modifiables.'
-        : 'Activez le mode édition pour corriger les numéros, le logement, l’adresse et les liens.',
-      nbCorrections: Object.keys(this.state.corrections).length + Object.keys(this.state.corrMaison).length + Object.keys(this.state.corrFamille).length,
+        ? 'Numéros de maison et de famille, colonnes 2 à 4, adresse et liens entre recensements sont modifiables. Dans une famille ouverte, on peut aussi ajouter, retirer ou changer de famille une ligne.'
+        : 'Activez le mode édition pour corriger les numéros, le logement, l’adresse et les liens, et pour ajouter, retirer ou déplacer des lignes.',
+      nbCorrections: Object.keys(this.state.corrections).length + Object.keys(this.state.corrMaison).length + Object.keys(this.state.corrFamille).length + Object.keys(this.state.lignes || {}).length,
       onToggleEdit: () => this.setState(s => ({ editMode: !s.editMode })),
       onExportCorrections: () => this.exportCorrections(),
       maisons: visibleMaisons,

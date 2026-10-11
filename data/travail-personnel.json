@@ -2482,7 +2482,7 @@
      "note": "Rapprochement confirmé depuis l’annexe des filiations, confiance forte."
     }
    ],
-   "1871-D1-P031-L07": [
+   "1871-D1-P031-L02": [
     {
      "relation": "Suivi (Filiations)",
      "annee": "1881",
@@ -3007,6 +3007,11 @@
    "liens": 0,
    "orphelins": 0,
    "date": "2026-07-28"
+  },
+  "suivi-lignes": {
+   "1871-D1-P014-L01": {
+    "famille": "1871-1-33-49"
+   }
   }
  }
 }

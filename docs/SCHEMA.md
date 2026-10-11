@@ -519,6 +519,7 @@ tables.** Clés `localStorage` :
 | `suivi-corr-maison` | n°, colonne, logement, adresse | `annee-division-maison` |
 | `suivi-corr-famille` | numéro de famille corrigé | clé de famille |
 | `suivi-liens` | liens vers d'autres recensements | identifiant de personne |
+| `suivi-lignes` | lignes ajoutées, retirées ou changées de famille | identifiant de personne |
 | `suivi-filiation-rejets` | rapprochements écartés dans l'annexe des filiations | `de__vers` (deux identifiants de personne) |
 | `suivi-hypotheses-adresses` | concordances adresse-maison | identifiant de bâtiment |
 | `suivi-propositions-etat` | proposition retenue / écartée | `batimentId#index` |
