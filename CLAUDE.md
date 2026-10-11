@@ -97,7 +97,7 @@ l'archive de ce qui a été tranché.
 
 | Recensement | Relu par Patrick jusqu'à | Versé dans le site |
 |---|---|---|
-| 1871, division 1 | famille 29 incluse (maison 20, page 8 ligne 13) | oui — sauvegarde de l'atelier du 2026-10-10 19:57 |
+| 1871, division 1 | famille 57 incluse (maison 39, page 16 ligne 6) | oui — sauvegarde de l'atelier du 2026-10-11 20:33 |
 
 Une ligne de ce tableau dit « relu », pas « corrigé » : une famille relue sans
 correction n'a pas d'entrée dans `suivi-familles-corrections` (ainsi la
