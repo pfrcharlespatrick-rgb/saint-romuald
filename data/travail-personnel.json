@@ -1,7 +1,7 @@
 {
  "format": "suivi-saint-romuald-travail",
  "version": 1,
- "exporte": "2026-10-11T20:33:49.603Z",
+ "exporte": "2026-10-12T15:48:48.850Z",
  "donnees": {
   "suivi-familles-notes": {
    "1881-2-72-80": {
@@ -2495,6 +2495,45 @@
    "1871-D1-P015-L17": {
     "nom": "Tondreau",
     "age": "9 mois"
+   },
+   "1871-D1-P016-L15": {
+    "age": "6 mois"
+   },
+   "1871-D1-P016-L16": {
+    "age": "45"
+   },
+   "1871-D1-P016-L17": {
+    "age": "35"
+   },
+   "1871-D1-P016-L18": {
+    "age": "9"
+   },
+   "1871-D1-P016-L19": {
+    "age": "7"
+   },
+   "1871-D1-P016-L20": {
+    "age": "5"
+   },
+   "1871-D1-P017-L08": {
+    "age": "8 mois"
+   },
+   "1871-D1-P017-L02": {
+    "remarque": ""
+   },
+   "1871-D1-P017-L03": {
+    "remarque": ""
+   },
+   "1871-D1-P017-L16": {
+    "prenom": "François Xavier"
+   },
+   "1871-D1-P017-L17": {
+    "profession": "journalier"
+   },
+   "1871-D1-P018-L07": {
+    "age": "6 mois"
+   },
+   "1871-D1-P020-L09": {
+    "prenom": "Francois Xavier Guay"
    }
   },
   "suivi-corr-maison": {
