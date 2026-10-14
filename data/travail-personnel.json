@@ -1,7 +1,7 @@
 {
  "format": "suivi-saint-romuald-travail",
  "version": 1,
- "exporte": "2026-10-12T15:48:48.850Z",
+ "exporte": "2026-10-14T20:47:28.173Z",
  "donnees": {
   "suivi-familles-notes": {
    "1881-2-72-80": {
@@ -2534,6 +2534,61 @@
    },
    "1871-D1-P020-L09": {
     "prenom": "Francois Xavier Guay"
+   },
+   "1871-D1-P021-L07": {
+    "age": "58"
+   },
+   "1871-D1-P021-L09": {
+    "age": "25"
+   },
+   "1871-D1-P021-L20": {
+    "age": "9 mois"
+   },
+   "1871-D1-P022-L03": {
+    "prenom": "Adée"
+   },
+   "1871-D1-P022-L13": {
+    "ne_douze_mois": "aout"
+   },
+   "1871-D1-P023-L01": {
+    "prenom": "Marine"
+   },
+   "1871-D1-P023-L12": {
+    "nom": "Filteau"
+   },
+   "1871-D1-P023-L13": {
+    "nom": "Filteau"
+   },
+   "1871-D1-P023-L14": {
+    "nom": "Filteau"
+   },
+   "1871-D1-P023-L15": {
+    "nom": "Filteau"
+   },
+   "1871-D1-P023-L16": {
+    "nom": "Filteau"
+   },
+   "1871-D1-P023-L17": {
+    "nom": "Filteau"
+   },
+   "1871-D1-P023-L18": {
+    "nom": "Filteau"
+   },
+   "1871-D1-P023-L19": {
+    "nom": "Filteau"
+   },
+   "1871-D1-P023-L20": {
+    "nom": "Filteau"
+   },
+   "1871-D1-P024-L12": {
+    "age": "85",
+    "remarque": ""
+   },
+   "1871-D1-P024-L09": {
+    "remarque": "1er mai l'énumérateur arrête à cet endroit et couche dans cette maison"
+   },
+   "1871-D1-P025-L11": {
+    "prenom": "Edouard"
    }
   },
   "suivi-corr-maison": {
