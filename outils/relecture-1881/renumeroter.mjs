@@ -6,6 +6,7 @@
 //
 //   node outils/relecture-1881/renumeroter.mjs maison 1871 2 "131 [?]" 147
 //   node outils/relecture-1881/renumeroter.mjs famille 1871 2 137 175 138
+//   node outils/relecture-1881/renumeroter.mjs scinder 1871 1 70 101 1871-D1-P027-L06 102
 //   … --essai : montre sans écrire.
 //
 // « maison » change le numéro d'une maison. « famille » sort une famille de
@@ -13,6 +14,13 @@
 // elle n'existe pas encore, puisque l'ordre des maisons est celui du parcours
 // du recenseur. Les identifiants de personnes (page et ligne du manuscrit) ne
 // bougent pas.
+//
+// « scinder » coupe une famille en deux dans la même maison : la ligne nommée
+// et toutes celles qui la suivent dans la famille forment une nouvelle
+// famille, du numéro donné, rangée juste après ; sa première ligne en devient
+// le chef. C'est le cas d'un ménage que le dépouillement a fondu dans le
+// précédent (1871 D1, maison 70 : Desrosiers et Boucher dans la famille Houde).
+// Rien ne change de maison, donc ni annexes ni lieux ne bougent.
 //
 // Touché : data/recensement-<a>-d<d>-data.js ; data/annexe-*-data.js
 // (ref_maison — pour une famille, seulement ses lignes du manuscrit) ;
@@ -42,7 +50,8 @@ function usage(message) {
   if (message) console.error(message);
   console.error('Emploi :\n' +
     '  node outils/relecture-1881/renumeroter.mjs maison <annee> <division> <ancien> <nouveau> [--essai]\n' +
-    '  node outils/relecture-1881/renumeroter.mjs famille <annee> <division> <maison> <famille> <maison visée> [--essai]');
+    '  node outils/relecture-1881/renumeroter.mjs famille <annee> <division> <maison> <famille> <maison visée> [--essai]\n' +
+    '  node outils/relecture-1881/renumeroter.mjs scinder <annee> <division> <maison> <famille> <id de la première ligne> <nouveau numéro> [--essai]');
   process.exit(2);
 }
 
@@ -71,7 +80,7 @@ function ajouterRemarque(existante, ajout) {
   return e ? `${e} ; ${ajout}` : ajout;
 }
 
-if (!['maison', 'famille'].includes(verbe)) usage();
+if (!['maison', 'famille', 'scinder'].includes(verbe)) usage();
 const annee = texte(args[1]), division = texte(args[2]);
 if (!/^\d{4}$/.test(annee) || !/^[12]$/.test(division)) usage('année (AAAA) ou division (1 ou 2) invalide');
 
@@ -219,6 +228,33 @@ if (verbe === 'famille') {
   renvoyerRapport(noMaison, cible, [noFamille]);
   lieuxDeLaMaison(noMaison);
   memoireTravail(`${noMaison}-${noFamille}`);
+}
+
+if (verbe === 'scinder') {
+  const noMaison = texte(args[3]), noFamille = texte(args[4]), id = texte(args[5]), nouveau = texte(args[6]);
+  if (!noMaison || !noFamille || !id || !nouveau) usage('il faut la maison, la famille, l\'identifiant de la première ligne et le nouveau numéro');
+  const maison = maisons.find(m => meme(m.no_maison, noMaison));
+  if (!maison) { console.error(`Aucune maison « ${noMaison} » dans ${annee} D${division}. Rien n'est écrit.`); process.exit(1); }
+  const deja = (maison.familles || []).find(f => meme(f.no_famille, nouveau));
+  if (deja && deja.membres && deja.membres[0] && deja.membres[0].id === id) {
+    console.log(`La famille ${nouveau} de la maison « ${noMaison} » commence déjà à ${id} : déjà fait, rien à changer.`); process.exit(0);
+  }
+  const ailleurs = maisons.find(m => (m.familles || []).some(f => meme(f.no_famille, nouveau)));
+  if (ailleurs) { console.error(`Une famille ${nouveau} existe déjà dans ${annee} D${division} (maison « ${ailleurs.no_maison} »). Rien n'est écrit.`); process.exit(1); }
+  const source = (maison.familles || []).find(f => meme(f.no_famille, noFamille));
+  if (!source) { console.error(`Aucune famille ${noFamille} dans la maison « ${noMaison} » (familles ${numeros(maison)}). Rien n'est écrit.`); process.exit(1); }
+  const i = (source.membres || []).findIndex(p => p.id === id);
+  if (i === -1) { console.error(`${id} n'est pas dans la famille ${noFamille}. Rien n'est écrit.`); process.exit(1); }
+  if (i === 0) { console.error(`${id} est le chef de la famille ${noFamille} : la couper là ne laisserait rien derrière. Renumérotez plutôt la famille. Rien n'est écrit.`); process.exit(1); }
+
+  const partants = source.membres.splice(i);
+  const p0 = partants[0];
+  const famille = { no_famille: nouveau, chef: `${p0.prenom || ''} ${p0.nom || ''}`.trim(), membres: partants,
+    remarque: `Famille séparée à la main (${AUJOURDHUI}) de la famille ${noFamille}, où le dépouillement l'avait fondue` };
+  maison.familles.splice(maison.familles.indexOf(source) + 1, 0, famille);
+  faits.push(`${FICHIER} : maison « ${noMaison} », famille ${noFamille} coupée à ${id} — ${partants.length} personne(s) forment la famille ${nouveau} (chef ${famille.chef}) ; la famille ${noFamille} garde ${source.membres.length} personne(s)`);
+  touches.set(FICHIER, rec);
+  if (annee === '1871' && division === '2') pourMemoire.push(`${RAPPORT} : la clé « ${sansDoute(noMaison)}-${sansDoute(noFamille)} » couvre encore les deux familles, à revoir à la main`);
 }
 
 console.log(`${essai ? '[essai] ' : ''}${faits.length} changement(s) :`);

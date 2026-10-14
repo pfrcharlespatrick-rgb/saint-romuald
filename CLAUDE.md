@@ -68,7 +68,14 @@ sait pas faire :
 ```sh
 node outils/relecture-1881/renumeroter.mjs maison 1871 2 "131 [?]" 147 --essai
 node outils/relecture-1881/renumeroter.mjs famille 1871 2 137 175 138 --essai
+node outils/relecture-1881/renumeroter.mjs scinder 1871 1 70 101 1871-D1-P027-L06 102 --essai
 ```
+
+`scinder` coupe une famille en deux **dans la même maison** : la ligne nommée
+et toutes celles qui la suivent forment une nouvelle famille, rangée juste
+après, dont la première ligne devient le chef. C'est le cas d'un ménage que le
+dépouillement a fondu dans le précédent, et que l'atelier ne sait pas encore
+séparer (ainsi 1871-D1, maison 70 : Desrosiers famille 102, Boucher famille 103).
 
 Le fichier de travail n'est pas réécrit pour autant : ses clés gardent
 l'ancien numéro, et `fondre.mjs` reconnaît la maison sous le nouveau (celui que
@@ -97,7 +104,7 @@ l'archive de ce qui a été tranché.
 
 | Recensement | Relu par Patrick jusqu'à | Versé dans le site |
 |---|---|---|
-| 1871, division 1 | famille 57 incluse (maison 39, page 16 ligne 6) | oui — sauvegarde de l'atelier du 2026-10-11 20:33 |
+| 1871, division 1 | famille 103 incluse (maison 70, page 27 ligne 18) | oui — sauvegarde de l'atelier du 2026-10-14 20:47 |
 
 Une ligne de ce tableau dit « relu », pas « corrigé » : une famille relue sans
 correction n'a pas d'entrée dans `suivi-familles-corrections` (ainsi la
