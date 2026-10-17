@@ -104,7 +104,7 @@ l'archive de ce qui a été tranché.
 
 | Recensement | Relu par Patrick jusqu'à | Versé dans le site |
 |---|---|---|
-| 1871, division 1 | famille 103 incluse (maison 70, page 27 ligne 18) | oui — sauvegarde de l'atelier du 2026-10-14 20:47 |
+| 1871, division 1 | maison 78 incluse (famille 116, page 30 ligne 20) | oui — sauvegarde de l'atelier du 2026-10-17 16:13 |
 
 Une ligne de ce tableau dit « relu », pas « corrigé » : une famille relue sans
 correction n'a pas d'entrée dans `suivi-familles-corrections` (ainsi la
