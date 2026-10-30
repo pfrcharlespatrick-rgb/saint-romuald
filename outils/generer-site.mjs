@@ -374,7 +374,10 @@ const lieuxSortie = d.lieux.map((l) => {
   // statut du rattachement qui l'amène.
   const documents = (l.documents || []).map((id) => {
     const doc = (d.manifeste.documents || []).find((x) => x.id === id);
-    return doc ? { id: doc.id, titre: doc.titre, type: doc.type, date: doc.date || '', personnes: [], affirmations: [] } : null;
+    if (!doc) return null;
+    const refs = (doc.personnes || []).map((x) => x.ref_personne).filter(Boolean);
+    return documentsDe(refs).find((x) => x.id === doc.id)
+      || { id: doc.id, titre: doc.titre, type: doc.type, date: doc.date || '', personnes: [], affirmations: [] };
   }).filter(Boolean);
   for (const occ of occupations) {
     if (occ.statut === 'rejete') continue;
