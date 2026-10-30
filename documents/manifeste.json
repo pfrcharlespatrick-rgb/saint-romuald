@@ -3719,7 +3719,7 @@
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
       "cote": "Minute n° 117, images 001518 à 001522",
       "nature": "Minute originale ; acte complet. Intitulé en marge : « Quittance Luce Gosselin à Houde & Picard ». Signé du témoin et du notaire.",
-      "transcription": "« L'an mil huit cent soixante-quatorze, le dix-neuf de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Fut présente : Demoiselle Luce Gosselin, ci-devant de St Jean Chrysostome, dit comté, & maintenant de St Romuald, servante ; Laquelle dit & déclare ce qui suit, savoir : Attendu que ladite comparante a, en date de ce jour, suivant acte exécuté par le notaire soussigné, protesté & sommé Sr Honoré Houde pour certaines causes mentionnées au long au dit acte de protêt & sommation ; Attendu que pour le bon ordre & afin de conserver la paix entre la dite comparante & le dit sieur Houde, ce dernier consent à payer la somme de deux piastres, prix du salaire […] » — [001519-20] « […] salaire convenu & dû à la comparante ; & de payer en outre les frais du dit acte de sommation & des présentes, & de faire réparer à ses frais les objets brisés par la comparante durant le laps de temps de son service chez le dit sieur Houde. Et attendu en outre que Godias Picard, fils mineur de Sr Joseph Picard, marchand, a, par inadvertance, injurié la comparante. Et attendu que les parties, savoir : la comparante pour elle-même, le dit Sr Houde pour lui & son épouse, & ledit Sr Jos. Picard pour son dit fils, veulent que la paix soit rétablie entre eux, » — [001520-21] « C'est pourquoi la dite comparante donne & accorde à tous les intéressés, parties aux présentes & susmentionnés, quittance générale & finale de toutes & chacune les réclamations qu'elle a ou pourrait avoir contre elles […] & veut & consent que les choses en demeurent dans le même état que si jamais elles n'eussent existé. Dont & du tout elle a requis le présent acte qui a été octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent dix-sept des originaux du notaire soussigné. Et la comparante requise de signer a déclaré ne le savoir, en présence de [Mr Germain Couture, de St Romuald susdit, marchand, rayé] » — [001521-22] « Mr Mathias Gaumont, du dit lieu de St Romuald, ferblantier, témoin au présent acte, qui a signé avec moi notaire, lecture faite. » Signatures : « Mathias Gaumont », « E. H. Tremblay N.P. »",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le dix-neuf de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Fut présente : Demoiselle Luce Gosselin, ci-devant de St Jean Chrysostome, dit comté, & maintenant de St Romuald, servante ; Laquelle dit & déclare ce qui suit, savoir : Attendu que ladite comparante a, en date de ce jour, suivant acte exécuté par le notaire soussigné, protesté & sommé Sr Honoré Houde pour certaines causes mentionnées au long au dit acte de protêt & sommation ; Attendu que pour le bon ordre & afin de conserver la paix entre la dite comparante & le dit sieur Houde, ce dernier consent à payer la somme de deux piastres, prix du salaire […] » — [001519-20] « […] salaire convenu & dû à la comparante ; & de payer en outre les frais du dit acte de sommation & des présentes, & de faire réparer à ses frais les objets brisés par la comparante durant le laps de temps de son service chez le dit sieur Houde. Et attendu en outre que Godias Picard, fils mineur de Sr Joseph Picard, marchand, a, par inadvertance, injurié la comparante. Et attendu que les parties, savoir : la comparante pour elle-même, le dit Sr Houde pour lui & son épouse, & ledit Sr Jos. Picard pour son dit fils, veulent que la paix soit rétablie entre eux, » — [001520-21] « C'est pourquoi la dite comparante donne & accorde à tous les intéressés, parties aux présentes & susmentionnés, quittance générale & finale de toutes & chacune les réclamations qu'elle a ou pourrait avoir contre elles […] & veut & consent que les choses en demeurent dans le même état que si jamais elles n'eussent existé. Dont & du tout elle a requis le présent acte qui a été octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent dix-sept des originaux du notaire soussigné. Et la comparante requise de signer a déclaré ne le savoir, en présence de [Mr Germain Cantin, de St Romuald susdit, marchand, rayé] » — [001521-22] « Mr Mathias Gaumont, du dit lieu de St Romuald, ferblantier, témoin au présent acte, qui a signé avec moi notaire, lecture faite. » Signatures : « Mathias Gaumont », « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "comparante",
@@ -3751,8 +3751,9 @@
         },
         {
           "role": "temoin",
-          "nom": "Germain Couture",
-          "note": "Marchand de Saint-Romuald ; d'abord nommé témoin, puis rayé et remplacé par Gaumont. Témoin de l'acte n° 118. Absent du dépouillement."
+          "nom": "Germain Cantin",
+          "note": "D'abord nommé témoin, puis rayé et remplacé par Gaumont. Écuyer, marchand de Saint-Romuald ; signe « Germain Cantin ». Lu d'abord « Germain Couture » : la lecture est corrigée sur sa signature et sur les actes 120 et 121, où le nom est net. En 1871 : marchand de 38 ans, division 1, maison 42 (1871-D1-P017-L04) ; veuf en 1881 (1881-D1-P012-L16) ; remarié en 1891 (1891-D1-P137-L05) — rapprochements de confiance forte.",
+          "ref_personne": "1871-D1-P017-L04"
         },
         {
           "role": "notaire",
@@ -3800,7 +3801,7 @@
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
       "cote": "Minute n° 118, images 001522 à 001529",
       "nature": "Minute originale, avec renvois paraphés « F. X. P. », « G. G. » ; acte complet, suivi d'un croquis des lots (image 001528-29). Intitulé en marge : « Échange entre F. X. Proulx & Georges Grenier ».",
-      "transcription": "« L'an mil huit cent soixante-quatorze, le vingt-et-unième jour de mai, avant-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Et en présence de Germain Couture, écr, marchand, demeurant au dit lieu de St Romuald, dit comté, témoin au présent acte, aussi soussigné ; Furent présents : Mr Georges Grenier, cultivateur, de la paroisse de St Elzéar, comté de Beauce, district de Québec, d'une part ; Et Mr François Xavier Proulx, du dit lieu de St Romuald, batelier, d'autre part ; Lesquelles parties […] ont fait les échanges & permutations réciproques des immeubles ci-après désignés, avec garantie réciproque & mutuelle de tous troubles, dons, dettes, douaires, hypothèques […] savoir : Le dit sieur Georges Grenier a donné à titre d'échange dès ce jour & à toujours au dit sieur François Xavier Proulx, à ce présent & acceptant […] : Un demi-arpent de terre de front sur dix arpents de profondeur, le tout plus ou moins, borné par devant au nord au chemin public, par derrière au sud au dit sieur Grenier, à l'est à Dame Constance Parent, épouse du dit sieur Grenier, & à l'ouest au dit sieur F. X. Proulx, (1) circonstances & dépendances, avec la réserve des bâtisses dessus construites en faveur du dit sieur Grenier. Le dit lopin de terre situé en la dite paroisse de St Elzéar de Beauce & appartenant au dit sieur Grenier, avec plus grande étendue, suivant avantages matrimoniaux consentis en sa faveur par Dame Constance Parent, son épouse, tel qu'il appert par leur contrat de mariage […] » — [001524-25] « Pour par le dit Sr Proulx jouir, faire & disposer du dit lopin de terre dès ce jour & à toujours en pleine & entière propriété. Et en contre-échange le dit Sr F. X. Proulx cède & abandonne dès maintenant & à toujours au dit Sr George Grenier, à ce aussi présent & acceptant […] savoir : Un lopin de terre situé en la dite paroisse de St Elzéar, comté susdit, contenant un demi-arpent de front sur dix arpents de profondeur, borné en arrière au sud à Vital Allaire ou ses représentants, au nord au dit sieur Proulx, à l'est au dit sieur Grenier & à l'ouest à Damase Vachon ou ses représentants, circonstances & dépendances. Au dit sieur François Xavier Proulx appartient le dit lopin de terre, avec plus grande étendue, suivant acte de partage qui a été fait & exécuté devant Mtre Chassé, notaire, des biens composant la communauté qui a existé entre feu Augustin Proulx, décédé intestat, & Dame Constance Parent, ses père & mère ; » — [001525-27] Charges : payer les redevances tenant lieu de droits seigneuriaux, s'il en existe ; payer les taxes municipales, scolaires et autres ; Grenier fera seul et à ses frais la clôture des deux immeubles, jusqu'à ce que Proulx prenne possession de son terrain ou en dispose ; entretenir les chemins et fossés. — [001527-28] « Dont acte. Fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent dix-huit des originaux du notaire soussigné. Et le dit sieur Grenier a déclaré ne savoir écrire ni signer, de ce requis, en présence du dit témoin qui a alors signé, ainsi que le dit sieur Proulx, avec moi, notaire, lecture faite. » Signatures : « F. Xavier Proulx », « Germain Couture », « E. H. Tremblay N.P. » — [001528-29] Croquis : quatre bandes d'un demi-arpent de front, orientées Nord-Sud, sur 20 arpents de profondeur en deux rangs de dix, Ouest à gauche, Est à droite ; chiffres « 2 », « 2 » au rang nord, « 2 », « 1 », « m », « P. » au rang sud (lecture : sans doute les parts du partage, « m » pour la mère et « P. » pour Proulx — à confirmer).",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le vingt-et-unième jour de mai, avant-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Et en présence de Germain Cantin, écr, marchand, demeurant au dit lieu de St Romuald, dit comté, témoin au présent acte, aussi soussigné ; Furent présents : Mr Georges Grenier, cultivateur, de la paroisse de St Elzéar, comté de Beauce, district de Québec, d'une part ; Et Mr François Xavier Proulx, du dit lieu de St Romuald, batelier, d'autre part ; Lesquelles parties […] ont fait les échanges & permutations réciproques des immeubles ci-après désignés, avec garantie réciproque & mutuelle de tous troubles, dons, dettes, douaires, hypothèques […] savoir : Le dit sieur Georges Grenier a donné à titre d'échange dès ce jour & à toujours au dit sieur François Xavier Proulx, à ce présent & acceptant […] : Un demi-arpent de terre de front sur dix arpents de profondeur, le tout plus ou moins, borné par devant au nord au chemin public, par derrière au sud au dit sieur Grenier, à l'est à Dame Constance Parent, épouse du dit sieur Grenier, & à l'ouest au dit sieur F. X. Proulx, (1) circonstances & dépendances, avec la réserve des bâtisses dessus construites en faveur du dit sieur Grenier. Le dit lopin de terre situé en la dite paroisse de St Elzéar de Beauce & appartenant au dit sieur Grenier, avec plus grande étendue, suivant avantages matrimoniaux consentis en sa faveur par Dame Constance Parent, son épouse, tel qu'il appert par leur contrat de mariage […] » — [001524-25] « Pour par le dit Sr Proulx jouir, faire & disposer du dit lopin de terre dès ce jour & à toujours en pleine & entière propriété. Et en contre-échange le dit Sr F. X. Proulx cède & abandonne dès maintenant & à toujours au dit Sr George Grenier, à ce aussi présent & acceptant […] savoir : Un lopin de terre situé en la dite paroisse de St Elzéar, comté susdit, contenant un demi-arpent de front sur dix arpents de profondeur, borné en arrière au sud à Vital Allaire ou ses représentants, au nord au dit sieur Proulx, à l'est au dit sieur Grenier & à l'ouest à Damase Vachon ou ses représentants, circonstances & dépendances. Au dit sieur François Xavier Proulx appartient le dit lopin de terre, avec plus grande étendue, suivant acte de partage qui a été fait & exécuté devant Mtre Chassé, notaire, des biens composant la communauté qui a existé entre feu Augustin Proulx, décédé intestat, & Dame Constance Parent, ses père & mère ; » — [001525-27] Charges : payer les redevances tenant lieu de droits seigneuriaux, s'il en existe ; payer les taxes municipales, scolaires et autres ; Grenier fera seul et à ses frais la clôture des deux immeubles, jusqu'à ce que Proulx prenne possession de son terrain ou en dispose ; entretenir les chemins et fossés. — [001527-28] « Dont acte. Fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent dix-huit des originaux du notaire soussigné. Et le dit sieur Grenier a déclaré ne savoir écrire ni signer, de ce requis, en présence du dit témoin qui a alors signé, ainsi que le dit sieur Proulx, avec moi, notaire, lecture faite. » Signatures : « F. Xavier Proulx », « Germain Cantin », « E. H. Tremblay N.P. » — [001528-29] Croquis : quatre bandes d'un demi-arpent de front, orientées Nord-Sud, sur 20 arpents de profondeur en deux rangs de dix, Ouest à gauche, Est à droite ; chiffres « 2 », « 2 » au rang nord, « 2 », « 1 », « m », « P. » au rang sud (lecture : sans doute les parts du partage, « m » pour la mère et « P. » pour Proulx — à confirmer).",
       "personnes": [
         {
           "role": "partie",
@@ -3824,8 +3825,9 @@
         },
         {
           "role": "temoin",
-          "nom": "Germain Couture",
-          "note": "Écuyer, marchand de Saint-Romuald ; absent du dépouillement."
+          "nom": "Germain Cantin",
+          "note": "Écuyer, marchand de Saint-Romuald ; signe « Germain Cantin ». Lu d'abord « Germain Couture » : la lecture est corrigée sur sa signature et sur les actes 120 et 121, où le nom est net. En 1871 : marchand de 38 ans, division 1, maison 42 (1871-D1-P017-L04) ; veuf en 1881 (1881-D1-P012-L16) ; remarié en 1891 (1891-D1-P137-L05) — rapprochements de confiance forte.",
+          "ref_personne": "1871-D1-P017-L04"
         },
         {
           "role": "voisin",
@@ -3876,6 +3878,15 @@
             "1891-D1-P103-L14"
           ],
           "enonce": "Le batelier F.-X. Proulx de l'acte pourrait être le Xavier Proulx recensé en 1871 et en 1891 (batelier en 1891), mais le recensement le dit fils de Thomas Proulx, alors que l'acte le dit fils d'Augustin Proulx et de Constance Parent : à trancher par l'acte de baptême ou de mariage."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-05-21",
+          "personnes": [
+            "1871-D1-P017-L04"
+          ],
+          "enonce": "Germain Cantin est écuyer et marchand à Saint-Romuald en 1874, et sait signer."
         }
       ],
       "note": "Arrangement de famille : un beau-père et son beau-fils échangent deux bandes d'un demi-arpent tirées de l'ancienne terre d'Augustin Proulx, à Saint-Elzéar de Beauce, sans soulte. Le croquis joint montre le découpage en demi-arpents. Contradiction avec le recensement sur les parents de Xavier Proulx — voir la fiche de la personne. Piste : le partage devant Me Chassé.",
@@ -4060,6 +4071,107 @@
         }
       ],
       "note": "Le fond de l'affaire : Morin doit verser son loyer non plus à la seule veuve, mais au curateur (pour la part de la succession vacante de François Bourassa) et au tuteur (pour la part qui revient aux mineurs dans la succession de leur mère, Ursule Tardif), « sous peine de payer deux fois ». La veuve lui avait loué la maison comme si elle en disposait seule. Les mineurs ont renoncé à la succession de leur père (9 janvier 1874) mais gardent la part de leur mère dans la communauté : la maison de pierre « entre dans les successions », au pluriel. Chronologie : Ursule Tardif † 1865 ; remariage avec Marguerite ; tutelle 29 juillet 1871 ; François Bourassa † 28 août 1873 ; autorisation de renoncer 3 janvier 1874 ; renonciation 9 janvier ; curatelle 14 février ; bail Morin 30 mars ; sommation 22 mai. Lieu : la maison en pierres à deux étages est vraisemblablement « La maison Bourassa », 1900, chemin du Fleuve, sur la pointe Benson (lieu 1900-cf de la carte) — auberge et débit des capitaines et marins de l'anse Benson, toujours debout, bâtie selon la Société d'histoire avec la pierre restée de l'église (1857). L'acte appuie le rattachement proposé de la maison 158 [?] de 1871-D2 à ce lieu : même propriétaire, même métier d'hôtelier, même maison de pierre.",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-05-30-quittance-lambert-tardif",
+      "type": "notarie",
+      "titre": "Quittance de Germain Lambert à Louis Tardif, 1874",
+      "date": "1874-05-30",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 120, images 001535 à 001539",
+      "nature": "Minute originale ; acte complet. Intitulé en marge : « Quittance Gn Lambert à Ls Tardif », suivi de « Ls Tardif à Ls Paradis & ux », rayé : la quittance de Tardif aux Paradis, d'abord rédigée dans cet acte, y est barrée d'une croix et devient l'acte n° 121.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le trentième jour de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Et en présence de Germain Cantin, écuyer, marchand, de la paroisse de St Romuald, témoin au présent acte, aussi soussigné ; Fut présent Mr Germain Lambert, de la paroisse de St Jean Chrysostome, comté de Lévis, cultivateur ; Lequel dit & déclare ce qui suit, savoir : Attendu que lui, dit sieur Lambert, a, suivant acte de vente en date, à St Chrysostome susdit, du dix-neuf d'octobre mil huit cent cinquante-cinq, reçu par Mtre A. [Fruell ?] & son confrère, notaires, vendu une certaine terre de la contenance décrite au dit acte de vente sus-daté à Mr Louis Tardif, de la paroisse de St Henri, cultivateur, pour & moyennant le prix de trois cent vingt-cinq louis courant ; Attendu qu'à compte duquel prix le dit sieur Tardif a, lors de l'exécution du dit acte de vente, payé la somme de cinquante louis courant ; Et attendu que le dit sieur Lambert a reçu partie avant & partie lors de l'exécution des présentes, à son entière satisfaction & en bon argent courant, le prix entier de la dite vente au montant de trois cent vingt-cinq louis courant, du dit sieur Louis Tardif ; C'est pourquoi lui, dit sieur Germain Lambert, donne & accorde par ces présentes au dit sieur Louis Tardif quittance générale & finale. […] Dont acte requis & octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent vingt des originaux du notaire soussigné. Et le dit sieur Germain Lambert, comparant, requis de signer, a déclaré ne le savoir, en présence du dit témoin qui a alors signé avec moi, notaire, lecture faite. » Signatures : « Germain Cantin », « E. H. Tremblay N.P. » — Passage barré, repris à l'acte 121 : « Attendu qu'en date du trente-un mars mil huit cent cinquante-six, le dit sieur Louis Tardif a, suivant acte de vente reçu par Mtre A. [Fruell ?] & son confrère, notaires, vendu la dite terre à sieur Louis Paradis, son gendre, & à Dame Zoé Tardif, sa fille, demeurant tous deux à St Jean Chrysostome susdit, pour la dite somme de trois cent vingt-cinq louis courant, à la charge par les dits acquéreurs de lui rembourser la somme de cinquante louis payée à compte […] »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Germain Lambert",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait pas signer. Hors du territoire dépouillé."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Louis Tardif",
+          "note": "Cultivateur de Saint-Henri ; hors du territoire dépouillé."
+        },
+        {
+          "role": "gendre",
+          "nom": "Louis Paradis",
+          "note": "Gendre de Louis Tardif, de Saint-Jean-Chrysostome, acquéreur de la terre en 1856 (passage barré, repris à l'acte 121). Les Louis Paradis de Saint-Romuald (12 et 17 ans en 1871) sont trop jeunes pour être lui."
+        },
+        {
+          "role": "fille",
+          "nom": "Zoé Tardif",
+          "note": "Fille de Louis Tardif et épouse de Louis Paradis, de Saint-Jean-Chrysostome."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Écuyer, marchand de Saint-Romuald ; signe « Germain Cantin ». Lu d'abord « Germain Couture » : la lecture est corrigée sur sa signature et sur les actes 120 et 121, où le nom est net. En 1871 : marchand de 38 ans, division 1, maison 42 (1871-D1-P017-L04) ; veuf en 1881 (1881-D1-P012-L16) ; remarié en 1891 (1891-D1-P137-L05) — rapprochements de confiance forte."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-05-30",
+          "personnes": [
+            "1871-D1-P017-L04"
+          ],
+          "enonce": "Germain Cantin, écuyer, marchand de Saint-Romuald, sert de témoin au notaire Tremblay (actes 117, 118, 120, 121)."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Zoé Tardif, épouse de Louis Paradis, est la fille de Louis Tardif, cultivateur de Saint-Henri."
+        }
+      ],
+      "note": "Une terre de Saint-Jean-Chrysostome vendue en 1855 par Lambert à Tardif (325 louis, 50 comptant), revendue en 1856 par Tardif à sa fille et à son gendre ; le solde n'est réglé qu'en 1874, dix-neuf ans plus tard. Aucune des parties n'est de Saint-Romuald : seul le témoin Cantin se rattache au recensement.",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-05-30-quittance-tardif-paradis",
+      "type": "notarie",
+      "titre": "Quittance de Louis Tardif à Louis Paradis et Zoé Tardif, 1874",
+      "date": "1874-05-30",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 121, image 001539-40 (suite non encore transcrite)",
+      "nature": "Minute originale ; première page seulement. Intitulé en marge : « Quittance Ls Tardif à Ls Paradis & ux ».",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le trentième jour de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Et en présence de Germain Cantin, écuyer, de St Romuald, marchand, témoin au présent acte, aussi soussigné ; Fut présent Mr Louis Tardif, de la paroisse de St Henri, cultivateur ; Lequel dit & déclare ce qui suit, savoir : Attendu que, en date du trente-un de mars mil huit cent cinquante-six, il a, suivant acte de vente reçu par Mtre Amb. [Fruell ?] & son confrère, notaires, vendu une terre de la contenance décrite au dit acte […] »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Louis Tardif",
+          "note": "Voir l'acte n° 120."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Louis Paradis",
+          "note": "Gendre de Louis Tardif ; voir l'acte n° 120."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Zoé Tardif",
+          "note": "Fille de Louis Tardif, épouse de Louis Paradis ; voir l'acte n° 120."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Écuyer, marchand de Saint-Romuald ; signe « Germain Cantin ». Lu d'abord « Germain Couture » : la lecture est corrigée sur sa signature et sur les actes 120 et 121, où le nom est net. En 1871 : marchand de 38 ans, division 1, maison 42 (1871-D1-P017-L04) ; veuf en 1881 (1881-D1-P012-L16) ; remarié en 1891 (1891-D1-P137-L05) — rapprochements de confiance forte."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Suite immédiate de l'acte n° 120. À compléter.",
       "ajoute_le": "2026-10-30"
     }
   ]
