@@ -152,7 +152,7 @@ for (const p of d.personnes.values()) {
     .map((e) => ({ type: e.type, resume: e.resume, confiance: e.confiance }));
 
   const documents = (d.documentsParPersonne.get(p.id) || []).map((doc) => ({
-    id: doc.id, titre: doc.titre, type: doc.type,
+    id: doc.id, titre: doc.titre, type: doc.type, ...referenceDe(doc),
     affirmations: (doc.affirmations || [])
       .filter((a) => (a.personnes || []).includes(p.id))
       .map((a) => ({ enonce: a.enonce, certitude: a.certitude, type: a.type }))
@@ -244,6 +244,18 @@ console.log(`fiches/personne/<annee-D>/P<page>.json : ${fragmentsEcrits.size} pa
 // document une fois, avec les personnes du groupe qu'il nomme, leur rôle dans
 // l'acte, et ce qu'il établit à leur sujet.
 
+// La référence d'un document, telle qu'on la cite : où il se trouve (dépôt,
+// greffe, ouvrage), sa cote (n° de minute, images), sa date — et sa
+// transcription, que la fiche replie.
+function referenceDe(doc) {
+  return {
+    source: doc.source || '', cote: doc.cote || '', date: doc.date || '',
+    ...(doc.date_incertaine ? { date_incertaine: true } : {}),
+    ...(doc.url ? { url: doc.url } : {}),
+    ...(doc.transcription ? { transcription: doc.transcription } : {})
+  };
+}
+
 function documentsDe(ids) {
   const parDoc = new Map();
   for (const id of ids) {
@@ -253,7 +265,7 @@ function documentsDe(ids) {
     }
   }
   return [...parDoc.values()].map(({ doc, ids: concernes }) => ({
-    id: doc.id, titre: doc.titre, type: doc.type, date: doc.date || '',
+    id: doc.id, titre: doc.titre, type: doc.type, ...referenceDe(doc),
     personnes: concernes.map((id) => {
       const p = d.personnes.get(id);
       const role = (doc.personnes || []).find((x) => x.ref_personne === id)?.role || '';
@@ -377,7 +389,7 @@ const lieuxSortie = d.lieux.map((l) => {
     if (!doc) return null;
     const refs = (doc.personnes || []).map((x) => x.ref_personne).filter(Boolean);
     return documentsDe(refs).find((x) => x.id === doc.id)
-      || { id: doc.id, titre: doc.titre, type: doc.type, date: doc.date || '', personnes: [], affirmations: [] };
+      || { id: doc.id, titre: doc.titre, type: doc.type, ...referenceDe(doc), personnes: [], affirmations: [] };
   }).filter(Boolean);
   for (const occ of occupations) {
     if (occ.statut === 'rejete') continue;
