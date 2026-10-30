@@ -1793,9 +1793,7 @@ window.LIEUX = {
       "adresses_anciennes": [],
       "cadastre": {},
       "photos": [],
-      "documents": [
-        "notarie-1874-05-09-lagueux-lepine"
-      ]
+      "documents": []
     },
     {
       "id": "83-stdamase",
@@ -1865,7 +1863,9 @@ window.LIEUX = {
       "adresses_anciennes": [],
       "cadastre": {},
       "photos": [],
-      "documents": []
+      "documents": [
+        "notarie-1874-05-09-lagueux-lepine"
+      ]
     },
     {
       "id": "55",
