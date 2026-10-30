@@ -4417,9 +4417,9 @@
       "titre": "Quittance de Catherine Lecours, veuve d'Antoine Samson, à Augustin Carrier, 1873",
       "date": "1873-11-07",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 2, image 000949-50 (signatures à la page suivante, non encore transcrite)",
-      "nature": "Minute originale ; intitulé en marge : « Quittance Vve Lecours à A. Carrier ». Renvois paraphés « C. F. » (Charles Fournier) et du notaire.",
-      "transcription": "« L'an mil huit cent soixante-treize, le septième jour de novembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public résidant & pratiquant en la paroisse de St Romuald, district de Québec, soussigné, (1) [et en présence de Mr Charles Fournier, de la dite paroisse de St Romuald, organiste, témoin au présent acte] ; Fut présente : Dame Catherine Lecours, demeurant en la paroisse St Romuald, veuve de feu sieur Antoine Samson, en son vivant de la paroisse de Notre-Dame de la Victoire, cultivateur ; Laquelle reconnaît & confesse avoir eu & reçu de Mr Augustin Carrier, du dit lieu de Notre-Dame de la Victoire, cultivateur, beau-fils de la comparante, donataire, à son entière satisfaction, toute la rente viagère & autres qu'a pu lui devoir le dit sieur Carrier jusqu'à la date du vingt octobre dernier. Dont quittance générale & finale jusqu'à l'époque sus-mentionnée. Dont acte. Fait & passé à St Romuald, étude du dit notaire, les jour, mois & an susdits, sous le numéro deux des originaux du dit notaire. Requise de signer, la comparante a déclaré ne le savoir, mais le dit témoin a signé avec moi […] »",
+      "cote": "Minute n° 2, images 000949 à 000951",
+      "nature": "Minute originale ; acte complet. Intitulé en marge : « Quittance Vve Lecours à A. Carrier ». Renvois paraphés « C. F. » (Charles Fournier) et du notaire.",
+      "transcription": "« L'an mil huit cent soixante-treize, le septième jour de novembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public résidant & pratiquant en la paroisse de St Romuald, district de Québec, soussigné, (1) [et en présence de Mr Charles Fournier, de la dite paroisse de St Romuald, organiste, témoin au présent acte] ; Fut présente : Dame Catherine Lecours, demeurant en la paroisse St Romuald, veuve de feu sieur Antoine Samson, en son vivant de la paroisse de Notre-Dame de la Victoire, cultivateur ; Laquelle reconnaît & confesse avoir eu & reçu de Mr Augustin Carrier, du dit lieu de Notre-Dame de la Victoire, cultivateur, beau-fils de la comparante, donataire, à son entière satisfaction, toute la rente viagère & autres qu'a pu lui devoir le dit sieur Carrier jusqu'à la date du vingt octobre dernier. Dont quittance générale & finale jusqu'à l'époque sus-mentionnée. Dont acte. Fait & passé à St Romuald, étude du dit notaire, les jour, mois & an susdits, sous le numéro deux des originaux du dit notaire. Requise de signer, la comparante a déclaré ne le savoir, mais le dit témoin a signé avec moi […] » — [000950-51] « […] moi, notaire, lecture faite. Vingt-deux mots rayés sont nuls. Deux renvois en marge sont bons. » Signatures : « Catherine [sa marque X] Lecours », « Chs. Fournier, Org. », « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "comparante",
@@ -4441,7 +4441,7 @@
           "role": "temoin",
           "nom": "Charles Fournier",
           "ref_personne": "1871-D1-P040-L03",
-          "note": "« De la dite paroisse de St Romuald, organiste » ; paraphe « C. F. ». En 1871 : Charles Fournier, 23 ans, organiste, logé chez J.-Baptiste Nicol (division 1, maison 105) — seul organiste de la paroisse."
+          "note": "« De la dite paroisse de St Romuald, organiste » ; paraphe « C. F. ». En 1871 : Charles Fournier, 23 ans, organiste, logé chez J.-Baptiste Nicol (division 1, maison 105) — seul organiste de la paroisse. Signe « Chs. Fournier, Org. »."
         },
         {
           "role": "notaire",
@@ -4476,7 +4476,82 @@
           "enonce": "Charles Fournier est organiste à Saint-Romuald en novembre 1873, comme en 1871."
         }
       ],
-      "note": "Une vieille veuve qui a donné son bien à son beau-fils contre une rente viagère, et qui vit à Saint-Romuald, logée chez un autre. À compléter : les signatures (page suivante, 000950-51).",
+      "note": "Une vieille veuve qui a donné son bien à son beau-fils contre une rente viagère, et qui vit à Saint-Romuald, logée chez un autre. L'organiste signe en ajoutant son titre à son nom.",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1873-11-vente-blanchet-demers",
+      "type": "notarie",
+      "titre": "Vente de Marguerite et Sophie Blanchet à Julien Demers, Saint-Jean-Chrysostome, 1873",
+      "date": "1873-11-17",
+      "date_incertaine": true,
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 3, images 000951 à 000955",
+      "nature": "Minute originale, avec nombreux renvois paraphés « C. T. » (Charles Trudel), « S. B. » (Sophie Blanchet) et du notaire ; acte complet. Intitulé en marge : « Vente Delles Blanchet à J. Demers » ; mention « Enregistré ». L'en-tête porte « 16 nov. 1873 », le corps « le dix-septième jour de novembre » (corrigé).",
+      "transcription": "« L'an mil huit cent soixante-treize, le dix-septième jour de novembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public résidant & pratiquant en la paroisse St Romuald, comté de Lévis, soussigné ; & en présence de Charles Trudel, de la paroisse St Jean Chrysostome dit comté, écuyer, médecin, témoin au présent acte, aussi soussigné ; Furent présentes : Demoiselles Marguerite Blanchet & Sophie Blanchet, filles majeures, demeurant en la dite paroisse St Jean Chrysostome, susdit comté ; Lesquelles ont vendu, cédé, transporté & abandonné dès maintenant & à toujours, avec garantie de tous troubles & empêchements généralement quelconques, à sieur Julien Demers, de la dite paroisse St Jean Chrysostome, journalier, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayants cause, savoir : Un lopin de terre situé en la dite paroisse de St Jean Chrysostome, concession St Romain, contenant trente-huit pieds & demi de front sur soixante-douze pieds de profondeur, plus ou moins, le tout de mesure anglaise ; borné par devant, au sud-ouest, au chemin public, par derrière, au nord-est, à Julien Lambert, au nord au dit Julien Lambert, & au sud aux venderesses, avec ensemble une maison en bois & autres bâtisses dessus construites, circonstances & dépendances […] Aux venderesses appartient cet immeuble, avec plus grande étendue de terrain, pour l'avoir acquis de Thomas Redmond, suivant acte de vente en date à St Jean Chrysostome du vingt-cinq avril mil huit cent soixante-cinq, reçu par Mtre Étienne Simard & son confrère, notaires, et enregistré au bureau d'enregistrement du comté de Dorchester, division numéro deux, Reg. B, Vol. 13, page 681, sous le numéro dix mille quatre cent soixante-dix-neuf. Et ce dernier le possédait, avec aussi une plus grande étendue de terrain, pour l'avoir acquis de Marcelline Simoneau, veuve Louis Roberge, suivant acte par forme de licitation passé devant Mtre E. Simard & son confrère, notaires, le quinze février mil huit cent soixante-trois. » — Charges : 1° payer aux venderesses deux piastres courant de rente foncière et annuelle, chaque 1er octobre, laquelle fait partie d'une rente foncière de six piastres que les venderesses doivent au Révérend Pierre Beaumont, prêtre ; 2° payer les redevances tenant lieu de droits seigneuriaux ; 3° se conformer à l'acte d'achat des venderesses ; 4° entretenir une clôture de division ; 5° prix : cent piastres courant, payables en quatre paiements égaux et annuels à compter du 1er octobre 1874, avec intérêt de huit pour cent. Les venderesses ayant pris une assurance mutuelle de huit cents piastres sur les deux maisons, dont deux cents sur la maison vendue, l'acquéreur leur remettra le quart de ce qu'elles paieront. « Dont acte fait & passé en la demeure des dites venderesses, en la paroisse St Jean Chrysostome, les jour, mois & an susdits, sous le numéro trois des originaux du notaire soussigné. Et la dite Demoiselle Sophie Blanchet a signé, ainsi que le dit témoin, avec moi, notaire, la dite Demoiselle Marguerite Blanchet & le dit sieur Demers ayant déclaré ne le savoir […] » Signatures : « Sophie Blanchet », [marques de Marguerite Blanchet et de Julien Demers], « J. Ch. Trudel », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "venderesse",
+          "nom": "Marguerite Blanchet",
+          "note": "Fille majeure de Saint-Jean-Chrysostome ; ne sait pas signer."
+        },
+        {
+          "role": "venderesse",
+          "nom": "Sophie Blanchet",
+          "note": "Fille majeure de Saint-Jean-Chrysostome ; signe."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Julien Demers",
+          "note": "Journalier de Saint-Jean-Chrysostome ; ne sait pas signer. Absent des recensements de Saint-Romuald (ne pas confondre avec le notaire Julien Demers du dictionnaire de Julie Doyon)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Charles Trudel",
+          "note": "Écuyer, médecin de Saint-Jean-Chrysostome ; signe « J. Ch. Trudel »."
+        },
+        {
+          "role": "voisin",
+          "nom": "Julien Lambert",
+          "note": "Voisin au nord et au nord-est, à Saint-Jean-Chrysostome. Plusieurs Julien Lambert sont recensés à Saint-Romuald (1871-D1-P004-L10, 66 ans ; 1871-D2-P015-L13 ; 1881-D2-P002-L21…) : rien ne permet de choisir, aucun rattachement."
+        },
+        {
+          "role": "auteur",
+          "nom": "Thomas Redmond",
+          "note": "Vendeur aux demoiselles Blanchet en 1865."
+        },
+        {
+          "role": "auteur",
+          "nom": "Marcelline Simoneau",
+          "note": "Veuve de Louis Roberge ; licitation de 1863 devant le notaire Étienne Simard."
+        },
+        {
+          "role": "creancier",
+          "nom": "Pierre Beaumont",
+          "note": "Prêtre ; créancier d'une rente foncière de six piastres sur l'ensemble du terrain."
+        },
+        {
+          "role": "notaire",
+          "nom": "Étienne Simard",
+          "ref_personne": "1871-D1-P021-L03",
+          "note": "Notaire des actes antérieurs (1863 et 1865). En 1871 : notaire de 43 ans à Saint-Romuald, maison 50 (celle d'Edouard Lagueux, acte n° 113) ; en 1881 : 1881-D1-P087-L21."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P021-L03"
+          ],
+          "enonce": "Étienne Simard instrumente à Saint-Jean-Chrysostome dès 1863 et 1865 — le notaire recensé à Saint-Romuald en 1871 et 1881."
+        }
+      ],
+      "note": "Chaîne de propriété d'un lopin de la concession Saint-Romain, à Saint-Jean-Chrysostome : veuve Louis Roberge (licitation 1863) → Thomas Redmond → demoiselles Blanchet (1865) → Julien Demers (1873). Les deux sœurs possèdent deux maisons, assurées 800 piastres. Seul lien avec Saint-Romuald : le notaire Étienne Simard des actes antérieurs.",
       "ajoute_le": "2026-10-30"
     }
   ]
