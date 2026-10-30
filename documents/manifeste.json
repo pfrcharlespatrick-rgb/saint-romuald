@@ -4225,6 +4225,57 @@
       "affirmations": [],
       "note": "Premier acte de la série passé hors de l'étude, chez le concédant à Saint-Jean-Chrysostome, et sur formulaire imprimé. Un petit emplacement de 60 pieds sur 60 concédé à un journalier pour y bâtir : la naissance d'un hameau. Aucune personne du recensement de Saint-Romuald.",
       "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1873-inventaire-bourassa",
+      "type": "notarie",
+      "titre": "Inventaire des biens de feu François Bourassa, hôtelier (extrait)",
+      "date": "1873",
+      "date_incertaine": true,
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Numéro de minute non encore lu ; images 001140 à 001145 (pages de l'inventaire seulement — le début de l'acte, avec la date et le numéro, et la fin restent à transcrire)",
+      "nature": "Inventaire pièce par pièce, avec estimation en piastres et centins. En marge, « V » (vendu), « E » (estimé) ; certaines pièces sont dites « rachetées », notamment par la veuve. Postérieur au décès du 28 août 1873 et antérieur aux actes de mai 1874 filmés plus loin (images 0014xx-0015xx).",
+      "transcription": "[001140-41, salon] V. Dix chaises en noyer noir, couvertes en crin, estimées & vendues à sept chelins & demi chaque — 9.00 ; V. Un sofa couvert en [moleskine ?], évalué à quatre piastres — 4.00 ; E. Une table de centre en noyer noir, estimée & vendue dix piastres — 10.00 ; V. Une chaise berçante en bois avec coussins — 0.75 ; V. Un tapis de pied en laine — 1.50 ; Deux crachoirs en faïence — 0.20 ; V. Un miroir à cadre doré — 5.00 ; (usés) Six morceaux de toile à châssis — 0.60 ; V. Huit verres à liqueur & un plateau en tôle — 0.50 ; Trois livres de prières — 0.10 ; E. Un couvert de table en mousseline — 0.20 ; Une paillasse en coton, une couverte — 0.30. — [001141-42] Huit draps de lit, doubles & simples — 3.00 ; Un lot de vieux linges dans les quatre tiroirs de la commode — 0.12 ; Dans la salle d'entrée : Cinq laizes de catalognes — 1.50 ; Six chaises en bois peintes en jaune, cinquante centins chaque — 3.00 ; Une table à dîner & un tapis — 1.25 ; Une grande armoire vitrée — 6.00 ; Une commode en pin, estimée & vendue — 4.00 ; Un accordéon — 1.00 ; Six cadres & gravures, estimés & vendus — 1.50 ; Trois douzaines d'assiettes blanches assorties, quinze bols blancs & soucoupes, deux douzaines de couteaux, de fourchettes & cuillers & deux douzaines de cuillers à thé […] — [001142-43] « […] aux dires de Delle Elvina Bourassa ; Hardes & linge de corps de feu François Bourassa : » deux corps en flanelle — 0.35 ; [deux cravates ?] & un mouchoir — 0.20 ; Deux habits, l'un en drap de pilote & l'autre en waterproof, estimés & vendus — 3.00 ; Trois paires de caleçons — 0.20 ; Deux paires de pantalons — 0.50 ; Quatre vestes de différentes étoffes — 1.40 ; Trois paires de pantalons — 1.60 ; Un surtout en drap — 2.50. — [001143-44] Cinq chemises, un écu chacune — 2.50 ; Un lot de linges de différentes sortes — 0.50 ; Un lot de différents effets — 0.25 ; Chambre n° 2 : Une couchette double, paillasse piquée — 1.50 ; Un oreiller, un traversin, une paillasse en coton […] — 0.90 ; Quatre paires de chaussures — 1.00 ; Un petit miroir, deux rideaux blancs — 0.15 ; Un parapluie — 0.25 ; Salle à dîner : « Une table à dîner avec tapis, rachetée par la veuve Frs Bourassa » — 0.50 ; Dans l'armoire : Quatre serviettes & nappes (vendues) — 0.75. — [001144-45] Cuisine : Trois chaises en écorce — 0.30 ; Un poêle à deux étages, deux bombes, un chaudron, deux poêles à frire, trois fers à [repasser ?], un grand saucepan, le tout — 10.00 ; Un lave-main (racheté) — 0.25 ; Une armoire peinte en rouge (rachetée) — 1.40 ; Un petit miroir (racheté) — 0.05 ; Chambre à coucher de la servante : Une couchette double, une paillasse en paille, draps, couvre-pieds, deux oreillers, un porte-manteau, quatre paniers, une cabane à écureuils & autres effets, le tout — 2.00 ; Une lèchefrite (rachetée) — 0.10 ; Chambre à coucher n° 3 : Une couchette, une paillasse & un matelas en laine […]",
+      "personnes": [
+        {
+          "role": "defunt",
+          "nom": "François Bourassa",
+          "ref_personne": "1871-D2-P067-L19",
+          "note": "« Feu François Bourassa » : ses hardes et son linge de corps sont inventoriés. Hôtelier, mort le 28 août 1873 (acte n° 119)."
+        },
+        {
+          "role": "veuve",
+          "nom": "Veuve François Bourassa",
+          "ref_personne": "1871-D2-P067-L20",
+          "note": "« Rachetée par la veuve Frs Bourassa » : elle rachète la table de la salle à dîner. C'est Marguerite [Lavièsse ?] dite Laliberté, seconde épouse (acte n° 119)."
+        },
+        {
+          "role": "declarante",
+          "nom": "Elvina Bourassa",
+          "note": "Demoiselle ; une partie de l'inventaire est dressée « aux dires de Delle Elvina Bourassa ». Absente du ménage de 1871 et des recensements dépouillés : fille d'un premier lit déjà partie en 1871, ou parente — à établir."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P067-L19"
+          ],
+          "enonce": "Les biens de feu François Bourassa sont inventoriés pièce par pièce après sa mort (1873) : salon, salle d'entrée, salle à dîner, cuisine, chambres n° 2 et n° 3, chambre de la servante."
+        },
+        {
+          "type": "propriete",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P067-L19",
+            "1871-D2-P067-L20"
+          ],
+          "enonce": "L'inventaire décrit l'intérieur de la maison Bourassa (1900, chemin du Fleuve) : dix chaises en noyer noir, sofa, table de centre, miroir doré, verres à liqueur et crachoirs, trois douzaines d'assiettes — un mobilier d'auberge."
+        }
+      ],
+      "note": "Pendant mobilier de l'acte n° 119 : la maison d'auberge des marins de l'anse Benson, telle qu'elle était meublée à la mort de François Bourassa. Plusieurs objets sont vendus (V) ; la veuve en rachète quelques-uns (table, armoire rouge, lave-main, petit miroir, lèchefrite). « Chambre à coucher de la servante » : en 1871, le ménage logeait une domestique, Célestine Laprise [?], 21 ans (1871-D2-P068-L05) — rien ne dit qu'elle y soit encore en 1873. À compléter : début de l'acte (date, numéro, comparants, priseurs) et fin (total, signatures). Rattaché au lieu 1900-cf par l'occupation confirmée de 1871.",
+      "ajoute_le": "2026-10-30"
     }
   ]
 }
