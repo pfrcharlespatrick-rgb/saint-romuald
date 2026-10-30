@@ -186,6 +186,26 @@
     requerante: 'requérante', acquereur: 'acquéreur', pere: 'père', mere: 'mère', epouse: 'épouse',
     proprietaire: 'propriétaire', cedant: 'cédant' };
 
+  // La référence du document — dépôt ou greffe, n° de minute et images, date —
+  // et sa transcription, repliée.
+  var MOIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août',
+    'septembre', 'octobre', 'novembre', 'décembre'];
+  function dateLisible(t) {
+    var m = /^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?$/.exec(t || '');
+    if (!m) return t || '';
+    return (m[3] ? Number(m[3]) + (m[3] === '01' ? 'er' : '') + ' ' : '') +
+      (m[2] ? MOIS[Number(m[2]) - 1] + ' ' : '') + m[1];
+  }
+  function referenceDocument(doc) {
+    var parts = [];
+    if (doc.source) parts.push(esc(doc.source));
+    if (doc.cote) parts.push(esc(doc.cote));
+    if (doc.date) parts.push(esc(dateLisible(doc.date)) + (doc.date_incertaine ? ' (date incertaine)' : ''));
+    if (doc.url && /^https?:\/\//.test(doc.url)) parts.push('<a href="' + esc(doc.url) + '" rel="noopener">numérisation</a>');
+    return (parts.length ? '<div class="occ-detail">Référence : ' + parts.join(' · ') + '</div>' : '') +
+      (doc.transcription ? '<details><summary>Transcription</summary><p style="white-space:pre-wrap">' + esc(doc.transcription) + '</p></details>' : '');
+  }
+
   function blocDocuments(l) {
     var docs = (l.documents || []).filter(function (d) { return d && typeof d === 'object'; });
     if (!docs.length) return '';
@@ -200,7 +220,7 @@
       var affirmations = (doc.affirmations || []).map(function (a) {
         return '<li>' + esc(a.enonce) + ' <span class="etiquette">(' + esc(a.certitude) + ')</span></li>';
       }).join('');
-      return '<div class="marginale"><b>' + esc(doc.titre) + '</b>' +
+      return '<div class="marginale"><b>' + esc(doc.titre) + '</b>' + referenceDocument(doc) +
         (qui ? '<div>Nomme : ' + qui + '</div>' : '') +
         (via.length ? '<div class="occ-detail">Par ' + esc(via.join(' ; ')) + '</div>' : '') +
         (affirmations ? '<ul class="indices" style="columns:1">' + affirmations + '</ul>' : '') + '</div>';
