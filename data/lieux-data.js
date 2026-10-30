@@ -459,7 +459,9 @@ window.LIEUX = {
       "adresses_anciennes": [],
       "cadastre": {},
       "photos": [],
-      "documents": []
+      "documents": [
+        "notarie-1874-05-sommation-bourassa-morin"
+      ]
     },
     {
       "id": "1984-cf",
