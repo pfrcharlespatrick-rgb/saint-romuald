@@ -3643,6 +3643,108 @@
       ],
       "note": "Complète l'acte n° 114 : Michaud, cessionnaire du contrat d'entretien de la route des Quarante-Arpents, reçoit procuration pour toucher lui-même du Conseil de comté de Lévis les 199 piastres dues à Couture le 1er novembre 1874. Le prénom de Couture reste incertain (Frédérick ou Patrick).",
       "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-05-19-protet-gosselin-houde",
+      "type": "notarie",
+      "titre": "Protêt de Luce Gosselin, servante, contre Honoré Houde, 1874",
+      "date": "1874-05-19",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 116, images 001514 à 001518",
+      "nature": "Minute originale ; protêt et sommation signifiés par le notaire au domicile de l'intéressé, avec sa réponse. Signé du seul notaire. Acte complet.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le dix-neuf de mai, (1) vers midi, à la réquisition de Delle Luce Gosselin, servante, ci-devant de la paroisse de St Jean Chrysostome, comté de Lévis, & maintenant de la paroisse de St Romuald dit comté, je, Elzéar Hubert Tremblay, notaire public […] me suis exprès transporté au domicile de sieur Honoré Houde, journalier, situé dans la maison de Joseph Picard, marchand, du dit lieu de St Romuald, où étant & parlant à [Dame Henriette Croteau, épouse du dit sieur Honoré Houde, rayé] Mr Honoré Houde personnellement, lui ai fait […] les déclarations, notifications, sommations & réquisitions suivantes, savoir : Attendu qu'en date du dix-huit d'avril dernier (mil huit cent soixante-quatorze) le dit sieur Honoré Houde a, du consentement de la requérante, engagé cette dernière comme servante, à raison de deux piastres courant pour chaque mois de service, en sus de sa nourriture & autres conventions verbales ; Attendu que la dite requérante a demeuré chez le dit sieur Houde jusqu'à la date du dix-sept de mai courant ; Attendu qu'au dit jour, dix-sept de mai courant, vers les quatre heures du matin, le dit sieur Honoré Houde & Dame Henriette Croteau son épouse ont conjointement insulté & injurié la requérante & lui ont dit des injures grossières, injures qu'il a dites & répétées le même jour en présence de témoins ; Attendu que le dit sieur Houde a menacé de battre la requérante si elle ne quittait pas sa demeure sans délai ; (3) Attendu qu'un mois de service à la date du dix-sept du courant est échu & dû ; Attendu que le dit sieur Houde n'a pas payé à la requérante le salaire convenu, c'est-à-dire deux piastres par mois ; C'est pourquoi nous dit notaire avons notifié, requis & sommé le dit sieur Houde de payer à la requérante, sous le délai de vingt-quatre heures, la dite somme de deux piastres à elle due pour prix de ses services, & d'avoir en outre, sous deux fois vingt-quatre heures, à prendre un arrangement raisonnable avec la dite requérante pour les injures à elle dites & répétées comme susdit ; l'informant qu'à défaut par lui de ce faire […] la requérante se pourvoira en justice […] — À quoi le dit sieur Houde a répondu : Je nie les faits allégués dans le présent acte ; je reconnais cependant devoir à la requérante, déduction faite de ce qu'elle reconnaît me devoir, la somme de trente-six sous. […] Dont acte fait & signifié les heure, jour, mois & an susdits, sous le numéro cent seize des originaux du notaire soussigné, en la demeure du dit sieur Houde, où j'ai laissé une copie authentique des présentes au dit sieur Houde personnellement […] » Signature : « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "requerante",
+          "nom": "Luce Gosselin",
+          "note": "Demoiselle, servante, venue de Saint-Jean-Chrysostome. Aucune Luce Gosselin dans les recensements de Saint-Romuald (1871, 1881, 1891)."
+        },
+        {
+          "role": "partie",
+          "nom": "Honoré Houde",
+          "note": "Journalier, logé dans la maison du marchand Joseph Picard. Absent des recensements de Saint-Romuald : sans doute arrivé après 1871 et reparti avant 1881. Seul Houde de 1871 : Isidore Houde, journalier, maison 70 — aucun lien établi."
+        },
+        {
+          "role": "epouse",
+          "nom": "Henriette Croteau",
+          "note": "Épouse d'Honoré Houde, sous son nom de naissance. L'Henriette Croteau de 1881 (1881-D1-P083-L22, 24 ans) est l'épouse de Baptiste Croteau : ce n'est pas elle."
+        },
+        {
+          "role": "proprietaire",
+          "nom": "Joseph Picard",
+          "ref_personne": "1871-D1-P021-L14",
+          "note": "Marchand ; Houde loge « dans la maison de Joseph Picard » en mai 1874. Joseph Picard, marchand, 40 ans en 1871 (maison 52), suivi en 1881 (1881-D1-P032-L21, maison 126) et en 1891 (1891-D1-P059-L01, marchand meublier, maison 256) — rapprochements de confiance forte."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "probable",
+          "date": "1874-05-19",
+          "personnes": [
+            "1871-D1-P021-L14"
+          ],
+          "enonce": "Le journalier Honoré Houde loge en 1874 dans la maison du marchand Joseph Picard, à Saint-Romuald."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P021-L14",
+            "1881-D1-P032-L21",
+            "1891-D1-P059-L01"
+          ],
+          "enonce": "Le marchand Joseph Picard de l'acte est le marchand recensé en 1871, 1881 et 1891."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1874-05-19",
+          "personnes": [],
+          "enonce": "Honoré Houde, journalier, est l'époux d'Henriette Croteau en 1874."
+        }
+      ],
+      "note": "Rare témoignage sur la condition d'une servante : engagée le 18 avril 1874 à 2 piastres par mois, logée et nourrie, chassée le 17 mai à 4 h du matin sous les injures et la menace. Houde nie et ne reconnaît devoir que 36 sous. Suite le même jour : quittance n° 117. Le mot « propriétaire » est une lecture : l'acte dit seulement « la maison de Joseph Picard ».",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-05-19-quittance-gosselin-houde",
+      "type": "notarie",
+      "titre": "Quittance de Luce Gosselin à Honoré Houde et Joseph Picard, 1874",
+      "date": "1874-05-19",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 117, image 001518-19 (suite non encore transcrite)",
+      "nature": "Minute originale ; première page seulement. Intitulé en marge : « Quittance Luce Gosselin à Houde & Picard ».",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le dix-neuf de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Fut présente : Demoiselle Luce Gosselin, ci-devant de St Jean Chrysostome, dit comté, & maintenant de St Romuald, servante ; Laquelle dit & déclare ce qui suit, savoir : Attendu que ladite comparante a, en date de ce jour, suivant acte exécuté par le notaire soussigné, protesté & sommé Sr Honoré Houde pour certaines causes mentionnées au long au dit acte de protêt & sommation ; Attendu que pour le bon ordre & afin de conserver la paix entre la dite comparante & le dit sieur Houde, ce dernier consent à payer la somme de deux piastres, prix du salaire […] »",
+      "personnes": [
+        {
+          "role": "comparante",
+          "nom": "Luce Gosselin",
+          "note": "Voir l'acte n° 116."
+        },
+        {
+          "role": "partie",
+          "nom": "Honoré Houde",
+          "note": "Voir l'acte n° 116."
+        },
+        {
+          "role": "partie",
+          "nom": "Joseph Picard",
+          "ref_personne": "1871-D1-P021-L14",
+          "note": "Nommé dans l'intitulé en marge (« Houde & Picard ») ; son rôle — garant ou payeur — reste à lire dans la suite. Marchand ; Houde loge « dans la maison de Joseph Picard » en mai 1874. Joseph Picard, marchand, 40 ans en 1871 (maison 52), suivi en 1881 (1881-D1-P032-L21, maison 126) et en 1891 (1891-D1-P059-L01, marchand meublier, maison 256) — rapprochements de confiance forte."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "L'affaire se règle l'après-midi même du protêt : Houde consent à payer les deux piastres de salaire. Suite à transcrire.",
+      "ajoute_le": "2026-10-30"
     }
   ]
 }
