@@ -4140,14 +4140,14 @@
       "titre": "Quittance de Louis Tardif à Louis Paradis et Zoé Tardif, 1874",
       "date": "1874-05-30",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 121, image 001539-40 (suite non encore transcrite)",
-      "nature": "Minute originale ; première page seulement. Intitulé en marge : « Quittance Ls Tardif à Ls Paradis & ux ».",
-      "transcription": "« L'an mil huit cent soixante-quatorze, le trentième jour de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Et en présence de Germain Cantin, écuyer, de St Romuald, marchand, témoin au présent acte, aussi soussigné ; Fut présent Mr Louis Tardif, de la paroisse de St Henri, cultivateur ; Lequel dit & déclare ce qui suit, savoir : Attendu que, en date du trente-un de mars mil huit cent cinquante-six, il a, suivant acte de vente reçu par Mtre Amb. [Fruell ?] & son confrère, notaires, vendu une terre de la contenance décrite au dit acte […] »",
+      "cote": "Minute n° 121, images 001539 à 001542",
+      "nature": "Minute originale ; acte complet. Intitulé en marge : « Quittance Ls Tardif à Ls Paradis & ux ».",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le trentième jour de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Et en présence de Germain Cantin, écuyer, de St Romuald, marchand, témoin au présent acte, aussi soussigné ; Fut présent Mr Louis Tardif, de la paroisse de St Henri, cultivateur ; Lequel dit & déclare ce qui suit, savoir : Attendu que, en date du trente-un de mars mil huit cent cinquante-six, il a, suivant acte de vente reçu par Mtre Amb. [Fruell ?] & son confrère, notaires, vendu une terre de la contenance décrite au dit acte […] » — [001540-42] « […] au dit acte de vente sus-daté, à sieur Louis Paradis, son gendre, & à Dame Zoé Tardif, sa fille, conjointement, & demeurant tous deux en la paroisse de St Jean Chrysostome, comté susdit, pour le prix de [trois cent vingt-cinq louis courant, rayé] deux cent soixante-quinze louis courant, à la charge, suivant convention verbale, de lui payer & rembourser la somme de cinquante louis payée à sieur Germain Lambert par le comparant sur le prix déterminé & fixé en une certaine vente consentie par le dit sieur Lambert en faveur du dit Sr Louis Tardif ; Attendu que la dite somme de cinquante louis a été payée & remboursée dès avant ces présentes ; Et attendu que le dit Sr Louis Paradis & la dite Dame Zoé Tardif, son épouse, ont, partie avant & partie lors de l'exécution des présentes, payé en bon argent courant la dite somme de deux cent soixante-quinze louis courant au dit sieur Louis Tardif, qui le reconnaît & s'en déclare satisfait ; C'est pourquoi lui, dit sieur Louis Tardif, donne & accorde par ces présentes quittance générale & finale au dit sieur Louis Paradis & à la dite Dame Zoé Tardif. Dont acte requis & octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent vingt-un des originaux du notaire soussigné. Et le comparant, requis de signer, a déclaré ne le savoir, en présence du dit témoin, qui a signé avec moi, notaire, lecture faite. » Signatures : « Germain Cantin », « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "vendeur",
           "nom": "Louis Tardif",
-          "note": "Voir l'acte n° 120."
+          "note": "Cultivateur de Saint-Henri ; ne sait pas signer. Voir l'acte n° 120."
         },
         {
           "role": "acquereur",
@@ -4170,8 +4170,60 @@
           "nom": "Elzéar-Hubert Tremblay"
         }
       ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1874-05-30",
+          "personnes": [],
+          "enonce": "Louis Paradis et Zoé Tardif, de Saint-Jean-Chrysostome, sont mari et femme ; elle est la fille de Louis Tardif, de Saint-Henri."
+        }
+      ],
+      "note": "Suite de l'acte n° 120. Le prix de la revente de 1856 est 275 louis, plus le remboursement des 50 louis que Tardif avait versés à Lambert — soit les 325 louis de la première vente, que le notaire avait d'abord écrits. Tout est réglé le 30 mai 1874. Aucune des parties n'est de Saint-Romuald.",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-06-26-bail-roberge-richard",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Pierre Roberge à Joachim Richard, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-06-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 122, images 001542 à 001545",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main ; acte complet. Intitulé en marge : « Roberge à Richard » ; mention « Enregistré ». La clause imprimée de résolution pour deux années de rente impayées est biffée.",
+      "transcription": "« Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Pierre Langlois, journalier, de St Jean Chrysostome, témoin au présent acte, aussi soussigné ; Fut présent Mr Pierre Roberge, cultivateur, demeurant à St Jean Chrysostome dit comté, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […] à sieur Joachim Richard, journalier, du même lieu, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession [St-Augustin ?], contenant soixante pieds de front sur soixante pieds de profondeur, le tout plus ou moins ; borné au nord à Antoine Paradis, au sud au concédant, à l'est à une route & à l'ouest à Ferdinand Dubois, circonstances & dépendances […] » — Charges : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; payer le huitième jour de juillet de chaque année, à compter du huit juillet prochain, sept piastres courant de rente foncière, rachetable au capital de cent seize piastres et soixante-sept centins ; droit de retrait réservé au sieur Roberge ; copie enregistrée. « Dont acte, fait et passé à St Jean Chrysostome susdit, demeure du concédant, l'an mil huit cent soixante-quatorze, le vingt-sixième jour de juin, après-midi, sous le numéro cent vingt-deux des originaux de Mtre Elzéar Hubert Tremblay […] Requis de signer, les concédant & concessionnaire ont déclaré ne le savoir, en présence du témoin susdit, qui a signé avec moi, notaire, lecture faite. » Signatures : « Pierre Langlois », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait pas signer. Le Pierre Roberge de Saint-Romuald en 1871 (1871-D2-P070-L03) est menuisier : rien ne les rapproche."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Joachim Richard",
+          "note": "Journalier de Saint-Jean-Chrysostome ; ne sait pas signer. Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Langlois",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe."
+        },
+        {
+          "role": "voisin",
+          "nom": "Antoine Paradis",
+          "note": "Voisin au nord."
+        },
+        {
+          "role": "voisin",
+          "nom": "Ferdinand Dubois",
+          "note": "Voisin à l'ouest."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
       "affirmations": [],
-      "note": "Suite immédiate de l'acte n° 120. À compléter.",
+      "note": "Premier acte de la série passé hors de l'étude, chez le concédant à Saint-Jean-Chrysostome, et sur formulaire imprimé. Un petit emplacement de 60 pieds sur 60 concédé à un journalier pour y bâtir : la naissance d'un hameau. Aucune personne du recensement de Saint-Romuald.",
       "ajoute_le": "2026-10-30"
     }
   ]
