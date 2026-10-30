@@ -4661,6 +4661,72 @@
       "affirmations": [],
       "note": "Pendant du testament de son mari (minute n° 4). Le notaire hésite d'abord entre le père, Antoine Toussaint, charretier (1871-D1-P021-L07), et le fils Benjamin : c'est le fils qui témoigne. À compléter.",
       "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1873-11-23-contrat-mariage-carrier-demers",
+      "type": "notarie",
+      "titre": "Contrat de mariage entre un fils de Charles Carrier et Euphrasie Demers, Saint-Jean-Chrysostome, 1873",
+      "date": "1873-11-23",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 6, images 000965 à 000970 (fin du contrat et début de la liste des meubles ; le début de l'acte, avec le prénom du futur époux, est sur des images non encore transcrites, vers 000961-000965)",
+      "nature": "Formulaire imprimé de contrat de mariage, rempli à la main, suivi d'une « Liste des meubles et effets mobiliers […] donnés par le futur époux à la future épouse ». L'image 000965-66 est une page du formulaire entièrement biffée, laissée en blanc. Nombreux montants corrigés dans la liste.",
+      "transcription": "« Car ainsi a été convenu entre les dites parties en présence de leurs parents et amis ci-après nommés, savoir : de la part du dit futur époux, sieur Charles Carrier, son père ; & de la part de la dite future épouse, de sieur Louis Demers & de Dame Geneviève Gosselin, ses père & mère, de Demoiselle Adélaïde Demers & Demoiselle Virginie Demers, ses sœurs. […] Fait et passé à St Jean Chrysostome, en la demeure de Sr Louis Demers, père de la dite future épouse, l'an mil huit cent soixante-treize, le vingt-troisième jour de novembre, après-midi, sous le numéro six des originaux de Elzéar Hubert Tremblay, le dit notaire soussigné. Et la dite future épouse, la dite Demoiselle Adélaïde Demers & le dit témoin ont signé avec moi, notaire, le dit futur époux & les autres comparants ayant déclaré ne le savoir, de ce requis, lecture faite. Cent vingt-neuf mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » Signatures : « Euphrasie Demers », « Thélesphore Vermette », « Adélaïde Demers », « E. H. Tremblay N.P. » — Liste des meubles donnés par le futur époux à la future épouse : quatre lits garnis, dix piastres chacun — 40.00 ; un lave-main — 2.00 ; deux tables — 6.00 ; un sideboard — 8.00 ; une armoire — 2.00 ; deux douzaines de chaises — 8.00 ; deux armoires — 10.00 ; une commode — 12.00 ; une batterie de cuisine — 35.00 ; un poêle — 12.00 ; quatre valises — 10.00 [report : 145.00] ; un lot de vaisselle — 20.00 ; une horloge — 4.00 ; deux lampes — 3.00 ; un cheval — 40.00 ; deux miroirs — 1.00 [report : 213.00] ; deux charrettes — 35.00 ; un wagon — 50.00 ; une cariole — 25.00 ; trois sleighs de travail, huit piastres chacun — 24.00 ; une charrue — 8.00 ; cinq bêtes à cornes, dix piastres chacune — 50.00 ; quinze moutons, trois piastres chacun — 45.00 ; quatre harnais, dix piastres chacun — 40.00 ; un lot d'outils — 20.00 ; un lot d'ustensiles d'agriculture — 10.00 […] (suite à transcrire). Rayés : trois chevaux, un sofa, six cadres & gravures.",
+      "personnes": [
+        {
+          "role": "future_epouse",
+          "nom": "Euphrasie Demers",
+          "note": "Fille de Louis Demers et de Geneviève Gosselin, de Saint-Jean-Chrysostome ; signe. Absente des recensements de Saint-Romuald. Distincte de la famille de Louis Demers et Léocadie Beaudoin (division 2), déjà au manifeste : la mère n'est pas la même."
+        },
+        {
+          "role": "futur_epoux",
+          "nom": "[prénom à lire] Carrier",
+          "note": "Fils de Charles Carrier ; ne sait pas signer. Prénom sur la page non encore transcrite. Cultivateur vraisemblablement, d'après la donation : cheval, bêtes à cornes, moutons, charrue, wagon."
+        },
+        {
+          "role": "pere",
+          "nom": "Charles Carrier",
+          "note": "Père du futur époux ; ne sait pas signer."
+        },
+        {
+          "role": "pere",
+          "nom": "Louis Demers",
+          "note": "Père de la future épouse ; l'acte est passé en sa demeure, à Saint-Jean-Chrysostome. Plusieurs Louis Demers sont recensés à Saint-Romuald : aucun rattachement."
+        },
+        {
+          "role": "mere",
+          "nom": "Geneviève Gosselin"
+        },
+        {
+          "role": "soeur",
+          "nom": "Adélaïde Demers",
+          "note": "Sœur de la future épouse ; signe."
+        },
+        {
+          "role": "soeur",
+          "nom": "Virginie Demers",
+          "note": "Sœur de la future épouse."
+        },
+        {
+          "role": "temoin",
+          "nom": "Thélesphore Vermette",
+          "note": "Témoin ; signe. Nombreux Vermette à Saint-Romuald, aucun Thélesphore : aucun rattachement."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "date": "1873-11-23",
+          "personnes": [],
+          "enonce": "Euphrasie, Adélaïde et Virginie Demers sont filles de Louis Demers et de Geneviève Gosselin, de Saint-Jean-Chrysostome."
+        }
+      ],
+      "note": "Contrat passé le même jour que les testaments Pichette (n° 4 et 5), mais à Saint-Jean-Chrysostome. La donation du futur époux à sa femme — meubles, bétail, voitures, outils, plus de 500 piastres — décrit une ferme montée. À compléter : le début du contrat (prénom du futur époux, régime matrimonial) et la fin de la liste.",
+      "ajoute_le": "2026-10-30"
     }
   ]
 }
