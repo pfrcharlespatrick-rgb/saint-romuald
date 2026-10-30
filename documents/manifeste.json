@@ -4553,6 +4553,114 @@
       ],
       "note": "Chaîne de propriété d'un lopin de la concession Saint-Romain, à Saint-Jean-Chrysostome : veuve Louis Roberge (licitation 1863) → Thomas Redmond → demoiselles Blanchet (1865) → Julien Demers (1873). Les deux sœurs possèdent deux maisons, assurées 800 piastres. Seul lien avec Saint-Romuald : le notaire Étienne Simard des actes antérieurs.",
       "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1873-11-23-testament-pichette",
+      "type": "notarie",
+      "titre": "Testament de Joseph Pichette, menuisier, 1873",
+      "date": "1873-11-23",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 4, images 000955 à 000959",
+      "nature": "Minute originale ; acte complet. Intitulé en marge : « Testament de Joseph Pichette ». Renvois paraphés « J. P. », « E. B. », « B. T. » et du notaire. Testament réciproque de celui de son épouse (minute n° 5, même jour).",
+      "transcription": "« L'an mil huit cent soixante-treize, le vingt-troisième jour de novembre, après-midi, pardevant Elzéar Hubert Tremblay, notaire public résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, Et en présence de sieur Edouard Bourassa, cultivateur & commerçant, & de sieur Benjamin Toussaint, journalier, demeurant tous deux en la dite paroisse, témoins au présent testament, aussi soussignés ; Fut présent : Mr Joseph Pichette, menuisier, demeurant en la paroisse de St Romuald, comté de Lévis, étant en bonne santé de corps, sain d'esprit, mémoire, jugement & entendement […] Lequel a, dans la vue de la mort, fait & nommé son présent testament […] Premièrement : je veux & ordonne qu'avant tout mes dettes soient payées & mes torts scrupuleusement réparés par mon exécutrice testamentaire ci-après nommée, à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes & prières ; voulant qu'un service décent soit chanté sur mon corps le jour de mon inhumation, avec un autre service aussi décent au bout de l'an de mon décès, & que vingt-cinq messes basses de Requiem soient dites pour le repos de mon âme le plus tôt possible après mon décès ; Deuxièmement : je donne & lègue à Dame Marie Odile Prémont, mon épouse actuelle, tous les biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès […] pour par ma dite épouse en jouir, faire & disposer comme bon lui semblera, en pleine & entière propriété à compter du jour de mon décès ; 3° Je nomme la dite Dame Marie Odile Prémont, ma dite épouse, mon exécutrice testamentaire, & l'institue ma légataire universelle en propriété ; 4° Je révoque tous autres testaments & codicilles […] Dont acte. Fait & passé en la paroisse St Romuald, étude du dit notaire, les jour, mois & an susdits, sous le numéro quatre des originaux du dit notaire soussigné. Et le dit testateur a signé, ainsi que les dits témoins, avec moi, notaire, lecture faite. » Signatures : « Joseph Pichette », « Edouard Bourassa », « Benjamin Toussaint », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Joseph Pichette",
+          "note": "Menuisier de Saint-Romuald ; signe. Absent des recensements dépouillés (1871, 1881, 1891) : arrivé après 1871 et reparti, ou mort, avant 1881. Seul Pichette adulte de 1871 : Alexis Pichette, maçon de 27 ans (1871-D1-P002-L13) — aucun lien établi."
+        },
+        {
+          "role": "epouse",
+          "nom": "Marie Odile Prémont",
+          "note": "Épouse de Joseph Pichette, légataire universelle et exécutrice testamentaire. Absente des recensements dépouillés."
+        },
+        {
+          "role": "temoin",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "« Cultivateur & commerçant », de Saint-Romuald ; signe. Cultivateur de 39 ans en 1871 (maison 108), marchand en 1881, marchand général en 1891 — le tuteur des mineurs Bourassa (acte n° 119, inventaire n° 42)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Benjamin Toussaint",
+          "ref_personne": "1871-D1-P021-L11",
+          "note": "Journalier de Saint-Romuald ; signe. En 1871 : menuisier de 20 ans, fils d'Antoine Toussaint, charretier (maison 51) ; en 1881 : journalier de 30 ans (1881-D1-P024-L17) — rapprochement de confiance forte."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1873-11-23",
+          "personnes": [],
+          "enonce": "Joseph Pichette, menuisier de Saint-Romuald, est l'époux de Marie Odile Prémont."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1873-11-23",
+          "personnes": [
+            "1871-D1-P040-L18"
+          ],
+          "enonce": "Edouard Bourassa est « cultivateur & commerçant » à Saint-Romuald en 1873, et sait signer."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P021-L11",
+            "1881-D1-P024-L17"
+          ],
+          "enonce": "Le témoin Benjamin Toussaint, journalier, est le fils d'Antoine Toussaint recensé en 1871 (menuisier, 20 ans) et en 1881 (journalier, 30 ans)."
+        }
+      ],
+      "note": "Testament au dernier vivant : chacun des époux lègue tout à l'autre (voir minute n° 5). Les témoins sont deux voisins de Saint-Romuald qui savent signer.",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1873-11-23-testament-premont",
+      "type": "notarie",
+      "titre": "Testament de Marie Odile Prémont, épouse de Joseph Pichette, 1873",
+      "date": "1873-11-23",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 5, image 000959-60 (suite non encore transcrite)",
+      "nature": "Minute originale ; première page seulement. Intitulé en marge : « Testament de Marie Odile Prémont, épouse de Joseph Pichette ». Le notaire avait d'abord écrit comme second témoin « Antoine Toussaint, charretier », rayé, remplacé par Benjamin Toussaint, journalier.",
+      "transcription": "« L'an mil huit cent soixante-treize, le vingt-troisième jour de novembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public […] & en présence de Sr Edouard Bourassa, cultivateur & commerçant, & de sieur [Antoine Toussaint, charretier, rayé] Benjamin Toussaint, journalier, demeurant tous deux en la dite paroisse de St Romuald, dit comté, témoins au présent testament, aussi soussignés ; Fut présente : Dame Marie Odile Prémont, épouse de sieur Joseph Pichette, menuisier, & demeurant avec son dit époux en la paroisse de St Romuald, étant en bonne santé de corps, saine d'esprit, mémoire, jugement & entendement […] Laquelle a, dans la vue de la mort, fait & nommé son présent testament […] »",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Marie Odile Prémont",
+          "note": "Épouse de Joseph Pichette, menuisier, de Saint-Romuald. Absente des recensements dépouillés."
+        },
+        {
+          "role": "epoux",
+          "nom": "Joseph Pichette",
+          "note": "Voir la minute n° 4."
+        },
+        {
+          "role": "temoin",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "« Cultivateur & commerçant », de Saint-Romuald ; signe. Cultivateur de 39 ans en 1871 (maison 108), marchand en 1881, marchand général en 1891 — le tuteur des mineurs Bourassa (acte n° 119, inventaire n° 42)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Benjamin Toussaint",
+          "ref_personne": "1871-D1-P021-L11",
+          "note": "Journalier de Saint-Romuald ; signe. En 1871 : menuisier de 20 ans, fils d'Antoine Toussaint, charretier (maison 51) ; en 1881 : journalier de 30 ans (1881-D1-P024-L17) — rapprochement de confiance forte."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Pendant du testament de son mari (minute n° 4). Le notaire hésite d'abord entre le père, Antoine Toussaint, charretier (1871-D1-P021-L07), et le fils Benjamin : c'est le fils qui témoigne. À compléter.",
+      "ajoute_le": "2026-10-30"
     }
   ]
 }
