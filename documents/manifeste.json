@@ -1,7 +1,7 @@
 {
   "format": "documents-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-08-17",
+  "mis_a_jour": "2026-10-30",
   "note": "Index des documents historiques qui établissent des liens de filiation. Un document versé ici l'emporte toujours sur une proposition automatique de data/filiation-data.js : l'acte est une preuve, le rapprochement algorithmique n'est qu'une hypothèse. Voir documents/README.md pour la marche à suivre.",
   "types_admis": {
     "bapteme": "Acte de baptême — établit une filiation directe et une date de naissance",
@@ -3414,6 +3414,817 @@
       ],
       "note": "Relevé d'assurance-incendie à 200 pieds au pouce, le document le plus fin du corpus sur le bâti. Légende des matériaux : bleu = pierre, rouge = brique, jaune = bois habité, hachures grises = dépendances, rectangles hachurés = bois empilé, S.B. = chaudière à vapeur. La feuille 12 couvre le village d'Etchemin — son église, les moulins Etchemin de Henry Atkinson junior à l'embouchure de la rivière, les étangs de flottage Mill Pond et Rigolet Pond (« all water power, no steam used ») — et la feuille 13 porte la ligne de démarcation entre les villages d'Etchemin et de New Liverpool. Le fleuve est couché en bas des feuilles : le nord y est vers le bas. Fourni par Patrick Blanchet avec guide d'interprétation, août 2026.",
       "ajoute_le": "2026-08-17"
+    },
+    {
+      "id": "notarie-1874-05-09-lagueux-lepine",
+      "type": "notarie",
+      "titre": "Bail à rente foncière d'Edouard Lagueux à Louis Lépine fils, 1874",
+      "date": "1874-05-09",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 113, images 001496 à 001501",
+      "nature": "Minute originale du notaire, avec ratures et renvois en marge paraphés ; acte complet, signé des deux parties et du notaire.",
+      "transcription": "« Fut présent : Edouard [Etienne, rayé] Lagueux, écuyer, Juge de Paix de Sa Majesté & rentier, demeurant en la paroisse de St Romuald ; Lequel a par ces présentes baillé & concédé dès ce jour & à toujours à titre de bail à rente foncière & constituée […] à Sieur Louis Lépine, fils, du même lieu, commerçant […] un emplacement situé en ladite paroisse de St Romuald dit comté, contenant cinquante pieds de front sur cent pieds de profondeur le tout mesure anglaise ; borné au sud ouest aux concédant, au nord-est au terrain de la corporation scolaire, & au sud est au dit concédant, (1) et au nord-ouest à Joseph Larochelle […] » — Charges : rente de douze piastres courant payable d'avance le premier jour de mai de chaque année, rachetable au capital de deux cents piastres ; bâtir une maison habitable avec cheminées en pierres ou en briques d'ici à trois ans ; clore l'emplacement ; fournir au côté nord un chemin d'au moins douze pieds de largeur ; copie enregistrée au concédant. Renvoi (3) : le bail sera nul si le concessionnaire néglige de payer la rente d'avance. — Renvoi (4), au nom du concessionnaire : « dit Marest ». Renvoi en marge de la dernière page : en cas de résolution, « tous les paiements alors faits, ainsi que toutes les constructions & améliorations faites sur le dit emplacement appartiendront au dit concédant, ses hoirs & ayants cause » sans indemnité, la clause n'étant pas comminatoire. Clôture : « Dont acte. Fait & passé à St Romuald susdit, demeure du dit concédant, les jour, mois & an susdits, sous le numéro cent treize des originaux du notaire soussigné. Et les dits concédant & concessionnaire ont signé avec moi, notaire, lecture faite. » Signatures : « E. Lagueux », « Louis Lépine dit Marest fils », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Edouard Lagueux",
+          "ref_personne": "1871-D1-P020-L17",
+          "note": "Écuyer, juge de paix et rentier en 1874 ; cultivateur de 73 ans en 1871 (maison 50). Le notaire avait d'abord écrit « Etienne », rayé : le notaire Étienne Simard logeait dans la même maison 50 en 1871. Absent de 1881. Signe « E. Lagueux » ; l'acte est passé en sa demeure. Le recensement de 1871 le dit sachant lire et écrire, ce que confirme la signature."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Louis Lépine dit Marest, fils",
+          "ref_personne": "1871-D1-P023-L08",
+          "note": "Commerçant en 1874 ; marchand de 46 ans en 1871 (maison 58). « Fils » le distingue de Louis Lépine, tonnelier de 70 ans (1871-D1-P028-L19, maison 74), vraisemblablement son père. Absent de 1881. Signe « Louis Lépine dit Marest fils » : le surnom « dit Marest », absent du recensement, est une piste pour le retrouver dans les registres (Marest, Marette). Sachant écrire en 1871, ce que confirme la signature."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Larochelle",
+          "ref_personne": "1871-D1-P023-L02",
+          "note": "Borne l'emplacement au nord-ouest. En 1871, maison 57, voisine immédiate de Louis Lépine (maison 58)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay",
+          "note": "Notaire résidant et pratiquant à Saint-Romuald ; absent des recensements dépouillés."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-05-09",
+          "personnes": [
+            "1871-D1-P023-L08"
+          ],
+          "enonce": "Louis Lépine fils reçoit d'Edouard Lagueux, à bail à rente, un emplacement de 50 pieds sur 100 voisin du terrain de la corporation scolaire et de Joseph Larochelle."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-05-09",
+          "personnes": [
+            "1871-D1-P020-L17"
+          ],
+          "enonce": "Edouard Lagueux est écuyer, juge de paix et rentier en 1874."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P023-L08",
+            "1871-D1-P023-L02"
+          ],
+          "enonce": "Le Louis Lépine commerçant de l'acte est le marchand de 46 ans de 1871 : il y est recensé à côté de Joseph Larochelle, que l'acte donne pour voisin."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P020-L17"
+          ],
+          "enonce": "Le juge de paix Edouard Lagueux est le cultivateur de 73 ans recensé en 1871 ; aucun autre Edouard Lagueux dans la paroisse."
+        },
+        {
+          "type": "filiation",
+          "certitude": "hypothese",
+          "personnes": [
+            "1871-D1-P023-L08",
+            "1871-D1-P028-L19"
+          ],
+          "enonce": "« Louis Lépine, fils » serait le fils du tonnelier Louis Lépine, 70 ans en 1871 — à confirmer par un acte de baptême ou de mariage."
+        },
+        {
+          "type": "lecture",
+          "certitude": "etabli",
+          "date": "1874-05-09",
+          "personnes": [
+            "1871-D1-P023-L08"
+          ],
+          "enonce": "Louis Lépine fils portait le surnom « dit Marest » (signature et renvoi de l'acte) ; le recensement de 1871 ne le donne pas."
+        }
+      ],
+      "note": "Premier acte d'une série du greffe Tremblay. La page transmise avec lui (images 001495-96) est la fin de l'acte n° 112, une quittance dont le comparant ne savait pas signer ; non versée faute du début. Piste : l'emplacement touche le terrain de l'école — à rapprocher de la carte et des lieux. Piste : chercher les Lépine sous « Marest » ou « Marette » dans les registres et en 1881.",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-05-12-couture-michaud",
+      "type": "notarie",
+      "titre": "Cession par Frédérick Couture à Georges Michaud de l'entretien de la route des Quarante-Arpents, 1874",
+      "date": "1874-05-12",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 114, images 001501 à 001511",
+      "nature": "Minute originale du notaire, avec ratures et renvois en marge paraphés « T. B. », « G. M. », « P. L. » (Théodule Bégin, Georges Michaud, Pierre Lagueux) et du notaire. Acte complet.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le douzième jour de mai, avant midi, en présence de Me Elzéar Hubert Tremblay, notaire public […] résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné, (1) [et en présence de Théodule Bégin, du même lieu, hôtellier, témoin au présent acte, aussi soussigné] ; Fut présent : Sr Frédérick [Patrick, rayé] Couture, demeurant en la paroisse de St Jean Chrysostome dit comté, fermier & cultivateur ; Lequel dit & déclare ce qui suit, savoir : Attendu que lui, dit sieur Couture, est devenu à St Romuald, en la salle des séances du Conseil de comté, vers le vingt ou vingt-cinq du mois d'avril dernier, l'adjudicataire d'une certaine route appelée route des Quarante-Arpents, pour le prix et somme de cent quatre-vingt-dix-neuf piastres courant que le dit Conseil de comté a agréé & convenu de lui payer pour l'entretien de la dite route […] ; Attendu que le dit sieur Couture a, à l'entière satisfaction du dit Conseil de comté, donné caution suffisante & approuvée du dit Conseil en la personne de sieur Simon Côté, du dit lieu de St Jean Chrysostome, cultivateur ; […] C'est pourquoi le dit sieur Frédérick Couture cède, transporte & abandonne tous les droits qu'il a & pourrait avoir en sa qualité d'adjudicataire susdit à sieur Georges Michaud, du même lieu, fermier cultivateur, à ce présent & acceptant, cessionnaire pour lui, ses hoirs & ayants cause, aux mêmes conditions & sous les mêmes obligations & restrictions […] » — [001505-06] « … que ledit sieur Couture y était lui-même obligé, et promet & s'oblige de se conformer entièrement à tous les règlements relatifs à la dite adjudication, lesquels ont été, à l'entière satisfaction du cessionnaire, expliqués par ledit cédant […] dont ils se déclarent contents & satisfaits. » — [001506-07] « La présente cession est faite sans novation ni dérogation aux droits & privilèges que possède le dit Conseil de comté relativement au cautionnement donné par le dit sieur Côté en faveur du cédant, [le dit Côté] à ce aussi présent & après que lecture de ce qui précède lui a été faite par le dit notaire soussigné, en présence du dit témoin, voulant & entendant que le cautionnement par lui donné comme dit est, serve & vaille en faveur du dit cédant, ce dernier se reconnaissant obligé envers le dit Conseil de comté de même que si la présente cession n'eût jamais eu lieu […] » — [001507-08] « Fut aussi présent Pierre Lagueux, écuyer, juge de paix, demeurant au dit lieu de St Romuald ; Lequel, après que lecture lui a été faite par le notaire soussigné de ce qui précède & en avoir pris communication, déclare l'avoir pour agréable & se porte caution solidaire en faveur du dit sieur Michaud, entendant le dit Pierre Lagueux, écr, qu'il ne pourra être contraint & obligé de remplir les obligations contractées pour l'entretien de la dite route […] que lorsque ce dernier, le dit sieur Côté caution du cédant, & le dit sieur Michaud cessionnaire en ces présentes auront été discutés. » — [001508-09] « La présente cession est faite pour bonnes & valables considérations […] savoir : pour & en considération de la somme de douze piastres courant, sur & en à-compte de laquelle le dit cédant reconnaît avoir eu & reçu lors de l'exécution des présentes, à la vue & présence de nous notaire & témoin, en bon argent courant, celle de quatre piastres, dont quittance d'autant. Et quant à la balance de huit piastres courant, le cessionnaire s'oblige la payer au premier de novembre prochain […] » — [001509-10] « […] être payé du prix de l'entretien de ladite route, comme susdit. — Laquelle dite somme de douze piastres étant en considération de matériaux, connus des parties, que le dit cédant s'oblige délivrer à demande au dit cessionnaire, lesquels matériaux devant servir à l'entretien de ladite route, & consistant en un cent de perches, deux cents de piquets & en sept morceaux de bois de sapin & de pruche équarris ; le tout se trouvant sur la ferme qu'occupe le cédant. » — [001510-11] « Dont acte fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent quatorze des originaux du notaire soussigné. Et les dits sieurs Michaud & Pierre Lagueux, écr, ont signé avec moi notaire ; les dits sieurs Couture & Côté ayant déclaré ne le savoir, de ce requis, en présence du dit témoin qui a alors signé avec moi, notaire, lecture faite. » Signatures : « George Michaud », « Théodule Bégin », « Pierre Lagueux », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "cedant",
+          "nom": "Frédérick Couture",
+          "note": "Fermier et cultivateur de Saint-Jean-Chrysostome, hors du territoire dépouillé ; ne sait pas signer. Le prénom hésite : « Patrick », rayé, puis « Frédérick » dans le corps des actes 114 et 115, mais « Patrick Couture » dans l'intitulé en marge de l'acte 115. Faute de signature, rien ne tranche. Aucun Couture de ces prénoms dans les recensements de Saint-Romuald."
+        },
+        {
+          "role": "cessionnaire",
+          "nom": "Georges Michaud",
+          "note": "Fermier cultivateur de Saint-Jean-Chrysostome ; signe « George Michaud ». Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "caution",
+          "nom": "Simon Côté",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, caution de Couture envers le Conseil de comté ; présent à l'acte, il maintient son cautionnement. Un Siméon Côté de 7 ans en 1871 (1871-D2-P011-L03) n'est évidemment pas lui. Ne sait pas signer."
+        },
+        {
+          "role": "caution",
+          "nom": "Pierre Lagueux",
+          "ref_personne": "1871-D1-P076-L08",
+          "note": "« Écuyer, juge de paix, demeurant au dit lieu de St Romuald », caution solidaire du cessionnaire Michaud ; paraphe « P. L. » les renvois. Seul Pierre Lagueux adulte de la paroisse : cultivateur de 39 ans en 1871 (maison 215), suivi en 1881 (1881-D1-P001-L01, maison 1) et en 1891 (1891-D1-P054-L11, maison 232). Sait lire et écrire (1871, 1891). Signe « Pierre Lagueux »."
+        },
+        {
+          "role": "temoin",
+          "nom": "Théodule Bégin",
+          "ref_personne": "1881-D2-P001-L01",
+          "note": "« Du même lieu [St-Romuald], hôtellier » (renvoi en marge). En 1881 : Théodule Bégin, 36 ans, hôtelier, division 2, maison 1. Absent du dépouillement de 1871 et de 1891. Signe « Théodule Bégin »."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-05-12",
+          "personnes": [
+            "1881-D2-P001-L01"
+          ],
+          "enonce": "Théodule Bégin est hôtelier à Saint-Romuald dès mai 1874."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1881-D2-P001-L01"
+          ],
+          "enonce": "Le témoin Théodule Bégin, hôtelier, est l'hôtelier de 36 ans recensé en 1881 (division 2, maison 1) : même prénom rare, même métier."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-05-12",
+          "personnes": [
+            "1871-D1-P076-L08"
+          ],
+          "enonce": "Pierre Lagueux est écuyer et juge de paix à Saint-Romuald en 1874, alors que le recensement le dit cultivateur."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P076-L08",
+            "1881-D1-P001-L01",
+            "1891-D1-P054-L11"
+          ],
+          "enonce": "Le juge de paix Pierre Lagueux de l'acte est le cultivateur recensé en 1871, 1881 et 1891 — le seul homme de ce nom dans la paroisse."
+        },
+        {
+          "type": "filiation",
+          "certitude": "hypothese",
+          "personnes": [
+            "1871-D1-P076-L08",
+            "1871-D1-P020-L17"
+          ],
+          "enonce": "Pierre Lagueux (39 ans en 1871) pourrait être le fils d'Edouard Lagueux (73 ans), juge de paix lui aussi (acte n° 113) — à confirmer par un acte de baptême ou de mariage."
+        }
+      ],
+      "note": "Acte surtout utile pour l'histoire locale : le Conseil de comté de Lévis siégeait à Saint-Romuald et adjugeait l'entretien de la route des Quarante-Arpents (199 piastres, avril 1874). Couture cède son contrat à Michaud pour 12 piastres (4 comptant, 8 au 1er novembre 1874), représentant des matériaux pris sur la ferme qu'il occupe : cent perches, deux cents piquets, sept pièces de sapin et de pruche équarries. Couture et Côté ne savent pas signer ; Michaud, Lagueux et Bégin signent. Les parties sont de Saint-Jean-Chrysostome ; le témoin Bégin et la caution Pierre Lagueux se rattachent au recensement. Suite : procuration n° 115, du même jour.",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-05-12-procuration-couture-michaud",
+      "type": "notarie",
+      "titre": "Procuration de Frédérick Couture à Georges Michaud, 1874",
+      "date": "1874-05-12",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 115, images 001511 à 001514",
+      "nature": "Minute originale du notaire, avec ratures et renvois en marge paraphés « G. M. », « T. B. ». Acte complet. Intitulé en marge : « Procuration Patrick Couture to Geo. Michaud ».",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le douzième jour de mai, avant midi, en présence de Elzéar Hubert Tremblay, notaire public […] & en présence de Théodule Bégin, hôtellier, du dit lieu de St Romuald, témoin au présent acte, aussi soussigné ; Fut présent Frédérick [Patrick, rayé] Couture, demeurant en la paroisse de St Jean Chrysostome, susdit comté, fermier & cultivateur ; Lequel a fait & constitué pour son procureur spécial la personne de Georges Michaud, du même lieu, fermier & cultivateur, à ce aussi présent & acceptant la dite qualité, auquel il donne pouvoir de pour lui & en son nom retirer & recevoir du Conseil municipal du comté de Lévis, au bureau du greffier, la somme de cent quatre-vingt-dix-neuf piastres courant que le dit Conseil de comté s'est obligé lui payer le premier jour de novembre prochain (mil huit cent soixante-quatorze) en sa qualité d'adjudicataire de la route des Quarante-Arpents & en considération de l'entretien d'icelle dite route. La présente procuration demeurera nulle & n'aura aucun effet à dater du jour où la somme susdite aura été payée au dit Georges Michaud, à qui il appartiendra comme susdit. […] autorisant en outre le mandataire de prendre toutes procédures judiciaires aux fins de recouvrer ce qui lui appartient du prix susdit […] Dont acte, sous le numéro cent quinze. Fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits. Requis de signer, le dit mandant a déclaré ne le savoir, en présence du dit témoin qui a alors signé avec moi, notaire, [ainsi que le mandataire], lecture faite. » Signatures : « Théodule Bégin », « George Michaud », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "mandant",
+          "nom": "Frédérick Couture",
+          "note": "Le même qu'à l'acte n° 114 ; ne sait pas signer. Appelé « Patrick Couture » dans l'intitulé en marge."
+        },
+        {
+          "role": "mandataire",
+          "nom": "Georges Michaud",
+          "note": "Le même qu'à l'acte n° 114 ; signe « George Michaud »."
+        },
+        {
+          "role": "temoin",
+          "nom": "Théodule Bégin",
+          "ref_personne": "1881-D2-P001-L01",
+          "note": "« Hôtellier, du dit lieu de St Romuald » ; signe. Voir l'acte n° 114."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-05-12",
+          "personnes": [
+            "1881-D2-P001-L01"
+          ],
+          "enonce": "Théodule Bégin est hôtelier à Saint-Romuald en mai 1874 (deuxième mention, même jour que l'acte n° 114)."
+        }
+      ],
+      "note": "Complète l'acte n° 114 : Michaud, cessionnaire du contrat d'entretien de la route des Quarante-Arpents, reçoit procuration pour toucher lui-même du Conseil de comté de Lévis les 199 piastres dues à Couture le 1er novembre 1874. Le prénom de Couture reste incertain (Frédérick ou Patrick).",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-05-19-protet-gosselin-houde",
+      "type": "notarie",
+      "titre": "Protêt de Luce Gosselin, servante, contre Honoré Houde, 1874",
+      "date": "1874-05-19",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 116, images 001514 à 001518",
+      "nature": "Minute originale ; protêt et sommation signifiés par le notaire au domicile de l'intéressé, avec sa réponse. Signé du seul notaire. Acte complet.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le dix-neuf de mai, (1) vers midi, à la réquisition de Delle Luce Gosselin, servante, ci-devant de la paroisse de St Jean Chrysostome, comté de Lévis, & maintenant de la paroisse de St Romuald dit comté, je, Elzéar Hubert Tremblay, notaire public […] me suis exprès transporté au domicile de sieur Honoré Houde, journalier, situé dans la maison de Joseph Picard, marchand, du dit lieu de St Romuald, où étant & parlant à [Dame Henriette Croteau, épouse du dit sieur Honoré Houde, rayé] Mr Honoré Houde personnellement, lui ai fait […] les déclarations, notifications, sommations & réquisitions suivantes, savoir : Attendu qu'en date du dix-huit d'avril dernier (mil huit cent soixante-quatorze) le dit sieur Honoré Houde a, du consentement de la requérante, engagé cette dernière comme servante, à raison de deux piastres courant pour chaque mois de service, en sus de sa nourriture & autres conventions verbales ; Attendu que la dite requérante a demeuré chez le dit sieur Houde jusqu'à la date du dix-sept de mai courant ; Attendu qu'au dit jour, dix-sept de mai courant, vers les quatre heures du matin, le dit sieur Honoré Houde & Dame Henriette Croteau son épouse ont conjointement insulté & injurié la requérante & lui ont dit des injures grossières, injures qu'il a dites & répétées le même jour en présence de témoins ; Attendu que le dit sieur Houde a menacé de battre la requérante si elle ne quittait pas sa demeure sans délai ; (3) Attendu qu'un mois de service à la date du dix-sept du courant est échu & dû ; Attendu que le dit sieur Houde n'a pas payé à la requérante le salaire convenu, c'est-à-dire deux piastres par mois ; C'est pourquoi nous dit notaire avons notifié, requis & sommé le dit sieur Houde de payer à la requérante, sous le délai de vingt-quatre heures, la dite somme de deux piastres à elle due pour prix de ses services, & d'avoir en outre, sous deux fois vingt-quatre heures, à prendre un arrangement raisonnable avec la dite requérante pour les injures à elle dites & répétées comme susdit ; l'informant qu'à défaut par lui de ce faire […] la requérante se pourvoira en justice […] — À quoi le dit sieur Houde a répondu : Je nie les faits allégués dans le présent acte ; je reconnais cependant devoir à la requérante, déduction faite de ce qu'elle reconnaît me devoir, la somme de trente-six sous. […] Dont acte fait & signifié les heure, jour, mois & an susdits, sous le numéro cent seize des originaux du notaire soussigné, en la demeure du dit sieur Houde, où j'ai laissé une copie authentique des présentes au dit sieur Houde personnellement […] » Signature : « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "requerante",
+          "nom": "Luce Gosselin",
+          "note": "Demoiselle, servante, venue de Saint-Jean-Chrysostome. Aucune Luce Gosselin dans les recensements de Saint-Romuald (1871, 1881, 1891)."
+        },
+        {
+          "role": "partie",
+          "nom": "Honoré Houde",
+          "note": "Journalier, logé dans la maison du marchand Joseph Picard. Absent des recensements de Saint-Romuald : sans doute arrivé après 1871 et reparti avant 1881. Seul Houde de 1871 : Isidore Houde, journalier, maison 70 — aucun lien établi."
+        },
+        {
+          "role": "epouse",
+          "nom": "Henriette Croteau",
+          "note": "Épouse d'Honoré Houde, sous son nom de naissance. L'Henriette Croteau de 1881 (1881-D1-P083-L22, 24 ans) est l'épouse de Baptiste Croteau : ce n'est pas elle."
+        },
+        {
+          "role": "proprietaire",
+          "nom": "Joseph Picard",
+          "ref_personne": "1871-D1-P021-L14",
+          "note": "Marchand ; Houde loge « dans la maison de Joseph Picard » en mai 1874. Joseph Picard, marchand, 40 ans en 1871 (maison 52), suivi en 1881 (1881-D1-P032-L21, maison 126) et en 1891 (1891-D1-P059-L01, marchand meublier, maison 256) — rapprochements de confiance forte."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "probable",
+          "date": "1874-05-19",
+          "personnes": [
+            "1871-D1-P021-L14"
+          ],
+          "enonce": "Le journalier Honoré Houde loge en 1874 dans la maison du marchand Joseph Picard, à Saint-Romuald."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P021-L14",
+            "1881-D1-P032-L21",
+            "1891-D1-P059-L01"
+          ],
+          "enonce": "Le marchand Joseph Picard de l'acte est le marchand recensé en 1871, 1881 et 1891."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1874-05-19",
+          "personnes": [],
+          "enonce": "Honoré Houde, journalier, est l'époux d'Henriette Croteau en 1874."
+        }
+      ],
+      "note": "Rare témoignage sur la condition d'une servante : engagée le 18 avril 1874 à 2 piastres par mois, logée et nourrie, chassée le 17 mai à 4 h du matin sous les injures et la menace. Houde nie et ne reconnaît devoir que 36 sous. Suite le même jour : quittance n° 117. Le mot « propriétaire » est une lecture : l'acte dit seulement « la maison de Joseph Picard ».",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-05-19-quittance-gosselin-houde",
+      "type": "notarie",
+      "titre": "Quittance de Luce Gosselin à Honoré Houde et Joseph Picard, 1874",
+      "date": "1874-05-19",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 117, images 001518 à 001522",
+      "nature": "Minute originale ; acte complet. Intitulé en marge : « Quittance Luce Gosselin à Houde & Picard ». Signé du témoin et du notaire.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le dix-neuf de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Fut présente : Demoiselle Luce Gosselin, ci-devant de St Jean Chrysostome, dit comté, & maintenant de St Romuald, servante ; Laquelle dit & déclare ce qui suit, savoir : Attendu que ladite comparante a, en date de ce jour, suivant acte exécuté par le notaire soussigné, protesté & sommé Sr Honoré Houde pour certaines causes mentionnées au long au dit acte de protêt & sommation ; Attendu que pour le bon ordre & afin de conserver la paix entre la dite comparante & le dit sieur Houde, ce dernier consent à payer la somme de deux piastres, prix du salaire […] » — [001519-20] « […] salaire convenu & dû à la comparante ; & de payer en outre les frais du dit acte de sommation & des présentes, & de faire réparer à ses frais les objets brisés par la comparante durant le laps de temps de son service chez le dit sieur Houde. Et attendu en outre que Godias Picard, fils mineur de Sr Joseph Picard, marchand, a, par inadvertance, injurié la comparante. Et attendu que les parties, savoir : la comparante pour elle-même, le dit Sr Houde pour lui & son épouse, & ledit Sr Jos. Picard pour son dit fils, veulent que la paix soit rétablie entre eux, » — [001520-21] « C'est pourquoi la dite comparante donne & accorde à tous les intéressés, parties aux présentes & susmentionnés, quittance générale & finale de toutes & chacune les réclamations qu'elle a ou pourrait avoir contre elles […] & veut & consent que les choses en demeurent dans le même état que si jamais elles n'eussent existé. Dont & du tout elle a requis le présent acte qui a été octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent dix-sept des originaux du notaire soussigné. Et la comparante requise de signer a déclaré ne le savoir, en présence de [Mr Germain Cantin, de St Romuald susdit, marchand, rayé] » — [001521-22] « Mr Mathias Gaumont, du dit lieu de St Romuald, ferblantier, témoin au présent acte, qui a signé avec moi notaire, lecture faite. » Signatures : « Mathias Gaumont », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "comparante",
+          "nom": "Luce Gosselin",
+          "note": "Voir l'acte n° 116. Ne sait pas signer."
+        },
+        {
+          "role": "partie",
+          "nom": "Honoré Houde",
+          "note": "Voir l'acte n° 116."
+        },
+        {
+          "role": "partie",
+          "nom": "Joseph Picard",
+          "ref_personne": "1871-D1-P021-L14",
+          "note": "Partie pour son fils mineur Godias, qui a « par inadvertance » injurié la comparante.  Nommé dans l'intitulé en marge (« Houde & Picard »). Marchand, chez qui loge Houde. Joseph Picard, marchand, 40 ans en 1871 (maison 52), suivi en 1881 (1881-D1-P032-L21, maison 126) et en 1891 (1891-D1-P059-L01, marchand meublier, maison 256)."
+        },
+        {
+          "role": "enfant",
+          "nom": "Godias Picard",
+          "ref_personne": "1871-D1-P021-L17",
+          "note": "« Fils mineur de Sr Joseph Picard, marchand ». En 1871 : Godias Picard, 12 ans, dans le ménage de Joseph Picard (maison 52) — environ 15 ans en 1874."
+        },
+        {
+          "role": "temoin",
+          "nom": "Mathias Gaumont",
+          "ref_personne": "1871-D1-P021-L05",
+          "note": "« Du dit lieu de St Romuald, ferblantier » ; signe. En 1871 : ferblantier de 25 ans, maison 50 (celle d'Edouard Lagueux, acte n° 113) ; en 1881 : ferblantier de 34 ans (1881-D1-P016-L07, maison 59)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "note": "D'abord nommé témoin, puis rayé et remplacé par Gaumont. Écuyer, marchand de Saint-Romuald ; signe « Germain Cantin ». Lu d'abord « Germain Couture » : la lecture est corrigée sur sa signature et sur les actes 120 et 121, où le nom est net. En 1871 : marchand de 38 ans, division 1, maison 42 (1871-D1-P017-L04) ; veuf en 1881 (1881-D1-P012-L16) ; remarié en 1891 (1891-D1-P137-L05) — rapprochements de confiance forte.",
+          "ref_personne": "1871-D1-P017-L04"
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "date": "1874-05-19",
+          "personnes": [
+            "1871-D1-P021-L17",
+            "1871-D1-P021-L14"
+          ],
+          "enonce": "Godias Picard est le fils mineur de Joseph Picard, marchand — ce que le recensement de 1871 laissait seulement supposer par la composition du ménage."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-05-19",
+          "personnes": [
+            "1871-D1-P021-L05"
+          ],
+          "enonce": "Mathias Gaumont est ferblantier à Saint-Romuald en 1874 et sait signer."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P021-L05",
+            "1881-D1-P016-L07"
+          ],
+          "enonce": "Le témoin Mathias Gaumont est le ferblantier recensé en 1871 et en 1881."
+        }
+      ],
+      "note": "L'affaire se règle l'après-midi même du protêt (acte n° 116) : Houde paie les deux piastres de salaire et les frais des deux actes, et fait réparer à ses frais les objets que la servante avait brisés ; Joseph Picard répond de son fils Godias, qui l'avait injuriée. Luce Gosselin donne quittance générale. Elle ne sait pas signer.",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-05-21-echange-grenier-proulx",
+      "type": "notarie",
+      "titre": "Échange entre Georges Grenier et François-Xavier Proulx, 1874",
+      "date": "1874-05-21",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 118, images 001522 à 001529",
+      "nature": "Minute originale, avec renvois paraphés « F. X. P. », « G. G. » ; acte complet, suivi d'un croquis des lots (image 001528-29). Intitulé en marge : « Échange entre F. X. Proulx & Georges Grenier ».",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le vingt-et-unième jour de mai, avant-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Et en présence de Germain Cantin, écr, marchand, demeurant au dit lieu de St Romuald, dit comté, témoin au présent acte, aussi soussigné ; Furent présents : Mr Georges Grenier, cultivateur, de la paroisse de St Elzéar, comté de Beauce, district de Québec, d'une part ; Et Mr François Xavier Proulx, du dit lieu de St Romuald, batelier, d'autre part ; Lesquelles parties […] ont fait les échanges & permutations réciproques des immeubles ci-après désignés, avec garantie réciproque & mutuelle de tous troubles, dons, dettes, douaires, hypothèques […] savoir : Le dit sieur Georges Grenier a donné à titre d'échange dès ce jour & à toujours au dit sieur François Xavier Proulx, à ce présent & acceptant […] : Un demi-arpent de terre de front sur dix arpents de profondeur, le tout plus ou moins, borné par devant au nord au chemin public, par derrière au sud au dit sieur Grenier, à l'est à Dame Constance Parent, épouse du dit sieur Grenier, & à l'ouest au dit sieur F. X. Proulx, (1) circonstances & dépendances, avec la réserve des bâtisses dessus construites en faveur du dit sieur Grenier. Le dit lopin de terre situé en la dite paroisse de St Elzéar de Beauce & appartenant au dit sieur Grenier, avec plus grande étendue, suivant avantages matrimoniaux consentis en sa faveur par Dame Constance Parent, son épouse, tel qu'il appert par leur contrat de mariage […] » — [001524-25] « Pour par le dit Sr Proulx jouir, faire & disposer du dit lopin de terre dès ce jour & à toujours en pleine & entière propriété. Et en contre-échange le dit Sr F. X. Proulx cède & abandonne dès maintenant & à toujours au dit Sr George Grenier, à ce aussi présent & acceptant […] savoir : Un lopin de terre situé en la dite paroisse de St Elzéar, comté susdit, contenant un demi-arpent de front sur dix arpents de profondeur, borné en arrière au sud à Vital Allaire ou ses représentants, au nord au dit sieur Proulx, à l'est au dit sieur Grenier & à l'ouest à Damase Vachon ou ses représentants, circonstances & dépendances. Au dit sieur François Xavier Proulx appartient le dit lopin de terre, avec plus grande étendue, suivant acte de partage qui a été fait & exécuté devant Mtre Chassé, notaire, des biens composant la communauté qui a existé entre feu Augustin Proulx, décédé intestat, & Dame Constance Parent, ses père & mère ; » — [001525-27] Charges : payer les redevances tenant lieu de droits seigneuriaux, s'il en existe ; payer les taxes municipales, scolaires et autres ; Grenier fera seul et à ses frais la clôture des deux immeubles, jusqu'à ce que Proulx prenne possession de son terrain ou en dispose ; entretenir les chemins et fossés. — [001527-28] « Dont acte. Fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent dix-huit des originaux du notaire soussigné. Et le dit sieur Grenier a déclaré ne savoir écrire ni signer, de ce requis, en présence du dit témoin qui a alors signé, ainsi que le dit sieur Proulx, avec moi, notaire, lecture faite. » Signatures : « F. Xavier Proulx », « Germain Cantin », « E. H. Tremblay N.P. » — [001528-29] Croquis : quatre bandes d'un demi-arpent de front, orientées Nord-Sud, sur 20 arpents de profondeur en deux rangs de dix, Ouest à gauche, Est à droite ; chiffres « 2 », « 2 » au rang nord, « 2 », « 1 », « m », « P. » au rang sud (lecture : sans doute les parts du partage, « m » pour la mère et « P. » pour Proulx — à confirmer).",
+      "personnes": [
+        {
+          "role": "partie",
+          "nom": "Georges Grenier",
+          "note": "Cultivateur de Saint-Elzéar de Beauce ; ne sait ni écrire ni signer. Second mari de Constance Parent, veuve d'Augustin Proulx : il est donc le beau-père de François-Xavier Proulx, avec qui il échange."
+        },
+        {
+          "role": "epouse",
+          "nom": "Constance Parent",
+          "note": "Épouse de Georges Grenier, veuve en premières noces d'Augustin Proulx, et mère de François-Xavier Proulx. Les deux lopins échangés viennent de la communauté Proulx-Parent, partagée devant le notaire Chassé : elle a fait passer sa part à Grenier par leur contrat de mariage."
+        },
+        {
+          "role": "partie",
+          "nom": "François-Xavier Proulx",
+          "note": "« Du dit lieu de St Romuald, batelier » ; signe « F. Xavier Proulx ». Fils de feu Augustin Proulx et de Constance Parent, d'après l'acte. Rattachement retiré : le seul Xavier Proulx des recensements — commis de 19 ans en 1871 (1871-D2-P021-L02), batelier de 38 ans en 1891 (1891-D1-P103-L14) — est porté fils de Thomas Proulx, menuisier, et d'Esther. Deux cousins du même nom, ou un orphelin recueilli par son oncle et dit « fils » par le recenseur : rien ne tranche encore. Le métier de batelier, commun à l'acte et à 1891, plaide pour le même homme ; la filiation, contre."
+        },
+        {
+          "role": "pere",
+          "nom": "Augustin Proulx",
+          "note": "Décédé intestat avant 1874 ; époux en premières noces de Constance Parent. Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "note": "Écuyer, marchand de Saint-Romuald ; signe « Germain Cantin ». Lu d'abord « Germain Couture » : la lecture est corrigée sur sa signature et sur les actes 120 et 121, où le nom est net. En 1871 : marchand de 38 ans, division 1, maison 42 (1871-D1-P017-L04) ; veuf en 1881 (1881-D1-P012-L16) ; remarié en 1891 (1891-D1-P137-L05) — rapprochements de confiance forte.",
+          "ref_personne": "1871-D1-P017-L04"
+        },
+        {
+          "role": "voisin",
+          "nom": "Vital Allaire",
+          "note": "Voisin au sud, à Saint-Elzéar ; « ou ses représentants »."
+        },
+        {
+          "role": "voisin",
+          "nom": "Damase Vachon",
+          "note": "Voisin à l'ouest, à Saint-Elzéar ; « ou ses représentants »."
+        },
+        {
+          "role": "notaire",
+          "nom": "Chassé",
+          "note": "Notaire devant qui fut fait le partage de la communauté Augustin Proulx — Constance Parent ; date non donnée. Piste pour la suite."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "date": "1874-05-21",
+          "personnes": [],
+          "enonce": "François-Xavier Proulx, batelier de Saint-Romuald, est le fils de feu Augustin Proulx et de Constance Parent."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1874-05-21",
+          "personnes": [],
+          "enonce": "Constance Parent, veuve d'Augustin Proulx, est remariée à Georges Grenier, cultivateur de Saint-Elzéar, avec contrat de mariage."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Augustin Proulx est mort intestat avant le 21 mai 1874."
+        },
+        {
+          "type": "identite",
+          "certitude": "hypothese",
+          "personnes": [
+            "1871-D2-P021-L02",
+            "1891-D1-P103-L14"
+          ],
+          "enonce": "Le batelier F.-X. Proulx de l'acte pourrait être le Xavier Proulx recensé en 1871 et en 1891 (batelier en 1891), mais le recensement le dit fils de Thomas Proulx, alors que l'acte le dit fils d'Augustin Proulx et de Constance Parent : à trancher par l'acte de baptême ou de mariage."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-05-21",
+          "personnes": [
+            "1871-D1-P017-L04"
+          ],
+          "enonce": "Germain Cantin est écuyer et marchand à Saint-Romuald en 1874, et sait signer."
+        }
+      ],
+      "note": "Arrangement de famille : un beau-père et son beau-fils échangent deux bandes d'un demi-arpent tirées de l'ancienne terre d'Augustin Proulx, à Saint-Elzéar de Beauce, sans soulte. Le croquis joint montre le découpage en demi-arpents. Contradiction avec le recensement sur les parents de Xavier Proulx — voir la fiche de la personne. Piste : le partage devant Me Chassé.",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-05-sommation-bourassa-morin",
+      "type": "notarie",
+      "titre": "Sommation du tuteur et du curateur des mineurs Bourassa à François Morin, épicier, 1874",
+      "date": "1874-05-22",
+      "date_incertaine": true,
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 119, images 001529 à 001535 (filmées dans le désordre : 001529-30, 001530-31, 001533-34, 001534-35, 001531-32, 001532-33)",
+      "nature": "Minute originale ; sommation signifiée par le notaire, signée de lui seul. Acte complet. L'en-tête porte « 20 mai 1874 », mais le texte, corrigé par renvoi, dit « le vingt-deuxième jour de mai, vers quatre heures & demie de l'après-midi ». Intitulé en marge : « Sommation Ed. Bourassa & A. Forcade à Fçois Morin ».",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le vingt-deuxième jour de mai, vers quatre heures & demie de l'après-midi, à la réquisition de Mr Edouard Bourassa, de la paroisse de St Romuald, cultivateur, agissant en ces présentes en sa qualité de tuteur dûment élu en justice, en date du vingt-neuf juillet mil huit cent soixante-onze, à François, Romuald, Michel & Philémond Bourassa, quatre enfants mineurs issus du mariage d'entre feu François Bourassa, en son vivant du dit lieu de St Romuald, hôtellier, & feue Dame Ursule Tardif, leurs père & mère décédés ; lequel acte de tutelle a été dûment enregistré au bureau d'enregistrement de Dorchester le premier jour d'août mil huit cent soixante-onze, sous le numéro 15,017. Et à la réquisition de Mr Albert Forcade, charpentier [ingénieur, rayé], de la paroisse de St Romuald, comté de Lévis, agissant en ces présentes en qualité de curateur dûment élu en justice à la succession vacante de feu François Bourassa susdit, en date à Québec du quatorze de février dernier (mil huit cent soixante-quatorze) […] Nous, notaire public […] soussigné, nous sommes exprès transporté en la demeure de Mr François Morin, marchand-épicier, située en la dite paroisse de St Romuald dit comté, dans une maison en pierres à deux étages, formant partie des immeubles qui entrent dans les successions ci-après déterminées, laquelle maison a été en partie louée au dit sieur Morin par Dame veuve Marguerite [Lavièsse ?] dite Laliberté, seconde épouse du dit feu François Bourassa, pour & moyennant le prix ou somme de cent piastres courant par année, suivant acte de bail exécuté par Mtre J. B. [Hamel ?], notaire, le trente mars dernier (mil huit cent soixante-quatorze) ; où étant & parlant à Dame Sophie Dupéré, épouse du dit sieur François Morin, nous lui avons, ès-dits noms & réquisitions, fait les déclarations, notifications, réquisitions & sommations suivantes, savoir : Attendu que le dit feu François Bourassa était commun en biens avec la dite feue Ursule Tardif, sa première épouse ; Attendu que cette dernière est décédée ab intestat le six février mil huit cent soixante-cinq, laissant pour ses héritiers les quatre enfants mineurs sus-nommés ; Attendu que le dit feu François Bourassa est décédé ab intestat le vingt-huit d'août dernier (mil huit cent soixante-treize) ; Attendu qu'en date à Québec du trois de janvier dernier (mil huit cent soixante-quatorze) le dit sieur Edouard Bourassa, tuteur, a été dûment autorisé en justice, suivant avis de parents reçu par le protonotaire de la Cour Supérieure à Québec & homologué le même jour, à renoncer, au nom des dits mineurs, à la succession du dit feu François Bourassa, père des dits mineurs ; Attendu que le dit tuteur, autorisé comme dit est, a, suivant acte reçu par le notaire soussigné, en date à St Romuald du neuf de janvier dernier, renoncé à la dite succession du dit feu François Bourassa ; Attendu que les dits mineurs sont habiles à se dire & porter héritiers dans la succession de la dite feue Ursule Tardif, leur mère décédée, dans tous les biens meubles & immeubles tombant dans la dite succession, ainsi que dans les fruits & revenus de tels immeubles ; Et attendu que le dit sieur Forcade a été nommé curateur à la succession vacante du dit feu François Bourassa, comme dit est ; C'est pourquoi nous, dit notaire, avons, aux réquisitions susdites, notifié, requis & sommé, comme par ces présentes nous notifions, requérons & sommons le dit sieur François Morin, en sa qualité de locataire de partie de la dite maison, de se comporter en conséquence & de payer aux dits curateur & tuteur, personnellement, en leurs qualités respectives susdites, la part afférente & revenant à la dite succession vacante, ainsi que celle afférente & revenant à la succession de la dite feue Ursule Tardif, sous peine de payer deux fois les dites parts ; l'informant que s'il ne se rend pas aux désirs de la présente sommation & réquisition, qu'alors les dits curateur & tuteur se pourvoiront en justice pour l'y contraindre, ainsi que pour le recouvrement de tous les frais & dépens encourus & à encourir & les dommages-intérêts soufferts & à souffrir, protestant dès à présent contre le dit sieur Morin, au cas de refus ou négligence de ce faire, pour tout ce que l'on doit & peut protester en pareil cas. À quoi la dite Dame Morin a répondu : “Mon mari est absent ; je lui donnerai cet acte à son retour.” Et nous avons persisté ès-dits noms […] Dont acte. Fait & signifié les heure, jour, mois & an susdits, sous le numéro cent dix-neuf des originaux du notaire soussigné, en la demeure & lieu du dit Sr François Morin, où nous avons, parlant comme dit est, laissé une copie authentique des présentes à la dite Dame Sophie Dupéré pour le dit sieur François Morin, afin qu'il n'en puisse prétendre ni plaider cause d'ignorance. » Signature : « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "defunt",
+          "nom": "François Bourassa",
+          "ref_personne": "1871-D2-P067-L19",
+          "note": "Hôtelier de Saint-Romuald, mort intestat le 28 août 1873 ; succession vacante. En 1871 : François Bourassa, 44 ans, marchand, division 2, maison 158 [?], avec sa seconde femme Marguerite et les quatre garçons nommés dans l'acte, aux âges attendus."
+        },
+        {
+          "role": "defunte",
+          "nom": "Ursule Tardif",
+          "note": "Première épouse de François Bourassa, mère des quatre mineurs ; morte intestat le 6 février 1865 — avant le recensement de 1871, d'où son absence."
+        },
+        {
+          "role": "veuve",
+          "nom": "Marguerite [Lavièsse ?] dite Laliberté",
+          "ref_personne": "1871-D2-P067-L20",
+          "note": "Seconde épouse et veuve de François Bourassa ; a loué en partie à Morin la maison de pierre à deux étages, 100 piastres par an (bail du 30 mars 1874). Recensée « Marguerite Bourassa », 41 ans, en 1871. Patronyme de naissance mal lu : seul « dite Laliberté » est sûr."
+        },
+        {
+          "role": "enfant",
+          "nom": "François Bourassa",
+          "ref_personne": "1871-D2-P068-L01",
+          "note": "Mineur ; 14 ans en 1871. Le rapprochement automatique vers 1881-D1-P045-L08 (19 ans, chez Pierre Bourassa) a 5 ans de dérive d'âge : à vérifier."
+        },
+        {
+          "role": "enfant",
+          "nom": "Romuald Bourassa",
+          "ref_personne": "1871-D2-P068-L02",
+          "note": "Mineur ; 13 ans en 1871, prénom lu « Romuald [?] » au dépouillement : l'acte confirme la lecture."
+        },
+        {
+          "role": "enfant",
+          "nom": "Michel Bourassa",
+          "ref_personne": "1871-D2-P068-L03",
+          "note": "Mineur ; 11 ans en 1871."
+        },
+        {
+          "role": "enfant",
+          "nom": "Philémond Bourassa",
+          "ref_personne": "1871-D2-P068-L04",
+          "note": "Mineur ; 8 ans en 1871 (« Philémon »)."
+        },
+        {
+          "role": "tuteur",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "Cultivateur, tuteur des mineurs depuis le 29 juillet 1871. En 1871 : cultivateur de 39 ans, division 1, maison 108 ; en 1881 marchand (1881-D1-P018-L22), en 1891 marchand général (1891-D1-P137-L10). Sa parenté avec les mineurs n'est pas dite (oncle ?)."
+        },
+        {
+          "role": "curateur",
+          "nom": "Albert Forcade",
+          "ref_personne": "1871-D2-P018-L06",
+          "note": "Charpentier (le notaire avait d'abord écrit « ingénieur »), curateur à la succession vacante depuis le 14 février 1874. En 1871 : menuisier de 32 ans, division 2, maison 43 ; en 1881 marchand (1881-D2-P018-L02) ; en 1891, 1891-D1-P114-L15."
+        },
+        {
+          "role": "locataire",
+          "nom": "François Morin",
+          "ref_personne": "1891-D1-P074-L09",
+          "note": "Marchand-épicier, locataire d'une partie de la maison de pierre de la succession ; absent lors de la signification. En 1881 : marchand de 36 ans, épouse Sophie (1881-D2-P006-L07) ; en 1891 : marchand épicier de 46 ans, épouse Sophie (maison 325). Le François Morin charretier de 1871 (1871-D1-P032-L18, épouse Joséphine) n'est vraisemblablement pas lui."
+        },
+        {
+          "role": "epouse",
+          "nom": "Sophie Dupéré",
+          "ref_personne": "1891-D1-P074-L10",
+          "note": "Épouse de François Morin ; reçoit l'acte. Recensée « Sophie Morin » en 1881 (1881-D2-P006-L08, 34 ans) et en 1891 (45 ans) : l'acte donne son nom de naissance. Ce n'est pas la Sophie Dupéré de 55 ans, épouse d'Henri Bruno Dupéré (1881-D1-P010-L16)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1873-08-28",
+          "personnes": [
+            "1871-D2-P067-L19"
+          ],
+          "enonce": "François Bourassa, hôtelier, meurt intestat le 28 août 1873 ; sa succession est déclarée vacante."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P067-L19",
+            "1871-D2-P068-L01",
+            "1871-D2-P068-L02",
+            "1871-D2-P068-L03",
+            "1871-D2-P068-L04"
+          ],
+          "enonce": "François, Romuald, Michel et Philémon Bourassa sont les fils de François Bourassa et de sa première épouse, Ursule Tardif, morte le 6 février 1865."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P067-L19",
+            "1871-D2-P067-L20"
+          ],
+          "enonce": "Marguerite [Lavièsse ?] dite Laliberté, recensée Marguerite Bourassa en 1871, est la seconde épouse de François Bourassa — la belle-mère des quatre garçons, non leur mère."
+        },
+        {
+          "type": "nom_de_naissance",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P067-L20"
+          ],
+          "enonce": "Marguerite Bourassa (1871) est née [Lavièsse ?] dite Laliberté ; le patronyme est de lecture incertaine."
+        },
+        {
+          "type": "lecture",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P068-L02"
+          ],
+          "enonce": "Le prénom lu « Romuald [?] » en 1871 est bien Romuald."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P067-L19"
+          ],
+          "enonce": "François Bourassa était hôtelier — le recensement de 1871 le dit marchand."
+        },
+        {
+          "type": "nom_de_naissance",
+          "certitude": "etabli",
+          "date": "1874-05-22",
+          "personnes": [
+            "1881-D2-P006-L08",
+            "1891-D1-P074-L10"
+          ],
+          "enonce": "Sophie Morin, épouse du marchand-épicier François Morin, est née Dupéré."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1881-D2-P006-L07",
+            "1891-D1-P074-L09"
+          ],
+          "enonce": "Le marchand-épicier François Morin, époux de Sophie Dupéré, est le marchand de 1881 (division 2, maison 22) et le marchand épicier de 1891 (maison 325) — et non le contremaître de chantier de 1891 (1891-D1-P011-L13), retenu par le rapprochement automatique comme homonyme.",
+          "infirme": "1881-D2-P006-L07 → 1891-D1-P011-L13"
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P040-L18",
+            "1871-D2-P018-L06"
+          ],
+          "enonce": "Le tuteur Edouard Bourassa et le curateur Albert Forcade sont les hommes de ces noms recensés à Saint-Romuald en 1871, 1881 et 1891."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-05-22",
+          "personnes": [
+            "1871-D2-P068-L01",
+            "1871-D2-P068-L02",
+            "1871-D2-P068-L03",
+            "1871-D2-P068-L04"
+          ],
+          "enonce": "Les quatre mineurs Bourassa sont héritiers de leur mère Ursule Tardif dans la maison de pierre à deux étages louée à François Morin, et ont droit à une part de son loyer."
+        }
+      ],
+      "note": "Le fond de l'affaire : Morin doit verser son loyer non plus à la seule veuve, mais au curateur (pour la part de la succession vacante de François Bourassa) et au tuteur (pour la part qui revient aux mineurs dans la succession de leur mère, Ursule Tardif), « sous peine de payer deux fois ». La veuve lui avait loué la maison comme si elle en disposait seule. Les mineurs ont renoncé à la succession de leur père (9 janvier 1874) mais gardent la part de leur mère dans la communauté : la maison de pierre « entre dans les successions », au pluriel. Chronologie : Ursule Tardif † 1865 ; remariage avec Marguerite ; tutelle 29 juillet 1871 ; François Bourassa † 28 août 1873 ; autorisation de renoncer 3 janvier 1874 ; renonciation 9 janvier ; curatelle 14 février ; bail Morin 30 mars ; sommation 22 mai. Lieu : la maison en pierres à deux étages est vraisemblablement « La maison Bourassa », 1900, chemin du Fleuve, sur la pointe Benson (lieu 1900-cf de la carte) — auberge et débit des capitaines et marins de l'anse Benson, toujours debout, bâtie selon la Société d'histoire avec la pierre restée de l'église (1857). L'acte appuie le rattachement proposé de la maison 158 [?] de 1871-D2 à ce lieu : même propriétaire, même métier d'hôtelier, même maison de pierre.",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-05-30-quittance-lambert-tardif",
+      "type": "notarie",
+      "titre": "Quittance de Germain Lambert à Louis Tardif, 1874",
+      "date": "1874-05-30",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 120, images 001535 à 001539",
+      "nature": "Minute originale ; acte complet. Intitulé en marge : « Quittance Gn Lambert à Ls Tardif », suivi de « Ls Tardif à Ls Paradis & ux », rayé : la quittance de Tardif aux Paradis, d'abord rédigée dans cet acte, y est barrée d'une croix et devient l'acte n° 121.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le trentième jour de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Et en présence de Germain Cantin, écuyer, marchand, de la paroisse de St Romuald, témoin au présent acte, aussi soussigné ; Fut présent Mr Germain Lambert, de la paroisse de St Jean Chrysostome, comté de Lévis, cultivateur ; Lequel dit & déclare ce qui suit, savoir : Attendu que lui, dit sieur Lambert, a, suivant acte de vente en date, à St Chrysostome susdit, du dix-neuf d'octobre mil huit cent cinquante-cinq, reçu par Mtre A. [Fruell ?] & son confrère, notaires, vendu une certaine terre de la contenance décrite au dit acte de vente sus-daté à Mr Louis Tardif, de la paroisse de St Henri, cultivateur, pour & moyennant le prix de trois cent vingt-cinq louis courant ; Attendu qu'à compte duquel prix le dit sieur Tardif a, lors de l'exécution du dit acte de vente, payé la somme de cinquante louis courant ; Et attendu que le dit sieur Lambert a reçu partie avant & partie lors de l'exécution des présentes, à son entière satisfaction & en bon argent courant, le prix entier de la dite vente au montant de trois cent vingt-cinq louis courant, du dit sieur Louis Tardif ; C'est pourquoi lui, dit sieur Germain Lambert, donne & accorde par ces présentes au dit sieur Louis Tardif quittance générale & finale. […] Dont acte requis & octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent vingt des originaux du notaire soussigné. Et le dit sieur Germain Lambert, comparant, requis de signer, a déclaré ne le savoir, en présence du dit témoin qui a alors signé avec moi, notaire, lecture faite. » Signatures : « Germain Cantin », « E. H. Tremblay N.P. » — Passage barré, repris à l'acte 121 : « Attendu qu'en date du trente-un mars mil huit cent cinquante-six, le dit sieur Louis Tardif a, suivant acte de vente reçu par Mtre A. [Fruell ?] & son confrère, notaires, vendu la dite terre à sieur Louis Paradis, son gendre, & à Dame Zoé Tardif, sa fille, demeurant tous deux à St Jean Chrysostome susdit, pour la dite somme de trois cent vingt-cinq louis courant, à la charge par les dits acquéreurs de lui rembourser la somme de cinquante louis payée à compte […] »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Germain Lambert",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait pas signer. Hors du territoire dépouillé."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Louis Tardif",
+          "note": "Cultivateur de Saint-Henri ; hors du territoire dépouillé."
+        },
+        {
+          "role": "gendre",
+          "nom": "Louis Paradis",
+          "note": "Gendre de Louis Tardif, de Saint-Jean-Chrysostome, acquéreur de la terre en 1856 (passage barré, repris à l'acte 121). Les Louis Paradis de Saint-Romuald (12 et 17 ans en 1871) sont trop jeunes pour être lui."
+        },
+        {
+          "role": "fille",
+          "nom": "Zoé Tardif",
+          "note": "Fille de Louis Tardif et épouse de Louis Paradis, de Saint-Jean-Chrysostome."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Écuyer, marchand de Saint-Romuald ; signe « Germain Cantin ». Lu d'abord « Germain Couture » : la lecture est corrigée sur sa signature et sur les actes 120 et 121, où le nom est net. En 1871 : marchand de 38 ans, division 1, maison 42 (1871-D1-P017-L04) ; veuf en 1881 (1881-D1-P012-L16) ; remarié en 1891 (1891-D1-P137-L05) — rapprochements de confiance forte."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-05-30",
+          "personnes": [
+            "1871-D1-P017-L04"
+          ],
+          "enonce": "Germain Cantin, écuyer, marchand de Saint-Romuald, sert de témoin au notaire Tremblay (actes 117, 118, 120, 121)."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Zoé Tardif, épouse de Louis Paradis, est la fille de Louis Tardif, cultivateur de Saint-Henri."
+        }
+      ],
+      "note": "Une terre de Saint-Jean-Chrysostome vendue en 1855 par Lambert à Tardif (325 louis, 50 comptant), revendue en 1856 par Tardif à sa fille et à son gendre ; le solde n'est réglé qu'en 1874, dix-neuf ans plus tard. Aucune des parties n'est de Saint-Romuald : seul le témoin Cantin se rattache au recensement.",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-05-30-quittance-tardif-paradis",
+      "type": "notarie",
+      "titre": "Quittance de Louis Tardif à Louis Paradis et Zoé Tardif, 1874",
+      "date": "1874-05-30",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 121, images 001539 à 001542",
+      "nature": "Minute originale ; acte complet. Intitulé en marge : « Quittance Ls Tardif à Ls Paradis & ux ».",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le trentième jour de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Et en présence de Germain Cantin, écuyer, de St Romuald, marchand, témoin au présent acte, aussi soussigné ; Fut présent Mr Louis Tardif, de la paroisse de St Henri, cultivateur ; Lequel dit & déclare ce qui suit, savoir : Attendu que, en date du trente-un de mars mil huit cent cinquante-six, il a, suivant acte de vente reçu par Mtre Amb. [Fruell ?] & son confrère, notaires, vendu une terre de la contenance décrite au dit acte […] » — [001540-42] « […] au dit acte de vente sus-daté, à sieur Louis Paradis, son gendre, & à Dame Zoé Tardif, sa fille, conjointement, & demeurant tous deux en la paroisse de St Jean Chrysostome, comté susdit, pour le prix de [trois cent vingt-cinq louis courant, rayé] deux cent soixante-quinze louis courant, à la charge, suivant convention verbale, de lui payer & rembourser la somme de cinquante louis payée à sieur Germain Lambert par le comparant sur le prix déterminé & fixé en une certaine vente consentie par le dit sieur Lambert en faveur du dit Sr Louis Tardif ; Attendu que la dite somme de cinquante louis a été payée & remboursée dès avant ces présentes ; Et attendu que le dit Sr Louis Paradis & la dite Dame Zoé Tardif, son épouse, ont, partie avant & partie lors de l'exécution des présentes, payé en bon argent courant la dite somme de deux cent soixante-quinze louis courant au dit sieur Louis Tardif, qui le reconnaît & s'en déclare satisfait ; C'est pourquoi lui, dit sieur Louis Tardif, donne & accorde par ces présentes quittance générale & finale au dit sieur Louis Paradis & à la dite Dame Zoé Tardif. Dont acte requis & octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent vingt-un des originaux du notaire soussigné. Et le comparant, requis de signer, a déclaré ne le savoir, en présence du dit témoin, qui a signé avec moi, notaire, lecture faite. » Signatures : « Germain Cantin », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Louis Tardif",
+          "note": "Cultivateur de Saint-Henri ; ne sait pas signer. Voir l'acte n° 120."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Louis Paradis",
+          "note": "Gendre de Louis Tardif ; voir l'acte n° 120."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Zoé Tardif",
+          "note": "Fille de Louis Tardif, épouse de Louis Paradis ; voir l'acte n° 120."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Écuyer, marchand de Saint-Romuald ; signe « Germain Cantin ». Lu d'abord « Germain Couture » : la lecture est corrigée sur sa signature et sur les actes 120 et 121, où le nom est net. En 1871 : marchand de 38 ans, division 1, maison 42 (1871-D1-P017-L04) ; veuf en 1881 (1881-D1-P012-L16) ; remarié en 1891 (1891-D1-P137-L05) — rapprochements de confiance forte."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1874-05-30",
+          "personnes": [],
+          "enonce": "Louis Paradis et Zoé Tardif, de Saint-Jean-Chrysostome, sont mari et femme ; elle est la fille de Louis Tardif, de Saint-Henri."
+        }
+      ],
+      "note": "Suite de l'acte n° 120. Le prix de la revente de 1856 est 275 louis, plus le remboursement des 50 louis que Tardif avait versés à Lambert — soit les 325 louis de la première vente, que le notaire avait d'abord écrits. Tout est réglé le 30 mai 1874. Aucune des parties n'est de Saint-Romuald.",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-06-26-bail-roberge-richard",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Pierre Roberge à Joachim Richard, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-06-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 122, images 001542 à 001545",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main ; acte complet. Intitulé en marge : « Roberge à Richard » ; mention « Enregistré ». La clause imprimée de résolution pour deux années de rente impayées est biffée.",
+      "transcription": "« Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Pierre Langlois, journalier, de St Jean Chrysostome, témoin au présent acte, aussi soussigné ; Fut présent Mr Pierre Roberge, cultivateur, demeurant à St Jean Chrysostome dit comté, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […] à sieur Joachim Richard, journalier, du même lieu, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession [St-Augustin ?], contenant soixante pieds de front sur soixante pieds de profondeur, le tout plus ou moins ; borné au nord à Antoine Paradis, au sud au concédant, à l'est à une route & à l'ouest à Ferdinand Dubois, circonstances & dépendances […] » — Charges : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; payer le huitième jour de juillet de chaque année, à compter du huit juillet prochain, sept piastres courant de rente foncière, rachetable au capital de cent seize piastres et soixante-sept centins ; droit de retrait réservé au sieur Roberge ; copie enregistrée. « Dont acte, fait et passé à St Jean Chrysostome susdit, demeure du concédant, l'an mil huit cent soixante-quatorze, le vingt-sixième jour de juin, après-midi, sous le numéro cent vingt-deux des originaux de Mtre Elzéar Hubert Tremblay […] Requis de signer, les concédant & concessionnaire ont déclaré ne le savoir, en présence du témoin susdit, qui a signé avec moi, notaire, lecture faite. » Signatures : « Pierre Langlois », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait pas signer. Le Pierre Roberge de Saint-Romuald en 1871 (1871-D2-P070-L03) est menuisier : rien ne les rapproche."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Joachim Richard",
+          "note": "Journalier de Saint-Jean-Chrysostome ; ne sait pas signer. Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Langlois",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe."
+        },
+        {
+          "role": "voisin",
+          "nom": "Antoine Paradis",
+          "note": "Voisin au nord."
+        },
+        {
+          "role": "voisin",
+          "nom": "Ferdinand Dubois",
+          "note": "Voisin à l'ouest."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Premier acte de la série passé hors de l'étude, chez le concédant à Saint-Jean-Chrysostome, et sur formulaire imprimé. Un petit emplacement de 60 pieds sur 60 concédé à un journalier pour y bâtir : la naissance d'un hameau. Aucune personne du recensement de Saint-Romuald.",
+      "ajoute_le": "2026-10-30"
     }
   ]
 }

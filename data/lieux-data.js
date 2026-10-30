@@ -449,17 +449,19 @@ window.LIEUX = {
           "annee": "1871",
           "division": "2",
           "no_maison": "158 [?]",
-          "statut": "propose",
+          "statut": "confirme",
           "confiance": "forte",
           "origine": "chercheur",
-          "motif": "François Bourassa, 44 a., marchand, avec Marguerite (41 a.), quatre fils et une domestique — l'aubergiste à qui la Société d'histoire attribue la propriété d'origine, et le seul François Bourassa chef de ménage des cinq recensements. Le numéro de maison porte une marque d'incertitude au manuscrit.",
+          "motif": "François Bourassa, 44 a., marchand, avec Marguerite (41 a.), quatre fils et une domestique — l'aubergiste à qui la Société d'histoire attribue la propriété d'origine, et le seul François Bourassa chef de ménage des cinq recensements. Le numéro de maison porte une marque d'incertitude au manuscrit. Confirmé par Patrick le 2026-10-30 : l'acte notarié n° 119 du notaire E.-H. Tremblay (mai 1874) établit que l'hôtelier François Bourassa, chef de ce ménage, possédait une maison de pierre à deux étages, où vivaient sa veuve et ses quatre fils mineurs.",
           "ajoute_le": "2026-09-13"
         }
       ],
       "adresses_anciennes": [],
       "cadastre": {},
       "photos": [],
-      "documents": []
+      "documents": [
+        "notarie-1874-05-sommation-bourassa-morin"
+      ]
     },
     {
       "id": "1984-cf",
