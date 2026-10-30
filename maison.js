@@ -91,6 +91,34 @@
     );
   }
 
+  // Les documents du manifeste qui nomment l'un ou l'autre des habitants de la
+  // maison — acte notarié, monographie, registre — avec ce qu'ils en disent.
+  var ROLES = { concedant: 'concédant', temoin: 'témoin', defunt: 'défunt', defunte: 'défunte',
+    requerante: 'requérante', acquereur: 'acquéreur', pere: 'père', mere: 'mère', epouse: 'épouse',
+    proprietaire: 'propriétaire', cedant: 'cédant' };
+
+  function rendreDocuments(f) {
+    var docs = f.documents || [];
+    if (!docs.length) return '';
+    var blocs = docs.map(function (doc) {
+      var qui = doc.personnes.map(function (p) {
+        return '<a href="personne.html#' + esc(p.id) + '">' + esc(p.nom) + (p.annee ? ', ' + esc(p.annee) : '') + '</a>' +
+          (p.role ? ' <span class="occ-detail">(' + esc(ROLES[p.role] || p.role) + ')</span>' : '');
+      }).join(' · ');
+      var affirmations = doc.affirmations.map(function (a) {
+        return '<li>' + esc(a.enonce) + ' <span class="etiquette">(' + esc(a.certitude) + ')</span></li>';
+      }).join('');
+      return '<div class="marginale"><b>' + esc(doc.titre) + '</b>' +
+        '<div>Nomme : ' + qui + '</div>' +
+        (affirmations ? '<ul class="indices" style="columns:1">' + affirmations + '</ul>' : '') + '</div>';
+    }).join('');
+    return (
+      '<section class="bloc"><h3 class="bloc-titre">Preuves documentaires</h3>' +
+      '<p class="bloc-note">Les documents qui nomment un habitant de cette maison. Le détail est sur la fiche de chaque personne.</p>' +
+      blocs + '</section>'
+    );
+  }
+
   function rendre(id, f) {
     document.title = 'Maison ' + f.no_maison + ' (' + f.annee + ') — Saint-Romuald, les gens du Fleuve';
     var nPersonnes = f.familles.reduce(function (s, fam) { return s + fam.membres.length; }, 0);
@@ -111,6 +139,7 @@
       '<div class="actions-fiche"><button class="bouton" onclick="window.print()">Imprimer / exporter en PDF</button></div>' +
       f.familles.map(function (fam) { return rendreFamille(f, fam); }).join('') +
       rendreRenvois(f) +
+      rendreDocuments(f) +
       rendreAdresse(f)
     );
   }
