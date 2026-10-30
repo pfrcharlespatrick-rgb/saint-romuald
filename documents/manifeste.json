@@ -1,7 +1,7 @@
 {
   "format": "documents-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-08-17",
+  "mis_a_jour": "2026-10-30",
   "note": "Index des documents historiques qui établissent des liens de filiation. Un document versé ici l'emporte toujours sur une proposition automatique de data/filiation-data.js : l'acte est une preuve, le rapprochement algorithmique n'est qu'une hypothèse. Voir documents/README.md pour la marche à suivre.",
   "types_admis": {
     "bapteme": "Acte de baptême — établit une filiation directe et une date de naissance",
@@ -3414,6 +3414,89 @@
       ],
       "note": "Relevé d'assurance-incendie à 200 pieds au pouce, le document le plus fin du corpus sur le bâti. Légende des matériaux : bleu = pierre, rouge = brique, jaune = bois habité, hachures grises = dépendances, rectangles hachurés = bois empilé, S.B. = chaudière à vapeur. La feuille 12 couvre le village d'Etchemin — son église, les moulins Etchemin de Henry Atkinson junior à l'embouchure de la rivière, les étangs de flottage Mill Pond et Rigolet Pond (« all water power, no steam used ») — et la feuille 13 porte la ligne de démarcation entre les villages d'Etchemin et de New Liverpool. Le fleuve est couché en bas des feuilles : le nord y est vers le bas. Fourni par Patrick Blanchet avec guide d'interprétation, août 2026.",
       "ajoute_le": "2026-08-17"
+    },
+    {
+      "id": "notarie-1874-05-09-lagueux-lepine",
+      "type": "notarie",
+      "titre": "Bail à rente foncière d'Edouard Lagueux à Louis Lépine fils, 1874",
+      "date": "1874-05-09",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 113, images 001496 à 001500",
+      "nature": "Minute originale du notaire, avec ratures et renvois en marge paraphés. La fin de l'acte (signatures) n'est pas encore transcrite.",
+      "transcription": "« Fut présent : Edouard [Etienne, rayé] Lagueux, écuyer, Juge de Paix de Sa Majesté & rentier, demeurant en la paroisse de St Romuald ; Lequel a par ces présentes baillé & concédé dès ce jour & à toujours à titre de bail à rente foncière & constituée […] à Sieur Louis Lépine, fils, du même lieu, commerçant […] un emplacement situé en ladite paroisse de St Romuald dit comté, contenant cinquante pieds de front sur cent pieds de profondeur le tout mesure anglaise ; borné au sud ouest aux concédant, au nord-est au terrain de la corporation scolaire, & au sud est au dit concédant, (1) et au nord-ouest à Joseph Larochelle […] » — Charges : rente de douze piastres courant payable d'avance le premier jour de mai de chaque année, rachetable au capital de deux cents piastres ; bâtir une maison habitable avec cheminées en pierres ou en briques d'ici à trois ans ; clore l'emplacement ; fournir au côté nord un chemin d'au moins douze pieds de largeur ; copie enregistrée au concédant. Renvoi (3) : le bail sera nul si le concessionnaire néglige de payer la rente d'avance.",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Edouard Lagueux",
+          "ref_personne": "1871-D1-P020-L17",
+          "note": "Écuyer, juge de paix et rentier en 1874 ; cultivateur de 73 ans en 1871 (maison 50). Le notaire avait d'abord écrit « Etienne », rayé : le notaire Étienne Simard logeait dans la même maison 50 en 1871. Absent de 1881."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Louis Lépine, fils",
+          "ref_personne": "1871-D1-P023-L08",
+          "note": "Commerçant en 1874 ; marchand de 46 ans en 1871 (maison 58). « Fils » le distingue de Louis Lépine, tonnelier de 70 ans (1871-D1-P028-L19, maison 74), vraisemblablement son père. Absent de 1881."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Larochelle",
+          "ref_personne": "1871-D1-P023-L02",
+          "note": "Borne l'emplacement au nord-ouest. En 1871, maison 57, voisine immédiate de Louis Lépine (maison 58)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay",
+          "note": "Notaire résidant et pratiquant à Saint-Romuald ; absent des recensements dépouillés."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-05-09",
+          "personnes": [
+            "1871-D1-P023-L08"
+          ],
+          "enonce": "Louis Lépine fils reçoit d'Edouard Lagueux, à bail à rente, un emplacement de 50 pieds sur 100 voisin du terrain de la corporation scolaire et de Joseph Larochelle."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-05-09",
+          "personnes": [
+            "1871-D1-P020-L17"
+          ],
+          "enonce": "Edouard Lagueux est écuyer, juge de paix et rentier en 1874."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P023-L08",
+            "1871-D1-P023-L02"
+          ],
+          "enonce": "Le Louis Lépine commerçant de l'acte est le marchand de 46 ans de 1871 : il y est recensé à côté de Joseph Larochelle, que l'acte donne pour voisin."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P020-L17"
+          ],
+          "enonce": "Le juge de paix Edouard Lagueux est le cultivateur de 73 ans recensé en 1871 ; aucun autre Edouard Lagueux dans la paroisse."
+        },
+        {
+          "type": "filiation",
+          "certitude": "hypothese",
+          "personnes": [
+            "1871-D1-P023-L08",
+            "1871-D1-P028-L19"
+          ],
+          "enonce": "« Louis Lépine, fils » serait le fils du tonnelier Louis Lépine, 70 ans en 1871 — à confirmer par un acte de baptême ou de mariage."
+        }
+      ],
+      "note": "Premier acte d'une série du greffe Tremblay. La page suivante transmise (images 001495-96) est la fin de l'acte n° 112, une quittance dont le comparant ne savait pas signer ; non versée faute du début. Piste : l'emplacement touche le terrain de l'école — à rapprocher de la carte et des lieux.",
+      "ajoute_le": "2026-10-30"
     }
   ]
 }
