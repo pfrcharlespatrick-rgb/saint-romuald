@@ -239,6 +239,32 @@ console.log(`fiches/personne/<annee-D>/P<page>.json : ${fragmentsEcrits.size} pa
   `${(totalOctetsPersonne / 1024).toFixed(0)} Ko au total — la plus lourde, ${path.relative(dossierPersonne, cheminPlusLourd)}, ` +
   `fait ${(octetsPlusLourd / 1024).toFixed(0)} Ko ; médiane ${(tailles[Math.floor(tailles.length / 2)] / 1024).toFixed(0)} Ko`);
 
+// ─────────────────── documents d'un groupe de personnes ───────────────────
+// Une maison ou un lieu montre les documents de ceux qui y vivent : chaque
+// document une fois, avec les personnes du groupe qu'il nomme, leur rôle dans
+// l'acte, et ce qu'il établit à leur sujet.
+
+function documentsDe(ids) {
+  const parDoc = new Map();
+  for (const id of ids) {
+    for (const doc of d.documentsParPersonne.get(id) || []) {
+      if (!parDoc.has(doc.id)) parDoc.set(doc.id, { doc, ids: [] });
+      parDoc.get(doc.id).ids.push(id);
+    }
+  }
+  return [...parDoc.values()].map(({ doc, ids: concernes }) => ({
+    id: doc.id, titre: doc.titre, type: doc.type, date: doc.date || '',
+    personnes: concernes.map((id) => {
+      const p = d.personnes.get(id);
+      const role = (doc.personnes || []).find((x) => x.ref_personne === id)?.role || '';
+      return { id, nom: p ? nomComplet(p) : id, annee: p?.annee || '', role };
+    }),
+    affirmations: (doc.affirmations || [])
+      .filter((a) => (a.personnes || []).some((id) => concernes.includes(id)))
+      .map((a) => ({ enonce: a.enonce, certitude: a.certitude, type: a.type }))
+  })).sort((a, b) => a.date.localeCompare(b.date));
+}
+
 // ───────────────────────── fiches de maison ─────────────────────────
 
 // Devenir de la maisonnée : les événements « menage_continu » et « veuvage »
@@ -295,7 +321,8 @@ for (const [cleM, maison] of d.maisons) {
     remarque: nettoyerRemarque(maison.remarque),
     familles, renvois,
     concordances: d.concordancesParMaison.get(cleM) || [],
-    lieux: d.lieuxParMaison.get(cleM) || []
+    lieux: d.lieuxParMaison.get(cleM) || [],
+    documents: documentsDe(maison.familles.flatMap((f) => f.membres))
   };
 }
 
@@ -342,10 +369,32 @@ const lieuxSortie = d.lieux.map((l) => {
     ? (ORDRE_STATUT[a.statut] ?? 9) - (ORDRE_STATUT[b.statut] ?? 9)
     : Number(a.annee) - Number(b.annee)));
 
+  // Les documents rattachés au lieu lui-même, puis ceux des occupants que les
+  // rattachements non écartés y placent — chacun une fois, avec l'année et le
+  // statut du rattachement qui l'amène.
   const documents = (l.documents || []).map((id) => {
     const doc = (d.manifeste.documents || []).find((x) => x.id === id);
-    return doc ? { id: doc.id, titre: doc.titre, type: doc.type } : null;
+    if (!doc) return null;
+    const refs = (doc.personnes || []).map((x) => x.ref_personne).filter(Boolean);
+    return documentsDe(refs).find((x) => x.id === doc.id)
+      || { id: doc.id, titre: doc.titre, type: doc.type, date: doc.date || '', personnes: [], affirmations: [] };
   }).filter(Boolean);
+  for (const occ of occupations) {
+    if (occ.statut === 'rejete') continue;
+    const maison = d.maisons.get(occ.cle_maison);
+    if (!maison) continue;
+    for (const doc of documentsDe(maison.familles.flatMap((f) => f.membres))) {
+      const deja = documents.find((x) => x.id === doc.id);
+      const via = { annee: occ.annee, statut: occ.statut };
+      if (!deja) documents.push({ ...doc, via: [via] });
+      else {
+        for (const p of doc.personnes) if (!deja.personnes.some((x) => x.id === p.id)) deja.personnes.push(p);
+        for (const a of doc.affirmations) if (!deja.affirmations.some((x) => x.enonce === a.enonce)) deja.affirmations.push(a);
+        (deja.via ||= []).push(via);
+      }
+    }
+  }
+  documents.sort((a, b) => a.date.localeCompare(b.date));
 
   return {
     id: l.id, nom: l.nom, voie: l.voie || '', adresse_actuelle: l.adresse_actuelle,

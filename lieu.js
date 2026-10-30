@@ -179,6 +179,37 @@
       '<div class="galerie">' + versees.join('') + enAttente.join('') + '</div></section>';
   }
 
+  // Les documents du manifeste rattachés au lieu, et ceux qui nomment ses
+  // occupants recensés — avec le rattachement qui les amène quand il n'est
+  // pas confirmé.
+  var ROLES = { concedant: 'concédant', temoin: 'témoin', defunt: 'défunt', defunte: 'défunte',
+    requerante: 'requérante', acquereur: 'acquéreur', pere: 'père', mere: 'mère', epouse: 'épouse',
+    proprietaire: 'propriétaire', cedant: 'cédant' };
+
+  function blocDocuments(l) {
+    var docs = (l.documents || []).filter(function (d) { return d && typeof d === 'object'; });
+    if (!docs.length) return '';
+    var blocs = docs.map(function (doc) {
+      var qui = (doc.personnes || []).map(function (p) {
+        return '<a href="personne.html#' + esc(p.id) + '">' + esc(p.nom) + (p.annee ? ', ' + esc(p.annee) : '') + '</a>' +
+          (p.role ? ' <span class="occ-detail">(' + esc(ROLES[p.role] || p.role) + ')</span>' : '');
+      }).join(' · ');
+      var via = (doc.via || []).filter(function (v) { return v.statut !== 'confirme'; }).map(function (v) {
+        return 'occupant de ' + v.annee + ', rattachement ' + (v.statut === 'propose' ? 'proposé' : v.statut === 'a_verifier' ? 'à vérifier' : v.statut);
+      });
+      var affirmations = (doc.affirmations || []).map(function (a) {
+        return '<li>' + esc(a.enonce) + ' <span class="etiquette">(' + esc(a.certitude) + ')</span></li>';
+      }).join('');
+      return '<div class="marginale"><b>' + esc(doc.titre) + '</b>' +
+        (qui ? '<div>Nomme : ' + qui + '</div>' : '') +
+        (via.length ? '<div class="occ-detail">Par ' + esc(via.join(' ; ')) + '</div>' : '') +
+        (affirmations ? '<ul class="indices" style="columns:1">' + affirmations + '</ul>' : '') + '</div>';
+    }).join('');
+    return '<section class="bloc"><h3 class="bloc-titre">Preuves documentaires</h3>' +
+      '<p class="bloc-note">Actes et ouvrages qui touchent cette maison ou les gens qui y ont vécu. Le détail est sur la fiche de chaque personne.</p>' +
+      blocs + '</section>';
+  }
+
   function blocDossier(l) {
     var lignes = [];
     if ((l.adresses_anciennes || []).length) {
@@ -190,9 +221,6 @@
     if (c.goadFeuillet || c.goad_feuillet) cad.push('Goad 1876, feuillet ' + (c.goadFeuillet || c.goad_feuillet));
     if (c.goadNo || c.goad_no) cad.push('n° d\'enregistrement ' + (c.goadNo || c.goad_no));
     if (cad.length) lignes.push('<b>Cadastre</b>' + esc(cad.join(' · ')));
-    if ((l.documents || []).length) {
-      lignes.push('<b>Documents</b>' + l.documents.map(function (d) { return esc(d.titre); }).join(' · '));
-    }
     if (l.source) lignes.push('<b>Source de la fiche</b>' + esc(l.source));
     if (!lignes.length) return '';
     return '<section class="bloc"><h3 class="bloc-titre">Dossier</h3>' +
@@ -223,6 +251,7 @@
       blocOccupations(l) +
       blocTextes(l) +
       blocPhotos(l, locales) +
+      blocDocuments(l) +
       blocDossier(l)
     );
     poserCarteMini(l);

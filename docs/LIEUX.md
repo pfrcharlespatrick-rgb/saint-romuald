@@ -71,6 +71,13 @@ change de lieu sans que rien d'autre bouge.
 }
 ```
 
+`documents` ne liste que ce qui est rattaché au lieu lui-même. La fiche de lieu
+montre en plus, sous « Preuves documentaires », les documents du manifeste qui
+nomment un occupant que les rattachements non écartés y placent, avec le statut
+du rattachement qui les amène ; la fiche de maison fait de même pour ses
+habitants. Un acte versé avec ses `ref_personne` apparaît donc de lui-même sur
+la maison et sur le lieu — il n'y a rien à recopier.
+
 ### Les deux étages, encore une fois
 
 `data/bussiere1990-data.js` **n'est pas touché**. C'est une source publiée ; elle
