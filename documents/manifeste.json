@@ -3717,14 +3717,14 @@
       "titre": "Quittance de Luce Gosselin à Honoré Houde et Joseph Picard, 1874",
       "date": "1874-05-19",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 117, image 001518-19 (suite non encore transcrite)",
-      "nature": "Minute originale ; première page seulement. Intitulé en marge : « Quittance Luce Gosselin à Houde & Picard ».",
-      "transcription": "« L'an mil huit cent soixante-quatorze, le dix-neuf de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Fut présente : Demoiselle Luce Gosselin, ci-devant de St Jean Chrysostome, dit comté, & maintenant de St Romuald, servante ; Laquelle dit & déclare ce qui suit, savoir : Attendu que ladite comparante a, en date de ce jour, suivant acte exécuté par le notaire soussigné, protesté & sommé Sr Honoré Houde pour certaines causes mentionnées au long au dit acte de protêt & sommation ; Attendu que pour le bon ordre & afin de conserver la paix entre la dite comparante & le dit sieur Houde, ce dernier consent à payer la somme de deux piastres, prix du salaire […] »",
+      "cote": "Minute n° 117, images 001518 à 001522",
+      "nature": "Minute originale ; acte complet. Intitulé en marge : « Quittance Luce Gosselin à Houde & Picard ». Signé du témoin et du notaire.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le dix-neuf de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Fut présente : Demoiselle Luce Gosselin, ci-devant de St Jean Chrysostome, dit comté, & maintenant de St Romuald, servante ; Laquelle dit & déclare ce qui suit, savoir : Attendu que ladite comparante a, en date de ce jour, suivant acte exécuté par le notaire soussigné, protesté & sommé Sr Honoré Houde pour certaines causes mentionnées au long au dit acte de protêt & sommation ; Attendu que pour le bon ordre & afin de conserver la paix entre la dite comparante & le dit sieur Houde, ce dernier consent à payer la somme de deux piastres, prix du salaire […] » — [001519-20] « […] salaire convenu & dû à la comparante ; & de payer en outre les frais du dit acte de sommation & des présentes, & de faire réparer à ses frais les objets brisés par la comparante durant le laps de temps de son service chez le dit sieur Houde. Et attendu en outre que Godias Picard, fils mineur de Sr Joseph Picard, marchand, a, par inadvertance, injurié la comparante. Et attendu que les parties, savoir : la comparante pour elle-même, le dit Sr Houde pour lui & son épouse, & ledit Sr Jos. Picard pour son dit fils, veulent que la paix soit rétablie entre eux, » — [001520-21] « C'est pourquoi la dite comparante donne & accorde à tous les intéressés, parties aux présentes & susmentionnés, quittance générale & finale de toutes & chacune les réclamations qu'elle a ou pourrait avoir contre elles […] & veut & consent que les choses en demeurent dans le même état que si jamais elles n'eussent existé. Dont & du tout elle a requis le présent acte qui a été octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent dix-sept des originaux du notaire soussigné. Et la comparante requise de signer a déclaré ne le savoir, en présence de [Mr Germain Couture, de St Romuald susdit, marchand, rayé] » — [001521-22] « Mr Mathias Gaumont, du dit lieu de St Romuald, ferblantier, témoin au présent acte, qui a signé avec moi notaire, lecture faite. » Signatures : « Mathias Gaumont », « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "comparante",
           "nom": "Luce Gosselin",
-          "note": "Voir l'acte n° 116."
+          "note": "Voir l'acte n° 116. Ne sait pas signer."
         },
         {
           "role": "partie",
@@ -3735,15 +3735,128 @@
           "role": "partie",
           "nom": "Joseph Picard",
           "ref_personne": "1871-D1-P021-L14",
-          "note": "Nommé dans l'intitulé en marge (« Houde & Picard ») ; son rôle — garant ou payeur — reste à lire dans la suite. Marchand ; Houde loge « dans la maison de Joseph Picard » en mai 1874. Joseph Picard, marchand, 40 ans en 1871 (maison 52), suivi en 1881 (1881-D1-P032-L21, maison 126) et en 1891 (1891-D1-P059-L01, marchand meublier, maison 256) — rapprochements de confiance forte."
+          "note": "Partie pour son fils mineur Godias, qui a « par inadvertance » injurié la comparante.  Nommé dans l'intitulé en marge (« Houde & Picard »). Marchand, chez qui loge Houde. Joseph Picard, marchand, 40 ans en 1871 (maison 52), suivi en 1881 (1881-D1-P032-L21, maison 126) et en 1891 (1891-D1-P059-L01, marchand meublier, maison 256)."
+        },
+        {
+          "role": "enfant",
+          "nom": "Godias Picard",
+          "ref_personne": "1871-D1-P021-L17",
+          "note": "« Fils mineur de Sr Joseph Picard, marchand ». En 1871 : Godias Picard, 12 ans, dans le ménage de Joseph Picard (maison 52) — environ 15 ans en 1874."
+        },
+        {
+          "role": "temoin",
+          "nom": "Mathias Gaumont",
+          "ref_personne": "1871-D1-P021-L05",
+          "note": "« Du dit lieu de St Romuald, ferblantier » ; signe. En 1871 : ferblantier de 25 ans, maison 50 (celle d'Edouard Lagueux, acte n° 113) ; en 1881 : ferblantier de 34 ans (1881-D1-P016-L07, maison 59)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Couture",
+          "note": "Marchand de Saint-Romuald ; d'abord nommé témoin, puis rayé et remplacé par Gaumont. Témoin de l'acte n° 118. Absent du dépouillement."
         },
         {
           "role": "notaire",
           "nom": "Elzéar-Hubert Tremblay"
         }
       ],
-      "affirmations": [],
-      "note": "L'affaire se règle l'après-midi même du protêt : Houde consent à payer les deux piastres de salaire. Suite à transcrire.",
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "date": "1874-05-19",
+          "personnes": [
+            "1871-D1-P021-L17",
+            "1871-D1-P021-L14"
+          ],
+          "enonce": "Godias Picard est le fils mineur de Joseph Picard, marchand — ce que le recensement de 1871 laissait seulement supposer par la composition du ménage."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-05-19",
+          "personnes": [
+            "1871-D1-P021-L05"
+          ],
+          "enonce": "Mathias Gaumont est ferblantier à Saint-Romuald en 1874 et sait signer."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P021-L05",
+            "1881-D1-P016-L07"
+          ],
+          "enonce": "Le témoin Mathias Gaumont est le ferblantier recensé en 1871 et en 1881."
+        }
+      ],
+      "note": "L'affaire se règle l'après-midi même du protêt (acte n° 116) : Houde paie les deux piastres de salaire et les frais des deux actes, et fait réparer à ses frais les objets que la servante avait brisés ; Joseph Picard répond de son fils Godias, qui l'avait injuriée. Luce Gosselin donne quittance générale. Elle ne sait pas signer.",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-05-21-echange-grenier-proulx",
+      "type": "notarie",
+      "titre": "Échange entre Georges Grenier et François-Xavier Proulx, 1874",
+      "date": "1874-05-21",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 118, images 001522 à 001524 (suite non encore transcrite)",
+      "nature": "Minute originale ; deux premières pages. Renvois paraphés « F. X. P. », « G. G. ». Intitulé en marge : « Échange entre F. X. Proulx & Georges Grenier ».",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le vingt-et-unième jour de mai, avant-midi, en présence de Elzéar Hubert Tremblay, notaire public […] Et en présence de Germain Couture, écr, marchand, demeurant au dit lieu de St Romuald, dit comté, témoin au présent acte, aussi soussigné ; Furent présents : Mr Georges Grenier, cultivateur, de la paroisse de St Elzéar, comté de Beauce, district de Québec, d'une part ; Et Mr François Xavier Proulx, du dit lieu de St Romuald, batelier, d'autre part ; Lesquelles parties […] ont fait les échanges & permutations réciproques des immeubles ci-après désignés, avec garantie réciproque & mutuelle de tous troubles, dons, dettes, douaires, hypothèques […] savoir : Le dit sieur Georges Grenier a donné à titre d'échange dès ce jour & à toujours au dit sieur François Xavier Proulx, à ce présent & acceptant […] : Un demi-arpent de terre de front sur dix arpents de profondeur, le tout plus ou moins, borné par devant au nord au chemin public, par derrière au sud au dit sieur Grenier, à l'est à Dame Constance Parent, épouse du dit sieur Grenier, & à l'ouest au dit sieur F. X. Proulx, (1) circonstances & dépendances, avec la réserve des bâtisses dessus construites en faveur du dit sieur Grenier. Le dit lopin de terre situé en la dite paroisse de St Elzéar de Beauce & appartenant au dit sieur Grenier, avec plus grande étendue, suivant avantages matrimoniaux consentis en sa faveur par Dame Constance Parent, son épouse, tel qu'il appert par leur contrat de mariage […] »",
+      "personnes": [
+        {
+          "role": "partie",
+          "nom": "Georges Grenier",
+          "note": "Cultivateur de Saint-Elzéar de Beauce ; hors du territoire dépouillé."
+        },
+        {
+          "role": "epouse",
+          "nom": "Constance Parent",
+          "note": "Épouse de Georges Grenier ; voisine à l'est du lopin échangé, qu'elle a fait passer à son mari par leur contrat de mariage."
+        },
+        {
+          "role": "partie",
+          "nom": "François-Xavier Proulx",
+          "ref_personne": "1891-D1-P103-L14",
+          "note": "« Du dit lieu de St Romuald, batelier », voisin à l'ouest du lopin de Saint-Elzéar. En 1891 : Xavier Proulx, 38 ans, batelier, fils de Thomas Proulx, menuisier (maison 458). En 1871 : Xavier Proulx, 19 ans, commis, chez le même Thomas Proulx (1871-D2-P021-L02). Absent de 1881."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Couture",
+          "note": "Écuyer, marchand de Saint-Romuald ; absent du dépouillement."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-05-21",
+          "personnes": [
+            "1891-D1-P103-L14"
+          ],
+          "enonce": "François-Xavier Proulx est batelier à Saint-Romuald dès 1874 — le métier qu'il déclare encore en 1891."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P021-L02",
+            "1891-D1-P103-L14"
+          ],
+          "enonce": "Le batelier F.-X. Proulx de l'acte est le Xavier Proulx, fils de Thomas, recensé en 1871 (commis) et en 1891 (batelier) ; il appuie le rapprochement automatique 1871-1891, qui saute 1881.",
+          "confirme": "1871-D2-P021-L02 → 1891-D1-P103-L14"
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1874-05-21",
+          "personnes": [],
+          "enonce": "Georges Grenier, cultivateur de Saint-Elzéar, est l'époux de Constance Parent, avec contrat de mariage."
+        }
+      ],
+      "note": "Un batelier de Saint-Romuald possède une terre à Saint-Elzéar de Beauce, voisine de celle de Grenier ; l'échange arrondit les deux. Ce que Proulx donne en retour est dans la suite, à transcrire.",
       "ajoute_le": "2026-10-30"
     }
   ]
