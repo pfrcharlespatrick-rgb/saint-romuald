@@ -3421,21 +3421,21 @@
       "titre": "Bail à rente foncière d'Edouard Lagueux à Louis Lépine fils, 1874",
       "date": "1874-05-09",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 113, images 001496 à 001500",
-      "nature": "Minute originale du notaire, avec ratures et renvois en marge paraphés. La fin de l'acte (signatures) n'est pas encore transcrite.",
-      "transcription": "« Fut présent : Edouard [Etienne, rayé] Lagueux, écuyer, Juge de Paix de Sa Majesté & rentier, demeurant en la paroisse de St Romuald ; Lequel a par ces présentes baillé & concédé dès ce jour & à toujours à titre de bail à rente foncière & constituée […] à Sieur Louis Lépine, fils, du même lieu, commerçant […] un emplacement situé en ladite paroisse de St Romuald dit comté, contenant cinquante pieds de front sur cent pieds de profondeur le tout mesure anglaise ; borné au sud ouest aux concédant, au nord-est au terrain de la corporation scolaire, & au sud est au dit concédant, (1) et au nord-ouest à Joseph Larochelle […] » — Charges : rente de douze piastres courant payable d'avance le premier jour de mai de chaque année, rachetable au capital de deux cents piastres ; bâtir une maison habitable avec cheminées en pierres ou en briques d'ici à trois ans ; clore l'emplacement ; fournir au côté nord un chemin d'au moins douze pieds de largeur ; copie enregistrée au concédant. Renvoi (3) : le bail sera nul si le concessionnaire néglige de payer la rente d'avance.",
+      "cote": "Minute n° 113, images 001496 à 001501",
+      "nature": "Minute originale du notaire, avec ratures et renvois en marge paraphés ; acte complet, signé des deux parties et du notaire.",
+      "transcription": "« Fut présent : Edouard [Etienne, rayé] Lagueux, écuyer, Juge de Paix de Sa Majesté & rentier, demeurant en la paroisse de St Romuald ; Lequel a par ces présentes baillé & concédé dès ce jour & à toujours à titre de bail à rente foncière & constituée […] à Sieur Louis Lépine, fils, du même lieu, commerçant […] un emplacement situé en ladite paroisse de St Romuald dit comté, contenant cinquante pieds de front sur cent pieds de profondeur le tout mesure anglaise ; borné au sud ouest aux concédant, au nord-est au terrain de la corporation scolaire, & au sud est au dit concédant, (1) et au nord-ouest à Joseph Larochelle […] » — Charges : rente de douze piastres courant payable d'avance le premier jour de mai de chaque année, rachetable au capital de deux cents piastres ; bâtir une maison habitable avec cheminées en pierres ou en briques d'ici à trois ans ; clore l'emplacement ; fournir au côté nord un chemin d'au moins douze pieds de largeur ; copie enregistrée au concédant. Renvoi (3) : le bail sera nul si le concessionnaire néglige de payer la rente d'avance. — Renvoi (4), au nom du concessionnaire : « dit Marest ». Renvoi en marge de la dernière page : en cas de résolution, « tous les paiements alors faits, ainsi que toutes les constructions & améliorations faites sur le dit emplacement appartiendront au dit concédant, ses hoirs & ayants cause » sans indemnité, la clause n'étant pas comminatoire. Clôture : « Dont acte. Fait & passé à St Romuald susdit, demeure du dit concédant, les jour, mois & an susdits, sous le numéro cent treize des originaux du notaire soussigné. Et les dits concédant & concessionnaire ont signé avec moi, notaire, lecture faite. » Signatures : « E. Lagueux », « Louis Lépine dit Marest fils », « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "concedant",
           "nom": "Edouard Lagueux",
           "ref_personne": "1871-D1-P020-L17",
-          "note": "Écuyer, juge de paix et rentier en 1874 ; cultivateur de 73 ans en 1871 (maison 50). Le notaire avait d'abord écrit « Etienne », rayé : le notaire Étienne Simard logeait dans la même maison 50 en 1871. Absent de 1881."
+          "note": "Écuyer, juge de paix et rentier en 1874 ; cultivateur de 73 ans en 1871 (maison 50). Le notaire avait d'abord écrit « Etienne », rayé : le notaire Étienne Simard logeait dans la même maison 50 en 1871. Absent de 1881. Signe « E. Lagueux » ; l'acte est passé en sa demeure. Le recensement de 1871 le dit sachant lire et écrire, ce que confirme la signature."
         },
         {
           "role": "concessionnaire",
-          "nom": "Louis Lépine, fils",
+          "nom": "Louis Lépine dit Marest, fils",
           "ref_personne": "1871-D1-P023-L08",
-          "note": "Commerçant en 1874 ; marchand de 46 ans en 1871 (maison 58). « Fils » le distingue de Louis Lépine, tonnelier de 70 ans (1871-D1-P028-L19, maison 74), vraisemblablement son père. Absent de 1881."
+          "note": "Commerçant en 1874 ; marchand de 46 ans en 1871 (maison 58). « Fils » le distingue de Louis Lépine, tonnelier de 70 ans (1871-D1-P028-L19, maison 74), vraisemblablement son père. Absent de 1881. Signe « Louis Lépine dit Marest fils » : le surnom « dit Marest », absent du recensement, est une piste pour le retrouver dans les registres (Marest, Marette). Sachant écrire en 1871, ce que confirme la signature."
         },
         {
           "role": "voisin",
@@ -3493,9 +3493,76 @@
             "1871-D1-P028-L19"
           ],
           "enonce": "« Louis Lépine, fils » serait le fils du tonnelier Louis Lépine, 70 ans en 1871 — à confirmer par un acte de baptême ou de mariage."
+        },
+        {
+          "type": "lecture",
+          "certitude": "etabli",
+          "date": "1874-05-09",
+          "personnes": [
+            "1871-D1-P023-L08"
+          ],
+          "enonce": "Louis Lépine fils portait le surnom « dit Marest » (signature et renvoi de l'acte) ; le recensement de 1871 ne le donne pas."
         }
       ],
-      "note": "Premier acte d'une série du greffe Tremblay. La page suivante transmise (images 001495-96) est la fin de l'acte n° 112, une quittance dont le comparant ne savait pas signer ; non versée faute du début. Piste : l'emplacement touche le terrain de l'école — à rapprocher de la carte et des lieux.",
+      "note": "Premier acte d'une série du greffe Tremblay. La page transmise avec lui (images 001495-96) est la fin de l'acte n° 112, une quittance dont le comparant ne savait pas signer ; non versée faute du début. Piste : l'emplacement touche le terrain de l'école — à rapprocher de la carte et des lieux. Piste : chercher les Lépine sous « Marest » ou « Marette » dans les registres et en 1881.",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1874-05-12-couture-michaud",
+      "type": "notarie",
+      "titre": "Cession par Frédérick Couture à Georges Michaud de l'entretien de la route des Quarante-Arpents, 1874",
+      "date": "1874-05-12",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 114, images 001501 à 001505 (fin de l'acte non encore transcrite)",
+      "nature": "Minute originale du notaire, avec ratures et renvois en marge paraphés. La page 001505 s'arrête sur les conditions ; signatures à venir.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le douzième jour de mai, avant midi, en présence de Me Elzéar Hubert Tremblay, notaire public […] résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné, (1) [et en présence de Théodule Bégin, du même lieu, hôtellier, témoin au présent acte, aussi soussigné] ; Fut présent : Sr Frédérick [Patrick, rayé] Couture, demeurant en la paroisse de St Jean Chrysostome dit comté, fermier & cultivateur ; Lequel dit & déclare ce qui suit, savoir : Attendu que lui, dit sieur Couture, est devenu à St Romuald, en la salle des séances du Conseil de comté, vers le vingt ou vingt-cinq du mois d'avril dernier, l'adjudicataire d'une certaine route appelée route des Quarante-Arpents, pour le prix et somme de cent quatre-vingt-dix-neuf piastres courant que le dit Conseil de comté a agréé & convenu de lui payer pour l'entretien de la dite route […] ; Attendu que le dit sieur Couture a, à l'entière satisfaction du dit Conseil de comté, donné caution suffisante & approuvée du dit Conseil en la personne de sieur Simon Côté, du dit lieu de St Jean Chrysostome, cultivateur ; […] C'est pourquoi le dit sieur Frédérick Couture cède, transporte & abandonne tous les droits qu'il a & pourrait avoir en sa qualité d'adjudicataire susdit à sieur Georges Michaud, du même lieu, fermier cultivateur, à ce présent & acceptant, cessionnaire pour lui, ses hoirs & ayants cause, aux mêmes conditions & sous les mêmes obligations & restrictions […] »",
+      "personnes": [
+        {
+          "role": "cedant",
+          "nom": "Frédérick Couture",
+          "note": "Fermier et cultivateur de Saint-Jean-Chrysostome, hors du territoire dépouillé. Le notaire avait d'abord écrit « Patrick », rayé. Aucun Frédéric Couture dans les recensements de Saint-Romuald."
+        },
+        {
+          "role": "cessionnaire",
+          "nom": "Georges Michaud",
+          "note": "Fermier cultivateur de Saint-Jean-Chrysostome ; absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "caution",
+          "nom": "Simon Côté",
+          "note": "Cultivateur de Saint-Jean-Chrysostome. Un Siméon Côté de 7 ans en 1871 (1871-D2-P011-L03) n'est évidemment pas lui."
+        },
+        {
+          "role": "temoin",
+          "nom": "Théodule Bégin",
+          "ref_personne": "1881-D2-P001-L01",
+          "note": "« Du même lieu [St-Romuald], hôtellier » (renvoi en marge). En 1881 : Théodule Bégin, 36 ans, hôtelier, division 2, maison 1. Absent du dépouillement de 1871 et de 1891."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-05-12",
+          "personnes": [
+            "1881-D2-P001-L01"
+          ],
+          "enonce": "Théodule Bégin est hôtelier à Saint-Romuald dès mai 1874."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1881-D2-P001-L01"
+          ],
+          "enonce": "Le témoin Théodule Bégin, hôtelier, est l'hôtelier de 36 ans recensé en 1881 (division 2, maison 1) : même prénom rare, même métier."
+        }
+      ],
+      "note": "Acte surtout utile pour l'histoire locale : le Conseil de comté de Lévis siégeait à Saint-Romuald et adjugeait l'entretien de la route des Quarante-Arpents (199 piastres, avril 1874). Les parties sont de Saint-Jean-Chrysostome ; seul le témoin se rattache au recensement.",
       "ajoute_le": "2026-10-30"
     }
   ]
