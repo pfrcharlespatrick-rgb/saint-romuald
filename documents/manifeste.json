@@ -4366,6 +4366,118 @@
       ],
       "note": "Pendant mobilier de l'acte n° 119. L'acte éclaire la famille : Albert Forcade, curateur, est le beau-frère de feu Ursule Tardif par sa femme Rosalie, qui a vécu huit ans chez les Bourassa ; Elvina Bourassa, sœur du défunt, y a vécu deux ans et demi avant le remariage avec Marguerite. Le notaire avait d'abord écrit que la veuve refusait de livrer les biens, puis l'a barré : elle renseigne finalement l'inventaire. Deux notaires : Tremblay et J.-B. Hamel, de Québec. « Chambre à coucher de la servante » : en 1871, le ménage logeait une domestique, Célestine Laprise [?], 21 ans (1871-D2-P068-L05) — rien ne dit qu'elle y soit encore. À compléter : la première page (date) avant l'image 001135, et la suite de l'inventaire après 001145 (chambre n° 3, total). Rattaché au lieu 1900-cf par l'occupation confirmée de 1871.",
       "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1873-11-06-testament-toussaint",
+      "type": "notarie",
+      "titre": "Testament de Lucie Toussaint, de Québec, 1873",
+      "date": "1873-11-06",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 1 (premier acte du greffe), images 000945 à 000949",
+      "nature": "Minute originale ; acte complet. Intitulé en marge : « Testament de Delle Lucie Toussaint ». L'en-tête porte « 6 novembre 1873 » ; le corps dit « le sixième jour de novembre, après-midi ». La page 000948-49 est le verso, taché et vierge.",
+      "transcription": "« L'an mil huit cent soixante-treize, le sixième jour de novembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public résidant & pratiquant en la paroisse de St Romuald, en le comté de Lévis, Province de Québec, soussigné ; & aussi en présence de Mr Alfred Maheux, de la cité de Québec, [bijoutier ?], & de Mr Octave [Couillard ?], de la dite cité de Québec, journalier, témoins au présent testament, aussi soussignés ; Fut présente : Demoiselle Lucie Toussaint, demeurant en la cité de Québec, fille majeure, étant en bonne santé de corps, saine d'esprit, mémoire, jugement & entendement […] Laquelle a, dans la vue de la mort, fait, dicté & nommé son présent testament […] Premièrement : je veux & ordonne qu'avant tout mes dettes soient payées & mes torts, si aucuns se trouvent, soient scrupuleusement réparés par mon exécuteur testamentaire ci-après nommé, à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, messes & prières, voulant qu'un service décent soit chanté sur mon corps le jour de mon inhumation, avec un autre service aussi décent au bout de l'an de mon décès, & que, extraction faite du coût des deux services, le résidu de la somme de vingt-cinq louis soit employé à faire dire des messes basses de Requiem le plus tôt possible après mon décès ; Deuxièmement : je donne & lègue à Demoiselle Philomène Toussaint, ma sœur, tous les biens meubles & immeubles que je délaisserai au jour de mon décès […] à la charge par elle de récompenser la ou les personnes qui prendront soin de moi pendant ma dernière maladie […] Troisièmement : je nomme pour exécuter mon présent testament la personne de François Xavier Dion, écuyer, mon beau-frère […] Quatrièmement : je révoque tous autres testaments & codicilles […] Dont acte sous le numéro un. Fait & passé à Québec, en le domicile de la dite testatrice, situé en la paroisse St Roch de Québec, rue Ste Marguerite, les jour, mois & an susdits. Requise de signer, la dite testatrice l'a fait ainsi que les dits témoins, avec moi, notaire, lecture faite. » Signatures : « Lucie Toussaint », « Alfred Maheux », « Octave [Couillard ?] », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Lucie Toussaint",
+          "note": "Fille majeure, de Québec, rue Sainte-Marguerite, paroisse Saint-Roch ; signe. Absente des recensements de Saint-Romuald. Les Toussaint de Saint-Romuald (famille d'Antoine Toussaint, charretier, 1871-D1 maison 51) n'ont ni Lucie ni Philomène : aucun lien établi."
+        },
+        {
+          "role": "legataire",
+          "nom": "Philomène Toussaint",
+          "note": "Sœur de la testatrice, légataire universelle."
+        },
+        {
+          "role": "executeur",
+          "nom": "François-Xavier Dion",
+          "note": "Écuyer, beau-frère de la testatrice ; exécuteur testamentaire."
+        },
+        {
+          "role": "temoin",
+          "nom": "Alfred Maheux",
+          "note": "De Québec ; signe."
+        },
+        {
+          "role": "temoin",
+          "nom": "Octave [Couillard ?]",
+          "note": "Journalier de Québec ; signe. Nom de lecture incertaine."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Premier acte du greffe du notaire Tremblay, établi à Saint-Romuald en 1873 : il est passé à Québec, chez la testatrice. Aucune personne du recensement de Saint-Romuald.",
+      "ajoute_le": "2026-10-30"
+    },
+    {
+      "id": "notarie-1873-11-07-quittance-lecours-carrier",
+      "type": "notarie",
+      "titre": "Quittance de Catherine Lecours, veuve d'Antoine Samson, à Augustin Carrier, 1873",
+      "date": "1873-11-07",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 2, image 000949-50 (signatures à la page suivante, non encore transcrite)",
+      "nature": "Minute originale ; intitulé en marge : « Quittance Vve Lecours à A. Carrier ». Renvois paraphés « C. F. » (Charles Fournier) et du notaire.",
+      "transcription": "« L'an mil huit cent soixante-treize, le septième jour de novembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public résidant & pratiquant en la paroisse de St Romuald, district de Québec, soussigné, (1) [et en présence de Mr Charles Fournier, de la dite paroisse de St Romuald, organiste, témoin au présent acte] ; Fut présente : Dame Catherine Lecours, demeurant en la paroisse St Romuald, veuve de feu sieur Antoine Samson, en son vivant de la paroisse de Notre-Dame de la Victoire, cultivateur ; Laquelle reconnaît & confesse avoir eu & reçu de Mr Augustin Carrier, du dit lieu de Notre-Dame de la Victoire, cultivateur, beau-fils de la comparante, donataire, à son entière satisfaction, toute la rente viagère & autres qu'a pu lui devoir le dit sieur Carrier jusqu'à la date du vingt octobre dernier. Dont quittance générale & finale jusqu'à l'époque sus-mentionnée. Dont acte. Fait & passé à St Romuald, étude du dit notaire, les jour, mois & an susdits, sous le numéro deux des originaux du dit notaire. Requise de signer, la comparante a déclaré ne le savoir, mais le dit témoin a signé avec moi […] »",
+      "personnes": [
+        {
+          "role": "comparante",
+          "nom": "Catherine Lecours",
+          "ref_personne": "1871-D1-P049-L01",
+          "note": "Veuve d'Antoine Samson, cultivateur de Notre-Dame-de-la-Victoire (Lévis) ; demeure à Saint-Romuald ; ne sait pas signer. En 1871 : Catherine Lecours, 80 ans, veuve, logée chez Louis Gelly (division 1, maison 131) — la seule de ce nom dans la paroisse. Rattachement probable."
+        },
+        {
+          "role": "donataire",
+          "nom": "Augustin Carrier",
+          "note": "Cultivateur de Notre-Dame-de-la-Victoire, « beau-fils de la comparante, donataire » : il a reçu d'elle un bien par donation, contre une rente viagère. Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "defunt",
+          "nom": "Antoine Samson",
+          "note": "Cultivateur de Notre-Dame-de-la-Victoire, mort avant novembre 1873 ; époux de Catherine Lecours."
+        },
+        {
+          "role": "temoin",
+          "nom": "Charles Fournier",
+          "ref_personne": "1871-D1-P040-L03",
+          "note": "« De la dite paroisse de St Romuald, organiste » ; paraphe « C. F. ». En 1871 : Charles Fournier, 23 ans, organiste, logé chez J.-Baptiste Nicol (division 1, maison 105) — seul organiste de la paroisse."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P049-L01"
+          ],
+          "enonce": "Catherine Lecours, veuve de 80 ans recensée en 1871 chez Louis Gelly, est la veuve d'Antoine Samson, cultivateur de Notre-Dame-de-la-Victoire."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1873-11-07",
+          "personnes": [
+            "1871-D1-P049-L01"
+          ],
+          "enonce": "Catherine Lecours est la veuve d'Antoine Samson ; Augustin Carrier est son beau-fils et son donataire, qui lui sert une rente viagère."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1873-11-07",
+          "personnes": [
+            "1871-D1-P040-L03"
+          ],
+          "enonce": "Charles Fournier est organiste à Saint-Romuald en novembre 1873, comme en 1871."
+        }
+      ],
+      "note": "Une vieille veuve qui a donné son bien à son beau-fils contre une rente viagère, et qui vit à Saint-Romuald, logée chez un autre. À compléter : les signatures (page suivante, 000950-51).",
+      "ajoute_le": "2026-10-30"
     }
   ]
 }
