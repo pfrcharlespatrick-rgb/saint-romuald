@@ -5433,14 +5433,14 @@
       "titre": "Obligation de Michel Dubois envers Étienne Lapierre, Saint-Jean-Chrysostome, 1874",
       "date": "1874-01-05",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° [22 ?] (coin du numéro déchiré), images 001023 à 001025 (suite non encore transcrite)",
-      "nature": "Minute originale, feuillets déchirés (coin supérieur et marge gauche, puis moitié haute droite de la deuxième page). Renvois paraphés « E. L. », « M. G. » et du notaire. L'année a été corrigée de « treize » en « quatorze ».",
-      "transcription": "« L'an mil huit cent soixante-quatorze, le cinquième jour de janvier, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, & en présence de Marcel Gingras, du dit lieu de St Romuald, dit comté, commerçant, témoin au présent acte, aussi soussigné ; Fut présent : sieur Michel Dubois, de la paroisse de St Jean Chrysostome, dit comté, cultivateur ; Lequel a confessé & reconnu devoir bien légitimement à Mr Étienne Lapierre, de la dite paroisse de St Jean Chrysostome, cultivateur, à ce présent & acceptant pour lui, ses hoirs & ayants cause à l'avenir, la somme de deux cent cinquante piastres, que le dit sieur Lapierre a prêtée & réellement délivrée au dit débiteur, lors de l'exécution des présentes, à la vue & présence de nous dits notaire & témoin, en bon argent courant, ainsi que le dit débiteur le reconnaît & s'en déclare content & satisfait. Laquelle dite somme de deux cent cinquante piastres courant le dit débiteur promet & s'oblige, pour lui […] & ayants cause, payer & rembourser au dit créancier, ou ordre, porteur des présentes en forme, à première demande, avec ensemble l'intérêt de huit pour cent par an, à compter de ce jour, payable annuellement jusqu'au parfait & entier paiement & remboursement de la dite somme capitale. Pour sûreté de laquelle dite somme de deux cent cinquante piastres courant & des intérêts qui en proviendront, comme dit est, le dit débiteur hypothèque spécialement : Une terre sise & située en la dite paroisse de St Jean Chrysostome, dit comté, de la contenance d'environ trois arpents de front sur trente arpents, ou environ, de profondeur ; bornée en front, vers l'est, à la rivière Chaudière, au nord à Olivier Bégin, & au sud à Louis Couture, en arrière, vers l'ouest, au bout de la dite profondeur ; […] »",
+      "cote": "Minute n° 22, images 001023 à 001026",
+      "nature": "Minute originale, feuillets déchirés (coin supérieur et marge gauche, puis moitié haute droite de la deuxième page). Renvois paraphés « E. L. », « M. G. » et du notaire. L'année a été corrigée de « treize » en « quatorze ». Acte complet ; le numéro « vingt-deux » est confirmé par la clôture.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le cinquième jour de janvier, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, & en présence de Marcel Gingras, du dit lieu de St Romuald, dit comté, commerçant, témoin au présent acte, aussi soussigné ; Fut présent : sieur Michel Dubois, de la paroisse de St Jean Chrysostome, dit comté, cultivateur ; Lequel a confessé & reconnu devoir bien légitimement à Mr Étienne Lapierre, de la dite paroisse de St Jean Chrysostome, cultivateur, à ce présent & acceptant pour lui, ses hoirs & ayants cause à l'avenir, la somme de deux cent cinquante piastres, que le dit sieur Lapierre a prêtée & réellement délivrée au dit débiteur, lors de l'exécution des présentes, à la vue & présence de nous dits notaire & témoin, en bon argent courant, ainsi que le dit débiteur le reconnaît & s'en déclare content & satisfait. Laquelle dite somme de deux cent cinquante piastres courant le dit débiteur promet & s'oblige, pour lui […] & ayants cause, payer & rembourser au dit créancier, ou ordre, porteur des présentes en forme, à première demande, avec ensemble l'intérêt de huit pour cent par an, à compter de ce jour, payable annuellement jusqu'au parfait & entier paiement & remboursement de la dite somme capitale. Pour sûreté de laquelle dite somme de deux cent cinquante piastres courant & des intérêts qui en proviendront, comme dit est, le dit débiteur hypothèque spécialement : Une terre sise & située en la dite paroisse de St Jean Chrysostome, dit comté, de la contenance d'environ trois arpents de front sur trente arpents, ou environ, de profondeur ; bornée en front, vers l'est, à la rivière Chaudière, au nord à Olivier Bégin, & au sud à Louis Couture, en arrière, vers l'ouest, au bout de la dite profondeur ; […] » — [001025-26] « […] avec ensemble les bâtisses dessus construites, circonstances & dépendances. Et pour l'exécution des présentes les parties font élection de leurs domiciles irrévocables en leurs demeures actuelles & respectives, auxquels lieux &c., car ainsi &c. Dont acte fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro vingt-deux des originaux du dit notaire soussigné. Requis de signer, le dit débiteur a déclaré ne le savoir, en présence du dit témoin qui a alors signé, ainsi que le dit créancier, avec moi, notaire, lecture faite. Dix-sept mots rayés sont nuls. Trois renvois en marge sont bons & approuvés. » Signatures : [marque X de Michel Dubois], « Étienne Lapierre », « Marcel Gingras », « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "debiteur",
           "nom": "Michel Dubois",
-          "note": "Cultivateur de Saint-Jean-Chrysostome ; terre de 3 arpents sur 30 en front sur la Chaudière."
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; terre de 3 arpents sur 30 en front sur la Chaudière. Ne sait pas signer."
         },
         {
           "role": "creancier",
@@ -5451,7 +5451,7 @@
           "role": "temoin",
           "nom": "Marcel Gingras",
           "ref_personne": "1871-D1-P040-L08",
-          "note": "« Du dit lieu de St Romuald, commerçant ». Seul Marcel Gingras de la paroisse : charretier de 32 ans en 1871 (division 1, maison 107), journalier de 43 ans en 1881 (1881-D1-P058-L10). Rattachement probable ; « commerçant » en 1874 est une qualité que les recensements ne lui donnent pas."
+          "note": "« Du dit lieu de St Romuald, commerçant ». Seul Marcel Gingras de la paroisse : charretier de 32 ans en 1871 (division 1, maison 107), journalier de 43 ans en 1881 (1881-D1-P058-L10). Rattachement probable ; « commerçant » en 1874 est une qualité que les recensements ne lui donnent pas. Signe « Marcel Gingras »."
         },
         {
           "role": "voisin",
@@ -5477,7 +5477,106 @@
           "enonce": "Marcel Gingras, de Saint-Romuald, se dit commerçant en janvier 1874 — charretier en 1871, journalier en 1881."
         }
       ],
-      "note": "Prêt de 250 piastres à 8 %, remboursable à première demande, garanti par une terre de la Chaudière. Premier acte de 1874 du greffe. À compléter : la suite (signatures).",
+      "note": "Prêt de 250 piastres à 8 %, remboursable à première demande, garanti par une terre de la Chaudière ; passé à l'étude du notaire à Saint-Romuald. Premier acte de 1874 du greffe.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-01-09-renonciation-bourassa",
+      "type": "notarie",
+      "titre": "Renonciation d'Edouard Bourassa, tuteur, à la succession de feu François Bourassa, hôtelier, au nom de ses quatre fils mineurs, 1874",
+      "date": "1874-01-09",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 23, images 001026 à 001030 (page des signatures non encore transcrite)",
+      "nature": "Minute originale ; « Exp. 2 fois, 3 fois, 4 fois » en marge (quatre copies délivrées). Intitulé : « Renonciation &c. Succ. feu Frs Bourassa par Ed. Bourassa ». L'année a été corrigée de « treize » en « quatorze ». C'est l'acte de renonciation cité par la sommation n° 119 (« suivant acte reçu par le notaire soussigné, en date à St Romuald du neuf de janvier dernier »).",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le neuvième jour de janvier, avant midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, en le comté de Lévis, soussigné ; Fut présent : Mr Edouard Bourassa, de la dite paroisse de St Romuald, dit comté, cultivateur, agissant en ces présentes en sa qualité de tuteur dûment élu en justice, suivant acte de tutelle en date, au greffe de la Cour de Circuit siégeant à Québec, du vingt-neuvième jour de juillet de l'année mil huit cent soixante-onze, devant [Siméon ?] Tessier [?], écuyer, député protonotaire de la Cour Supérieure siégeant à Québec, homologué par ce dernier le deuxième jour d'août de la même année (mil huit cent soixante-onze) & enregistré par transcription au bureau d'enregistrement de la seconde division du comté de Dorchester, Reg. B, Vol. 19, sous le numéro 15,017, aux mineurs suivants, alors âgés respectivement, savoir : François, de quinze ans révolus, Romuald, de treize ans révolus, Michel, de onze ans révolus, & Philémond, de neuf ans révolus, quatre enfants mineurs issus du mariage d'entre feu François Bourassa, en son vivant de la dite paroisse de St Romuald, hôtellier, & feue Dame Ursule Tardif, leurs père & mère ; Le dit sieur Edouard Bourassa étant dûment autorisé en justice à l'effet des présentes, suivant avis des parents reçu devant le protonotaire de la Cour Supérieure à Québec le trois de janvier courant & homologué en justice le même jour ; Lequel, ès-qualité, dit & déclare ce qui suit, savoir : 1° Qu'il accepte, pour les mineurs susdits, la communauté de biens qui a existé entre les dits feus François Bourassa & Ursule Tardif jusqu'à la date du [?] jour de février mil huit cent soixante-cinq, époque à laquelle la dite feue Ursule Tardif est décédée ; 2° Qu'il renonce, au nom des dits mineurs, à la succession du dit feu François Bourassa, leur père décédé ; & 3° Enfin qu'il accepte pour & au nom des dits mineurs le douaire préfix acquis à ces derniers en vertu du contrat de mariage d'entre feus leurs dits père & mère, reçu par Mtre Amb. [Fruelle ?] & son confrère, notaires, en date à St Jean Chrysostome, comté de Lévis, du dix-huitième jour de juin de l'an mil huit cent cinquante-cinq, & enregistré au bureau d'enregistrement de la seconde division du comté de Dorchester en date de ce jour. Dont & du tout le dit sieur Edouard Bourassa a requis le présent acte, qui lui a été octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro vingt-trois des originaux du notaire soussigné. Et le comparant, de ce requis, a signé avec [moi, notaire …] »",
+      "personnes": [
+        {
+          "role": "tuteur",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "Cultivateur de Saint-Romuald, tuteur des quatre mineurs depuis le 29 juillet 1871."
+        },
+        {
+          "role": "defunt",
+          "nom": "François Bourassa",
+          "ref_personne": "1871-D2-P067-L19",
+          "note": "Hôtelier de Saint-Romuald ; la maison Bourassa, 1900 chemin du Fleuve."
+        },
+        {
+          "role": "defunte",
+          "nom": "Ursule Tardif",
+          "note": "Première épouse, morte en février 1865 ; mariée par contrat du 18 juin 1855 à Saint-Jean-Chrysostome."
+        },
+        {
+          "role": "enfant",
+          "nom": "François Bourassa",
+          "ref_personne": "1871-D2-P068-L01",
+          "note": "15 ans révolus en juillet 1871 (14 au recensement d'avril 1871)."
+        },
+        {
+          "role": "enfant",
+          "nom": "Romuald Bourassa",
+          "ref_personne": "1871-D2-P068-L02",
+          "note": "13 ans révolus en juillet 1871 (13 au recensement)."
+        },
+        {
+          "role": "enfant",
+          "nom": "Michel Bourassa",
+          "ref_personne": "1871-D2-P068-L03",
+          "note": "11 ans révolus en juillet 1871 (11 au recensement)."
+        },
+        {
+          "role": "enfant",
+          "nom": "Philémond Bourassa",
+          "ref_personne": "1871-D2-P068-L04",
+          "note": "9 ans révolus en juillet 1871 (8 au recensement d'avril)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Amb. [Fruelle ?]",
+          "note": "Notaire du contrat de mariage de 1855, à Saint-Jean-Chrysostome — sans doute le « Mtre A. [Fruell ?] » des actes n° 120 et 121."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1855-06-18",
+          "personnes": [
+            "1871-D2-P067-L19"
+          ],
+          "enonce": "François Bourassa et Ursule Tardif se sont mariés sous contrat passé à Saint-Jean-Chrysostome le 18 juin 1855, avec douaire préfix pour leurs enfants."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P067-L19",
+            "1871-D2-P068-L01",
+            "1871-D2-P068-L02",
+            "1871-D2-P068-L03",
+            "1871-D2-P068-L04"
+          ],
+          "enonce": "François (15 ans en juillet 1871), Romuald (13), Michel (11) et Philémond (9) sont les quatre enfants mineurs de François Bourassa, hôtelier, et d'Ursule Tardif — âges concordant avec le recensement d'avril 1871."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-01-09",
+          "personnes": [
+            "1871-D2-P068-L01",
+            "1871-D2-P068-L02",
+            "1871-D2-P068-L03",
+            "1871-D2-P068-L04"
+          ],
+          "enonce": "Au nom des quatre mineurs, le tuteur accepte la communauté de leur mère (jusqu'à sa mort en 1865) et le douaire préfix de son contrat de mariage, mais renonce à la succession de leur père."
+        }
+      ],
+      "note": "La pièce maîtresse du dossier de la maison Bourassa : la renonciation du 9 janvier 1874 que cite la sommation n° 119. Les fils gardent la part de leur mère dans la maison de pierre (communauté et douaire) et laissent la succession paternelle, déclarée vacante, au curateur Albert Forcade. Le jour de février 1865 est mal lisible ici ; la sommation n° 119 donne le 6. À compléter : la page des signatures (001030-31).",
       "ajoute_le": "2026-10-31"
     }
   ]
