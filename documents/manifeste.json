@@ -1,7 +1,7 @@
 {
   "format": "documents-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-10-30",
+  "mis_a_jour": "2026-10-31",
   "note": "Index des documents historiques qui établissent des liens de filiation. Un document versé ici l'emporte toujours sur une proposition automatique de data/filiation-data.js : l'acte est une preuve, le rapprochement algorithmique n'est qu'une hypothèse. Voir documents/README.md pour la marche à suivre.",
   "types_admis": {
     "bapteme": "Acte de baptême — établit une filiation directe et une date de naissance",
@@ -6695,9 +6695,9 @@
       "titre": "Sommation d'Albert Forcade, curateur, à la veuve Bourassa, au tuteur et au subrogé-tuteur : inventaire fixé au 27 février 1874",
       "date": "1874-02-24",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 40, images 001121 à 001125 (Drive : fichiers 04T_CN401S124P_00177 à 00180 ; suite non encore transcrite)",
-      "nature": "Sommation signifiée par le notaire, très raturée ; « Exp. 3 fois ». Intitulé : « Sommation par Alb. Forcade à Vve Frs Bourassa ».",
-      "transcription": "« L'an mil huit cent soixante-quatorze, le vingt-quatrième jour de février, avant midi, à la réquisition de sieur Albert Forcade, de la paroisse de St Romuald, comté de Lévis, charpentier, agissant en ces présentes en sa qualité de curateur dûment élu en justice à la succession vacante de feu François Bourassa, en son vivant du dit lieu de St Romuald, hôtellier, en date à Québec du quatorze de février courant, lequel acte de curatelle a été enregistré au bureau d'enregistrement du comté de Lévis-Dorchester, division numéro deux, le même jour ; Nous, notaire public pour la province de Québec, résidant & pratiquant en la dite paroisse de St Romuald, nous sommes exprès transporté en la demeure de Dame Marguerite Lavièsse dite Laliberté, veuve du dit feu François Bourassa, située en la susdite paroisse de St Romuald ; en la demeure de sieur Edouard Bourassa, cultivateur, située en la dite paroisse de St Romuald, tuteur dûment élu en justice le vingt-neuf de juillet mil huit cent soixante-onze à François, Romuald, Michel & Philémon Bourassa, quatre enfants mineurs issus du mariage d'entre le dit feu François Bourassa & feue Dame Ursule Tardif, [sa première épouse] ; & en la demeure de Joseph Tardif, cultivateur, située en la paroisse de St Jean Chrysostome, dit comté, subrogé-tuteur aux dits enfants mineurs ; où étant & parlant [à la dite dame veuve : renvoi, à un commerçant demeurant dans la même maison que la dite Marguerite Lavièsse dite Laliberté, au refus de la servante de celle-ci, qui a refusé de donner son nom ;] aux dits sieurs Edouard Bourassa & Joseph Tardif personnellement, nous avons dit & déclaré que le dit feu François Bourassa était commun en biens avec la dite feue Ursule Tardif ; que la dite feue Ursule Tardif est décédée le [deux, corrigé en marge : six ?] février mil huit cent soixante-cinq, ab intestat, laissant pour ses héritiers les dits enfants mineurs, lesquels, par leur tuteur dûment autorisé en justice, ont renoncé à la succession du dit feu François Bourassa, leur père, & accepté la communauté de biens qui a existé entre lesdits feus François Bourassa & Ursule Tardif jusqu'à la date du deuxième jour de février mil huit cent soixante-cinq, époque à laquelle la dite feue Ursule Tardif est décédée, [& accepté les avantages à eux accordés en vertu du contrat de mariage de leurs dits père & mère décédés,] suivant acte en date à St Romuald susdit du neuvième jour de janvier mil huit cent soixante-quatorze, reçu par le notaire soussigné & enregistré au bureau d'enregistrement du comté de Lévis, Reg. B, Vol. 21, page 391, sous le numéro 16,435 ; qu'aucun inventaire constatant les biens dépendant de la communauté qui a existé entre lesdits feus François Bourassa & Ursule Tardif n'a été fait lors du décès de la dite feue Ursule Tardif ; qu'il est maintenant nécessaire de procéder à faire l'inventaire des biens immeubles & meubles & des effets mobiliers [délaissés par le dit feu François Bourassa, formant maintenant la succession vacante, & avoir sa part tant dans la première communauté que dans la seconde communauté] ; Que vendredi, le vingt-sept de février courant, à dix heures de l'avant-midi, je, Elzéar Hubert Tremblay, notaire soussigné, à la réquisition susdite, me rendrai en la demeure de la dite Dame Marguerite Lavièsse dite Laliberté, située en la paroisse de St Romuald, où sont décédés lesdits feus François Bourassa & Ursule Tardif, pour là & alors procéder à l'inventaire fidèle & description exacte de tous les biens meubles, effets mobiliers & les immeubles, dettes actives & passives, titres & papiers & de tous renseignements quelconques dépendant de la succession susdite du dit feu François Bourassa. C'est […] »",
+      "cote": "Minute n° 40, images 001121 à 001128 (Drive : fichiers 04T_CN401S124P_00177 à 00183) ; acte complet",
+      "nature": "Sommation signifiée par le notaire, très raturée : quatre-vingt-sept mots rayés, dix-huit renvois en marge ; signée du seul notaire. « Exp. 3 fois ». Intitulé : « Sommation par Alb. Forcade à Vve Frs Bourassa ». Signifiée le même jour à trois domiciles : chez la veuve et chez Edouard Bourassa, à Saint-Romuald, et chez Joseph Tardif, à Saint-Jean-Chrysostome.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le vingt-quatrième jour de février, avant midi, à la réquisition de sieur Albert Forcade, de la paroisse de St Romuald, comté de Lévis, charpentier, agissant en ces présentes en sa qualité de curateur dûment élu en justice à la succession vacante de feu François Bourassa, en son vivant du dit lieu de St Romuald, hôtellier, en date à Québec du quatorze de février courant, lequel acte de curatelle a été enregistré au bureau d'enregistrement du comté de Lévis-Dorchester, division numéro deux, le même jour ; Nous, notaire public pour la province de Québec, résidant & pratiquant en la dite paroisse de St Romuald, nous sommes exprès transporté en la demeure de Dame Marguerite Lavièsse dite Laliberté, veuve du dit feu François Bourassa, située en la susdite paroisse de St Romuald ; en la demeure de sieur Edouard Bourassa, cultivateur, située en la dite paroisse de St Romuald, tuteur dûment élu en justice le vingt-neuf de juillet mil huit cent soixante-onze à François, Romuald, Michel & Philémon Bourassa, quatre enfants mineurs issus du mariage d'entre le dit feu François Bourassa & feue Dame Ursule Tardif, [sa première épouse] ; & en la demeure de Joseph Tardif, cultivateur, située en la paroisse de St Jean Chrysostome, dit comté, subrogé-tuteur aux dits enfants mineurs ; où étant & parlant [à la dite dame veuve : renvoi, à un commerçant demeurant dans la même maison que la dite Marguerite Lavièsse dite Laliberté, au refus de la servante de celle-ci, qui a refusé de donner son nom ;] aux dits sieurs Edouard Bourassa & Joseph Tardif personnellement, nous avons dit & déclaré que le dit feu François Bourassa était commun en biens avec la dite feue Ursule Tardif ; que la dite feue Ursule Tardif est décédée le [deux, corrigé en marge : six ?] février mil huit cent soixante-cinq, ab intestat, laissant pour ses héritiers les dits enfants mineurs, lesquels, par leur tuteur dûment autorisé en justice, ont renoncé à la succession du dit feu François Bourassa, leur père, & accepté la communauté de biens qui a existé entre lesdits feus François Bourassa & Ursule Tardif jusqu'à la date du deuxième jour de février mil huit cent soixante-cinq, époque à laquelle la dite feue Ursule Tardif est décédée, [& accepté les avantages à eux accordés en vertu du contrat de mariage de leurs dits père & mère décédés,] suivant acte en date à St Romuald susdit du neuvième jour de janvier mil huit cent soixante-quatorze, reçu par le notaire soussigné & enregistré au bureau d'enregistrement du comté de Lévis, Reg. B, Vol. 21, page 391, sous le numéro 16,435 ; qu'aucun inventaire constatant les biens dépendant de la communauté qui a existé entre lesdits feus François Bourassa & Ursule Tardif n'a été fait lors du décès de la dite feue Ursule Tardif ; qu'il est maintenant nécessaire de procéder à faire l'inventaire des biens immeubles & meubles & des effets mobiliers [délaissés par le dit feu François Bourassa, formant maintenant la succession vacante, & avoir sa part tant dans la première communauté que dans la seconde communauté] ; Que vendredi, le vingt-sept de février courant, à dix heures de l'avant-midi, je, Elzéar Hubert Tremblay, notaire soussigné, à la réquisition susdite, me rendrai en la demeure de la dite Dame Marguerite Lavièsse dite Laliberté, située en la paroisse de St Romuald, où sont décédés lesdits feus François Bourassa & Ursule Tardif, pour là & alors procéder à l'inventaire fidèle & description exacte de tous les biens meubles, effets mobiliers & les immeubles, dettes actives & passives, titres & papiers & de tous renseignements quelconques dépendant de la succession susdite du dit feu François Bourassa. [001125-26, renvoi en marge] C'est pourquoi, Nous, dit notaire, avons, aux dits nom & réquisition, notifié, requis & sommé, comme par ces présentes nous notifions, requérons & sommons la dite Dame Marguerite Lavièsse dite Laliberté & les dits sieurs Edouard Bourassa & Joseph Tardif de se rendre aux lieu, jour & heure ci-dessus fixés, pour là & alors procéder au dit inventaire comme susdit, & de produire & apporter avec eux tous titres & documents quelconques appartenant à la dite succession [susdite] — [001126-27] & qu'ils peuvent avoir en leur possession ; les informant, [à la dite Dame Marguerite Lavièsse dite Laliberté & aux dits sieurs Edouard Bourassa & Joseph Tardif,] que dans le cas de refus ou négligence de leur part de [délivrer les dits meubles & effets mobiliers, titres & autres papiers, &] donner tous les renseignements relatifs [à la dite] succession, Nous, dit notaire, à la réquisition susdite, procéderons à l'inventaire [susdit] par commune renommée, [protestant dès à présent contre la dite Dame Marguerite Lavièsse dite Laliberté & les dits sieurs Edouard Bourassa & Joseph Tardif de tout ce que l'on peut & doit protester en pareil cas.] Dont acte. Fait, signifié & protesté en la dite paroisse de St Romuald, [en les demeures de] la dite Dame Marguerite Lavièsse dite Laliberté & [du] dit sieur Edouard Bourassa, & à St Jean Chrysostome, chez le dit Joseph Tardif, par Nous, dit notaire, les jour, mois & an susdits, — [001127-28] sous le numéro quarante des originaux du notaire soussigné. Et nous avons laissé, ès dits nom & réquisition & parlant comme susdit, une copie authentique des présentes aux dits Edouard Bourassa & Joseph Tardif & à la dite [Veuve François Bourassa, rayé] Dame Marguerite Lavièsse dite Laliberté, veuve du dit feu François Bourassa, [ès mains du dit sieur Léon Top[ping ?], renvoi taché d'encre,] afin qu'ils n'en puissent prétendre ni plaider cause d'ignorance. Et nous avons signé, lecture faite [à chacun d'eux respectivement, rayé]. Quatre-vingt-sept mots rayés sont nuls & dix-huit renvois en marge sont bons. » Signature : « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "requerant",
@@ -6752,6 +6752,11 @@
           "ref_personne": "1871-D2-P068-L04"
         },
         {
+          "role": "temoin",
+          "nom": "Léon Top[ping ?]",
+          "note": "Reçoit la copie destinée à la veuve (« ès mains du dit sieur Léon Top… », renvoi en marge taché d'encre, image 001127-28). C'est sans doute le commerçant logé dans la maison de la veuve, dont parle le début de l'acte. Lecture « Topping » probable : un Léon Topping, navigateur de 31 ans en 1871 (1871-D1-P033-L13), maçon en 1881, est le seul Léon de la paroisse dont le nom commence ainsi ; mais il n'est dit ni commerçant ni voisin des Bourassa (division 1 en 1871) : non rattaché."
+        },
+        {
           "role": "notaire",
           "nom": "Elzéar-Hubert Tremblay"
         }
@@ -6778,9 +6783,67 @@
             "1871-D2-P068-L04"
           ],
           "enonce": "Aucun inventaire n'avait été fait à la mort d'Ursule Tardif (1865) ; le curateur fixe celui de la succession Bourassa au vendredi 27 février 1874, 10 h, en la maison de la veuve."
+        },
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "date": "1874-02-24",
+          "personnes": [
+            "1871-D1-P040-L18"
+          ],
+          "enonce": "Edouard Bourassa, tuteur, a sa demeure à Saint-Romuald en février 1874 ; Joseph Tardif, subrogé-tuteur, demeure à Saint-Jean-Chrysostome."
         }
       ],
-      "note": "Le chaînon entre la sommation n° 25 (la veuve refuse de répondre) et l'inventaire n° 42 : c'est le curateur Forcade qui prend l'affaire en main et fixe la date. Joseph Tardif, subrogé-tuteur, apparaît ici pour la première fois. À compléter : la fin de l'acte.",
+      "note": "Le chaînon entre la sommation n° 25 (la veuve refuse de répondre) et l'inventaire n° 42 : c'est le curateur Forcade qui prend l'affaire en main et fixe la date. Joseph Tardif, subrogé-tuteur, apparaît ici pour la première fois. Le notaire somme les trois parties d'apporter titres et papiers, faute de quoi l'inventaire se fera « par commune renommée » — ce que la minute n° 42 annonce en effet. Acte complet (fin lue le 31 octobre 2026, fichiers 00181 à 00183).",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-25-bail-villeneuve-vallerand",
+      "type": "notarie",
+      "titre": "Bail de trois chambres sur le chemin Royal, de Ferdinand Villeneuve, architecte, à Napoléon Vallerand, journalier, 1874",
+      "date": "1874-02-25",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 41, images 001128 à 001130 et suivantes (Drive : fichiers 04T_CN401S124P_00184 et 00185 ; la fin, avec les signatures, reste à lire à partir du fichier 00186)",
+      "nature": "Formulaire imprimé de bail (cité de Québec, biffé), rempli à la main. En tête : « N° 41 — 25 février 1874 ». Intitulé en marge : « Bail Villeneuve à Vallerand — original ». Un renvoi en marge.",
+      "transcription": "[001128-29] « N° 41 — 25 février 1874. L'an mil huit cent soixante-quatorze, le vingt-cinquième jour du mois de février, après midi, pardevant Mtre Elzéar Hubert Tremblay, notaire public, résidant en la paroisse de St Romuald, en le comté de Lévis, soussigné ; Fut présent Ferdinand Villeneuve, écuier, [entrepreneur, rayé] architecte, demeurant en la paroisse susdite de St Romuald, dit comté ; Lequel a, par ces présentes, donné à loyer pour le terme et espace d'une année entière qui commence à courir du premier jour de mai prochain et finira le trentième jour d'avril de l'année mil huit cent soixante-quinze, à sieur Napoléon Vallerand, du dit lieu de St Romuald, journalier, à ce présent et acceptant preneur pour lui, ses hoirs et ayants cause, c'est à savoir : Trois chambres & part de cave [dans la] partie ouest dans une maison ayant le premier étage en pierres & le second étage en bois, sise & située sur le niveau du chemin Royal & appartenant au bailleur, avec ensemble le passage conduisant des dites premises à la porte qui se trouve au front de la dite maison, en commun avec l'autre locataire & le bailleur [le propriétaire, rayé] ; [renvoi : Le preneur aura le droit de loger une vache dans l'écurie pendant les saisons rigoureuses, en par lui laissant le fumier à titre d'indemnité au bailleur ;] tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité. Ce bail est fait aux charges, clauses et conditions suivantes […] (clauses imprimées 1° à 6°) — [001129-30] De son côté le bailleur promet et s'oblige faire jouir paisiblement le preneur des premises sus-louées pendant toute la durée de ce bail, mais ne s'oblige à aucunes réparations quelconques. Ce bail est fait en outre pour et en considération du prix et somme de trente piastres courant pour l'année de sa durée, que le preneur promet et s'oblige payer au dit bailleur, ou à son ordre, en douze paiements égaux & mensuels de la somme de douze chelins & demi courant chaque. Et s'oblige encore de plus le dit preneur de payer et rembourser au dit bailleur […] toutes et telles taxes […] contre le dit preneur, comme locataire, par l'autorité compétente […] » (suite à lire)",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Ferdinand Villeneuve",
+          "ref_personne": "1871-D1-P013-L13",
+          "note": "Écuier, architecte, de Saint-Romuald ; propriétaire d'une maison de pierre et de bois sur le chemin Royal, qu'il habite en partie (« en commun avec l'autre locataire & le bailleur »). Sculpteur de 39 ans en 1871 (division 1, maison 33), architecte en 1881, « architecte-sculpteur-doreur d'églises » en 1891 : le seul Ferdinand Villeneuve de la paroisse."
+        },
+        {
+          "role": "preneur",
+          "nom": "Napoléon Vallerand",
+          "note": "Journalier de Saint-Romuald. Aucun Vallerand aux recensements de la paroisse. Un Napoléon Vallières, 24 ans, fils de Jean, journalier, vit en 1871 dans la division 2 (1871-D2-P021-L13) : simple ressemblance de nom, non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-02-25",
+          "personnes": [
+            "1871-D1-P013-L13"
+          ],
+          "enonce": "Ferdinand Villeneuve, architecte, possède en 1874 une maison sur le chemin Royal, premier étage en pierre et second en bois, avec écurie ; il y habite et en loue des parties à deux locataires."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-02-25",
+          "personnes": [
+            "1871-D1-P013-L13"
+          ],
+          "enonce": "Ferdinand Villeneuve est dit « écuier, architecte » en février 1874 (sculpteur au recensement de 1871)."
+        }
+      ],
+      "note": "Loyer : 30 piastres par an, en douze mensualités de 12 chelins et demi ; le bailleur ne fait aucune réparation. Le preneur peut loger une vache à l'écurie l'hiver, laissant le fumier au bailleur. Le « chemin Royal » reste à situer ; pas de lieu créé sur la carte. À compléter : la fin de l'acte (fichier 00186).",
       "ajoute_le": "2026-10-31"
     }
   ]
