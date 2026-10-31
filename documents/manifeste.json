@@ -6457,9 +6457,9 @@
       "titre": "Bail d'une maison entre les rues Saint-Paul et Saint-Louis, de Benjamin Demers à Thomas Deschênes, 1874",
       "date": "1874-02-19",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 36, image 001094-95 (suite non encore transcrite)",
-      "nature": "Formulaire imprimé de bail (cité de Québec, biffé), rempli à la main ; première page.",
-      "transcription": "« L'an mil huit cent soixante-quatorze, le dix-neuvième jour du mois de février, avant midi, pardevant Mtre Elzéar Hubert Tremblay, notaire public, résidant en la paroisse de St Romuald, en le comté de Lévis, soussigné, & en présence de Mr Edouard Bourassa, de St Romuald susdit, témoin au présent acte, aussi soussigné ; Fut présent : Mr Benjamin Demers, de la dite paroisse de St Romuald, comté susdit, agriculteur ; Lequel a, par ces présentes, donné à loyer pour le terme & espace d'une année entière, qui commencera à courir du premier mai prochain & finira le trentième jour d'avril de l'année mil huit cent soixante-quinze, à Mr Thomas Deschênes, de la dite paroisse St Romuald, entrepreneur, à ce présent & acceptant preneur […] c'est à savoir : Une maison en bois à un étage, sise entre les rues St Paul & St Louis & appartenant au bailleur, circonstances & dépendances ; tel que le tout est actuellement & dont le preneur se déclare content & satisfait pour l'avoir vu & visité, & en être déjà en possession […] »",
+      "cote": "Minute n° 36, images 001094 à 001098 (la dernière est la chemise imprimée « Bail »)",
+      "nature": "Formulaire imprimé de bail (cité de Québec, biffé), rempli à la main ; acte complet ; « Corporation de cette Ville » remplacée par « Conseil municipal ».",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le dix-neuvième jour du mois de février, avant midi, pardevant Mtre Elzéar Hubert Tremblay, notaire public, résidant en la paroisse de St Romuald, en le comté de Lévis, soussigné, & en présence de Mr Edouard Bourassa, de St Romuald susdit, témoin au présent acte, aussi soussigné ; Fut présent : Mr Benjamin Demers, de la dite paroisse de St Romuald, comté susdit, agriculteur ; Lequel a, par ces présentes, donné à loyer pour le terme & espace d'une année entière, qui commencera à courir du premier mai prochain & finira le trentième jour d'avril de l'année mil huit cent soixante-quinze, à Mr Thomas Deschênes, de la dite paroisse St Romuald, entrepreneur, à ce présent & acceptant preneur […] c'est à savoir : Une maison en bois à un étage, sise entre les rues St Paul & St Louis & appartenant au bailleur, circonstances & dépendances ; tel que le tout est actuellement & dont le preneur se déclare content & satisfait pour l'avoir vu & visité, & en être déjà en possession […] » — [001095-97] Le bailleur ne s'oblige « à aucunes réparations quelconques, pas même à tenir les lieux clos ni couverts ». « Ce bail est fait en outre pour & en considération du prix & somme de cinquante piastres courant pour l'année de sa durée, que le preneur promet & s'oblige payer au dit bailleur ou à son ordre en deux paiements égaux de la somme de vingt-cinq piastres courant chacun, payables savoir : le premier paiement dans le courant d'août prochain, & le dernier dans le courant de novembre aussi prochain. […] Il est convenu & entendu que, dans le cas où la dite maison viendrait à être incendiée sans la faute du preneur, qu'alors & dans ce cas le loyer ci-dessus stipulé & convenu sera payable & réductible à la somme de quatre piastres & seize centins par mois pour chaque mois que le dit preneur aura joui des dites premisses. […] Dont acte, fait & passé à St Romuald susdit, étude du dit Mtre E. H. Tremblay, notaire, les jour, mois & an susdits, sous le numéro trente-six des originaux du notaire soussigné. Requis de signer, le dit preneur a déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, ainsi que le dit bailleur, lecture faite. Quatre-vingt-quinze mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » Signatures : « Benj. Demers », « Edouard Bourassa », « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "bailleur",
@@ -6470,7 +6470,7 @@
         {
           "role": "preneur",
           "nom": "Thomas Deschênes",
-          "note": "Entrepreneur de Saint-Romuald, déjà dans la maison. Plusieurs Thomas Deschênes en 1881-1891 (journalier de 56 ans en 1881, 1881-D1-P026-L03 ; forgeron en 1891) : non rattaché."
+          "note": "Entrepreneur de Saint-Romuald, déjà dans la maison ; ne sait pas signer. Plusieurs Thomas Deschênes en 1881-1891 (journalier de 56 ans en 1881, 1881-D1-P026-L03 ; forgeron en 1891) : non rattaché."
         },
         {
           "role": "temoin",
@@ -6493,7 +6493,80 @@
           "enonce": "Benjamin Demers possède une maison de bois d'un étage entre les rues Saint-Paul et Saint-Louis, à Saint-Romuald, louée à Thomas Deschênes pour 1874-1875."
         }
       ],
-      "note": "Benjamin Demers lotit sa terre (minute n° 12) et y loue des maisons : les rues Saint-Paul et Saint-Louis traversent sans doute ses anciens champs. À compléter : loyer et signatures.",
+      "note": "Benjamin Demers lotit sa terre (minute n° 12) et y loue des maisons : les rues Saint-Paul et Saint-Louis traversent sans doute ses anciens champs. Loyer : 50 piastres par an, en deux versements (août et novembre) ; le bailleur ne fait aucune réparation ; clause d'incendie. Benjamin Demers signe « Benj. Demers », comme son reçu de la minute n° 12.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-21-promesse-pelletier-langelier",
+      "type": "notarie",
+      "titre": "Promesse de vente d'un emplacement d'Eusèbe Pelletier, marchand, à Joseph Langelier, forgeron, Saint-Romuald, 1874",
+      "date": "1874-02-21",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 37, images 001098 à 001100 (suite non encore transcrite)",
+      "nature": "Minute originale très raturée : le notaire a d'abord rédigé l'acte comme une vente des demoiselles Blanchet à Julien Demers, de Saint-Jean-Chrysostome (cf. minute n° 3), puis l'a corrigé ; renvois paraphés « E. P. », « J. L. » et du notaire. Intitulé : « Promesse de vente Pelletier à Langelier ».",
+      "transcription": "« Pardevant Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, dans le comté de Lévis, soussigné ; Fut présent : Eusèbe Pelletier, écuyer, marchand, demeurant en la paroisse de St Romuald susdit ; Lequel promet, comme par ces présentes il promet, vendre, céder, transporter & abandonner, [avec garantie de tous troubles & empêchements généralement quelconques, & seulement dans le cas où les conditions ci-après mentionnées seront exécutées par l'acquéreur futur aux présentes,] à Mr Joseph Langelier, forgeron, de la dite paroisse de St Romuald, à ce présent & acceptant futur acquéreur pour lui, ses hoirs & ayants cause à l'avenir, savoir : Un emplacement situé en la dite paroisse de St Romuald, étant le numéro sept des emplacements désignés sur un plan tracé par Joseph Gamache, arpenteur, les premier & second jours de septembre de l'année mil huit cent soixante-dix, contenant quarante-cinq pieds de front sur soixante pieds de profondeur, borné par devant au nord-ouest au chemin public, & par derrière au sud-est au concédant ; d'un côté au nord-est à Pierre Boucher, & d'autre côté au sud-ouest à Étienne Morin, avec ensemble une maison en bois à un étage dessus construite, circonstances & dépendances, tel que le tout est actuellement […] & dont l'acquéreur futur se déclare content & satisfait, disant le bien connaître. Pour par le dit futur acquéreur jouir, faire & disposer, à commencer de la date du dit acte de vente, du dit immeuble […] en pleine & entière propriété […] »",
+      "personnes": [
+        {
+          "role": "promettant",
+          "nom": "Eusèbe Pelletier",
+          "ref_personne": "1881-D1-P013-L17",
+          "note": "Écuyer, marchand de Saint-Romuald ; paraphe « E. P. ». Marchand de 48 ans en 1881 (division 1, maison 47), marchand général de 57 ans en 1891 (1891-D1-P064-L25). Absent du dépouillement de 1871. Il lotit un terrain selon un plan d'arpentage de 1870."
+        },
+        {
+          "role": "futur_acquereur",
+          "nom": "Joseph Langelier",
+          "ref_personne": "1871-D1-P035-L19",
+          "note": "Forgeron de Saint-Romuald ; paraphe « J. L. ». En 1871 : Joseph Langelier, forgeron de 44 ans, division 1, maison 92 — le seul de ce nom."
+        },
+        {
+          "role": "arpenteur",
+          "nom": "Joseph Gamache",
+          "note": "Auteur du plan de lotissement des 1er et 2 septembre 1870."
+        },
+        {
+          "role": "voisin",
+          "nom": "Pierre Boucher",
+          "note": "Voisin au nord-est. Plusieurs Pierre Boucher recensés : non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Étienne Morin",
+          "note": "Voisin au sud-ouest. Un Étienne Morin, charretier de 30 ans, en 1871-D2 (maison 46), journalier en 1881 (1881-D1-P040-L02), débardeur en 1891 : non rattaché, faute de certitude."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-02-21",
+          "personnes": [
+            "1881-D1-P013-L17"
+          ],
+          "enonce": "Eusèbe Pelletier, marchand, possède à Saint-Romuald un terrain loti en emplacements selon un plan de l'arpenteur Joseph Gamache (1870), dont le n° 7, avec une maison de bois, promis à Joseph Langelier."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P035-L19"
+          ],
+          "enonce": "Le futur acquéreur Joseph Langelier, forgeron, est le forgeron de 44 ans recensé en 1871 (division 1, maison 92)."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1881-D1-P013-L17",
+            "1891-D1-P064-L25"
+          ],
+          "enonce": "Eusèbe Pelletier, écuyer, marchand en 1874, est le marchand recensé en 1881 et le marchand général de 1891."
+        }
+      ],
+      "note": "Promesse de vente conditionnelle : l'emplacement n° 7 du lotissement Pelletier (45 × 60 pieds, sur le chemin public, avec maison de bois d'un étage) ne sera vendu à Langelier que s'il remplit les conditions qui suivent. À compléter : prix et conditions, signatures.",
       "ajoute_le": "2026-10-31"
     }
   ]
