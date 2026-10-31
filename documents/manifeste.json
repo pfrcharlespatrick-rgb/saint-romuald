@@ -5207,6 +5207,85 @@
       ],
       "note": "Une terre de Saint-Nicolas sur le fleuve, partagée par moitié entre deux Demers, vraisemblablement frères — Isaïe, médecin absent, et Bazile, qui l'habite — sans ligne de division ; le fermier d'Isaïe fait sommer Bazile, qui accepte de bonne grâce et paiera sa part de l'arpenteur. Le notaire a recopié l'acte en entier pour y mettre la réponse. Aucune personne du recensement de Saint-Romuald.",
       "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1873-12-10-protet-plante-cauchon",
+      "type": "notarie",
+      "titre": "Protêt et offres de services de Cyprien Plante, journalier, à Pierre Cauchon, courrier, 1873",
+      "date": "1873-12-10",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 17, images 001009 à 001012",
+      "nature": "Minute originale très raturée ; neuf renvois en marge paraphés « C. P. » et du notaire. Intitulé en marge : « Protêt & offres de services C. Plante [à] Pierre Cauchon ». Signée du requérant et du notaire.",
+      "transcription": "« L'an mil huit cent soixante-treize, le dixième jour de décembre, avant midi, vers les dix heures, à la réquisition de Cyprien Plante, de la paroisse de Notre-Dame de Lévis, comté de Lévis, journalier, Je, Elzéar Hubert Tremblay, notaire public résidant & pratiquant au lieu de St Romuald, susdit comté, me suis transporté au domicile de sieur Pierre Cauchon, courrier, & employé par la Commission des chemins & barrières, situé en la dite paroisse de St Romuald, dit comté, où étant & parlant au sieur Pierre Cauchon personnellement, lui ai fait, aux dits noms & réquisition, les déclarations, notifications, sommations & offres de services suivantes, savoir : Attendu que le dit Cyprien Plante a été engagé par le dit sieur Pierre Cauchon, & a été employé au service de ce dernier depuis le vingt-neuf octobre dernier (mil huit cent soixante-treize), moyennant un salaire mensuel de la somme de dix piastres courant, outre les frais de nourriture & autres conditions, suivant convention verbale entre eux ; Attendu que le dit requérant a commencé à travailler & servir les intérêts du dit sieur Cauchon depuis le dit jour vingt-neuf novembre dernier, & a travaillé pour & au profit du dit sieur Pierre Cauchon jusqu'à la date du neuf du courant, & que lui, dit requérant, a manifesté le désir de quitter l'emploi à lui offert par le dit sieur Cauchon à l'expiration du présent mois de décembre, en lui en donnant un avis verbal en date du dit neuvième jour du courant ; Et attendu que l'intention réelle du dit requérant était & est encore de demeurer chez le dit sieur Pierre Cauchon & de lui continuer ses services jusqu'à l'expiration du dit mois de décembre courant, comme dit est, aux mêmes conditions ; Attendu qu'immédiatement après avoir été notifié verbalement par le dit requérant de son intention de laisser l'emploi du dit sieur Cauchon au temps ci-dessus indiqué, lui, dit sieur Cauchon, a refusé & refuse encore de continuer le dit emploi au dit requérant, & a refusé & refuse encore ses services ; Attendu que le dit requérant a toujours été & est encore prêt à continuer de travailler pour le dit sieur Cauchon pendant tout le temps qui reste à écouler pour finir le présent mois commencé, comme dit est, toujours aux mêmes conditions ; Attendu que le dit requérant se trouve maintenant sans emploi ; C'est pourquoi je, dit notaire, ès dite réquisition, ai notifié, requis & sommé […] le dit sieur Pierre Cauchon de reprendre immédiatement le dit Cyprien Plante à ses services, aux conditions du passé, & lui ai offert, comme par ces présentes je lui offre, les services du dit Cyprien Plante ; informant le dit sieur Cauchon qu'à défaut par lui de reprendre le dit requérant à ses services & lui continuer son emploi immédiatement, alors le requérant se pourvoira en justice pour l'y contraindre, ainsi que pour le recouvrement de tous les frais & dépens encourus & à encourir & les dommages déjà soufferts & à souffrir ; à quoi le dit sieur Pierre Cauchon a répondu : “Je ne l'ai pas renvoyé ; il a laissé l'ouvrage sans permission & je l'ai fait remplacer.” Et j'ai persisté ès dites notification, déclaration, sommation & offres. Fait & signifié au domicile du dit sieur Pierre Cauchon, sous le numéro dix-sept des originaux du notaire soussigné […] Et le requérant a signé avec moi, notaire, lecture faite. Deux cent sept mots rayés sont nuls. Neuf renvois en marge sont bons & approuvés. » Signatures : « Cyprien Plante », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "requerant",
+          "nom": "Cyprien Plante",
+          "note": "Journalier de Notre-Dame de Lévis ; signe. Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "partie",
+          "nom": "Pierre Cauchon",
+          "note": "Courrier et employé de la Commission des chemins et barrières (péages), domicilié à Saint-Romuald. Absent du recensement de 1871. En 1881, la veuve Marguerite Cauchon, 54 ans, vit avec ses enfants, dont un Pierre Cauchon de 23 ans, marchand de bois (1881-D1-P072-L11, maison 282) : le courrier de 1873 pourrait être son mari, mort entre-temps, plutôt que ce fils d'une quinzaine d'années — hypothèse, aucun rattachement."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1873-12-10",
+          "personnes": [],
+          "enonce": "Pierre Cauchon, de Saint-Romuald, est en 1873 courrier et employé de la Commission des chemins et barrières."
+        }
+      ],
+      "note": "Un engagé à dix piastres par mois, nourri, qui annonce son départ pour la fin du mois et se fait aussitôt renvoyer ; il fait offrir ses services par notaire pour pouvoir réclamer son mois. Réponse de Cauchon : « Je ne l'ai pas renvoyé ; il a laissé l'ouvrage sans permission & je l'ai fait remplacer. » L'acte donne « vingt-neuf octobre » en marge et « vingt-neuf novembre » dans le corps pour le début de l'engagement. Piste : la famille Cauchon de 1881 (maison 282).",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1873-12-22-ratification-olive-dagneau",
+      "type": "notarie",
+      "titre": "Ratification par Olive Dagneau dit Laprise de la donation faite à son frère Jean, 1873",
+      "date": "1873-12-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 18, images 001012 à 001014",
+      "nature": "Minute originale, acte complet ; « pas de copie » en marge. Intitulé : « Ratification de donation par Olive Dagneau ». Au verso, calculs au crayon.",
+      "transcription": "« L'an mil huit cent soixante-treize, le vingt-deuxième jour de décembre, avant midi, en présence de Elzéar Hubert Tremblay, notaire public résidant & pratiquant en la paroisse St Romuald, comté de Lévis, soussigné ; Fut présente : Delle Olive Dagneau dit Laprise, fille majeure, demeurant en la paroisse St Jean Chrysostome, dit comté ; Laquelle dit & déclare avoir pour agréable un certain acte de donation consenti par Dame veuve Jean Dagneau dit Laprise en faveur de sieur Jean Dagneau dit Laprise, son fils, en date à St Jean Chrysostome du neuvième jour de décembre courant, reçu par le notaire soussigné & dûment enregistré au bureau d'enregistrement de la division n° 2 du comté de Dorchester, & déclare l'accepter en autant qu'elle y est concernée, le tout après que lecture lui en a été faite. Dont & du tout elle a requis le présent acte, qui lui a été octroyé à St Jean Chrysostome, les jour, mois & an susdits, sous le numéro dix-huit des originaux du notaire soussigné. Et la comparante a signé avec moi, notaire, lecture faite. Seize mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » Signatures : « Olive Dagneau », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "comparante",
+          "nom": "Olive Dagneau dit Laprise",
+          "note": "Fille majeure de Saint-Jean-Chrysostome ; signe. Bénéficiaire de la donation n° 15 (logement chez son frère, 50 ou 100 piastres)."
+        },
+        {
+          "role": "mere",
+          "nom": "Marie Samson",
+          "note": "Veuve Jean Dagneau dit Laprise, donatrice (minute n° 15)."
+        },
+        {
+          "role": "frere",
+          "nom": "Jean Dagneau dit Laprise",
+          "note": "Donataire (minute n° 15)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fratrie",
+          "certitude": "etabli",
+          "date": "1873-12-22",
+          "personnes": [],
+          "enonce": "Olive Dagneau dit Laprise est fille de Marie Samson, veuve Jean Dagneau dit Laprise, et sœur du donataire Jean Dagneau dit Laprise ; elle sait signer."
+        }
+      ],
+      "note": "Suite de la donation n° 15 : Olive, qui y reçoit le droit d'être gardée chez son frère jusqu'à son mariage et une somme au décès de sa mère, accepte l'acte pour ce qui la concerne. Aucune personne du recensement de Saint-Romuald.",
+      "ajoute_le": "2026-10-31"
     }
   ]
 }
