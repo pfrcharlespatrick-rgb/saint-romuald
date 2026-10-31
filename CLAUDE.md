@@ -145,6 +145,13 @@ des blocs sont une décision consignée dans `docs/DIVISIONS-1891.md`. Ne jamais
 présenter cette division comme celle du manuscrit, ni toucher au champ `division`
 ni aux identifiants `1891-D1-…`.
 
+## Actes notariés du greffe Tremblay : la transcription continue
+
+Pour reprendre la transcription des actes du notaire Elzéar-Hubert Tremblay
+(images dans le Google Drive de Patrick), lire d'abord
+`documents/NOTAIRE-TREMBLAY-REPRISE.md` : emplacement des images, méthode de
+lecture, fichier où reprendre, pages manquantes et règles convenues.
+
 ## Saint-Jean-Chrysostome et Saint-Romuald se recouvrent
 
 Dans les actes notariés (greffe Tremblay et autres), une personne dite « de la
