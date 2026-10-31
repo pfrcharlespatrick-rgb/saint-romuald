@@ -5286,6 +5286,137 @@
       ],
       "note": "Suite de la donation n° 15 : Olive, qui y reçoit le droit d'être gardée chez son frère jusqu'à son mariage et une somme au décès de sa mère, accepte l'acte pour ce qui la concerne. Aucune personne du recensement de Saint-Romuald.",
       "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1873-12-22-testament-samson-dagneau",
+      "type": "notarie",
+      "titre": "Testament de Marie Samson, veuve Jean Dagneau dit Laprise, 1873 (fin)",
+      "date": "1873-12-22",
+      "date_incertaine": true,
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 19, image 001015-16 (dernière page seulement ; le début, vers 001014-15, reste à transcrire)",
+      "nature": "Dernière page, très raturée ; quatre renvois en marge paraphés « J. G. », « B. V. » et du notaire. La date est déduite des actes n° 18 et 20, passés le même jour avec les mêmes témoins.",
+      "transcription": "« […] mes hardes de corps […] pour, par ma dite fille, en jouir en pleine propriété à compter du jour de mon décès, sans être tenue d'en faire la demande en délivrance de legs, ce dont je la dispense. 3° Je nomme la personne de Jean Dagneau dit Laprise, mon fils, mon exécuteur testamentaire, & institue la dite Delle Olive Dagneau dit Laprise ma légataire, comme susdit ; 4° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme contenant exactement mes dernières volontés. Ce testament fut ainsi fait & nommé par la dite testatrice en présence des dits témoins, & après lecture faite elle a déclaré l'avoir bien entendu & compris & y a persisté. Dont acte à St Jean Chrysostome susdit, demeure de la testatrice, les jour, mois & an susdits, sous le numéro dix-neuf des originaux du notaire soussigné. Requise de signer, la testatrice a déclaré ne le savoir, les témoins ayant signé avec moi, notaire, lecture faite. Vingt-six mots rayés sont nuls. Quatre renvois en marge sont bons & approuvés. » Signatures : [marque X de la testatrice], « Joseph Giroux », « Basile Vermette », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Marie Samson, veuve Jean Dagneau dit Laprise",
+          "note": "Identification déduite : testatrice qui ne sait pas signer, mère de Jean et d'Olive Dagneau dit Laprise, à Saint-Jean-Chrysostome — la donatrice de la minute n° 15. À confirmer par la première page."
+        },
+        {
+          "role": "legataire",
+          "nom": "Olive Dagneau dit Laprise",
+          "note": "« Ma dite fille » ; reçoit les hardes de corps (et sans doute les meubles réservés à la donation n° 15)."
+        },
+        {
+          "role": "executeur",
+          "nom": "Jean Dagneau dit Laprise",
+          "note": "« Mon fils », exécuteur testamentaire."
+        },
+        {
+          "role": "temoin",
+          "nom": "Joseph Giroux",
+          "note": "Commis-marchand de Saint-Jean-Chrysostome ; signe (voir minutes n° 13 et 14)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Bazile Vermette",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe (voir minutes n° 13 et 15)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Troisième acte de la famille Dagneau dit Laprise le même mois (n° 15, 18, 19, 20) : la mère, après avoir donné ses biens à son fils, teste en faveur de sa fille. À compléter : la première page.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1873-12-22-testament-olive-dagneau",
+      "type": "notarie",
+      "titre": "Testament d'Olive Dagneau dit Laprise, 1873",
+      "date": "1873-12-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 20, images 001016 à 001019",
+      "nature": "Minute originale ; acte complet. Intitulé en marge : « Testament de Olive Dagneau ».",
+      "transcription": "« L'an mil huit cent soixante-treize, le vingt-deuxième jour de décembre, avant midi, en présence de Elzéar Hubert Tremblay, notaire public résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné, & en présence de sieur Joseph Giroux, commis-marchand, & de sieur Bazile Vermette, journalier, demeurant tous deux en la paroisse de St Jean Chrysostome, aussi soussignés, témoins au présent testament ; Fut présente : Delle Olive Dagneau dit Laprise, fille majeure, demeurant au dit lieu de St Jean Chrysostome, étant en bonne santé de corps, saine d'esprit […] 1° Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par mon exécuteur testamentaire ci-après nommé, à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, messes & prières ; 2° Je donne & lègue à sieur Jean Dagneau dit Laprise, mon frère, tous les biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès […] en pleine propriété à compter du jour de mon décès ; 3° Je nomme le dit sieur Jean Dagneau dit Laprise mon exécuteur testamentaire & l'institue mon légataire universel en propriété ; 4° Enfin je révoque tous autres testaments & codicilles […] Dont acte à St Jean Chrysostome susdit, en la demeure de la testatrice, les jour, mois & an susdits, sous le numéro vingt des originaux du notaire soussigné. Et la testatrice & les dits témoins, de ce requis, ont signé avec moi, notaire, après lecture faite. Vingt-cinq mots rayés sont nuls. » Signatures : « Olive Dagneau », « Joseph Giroux », « Basile Vermette », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Olive Dagneau dit Laprise",
+          "note": "Fille majeure de Saint-Jean-Chrysostome ; signe."
+        },
+        {
+          "role": "legataire",
+          "nom": "Jean Dagneau dit Laprise",
+          "note": "« Mon frère », légataire universel et exécuteur."
+        },
+        {
+          "role": "temoin",
+          "nom": "Joseph Giroux",
+          "note": "Commis-marchand de Saint-Jean-Chrysostome ; signe (voir minutes n° 13 et 14)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Bazile Vermette",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe (voir minutes n° 13 et 15)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fratrie",
+          "certitude": "etabli",
+          "date": "1873-12-22",
+          "personnes": [],
+          "enonce": "Olive et Jean Dagneau dit Laprise sont frère et sœur."
+        }
+      ],
+      "note": "Le même matin, Olive ratifie la donation faite à son frère (n° 18), sa mère teste en sa faveur (n° 19) et elle lègue tout à son frère (n° 20). Aucune personne du recensement de Saint-Romuald.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1873-12-22-obligation-duperron-cantin",
+      "type": "notarie",
+      "titre": "Obligation d'Antoine Duperron dit Laverte envers Laurent Cantin, d'Ontario, 1873",
+      "date": "1873-12-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 21, image 001019-20 (suite non encore transcrite)",
+      "nature": "Formulaire imprimé d'obligation (« Pardevant le Notaire Public »), rempli à la main, mention « Bas-Canada » biffée ; première page seulement, abîmée. Intitulé en marge : « Obligation [Duperron à] Cantin ».",
+      "transcription": "« Pardevant le Notaire Public résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné, & en présence de sieur Damase Lambert, de la paroisse de St Jean Chrysostome, agriculteur, témoin au présent acte, aussi soussigné ; Fut présent Mr Antoine Duperron dit Laverte [?], demeurant en la paroisse de St Lambert, comté de Lévis, agriculteur ; Lequel a reconnu & confessé devoir bien légitimement à Mr Laurent Cantin, [Isaac Cantin, de la paroisse de St Jean Chrysostome, dit comté, agriculteur, agissant en ces présentes comme procureur dûment fondé de procuration du dit Laurent Cantin, du township de Sommerville, dans le comté de Victoria, dans la province d'Ontario, journalier, suivant procuration en date du vingt-troisième jour de mars mil huit cent soixante-neuf], à ce présent & acceptant, la somme de soixante-dix piastres courant, provenant comme suit, savoir : cinquante piastres pour argent prêté & réellement délivré au dit débiteur dès avant ces présentes, & vingt piastres pour les intérêts échus jusqu'à la date du dix-sept d'octobre dernier (mil huit cent soixante-treize), ainsi que le dit débiteur le reconnaît & dont il se déclare content & satisfait. Laquelle dite somme de soixante-dix piastres courant, le dit débiteur promet & s'oblige, pour lui, ses héritiers & ayants cause, payer & rembourser au dit créancier, ou ordre, porteur des présentes en forme légale, d'hui en un an, ensemble […] »",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Antoine Duperron dit Laverte [?]",
+          "note": "Agriculteur de Saint-Lambert ; surnom de lecture incertaine. Un Joseph Duperon, journalier de 25 ans, est recensé à Saint-Romuald en 1871 (1871-D1-P058-L17) : aucun lien établi."
+        },
+        {
+          "role": "creancier",
+          "nom": "Laurent Cantin",
+          "note": "Journalier du township de Sommerville, comté de Victoria, Ontario — un émigré de la région, qui fait gérer ses créances au pays par procuration (1869)."
+        },
+        {
+          "role": "procureur",
+          "nom": "Isaac Cantin",
+          "note": "Agriculteur de Saint-Jean-Chrysostome, procureur de Laurent Cantin (parent probable). Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "temoin",
+          "nom": "Damase Lambert",
+          "note": "Agriculteur de Saint-Jean-Chrysostome."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Trace de l'émigration vers l'Ontario : un journalier parti dans le comté de Victoria laisse à un parent resté à Saint-Jean-Chrysostome le soin de recouvrer son prêt de 50 piastres. À compléter : la suite (garantie, signatures).",
+      "ajoute_le": "2026-10-31"
     }
   ]
 }
