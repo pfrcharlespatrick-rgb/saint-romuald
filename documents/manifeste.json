@@ -5649,6 +5649,137 @@
       ],
       "note": "Un vieux cultivateur donne tout — une terre de la concession Beaulieu, une maison sur le chemin de la Reine, deux bandes de la concession Taniata jusqu'à la rivière Etchemin, meubles, cheval et bétail — à une parente (nièce ? sœur ?) qui le soigne ; la parenté n'est pas dite. Aucune personne du recensement de Saint-Romuald. À compléter : la suite (charges, rente viagère probable, signatures).",
       "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-01-sommation-bourassa-laviesse",
+      "type": "notarie",
+      "titre": "Sommation d'Edouard Bourassa, tuteur, à la veuve Marguerite Lavièsse dite Laliberté de faire inventaire, 1874",
+      "date": "1874-01",
+      "date_incertaine": true,
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 25, images 001040 à 001043 (le début, avec la date exacte et le préambule, est sur les images 001035 à 001040, non encore transcrites)",
+      "nature": "Sommation signifiée par le notaire, très raturée ; onze renvois en marge. Signée du seul notaire. Entre le 10 janvier (n° 24) et le 22 janvier 1874 (n° 26).",
+      "transcription": "« […] & sommations suivantes, savoir : Attendu que la dite feue Ursule Tardif est décédée ab intestat en date du deux [?] de février mil huit cent soixante-cinq ; Attendu que le dit feu François Bourassa est aussi décédé ab intestat en date du vingt-huit d'août dernier (mil huit cent soixante-treize), laissant tous deux des biens dans leurs successions respectives ; Attendu que les dits enfants mineurs sont habiles à se dire & porter héritiers, en autant qu'ils y sont actuellement concernés, des biens meubles & immeubles composant la première communauté qui a existé entre lesdits feus François Bourassa & Ursule Tardif, leurs dits père & mère, & existant lors de la dissolution de la dite première communauté ; Attendu qu'il est nécessaire, indispensable même, que la dite Dame Marguerite Lavièsse dite Laliberté fasse procéder à l'inventaire des biens composant la dite première communauté & existant lors de sa dissolution, comme susdit ; C'est pourquoi je, dit notaire, ai, à la réquisition susdite, notifié, requis & sommé, comme par ces présentes je notifie, requiers & somme la dite Marguerite Lavièsse dite Laliberté de faire procéder immédiatement, sans aucun délai, à l'inventaire des biens composant la première communauté qui a existé comme susdit & existant lors de sa dissolution, l'informant qu'à défaut par elle de ce faire sans délai, le dit tuteur procédera en justice à le faire par commune renommée, ainsi que pour le recouvrement de tous les frais & dépens encourus & à encourir & les dommages soufferts & à souffrir. À quoi la dite Dame Marguerite Lavièsse dite Laliberté a répondu : “Je n'ai aucune réponse à donner.” Et j'ai persisté ès dites déclarations, notifications, sommations & réquisitions. Fait & signifié au domicile de la dite Dame Marguerite Lavièsse dite Laliberté, situé en la dite paroisse de St Romuald, ancienne demeure desdits feus François Bourassa & Ursule Tardif, sous le numéro vingt-cinq des originaux du dit notaire soussigné, où j'ai laissé une copie authentique des présentes entre les mains de la dite Dame Marguerite Lavièsse dite Laliberté, afin qu'elle n'en puisse prétendre ni plaider cause d'ignorance. Et j'ai signé, lecture faite à la dite Dame Marguerite Lavièsse dite Laliberté personnellement. Soixante-dix mots rayés sont nuls. Onze renvois en marge sont bons & approuvés. » Signature : « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "requerant",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "Tuteur des quatre mineurs ; requiert la sommation (identifié par la suite des actes ; nom sur la page non transcrite)."
+        },
+        {
+          "role": "partie",
+          "nom": "Marguerite Lavièsse dite Laliberté",
+          "ref_personne": "1871-D2-P067-L20",
+          "note": "Veuve de François Bourassa, seconde épouse ; sommée à son domicile, « ancienne demeure desdits feus François Bourassa & Ursule Tardif » ; répond : « Je n'ai aucune réponse à donner. »"
+        },
+        {
+          "role": "defunt",
+          "nom": "François Bourassa",
+          "ref_personne": "1871-D2-P067-L19"
+        },
+        {
+          "role": "defunte",
+          "nom": "Ursule Tardif",
+          "note": "Morte intestat en février 1865 ; le jour se lit ici « deux », la sommation n° 119 dit « six »."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "date": "1874-01",
+          "personnes": [
+            "1871-D2-P067-L20",
+            "1871-D2-P067-L19"
+          ],
+          "enonce": "En janvier 1874, la veuve Marguerite Lavièsse dite Laliberté habite l'« ancienne demeure » de François Bourassa et d'Ursule Tardif — la maison Bourassa."
+        },
+        {
+          "type": "nom_de_naissance",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P067-L20"
+          ],
+          "enonce": "Marguerite Bourassa (1871) est née Lavièsse dite Laliberté — graphie lue ici plusieurs fois, de façon cohérente."
+        }
+      ],
+      "note": "Le chaînon entre la renonciation n° 23 (9 janvier) et l'inventaire n° 42 : le tuteur somme la veuve de faire l'inventaire des biens de la première communauté, dont ses beaux-fils héritent par leur mère ; elle refuse de répondre. L'inventaire se fera plus tard, à la réquisition du curateur, et son préambule garde la trace — barrée — de ce refus. Date du décès d'Ursule Tardif : « deux » ici, « six » à l'acte n° 119 ; à trancher par l'acte de sépulture. À compléter : le début de l'acte (images 001035-001040).",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-01-22-procuration-lecours-gelly",
+      "type": "notarie",
+      "titre": "Procuration de Catherine Lecours, veuve Antoine Samson, à Louis Gelly, cordonnier, 1874",
+      "date": "1874-01-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 26, images 001043 à 001045 (signatures non encore transcrites)",
+      "nature": "Minute originale ; « Expédié 1 fois ». Intitulé : « Procuration Veuve Samson à Louis Jelly ». Renvois paraphés « B. L. » (Bazile Lavergne) et du notaire.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le vingt-deuxième jour de janvier, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné, & en présence de Mr Bazile Lavergne, du dit lieu de St Romuald, dit comté, maître barbier-coiffeur, témoin au présent acte, aussi soussigné ; Fut présente : Dame Catherine Lecours, demeurant en la dite paroisse de St Romuald, veuve de feu sieur Antoine Samson, en son vivant de la paroisse de Notre-Dame de la Pointe Lévis, cultivateur ; Laquelle, par ces présentes, a fait & constitué pour son procureur spécial la personne de sieur Louis Jelly, de la paroisse de St Romuald, dit comté, cordonnier, auquel elle donne pouvoir de, pour elle & en son nom, retirer & recevoir de Mr Augustin Carrier, de la dite paroisse de Notre-Dame de la Pointe Lévis, cultivateur, & beau-fils de la dite Dame veuve Samson, tous les versements échus & à échoir d'une certaine rente que le dit sieur Augustin Carrier s'est obligé de lui payer jusqu'à la date de son décès, au montant de la somme de quarante piastres par année, payable en quatre versements égaux, de trois mois en trois mois, de la somme de dix piastres chaque ; la dite mandante autorisant par ces présentes son mandataire de signer toutes quittances notariées en faveur du dit sieur Carrier ; ratifiant dès à présent tout ce que fera son mandataire en vertu des présentes. La présente procuration demeurera en force jusqu'à révocation expresse, nonobstant surannation & laps de temps. Dont acte requis & octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro vingt-six des originaux […] »",
+      "personnes": [
+        {
+          "role": "mandante",
+          "nom": "Catherine Lecours",
+          "ref_personne": "1871-D1-P049-L01",
+          "note": "Veuve d'Antoine Samson, de Saint-Romuald ; voir la quittance n° 2. En 1871, logée à 80 ans chez Louis Gelly (maison 131) : elle confie la perception de sa rente à son logeur."
+        },
+        {
+          "role": "mandataire",
+          "nom": "Louis Gelly (« Jelly »)",
+          "ref_personne": "1871-D1-P048-L13",
+          "note": "Cordonnier de Saint-Romuald. En 1871 : Louis Gelly, cordonnier de 58 ans, division 1, maison 131 — le ménage même où Catherine Lecours, 80 ans, était logée ; en 1891 : Louis Gely, cordonnier veuf de 76 ans (1891-D1-P012-L20, rapprochement de confiance forte)."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Augustin Carrier",
+          "note": "Cultivateur de Notre-Dame de la Pointe-Lévis, beau-fils de la mandante ; lui doit une rente viagère de 40 piastres par an (voir la quittance n° 2)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Bazile Lavergne",
+          "ref_personne": "1871-D1-P003-L04",
+          "note": "« Maître barbier-coiffeur » de Saint-Romuald ; paraphe « B. L. ». En 1871 : Basile Lavergne, barbier veuf de 62 ans, division 1, maison 7 — le seul de ce nom."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P049-L01",
+            "1871-D1-P048-L13"
+          ],
+          "enonce": "La veuve Catherine Lecours, logée en 1871 dans le ménage du cordonnier Louis Gelly, le prend pour procureur en 1874 : les deux rattachements se confirment l'un l'autre."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-01-22",
+          "personnes": [
+            "1871-D1-P003-L04"
+          ],
+          "enonce": "Bazile Lavergne est maître barbier-coiffeur à Saint-Romuald en 1874, comme en 1871 (barbier)."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-01-22",
+          "personnes": [
+            "1871-D1-P049-L01"
+          ],
+          "enonce": "Catherine Lecours reçoit de son beau-fils Augustin Carrier une rente viagère de 40 piastres par an, en quatre versements de 10 piastres."
+        }
+      ],
+      "note": "Suite de la quittance n° 2 (novembre 1873) : la vieille veuve, qui ne sait pas signer, charge son logeur de toucher sa rente. Le notaire écrit « Jelly » ; le recensement « Gelly » (1871) et « Gely » (1891). À compléter : la page des signatures.",
+      "ajoute_le": "2026-10-31"
     }
   ]
 }
