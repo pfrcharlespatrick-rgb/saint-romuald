@@ -37,10 +37,11 @@ droite (« 001110 | 001111 ») : on cite toujours la paire.
 
 ## Où reprendre
 
-**Au fichier 00207**, c'est-à-dire au microfilm 001151-52 : la suite de
+**Au fichier 00212**, c'est-à-dire au microfilm 001156-57 : la suite de
 **l'inventaire n° 42** des biens de François Bourassa (fiche
-`notarie-1873-inventaire-bourassa`), après la montre en or « que feu
-François Bourassa a acquise ».
+`notarie-1873-inventaire-bourassa`). La première journée (27 février 1874)
+s'est close sur le fichier 00211, ajournée au « jeudi prochain », soit le
+**5 mars 1874** ; la clôture est datée du 20 mai 1874.
 
 Fait le 31 octobre 2026 (fichiers 00181 à 00190) :
 
@@ -52,8 +53,9 @@ Fait le 31 octobre 2026 (fichiers 00181 à 00190) :
   chercher plus loin une clôture ou une reprise datée du 20 mai 1874.
 
 Les fichiers 00191 à 00201 (microfilm 001135 à 001145) étaient déjà
-transcrits ; les fichiers 00202 à 00206 (chambres n° 7 à 9, le « magasin »
-et son stock de boissons, volailles, voitures, poêles) ont été lus ensuite. Après l'inventaire viennent les actes n° 43 et suivants.
+transcrits ; les fichiers 00202 à 00211 (chambres n° 7 à 9, le « magasin »
+et son stock de boissons, la montre en or, la garde-robe d'Ursule Tardif,
+l'ajournement signé de tous) ont été lus ensuite. Après l'inventaire viennent les actes n° 43 et suivants.
 
 ## Les pages qui manquent encore
 
