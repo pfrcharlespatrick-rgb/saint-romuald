@@ -145,6 +145,15 @@ des blocs sont une décision consignée dans `docs/DIVISIONS-1891.md`. Ne jamais
 présenter cette division comme celle du manuscrit, ni toucher au champ `division`
 ni aux identifiants `1891-D1-…`.
 
+## Saint-Jean-Chrysostome et Saint-Romuald se recouvrent
+
+Dans les actes notariés (greffe Tremblay et autres), une personne dite « de la
+paroisse de St Jean Chrysostome » peut être recensée à Saint-Romuald, surtout
+dans la division 2 : les limites des deux paroisses se recouvrent (indication
+de Patrick, 2026-10-31). Ne pas écarter un rattachement pour ce seul motif ;
+le noter, et le marquer « probable » ou « hypothese » selon les autres indices
+(prénom, âge, métier, conjoint).
+
 ## Gabarit « dictionnaire biographique »
 
 Quand l'utilisateur fournit ou demande une mise en page de fiches biographiques (ex. extraits d'ouvrages comme *Mission New Liverpool* de Julie Doyon), utiliser ce gabarit — c'est le format que l'utilisateur préfère pour ce type de contenu :

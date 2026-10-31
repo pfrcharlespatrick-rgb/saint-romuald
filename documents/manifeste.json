@@ -4195,7 +4195,7 @@
         {
           "role": "concedant",
           "nom": "Pierre Roberge",
-          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait pas signer. Le Pierre Roberge de Saint-Romuald en 1871 (1871-D2-P070-L03) est menuisier : rien ne les rapproche."
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait pas signer. Le Pierre Roberge de Saint-Romuald en 1871 (1871-D2-P070-L03) est menuisier : rien ne les rapproche. Si « St Jean Chrysostome » recouvre ici la division 2 de Saint-Romuald (indication de Patrick), il pourrait s'agir du Pierre Roberge recensé en 1871 (1871-D2-P070-L03), mais celui-ci est menuisier, non cultivateur : non rattaché."
         },
         {
           "role": "concessionnaire",
@@ -5445,7 +5445,7 @@
         {
           "role": "creancier",
           "nom": "Étienne Lapierre",
-          "note": "Cultivateur de Saint-Jean-Chrysostome."
+          "note": "Cultivateur de Saint-Jean-Chrysostome. Piste, si « St Jean Chrysostome » recouvre la division 2 (indication de Patrick) : un Étienne Lapierre, journalier de 60 ans, est recensé en 1881 (1881-D1-P052-L08), et un Étienne Denis dit Lapierre est chef de ménage en 1891 (maison 55) — non rattaché."
         },
         {
           "role": "temoin",
@@ -5607,7 +5607,8 @@
         {
           "role": "temoin",
           "nom": "Olivier Roberge",
-          "note": "Cultivateur de Saint-Jean-Chrysostome ; paraphe « O. R. »."
+          "note": "Cultivateur, dit « de St Jean Chrysostome » ; paraphe « O. R. ». Peut-être Olivier Roberge, 20 ans en 1871, dans le ménage de Louis Roberge (division 2, maison 22), 32 ans en 1881 (1881-D2-P057-L08), garçon de ferme de 41 ans en 1891 (1891-D1-P132-L09) — hypothèse. Rattachement fait sur l'indication de Patrick : les gens dits « de St Jean Chrysostome » dans les actes peuvent être ceux de Saint-Romuald (division 2), les limites des deux paroisses se recouvrant.",
+          "ref_personne": "1871-D2-P010-L03"
         },
         {
           "role": "voisin",
@@ -5645,6 +5646,14 @@
           "date": "1874-01-10",
           "personnes": [],
           "enonce": "Adèle Cadoret est l'épouse de Jean-Baptiste Cantin, de Saint-Jean-Chrysostome."
+        },
+        {
+          "type": "identite",
+          "certitude": "hypothese",
+          "personnes": [
+            "1871-D2-P010-L03"
+          ],
+          "enonce": "Le témoin Olivier Roberge, cultivateur, pourrait être le fils de Louis Roberge recensé dans la division 2 en 1871 (20 ans) — à confirmer."
         }
       ],
       "note": "Un vieux cultivateur donne tout — une terre de la concession Beaulieu, une maison sur le chemin de la Reine, deux bandes de la concession Taniata jusqu'à la rivière Etchemin, meubles, cheval et bétail — à une parente (nièce ? sœur ?) qui le soigne ; la parenté n'est pas dite. Aucune personne du recensement de Saint-Romuald. À compléter : la suite (charges, rente viagère probable, signatures).",
@@ -6184,7 +6193,8 @@
         {
           "role": "acquereur",
           "nom": "Pierre Cantin",
-          "note": "Cultivateur de Saint-Jean-Chrysostome. Un Pierre Cantin, cultivateur de 64 ans, est recensé en 1871 dans la division 2 de Saint-Romuald (1871-D2-P002-L18, maison 6), et de 71 ans en 1881 (1881-D2-P053-L19) : l'acte le dit de Saint-Jean-Chrysostome, non rattaché."
+          "note": "Cultivateur, dit « de St Jean Chrysostome ». En 1871 : Pierre Cantin, cultivateur de 64 ans, division 2, maison 6 ; en 1881 : cultivateur de 71 ans (1881-D2-P053-L19) — le seul Pierre Cantin cultivateur adulte. Rattachement fait sur l'indication de Patrick : les gens dits « de St Jean Chrysostome » dans les actes peuvent être ceux de Saint-Romuald (division 2), les limites des deux paroisses se recouvrant.",
+          "ref_personne": "1871-D2-P002-L18"
         },
         {
           "role": "temoin",
@@ -6216,6 +6226,15 @@
           "date": "1872-08-02",
           "personnes": [],
           "enonce": "Edouard Couture, cultivateur de Saint-Jean-Chrysostome, est établi à Saint-Jérôme, comté de Chicoutimi, dès août 1872."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P002-L18",
+            "1881-D2-P053-L19"
+          ],
+          "enonce": "L'acquéreur Pierre Cantin, cultivateur, est vraisemblablement le cultivateur de ce nom recensé dans la division 2 de Saint-Romuald en 1871 (64 ans) et en 1881 (71 ans)."
         }
       ],
       "note": "Trace de la colonisation du Saguenay–Lac-Saint-Jean : un cultivateur de Saint-Jean-Chrysostome parti à Saint-Jérôme (Chicoutimi) vend sa terre de la concession Beauséjour par l'intermédiaire d'un marchand de Québec. La procuration est déposée sous le n° 33. À compléter : la suite (prix, signatures).",
