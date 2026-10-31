@@ -1,7 +1,7 @@
 ---
 title: "Saint-Romuald en 1873-1874 vu par le greffe du notaire Elzéar-Hubert Tremblay"
 subtitle: "Rapport de recherche — ce que révèlent les cinquante premiers actes transcrits, rapprochés des recensements de 1871, 1881 et 1891"
-author: "Préparé pour Patrick Charles, à partir du travail de transcription fait avec Claude"
+author: "Préparé pour Patrick, à partir du travail de transcription fait avec Claude"
 date: "31 octobre 2026"
 lang: fr-CA
 ---
@@ -61,8 +61,8 @@ Plusieurs indices montrent un notaire qui débute :
   janvier 1874.^10,11^
 
 Il est, dans les actes, « notaire résidant et pratiquant à Saint-Romuald »,
-mais il n'apparaît dans aucun des recensements dépouillés (1871, 1881, 1891)
-: arrivé après avril 1871, il n'est plus recensé dans la paroisse en 1881, ou
+mais il n'apparaît dans aucun des recensements dépouillés (1871, 1881, 1891) :
+arrivé après avril 1871, il n'est plus recensé dans la paroisse en 1881, ou
 sa ligne n'a pas été trouvée.^12^
 
 Le **coût d'un acte** est noté une fois sur la chemise : une promesse de
@@ -103,8 +103,9 @@ Les actes notariés corrigent et complètent ce tableau :
   fait sûr). Elle ne sait pas signer.^25,19,20^
 * La mère des quatre garçons est la **première épouse, Ursule Tardif**,
   morte intestat en février 1865 — d'où son absence du recensement de
-  1871. Le jour se lit « deux » dans deux actes et « six » dans un
-  troisième.^25,26,20^
+  1871. Le jour se lit « deux » dans la sommation n° 25 et dans le corps de la
+  sommation n° 40, mais « six » en marge du n° 40 et dans la sommation
+  n° 119.^25,26,20^
 * François Bourassa et Ursule Tardif s'étaient mariés **sous contrat passé à
   Saint-Jean-Chrysostome le 18 juin 1855**, devant le notaire Amb. Trudelle,
   avec un douaire préfix pour leurs enfants.^11^
@@ -300,8 +301,7 @@ du notaire.
 
 ## 4.1 Les témoins réguliers
 
-* **Edouard Bourassa**, « cultivateur & commerçant », puis « agriculteur »
-  : témoin des testaments Pichette (n° 4 et 5), déposant (n° 12), témoin
+* **Edouard Bourassa**, « cultivateur & commerçant », puis « agriculteur » : témoin des testaments Pichette (n° 4 et 5), déposant (n° 12), témoin
   du bail Demers (n° 36), tuteur Bourassa (n° 23, 25, 40, 42, 119). Il a
   aussi **témoigné deux fois à Québec** dans la cause Gingras contre Demers
   et en reçoit 4 piastres pour ses voyages.^47,40^^48,28^
