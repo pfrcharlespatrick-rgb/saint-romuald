@@ -4761,6 +4761,92 @@
       "affirmations": [],
       "note": "Petit bail d'hiver (décembre 1873 à avril 1874), sept chelins et demi par mois, pour une maison de bois d'un étage avec hangar, à Saint-Étienne. Aucune personne du recensement de Saint-Romuald.",
       "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1873-11-26-quittance-carrier-carrier",
+      "type": "notarie",
+      "titre": "Quittance de Charles Carrier père à son fils Charles Carrier, donataire, 1873",
+      "date": "1873-11-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 8, image 000975-76",
+      "nature": "Minute originale, une page ; acte complet. Intitulé en marge : « Quittance Carrier à Carrier ».",
+      "transcription": "« L'an mil huit cent soixante-treize, le vingt-sixième jour de novembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public résidant & pratiquant en la paroisse St Romuald, comté de Lévis, soussigné ; (+) [& en présence de Charles Fournier, de la dite paroisse St Romuald, organiste, témoin au présent acte, aussi soussigné] ; Fut présent : Mr Charles Carrier, de la paroisse St Jean Chrysostome, dit comté, ancien agriculteur ; Lequel reconnaît que Charles Carrier, son fils, donataire, lui a payé toute rente viagère & autres redevances jusqu'à la date des présentes. Dont acte à St Jean susdit, les jour, mois & an susdits, sous le numéro huit des originaux du notaire soussigné ; Et le comparant a déclaré ne savoir signer, de ce requis, en présence du dit témoin, qui a signé avec moi, notaire, lecture faite. Un renvoi en marge est bon & approuvé. » Signatures : « Charles [sa marque X] Carrier », « Chs. Fournier, org. », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "comparant",
+          "nom": "Charles Carrier, père",
+          "note": "Ancien agriculteur de Saint-Jean-Chrysostome ; ne sait pas signer. Vraisemblablement le « sieur Charles Carrier, père » du futur époux du contrat de mariage n° 6, passé trois jours plus tôt."
+        },
+        {
+          "role": "donataire",
+          "nom": "Charles Carrier, fils",
+          "note": "Fils et donataire de Charles Carrier : il a reçu les biens de son père contre une rente viagère. Peut-être le futur époux d'Euphrasie Demers (minute n° 6) — hypothèse. Le Charles Carrier, journalier de 28 ans, recensé à Saint-Romuald en 1881 (1881-D1-P043-L01) a pour épouse Julie et un fils né vers 1871 : ce n'est pas lui."
+        },
+        {
+          "role": "temoin",
+          "nom": "Charles Fournier",
+          "ref_personne": "1871-D1-P040-L03",
+          "note": "Organiste de Saint-Romuald ; signe « Chs. Fournier, org. » — le même témoin qu'à la minute n° 2. En 1871 : organiste de 23 ans, maison 105."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "date": "1873-11-26",
+          "personnes": [],
+          "enonce": "Charles Carrier, de Saint-Jean-Chrysostome, ancien agriculteur, a pour fils et donataire Charles Carrier, qui lui sert une rente viagère."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1873-11-26",
+          "personnes": [
+            "1871-D1-P040-L03"
+          ],
+          "enonce": "Charles Fournier est organiste à Saint-Romuald en novembre 1873 (deuxième mention)."
+        }
+      ],
+      "note": "Même mécanisme qu'à la minute n° 2 : un vieux cultivateur a donné sa terre à son fils contre une rente viagère. Le rapprochement avec le contrat de mariage n° 6 (trois jours plus tôt, même père Charles Carrier, même paroisse) est probable : la ferme donnée par le fils à sa femme — bétail, charrue, voitures — serait celle reçue du père. À confirmer par le début du contrat n° 6, qui donne le prénom du futur époux.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1873-11-26-lease-mcaneeny-dee",
+      "type": "notarie",
+      "titre": "Bail (Lease) de Michael McAneeny à William Thomas Dee, Saint-Romuald, 1873",
+      "date": "1873-11-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 9 en tête, « number ten » dans la clôture [à vérifier], images 000976 à 000980",
+      "nature": "Formulaire imprimé en anglais (« Lease »), de l'étude de Geo. Théo. Tremblay, notaire, 59 John Street (Without), Québec, adapté à la main : la mention « City of Quebec » et le nom de Geo. Théo. Tremblay sont biffés, remplacés par « parish of St Romuald, county of Lévis ». Clauses de la ville (aqueduc) biffées. Acte complet ; la dernière image est la chemise vierge du formulaire. Intitulé en marge : « Lease McAneeny to Dee ».",
+      "transcription": "« On this day, the twenty-sixth of November, in the Year of Our Lord one thousand eight hundred and seventy-three, Before me the undersigned Notary Public […] residing in the parish of St Romuald, county of Lévis, Personally came and appeared Michael McAneeny, joiner, of the said parish, Who did, and by these presents doth demise and lease unto William Thomas Dee, of the same place, laborer, who hereby accepts for himself, his heirs, executors, curators and administrators, that is to say : A certain wooden house, one story high, lying & situated on the north level of public road, in the same parish, adjoining to the east side to the lessor & to the west by McKenzie […] commence to run and to be computed from the first of December and fully to be completed and ended on the first day of May which will be in the year of our Lord one thousand eight hundred and seventy-four […] The present lease is further made for and in consideration of the sum of twenty-five dollars for the whole of its duration, which the said lessee doth bind and oblige himself to pay unto the lessor or to his order, in good current money, by five equal & monthly payments of five dollars each, to the entire payment of the said sum. […] Thus done and passed at the aforesaid parish of St Romuald, in the office of the said Notary, on the day and year above written, under the number ten [?] of the original deeds of said notary, and the parties have signed their names with us Notary after reading duly made according to law. One hundred & two words struck out are null. Two marginal notes approved good. » Signatures : « M. McAneeny », « W. T. Dee », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Michael McAneeny",
+          "note": "Menuisier (« joiner ») de Saint-Romuald ; signe « M. McAneeny ». Absent des recensements dépouillés : arrivé après 1871 et reparti avant 1881. Lecture du patronyme à confirmer (McAneeny, McAheeny ?)."
+        },
+        {
+          "role": "preneur",
+          "nom": "William Thomas Dee",
+          "note": "Journalier (« laborer ») de Saint-Romuald ; signe « W. T. Dee ». Absent des recensements dépouillés."
+        },
+        {
+          "role": "voisin",
+          "nom": "McKenzie",
+          "note": "Voisin à l'ouest, sur le côté nord du chemin public. Un John McKenzie, ship chandler, est recensé en 1871 dans la division 2 (1871-D2-P057-L04, maison 147) : le prénom manque à l'acte, aucun rattachement."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Premier acte anglais du greffe : deux ouvriers anglophones de Saint-Romuald, l'un louant à l'autre une maison de bois d'un étage, voisine de la sienne, pour l'hiver 1873-1874 (cinq dollars par mois). Le formulaire vient de l'étude de Geo. Théo. Tremblay, notaire à Québec, 59 rue Saint-Jean (extra-muros) — parent ou ancien patron d'E.-H. Tremblay ? Numérotation à vérifier : « No 9 » en tête, « number ten » à la clôture.",
+      "ajoute_le": "2026-10-31"
     }
   ]
 }
