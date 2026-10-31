@@ -5920,7 +5920,7 @@
           "role": "testateur",
           "nom": "Ignace Samson",
           "ref_personne": "1871-D2-P008-L08",
-          "note": "Agriculteur de Saint-Romuald, malade en février 1874. En 1871 : cultivateur de 49 ans, division 2, maison 19, avec sa femme Rosalie (48 ans) et sept enfants. Absent de 1881, où sa veuve Rosalie, 59 ans, est chef de ménage (1881-D2-P045-L13, maison 191) — il est vraisemblablement mort entre 1874 et 1881. Ne sait pas signer. Demeure « en la division de la dite paroisse appelée Sault »."
+          "note": "Agriculteur de Saint-Romuald, malade en février 1874. En 1871 : cultivateur de 49 ans, division 2, maison 19, avec sa femme Rosalie (48 ans) et sept enfants. Absent de 1881, où sa veuve Rosalie, 59 ans, est chef de ménage (1881-D2-P045-L13, maison 191) — il est vraisemblablement mort entre 1874 et 1881. Ne sait pas signer. Demeure « en la division de la dite paroisse appelée Sault ». Voisin en 1871 : Louis Forgues, son beau-frère par alliance (maison 20)."
         },
         {
           "role": "epouse",
@@ -5933,6 +5933,12 @@
           "nom": "Antoine Samson",
           "ref_personne": "1871-D2-P008-L10",
           "note": "« Mon fils », légataire en propriété après la mort de sa mère. En 1871 : 13 ans, dans le ménage d'Ignace (maison 19) ; en 1881 : journalier de 23 ans chez sa mère veuve (1881-D2-P045-L16) ; batelier de 31 ans en 1891 (1891-D1-P111-L15) — rapprochements de confiance forte. Le notaire avait d'abord écrit « Louis »."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis Forgues",
+          "ref_personne": "1871-D2-P008-L17",
+          "note": "Voisin des Samson en 1871 (maison 20) et beau-frère de Rosalie Cantin ; exécuteur du testament de celle-ci (minute n° 30). Identification de Patrick."
         },
         {
           "role": "temoin",
@@ -6006,6 +6012,17 @@
             "1871-D2-P008-L08"
           ],
           "enonce": "Ignace Samson demeure dans la division de Saint-Romuald appelée « Sault » (le Sault de la Chaudière)."
+        },
+        {
+          "type": "residence",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P008-L08",
+            "1871-D2-P008-L09",
+            "1871-D2-P008-L10",
+            "1871-D2-P008-L17"
+          ],
+          "enonce": "En 1871, les Samson (division 2, maison 19) ont pour voisin immédiat Louis Forgues, cultivateur de 60 ans (maison 20), beau-frère de Rosalie Cantin et son exécuteur testamentaire en 1874 — identification de Patrick."
         }
       ],
       "note": "Testament croisé avec celui de sa femme (minute n° 30, même jour) : l'usufruit au conjoint survivant, la propriété au fils Antoine, et aux filles à défaut. Ignace ne sait pas signer. Témoin Robert McReady : l'acte paraît aussi sur le magasin général McReady de la carte.",
@@ -6030,7 +6047,8 @@
         {
           "role": "epoux",
           "nom": "Ignace Samson",
-          "ref_personne": "1871-D2-P008-L08"
+          "ref_personne": "1871-D2-P008-L08",
+          "note": " Voisin en 1871 : Louis Forgues, son beau-frère par alliance (maison 20)."
         },
         {
           "role": "fils",
@@ -6087,6 +6105,17 @@
             "1871-D2-P008-L17"
           ],
           "enonce": "Louis Forgues, beau-frère et exécuteur de Rosalie Cantin, est le cultivateur de 60 ans recensé en 1871 dans la maison voisine des Samson — identification de Patrick."
+        },
+        {
+          "type": "residence",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P008-L08",
+            "1871-D2-P008-L09",
+            "1871-D2-P008-L10",
+            "1871-D2-P008-L17"
+          ],
+          "enonce": "En 1871, les Samson (division 2, maison 19) ont pour voisin immédiat Louis Forgues, cultivateur de 60 ans (maison 20), beau-frère de Rosalie Cantin et son exécuteur testamentaire en 1874 — identification de Patrick."
         }
       ],
       "note": "Pendant du testament de son mari (minute n° 29). Louis Forgues, beau-frère et exécuteur, est le voisin de 1871 (maison 20), le père — identification de Patrick. Date : « janvier » dans l'acte, vraisemblablement février. À compléter : la page des signatures (001065-66).",
