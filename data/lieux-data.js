@@ -460,7 +460,8 @@ window.LIEUX = {
       "cadastre": {},
       "photos": [],
       "documents": [
-        "notarie-1874-05-sommation-bourassa-morin"
+        "notarie-1874-05-sommation-bourassa-morin",
+        "notarie-1873-inventaire-bourassa"
       ]
     },
     {
