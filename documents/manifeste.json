@@ -5102,8 +5102,9 @@
         },
         {
           "role": "notaire",
-          "nom": "M. N. Damien Légaré",
-          "note": "Notaire du testament de Jean Dagneau (1870). Peut-être Narcisse Légaré, notaire de 39 ans recensé à Saint-Romuald en 1871 (1871-D1-P009-L06) — lecture des initiales incertaine, non rattaché."
+          "nom": "Narcisse Légaré (« M. N. Damien Légaré » [?])",
+          "note": "Notaire du testament de Jean Dagneau dit Laprise (Saint-Jean-Chrysostome, 28 novembre 1870). Identifié par Patrick (2026-10-31) à Narcisse Légaré, notaire de 39 ans recensé à Saint-Romuald en 1871 (division 1, maison 22) ; les initiales lues « M. N. Damien » sont de lecture incertaine.",
+          "ref_personne": "1871-D1-P009-L06"
         },
         {
           "role": "notaire",
@@ -5129,6 +5130,15 @@
           "certitude": "etabli",
           "personnes": [],
           "enonce": "Jean Dagneau dit Laprise, maître charron, a testé le 28 novembre 1870 en faveur de sa femme Marie Samson, et il est mort avant le 9 décembre 1873."
+        },
+        {
+          "type": "fonction",
+          "certitude": "probable",
+          "date": "1870-11-28",
+          "personnes": [
+            "1871-D1-P009-L06"
+          ],
+          "enonce": "Narcisse Légaré, notaire recensé à Saint-Romuald en 1871, reçoit en novembre 1870 le testament de Jean Dagneau dit Laprise, à Saint-Jean-Chrysostome — identification de Patrick."
         }
       ],
       "note": "Donation contre entretien : la veuve donne à son fils une terre sur la Chaudière à Saint-Lambert et une maison sur la route de Beaulieu à Saint-Jean-Chrysostome ; il la loge, nourrit, chauffe, éclaire et soigne, ou lui verse 40 piastres par an si l'« incompatibilité d'humeur » la fait partir. La « Route de Beaulieu » explique la mention « Village de Beaulieu » du contrat n° 6. À compléter : la page des signatures (001000-01).",
