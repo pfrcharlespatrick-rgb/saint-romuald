@@ -4195,7 +4195,7 @@
         {
           "role": "concedant",
           "nom": "Pierre Roberge",
-          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait pas signer. Le Pierre Roberge de Saint-Romuald en 1871 (1871-D2-P070-L03) est menuisier : rien ne les rapproche."
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait pas signer. Le Pierre Roberge de Saint-Romuald en 1871 (1871-D2-P070-L03) est menuisier : rien ne les rapproche. Si « St Jean Chrysostome » recouvre ici la division 2 de Saint-Romuald (indication de Patrick), il pourrait s'agir du Pierre Roberge recensé en 1871 (1871-D2-P070-L03), mais celui-ci est menuisier, non cultivateur : non rattaché."
         },
         {
           "role": "concessionnaire",
@@ -4230,7 +4230,7 @@
       "id": "notarie-1873-inventaire-bourassa",
       "type": "notarie",
       "titre": "Inventaire des biens de feu François Bourassa, hôtelier — minute n° 42",
-      "date": "1873",
+      "date": "1874-02-27",
       "date_incertaine": true,
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
       "cote": "Minute n° 42 [quarante-deux, lecture à confirmer], images 001135 à 001145 et au-delà (l'en-tête avec la date, avant 001135, et la suite de l'inventaire, après 001145, restent à transcrire)",
@@ -4364,7 +4364,7 @@
           "enonce": "Joseph Fortin, peintre (1871), charron (1881), sert de priseur assermenté à l'inventaire Bourassa."
         }
       ],
-      "note": "Pendant mobilier de l'acte n° 119. L'acte éclaire la famille : Albert Forcade, curateur, est le beau-frère de feu Ursule Tardif par sa femme Rosalie, qui a vécu huit ans chez les Bourassa ; Elvina Bourassa, sœur du défunt, y a vécu deux ans et demi avant le remariage avec Marguerite. Le notaire avait d'abord écrit que la veuve refusait de livrer les biens, puis l'a barré : elle renseigne finalement l'inventaire. Deux notaires : Tremblay et J.-B. Hamel, de Québec. « Chambre à coucher de la servante » : en 1871, le ménage logeait une domestique, Célestine Laprise [?], 21 ans (1871-D2-P068-L05) — rien ne dit qu'elle y soit encore. À compléter : la première page (date) avant l'image 001135, et la suite de l'inventaire après 001145 (chambre n° 3, total). Rattaché au lieu 1900-cf par l'occupation confirmée de 1871.",
+      "note": "Pendant mobilier de l'acte n° 119. L'acte éclaire la famille : Albert Forcade, curateur, est le beau-frère de feu Ursule Tardif par sa femme Rosalie, qui a vécu huit ans chez les Bourassa ; Elvina Bourassa, sœur du défunt, y a vécu deux ans et demi avant le remariage avec Marguerite. Le notaire avait d'abord écrit que la veuve refusait de livrer les biens, puis l'a barré : elle renseigne finalement l'inventaire. Deux notaires : Tremblay et J.-B. Hamel, de Québec. « Chambre à coucher de la servante » : en 1871, le ménage logeait une domestique, Célestine Laprise [?], 21 ans (1871-D2-P068-L05) — rien ne dit qu'elle y soit encore. À compléter : la première page (date) avant l'image 001135, et la suite de l'inventaire après 001145 (chambre n° 3, total). Rattaché au lieu 1900-cf par l'occupation confirmée de 1871. Date : la sommation n° 40 (24 février 1874) annonce l'inventaire pour le vendredi 27 février 1874, à dix heures du matin, en la demeure de la veuve — l'inventaire n° 42 est donc de la fin février 1874, non de 1873.",
       "ajoute_le": "2026-10-30"
     },
     {
@@ -5445,7 +5445,7 @@
         {
           "role": "creancier",
           "nom": "Étienne Lapierre",
-          "note": "Cultivateur de Saint-Jean-Chrysostome."
+          "note": "Cultivateur de Saint-Jean-Chrysostome. Piste, si « St Jean Chrysostome » recouvre la division 2 (indication de Patrick) : un Étienne Lapierre, journalier de 60 ans, est recensé en 1881 (1881-D1-P052-L08), et un Étienne Denis dit Lapierre est chef de ménage en 1891 (maison 55) — non rattaché."
         },
         {
           "role": "temoin",
@@ -5607,7 +5607,8 @@
         {
           "role": "temoin",
           "nom": "Olivier Roberge",
-          "note": "Cultivateur de Saint-Jean-Chrysostome ; paraphe « O. R. »."
+          "note": "Cultivateur, dit « de St Jean Chrysostome » ; paraphe « O. R. ». Peut-être Olivier Roberge, 20 ans en 1871, dans le ménage de Louis Roberge (division 2, maison 22), 32 ans en 1881 (1881-D2-P057-L08), garçon de ferme de 41 ans en 1891 (1891-D1-P132-L09) — hypothèse. Rattachement fait sur l'indication de Patrick : les gens dits « de St Jean Chrysostome » dans les actes peuvent être ceux de Saint-Romuald (division 2), les limites des deux paroisses se recouvrant.",
+          "ref_personne": "1871-D2-P010-L03"
         },
         {
           "role": "voisin",
@@ -5645,6 +5646,14 @@
           "date": "1874-01-10",
           "personnes": [],
           "enonce": "Adèle Cadoret est l'épouse de Jean-Baptiste Cantin, de Saint-Jean-Chrysostome."
+        },
+        {
+          "type": "identite",
+          "certitude": "hypothese",
+          "personnes": [
+            "1871-D2-P010-L03"
+          ],
+          "enonce": "Le témoin Olivier Roberge, cultivateur, pourrait être le fils de Louis Roberge recensé dans la division 2 en 1871 (20 ans) — à confirmer."
         }
       ],
       "note": "Un vieux cultivateur donne tout — une terre de la concession Beaulieu, une maison sur le chemin de la Reine, deux bandes de la concession Taniata jusqu'à la rivière Etchemin, meubles, cheval et bétail — à une parente (nièce ? sœur ?) qui le soigne ; la parenté n'est pas dite. Aucune personne du recensement de Saint-Romuald. À compléter : la suite (charges, rente viagère probable, signatures).",
@@ -5912,21 +5921,33 @@
       "titre": "Testament d'Ignace Samson, agriculteur, 1874",
       "date": "1874-02-11",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 29, images 001058 à 001060 (suite non encore transcrite)",
+      "cote": "Minute n° 29, images 001058 à 001062",
       "nature": "Minute originale, très raturée ; « Expédié 1 fois ». Intitulé : « Testament de Ignace Samson ». Renvois paraphés « R. M. » (Robert McReady), « O. St H. » (Olivier St-Hilaire) et du notaire. Le nom de l'épouse, d'abord « Dame Euphrosine Demers », est rayé et remplacé en marge par « Dame Rosalie Cantin » ; la paroisse, d'abord « St Jean Chrysostome », corrigée en « St Romuald » ; « en bonne santé de corps » corrigé en « malade de corps, mais sain d'esprit ».",
-      "transcription": "« L'an mil huit cent soixante-quatorze, le onzième jour de février, avant midi, en présence de Elzéar Hubert Tremblay, notaire public résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Robert McReady, marchand, & de Mr Olivier St Hilaire, cultivateur, demeurant tous deux en la dite paroisse de St Romuald, aussi témoins au présent testament, aussi soussignés ; Fut présent : sieur Ignace Samson, agriculteur, demeurant en la paroisse de St Romuald, étant malade de corps, mais sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous dit notaire & aux susdits témoins par la manifestation claire & précise de ses volontés ; Lequel, dans la vue de la mort, a fait & nommé son présent testament au dit notaire soussigné, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par mon exécutrice testamentaire ci-après nommée, à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes & prières [clause des services et messes basses rayée] ; 2° Je donne & lègue à Dame Rosalie Cantin, mon épouse actuelle, la jouissance & l'usufruit de tous mes biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient, & en quelques lieux qu'ils soient situés, pour par ma dite épouse avoir la dite jouissance & l'usufruit sa vie durant, à la charge par elle de jouir de mes dits biens en bon père [de famille …] »",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le onzième jour de février, avant midi, en présence de Elzéar Hubert Tremblay, notaire public résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Robert McReady, marchand, & de Mr Olivier St Hilaire, cultivateur, demeurant tous deux en la dite paroisse de St Romuald, aussi témoins au présent testament, aussi soussignés ; Fut présent : sieur Ignace Samson, agriculteur, demeurant en la paroisse de St Romuald, étant malade de corps, mais sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous dit notaire & aux susdits témoins par la manifestation claire & précise de ses volontés ; Lequel, dans la vue de la mort, a fait & nommé son présent testament au dit notaire soussigné, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par mon exécutrice testamentaire ci-après nommée, à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes & prières [clause des services et messes basses rayée] ; 2° Je donne & lègue à Dame Rosalie Cantin, mon épouse actuelle, la jouissance & l'usufruit de tous mes biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient, & en quelques lieux qu'ils soient situés, pour par ma dite épouse avoir la dite jouissance & l'usufruit sa vie durant, à la charge par elle de jouir de mes dits biens en bon père [de famille …] » — [001060-62] « […] en bon père de famille, aux charges de toutes les réparations viagères & usufruitières, & aussi à la condition de faire faire bon & loyal inventaire aussitôt après mon décès ; Et quant à la propriété de tous mes biens meubles & immeubles, sans en rien réserver ni excepter, je la donne & lègue à Antoine Samson, mon fils, pour par lui en jouir, faire & disposer en pleine & entière propriété à compter du jour du décès de ma dite épouse. Et le cas échéant que, au jour du décès de ma dite épouse, le dit Antoine Samson, mon dit fils, serait décédé sans laisser d'héritiers légitimes, alors & dans ce cas mes dits biens retourneront à celles de mes filles qui vivront alors, pour mes dits biens être divisés entre elles par parts & portions égales, suivant l'acte de partage qu'elles feront alors. Troisièmement : je nomme la personne de la dite Dame Rosalie Cantin, ma dite épouse, mon exécutrice testamentaire, & l'institue ma légataire universelle en usufruit, & mon dit fils ou mes dites filles, suivant le cas, mes légataires universels en propriété. Quatrièmement & enfin, je révoque tous autres testaments & codicilles […] Dont acte. Fait & passé à St Romuald susdit, en la demeure du testateur, située en la division de la dite paroisse appelée Sault, les jour, mois & an susdits, sous le numéro vingt-neuf des originaux du notaire soussigné. Requis de signer, le testateur a déclaré ne le savoir, mais les dits témoins ont alors signé avec moi, notaire, lecture faite. » Signatures : « Robert McReady », « Oliver St Hilaire », « E. H. Tremblay N.P. » — Rayé : le prénom « Louis » du fils, corrigé en « Antoine ».",
       "personnes": [
         {
           "role": "testateur",
           "nom": "Ignace Samson",
           "ref_personne": "1871-D2-P008-L08",
-          "note": "Agriculteur de Saint-Romuald, malade en février 1874. En 1871 : cultivateur de 49 ans, division 2, maison 19, avec sa femme Rosalie (48 ans) et sept enfants. Absent de 1881, où sa veuve Rosalie, 59 ans, est chef de ménage (1881-D2-P045-L13, maison 191) — il est vraisemblablement mort entre 1874 et 1881."
+          "note": "Agriculteur de Saint-Romuald, malade en février 1874. En 1871 : cultivateur de 49 ans, division 2, maison 19, avec sa femme Rosalie (48 ans) et sept enfants. Absent de 1881, où sa veuve Rosalie, 59 ans, est chef de ménage (1881-D2-P045-L13, maison 191) — il est vraisemblablement mort entre 1874 et 1881. Ne sait pas signer. Demeure « en la division de la dite paroisse appelée Sault ». Voisin en 1871 : Louis Forgues, son beau-frère par alliance (maison 20)."
         },
         {
           "role": "epouse",
           "nom": "Rosalie Cantin",
           "ref_personne": "1871-D2-P008-L09",
           "note": "Épouse d'Ignace Samson, usufruitière et exécutrice testamentaire. Recensée « Rosalie Samson » en 1871 (48 ans) et en 1881 (59 ans, chef de ménage) : l'acte donne son nom de naissance. Le notaire avait d'abord écrit « Euphrosine Demers », rayé."
+        },
+        {
+          "role": "fils",
+          "nom": "Antoine Samson",
+          "ref_personne": "1871-D2-P008-L10",
+          "note": "« Mon fils », légataire en propriété après la mort de sa mère. En 1871 : 13 ans, dans le ménage d'Ignace (maison 19) ; en 1881 : journalier de 23 ans chez sa mère veuve (1881-D2-P045-L16) ; batelier de 31 ans en 1891 (1891-D1-P111-L15) — rapprochements de confiance forte. Le notaire avait d'abord écrit « Louis »."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis Forgues",
+          "ref_personne": "1871-D2-P008-L17",
+          "note": "Voisin des Samson en 1871 (maison 20) et beau-frère de Rosalie Cantin ; exécuteur du testament de celle-ci (minute n° 30). Identification de Patrick."
         },
         {
           "role": "temoin",
@@ -5980,9 +6001,786 @@
             "1871-D2-P007-L13"
           ],
           "enonce": "Les témoins Robert McReady, marchand, et Olivier St-Hilaire, cultivateur, sont ceux de ces noms recensés à Saint-Romuald en 1871."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "date": "1874-02-11",
+          "personnes": [
+            "1871-D2-P008-L08",
+            "1871-D2-P008-L09",
+            "1871-D2-P008-L10"
+          ],
+          "enonce": "Antoine Samson est le fils d'Ignace Samson et de Rosalie Cantin ; le couple a aussi des filles, héritières à défaut du fils."
+        },
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "date": "1874-02-11",
+          "personnes": [
+            "1871-D2-P008-L08"
+          ],
+          "enonce": "Ignace Samson demeure dans la division de Saint-Romuald appelée « Sault » (le Sault de la Chaudière)."
+        },
+        {
+          "type": "residence",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P008-L08",
+            "1871-D2-P008-L09",
+            "1871-D2-P008-L10",
+            "1871-D2-P008-L17"
+          ],
+          "enonce": "En 1871, les Samson (division 2, maison 19) ont pour voisin immédiat Louis Forgues, cultivateur de 60 ans (maison 20), beau-frère de Rosalie Cantin et son exécuteur testamentaire en 1874 — identification de Patrick."
         }
       ],
-      "note": "Testament d'un malade : l'usufruit de tout à sa femme, à charge d'en jouir en bon père de famille ; la suite donne sans doute la propriété aux enfants. Témoin Robert McReady : l'acte paraît aussi sur le magasin général McReady de la carte. À compléter : la suite et les signatures.",
+      "note": "Testament croisé avec celui de sa femme (minute n° 30, même jour) : l'usufruit au conjoint survivant, la propriété au fils Antoine, et aux filles à défaut. Ignace ne sait pas signer. Témoin Robert McReady : l'acte paraît aussi sur le magasin général McReady de la carte.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-11-testament-cantin-samson",
+      "type": "notarie",
+      "titre": "Testament de Rosalie Cantin, épouse d'Ignace Samson, 1874",
+      "date": "1874-02-11",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 30, images 001062 à 001066",
+      "nature": "Minute originale, très raturée ; « Expédié 1 fois ». En-tête « 11 janvier 1874 » et corps « le onzième jour de janvier » — vraisemblablement pour février : la minute n° 29, qui précède, est du 11 février, avec les mêmes témoins. Le notaire avait d'abord écrit comme testatrice « Julien Demers » puis « Dame Rosalie Noël » : rayés, remplacés par « Dame Rosalie Cantin, épouse de sieur Ignace Samson ».",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le onzième jour de [janvier], avant midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Robert McReady, marchand, & de Mr Olivier St Hilaire, cultivateur, demeurant tous deux à St Romuald, témoins au présent testament, aussi soussignés ; Fut présente : Dame Rosalie Cantin, épouse de sieur Ignace Samson, demeurant tous deux en la division de la dite paroisse de St Romuald appelée “Sault”, étant en bonne santé de corps, saine d'esprit, mémoire, jugement & entendement […] 1° Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts scrupuleusement réparés par mon exécuteur testamentaire ci-après nommé, à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, messes & prières ; 2° Je donne & lègue à Antoine Samson, mon fils, tous les biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès […] pour par mon dit fils en jouir, faire & disposer en pleine & entière propriété à compter du jour de mon décès ; [renvoi :] Et dans le cas où le dit Antoine Samson décéderait sans laisser d'héritiers légitimes, alors je donne & lègue mes dits biens & effets à celles de mes filles qui vivront alors, pour mes dits biens être divisés par parts & portions égales entre elles, suivant l'acte de partage qu'elles feront alors ; 3° Je nomme la personne de Mr Louis Forgues, mon beau-frère, mon exécuteur testamentaire, & mon dit fils ou mes dites filles, suivant le cas, mes légataires universels en propriété ; 4° Enfin je révoque tous autres testaments & codicilles […] Dont acte fait & passé en la paroisse de St Romuald susdit, en la demeure de la testatrice, les jour, mois & an susdits, sous le numéro trente des originaux du notaire soussigné. Requise de signer, la dite testatrice a déclaré ne le savoir, en présence des dits témoins, qui ont alors signé avec moi, notaire, lecture [faite …] » — [001065-66] « […] lecture faite. Soixante-quatorze mots rayés sont nuls. Six renvois en marge sont bons & approuvés. » Signatures : « Robert McReady », « Olivier St Hilaire », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Rosalie Cantin",
+          "ref_personne": "1871-D2-P008-L09",
+          "note": "Épouse d'Ignace Samson, recensée « Rosalie Samson » (1871, 1881) ; ne sait pas signer."
+        },
+        {
+          "role": "epoux",
+          "nom": "Ignace Samson",
+          "ref_personne": "1871-D2-P008-L08",
+          "note": " Voisin en 1871 : Louis Forgues, son beau-frère par alliance (maison 20)."
+        },
+        {
+          "role": "fils",
+          "nom": "Antoine Samson",
+          "ref_personne": "1871-D2-P008-L10",
+          "note": "Légataire universel."
+        },
+        {
+          "role": "executeur",
+          "nom": "Louis Forgues",
+          "note": "« Mon beau-frère », exécuteur testamentaire. Identifié par Patrick (2026-10-31) au père : Louis Forgues, cultivateur de 60 ans en 1871, voisin immédiat des Samson (division 2, maison 20) — et non son fils homonyme de 31 ans.",
+          "ref_personne": "1871-D2-P008-L17"
+        },
+        {
+          "role": "temoin",
+          "nom": "Robert McReady",
+          "ref_personne": "1871-D2-P029-L08",
+          "note": "Marchand ; le magasin général McReady (lieu 1596-cf)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Olivier St-Hilaire",
+          "ref_personne": "1871-D2-P007-L13"
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D2-P008-L09",
+            "1871-D2-P008-L10"
+          ],
+          "enonce": "Antoine Samson est le fils de Rosalie Cantin, épouse d'Ignace Samson."
+        },
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "date": "1874-02-11",
+          "personnes": [
+            "1871-D2-P008-L08",
+            "1871-D2-P008-L09"
+          ],
+          "enonce": "Ignace Samson et Rosalie Cantin demeurent dans la division de Saint-Romuald appelée « Sault »."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P008-L17"
+          ],
+          "enonce": "Louis Forgues, beau-frère et exécuteur de Rosalie Cantin, est le cultivateur de 60 ans recensé en 1871 dans la maison voisine des Samson — identification de Patrick."
+        },
+        {
+          "type": "residence",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P008-L08",
+            "1871-D2-P008-L09",
+            "1871-D2-P008-L10",
+            "1871-D2-P008-L17"
+          ],
+          "enonce": "En 1871, les Samson (division 2, maison 19) ont pour voisin immédiat Louis Forgues, cultivateur de 60 ans (maison 20), beau-frère de Rosalie Cantin et son exécuteur testamentaire en 1874 — identification de Patrick."
+        }
+      ],
+      "note": "Pendant du testament de son mari (minute n° 29). Louis Forgues, beau-frère et exécuteur, est le voisin de 1871 (maison 20), le père — identification de Patrick. Date : « janvier » dans l'acte, vraisemblablement février.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-12-quittance-bourassa-gingras",
+      "type": "notarie",
+      "titre": "Quittance d'Edouard Bourassa à Joseph Gingras pour deux témoignages dans la cause Gingras contre Demers, 1874",
+      "date": "1874-02-12",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 31, image 001066-67",
+      "nature": "Minute originale, une page ; acte complet. Intitulé : « Quittance Bourassa à Gingras ».",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le douzième jour de février, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Mr Edouard Bourassa, de la dite paroisse St Romuald, agriculteur, lequel reconnaît que sieur Joseph Gingras, de la paroisse de St Nicolas, dit comté, cultivateur, lui a payé, à la vue & présence de nous dit notaire, la somme de quatre piastres courant pour les réclamations qu'il avait contre le dit sieur Gingras pour deux voyages faits & deux témoignages rendus dans une cause Gingras vs Demers, à Québec. Dont & du tout le dit sieur Bourassa lui accorde quittance générale & finale. Dont acte sous le numéro trente-un des originaux du notaire soussigné, les jour, mois & an susdits. Fait & passé en l'étude du notaire soussigné. Et le comparant a signé avec moi, notaire, lecture faite. Un renvoi approuvé. » Signatures : « Edouard Bourassa », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "comparant",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "Agriculteur de Saint-Romuald ; signe « Edouard Bourassa ». Témoin dans la cause Gingras contre Demers."
+        },
+        {
+          "role": "partie",
+          "nom": "Joseph Gingras",
+          "note": "Cultivateur de Saint-Nicolas — le fermier d'Isaïe Demers qui avait fait sommer Bazile Demers de tirer la ligne de division (minute n° 16, décembre 1873) : l'affaire est allée en justice à Québec."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-02-12",
+          "personnes": [
+            "1871-D1-P040-L18"
+          ],
+          "enonce": "Edouard Bourassa, de Saint-Romuald, a témoigné deux fois à Québec dans la cause Gingras contre Demers, et en est payé quatre piastres pour ses voyages."
+        }
+      ],
+      "note": "Suite judiciaire du protêt de ligne de division n° 16 : malgré la réponse conciliante de Bazile Demers, la cause Gingras contre Demers a été plaidée à Québec. Edouard Bourassa y a témoigné.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-14-vente-couture-cantin",
+      "type": "notarie",
+      "titre": "Vente par J.-B.-Octave Montminy, procureur d'Edouard Couture (émigré au Saguenay), à Pierre Cantin, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-02-14",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 32, images 001067 à 001076 (la dernière, verso, porte des notes d'enregistrement barrées : « Deux nos 2693, 15,802 »)",
+      "nature": "Minute originale ; « Expédié 1 fois », « Enregistré ». Intitulé : « Vente Montminy, ès-qual., à Pierre Cantin » ; en marge, « Procuration au n° 33 ». Acte complet ; un premier échéancier (dont 400 piastres payables à Louis Tanguay, sellier de Québec) est barré et remplacé.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le quatorzième jour de février, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, en le comté de Lévis, soussigné ; Et en présence de Mr Michel Roberge, de la paroisse de St Jean Chrysostome, dit comté, menuisier entrepreneur, témoin au présent acte, soussigné ; Fut présent : Jean Baptiste Octave Montminy, de la cité de Québec, écuyer, ancien marchand, agissant en ces présentes en sa qualité de procureur dûment fondé de procuration, suivant acte de procuration en date à Québec du deuxième jour d'août de l'an mil huit cent soixante-douze, reçu par Mtre J. A. E. Chaperon & son confrère, notaires, de Monsieur Edouard Couture, ci-devant de la dite paroisse de St Jean Chrysostome & maintenant de St Jérôme, dans les district & comté de Chicoutimi, cultivateur ; Lequel, ès-qualité, a vendu, cédé, transporté & abandonné […] à Mr Pierre Cantin, du dit lieu de St Jean Chrysostome, dit comté, cultivateur, à ce présent & acceptant acquéreur […] c'est à savoir : Une terre située en la paroisse de St Jean Chrysostome, en la concession Beauséjour, contenant trois arpents de front sur trente arpents de profondeur, bornée par devant, au nord, à la ligne qui divise les terres de la dite concession de celle de la concession Bel-Air sud, par derrière, au sud, à la ligne qui divise les terres de la dite concession de celle de la concession Ste Patrice, d'un côté, à l'est, à Louis St Laurent, & de l'autre côté, à l'ouest, à Joseph Bernier, ou ses représentants, avec ensemble la grange, étable & autres bâtisses dessus construites […] Appartenant la dite terre au dit Edouard Couture pour l'avoir acquise de François Couture, suivant acte de vente en date à St Jean Chrysostome susdit du vingt-troisième jour de mars de l'an mil huit cent cinquante-sept, reçu par Mtre A. Trudel & son confrère, notaires, & enregistré au bureau d'enregistrement du comté de Dorchester, division numéro deux […] » — [001070-75] « […] Reg. B, Vol. 8, page 456, sous le numéro 6019 ; lequel titre a été à l'instant remis à l'acquéreur, qui le reconnaît & en donne quittance au dit vendeur ès-qualité. La présente vente est faite à la charge par l'acquéreur […] de payer annuellement à l'avenir, à qui il appartiendra, toutes & telles redevances (tenant lieu de droits seigneuriaux préexistants) auxquelles le dit immeuble peut ou pourra être assujetti, & que les parties n'ont pu exactement spécifier de ce enquises, garanti quitte de tous arrérages jusqu'au premier d'octobre mil huit cent soixante-treize ; l'acquéreur s'obligeant en outre de se conformer aux actes provinciaux relatifs à la tenure seigneuriale en cette Province. Cette vente est faite en outre pour & en considération du prix ou somme de huit cents piastres courant, sur & en à-compte de laquelle le dit vendeur, ès-qualité, reconnaît avoir eu & reçu celle de cent piastres courant, dont quittance d'autant. Et quant à la balance, formant la somme de sept cents piastres courant, le dit acquéreur, pour lui, ses hoirs & ayants cause, promet & s'oblige la payer au dit Jean-Baptiste Octave Montminy, écuyer, ès-qualité, par versements égaux annuels de la somme de cinquante piastres chacun, & dont le premier paiement échoira & se fera le premier jour de septembre prochain, & ainsi de suite chaque année, à pareille date, jusqu'au parfait & entier paiement de la dite somme de sept cents piastres courant, sans intérêt. Et pour sûreté de laquelle dite somme de sept cents piastres courant, le dit acquéreur a spécialement hypothéqué le dit immeuble sus-désigné & vendu, sur lequel le dit vendeur, ès-qualité, se réserve expressément tous ses droits & privilèges de bailleur de fonds. […] Dont acte. Fait & passé à St Jean Chrysostome susdit, demeure de Mr Michel Roberge, les jour, mois & an susdits, sous le numéro trente-deux des originaux du notaire soussigné. Et le dit vendeur, ès-qualité, & le dit témoin ont signé avec moi, notaire, le dit acquéreur ayant déclaré ne savoir écrire ni signer, de ce requis, lecture faite. Cent soixante-dix-huit mots rayés sont nuls. Trois renvois en marge sont bons & approuvés. » Signatures : « Oct. Montminy, Proc. de E. Couture », « Michel Roberge », « E. H. Tremblay N.P. » — Passage barré : « 1° Quatre cents piastres courant payables à sieur Louis Tanguay, de la dite cité de Québec, sellier, par sommes annuelles […] »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Edouard Couture",
+          "note": "Cultivateur, « ci-devant de St Jean Chrysostome & maintenant de St Jérôme, dans les district & comté de Chicoutimi » — un émigré au Saguenay (Lac-Saint-Jean), qui vend sa terre par procureur."
+        },
+        {
+          "role": "procureur",
+          "nom": "Jean-Baptiste-Octave Montminy",
+          "note": "Écuyer, ancien marchand de Québec. Signe « Oct. Montminy, Proc. de E. Couture »."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Pierre Cantin",
+          "note": "Cultivateur, ne sait écrire ni signer ; dit « de St Jean Chrysostome ». En 1871 : Pierre Cantin, cultivateur de 64 ans, division 2, maison 6 ; en 1881 : cultivateur de 71 ans (1881-D2-P053-L19) — le seul Pierre Cantin cultivateur adulte. Rattachement fait sur l'indication de Patrick : les gens dits « de St Jean Chrysostome » dans les actes peuvent être ceux de Saint-Romuald (division 2), les limites des deux paroisses se recouvrant.",
+          "ref_personne": "1871-D2-P002-L18"
+        },
+        {
+          "role": "temoin",
+          "nom": "Michel Roberge",
+          "note": "Menuisier entrepreneur de Saint-Jean-Chrysostome. L'acte est passé en sa demeure ; signe."
+        },
+        {
+          "role": "auteur",
+          "nom": "François Couture",
+          "note": "Vendeur de 1857."
+        },
+        {
+          "role": "autre",
+          "nom": "Louis Tanguay",
+          "note": "Sellier de Québec ; nommé dans un premier échéancier barré (400 piastres) — sans doute un créancier d'Edouard Couture."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis St-Laurent"
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Bernier"
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "date": "1872-08-02",
+          "personnes": [],
+          "enonce": "Edouard Couture, cultivateur de Saint-Jean-Chrysostome, est établi à Saint-Jérôme, comté de Chicoutimi, dès août 1872."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P002-L18",
+            "1881-D2-P053-L19"
+          ],
+          "enonce": "L'acquéreur Pierre Cantin, cultivateur, est vraisemblablement le cultivateur de ce nom recensé dans la division 2 de Saint-Romuald en 1871 (64 ans) et en 1881 (71 ans)."
+        }
+      ],
+      "note": "Trace de la colonisation du Saguenay–Lac-Saint-Jean : un cultivateur de Saint-Jean-Chrysostome parti à Saint-Jérôme (Chicoutimi) vend sa terre de la concession Beauséjour par l'intermédiaire d'un marchand de Québec. Prix : 800 piastres, 100 comptant, 700 à raison de 50 par an sans intérêt. Le même jour, le même procureur vend une seconde terre de Couture à Joseph Fontaine (minute n° 33).",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-14-vente-couture-fontaine",
+      "type": "notarie",
+      "titre": "Vente par J.-B.-Octave Montminy, procureur d'Edouard Couture, à Joseph Fontaine, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-02-14",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 33, images 001076 à 001084",
+      "nature": "Minute originale ; « Expédié », « Enregistré ». Intitulé : « Vente Montminy ès-qual. à Joseph Fontaine » ; en marge, « Voir n° 32 » (la procuration y est citée). Acte complet.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le quatorzième jour de février, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Michel Roberge, de la paroisse de St Jean Chrysostome, dit comté, menuisier entrepreneur, témoin au présent acte, aussi soussigné ; Fut présent : Jean Baptiste Octave Montminy, de la cité de Québec, écuyer, ancien marchand, agissant en ces présentes en qualité de procureur dûment fondé de procuration, suivant acte de procuration en date à Québec du deuxième jour d'août de l'an mil huit cent soixante-douze, reçu par Mtre J. A. E. Chaperon & son confrère, notaires, de Monsieur Edouard Couture, ci-devant de la dite paroisse de St Jean Chrysostome & maintenant de St Jérôme, dans les district & comté de Chicoutimi, cultivateur ; Lequel, ès-qualité, a vendu, cédé, transporté & abandonné […] à Mr Joseph Fontaine, du dit lieu de St Jean Chrysostome, dit comté, cultivateur, à ce présent & acceptant acquéreur […] c'est à savoir : Une terre située susdite paroisse de Saint Jean Chrysostome, seigneurie Lauzon, concession Beauséjour, étant le numéro vingt-six, contenant trois arpents de front sur trente arpents de profondeur, bornée par devant, au nord-ouest, à la concession Bel-Air sud-est, & par derrière, au sud-est, à la concession St Patrice nord-ouest, joignant au côté sud-ouest à Louis Saint Laurent & au côté nord-est à François Couture, ou ses représentants, sans néanmoins aucune garantie de mesure précise, ensemble les bâtisses dessus construites […] Appartenant la dite terre au dit Edouard Couture pour l'avoir acquise de [J. Boutin, rayé] Jean-Baptiste Tancrède de Bouthillier, écuyer, en sa qualité d'assistant-commissaire des terres de la Couronne, suivant acte de concession en date à St Henri de Lauzon du huit de novembre de l'an mil huit cent quarante-neuf, reçu par Mtre [L. ?] Paradis & son confrère, notaires, & enregistré au bureau d'enregistrement du comté de Dorchester, division numéro deux, Reg. B, Vol. 18, page […] » — [001080-84] « […] page 92, sous le numéro 13,926, le trente-un décembre mil huit cent soixante-neuf. La présente vente est faite à la charge par l'acquéreur […] de payer annuellement à l'avenir, à qui il appartiendra, toutes & telles redevances (tenant lieu de droits seigneuriaux préexistants) […] garanti quitte des arrérages jusqu'au premier octobre mil huit cent soixante-treize ; l'acquéreur s'obligeant en outre se conformer aux actes provinciaux relatifs à la tenure seigneuriale en cette Province, & à la charge encore de se conformer au titre de concession ci-dessus cité & daté. Cette vente est faite pour & en considération du prix ou somme de douze cent vingt-cinq piastres courant, sur & en à-compte de laquelle le dit acquéreur a payé au dit vendeur, ès-qualité, à vue & présence de nous dits notaire & témoin, celle de quatre cents piastres courant, dont quittance d'autant. Et quant à la balance, formant la somme de huit cent vingt-cinq piastres courant, l'acquéreur promet & s'oblige, pour lui, ses hoirs & ayants cause, la payer à sieur Louis Tanguay, de la dite cité de Québec, sellier, par versements égaux & annuels de la somme de cent piastres chaque, excepté le dernier paiement, qui ne sera que de la somme de vingt-cinq piastres courant, & dont le premier paiement échoira & se fera le premier jour de septembre prochain, & ainsi de suite chaque année, à pareille date, jusqu'au parfait & entier paiement de la dite somme de huit cent vingt-cinq piastres, sans intérêt. Et pour sûreté de laquelle […] le dit acquéreur a spécialement hypothéqué le dit immeuble […] Dont acte. Fait & passé à St Jean Chrysostome, demeure de Mr Michel Roberge, les jour, mois & an susdits, sous le numéro trente-trois des originaux du notaire soussigné. Et le dit vendeur ès-qualité & le dit témoin ont signé avec moi dit notaire, le dit sieur Fontaine ayant déclaré ne le savoir, de ce requis, en présence du dit témoin, lecture faite. Vingt-sept mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » Signatures : « Oct. Montminy, Proc. de E. Couture », « Michel Roberge », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Edouard Couture",
+          "note": "Émigré à Saint-Jérôme (Chicoutimi) ; voir la minute n° 32."
+        },
+        {
+          "role": "procureur",
+          "nom": "Jean-Baptiste-Octave Montminy",
+          "note": "Écuyer, ancien marchand de Québec."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Joseph Fontaine",
+          "note": "Cultivateur de Saint-Jean-Chrysostome. Aucun Joseph Fontaine dans les recensements de Saint-Romuald, y compris la division 2. Ne sait pas signer."
+        },
+        {
+          "role": "temoin",
+          "nom": "Michel Roberge",
+          "note": "Menuisier entrepreneur de Saint-Jean-Chrysostome."
+        },
+        {
+          "role": "auteur",
+          "nom": "Jean-Baptiste-Tancrède de Bouthillier",
+          "note": "Écuyer, assistant-commissaire des terres de la Couronne ; concession de 1849."
+        },
+        {
+          "role": "creancier",
+          "nom": "Louis Tanguay",
+          "note": "Sellier de Québec ; reçoit le solde du prix, 825 piastres, à raison de 100 par an — créancier d'Edouard Couture."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis Saint-Laurent"
+        },
+        {
+          "role": "voisin",
+          "nom": "François Couture"
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Seconde terre d'Edouard Couture, voisine de la première (n° 32) dans la concession Beauséjour : le lot n° 26, concédé par la Couronne en 1849 — Couture en fut le premier concessionnaire. Prix : 1 225 piastres, 400 comptant ; le solde de 825 piastres va directement à Louis Tanguay, sellier de Québec, créancier du vendeur.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-vente-roberge-roberge",
+      "type": "notarie",
+      "titre": "Vente d'une terre sur l'Etchemin entre Olivier et Octave Roberge, Saint-Jean-Chrysostome, 1874 (fin)",
+      "date": "1874-02",
+      "date_incertaine": true,
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 34, images 001085 à 001090 (le début, avec la date, les qualités des parties et le début de la désignation, est sur les l'image 001084-85, non encore transcrites)",
+      "nature": "Fin de minute originale ; renvois paraphés « O. R. », « O. R. » et du notaire. Postérieure au 8 février 1874 (point de départ des intérêts), passée à la demeure du vendeur à Saint-Jean-Chrysostome. Qui des deux Roberge vend et qui achète reste à lire à la première page.",
+      "transcription": "« […] chemin royal, en arrière au nord-est à la rivière Etchemin, d'un côté au nord à Edouard Bourassa, & de l'autre côté au sud à Abraham Bégin, sur lequel est une vieille grange d'environ trente pieds sur vingt-quatre pieds, couverte en planches seulement, circonstances & dépendances ; (2) [renvoi : de laquelle terre est à distraire un emplacement de deux arpents, plus ou moins, en superficie, sur lequel est bâti un moulin à farine appartenant à Pierre Turgeon, ou ses représentants, (4) & de laquelle terre est à distraire aussi une route de dix-huit pieds de large & longue d'environ sept arpents, communiquant au dit moulin.] Tel que le tout est actuellement […] & dont l'acquéreur se déclare content & satisfait, disant le bien connaître. Pour par le dit acquéreur jouir, faire & disposer du dit immeuble […] en pleine & entière propriété de ce jour & à toujours. Appartenant la dite terre au dit vendeur pour l'avoir acquise de Abraham Bégin, de la paroisse de St Lambert, cultivateur, en qualité de curateur de Rigobert Bégin, interdit, ci-devant de la paroisse de St Jean Chrysostome, cultivateur, & maintenant renfermé à l'asile des aliénés de Beauport, suivant acte de vente en date à St Jean Chrysostome susdit du dix de février mil huit cent soixante-dix, reçu par Mtre L. N. Carrier & témoin, & enregistré au bureau d'enregistrement du comté de Dorchester, division numéro deux, Reg. B, Vol. 18, page 364, sous le numéro 14,193. La présente vente est faite à la charge par le dit acquéreur des cens, rentes & autres droits seigneuriaux sur la dite terre, & ce tant du passé que l'acquéreur promet payer, que de l'avenir. Cette vente est faite en outre pour le prix ou somme de deux cents piastres courant ; laquelle somme devra demeurer, avec hypothèque spéciale sur l'immeuble sus-vendu, entre les mains de l'acquéreur d'icelui, jusqu'à ce que le dit montant du prix de vente puisse être légalement réclamé par qui de droit, avec ensemble l'intérêt de six pour cent par an, le dit intérêt payable au curateur du dit interdit, à compter du huit de février courant jusqu'au parfait paiement du prix de vente sus-mentionné. Cette vente est faite sans novation ni dérogation à l'hypothèque acquise sur les biens du dit vendeur pour le paiement de la somme susdite avec plus forte somme due au curateur en la dite qualité. […] Dont acte. Fait & passé à St Jean Chrysostome susdit, demeure du vendeur, les jour, mois & an susdits, sous le numéro trente-quatre des originaux du notaire soussigné. Et lesdits vendeur & acquéreur ont, de ce requis, signé avec moi, notaire, lecture faite. Soixante-un mots rayés sont nuls. Quatre renvois en marge sont bons & approuvés. » Signatures : « Olivier Roberge », « Octave Roberge », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "partie",
+          "nom": "Olivier Roberge",
+          "ref_personne": "1871-D2-P010-L03",
+          "note": "Vendeur ou acquéreur (à lire au début de l'acte) ; signe. Peut-être Olivier Roberge, 20 ans en 1871, chez Louis Roberge (division 2, maison 22) — hypothèse ; le même témoin qu'à la donation n° 24. Dit « de St Jean Chrysostome » : la paroisse recouvre en partie Saint-Romuald (indication de Patrick)."
+        },
+        {
+          "role": "partie",
+          "nom": "Octave Roberge",
+          "note": "Vendeur ou acquéreur ; signe. Un Octave Roberge, journalier de 21 ans, est recensé en 1871 chez Julie Paradis (1871-D1-P075-L15) : non rattaché faute d'autre indice."
+        },
+        {
+          "role": "curateur",
+          "nom": "Abraham Bégin",
+          "note": "Cultivateur de Saint-Lambert, curateur de Rigobert Bégin ; voisin au sud de la terre. Le même Abraham Bégin est voisin à la donation n° 24."
+        },
+        {
+          "role": "interdit",
+          "nom": "Rigobert Bégin",
+          "note": "Cultivateur, ci-devant de Saint-Jean-Chrysostome, interdit et « renfermé à l'asile des aliénés de Beauport » dès 1870. Un Rigobert Bégin, tanneur, est recensé à Saint-Romuald en 1881 (38 ans, veuf, 1881-D1-P012-L10) et en 1891 (49 ans) : métier et âge (né vers 1843) rendent l'identité douteuse — non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "Voisin au nord ; hypothèse : le cultivateur de Saint-Romuald qui paraît dans huit actes du greffe, ici propriétaire d'une terre entre le chemin royal et l'Etchemin. Dit « de St Jean Chrysostome » : la paroisse recouvre en partie Saint-Romuald (indication de Patrick)."
+        },
+        {
+          "role": "meunier",
+          "nom": "Pierre Turgeon",
+          "note": "Propriétaire d'un moulin à farine bâti sur un emplacement de deux arpents distrait de la terre, desservi par une route de 18 pieds sur environ 7 arpents. Un Pierre Turgeon, journalier de 31 ans, est recensé en 1891 (1891-D1-P049-L15) : trop jeune pour le meunier de 1874, non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "L. N. Carrier",
+          "note": "Notaire de la vente de 1870."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "hypothese",
+          "date": "1874-02",
+          "personnes": [
+            "1871-D1-P040-L18"
+          ],
+          "enonce": "Edouard Bourassa possède une terre entre le chemin royal et la rivière Etchemin, voisine au nord de celle vendue entre les Roberge — à confirmer : l'acte ne donne que le nom."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1870-02-10",
+          "personnes": [],
+          "enonce": "Rigobert Bégin, cultivateur de Saint-Jean-Chrysostome, est interdit et interné à l'asile des aliénés de Beauport dès février 1870 ; son curateur est Abraham Bégin, de Saint-Lambert."
+        }
+      ],
+      "note": "Une terre entre le chemin royal et la rivière Etchemin, vendue en 1870 par le curateur d'un interné de Beauport, puis revendue entre deux Roberge pour 200 piastres, laissées en mains jusqu'à ce que le curateur les réclame. Sur la terre : une vieille grange de 30 × 24 pieds et, distrait, le moulin à farine de Pierre Turgeon avec sa route d'accès — un repère pour la carte. Entre la vente n° 33 et celle-ci manque l'image 001084-85 (début de la minute n° 34).",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-18-accord-masse-croteau",
+      "type": "notarie",
+      "titre": "Accord et quittance de Célestin Massé à Jean-Baptiste Croteau, Alfred Moreau et Charles Gingras, New Liverpool, 1874",
+      "date": "1874-02-18",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 35, images 001091 à 001094 (l'image 001090-91, verso de la minute n° 34, porte seulement des calculs au crayon)",
+      "nature": "Minute originale ; acte complet. Intitulé : « Accord entre Massé & Gingras & alias ». Signé du témoin et du notaire ; le comparant ne sait ni écrire ni signer.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le dix-huitième jour de février, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, en le comté de Lévis, soussigné ; Et en présence de Hubert Roberge, du lieu appelé New Liverpool, dans la dite paroisse de St Romuald, écuyer, [entrepreneur, rayé] navigateur, témoin au présent acte, aussi soussigné ; Fut présent : Célestin Massé, résidant au dit lieu de New-Liverpool, [journalier, rayé] menuisier ; Lequel dit & déclare ce qui suit, savoir : Attendu que le dixième jour du courant, le dit Célestin Massé a institué une action à la Cour de Circuit portant le numéro 393, au montant de la somme de soixante-dix piastres, versus Jean-Baptiste Croteau, Alfred Moreau & Charles Gingras, tous trois défendeurs dénommés en la dite action ; Attendu que la dite action a été instituée par le dit Célestin Massé sous des circonstances exceptionnelles ; Attendu que les dits sieurs Croteau, Moreau & Gingras, pour conserver la paix & obtenir une tranquillité parfaite de la part du dit comparant, consentent à lui payer la somme de six piastres courant, outre deux piastres qu'ils s'obligent payer à Auguste Tremblay pour frais de voyage à Québec & autres troubles concernant cette affaire ; Attendu que les dits défendeurs en la dite cause Massé vs Gingras & alias s'obligent en outre payer les frais de cour au montant de la somme de trois louis & quarante sols courant ; Attendu que les dits défendeurs ont payé la dite somme de six piastres courant à vue & présence, & suivant offres faites par le dit notaire soussigné ; C'est pourquoi le dit Célestin Massé donne & accorde par ces présentes quittance générale & finale aux dits sieurs Moreau, Croteau & Gingras pour toutes & chacune les réclamations qu'il a & peut avoir contre eux, dits défendeurs, en la cause susdite. Dont décharge & quittance aux conditions susdites. Dont acte requis & octroyé à New-Liverpool susdit, demeure de Louis Lambert, les jour, mois & an susdits, sous le numéro trente-cinq des originaux du dit notaire soussigné. Et le dit comparant a déclaré ne savoir écrire ni signer, de ce requis, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. Dix mots rayés sont nuls. » Signatures : « H. Hubert Roberge », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "demandeur",
+          "nom": "Célestin Massé",
+          "note": "Menuisier de New Liverpool ; ne sait ni écrire ni signer. Absent des recensements dépouillés."
+        },
+        {
+          "role": "defendeur",
+          "nom": "Jean-Baptiste Croteau",
+          "ref_personne": "1871-D2-P016-L05",
+          "note": "En 1871 : J.-Baptiste Croteau, navigateur de 23 ans, division 2, maison 40 — la même maison qu'Alfred Moreau, son codéfendeur. Rattachement probable."
+        },
+        {
+          "role": "defendeur",
+          "nom": "Alfred Moreau",
+          "ref_personne": "1871-D2-P015-L20",
+          "note": "En 1871 : Alfred Moreau, navigateur de 28 ans, division 2, maison 40, chef de ménage — même maison que J.-B. Croteau. Seul Alfred Moreau de la paroisse."
+        },
+        {
+          "role": "defendeur",
+          "nom": "Charles Gingras",
+          "note": "Absent des recensements dépouillés."
+        },
+        {
+          "role": "temoin",
+          "nom": "Hubert Roberge",
+          "ref_personne": "1871-D2-P016-L08",
+          "note": "« Du lieu appelé New Liverpool, écuyer, navigateur » ; signe « H. Hubert Roberge ». Trois Hubert Roberge navigateurs en 1871-D2 : 54 ans (maison 51), 33 ans (maison 41, voisine des défendeurs) et 29 ans (maison 76). Rattaché en hypothèse au voisin de la maison 41 ; l'aîné, « écuyer », n'est pas exclu."
+        },
+        {
+          "role": "autre",
+          "nom": "Auguste Tremblay",
+          "note": "Reçoit deux piastres pour un voyage à Québec dans cette affaire."
+        },
+        {
+          "role": "hote",
+          "nom": "Louis Lambert",
+          "note": "L'acte est passé en sa demeure, à New Liverpool. Plusieurs Louis Lambert, navigateurs, en 1871-D2 (maisons 37 et 38) : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P016-L05",
+            "1871-D2-P015-L20"
+          ],
+          "enonce": "Les défendeurs J.-B. Croteau et Alfred Moreau sont les deux navigateurs recensés ensemble en 1871 dans la maison 40 de la division 2 (New Liverpool)."
+        },
+        {
+          "type": "identite",
+          "certitude": "hypothese",
+          "personnes": [
+            "1871-D2-P016-L08"
+          ],
+          "enonce": "Le témoin Hubert Roberge, écuyer, navigateur de New Liverpool, est l'un des trois Hubert Roberge navigateurs de 1871 — vraisemblablement le voisin des défendeurs (maison 41)."
+        }
+      ],
+      "note": "Une poursuite de 70 piastres à la Cour de circuit (n° 393), instituée « sous des circonstances exceptionnelles », réglée pour 6 piastres, 2 piastres de voyage et les frais de cour (3 louis 40 sols) « pour conserver la paix ». Premier acte du greffe nommant expressément New Liverpool.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-19-bail-demers-deschenes",
+      "type": "notarie",
+      "titre": "Bail d'une maison entre les rues Saint-Paul et Saint-Louis, de Benjamin Demers à Thomas Deschênes, 1874",
+      "date": "1874-02-19",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 36, images 001094 à 001098 (la dernière est la chemise imprimée « Bail »)",
+      "nature": "Formulaire imprimé de bail (cité de Québec, biffé), rempli à la main ; acte complet ; « Corporation de cette Ville » remplacée par « Conseil municipal ».",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le dix-neuvième jour du mois de février, avant midi, pardevant Mtre Elzéar Hubert Tremblay, notaire public, résidant en la paroisse de St Romuald, en le comté de Lévis, soussigné, & en présence de Mr Edouard Bourassa, de St Romuald susdit, témoin au présent acte, aussi soussigné ; Fut présent : Mr Benjamin Demers, de la dite paroisse de St Romuald, comté susdit, agriculteur ; Lequel a, par ces présentes, donné à loyer pour le terme & espace d'une année entière, qui commencera à courir du premier mai prochain & finira le trentième jour d'avril de l'année mil huit cent soixante-quinze, à Mr Thomas Deschênes, de la dite paroisse St Romuald, entrepreneur, à ce présent & acceptant preneur […] c'est à savoir : Une maison en bois à un étage, sise entre les rues St Paul & St Louis & appartenant au bailleur, circonstances & dépendances ; tel que le tout est actuellement & dont le preneur se déclare content & satisfait pour l'avoir vu & visité, & en être déjà en possession […] » — [001095-97] Le bailleur ne s'oblige « à aucunes réparations quelconques, pas même à tenir les lieux clos ni couverts ». « Ce bail est fait en outre pour & en considération du prix & somme de cinquante piastres courant pour l'année de sa durée, que le preneur promet & s'oblige payer au dit bailleur ou à son ordre en deux paiements égaux de la somme de vingt-cinq piastres courant chacun, payables savoir : le premier paiement dans le courant d'août prochain, & le dernier dans le courant de novembre aussi prochain. […] Il est convenu & entendu que, dans le cas où la dite maison viendrait à être incendiée sans la faute du preneur, qu'alors & dans ce cas le loyer ci-dessus stipulé & convenu sera payable & réductible à la somme de quatre piastres & seize centins par mois pour chaque mois que le dit preneur aura joui des dites premisses. […] Dont acte, fait & passé à St Romuald susdit, étude du dit Mtre E. H. Tremblay, notaire, les jour, mois & an susdits, sous le numéro trente-six des originaux du notaire soussigné. Requis de signer, le dit preneur a déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, ainsi que le dit bailleur, lecture faite. Quatre-vingt-quinze mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » Signatures : « Benj. Demers », « Edouard Bourassa », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Agriculteur de Saint-Romuald, propriétaire d'une maison de bois entre les rues Saint-Paul et Saint-Louis ; le même qu'à la minute n° 12 (concédant d'emplacements à Edouard Bourassa)."
+        },
+        {
+          "role": "preneur",
+          "nom": "Thomas Deschênes",
+          "note": "Entrepreneur de Saint-Romuald, déjà dans la maison ; ne sait pas signer. Plusieurs Thomas Deschênes en 1881-1891 (journalier de 56 ans en 1881, 1881-D1-P026-L03 ; forgeron en 1891) : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18"
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "probable",
+          "date": "1874-02-19",
+          "personnes": [
+            "1871-D1-P025-L04"
+          ],
+          "enonce": "Benjamin Demers possède une maison de bois d'un étage entre les rues Saint-Paul et Saint-Louis, à Saint-Romuald, louée à Thomas Deschênes pour 1874-1875."
+        }
+      ],
+      "note": "Benjamin Demers lotit sa terre (minute n° 12) et y loue des maisons : les rues Saint-Paul et Saint-Louis traversent sans doute ses anciens champs. Loyer : 50 piastres par an, en deux versements (août et novembre) ; le bailleur ne fait aucune réparation ; clause d'incendie. Benjamin Demers signe « Benj. Demers », comme son reçu de la minute n° 12.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-21-promesse-pelletier-langelier",
+      "type": "notarie",
+      "titre": "Promesse de vente d'un emplacement d'Eusèbe Pelletier, marchand, à Joseph Langelier, forgeron, Saint-Romuald, 1874",
+      "date": "1874-02-21",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 37, images 001098 à 001108 (l'image 001103-04 reste à transcrire ; 001107-08 est la chemise : « Promesse de vente — Coût $3.00 — Chaque copie $2.00 »)",
+      "nature": "Minute originale très raturée : le notaire a d'abord rédigé l'acte comme une vente des demoiselles Blanchet à Julien Demers, de Saint-Jean-Chrysostome (cf. minute n° 3), puis l'a corrigé ; renvois paraphés « E. P. », « J. L. » et du notaire. Acte complet sauf l'image 001103-04. Intitulé : « Promesse de vente Pelletier à Langelier ».",
+      "transcription": "« Pardevant Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, dans le comté de Lévis, soussigné ; Fut présent : Eusèbe Pelletier, écuyer, marchand, demeurant en la paroisse de St Romuald susdit ; Lequel promet, comme par ces présentes il promet, vendre, céder, transporter & abandonner, [avec garantie de tous troubles & empêchements généralement quelconques, & seulement dans le cas où les conditions ci-après mentionnées seront exécutées par l'acquéreur futur aux présentes,] à Mr Joseph Langelier, forgeron, de la dite paroisse de St Romuald, à ce présent & acceptant futur acquéreur pour lui, ses hoirs & ayants cause à l'avenir, savoir : Un emplacement situé en la dite paroisse de St Romuald, étant le numéro sept des emplacements désignés sur un plan tracé par Joseph Gamache, arpenteur, les premier & second jours de septembre de l'année mil huit cent soixante-dix, contenant quarante-cinq pieds de front sur soixante pieds de profondeur, borné par devant au nord-ouest au chemin public, & par derrière au sud-est au concédant ; d'un côté au nord-est à Pierre Boucher, & d'autre côté au sud-ouest à Étienne Morin, avec ensemble une maison en bois à un étage dessus construite, circonstances & dépendances, tel que le tout est actuellement […] & dont l'acquéreur futur se déclare content & satisfait, disant le bien connaître. Pour par le dit futur acquéreur jouir, faire & disposer, à commencer de la date du dit acte de vente, du dit immeuble […] en pleine & entière propriété […] » — [001100-01] « […] à l'effet de quoi le dit Eusèbe Pelletier, écuyer, mettra & subrogera en ses lieu & place le dit futur acquéreur, lui transmettant tous les droits de propriété quelconques qu'il a & pourra avoir sur l'immeuble sus-désigné & décrit […] Le dit Eusèbe Pelletier, écuyer, déclare que cet immeuble lui appartient pour l'avoir acquis, savoir : [renvoi : l'emplacement sus-désigné, de Pierre Lagueux, écuyer, juge de paix, & la maison construite sur le dit emplacement, de Étienne & Michel Morin, journaliers, tous du dit lieu de St Romuald,] suivant acte de bail à rente foncière & constituée […] & acte de vente consenti par le dit sieur Lagueux en faveur du dit vendeur, reçu devant Mtre Étienne Simard, notaire, & témoins, le quatrième jour de juin mil huit cent soixante-treize, & enregistré au bureau d'enregistrement pour le comté de Lévis le treizième jour de juin de la même année, Reg. B, Vol. 20, page 737, sous le numéro 16,148. » — [001101-03] Charges : 1° redevances tenant lieu de droits seigneuriaux, à compter du premier mai dernier ; se conformer aux actes provinciaux relatifs à la tenure seigneuriale ; 2° « payer les taxes qui seront imposées pour le parachèvement des édifices religieux & autres édifices publics en la dite paroisse de St Romuald » ; 3° se conformer à l'acte de concession du dit sieur Pelletier [renvoi : « & notamment de payer une rente foncière & constituée annuelle au montant de la somme de douze piastres courant, au dit Pierre Lagueux, écuyer, au capital de deux cents piastres, rachetable à toujours en un seul paiement »] ; 4° payer les taxes municipales, scolaires & autres ; 5° « cette vente sera faite en outre pour & moyennant le prix ou somme de quatre cents piastres courant, payable comme suit, savoir : cent piastres courant payé à vue & présence de nous dit notaire, au moyen d'un billet promissoire en date du trois de février, payable à l'ordre du dit Eusèbe Pelletier, écuyer, & signé “Boivin & Cie” […] » ; le reste payable au premier mai et au premier novembre de chaque année, avec l'intérêt de six pour cent. — [001104-05] « Aussi convenu que tous accidents qui pourront ou pourraient arriver au dit immeuble ou aux bâtisses dessus construites, d'hui à la passation du dit acte de vente, soit par le feu, ou autres accidents, seront supportés par le dit sieur Langelier, sans recours contre le sieur Pelletier. Convenu en outre que le dit sieur [Langelier] entretiendra, à compter de ce jour, une assurance au montant de la somme de deux cent soixante piastres, sur la maison construite sur le dit emplacement. » Renvoi : « [à la] vente, l'acquéreur Langelier donnera hypothèque spéciale en faveur de P. Lagueux, le concédant. » — [001105-06] « […] construite sur le dit lopin de terre, & continuera telle assurance pour un égal montant jusqu'au parfait & entier paiement de la dite somme de quatre cents piastres. Et dans le cas où le dit sieur Langelier ne continuerait pas telle assurance, alors le dit sieur Pelletier aura le droit de la continuer, en par le dit sieur Langelier lui remboursant les frais & loyaux coûts de telle assurance. Convenu en outre que le dit sieur Joseph Langelier donnera une hypothèque spéciale, au dit acte de vente, sur l'immeuble sus-désigné, en faveur du dit sieur Pelletier, qui se réservera tous ses droits & privilèges de bailleur de fonds. [Renvoi : si les paiements ne sont pas tous faits avant que l'acte de vente soit passé.] Le futur acquéreur entretiendra à ses frais les clôtures de division & les chemins, tel que le propriétaire y est lui-même tenu. » — [001106-07] « Et pour l'exécution des présentes les parties élisent domicile en leurs demeures actuelles & respectives […] Dont acte. Fait & passé en la paroisse de St Romuald, dit comté, demeure du dit sieur Pelletier, l'an mil huit cent soixante-quatorze, le vingt-unième jour de février, après-midi, sous le numéro trente-sept des originaux du notaire soussigné. Et lesdits sieurs Pelletier & Langelier ont, de ce requis, signé avec moi, notaire, lecture faite. Trois cent cinquante mots rayés sont nuls. Quinze renvois en marge sont bons & approuvés. » Signatures : « Joseph Langelier », « Eusèbe Pelletier », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "promettant",
+          "nom": "Eusèbe Pelletier",
+          "ref_personne": "1881-D1-P013-L17",
+          "note": "Écuyer, marchand de Saint-Romuald ; paraphe « E. P. ». Marchand de 48 ans en 1881 (division 1, maison 47), marchand général de 57 ans en 1891 (1891-D1-P064-L25). Absent du dépouillement de 1871. Il lotit un terrain selon un plan d'arpentage de 1870. Signe « Eusèbe Pelletier » ; l'acte est passé en sa demeure."
+        },
+        {
+          "role": "futur_acquereur",
+          "nom": "Joseph Langelier",
+          "ref_personne": "1871-D1-P035-L19",
+          "note": "Forgeron de Saint-Romuald ; paraphe « J. L. ». En 1871 : Joseph Langelier, forgeron de 44 ans, division 1, maison 92 — le seul de ce nom. Signe « Joseph Langelier »."
+        },
+        {
+          "role": "concedant",
+          "nom": "Pierre Lagueux",
+          "ref_personne": "1871-D1-P076-L08",
+          "note": "Écuyer, juge de paix ; a concédé l'emplacement à Eusèbe Pelletier par bail à rente foncière (4 juin 1873), contre une rente de 12 piastres par an au capital de 200 piastres — le même Pierre Lagueux, juge de paix, qu'à l'acte n° 114."
+        },
+        {
+          "role": "auteur",
+          "nom": "Étienne Morin",
+          "note": "Journalier de Saint-Romuald ; a vendu à Pelletier la maison bâtie sur l'emplacement, avec Michel Morin (1873). Aussi voisin au sud-ouest. Non rattaché."
+        },
+        {
+          "role": "auteur",
+          "nom": "Michel Morin",
+          "note": "Journalier de Saint-Romuald ; covendeur de la maison, avec Étienne Morin."
+        },
+        {
+          "role": "notaire",
+          "nom": "Étienne Simard",
+          "ref_personne": "1871-D1-P021-L03",
+          "note": "Notaire de l'acte du 4 juin 1873 entre Lagueux et Pelletier."
+        },
+        {
+          "role": "autre",
+          "nom": "Boivin & Cie",
+          "note": "Signataires du billet de 100 piastres remis en acompte."
+        },
+        {
+          "role": "arpenteur",
+          "nom": "Joseph Gamache",
+          "note": "Auteur du plan de lotissement des 1er et 2 septembre 1870."
+        },
+        {
+          "role": "voisin",
+          "nom": "Pierre Boucher",
+          "note": "Voisin au nord-est. Plusieurs Pierre Boucher recensés : non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Étienne Morin",
+          "note": "Voisin au sud-ouest. Un Étienne Morin, charretier de 30 ans, en 1871-D2 (maison 46), journalier en 1881 (1881-D1-P040-L02), débardeur en 1891 : non rattaché, faute de certitude."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-02-21",
+          "personnes": [
+            "1881-D1-P013-L17"
+          ],
+          "enonce": "Eusèbe Pelletier, marchand, possède à Saint-Romuald un terrain loti en emplacements selon un plan de l'arpenteur Joseph Gamache (1870), dont le n° 7, avec une maison de bois, promis à Joseph Langelier."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P035-L19"
+          ],
+          "enonce": "Le futur acquéreur Joseph Langelier, forgeron, est le forgeron de 44 ans recensé en 1871 (division 1, maison 92)."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1881-D1-P013-L17",
+            "1891-D1-P064-L25"
+          ],
+          "enonce": "Eusèbe Pelletier, écuyer, marchand en 1874, est le marchand recensé en 1881 et le marchand général de 1891."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1873-06-04",
+          "personnes": [
+            "1871-D1-P076-L08"
+          ],
+          "enonce": "Pierre Lagueux, écuyer, juge de paix, concède à rente (12 piastres par an, capital de 200) des emplacements de sa terre à Saint-Romuald : le n° 7 du plan Gamache (1870) passe à Eusèbe Pelletier en 1873, puis est promis à Joseph Langelier en 1874."
+        }
+      ],
+      "note": "Promesse de vente conditionnelle de l'emplacement n° 7 du plan de l'arpenteur Joseph Gamache (1870) — un lotissement de la terre de Pierre Lagueux, juge de paix (comme son père Edouard à l'acte n° 113). Chaîne : Lagueux (concédant, 1873) et Étienne et Michel Morin (vendeurs de la maison) → Eusèbe Pelletier, marchand → Joseph Langelier, forgeron (1874), pour 400 piastres, plus la rente de 12 piastres due à Lagueux. Langelier supporte le risque d'incendie et assure la maison pour 260 piastres. Coût de l'acte : 3 piastres, chaque copie 2 piastres. À compléter : l'image 001103-04.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-23-bail-emphyteotique-lemieux-girard",
+      "type": "notarie",
+      "titre": "Bail emphytéotique de 99 ans de Louis Lemieux à Augustin Girard, forgeron, concession Saint-Augustin, 1874",
+      "date": "1874-02-23",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 38, images 001108 à 001114 (Drive : fichiers 04T_CN401S124P_00164 à 00170)",
+      "nature": "Minute originale très raturée ; quinze renvois en marge paraphés « I. C. » (Isaac Cantin) et du notaire ; « Exp. 1 fois & enregistré ». Intitulé : « Bail emphytéotique L. Lemieux à A. Girard ». Acte complet. Le prénom du bailleur, mal lisible au corps de l'acte, est donné par l'intitulé (« L. Lemieux ») et par la minute n° 39, du même jour : Louis Lemieux.",
+      "transcription": "« Pardevant le notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné, en présence de sieur Isaac Cantin, junior, de la paroisse de St Jean Chrysostome, comté susdit, cultivateur, témoin au présent acte, aussi soussigné ; Fut présent : Louis Lemieux, cultivateur, de la division de la dite paroisse de St Jean Chrysostome appelée St Augustin ; Lequel a, par ces présentes, baillé, cédé, transporté & abandonné, à titre de bail emphytéotique, pour le terme & espace de quatre-vingt-dix-neuf années entières & consécutives, qui ont commencé à courir du premier jour d'octobre dernier, mil huit cent soixante-treize, & finiront le premier jour d'octobre mil neuf cent soixante-douze, & promet faire jouir au dit titre durant le dit temps, à sieur Augustin Girard, du dit lieu de St Augustin, paroisse de St Jean Chrysostome, forgeron, à ce présent & acceptant preneur pour lui, ses hoirs & ayants cause à l'avenir, savoir : Un emplacement situé en la dite paroisse de St Jean Chrysostome, concession St Augustin, borné par devant au sud-ouest au chemin de la Reine, en arrière au nord-est au bailleur, au nord à Jean-Baptiste Lévigne dit Lafleur & au sud à une rue de douze pieds de largeur tracée sur la terre du dit bailleur ; le dit emplacement étant de forme irrégulière & contenant quarante-huit pieds de profondeur sur le côté nord, cinquante-deux pieds, plus ou moins, de profondeur sur le côté sud, cinquante pieds de largeur sur le côté nord-est & cinquante-cinq pieds, plus ou moins, de front sur le dit chemin de la Reine, tel que le dit emplacement est aujourd'hui désigné au moyen de piquets implantés en terre ; [renvoi : & une ligne droite décrite au moyen de jalons, sur laquelle ligne se trouve une fontaine qui appartiendra au preneur] ; tel que le dit emplacement est actuellement, sans en rien réserver, & dont le dit preneur se déclare content & satisfait, l'ayant vu & visité & en étant déjà en possession. Le dit bailleur déclare que le dit emplacement sus-désigné fait partie d'un plus grand terrain qui lui appartient en vertu de titres bons & valables, qu'il promet aider le dit preneur au besoin. Ce bail est fait aux charges & conditions suivantes, que le preneur s'oblige d'exécuter & accomplir, à peine de tous dépens, dommages & intérêts, savoir : 1° De clore le dit emplacement […] » — [001110-14] Charges : « 1° De clore le dit emplacement à ses propres frais & dépens, maintenant & pendant toute la durée du présent bail ; 2° De bâtir sur le dit emplacement une maison habitable & logeable, [renvoi : sans être néanmoins tenu de rebâtir telle maison dans le cas d'incendie ou destruction] ; 3° De remettre en bon état, à l'expiration du dit bail emphytéotique, au dit sieur Lemieux, ses hoirs & ayants cause, le dit emplacement avec les clôtures en bon état, comme aussi tous les bâtiments de quelque espèce qu'ils puissent être […] qui se trouveront construits sur le dit emplacement, soit en pierre, soit en bois, lesquels demeureront & appartiendront au dit bailleur, ses héritiers & ayants cause, en par le dit bailleur […] remboursant au dit sieur Girard […] le prix auquel sera évaluée telle maison & autres bâtisses, suivant l'expertise qui sera alors faite ; [renvoi : où le dit bailleur ne voudrait plus bailler le dit emplacement, alors le dit sieur Girard […] seront tenus d'enlever les bâtisses construites sur le dit emplacement à leurs frais, risques & périls] ; 4° De payer au dit bailleur, ses héritiers & ayants cause, six piastres courant de rente emphytéotique, payable annuellement au premier jour d'octobre, & dont le premier paiement échoira & se fera le premier jour d'octobre mil huit cent soixante-quatorze, & continuera ainsi annuellement à pareil jour jusqu'à l'expiration du dit bail emphytéotique ; laquelle rente le dit preneur promet […] nonobstant toutes mutations à l'avenir ; laquelle dite rente sera rachetable au capital de cent piastres courant, à tout temps. […] Le bailleur se réserve, pour lui, ses hoirs & ayants cause, le droit de retrait au cas de vente à l'avenir du tout ou partie du dit terrain, en remboursant le prix porté au dit contrat & le coût d'icelui, & ce dans le délai d'un mois du jour que le nouvel acquéreur lui fera exhibition de son titre d'acquisition. Et à la sûreté & garantie du paiement de la dite rente emphytéotique […] le dit preneur a spécialement hypothéqué l'emplacement ci-dessus baillé & désigné [& les bâtisses dessus construites], par privilège de bailleur de fonds. [Renvoi : sujette la présente clause aux dispositions y relatives du Code civil du Bas-Canada.] Dont acte. Fait & passé à St Jean Chrysostome susdit, [demeure de Mr Isaac Cantin, senior,] le vingt-troisième jour de février après-midi, de l'an mil huit cent soixante-quatorze, sous le numéro trente-huit des originaux du notaire soussigné. Requis de signer, les dits bailleur & preneur ont déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. Quatre cent soixante-quatorze mots rayés sont nuls. Quinze renvois en marge sont bons & approuvés. » Signatures : « Isaac Cantin », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Louis Lemieux",
+          "note": "Cultivateur de la division Saint-Augustin de Saint-Jean-Chrysostome ; ne sait pas signer. Rattachement en hypothèse, selon la règle du recouvrement des deux paroisses (indication de Patrick) : en 1871, Louis Lemieux, cultivateur veuf de 48 ans, division 2, maison 18 — voisin des St-Hilaire (maison 17), des Samson (19) et des Forgues (20), au Sault. Un fils homonyme de 16 ans est recensé avec lui.",
+          "ref_personne": "1871-D2-P007-L20"
+        },
+        {
+          "role": "preneur",
+          "nom": "Augustin Girard",
+          "note": "Forgeron de Saint-Augustin (Saint-Jean-Chrysostome), déjà en possession de l'emplacement. Absent des recensements de Saint-Romuald. Ne sait pas signer."
+        },
+        {
+          "role": "temoin",
+          "nom": "Isaac Cantin, junior",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; paraphe « I. C. ». Sans doute parent de l'Isaac Cantin procureur de l'acte n° 21. Signe « Isaac Cantin » ; l'acte est passé chez Isaac Cantin, senior. Aucun Isaac Cantin dans les recensements de Saint-Romuald."
+        },
+        {
+          "role": "voisin",
+          "nom": "Jean-Baptiste Lévigne dit Lafleur",
+          "note": "Voisin au nord. Une Démerise Lévigne, veuve de 50 ans, et son fils Joseph sont recensés à Saint-Romuald en 1891 (1891-D1-P043-L25, maison 183) : piste, non rattachée."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "identite",
+          "certitude": "hypothese",
+          "personnes": [
+            "1871-D2-P007-L20"
+          ],
+          "enonce": "Louis Lemieux, cultivateur de la division Saint-Augustin, qui baille des emplacements sur le chemin de la Reine en 1874, pourrait être le cultivateur veuf de 48 ans recensé en 1871 dans la division 2 de Saint-Romuald (maison 18)."
+        }
+      ],
+      "note": "Bail emphytéotique de 99 ans (1873-1972) : un cultivateur cède à un forgeron, sur le chemin de la Reine, un emplacement taillé dans sa terre, avec une fontaine et une rue de douze pieds tracée à côté, pour 6 piastres de rente par an (rachetable 100 piastres). Le preneur bâtit ; à la fin du bail, le bailleur rachète les bâtisses à dire d'expert ou les fait enlever. Le même jour, Louis Lemieux concède un second emplacement à J.-B. Croteau (minute n° 39) : la naissance du hameau de Saint-Augustin.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-23-bail-emphyteotique-lemieux-croteau",
+      "type": "notarie",
+      "titre": "Bail emphytéotique de 99 ans de Louis Lemieux à Jean-Baptiste Croteau, charpentier, Saint-Augustin, 1874",
+      "date": "1874-02-23",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 39, images 001114 à 001121 (Drive : fichiers 04T_CN401S124P_00170 à 00176)",
+      "nature": "Minute originale ; « Expédié 1 fois & enregistré ». Intitulé : « Bail emphytéotique par L. Lemieux [à] J. Bte Croteau ». Renvois paraphés « J. B. C. », « I. C. » et du notaire.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le vingt-troisième jour de février, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné, [& en présence de Isaac Cantin, junior, de la paroisse de St Jean Chrysostome, cultivateur, témoin au présent acte, aussi soussigné] ; Furent présents : Mr Louis Lemieux, cultivateur, du lieu appelé St Augustin, dans la paroisse de St Jean Chrysostome, dit comté, de la première part ; Et Mr Jean-Baptiste Croteau, charpentier, du dit lieu de St Jean Chrysostome, division nommée de St Augustin, de la seconde part ; Lesquelles parties, en présence de nous dits notaire & témoin, ont convenu & ont arrêté entre elles les conventions qui suivent, savoir : Le dit sieur Louis Lemieux a déclaré, & par ces présentes déclare avoir baillé, cédé, transporté & abandonné, à titre de bail emphytéotique, pour le terme & espace de quatre-vingt-dix-neuf années entières & consécutives, qui ont commencé à courir du premier jour d'octobre mil huit cent soixante-treize, & finiront le premier jour d'octobre mil [neuf cent soixante-douze …] » — [001115-20] « […] mil neuf cent soixante-douze, au dit sieur Jean-Baptiste Croteau, à ce présent & acceptant preneur pour lui, ses héritiers & ayants cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Jean Chrysostome susdite, concession St Augustin, de forme irrégulière, de la contenance de quatre-vingt-dix pieds de profondeur, côtés nord & sud, sur cent pieds, plus ou moins, de largeur au front & en arrière au bout de la dite profondeur, le dit emplacement ayant quatre-vingt-dix pieds de largeur au centre ; borné par devant, en front, au sud-ouest au chemin de la Reine, en arrière au nord-est au bailleur, au nord-ouest à une route ayant douze pieds de largeur tracée sur le terrain du bailleur, & au sud-est au dit bailleur, circonstances & dépendances ; tel que le tout est actuellement […] & dont le dit sieur Jean-Baptiste Croteau se déclare content & satisfait, disant le bien connaître pour l'avoir vu & visité & en être déjà en possession. » Charges, comme à la minute n° 38 : redevances seigneuriales ; bâtir une maison habitable & logeable, sans obligation de la rebâtir en cas d'incendie ; entretenir à ses frais les clôtures & lignes de division ; remettre en bon état à l'expiration du bail, le bailleur remboursant les bâtisses à dire d'expert ; droit de retrait au bailleur. « Au dit sieur Louis Lemieux appartient le dit emplacement, avec plus grande étendue de terrain, en vertu de titres bons & valables qu'il s'oblige fournir au dit preneur à demande. Le présent bail est fait en outre en considération de la somme de douze piastres courant de rente annuelle, rachetable au capital de la somme de deux cents piastres courant, en tout temps, que le dit sieur Croteau, pour lui & ses héritiers & ayants cause, s'oblige payer au dit sieur Louis Lemieux […] annuellement au premier jour d'octobre jusqu'à l'expiration du dit bail. Et pour sûreté du paiement de la dite rente de [douze] piastres courant & pour assurer l'entière exécution des charges, clauses & conditions sus-mentionnées, le dit sieur Jean-Baptiste Croteau a spécialement hypothéqué le dit immeuble, avec les bâtisses, circonstances & dépendances, sur lesquels le dit bailleur se réserve expressément tous ses droits & privilèges de bailleur de fonds. […] Dont acte fait & passé en la paroisse de St Jean Chrysostome, en la demeure de Mr Isaac Cantin, père, cultivateur, [Michel Roberge, rayé] les jour, mois & an susdits, sous le numéro trente-neuf des originaux du notaire soussigné. Requis de signer, lesdits preneur & témoin ont signé avec moi, notaire, le dit bailleur ayant déclaré ne le savoir […] » En marge, question barrée du notaire : « Le preneur a-t-il déjà payé des rentes échues ? » — [001120-21] « […] le savoir, de ce requis, lecture faite. Deux cent soixante-dix-neuf mots rayés sont nuls. Quatorze renvois en marge sont bons & approuvés. » Signatures : « J. Baptiste Croteau », « Isaac Cantin », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Louis Lemieux",
+          "ref_personne": "1871-D2-P007-L20",
+          "note": "Le même qu'à la minute n° 38 ; rattachement en hypothèse."
+        },
+        {
+          "role": "preneur",
+          "nom": "Jean-Baptiste Croteau",
+          "note": "Charpentier de la division Saint-Augustin ; sait signer ; déjà en possession de l'emplacement. Les J.-B. Croteau des recensements de Saint-Romuald sont navigateur (1871-D2) ou journalier (1881-D1) : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Isaac Cantin, junior",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; témoin aussi de la minute n° 38."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Second emplacement concédé le même jour par Louis Lemieux, en front sur le chemin de la Reine, à côté d'une route de douze pieds tracée sur sa terre — sans doute la même rue qu'à la minute n° 38 : les emplacements de Girard et de Croteau s'y font face. Rente : 12 piastres par an, rachetable 200 piastres, pour un terrain d'environ 90 × 100 pieds (le double de celui de Girard). Acte passé chez Isaac Cantin, père.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-24-sommation-forcade-inventaire",
+      "type": "notarie",
+      "titre": "Sommation d'Albert Forcade, curateur, à la veuve Bourassa, au tuteur et au subrogé-tuteur : inventaire fixé au 27 février 1874",
+      "date": "1874-02-24",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 40, images 001121 à 001125 (Drive : fichiers 04T_CN401S124P_00177 à 00180 ; suite non encore transcrite)",
+      "nature": "Sommation signifiée par le notaire, très raturée ; « Exp. 3 fois ». Intitulé : « Sommation par Alb. Forcade à Vve Frs Bourassa ».",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le vingt-quatrième jour de février, avant midi, à la réquisition de sieur Albert Forcade, de la paroisse de St Romuald, comté de Lévis, charpentier, agissant en ces présentes en sa qualité de curateur dûment élu en justice à la succession vacante de feu François Bourassa, en son vivant du dit lieu de St Romuald, hôtellier, en date à Québec du quatorze de février courant, lequel acte de curatelle a été enregistré au bureau d'enregistrement du comté de Lévis-Dorchester, division numéro deux, le même jour ; Nous, notaire public pour la province de Québec, résidant & pratiquant en la dite paroisse de St Romuald, nous sommes exprès transporté en la demeure de Dame Marguerite Lavièsse dite Laliberté, veuve du dit feu François Bourassa, située en la susdite paroisse de St Romuald ; en la demeure de sieur Edouard Bourassa, cultivateur, située en la dite paroisse de St Romuald, tuteur dûment élu en justice le vingt-neuf de juillet mil huit cent soixante-onze à François, Romuald, Michel & Philémon Bourassa, quatre enfants mineurs issus du mariage d'entre le dit feu François Bourassa & feue Dame Ursule Tardif, [sa première épouse] ; & en la demeure de Joseph Tardif, cultivateur, située en la paroisse de St Jean Chrysostome, dit comté, subrogé-tuteur aux dits enfants mineurs ; où étant & parlant [à la dite dame veuve : renvoi, à un commerçant demeurant dans la même maison que la dite Marguerite Lavièsse dite Laliberté, au refus de la servante de celle-ci, qui a refusé de donner son nom ;] aux dits sieurs Edouard Bourassa & Joseph Tardif personnellement, nous avons dit & déclaré que le dit feu François Bourassa était commun en biens avec la dite feue Ursule Tardif ; que la dite feue Ursule Tardif est décédée le [deux, corrigé en marge : six ?] février mil huit cent soixante-cinq, ab intestat, laissant pour ses héritiers les dits enfants mineurs, lesquels, par leur tuteur dûment autorisé en justice, ont renoncé à la succession du dit feu François Bourassa, leur père, & accepté la communauté de biens qui a existé entre lesdits feus François Bourassa & Ursule Tardif jusqu'à la date du deuxième jour de février mil huit cent soixante-cinq, époque à laquelle la dite feue Ursule Tardif est décédée, [& accepté les avantages à eux accordés en vertu du contrat de mariage de leurs dits père & mère décédés,] suivant acte en date à St Romuald susdit du neuvième jour de janvier mil huit cent soixante-quatorze, reçu par le notaire soussigné & enregistré au bureau d'enregistrement du comté de Lévis, Reg. B, Vol. 21, page 391, sous le numéro 16,435 ; qu'aucun inventaire constatant les biens dépendant de la communauté qui a existé entre lesdits feus François Bourassa & Ursule Tardif n'a été fait lors du décès de la dite feue Ursule Tardif ; qu'il est maintenant nécessaire de procéder à faire l'inventaire des biens immeubles & meubles & des effets mobiliers [délaissés par le dit feu François Bourassa, formant maintenant la succession vacante, & avoir sa part tant dans la première communauté que dans la seconde communauté] ; Que vendredi, le vingt-sept de février courant, à dix heures de l'avant-midi, je, Elzéar Hubert Tremblay, notaire soussigné, à la réquisition susdite, me rendrai en la demeure de la dite Dame Marguerite Lavièsse dite Laliberté, située en la paroisse de St Romuald, où sont décédés lesdits feus François Bourassa & Ursule Tardif, pour là & alors procéder à l'inventaire fidèle & description exacte de tous les biens meubles, effets mobiliers & les immeubles, dettes actives & passives, titres & papiers & de tous renseignements quelconques dépendant de la succession susdite du dit feu François Bourassa. C'est […] »",
+      "personnes": [
+        {
+          "role": "requerant",
+          "nom": "Albert Forcade",
+          "ref_personne": "1871-D2-P018-L06",
+          "note": "Charpentier, curateur à la succession vacante de François Bourassa (élu à Québec le 14 février 1874)."
+        },
+        {
+          "role": "partie",
+          "nom": "Marguerite Lavièsse dite Laliberté",
+          "ref_personne": "1871-D2-P067-L20",
+          "note": "Veuve de François Bourassa ; en son absence (ou sur son refus), l'acte est remis à un commerçant logé dans la même maison, la servante ayant refusé de donner son nom."
+        },
+        {
+          "role": "tuteur",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18"
+        },
+        {
+          "role": "subroge_tuteur",
+          "nom": "Joseph Tardif",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, subrogé-tuteur des quatre mineurs — parent d'Ursule Tardif (frère ?). C'est lui qui signe l'inventaire n° 42. Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "defunt",
+          "nom": "François Bourassa",
+          "ref_personne": "1871-D2-P067-L19"
+        },
+        {
+          "role": "defunte",
+          "nom": "Ursule Tardif",
+          "note": "Première épouse ; morte en février 1865 — le même acte porte « deux » dans le corps et, semble-t-il, « six » corrigé en marge."
+        },
+        {
+          "role": "enfant",
+          "nom": "François Bourassa",
+          "ref_personne": "1871-D2-P068-L01"
+        },
+        {
+          "role": "enfant",
+          "nom": "Romuald Bourassa",
+          "ref_personne": "1871-D2-P068-L02"
+        },
+        {
+          "role": "enfant",
+          "nom": "Michel Bourassa",
+          "ref_personne": "1871-D2-P068-L03"
+        },
+        {
+          "role": "enfant",
+          "nom": "Philémon Bourassa",
+          "ref_personne": "1871-D2-P068-L04"
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "date": "1874-02-24",
+          "personnes": [
+            "1871-D2-P067-L20",
+            "1871-D2-P067-L19"
+          ],
+          "enonce": "La veuve Marguerite Lavièsse dite Laliberté demeure en 1874 dans la maison où sont morts François Bourassa et Ursule Tardif ; un commerçant et une servante y logent aussi."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-02-24",
+          "personnes": [
+            "1871-D2-P068-L01",
+            "1871-D2-P068-L02",
+            "1871-D2-P068-L03",
+            "1871-D2-P068-L04"
+          ],
+          "enonce": "Aucun inventaire n'avait été fait à la mort d'Ursule Tardif (1865) ; le curateur fixe celui de la succession Bourassa au vendredi 27 février 1874, 10 h, en la maison de la veuve."
+        }
+      ],
+      "note": "Le chaînon entre la sommation n° 25 (la veuve refuse de répondre) et l'inventaire n° 42 : c'est le curateur Forcade qui prend l'affaire en main et fixe la date. Joseph Tardif, subrogé-tuteur, apparaît ici pour la première fois. À compléter : la fin de l'acte.",
       "ajoute_le": "2026-10-31"
     }
   ]
