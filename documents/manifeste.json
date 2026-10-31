@@ -4836,16 +4836,26 @@
         },
         {
           "role": "voisin",
-          "nom": "McKenzie",
-          "note": "Voisin à l'ouest, sur le côté nord du chemin public. Un John McKenzie, ship chandler, est recensé en 1871 dans la division 2 (1871-D2-P057-L04, maison 147) : le prénom manque à l'acte, aucun rattachement."
+          "nom": "McKenzie [John McKenzie]",
+          "note": "Voisin à l'ouest, sur le côté nord du chemin public. Rattaché à John McKenzie, ship chandler, recensé en 1871 dans la division 2 (maison 147), sur décision de Patrick (2026-10-31) : l'acte ne donne que le patronyme. La maison 147 de 1871 est la Maison McKenzie, 1633 chemin du Fleuve (lieu 1633-cf, rattachement confirmé).",
+          "ref_personne": "1871-D2-P057-L04"
         },
         {
           "role": "notaire",
           "nom": "Elzéar-Hubert Tremblay"
         }
       ],
-      "affirmations": [],
-      "note": "Premier acte anglais du greffe : deux ouvriers anglophones de Saint-Romuald, l'un louant à l'autre une maison de bois d'un étage, voisine de la sienne, pour l'hiver 1873-1874 (cinq dollars par mois). Le formulaire vient de l'étude de Geo. Théo. Tremblay, notaire à Québec, 59 rue Saint-Jean (extra-muros) — parent ou ancien patron d'E.-H. Tremblay ? Numérotation à vérifier : « No 9 » en tête, « number ten » à la clôture.",
+      "affirmations": [
+        {
+          "type": "residence",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P057-L04"
+          ],
+          "enonce": "En 1873, la maison de bois louée par Michael McAneeny à William Thomas Dee touche à l'ouest la propriété McKenzie : elle se trouvait donc à l'est de la Maison McKenzie, 1633 chemin du Fleuve, avec celle du bailleur."
+        }
+      ],
+      "note": "Premier acte anglais du greffe : deux ouvriers anglophones de Saint-Romuald, l'un louant à l'autre une maison de bois d'un étage, voisine de la sienne, pour l'hiver 1873-1874 (cinq dollars par mois). Le formulaire vient de l'étude de Geo. Théo. Tremblay, notaire à Québec, 59 rue Saint-Jean (extra-muros) — parent ou ancien patron d'E.-H. Tremblay ? Numérotation à vérifier : « No 9 » en tête, « number ten » à la clôture. Lieu : la maison louée et celle du bailleur sont voisines, à l'est, de la Maison McKenzie (1633, chemin du Fleuve) — rattachement du voisin décidé par Patrick.",
       "ajoute_le": "2026-10-31"
     }
   ]
