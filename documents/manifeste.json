@@ -6149,7 +6149,7 @@
       ],
       "affirmations": [
         {
-          "type": "autre",
+          "type": "fonction",
           "certitude": "etabli",
           "date": "1874-02-12",
           "personnes": [
