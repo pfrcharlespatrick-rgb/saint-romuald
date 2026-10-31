@@ -6296,6 +6296,80 @@
       "affirmations": [],
       "note": "Seconde terre d'Edouard Couture, voisine de la première (n° 32) dans la concession Beauséjour : le lot n° 26, concédé par la Couronne en 1849 — Couture en fut le premier concessionnaire. À compléter : la suite (prix, signatures).",
       "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-vente-roberge-roberge",
+      "type": "notarie",
+      "titre": "Vente d'une terre sur l'Etchemin entre Olivier et Octave Roberge, Saint-Jean-Chrysostome, 1874 (fin)",
+      "date": "1874-02",
+      "date_incertaine": true,
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 34, images 001085 à 001090 (le début, avec la date, les qualités des parties et le début de la désignation, est sur les images 001080 à 001085, non encore transcrites)",
+      "nature": "Fin de minute originale ; renvois paraphés « O. R. », « O. R. » et du notaire. Postérieure au 8 février 1874 (point de départ des intérêts), passée à la demeure du vendeur à Saint-Jean-Chrysostome. Qui des deux Roberge vend et qui achète reste à lire à la première page.",
+      "transcription": "« […] chemin royal, en arrière au nord-est à la rivière Etchemin, d'un côté au nord à Edouard Bourassa, & de l'autre côté au sud à Abraham Bégin, sur lequel est une vieille grange d'environ trente pieds sur vingt-quatre pieds, couverte en planches seulement, circonstances & dépendances ; (2) [renvoi : de laquelle terre est à distraire un emplacement de deux arpents, plus ou moins, en superficie, sur lequel est bâti un moulin à farine appartenant à Pierre Turgeon, ou ses représentants, (4) & de laquelle terre est à distraire aussi une route de dix-huit pieds de large & longue d'environ sept arpents, communiquant au dit moulin.] Tel que le tout est actuellement […] & dont l'acquéreur se déclare content & satisfait, disant le bien connaître. Pour par le dit acquéreur jouir, faire & disposer du dit immeuble […] en pleine & entière propriété de ce jour & à toujours. Appartenant la dite terre au dit vendeur pour l'avoir acquise de Abraham Bégin, de la paroisse de St Lambert, cultivateur, en qualité de curateur de Rigobert Bégin, interdit, ci-devant de la paroisse de St Jean Chrysostome, cultivateur, & maintenant renfermé à l'asile des aliénés de Beauport, suivant acte de vente en date à St Jean Chrysostome susdit du dix de février mil huit cent soixante-dix, reçu par Mtre L. N. Carrier & témoin, & enregistré au bureau d'enregistrement du comté de Dorchester, division numéro deux, Reg. B, Vol. 18, page 364, sous le numéro 14,193. La présente vente est faite à la charge par le dit acquéreur des cens, rentes & autres droits seigneuriaux sur la dite terre, & ce tant du passé que l'acquéreur promet payer, que de l'avenir. Cette vente est faite en outre pour le prix ou somme de deux cents piastres courant ; laquelle somme devra demeurer, avec hypothèque spéciale sur l'immeuble sus-vendu, entre les mains de l'acquéreur d'icelui, jusqu'à ce que le dit montant du prix de vente puisse être légalement réclamé par qui de droit, avec ensemble l'intérêt de six pour cent par an, le dit intérêt payable au curateur du dit interdit, à compter du huit de février courant jusqu'au parfait paiement du prix de vente sus-mentionné. Cette vente est faite sans novation ni dérogation à l'hypothèque acquise sur les biens du dit vendeur pour le paiement de la somme susdite avec plus forte somme due au curateur en la dite qualité. […] Dont acte. Fait & passé à St Jean Chrysostome susdit, demeure du vendeur, les jour, mois & an susdits, sous le numéro trente-quatre des originaux du notaire soussigné. Et lesdits vendeur & acquéreur ont, de ce requis, signé avec moi, notaire, lecture faite. Soixante-un mots rayés sont nuls. Quatre renvois en marge sont bons & approuvés. » Signatures : « Olivier Roberge », « Octave Roberge », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "partie",
+          "nom": "Olivier Roberge",
+          "ref_personne": "1871-D2-P010-L03",
+          "note": "Vendeur ou acquéreur (à lire au début de l'acte) ; signe. Peut-être Olivier Roberge, 20 ans en 1871, chez Louis Roberge (division 2, maison 22) — hypothèse ; le même témoin qu'à la donation n° 24. Dit « de St Jean Chrysostome » : la paroisse recouvre en partie Saint-Romuald (indication de Patrick)."
+        },
+        {
+          "role": "partie",
+          "nom": "Octave Roberge",
+          "note": "Vendeur ou acquéreur ; signe. Un Octave Roberge, journalier de 21 ans, est recensé en 1871 chez Julie Paradis (1871-D1-P075-L15) : non rattaché faute d'autre indice."
+        },
+        {
+          "role": "curateur",
+          "nom": "Abraham Bégin",
+          "note": "Cultivateur de Saint-Lambert, curateur de Rigobert Bégin ; voisin au sud de la terre. Le même Abraham Bégin est voisin à la donation n° 24."
+        },
+        {
+          "role": "interdit",
+          "nom": "Rigobert Bégin",
+          "note": "Cultivateur, ci-devant de Saint-Jean-Chrysostome, interdit et « renfermé à l'asile des aliénés de Beauport » dès 1870. Un Rigobert Bégin, tanneur, est recensé à Saint-Romuald en 1881 (38 ans, veuf, 1881-D1-P012-L10) et en 1891 (49 ans) : métier et âge (né vers 1843) rendent l'identité douteuse — non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "Voisin au nord ; hypothèse : le cultivateur de Saint-Romuald qui paraît dans huit actes du greffe, ici propriétaire d'une terre entre le chemin royal et l'Etchemin. Dit « de St Jean Chrysostome » : la paroisse recouvre en partie Saint-Romuald (indication de Patrick)."
+        },
+        {
+          "role": "meunier",
+          "nom": "Pierre Turgeon",
+          "note": "Propriétaire d'un moulin à farine bâti sur un emplacement de deux arpents distrait de la terre, desservi par une route de 18 pieds sur environ 7 arpents. Un Pierre Turgeon, journalier de 31 ans, est recensé en 1891 (1891-D1-P049-L15) : trop jeune pour le meunier de 1874, non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "L. N. Carrier",
+          "note": "Notaire de la vente de 1870."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "hypothese",
+          "date": "1874-02",
+          "personnes": [
+            "1871-D1-P040-L18"
+          ],
+          "enonce": "Edouard Bourassa possède une terre entre le chemin royal et la rivière Etchemin, voisine au nord de celle vendue entre les Roberge — à confirmer : l'acte ne donne que le nom."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1870-02-10",
+          "personnes": [],
+          "enonce": "Rigobert Bégin, cultivateur de Saint-Jean-Chrysostome, est interdit et interné à l'asile des aliénés de Beauport dès février 1870 ; son curateur est Abraham Bégin, de Saint-Lambert."
+        }
+      ],
+      "note": "Une terre entre le chemin royal et la rivière Etchemin, vendue en 1870 par le curateur d'un interné de Beauport, puis revendue entre deux Roberge pour 200 piastres, laissées en mains jusqu'à ce que le curateur les réclame. Sur la terre : une vieille grange de 30 × 24 pieds et, distrait, le moulin à farine de Pierre Turgeon avec sa route d'accès — un repère pour la carte. Entre la vente n° 33 et celle-ci manquent les images 001080 à 001085.",
+      "ajoute_le": "2026-10-31"
     }
   ]
 }
