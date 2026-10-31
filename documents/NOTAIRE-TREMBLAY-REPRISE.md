@@ -37,13 +37,18 @@ droite (« 001110 | 001111 ») : on cite toujours la paire.
 
 ## Où reprendre
 
-**Au fichier 00212**, c'est-à-dire au microfilm 001156-57 : la suite de
+**Au fichier 00217**, c'est-à-dire au microfilm 001161-62 : la suite de
 **l'inventaire n° 42** des biens de François Bourassa (fiche
-`notarie-1873-inventaire-bourassa`). La première journée (27 février 1874)
-s'est close sur le fichier 00211, ajournée au « jeudi prochain », soit le
-**5 mars 1874** ; la clôture est datée du 20 mai 1874.
+`notarie-1873-inventaire-bourassa`). Lu jusqu'ici : la journée du
+27 février 1874 et la vacation du 5 mars au matin (fichier 00216). La
+vacation suivante se tient le même jour à midi, **chez Edouard Bourassa** ;
+la clôture est datée du 20 mai 1874.
 
-Fait le 31 octobre 2026 (fichiers 00181 à 00190) :
+À chercher ailleurs : la veuve dit qu'un **premier inventaire** a été fait le
+18 septembre 1873 devant **Me Simard** et un confrère, et les meubles vendus à
+l'encan le 30 septembre 1873 par Octave Lemieux.
+
+Fait le 31 octobre 2026 (fichiers 00181 à 00216) :
 
 - la **sommation n° 40** est complète (fin sur 00181 à 00183) ;
 - le **bail n° 41** (Ferdinand Villeneuve à Napoléon Vallerand, 25 février
@@ -53,9 +58,10 @@ Fait le 31 octobre 2026 (fichiers 00181 à 00190) :
   chercher plus loin une clôture ou une reprise datée du 20 mai 1874.
 
 Les fichiers 00191 à 00201 (microfilm 001135 à 001145) étaient déjà
-transcrits ; les fichiers 00202 à 00211 (chambres n° 7 à 9, le « magasin »
+transcrits ; les fichiers 00202 et suivants (chambres n° 7 à 9, le « magasin »
 et son stock de boissons, la montre en or, la garde-robe d'Ursule Tardif,
-l'ajournement signé de tous) ont été lus ensuite. Après l'inventaire viennent les actes n° 43 et suivants.
+l'ajournement signé de tous, la vacation du 5 mars) ont été lus ensuite,
+jusqu'au fichier 00216. Après l'inventaire viennent les actes n° 43 et suivants.
 
 ## Les pages qui manquent encore
 
