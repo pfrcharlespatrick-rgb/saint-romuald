@@ -6375,6 +6375,126 @@
       ],
       "note": "Une terre entre le chemin royal et la rivière Etchemin, vendue en 1870 par le curateur d'un interné de Beauport, puis revendue entre deux Roberge pour 200 piastres, laissées en mains jusqu'à ce que le curateur les réclame. Sur la terre : une vieille grange de 30 × 24 pieds et, distrait, le moulin à farine de Pierre Turgeon avec sa route d'accès — un repère pour la carte. Entre la vente n° 33 et celle-ci manque l'image 001084-85 (début de la minute n° 34).",
       "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-18-accord-masse-croteau",
+      "type": "notarie",
+      "titre": "Accord et quittance de Célestin Massé à Jean-Baptiste Croteau, Alfred Moreau et Charles Gingras, New Liverpool, 1874",
+      "date": "1874-02-18",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 35, images 001091 à 001094 (l'image 001090-91, verso de la minute n° 34, porte seulement des calculs au crayon)",
+      "nature": "Minute originale ; acte complet. Intitulé : « Accord entre Massé & Gingras & alias ». Signé du témoin et du notaire ; le comparant ne sait ni écrire ni signer.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le dix-huitième jour de février, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, en le comté de Lévis, soussigné ; Et en présence de Hubert Roberge, du lieu appelé New Liverpool, dans la dite paroisse de St Romuald, écuyer, [entrepreneur, rayé] navigateur, témoin au présent acte, aussi soussigné ; Fut présent : Célestin Massé, résidant au dit lieu de New-Liverpool, [journalier, rayé] menuisier ; Lequel dit & déclare ce qui suit, savoir : Attendu que le dixième jour du courant, le dit Célestin Massé a institué une action à la Cour de Circuit portant le numéro 393, au montant de la somme de soixante-dix piastres, versus Jean-Baptiste Croteau, Alfred Moreau & Charles Gingras, tous trois défendeurs dénommés en la dite action ; Attendu que la dite action a été instituée par le dit Célestin Massé sous des circonstances exceptionnelles ; Attendu que les dits sieurs Croteau, Moreau & Gingras, pour conserver la paix & obtenir une tranquillité parfaite de la part du dit comparant, consentent à lui payer la somme de six piastres courant, outre deux piastres qu'ils s'obligent payer à Auguste Tremblay pour frais de voyage à Québec & autres troubles concernant cette affaire ; Attendu que les dits défendeurs en la dite cause Massé vs Gingras & alias s'obligent en outre payer les frais de cour au montant de la somme de trois louis & quarante sols courant ; Attendu que les dits défendeurs ont payé la dite somme de six piastres courant à vue & présence, & suivant offres faites par le dit notaire soussigné ; C'est pourquoi le dit Célestin Massé donne & accorde par ces présentes quittance générale & finale aux dits sieurs Moreau, Croteau & Gingras pour toutes & chacune les réclamations qu'il a & peut avoir contre eux, dits défendeurs, en la cause susdite. Dont décharge & quittance aux conditions susdites. Dont acte requis & octroyé à New-Liverpool susdit, demeure de Louis Lambert, les jour, mois & an susdits, sous le numéro trente-cinq des originaux du dit notaire soussigné. Et le dit comparant a déclaré ne savoir écrire ni signer, de ce requis, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. Dix mots rayés sont nuls. » Signatures : « H. Hubert Roberge », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "demandeur",
+          "nom": "Célestin Massé",
+          "note": "Menuisier de New Liverpool ; ne sait ni écrire ni signer. Absent des recensements dépouillés."
+        },
+        {
+          "role": "defendeur",
+          "nom": "Jean-Baptiste Croteau",
+          "ref_personne": "1871-D2-P016-L05",
+          "note": "En 1871 : J.-Baptiste Croteau, navigateur de 23 ans, division 2, maison 40 — la même maison qu'Alfred Moreau, son codéfendeur. Rattachement probable."
+        },
+        {
+          "role": "defendeur",
+          "nom": "Alfred Moreau",
+          "ref_personne": "1871-D2-P015-L20",
+          "note": "En 1871 : Alfred Moreau, navigateur de 28 ans, division 2, maison 40, chef de ménage — même maison que J.-B. Croteau. Seul Alfred Moreau de la paroisse."
+        },
+        {
+          "role": "defendeur",
+          "nom": "Charles Gingras",
+          "note": "Absent des recensements dépouillés."
+        },
+        {
+          "role": "temoin",
+          "nom": "Hubert Roberge",
+          "ref_personne": "1871-D2-P016-L08",
+          "note": "« Du lieu appelé New Liverpool, écuyer, navigateur » ; signe « H. Hubert Roberge ». Trois Hubert Roberge navigateurs en 1871-D2 : 54 ans (maison 51), 33 ans (maison 41, voisine des défendeurs) et 29 ans (maison 76). Rattaché en hypothèse au voisin de la maison 41 ; l'aîné, « écuyer », n'est pas exclu."
+        },
+        {
+          "role": "autre",
+          "nom": "Auguste Tremblay",
+          "note": "Reçoit deux piastres pour un voyage à Québec dans cette affaire."
+        },
+        {
+          "role": "hote",
+          "nom": "Louis Lambert",
+          "note": "L'acte est passé en sa demeure, à New Liverpool. Plusieurs Louis Lambert, navigateurs, en 1871-D2 (maisons 37 et 38) : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P016-L05",
+            "1871-D2-P015-L20"
+          ],
+          "enonce": "Les défendeurs J.-B. Croteau et Alfred Moreau sont les deux navigateurs recensés ensemble en 1871 dans la maison 40 de la division 2 (New Liverpool)."
+        },
+        {
+          "type": "identite",
+          "certitude": "hypothese",
+          "personnes": [
+            "1871-D2-P016-L08"
+          ],
+          "enonce": "Le témoin Hubert Roberge, écuyer, navigateur de New Liverpool, est l'un des trois Hubert Roberge navigateurs de 1871 — vraisemblablement le voisin des défendeurs (maison 41)."
+        }
+      ],
+      "note": "Une poursuite de 70 piastres à la Cour de circuit (n° 393), instituée « sous des circonstances exceptionnelles », réglée pour 6 piastres, 2 piastres de voyage et les frais de cour (3 louis 40 sols) « pour conserver la paix ». Premier acte du greffe nommant expressément New Liverpool.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1874-02-19-bail-demers-deschenes",
+      "type": "notarie",
+      "titre": "Bail d'une maison entre les rues Saint-Paul et Saint-Louis, de Benjamin Demers à Thomas Deschênes, 1874",
+      "date": "1874-02-19",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 36, image 001094-95 (suite non encore transcrite)",
+      "nature": "Formulaire imprimé de bail (cité de Québec, biffé), rempli à la main ; première page.",
+      "transcription": "« L'an mil huit cent soixante-quatorze, le dix-neuvième jour du mois de février, avant midi, pardevant Mtre Elzéar Hubert Tremblay, notaire public, résidant en la paroisse de St Romuald, en le comté de Lévis, soussigné, & en présence de Mr Edouard Bourassa, de St Romuald susdit, témoin au présent acte, aussi soussigné ; Fut présent : Mr Benjamin Demers, de la dite paroisse de St Romuald, comté susdit, agriculteur ; Lequel a, par ces présentes, donné à loyer pour le terme & espace d'une année entière, qui commencera à courir du premier mai prochain & finira le trentième jour d'avril de l'année mil huit cent soixante-quinze, à Mr Thomas Deschênes, de la dite paroisse St Romuald, entrepreneur, à ce présent & acceptant preneur […] c'est à savoir : Une maison en bois à un étage, sise entre les rues St Paul & St Louis & appartenant au bailleur, circonstances & dépendances ; tel que le tout est actuellement & dont le preneur se déclare content & satisfait pour l'avoir vu & visité, & en être déjà en possession […] »",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Agriculteur de Saint-Romuald, propriétaire d'une maison de bois entre les rues Saint-Paul et Saint-Louis ; le même qu'à la minute n° 12 (concédant d'emplacements à Edouard Bourassa)."
+        },
+        {
+          "role": "preneur",
+          "nom": "Thomas Deschênes",
+          "note": "Entrepreneur de Saint-Romuald, déjà dans la maison. Plusieurs Thomas Deschênes en 1881-1891 (journalier de 56 ans en 1881, 1881-D1-P026-L03 ; forgeron en 1891) : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18"
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "probable",
+          "date": "1874-02-19",
+          "personnes": [
+            "1871-D1-P025-L04"
+          ],
+          "enonce": "Benjamin Demers possède une maison de bois d'un étage entre les rues Saint-Paul et Saint-Louis, à Saint-Romuald, louée à Thomas Deschênes pour 1874-1875."
+        }
+      ],
+      "note": "Benjamin Demers lotit sa terre (minute n° 12) et y loue des maisons : les rues Saint-Paul et Saint-Louis traversent sans doute ses anciens champs. À compléter : loyer et signatures.",
+      "ajoute_le": "2026-10-31"
     }
   ]
 }
