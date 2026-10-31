@@ -4956,19 +4956,19 @@
       "titre": "Testament de Bazile Vermette fils, journalier, Saint-Jean-Chrysostome, 1873",
       "date": "1873-12-07",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 13, images 000988 à 000990 (signatures non encore transcrites)",
-      "nature": "Minute originale ; deux premières pages. Intitulé en marge : « Testament de Sieur Vermette ». Renvois paraphés « J. G. » (Joseph Giroux), « J. L. » (Jean Laprise) ; le prénom de l'épouse est corrigé en marge : « Marguerite ».",
-      "transcription": "« L'an mil huit cent soixante-treize, le septième jour de décembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Joseph Giroux, commis-marchand, & de Mr Jean Laprise, sacristain, demeurant tous deux en la paroisse de St Jean Chrysostome, dit comté ; Fut présent : Mr Bazile Vermette, fils, de la dite paroisse de St Jean Chrysostome, dit comté, journalier, étant en bonne santé de corps, sain d'esprit […] Premièrement : je veux & ordonne qu'avant tout mes dettes soient payées & mes torts scrupuleusement réparés par mon exécutrice testamentaire ci-après nommée, à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes & prières [clause des services et messes basses rayée] ; Deuxièmement : je donne & lègue à Dame Marguerite [Marie Élise, rayé] Roberge, mon épouse actuelle, tous les biens meubles & immeubles que je délaisserai au jour de mon décès […] en pleine & entière propriété ; Troisièmement : je nomme la dite Dame Marguerite Roberge, ma dite épouse, mon exécutrice testamentaire & l'institue ma légataire universelle en propriété ; Quatrièmement : je révoque tous autres testaments […] »",
+      "cote": "Minute n° 13, images 000988 à 000991",
+      "nature": "Minute originale ; acte complet. Intitulé en marge : « Testament de Sieur Vermette ». Renvois paraphés « J. G. » (Joseph Giroux), « J. L. » (Jean Laprise) ; le prénom de l'épouse est corrigé en marge : « Marguerite ».",
+      "transcription": "« L'an mil huit cent soixante-treize, le septième jour de décembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Joseph Giroux, commis-marchand, & de Mr Jean Laprise, sacristain, demeurant tous deux en la paroisse de St Jean Chrysostome, dit comté ; Fut présent : Mr Bazile Vermette, fils, de la dite paroisse de St Jean Chrysostome, dit comté, journalier, étant en bonne santé de corps, sain d'esprit […] Premièrement : je veux & ordonne qu'avant tout mes dettes soient payées & mes torts scrupuleusement réparés par mon exécutrice testamentaire ci-après nommée, à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes & prières [clause des services et messes basses rayée] ; Deuxièmement : je donne & lègue à Dame Marguerite [Marie Élise, rayé] Roberge, mon épouse actuelle, tous les biens meubles & immeubles que je délaisserai au jour de mon décès […] en pleine & entière propriété ; Troisièmement : je nomme la dite Dame Marguerite Roberge, ma dite épouse, mon exécutrice testamentaire & l'institue ma légataire universelle en propriété ; Quatrièmement : je révoque tous autres testaments […] » — [000990-91] « Ce fut ainsi fait & nommé par le dit testateur au dit notaire soussigné, en la présence constante des dits témoins, & son présent testament lui ayant été lu & expliqué par le dit notaire soussigné, les dits témoins toujours présents, il a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte fait & passé en la dite paroisse de St Jean Chrysostome, dit comté, en la demeure du testateur, les jour, mois & an susdits, sous le numéro treize des originaux du notaire soussigné. Et le testateur a signé, de ce requis, ainsi que lesdits témoins, avec moi, notaire, lecture faite. Soixante-deux mots rayés sont nuls. Trois renvois en marge sont bons & approuvés. » Signatures : « Bazile Vermette », « Joseph Giroux », « Jean Laprise », « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "testateur",
           "nom": "Bazile Vermette, fils",
-          "note": "Journalier de Saint-Jean-Chrysostome. Absent des recensements de Saint-Romuald, où les Vermette sont nombreux."
+          "note": "Journalier de Saint-Jean-Chrysostome. Absent des recensements de Saint-Romuald, où les Vermette sont nombreux. Signe « Bazile Vermette »."
         },
         {
           "role": "epouse",
-          "nom": "Marguerite Roberge",
-          "note": "Légataire universelle et exécutrice. Le notaire avait d'abord écrit « Marie Élise », corrigé en marge en « Marguerite »."
+          "nom": "Marie Marguerite Élise Roberge",
+          "note": "Légataire universelle et exécutrice. Son nom complet, donné par son propre testament (minute n° 14), est Marie Marguerite Élise Roberge ; elle signe."
         },
         {
           "role": "temoin",
@@ -4994,7 +4994,107 @@
           "enonce": "Bazile Vermette fils, journalier de Saint-Jean-Chrysostome, est l'époux de Marguerite Roberge."
         }
       ],
-      "note": "Testament au dernier vivant, sur le modèle des n° 4 et 1 ; ici sans service ni messes (clause rayée). À compléter : la page des signatures (000990-91).",
+      "note": "Testament au dernier vivant, croisé avec celui de l'épouse (minute n° 14, même jour) ; ici sans service ni messes (clause rayée).",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1873-12-07-testament-roberge-vermette",
+      "type": "notarie",
+      "titre": "Testament de Marie Marguerite Élise Roberge, épouse de Bazile Vermette fils, 1873",
+      "date": "1873-12-07",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 14, images 000991 à 000994",
+      "nature": "Minute originale ; acte complet. Intitulé en marge : « Testament de Dame Vermette ». Renvois paraphés « M. M. E. R. », « J. G. », « J. L. ». Pendant du testament de son mari (minute n° 13).",
+      "transcription": "« L'an mil huit cent soixante-treize, le septième jour de décembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Joseph Giroux, commis-marchand, & de Mr Jean Laprise, sacristain, demeurant tous deux en la paroisse de St Jean Chrysostome, dit comté ; Fut présente : Dame Marie Marguerite Élise Roberge, épouse de sieur Bazile Vermette, fils, journalier, & demeurant avec son époux en la paroisse de St Jean Chrysostome, dit comté, étant en bonne santé de corps, saine d'esprit […] Deuxièmement : je donne & lègue à sieur Bazile Vermette, fils, mon époux actuel, tous les biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès […] Troisièmement : je nomme le dit sieur Bazile Vermette, mon dit époux, mon exécuteur testamentaire, & l'institue mon légataire universel en propriété […] Dont acte fait & passé en la dite paroisse de St Jean Chrysostome, dit comté, en la demeure de la dite testatrice, les jour, mois & an susdits, sous le numéro quatorze des originaux du notaire soussigné. Et la dite testatrice, de ce requise, & les dits témoins ont signé avec moi, notaire, lecture faite. Vingt mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » Signatures : « Marie Marguerite Élise Roberge », « Joseph Giroux », « Jean Laprise », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Marie Marguerite Élise Roberge",
+          "note": "Épouse de Bazile Vermette fils, de Saint-Jean-Chrysostome ; signe. Absente des recensements de Saint-Romuald."
+        },
+        {
+          "role": "epoux",
+          "nom": "Bazile Vermette, fils",
+          "note": "Voir la minute n° 13."
+        },
+        {
+          "role": "temoin",
+          "nom": "Joseph Giroux",
+          "note": "Commis-marchand de Saint-Jean-Chrysostome ; signe."
+        },
+        {
+          "role": "temoin",
+          "nom": "Jean Laprise",
+          "note": "Sacristain de Saint-Jean-Chrysostome ; signe."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1873-12-07",
+          "personnes": [],
+          "enonce": "Marie Marguerite Élise Roberge est l'épouse de Bazile Vermette fils ; tous deux savent signer."
+        }
+      ],
+      "note": "Testaments croisés des époux Vermette-Roberge, passés chez eux à Saint-Jean-Chrysostome. Aucune personne du recensement de Saint-Romuald.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1873-12-09-donation-samson-dagneau",
+      "type": "notarie",
+      "titre": "Donation de Marie Samson, veuve Jean Dagneau dit Laprise, à son fils Jean Dagneau, 1873",
+      "date": "1873-12-09",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 15, image 000994-95 (suite non encore transcrite)",
+      "nature": "Minute originale ; première page. Intitulé en marge : « Donation Vve J. Dagneau à Jean Dagneau » ; mention « Enregistré ». Le jour a été corrigé trois fois (septième, rayé) en « neuvième ». Renvois paraphés « J. D. », « B. V. ».",
+      "transcription": "« L'an mil huit cent soixante-treize, le neuvième jour de décembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné, & en présence de Mr Bazile Vermette, journalier de la paroisse de St Jean Chrysostome, dit comté, témoin au présent acte, aussi soussigné ; Fut présente : Dame Marie Samson, demeurant en la dite paroisse de St Jean Chrysostome, veuve en secondes noces de feu sieur Jean Dagneau dit Laprise, en son vivant du dit lieu de St Jean Chrysostome, maître charron ; Laquelle a par ces présentes fait donation entre vifs, pure, simple & irrévocable, & promet garantir de tous troubles & autres empêchements généralement quelconques, à sieur Jean Dagneau dit Laprise, son fils, du dit lieu de St Jean Chrysostome, sacristain & cultivateur, à ce présent & acceptant donataire pour lui, ses hoirs & ayants cause à l'avenir, savoir : Une terre sise & située en la paroisse de St Lambert, concession St Augustin, contenant deux arpents de front, plus ou moins, sur vingt-cinq arpents, plus ou moins, de profondeur, bornée en front, au sud-ouest, à la rivière Chaudière, en […] »",
+      "personnes": [
+        {
+          "role": "donatrice",
+          "nom": "Marie Samson",
+          "note": "Veuve en secondes noces de Jean Dagneau dit Laprise, maître charron, de Saint-Jean-Chrysostome. Plusieurs Marie Samson sont recensées à Saint-Romuald, aucune ne convient : aucun rattachement."
+        },
+        {
+          "role": "defunt",
+          "nom": "Jean Dagneau dit Laprise",
+          "note": "Maître charron de Saint-Jean-Chrysostome, mort avant décembre 1873 ; second mari de Marie Samson."
+        },
+        {
+          "role": "donataire",
+          "nom": "Jean Dagneau dit Laprise, fils",
+          "note": "Sacristain et cultivateur de Saint-Jean-Chrysostome. Vraisemblablement le « Jean Laprise, sacristain » témoin des minutes n° 13 et 14, deux jours plus tôt : Laprise est le surnom des Dagneau, et le témoin Bazile Vermette lui rend ici la pareille."
+        },
+        {
+          "role": "temoin",
+          "nom": "Bazile Vermette",
+          "note": "Journalier de Saint-Jean-Chrysostome — le testateur de la minute n° 13."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "date": "1873-12-09",
+          "personnes": [],
+          "enonce": "Jean Dagneau dit Laprise, sacristain et cultivateur, est le fils de Marie Samson et de feu Jean Dagneau dit Laprise, maître charron."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [],
+          "enonce": "Le « Jean Laprise, sacristain » des testaments n° 13 et 14 est Jean Dagneau dit Laprise, sacristain, donataire de sa mère."
+        }
+      ],
+      "note": "Terre de deux arpents sur vingt-cinq à Saint-Lambert, concession Saint-Augustin, en front sur la rivière Chaudière. À compléter : la suite (bornes, charges, rente viagère probable).",
       "ajoute_le": "2026-10-31"
     }
   ]
