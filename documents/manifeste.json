@@ -4857,6 +4857,145 @@
       ],
       "note": "Premier acte anglais du greffe : deux ouvriers anglophones de Saint-Romuald, l'un louant à l'autre une maison de bois d'un étage, voisine de la sienne, pour l'hiver 1873-1874 (cinq dollars par mois). Le formulaire vient de l'étude de Geo. Théo. Tremblay, notaire à Québec, 59 rue Saint-Jean (extra-muros) — parent ou ancien patron d'E.-H. Tremblay ? Numérotation à vérifier : « No 9 » en tête, « number ten » à la clôture. Lieu : la maison louée et celle du bailleur sont voisines, à l'est, de la Maison McKenzie (1633, chemin du Fleuve) — rattachement du voisin décidé par Patrick.",
       "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1873-12-quittance-cantin",
+      "type": "notarie",
+      "titre": "Quittance en faveur d'un sieur Cantin, 1873 (fin d'acte)",
+      "date": "1873-12",
+      "date_incertaine": true,
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 11, image 000985-86 (seule la dernière page ; le début, avec la date et les parties, est sur des images non encore transcrites, vers 000983-85)",
+      "nature": "Dernière page d'une quittance ; le comparant signe d'une croix, le témoin George Bégin signe.",
+      "transcription": "« […] ou pourrait avoir contre le dit sieur Cantin jusqu'à la date du premier jour de mai mil huit cent soixante-treize. Dont acte fait & passé en la paroisse & comté susdits, demeure du dit sieur Cantin, les jour, mois & an susdits, sous le numéro onze des originaux du notaire soussigné. Requis de signer, le comparant a déclaré ne le savoir, en présence du dit témoin, qui a signé avec moi, notaire, lecture faite. Trente-huit mots rayés sont nuls. Un renvoi en marge bon & approuvé. » Signatures : [marque X du comparant], « George Bégin », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "[prénom à lire] Cantin",
+          "note": "L'acte est passé en sa demeure. Prénom sur la page non transcrite : nombreux Cantin à Saint-Romuald, aucun rattachement."
+        },
+        {
+          "role": "temoin",
+          "nom": "George Bégin",
+          "ref_personne": "1871-D1-P012-L04",
+          "note": "Signe « George Bégin ». En 1871 : marchand de 26 ans, division 1, maison 29 ; marchand en 1881 (1881-D1-P011-L06, rapprochement de confiance forte) et en 1891 (1891-D1-P061-L02) — le seul George Bégin adulte de la paroisse."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P012-L04",
+            "1881-D1-P011-L06",
+            "1891-D1-P061-L02"
+          ],
+          "enonce": "Le témoin George Bégin, qui sait signer, est le marchand recensé en 1871, 1881 et 1891."
+        }
+      ],
+      "note": "À compléter : début de l'acte (date, comparant, créance). Entre la minute n° 9 et celle-ci manquent les images 000980 à 000985 (minute n° 10).",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1873-12-03-depot-bourassa-demers",
+      "type": "notarie",
+      "titre": "Dépôt par Edouard Bourassa d'un reçu de Benjamin Demers pour trois emplacements, 1873",
+      "date": "1873-12-03",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 12, images 000986 à 000988",
+      "nature": "Acte de dépôt pour minute : le notaire copie un reçu sous seing privé et en garde l'original, joint (image 000987-88), signé « Benj. Demers ». Intitulé en marge : « Dépôt E. Bourassa à E. H. Tremblay N.P. ».",
+      "transcription": "« St Romuald, 3 décembre 1873. Reçu de Mr Edouard Bourassa toutes les rentes & les intérêts dus & échus jusqu'à la date du premier jour d'octobre mil huit cent soixante-treize, sur les trois emplacements à lui concédés au dit lieu de St Romuald, & dont il est actuellement le détenteur. (Signé) “Benj. Demers”. — Déposé pour minute à Mtre Elzéar Hubert Tremblay, notaire public pour la province de Québec, par Mr Edouard Bourassa, du dit lieu de St Romuald, cultivateur, sous le numéro douze des originaux du notaire soussigné, l'an mil huit cent soixante-treize, le troisième jour du mois de décembre, après midi, pour valoir & servir ce que de droit. Cinq mots rayés sont nuls. Un renvoi en marge approuvé bon. » Signatures : « Edouard Bourassa », « E. H. Tremblay N.P. » ; original joint signé « Benj. Demers ».",
+      "personnes": [
+        {
+          "role": "deposant",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "Cultivateur de Saint-Romuald (renvoi en marge) ; dépose le reçu et signe. Le même qu'aux actes n° 4, 5, 119 et à l'inventaire n° 42."
+        },
+        {
+          "role": "crediteur",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Signe le reçu « Benj. Demers ». Concédant de trois emplacements à Saint-Romuald, à qui Edouard Bourassa doit des rentes foncières. En 1871 : Benjamin Demers, cultivateur veuf de 48 ans, division 1, maison 66 — le seul Benjamin Demers adulte de la paroisse en 1871 (son fils homonyme, 22 ans, étudiant en théologie, ne détient vraisemblablement pas de terres). Rattachement probable."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1873-12-03",
+          "personnes": [
+            "1871-D1-P040-L18"
+          ],
+          "enonce": "Edouard Bourassa détient en 1873 trois emplacements à Saint-Romuald, qui lui ont été concédés à rente par Benjamin Demers."
+        },
+        {
+          "type": "propriete",
+          "certitude": "probable",
+          "date": "1873-12-03",
+          "personnes": [
+            "1871-D1-P025-L04"
+          ],
+          "enonce": "Benjamin Demers, cultivateur, est le concédant (et créancier des rentes) de trois emplacements à Saint-Romuald détenus par Edouard Bourassa."
+        }
+      ],
+      "note": "Benjamin Demers lotissait sa terre en emplacements concédés à rente, comme Edouard Lagueux à l'acte n° 113. Le reçu original est conservé dans le greffe.",
+      "ajoute_le": "2026-10-31"
+    },
+    {
+      "id": "notarie-1873-12-07-testament-vermette",
+      "type": "notarie",
+      "titre": "Testament de Bazile Vermette fils, journalier, Saint-Jean-Chrysostome, 1873",
+      "date": "1873-12-07",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 13, images 000988 à 000990 (signatures non encore transcrites)",
+      "nature": "Minute originale ; deux premières pages. Intitulé en marge : « Testament de Sieur Vermette ». Renvois paraphés « J. G. » (Joseph Giroux), « J. L. » (Jean Laprise) ; le prénom de l'épouse est corrigé en marge : « Marguerite ».",
+      "transcription": "« L'an mil huit cent soixante-treize, le septième jour de décembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Joseph Giroux, commis-marchand, & de Mr Jean Laprise, sacristain, demeurant tous deux en la paroisse de St Jean Chrysostome, dit comté ; Fut présent : Mr Bazile Vermette, fils, de la dite paroisse de St Jean Chrysostome, dit comté, journalier, étant en bonne santé de corps, sain d'esprit […] Premièrement : je veux & ordonne qu'avant tout mes dettes soient payées & mes torts scrupuleusement réparés par mon exécutrice testamentaire ci-après nommée, à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes & prières [clause des services et messes basses rayée] ; Deuxièmement : je donne & lègue à Dame Marguerite [Marie Élise, rayé] Roberge, mon épouse actuelle, tous les biens meubles & immeubles que je délaisserai au jour de mon décès […] en pleine & entière propriété ; Troisièmement : je nomme la dite Dame Marguerite Roberge, ma dite épouse, mon exécutrice testamentaire & l'institue ma légataire universelle en propriété ; Quatrièmement : je révoque tous autres testaments […] »",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Bazile Vermette, fils",
+          "note": "Journalier de Saint-Jean-Chrysostome. Absent des recensements de Saint-Romuald, où les Vermette sont nombreux."
+        },
+        {
+          "role": "epouse",
+          "nom": "Marguerite Roberge",
+          "note": "Légataire universelle et exécutrice. Le notaire avait d'abord écrit « Marie Élise », corrigé en marge en « Marguerite »."
+        },
+        {
+          "role": "temoin",
+          "nom": "Joseph Giroux",
+          "note": "Commis-marchand de Saint-Jean-Chrysostome."
+        },
+        {
+          "role": "temoin",
+          "nom": "Jean Laprise",
+          "note": "Sacristain de Saint-Jean-Chrysostome."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1873-12-07",
+          "personnes": [],
+          "enonce": "Bazile Vermette fils, journalier de Saint-Jean-Chrysostome, est l'époux de Marguerite Roberge."
+        }
+      ],
+      "note": "Testament au dernier vivant, sur le modèle des n° 4 et 1 ; ici sans service ni messes (clause rayée). À compléter : la page des signatures (000990-91).",
+      "ajoute_le": "2026-10-31"
     }
   ]
 }
