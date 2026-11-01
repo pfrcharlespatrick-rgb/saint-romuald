@@ -207,6 +207,69 @@ window.LIEUX = {
       "documents": []
     },
     {
+      "id": "1617-cf",
+      "nom": "Maison Demers",
+      "voie": "chemin du Fleuve",
+      "adresse_actuelle": "1617, chemin du Fleuve",
+      "designe_aujourdhui": "",
+      "etat": "inconnu",
+      "construit": "",
+      "disparu": "",
+      "coord": {
+        "lat": 46.74885,
+        "lon": -71.25855,
+        "precision": "secteur",
+        "pose_par": "Claude (position provisoire, entre le 1616 et le 1633, à replacer dans l'atelier de la carte)",
+        "pose_le": "2026-11-01"
+      },
+      "source": "Patrick Blanchet",
+      "personnages": "Louis Demers et Léocadie ; Benjamin Bourassa (1871)",
+      "resume": "",
+      "notes": [
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-11-01",
+          "texte": "La famille de Louis Demers (fils) habite le 1617, chemin du Fleuve, depuis 1871. Son père, Louis Demers, absent des recensements, avait cédé une terre de Saint-Jean-Chrysostome à Alexis Pichette en 1856 (vente n° 45 du notaire Tremblay, 28 février 1874)."
+        }
+      ],
+      "occupations": [
+        {
+          "annee": "1871",
+          "division": "2",
+          "no_maison": "81",
+          "statut": "confirme",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Louis Demers, journalier de 27 ans, Léocadie et deux enfants (famille 102), dans la même maison que Benjamin Bourassa (famille 101). Indiqué par Patrick le 2026-11-01 : les Demers habitent le 1617, chemin du Fleuve, depuis 1871.",
+          "ajoute_le": "2026-11-01"
+        },
+        {
+          "annee": "1881",
+          "division": "2",
+          "no_maison": "102",
+          "statut": "a_verifier",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Même ménage : Louis Demers, 36 ans, journalier, Léocadie, 34 ans, Charles, 11 ans, Léocadie, 17 ans. Patrick dit la famille au 1617 depuis 1871 ; la maison elle-même reste à confirmer.",
+          "ajoute_le": "2026-11-01"
+        },
+        {
+          "annee": "1891",
+          "division": "1",
+          "no_maison": "543",
+          "statut": "a_verifier",
+          "confiance": "forte",
+          "origine": "chercheur",
+          "motif": "Même ménage : Louis Demers, 47 ans, boucher, Léocadie, 44 ans, Charles, Joseph, Ernest, Alfred, Malcom, Eusèbe. 1891 n'a qu'une division (voir docs/DIVISIONS-1891.md).",
+          "ajoute_le": "2026-11-01"
+        }
+      ],
+      "adresses_anciennes": [],
+      "cadastre": {},
+      "photos": [],
+      "documents": []
+    },
+    {
       "id": "1633-cf",
       "nom": "Maison McKenzie",
       "voie": "chemin du Fleuve",
@@ -2206,7 +2269,9 @@ window.LIEUX = {
       "resume": "",
       "notes": [],
       "occupations": [],
-      "adresses_anciennes": ["1411, rue Commerciale"],
+      "adresses_anciennes": [
+        "1411, rue Commerciale"
+      ],
       "cadastre": {
         "lot": "516",
         "lot_annee": "1879",
