@@ -230,6 +230,11 @@ window.LIEUX = {
           "auteur": "Patrick Blanchet",
           "date": "2026-11-01",
           "texte": "La famille de Louis Demers (fils) habite le 1617, chemin du Fleuve, depuis 1871. Son père, Louis Demers, absent des recensements, avait cédé une terre de Saint-Jean-Chrysostome à Alexis Pichette en 1856 (vente n° 45 du notaire Tremblay, 28 février 1874)."
+        },
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-11-01",
+          "texte": "La famille Demers n'a pas déménagé : elle est au 1617, chemin du Fleuve, en 1871, 1881 et 1891."
         }
       ],
       "occupations": [
@@ -247,20 +252,20 @@ window.LIEUX = {
           "annee": "1881",
           "division": "2",
           "no_maison": "102",
-          "statut": "a_verifier",
+          "statut": "confirme",
           "confiance": "forte",
           "origine": "chercheur",
-          "motif": "Même ménage : Louis Demers, 36 ans, journalier, Léocadie, 34 ans, Charles, 11 ans, Léocadie, 17 ans. Patrick dit la famille au 1617 depuis 1871 ; la maison elle-même reste à confirmer.",
+          "motif": "Même ménage : Louis Demers, 36 ans, journalier, Léocadie, 34 ans, Charles, 11 ans, Léocadie, 17 ans. Confirmé par Patrick le 2026-11-01 : la famille n'a pas déménagé.",
           "ajoute_le": "2026-11-01"
         },
         {
           "annee": "1891",
           "division": "1",
           "no_maison": "543",
-          "statut": "a_verifier",
+          "statut": "confirme",
           "confiance": "forte",
           "origine": "chercheur",
-          "motif": "Même ménage : Louis Demers, 47 ans, boucher, Léocadie, 44 ans, Charles, Joseph, Ernest, Alfred, Malcom, Eusèbe. 1891 n'a qu'une division (voir docs/DIVISIONS-1891.md).",
+          "motif": "Même ménage : Louis Demers, 47 ans, boucher, Léocadie, 44 ans, Charles, Joseph, Ernest, Alfred, Malcom, Eusèbe. 1891 n'a qu'une division (voir docs/DIVISIONS-1891.md). Confirmé par Patrick le 2026-11-01 : la famille n'a pas déménagé.",
           "ajoute_le": "2026-11-01"
         }
       ],
@@ -1424,6 +1429,11 @@ window.LIEUX = {
           "auteur": "Patrick Blanchet",
           "date": "2026-09-13",
           "texte": "Les trois rattachements suivent un seul ménage sur vingt ans : Joseph Bourassa père, 56 puis 66 puis 76 ans, et Geneviève Cantin son épouse. Marie Cantin y sert de 1871 à 1891. En 1881 le fils, Joseph Boutin dit Bourassa, y figure à 26 ans avec le titre de notaire — il avait été admis à la pratique le 20 mai 1880. En 1891, marié depuis 1882, il n'habite plus chez son père."
+        },
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-11-01",
+          "texte": "La maison est sur l'ancienne terre de Benjamin Demers. En 1874, Demers lotit cette terre entre les rues Saint-Paul et Saint-Louis ; la bâtisse de la pompe à feu municipale s'y trouvait (échange n° 51 du notaire Tremblay, 6 mars 1874 ; bail n° 36, 19 février 1874). Secteur confirmé par Patrick ; la position exacte de ces rues reste à trouver."
         }
       ],
       "occupations": [
