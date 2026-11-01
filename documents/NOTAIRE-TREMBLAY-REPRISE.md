@@ -37,11 +37,15 @@ droite (« 001110 | 001111 ») : on cite toujours la paire.
 
 ## Où reprendre
 
-**Au fichier 00227**, c'est-à-dire au microfilm 001171-72 : la suite de
+**Au fichier 00232**, c'est-à-dire au microfilm 001176-77 : la suite de
 **l'inventaire n° 42** des biens de François Bourassa (fiche
-`notarie-1873-inventaire-bourassa`), après la liste des titres cotés A à L.
-Lu jusqu'ici : les vacations du 27 février et du 5 mars 1874 ; la clôture
-est datée du 20 mai 1874.
+`notarie-1873-inventaire-bourassa`), après le compte des honoraires du notaire
+Tremblay (123,50 piastres). Lu jusqu'ici : les vacations du 27 février et du
+5 mars 1874 ; la clôture est datée du 20 mai 1874.
+
+**Le fichier 00229 est tronqué au Drive** (786 Ko au lieu d'environ 1,6 Mo) :
+seule la moitié haute de l'image 001173-74 est lisible. Il faudrait la
+reprendre depuis le microfilm (BAnQ) ou retélécharger le fichier.
 
 À chercher ailleurs, cités par l'inventaire : un inventaire du **4 août 1871**
 (Me E. Simard et confrère), un autre du **18 septembre 1873** (Me J.-B. Hamel ;
@@ -52,7 +56,7 @@ Lemieux), et l'achat de l'emplacement de la maison de pierre à
 L'inventaire décrit la maison de pierre : il est rattaché directement au lieu
 `1900-cf` (champ `documents` de `data/lieux-data.js`), comme l'acte n° 119.
 
-Fait le 31 octobre 2026 (fichiers 00181 à 00226) :
+Fait le 31 octobre 2026 (fichiers 00181 à 00231) :
 
 - la **sommation n° 40** est complète (fin sur 00181 à 00183) ;
 - le **bail n° 41** (Ferdinand Villeneuve à Napoléon Vallerand, 25 février
@@ -65,7 +69,7 @@ Les fichiers 00191 à 00201 (microfilm 001135 à 001145) étaient déjà
 transcrits ; les fichiers 00202 et suivants (chambres n° 7 à 9, le « magasin »
 et son stock de boissons, la montre en or, la garde-robe d'Ursule Tardif,
 l'ajournement signé de tous, la vacation du 5 mars) ont été lus ensuite,
-jusqu'au fichier 00226. Après l'inventaire viennent les actes n° 43 et suivants.
+jusqu'au fichier 00231. Après l'inventaire viennent les actes n° 43 et suivants.
 
 ## Les pages qui manquent encore
 
@@ -77,6 +81,7 @@ jusqu'au fichier 00226. Après l'inventaire viennent les actes n° 43 et suivant
 | n° 24 (donation Cadoret) et n° 25 (sommation à la veuve Bourassa) | fin du n° 24, début du n° 25 | 001035 à 001040 | 00091 à 00096 |
 | n° 34 (vente Olivier et Octave Roberge) | première page (qui vend, qui achète) | 001084-85 | 00140 |
 | n° 37 (promesse Pelletier à Langelier) | une page du milieu | 001103-04 | 00159 |
+| n° 42 (inventaire Bourassa) | moitié basse d'une page (fichier tronqué) | 001173-74 | 00229 |
 
 Patrick n'a pas trouvé ces pages en les cherchant à la main ; le Drive les
 contient peut-être. La page 001084-85 n'a peut-être jamais été photographiée.
