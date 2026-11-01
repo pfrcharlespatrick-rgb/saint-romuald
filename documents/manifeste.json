@@ -7284,7 +7284,8 @@
         {
           "role": "testatrice",
           "nom": "Angélique Isabelle",
-          "note": "De Saint-Étienne (de Lauzon), comté de Lévis ; veuve de Michel Boutin ; ne sait pas signer. Une Angélique Boutin, veuve de 52 ans, est recensée à Saint-Romuald en 1871 (1871-D1-P024-L20, division 1, maison 65), avec trois jeunes Topping (Cédulie, Élisabeth, Moïse) — peut-être elle sous le nom de son mari, mais rien ne le confirme, et elle demeure à Saint-Étienne en 1874 : non rattachée."
+          "note": "De Saint-Étienne (de Lauzon), comté de Lévis, en 1874 ; veuve de Michel Boutin ; ne sait pas signer. Identifiée par Patrick (2026-11-01) à l'Angélique Boutin, veuve de 52 ans, recensée à Saint-Romuald en 1871 sous le nom de son mari (division 1, maison 65), avec Cédulie, Élisabeth et Moïse Topping. Elle a quitté Saint-Romuald pour Saint-Étienne entre 1871 et 1874.",
+          "ref_personne": "1871-D1-P024-L20"
         },
         {
           "role": "defunt",
@@ -7322,6 +7323,24 @@
             "1871-D1-P022-L17"
           ],
           "enonce": "Augustin Simoneau est « maître boulanger » à Saint-Romuald en mars 1874."
+        },
+        {
+          "type": "nom_de_naissance",
+          "certitude": "etabli",
+          "date": "1874-03-02",
+          "personnes": [
+            "1871-D1-P024-L20"
+          ],
+          "enonce": "Angélique Boutin, veuve recensée en 1871 à Saint-Romuald, est née Isabelle ; elle est veuve de Michel Boutin, ingénieur de Saint-Étienne (identification de Patrick, 2026-11-01)."
+        },
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "date": "1874-03-02",
+          "personnes": [
+            "1871-D1-P024-L20"
+          ],
+          "enonce": "En mars 1874, Angélique Isabelle, veuve Boutin, demeure à Saint-Étienne (de Lauzon)."
         }
       ],
       "note": "Testament simple : tout au gendre. Une clause rayée (« à la charge par lui de me garder avec lui… ») laisse deviner un arrangement de rente viagère abandonné. Le notaire avait d'abord pris pour témoin Théophile Joncas, journalier de Saint-Jean-Chrysostome.",
