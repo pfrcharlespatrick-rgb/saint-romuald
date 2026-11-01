@@ -1429,6 +1429,11 @@ window.LIEUX = {
           "auteur": "Patrick Blanchet",
           "date": "2026-09-13",
           "texte": "Les trois rattachements suivent un seul ménage sur vingt ans : Joseph Bourassa père, 56 puis 66 puis 76 ans, et Geneviève Cantin son épouse. Marie Cantin y sert de 1871 à 1891. En 1881 le fils, Joseph Boutin dit Bourassa, y figure à 26 ans avec le titre de notaire — il avait été admis à la pratique le 20 mai 1880. En 1891, marié depuis 1882, il n'habite plus chez son père."
+        },
+        {
+          "auteur": "Patrick Blanchet",
+          "date": "2026-11-01",
+          "texte": "La maison est sur l'ancienne terre de Benjamin Demers. En 1874, Demers lotit cette terre entre les rues Saint-Paul et Saint-Louis ; la bâtisse de la pompe à feu municipale s'y trouvait (échange n° 51 du notaire Tremblay, 6 mars 1874 ; bail n° 36, 19 février 1874). Secteur confirmé par Patrick ; la position exacte de ces rues reste à trouver."
         }
       ],
       "occupations": [
