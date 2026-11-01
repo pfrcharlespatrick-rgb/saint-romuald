@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (61 fiches à ce jour).
+fiche dont l'identifiant commence par `notarie-` (62 fiches à ce jour).
 
 ## Où sont les images
 
@@ -37,10 +37,12 @@ droite (« 001110 | 001111 ») : on cite toujours la paire.
 
 ## Où reprendre
 
-**Au fichier 00287**, c'est-à-dire au microfilm 001231-32 : la suite de la
-**quittance n° 52** de François Leclerc junior à Ignace Dubois père (6 mars
-1874 ; fiche `notarie-1874-03-06-quittance-leclerc-dubois`). L'échange n° 51
-(Dubois–Demers) est complet : retour de 1 100 piastres.
+**Au fichier 00292**, c'est-à-dire au microfilm 001236-37 : la suite de
+**l'obligation n° 53** de Benjamin Demers à Louis-Hubert Roberge (mars 1874,
+600 piastres ; fiche `notarie-1874-03-obligation-demers-roberge`). La
+quittance n° 52 est complète. L'image 001235-36 (fichier 00291) est un
+**croquis de l'emplacement des rues Saint-Paul et Saint-Louis**, avec le
+« terrain de la pompe » : à garder pour situer ces rues.
 
 **Le fichier 00247 n'existe pas au Drive** : l'image 001191-92, qui porte le
 nom complet de l'acheteur et le début de la désignation de la terre, manque.
@@ -58,7 +60,7 @@ Lemieux), et l'achat de l'emplacement de la maison de pierre à
 L'inventaire décrit la maison de pierre : il est rattaché directement au lieu
 `1900-cf` (champ `documents` de `data/lieux-data.js`), comme l'acte n° 119.
 
-Fait le 31 octobre 2026 (fichiers 00181 à 00286) :
+Fait le 31 octobre 2026 (fichiers 00181 à 00291) :
 
 - la **sommation n° 40** est complète (fin sur 00181 à 00183) ;
 - le **bail n° 41** (Ferdinand Villeneuve à Napoléon Vallerand, 25 février
@@ -71,7 +73,7 @@ Les fichiers 00191 à 00201 (microfilm 001135 à 001145) étaient déjà
 transcrits ; les fichiers 00202 et suivants (chambres n° 7 à 9, le « magasin »
 et son stock de boissons, la montre en or, la garde-robe d'Ursule Tardif,
 l'ajournement signé de tous, la vacation du 5 mars) ont été lus ensuite,
-jusqu'au fichier 00286. Après l'inventaire viennent les actes n° 43 et suivants.
+jusqu'au fichier 00291. Après l'inventaire viennent les actes n° 43 et suivants.
 
 ## Les pages qui manquent encore
 
