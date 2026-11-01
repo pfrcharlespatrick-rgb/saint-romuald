@@ -37,10 +37,12 @@ droite (« 001110 | 001111 ») : on cite toujours la paire.
 
 ## Où reprendre
 
-**Au fichier 00247**, c'est-à-dire au microfilm 001191-92 : la suite de la
+**Au fichier 00252**, c'est-à-dire au microfilm 001196-97 : la fin de la
 **vente n° 45** d'Alexis Pichette à L. Couture (28 février 1874 ; fiche
-`notarie-1874-02-28-vente-pichette-couture`) — l'acheteur, le bien et le prix.
-Les testaments réciproques des époux Pichette (n° 43 et 44) sont versés.
+`notarie-1874-02-28-vente-pichette-couture`) — hypothèque, signatures.
+
+**Le fichier 00247 n'existe pas au Drive** : l'image 001191-92, qui porte le
+nom complet de l'acheteur et le début de la désignation de la terre, manque.
 
 **Le fichier 00229 est tronqué au Drive** (786 Ko au lieu d'environ 1,6 Mo) :
 seule la moitié haute de l'image 001173-74 est lisible. Il faudrait la
@@ -55,7 +57,7 @@ Lemieux), et l'achat de l'emplacement de la maison de pierre à
 L'inventaire décrit la maison de pierre : il est rattaché directement au lieu
 `1900-cf` (champ `documents` de `data/lieux-data.js`), comme l'acte n° 119.
 
-Fait le 31 octobre 2026 (fichiers 00181 à 00246) :
+Fait le 31 octobre 2026 (fichiers 00181 à 00251) :
 
 - la **sommation n° 40** est complète (fin sur 00181 à 00183) ;
 - le **bail n° 41** (Ferdinand Villeneuve à Napoléon Vallerand, 25 février
@@ -68,7 +70,7 @@ Les fichiers 00191 à 00201 (microfilm 001135 à 001145) étaient déjà
 transcrits ; les fichiers 00202 et suivants (chambres n° 7 à 9, le « magasin »
 et son stock de boissons, la montre en or, la garde-robe d'Ursule Tardif,
 l'ajournement signé de tous, la vacation du 5 mars) ont été lus ensuite,
-jusqu'au fichier 00246. Après l'inventaire viennent les actes n° 43 et suivants.
+jusqu'au fichier 00251. Après l'inventaire viennent les actes n° 43 et suivants.
 
 ## Les pages qui manquent encore
 
@@ -81,6 +83,7 @@ jusqu'au fichier 00246. Après l'inventaire viennent les actes n° 43 et suivant
 | n° 34 (vente Olivier et Octave Roberge) | première page (qui vend, qui achète) | 001084-85 | 00140 |
 | n° 37 (promesse Pelletier à Langelier) | une page du milieu | 001103-04 | 00159 |
 | n° 42 (inventaire Bourassa) | moitié basse d'une page (fichier tronqué) | 001173-74 | 00229 |
+| n° 45 (vente Pichette à Couture) | deuxième page : l'acheteur, le début de la terre (fichier absent du Drive) | 001191-92 | 00247 |
 
 Patrick n'a pas trouvé ces pages en les cherchant à la main ; le Drive les
 contient peut-être. La page 001084-85 n'a peut-être jamais été photographiée.

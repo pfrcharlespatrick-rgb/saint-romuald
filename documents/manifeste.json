@@ -7152,12 +7152,12 @@
     {
       "id": "notarie-1874-02-28-vente-pichette-couture",
       "type": "notarie",
-      "titre": "Vente par Alexis Pichette, de Saint-Jean-Chrysostome, à L. Couture, 1874",
+      "titre": "Vente d'une terre à Saint-Jean-Chrysostome par Alexis Pichette à L. Couture, 500 piastres, 1874",
       "date": "1874-02-28",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 45, image 001190-91 et suivantes (Drive : fichier 04T_CN401S124P_00246 ; la suite, avec l'objet de la vente et le prix, reste à lire à partir du fichier 00247)",
+      "cote": "Minute n° 45, images 001190 à 001196 et suivantes (Drive : fichiers 04T_CN401S124P_00246 et 00248 à 00251 ; le fichier 00247, image 001191-92, manque au Drive ; la fin reste à lire à partir du fichier 00252)",
       "nature": "Minute originale ; acte de vente. En marge : « Vente par A. Pichette à L. Couture — original — Exp. 1 fois », et des frais : original et copie 2,00 ; enregistrement 2,25 ; cession 1,50 (payé).",
-      "transcription": "[001190-91] « N° 45 — 28 fév. 1874. L'an mil huit cent soixante-quatorze, le vingt-huitième jour de février, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné, et en présence de Mathias Gaumont, du dit lieu de St Romuald, dit comté, ferblantier, témoin au présent acte, aussi soussigné ; Fut présent sieur Alexis Pichette, de la paroisse de St Jean Chrysostome, concession St Romain, comté susdit, [ancien cultivateur] ; Lequel vend, cède, transporte & abandonne dès maintenant & à toujours, avec garantie de tous troubles & empêchements […] » (suite à lire)",
+      "transcription": "[001190-91] « N° 45 — 28 fév. 1874. L'an mil huit cent soixante-quatorze, le vingt-huitième jour de février, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné, et en présence de Mathias Gaumont, du dit lieu de St Romuald, dit comté, ferblantier, témoin au présent acte, aussi soussigné ; Fut présent sieur Alexis Pichette, de la paroisse de St Jean Chrysostome, concession St Romain, comté susdit, [ancien cultivateur] ; Lequel vend, cède, transporte & abandonne dès maintenant & à toujours, avec garantie de tous troubles & empêchements […] — [001191-92 : image absente du Drive, fichier 00247 introuvable — l'acquéreur, le bien vendu & le début de la désignation] — [001192-93] […] & de l'autre côté vers le sud-ouest à la terre numéro trente-neuf appartenant à Hubert Cantin ou ses représentants ; circonstances & dépendances, sans bâtisses. Tel que le tout est actuellement, se poursuit, comporte & s'étend de toutes parts, sans autre réserve que la suivante, savoir : Le vendeur se réserve, sa vie durant seulement, le droit de couper le bois dont il aura besoin pour chauffer sa maison, sans cependant pouvoir prendre d'autre bois que celui qui est ordinairement, eu égard aux lieux, en usage. Dont & du tout le dit acquéreur se déclare satisfait & content, disant le bien connaître. Appartenant la dite terre au dit sieur — [001193-94] Alexis Pichette pour l'avoir acquise, [renvoi : suivant acte de cession reçu devant Mtre A. Trudelle & son confrère, notaires, & consentie] en date à St Jean Chrysostome susdit, du sixième jour de mai mil huit cent cinquante-six, par Louis Demers en sa faveur — lequel acte de cession le dit sieur Pichette s'oblige faire enregistrer sans délai —, & ce dernier la possédait en vertu de titres bons & valables qu'il a remis à l'instant à l'acquéreur. Pour par le dit acquéreur jouir, faire & disposer à l'avenir du dit immeuble en pleine & entière propriété, de ce jour & à toujours, & comme de chose lui appartenant au moyen des présentes ; à l'effet de quoi le dit vendeur le met & subroge en tous ses lieu & place, lui transmettant tous les droits de propriété quelconques qu'il a & peut avoir sur ce que ci-dessus vendu, s'en dessaisissant à son — [001194-95] profit & voulant qu'il en soit saisi & mis en possession en vertu des présentes. Cette vente est faite à la charge par l'acquéreur, qui s'y oblige pour lui, ses hoirs & ayants cause, 1° de payer annuellement à l'avenir toutes & telles redevances tenant lieu de droits seigneuriaux pré-existants auxquels le dit immeuble peut ou pourra être assujetti, & que les parties n'ont pu exactement spécifier de ce enquises, [le vendeur] garanti quitte de tous arrérages jusqu'au premier jour d'octobre dernier — le dit vendeur s'obligeant payer, à l'acquit & décharge de l'acquéreur, tous les arrérages de rentes & autres taxes jusqu'au dit jour, premier octobre mil huit cent soixante-treize ; 2° à la charge encore d'entretenir les chemins que le [vendeur] était obligé d'entretenir relativement à la dite terre sus-vendue & désignée. — [001195-96] Cette vente est faite en outre pour & moyennant le prix ou somme de cinq cents piastres courant, sur & en à-compte de laquelle le dit acquéreur a payé, à vue & présence de nous dit notaire [& témoin], celle de cent piastres courant comptant, dont quittance d'autant. Et quant à la balance, formant la somme de quatre cents piastres, l'acquéreur s'oblige pour lui, ses hoirs & ayants cause, la payer au dit vendeur, ou ordre, par paiements ou versements égaux & annuels de la somme de cent piastres courant chaque, & dont le premier paiement écherra & se fera le premier jour de mars de chaque année, sans intérêt. Et pour sûreté de la dite somme de quatre cents piastres courant, ainsi que pour l'exécution […] » (suite à lire)",
       "personnes": [
         {
           "role": "vendeur",
@@ -7176,12 +7176,22 @@
           "note": "Ferblantier de Saint-Romuald ; témoin."
         },
         {
+          "role": "voisin",
+          "nom": "Hubert Cantin",
+          "note": "Propriétaire (ou ses représentants) de la terre n° 39, voisine au sud-ouest de la terre vendue, à Saint-Jean-Chrysostome. Non rattaché."
+        },
+        {
+          "role": "auteur",
+          "nom": "Louis Demers",
+          "note": "A cédé la terre à Alexis Pichette le 6 mai 1856 (Me A. Trudelle). Non rattaché."
+        },
+        {
           "role": "notaire",
           "nom": "Elzéar-Hubert Tremblay"
         }
       ],
       "affirmations": [],
-      "note": "À compléter à partir du fichier 00247 : l'acheteur, le bien vendu et le prix. Passé le même après-midi que les deux testaments réciproques des époux Pichette (n° 43 et 44).",
+      "note": "Alexis Pichette vend une terre sans bâtisses de Saint-Jean-Chrysostome, voisine au sud-ouest de la terre n° 39 d'Hubert Cantin ; il l'avait acquise par cession de Louis Demers, le 6 mai 1856, devant Me A. Trudelle. Il se réserve sa vie durant le bois de chauffage. Prix : 500 piastres, 100 comptant et 400 en quatre versements annuels de 100 piastres, le 1er mars, sans intérêt. L'acheteur reste à identifier : son nom complet et le début de la désignation de la terre sont sur l'image 001191-92 (fichier 00247), absente du Drive. Passé le même après-midi que les deux testaments réciproques des époux Pichette (n° 43 et 44). À compléter à partir du fichier 00252.",
       "ajoute_le": "2026-11-01"
     }
   ]
