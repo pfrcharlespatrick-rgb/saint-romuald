@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (59 fiches à ce jour).
+fiche dont l'identifiant commence par `notarie-` (60 fiches à ce jour).
 
 ## Où sont les images
 
@@ -37,10 +37,11 @@ droite (« 001110 | 001111 ») : on cite toujours la paire.
 
 ## Où reprendre
 
-**Au fichier 00272**, c'est-à-dire au microfilm 001216-17 : la fin de la
-**quittance n° 50** d'Ignace Dubois fils à son père (5 mars 1874 ; fiche
-`notarie-1874-03-05-quittance-dubois`) — signatures. La procuration n° 49
-(Roberge et Guay à Michel Roberge) est versée.
+**Au fichier 00277**, c'est-à-dire au microfilm 001221-22 : la suite de
+**l'échange n° 51** entre Ignace Dubois père et Benjamin Demers (6 mars 1874 ;
+fiche `notarie-1874-03-06-echange-dubois-demers`) — ce que Demers donne en
+retour, le montant de la soulte, les signatures. La quittance n° 50 est
+complète.
 
 **Le fichier 00247 n'existe pas au Drive** : l'image 001191-92, qui porte le
 nom complet de l'acheteur et le début de la désignation de la terre, manque.
@@ -58,7 +59,7 @@ Lemieux), et l'achat de l'emplacement de la maison de pierre à
 L'inventaire décrit la maison de pierre : il est rattaché directement au lieu
 `1900-cf` (champ `documents` de `data/lieux-data.js`), comme l'acte n° 119.
 
-Fait le 31 octobre 2026 (fichiers 00181 à 00271) :
+Fait le 31 octobre 2026 (fichiers 00181 à 00276) :
 
 - la **sommation n° 40** est complète (fin sur 00181 à 00183) ;
 - le **bail n° 41** (Ferdinand Villeneuve à Napoléon Vallerand, 25 février
@@ -71,7 +72,7 @@ Les fichiers 00191 à 00201 (microfilm 001135 à 001145) étaient déjà
 transcrits ; les fichiers 00202 et suivants (chambres n° 7 à 9, le « magasin »
 et son stock de boissons, la montre en or, la garde-robe d'Ursule Tardif,
 l'ajournement signé de tous, la vacation du 5 mars) ont été lus ensuite,
-jusqu'au fichier 00271. Après l'inventaire viennent les actes n° 43 et suivants.
+jusqu'au fichier 00276. Après l'inventaire viennent les actes n° 43 et suivants.
 
 ## Les pages qui manquent encore
 

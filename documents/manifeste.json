@@ -7457,9 +7457,9 @@
       "titre": "Quittance d'Ignace Dubois fils, meunier, à son père Ignace Dubois, 145 piastres, résiliation d'une donation, Saint-Jean-Chrysostome, 1874",
       "date": "1874-03-05",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 50, images 001213 à 001216 et suivantes (Drive : fichiers 04T_CN401S124P_00269 à 00271 ; la fin, avec les signatures, reste à lire à partir du fichier 00272)",
+      "cote": "Minute n° 50, images 001213 à 001217 (Drive : fichiers 04T_CN401S124P_00269 à 00272) ; acte complet",
       "nature": "Quittance générale et finale. En marge : « Quittance Ignace Dubois, p[ère] à Ignace Dubois, fils — original — Exp. 1 fois » ; au crayon : « faire 1 copie pour être enregistrée ».",
-      "transcription": "[001213-14] « N° 50 — 5 mars 1874. L'an mil huit cent soixante-quatorze, le cinquième jour de mars, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; et en présence de Mr Benjamin Demers, du dit lieu de St Romuald, cultivateur, témoin au présent acte, aussi soussigné ; — [001214-15] Fut présent : Mr Ignace Dubois, junior, demeurant en la paroisse de St Jean Chrysostome, dit comté, meunier ; Lequel reconnaît & confesse que sieur Ignace Dubois, son père, du même lieu, lui a payé & réellement délivré dès avant ces présentes la somme de cent quarante-cinq piastres courant, étant en considération de la résiliation d'une certaine donation consentie par le dit sieur Dubois, père, au dit Dubois, fils, en date à St — [001215-16] Romuald du dix-huit de juin mil huit cent soixante-neuf, reçue par Mtre L. Laliberté & témoin, enregistrée au bureau d'enregistrement du comté de Dorchester, division numéro deux, Reg. B, vol. 17, page 456, sous le n° 13,548 [renvoi : lequel dit acte de résiliation, reçu par Mtre Légaré & témoin, en date à St Romuald du dix octobre mil huit cent soixante-dix, a été enregistré au même bureau, Reg. B, vol. 19, page 21, sous le n° 14,639]. Dont & du tout le dit Ignace Dubois, fils, donne & accorde quittance générale & finale au dit Ignace Dubois, père. Dont acte sous le numéro cinquante […] » (suite à lire)",
+      "transcription": "[001213-14] « N° 50 — 5 mars 1874. L'an mil huit cent soixante-quatorze, le cinquième jour de mars, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; et en présence de Mr Benjamin Demers, du dit lieu de St Romuald, cultivateur, témoin au présent acte, aussi soussigné ; — [001214-15] Fut présent : Mr Ignace Dubois, junior, demeurant en la paroisse de St Jean Chrysostome, dit comté, meunier ; Lequel reconnaît & confesse que sieur Ignace Dubois, son père, du même lieu, lui a payé & réellement délivré dès avant ces présentes la somme de cent quarante-cinq piastres courant, étant en considération de la résiliation d'une certaine donation consentie par le dit sieur Dubois, père, au dit Dubois, fils, en date à St — [001215-16] Romuald du dix-huit de juin mil huit cent soixante-neuf, reçue par Mtre L. Laliberté & témoin, enregistrée au bureau d'enregistrement du comté de Dorchester, division numéro deux, Reg. B, vol. 17, page 456, sous le n° 13,548 [renvoi : lequel dit acte de résiliation, reçu par Mtre Légaré & témoin, en date à St Romuald du dix octobre mil huit cent soixante-dix, a été enregistré au même bureau, Reg. B, vol. 19, page 21, sous le n° 14,639]. Dont & du tout le dit Ignace Dubois, fils, donne & accorde quittance générale & finale au dit Ignace Dubois, père. Dont acte sous le numéro cinquante — [001216-17] fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits. Et a le dit comparant, requis de signer, déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. Un renvoi en marge est bon & approuvé. Dix-neuf mots rayés sont nuls. » Signatures : « Benj. Demers », « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "quittancant",
@@ -7469,7 +7469,7 @@
         {
           "role": "pere",
           "nom": "Ignace Dubois, père",
-          "note": "De Saint-Jean-Chrysostome ; avait fait donation à son fils le 18 juin 1869 (Me L. Laliberté), résiliée le 10 octobre 1870 (Me Légaré) ; lui verse 145 piastres. Non rattaché. Une « veuve Dubois » borne au sud une terre de Pierre Lagueux à la concession Taniata (acte n° 48)."
+          "note": "De Saint-Jean-Chrysostome ; avait fait donation à son fils le 18 juin 1869 (Me L. Laliberté), résiliée le 10 octobre 1870 (Me Légaré) ; lui verse 145 piastres. Non rattaché. Une « veuve Dubois » borne au sud une terre de Pierre Lagueux à la concession Taniata (acte n° 48). Époux de feue Félicité Demers (acte n° 51)."
         },
         {
           "role": "temoin",
@@ -7491,7 +7491,92 @@
           "enonce": "Ignace Dubois fils est meunier à Saint-Jean-Chrysostome en 1874 ; son père Ignace Dubois lui avait fait donation le 18 juin 1869, résiliée le 10 octobre 1870 contre 145 piastres."
         }
       ],
-      "note": "Le notaire Légaré qui a reçu la résiliation de 1870 est sans doute Narcisse Légaré. À compléter à partir du fichier 00272 : la fin et les signatures.",
+      "note": "Le notaire Légaré qui a reçu la résiliation de 1870 est sans doute Narcisse Légaré. Le fils ne sait pas signer. Le lendemain, son père échange sa terre de Taniata avec le témoin, Benjamin Demers (n° 51).",
+      "ajoute_le": "2026-11-01"
+    },
+    {
+      "id": "notarie-1874-03-06-echange-dubois-demers",
+      "type": "notarie",
+      "titre": "Échange d'immeubles entre Ignace Dubois père, cultivateur de Saint-Jean-Chrysostome, et Benjamin Demers, cultivateur de Saint-Romuald — terre du premier rang de Taniata, 1874",
+      "date": "1874-03-06",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 51, images 001217 à 001221 et suivantes (Drive : fichiers 04T_CN401S124P_00273 à 00276 ; la suite — ce que Demers donne en échange, le retour, les signatures — reste à lire à partir du fichier 00277)",
+      "nature": "Acte d'échange, très raturé ; paraphes « B. D. » (Benjamin Demers) et « F. L. » (François Leclerc, témoin) en marge. En marge : « Échange entre Ign. Dubois & Benj. Demers — original — 2 copies, 1 pour Demers & l'autre pour Dubois » ; au crayon : « 1800 mots », « enreg. 18/9 ».",
+      "transcription": "[001217-18] « N° 51 — 6 mars 1874. L'an mil huit cent soixante-quatorze, le sixième jour de mars, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; et en présence de Mr François Leclerc, de la dite paroisse de St Romuald, marchand, témoin au présent acte, aussi soussigné ; Furent présents : Mr Ignace Dubois, senior, demeurant en la paroisse de St Jean Chrysostome, dit comté, cultivateur, d'une part ; et Mr Benjamin Demers, du dit lieu de St Romuald, cultivateur, d'autre part ; Lesquelles parties de la première & de la seconde part ont fait les échanges & permutations réciproques des immeubles ci-après désignés, avec garantie réciproque & mutuelle de tous troubles, dons, dettes, douaires, hypothèques & autres — [001218-19] empêchements généralement quelconques ; savoir : Le dit sieur Ignace Dubois a donné à titre d'échange, dès ce jour & à toujours, & sous la garantie ci-dessus exprimée, au dit sieur Benjamin Demers, à ce présent & acceptant pour lui, ses hoirs & ayants cause, savoir : Une terre de quatre arpents & demi de front sur trente arpents de profondeur, plus ou moins, — à peu près huit arpents de la dite profondeur se trouvant n'avoir que trois arpents & demi, la dite terre se rétrécissant comme susdit, — située au dit lieu de St Jean Chrysostome, premier rang de Taniata ; bornée en front au nord-est à la rivière Etchemin, au sud-ouest à sa dite profondeur, tenant au nord à veuve Marcelline [?] St Hilaire ou ses représentants, & au sud partie à Edouard Bourassa, partie à Isaac Cantin & partie à Ignace Lambert ; avec toutes les bâtisses dessus érigées, circonstances & dépendances, sans aucune réserve. Tel que le tout est actuellement, & dont le dit sieur Demers se déclare content & satisfait, disant le bien connaître. L'immeuble sus-désigné appartient au dit sieur Ignace Dubois [suivant] titres bons & valables qu'il a remis à l'instant au dit sieur Demers. Dont quittance. Pour par le dit sieur Demers jouir, faire & disposer du dit — [001219-20] immeuble, circonstances & dépendances, dès ce jour & à toujours, en pleine & entière propriété. Cet échange est fait à la charge par le dit sieur Demers, qui s'y oblige pour lui, ses hoirs & ayants cause, savoir : 1° De payer à qui il appartiendra treize livres, douze sols, le tout argent tournois, de cens & rentes & autres droits seigneuriaux préexistants [renvoi : tant pour le passé que pour l'avenir] auxquels le dit immeuble peut ou pourra être assujetti, & que les parties n'ont pu exactement spécifier de ce enquises, au premier jour d'octobre de chaque année ; 2° De se conformer en tous points au titre de “Déclaration & Reconnaissance” fait & consenti par le dit Ignace Dubois en faveur de l'Honorable John Caldwell & ses représentants, daté du seize de juin mil huit cent vingt-cinq ; 3° De paccager sur la terre susdite [renvoi : neuf moutons & ceux qui naîtront de tels moutons] & une vache, qui appartiendront au dit Ignace Dubois, & pendant la vie de ce dernier seulement ; 4° À la charge de payer, en déduction du retour donné au dit sieur Dubois, tel que ci-après stipulé, toutes les taxes — [001220-21] municipales, scolaires & autres taxes dues & échues jusqu'au premier jour de mai prochain, & de continuer à l'avenir de les payer à ses frais ; 5° À la charge encore de payer, en déduction du retour susdit & ci-après stipulé, les hypothèques suivantes, savoir : [À François Leclerc, fils, la somme de cent cinquante piastres courant, avec les intérêts au taux de huit pour cent par an, échus jusqu'à ce jour, rayé.] À Jacques Dubois, si telle somme lui est due, celle de trente louis courant ; À l'Œuvre & Fabrique de St Jean Chrysostome, les frais funéraires & autres frais relatifs à feue Dame Félicité Demers, épouse du dit sieur Dubois, s'il en est dû ; À Marie Théotiste Dubois, épouse de Jacques Cantin, s'il lui est dû, la somme de cent piastres courant, avec l'intérêt de six pour cent par an. Pour tous & chacun des paiements susdits, le dit sieur Demers aura droit à des reçus ou quittances notariés, & les fera enregistrer s'il y a lieu, aux frais […] » (suite à lire)",
+      "personnes": [
+        {
+          "role": "echangiste",
+          "nom": "Ignace Dubois, senior",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; veuf de Félicité Demers ; père d'Ignace Dubois fils, meunier (n° 50). Cède sa terre du premier rang de Taniata en se réservant la pâture de neuf moutons et d'une vache sa vie durant. Non rattaché."
+        },
+        {
+          "role": "echangiste",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Cultivateur de Saint-Romuald ; paraphe « B. D. ». Le même que dans les actes n° 12, 36 et 50 (témoin de la quittance Dubois la veille)."
+        },
+        {
+          "role": "temoin",
+          "nom": "François Leclerc",
+          "note": "Marchand de Saint-Romuald ; paraphe « F. L. ». Une hypothèque rayée en faveur d'un François Leclerc fils (150 piastres à 8 %) figurait d'abord parmi les charges. Non rattaché ici."
+        },
+        {
+          "role": "defunte",
+          "nom": "Félicité Demers",
+          "note": "Épouse d'Ignace Dubois senior, morte avant le 6 mars 1874 ; ses frais funéraires restent dus à la fabrique de Saint-Jean-Chrysostome. Parenté avec Benjamin Demers possible (même patronyme) mais non dite."
+        },
+        {
+          "role": "creancier",
+          "nom": "Jacques Dubois",
+          "note": "Créancier hypothécaire de 30 louis. Non rattaché."
+        },
+        {
+          "role": "creanciere",
+          "nom": "Marie-Théotiste Dubois",
+          "note": "Épouse de Jacques Cantin ; créancière de 100 piastres à 6 % — sans doute une fille d'Ignace Dubois. Non rattachée."
+        },
+        {
+          "role": "voisin",
+          "nom": "Veuve Marcelline [?] St-Hilaire",
+          "note": "Borne la terre au nord (lecture du prénom incertaine). Non rattachée."
+        },
+        {
+          "role": "voisin",
+          "nom": "Edouard Bourassa",
+          "note": "Borne la terre en partie au sud, au premier rang de Taniata. Peut-être Edouard Bourassa, cultivateur de Saint-Romuald (1871-D1-P040-L18), si présent dans ce greffe ; rien ne le confirme : non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Isaac Cantin",
+          "note": "Borne la terre en partie au sud. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Ignace Lambert",
+          "note": "Borne la terre en partie au sud. Non rattaché."
+        },
+        {
+          "role": "seigneur",
+          "nom": "John Caldwell",
+          "note": "« L'Honorable John Caldwell », seigneur de Lauzon, en faveur de qui Ignace Dubois avait fait une déclaration et reconnaissance le 16 juin 1825."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-03-06",
+          "personnes": [
+            "1871-D1-P025-L04"
+          ],
+          "enonce": "Benjamin Demers, cultivateur de Saint-Romuald, acquiert par échange d'Ignace Dubois senior une terre de quatre arpents et demi sur trente au premier rang de Taniata (Saint-Jean-Chrysostome), sur la rivière Etchemin, avec ses bâtisses."
+        }
+      ],
+      "note": "Échange d'immeubles avec soulte (« retour ») au profit de Dubois, sur laquelle Demers paie les dettes de Dubois : taxes, une hypothèque de Jacques Dubois, les frais funéraires de Félicité Demers, 100 piastres à Marie-Théotiste Dubois. La terre relevait de la seigneurie de Lauzon (déclaration à John Caldwell, 1825 ; cens et rentes de 13 livres 12 sols tournois). Pas de lieu créé pour Taniata (décision de Patrick). À compléter à partir du fichier 00277 : ce que Demers cède en retour, le montant du retour, les signatures.",
       "ajoute_le": "2026-11-01"
     }
   ]
