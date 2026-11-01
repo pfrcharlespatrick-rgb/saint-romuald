@@ -7400,6 +7400,99 @@
       ],
       "note": "Bail de trois ans (1er mai 1874 – 30 avril 1877) à moitié fruits : Pierre Lagueux fournit le cheptel (8 vaches, une paire de bœufs, 16 moutons, un cheval), la semence de la première année, la moitié des outils et des ustensiles de laiterie ; Georges Michaud cultive « suivant qu'il en sera avisé par le bailleur », entretient clôtures, fossés et chemins — y compris le chemin qui sépare la première terre de la terre de Lagueux à Saint-Romuald — et paie la moitié de la dîme. Le lait non consommé est fait en beurre, vendu à profit commun ; tout le reste se partage par moitié, la part du bailleur livrée chez lui. La première terre, sur la rivière Etchemin, touche au nord les terres de Saint-Romuald : Lagueux est voisin de sa propre ferme. Pas de lieu créé pour la concession Taniata (décision de Patrick).",
       "ajoute_le": "2026-11-01"
+    },
+    {
+      "id": "notarie-1874-03-03-procuration-roberge-guay",
+      "type": "notarie",
+      "titre": "Procuration de Louis-Hubert Roberge, navigateur, et François-Xavier Guay, maître boulanger, à Michel Roberge, pour recevoir 416 piastres de la fabrique de Saint-Jean-Chrysostome, 1874",
+      "date": "1874-03-03",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 49, images 001211 à 001213 (Drive : fichiers 04T_CN401S124P_00267 et 00268) ; acte complet",
+      "nature": "Procuration spéciale, en l'étude du notaire ; très raturée : quatre-vingt-dix mots rayés, trois renvois. En marge : « Procuration Hubert Roberge & F. X. Guay à Michl. Roberge — original — Exp. 1 fois ».",
+      "transcription": "[001211-12] « N° 49 — 3 mars 1874. L'an mil huit cent soixante-quatorze, le troisième jour de mars, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Furent présents : Mr Louis Hubert Roberge, navigateur, & Mr François Xavier Guay, maître boulanger, demeurant tous deux en la paroisse de St Romuald susdit ; Lesquels ont nommé, & par ces présentes nomment pour leur procureur spécial la personne de Mr Michel Roberge, de la paroisse de St Jean Chrysostome, comté susdit, [renvoi : menuisier-entrepreneur], auquel ils donnent pouvoir de, pour eux & en leurs noms, retirer & recevoir de l'Œuvre & Fabrique de la dite paroisse de St Jean Chrysostome [renvoi : les deux versements échus de deux cent huit piastres chacun & payables annuellement à l'avenir jusqu'au montant total de la somme de] quatre cent seize piastres courant ; autorisant par ces présentes le dit sieur Michel Roberge de donner tous reçus & quittances notariés, sur réception de tous paiements & versements à lui faits par qui il appartient & appartiendra, [renvoi : à l'avenir ; ratifiant dès à présent tout ce que leur dit mandataire fera en vertu des présentes]. — [001212-13] Et pour l'exécution des présentes, les parties élisent leurs domiciles en leurs demeures actuelles & respectives, auxquels lieux &c., car ainsi &c. Dont acte, fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro quarante-neuf des originaux du notaire soussigné. Et les dits mandants, de ce requis, ont signé avec moi, dit notaire, lecture faite. Quatre-vingt-dix mots rayés sont nuls. Trois renvois en marge sont bons & approuvés. » Signatures : « L. Hubert Roberge », « F. X. Guay », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "mandant",
+          "nom": "Louis-Hubert Roberge",
+          "note": "Navigateur de Saint-Romuald ; signe « L. Hubert Roberge ». Trois Hubert Roberge, tous navigateurs, sont recensés en 1871 dans la division 2 (33, 54 et 29 ans : 1871-D2-P016-L08, P020-L09, P029-L19) : non rattaché faute de pouvoir choisir."
+        },
+        {
+          "role": "mandant",
+          "nom": "François-Xavier Guay",
+          "ref_personne": "1871-D1-P020-L09",
+          "note": "« Maître boulanger » de Saint-Romuald ; signe « F. X. Guay ». En 1871, François-Xavier Guay, boulanger de 51 ans, division 1, maison 49 ; boulanger encore en 1881 (1881-D1-P018-L11) — le seul boulanger de ce nom. Rattachement probable."
+        },
+        {
+          "role": "mandataire",
+          "nom": "Michel Roberge",
+          "note": "Menuisier-entrepreneur de Saint-Jean-Chrysostome. Non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Fabrique de Saint-Jean-Chrysostome",
+          "note": "Doit aux mandants 416 piastres, en deux versements de 208 piastres — sans doute pour des travaux à l'église, que le menuisier-entrepreneur Michel Roberge est chargé de recouvrer."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-03-03",
+          "personnes": [
+            "1871-D1-P020-L09"
+          ],
+          "enonce": "François-Xavier Guay est « maître boulanger » à Saint-Romuald en mars 1874."
+        }
+      ],
+      "note": "La fabrique de Saint-Jean-Chrysostome doit 416 piastres à deux hommes de Saint-Romuald, un navigateur et un boulanger, payables en versements annuels de 208 piastres. L'objet de la créance n'est pas dit.",
+      "ajoute_le": "2026-11-01"
+    },
+    {
+      "id": "notarie-1874-03-05-quittance-dubois",
+      "type": "notarie",
+      "titre": "Quittance d'Ignace Dubois fils, meunier, à son père Ignace Dubois, 145 piastres, résiliation d'une donation, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-03-05",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 50, images 001213 à 001216 et suivantes (Drive : fichiers 04T_CN401S124P_00269 à 00271 ; la fin, avec les signatures, reste à lire à partir du fichier 00272)",
+      "nature": "Quittance générale et finale. En marge : « Quittance Ignace Dubois, p[ère] à Ignace Dubois, fils — original — Exp. 1 fois » ; au crayon : « faire 1 copie pour être enregistrée ».",
+      "transcription": "[001213-14] « N° 50 — 5 mars 1874. L'an mil huit cent soixante-quatorze, le cinquième jour de mars, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; et en présence de Mr Benjamin Demers, du dit lieu de St Romuald, cultivateur, témoin au présent acte, aussi soussigné ; — [001214-15] Fut présent : Mr Ignace Dubois, junior, demeurant en la paroisse de St Jean Chrysostome, dit comté, meunier ; Lequel reconnaît & confesse que sieur Ignace Dubois, son père, du même lieu, lui a payé & réellement délivré dès avant ces présentes la somme de cent quarante-cinq piastres courant, étant en considération de la résiliation d'une certaine donation consentie par le dit sieur Dubois, père, au dit Dubois, fils, en date à St — [001215-16] Romuald du dix-huit de juin mil huit cent soixante-neuf, reçue par Mtre L. Laliberté & témoin, enregistrée au bureau d'enregistrement du comté de Dorchester, division numéro deux, Reg. B, vol. 17, page 456, sous le n° 13,548 [renvoi : lequel dit acte de résiliation, reçu par Mtre Légaré & témoin, en date à St Romuald du dix octobre mil huit cent soixante-dix, a été enregistré au même bureau, Reg. B, vol. 19, page 21, sous le n° 14,639]. Dont & du tout le dit Ignace Dubois, fils, donne & accorde quittance générale & finale au dit Ignace Dubois, père. Dont acte sous le numéro cinquante […] » (suite à lire)",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Ignace Dubois, junior",
+          "note": "Meunier de Saint-Jean-Chrysostome. Non rattaché : aucun Ignace Dubois aux recensements dépouillés de Saint-Romuald."
+        },
+        {
+          "role": "pere",
+          "nom": "Ignace Dubois, père",
+          "note": "De Saint-Jean-Chrysostome ; avait fait donation à son fils le 18 juin 1869 (Me L. Laliberté), résiliée le 10 octobre 1870 (Me Légaré) ; lui verse 145 piastres. Non rattaché. Une « veuve Dubois » borne au sud une terre de Pierre Lagueux à la concession Taniata (acte n° 48)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Cultivateur de Saint-Romuald ; le même que dans les actes n° 12 et 36."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-03-05",
+          "personnes": [],
+          "enonce": "Ignace Dubois fils est meunier à Saint-Jean-Chrysostome en 1874 ; son père Ignace Dubois lui avait fait donation le 18 juin 1869, résiliée le 10 octobre 1870 contre 145 piastres."
+        }
+      ],
+      "note": "Le notaire Légaré qui a reçu la résiliation de 1870 est sans doute Narcisse Légaré. À compléter à partir du fichier 00272 : la fin et les signatures.",
+      "ajoute_le": "2026-11-01"
     }
   ]
 }
