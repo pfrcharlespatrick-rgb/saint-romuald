@@ -7706,7 +7706,46 @@
         }
       ],
       "affirmations": [],
-      "note": "Testament simple, tout à l'épouse. Le 8 mars 1874 est un dimanche : le notaire passe l'acte au domicile du testateur, au second rang de Taniata. Pas de lieu créé pour Taniata (décision de Patrick).",
+      "note": "Testament simple, tout à l'épouse. Le 8 mars 1874 est un dimanche : le notaire passe l'acte au domicile du testateur, au second rang de Taniata. Pas de lieu créé pour Taniata (décision de Patrick). Le même jour, sa femme fait un testament réciproque en sa faveur (n° 55).",
+      "ajoute_le": "2026-11-01"
+    },
+    {
+      "id": "notarie-1874-03-08-testament-toussaint",
+      "type": "notarie",
+      "titre": "Testament de Catherine Toussaint, épouse de Frédérick Couture, en faveur de son mari (réciproque du n° 54), 1874",
+      "date": "1874-03-08",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 55, images 001241 à 001244 (Drive : fichiers 04T_CN401S124P_00297 à 00299 ; le fichier 00300, image 001244-45, refilme la page 001242-43) ; acte complet",
+      "nature": "Testament authentique, reçu au domicile de la testatrice, le même jour et devant les mêmes témoins que celui de son mari (n° 54) ; la testatrice ne sait pas signer. En marge : « Testament de Dme Fréd. Couture — original — Exp. 1 fois ». Cinq mots rayés.",
+      "transcription": "[001241-42] « N° 55 — 8 mars 1874. L'an mil huit cent soixante-quatorze, le huitième jour de mars, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; et en présence de sieur Onésime Cantin, journalier, & de sieur Georges Turgeon, cordonnier, tous deux de St Jean Chrysostome, dit comté, témoins au présent testament, aussi soussignés ; Fut présente : Dame Catherine Toussaint, épouse de sieur Frédérick Couture, étant en bonne santé de corps, saine d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous dit notaire & aux dits témoins par la manifestation claire & précise de ses volontés ; Laquelle a, dans la vue de la mort, fait & nommé son présent testament au dit notaire soussigné, en la présence actuelle & constante des dits témoins, — [001242-43] ainsi qu'il suit, savoir : 1° Je veux & ordonne que mes dettes soient payées & mes torts réparés par mon exécuteur testamentaire ci-après nommé, à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, messes & prières ; 2° Je donne & lègue à sieur Frédérick Couture, mon époux actuel, tous les biens meubles & immeubles que je délaisserai au jour de mon décès, pour par lui en jouir, faire & disposer comme bon lui semblera, à compter du dit jour de mon décès ; 3° Je nomme le dit sieur Frédérick Couture mon exécuteur testamentaire & l'institue mon légataire universel en propriété ; 4° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes — [001243-44] dernières volontés. Ce fut ainsi fait & nommé par la dite testatrice au dit notaire soussigné, & en la présence actuelle & constante des dits témoins, & son présent testament lui ayant été lu, expliqué & relu par le dit notaire soussigné, les dits témoins toujours présents, elle a dit & déclaré l'avoir bien entendu & compris, & y a persisté. Dont acte sous le numéro cinquante-cinq. Fait & passé à St Jean Chrysostome, concession Taniata, second rang, en la demeure de la testatrice, les jour, mois & an susdits. Et la testatrice, requise de signer, a déclaré ne le savoir, en présence des dits témoins, qui ont alors signé avec moi, notaire, lecture faite & refaite. Cinq mots rayés sont nuls. » Signatures : « Onésime Cantin », « Georges Turgeon », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Catherine Toussaint",
+          "note": "Épouse de Frédérick Couture, du second rang de Taniata, Saint-Jean-Chrysostome ; ne sait pas signer. Non rattachée."
+        },
+        {
+          "role": "legataire",
+          "nom": "Frédérick Couture",
+          "note": "« Mon époux actuel » ; légataire universel et exécuteur. Voir le testament n° 54. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Onésime Cantin",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Georges Turgeon",
+          "note": "Cordonnier de Saint-Jean-Chrysostome ; signe. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Testament réciproque du n° 54 : chaque époux laisse tout à l'autre. « Mon époux actuel » laisse entendre que Catherine Toussaint avait été mariée auparavant. C'est le dernier acte de la série 00181-00300 conservée au Drive : les fichiers 00301 à 00550 (actes n° 56 à 112, mars à mai 1874) n'y sont pas.",
       "ajoute_le": "2026-11-01"
     }
   ]
