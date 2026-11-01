@@ -37,10 +37,9 @@ droite (« 001110 | 001111 ») : on cite toujours la paire.
 
 ## Où reprendre
 
-**Au fichier 00262**, c'est-à-dire au microfilm 001206-07 : la suite du
-**bail à ferme n° 48** de Pierre Lagueux à Georges Michaud (3 mars 1874 ;
-fiche `notarie-1874-03-03-bail-ferme-lagueux-michaud`) — durée, prix,
-conditions. Le testament n° 47 d'Angélique Isabelle est versé.
+**Au fichier 00267**, c'est-à-dire au microfilm 001211-12 : l'acte **n° 49**
+et les suivants. Le bail à ferme n° 48 (Lagueux à Michaud, 3 mars 1874) est
+complet.
 
 **Le fichier 00247 n'existe pas au Drive** : l'image 001191-92, qui porte le
 nom complet de l'acheteur et le début de la désignation de la terre, manque.
@@ -58,7 +57,7 @@ Lemieux), et l'achat de l'emplacement de la maison de pierre à
 L'inventaire décrit la maison de pierre : il est rattaché directement au lieu
 `1900-cf` (champ `documents` de `data/lieux-data.js`), comme l'acte n° 119.
 
-Fait le 31 octobre 2026 (fichiers 00181 à 00261) :
+Fait le 31 octobre 2026 (fichiers 00181 à 00266) :
 
 - la **sommation n° 40** est complète (fin sur 00181 à 00183) ;
 - le **bail n° 41** (Ferdinand Villeneuve à Napoléon Vallerand, 25 février
@@ -71,7 +70,7 @@ Les fichiers 00191 à 00201 (microfilm 001135 à 001145) étaient déjà
 transcrits ; les fichiers 00202 et suivants (chambres n° 7 à 9, le « magasin »
 et son stock de boissons, la montre en or, la garde-robe d'Ursule Tardif,
 l'ajournement signé de tous, la vacation du 5 mars) ont été lus ensuite,
-jusqu'au fichier 00261. Après l'inventaire viennent les actes n° 43 et suivants.
+jusqu'au fichier 00266. Après l'inventaire viennent les actes n° 43 et suivants.
 
 ## Les pages qui manquent encore
 
