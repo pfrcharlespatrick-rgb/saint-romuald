@@ -7075,7 +7075,7 @@
         {
           "role": "legataire",
           "nom": "Sarah Simoneau",
-          "note": "« Mon épouse actuelle » — le mot laisse entendre un second mariage ; légataire universelle et exécutrice testamentaire. Absente des recensements dépouillés de Saint-Romuald : non rattachée."
+          "note": "« Mon épouse actuelle » — le mot laisse entendre un second mariage ; légataire universelle et exécutrice testamentaire. Elle fait le même jour un testament réciproque (n° 44). Absente des recensements dépouillés de Saint-Romuald : non rattachée."
         },
         {
           "role": "temoin",
@@ -7105,7 +7105,83 @@
           "enonce": "Mathias Gaumont est ferblantier à Saint-Romuald en février 1874, comme aux recensements de 1871 et 1881."
         }
       ],
-      "note": "Testament simple : tout à l'épouse, Sarah Simoneau, légataire universelle et exécutrice. Deux services chantés, au décès et au bout de l'an. Le testateur demeure à la concession Saint-Romain de Saint-Jean-Chrysostome (voir la règle sur le recouvrement des deux paroisses) : le rattachement du fils, Alexis Pichette maçon de Saint-Romuald en 1871, reste une hypothèse non versée.",
+      "note": "Testament simple : tout à l'épouse, Sarah Simoneau, légataire universelle et exécutrice. Deux services chantés, au décès et au bout de l'an. Le testateur demeure à la concession Saint-Romain de Saint-Jean-Chrysostome (voir la règle sur le recouvrement des deux paroisses) : le rattachement du fils, Alexis Pichette maçon de Saint-Romuald en 1871, reste une hypothèse non versée. Le même jour, sa femme fait un testament réciproque en sa faveur (n° 44), et il vend un bien à L. Couture (n° 45).",
+      "ajoute_le": "2026-11-01"
+    },
+    {
+      "id": "notarie-1874-02-28-testament-simoneau",
+      "type": "notarie",
+      "titre": "Testament de Sarah Simoneau, épouse d'Alexis Pichette, en faveur de son mari, 1874",
+      "date": "1874-02-28",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 44, images 001186 à 001190 (Drive : fichiers 04T_CN401S124P_00242 à 00245) ; acte complet",
+      "nature": "Testament authentique, pendant du testament n° 43 de son mari, passé le même jour, devant les mêmes témoins, en l'étude du notaire ; la testatrice ne sait pas signer. En marge : « Testament de Sarah Simoneau, épouse de Alexis Pichette — original — Exp. 1 fois ». Cinquante-six mots rayés, deux renvois en marge.",
+      "transcription": "[001186-87] « N° 44 — 28 fév. 1874. L'an mil huit cent soixante-quatorze, le vingt-huitième jour de février, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St [Jean Chrysostome, rayé] Romuald, comté de Lévis, soussigné, et en présence de sieur Edouard Bourassa, cultivateur, et de Mr Mathias Gaumont, ferblantier, demeurant tous deux à St Romuald susdit, témoins au présent testament, aussi soussignés ; Fut présente : Dame Sarah Simoneau, épouse de sieur Alexis Pichette, & demeurant avec ce dernier en la paroisse de St Jean Chrysostome, concession [Taniata, rayé ; renvoi : St Romain], dit comté ; étant en bonne santé de corps, saine d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous notaire & aux dits témoins par la manifestation claire & précise de ses volontés ; Laquelle, dans la vue de la mort, a fait & nommé son présent testament à nous dit notaire, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, — [001187-88] savoir : Premièrement — Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par mon exécuteur testamentaire ci-après nommé, à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, messes & prières, voulant que deux services décents, dont l'un à mon décès & l'autre au bout de l'an de mon décès, soient chantés pour le repos de mon âme. [Et que … messes basses de Requiem soient dites à la même intention le plus tôt possible après mon décès, rayé.] Deuxièmement — Je donne & lègue à sieur Alexis Pichette, mon époux actuel, tous les biens meubles & immeubles qui m'appartiendront au jour de mon décès, pour par lui, à compter du dit jour, en jouir & disposer en toute propriété. Troisièmement — Je nomme [renvoi : le dit sieur Alexis Pichette,] mon dit époux, mon exécuteur testamentaire & l'institue mon légataire universel en propriété. Quatrièmement — Enfin je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant — [001188-89] exactement mes dernières volontés. Ce fut ainsi fait & nommé par la dite testatrice au dit notaire soussigné, en la présence actuelle & constante des dits témoins, & son présent testament lui ayant été lu & expliqué par le dit notaire, les dits témoins toujours présents, elle a dit & déclaré l'avoir bien entendu & compris, & y a persisté comme contenant exactement ses dernières volontés. Dont acte. Fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro quarante-quatre des originaux du notaire soussigné. Requise de signer, la dite Dame Sarah Simoneau, épouse du dit sieur Pichette, a déclaré ne le savoir, en présence des dits témoins, qui ont alors signé avec moi, dit notaire, après — [001189-90] lecture faite. Cinquante-six mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » Signatures : « Edouard Bourassa », « Mathias Gaumont », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Sarah Simoneau",
+          "note": "Épouse d'Alexis Pichette, demeurant avec lui à la concession Saint-Romain de Saint-Jean-Chrysostome (le notaire avait d'abord écrit « Taniata », puis corrigé) ; ne sait pas signer. Absente des recensements dépouillés de Saint-Romuald : non rattachée."
+        },
+        {
+          "role": "legataire",
+          "nom": "Alexis Pichette, senior",
+          "note": "Mari de la testatrice, légataire universel et exécuteur. Voir le testament n° 43 : non rattaché (le maçon Alexis Pichette de 1871 est sans doute son fils)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "Cultivateur de Saint-Romuald ; témoin et signataire."
+        },
+        {
+          "role": "temoin",
+          "nom": "Mathias Gaumont",
+          "ref_personne": "1871-D1-P021-L05",
+          "note": "Ferblantier de Saint-Romuald ; témoin et signataire."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Testament réciproque de celui de son mari (n° 43), passé le même jour : chaque époux laisse tout à l'autre. Le même jour encore, Alexis Pichette vend un bien à L. Couture (n° 45).",
+      "ajoute_le": "2026-11-01"
+    },
+    {
+      "id": "notarie-1874-02-28-vente-pichette-couture",
+      "type": "notarie",
+      "titre": "Vente par Alexis Pichette, de Saint-Jean-Chrysostome, à L. Couture, 1874",
+      "date": "1874-02-28",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 45, image 001190-91 et suivantes (Drive : fichier 04T_CN401S124P_00246 ; la suite, avec l'objet de la vente et le prix, reste à lire à partir du fichier 00247)",
+      "nature": "Minute originale ; acte de vente. En marge : « Vente par A. Pichette à L. Couture — original — Exp. 1 fois », et des frais : original et copie 2,00 ; enregistrement 2,25 ; cession 1,50 (payé).",
+      "transcription": "[001190-91] « N° 45 — 28 fév. 1874. L'an mil huit cent soixante-quatorze, le vingt-huitième jour de février, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné, et en présence de Mathias Gaumont, du dit lieu de St Romuald, dit comté, ferblantier, témoin au présent acte, aussi soussigné ; Fut présent sieur Alexis Pichette, de la paroisse de St Jean Chrysostome, concession St Romain, comté susdit, [ancien cultivateur] ; Lequel vend, cède, transporte & abandonne dès maintenant & à toujours, avec garantie de tous troubles & empêchements […] » (suite à lire)",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Alexis Pichette, senior",
+          "note": "Ancien cultivateur de la concession Saint-Romain, Saint-Jean-Chrysostome ; testateur du même jour (n° 43). Non rattaché."
+        },
+        {
+          "role": "acheteur",
+          "nom": "L. Couture",
+          "note": "Prénom non encore lu (seulement « L. » en marge). Un Louis Couture, artiste en 1881 (1881-D1-P044-L12) puis photographe en 1891, vit à Saint-Romuald ; rien ne permet encore de rattacher."
+        },
+        {
+          "role": "temoin",
+          "nom": "Mathias Gaumont",
+          "ref_personne": "1871-D1-P021-L05",
+          "note": "Ferblantier de Saint-Romuald ; témoin."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "À compléter à partir du fichier 00247 : l'acheteur, le bien vendu et le prix. Passé le même après-midi que les deux testaments réciproques des époux Pichette (n° 43 et 44).",
       "ajoute_le": "2026-11-01"
     }
   ]
