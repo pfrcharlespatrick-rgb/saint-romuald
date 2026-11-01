@@ -37,12 +37,11 @@ droite (« 001110 | 001111 ») : on cite toujours la paire.
 
 ## Où reprendre
 
-**Au fichier 00222**, c'est-à-dire au microfilm 001166-67 : la suite de
+**Au fichier 00227**, c'est-à-dire au microfilm 001171-72 : la suite de
 **l'inventaire n° 42** des biens de François Bourassa (fiche
-`notarie-1873-inventaire-bourassa`), au milieu de la « désignation & bornes
-de l'immeuble en … ». Lu jusqu'ici : les vacations du 27 février et du
-5 mars 1874 (matin et midi, chez Edouard Bourassa) ; la clôture est datée du
-20 mai 1874.
+`notarie-1873-inventaire-bourassa`), après la liste des titres cotés A à L.
+Lu jusqu'ici : les vacations du 27 février et du 5 mars 1874 ; la clôture
+est datée du 20 mai 1874.
 
 À chercher ailleurs, cités par l'inventaire : un inventaire du **4 août 1871**
 (Me E. Simard et confrère), un autre du **18 septembre 1873** (Me J.-B. Hamel ;
@@ -53,7 +52,7 @@ Lemieux), et l'achat de l'emplacement de la maison de pierre à
 L'inventaire décrit la maison de pierre : il est rattaché directement au lieu
 `1900-cf` (champ `documents` de `data/lieux-data.js`), comme l'acte n° 119.
 
-Fait le 31 octobre 2026 (fichiers 00181 à 00221) :
+Fait le 31 octobre 2026 (fichiers 00181 à 00226) :
 
 - la **sommation n° 40** est complète (fin sur 00181 à 00183) ;
 - le **bail n° 41** (Ferdinand Villeneuve à Napoléon Vallerand, 25 février
@@ -66,7 +65,7 @@ Les fichiers 00191 à 00201 (microfilm 001135 à 001145) étaient déjà
 transcrits ; les fichiers 00202 et suivants (chambres n° 7 à 9, le « magasin »
 et son stock de boissons, la montre en or, la garde-robe d'Ursule Tardif,
 l'ajournement signé de tous, la vacation du 5 mars) ont été lus ensuite,
-jusqu'au fichier 00221. Après l'inventaire viennent les actes n° 43 et suivants.
+jusqu'au fichier 00226. Après l'inventaire viennent les actes n° 43 et suivants.
 
 ## Les pages qui manquent encore
 
