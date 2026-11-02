@@ -5809,7 +5809,7 @@
         {
           "role": "donataire",
           "nom": "Adèle Cadoret",
-          "note": "Épouse de Jean-Baptiste Cantin, de Saint-Jean-Chrysostome ; reçoit les biens « pour lui être propre », en reconnaissance de ses soins. L'Adèle Cadoret de 39 ans recensée en 1871 (1871-D2-P036-L08) est l'épouse de Jacques Cadoret : ce n'est pas elle."
+          "note": "Épouse de Jean-Baptiste Cantin, de Saint-Jean-Chrysostome ; reçoit les biens « pour lui être propre », en reconnaissance de ses soins. Fille du donateur (acte n° 60). L'Adèle Cadoret de 39 ans recensée en 1871 (1871-D2-P036-L08) est l'épouse de Jacques Cadoret : ce n'est pas elle."
         },
         {
           "role": "epoux",
@@ -5866,9 +5866,16 @@
             "1871-D2-P010-L03"
           ],
           "enonce": "Le témoin Olivier Roberge, cultivateur, pourrait être le fils de Louis Roberge recensé dans la division 2 en 1871 (20 ans) — à confirmer."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "date": "1874-03-13",
+          "personnes": [],
+          "enonce": "La donataire Adèle Cadoret est la fille du donateur Charles-Théodore dit Isidore Cadoret — d'après l'acceptation n° 60 du 13 mars 1874."
         }
       ],
-      "note": "Un vieux cultivateur donne tout — une terre de la concession Beaulieu, une maison sur le chemin de la Reine, deux bandes de la concession Taniata jusqu'à la rivière Etchemin, meubles, cheval et bétail — à une parente (nièce ? sœur ?) qui le soigne ; la parenté n'est pas dite. Aucune personne du recensement de Saint-Romuald. À compléter : la suite (charges, rente viagère probable, signatures).",
+      "note": "Un vieux cultivateur donne tout — une terre de la concession Beaulieu, une maison sur le chemin de la Reine, deux bandes de la concession Taniata jusqu'à la rivière Etchemin, meubles, cheval et bétail — à sa fille Adèle, qui le soigne ; la parenté, tue ici, est dite dans l'acceptation n° 60 du 13 mars 1874. Aucune personne du recensement de Saint-Romuald. À compléter : la suite (charges, rente viagère probable, signatures). L'acceptation n° 60 rappelle les charges : soigner le donateur et son épouse, et une rente viagère de 40 piastres par an s'il va vivre ailleurs. Son témoin, « Octave Roberge », paraphe « O. R. » comme celui-ci : la lecture « Olivier » serait à revoir sur l'image.",
       "ajoute_le": "2026-10-31"
     },
     {
@@ -8004,6 +8011,101 @@
         }
       ],
       "note": "Acte enchaîné à la procuration n° 49 (3 mars 1874) : le boulanger Guay et le navigateur Roberge agissent encore ensemble. La maison était louée : si le locataire ne part pas au 1er mai 1874, l'acquéreur attendra le 1er mai 1875. Le terrain est dans la mouvance de John McKenzie, sans doute à New-Liverpool ou près de la maison de pierre Bourassa, mais l'acte ne nomme ni rue ni rang. Références d'enregistrement de la vente à réméré : Lévis, registre B, vol. 20, p. 659, n° 16 082.",
+      "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-03-12-bail-paquet-giroux",
+      "type": "notarie",
+      "titre": "Bail d'Edouard Paquet, cordonnier, à Alfred Giroux, pharmacien : quatre chambres d'une maison de bois au sud du chemin public, 1874",
+      "date": "1874-03-12",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 59, images 001262 à 001266 (Drive : fichiers 04T_CN401S124P_00318 à 00321 ; le fichier 00321, image 001265-66, est le dos de la chemise imprimée « Bail ») ; acte complet",
+      "nature": "Bail à loyer d'un an sur formulaire imprimé de la ville de Québec (mentions de la Corporation et de l'aqueduc biffées), rempli à la main ; passé le 12 mars 1874, après-midi, en la demeure du preneur ; tous deux signent. En marge : « Bail Paquet & Giroux ». Soixante-quinze mots rayés ; deux renvois, paraphés « E. P. », « A. G. » et du notaire.",
+      "transcription": "[001262-63] « N° 59 — 12 mars 1874. L'an mil huit cent soixante-quatorze, le douzième jour du mois de mars, après-midi, pardevant Mtre Elzéar Hubert Tremblay, notaire public, résidant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Sieur Edouard Paquet, du dit lieu de St Romuald, cordonnier ; Lequel a, par ces présentes, donné à loyer pour le terme & espace d'une année entière, qui commence à courir du premier jour de mai prochain & finira le trentième jour d'avril de l'année mil huit cent soixante-quinze, à Mr Alfred Giroux, du même lieu, pharmacien, à ce présent & acceptant, preneur pour lui, ses hoirs & ayants cause, c'est à savoir : Une chambre dans le bas & trois chambres dans le haut d'une maison en bois à deux étages, sise sur le niveau sud du chemin public, dans la paroisse de St Romuald susdit, & appartenant au bailleur ; ensemble le droit de placer son bois de chauffage dans la cour en arrière, sans cependant pouvoir l'embarrasser, de manière que le preneur en soit privé pour son besoin [?] ; tel que le tout est actuellement & dont le preneur se déclare content & satisfait pour l'avoir vu & visité. Ce bail est fait aux charges, clauses & conditions suivantes, que le preneur promet & s'oblige d'exécuter, sans pouvoir prétendre aucune diminution du loyer ci-après convenu & à peine de toutes pertes, dépens, dommages & intérêts, savoir : 1° De jouir des prémisses sus-louées en bon père de famille ; de les garnir & tenir garnies, pendant la durée de ce bail, de meubles & effets exploitables, en suffisante quantité & de suffisante valeur pour répondre des loyers ; — [001263-64] [clauses imprimées 2° à 6° : entretien & réparations locatives ; aucun changement sans le consentement écrit du bailleur, souffrir les grosses réparations ; se conformer aux charges de police & règlements de la corporation ; laisser visiter les trois derniers mois ; ne point céder son droit ni sous-louer sans consentement écrit, rendre le tout en bon état sans congé de déloger.] De son côté le bailleur promet & s'oblige faire jouir paisiblement le preneur des prémisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à aucune réparation quelconque, pas même à tenir les lieux clos ni couverts, dérogeant pour ce à toute loi ou coutume. Ce bail est fait en outre pour & en considération du prix & somme de quarante-huit piastres courant pour l'année de sa durée, que le preneur promet & s'oblige payer au dit bailleur ou à son ordre en douze paiements égaux & mensuels, & dont le premier paiement échoira & se fera le premier jour de mai prochain, & ainsi de suite, chaque mois, à pareille date, jusqu'au parfait (1) [renvoi en marge : paiement du dit prix du loyer ci-dessus stipulé, payable le dit loyer d'avance pour chaque mois comme susdit]. Et s'oblige en outre le dit preneur de payer & rembourser, à demande, au dit bailleur ou ordre, toute & telle taxe qui pourra être exigée pendant la durée du présent bail, dans les prémisses sus-louées. [Clause imprimée des taxes de locataire.] — [001264-65] Il est expressément convenu entre les parties, & sans laquelle condition le présent bail n'aurait pas existé, que dans le cas où le dit Alfred Giroux ne paierait pas ses loyers régulièrement & d'avance comme susdit, alors le dit bailleur aura le droit, après deux jours d'avis, soit verbal, soit par écrit, au choix de ce dernier, de reprendre possession immédiate des prémisses sus-louées & de consentir un bail avec toute personne qu'il trouvera convenable ; & la présente clause ne pourra pas être comminatoire, mais bien de rigueur. Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables, savoir, le preneur en les prémisses sus-louées & le bailleur en sa demeure ordinaire où les paiements se feront. Aux quels lieux, etc. Car ainsi, etc. Dont acte, fait & passé à (2) [renvoi en marge : St Romuald susdit, demeure du dit preneur,] les jour, mois & an susdits, sous le numéro cinquante-neuf des originaux du dit notaire. Et les bailleur & preneur ont, de ce requis, signé avec moi, notaire, lecture faite. Soixante-quinze mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » Signatures : « Edouard Paquet », « Alfred Giroux », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Edouard Paquet",
+          "ref_personne": "1871-D1-P016-L07",
+          "note": "« Du dit lieu de St Romuald, cordonnier » ; signe. Propriétaire de la maison de bois à deux étages déjà décrite au congé de déloger n° 27. Cordonnier de 38 ans en 1871, division 1, maison 40 — le seul de ce nom."
+        },
+        {
+          "role": "preneur",
+          "nom": "Alfred Giroux",
+          "note": "« Du même lieu, pharmacien » ; signe. L'acte est passé dans sa demeure, c'est-à-dire dans les chambres louées. Absent des recensements dépouillés (voir le congé n° 27) : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "date": "1874-03-12",
+          "personnes": [
+            "1871-D1-P016-L07"
+          ],
+          "enonce": "Edouard Paquet, cordonnier, possède une maison de bois à deux étages au sud du chemin public (le « chemin de la Reine » du congé n° 27) ; il en loue une chambre du bas et trois du haut au pharmacien Alfred Giroux, du 1er mai 1874 au 30 avril 1875, pour 48 piastres payables d'avance chaque mois."
+        }
+      ],
+      "note": "Suite directe du congé de déloger n° 27 (31 janvier 1874), signifié à Alfred Giroux pour loyers impayés. Six semaines plus tard, les deux hommes renouvellent le bail au même prix (4 piastres par mois), mais payable d'avance, avec reprise de possession après deux jours d'avis en cas de retard — clause déclarée « de rigueur ». Le congé disait « chemin de la Reine », ce bail dit « chemin public » : c'est la même maison.",
+      "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-03-13-acceptation-donation-cadoret-cantin",
+      "type": "notarie",
+      "titre": "Acceptation par Adèle Cadoret, épouse de Jean-Baptiste Cantin, et ratification par son père Charles-Théodore dit Isidore Cadoret de la donation du 10 janvier 1874, Saint-Jean-Chrysostome",
+      "date": "1874-03-13",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 60, images 001266 à 001273 (Drive : fichiers 04T_CN401S124P_00322 à 00328) ; acte complet",
+      "nature": "Acceptation et ratification de donation, passée le 13 mars 1874, après-midi, à Saint-Jean-Chrysostome, concession Taniata, premier rang, en la demeure de Jean-Baptiste Cantin, devant un témoin ; aucune des parties ne sait signer. En marge : « Acceptation & ratification de donation par J.-Bte Cantin & uxor & Chs Théodore alias Isid. Cadoret — original — Exp. 1 fois — à enregistrer, $1.00 ». Quatre-vingt-dix-sept mots rayés ; sept renvois en marge, paraphés « O. R. » et du notaire.",
+      "transcription": "[001266-67] « N° 60 — 13 mars 1874. L'an mil huit cent soixante-quatorze, le treizième jour de mars, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Octave Roberge, de la paroisse de St Jean Chrysostome, comté susdit, cultivateur, témoin au présent acte, aussi soussigné ; Fut présente : Dame Adèle Cadoret, épouse de sieur Jean Baptiste Cantin, cultivateur, demeurant tous deux (5) [en] la dite paroisse de St Jean Chrysostome, dit comté, concession Taniata, premier rang ; le dit sieur Jean Baptiste Cantin, à ce aussi présent & aux fins d'autoriser la dite Dame Adèle Cadoret, sa dite épouse, — [001267-68] à l'effet des présentes ; Laquelle, autorisée comme susdit, dit & déclare ce qui suit, savoir : (3) Attendu que le dit sieur Charles Théodore alias Isidore Cadoret, son père, a fait & exécuté devant le notaire soussigné, en date du dix de janvier dernier (mil huit cent soixante-quatorze), & en faveur de la dite Dame Jean Baptiste Cantin, un certain acte de donation entrevifs de tous ses biens meubles & immeubles ; lequel acte de donation a été enregistré au bureau d'enregistrement du comté de Lévis, Reg. B, vol. 21, page 404, sous le numéro 16,546 ; Attendu que le dit acte de donation est fait (1) [renvoi en marge : à certaines charges, & notamment de prendre soin du donateur & de son épouse, & de payer, s'il y a lieu, une rente annuelle au montant de la somme de quarante piastres, & autres conditions] ; Attendu que le dit acte de donation a été fait & consenti par le dit sieur — [001268-69] Cadoret à la dite Dame Cantin en considération des services nombreux (2) [renvoi en marge : de ce que la dite Dame Adèle Cadoret a toujours demeuré avec ses dits père & mère & a pris soin d'eux constamment, & a en outre travaillé au profit d'eux dits sieur & dame Cadoret, & en considération des services nombreux] qu'elle leur a rendus & leur rend encore ; Attendu que le dit acte de donation a été fait & exécuté à la condition expresse qu'il fût subséquemment accepté par la dite Dame Adèle Cadoret, épouse du dit sieur Jean Baptiste Cantin, autorisée légalement ; Attendu que le dit acte de donation a été lu & expliqué à la dite Dame Jean Baptiste Cantin & à son dit époux, en présence du dit témoin, par le notaire soussigné ; — [001269-70] C'est pourquoi la dite Dame Adèle Cadoret, épouse du dit sieur Jean Baptiste Cantin, autorisée comme susdit, accepte le dit acte de donation en son entier & en tout son contenu, & promet & s'oblige, sous l'autorisation susdite, pour elle, ses hoirs & ayants cause, exécuter, accomplir & remplir toutes & chacune les charges, clauses, conditions & toutes autres obligations y mentionnées, & promet & s'oblige, pour elle, ses hoirs & ayants cause, de payer une pension ou rente viagère au dit sieur Cadoret, son père, au montant de la somme de quarante piastres courant, payable en deux paiements égaux & semi-annuels de la somme de vingt piastres chaque & d'avance, à dater du jour où le dit sieur Cadoret voudra aller vivre ailleurs que chez la donataire. — [001270-71] À ce fut aussi présent le dit sieur Charles Théodore alias Isidore Cadoret, donateur, & père de la dite Dame Adèle Cadoret, du dit lieu de St Jean Chrysostome, cultivateur ; Lequel a ratifié, comme par ces présentes il ratifie, le dit acte de donation susdaté, & dit & déclare l'avoir fait & exécuté en faveur de la dite Dame Jean Baptiste Cantin en considération des services nombreux que lui a rendus & que lui rend, à lui & à son épouse, tous les jours, la dite Dame Jean Baptiste Cantin, sa dite fille. — [001271-72] Et pour assurer l'exécution de toutes les charges, clauses, conditions & obligations mentionnées au dit acte de donation susdaté, la dite Dame (+) [Jean Baptiste Cantin], autorisée comme susdit, hypothèque spécialement en faveur du dit sieur Charles Théodore alias Isidore Cadoret, son dit père, les immeubles désignés au dit acte de donation, accordant au dit sieur Cadoret, présent & acceptant, tous ses droits & privilèges de bailleur de fonds. Et pour l'exécution des présentes, les parties élisent leurs domiciles, savoir : le dit sieur Cadoret en sa demeure actuelle, & la dite Dame (6) [& le dit sieur] Jean Baptiste Cantin en la demeure de ce dernier ; auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Jean Chrysostome — [001272-73] susdit, demeure du dit sieur Jean Baptiste Cantin, les jour, mois & an susdits, sous le numéro soixante des originaux du notaire soussigné. Requis de signer, les dits sieurs Cadoret & Cantin, ainsi que la dite Dame Adèle Cadoret, ont déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, dit notaire, lecture faite. Quatre-vingt-dix-sept mots rayés sont nuls. Sept renvois en marge sont bons & approuvés. » Signatures : « Octave Roberge », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "donataire",
+          "nom": "Adèle Cadoret",
+          "note": "Épouse de Jean-Baptiste Cantin, de Saint-Jean-Chrysostome, concession Taniata, premier rang ; fille du donateur, avec qui elle a « toujours demeuré » ; ne sait pas signer. L'Adèle (ou Adélaïde) Cadoret de 1871 (1871-D2-P036-L08) et de 1881 (1881-D2-P024-L02) est l'épouse de Jacques Cadoret : ce n'est pas elle. Non rattachée."
+        },
+        {
+          "role": "epoux",
+          "nom": "Jean-Baptiste Cantin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, premier rang de Taniata ; autorise son épouse ; l'acte est passé en sa demeure ; ne sait pas signer. Aucun Jean-Baptiste Cantin aux recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "donateur",
+          "nom": "Charles Théodore alias Isidore Cadoret",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, père d'Adèle Cadoret ; son épouse vit encore en mars 1874 ; ne sait pas signer. Aucun Cadoret de ces prénoms aux recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Octave Roberge",
+          "note": "« De la paroisse de St Jean Chrysostome, cultivateur » ; signe « Octave Roberge » et paraphe « O. R. » les sept renvois. Le seul Octave Roberge recensé est un journalier de 21 ans en 1871, division 1 (1871-D1-P075-L15) — métier et lieu ne concordent pas : laissé vide. Le témoin de la donation n° 24, lu « Olivier Roberge », paraphait lui aussi « O. R. » : c'est vraisemblablement le même homme, et la lecture « Olivier » de l'acte n° 24 serait à revoir."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "date": "1874-03-13",
+          "personnes": [],
+          "enonce": "Adèle Cadoret, épouse de Jean-Baptiste Cantin, est la fille de Charles-Théodore dit Isidore Cadoret, cultivateur de Saint-Jean-Chrysostome, dont l'épouse vit encore en 1874.",
+          "note": "Aucune des trois personnes n'est rattachée aux recensements de Saint-Romuald."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1874-03-13",
+          "personnes": [],
+          "enonce": "Adèle Cadoret est mariée à Jean-Baptiste Cantin, cultivateur du premier rang de Taniata (Saint-Jean-Chrysostome)."
+        }
+      ],
+      "note": "Complète la donation n° 24 du 10 janvier 1874 : la donataire l'accepte, comme l'exigeait l'acte, et le père la ratifie. L'acte dit enfin la parenté que la donation taisait : Adèle est la fille du donateur. Charges rappelées : soigner le donateur et son épouse, et leur verser 40 piastres de rente viagère par an, en deux termes d'avance, du jour où le père voudra vivre ailleurs que chez sa fille. Enregistrement de la donation : Lévis, registre B, vol. 21, p. 404, n° 16 546.",
       "ajoute_le": "2026-11-02"
     }
   ]
