@@ -69,9 +69,9 @@ Points à soumettre à Patrick, relevés dans cette série :
   Benjamin) ; or les n° 64 à 68 lui donnent une épouse vivante, Esther Girard,
   et des fils François (parti dans le Haut-Canada), Philippe (mineur) et
   Augustin. Les fiches n° 64 à 68 le laissent sans rattachement.
-- **Olivier ou Octave Roberge** : le témoin de la donation n° 24, lu
-  « Olivier », paraphe « O. R. » comme Octave Roberge, témoin de
-  l'acceptation n° 60 de la même donation : relire l'image du n° 24.
+- **Olivier et Octave Roberge** sont deux hommes : Olivier signe en toutes
+  lettres au codicille n° 75, Octave à l'acceptation n° 60 ; tous deux
+  paraphent « O. R. ». Question réglée.
 - **Joseph Bourassa, rentier** (n° 69) : rattaché, en probable, au cultivateur
   de 56 ans de 1871 (maison 63) ; rien ne le relie encore à la maison de
   pierre (1900-cf).
