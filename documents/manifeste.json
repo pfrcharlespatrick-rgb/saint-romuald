@@ -1,7 +1,7 @@
 {
   "format": "documents-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-11-01",
+  "mis_a_jour": "2026-11-02",
   "note": "Index des documents historiques qui établissent des liens de filiation. Un document versé ici l'emporte toujours sur une proposition automatique de data/filiation-data.js : l'acte est une preuve, le rapprochement algorithmique n'est qu'une hypothèse. Voir documents/README.md pour la marche à suivre.",
   "types_admis": {
     "bapteme": "Acte de baptême — établit une filiation directe et une date de naissance",
@@ -7747,6 +7747,94 @@
       "affirmations": [],
       "note": "Testament réciproque du n° 54 : chaque époux laisse tout à l'autre. « Mon époux actuel » laisse entendre que Catherine Toussaint avait été mariée auparavant. C'est le dernier acte de la série 00181-00300 conservée au Drive : les fichiers 00301 à 00550 (actes n° 56 à 112, mars à mai 1874) n'y sont pas.",
       "ajoute_le": "2026-11-01"
+    },
+    {
+      "id": "notarie-1874-03-10-bail-rente-roberge-gaumont",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Damase Roberge, maître de poste, à Mathias Gaumont, ferblantier : un emplacement sur la route des Quarante-Arpents, 1874",
+      "date": "1874-03-10",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 56, images 001246 à 001250 (Drive : fichiers 04T_CN401S124P_00302 à 00305 ; le fichier 00301, image 001245-46, refilme la dernière page du testament n° 55) ; acte complet",
+      "nature": "Bail à rente foncière et constituée, non rachetable, passé le 10 mars 1874, après-midi, en la demeure du concédant. En marge : « Bail à rente foncière — Damase Roberge & Mathias Gaumont — original — Exp. 1 fois — Exp. 2 fois — [Pour] enregistrer ». Quatre-vingt-quatorze mots rayés ; trois renvois en marge, paraphés « D. R. », « M. G. » et du notaire.",
+      "transcription": "[001246-47] « N° 56 — 10 mars 1874. L'an mil huit cent soixante-quatorze, le dixième jour de mars, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Mr Damase Roberge, demeurant en la paroisse de St Romuald susdite, maître de poste ; Lequel a par ces présentes baillé & concédé dès ce jour & à l'avenir, à titre de bail à rente foncière & constituée, avec garantie de tous troubles & empêchements généralement quelconques, à Mr Mathias Gaumont, du dit lieu de St Romuald, comté susdit, ferblantier, à ce présent & acceptant, concessionnaire pour lui, ses hoirs & ayants cause, savoir : Un emplacement situé — [001247-48] en la dite paroisse de St Romuald, comté susdit, contenant trente pieds de front sur quarante pieds de profondeur ; borné par devant à l'est à la route dite des Quarante Arpents, en arrière au bout de la dite profondeur au concédant, au nord au dit concédant, & au sud à Joseph Fortin ; circonstances & dépendances, le tout mesure anglaise. [Renvoi (1) en marge : Au dit concédant appartient le dit emplacement pour l'avoir acquis avec plus grande étendue de terrain de Pierre G[iroux ?], écuier, suivant bail à rente foncière & constituée reçu par Mtre G[… ?] le ou vers le vingt de février dernier. Pour par le dit concessionnaire en jouir, faire & disposer du dit emplacement au dit titre en pleine propriété à compter de ce jour & à toujours.] Ce bail est fait aux charges, clauses & conditions suivantes, que le dit sieur Mathias Gaumont s'oblige exécuter & accomplir pour lui, ses hoirs & ayants cause, savoir : 1° De payer annuellement au dit concédant, ses hoirs & ayants cause, une rente foncière & constituée de dix piastres courant par année, — [001248-49] non rachetable, payable la dite rente annuellement le premier jour de janvier, à dater du premier janvier dernier (mil huit cent soixante-quatorze) ; 2° De bâtir & tenir bâtie sur le dit emplacement une maison habitable & logeable, & de la rebâtir dans le cas de destruction ou d'incendie, dans le délai d'un an ; 3° De clore à ses frais le dit emplacement quand besoin sera ; 4° De fournir au concédant, à ses frais, une copie enregistrée de la minute des présentes, le plus tôt possible ; [renvoi en marge :] 5° D'entretenir à ses frais & dépens tous fossés & le chemin en front du dit emplacement ; 6° De payer toutes les taxes municipales & scolaires & toutes autres taxes auxquelles le dit immeuble peut ou pourra être assujetti, que les parties n'ont pu spécifier, de ce enquises, faisant quittance de tous arrérages jusqu'au premier jour de janvier dernier. [Renvoi (+) en marge : Il est expressément convenu entre les dites parties que dans le cas où le dit sieur Roberge, ses hoirs & ayants cause, voudraient bâtir sur le lopin de terre situé à côté de celui ci-dessus concédé, qu'alors & dans ce cas, lui, dit concessionnaire, s'oblige à fournir six pieds du côté nord du dit emplacement susdésigné pour y tracer un chemin pour les voitures, & les autres six pieds seront fournis par le dit concédant ; lequel chemin sera commun aux dits concédant & concessionnaire, sans pouvoir néanmoins être embarrassé — [001249-50] ou autrement l'obstruer.] Pour garantie & sûreté du paiement de la dite rente régulièrement, le concédant aura & conservera les droits, privilèges & hypothèques de bailleur de fonds sur l'emplacement sus-désigné & concédé. Et pour l'exécution des présentes, les parties élisent leurs domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald susdit, demeure du dit sieur Roberge, le concédant, les jour, mois & an susdits, sous le numéro cinquante-six des originaux du notaire soussigné. Et les dits concédant & concessionnaire ont, de ce requis, signé avec moi, notaire, lecture faite. Quatre-vingt-quatorze mots rayés sont nuls. Trois renvois en marge sont bons & approuvés. » Signatures : « Damase Roberge », « Mathias Gaumont », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Damase Roberge",
+          "ref_personne": "1871-D1-P022-L04",
+          "note": "« Demeurant en la paroisse de St Romuald, maître de poste » ; l'acte est passé en sa demeure ; signe. En 1871 : marchand de 50 ans, division 1, maison 53 ; rentier de 60 ans en 1881 (1881-D1-P015-L01, maison 54). L'autre Damase Roberge de 1881, journalier de 34 ans, n'avait que 27 ans en 1874 et ne peut être le maître de poste."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Mathias Gaumont",
+          "ref_personne": "1871-D1-P021-L05",
+          "note": "« Du dit lieu de St Romuald, ferblantier » ; signe. Ferblantier de 25 ans en 1871 (maison 50), de 34 ans en 1881 (1881-D1-P016-L07, maison 59) — le seul de ce nom. Témoin des actes n° 28, 43, 44, 45, 47 et 117."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Fortin",
+          "ref_personne": "1871-D1-P022-L05",
+          "note": "Tient l'emplacement au sud. Peintre de 40 ans en 1871, maison 54 — recensé juste après Damase Roberge (maison 53) ; charron en 1881. Le priseur de l'inventaire Bourassa (n° 42)."
+        },
+        {
+          "role": "auteur",
+          "nom": "Pierre G[iroux ?]",
+          "note": "« Écuier » ; a cédé à Damase Roberge, par bail à rente vers le 20 février 1874, le terrain dont l'emplacement est détaché. Nom mal lu dans le renvoi en marge (« Pierre Giro[…] »), comme celui du notaire qui a reçu ce bail (« Mtre G[…] » — peut-être Me P.-M. Guay, de Lévis). Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-03-10",
+          "personnes": [
+            "1871-D1-P022-L04"
+          ],
+          "enonce": "Damase Roberge est maître de poste de Saint-Romuald en mars 1874, alors que le recensement de 1871 le dit marchand."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P022-L04",
+            "1881-D1-P015-L01"
+          ],
+          "enonce": "Le maître de poste Damase Roberge est le marchand de 50 ans de 1871 (maison 53), rentier de 60 ans en 1881 : le seul Damase Roberge d'âge à tenir la poste en 1874."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-03-10",
+          "personnes": [
+            "1871-D1-P021-L05"
+          ],
+          "enonce": "Mathias Gaumont, ferblantier, reçoit de Damase Roberge, à rente de dix piastres par an, un emplacement de 30 pieds sur 40 sur la route des Quarante-Arpents, voisin au sud de Joseph Fortin ; il doit y bâtir une maison dans l'année."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-03-10",
+          "personnes": [
+            "1871-D1-P022-L04"
+          ],
+          "enonce": "Damase Roberge possède, depuis un bail à rente d'environ le 20 février 1874, un terrain plus grand sur la route des Quarante-Arpents, d'où il détache l'emplacement de Gaumont."
+        },
+        {
+          "type": "residence",
+          "certitude": "probable",
+          "date": "1874-03-10",
+          "personnes": [
+            "1871-D1-P022-L05"
+          ],
+          "enonce": "Joseph Fortin est propriétaire riverain sur la route des Quarante-Arpents, au sud du nouvel emplacement de Mathias Gaumont."
+        }
+      ],
+      "note": "Premier acte de la série 00301-00450 ajoutée au Drive par Patrick les 1er et 2 novembre 2026. La route « dite des Quarante Arpents » est nommée ici pour la première fois dans le greffe. En 1871, Gaumont (maison 50), Roberge (maison 53) et Fortin (maison 54) sont recensés à quelques portes l'un de l'autre. En 1881, Gaumont est recensé maison 59, Fortin maison 60 : le ferblantier a bien bâti à côté du charron. Le nom du cédant du 20 février (« Pierre G… », écuier) reste à lire sur une meilleure image ou dans l'index aux immeubles.",
+      "ajoute_le": "2026-11-02"
     }
   ]
 }
