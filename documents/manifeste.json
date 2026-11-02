@@ -7835,6 +7835,176 @@
       ],
       "note": "Premier acte de la série 00301-00450 ajoutée au Drive par Patrick les 1er et 2 novembre 2026. La route « dite des Quarante Arpents » est nommée ici pour la première fois dans le greffe. En 1871, Gaumont (maison 50), Roberge (maison 53) et Fortin (maison 54) sont recensés à quelques portes l'un de l'autre. En 1881, Gaumont est recensé maison 59, Fortin maison 60 : le ferblantier a bien bâti à côté du charron. Le nom du cédant du 20 février (« Pierre G… », écuier) reste à lire sur une meilleure image ou dans l'index aux immeubles.",
       "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-03-10-bail-lefebvre-boucher",
+      "type": "notarie",
+      "titre": "Bail d'une maison de bois à New-Liverpool, de Joseph Lefebvre à Calixte Boucher, journaliers, 1874",
+      "date": "1874-03-10",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 57, images 001250 à 001254 (Drive : fichiers 04T_CN401S124P_00306 à 00309) ; acte complet",
+      "nature": "Bail à loyer d'un an, passé le 10 mars 1874, après-midi, à New-Liverpool, au bureau de John Ritchie, devant un seul témoin ; ni le bailleur ni le preneur ne savent signer. En marge : « Bail Lefebvre & Boucher — original ». Un renvoi en marge ; vingt-quatre mots rayés.",
+      "transcription": "[001250-51] « N° 57 — 10 mars 1874. L'an mil huit cent soixante-quatorze, le dixième jour de mars, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de John Ritchie, écuier, de la paroisse de St Romuald susdite, marchand de bois, témoin au présent acte, aussi soussigné ; Fut présent : Sieur Joseph Lefebvre, du dit lieu de St Romuald, journalier ; Lequel a par ces présentes loué pour une année entière & consécutive, qui commencera à courir du premier jour de mai prochain & finira le trente avril mil huit cent soixante-quinze, à Calixte Boucher, du dit lieu de St Romuald, journalier, à ce présent & acceptant, preneur pour lui, ses hoirs & ayants cause, savoir : Une maison en bois à un étage, sise & située en la dite paroisse de St Romuald, division de New — [001251-52] Liverpool, & assise sur le niveau sud du chemin royal ; bornée en front au dit chemin, à l'est à François Thibault & à l'ouest à Robert McReady. Tel que le tout est actuellement & dont le preneur se déclare content pour l'avoir vu & visité. Ce bail est fait aux charges, clauses & conditions suivantes, que le preneur, pour lui, ses hoirs & ayants cause, promet exécuter, sans pouvoir prétendre aucune diminution ni indemnité, savoir : 1° De jouir des prémisses en bon père de famille ; 2° De garnir la maison de meubles suffisants en valeur pour répondre des loyers ; 3° De ne point sous-louer à qui que ce soit, sans le consentement exprès & par écrit du bailleur ; 4° De laisser visiter les prémisses trois mois avant l'expiration du présent bail par quiconque se présentera à cet effet ; 5° De rendre le tout en bon état tel qu'il l'aura reçu, sans qu'aucun congé de déloger soit du tout nécessaire ; — [001252-53] 6° Ce bail est fait en outre pour & moyennant le prix de quinze piastres & demi courant pour l'année de sa durée, que le preneur promet & s'oblige payer au bailleur ou ordre en six paiements égaux, au premier jour des mois de mai, juin, juillet, août, septembre & octobre, de la somme de deux piastres & cinquante-huit centins & un tiers chaque, payable comme susdit. [En marge, le calcul : 15.50 ÷ 6 = 2.58 ⅓.] Il est convenu entre les parties, & sans laquelle condition le présent bail n'aurait pas eu lieu, que dans le cas où le dit sieur Boucher ne paierait pas aux époques sus-fixées, qu'alors & dans ce cas le présent demeurera nul, résilié, sans que pour cela il n'y ait besoin d'aucune procédure quelconque. De son côté le bailleur promet faire jouir le preneur pendant la durée de ce bail, mais ne s'oblige pas à tenir les lieux clos ni couverts, nonobstant toutes lois à ce contraires, le bailleur s'obligeant (1) [renvoi en marge : seulement à faire arranger une porte & un châssis]. Et pour l'exécution des présentes, les parties élisent domicile en leurs demeures respectives, auxquels lieux &c. Car ainsi &c. — [001253-54] Dont acte. Fait & passé à New Liverpool susdit, bureau du dit J. Ritchie, écuier, les jour, mois & an susdits, sous le numéro cinquante-sept des originaux du notaire soussigné. Et les bailleur & preneur ont déclaré ne savoir écrire ni signer, de ce requis, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. Un renvoi en marge est bon & approuvé. Vingt-quatre mots rayés sont nuls. » Signatures : « John Ritchie », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Joseph Lefebvre",
+          "ref_personne": "1871-D2-P021-L03",
+          "note": "« Du dit lieu de St Romuald, journalier » ; ne sait pas signer. Propriétaire d'une maison de bois à un étage sur le chemin royal, à New-Liverpool. Le seul Joseph Lefebvre adulte de la paroisse : journalier de 26 ans en 1871, division 2, maison 52 ; journalier de 39 ans en 1881 (1881-D2-P039-L04, maison 163) ; charretier de 50 ans en 1891 (1891-D1-P102-L01). Rattachement probable (même nom, même métier, même division)."
+        },
+        {
+          "role": "preneur",
+          "nom": "Calixte Boucher",
+          "note": "« Du dit lieu de St Romuald, journalier » ; ne sait pas signer. Aucun Calixte Boucher dans les recensements de 1871, 1881 et 1891 : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "John Ritchie",
+          "ref_personne": "1871-D1-P073-L19",
+          "note": "« Écuier, de la paroisse de St Romuald, marchand de bois » ; l'acte est passé à son bureau de New-Liverpool ; signe. Le seul John Ritchie adulte recensé : « bourgeois » de 35 ans en 1871, division 1, maison 207, avec William et Mary Ritchie. Rattachement probable. Ne pas le confondre avec le fondeur John Ritchie de 1829 (dictionnaire de Julie Doyon), d'une génération antérieure."
+        },
+        {
+          "role": "voisin",
+          "nom": "François Thibault",
+          "ref_personne": "1871-D2-P032-L13",
+          "note": "Tient la maison à l'est. Le seul François Thibault adulte recensé : journalier de 29 ans en 1871, division 2, maison 83. Rattachement probable."
+        },
+        {
+          "role": "voisin",
+          "nom": "Robert McReady",
+          "ref_personne": "1871-D2-P029-L08",
+          "note": "Tient à l'ouest. Marchand de New-Liverpool, recensé à 39 ans en 1871 (division 2, maison 75) ; le magasin général McReady (lieu 1596-cf). Témoin des testaments n° 29 et 30."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-03-10",
+          "personnes": [
+            "1871-D2-P021-L03"
+          ],
+          "enonce": "Joseph Lefebvre, journalier, possède une maison de bois à un étage au sud du chemin royal, à New-Liverpool, entre François Thibault (à l'est) et Robert McReady (à l'ouest) ; il la loue à Calixte Boucher pour un an à compter du 1er mai 1874, 15,50 piastres."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-03-10",
+          "personnes": [
+            "1871-D1-P073-L19"
+          ],
+          "enonce": "John Ritchie, écuier, est marchand de bois et tient un bureau à New-Liverpool en mars 1874 ; le recensement de 1871 le disait « bourgeois »."
+        },
+        {
+          "type": "residence",
+          "certitude": "probable",
+          "date": "1874-03-10",
+          "personnes": [
+            "1871-D2-P032-L13",
+            "1871-D2-P029-L08"
+          ],
+          "enonce": "François Thibault et Robert McReady sont voisins sur le côté sud du chemin royal à New-Liverpool, séparés par la maison de Joseph Lefebvre."
+        }
+      ],
+      "note": "Le bail précise que la maison est louée « telle quelle » : le bailleur ne s'engage qu'à faire arranger une porte et un châssis. Le calcul en marge (15.50, 2.58 ⅓) est de la main du notaire. Calixte Boucher reste à chercher sous une autre graphie ou ailleurs (Saint-Jean-Chrysostome, Lévis).",
+      "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-03-11-vente-guay-roberge-cull",
+      "type": "notarie",
+      "titre": "Vente par François-Xavier Guay et Louis-Hubert Roberge à Thomas Cull, marchand de bois de Trois-Rivières, d'une maison de bois voisine de John McKenzie, 1874",
+      "date": "1874-03-11",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 58, images 001254 à 001262 (Drive : fichiers 04T_CN401S124P_00310 à 00317) ; acte complet",
+      "nature": "Vente avec garantie, passée le 11 mars 1874, après-midi, en l'étude du notaire ; tous signent. En marge : « Vente Guay & Roberge à T. Cull — original — (Enregistré) — Exp. 1 fois », un calcul d'intérêts (450 piastres, 69 d'intérêt, 519) et une mention biffée. Quarante-quatre mots rayés.",
+      "transcription": "[001254-55] « N° 58 — 11 mars 1874. L'an mil huit cent soixante-quatorze, le onzième jour de mars, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Furent présents : MM. François Xavier Guay, boulanger, & Louis Hubert Roberge, navigateur, demeurant tous deux en la paroisse de St Romuald, comté susdit ; Lesquels ont vendu, comme par ces présentes ils vendent, avec garantie de tous troubles & autres empêchements généralement — [001255-56] quelconques, à Thomas Cull, écuier, de la ville des Trois-Rivières, province de Québec, marchand de bois, à ce présent & acceptant, acquéreur pour lui, ses hoirs & ayants cause à l'avenir, savoir : Une maison en bois à un étage, située au dit lieu de St Romuald, avec une étendue de terrain de soixante pieds de profondeur sur cinquante pieds de front ; bornée au nord & au nord-est à John McKenzie, écuier, au sud à Louis Vermette, fils, & aux héritiers Renson [?] ; circonstances & dépendances. Lequel terrain comprend tout ce qui appartenait à Thomas Voyer, concessionnaire, dans les bornes susdites. — [001256-57] Tel que le tout est actuellement, se poursuit, comporte & s'étend de toutes parts, sans aucune réserve quelconque. Pour par le dit acquéreur jouir, faire & disposer de ce jour & à toujours du dit immeuble & de la maison bâtie sur icelui dit immeuble, en pleine & entière propriété & comme bon lui semblera, à compter de ce jour. Aux dits vendeurs appartient tout ce que dessus désigné & vendu pour l'avoir acquis de Thomas Voyer, suivant acte de vente à réméré en date du vingt-trois de décembre mil huit cent soixante-douze, reçu par Mtre Légaré & témoin, & enregistré au bureau — [001257-58] d'enregistrement du comté de Lévis, Reg. B, vol. 20, page 659, n° 16,082. Lequel acte de vente à réméré est demeuré valable comme vente pure & simple, suivant les dispositions du dit acte, par suite du défaut, par le dit Thomas Voyer, d'exercer son droit de réméré dans les délais prescrits au dit acte. Et le dit Thomas Voyer le possédait, ce que dessus vendu, suivant titres bons & valables, desquels les vendeurs s'obligent aider l'acquéreur au besoin. — [001258-59] Cette vente est faite aux charges & conditions suivantes, que le dit acquéreur, pour lui, ses hoirs & ayants cause, promet & s'oblige exécuter & accomplir, savoir : 1° De payer toutes les taxes municipales & scolaires, & toutes autres taxes qui seront dues & imposées sur ce que sus-vendu, garanti quitte des arrérages jusqu'au premier jour de mai prochain ; 2° De payer douze piastres courant de rente foncière & constituée, annuellement, à John McKenzie, écuier, le neuf septembre de chaque année, garanti quitte de tous arrérages jusqu'au premier jour de mai aussi prochain ; 3° De se conformer en tous points au bail à rente foncière & constituée consenti par le dit John McKenzie, écuier, en faveur du dit Thomas Voyer. — [001259-60] Cette vente est faite en outre pour & moyennant le prix ou somme de cinq cent cinquante piastres courant, sur & en à compte de laquelle le dit acquéreur a payé, à vue & présence de nous dit notaire, aux dits vendeurs, qui le reconnaissent, la somme de cent piastres courant — dont quittance d'autant. Et quant à la balance, formant la somme de quatre cent cinquante piastres, l'acquéreur, pour lui, ses hoirs & ayants cause, — [001260-61] promet & s'oblige la payer en un seul paiement au premier jour de septembre mil huit cent soixante-quinze, avec ensemble l'intérêt de huit pour cent par an, payable en même temps que la dite balance. Il est convenu expressément entre les parties que si le locataire actuel dans la dite maison veut partir au premier de mai prochain, qu'alors le dit acquéreur en aura l'usage ; sinon il sera tenu & s'oblige d'attendre au premier jour de mai mil huit cent soixante-quinze, & percevra [?] les loyers. Et pour sûreté duquel paiement & des intérêts qui en proviendront, comme dit est, le dit acquéreur a spécialement hypothéqué l'immeuble sus-désigné & vendu, sur lequel les vendeurs se réservent expressément tous leurs droits & privilèges de bailleurs de fonds. Et pour l'exécution des présentes, les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux &c. — [001261-62] Car ainsi &c. Dont acte. Fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cinquante-huit des originaux du notaire soussigné. Et les vendeurs & acquéreur ont, de ce requis, signé avec moi, notaire, lecture faite. Quarante-quatre mots rayés sont nuls. » Signatures : « F. X. Guay », « L. Hubert Roberge », « Thomas Cull », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "François-Xavier Guay",
+          "ref_personne": "1871-D1-P020-L09",
+          "note": "« Boulanger » de Saint-Romuald ; signe « F. X. Guay ». Boulanger de 51 ans en 1871 (division 1, maison 49), boulanger encore en 1881 (1881-D1-P018-L11) — le même qu'à la procuration n° 49 du 3 mars 1874, où il agit déjà avec Louis-Hubert Roberge."
+        },
+        {
+          "role": "vendeur",
+          "nom": "Louis-Hubert Roberge",
+          "note": "« Navigateur » de Saint-Romuald ; signe « L. Hubert Roberge ». Trois Hubert Roberge navigateurs en 1871 (division 2) : non rattaché, comme à la procuration n° 49. Voir aussi l'obligation n° 53, où il prête 600 piastres à Benjamin Demers."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Thomas Cull",
+          "note": "« Écuier, de la ville des Trois-Rivières, province de Québec, marchand de bois » ; signe « Thomas Cull ». Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "John McKenzie",
+          "ref_personne": "1871-D2-P057-L04",
+          "note": "« Écuier » ; borne la maison au nord et au nord-est, et lui en est le seigneur foncier : il a concédé le terrain à Thomas Voyer par bail à rente, et l'acquéreur lui doit 12 piastres de rente chaque 9 septembre. Rattaché, comme dans le bail n° 9 (McAneeny–Dee) et l'inventaire Bourassa, au ship chandler de 1871 (division 2, maison 147) — identification de Patrick du 31 octobre 2026 ; ici le prénom est écrit en toutes lettres."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis Vermette, fils",
+          "note": "Borne au sud. Peut-être Louis Vermette, mesureur de bois (« culler ») de 49 ans en 1881 (1881-D2-P002-L05, division 2, maison 4), fils possible de Louis Vermette, journalier de 70 ans en 1871 (1871-D1-P004-L04) ; absent de 1871 sous ce prénom. Rattachement trop incertain : laissé vide."
+        },
+        {
+          "role": "voisin",
+          "nom": "Héritiers Renson [?]",
+          "note": "Bornent au sud avec Louis Vermette fils. Nom mal assuré ; aucun Renson ni Ranson au recensement."
+        },
+        {
+          "role": "auteur",
+          "nom": "Thomas Voyer",
+          "ref_personne": "1871-D2-P069-L05",
+          "note": "Ancien concessionnaire du terrain sous John McKenzie ; l'avait vendu à réméré à Guay et Roberge le 23 décembre 1872 (Me Légaré) et n'a pas racheté dans le délai. Probablement Thomas Voyer, menuisier de 37 ans en 1871, division 2, maison 162 — le seul de ce nom ; le dépouillement porte « Voyer [?] », que l'acte confirme. Rattachement probable."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-03-11",
+          "personnes": [
+            "1871-D1-P020-L09"
+          ],
+          "enonce": "François-Xavier Guay, boulanger, et Louis-Hubert Roberge, navigateur, vendent 550 piastres à Thomas Cull, de Trois-Rivières, une maison de bois à un étage sur un terrain de 50 pieds sur 60, acquis de Thomas Voyer par vente à réméré du 23 décembre 1872."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-03-11",
+          "personnes": [
+            "1871-D2-P057-L04"
+          ],
+          "enonce": "John McKenzie, écuier, est propriétaire foncier du terrain (rente de 12 piastres le 9 septembre) et voisin au nord et au nord-est de la maison vendue."
+        },
+        {
+          "type": "propriete",
+          "certitude": "probable",
+          "date": "1872-12-23",
+          "personnes": [
+            "1871-D2-P069-L05"
+          ],
+          "enonce": "Thomas Voyer, concessionnaire de John McKenzie, possédait cette maison et l'a perdue faute d'exercer son droit de réméré."
+        },
+        {
+          "type": "lecture",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P069-L05"
+          ],
+          "enonce": "Le patronyme « Voyer [?] » du dépouillement de 1871 (division 2, maison 162) est confirmé par l'acte, qui écrit plusieurs fois « Thomas Voyer » en toutes lettres."
+        }
+      ],
+      "note": "Acte enchaîné à la procuration n° 49 (3 mars 1874) : le boulanger Guay et le navigateur Roberge agissent encore ensemble. La maison était louée : si le locataire ne part pas au 1er mai 1874, l'acquéreur attendra le 1er mai 1875. Le terrain est dans la mouvance de John McKenzie, sans doute à New-Liverpool ou près de la maison de pierre Bourassa, mais l'acte ne nomme ni rue ni rang. Références d'enregistrement de la vente à réméré : Lévis, registre B, vol. 20, p. 659, n° 16 082.",
+      "ajoute_le": "2026-11-02"
     }
   ]
 }
