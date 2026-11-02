@@ -9099,6 +9099,114 @@
       "affirmations": [],
       "note": "Réciproque du n° 76. L'épouse sait signer alors que le mari ne le sait pas.",
       "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-04-05-vente-guillot-brunet",
+      "type": "notarie",
+      "titre": "Vente par Louis Guillot, charpentier, à Odina Brunet, journalier, d'un emplacement avec maison à New-Liverpool, 1874",
+      "date": "1874-04-05",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 78, images 001355 à 001359 (Drive : fichiers 04T_CN401S124P_00411 à 00414) ; acte complet",
+      "nature": "Vente avec garantie, passée le 5 avril 1874, après-midi, en l'étude du notaire, sans témoin ; les deux parties signent. En marge : « Vente Le Guillot @ Odina Brunet — original — Expédié 1 fois & envoyé au bureau en même temps que le bail ci-cité & daté ». Un renvoi paraphé « L. G. », « O. B. » et du notaire.",
+      "transcription": "[001355-56] « N° 78 — 5 avril 1874. L'an mil huit cent soixante-quatorze, le cinquième jour d'avril, après-midi, en présence de Elzéar H. Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Louis Guillot, du dit lieu de St Romuald, charpentier ; Lequel vend, cède, transporte & abandonne dès maintenant & à toujours, avec garantie de tous troubles, dons, dettes, douaires & hypothèques, à Odina Brunet, du dit lieu de St Romuald, journalier, à ce présent & acceptant, acquéreur pour lui, ses hoirs & ayants cause à l'avenir, savoir : Un emplacement situé en la susdite paroisse de St Romuald, au lieu appelé New Liverpool, contenant trente pieds de front sur quarante pieds de profondeur, le tout plus ou moins ; borné par devant au nord & d'un côté au sud-ouest à une rue, par derrière au sud à An- — [001356-57] toine Hallé ou ses représentants, & d'un côté au nord-est à Édouard Horion ou ses représentants ; avec ensemble une maison en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances. Tel que le tout est actuellement, se poursuit, comporte & s'étend de toutes parts, sans aucune exception ni réserve quelconque. Pour par le dit acquéreur jouir, faire & disposer de ce que dessus vendu en pleine & entière propriété de ce jour & à toujours. Au dit vendeur appartient ce que dessus vendu pour l'avoir (1) [acquis] suivant acte de bail à rente foncière & constituée consenti par le dit Antoine Hallé au dit vendeur, en date du vingt-six janvier mil huit cent soixante-trois, reçu par Mtre E. Simard & son confrère, notaires. Lequel acte a été remis à l'instant même à l'acquéreur, qui en donne quittance au vendeur. Cette vente est faite — [001357-58] 1° À la charge de payer à Antoine Hallé, ses hoirs & ayants cause, la somme de six piastres courant de rente foncière & constituée, rachetable en un seul paiement & à toujours au capital de cent piastres courant ; laquelle dite rente payable annuellement au premier jour d'octobre, garanti quitte de tous arrérages jusqu'au premier jour d'octobre dernier ; 2° À la charge de toutes les taxes municipales & scolaires imposées & imposables sur la dite propriété, garanti quitte de tous arrérages ; 3° À la charge expresse de se conformer en tous points à l'acte de bail à rente foncière sus-daté ; 4° Enfin pour & moyennant la somme de soixante louis courant, comptant, payé à vue & présence de nous dit notaire lors de l'exécution des présentes, en bon argent courant & à l'entière satisfaction du vendeur, qui le reconnaît & en donne quittance à l'acquéreur. — [001358-59] Et pour l'exécution des présentes, les parties élisent leurs domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro soixante-dix-huit des originaux du notaire soussigné. Et les parties ont signé avec moi, notaire, lecture faite. [ ] mots rayés sont nuls. Un renvoi en marge est approuvé & bon. » Signatures : « Louis Guillot », « Odina Brunet », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Louis Guillot",
+          "ref_personne": "1871-D2-P055-L01",
+          "note": "« Du dit lieu de St Romuald, charpentier » ; signe. Tenait l'emplacement d'Antoine Hallé par bail à rente du 26 janvier 1863. Rattachement probable : charpentier de 37 ans en 1871 (division 2, maison 144 [?]) — le seul Louis Guillot adulte."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Odina Brunet",
+          "ref_personne": "1871-D2-P024-L15",
+          "note": "« Du dit lieu de St Romuald, journalier » ; signe. Le seul Odina Brunet recensé : journalier de 27 ans en 1871, division 2, maison 61, époux de Geneviève. Rattachement probable (prénom rare, même métier)."
+        },
+        {
+          "role": "concedant",
+          "nom": "Antoine Hallé",
+          "note": "Seigneur foncier de l'emplacement (bail à rente du 26 janvier 1863, Me E. Simard) ; borne le terrain au sud. Non retrouvé aux recensements (des Hallé forgerons vivent dans la division 1 en 1871) : non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Édouard Horion",
+          "note": "Borne au nord-est, « ou ses représentants ». Des Horion (Rémi, boulanger ; Caroline et Elizabeth, institutrices) sont recensés en 1881 et 1891 ; aucun Édouard : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Étienne Simard",
+          "ref_personne": "1871-D1-P021-L03",
+          "note": "« Mtre E. Simard & son confrère » ont reçu le bail à rente Hallé–Guillot du 26 janvier 1863."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "probable",
+          "date": "1874-04-05",
+          "personnes": [
+            "1871-D2-P024-L15",
+            "1871-D2-P055-L01"
+          ],
+          "enonce": "Odina Brunet, journalier, achète de Louis Guillot, charpentier, pour soixante louis comptant, un emplacement de 30 pieds sur 40 à New-Liverpool, entre deux rues, avec maison de bois à un étage, chargé de 6 piastres de rente envers Antoine Hallé."
+        }
+      ],
+      "note": "Petite propriété ouvrière de New-Liverpool, à l'angle de deux rues (au nord et au sud-ouest) : concédée à rente par Antoine Hallé en 1863, bâtie par le charpentier Louis Guillot, vendue soixante louis (240 piastres) à un journalier. Le prix est donné en louis, unité de compte encore courante en 1874.",
+      "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-04-04-bail-cantin-ferrien",
+      "type": "notarie",
+      "titre": "Bail de Germain Cantin, marchand, à Nicolas et Jean-Baptiste Ferrien, journaliers : une petite maison servant de boutique de ferblantier, 1874",
+      "date": "1874-04-04",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 79, images 001359 à 001363 (Drive : fichiers 04T_CN401S124P_00415 à 00418) ; acte complet. La formule finale porte « soixante-dix-neuf » corrigé.",
+      "nature": "Bail à loyer d'un an, passé le 4 avril 1874, après-midi, en la demeure du bailleur, devant un témoin ; les preneurs ne savent pas signer (deux croix). En marge : « Bail Germ. Cantin @ Nic. Ferrien & als — original ». Un renvoi paraphé « G. C. », « S. M. » et du notaire.",
+      "transcription": "[001359-60] « N° 79 — 4 avril 1874. L'an mil huit cent soixante-quatorze, le quatrième jour d'avril, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant à la paroisse de St Romuald, soussigné ; Et en présence de Samuel Ménard, journalier, du dit lieu de St Romuald, témoin au présent bail, aussi soussigné ; Fut présent : Germain Cantin, écuier, de la paroisse de St Romuald, dit comté, marchand ; Lequel loue pour une année entière & consécutive, qui commencera à courir du premier jour de mai prochain & finira au trente avril mil huit cent soixante-quinze, à Nicolas Ferrien, du même lieu, journalier, (1) [renvoi : & à Jean Baptiste Ferrien, du même lieu, journalier,] à ce présents & acceptant, preneurs pour eux, leurs hoirs & ayants cause, savoir : Une petite maison servant actuellement de boutique de ferblantier, & appartenant au bailleur, circonstances & dépendances. Tel que le tout est actuellement, se poursuit, comporte & s'étend, sans aucune réserve, & dont les preneurs se déclarent satisfaits pour l'avoir vu & visité. — [001360-61] Ce bail est fait aux charges suivantes, que les preneurs s'obligent exécuter : 1° De jouir de ce que dessus loué en bon père de famille ; 2° De tenir la dite maison meublée de meubles suffisants en quantité & en valeur pour répondre des loyers ; 3° De souffrir les réparations, quelles qu'elles soient, sans pouvoir pour cela prétendre aucune indemnité ; 4° De laisser parcourir & visiter les prémisses en aucun temps pendant les trois mois qui précéderont l'expiration du présent bail, sous les peines de droit ; 5° De payer les taxes de locataires, s'il en est imposé ; 6° De se conformer à tous les règlements municipaux & autres ; 7° De rendre le tout à la fin du présent bail sans qu'il soit nécessaire d'aucun congé de déloger ; 8° De ne point céder leur droit, ni sous-louer en tout ou en partie à qui que ce soit, sans le consentement exprès & par écrit du bailleur ; 9° D'entretenir les chemins en front, tant en hiver qu'en été, les fossés & les clôtures où besoin sera ; 10° De placer leur bois dans le lieu que leur indiquera le bailleur & non ailleurs ; 11° De payer pour prix de loyer la somme de vingt-quatre piastres courant, comme suit, savoir : — [001361-62] en vingt-quatre paiements égaux de la somme de une piastre chaque, le premier lundi de chaque semaine & d'avance, & dont le premier paiement échoira & se fera le premier lundi de la première semaine de mai, & ainsi de suite chaque lundi suivant, jusqu'au parfait paiement. Pour toutes & chacune les clauses ci-dessus, les preneurs s'obligent solidairement entre eux, l'un d'eux seul pour le tout. De son côté le bailleur promet faire jouir les preneurs des dites prémisses pendant toute l'année, sauf le cas où la dite maison serait incendiée sans la faute de lui dit bailleur, & ne s'oblige à aucune réparation quelconque, pas même à tenir les lieux clos ni couverts, nonobstant toute loi ou coutume à ce contraire. Les améliorations faites aux dites prémisses seront la propriété du bailleur, qu'elles soient faites par les preneurs ou autrement. Et si les preneurs viennent à être troublés dans leur jouissance paisible, le bailleur n'en sera aucunement responsable. Car tel est convenu entre les dites parties. — [001362-63] Et pour l'exécution des présentes, les parties élisent leurs domiciles en leurs demeures respectives, auxquels lieux &c. Car ainsi &c. Dont acte sous le numéro soixante-dix-neuf des originaux du notaire soussigné. Fait & passé à St Romuald susdit, demeure du bailleur, les jour, mois & an susdits. Requis de signer, les dits preneurs ont déclaré ne le savoir, en présence du dit témoin, qui a alors signé, ainsi que le bailleur, avec moi, notaire, lecture faite. [ ] mots rayés sont nuls. [Un] renvoi en marge bon & approuvé. » Marques : « + + » ; signatures : « Germain Cantin », « Samuel Ménard », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "« Écuier, marchand », de Saint-Romuald ; l'acte est passé en sa demeure ; signe cette fois. Propriétaire d'une petite maison servant de boutique de ferblantier. Voir les baux n° 72 à 74."
+        },
+        {
+          "role": "preneur",
+          "nom": "Nicolas Ferrien",
+          "note": "« Du même lieu, journalier » ; ne sait pas signer (croix). Aucun Ferrien aux recensements de 1871, 1881 et 1891 : non rattaché."
+        },
+        {
+          "role": "preneur",
+          "nom": "Jean-Baptiste Ferrien",
+          "note": "« Du même lieu, journalier », ajouté par renvoi ; solidaire de Nicolas ; ne sait pas signer (croix). Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Samuel Ménard",
+          "note": "« Journalier, du dit lieu de St Romuald » ; signe et paraphe « S. M. ». Aucun Samuel Ménard aux recensements : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-04-04",
+          "personnes": [
+            "1871-D1-P017-L04"
+          ],
+          "enonce": "Germain Cantin possède à Saint-Romuald une petite maison servant en 1874 de boutique de ferblantier, qu'il loue à deux journaliers, Nicolas et Jean-Baptiste Ferrien, à une piastre par semaine payée d'avance."
+        }
+      ],
+      "note": "Quatrième bail de Germain Cantin en deux semaines (n° 72 à 74, 79). Le loyer, « vingt-quatre piastres » en « vingt-quatre paiements » d'une piastre chaque lundi d'avance, ne couvre que vingt-quatre semaines, alors que le bail est dit d'un an : contradiction du texte, laissée telle quelle. Le bailleur se dégage en cas d'incendie « sans sa faute » — le risque d'un atelier de ferblantier. Les Ferrien ne sont retrouvés à aucun recensement.",
+      "ajoute_le": "2026-11-02"
     }
   ]
 }
