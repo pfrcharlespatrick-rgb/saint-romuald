@@ -9011,6 +9011,94 @@
       ],
       "note": "Une mère malade, logée chez son fils, lui laisse — à lui et à sa bru — sa part dans la succession d'un autre fils mort sans testament, ainsi que ses hardes et son linge, tout en confirmant son testament de 1855. Le codicille éclaire la famille Cantin de Saint-Jean-Chrysostome déjà croisée aux actes n° 21, 38, 39 et 51.",
       "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-04-02-testament-joseph-gingras",
+      "type": "notarie",
+      "titre": "Testament de Joseph Gingras, cultivateur et navigateur de Saint-Nicolas, en faveur de son épouse Caroline Gingras, 1874",
+      "date": "1874-04-02",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 76, images 001347 à 001351 (Drive : fichiers 04T_CN401S124P_00403 à 00406) ; acte complet. Le notaire a écrit par erreur « soixante-dix » dans la formule finale ; la marge porte bien « N° 76 ».",
+      "nature": "Testament authentique reçu le 2 avril 1874, après-midi, en l'étude du notaire, devant deux témoins ; le testateur ne sait pas signer. En marge : « Testament de Joseph Gingras — original ».",
+      "transcription": "[001347-48] « N° 76 — 2 avril 1874. L'an mil huit cent soixante-quatorze, le deux avril, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Germain Cantin, marchand, & de Joseph Boucher, journalier, demeurant tous deux au dit lieu de St Romuald, dit comté, témoins au présent testament, aussi soussignés ; Fut présent : Sieur Joseph Gingras, cultivateur & navigateur, de la paroisse de St Nicolas, étant en bonne santé de corps, sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à moi notaire & aux dits témoins par son maintien & ses discours & par la manifestation claire & précise de ses volontés ; Lequel a, dans la vue de la mort, fait & nommé son présent testament à moi notaire, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : Premièrement, je veux & ordonne que toutes mes dettes soient payées & mes torts réparés par mon exécutrice — [001348-49] testamentaire ci-après nommée, à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes & prières ; Deuxièmement, je donne & lègue à Dame Caroline Gingras, mon épouse actuelle, tous les biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès, de quelque nature & valeur qu'ils soient & en quelques endroits qu'ils soient dus & situés, pour par mon épouse susdite en jouir en pleine propriété à compter du jour de mon décès ; Troisièmement, je nomme la dite Dame Caroline Gingras, ma dite épouse, mon exécutrice testamentaire & l'institue ma légataire universelle en propriété ; Quatrièmement, enfin, je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement — [001349-50] mes dernières volontés. Ce fut ainsi fait & nommé par le dit testateur au dit notaire soussigné, en la présence constante des dits témoins, & son présent testament lui ayant été lu & expliqué par le dit notaire, les dits témoins toujours présents, il a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. — [001350-51] Dont acte, fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro soixante-dix [sic] des originaux du notaire soussigné. Requis de signer, le dit testateur a déclaré ne le savoir, en présence des dits témoins, qui ont alors signé avec moi, notaire, lecture faite. [ ] nuls. » Signatures : « Germain Cantin », « Joseph Boucher », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Joseph Gingras",
+          "note": "« Cultivateur & navigateur, de la paroisse de St Nicolas » ; ne sait pas signer. Sans doute le Joseph Gingras, cultivateur de Saint-Nicolas, fermier d'Isaïe Demers, des actes n° 16 et 31. Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "legataire",
+          "nom": "Caroline Gingras",
+          "note": "« Mon épouse actuelle » ; légataire universelle et exécutrice. Fait le même jour son testament réciproque (n° 77). Non rattachée."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "« Écuier, marchand », de Saint-Romuald ; signe. Le bailleur des n° 72 à 74."
+        },
+        {
+          "role": "temoin",
+          "nom": "Joseph Boucher",
+          "note": "Journalier de Saint-Romuald ; signe « Joseph Boucher ». Une dizaine de Joseph Boucher adultes aux recensements : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1874-04-02",
+          "personnes": [],
+          "enonce": "Joseph Gingras, cultivateur et navigateur de Saint-Nicolas, est marié à Caroline Gingras."
+        }
+      ],
+      "note": "Testaments réciproques des époux Gingras (n° 76 et 77), venus de Saint-Nicolas à l'étude de Saint-Romuald ; les deux témoins sont pris sur place. Le notaire a recopié deux fois la formule finale « soixante-dix » au lieu de 76 et 77.",
+      "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-04-02-testament-caroline-gingras",
+      "type": "notarie",
+      "titre": "Testament de Caroline Gingras, épouse de Joseph Gingras, de Saint-Nicolas, en faveur de son mari (réciproque du n° 76), 1874",
+      "date": "1874-04-02",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 77, images 001351 à 001355 (Drive : fichiers 04T_CN401S124P_00407 à 00410) ; acte complet. Formule finale « soixante-dix » par erreur ; la marge porte « N° 77 ».",
+      "nature": "Testament authentique reçu le 2 avril 1874, après-midi, en l'étude du notaire, devant les mêmes témoins que le n° 76 ; la testatrice signe. En marge : « Testament de Caroline Gingras, épse de Joseph Gingras — original ».",
+      "transcription": "[001351-52] « N° 77 — 2 avril 1874. L'an mil huit cent soixante-quatorze, le deuxième jour d'avril, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en la présence de Germain Cantin, écuier, marchand, & Joseph Boucher, journalier, demeurant tous deux à St Romuald, dit comté, témoins au présent testament, aussi soussignés ; Fut présente : Dame Caroline Gingras, épouse de sieur Joseph Gingras, & demeurant tous deux en la paroisse de St Nicolas, dit comté, étant en bonne santé de corps, saine d'esprit, mémoire, jugement & entendement, ainsi qu'elle est apparue — [001352-53] à moi dit notaire & aux dits témoins par son maintien & ses discours & par la manifestation claire & précise de ses volontés ; Laquelle a, dans la vue de la mort, fait & nommé son présent testament à moi dit notaire, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : Premièrement, je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par mon exécuteur testamentaire ci-après nommé, à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, messes & prières ; Deuxièmement, je donne & lègue à sieur Joseph Gingras, mon époux actuel, tous les biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils — [001353-54] soient & en quelques lieux qu'ils soient dus & situés, pour par mon dit époux en jouir, faire & disposer en pleine & entière propriété à compter du jour de mon décès ; Troisièmement, je nomme la personne du dit sieur Joseph Gingras, mon dit époux, mon exécuteur testamentaire, & l'institue mon légataire universel en propriété ; Quatrièmement, enfin, je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par la dite testatrice au dit notaire soussigné, en la présence constante des dits témoins, & son présent testament lui ayant été lu & expliqué par le dit notaire, les dits témoins toujours présents, elle a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. — [001354-55] Dont acte, fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro soixante-dix [sic] des originaux du notaire soussigné. Et la testatrice a signé, de ce requise, ainsi que les dits témoins, avec moi, dit notaire, lecture faite. [ ] mots rayés sont nuls. » Signatures : « C. Gingras », « Germain Cantin », « Joseph Boucher », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Caroline Gingras",
+          "note": "Épouse de Joseph Gingras, de Saint-Nicolas ; signe « C. Gingras » — elle sait signer, son mari non. Non rattachée."
+        },
+        {
+          "role": "legataire",
+          "nom": "Joseph Gingras",
+          "note": "« Mon époux actuel », cultivateur et navigateur de Saint-Nicolas ; légataire universel et exécuteur. Le testateur du n° 76."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "« Écuier, marchand », de Saint-Romuald ; signe. Le bailleur des n° 72 à 74."
+        },
+        {
+          "role": "temoin",
+          "nom": "Joseph Boucher",
+          "note": "Journalier de Saint-Romuald ; signe « Joseph Boucher ». Une dizaine de Joseph Boucher adultes aux recensements : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Réciproque du n° 76. L'épouse sait signer alors que le mari ne le sait pas.",
+      "ajoute_le": "2026-11-02"
     }
   ]
 }
