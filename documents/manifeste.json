@@ -8964,7 +8964,7 @@
         {
           "role": "defunt",
           "nom": "Étienne Cantin",
-          "note": "Fils de la testatrice, mort ab intestat avant mars 1874. Sans rapport démontré avec l'Étienne Cantin, journalier de Saint-Romuald recensé en 1871 et en 1881 (vivant) : non rattaché."
+          "note": "Fils de la testatrice, mort ab intestat le 22 juin 1863 (quittance n° 86). Sans rapport démontré avec l'Étienne Cantin, journalier de Saint-Romuald recensé en 1871 et en 1881 (vivant) : non rattaché."
         },
         {
           "role": "temoin",
@@ -9007,9 +9007,16 @@
           "date": "1874-03-22",
           "personnes": [],
           "enonce": "Étienne Cantin, fils d'Isaac Cantin père et de Josephte Couture, est mort sans testament avant le 22 mars 1874."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1874-04-12",
+          "personnes": [],
+          "enonce": "Josephte Couture meurt entre ce codicille (22 mars 1874) et le 12 avril 1874 (quittance n° 86)."
         }
       ],
-      "note": "Une mère malade, logée chez son fils, lui laisse — à lui et à sa bru — sa part dans la succession d'un autre fils mort sans testament, ainsi que ses hardes et son linge, tout en confirmant son testament de 1855. Le codicille éclaire la famille Cantin de Saint-Jean-Chrysostome déjà croisée aux actes n° 21, 38, 39 et 51.",
+      "note": "Une mère malade, logée chez son fils, lui laisse — à lui et à sa bru — sa part dans la succession d'un autre fils mort sans testament, ainsi que ses hardes et son linge, tout en confirmant son testament de 1855. Le codicille éclaire la famille Cantin de Saint-Jean-Chrysostome déjà croisée aux actes n° 21, 38, 39 et 51. Josephte Couture meurt dans les trois semaines : la quittance n° 86 du 12 avril 1874 la dit « feue ». Cet acte date Étienne Cantin mort le 22 juin 1863 et place le testament de 1855 au 30 septembre 1853 — l'une des deux dates est une erreur du notaire.",
       "ajoute_le": "2026-11-02"
     },
     {
@@ -9524,9 +9531,9 @@
       "titre": "Quittance de Joséphine Robitaille, épouse de Thomas Deschênes, à son frère Michel Robitaille, de l'Ancienne-Lorette, 25 piastres dues par la donation de leurs parents, 1874",
       "date": "1874-04-08",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 85, images 001377 à 001380 (Drive : fichiers 04T_CN401S124P_00433 à 00435) ; acte complet",
+      "cote": "Minute n° 85, images 001377 à 001380, avec deux étiquettes volantes aux images 001381-82 et 001382-83 (Drive : fichiers 04T_CN401S124P_00433 à 00435, et 00437-00438) ; acte complet",
       "nature": "Quittance générale et finale, passée le 8 avril 1874, avant midi, en la demeure de la comparante et de son époux, devant un témoin (un premier témoin, « Joseph Picard », est biffé) ; l'époux ne sait pas signer. En marge : « Quittance Dme Thos Deschênes @ Michel Robitaille — original — Exp. 1 fois ». Trente-huit mots rayés ; un renvoi paraphé « M. G. », « J. R. » et du notaire.",
-      "transcription": "[001377-78] « N° 85 — 8 avril 1874. L'an mil huit cent soixante-quatorze, le huitième jour d'avril, avant midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de sieur Marcel Gingras, du dit lieu de St Romuald, dit comté, marchand-épicier, témoin au présent acte, aussi soussigné ; Fut présente : Dame Joséphine Robitaille, épouse de sieur Thomas Deschênes, journalier, ce dernier à ce aussi présent & autorisant sa dite épouse à l'effet des présentes, & demeurant tous deux au dit lieu de St Romuald ; Laquelle, sous l'autorisation susdite, reconnaît & confesse avoir eu & reçu dès avant ces présentes, en bon argent courant, de la somme de vingt-cinq piastres courant, — [001378-79] à son entière satisfaction, de sieur Michel Robitaille, son frère, de la paroisse de l'Ancienne-Lorette, dans le district de Québec, cultivateur ; laquelle dite somme était due à la comparante par le dit sieur Michel Robitaille, qui s'y était obligé en vertu d'un acte de donation (renvoi : entrevifs) consentie à ce dernier par feus Jean Robitaille & Josephte Girard [?], ses père & mère, le trente de mars mil huit cent cinquante-deux, reçu par Mtre Joseph Laurin, notaire. Dont & du tout la dite Dame Joséphine Robitaille, autorisée comme susdit, donne & accorde au dit sieur Michel Robitaille quittance générale & finale. Dont acte requis & octroyé à St Romuald susdit, demeure de la comparante & de son dit époux, les jour, mois & an susdits, sous le numéro quatre-vingt-cinq des originaux du notaire soussigné. Requis de signer, la dite Dame Deschênes & le — [001379-80] dit témoin l'ont fait avec moi, notaire, le dit sieur Deschênes ayant déclaré ne le savoir, de ce aussi requis, lecture faite. Trente-huit mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » Signatures : « Joséphine Robitaille », « Marcel Gingras », « E. H. Tremblay N.P. »",
+      "transcription": "[001377-78] « N° 85 — 8 avril 1874. L'an mil huit cent soixante-quatorze, le huitième jour d'avril, avant midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de sieur Marcel Gingras, du dit lieu de St Romuald, dit comté, marchand-épicier, témoin au présent acte, aussi soussigné ; Fut présente : Dame Joséphine Robitaille, épouse de sieur Thomas Deschênes, journalier, ce dernier à ce aussi présent & autorisant sa dite épouse à l'effet des présentes, & demeurant tous deux au dit lieu de St Romuald ; Laquelle, sous l'autorisation susdite, reconnaît & confesse avoir eu & reçu dès avant ces présentes, en bon argent courant, de la somme de vingt-cinq piastres courant, — [001378-79] à son entière satisfaction, de sieur Michel Robitaille, son frère, de la paroisse de l'Ancienne-Lorette, dans le district de Québec, cultivateur ; laquelle dite somme était due à la comparante par le dit sieur Michel Robitaille, qui s'y était obligé en vertu d'un acte de donation (renvoi : entrevifs) consentie à ce dernier par feus Jean Robitaille & Josephte Girard, ses père & mère, le trente de mars mil huit cent cinquante-deux, reçu par Mtre Joseph Laurin, notaire. Dont & du tout la dite Dame Joséphine Robitaille, autorisée comme susdit, donne & accorde au dit sieur Michel Robitaille quittance générale & finale. Dont acte requis & octroyé à St Romuald susdit, demeure de la comparante & de son dit époux, les jour, mois & an susdits, sous le numéro quatre-vingt-cinq des originaux du notaire soussigné. Requis de signer, la dite Dame Deschênes & le — [001379-80] dit témoin l'ont fait avec moi, notaire, le dit sieur Deschênes ayant déclaré ne le savoir, de ce aussi requis, lecture faite. Trente-huit mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » Signatures : « Joséphine Robitaille », « Marcel Gingras », « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "comparante",
@@ -9552,8 +9559,8 @@
         },
         {
           "role": "mere",
-          "nom": "Josephte Girard [?]",
-          "note": "Décédée ; patronyme de lecture incertaine."
+          "nom": "Josephte Girard",
+          "note": "Décédée ; épouse de Jean Robitaille. Patronyme confirmé par l'étiquette volante jointe à l'acte."
         },
         {
           "role": "temoin",
@@ -9588,7 +9595,7 @@
           "personnes": [
             "1881-D1-P026-L04"
           ],
-          "enonce": "« Joséphine Deschênes », 49 ans, épouse de Thomas Deschênes en 1881, est née Joséphine Robitaille, fille de Jean Robitaille et de Josephte Girard [?], de l'Ancienne-Lorette."
+          "enonce": "« Joséphine Deschênes », 49 ans, épouse de Thomas Deschênes en 1881, est née Joséphine Robitaille, fille de Jean Robitaille et de Josephte Girard, de l'Ancienne-Lorette."
         },
         {
           "type": "fratrie",
@@ -9600,7 +9607,156 @@
           "enonce": "Joséphine Robitaille est la sœur de Michel Robitaille, cultivateur de l'Ancienne-Lorette."
         }
       ],
-      "note": "Une part d'héritage payée vingt-deux ans après la donation des parents (1852) : 25 piastres. L'épouse signe, le mari non.",
+      "note": "Une part d'héritage payée vingt-deux ans après la donation des parents (1852) : 25 piastres. L'épouse signe, le mari non. Deux étiquettes volantes, filmées après l'acte, portent « J. R. — Joséphine Robitaille » et « Donation entre vifs par Jean Robitaille & Josephte Girard, son épouse, à Michel Robitaille, leur fils, devant Mtre Jos. Laurin, N.P., le 30 mars 1852 » : le nom de la mère, Girard, est confirmé.",
+      "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-04-12-quittance-cantin-pichette",
+      "type": "notarie",
+      "titre": "Quittance d'Isaac Cantin père à Alexis Pichette pour sa part de la créance de feu Étienne Cantin, son fils, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-04-12",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 86, images 001383 à 001387 (Drive : fichiers 04T_CN401S124P_00439 à 00442) ; acte complet. Les fichiers 00436 à 00438 (images 001380 à 001383), intercalés avant, portent : un brouillon biffé de règlement du conseil municipal de Saint-Romuald du 26 mars 1874 sur la vente des liqueurs (« 1° Que quatre licences d'auberges seront accordées… ») et deux petites étiquettes de l'acte n° 85.",
+      "nature": "Quittance générale et finale avec garantie, passée le 12 avril 1874 (un dimanche), après-midi, à Saint-Jean-Chrysostome, en la demeure d'Isaac Cantin fils, devant un témoin ; ni le père ni le fils ne savent signer (deux croix). En marge : « Quittance I. Cantin père @ Alex. Pichette — original — Exp. 1 fois », et le décompte de la succession : part Nadeau 12,50 + intérêts 8,55½ = 21,05½ ; part du père Cantin 25,00 + intérêts 5,44 = 30,44 ; capital 100 + intérêts 24 = 124 ; « balance revenant à Isaac Cantin, fils, & à ses deux frères Pierre & Laurent Cantin » 72,50½. Renvois paraphés « D. L. » et du notaire.",
+      "transcription": "[001383-84] « N° 86 — 12 avril 1874. L'an mil huit cent soixante-quatorze, le douzième jour d'avril, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant à St Romuald, soussigné ; Et en présence de sieur Damase Lambert, cultivateur, de St Jean Chrysostome, témoin au présent acte, aussi soussigné ; Fut présent : Mr Isaac Cantin, père, ancien agriculteur, de St Jean Chrysostome susdit ; Lequel dit & déclare ce qui suit, savoir : Attendu que sieur Alexis Pichette, ancien cultivateur, du dit lieu de St Jean Chrysostome, est le débiteur, en vertu d'une certaine obligation en date du quinze septembre mil huit cent soixante[…], par Mtre E. Simard & son confrère, notaires, lequel acte [a été] enregistré au bureau d'enregistrement du comté de Dorchester, division numéro deux, le vingt-deux du même mois, même année, consentie — [001384-85] en faveur de Étienne Cantin, de St Jean Chrysostome, cultivateur ; Attendu que (3) [renvoi : le vingt-deux de juin] mil huit cent soixante-trois [« quatre » biffé], le dit Étienne Cantin est décédé ab intestat ; Attendu que feue Dame Josephte Couture, épouse du dit sieur Isaac Cantin, père, a retiré jusqu'à la date du quinze septembre mil huit cent soixante-dix les intérêts au taux de six pour cent l'an sur la somme de cent piastres courant, montant de l'obligation sus-datée ; (2) [renvoi : Attendu que la dite Dame Josephte Couture, suivant son testament en date du trente septembre de l'année mil huit cent cinquante-trois, a légué tous les biens meubles & immeubles qu'elle délaisserait au jour de son décès, suivant acte reçu par Mtre Ant. [Ambroise] Trudelle & témoins, lequel testament a été confirmé par la dite testatrice en vertu d'un codicille ci-après daté ;] Attendu que la dite feue Dame Josephte Couture a, en date du vingt-deux de mars dernier, légué, suivant son codicille passé devant le notaire soussigné, en sa qualité de commune en biens avec le dit Isaac Cantin, senior, toute la part de droits & prétentions qu'elle pourrait avoir dans l'hérédité & succession du dit feu Étienne Cantin, le montant à la somme de vingt-cinq piastres courant & les intérêts échus ; Attendu que la part revenant dans la dite succession au dit Isaac Cantin, père, se monte également à la somme de vingt-cinq piastres courant, plus les intérêts échus depuis le quinze septembre mil huit cent (1) [renvoi : soixante-dix jusqu'à la date de ce jour & s'élevant à la somme de cinq piastres quarante-quatre centins] ; — [001385-86] Attendu que ce jour même le dit sieur Isaac Cantin, père, a reçu ès mains du notaire soussigné & à vue & présence du dit témoin la dite somme de vingt-cinq piastres, plus celle de cinq piastres & quarante-quatre centins courant, étant la part à lui revenant en capital & intérêts dans la dite succession ; [un paragraphe biffé] C'est pourquoi, en considération de ce que dessus, le dit Isaac Cantin, père, donne & accorde au dit sieur Alexis Pichette, ses hoirs & ayants cause, quittance générale & finale. À ce fut aussi présent sieur Isaac Cantin, fils, demeurant au dit lieu de St Jean Chrysostome, agriculteur ; lequel, après avoir pris — [001386-87] communication & lecture de ce qui précède, déclare & dit l'avoir pour agréable, & promet & s'oblige garantir par ces présentes le dit sieur Pichette qu'il ne sera nullement troublé en considération de ce que lui dit sieur Pichette a, en date de ce jour, payé au dit sieur Cantin, père, la dite somme de vingt-cinq piastres & intérêts comme susdit. Dont acte sous le numéro quatre-vingt-six des originaux du notaire soussigné. Fait & passé à St Jean Chrysostome susdit, demeure de sieur Isaac Cantin, fils, les jour, mois & an susdits. Requis de signer, les dits sieurs Isaac Cantin, père, & Isaac Cantin, fils, ont déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. [ ] mots rayés sont nuls. [ ] renvois en marge sont bons & approuvés. » Marques : « × × » ; signatures : « Damase Lambert », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Isaac Cantin, père",
+          "note": "« Ancien agriculteur », de Saint-Jean-Chrysostome ; veuf depuis peu de Josephte Couture ; père de feu Étienne, d'Isaac fils, de Pierre, de Laurent et de Marie Cantin (épouse de Godfroy Nadeau) ; ne sait pas signer. Non rattaché."
+        },
+        {
+          "role": "fils",
+          "nom": "Isaac Cantin, fils",
+          "note": "Agriculteur de Saint-Jean-Chrysostome ; l'acte est passé en sa demeure ; garantit Pichette ; ne sait pas signer. Légataire de sa mère (codicille n° 75). Non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Alexis Pichette, senior",
+          "note": "« Ancien cultivateur » de Saint-Jean-Chrysostome ; débiteur d'une obligation de 100 piastres envers feu Étienne Cantin (Me E. Simard). Le testateur des n° 43 et 45 (concession Saint-Romain). Non rattaché (le maçon Alexis Pichette de 1871 est sans doute son fils)."
+        },
+        {
+          "role": "defunt",
+          "nom": "Étienne Cantin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, fils d'Isaac Cantin père et de Josephte Couture ; mort ab intestat le 22 juin 1863 ; créancier d'Alexis Pichette pour 100 piastres."
+        },
+        {
+          "role": "defunte",
+          "nom": "Josephte Couture",
+          "note": "« Feue Dame Josephte Couture, épouse du dit sieur Isaac Cantin, père » : morte entre le codicille du 22 mars 1874 (n° 75) et le 12 avril 1874. Son testament est daté ici du 30 septembre 1853, alors que le codicille le datait du 9 décembre 1855 (Me Ambroise Trudelle dans les deux cas)."
+        },
+        {
+          "role": "frere",
+          "nom": "Pierre Cantin",
+          "note": "Frère d'Étienne, cohéritier (décompte en marge)."
+        },
+        {
+          "role": "frere",
+          "nom": "Laurent Cantin",
+          "note": "Frère d'Étienne, cohéritier (décompte en marge) ; sans doute le Laurent Cantin, journalier du township de Somerville (Ontario), de l'acte n° 21."
+        },
+        {
+          "role": "soeur",
+          "nom": "Marie Cantin",
+          "note": "Épouse de Godfroy Nadeau ; cohéritière d'Étienne (voir n° 87)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Étienne Simard",
+          "ref_personne": "1871-D1-P021-L03",
+          "note": "A reçu l'obligation Pichette–Cantin."
+        },
+        {
+          "role": "temoin",
+          "nom": "Damase Lambert",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe. Témoin aussi des actes n° 21 et 75. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1863-06-22",
+          "personnes": [],
+          "enonce": "Étienne Cantin, cultivateur de Saint-Jean-Chrysostome, fils d'Isaac Cantin père et de Josephte Couture, est mort sans testament le 22 juin 1863."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1874-04-12",
+          "personnes": [],
+          "enonce": "Josephte Couture, épouse d'Isaac Cantin père, est morte entre le 22 mars 1874 (son codicille, n° 75) et le 12 avril 1874, où l'acte la dit « feue »."
+        },
+        {
+          "type": "fratrie",
+          "certitude": "etabli",
+          "date": "1874-04-12",
+          "personnes": [],
+          "enonce": "Étienne, Isaac fils, Pierre et Laurent Cantin, et Marie Cantin (épouse de Godfroy Nadeau), sont frères et sœur, enfants d'Isaac Cantin père."
+        }
+      ],
+      "note": "Règlement, onze ans après sa mort, de la succession d'Étienne Cantin : Alexis Pichette doit encore 100 piastres prêtées par Étienne. Le père touche sa part (25 piastres et 5,44 d'intérêts) ; celle de la mère, morte dans l'intervalle, a été léguée à Isaac fils par le codicille du 22 mars (n° 75) ; Marie Cantin, épouse Nadeau, reçoit la sienne par l'acte suivant (n° 87) ; le reste revient à Isaac fils et à ses frères Pierre et Laurent. La date de l'obligation est mal lisible (« soixante[…] ») ; elle est forcément antérieure au décès d'Étienne (juin 1863).",
+      "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-04-12-reconnaissance-cantin-pichette",
+      "type": "notarie",
+      "titre": "Reconnaissance d'Isaac Cantin en faveur d'Alexis Pichette : 19,46 piastres pour la part de Marie Cantin, épouse de Godfroy Nadeau, dans la succession d'Étienne Cantin, 1874",
+      "date": "1874-04-12",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 87, images 001387 à 001389 (Drive : fichiers 04T_CN401S124P_00443 et 00444) ; acte complet",
+      "nature": "Reconnaissance, passée le 12 avril 1874, après-midi, à Saint-Jean-Chrysostome, en la demeure d'Isaac Cantin, devant un témoin ; le comparant ne sait pas signer. En marge : « Reconnaissance Isaac Cantin [en] faveur de A. Pichette — original ».",
+      "transcription": "[001387-88] « N° 87 — 12 avril 1874. L'an mil huit cent soixante-quatorze, le douzième jour d'avril, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Sr Damase Lambert, cultivateur, de la paroisse de St Jean Chrysostome, dit comté, témoin au présent acte, aussi soussigné ; Fut présent : Mr Isaac Cantin, agriculteur, demeurant à St Jean Chrysostome susdit ; Lequel reconnaît que sieur Alexis Pichette, du même lieu, ancien cultivateur, lui a délivré, à vue & présence de nous dit notaire, la somme de dix-neuf piastres & quarante-six centins courant, pour être payée à Dame Marie Cantin, épouse de Godfroy Nadeau, en à compte sur la somme de vingt piastres & cinq centins, étant la part qui — [001388-89] revient à cette dernière dans l'hérédité & succession de feu Étienne Cantin, décédé ab intestat le vingt-deux de juin mil huit cent soixante-trois. Dont & du tout la dite Dame Marie Cantin, autorisée de son époux, [&] le dit Godfroy Nadeau devra donner quittance au dit sieur Pichette, à l'acquit & décharge du dit sieur Cantin. Dont acte sous le numéro quatre-vingt-sept des originaux du notaire soussigné. Fait & passé à St Jean Chrysostome susdit, demeure du dit Sr Cantin, les jour, mois & an susdits. Et le comparant, requis de signer, a déclaré ne le savoir, en présence du dit témoin, qui a signé avec moi, notaire, lecture faite. [ ] mots rayés sont nuls. » Signatures : « Damase Lambert », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "comparant",
+          "nom": "Isaac Cantin",
+          "note": "« Agriculteur, demeurant à St Jean Chrysostome » ; l'acte est passé en sa demeure — sans doute Isaac Cantin fils (n° 86, même jour, même témoin) ; ne sait pas signer. Non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Alexis Pichette, senior",
+          "note": "« Ancien cultivateur » de Saint-Jean-Chrysostome ; débiteur d'une obligation de 100 piastres envers feu Étienne Cantin (Me E. Simard). Le testateur des n° 43 et 45 (concession Saint-Romain). Non rattaché (le maçon Alexis Pichette de 1871 est sans doute son fils)."
+        },
+        {
+          "role": "autre",
+          "nom": "Marie Cantin",
+          "note": "Épouse de Godfroy Nadeau ; sa part dans la succession de son frère Étienne est de 20,05 piastres, dont 19,46 lui sont remises. Non rattachée."
+        },
+        {
+          "role": "epoux",
+          "nom": "Godfroy Nadeau",
+          "note": "Époux de Marie Cantin ; doit donner quittance à Pichette. Non rattaché."
+        },
+        {
+          "role": "defunt",
+          "nom": "Étienne Cantin",
+          "note": "Mort ab intestat le 22 juin 1863."
+        },
+        {
+          "role": "temoin",
+          "nom": "Damase Lambert",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe. Témoin aussi des actes n° 21 et 75. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1874-04-12",
+          "personnes": [],
+          "enonce": "Marie Cantin, sœur d'Étienne Cantin, est l'épouse de Godfroy Nadeau."
+        }
+      ],
+      "note": "Complément de la quittance n° 86 passée le même jour : la part de la sœur mariée transite par son frère Isaac.",
       "ajoute_le": "2026-11-02"
     }
   ]
