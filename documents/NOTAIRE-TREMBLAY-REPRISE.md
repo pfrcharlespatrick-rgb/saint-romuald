@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (60 fiches à ce jour).
+fiche dont l'identifiant commence par `notarie-` (64 fiches à ce jour).
 
 ## Où sont les images
 
@@ -37,11 +37,21 @@ droite (« 001110 | 001111 ») : on cite toujours la paire.
 
 ## Où reprendre
 
-**Au fichier 00282**, c'est-à-dire au microfilm 001226-27 : la fin de
-**l'échange n° 51** entre Ignace Dubois père et Benjamin Demers (6 mars 1874 ;
-fiche `notarie-1874-03-06-echange-dubois-demers`) — signatures. La terre de
-Taniata est échangée contre un emplacement des rues Saint-Paul et
-Saint-Louis, où se trouve la bâtisse de la pompe à feu municipale.
+**La série du Drive est épuisée jusqu'à 00300.** Le dernier acte lu est le
+**testament n° 55** de Catherine Toussaint (8 mars 1874, fichiers 00297 à
+00299 ; le fichier 00300 refilme une page du même acte).
+
+**Les fichiers 00301 à 00550 ne sont pas au Drive** (recherche du
+1er novembre 2026 : aucun fichier `04T_CN401S124P_003…`, `004…` ni
+`005…` avant 00551). Ils couvrent les **actes n° 56 à 112** (environ
+microfilm 001245 à 001494, de mars à mai 1874). Les actes n° 113 à 122
+(fichiers 00551 à 00601) sont déjà versés. Pour reprendre, il faut que
+Patrick ajoute ces images au Drive (sous-dossiers 301-350 à 501-550), ou
+reprendre après 00601.
+
+L'image 001235-36 (fichier 00291) est un **croquis de l'emplacement des rues
+Saint-Paul et Saint-Louis**, avec le « terrain de la pompe » : à garder pour
+situer ces rues.
 
 **Le fichier 00247 n'existe pas au Drive** : l'image 001191-92, qui porte le
 nom complet de l'acheteur et le début de la désignation de la terre, manque.
@@ -59,7 +69,7 @@ Lemieux), et l'achat de l'emplacement de la maison de pierre à
 L'inventaire décrit la maison de pierre : il est rattaché directement au lieu
 `1900-cf` (champ `documents` de `data/lieux-data.js`), comme l'acte n° 119.
 
-Fait le 31 octobre 2026 (fichiers 00181 à 00281) :
+Fait le 31 octobre 2026 (fichiers 00181 à 00300) :
 
 - la **sommation n° 40** est complète (fin sur 00181 à 00183) ;
 - le **bail n° 41** (Ferdinand Villeneuve à Napoléon Vallerand, 25 février
@@ -72,7 +82,7 @@ Les fichiers 00191 à 00201 (microfilm 001135 à 001145) étaient déjà
 transcrits ; les fichiers 00202 et suivants (chambres n° 7 à 9, le « magasin »
 et son stock de boissons, la montre en or, la garde-robe d'Ursule Tardif,
 l'ajournement signé de tous, la vacation du 5 mars) ont été lus ensuite,
-jusqu'au fichier 00281. Après l'inventaire viennent les actes n° 43 et suivants.
+jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivants.
 
 ## Les pages qui manquent encore
 
