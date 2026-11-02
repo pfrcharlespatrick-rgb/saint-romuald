@@ -8107,6 +8107,172 @@
       ],
       "note": "Complète la donation n° 24 du 10 janvier 1874 : la donataire l'accepte, comme l'exigeait l'acte, et le père la ratifie. L'acte dit enfin la parenté que la donation taisait : Adèle est la fille du donateur. Charges rappelées : soigner le donateur et son épouse, et leur verser 40 piastres de rente viagère par an, en deux termes d'avance, du jour où le père voudra vivre ailleurs que chez sa fille. Enregistrement de la donation : Lévis, registre B, vol. 21, p. 404, n° 16 546.",
       "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-03-16-vente-maison-lambert-samson",
+      "type": "notarie",
+      "titre": "Vente d'une maison de bois à déplacer, de Pierre Lambert (Petit-Saint-Jean) à Germain Samson (concession Saint-Augustin), Saint-Jean-Chrysostome, 1874",
+      "date": "1874-03-16",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 61, images 001273 à 001277 (Drive : fichiers 04T_CN401S124P_00329 à 00332) ; acte complet",
+      "nature": "Vente d'une maison seule, sans le terrain, à charge de l'enlever ; passée le 16 mars 1874, après-midi, à Saint-Jean-Chrysostome, en la demeure de Michel Roberge, devant un témoin ; les parties ne savent pas signer. En marge : « Vente Lambert à Samson — original — Payé [?] ». Treize mots rayés ; deux renvois en marge paraphés par le témoin et le notaire.",
+      "transcription": "[001273-74] « N° 61 — 16 mars 1874. L'an mil huit cent soixante-quatorze, le seizième jour de mars, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Bazile Vermette, de la paroisse de St Jean Chrysostome, employé du Grand Tronc, témoin au présent acte, aussi soussigné ; Fut présent : Mr Pierre Lambert, du dit lieu de St Jean Chrysostome, concession Petit St Jean, cultivateur ; Lequel vend avec garantie de tous troubles, dons, dettes, douaires, hypothèques & autres troubles généralement quelconques, à sieur Germain Samson, du dit lieu de St Jean Chrysostome, concession St Augustin, journalier, à ce présent & acceptant (1) [renvoi en marge : acquéreur] pour lui, ses hoirs & ayants cause à l'avenir, savoir : — [001274-75] Une maison en bois à un étage de vingt-huit pieds de longueur sur quinze pieds ou environ de largeur, telle qu'elle se trouve actuellement & construite sur l'emplacement du dit vendeur. Cette vente est faite à la charge par l'acquéreur, qui s'y oblige pour lui, ses hoirs & ayants cause : 1° D'enlever la dite maison de dessus le dit emplacement d'ici au mois de juillet, à ses frais & dépens ; 2° Pour & en considération du prix ou somme de quarante piastres courant, payable comme suit, savoir : vingt piastres au premier jour de novembre mil huit cent soixante-quinze, & la balance, ou vingt piastres courant, au premier jour de novembre mil huit cent soixante-seize, sans intérêt ; 3° À la condition expresse que le dit acquéreur donne, aussitôt qu'il sera concessionnaire d'un emplacement, en quelques endroits qu'il puisse le trouver, une — [001275-76] hypothèque spéciale sur son emplacement (2) [renvoi en marge : & la dite maison], comme dit est, pour la sûreté du paiement de la dite somme de quarante piastres ; à défaut de quoi le dit vendeur aura le droit de reprendre la dite maison ou la vendre, en par le nouvel acquéreur l'enlevant d'où elle sera reconstruite, à ses frais. Et pour l'exécution des présentes, les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Jean Chrysostome susdit, demeure de Mr Michel Roberge, les jour, mois & an susdits, sous le numéro soixante-un des originaux du notaire soussigné. Requis de signer, les dites parties ont déclaré ne le savoir, en présence — [001276-77] du dit témoin, qui a signé avec moi, notaire, lecture faite. Treize mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » Signatures : « Basile Vermette », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Pierre Lambert",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, concession du Petit-Saint-Jean ; ne sait pas signer. Aucun Pierre Lambert adulte aux recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Germain Samson",
+          "note": "Journalier de Saint-Jean-Chrysostome, concession Saint-Augustin ; ne sait pas signer ; n'a pas encore d'emplacement où rebâtir la maison. Absent des recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Bazile Vermette",
+          "note": "« De la paroisse de St Jean Chrysostome, employé du Grand Tronc » ; signe « Basile Vermette ». Sans doute le Bazile Vermette fils, journalier, des minutes n° 13 à 20 : il travaille ici pour le chemin de fer. Non rattaché."
+        },
+        {
+          "role": "hote",
+          "nom": "Michel Roberge",
+          "note": "L'acte est passé en sa demeure, à Saint-Jean-Chrysostome. Le menuisier-entrepreneur des ventes n° 32 et 33 et de la procuration n° 49. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-03-16",
+          "personnes": [],
+          "enonce": "Bazile Vermette, de Saint-Jean-Chrysostome, est employé du Grand Tronc en mars 1874."
+        }
+      ],
+      "note": "On vend la maison sans le sol : l'acheteur doit la démonter et l'emporter avant juillet, puis la remonter sur un emplacement qu'il n'a pas encore, et l'hypothéquer dès qu'il l'aura. Le prix — 40 piastres en deux termes de 1875 et 1876, sans intérêt — dit la modestie d'une maison de 28 pieds sur 15. Toutes les personnes sont de Saint-Jean-Chrysostome (Petit-Saint-Jean, Saint-Augustin) et aucune n'est retrouvée aux recensements de Saint-Romuald.",
+      "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-03-16-quittance-plante-couture",
+      "type": "notarie",
+      "titre": "Quittance de Geneviève Plante, épouse de Théophile Couture, à son frère Jean Plante, pour la dot promise par leur père Ambroise Plante, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-03-16",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 62, images 001277 à 001281 (Drive : fichiers 04T_CN401S124P_00333 à 00336) ; acte complet",
+      "nature": "Quittance générale et finale avec mainlevée d'hypothèque, passée le 16 mars 1874, après-midi, à Saint-Jean-Chrysostome, en la demeure de Théophile Couture ; les deux époux signent. En marge : « Quittance Dme Gen. Plante, épouse de Sr Théo. Couture, à Sr Jean Plante — original — Exp. 1 fois — enregistrer — Exp. 2 fois » ; en pied, les frais (1,30 + 1,00 = 2,30 piastres). Trente mots rayés ; trois renvois paraphés « G. P. », « T. C. » et du notaire.",
+      "transcription": "[001277-78] « N° 62 — 16 mars 1874. L'an mil huit cent soixante-quatorze, le seizième jour de mars, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présente : Dame Geneviève Plante, épouse de sieur Théophile Couture, cultivateur, demeurant tous deux en la paroisse de St Jean Chrysostome, comté susdit ; le dit sieur Couture, à ce aussi présent, autorisant sa dite épouse à l'effet des présentes. Laquelle, sous l'autorisation susdite, dit & déclare ce qui suit, savoir : Attendu que sieur Ambroise Plante, père de la dite comparante & beau-père du dit sieur Couture, a, dans le contrat de mariage fait entre le dit sieur Couture & la dite Dame Geneviève Plante, & en considération duquel mariage, constitué, à titre de dot, en faveur de la dite Dame Geneviève Plante, sa dite fille, une somme de cent piastres courant, une fois payée, — [001278-79] & en outre une vache, une moutonne, un lit garni d'une manière convenable à l'état du dit sieur Ambroise Plante, une commode & un rouet ; lequel contrat de mariage, daté du neuf de juillet mil huit cent soixante-neuf, reçu par Mtre L. Laliberté, notaire, & témoin, a été enregistré au bureau du comté de Dorchester, division n° deux, Reg. B, vol. 17, page 684, sous le numéro 13,739 ; Attendu que subséquemment le dit sieur Ambroise Plante (3) [renvoi en marge : & Dame Geneviève Nadeau, son épouse, ont] fait, suivant acte en date du vingt-trois de juillet mil huit cent soixante-dix, donation entrevifs en faveur de sieur Jean Plante, leur fils, aux charges y mentionnées, & notamment de payer à la dite comparante la dite somme de cent piastres courant & de lui délivrer les animaux, meubles & effets mobiliers sus-désignés & détaillés ; — [001279-80] lequel acte de donation, reçu par Mtre Étienne Simard & témoin, & enregistré au bureau du comté de Dorchester, division n° deux, Reg. B, vol. 19, sous le numéro 14,818 ; Attendu que la dite Dame (2) [renvoi en marge : Geneviève Plante, épouse du dit sieur Théophile Couture] a, dès avant ces présentes, eu & reçu du dit sieur Jean Plante, donataire, la dite somme de cent piastres & les animaux & effets sus-détaillés, à son entière satisfaction ; C'est pourquoi elle, dite Dame Théophile Couture, autorisée comme susdit, donne & accorde au dit sieur Jean Plante, donataire, à l'acquit & décharge (4) [renvoi en marge : des dits sieur & dame Ambroise Plante], donateurs, quittance générale & finale, & veut & consent que l'hypothèque créée à cet égard soit éteinte & radiée par qui il appartiendra, de ce jour & à toujours, en vertu des présentes. Dont acte. Fait & passé en la dite paroisse de St — [001280-81] Jean Chrysostome, dit comté, demeure du dit sieur Théophile Couture, les jour, mois & an susdits, sous le numéro soixante-deux des originaux du notaire soussigné. Et la dite Dame Geneviève Plante & le dit sieur Théophile Couture ont, de ce requis, signé avec moi, notaire, lecture faite. Trente mots rayés sont nuls. Trois renvois en marge sont bons & approuvés. » Signatures : « Geneviève Plante », « Théophile Couture », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "comparante",
+          "nom": "Geneviève Plante",
+          "note": "Épouse de Théophile Couture, de Saint-Jean-Chrysostome, mariée par contrat du 9 juillet 1869 (Me L. Laliberté) ; fille d'Ambroise Plante et de Geneviève Nadeau ; signe. Absente des recensements de Saint-Romuald : non rattachée."
+        },
+        {
+          "role": "epoux",
+          "nom": "Théophile Couture",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; l'acte est passé en sa demeure ; signe. Absent des recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "pere",
+          "nom": "Ambroise Plante",
+          "note": "Père de la comparante et de Jean Plante ; a constitué la dot en 1869 et donné ses biens à son fils en 1870. Non rattaché."
+        },
+        {
+          "role": "mere",
+          "nom": "Geneviève Nadeau",
+          "note": "Épouse d'Ambroise Plante, codonatrice en 1870 (renvoi en marge). Non rattachée."
+        },
+        {
+          "role": "frere",
+          "nom": "Jean Plante",
+          "note": "Fils d'Ambroise Plante et de Geneviève Nadeau, donataire de leurs biens par acte du 23 juillet 1870 (Me Étienne Simard), à charge de payer la dot de sa sœur. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Étienne Simard",
+          "ref_personne": "1871-D1-P021-L03",
+          "note": "A reçu la donation du 23 juillet 1870. Notaire de 43 ans à Saint-Romuald en 1871 (maison 50)."
+        },
+        {
+          "role": "notaire",
+          "nom": "L. Laliberté",
+          "note": "A reçu le contrat de mariage Couture–Plante du 9 juillet 1869 (enregistré dans Dorchester)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "date": "1874-03-16",
+          "personnes": [],
+          "enonce": "Geneviève Plante et Jean Plante sont enfants d'Ambroise Plante et de Geneviève Nadeau.",
+          "note": "Famille de Saint-Jean-Chrysostome, absente des recensements de Saint-Romuald ; les actes sont enregistrés dans le comté de Dorchester."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1869-07-09",
+          "personnes": [],
+          "enonce": "Contrat de mariage de Théophile Couture et de Geneviève Plante le 9 juillet 1869 (Me L. Laliberté) ; dot de 100 piastres, une vache, une moutonne, un lit garni, une commode et un rouet."
+        }
+      ],
+      "note": "Une dot paysanne en détail : cent piastres, une vache, une moutonne, un lit garni « convenable à l'état » du père, une commode et un rouet. Le père s'était déchargé de cette dette sur son fils Jean en lui donnant ses biens (1870) ; la sœur, payée, éteint l'hypothèque. Les enregistrements sont faits à Dorchester (division 2), signe que la famille vivait dans la partie de Saint-Jean-Chrysostome rattachée à ce comté.",
+      "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-03-16-quittance-begin-couillard",
+      "type": "notarie",
+      "titre": "Quittance de Jean-Baptiste Bégin à Ferdinand Couillard de Beaumont, forgeron, pour le prix d'une vente de 1873, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-03-16",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 63, images 001281 à 001283 (Drive : fichiers 04T_CN401S124P_00337 et 00338) ; acte complet",
+      "nature": "Quittance générale et finale, passée le 16 mars 1874, après-midi, à Saint-Jean-Chrysostome, en la demeure du témoin Michel Roberge ; le comparant ne sait pas signer. La date de tête, « 15 mars », est corrigée en « seizième » par un renvoi. En marge : « Quittance J. Bte Bégin à F. Couillard de Beaumont — original — Exp. 1 fois ». Seize mots rayés ; un renvoi.",
+      "transcription": "[001281-82] « N° 63 — 16 mars 1874. L'an mil huit cent soixante-quatorze, le (1) [renvoi : seizième] jour de mars, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Michel Roberge, de la paroisse de St Jean Chrysostome, comté susdit, menuisier-entrepreneur, témoin au présent acte, aussi soussigné ; Fut présent : Sieur Jean Baptiste Bégin, cultivateur, demeurant au dit lieu de St Jean Chrysostome, dit comté ; Lequel reconnaît que sieur Ferdinand Couillard de Beaumont, forgeron, du même lieu, lui a payé dès avant ces présentes, en bon argent courant & à son entière satisfaction, la somme de cent soixante piastres courant, étant pour le parfait paiement du prix d'une vente consentie par le dit sieur Bégin en faveur du dit sieur Couillard de Beaumont par acte en date du onze février mil huit cent soixante-treize, reçu par Mtre E. Simard — [001282-83] & témoin. Lequel acte de vente est enregistré. Dont quittance générale & finale. Dont acte sous le numéro soixante-trois. Fait & passé à St Jean Chrysostome susdit, demeure du dit sieur Roberge, les jour, mois & an susdits. Et le comparant, requis de signer, a déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. Un renvoi en marge est bon & approuvé. Seize mots rayés sont nuls. » Signatures : « Michel Roberge », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Jean-Baptiste Bégin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait pas signer ; a vendu quelque chose (l'acte ne dit pas quoi) à Ferdinand Couillard de Beaumont le 11 février 1873 (Me E. Simard). Aucun Jean-Baptiste Bégin aux recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Ferdinand Couillard de Beaumont",
+          "note": "Forgeron de Saint-Jean-Chrysostome ; a payé les 160 piastres du prix. Aucun Couillard de Beaumont aux recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Michel Roberge",
+          "note": "« De la paroisse de St Jean Chrysostome, menuisier-entrepreneur » ; l'acte est passé en sa demeure, comme le n° 61 du même jour ; signe. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Étienne Simard",
+          "ref_personne": "1871-D1-P021-L03",
+          "note": "« Mtre E. Simard » a reçu la vente du 11 février 1873."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-03-16",
+          "personnes": [],
+          "enonce": "Ferdinand Couillard de Beaumont est forgeron à Saint-Jean-Chrysostome en mars 1874."
+        }
+      ],
+      "note": "Troisième acte du 16 mars 1874 à Saint-Jean-Chrysostome (n° 61 à 63) : le notaire passe la journée dans la paroisse voisine, chez le menuisier Michel Roberge et chez Théophile Couture. La vente de 1873 n'est pas décrite ; il faudrait la chercher dans le greffe Simard (11 février 1873).",
+      "ajoute_le": "2026-11-02"
     }
   ]
 }
