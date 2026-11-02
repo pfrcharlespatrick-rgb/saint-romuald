@@ -7868,7 +7868,7 @@
           "role": "temoin",
           "nom": "John Ritchie",
           "ref_personne": "1871-D1-P073-L19",
-          "note": "« Écuier, de la paroisse de St Romuald, marchand de bois » ; l'acte est passé à son bureau de New-Liverpool ; signe. Le seul John Ritchie adulte recensé : « bourgeois » de 35 ans en 1871, division 1, maison 207, avec William et Mary Ritchie. Rattachement probable. Ne pas le confondre avec le fondeur John Ritchie de 1829 (dictionnaire de Julie Doyon), d'une génération antérieure."
+          "note": "« Écuier, de la paroisse de St Romuald, marchand de bois » ; l'acte est passé à son bureau de New-Liverpool ; signe. Le seul John Ritchie adulte recensé : « bourgeois » de 35 ans en 1871, division 1, maison 207, avec William et Mary Ritchie. Rattachement probable. Ne pas le confondre avec le fondeur John Ritchie de 1829 (dictionnaire de Julie Doyon), d'une génération antérieure. Sans doute Duncan John Long Ritchie, associé de « Ritchie & Cull », qui signe « John Ritchie » au marché n° 71."
         },
         {
           "role": "voisin",
@@ -7944,7 +7944,7 @@
         {
           "role": "acquereur",
           "nom": "Thomas Cull",
-          "note": "« Écuier, de la ville des Trois-Rivières, province de Québec, marchand de bois » ; signe « Thomas Cull ». Hors de la paroisse : non rattaché."
+          "note": "« Écuier, de la ville des Trois-Rivières, province de Québec, marchand de bois » ; signe « Thomas Cull ». Hors de la paroisse : non rattaché. Associé de Hugh John et Duncan John Long Ritchie dans la maison « Ritchie & Cull », commerçants de bois (marché n° 71 du 21 mars 1874)."
         },
         {
           "role": "voisin",
@@ -8627,6 +8627,152 @@
         }
       ],
       "note": "Un contrat de métayage complet, rare par le détail : cheptel apporté par chaque partie, outils inventoriés (crible, charrue, trois herses, chaîne à billots, broc et croc, banneau sans roues…), partage par moitié des grains, du foin, des profits et même de la dîme, chaux pour blanchir les bâtiments tous les deux ans, moulin à battre à construire l'hiver suivant. La « route des Belles-Amours » est nommée ici pour la première fois. Le bail peut être rompu chaque année par le bailleur. Rattacher Joseph Bourassa au dossier Bourassa (maison 1900-cf) serait prématuré : rien ne dit ici qu'il est le frère de François et d'Edouard.",
+      "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-03-19-quittance-simoneau-boutin",
+      "type": "notarie",
+      "titre": "Quittance d'Augustin Simoneau, maître boulanger, à Jean Simoneau et Thomas Boutin, de Saint-Isidore (Dorchester), pour une obligation de 1865, 1874",
+      "date": "1874-03-19",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 70, images 001315 à 001319 (Drive : fichiers 04T_CN401S124P_00371 à 00374) ; acte complet",
+      "nature": "Quittance générale et finale, passée le 19 mars 1874, avant midi, en l'étude du notaire, sans témoin (la mention d'un témoin est biffée) ; le comparant signe. En marge : « Quittance Augustin Simoneau à Thos Boutin — original — Exp. 1 fois ». Cent quatre mots rayés ; quatre renvois paraphés « A. S. » et du notaire.",
+      "transcription": "[001315-16] « N° 70 — 19 mars 1874. L'an mil huit cent soixante-quatorze, le dix-neuvième jour de mars, avant midi, en présence de Elzéar Hubert Tremblay, notaire public (1) [pour la province de Québec], résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Mr Augustin Simoneau, du dit lieu de St Romuald, maître boulanger ; Lequel dit & déclare ce qui suit, savoir : Attendu que sieur Jean Simoneau, de la paroisse de St Isidore, — [001316-17] comté de Dorchester, cultivateur, a emprunté [du dit sieur Augustin Simoneau] la somme de cent cinquante piastres courant, suivant acte d'obligation datée du vingt-huit décembre mil huit cent soixante-cinq, reçu par Mtre Simard & son confrère, notaires, & enregistré au bureau d'enregistrement du comté de Dorchester le deux de janvier mil huit cent soixante-six, Reg. B, vol. 6, page 36, sous le n° 3,838 ; — [001317-18] Attendu que subséquemment (1) [renvoi : vers le seize de décembre mil huit cent soixante-treize] le dit Jean Simoneau a vendu & cédé (2) [renvoi : suivant acte de vente reçu par Mtre R. Fortier] à sieur Thomas Boutin, de la dite paroisse de St Isidore, comté de Dorchester, cultivateur, la terre hypothéquée en faveur du dit Augustin Simoneau, à la charge par le dit sieur Boutin de payer & acquitter l'hypothèque susdite & autres conditions ; C'est pourquoi, en considération du paiement que lui a fait, à vue & présence de nous dit notaire, lors de l'exécution des présentes, le dit Thomas Boutin, à l'acquit & décharge du dit Jean Simoneau, de la dite somme de cent cinquante piastres (3) [renvoi : courant & des intérêts dus & échus jusqu'à ce jour], le dit Augustin Simoneau, s'en déclarant par ces présentes entièrement satisfait, donne & accorde aux dits Jean Simoneau — [001318-19] & Thomas Boutin quittance générale & finale. Dont acte, requis & octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro soixante-dix des originaux du notaire soussigné. Et le comparant a signé avec moi, notaire, lecture faite. Cent quatre mots rayés sont nuls. Quatre renvois en marge sont bons & approuvés. » Signatures : « Augustin Simoneau », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "creancier",
+          "nom": "Augustin Simoneau",
+          "ref_personne": "1871-D1-P022-L17",
+          "note": "« Du dit lieu de St Romuald, maître boulanger » ; signe. Boulanger de 40 ans en 1871 (division 1, maison 56), de 52 ans en 1881 (1881-D1-P080-L04) — le seul de ce nom ; le même qu'à l'inventaire Bourassa (n° 42) et au testament n° 47. Avait prêté 150 piastres en 1865."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Jean Simoneau",
+          "note": "Cultivateur de Saint-Isidore (Dorchester) ; emprunteur de 1865, a vendu sa terre à Thomas Boutin vers le 16 décembre 1873. Peut-être parent du créancier. Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Thomas Boutin",
+          "note": "Cultivateur de Saint-Isidore (Dorchester) ; acquéreur de la terre hypothéquée, il rembourse la dette. Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Étienne Simard",
+          "ref_personne": "1871-D1-P021-L03",
+          "note": "« Mtre Simard & son confrère » ont reçu l'obligation du 28 décembre 1865."
+        },
+        {
+          "role": "notaire",
+          "nom": "R. Fortier",
+          "note": "A reçu la vente Simoneau–Boutin vers le 16 décembre 1873."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-03-19",
+          "personnes": [
+            "1871-D1-P022-L17"
+          ],
+          "enonce": "Augustin Simoneau est maître boulanger à Saint-Romuald en 1874 et prête de l'argent sur hypothèque hors de la paroisse dès 1865."
+        }
+      ],
+      "note": "Petite quittance qui montre le boulanger de Saint-Romuald en prêteur : 150 piastres prêtées en 1865 à un cultivateur de Saint-Isidore, remboursées en 1874 par l'acheteur de la terre. Enregistrement de l'obligation : Dorchester, registre B, vol. 6, p. 36, n° 3838.",
+      "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-03-21-marche-gilbert-ritchie-cull",
+      "type": "notarie",
+      "titre": "Marché de billots entre Georges et Télesphore Gilbert, de Saint-Joseph-de-Beauce, et la maison « Ritchie & Cull » (Hugh John Ritchie, Thomas Cull et Duncan John Long Ritchie), 1874",
+      "date": "1874-03-21",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 71, images 001319 à 001331 (Drive : fichiers 04T_CN401S124P_00375 à 00386) ; acte complet",
+      "nature": "Marché (contrat de fourniture) de six ans avec avances et hypothèque, passé le 21 mars 1874, après-midi, en l'étude du notaire, devant un témoin ; Georges Gilbert ne sait pas signer. Le jour, d'abord laissé en blanc, est porté « vingt-unième » par renvoi. En marge : « Marché entre H. J. Ritchie, Ecr & alias, & G. & Tels. Gilbert — original — Exp. 1 fois — Enregistré le 7 avril 74 ». Cent huit mots rayés ; deux renvois paraphés « H. J. R. », « T. C. », « B. D. », « J. R. », « T. G. » et du notaire.",
+      "transcription": "[001319-20] « N° 71 — 21 mars 1874. L'an mil huit cent soixante-quatorze, le (1) [vingt-unième] jour de mars, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Benjamin Demers, du dit lieu de St Romuald, comté susdit, cultivateur ; Furent présents : Georges Gilbert, de la paroisse de St Joseph, comté de Beauce, cultivateur, & Télesphore Gilbert, du dit lieu de St Joseph de la Beauce, cultivateur, d'une part ; — [001320-21] Et MM. Hugh John Ritchie, de la paroisse de St Romuald susdit, & Thomas Cull, écuier, de la ville des Trois-Rivières, province de Québec, & Duncan John Long Ritchie, écuier, du dit lieu de St Romuald, tous trois commerçants de bois, faisant affaire sous les noms & raison de « Ritchie & Cull » ; Lesquelles parties sont convenues de ce qui suit, savoir : Les dits sieurs Georges & Télesphore Gilbert, père & fils, promettent & s'obligent solidairement, pour eux, leurs hoirs & ayants cause à l'avenir, savoir : 1° De couper ou faire couper un nombre égal à quinze cents billots, ou plus s'ils le peuvent, soit en pin, soit en — [001321-22] épinette rouge & blanche, le tout proportionnellement, par chaque année, pendant six années de suite, la présente y comprise ; lesquels billots devront avoir au moins douze pieds & demi de longueur sur un diamètre d'au moins douze pouces au plus petit bout des dits billots ; 2° De charroyer & placer près de la rivière tels billots en temps convenable pour être, par eux dits sieurs Gilbert, mis à flot dans la rivière Chaudière, aussitôt que la dite rivière Chaudière sera propice à cet effet, au printemps de chaque année, tel qu'ils en seront avisés par les dites (2) [parties de la seconde part, ou leurs employés, suivant avis spécial donné à cet effet par les dites parties de la seconde part]. De leur côté, les dits sieurs H. J. Ritchie & D. J. L. Ritchie & T. Cull promettent & s'obligent payer la somme de cinquante-cinq piastres courant pour chaque cent de billots ainsi coupés, charroyés, placés & mis à l'eau comme susdit, pendant — [001322-23] les dites six années. Il est expressément convenu entre les dites parties, & sans laquelle convention le présent marché n'aurait pas eu lieu, que, dans le cas où les dites parties de la seconde part voudraient continuer d'acheter des dites parties de la première part des billots, alors & dans ce cas les dits sieurs Gilbert promettent & s'obligent continuer de couper un nombre égal à quinze cents billots par chaque année subséquente, ou plus de quinze cents s'il est possible, aux prix alors courants de tels billots, eu égard aux lieux & autres circonstances des parties, lesquels billots devront avoir au moins douze pieds & demi de longueur sur un diamètre d'au moins — [001323-24] douze pouces, & ce tant & aussi longtemps qu'il y aura du bois convenable sur les dites terres pour fournir des billots des dimensions susdites. Convenu en outre que les dites parties de la première part, si elles en sont requises par les parties de la seconde part, promettent & s'obligent couper tels billots de plus de douze pieds & demi de longueur, en par les dites parties de la seconde part payant, à titre de compensation, un prix proportionné au prix de cinquante-cinq piastres ci-dessus stipulé pour chaque cent, sur le surplus de la dite longueur de douze pieds & demi, pendant les dites six années ci-dessus mentionnées, & une compensation proportionnée au prix alors courant pour chaque année subséquente pour le surplus de la dite — [001324-25] longueur de douze pieds & demi, après l'expiration des dites six années. Convenu que tous & chacun desquels dits billots devront être pris, ce qui est accepté de part & d'autre, sur les terres suivantes, savoir : 1° Une terre située en la dite paroisse de St Joseph, comté de Beauce, contenant cinq arpents & demi, plus ou moins, de front sur environ soixante arpents de profondeur, sans garantie de mesure précise ; bornée à l'ouest à la rivière Chaudière, à l'est au bout de la dite profondeur au trait carré qui sépare la dite terre de celle de Thomas Goulet, au nord à Télesphore Gilbert & au sud à Eugène Duval ; laquelle dite terre appartient au dit Georges Gilbert ; 2° Une terre située en la dite paroisse de St Joseph, comté de Beauce, contenant trois arpents ou environ — [001325-26] de largeur sur trente arpents de profondeur, au bout de laquelle profondeur se trouve un morceau de terre qui a six arpents de largeur sur environ dix arpents de profondeur ; bornée à l'ouest à la rivière Chaudière, à l'est aux héritiers Taschereau, au nord à Thomas Poirier & au sud à Georges Gilbert ; laquelle dite terre & lopin de terre appartiennent au dit Télesphore Gilbert. Sur & en à compte desquels billots, les dits Georges & Télesphore Gilbert reconnaissent avoir eu & reçu à leur entière satisfaction, savoir : la somme de cent quarante piastres courant dès avant l'exécution des présentes ; la somme de huit cent soixante piastres courant lors de l'exécution, à vue — [001326-27] & présence de nous dits notaire & témoin, en bon argent courant, dont quittance d'autant. Lesquelles dites sommes, formant un montant de mille piastres courant, étant payées sous forme d'avance aux dits sieurs Gilbert sur le prix des billots qu'ils devront livrer à chaque printemps, comme susdit. Étant convenu en outre entre les dites parties que les parties de la seconde part fourniront, sous forme d'avance aux dits sieurs Gilbert, une autre somme de mille piastres le premier jour de novembre prochain. Convenu en outre que tous paiements — [001327-28] à faire ne seront effectués par les parties de la seconde part qu'en autant que les dits billots seront faits, reçus & placés comme susdit & aux époques fixées par les dites parties de la seconde part. — [001328-29] Et pour assurer l'entière exécution des obligations ci-dessus contractées par les dits sieurs Georges & Télesphore Gilbert en faveur des dites parties de la seconde part, eux dits sieurs Georges & Télesphore Gilbert hypothèquent spécialement, solidairement entre eux, l'un d'eux seul pour le tout, leurs terres respectives sus-désignées, sur lesquelles les dites parties de la seconde part se réservent expressément tous les privilèges de bailleurs de fonds. — [001329-30] Et pour l'exécution des présentes, les parties élisent leurs domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro soixante-onze des originaux du notaire soussigné. Et les parties ont signé, à l'exception du dit — [001330-31] Georges Gilbert, qui a déclaré ne le savoir, de ce requis, en présence du dit témoin, qui a signé avec moi, dit notaire, lecture faite. Cent huit mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » Signatures : « Hugh John Ritchie », « Thomas Cull », « Benj. Demers », « John Ritchie », « Télesphore Gilbert », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "partie",
+          "nom": "Georges Gilbert",
+          "note": "Cultivateur de Saint-Joseph-de-Beauce, père de Télesphore ; propriétaire d'une terre de 5½ arpents sur 60, sur la rivière Chaudière ; ne sait pas signer. Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "partie",
+          "nom": "Télesphore Gilbert",
+          "note": "Cultivateur de Saint-Joseph-de-Beauce, fils de Georges ; propriétaire d'une terre de 3 arpents sur 30 (plus un lopin de 6 sur 10), sur la Chaudière ; signe « Télesphore Gilbert ». Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "partie",
+          "nom": "Hugh John Ritchie",
+          "ref_personne": "1871-D2-P057-L17",
+          "note": "« De la paroisse de St Romuald », commerçant de bois, associé de « Ritchie & Cull » ; signe « Hugh John Ritchie ». Rattachement probable à Hugh Ritchie, marchand de bois de 39 ans en 1871 (division 2, maison 132 [?]), de 49 ans en 1881 (1881-D2-P058-L13) — même nom, même métier."
+        },
+        {
+          "role": "partie",
+          "nom": "Thomas Cull",
+          "note": "« Écuier, de la ville des Trois-Rivières », commerçant de bois, associé de « Ritchie & Cull » ; signe. L'acquéreur de la maison Guay–Roberge au n° 58 (11 mars 1874). Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "partie",
+          "nom": "Duncan John Long Ritchie",
+          "note": "« Écuier, du dit lieu de St Romuald », commerçant de bois, associé de « Ritchie & Cull » ; signe « John Ritchie ». C'est vraisemblablement le « John Ritchie, écuier, marchand de bois » témoin du bail n° 57, au bureau duquel cet acte-là était passé, et le « bourgeois » de 35 ans recensé en 1871 (1871-D1-P073-L19) ; rattachement laissé à confirmer par la comparaison des signatures."
+        },
+        {
+          "role": "temoin",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Cultivateur de Saint-Romuald ; signe « Benj. Demers ». Témoin aussi du bail n° 69."
+        },
+        {
+          "role": "voisin",
+          "nom": "Thomas Goulet",
+          "note": "Borne la terre de Georges Gilbert à l'est (Saint-Joseph-de-Beauce)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Eugène Duval",
+          "note": "Borne la terre de Georges Gilbert au sud."
+        },
+        {
+          "role": "voisin",
+          "nom": "Thomas Poirier",
+          "note": "Borne la terre de Télesphore Gilbert au nord."
+        },
+        {
+          "role": "voisin",
+          "nom": "Héritiers Taschereau",
+          "note": "Bornent la terre de Télesphore Gilbert à l'est — sans doute la famille seigneuriale de Sainte-Marie-de-Beauce."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-03-21",
+          "personnes": [
+            "1871-D2-P057-L17"
+          ],
+          "enonce": "Hugh John Ritchie, de Saint-Romuald, Thomas Cull, de Trois-Rivières, et Duncan John Long Ritchie, de Saint-Romuald, font commerce de bois sous la raison sociale « Ritchie & Cull » en mars 1874."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P057-L17",
+            "1881-D2-P058-L13"
+          ],
+          "enonce": "Hugh John Ritchie, commerçant de bois de Saint-Romuald en 1874, est le Hugh Ritchie marchand de bois recensé en 1871 (39 ans) et en 1881 (49 ans)."
+        }
+      ],
+      "note": "Un contrat clé pour le commerce du bois de l'Etchemin : la maison « Ritchie & Cull » achète d'avance à deux cultivateurs beaucerons 1 500 billots par an pendant six ans (pin, épinette rouge et blanche, 12½ pieds et 12 pouces au fin bout), à 55 piastres le cent, mis à l'eau dans la Chaudière à la débâcle. Avance de 1 000 piastres comptant (dont 860 sous les yeux du notaire) et 1 000 autres promises au 1er novembre 1874. Explique la présence de Thomas Cull, de Trois-Rivières, à Saint-Romuald (vente n° 58). Enregistré le 7 avril 1874.",
       "ajoute_le": "2026-11-02"
     }
   ]
