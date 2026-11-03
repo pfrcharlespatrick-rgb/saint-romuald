@@ -10773,6 +10773,141 @@
       ],
       "note": "Dernier maillon d'une chaîne de trois baux sur la même maison le même après-midi (n° 104 à 106) : propriétaire Leclerc → locataire principal Foster → sous-locataire Gingras → occupant Sirois. Le boulanger renonce même à l'insaisissabilité légale de ses meubles.",
       "ajoute_le": "2026-11-03"
+    },
+    {
+      "id": "notarie-1874-05-03-testament-jacques-cantin",
+      "type": "notarie",
+      "titre": "Testament de Jacques Cantin, cultivateur du deuxième rang de Taniata, en faveur de son épouse Victoire Gosselin, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-05-03",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 107, images 001468 à 001472 (Drive : fichiers 04T_CN401S124P_00524 à 00527) ; acte complet",
+      "nature": "Testament authentique reçu le 3 mai 1874 (un dimanche), après-midi, à Saint-Jean-Chrysostome, en la demeure du testateur, devant deux témoins ; tous signent. En marge : « Testament de Jacq. Cantin — original — Expédié 1 fois ».",
+      "transcription": "[001468-69] « N° 107 — 3 mai 1874. L'an mil huit cent soixante-quatorze, le troisième jour de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Damase Audet dit Lapointe, menuisier, & ci-devant fermier, & de François Bédard, cultivateur, demeurant tous deux en la paroisse de St Jean Chrysostome, dit comté, témoins au présent testament, aussi soussignés ; Fut présent : Mr Jacques Cantin, du dit lieu de St Jean Chrysostome, concession Taniata, deuxième rang, dit comté, cultivateur, étant en bonne santé de corps, sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous dit notaire & aux dits témoins par son maintien & ses discours & par la manifestation claire — [001469-70] & précise de ses volontés ; Lequel, dans la vue de la mort, a fait & nommé son présent testament au dit notaire soussigné, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : Premièrement, je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par mon exécutrice testamentaire ci-après nommée, à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes & prières ; Deuxièmement, je donne & lègue à Dame Victoire Gosselin, mon épouse actuelle, tous les biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient & en quelques lieux qu'ils soient dus & situés, pour par ma dite épouse en jouir, faire & disposer en pleine & entière propriété à compter du dit jour de mon décès ; Troisièmement, je nomme la dite Dame Victoire Gosselin, — [001470-71] ma dite épouse, mon exécutrice testamentaire & l'institue ma légataire universelle en propriété ; Quatrièmement, enfin je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par le dit testateur, en la présence actuelle & constante des dits témoins, au dit notaire soussigné, & son présent testament lui ayant été lu, expliqué & relu par le dit notaire, les dits témoins toujours présents, il a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte, fait & passé à St Jean Chrysostome susdit, demeure du testateur, les jour, mois & an susdits, sous le numéro cent sept des originaux du notaire soussigné. Et le dit testateur & les dits témoins ont, de ce requis, — [001471-72] signé avec moi, notaire, lecture faite & refaite. [ ] mots rayés sont nuls. » Signatures : « Jacques Cantin », « Damase Audet dit Lapointe », « François Bédard », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Jacques Cantin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, deuxième rang de Taniata ; époux de Victoire Gosselin ; signe. À distinguer peut-être du Jacques Cantin, époux de Marie-Théotiste Dubois, des actes n° 51 et 81. Absent des recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "legataire",
+          "nom": "Victoire Gosselin",
+          "note": "« Mon épouse actuelle » ; légataire universelle et exécutrice. Fait son testament réciproque le même jour (n° 108). Non rattachée."
+        },
+        {
+          "role": "temoin",
+          "nom": "Damase Audet dit Lapointe",
+          "note": "« Menuisier, & ci-devant fermier », de Saint-Jean-Chrysostome ; signe. Le fermier sortant de Joseph Bourassa (n° 101, deux jours plus tôt). Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "François Bédard",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1874-05-03",
+          "personnes": [],
+          "enonce": "Jacques Cantin, cultivateur du deuxième rang de Taniata, est l'époux de Victoire Gosselin."
+        }
+      ],
+      "note": "Testament réciproque du n° 108, fait au chevet de l'épouse malade. Les témoins sont le menuisier Damase Audet dit Lapointe, qui vient de quitter la ferme de Joseph Bourassa (n° 101), et François Bédard.",
+      "ajoute_le": "2026-11-03"
+    },
+    {
+      "id": "notarie-1874-05-03-testament-victoire-gosselin",
+      "type": "notarie",
+      "titre": "Testament de Victoire Gosselin, épouse de Jacques Cantin, malade, en faveur de son mari (réciproque du n° 107), Saint-Jean-Chrysostome, 1874",
+      "date": "1874-05-03",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 108, images 001472 à 001476 (Drive : fichiers 04T_CN401S124P_00528 à 00531) ; acte complet",
+      "nature": "Testament authentique reçu le 3 mai 1874, après-midi, à Saint-Jean-Chrysostome, en la demeure de la testatrice, malade, devant deux témoins ; la testatrice se déclare « trop faible » pour signer. En marge : « Testament de Victoire Gosselin, épouse de Jacq. Cantin — original — Expédié 1 fois ». Dix mots rayés ; un renvoi paraphé « D. A. L. », « F. B. » et du notaire.",
+      "transcription": "[001472-73] « N° 108 — 3 mai 1874. L'an mil huit cent soixante-quatorze, le troisième jour de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Damase Audet dit Lapointe, menuisier, & ci-devant fermier, & de François Bédard, cultivateur, demeurant tous deux à St Jean Chrysostome, comté de Lévis susdit, témoins au présent testament, aussi soussignés ; Fut présente : Dame Victoire Gosselin, épouse de sieur Jacques Cantin, cultivateur, & demeurant avec ce dernier en la paroisse susdite de St Jean Chrysostome, (1) [renvoi : concession Taniata, deuxième rang,] étant malade de corps, mais parfaitement saine d'esprit, mémoire, jugement & entendement, ainsi qu'elle est apparue à nous dit notaire & aux dits témoins — [001473-74] par son maintien & ses discours & par la manifestation claire & précise de ses volontés ; Laquelle a, dans la vue de la mort, fait & nommé son présent testament au dit notaire soussigné, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : Premièrement, je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par mon exécuteur testamentaire ci-après nommé, à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, messes & prières ; Deuxièmement, je donne & lègue à sieur Jacques Cantin, cultivateur, mon époux actuel, tous les biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient & en quelques lieux & endroits qu'ils soient dus & situés, pour par mon dit époux en jouir, faire & disposer en pleine propriété à compter du dit jour de mon décès ; Troisièmement, je nomme le dit sieur Jacques Cantin, — [001474-75] mon dit époux, mon exécuteur testamentaire & l'institue mon légataire universel en propriété ; Quatrièmement, enfin, je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par la dite testatrice au dit notaire soussigné, en la présence actuelle & constante des dits témoins, & son présent testament lui ayant été lu, expliqué & relu par le dit notaire, les dits témoins toujours présents, elle a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte, fait & passé à St Jean Chrysostome susdit, demeure de la testatrice, les jour, mois & an susdits, sous le numéro cent huit des originaux du notaire soussigné. Requise de signer, la dite testatrice a déclaré être trop faible pour le faire, les dits témoins ayant alors — [001475-76] signé avec moi, notaire, lecture faite & refaite. Dix mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » Signatures : « Damase Audet dit Lapointe », « François Bédard », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Victoire Gosselin",
+          "note": "Épouse de Jacques Cantin, du deuxième rang de Taniata (Saint-Jean-Chrysostome) ; malade, « trop faible » pour signer. Non rattachée."
+        },
+        {
+          "role": "legataire",
+          "nom": "Jacques Cantin",
+          "note": "Cultivateur ; légataire universel et exécuteur ; le testateur du n° 107. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Damase Audet dit Lapointe",
+          "note": "Menuisier, ci-devant fermier, de Saint-Jean-Chrysostome ; signe."
+        },
+        {
+          "role": "temoin",
+          "nom": "François Bédard",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Réciproque du n° 107, reçu au chevet de la testatrice malade. Contrairement à la plupart des épouses, elle sait sans doute signer (le notaire dit qu'elle est « trop faible », non qu'elle ne le sait pas).",
+      "ajoute_le": "2026-11-03"
+    },
+    {
+      "id": "notarie-1874-05-03-obligation-paradis-tardif",
+      "type": "notarie",
+      "titre": "Obligation de Louis Paradis, cultivateur de la concession Bel-Air, envers Jean-Baptiste Tardif, 50 piastres, hypothèque sur une terre de Saint-Jean-Chrysostome, 1874",
+      "date": "1874-05-03",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 109, images 001476 à 001480 (Drive : fichiers 04T_CN401S124P_00532 à 00535 ; le fichier 00534 est une page laissée blanche et barrée de boucles) ; acte complet",
+      "nature": "Obligation avec hypothèque, passée le 3 mai 1874, après-midi, à Saint-Jean-Chrysostome, en la demeure de Michel Roberge, devant un témoin ; ni le créancier ni le débiteur ne savent signer. L'intitulé en marge, d'abord « Vente », est corrigé en « Obligation par Jean Bte Tardif @ Louis Paradis — original — Expédié 1 fois ». Quarante-six mots rayés ; quatre renvois paraphés « B. V. » et du notaire.",
+      "transcription": "[001476-77] « N° 109 — 3 mai 1874. L'an mil huit cent soixante-quatorze, le troisième jour de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Bazile Vermette, employé du Grand Trunk, de la paroisse de St Jean Chrysostome, dit comté, témoin au présent acte, aussi soussigné ; Fut présent : Mr Louis Paradis, du dit lieu de St Jean Chrysostome, concession Bel-Air, dit comté, cultivateur ; Lequel reconnaît devoir bien & légitimement à Mr Jean Baptiste Tardif, du même lieu, cultivateur, à ce aussi présent & acceptant pour lui, ses hoirs & ayants cause, la somme de cinquante piastres courant, étant pour prêt de pareille (3) [renvoi : somme] que le dit sieur Tardif a réellement fait en bon argent courant, & dès avant — [001477-78] l'exécution des présentes, au dit sieur Paradis, qui le reconnaît & s'en déclare satisfait. (1) [renvoi : Laquelle dite somme de cinquante piastres & les intérêts échus & à échoir sur icelle seront payables au dit créancier ou ordre, à demande.] L'intérêt sur la dite somme est & sera de huit pour cent par an, payable annuellement le premier jour de novembre, à dater du premier jour de novembre dernier (mil huit cent soixante-treize), (4) [renvoi : jusqu'au parfait paiement de la somme capitale]. Et pour sûreté de la dite somme de cinquante piastres courant & des intérêts qui en proviendront, comme dit est, le dit sieur Paradis a spécialement hypothéqué en faveur du dit créancier l'immeuble suivant, savoir : Une terre située en la dite paroisse de St Jean Chrysostome, concession Bel-Air, contenant trois arpents de front sur trente arpents de profondeur, le tout plus ou moins ; bornée par devant, en front, au chemin public, en arrière au bout de la dite profondeur (3) [renvoi : à Richard Lafrenaye ou leurs représentants], (2) [renvoi : à l'est à France Dumais & à l'ouest à la dite (?)] ; avec ensemble les bâtisses — [001478-79] dessus construites, circonstances & dépendances. [Le reste de la page est laissé en blanc et barré.] — [001479-80] Et pour l'exécution des présentes, les parties élisent leurs domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte, fait & passé à St Jean Chrysostome susdit, demeure de Michel Roberge, les jour, mois & an susdits, sous le numéro cent neuf des originaux du notaire soussigné. Et requis de signer, les dits créancier & débiteur ont déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. Quarante-six mots rayés sont nuls. Quatre renvois en marge sont bons & approuvés. » Signatures : « Basile Vermette », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Louis Paradis",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, concession Bel-Air ; ne sait pas signer. Sans doute le gendre de Louis Tardif, époux de Zoé Tardif (actes n° 120 et 121 du 30 mai 1874), à qui il doit le prix d'une terre. Non rattaché."
+        },
+        {
+          "role": "creancier",
+          "nom": "Jean-Baptiste Tardif",
+          "note": "Cultivateur du même lieu ; prête 50 piastres à 8 % ; ne sait pas signer. Sans doute parent de Zoé et de Louis Tardif (n° 120-121). Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Bazile Vermette",
+          "note": "« Employé du Grand Trunk », de Saint-Jean-Chrysostome ; signe « Basile Vermette ». Le même qu'au n° 61."
+        },
+        {
+          "role": "hote",
+          "nom": "Michel Roberge",
+          "note": "L'acte est passé en sa demeure, à Saint-Jean-Chrysostome. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Richard Lafrenaye",
+          "note": "Borne la terre en arrière. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "France Dumais",
+          "note": "Borne à l'est. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Prêt entre cultivateurs de la concession Bel-Air. La famille Paradis–Tardif reparaît le 30 mai 1874 dans les actes n° 120 et 121, déjà transcrits. Le notaire avait d'abord intitulé l'acte « Vente ».",
+      "ajoute_le": "2026-11-03"
     }
   ]
 }
