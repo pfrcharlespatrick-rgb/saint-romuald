@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (64 fiches à ce jour).
+fiche dont l'identifiant commence par `notarie-` (98 fiches au 3 novembre 2026).
 
 ## Où sont les images
 
@@ -37,17 +37,58 @@ droite (« 001110 | 001111 ») : on cite toujours la paire.
 
 ## Où reprendre
 
-**La série du Drive est épuisée jusqu'à 00300.** Le dernier acte lu est le
-**testament n° 55** de Catherine Toussaint (8 mars 1874, fichiers 00297 à
-00299 ; le fichier 00300 refilme une page du même acte).
+**Mise à jour du 2 novembre 2026.** Patrick a ajouté au Drive les fichiers
+**00301 à 00450** (sous-dossiers créés les 1er et 2 novembre ; les images 00426 à 00450 y
+sont en double). Les fichiers **00451 à 00550 manquent encore** (actes
+d'avril-mai 1874, avant le n° 113).
 
-**Les fichiers 00301 à 00550 ne sont pas au Drive** (recherche du
-1er novembre 2026 : aucun fichier `04T_CN401S124P_003…`, `004…` ni
-`005…` avant 00551). Ils couvrent les **actes n° 56 à 112** (environ
-microfilm 001245 à 001494, de mars à mai 1874). Les actes n° 113 à 122
-(fichiers 00551 à 00601) sont déjà versés. Pour reprendre, il faut que
-Patrick ajoute ces images au Drive (sous-dossiers 301-350 à 501-550), ou
-reprendre après 00601.
+**Mise à jour du 3 novembre 2026.** La série 00301-00450 est **entièrement
+lue** : actes n° 56 à 88 complets, et le **début du testament n° 89** de Joseph
+Lemelin (18 avril 1874, fichiers 00449-00450), dont la fin est sur le fichier
+**00451, absent du Drive**. 98 fiches `notarie-` en tout.
+
+**Pour reprendre, il faut que Patrick ajoute au Drive les fichiers 00451 à
+00550** (actes n° 89 à 112, avril-mai 1874). Reprendre alors au fichier 00451 :
+compléter la fiche `notarie-1874-04-18-testament-joseph-lemelin` (fin des legs,
+signatures), puis continuer.
+
+Pour retrouver les identifiants Drive d'un lot, une seule recherche suffit :
+`title contains '04T_CN401S124P_0037'` (puis `0038`, `0039`…).
+
+Particularités de la série 00301-00450 :
+
+- 00301 refilme la dernière page du testament n° 55 ;
+- 00321 est le dos de la chemise imprimée du bail n° 59 ;
+- 00343 est une page blanche barrée (dans le n° 64) ;
+- **00349 à 00351 sont un acte étranger** : la minute n° 10 000 du notaire
+  (vente d'Alphonse Labbé à Hilaire Labbé, Saint-Frédéric, canton de
+  Broughton, années 1880-1890), marquée « N° 66 » par erreur — pas de fiche ;
+- 00355 est un **croquis** des emplacements Girard et Croteau (baux n° 38 et
+  39 : « rue de 12 pieds de large », 1873 + 99 = 1972) ;
+- 00436 est un brouillon biffé de règlement du conseil municipal de
+  Saint-Romuald (26 mars 1874, licences d'auberge) ; 00437-00438 sont deux
+  étiquettes volantes de l'acte n° 85 ;
+- 00421 et 00422 sont deux prises de la même page (acte n° 80) ;
+- dans le n° 69, un feuillet est filmé replié : l'ordre du texte est 00364,
+  00365, 00368, 00369, 00366, 00367, 00370.
+
+Points à soumettre à Patrick, relevés dans cette série :
+
+- **Louis Lemieux** (n° 38, 39, 64 à 68) : les n° 38-39 le rattachent en
+  hypothèse au veuf de 48 ans de 1871 (`1871-D2-P007-L20`, fils Louis et
+  Benjamin) ; or les n° 64 à 68 lui donnent une épouse vivante, Esther Girard,
+  et des fils François (parti dans le Haut-Canada), Philippe (mineur) et
+  Augustin. Les fiches n° 64 à 68 le laissent sans rattachement.
+- **Olivier et Octave Roberge** sont deux hommes : Olivier signe en toutes
+  lettres au codicille n° 75, Octave à l'acceptation n° 60 ; tous deux
+  paraphent « O. R. ». Question réglée.
+- **Josephte Couture**, épouse d'Isaac Cantin père, meurt entre son codicille
+  (n° 75, 22 mars 1874) et le 12 avril 1874 (n° 86, « feue »).
+- **Catherine Lecours** (n° 2, 26, 82-84) : son testament n° 84 la dit mère de
+  Louis Gelly, son logeur, né de son premier mariage avec Ambroise Gelly.
+- **Joseph Bourassa, rentier** (n° 69) : rattaché, en probable, au cultivateur
+  de 56 ans de 1871 (maison 63) ; rien ne le relie encore à la maison de
+  pierre (1900-cf).
 
 L'image 001235-36 (fichier 00291) est un **croquis de l'emplacement des rues
 Saint-Paul et Saint-Louis**, avec le « terrain de la pompe » : à garder pour
