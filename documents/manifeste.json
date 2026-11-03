@@ -10306,6 +10306,162 @@
       "affirmations": [],
       "note": "Avance volontaire sur une succession paternelle encore ouverte, que Louis Cantin, l'aîné resté au pays, gère : Honoré garde tous ses droits pour le partage à venir.",
       "ajoute_le": "2026-11-03"
+    },
+    {
+      "id": "notarie-1874-04-30-bail-leclerc-bois",
+      "type": "notarie",
+      "titre": "Bail de François Leclerc père, charretier, à Félix Bois, journalier : deux chambres d'une maison de bois sur la rue Saint-Louis, 1874",
+      "date": "1874-04-30",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 98, images 001428 à 001432 (Drive : fichiers 04T_CN401S124P_00484 à 00487 ; le fichier 00487 est le dos de la chemise imprimée « Bail ») ; acte complet. La formule finale porte « quatre-vingt » sans unité ; la marge dit « N° 98 ».",
+      "nature": "Bail à loyer d'un an sur formulaire imprimé de Québec, rempli à la main ; passé le 30 avril 1874, après-midi, en l'étude du notaire, devant un témoin (ajouté par renvoi) ; ni le bailleur ni le preneur ne savent écrire ni signer. En marge : « Bail Frs Leclerc @ Félix Bois — original » et le calcul 30,00 ÷ 6 = 5,00.",
+      "transcription": "[001428-29] « N° 98 — 30 avril 1874. L'an mil huit cent soixante-quatorze, le [« trentième » biffé puis rétabli] jour du mois d'avril, après-midi, pardevant Mtre Elzéar H. Tremblay, notaire public, résidant en la paroisse de St Romuald, comté de Lévis, soussigné, (1) [renvoi : et en présence de Edouard Bourassa, de St Romuald susdit, écuier, agronome & rentier,] Fut présent : Mr François Leclerc, senior, demeurant à St Romuald, comté susdit, charretier ; Lequel a, par ces présentes, donné à loyer pour le terme & espace d'une année entière, qui commence à courir du premier jour de mai prochain & finir le trentième jour d'avril de l'année mil huit cent soixante-quinze, à sieur Félix Bois, du même lieu, journalier, à ce présent & acceptant, preneur pour lui, ses hoirs & ayants cause, c'est à savoir : Une chambre dans le bas & une chambre dans les mansardes (formant un logement de quinze pieds sur vingt-quatre, le tout plus ou moins), côté nord, dans une maison en bois à un étage sise sur le niveau est de la rue St Louis, dans la paroisse susdite, & appartenant au bailleur ; bornée au nord au bailleur, au sud à Joseph Levasseur, en front à la rue St Louis ; ensemble le terrain en commun avec l'autre occupant de la dite maison ; tel que le tout est actuellement & dont le preneur se déclare content & satisfait pour l'avoir vu & visité & en être déjà en possession. [Clauses imprimées.] — [001429-30] De son côté le bailleur promet & s'oblige faire jouir le preneur des prémisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à d'autres réparations qu'à arranger la porte de dehors ; le preneur mastiquera les vitres, en par le bailleur fournissant le mastic. Ce bail est fait en outre pour & en considération du prix & somme de trente piastres [« vingt-quatre piastres » biffé] courant pour l'année de sa durée, que le preneur promet & s'oblige payer au dit bailleur ou à son ordre en six paiements égaux & mensuels de la somme de cinq piastres courant chaque, payable à la fin des mois de mai, juin, juillet, août, septembre & octobre prochains. [Clauses imprimées des taxes.] — [001430-31] Il est expressément convenu entre les parties, & sans laquelle convention le présent bail n'aurait jamais eu lieu, que dans le cas où le dit preneur ne paierait pas son loyer aux époques sus-fixées, alors le présent bail sera nul & de nul effet, & le bailleur aura le droit de prendre possession des dites prémisses de même que s'il n'eût jamais consenti aucun bail avec le preneur, & tous argents donnés seront forfaits en faveur du bailleur, & sans que la présente clause puisse être considérée comminatoire, mais bien de rigueur. Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables, savoir, le preneur en les prémisses sus-louées & le bailleur en sa demeure ordinaire où les paiements se feront. Aux quels lieux, etc. Car ainsi, etc. Dont acte, fait & passé à St Romuald susdit, étude du dit notaire soussigné, les jour, mois & an susdits, sous le numéro quatre-vingt[-dix-huit] des originaux de son répertoire. Et les bailleur & preneur ont déclaré ne savoir écrire ni signer, de ce requis, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. [ ] mots rayés sont nuls. » Signatures : « Edouard Bourassa », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "François Leclerc, senior",
+          "note": "« Demeurant à St Romuald, charretier » ; ne sait ni écrire ni signer. Le bailleur du n° 88 (maison de la rue Saint-Paul) ; possède aussi celle-ci, rue Saint-Louis. Non rattaché (voir le n° 88)."
+        },
+        {
+          "role": "preneur",
+          "nom": "Félix Bois",
+          "note": "« Du même lieu, journalier » ; ne sait pas signer ; déjà dans les lieux. Aucun Félix Bois aux recensements : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "« De St Romuald susdit, écuier, agronome & rentier » ; signe."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Levasseur",
+          "note": "Borne la maison au sud, rue Saint-Louis. Un Joseph Levasseur, journalier de 32 ans, est recensé en 1871 (1871-D1-P031-L10, maison 80) : piste, non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-04-30",
+          "personnes": [],
+          "enonce": "François Leclerc père, charretier, possède une maison de bois à un étage du côté est de la rue Saint-Louis, voisine au sud de Joseph Levasseur, partagée entre deux locataires ; il y loue un logement de 15 × 24 pieds à Félix Bois pour 30 piastres l'an."
+        }
+      ],
+      "note": "Deuxième maison louée par François Leclerc père en quinze jours (rue Saint-Paul au n° 88, rue Saint-Louis ici) : les deux rues du croquis du fichier 00291. Le loyer, d'abord écrit 24 piastres, est porté à 30.",
+      "ajoute_le": "2026-11-03"
+    },
+    {
+      "id": "notarie-1874-04-30-quittance-falardeau-boisvert",
+      "type": "notarie",
+      "titre": "Quittance mutuelle d'Ambroise Falardeau, menuisier, et d'Alphonse Boisvert, marchand-épicier, de Lévis, et mainlevée d'une saisie-arrêt de la Cour de circuit, 1874",
+      "date": "1874-04-30",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 99, images 001432 à 001438 (Drive : fichiers 04T_CN401S124P_00488 à 00493) ; acte complet, avec, épinglé, le bref de saisie-arrêt avant jugement de la Cour de circuit, n° 1042 (fichiers 00490 et 00491)",
+      "nature": "Quittance générale et mutuelle, passée le 30 avril 1874, après-midi, en l'étude du notaire, sans témoin (la mention d'un témoin est biffée) ; les deux comparants signent. En marge : « Quittance mutuelle A. Falardeau & A. Boisvert — original — Payé ». Pièce jointe : bref imprimé de saisie-arrêt de la Cour de circuit pour le district de Québec, du 30 avril 1874, signé « Fiset, Burroughs & Campbell, greffier ».",
+      "transcription": "[001432-33] « N° 99 — 30 avril 1874. L'an mil huit cent soixante-quatorze, le trentième jour d'avril, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; [mention d'un témoin biffée] Fut présent : Ambroise Falardeau, de la ville de Lévis, menuisier ; Lequel par ces présentes reconnaît & confesse avoir eu & reçu à son entière satisfaction, lors de l'exécution des présentes, à vue & présence de nous dit notaire, la somme de quatorze piastres & demie courant, de Alphonse Boisvert, du dit lieu de Lévis, marchand, étant la balance du loyer pour l'année finissant ce jour même, due au dit comparant. — [001433-34] Et attendu que le dit Ambroise Falardeau a ce jour même fait exécuter une saisie-arrêt avant jugement pour toutes sommes d'argent, rentes, revenus & effets mobiliers quelconques entre les mains de Louis Boisvert, père, watchman, Louis Boisvert, fils, beaumier [?], Dame Levasseur, veuve de feu Dorval, tous de la ville de Lévis, & Xavier Deschenets, tiers-saisis, & appartenant au dit Alphonse Boisvert, défendeur en la dite cause, tel qu'il appert par un writ de la Cour de circuit en date de ce jour & portant le numéro 1042 ; Et attendu que la dite saisie-arrêt a été faite pour le montant de la dite somme de quatorze piastres courant, payée comme susdit ; C'est pourquoi le dit Ambroise Falardeau donne & accorde quittance générale & finale de toutes & chacune les réclamations qu'il a & peut avoir contre le dit Alphonse Boisvert, & veut & entend que la dite saisie- — [001436-37] arrêt soit considérée comme nulle & non avenue. À ce fut aussi présent le dit Alphonse Boisvert, lequel dit & déclare avoir eu & reçu du dit Ambroise Falardeau toutes sommes d'argent que ce dernier a pu lui devoir jusqu'à ce jour pour divers effets vendus au dit Falardeau, ainsi que pour toutes autres considérations, auquel il accorde quittance générale & finale. En conséquence de ce que dessus, les dits comparants se quittent & déchargent mutuellement de toutes & chacune les réclamations qu'ils peuvent avoir l'un contre l'autre. Dont & du tout les dits comparants ont requis le présent acte, qui leur a été octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro quatre-vingt-dix-neuf des originaux du notaire soussigné. Et les comparants, de ce requis, ont signé avec moi, — [001437-38] notaire, lecture faite. [ ] mots rayés sont nuls. » Signatures : « A. Boisvert », « A. Falardeau », « E. H. Tremblay N.P. » — [001434-35, pièce jointe] « Canada, province de Québec. Cour de circuit pour le district de Québec, siégeant à Québec. Victoria, par la grâce de Dieu […] Nous vous commandons de saisir & arrêter par voie de saisie-arrêt, à la demande de Ambroise Falardeau, menuisier, de la ville de Lévis, demandeur, toute somme ou sommes d'argent, rentes, revenus & effets mobiliers quelconques entre les mains de Louis Boisvert, père, watchman, Louis Boisvert, fils, beaumier [?], Dame Levasseur, veuve de feu Dorval, tous de la ville de Lévis, & Xavier Deschenets, journalier, de St Romuald, tiers-saisis, appartenant à Alphonse Boisvert, marchand-épicier, de la ville de Lévis, défendeur, […] au montant de quatorze piastres & cinquante cents courant […] & d'assigner les dits défendeur & tiers-saisis […] devant nous, en notre dite Cour de circuit […] au Palais de justice, en notre cité de Québec, à dix heures du matin, le vingtième jour de mai prochain […] En foi de quoi […] à Québec, le trentième jour d'avril […] mil huit cent soixante-et-quatorze. Vraie copie. (Signé) Fiset, Burroughs & Campbell, greffier de la dite Cour. » [Dos, 001435-36 : « (Copie.) Cour de circuit, district de Québec. No. 1042. Saisie-arrêt avant jugement. »]",
+      "personnes": [
+        {
+          "role": "demandeur",
+          "nom": "Ambroise Falardeau",
+          "note": "« De la ville de Lévis, menuisier » ; propriétaire du logement d'Alphonse Boisvert ; signe « A. Falardeau ». Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "defendeur",
+          "nom": "Alphonse Boisvert",
+          "note": "« Du dit lieu de Lévis, marchand-épicier » ; locataire de Falardeau ; signe « A. Boisvert ». Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Louis Boisvert, père",
+          "note": "« Watchman », de Lévis ; tiers-saisi. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Louis Boisvert, fils",
+          "note": "« Beaumier [?] » (lecture incertaine), de Lévis ; tiers-saisi. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Dame Levasseur, veuve Dorval",
+          "note": "De Lévis ; tiers-saisie."
+        },
+        {
+          "role": "autre",
+          "nom": "Xavier Deschenets",
+          "note": "« Journalier, de St Romuald » (bref) ; tiers-saisi : il devait quelque chose à Alphonse Boisvert. Deux François-Xavier Deschenay journaliers, père (48 ans) et fils (22 ans), sont recensés en 1871 (division 1, maison 173) : non rattaché faute de pouvoir choisir."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le matin même, le propriétaire a fait saisir, pour 14,50 piastres de loyer, tout ce qu'on devait à son locataire épicier ; l'après-midi, chez le notaire de Saint-Romuald, l'épicier paie et les deux hommes s'acquittent mutuellement — le bref de la Cour de circuit, épinglé à la minute, est ainsi conservé.",
+      "ajoute_le": "2026-11-03"
+    },
+    {
+      "id": "notarie-1874-05-01-quittance-vachon-campbell",
+      "type": "notarie",
+      "titre": "Quittance de Jean-Baptiste Vachon, culler, à John Campbell, son locataire, pour le loyer de l'année finie le 30 avril 1874",
+      "date": "1874-05-01",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 100, images 001438 à 001440 (Drive : fichiers 04T_CN401S124P_00494 et 00495) ; acte complet",
+      "nature": "Quittance générale et finale, passée le 1er mai 1874, avant midi, en la demeure du comparant, sans témoin ; le comparant signe. En marge : « Quittance J. B. Vachon @ John Campbell — original ». Deux renvois paraphés « J. B. V. » et du notaire.",
+      "transcription": "[001438-39] « N° 100 — 1er mai 1874. L'an mil huit cent soixante-quatorze, le premier jour de mai, avant midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Jean Baptiste Vachon, écuier, culler, de la dite paroisse de St Romuald ; Lequel reconnaît avoir eu & reçu de John Campbell, écuier, (1) [renvoi : partie avant & partie lors de l'exécution des présentes,] la somme de quarante piastres courant, étant pour solde de toutes & chacune les réclamations qu'il a & pourrait avoir contre le dit sieur Campbell comme locataire dans la maison du comparant, & étant le prix du loyer des prémisses (2) [renvoi : occupées par le] dit sieur Campbell, échu le trente avril dernier. Dont & du tout le dit comparant donne & accorde quittance générale & finale en — [001439-40] faveur du dit sieur Campbell. Dont acte, requis & octroyé à St Romuald susdit, demeure du comparant, les jour, mois & an susdits, sous le numéro cent des originaux du notaire soussigné. Et le comparant a signé avec moi, notaire, lecture faite. [ ] mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » Signatures : « J. B. Vachon », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Jean-Baptiste Vachon",
+          "ref_personne": "1871-D1-P054-L13",
+          "note": "« Écuier, culler [mesureur de bois], de la dite paroisse de St Romuald » ; signe « J. B. Vachon ». Rattachement probable : « John Vachon », inspecteur de bois de 43 ans en 1871 (division 1, maison 147, épouse Camille) ; « J.Baptiste Vachon, colleur » de 53 ans en 1881 (1881-D1-P055-L09, épouse Camille) ; « culler (mesureur de bois) » de 59 ans en 1891 (1891-D1-P015-L23, épouse Camille)."
+        },
+        {
+          "role": "locataire",
+          "nom": "John Campbell",
+          "ref_personne": "1871-D2-P056-L13",
+          "note": "« Écuier » ; locataire d'une maison de J.-B. Vachon jusqu'au 30 avril 1874. Rattachement probable au John Campbell, inspecteur de bois de 42 ans en 1871 (division 2, maison 130 [?]) — un collègue de Vachon."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D1-P054-L13",
+            "1881-D1-P055-L09"
+          ],
+          "enonce": "Le culler Jean-Baptiste Vachon de 1874 est le « John Vachon » inspecteur de bois de 1871 et le « J.Baptiste Vachon » colleur [culler] de 1881 : même métier de mesureur de bois, même épouse Camille aux trois recensements."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-05-01",
+          "personnes": [
+            "1871-D1-P054-L13"
+          ],
+          "enonce": "Jean-Baptiste Vachon est culler (mesureur de bois) à Saint-Romuald en 1874."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-05-01",
+          "personnes": [
+            "1871-D1-P054-L13"
+          ],
+          "enonce": "Jean-Baptiste Vachon possède une maison louée à John Campbell jusqu'au 30 avril 1874, pour 40 piastres l'an."
+        }
+      ],
+      "note": "Fin de bail au 1er mai, jour des déménagements : le propriétaire donne quittance du loyer échu la veille. Le recensement de 1871 anglicise le prénom (« John Vachon ») et celui de 1881 écrit « colleur » pour « culler ».",
+      "ajoute_le": "2026-11-03"
     }
   ]
 }
