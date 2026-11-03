@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (78 fiches au 2 novembre 2026).
+fiche dont l'identifiant commence par `notarie-` (98 fiches au 3 novembre 2026).
 
 ## Où sont les images
 
@@ -42,14 +42,20 @@ droite (« 001110 | 001111 ») : on cite toujours la paire.
 sont en double). Les fichiers **00451 à 00550 manquent encore** (actes
 d'avril-mai 1874, avant le n° 113).
 
-Le **dernier acte lu est le bail à ferme n° 69** (Joseph Bourassa à Louis
-Vallières, 18 mars 1874, fichiers 00364 à 00370). **Reprendre au fichier
-00371.** Les fiches des n° 56 à 69 sont versées (78 fiches `notarie-` en tout).
+**Mise à jour du 3 novembre 2026.** La série 00301-00450 est **entièrement
+lue** : actes n° 56 à 88 complets, et le **début du testament n° 89** de Joseph
+Lemelin (18 avril 1874, fichiers 00449-00450), dont la fin est sur le fichier
+**00451, absent du Drive**. 98 fiches `notarie-` en tout.
+
+**Pour reprendre, il faut que Patrick ajoute au Drive les fichiers 00451 à
+00550** (actes n° 89 à 112, avril-mai 1874). Reprendre alors au fichier 00451 :
+compléter la fiche `notarie-1874-04-18-testament-joseph-lemelin` (fin des legs,
+signatures), puis continuer.
 
 Pour retrouver les identifiants Drive d'un lot, une seule recherche suffit :
 `title contains '04T_CN401S124P_0037'` (puis `0038`, `0039`…).
 
-Particularités de la série 00301-00370 :
+Particularités de la série 00301-00450 :
 
 - 00301 refilme la dernière page du testament n° 55 ;
 - 00321 est le dos de la chemise imprimée du bail n° 59 ;
@@ -59,6 +65,10 @@ Particularités de la série 00301-00370 :
   Broughton, années 1880-1890), marquée « N° 66 » par erreur — pas de fiche ;
 - 00355 est un **croquis** des emplacements Girard et Croteau (baux n° 38 et
   39 : « rue de 12 pieds de large », 1873 + 99 = 1972) ;
+- 00436 est un brouillon biffé de règlement du conseil municipal de
+  Saint-Romuald (26 mars 1874, licences d'auberge) ; 00437-00438 sont deux
+  étiquettes volantes de l'acte n° 85 ;
+- 00421 et 00422 sont deux prises de la même page (acte n° 80) ;
 - dans le n° 69, un feuillet est filmé replié : l'ordre du texte est 00364,
   00365, 00368, 00369, 00366, 00367, 00370.
 
@@ -72,6 +82,10 @@ Points à soumettre à Patrick, relevés dans cette série :
 - **Olivier et Octave Roberge** sont deux hommes : Olivier signe en toutes
   lettres au codicille n° 75, Octave à l'acceptation n° 60 ; tous deux
   paraphent « O. R. ». Question réglée.
+- **Josephte Couture**, épouse d'Isaac Cantin père, meurt entre son codicille
+  (n° 75, 22 mars 1874) et le 12 avril 1874 (n° 86, « feue »).
+- **Catherine Lecours** (n° 2, 26, 82-84) : son testament n° 84 la dit mère de
+  Louis Gelly, son logeur, né de son premier mariage avec Ambroise Gelly.
 - **Joseph Bourassa, rentier** (n° 69) : rattaché, en probable, au cultivateur
   de 56 ans de 1871 (maison 63) ; rien ne le relie encore à la maison de
   pierre (1900-cf).

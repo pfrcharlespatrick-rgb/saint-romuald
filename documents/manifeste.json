@@ -1,7 +1,7 @@
 {
   "format": "documents-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-11-02",
+  "mis_a_jour": "2026-11-03",
   "note": "Index des documents historiques qui établissent des liens de filiation. Un document versé ici l'emporte toujours sur une proposition automatique de data/filiation-data.js : l'acte est une preuve, le rapprochement algorithmique n'est qu'une hypothèse. Voir documents/README.md pour la marche à suivre.",
   "types_admis": {
     "bapteme": "Acte de baptême — établit une filiation directe et une date de naissance",
@@ -9758,6 +9758,145 @@
       ],
       "note": "Complément de la quittance n° 86 passée le même jour : la part de la sœur mariée transite par son frère Isaac.",
       "ajoute_le": "2026-11-02"
+    },
+    {
+      "id": "notarie-1874-04-15-bail-leclerc-foster",
+      "type": "notarie",
+      "titre": "Bail de François Leclerc père, charretier, à Élie Foster, journalier : une maison de bois sur la rue Saint-Paul, 1874",
+      "date": "1874-04-15",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 88, images 001389 à 001393 (Drive : fichiers 04T_CN401S124P_00445 à 00448 ; le fichier 00448 est le dos de la chemise imprimée « Bail ») ; acte complet",
+      "nature": "Bail à loyer d'un an sur formulaire imprimé de Québec, rempli à la main ; passé le 15 avril 1874, après-midi, en l'étude du notaire, devant un témoin ; ni le bailleur ni le preneur ne savent signer. En marge : « Bail F. Leclerc @ Foster — original — Payé ». Un renvoi paraphé « E. B. » et du notaire.",
+      "transcription": "[001389-90] « N° 88 — 15 avril 1874. L'an mil huit cent soixante-quatorze, le quinzième [« quatorzième » biffé] jour du mois d'avril, après-midi, pardevant Mtre Elzéar Hubert Tremblay, notaire public, résidant en la paroisse de St Romuald, comté de Lévis, soussigné, & en présence de Édouard Bourassa, du même lieu, agronome, témoin au présent acte, aussi soussigné ; Fut présent : Mr François Leclerc, [« ancien marchand » biffé] senior, charretier, de la paroisse de St Romuald, dit comté ; Lequel a, par ces présentes, donné à loyer pour le terme & espace d'une année entière, qui commence à courir du premier jour de mai prochain & finira le trentième jour d'avril de l'année mil huit cent soixante-quinze, à Sr Élie Foster, du même lieu, journalier, à ce présent & acceptant, preneur pour lui, ses hoirs & ayants cause, c'est à savoir : Une maison en bois à un étage, sise sur le niveau est de la rue dite St Paul [« St Louis » biffé], en la dite paroisse de St Romuald, & appartenant au bailleur ; ensemble l'usage du terrain décrit dans les bornes suivantes, savoir : à l'est à Benjamin Demers ; à l'ouest à la dite rue St Paul ; au nord à Léon Paradis, & au sud au bailleur ; avec les autres bâtisses dessus construites, circonstances & dépendances ; tel que le tout est actuellement & dont le preneur se déclare content & satisfait pour l'avoir vu & visité, & en être déjà en possession. [Clauses imprimées 1° à 6°.] — [001390-91] De son côté le bailleur promet & s'oblige faire jouir le preneur des prémisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à d'autres réparations que : 1° resserrer le plancher de haut, arranger la porte de la cave ; le preneur fera une porte double pour l'hiver, en par le bailleur fournissant le bois seulement. Ce bail est fait en outre pour & en considération du prix & somme de quarante-huit piastres courant pour l'année de sa durée, que le preneur promet & s'oblige payer au dit bailleur ou à son ordre en six paiements égaux de la somme de huit piastres chaque, payable à la fin des mois de mai, juin, juillet, août, septembre & octobre prochains. [Un paragraphe biffé : dix piastres payables le premier de mai.] [Clauses imprimées des taxes.] Il est convenu que si le preneur veut renchausser la dite maison, qu'alors le bailleur fournira & charroiera à ses frais le bran de scie nécessaire. — [001391-92] Il est expressément convenu entre les parties, & sans laquelle convention le présent bail n'aurait jamais eu lieu, que dans le cas où le dit preneur ne paierait pas son loyer aux époques sus-fixées, alors le présent (renvoi : bail) sera nul & de nul effet, & le dit bailleur prendra possession de la dite maison de même que s'il n'eût jamais consenti aucun bail quelconque avec le preneur, & sans que la présente clause ne puisse être considérée comminatoire, mais bien de rigueur. Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables, savoir, le preneur en les prémisses sus-louées & le bailleur en sa demeure ordinaire où les paiements se feront. Aux quels lieux, etc. Car ainsi, etc. Dont acte, fait & passé à St Romuald susdit, étude du dit notaire soussigné, les jour, mois & an susdits, sous le numéro quatre-vingt-huit des originaux de son répertoire. Requis de signer, les dits bailleur & preneur ont déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. [ ] mots rayés sont nuls. » Signatures : « Edouard Bourassa », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "François Leclerc, senior",
+          "note": "« Senior, charretier », de Saint-Romuald (« ancien marchand » biffé) ; ne sait pas signer. Propriétaire d'une maison de bois du côté est de la rue Saint-Paul, et du terrain au sud. Deux François Leclerc adultes en 1871 : un boulanger de 60 ans (1871-D1-P047-L07) et un marchand de 37 ans (1871-D1-P049-L14) ; « senior » désigne sans doute le premier, mais métier et signature ne concordent pas (le marchand signe aux n° 52 et 84) : non rattaché."
+        },
+        {
+          "role": "preneur",
+          "nom": "Élie Foster",
+          "note": "« Du même lieu, journalier » ; ne sait pas signer ; occupe déjà la maison. Aucun Foster aux recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "« Du même lieu, agronome » ; signe « Edouard Bourassa ». Cultivateur veuf de 39 ans en 1871 (division 1, maison 108), marchand en 1881 (1881-D1-P018-L22) ; témoin aussi du bail n° 36."
+        },
+        {
+          "role": "voisin",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Borne à l'est : le propriétaire des emplacements entre les rues Saint-Paul et Saint-Louis (actes n° 12, 36, 51)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Léon Paradis",
+          "note": "Borne au nord. Un Léon Paradis, journalier de 28 ans, est recensé en 1871 (1871-D1-P027-L19, maison 71) : piste, non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-04-15",
+          "personnes": [],
+          "enonce": "François Leclerc père, charretier, possède une maison de bois à un étage du côté est de la rue Saint-Paul, entre Léon Paradis (au nord) et son propre terrain (au sud), adossée à Benjamin Demers ; il la loue 48 piastres l'an à Élie Foster."
+        }
+      ],
+      "note": "Un bail qui situe une maison de la rue Saint-Paul (« St Louis » d'abord écrit, puis corrigé), voisine des emplacements de Benjamin Demers déjà vus aux actes n° 36 et 51 et au croquis du fichier 00291. Détail de la vie quotidienne : le propriétaire fournit et charroie le bran de scie si le locataire veut renchausser la maison pour l'hiver.",
+      "ajoute_le": "2026-11-03"
+    },
+    {
+      "id": "notarie-1874-04-18-testament-joseph-lemelin",
+      "type": "notarie",
+      "titre": "Testament de Joseph Lemelin, batelier du Sault, en faveur de son épouse Philomène Lépine, puis de ses enfants des deux lits (début seul), 1874",
+      "date": "1874-04-18",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 89, images 001393 à 001395 (Drive : fichiers 04T_CN401S124P_00449 et 00450) ; ACTE INCOMPLET : la suite (fin des legs, signatures) est sur le fichier 00451, qui n'est pas encore au Drive.",
+      "nature": "Testament authentique reçu le 18 avril 1874, après-midi, devant deux témoins. En marge : « Testament de Joseph Lemelin — original — Exp. 1 fois ». Renvoi paraphé « E. B. », « F. V. » et du notaire.",
+      "transcription": "[001393-94] « N° 89 — 18 avril 1874. L'an mil huit cent soixante-quatorze, le dix-huitième jour d'avril, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Édouard Bourassa, agronome, & de Ferdinand Villeneuve, architecte, demeurant tous deux en la paroisse de St Romuald, témoins au présent testament, aussi soussignés ; Fut présent : Mr [« Louis » biffé] Joseph Lemelin, (1) [renvoi : batelier,] de la dite paroisse de St Romuald, division nommée Sault, étant en bonne santé de corps, sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous dit notaire & aux dits témoins par son maintien & ses discours & par la manifestation claire & précise de ses volontés ; Lequel a, dans la vue de la mort, fait & nommé son présent testament au dit notaire soussigné, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes dettes soient — [001394-95] payées & mes torts réparés par mon exécutrice testamentaire ci-après nommée, à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes & prières ; 2° Je donne & lègue à Dame Philomène Lépine, mon épouse actuelle, tous les biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès, de quelque nature & valeur qu'ils soient & en quelques lieux & endroits qu'ils soient dus & situés, pour par elle en jouir, faire & disposer en pleine & entière propriété à compter du dit jour, pourvu toutefois qu'elle demeure dans l'état de viduité. Advenant que la dite Dame Philomène Lépine, ma dite épouse, convolerait en secondes noces, alors & dans ce cas je donne & lègue mes dits biens à mes enfants nés de mon premier mariage avec feue Dame Adéline Martineau, ma première épouse, & à ceux nés & à naître de mon présent [mariage …] » [Suite sur l'image 001395-96, fichier 00451, absent du Drive.]",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Joseph Lemelin",
+          "ref_personne": "1871-D2-P012-L13",
+          "note": "« Batelier, de la dite paroisse de St Romuald, division nommée Sault » ; veuf d'Adéline Martineau, remarié à Philomène Lépine. Rattachement probable : veuf de 25 ans en 1871 (division 2, maison 27, avec un fils Joseph de 3 ans), navigateur de 36 ans en 1881 (1881-D2-P047-L01), marié à une Philomène de 36 ans, avec Emma (14 ans) et Joseph (13 ans) — les enfants du premier lit — et Napoléon, Octave et Siméon."
+        },
+        {
+          "role": "legataire",
+          "nom": "Philomène Lépine",
+          "ref_personne": "1881-D2-P047-L02",
+          "note": "« Mon épouse actuelle » ; légataire universelle tant qu'elle reste veuve, et exécutrice. Rattachement probable à « Philomène Lemelin », 36 ans, épouse de Joseph Lemelin en 1881. Peut-être la Philomène Lépine de 26 ans recensée en 1871 chez Louis Lépine (1871-D1-P029-L01) — simple piste."
+        },
+        {
+          "role": "defunte",
+          "nom": "Adéline Martineau",
+          "note": "Première épouse de Joseph Lemelin, morte avant 1871 (il est veuf au recensement de 1871)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "« Du même lieu, agronome » ; signe « Edouard Bourassa ». Cultivateur veuf de 39 ans en 1871 (division 1, maison 108), marchand en 1881 (1881-D1-P018-L22) ; témoin aussi du bail n° 36."
+        },
+        {
+          "role": "temoin",
+          "nom": "Ferdinand Villeneuve",
+          "ref_personne": "1871-D1-P013-L13",
+          "note": "« Architecte », de Saint-Romuald ; paraphe « F. V. ». Sculpteur de 39 ans en 1871 (maison 33), architecte en 1881 (1881-D1-P073-L11), « architecte-sculpteur-doreur d'églises » en 1891 ; le bailleur du n° 41."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1874-04-18",
+          "personnes": [
+            "1871-D2-P012-L13",
+            "1881-D2-P047-L02"
+          ],
+          "enonce": "Joseph Lemelin, batelier du Sault, a épousé en premières noces Adéline Martineau, morte, puis Philomène Lépine."
+        },
+        {
+          "type": "nom_de_naissance",
+          "certitude": "probable",
+          "personnes": [
+            "1881-D2-P047-L02"
+          ],
+          "enonce": "« Philomène Lemelin », 36 ans, épouse de Joseph Lemelin en 1881, est née Philomène Lépine."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P012-L13",
+            "1881-D2-P047-L01"
+          ],
+          "enonce": "Le batelier Joseph Lemelin de 1874 est le veuf de 25 ans de 1871 et le navigateur de 36 ans de 1881 : veuvage, remariage et enfants du premier lit concordent."
+        },
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "date": "1874-04-18",
+          "personnes": [
+            "1871-D2-P012-L13"
+          ],
+          "enonce": "Joseph Lemelin demeure en 1874 dans la division de Saint-Romuald « nommée Sault » — sans doute le Sault de la Chaudière."
+        }
+      ],
+      "note": "Fiche partielle : la fin du testament (part des enfants, signatures) est sur le fichier 00451, qui manque au Drive. Le texte lu établit déjà les deux mariages du testateur et rattache solidement le ménage du recensement de 1881. Le legs à l'épouse s'éteint si elle se remarie.",
+      "ajoute_le": "2026-11-03"
     }
   ]
 }
