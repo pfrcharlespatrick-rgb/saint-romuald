@@ -11008,6 +11008,88 @@
       ],
       "note": "L'acte avait été préparé dès le 11 mars 1874 (date biffée, et intérêts courant depuis ce jour) — le jour même où Guay et Roberge vendaient une autre maison à Thomas Cull (n° 58). La firme « Ritchie & Cull » consolide ainsi ses terrains du bord de l'eau à New-Liverpool, entre le chemin public et le fleuve, avec un quai. Le quatrième associé, William Ritchie, apparaît ici pour la première fois.",
       "ajoute_le": "2026-11-03"
+    },
+    {
+      "id": "notarie-1874-05-05-sommation-levasseur-lambert",
+      "type": "notarie",
+      "titre": "Sommation par Jérémie Levasseur à Jean-Baptiste Lambert de quitter le logement de la rue Demers, 1874",
+      "date": "1874-05-05",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 111, images 001490 à 001494 (Drive : fichiers 04T_CN401S124P_00546 à 00550) ; acte complet.",
+      "nature": "Sommation, faite le 5 mai 1874, après midi, au domicile de Jean-Baptiste Lambert, « situé dans la maison du dit requérant » ; copie laissée à Lambert ; seul le notaire signe. En marge : « Sommation Jérémie Levasseur @ J. Bte Lambert — original — Exp. 1 fois ». Sept renvois ; soixante-huit mots rayés.",
+      "transcription": "[001490-94, résumé serré du texte] À la réquisition de Jérémie Levasseur, journalier de la paroisse de St Romuald, le notaire se transporte au domicile de Jean-Baptiste Lambert, journalier du même lieu, « situé dans la maison du dit requérant ». Il lui expose que le requérant, considérant la « mauvaise position » du dit Lambert, lui a, vers le premier novembre 1873, par convention verbale, permis de résider avec sa famille dans « deux chambres dans le premier étage & une part dans le grenier, côté sud, dans une maison en bois à un étage sise & située sur le niveau ouest de la rue Demers », du premier novembre 1873 au trente avril 1874, pour sept piastres ; que ces prémisses étaient occupées par le requérant et destinées à être réparées ; que la chose s'est faite « uniquement pour rendre service » au dit Lambert, alors « sans abri » ; que le requérant veut reprendre possession dès le premier mai pour réparer et occuper lui-même, et que Lambert refuse de partir. En conséquence, le notaire somme Lambert de vider les lieux dans les vingt-quatre heures, en les laissant dans le même état, faute de quoi le requérant se pourvoira en justice, protestant de tous dommages-intérêts. À quoi Lambert a répondu : « Aussitôt que je trouverai un logement, je partirai avec ma famille. » Copie laissée au dit Lambert, parlant à sa personne. Signature : « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "requerant",
+          "nom": "Jérémie Levasseur",
+          "ref_personne": "1871-D1-P030-L13",
+          "note": "« Journalier » de Saint-Romuald, propriétaire d'une maison de bois à un étage du côté ouest de la rue Demers. Recensé chef de famille en 1871 (division 1, maison 78, journalier, 55 ans) et en 1881 (division 1, maison 79, 64 ans, 1881-D1-P021-L04)."
+        },
+        {
+          "role": "autre",
+          "nom": "Jean-Baptiste Lambert",
+          "note": "« Journalier », logé avec sa famille chez Levasseur depuis novembre 1873, « sans abri » auparavant. Aucun Jean-Baptiste Lambert adulte aux recensements de 1871 et 1881 ; non rattaché."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-05-05",
+          "personnes": [
+            "1871-D1-P030-L13"
+          ],
+          "enonce": "Jérémie Levasseur, journalier, possède une maison en bois à un étage du côté ouest de la rue Demers, à Saint-Romuald, qu'il habite et veut réparer."
+        },
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "date": "1874-05-05",
+          "personnes": [],
+          "enonce": "Jean-Baptiste Lambert, journalier, loge avec sa famille, de novembre 1873 à mai 1874, dans deux chambres du premier étage et une partie du grenier de la maison de Jérémie Levasseur, rue Demers."
+        }
+      ],
+      "note": "Acte révélateur de la précarité du logement ouvrier : Levasseur a hébergé un journalier « sans abri » pour l'hiver, à bas prix (sept piastres pour six mois), et le somme de partir au 1er mai, jour traditionnel des déménagements. Le lendemain, Lambert paie ses sept piastres de loyer (quittance n° 112). La maison de la rue Demers est celle où Levasseur est recensé en 1871 (division 1, maison 78) — la dernière maison relue par Patrick dans l'atelier.",
+      "ajoute_le": "2026-11-03"
+    },
+    {
+      "id": "notarie-1874-05-06-quittance-levasseur-lambert",
+      "type": "notarie",
+      "titre": "Quittance par Jérémie Levasseur à Jean-Baptiste Lambert pour le loyer de la rue Demers, 1874",
+      "date": "1874-05-06",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 112, images 001494 à 001496 (Drive : fichiers 04T_CN401S124P_00550 et 00551) ; acte complet.",
+      "nature": "Quittance, passée le 6 mai 1874, après midi, au domicile du comparant, en présence d'un témoin ; Levasseur déclare ne savoir signer ; le témoin et le notaire signent. Un renvoi en marge ; mots rayés.",
+      "transcription": "[001494-95] « N° 112 — 6 mai 1874. […] en présence de Michel Jean Dominique [?], journalier, du dit lieu, témoin […] Fut présent : Sr Jérémie Levasseur, journalier, du dit lieu de St Romuald ; Lequel reconnaît & confesse que Sr Jean Baptiste Lambert, du même lieu, (1) [renvoi : journalier] lui a payé dès avant l'exécution des présentes, en bon argent courant & à l'entière satisfaction du comparant, la somme de sept piastres courant, étant pour le parfait & entier paiement du loyer des prémisses louées au dit Sr Lambert par le comparant, jusqu'à la date du trente avril dernier. — [001495-96] Dont & du tout le dit comparant lui donne & accorde quittance générale & finale. Dont acte, fait & passé à St Romuald susdit, demeure du comparant, les jour, mois & an susdits, sous le numéro cent douze des originaux du notaire soussigné. Et le dit comparant, requis de signer, a déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. [ ] mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » Signatures : « Michel […] » (lecture incertaine), « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "creancier",
+          "nom": "Jérémie Levasseur",
+          "ref_personne": "1871-D1-P030-L13",
+          "note": "« Journalier » de Saint-Romuald ; ne sait signer. Le requérant de la sommation n° 111."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Jean-Baptiste Lambert",
+          "note": "« Journalier » de Saint-Romuald ; paie ses sept piastres de loyer jusqu'au 30 avril 1874. Non rattaché (voir le n° 111)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Michel Jean Dominique [?]",
+          "note": "« Journalier, du dit lieu » ; signe d'une main malaisée à lire. Nom de lecture incertaine ; non rattaché."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "date": "1874-04-30",
+          "personnes": [],
+          "enonce": "Jean-Baptiste Lambert, journalier, a loué de Jérémie Levasseur des prémisses à Saint-Romuald jusqu'au 30 avril 1874, et en a payé le loyer de sept piastres le 6 mai."
+        }
+      ],
+      "note": "Suite immédiate de la sommation n° 111 : Lambert règle son loyer le lendemain. L'acte ne dit pas s'il a quitté les lieux.",
+      "ajoute_le": "2026-11-03"
     }
   ]
 }
