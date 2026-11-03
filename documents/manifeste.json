@@ -8626,7 +8626,7 @@
           "enonce": "Le rentier Joseph Bourassa de 1874 est le cultivateur de 56 ans de 1871 (maison 63), rentier de 66 ans en 1881 (maison 83) : un seul Joseph Bourassa adulte dans la paroisse, épouse Geneviève aux deux recensements."
         }
       ],
-      "note": "Un contrat de métayage complet, rare par le détail : cheptel apporté par chaque partie, outils inventoriés (crible, charrue, trois herses, chaîne à billots, broc et croc, banneau sans roues…), partage par moitié des grains, du foin, des profits et même de la dîme, chaux pour blanchir les bâtiments tous les deux ans, moulin à battre à construire l'hiver suivant. La « route des Belles-Amours » est nommée ici pour la première fois. Le bail peut être rompu chaque année par le bailleur. Rattacher Joseph Bourassa au dossier Bourassa (maison 1900-cf) serait prématuré : rien ne dit ici qu'il est le frère de François et d'Edouard.",
+      "note": "Un contrat de métayage complet, rare par le détail : cheptel apporté par chaque partie, outils inventoriés (crible, charrue, trois herses, chaîne à billots, broc et croc, banneau sans roues…), partage par moitié des grains, du foin, des profits et même de la dîme, chaux pour blanchir les bâtiments tous les deux ans, moulin à battre à construire l'hiver suivant. La « route des Belles-Amours » est nommée ici pour la première fois. Le bail peut être rompu chaque année par le bailleur. Rattacher Joseph Bourassa au dossier Bourassa (maison 1900-cf) serait prématuré : rien ne dit ici qu'il est le frère de François et d'Edouard. Les fermiers précédents, Damase et Alfred Audet dit Lapointe (bail du 17 avril 1873, Me Légaré), rendent la ferme le 1er mai 1874 et laissent le cheptel à Vallières (acte n° 101).",
       "ajoute_le": "2026-11-02"
     },
     {
@@ -9132,7 +9132,7 @@
         {
           "role": "concedant",
           "nom": "Antoine Hallé",
-          "note": "Seigneur foncier de l'emplacement (bail à rente du 26 janvier 1863, Me E. Simard) ; borne le terrain au sud. Non retrouvé aux recensements (des Hallé forgerons vivent dans la division 1 en 1871) : non rattaché."
+          "note": "Seigneur foncier de l'emplacement (bail à rente du 26 janvier 1863, Me E. Simard) ; borne le terrain au sud. Non retrouvé aux recensements (des Hallé forgerons vivent dans la division 1 en 1871) : non rattaché. Mort avant le 1er mai 1874 : sa veuve perçoit les rentes (acte n° 102)."
         },
         {
           "role": "voisin",
@@ -10005,7 +10005,7 @@
         {
           "role": "bailleur",
           "nom": "Peter O'Regan",
-          "note": "« Écuier, marchand, demeurant en la paroisse de St Romuald » ; signe « P. O. Regan ». Le nom complet, « Peter O'Regan » [lecture probable], est écrit au bail n° 93 du même jour. Aucun O'Regan aux recensements dépouillés : non rattaché."
+          "note": "« Écuier, marchand, demeurant en la paroisse de St Romuald » ; signe « P. O. Regan ». Le nom complet, « Peter O'Regan » , est écrit au bail n° 93 du même jour. Aucun O'Regan aux recensements dépouillés : non rattaché. Marchand-épicier, « ci-devant de la cité de Québec » (bail n° 103)."
         },
         {
           "role": "preneur",
@@ -10066,7 +10066,7 @@
         {
           "role": "bailleur",
           "nom": "Peter O'Regan",
-          "note": "« Écuier, marchand, demeurant à St Romuald » ; signe « P. O. Regan » ; le prénom « Peter » est écrit en toutes lettres dans l'acte, le patronyme est de lecture probable. Propriétaire de maisons de rapport louées à la semaine (n° 92 et 93). Aucun O'Regan ni Regan aux recensements dépouillés : non rattaché."
+          "note": "« Écuier, marchand, demeurant à St Romuald » ; signe « P. O. Regan » ; le prénom « Peter » est écrit en toutes lettres dans l'acte, et le bail n° 103 du 2 mai 1874 le dit « Peter O'Regan, écuier, marchand-épicier, du dit lieu de St Romuald & ci-devant de la cité de Québec ». Propriétaire de maisons de rapport louées à la semaine (n° 92 et 93). Aucun O'Regan ni Regan aux recensements dépouillés : non rattaché."
         },
         {
           "role": "preneur",
@@ -10461,6 +10461,134 @@
         }
       ],
       "note": "Fin de bail au 1er mai, jour des déménagements : le propriétaire donne quittance du loyer échu la veille. Le recensement de 1871 anglicise le prénom (« John Vachon ») et celui de 1881 écrit « colleur » pour « culler ».",
+      "ajoute_le": "2026-11-03"
+    },
+    {
+      "id": "notarie-1874-05-01-accord-bourassa-lapointe",
+      "type": "notarie",
+      "titre": "Accord et quittance entre Joseph Bourassa, rentier, et ses anciens fermiers Damase et Alfred Audet dit Lapointe : partage des fruits et résiliation du bail à ferme de 1873, 1874",
+      "date": "1874-05-01",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 101, images 001440 à 001446 (Drive : fichiers 04T_CN401S124P_00496 à 00501) ; acte complet",
+      "nature": "Accord, partage et quittance mutuelle avec résiliation de bail à ferme, passé le 1er mai 1874, après-midi, en la demeure des fermiers, « située dans la maison du dit sieur Bourassa » ; les trois parties signent. En marge : « Accord & quittance entre Jos. Bourassa & Lapointe & alias — original — Expédié 1 fois ». Un renvoi paraphé « J. B. », « D. A. L. », « A. A. L. » et du notaire.",
+      "transcription": "[001440-41] « N° 101 — 1er mai 1874. L'an mil huit cent soixante-quatorze, le premier jour de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Joseph Bourassa, écuier, agronome & rentier, du dit lieu de St Romuald, comté susdit ; Lequel a, par ces présentes, reconnu & confessé avoir, à son entière satisfaction, eu & reçu la part des fruits & revenus provenant d'une certaine ferme qu'il a baillée à Damase & Alfred Lapointe, de St Jean Chrysostome, dit comté, cultivateurs, & ci-devant de St Charles, comté de Bellechasse, & avoir fait entre eux tous accords. Les dits Damase & Alfred Lapointe, à ce aussi présents, se déclarant satisfaits & contents, — [001441-42] le dit partage ayant été fait comme suit, savoir : 1° Les dits sieurs Lapointe s'obligent lier & livrer au dit sieur Bourassa huit cent soixante-treize bottes de foin bon & vendable ; sur & en déduction duquel nombre, cinquante-six bottes ont été livrées dès avant ces présentes à Louis Vallières, fermier du dit sieur Bourassa, laissant ainsi une balance de huit cent dix-sept bottes à être livrées le quatre de mai courant ; 2° De faire ou faire faire, aux frais d'eux dits sieurs Lapointe, la même quantité & qualité de labours qu'il y avait sur la dite ferme le printemps dernier, les dits labours devant être faits assez tôt pour recevoir la semence ce printemps. Et tout partage fait, les dits sieurs Audet ont payé trois chelins & demi pour balance en argent revenant au dit sieur Bourassa, qui le reconnaît. Et dans le cas où il y aurait un résidu de foin, le nombre de bottes ci-dessus livré, alors tel résidu devra être lié & partagé entre eux par moitié ; — [001442-43] 3° De mesurer & livrer au dit sieur Bourassa (1) [renvoi : la moitié des patates qu'il y a maintenant] d'huy au quatre de mai prochain, à midi ; 4° De ne point se servir des animaux & autres objets ou ustensiles d'agriculture appartenant à Mr Bourassa pour labourer tel que susdit ; 5° De laisser au dit sieur Bourassa les quatre cochons (porcs), & de partager avec lui la laine & les petits moutons qu'il y aura l'automne prochain, ces derniers étant pacagés & hébergés sur la dite ferme jusqu'au vingt-neuf d'août prochain, temps où le partage susdit se fera ; 6° De laisser tous les animaux suivants entre les mains du dit Vallières, savoir : deux paires de bœufs, quatre vaches, deux taures, un bœuf de deux ans, dix gros moutons, seize volailles, ainsi que tous les ustensiles d'agriculture & autres instruments & voitures mentionnés au dit bail à ferme exécuté devant Mtre Légaré le dix-sept avril mil huit cent soixante-treize. — [001443-44] Les dits sieurs Lapointe ayant vendu au dit sieur Bourassa deux cochons, la part qu'ils avaient à prétendre dans une petite taure, de un an ou à peu près, sus-mentionnés. Le bois coupé à l'usage des dits sieurs Lapointe & qu'ils délaisseront à leur départ, ainsi que toutes perches & piquets coupés & abattus, & toutes autres améliorations faites à la dite ferme & aux bâtisses dessus construites, seront & demeureront la propriété du dit sieur Bourassa sans indemnité. Les dits sieurs Lapointe consentant à tout ce que dessus & renonçant à l'usage du mobilier & autres effets, ainsi que des animaux sus-mentionnés, à dater de ce jour. Et les dites parties se déclarant satisfaites à tous égards, mutuellement se quittent & déchargent — [001444-45] entièrement de toutes & chacune les réclamations qu'elles ont & peuvent avoir les unes à l'égard des autres, & veulent & entendent que le dit bail à ferme sus-daté soit radié & demeure nul de ce jour & à toujours. Dont & du tout les dites parties ont requis le présent acte, qui leur a été octroyé les jour, mois & an susdits, en la demeure des dits sieurs Lapointe, située dans la maison du dit sieur Bourassa, à St Jean Chrysostome susdit, sous le numéro cent un des originaux du notaire soussigné. Et les parties ont signé avec moi, notaire, lecture faite. — [001445-46] [ ] mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » Signatures : « Joseph Bourassa », « Damase Audet dit Lapointe », « Alfred Audet dit Lapointe », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Joseph Bourassa",
+          "ref_personne": "1871-D1-P024-L13",
+          "note": "« Écuier, agronome & rentier », de Saint-Romuald ; propriétaire de la ferme de Saint-Jean-Chrysostome (le Petit-Saint-Jean du n° 69) ; signe. Rattachement probable (voir le n° 69)."
+        },
+        {
+          "role": "partie",
+          "nom": "Damase Audet dit Lapointe",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, « ci-devant de St Charles, comté de Bellechasse » ; fermier sortant de Joseph Bourassa depuis le bail du 17 avril 1873 (Me Légaré) ; signe. Absent des recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "partie",
+          "nom": "Alfred Audet dit Lapointe",
+          "note": "Cultivateur, associé de Damase au même bail ; signe. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Louis Vallières",
+          "note": "« Fermier du dit sieur Bourassa » : le nouveau métayer du bail n° 69 (18 mars 1874), qui reçoit les animaux et les outils."
+        },
+        {
+          "role": "notaire",
+          "nom": "Légaré",
+          "note": "A reçu le bail à ferme Bourassa–Lapointe du 17 avril 1873."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "probable",
+          "date": "1874-05-01",
+          "personnes": [
+            "1871-D1-P024-L13"
+          ],
+          "enonce": "Joseph Bourassa, rentier de Saint-Romuald, avait affermé sa ferme de Saint-Jean-Chrysostome aux frères (?) Damase et Alfred Audet dit Lapointe par bail du 17 avril 1873 ; il résilie ce bail le 1er mai 1874, au moment où entre Louis Vallières (bail n° 69)."
+        }
+      ],
+      "note": "Le pendant du bail à ferme n° 69 : les sortants rendent la ferme au 1er mai, partagent la récolte de foin (873 bottes), les patates, la laine et les agneaux, laissent le cheptel au nouveau fermier et ne gardent aucune amélioration. Ils logeaient « dans la maison du dit sieur Bourassa ». Le nom complet, Audet dit Lapointe, n'apparaît qu'aux signatures.",
+      "ajoute_le": "2026-11-03"
+    },
+    {
+      "id": "notarie-1874-05-01-vente-bilodeau-lefebvre",
+      "type": "notarie",
+      "titre": "Résiliation d'une vente de 1872 et nouvelle vente par Ferdinand Bilodeau à Joseph Lefebvre, journaliers, d'un emplacement au pied du cap avec deux maisons, voisin de Robert McReady, 1874",
+      "date": "1874-05-01",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 102, images 001446 à 001452 (Drive : fichiers 04T_CN401S124P_00502 à 00507 ; le fichier 00508, image 001452-53, porte un calcul au crayon : 800…) ; acte complet",
+      "nature": "Résiliation de vente et vente nouvelle, passées le 1er mai 1874, après-midi, en la demeure de l'acquéreur, devant un témoin ; l'acquéreur ne sait pas signer. En marge : « Résiliation & vente entre Bilodeau & Lefebvre — original — Expédié 1 fois », et les frais : bail à rente foncière Hallé à Bilodeau 1,50 ; le présent 1,85 ; original et copie 1,15 ; total 4,50 — « enregistrés ». Quatre renvois paraphés « F. B. », « R. M. » et du notaire.",
+      "transcription": "[001446-47] « N° 102 — 1er mai 1874. L'an mil huit cent soixante-quatorze, le premier jour de mai, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant à St Romuald, comté de Lévis, soussigné, & en présence de Robert McReady, écuier, marchand, de la paroisse de St Romuald susdit, témoin au présent acte, aussi soussigné ; Fut présent : Mr Ferdinand Bilodeau, journalier, demeurant au dit lieu de St Romuald, d'une part ; Et Mr Joseph Lefebvre, du même lieu, journalier, d'autre part ; Lesquelles parties de la première & de la seconde part sont convenues de ce qui suit, savoir : Attendu qu'un certain acte de vente (1) [renvoi : a été] consenti par le dit Sr Bilodeau en faveur du dit Sr Lefebvre, en date du quinze de février mil huit cent soixante-douze, reçu — [001447-48] par Mtre Légaré, en présence de témoin, & enregistré au bureau d'enregistrement de la seconde division de Dorchester, Reg. B, vol. 19, page 698, n° 15,367 ; Attendu que pour certaines considérations les dites parties entendent résilier le dit acte de vente susdaté ; C'est pourquoi le dit acte de vente est par les présentes résilié & rescindé de ce jour & à toujours, de même que s'il n'eût jamais eu lieu. [Le reste de la page est barré.] — [001448-49] Et par ces mêmes présentes, le dit sieur Ferdinand Bilodeau vend, cède, transporte & abandonne dès ce jour & à toujours, avec garantie de tous troubles & autres empêchements quelconques, au dit sieur Joseph Lefebvre, à ce présent & acceptant (renvoi : acquéreur) pour lui, ses hoirs & ayants cause à l'avenir, l'immeuble suivant, savoir : “Un lot de terre ou emplacement contenant quatre-vingts pieds de front, plus ou moins, sur quatre-vingt-dix de profondeur au côté nord-est & quatre-vingts de profondeur au côté sud-ouest, plus ou moins, situé à St Romuald ; borné au nord à feu Joseph Huard, au sud au pied du cap, au nord-est à une rue & au sud-ouest à Robert McReady, écuier ; avec ensemble deux maisons en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances.” — [001449-50] Le vendeur se réservant une petite étable construite & placée sur le dit emplacement, & qu'il s'oblige faire enlever à la première réquisition de l'acquéreur. Tel que le tout est actuellement, se poursuit, comporte & s'étend de toutes parts, sans autre réserve quelconque. Pour par le dit acquéreur jouir de tout ce que dessus désigné & vendu en pleine propriété à compter de ce jour & à toujours, le vendeur s'en dessaisissant à son profit & voulant qu'il en soit saisi & mis en possession en vertu des présentes. Cette vente est faite à la charge par l'acquéreur, qui s'y oblige pour lui, ses hoirs & ayants cause : 1° De payer à Dame veuve Antoine Hallé, ses hoirs & ayants cause, sept piastres courant par année, en sa demeure, de rente foncière & constituée, rachetable en un seul paiement, laquelle dite rente sera payable le vingt-neuf septembre de chaque année ; 2° De bâtir & tenir bâtie sur — [001450-51] le dit emplacement une maison habitable & logeable de suffisante valeur pour garantir le paiement de la dite rente sur le dit terrain, qui demeure spécialement hypothéqué par privilège de bailleur de fonds (renvoi : de la dite Dame Hallé) ; 3° D'entretenir une cheminée en pierres ou en briques aux dites maisons ; 4° De payer toutes les taxes généralement quelconques imposables sur le dit emplacement ; lesquelles dites rentes & taxes sont garanties quittes de tous arrérages à échoir ; 5° De clore à ses frais le dit emplacement ; d'entretenir à ses frais tous chemins, fronts, fossés & cours d'eau ; 6° De se conformer au bail à rente foncière exécuté en faveur du dit sieur Bilodeau par la dite Dame Hallé devant Mtre L. Laliberté (1) [renvoi : & témoin, le vingt-sept [?] juillet mil huit cent soixante-dix] ; 7° Pour le prix de cinquante-deux louis courant, payé dès avant l'exécution des présentes à l'entière satisfaction du vendeur, & en bon argent courant, ainsi que le vendeur le reconnaît & en donne quittance — [001451-52] générale & finale au dit acquéreur. Et pour l'exécution des présentes, les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald susdit, demeure de l'acquéreur, les jour, mois & an susdits, sous le numéro cent deux des originaux du notaire soussigné. Et le dit vendeur & le dit témoin ont signé avec moi, notaire, le dit acquéreur, de ce requis, ayant déclaré ne le savoir, lecture faite. [ ] mots rayés sont nuls. Quatre renvois en marge sont bons & approuvés. » Signatures : « Ferdinand Bilodeau », « Robert McReady », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Ferdinand Bilodeau",
+          "note": "« Journalier, demeurant au dit lieu de St Romuald » ; signe « Ferdinand Bilodeau ». Concessionnaire à rente de la veuve Antoine Hallé depuis 1870. Le seul Ferdinand Bilodeau recensé a 5 ans en 1871 : non rattaché."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Joseph Lefebvre",
+          "ref_personne": "1871-D2-P021-L03",
+          "note": "« Du même lieu, journalier » ; ne sait pas signer ; l'acte est passé en sa demeure. Sans doute le même que le bailleur du n° 57 (10 mars 1874), dont la maison de New-Liverpool est voisine de Robert McReady comme celle-ci. Rattachement probable : journalier de 26 ans en 1871 (division 2, maison 52)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Robert McReady",
+          "ref_personne": "1871-D2-P029-L08",
+          "note": "« Écuier, marchand, de la paroisse de St Romuald » ; signe ; voisin au sud-ouest de l'emplacement vendu. Le marchand de New-Liverpool (lieu 1596-cf)."
+        },
+        {
+          "role": "concedant",
+          "nom": "Dame veuve Antoine Hallé",
+          "note": "Veuve d'Antoine Hallé, seigneuresse foncière (rente de 7 piastres) ; son mari avait concédé l'emplacement du n° 78 en 1863 et est mort avant mai 1874. Non rattachée."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Huard",
+          "note": "« Feu Joseph Huard » borne au nord. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Légaré",
+          "note": "A reçu la première vente Bilodeau–Lefebvre du 15 février 1872."
+        },
+        {
+          "role": "notaire",
+          "nom": "L. Laliberté",
+          "note": "A reçu le bail à rente Hallé–Bilodeau de 1870."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "probable",
+          "date": "1874-05-01",
+          "personnes": [
+            "1871-D2-P021-L03"
+          ],
+          "enonce": "Joseph Lefebvre, journalier, achète 52 louis de Ferdinand Bilodeau un emplacement de 80 pieds au pied du cap, entre une rue (au nord-est) et Robert McReady (au sud-ouest), avec deux maisons de bois, chargé de 7 piastres de rente envers la veuve Antoine Hallé."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1874-05-01",
+          "personnes": [],
+          "enonce": "Antoine Hallé, concédant d'emplacements à New-Liverpool (n° 78), est mort avant le 1er mai 1874 ; sa veuve perçoit les rentes."
+        }
+      ],
+      "note": "La vente de 1872 est annulée et refaite, sans doute pour corriger le titre (la vente de 1872 était enregistrée à Dorchester, alors que le terrain est à Saint-Romuald, comté de Lévis). L'emplacement, au pied du cap et voisin de Robert McReady, est à New-Liverpool, comme la maison louée par Joseph Lefebvre au n° 57 — sans doute l'une des deux maisons achetées ici.",
       "ajoute_le": "2026-11-03"
     }
   ]
