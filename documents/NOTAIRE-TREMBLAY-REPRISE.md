@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (98 fiches au 3 novembre 2026).
+fiche dont l'identifiant commence par `notarie-` (121 fiches au 3 novembre 2026).
 
 ## Où sont les images
 
@@ -47,10 +47,30 @@ lue** : actes n° 56 à 88 complets, et le **début du testament n° 89** de Jos
 Lemelin (18 avril 1874, fichiers 00449-00450), dont la fin est sur le fichier
 **00451, absent du Drive**. 98 fiches `notarie-` en tout.
 
-**Pour reprendre, il faut que Patrick ajoute au Drive les fichiers 00451 à
-00550** (actes n° 89 à 112, avril-mai 1874). Reprendre alors au fichier 00451 :
-compléter la fiche `notarie-1874-04-18-testament-joseph-lemelin` (fin des legs,
-signatures), puis continuer.
+**Mise à jour du 3 novembre 2026, soir.** Patrick a ajouté les fichiers
+**00451 à 00550** (sous-dossier `451-500`, puis `501-550`). La série est
+**entièrement lue** : le testament n° 89 de Joseph Lemelin est complété, et les
+actes **n° 90 à 112** (18 avril au 6 mai 1874) sont transcrits ; la fin du
+n° 112 est sur le fichier 00551. Les actes n° 113 à 122 (fichiers 00551 à
+00601) étaient déjà versés. **121 fiches `notarie-` en tout.**
+
+**Pour reprendre** : continuer au fichier **00602** (microfilm 001546-47),
+après l'acte n° 122, si Patrick l'a mis au Drive ; sinon, s'attaquer aux pages
+manquantes du tableau plus bas.
+
+Fils suivis dans la série 00451-00550 :
+
+- **Joseph Bourassa** (n° 69, 91, 101) : la ferme du Petit-Saint-Jean passe
+  de Lapointe à Vallières ;
+- **la maison Leclerc, rue Saint-Paul** (n° 88, 104 à 106) : bail Leclerc →
+  Foster → sous-bail Gingras → bail Sirois ;
+- **Peter O'Regan**, « écuier, marchand-épicier, ci-devant de la cité de
+  Québec », bailleur (n° 92, 93, 103) ; le n° 92 avait d'abord été lu
+  « P. O. Régnault » ;
+- **« Ritchie & Cull »** (n° 58, 71, 110) : William Ritchie paraît au n° 110 ;
+- **Jérémie Levasseur, rue Demers** (n° 111-112) : sommation à un locataire
+  « sans abri » hébergé pour l'hiver — c'est la maison 78 de 1871-D1, la
+  dernière relue par Patrick dans l'atelier.
 
 Pour retrouver les identifiants Drive d'un lot, une seule recherche suffit :
 `title contains '04T_CN401S124P_0037'` (puis `0038`, `0039`…).
