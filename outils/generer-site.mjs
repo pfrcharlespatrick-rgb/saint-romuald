@@ -252,7 +252,13 @@ function referenceDe(doc) {
     source: doc.source || '', cote: doc.cote || '', date: doc.date || '',
     ...(doc.date_incertaine ? { date_incertaine: true } : {}),
     ...(doc.url ? { url: doc.url } : {}),
-    ...(doc.transcription ? { transcription: doc.transcription } : {})
+    ...(doc.transcription ? { transcription: doc.transcription } : {}),
+    // Les images du manuscrit, rangées par outils/tropy/fondre.mjs : seul ce
+    // qu'il faut pour les montrer (aperçu Google Drive) et les citer.
+    ...(doc.images && doc.images.length ? {
+      images: doc.images.map((i) => ({ fichier: i.fichier, microfilm: i.microfilm,
+        ...(i.drive ? { drive: i.drive } : {}), ...(i.legende ? { legende: i.legende } : {}) }))
+    } : {})
   };
 }
 
