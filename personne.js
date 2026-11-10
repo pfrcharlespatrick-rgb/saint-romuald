@@ -139,8 +139,23 @@
       rendreLieu(f) +
       '<div class="registre"><table><thead>' + thead + '</thead><tbody>' + lignes + '</tbody></table></div>' +
       marginale +
+      rendrePageManuscrit(f) +
       '</section>'
     );
+  }
+
+  // La page du manuscrit où la personne est inscrite, repliée : l'image ne se
+  // charge que si le lecteur ouvre le volet. Un clic l'ouvre en grand.
+  function rendrePageManuscrit(f) {
+    if (!f.image_ms || !/^manuscrit\/[\w-]+\/P\d{3}\.jpg$/.test(f.image_ms)) return '';
+    var page = parseInt(f.image_ms.slice(-7, -4), 10);
+    return '<details class="page-ms"><summary>Voir la page du manuscrit (page ' + page +
+      (f.ligne ? ', ligne ' + esc(f.ligne) : '') + ')</summary>' +
+      '<a href="' + f.image_ms + '" target="_blank" rel="noopener">' +
+      '<img loading="lazy" src="' + f.image_ms + '" alt="Recensement de ' + esc(f.annee) + ', division ' + esc(f.division) +
+      ', page ' + page + ' du manuscrit"></a>' +
+      '<p class="bloc-note">Cliquez sur l\'image pour l\'ouvrir en grand et zoomer. Les lignes sont numérotées dans les marges du formulaire.' +
+      ' Source : Bibliothèque et Archives Canada, recensement de 1871, microfilm.</p></details>';
   }
 
   /* Où cette personne vivait — quand la maison du recensement a été rattachée

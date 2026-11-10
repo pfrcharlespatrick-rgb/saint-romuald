@@ -35,6 +35,19 @@ function ecrireJson(cheminRelatif, valeur) {
   return chemin;
 }
 
+// Les pages du manuscrit découpées en images (manuscrit/<annee>-D<div>/P<nnn>.jpg).
+const imagesManuscrit = new Set();
+for (const lot of (fs.existsSync(path.join(RACINE, 'manuscrit')) ? fs.readdirSync(path.join(RACINE, 'manuscrit')) : [])) {
+  const dir = path.join(RACINE, 'manuscrit', lot);
+  if (!fs.statSync(dir).isDirectory()) continue;
+  for (const f of fs.readdirSync(dir)) if (/^P\d{3}\.jpg$/.test(f)) imagesManuscrit.add(`manuscrit/${lot}/${f}`);
+}
+function imageManuscrit(id) {
+  const m = /^(\d{4}-D\d)-P(\d{3})-/.exec(id);
+  const chemin = m && `manuscrit/${m[1]}/P${m[2]}.jpg`;
+  return chemin && imagesManuscrit.has(chemin) ? chemin : null;
+}
+
 // ───────────────────────── index de recherche ─────────────────────────
 // [id, "Prénom Nom", profession] — l'année et la division se lisent dans
 // l'id (AAAA-Ddivision-...). Volontairement minimal : sous les 500 Ko pour
@@ -169,6 +182,9 @@ for (const p of d.personnes.values()) {
     page_ms: p.page_ms, ligne: p.ligne,
     incertain: !!p.incertain,
     remarque: nettoyerRemarque(p.remarque),
+    // L'image de la page du manuscrit, quand elle a été découpée des recueils
+    // (outils/manuscrit/pages71.py) : manuscrit/<annee>-D<division>/P<page>.jpg.
+    ...(imageManuscrit(p.id) ? { image_ms: imageManuscrit(p.id) } : {}),
     // Ligne que le recenseur a biffée : conservée, mais hors du dénombrement.
     biffee: !!p.biffee,
     // Colonnes du formulaire au-delà des six champs communs. Absentes de la
