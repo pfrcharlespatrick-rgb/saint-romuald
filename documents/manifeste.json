@@ -15226,6 +15226,231 @@
       ],
       "note": "Le 20 juin 1874, chez lui à Saint-Jean-Chrysostome, Pierre Roberge concède six emplacements de sa terre de la concession Saint-Augustin (minutes n° 122 à 127), tous aux mêmes conditions : sept piastres de rente par an, une maison à bâtir dans l'année. Les voisins nommés d'un acte à l'autre (Antoine Paradis, Michel Leclerc, la route) dessinent un petit hameau en lotissement. Seul des concessionnaires du 20 juin à savoir signer, et seul à paraître au recensement de Saint-Romuald (1871, division 2).",
       "ajoute_le": "2026-11-10",
+      "images": [
+        {
+          "fichier": "00618",
+          "microfilm": "001562",
+          "drive": "1n6GxropL43htBIMKDbjlgPUaJImucaAJ",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00619",
+          "microfilm": "001563",
+          "drive": "1Kq7ffOiCzddqt369poX5jXeiQXQ_i2sM",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00620",
+          "microfilm": "001564",
+          "drive": "1eD2IjGI3fYHd2NFKUGB6JOh9tBB0SPx8",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00621",
+          "microfilm": "001565",
+          "drive": "1Sdo4lN7cefJSIPiBb1EpuE10yjhdF3Iq",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-06-20-bail-roberge-paradis",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Pierre Roberge à Ferdinand Paradis, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-06-20",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 128, images 001566 à 001569 (Drive : fichiers 04T_CN401S124P_00622 à 00625) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juin 1874, après midi, à Saint-Jean-Chrysostome, demeure du concédant. En marge : « Roberge à Paradis — Orig. — Exp. 1 f. ». Cent quatre [?] mots rayés nuls. Le fichier 00625 est le dos imprimé de la chemise, resté blanc. Septième et dernier bail Roberge du 20 juin.",
+      "transcription": "[001566-67] « N° 128 — 20 juin 1874. Pardevant le Notaire Public […] Et en présence de Pierre Langlois, journalier, de St Jean Chrysostome, dit comté, témoin […] ; Fut présent Mr Pierre Roberge, de St Jean Chrysostome, dit comté, cultivateur ; Lequel a par ces présentes baillé et concédé […] à sieur Ferdinand Paradis, du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant cinquante pieds de front sur cent pieds de profondeur, plus ou moins ; borné au sud à une route, au nord à Michel Leclerc, à l'est à Michel Bégin & à l'ouest à Jean-Baptiste Demers, circonstances & dépendances. » — [001567-68] Charges (formulaire imprimé) : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues, ruelles et fossés ; payer au concédant, le huit juillet de chaque année, à compter du huit juillet prochain, sept piastres courant de rente foncière et constituée, rachetable au capital de cent seize piastres et soixante-sept centins ; hypothèque spéciale ; droit de retrait réservé au sieur Roberge ; copie enregistrée à fournir. Clause de résolution biffée. — [001568-69] « Dont acte, fait et passé à St Jean Chrysostome, demeure du concédant, l'an mil huit cent soixante-quatorze, le vingtième jour de juin, après midi, sous le numéro cent vingt-huit des originaux […]. Requis de signer, le dit concédant a déclaré ne le savoir, en présence du dit témoin, qui a signé ainsi que le concessionnaire avec moi, notaire, lecture faite. Cent quatre [?] mots rayés sont nuls. » Signatures : « Ferdinand Paradis », « Pierre Langlois », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait pas signer. Le concédant des n° 122 à 127 ; non rattaché."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Ferdinand Paradis",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe. Déjà voisin à l'ouest du lot de Michel Bégin junior (n° 125). Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Langlois",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe. Témoin des baux Roberge du 20 juin 1874."
+        },
+        {
+          "role": "voisin",
+          "nom": "Michel Leclerc",
+          "note": "Voisin au nord (voir n° 123 et 125)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Michel Bégin",
+          "note": "Voisin à l'est : le père ou le fils (n° 123 et 125)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Jean-Baptiste Demers",
+          "note": "Voisin à l'ouest. Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le 20 juin 1874, Pierre Roberge concède sept emplacements de sa terre de la concession Saint-Augustin, à Saint-Jean-Chrysostome (minutes n° 122 à 128), tous à sept piastres de rente. Les voisins nommés d'un acte à l'autre (Michel Leclerc, les Bégin, Antoine et Ferdinand Paradis, la route) permettent de recomposer le plan du lotissement.",
+      "ajoute_le": "2026-11-10",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-06-22-resiliation-roberge",
+      "type": "notarie",
+      "titre": "Résiliation de vente entre Hubert et Magloire Roberge et leur neveu Louis-Hubert Roberge, 1874",
+      "date": "1874-06-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 129, images 001570 à 001574 (Drive : fichiers 04T_CN401S124P_00626 à 00629) ; acte complet.",
+      "nature": "Résiliation, passée le 22 juin 1874, avant midi, à Saint-Romuald, demeure de Louis-Hubert Roberge, en présence d'un témoin. En marge : « Résiliation Roberge & Roberge — Original — Exp. 2 fois » ; compte des frais : original 1,00, copie 1,00, enregistrement 1,70, total 3,70 $. Un renvoi en marge, paraphé « L. H. R., R. McC., E. H. T. » : « à feu sieur Louis Roberge, leur frère ». Mots rayés nuls.",
+      "transcription": "[001570-71] « N° 129 — 22 juin 1874. L'an mil huit cent soixante-quatorze, le vingt-deuxième jour de juin, avant midi, au présence de Me Elzéar Hubert Tremblay, notaire public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné, Et en présence de Mr Robert McCready, marchand, du dit lieu de St Romuald, témoin au présent acte, aussi soussigné ; Furent présents MM. Hubert Roberge, senior, & Magloire Roberge, tous deux de St Romuald, bateliers, d'une part ; Et Mr Louis Hubert Roberge, du même lieu, navigateur, de la seconde part ; Lesquelles parties de première & seconde parts ont dit & déclaré ce qui suit, savoir : Attendu qu'en date du sept de mars mil huit cent soixante-six [?], les dites parties [de la première part] ont, suivant acte de vente devant Mtre F. M. Guay & son confrère, notaires, vendu [renvoi : à feu sieur Louis Roberge, leur frère], savoir : [001571-72] deux parts de terre de vingt pieds & trois pouces chaque de front, sur quarante arpents de profondeur, enclavées & indivises dans les neuf perches de terre de front sur quarante arpents de profondeur situées en la dite paroisse de St Romuald, premier rang, bornées vers le nord au fleuve St Laurent & vers le sud au bout de la dite profondeur, & joignant vers le sud-ouest au dit acquéreur & vers le nord-est à Magloire Roberge, lequel acte de vente a été enregistré au bureau d'enregistrement du comté de Dorchester, division No Deux, Reg. B, vol. 17, page 152, sous le no 13283, le vingt-trois janvier mil huit cent soixante-neuf. Attendu que la dite vente a été consentie pour le prix de dix louis courant pour chaque lot & autres conditions. Attendu que la dite somme de dix louis pour chaque lot n'a jamais été payée. Attendu que le dit sieur Louis Hubert Roberge est, suivant le testament [001572-73] de feu sieur Louis Roberge, son père, légataire de ce dernier ; Attendu que les dites parties de la première & de la seconde parts, en leurs qualités respectives, sont convenues & demeurées d'accord de résilier, pour causes d'elles connues, le dit acte de vente. C'est pourquoi le dit acte de vente sus-cité & daté est & demeure de ce jour annulé & rescindé, de même que s'il n'eût jamais été exécuté. Dont & du tout les dites parties, ès-qualités, ont requis le présent acte, qui leur a été octroyé, à St Romuald susdit, demeure du dit Sr Louis Hubert Roberge, les jour, mois & an susdits, sous le numéro cent vingt-neuf des originaux du notaire soussigné. Requis de signer, les dits sieurs Hubert & Magloire Roberge ont déclaré ne le savoir, en présence du dit [001573-74] témoin, qui a alors signé ainsi que le dit sieur Louis Hubert Roberge, avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « L. Hubert Roberge », « Robert McReady », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "partie",
+          "nom": "Hubert Roberge, senior",
+          "ref_personne": "1871-D2-P020-L09",
+          "note": "« Batelier » de Saint-Romuald ; ne sait pas signer. Fils de feu Julien Roberge et de feue Luce Demers (n° 130), frère de Magloire et de feu Louis Roberge. Rattaché en probable au navigateur de 54 ans de 1871 (division 2, maison 51) : « senior » le distingue des deux Hubert Roberge plus jeunes, navigateurs eux aussi (1871-D2-P016-L08, 33 ans, et 1871-D2-P029-L19, 29 ans). Recensé en 1881 journalier, 63 ans (1881-D2-P035-L19)."
+        },
+        {
+          "role": "partie",
+          "nom": "Magloire Roberge",
+          "ref_personne": "1871-D2-P016-L18",
+          "note": "« Batelier » de Saint-Romuald ; ne sait pas signer. Frère d'Hubert et de feu Louis Roberge ; propriétaire de la part voisine au nord-est. Rattaché en probable au navigateur de 50 ans de 1871 (division 2, maison 42), seul Magloire Roberge adulte ; journalier de 61 ans en 1881 (1881-D2-P037-L23), navigateur veuf de 70 ans en 1891 (1891-D1-P104-L10)."
+        },
+        {
+          "role": "partie",
+          "nom": "Louis-Hubert Roberge",
+          "note": "« Navigateur » de Saint-Romuald ; signe « L. Hubert Roberge ». Fils et légataire universel de feu Louis Roberge, selon le testament de ce dernier. Candidat : Louis Roberge, batelier, 24 ans en 1871 (1871-D2-P009-L20), fils d'un Louis Roberge veuf de 48 ans (1871-D2-P009-L19) ; mais un Louis Roberge de 58 ans vit encore en 1881 (1881-D2-P057-L06), ce qui laisse douter que le veuf de 1871 soit le « feu » Louis de 1874. Non rattaché."
+        },
+        {
+          "role": "defunt",
+          "nom": "Louis Roberge",
+          "note": "Frère d'Hubert et de Magloire, acquéreur des deux parts en 1866 [?], père de Louis-Hubert ; mort avant le 22 juin 1874, après avoir testé. Non rattaché (voir la note sur Louis-Hubert)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Robert McCready",
+          "ref_personne": "1871-D2-P029-L08",
+          "note": "« Marchand » de Saint-Romuald ; signe « Robert McReady ». Rattaché en probable au marchand de 39 ans de 1871 (« Macready », division 2, maison 75), marchand encore en 1881 (1881-D2-P018-L05)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fratrie",
+          "certitude": "etabli",
+          "date": "1874-06-22",
+          "personnes": [
+            "1871-D2-P020-L09",
+            "1871-D2-P016-L18"
+          ],
+          "enonce": "Hubert Roberge, senior, et Magloire Roberge, bateliers de Saint-Romuald, sont frères, et frères de feu Louis Roberge."
+        },
+        {
+          "type": "propriete",
+          "certitude": "probable",
+          "date": "1874-06-22",
+          "personnes": [
+            "1871-D2-P016-L18"
+          ],
+          "enonce": "Magloire Roberge possède une part de terre du premier rang de Saint-Romuald, entre le fleuve et le bout des quarante arpents, au nord-est des parts revendues à feu Louis Roberge."
+        }
+      ],
+      "note": "La vente de 1866 [?] de deux parts de la terre familiale (neuf perches de front au premier rang, partagées entre les enfants de Julien Roberge et de Luce Demers) n'avait jamais été payée : les frères l'annulent avec le fils et légataire de l'acheteur. Le même jour, sous le n° 130, Hubert et Louis-Hubert échangent leurs parts.",
+      "ajoute_le": "2026-11-10",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-06-22-echange-roberge",
+      "type": "notarie",
+      "titre": "Échange de parts de terre entre Hubert Roberge et Louis-Hubert Roberge, premier rang de Saint-Romuald, 1874",
+      "date": "1874-06-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 130, images 001574 à 001580 (Drive : fichiers 04T_CN401S124P_00630 à 00635) ; acte complet.",
+      "nature": "Échange, passé le 22 juin 1874, avant midi, à Saint-Romuald, demeure de Louis-Hubert Roberge, en présence d'un témoin. En marge : « Échange Roberge & Roberge — Original — Exp. 1 fois — Exp. 1 fois & enregistré ». Deux renvois en marge, paraphés « L. H. R., R. M., E. H. T. ». Mots rayés nuls.",
+      "transcription": "[001574-75] « N° 130 — 22 juin 1874. L'an mil huit cent soixante-quatorze, le vingt-deuxième jour de juin, avant midi, en présence de Elzéar Hubert Tremblay, notaire public […], Et en présence de Mr Robert McCready, du dit lieu de St Romuald, marchand, témoin […] ; Furent présents : Mr Hubert Roberge, senior, du dit lieu de St Romuald, batelier, d'une part ; Et Mr Louis Hubert Roberge, du même lieu, navigateur, d'autre part ; Lesquelles parties ont fait entre elles les échanges & permutations de terres & d'héritages ci-après désignés, & promettant réciproquement garantir solidairement de tous troubles & évictions généralement [001575-76] quelconques : 1° A été cédé & échangé par le dit Sr Hubert Roberge au dit Sr Louis Hubert Roberge, à ce présent & acceptant […], l'immeuble suivant, savoir : Une part de terre de vingt pieds & trois pouces de front sur quarante arpents de profondeur, enclavée & indivise dans les neuf perches de terre de front sur quarante arpents de profondeur, situées en la dite paroisse de St Romuald, premier rang, & étant le lot numéro dix échu au dit sieur Hubert Roberge, ainsi qu'il appert suivant un certain acte de partage d'immeuble de la succession de feue Dame Luce Demers, épouse de feu sieur Julien Roberge & mère du dit sieur Hubert Roberge, comparant, lequel acte de partage a été exécuté devant Mtre J. B. Couillard, notaire, le trente de décembre mil huit cent quarante-huit ; la dite part de terre étant [001576-77] bornée vers le nord au fleuve St Laurent & vers le sud au bout de la dite profondeur, joignant vers le [sud-ouest] & le nord-est au dit sieur Louis Hubert Roberge [mots rayés : « à Dame Luce Roberge, veuve de feu Joseph Bourassa »], (renvoi : circonstances & dépendances). 2° A été cédé & abandonné en contre-échange par le dit sieur Louis Hubert Roberge au dit sieur Hubert Roberge, à ce aussi présent & acceptant […], l'immeuble suivant, savoir : Une part de terre de vingt pieds & trois pouces de front sur quarante arpents de profondeur, étant le deuxième lot mentionné au dit acte de partage susdaté, la dite part de terre étant enclavée & indivise dans les neuf perches de terre de front sur quarante arpents de profondeur situées en la dite paroisse [001577-78] de St Romuald, premier rang, bornée vers le nord au fleuve St Laurent, au sud au bout de la dite profondeur, au sud-ouest à Magloire Roberge & au nord-est à Dame Luce Roberge [mots rayés : « veuve de feu Joseph Bourassa »], circonstances & dépendances. Au dit sieur Louis Hubert Roberge appartient la dite part de terre en sa qualité de légataire de feu sieur Louis Roberge, son père, suivant le testament de ce dernier. Telles que les dites parts de terre se poursuivent, comportent & s'étendent de toutes parts, sans aucune exception ni réserve quelconques, les dites parties se déclarant satisfaites & contentes. Cet échange est fait aux charges & clauses suivantes que les parties promettent & s'obligent exécuter, savoir : 1° De payer toutes [001578-79] les rentes échues & à échoir sur les parts respectives & échangées ci-haut, ainsi que toutes & telles taxes qui seront imposées sur telles parts. En outre pour bonnes & valables considérations. Dont quittance mutuelle & réciproque. Et pour l'exécution des présentes, les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux, &c., car ainsi, &c. Dont acte. Fait & passé à St Romuald susdit, demeure de Mr [001579-80] Louis Hubert Roberge, les jour, mois & an susdits, sous le numéro cent trente des originaux du notaire soussigné. Requis de signer, le dit sieur Hubert Roberge a déclaré ne le savoir, en présence du dit témoin, qui a signé, ainsi que le dit sieur Louis Hubert Roberge, avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « L. Hubert Roberge », « Robert McReady », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "echangiste",
+          "nom": "Hubert Roberge, senior",
+          "ref_personne": "1871-D2-P020-L09",
+          "note": "« Batelier » de Saint-Romuald ; ne sait pas signer. Fils de feu Julien Roberge et de feue Luce Demers (n° 130), frère de Magloire et de feu Louis Roberge. Rattaché en probable au navigateur de 54 ans de 1871 (division 2, maison 51) : « senior » le distingue des deux Hubert Roberge plus jeunes, navigateurs eux aussi (1871-D2-P016-L08, 33 ans, et 1871-D2-P029-L19, 29 ans). Recensé en 1881 journalier, 63 ans (1881-D2-P035-L19)."
+        },
+        {
+          "role": "echangiste",
+          "nom": "Louis-Hubert Roberge",
+          "note": "« Navigateur » de Saint-Romuald ; signe « L. Hubert Roberge ». Fils et légataire universel de feu Louis Roberge, selon le testament de ce dernier. Candidat : Louis Roberge, batelier, 24 ans en 1871 (1871-D2-P009-L20), fils d'un Louis Roberge veuf de 48 ans (1871-D2-P009-L19) ; mais un Louis Roberge de 58 ans vit encore en 1881 (1881-D2-P057-L06), ce qui laisse douter que le veuf de 1871 soit le « feu » Louis de 1874. Non rattaché."
+        },
+        {
+          "role": "defunt",
+          "nom": "Julien Roberge",
+          "note": "Père d'Hubert Roberge ; mort avant 1848. Non rattaché."
+        },
+        {
+          "role": "defunte",
+          "nom": "Luce Demers",
+          "note": "Épouse de feu Julien Roberge, mère d'Hubert Roberge ; sa succession est partagée devant Me J.-B. Couillard le 30 décembre 1848 (lots de vingt pieds trois pouces sur neuf perches de front). Non rattachée."
+        },
+        {
+          "role": "defunt",
+          "nom": "Louis Roberge",
+          "note": "Père et testateur de Louis-Hubert Roberge (voir n° 129). Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Magloire Roberge",
+          "ref_personne": "1871-D2-P016-L18",
+          "note": "Voisin au sud-ouest de la part reçue par Hubert (voir n° 129)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Luce Roberge",
+          "note": "Voisine au nord-est ; le notaire a écrit puis rayé « veuve de feu Joseph Bourassa ». Non rattachée ; la mention rayée est à vérifier, Joseph Bourassa, rentier, étant vivant au n° 69."
+        },
+        {
+          "role": "temoin",
+          "nom": "Robert McCready",
+          "ref_personne": "1871-D2-P029-L08",
+          "note": "« Marchand » de Saint-Romuald ; signe « Robert McReady ». Rattaché en probable au marchand de 39 ans de 1871 (« Macready », division 2, maison 75), marchand encore en 1881 (1881-D2-P018-L05)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "date": "1848-12-30",
+          "personnes": [
+            "1871-D2-P020-L09"
+          ],
+          "enonce": "Hubert Roberge est fils de feu Julien Roberge et de feue Luce Demers, dont la succession fut partagée devant Me J.-B. Couillard le 30 décembre 1848."
+        },
+        {
+          "type": "propriete",
+          "certitude": "probable",
+          "date": "1874-06-22",
+          "personnes": [
+            "1871-D2-P020-L09"
+          ],
+          "enonce": "Hubert Roberge, senior, reçoit par échange de son neveu Louis-Hubert le deuxième lot (vingt pieds trois pouces sur quarante arpents) du partage de 1848, au premier rang de Saint-Romuald, et lui cède le lot n° 10."
+        }
+      ],
+      "note": "Suite immédiate du n° 129 : une fois la vente de 1866 [?] annulée, oncle et neveu remembrent leurs parts de la terre des Roberge au premier rang (neuf perches de front partagées en lots de vingt pieds trois pouces), chacun regroupant les siennes. L'acte cite le partage de la succession de Luce Demers, épouse de Julien Roberge, devant Me J.-B. Couillard le 30 décembre 1848 : à chercher.",
+      "ajoute_le": "2026-11-10",
       "images": []
     }
   ]
