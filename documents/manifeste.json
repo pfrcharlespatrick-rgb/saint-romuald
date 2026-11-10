@@ -16094,6 +16094,106 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1874-07-11-bail-demers-nicol",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Jean-Baptiste Nicol, entrepreneur, rues Saint-Paul et Saint-Jean-Baptiste, 1874",
+      "date": "1874-07-11",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 141, images 001625 à 001629 (Drive : fichiers 04T_CN401S124P_00681 à 00684) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 11 juillet 1874, après midi, en l'étude du notaire, sans témoin ; les deux parties signent. En marge : « B. Demers à J. Bte Nicol — Orig. — Exp. 2 f. — Payé pour enregistrement 2,00 $ ». Un renvoi en marge, paraphé « B. D., J. Bte N., E. H. T. » ; une clause manuscrite biffée. Chemise imprimée « Bail à rente foncière par … à Jean Bte Nicol — Copie », 3,58 $ (fichier 00684).",
+      "transcription": "[001625-26] « N° 141 — 11 juillet 1874. Pardevant le Notaire Public […] Fut présent Benjamin Demers, écuier, cultivateur, du dit lieu de St Romuald, dit comté, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […] à Jean-Baptiste Nicol, du même lieu, entrepreneur, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, comté susdit, contenant cinquante pieds de front sur soixante pieds de profondeur, borné en front, à l'est, à la rue St Paul, à l'ouest au concessionnaire, au nord à Michel Larivée & au sud à la rue St Jean-Baptiste, circonstances & dépendances. » — [001626-27] Charges imprimées : clore ; « (2) [renvoi : 2° Il est convenu expressément entre les parties que si le dit sieur Nicol se dessaisit de son droit de propriété sur l'immeuble sus-désigné & concédé, alors le nouveau propriétaire sera tenu] de bâtir sur le dit emplacement d'hui en un an une maison habitable […] » ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au vingt-neuvième jour de septembre de chaque année, à dater du vingt-neuvième jour de septembre dernier, la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; droit de retrait réservé au dit Benjamin Demers, écuier ; copie enregistrée ; clause de reprise pour deux années impayées. [Clause biffée : « Il est convenu entre les parties que si l'emplacement sus-désigné & baillé est vendu ou échangé ou donné, alors le nouveau propriétaire ou preneur sera tenu de bâtir ».] [001627-28] « Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le onzième jour de juillet, après midi, sous le numéro cent quarante-un des originaux […]. Et les dits concédant & concessionnaire ont signé avec moi, notaire, lecture faite. Un renvoi en marge est bon & approuvé ; mots rayés sont nuls. » Signatures : « J. Bte Nicol », « Benj. Demers », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers ». Le concédant des emplacements des rues Saint-Paul, Saint-Louis et Demers (n° 12, 36, 50 à 53, 140)."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Jean-Baptiste Nicol",
+          "ref_personne": "1871-D1-P039-L16",
+          "note": "Entrepreneur de Saint-Romuald ; signe. Il possède déjà le terrain voisin à l'ouest. Le témoin du n° 140. Rattaché en probable au menuisier de 40 ans de 1871 (division 1, maison 105)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Michel Larivée",
+          "ref_personne": "1871-D1-P028-L13",
+          "note": "Voisin au nord. Rattaché en probable au journalier de 50 ans de 1871 (division 1, maison 73), le seul Michel Larivée ; journalier de 64 ans en 1881."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-07-11",
+          "personnes": [
+            "1871-D1-P039-L16"
+          ],
+          "enonce": "Jean-Baptiste Nicol, entrepreneur, prend à rente de Benjamin Demers un emplacement de 50 pieds sur 60 au coin de la rue Saint-Paul (à l'est) et de la rue Saint-Jean-Baptiste (au sud), contigu à un terrain qu'il possède déjà à l'ouest."
+        }
+      ],
+      "note": "Contrairement aux autres concessionnaires, l'entrepreneur Nicol n'est pas tenu de bâtir lui-même dans l'année : l'obligation ne passera qu'à un acheteur éventuel. Sans doute un terrain de réserve pour un homme du métier. Premier acte du greffe à nommer la rue Saint-Jean-Baptiste.",
+      "ajoute_le": "2026-11-10",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-07-13-bail-demers-guay",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à François-Xavier Guay, boulanger, rue Saint-Paul, 1874",
+      "date": "1874-07-13",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 142, images 001629 à 001632 (Drive : fichiers 04T_CN401S124P_00685 à 00687) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 13 juillet 1874, après midi, en l'étude du notaire, sans témoin ; les deux parties signent. En marge : « Bail Demers à Guay — Or. ». Un renvoi paraphé « B. D. » ; la clause imprimée du droit de retrait est biffée. Mots rayés nuls.",
+      "transcription": "[001629-30] « N° 142 — 13 juillet 1874. Pardevant le Notaire Public […] Fut présent Benjamin Demers, cultivateur, de St Romuald, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […] à François-Xavier Guay, du même lieu, boulanger, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, comté de Lévis, contenant cinquante pieds de front sur soixante pieds de profondeur, borné en front à l'est à la rue St Paul, à l'ouest à Augustin Couture, au nord à Thomas Deschênes & au sud au dit F.-X. Guay, circonstances & dépendances. » — [001630-31] Charges imprimées : clore ; « (2) [renvoi : Dans le cas où le dit Sr Guay vendra à des étrangers cet emplacement, alors ils seront tenus] de bâtir sur le dit emplacement d'hui en un an une maison habitable […] » ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; [droit de retrait biffé] ; copie enregistrée ; clause de reprise. [001631-32] « Dont acte, fait et passé à St Romuald, étude [du dit notaire], l'an mil huit cent soixante-quatorze, le treizième jour de juillet, après midi, sous le numéro cent quarante-deux des originaux […]. Et lesdits sieurs Demers & Guay ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » Signatures : « Benj. Demers », « F. X. Guay », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers ». Le concédant des emplacements des rues Saint-Paul, Saint-Louis et Demers (n° 12, 36, 50 à 53, 140)."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "François-Xavier Guay",
+          "ref_personne": "1871-D1-P020-L09",
+          "note": "« Boulanger » de Saint-Romuald ; signe « F. X. Guay ». Le maître boulanger des n° 49, 58, 94 et 110 ; propriétaire du terrain voisin au sud. Boulanger de 51 ans en 1871 (division 1, maison 49)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Augustin Couture",
+          "note": "Voisin à l'ouest. L'Augustin Couture adulte de 1871 est un cultivateur de la division 2 (1871-D2-P001-L01) : rapprochement non fait."
+        },
+        {
+          "role": "voisin",
+          "nom": "Thomas Deschênes",
+          "note": "Voisin au nord : sans doute l'entrepreneur locataire de Benjamin Demers au n° 36, entre les rues Saint-Paul et Saint-Louis. Non rattaché (plusieurs Thomas Deschênes)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-07-13",
+          "personnes": [
+            "1871-D1-P020-L09"
+          ],
+          "enonce": "François-Xavier Guay, boulanger, prend à rente de Benjamin Demers un emplacement de 50 pieds sur 60 sur la rue Saint-Paul, contigu au sud à un terrain qu'il possède déjà."
+        }
+      ],
+      "note": "Même formule qu'au n° 141 : le concessionnaire, déjà voisin, agrandit son terrain sans obligation de bâtir, sauf revente à des « étrangers ». La rue Saint-Paul se remplit de bout en bout : Guay, Deschênes, Larivée, Nicol, jusqu'à la rue Saint-Jean-Baptiste.",
+      "ajoute_le": "2026-11-10",
+      "images": []
     }
   ]
 }
