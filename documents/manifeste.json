@@ -16305,6 +16305,122 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1874-07-13-bail-demers-kiley",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à James Kiley, charpentier, rue Saint-Paul, près du « terrain de la pompe », 1874",
+      "date": "1874-07-13",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 144, images 001637 à 001641 (Drive : fichiers 04T_CN401S124P_00693 à 00696) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 13 juillet 1874, après midi, en l'étude du notaire, sans témoin ; les deux parties signent. En marge : « Bail B. Demers à James Kiley — Original — Exp. 1re copie — Exp. 2e copie — Payé pour enregistrement ». Chemise imprimée « Bail à rente foncière par $3,50 à James Kiley — Copie » (fichier 00696).",
+      "transcription": "[001637-38] « N° 144 — 13 juillet 1874. Pardevant le Notaire Public […] Fut présent : Benjamin Demers, écuier, cultivateur, du dit lieu de St Romuald, dit comté, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […] à Mr James Kiley, du même lieu, charpentier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, comté susdit, contenant cinquante pieds de front sur soixante pieds de profondeur ; borné en front à l'ouest à la rue St Paul, à l'est à Léon Topping, au nord partie au terrain de la pompe & partie à Ignace Dubois, au sud à Charles St-Hilaire, circonstances & dépendances. » [mots rayés : « au nord au terrain de la pompe à incendie »] — [001638-39] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre [dernier], la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; droit de retrait réservé au dit Benjamin Demers, écuier ; copie enregistrée ; clause de reprise pour deux années impayées. [001639-40] « Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le treizième jour de juillet, après midi, sous le numéro cent quarante-quatre des originaux […]. Et le concédant & le concessionnaire ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « James Kiley », « Benj. Demers », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers ». Concède ce mois-là les rues Saint-Paul et Demers lot par lot (n° 140 à 145)."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "James Kiley",
+          "note": "Charpentier de Saint-Romuald ; signe « James Kiley ». Candidats : James Killay, navigateur de 22 ans en 1871 (1871-D1-P077-L02), et James Kily, capitaine de chaland de 43 ans en 1891 (1891-D1-P067-L12) — peut-être le même homme ; aucun n'est charpentier : non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Léon Topping",
+          "ref_personne": "1871-D1-P033-L13",
+          "note": "Voisin à l'est (à l'arrière). Rattaché en probable au navigateur de 31 ans de 1871 (division 1, maison 87), maçon en 1881."
+        },
+        {
+          "role": "voisin",
+          "nom": "Ignace Dubois",
+          "note": "Voisin au nord, en partie. Sans doute le meunier de Saint-Jean-Chrysostome des n° 50 à 52, qui avait échangé avec Benjamin Demers des terrains de ce quartier. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Charles St-Hilaire",
+          "ref_personne": "1881-D1-P031-L15",
+          "note": "Voisin au sud. Rattaché en probable au journalier de 51 ans de 1881 (division 1, maison 121), charpentier veuf de 61 ans en 1891."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-07-13",
+          "personnes": [],
+          "enonce": "Sur la rue Saint-Paul, à Saint-Romuald, un « terrain de la pompe » (d'abord écrit « de la pompe à incendie ») borne au nord l'emplacement concédé à James Kiley par Benjamin Demers."
+        }
+      ],
+      "note": "Le « terrain de la pompe » — la pompe à incendie de la paroisse — est celui du croquis des rues Saint-Paul et Saint-Louis (fichier 00291, image 001235-36) : cet acte permet de placer le lot de James Kiley juste au sud de la pompe, sur le côté est de la rue Saint-Paul.",
+      "ajoute_le": "2026-11-10",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-07-13-bail-demers-bilodeau",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à George Bilodeau, menuisier, rue Saint-Paul, 1874",
+      "date": "1874-07-13",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 145, images 001641 à 001645 (Drive : fichiers 04T_CN401S124P_00697 à 00700) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 13 juillet 1874, après midi, en l'étude du notaire, en présence d'un témoin ; le concessionnaire ne sait signer. En marge : « B. Demers à G. Bilodeau — Original — Payé pour enregistrer — Exp. 2 fois ». Chemise imprimée « Bail à rente foncière par $3,50 à George Bilodeau — Copie » (fichier 00700).",
+      "transcription": "[001641-42] « N° 145 — 13 juillet 1874. Pardevant le Notaire Public […] Et en présence de Germain Cantin, écr, de St Romuald, marchand, témoin […] ; Fut présent : Benjamin Demers, écuier, cultivateur, demeurant au dit lieu de St Romuald, Lequel a par ces présentes baillé et concédé […] à sieur George Bilodeau, du même lieu, menuisier [« journalier », rayé], à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, comté susdit, contenant cinquante pieds de front sur soixante pieds de profondeur, borné en front à l'ouest à la rue St Paul, à l'est au concédant, au nord à Joseph Levasseur & au sud à François-Xavier Boutin, circonstances & dépendances. » — [001642-43] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre [dernier], la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; droit de retrait réservé au dit Benjamin Demers, écuier ; copie enregistrée ; clause de reprise pour deux années impayées. [001643-44] « Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le treizième jour de juillet, après midi, sous le numéro cent quarante-cinq des originaux […]. Et le concédant a signé ainsi que le dit témoin avec moi, notaire, le dit concessionnaire ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » Signatures : « Germain Cantin », « Benj. Demers », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers ». Concède ce mois-là les rues Saint-Paul et Demers lot par lot (n° 140 à 145)."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "George Bilodeau",
+          "ref_personne": "1871-D1-P025-L19",
+          "note": "Menuisier de Saint-Romuald (le notaire avait d'abord écrit « journalier ») ; ne sait signer. Rattaché en probable au menuisier de 36 ans de 1871 (division 1, maison 68), voisin immédiat de François-Xavier Boutin (maison 67), son voisin ici ; journalier en 1881 et 1891."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "« Écuier », marchand de Saint-Romuald ; signe."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Levasseur",
+          "note": "Voisin au nord. Un Joseph Levasseur, journalier de 32 ans, est recensé en 1871 (1871-D1-P031-L10, maison 80) : rapprochement possible, non fait."
+        },
+        {
+          "role": "voisin",
+          "nom": "François-Xavier Boutin",
+          "ref_personne": "1871-D1-P025-L14",
+          "note": "Voisin au sud. Rattaché en probable au journalier de 40 ans de 1871 (division 1, maison 67), voisin de George Bilodeau au recensement."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "residence",
+          "certitude": "probable",
+          "date": "1874-07-13",
+          "personnes": [
+            "1871-D1-P025-L19",
+            "1871-D1-P025-L14"
+          ],
+          "enonce": "George Bilodeau, menuisier, prend à rente de Benjamin Demers un emplacement sur la rue Saint-Paul, voisin au nord de celui de François-Xavier Boutin : les deux hommes sont aussi voisins au recensement de 1871 (division 1, maisons 67 et 68)."
+        }
+      ],
+      "note": "Le recensement de 1871 et l'acte se recoupent : Boutin et Bilodeau, voisins en 1871, le sont encore sur la rue Saint-Paul en 1874. Cinquième concession de Benjamin Demers en trois jours (n° 140 à 145).",
+      "ajoute_le": "2026-11-10",
+      "images": []
     }
   ]
 }
