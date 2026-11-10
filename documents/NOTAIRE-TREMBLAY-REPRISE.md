@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (121 fiches au 3 novembre 2026).
+fiche dont l'identifiant commence par `notarie-` (122 fiches au 10 novembre 2026).
 
 ## Où sont les images
 
@@ -53,6 +53,16 @@ Lemelin (18 avril 1874, fichiers 00449-00450), dont la fin est sur le fichier
 actes **n° 90 à 112** (18 avril au 6 mai 1874) sont transcrits ; la fin du
 n° 112 est sur le fichier 00551. Les actes n° 113 à 122 (fichiers 00551 à
 00601) étaient déjà versés. **121 fiches `notarie-` en tout.**
+
+**Mise à jour du 10 novembre 2026 — Tropy.** Patrick a décrit les 599 images
+dans Tropy (export : `documents/tropy/tropy-notaires.json`). Ces descriptions
+ont fait retrouver la première page du n° 34 (le père, Olivier Roberge, vend à
+son fils Octave) et le début du n° 11 (Ferdinand Demers, domestique, quittance
+à Narcisse Cantin), et ont donné le n° 10, jusqu'ici absent (quittance de John
+Prince à Thomas Freeley) : les trois relus sur le manuscrit. **122 fiches
+`notarie-`.** Chaque fiche porte désormais ses images (`images`), versées par
+`node outils/tropy/fondre.mjs` ; voir `documents/tropy/RAPPORT.md`. Après un
+nouveau lot d'actes, réexporter Tropy, remplacer le fichier et relancer l'outil.
 
 **Pour reprendre** : continuer au fichier **00602** (microfilm 001546-47),
 après l'acte n° 122, si Patrick l'a mis au Drive ; sinon, s'attaquer aux pages
@@ -150,10 +160,9 @@ jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivant
 | Acte | Ce qui manque | Microfilm | Fichier Drive |
 |---|---|---|---|
 | n° 5 (testament Prémont) et n° 6 (contrat de mariage Carrier–Demers) | fin du n° 5, début du n° 6 (prénom du marié) | 000960 à 000965 | 00016 à 00021 |
-| n° 10 et n° 11 (quittance Cantin) | tout le n° 10, début du n° 11 | 000980 à 000985 | 00036 à 00041 |
+| n° 10 (quittance Prince à Freeley) | clôture et signatures (la première page est lue, le n° 11 est complet depuis le 10 novembre 2026) | 000981 à 000983 | 00037 à 00039 |
 | n° 19 (testament de Marie Samson) | première page | 001014-15 | 00070 |
 | n° 24 (donation Cadoret) et n° 25 (sommation à la veuve Bourassa) | fin du n° 24, début du n° 25 | 001035 à 001040 | 00091 à 00096 |
-| n° 34 (vente Olivier et Octave Roberge) | première page (qui vend, qui achète) | 001084-85 | 00140 |
 | n° 37 (promesse Pelletier à Langelier) | une page du milieu | 001103-04 | 00159 |
 | n° 42 (inventaire Bourassa) | moitié basse d'une page (fichier tronqué) | 001173-74 | 00229 |
 | n° 45 (vente Pichette à Couture) | deuxième page : l'acheteur, le début de la terre (fichier absent du Drive) | 001191-92 | 00247 |

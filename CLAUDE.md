@@ -152,6 +152,18 @@ Pour reprendre la transcription des actes du notaire Elzéar-Hubert Tremblay
 `documents/NOTAIRE-TREMBLAY-REPRISE.md` : emplacement des images, méthode de
 lecture, fichier où reprendre, pages manquantes et règles convenues.
 
+### Tropy : les images du greffe sur les fiches
+
+Patrick décrit les images du greffe dans Tropy. Son export JSON-LD est
+`documents/tropy/tropy-notaires.json` ; les identifiants Google Drive des
+images sont dans `documents/tropy/images-drive.json`.
+`node outils/tropy/fondre.mjs` (`--essai` pour voir) range chaque image sous
+la fiche de son acte (champ `images`) et écrit `documents/tropy/RAPPORT.md` :
+actes sans fiche, fiches sans image, écarts de date ou de noms. Il ne réécrit
+jamais le texte d'une fiche : un écart signalé se relit sur le manuscrit, puis
+se verse à la main. Les aperçus ne s'affichent sur le site que si le dossier
+Drive est partagé « Tous les utilisateurs disposant du lien ».
+
 ## Saint-Jean-Chrysostome et Saint-Romuald se recouvrent
 
 Dans les actes notariés (greffe Tremblay et autres), une personne dite « de la

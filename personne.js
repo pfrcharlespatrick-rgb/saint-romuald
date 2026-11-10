@@ -168,6 +168,23 @@
     return (m[3] ? Number(m[3]) + (m[3] === '01' ? 'er' : '') + ' ' : '') +
       (m[2] ? MOIS[Number(m[2]) - 1] + ' ' : '') + m[1];
   }
+  // Les images du manuscrit (outils/tropy/fondre.mjs), repliées : rien ne se
+  // charge tant que le lecteur n'ouvre pas le volet. L'aperçu vient de Google
+  // Drive ; si le dossier n'est pas partagé, il reste le lien vers l'image.
+  function imagesDocument(doc) {
+    var imgs = (doc.images || []).filter(function (i) { return i && /^[\w-]+$/.test(i.drive || ''); });
+    if (!imgs.length) return '';
+    return '<details class="doc-images"><summary>Images du manuscrit (' + imgs.length + ')</summary><div class="doc-images-liste">' +
+      imgs.map(function (i) {
+        var vue = 'https://drive.google.com/file/d/' + i.drive + '/view';
+        var legende = 'Microfilm ' + i.microfilm + (i.legende ? ' · p. ' + i.legende : '');
+        return '<a class="doc-image" href="' + vue + '" target="_blank" rel="noopener">' +
+          '<img loading="lazy" alt="' + esc(legende) + '" src="https://drive.google.com/thumbnail?id=' + i.drive + '&amp;sz=w400" ' +
+          'onerror="this.remove()">' +
+          '<span>' + esc(legende) + '</span></a>';
+      }).join('') + '</div></details>';
+  }
+
   function referenceDocument(doc) {
     var parts = [];
     if (doc.source) parts.push(esc(doc.source));
@@ -175,7 +192,8 @@
     if (doc.date) parts.push(esc(dateLisible(doc.date)) + (doc.date_incertaine ? ' (date incertaine)' : ''));
     if (doc.url && /^https?:\/\//.test(doc.url)) parts.push('<a href="' + esc(doc.url) + '" rel="noopener">numérisation</a>');
     return (parts.length ? '<div class="occ-detail">Référence : ' + parts.join(' · ') + '</div>' : '') +
-      (doc.transcription ? '<details><summary>Transcription</summary><p style="white-space:pre-wrap">' + esc(doc.transcription) + '</p></details>' : '');
+      (doc.transcription ? '<details><summary>Transcription</summary><p style="white-space:pre-wrap">' + esc(doc.transcription) + '</p></details>' : '') +
+      imagesDocument(doc);
   }
 
   function rendreDocuments(f) {
