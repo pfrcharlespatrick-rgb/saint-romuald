@@ -4480,11 +4480,11 @@
       "id": "notarie-1874-06-26-bail-roberge-richard",
       "type": "notarie",
       "titre": "Bail à rente foncière de Pierre Roberge à Joachim Richard, Saint-Jean-Chrysostome, 1874",
-      "date": "1874-06-26",
+      "date": "1874-06-20",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
       "cote": "Minute n° 122, images 001542 à 001545",
       "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main ; acte complet. Intitulé en marge : « Roberge à Richard » ; mention « Enregistré ». La clause imprimée de résolution pour deux années de rente impayées est biffée.",
-      "transcription": "« Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Pierre Langlois, journalier, de St Jean Chrysostome, témoin au présent acte, aussi soussigné ; Fut présent Mr Pierre Roberge, cultivateur, demeurant à St Jean Chrysostome dit comté, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […] à sieur Joachim Richard, journalier, du même lieu, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession [St-Augustin ?], contenant soixante pieds de front sur soixante pieds de profondeur, le tout plus ou moins ; borné au nord à Antoine Paradis, au sud au concédant, à l'est à une route & à l'ouest à Ferdinand Dubois, circonstances & dépendances […] » — Charges : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; payer le huitième jour de juillet de chaque année, à compter du huit juillet prochain, sept piastres courant de rente foncière, rachetable au capital de cent seize piastres et soixante-sept centins ; droit de retrait réservé au sieur Roberge ; copie enregistrée. « Dont acte, fait et passé à St Jean Chrysostome susdit, demeure du concédant, l'an mil huit cent soixante-quatorze, le vingt-sixième jour de juin, après-midi, sous le numéro cent vingt-deux des originaux de Mtre Elzéar Hubert Tremblay […] Requis de signer, les concédant & concessionnaire ont déclaré ne le savoir, en présence du témoin susdit, qui a signé avec moi, notaire, lecture faite. » Signatures : « Pierre Langlois », « E. H. Tremblay N.P. »",
+      "transcription": "« Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Pierre Langlois, journalier, de St Jean Chrysostome, témoin au présent acte, aussi soussigné ; Fut présent Mr Pierre Roberge, cultivateur, demeurant à St Jean Chrysostome dit comté, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […] à sieur Joachim Richard, journalier, du même lieu, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant soixante pieds de front sur soixante pieds de profondeur, le tout plus ou moins ; borné au nord à Antoine Paradis, au sud au concédant, à l'est à une route & à l'ouest à Ferdinand Dubois, circonstances & dépendances […] » — Charges : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; payer le huitième jour de juillet de chaque année, à compter du huit juillet prochain, sept piastres courant de rente foncière, rachetable au capital de cent seize piastres et soixante-sept centins ; droit de retrait réservé au sieur Roberge ; copie enregistrée. « Dont acte, fait et passé à St Jean Chrysostome susdit, demeure du concédant, l'an mil huit cent soixante-quatorze, le vingtième jour de juin, après-midi, sous le numéro cent vingt-deux des originaux de Mtre Elzéar Hubert Tremblay […] Requis de signer, les concédant & concessionnaire ont déclaré ne le savoir, en présence du témoin susdit, qui a signé avec moi, notaire, lecture faite. » Signatures : « Pierre Langlois », « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "concedant",
@@ -4499,7 +4499,7 @@
         {
           "role": "temoin",
           "nom": "Pierre Langlois",
-          "note": "Journalier de Saint-Jean-Chrysostome ; signe."
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe. Témoin des baux Roberge du 20 juin 1874 (n° 122, 123, 125 à 127), concessionnaire au n° 124."
         },
         {
           "role": "voisin",
@@ -4517,7 +4517,7 @@
         }
       ],
       "affirmations": [],
-      "note": "Premier acte de la série passé hors de l'étude, chez le concédant à Saint-Jean-Chrysostome, et sur formulaire imprimé. Un petit emplacement de 60 pieds sur 60 concédé à un journalier pour y bâtir : la naissance d'un hameau. Aucune personne du recensement de Saint-Romuald.",
+      "note": "Premier acte de la série passé hors de l'étude, chez le concédant à Saint-Jean-Chrysostome, et sur formulaire imprimé. Un petit emplacement de 60 pieds sur 60 concédé à un journalier pour y bâtir : la naissance d'un hameau. Aucune personne du recensement de Saint-Romuald. Date corrigée le 10 novembre 2026 : la clôture porte « le vingtième jour de juin » (et non le 26) ; les n° 123 à 127, passés le même jour au même endroit, le confirment. L'identifiant de la fiche garde l'ancienne date.",
       "ajoute_le": "2026-10-30",
       "images": [
         {
@@ -14981,6 +14981,252 @@
           "legende": "2/2"
         }
       ]
+    },
+    {
+      "id": "notarie-1874-06-20-bail-roberge-begin-pere",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Pierre Roberge à Michel Bégin père, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-06-20",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 123, images 001546 à 001549 (Drive : fichiers 04T_CN401S124P_00602 à 00605) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juin 1874, après midi, à Saint-Jean-Chrysostome, demeure du concédant. En marge : « Roberge à Bégin père — Orig. — Exp. 1 f. — Enregistré ». Cent trois mots rayés nuls. Le fichier 00605 est le dos imprimé de la chemise (« Bail à rente foncière par … à … — Copie — E. H. Tremblay, N. P. »), resté blanc.",
+      "transcription": "[001546-47] « N° 123 — 20 juin 1874. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Pierre Langlois, journalier, de St Jean Chrysostome, témoin au présent acte, aussi soussigné ; Fut présent Mr Pierre Roberge, du dit lieu de St Jean Chrysostome, dit comté, cultivateur ; Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […] à sieur Michel Bégin, père, du même lieu, journalier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant en front au nord & en arrière au sud quarante pieds de largeur, sur la profondeur de quatre-vingts pieds à l'ouest & quatre-vingt-dix pieds à l'est ; borné au nord [mots rayés] à une route, à l'est au concédant, sud à Michel Leclerc & à l'ouest à Charles Couture, tel que l'emplacement est clos maintenant & sans garantie de mesure précise, circonstances & dépendances […] » — [001547-48] Charges (formulaire imprimé) : clore l'emplacement ; y bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques, et la rebâtir dans l'année en cas d'incendie ; entretenir rues, ruelles et fossés ; payer au concédant, le huitième jour de juillet de chaque année, à compter du huit juillet prochain, sept piastres courant de rente foncière et constituée, rachetable au capital de cent seize piastres et soixante-sept centins ; hypothèque spéciale sur l'emplacement ; droit de retrait réservé au sieur Roberge ; copie enregistrée à fournir au concédant. La clause imprimée de résolution pour deux années de rente impayées est biffée. — [001548-49] « Dont acte, fait et passé à St Jean Chrysostome, demeure du concédant, l'an mil huit cent soixante-quatorze, le vingtième jour de juin, après midi, sous le numéro cent vingt-trois des originaux de Mtre Elzéar Hubert Tremblay, le dit notaire soussigné. Et le dit témoin a signé avec moi, notaire, les dits concédant & concessionnaire, de ce requis, ayant déclaré ne le savoir, lecture faite. Cent trois mots rayés nuls. » Signatures : « Pierre Langlois », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait pas signer. Le même qu'au n° 122 ; non rattaché (le Pierre Roberge de 1871, 1871-D2-P070-L03, est menuisier)."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Michel Bégin, père",
+          "note": "Journalier de Saint-Jean-Chrysostome ; ne sait pas signer. Père de Michel Bégin junior (n° 124 et 125). Aucun Michel Bégin aux recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Langlois",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe. Témoin des baux Roberge n° 122, 123, 125, 126 et 127, concessionnaire au n° 124. Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "voisin",
+          "nom": "Michel Leclerc",
+          "note": "Voisin au sud ; au nord du lot de Michel Bégin junior (n° 125). Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "voisin",
+          "nom": "Charles Couture",
+          "note": "Voisin à l'ouest. Aucun Charles Couture adulte aux recensements de Saint-Romuald."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le 20 juin 1874, chez lui à Saint-Jean-Chrysostome, Pierre Roberge concède six emplacements de sa terre de la concession Saint-Augustin (minutes n° 122 à 127), tous aux mêmes conditions : sept piastres de rente par an, une maison à bâtir dans l'année. Les voisins nommés d'un acte à l'autre (Antoine Paradis, Michel Leclerc, la route) dessinent un petit hameau en lotissement.",
+      "ajoute_le": "2026-11-10",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-06-20-bail-roberge-langlois",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Pierre Roberge à Pierre Langlois, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-06-20",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 124, images 001550 à 001553 (Drive : fichiers 04T_CN401S124P_00606 à 00609) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juin 1874, après midi, à Saint-Jean-Chrysostome, demeure du concédant. En marge : « P. Roberge à Pierre Langlois — Original — Expédié 1 f. ». Cent mots rayés nuls. Le fichier 00609 est le dos imprimé de la chemise, resté blanc.",
+      "transcription": "[001550-51] « N° 124 — 20 juin 1874. Pardevant le Notaire Public […] Et en présence de Michel Bégin, fils, journalier, de St Jean Chrysostome, comté susdit, témoin au présent acte, aussi soussigné ; Fut présent Mr Pierre Roberge, du dit lieu de St Jean Chrysostome, dit comté, cultivateur ; Lequel a par ces présentes baillé et concédé […] à sieur Pierre Langlois, du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant soixante pieds de front sur soixante pieds de profondeur, plus ou moins ; borné au nord à une petite route ou ruelle, au sud à Antoine Paradis, à l'est à une autre route & à l'ouest à Athanase Girard, circonstances & dépendances. » — [001551-52] Charges (formulaire imprimé) : clore l'emplacement ; y bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques, et la rebâtir dans l'année en cas d'incendie ; entretenir rues, ruelles et fossés ; payer au concédant, le huitième jour de juillet de chaque année, à compter du huit juillet prochain, sept piastres courant de rente foncière et constituée, rachetable au capital de cent seize piastres et soixante-sept centins ; hypothèque spéciale sur l'emplacement ; droit de retrait réservé au sieur Roberge ; copie enregistrée à fournir au concédant. La clause imprimée de résolution pour deux années de rente impayées est biffée. — [001552-53] « Dont acte, fait et passé à St Jean Chrysostome, demeure du concédant, l'an mil huit cent soixante-quatorze, le vingtième jour de juin, après midi, sous le numéro cent vingt-quatre des originaux […]. Requis de signer, le concédant a déclaré ne le savoir, en présence du dit témoin, qui a signé ainsi que le concessionnaire avec moi, notaire, lecture faite. Cent mots rayés sont nuls. » Signatures : « Pierre Langlois », « Michel Bégin », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait pas signer. Le même qu'au n° 122 ; non rattaché (le Pierre Roberge de 1871, 1871-D2-P070-L03, est menuisier)."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Pierre Langlois",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe. Le témoin des autres baux Roberge du même jour. Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "temoin",
+          "nom": "Michel Bégin, fils",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe « Michel Bégin ». Le « Michel Bégin junior » du n° 125. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Antoine Paradis",
+          "note": "Voisin au sud ; au nord du lot de Joachim Richard (n° 122)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Athanase Girard",
+          "note": "Voisin à l'ouest."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le 20 juin 1874, chez lui à Saint-Jean-Chrysostome, Pierre Roberge concède six emplacements de sa terre de la concession Saint-Augustin (minutes n° 122 à 127), tous aux mêmes conditions : sept piastres de rente par an, une maison à bâtir dans l'année. Les voisins nommés d'un acte à l'autre (Antoine Paradis, Michel Leclerc, la route) dessinent un petit hameau en lotissement.",
+      "ajoute_le": "2026-11-10",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-06-20-bail-roberge-begin-fils",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Pierre Roberge à Michel Bégin junior, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-06-20",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 125, images 001554 à 001557 (Drive : fichiers 04T_CN401S124P_00610 à 00613) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juin 1874, après midi, à Saint-Jean-Chrysostome, demeure du concédant. En marge : « P. Roberge à Mich. Bégin — Original — Exp. 1 fois ». Mots rayés nuls. Le fichier 00613 est le dos imprimé de la chemise, resté blanc.",
+      "transcription": "[001554-55] « N° 125 — 20 juin 1874. Pardevant le Notaire Public […] Et en présence de Pierre Langlois, journalier, de St Jean Chrysostome, dit comté, témoin […] ; Fut présent Mr Pierre Roberge, cultivateur, du dit lieu de St Jean Chrysostome ; Lequel a par ces présentes baillé et concédé […] à sieur Michel Bégin, junior, du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant cent pieds sur les côtés sud & ouest & quatre-vingt-dix pieds sur le côté nord, allant en pointe à l'extrémité est ; borné au nord à Michel Leclerc, au sud & à l'est au concédant & à l'ouest à Ferdinand Paradis, circonstances & dépendances, le tout sans garantie de mesure précise. » — [001555-56] Charges (formulaire imprimé) : clore l'emplacement ; y bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques, et la rebâtir dans l'année en cas d'incendie ; entretenir rues, ruelles et fossés ; payer au concédant, le huitième jour de juillet de chaque année, à compter du huit juillet prochain, sept piastres courant de rente foncière et constituée, rachetable au capital de cent seize piastres et soixante-sept centins ; hypothèque spéciale sur l'emplacement ; droit de retrait réservé au sieur Roberge ; copie enregistrée à fournir au concédant. La clause imprimée de résolution pour deux années de rente impayées est biffée. — [001556-57] « Dont acte, fait et passé à St Jean Chrysostome, demeure du concédant, l'an mil huit cent soixante-quatorze, le vingtième jour de juin, après midi, sous le numéro cent vingt-cinq des originaux […]. Requis de signer, le concédant a déclaré ne le savoir, en présence du dit témoin, qui a signé ainsi que le concessionnaire avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Pierre Langlois », « Michel Bégin », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait pas signer. Le même qu'au n° 122 ; non rattaché (le Pierre Roberge de 1871, 1871-D2-P070-L03, est menuisier)."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Michel Bégin, junior",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe. Fils de Michel Bégin père (n° 123) ; témoin au n° 124. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Langlois",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe. Témoin des baux Roberge n° 122, 123, 125, 126 et 127, concessionnaire au n° 124. Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "voisin",
+          "nom": "Michel Leclerc",
+          "note": "Voisin au nord ; au sud du lot de Michel Bégin père (n° 123)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Ferdinand Paradis",
+          "note": "Voisin à l'ouest."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le 20 juin 1874, chez lui à Saint-Jean-Chrysostome, Pierre Roberge concède six emplacements de sa terre de la concession Saint-Augustin (minutes n° 122 à 127), tous aux mêmes conditions : sept piastres de rente par an, une maison à bâtir dans l'année. Les voisins nommés d'un acte à l'autre (Antoine Paradis, Michel Leclerc, la route) dessinent un petit hameau en lotissement. Le père et le fils Bégin reçoivent chacun leur emplacement, séparés par le terrain de Michel Leclerc.",
+      "ajoute_le": "2026-11-10",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-06-20-bail-roberge-samson",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Pierre Roberge à Germain Samson, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-06-20",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 126, images 001558 à 001561 (Drive : fichiers 04T_CN401S124P_00614 à 00617) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juin 1874, après midi, à Saint-Jean-Chrysostome, demeure du concédant. En marge : « P. Roberge à G. Samson — Original — Expédié » ; au capital, en marge : « 116.67 ». Mots rayés nuls. Le fichier 00617 est le dos imprimé de la chemise, resté blanc.",
+      "transcription": "[001558-59] « N° 126 — 20 juin 1874. Pardevant le Notaire Public […] Et en présence de Pierre Langlois, journalier, de St Jean Chrysostome, comté susdit, témoin […] ; Fut présent Mr Pierre Roberge, de la paroisse de St Jean Chrysostome, dit comté, cultivateur ; Lequel a par ces présentes baillé et concédé […] à sieur Germain Samson, du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, comté susdit, concession St Augustin, contenant en front, à l'est, [soixante-dix pieds — mots rayés, puis récrits] soixante-dix pieds sur soixante pieds de profondeur, au bout de laquelle profondeur le dit emplacement n'a que cinquante pieds de largeur, le tout plus ou moins, tel qu'il est maintenant enclos ; borné à l'est au concédant, à l'ouest à Georges Boutin [?], au nord à Joseph Cantin & au sud à John Breakey & Henry [?] King, écuiers, circonstances & dépendances ; le concédant s'obligeant fournir un chemin de sortie au dit sieur Samson. » — [001559-60] Charges (formulaire imprimé) : clore l'emplacement ; y bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques, et la rebâtir dans l'année en cas d'incendie ; entretenir rues, ruelles et fossés ; payer au concédant, le huitième jour de juillet de chaque année, à compter du huit juillet prochain, sept piastres courant de rente foncière et constituée, rachetable au capital de cent seize piastres et soixante-sept centins ; hypothèque spéciale sur l'emplacement ; droit de retrait réservé au sieur Roberge ; copie enregistrée à fournir au concédant. La clause imprimée de résolution pour deux années de rente impayées est biffée. — [001560-61] « Dont acte, fait et passé à St Jean Chrysostome susdit, demeure du concédant, l'an mil huit cent soixante-quatorze, le vingtième jour de juin, après midi, sous le numéro cent vingt-six des originaux […]. Et les dits concédant & concessionnaire, requis de signer, ont déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Pierre Langlois », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait pas signer. Le même qu'au n° 122 ; non rattaché (le Pierre Roberge de 1871, 1871-D2-P070-L03, est menuisier)."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Germain Samson",
+          "note": "Journalier de Saint-Jean-Chrysostome ; ne sait pas signer. Aucun Germain Samson aux recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Langlois",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe. Témoin des baux Roberge n° 122, 123, 125, 126 et 127, concessionnaire au n° 124. Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "voisin",
+          "nom": "Georges Boutin [?]",
+          "note": "Voisin à l'ouest ; nom de lecture incertaine."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Cantin",
+          "note": "Voisin au nord. Les Joseph Cantin des recensements de Saint-Romuald sont des enfants en 1871 : non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "John Breakey",
+          "note": "« Écuier », voisin au sud avec Henry [?] King. Sans doute le marchand de bois de la Chaudière (Breakeyville) ; absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "voisin",
+          "nom": "Henry [?] King",
+          "note": "« Écuier », co-propriétaire avec John Breakey du terrain au sud ; prénom de lecture incertaine."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le 20 juin 1874, chez lui à Saint-Jean-Chrysostome, Pierre Roberge concède six emplacements de sa terre de la concession Saint-Augustin (minutes n° 122 à 127), tous aux mêmes conditions : sept piastres de rente par an, une maison à bâtir dans l'année. Les voisins nommés d'un acte à l'autre (Antoine Paradis, Michel Leclerc, la route) dessinent un petit hameau en lotissement. Ce lot-ci touche au sud la propriété de John Breakey et de King, marchands de bois : le hameau s'ouvre près de leurs moulins de la Chaudière.",
+      "ajoute_le": "2026-11-10",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-06-20-bail-roberge-bilodeau",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Pierre Roberge à Eusèbe Bilodeau, menuisier, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-06-20",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 127, images 001562 à 001565 (Drive : fichiers 04T_CN401S124P_00618 à 00621) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juin 1874, après midi, à Saint-Jean-Chrysostome, demeure du concédant. En marge : « Roberge à Bilodeau — Orig. — Exp. 1 f. ». Cent mots rayés nuls.",
+      "transcription": "[001562-63] « N° 127 — 20 juin 1874. Pardevant le Notaire Public […] Et en présence de Pierre Langlois, de St Jean Chrysostome, journalier, témoin […] ; Fut présent Mr Pierre Roberge, de St Jean Chrysostome, dit comté, cultivateur ; Lequel a par ces présentes baillé et concédé […] à sieur Eusèbe Bilodeau, du même lieu, menuisier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant cinquante pieds de front au nord & soixante pieds au sud, sur soixante pieds de profondeur, le tout plus ou moins, tel que maintenant clos ; borné au nord à Rigobert Samson, au sud à une route, à l'est au concédant & à l'ouest à Thomas Richard, circonstances & dépendances. » — [001563-64] Charges (formulaire imprimé) : clore l'emplacement ; y bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques, et la rebâtir dans l'année en cas d'incendie ; entretenir rues, ruelles et fossés ; payer au concédant, le huitième jour de juillet de chaque année, à compter du huit juillet prochain, sept piastres courant de rente foncière et constituée, rachetable au capital de cent seize piastres et soixante-sept centins ; hypothèque spéciale sur l'emplacement ; droit de retrait réservé au sieur Roberge ; copie enregistrée à fournir au concédant. La clause imprimée de résolution pour deux années de rente impayées est biffée. — [001564-65] « Dont acte, fait et passé à St Jean Chrysostome susdit, demeure du concédant, l'an mil huit cent soixante-quatorze, le vingtième jour de juin, après midi, sous le numéro cent vingt-sept des originaux […]. Requis de signer, le dit concédant a déclaré ne le savoir, en présence du dit témoin, qui a alors signé ainsi que le concessionnaire avec moi, notaire, lecture faite. Cent mots rayés sont nuls. » Signatures : « Eusèbe Bilodeau », « Pierre Langlois », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait pas signer. Le même qu'au n° 122 ; non rattaché (le Pierre Roberge de 1871, 1871-D2-P070-L03, est menuisier)."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Eusèbe Bilodeau",
+          "ref_personne": "1871-D2-P035-L07",
+          "note": "Menuisier « de St Jean Chrysostome » ; signe. Rattaché en probable au menuisier de 30 ans recensé en 1871 à Saint-Romuald (division 2, maison 88, épouse Flavie, enfants George et J.-Baptiste) : même prénom rare, même métier, et la division 2 recouvre Saint-Jean-Chrysostome (indication de Patrick). Absent de 1881."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Langlois",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe. Témoin des baux Roberge n° 122, 123, 125, 126 et 127, concessionnaire au n° 124. Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "voisin",
+          "nom": "Rigobert Samson",
+          "note": "Voisin au nord."
+        },
+        {
+          "role": "voisin",
+          "nom": "Thomas Richard",
+          "note": "Voisin à l'ouest."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "probable",
+          "date": "1874-06-20",
+          "personnes": [
+            "1871-D2-P035-L07"
+          ],
+          "enonce": "Eusèbe Bilodeau, menuisier, prend à rente foncière de Pierre Roberge un emplacement de 50-60 pieds sur 60 dans la concession Saint-Augustin de Saint-Jean-Chrysostome, avec obligation d'y bâtir une maison dans l'année."
+        }
+      ],
+      "note": "Le 20 juin 1874, chez lui à Saint-Jean-Chrysostome, Pierre Roberge concède six emplacements de sa terre de la concession Saint-Augustin (minutes n° 122 à 127), tous aux mêmes conditions : sept piastres de rente par an, une maison à bâtir dans l'année. Les voisins nommés d'un acte à l'autre (Antoine Paradis, Michel Leclerc, la route) dessinent un petit hameau en lotissement. Seul des concessionnaires du 20 juin à savoir signer, et seul à paraître au recensement de Saint-Romuald (1871, division 2).",
+      "ajoute_le": "2026-11-10",
+      "images": []
     }
   ]
 }
