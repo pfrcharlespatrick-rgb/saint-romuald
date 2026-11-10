@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (122 fiches au 10 novembre 2026).
+fiche dont l'identifiant commence par `notarie-` (134 fiches au 10 novembre 2026, au soir).
 
 ## Où sont les images
 
@@ -67,6 +67,36 @@ nouveau lot d'actes, réexporter Tropy, remplacer le fichier et relancer l'outil
 **Pour reprendre** : continuer au fichier **00602** (microfilm 001546-47),
 après l'acte n° 122, si Patrick l'a mis au Drive ; sinon, s'attaquer aux pages
 manquantes du tableau plus bas.
+
+**Mise à jour du 10 novembre 2026, soir.** Patrick a ajouté les fichiers
+**00601 à 00800** (sous-dossiers `601-650`, `651-700`…). Les fichiers **00602 à
+00651** sont lus : actes **n° 123 à 134** (20 au 27 juin 1874). **134 fiches
+`notarie-`.** Les identifiants Drive de 00601 à 00651 sont ajoutés à
+`documents/tropy/images-drive.json` ; les images de ces fiches y sont posées à
+la main (Tropy ne les décrit pas encore).
+
+- **Le n° 122 est du 20 juin 1874, pas du 26** : la clôture dit « le vingtième
+  jour de juin », et les n° 123 à 128 sont du même jour. La fiche est corrigée
+  (son identifiant garde « 06-26 »). **Tropy porte encore « 1874-06-26 »** :
+  à corriger dans Tropy avant le prochain export.
+- **Le hameau Roberge** (n° 122 à 128) : le 20 juin, Pierre Roberge,
+  cultivateur de Saint-Jean-Chrysostome, concède sept emplacements de sa terre
+  de la concession Saint-Augustin (sept piastres de rente chacun). Seul Eusèbe
+  Bilodeau, menuisier, est rattaché (probable, 1871-D2-P035-L07).
+- **Les Roberge du premier rang** (n° 129-130) : Hubert senior et Magloire,
+  bateliers, frères de feu Louis, annulent une vente de 1866 [?] et échangent
+  des parts de la terre familiale avec leur neveu **Louis-Hubert Roberge**, le
+  navigateur des n° 49, 53, 58, 72, 74 et 110. Le n° 130 cite le partage de la
+  succession de Luce Demers, veuve de Julien Roberge (Me J.-B. Couillard,
+  30 décembre 1848).
+- **« H. King & Co. »** (n° 126, 134) : Henry King, de Québec, et John Breakey,
+  marchands de bois, achètent deux îles bâties de la Chaudière.
+- Les fichiers 00605, 00609, 00613, 00617, 00621 et 00625 sont les dos imprimés
+  des chemises de baux (« Bail à rente foncière… Copie »), restés blancs ;
+  00637 est un feuillet blanc ; 00639 une enveloppe portant les frais du n° 131.
+
+**Pour reprendre** : continuer au fichier **00652** (microfilm 001596-97, dans
+le sous-dossier `651-700`), après l'acte n° 134.
 
 Fils suivis dans la série 00451-00550 :
 
@@ -166,6 +196,7 @@ jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivant
 | n° 37 (promesse Pelletier à Langelier) | une page du milieu | 001103-04 | 00159 |
 | n° 42 (inventaire Bourassa) | moitié basse d'une page (fichier tronqué) | 001173-74 | 00229 |
 | n° 45 (vente Pichette à Couture) | deuxième page : l'acheteur, le début de la terre (fichier absent du Drive) | 001191-92 | 00247 |
+| n° 133 (résiliation de donation Cadorette) | moitié basse d'une page : la date et le notaire de la donation résiliée (fichier tronqué, 786 Ko) | 001588-89 | 00644 |
 
 Patrick n'a pas trouvé ces pages en les cherchant à la main ; le Drive les
 contient peut-être. La page 001084-85 n'a peut-être jamais été photographiée.

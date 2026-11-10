@@ -15125,7 +15125,7 @@
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
       "cote": "Minute n° 126, images 001558 à 001561 (Drive : fichiers 04T_CN401S124P_00614 à 00617) ; acte complet.",
       "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juin 1874, après midi, à Saint-Jean-Chrysostome, demeure du concédant. En marge : « P. Roberge à G. Samson — Original — Expédié » ; au capital, en marge : « 116.67 ». Mots rayés nuls. Le fichier 00617 est le dos imprimé de la chemise, resté blanc.",
-      "transcription": "[001558-59] « N° 126 — 20 juin 1874. Pardevant le Notaire Public […] Et en présence de Pierre Langlois, journalier, de St Jean Chrysostome, comté susdit, témoin […] ; Fut présent Mr Pierre Roberge, de la paroisse de St Jean Chrysostome, dit comté, cultivateur ; Lequel a par ces présentes baillé et concédé […] à sieur Germain Samson, du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, comté susdit, concession St Augustin, contenant en front, à l'est, [soixante-dix pieds — mots rayés, puis récrits] soixante-dix pieds sur soixante pieds de profondeur, au bout de laquelle profondeur le dit emplacement n'a que cinquante pieds de largeur, le tout plus ou moins, tel qu'il est maintenant enclos ; borné à l'est au concédant, à l'ouest à Georges Boutin [?], au nord à Joseph Cantin & au sud à John Breakey & Henry [?] King, écuiers, circonstances & dépendances ; le concédant s'obligeant fournir un chemin de sortie au dit sieur Samson. » — [001559-60] Charges (formulaire imprimé) : clore l'emplacement ; y bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques, et la rebâtir dans l'année en cas d'incendie ; entretenir rues, ruelles et fossés ; payer au concédant, le huitième jour de juillet de chaque année, à compter du huit juillet prochain, sept piastres courant de rente foncière et constituée, rachetable au capital de cent seize piastres et soixante-sept centins ; hypothèque spéciale sur l'emplacement ; droit de retrait réservé au sieur Roberge ; copie enregistrée à fournir au concédant. La clause imprimée de résolution pour deux années de rente impayées est biffée. — [001560-61] « Dont acte, fait et passé à St Jean Chrysostome susdit, demeure du concédant, l'an mil huit cent soixante-quatorze, le vingtième jour de juin, après midi, sous le numéro cent vingt-six des originaux […]. Et les dits concédant & concessionnaire, requis de signer, ont déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Pierre Langlois », « E. H. Tremblay N.P. »",
+      "transcription": "[001558-59] « N° 126 — 20 juin 1874. Pardevant le Notaire Public […] Et en présence de Pierre Langlois, journalier, de St Jean Chrysostome, comté susdit, témoin […] ; Fut présent Mr Pierre Roberge, de la paroisse de St Jean Chrysostome, dit comté, cultivateur ; Lequel a par ces présentes baillé et concédé […] à sieur Germain Samson, du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, comté susdit, concession St Augustin, contenant en front, à l'est, [soixante-dix pieds — mots rayés, puis récrits] soixante-dix pieds sur soixante pieds de profondeur, au bout de laquelle profondeur le dit emplacement n'a que cinquante pieds de largeur, le tout plus ou moins, tel qu'il est maintenant enclos ; borné à l'est au concédant, à l'ouest à Georges Boutin [?], au nord à Joseph Cantin & au sud à John Breakey & Henry King, écuiers, circonstances & dépendances ; le concédant s'obligeant fournir un chemin de sortie au dit sieur Samson. » — [001559-60] Charges (formulaire imprimé) : clore l'emplacement ; y bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques, et la rebâtir dans l'année en cas d'incendie ; entretenir rues, ruelles et fossés ; payer au concédant, le huitième jour de juillet de chaque année, à compter du huit juillet prochain, sept piastres courant de rente foncière et constituée, rachetable au capital de cent seize piastres et soixante-sept centins ; hypothèque spéciale sur l'emplacement ; droit de retrait réservé au sieur Roberge ; copie enregistrée à fournir au concédant. La clause imprimée de résolution pour deux années de rente impayées est biffée. — [001560-61] « Dont acte, fait et passé à St Jean Chrysostome susdit, demeure du concédant, l'an mil huit cent soixante-quatorze, le vingtième jour de juin, après midi, sous le numéro cent vingt-six des originaux […]. Et les dits concédant & concessionnaire, requis de signer, ont déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Pierre Langlois », « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "concedant",
@@ -15155,12 +15155,12 @@
         {
           "role": "voisin",
           "nom": "John Breakey",
-          "note": "« Écuier », voisin au sud avec Henry [?] King. Sans doute le marchand de bois de la Chaudière (Breakeyville) ; absent des recensements de Saint-Romuald."
+          "note": "« Écuier », voisin au sud avec Henry King ; marchand de bois, associé de « H. King & Co. » (n° 134), le fondateur de Breakeyville. Absent des recensements de Saint-Romuald."
         },
         {
           "role": "voisin",
-          "nom": "Henry [?] King",
-          "note": "« Écuier », co-propriétaire avec John Breakey du terrain au sud ; prénom de lecture incertaine."
+          "nom": "Henry King",
+          "note": "« Écuier », marchand de bois de Québec, associé de John Breakey dans « H. King & Co. » (voir n° 134) ; co-propriétaire du terrain au sud."
         },
         {
           "role": "notaire",
@@ -15367,7 +15367,7 @@
           "enonce": "Magloire Roberge possède une part de terre du premier rang de Saint-Romuald, entre le fleuve et le bout des quarante arpents, au nord-est des parts revendues à feu Louis Roberge."
         }
       ],
-      "note": "La vente de 1866 [?] de deux parts de la terre familiale (neuf perches de front au premier rang, partagées entre les enfants de Julien Roberge et de Luce Demers) n'avait jamais été payée : les frères l'annulent avec le fils et légataire de l'acheteur. Le même jour, sous le n° 130, Hubert et Louis-Hubert échangent leurs parts.",
+      "note": "La vente de 1866 [?] de deux parts de la terre familiale (neuf perches de front au premier rang, partagées entre les enfants de Julien Roberge et de Luce Demers) n'avait jamais été payée : les frères l'annulent avec le fils et légataire de l'acheteur. Le même jour, sous le n° 130, Hubert et Louis-Hubert échangent leurs parts. La fiche Geni de Julien Roberge (geni-julien-louis-julien-roberge) lui donne pour enfants Hubert, Magloire, Luce (la voisine du n° 130) et un « Louis Hubert » — sans doute le feu Louis, père du navigateur. Louis-Hubert Roberge est le navigateur qui paraît déjà aux n° 49, 53, 58, 72, 74 et 110, associé du boulanger F.-X. Guay.",
       "ajoute_le": "2026-11-10",
       "images": []
     },
@@ -15449,7 +15449,7 @@
           "enonce": "Hubert Roberge, senior, reçoit par échange de son neveu Louis-Hubert le deuxième lot (vingt pieds trois pouces sur quarante arpents) du partage de 1848, au premier rang de Saint-Romuald, et lui cède le lot n° 10."
         }
       ],
-      "note": "Suite immédiate du n° 129 : une fois la vente de 1866 [?] annulée, oncle et neveu remembrent leurs parts de la terre des Roberge au premier rang (neuf perches de front partagées en lots de vingt pieds trois pouces), chacun regroupant les siennes. L'acte cite le partage de la succession de Luce Demers, épouse de Julien Roberge, devant Me J.-B. Couillard le 30 décembre 1848 : à chercher.",
+      "note": "Suite immédiate du n° 129 : une fois la vente de 1866 [?] annulée, oncle et neveu remembrent leurs parts de la terre des Roberge au premier rang (neuf perches de front partagées en lots de vingt pieds trois pouces), chacun regroupant les siennes. L'acte cite le partage de la succession de Luce Demers, épouse de Julien Roberge, devant Me J.-B. Couillard le 30 décembre 1848 : à chercher. La fiche Geni de Julien Roberge (geni-julien-louis-julien-roberge) lui donne pour enfants Hubert, Magloire, Luce (la voisine du n° 130) et un « Louis Hubert » — sans doute le feu Louis, père du navigateur. Louis-Hubert Roberge est le navigateur qui paraît déjà aux n° 49, 53, 58, 72, 74 et 110, associé du boulanger F.-X. Guay.",
       "ajoute_le": "2026-11-10",
       "images": []
     },
@@ -15579,6 +15579,107 @@
       "note": "Les vieux parents avaient donné leurs biens à leur fils, à charge sans doute de les nourrir ; le fils parti s'établir à Sainte-Agathe-de-Lotbinière, la donation est annulée. La date de cette donation, perdue avec la moitié basse du fichier 00644, se relira sur le microfilm (image 001588-89).",
       "ajoute_le": "2026-11-10",
       "images": []
+    },
+    {
+      "id": "notarie-1874-06-27-vente-lapierre-king",
+      "type": "notarie",
+      "titre": "Vente par Jean Denis dit Lapierre à « H. King & Co. » (Henry King et John Breakey) de deux îles de la rivière Chaudière, 1874",
+      "date": "1874-06-27",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 134, images 001590 à 001595 (Drive : fichiers 04T_CN401S124P_00646 à 00651) ; acte complet.",
+      "nature": "Vente, passée le 27 juin 1874, après midi, en l'étude du notaire, en présence d'un témoin ; le vendeur ne sait signer ; l'acquéreur et le témoin signent. Chemise : « N° 134 — Vente Lapierre & al. à Breakey & King — Original » (fichier 00646). En marge : « Vente Jean Denis dit Lapierre à J. Breakey, Ecr — Original — Expédié 1 fois » ; frais : enregistrement 8,3, honoraires 6,3, total 14,6. Trois renvois en marge, paraphés « P. M. G., J. B., E. H. T. ».",
+      "transcription": "[001590-91] « N° 134 — 27 juin 1874. L'an mil huit cent soixante-quatorze, le vingt-septième jour de juin, après-midi, en présence de Elzéar Hubert Tremblay, notaire public […], soussigné ; Et en présence de Pierre Malcolm Guay, médecin, demeurant au dit lieu de St Romuald, témoin au présent acte, aussi soussigné [renvoi ; le notaire avait d'abord nommé Germain Cantin, marchand] ; Fut présent : Jean Denis dit Lapierre, cultivateur, demeurant en la paroisse de St Jean Chrysostome, dit comté ; Lequel vend, cède, transporte & abandonne dès maintenant & à toujours, avec garantie de tous troubles & empêchements généralement quelconques, à Henry King, écuier, de [001591-92] la cité de Québec, & John Breakey, écuier, du dit lieu de St Jean Chrysostome, & faisant affaires en la cité & à St Jean Chrysostome & ailleurs, en qualité de marchands de bois, sous les noms & raison de « H. King & Co. », (2) [renvoi : à ce présent & acceptant pour la dite société « H. King & Co. » le dit John Breakey, écr, l'un d'eux, pour eux, leurs hoirs & ayant cause], les immeubles suivants, savoir : 1° Un lopin de terre ou une île situé sur la rivière Chaudière, en la paroisse de St Jean Chrysostome, contenant quatre arpents de terre en superficie ; & 2° une autre île située au même lieu, au nord-est de celle sus-désignée & contenant à peu près trois arpents de terre en superficie, avec les bâtisses y érigées sur les deux îles respectivement, circonstances & dépendances, sans aucune réserve quelconque ; (1) [renvoi : les dites îles étant situées en la concession St Augustin, de la dite paroisse de St Jean Chrysostome, & vis-à-vis de la terre de Louis Lepping [?], avoisinant à l'ouest à la terre de Alexis Rouleau]. Déclare l'acquéreur connaître le tout & en être content & satisfait. Ce que dessus vendu [001592-93] appartient au vendeur pour l'avoir acquis de Dame veuve Richard Lepping [?], née Angélique Boutin, suivant acte de vente en date du trois de septembre mil huit cent soixante-huit, reçu par Mtre L. Gilbert [?], notaire, & enregistré au bureau d'enregistrement du comté de Dorchester, division numéro deux, Reg. B, vol. 16, page 763, no 13 113. Ce que dessus vendu relève du domaine de la seigneurie de Lauzon & est envers lui chargé de redevances seigneuriales, que l'acquéreur s'oblige payer à l'avenir seulement. Cette vente est faite pour le prix de cinq cent cinquante piastres courant, payable, savoir : deux cent soixante-quinze piastres au premier novembre prochain, & la balance, ou deux cent soixante-quinze piastres, au premier novembre mil huit cent soixante-quinze, avec ensemble l'intérêt de six pour cent par an, payable annuellement. Au moyen de ce que dessus, le dit vendeur transporte aux acquéreurs tous les droits de propriété quelconques qu'il a & peut avoir (*) [renvoi : sur les dits immeubles sus-désignés & vendus] [001594-95] s'en dessaisissant à leur profit & voulant qu'ils en soient saisis & mis en possession en vertu des présentes. Et pour assurer le paiement de la somme de cinq cent cinquante piastres & des intérêts qui en proviendront, comme dit est, les acquéreurs hypothèquent spécialement les dites îles en faveur du vendeur, qui se réserve expressément tous ses droits & privilèges de bailleur de fonds. Et pour l'exécution des présentes, les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux, &c., car ainsi, &c. Dont acte. Fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent trente-quatre des originaux du notaire soussigné. Et le dit vendeur a, de ce requis, déclaré ne savoir [001595-96] signer, en présence du dit témoin, qui a signé, ainsi que le dit acquéreur, avec moi, notaire, lecture faite. Mots rayés sont nuls ; renvois en marge bons & approuvés. » Signatures : « P. M. Guay, M.D.L. », « John Breakey », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Jean Denis dit Lapierre",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait signer. Propriétaire des deux îles depuis 1868. Aucun Jean Denis dit Lapierre aux recensements de Saint-Romuald (Étienne et Joseph Denis dit Lapierre y paraissent en 1881 et 1891) : non rattaché."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Henry King",
+          "note": "« Écuier, de la cité de Québec », marchand de bois, associé de John Breakey dans « H. King & Co. ». Confirme la lecture « Henry King » du n° 126. Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "acquereur",
+          "nom": "John Breakey",
+          "note": "« Écuier, du dit lieu de St Jean Chrysostome », marchand de bois, associé de « H. King & Co. » ; accepte pour la société et signe. Le fondateur de Breakeyville, sur la Chaudière. Absent des recensements de Saint-Romuald."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Malcolm Guay",
+          "ref_personne": "1881-D2-P013-L17",
+          "note": "« Médecin, demeurant au dit lieu de St Romuald » ; signe « P. M. Guay, M.D.L. ». Rattaché en probable au médecin de 33 ans recensé en 1881 (« Guay Pierre Malcom », division 2, maison 50) ; absent du recensement de 1871."
+        },
+        {
+          "role": "autre",
+          "nom": "Angélique Boutin",
+          "note": "Veuve de Richard Lepping [?] ; a vendu les deux îles à Jean Denis dit Lapierre le 3 septembre 1868. Non rattachée."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis Lepping [?]",
+          "note": "Les îles sont vis-à-vis de sa terre. Nom de lecture incertaine."
+        },
+        {
+          "role": "voisin",
+          "nom": "Alexis Rouleau",
+          "note": "Terre voisine à l'ouest."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-06-27",
+          "personnes": [],
+          "enonce": "Henry King, de Québec, et John Breakey, de Saint-Jean-Chrysostome, font affaires comme marchands de bois sous la raison sociale « H. King & Co. »."
+        }
+      ],
+      "note": "Les marchands de bois de la Chaudière achètent deux îles bâties de la rivière, sans doute pour leurs estacades ou leurs moulins : c'est l'origine du domaine de Breakeyville. Trois jours plus tôt (n° 126), John Breakey et Henry King étaient déjà voisins d'un lot du hameau Roberge, concession Saint-Augustin.",
+      "ajoute_le": "2026-11-10",
+      "images": [
+        {
+          "fichier": "00646",
+          "microfilm": "001590",
+          "drive": "1gm-S6e0TAeDHtsKdMOJmr_zTFEncxKdK",
+          "legende": "1/6"
+        },
+        {
+          "fichier": "00647",
+          "microfilm": "001591",
+          "drive": "1HZ62KIIShb2sq-c6qkdUC_Gixuv3Kefb",
+          "legende": "2/6"
+        },
+        {
+          "fichier": "00648",
+          "microfilm": "001592",
+          "drive": "1JSIiWSIkXVj9wsdRdWHTVyt0E_9SJ0Zo",
+          "legende": "3/6"
+        },
+        {
+          "fichier": "00649",
+          "microfilm": "001593",
+          "drive": "1rmMnV_IrfMG9Rr_rMUvDiQTFjQ18Cmib",
+          "legende": "4/6"
+        },
+        {
+          "fichier": "00650",
+          "microfilm": "001594",
+          "drive": "1cncbWFja8PuzV8-OR9oCMfCV7CP53Zh4",
+          "legende": "5/6"
+        },
+        {
+          "fichier": "00651",
+          "microfilm": "001595",
+          "drive": "1Cg8-2jzrYd1XPzPISSGYwnXuW199YEQd",
+          "legende": "6/6"
+        }
+      ]
     }
   ]
 }
