@@ -16149,8 +16149,8 @@
       "titre": "Bail à rente foncière de Benjamin Demers à François-Xavier Guay, boulanger, rue Saint-Paul, 1874",
       "date": "1874-07-13",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 142, images 001629 à 001632 (Drive : fichiers 04T_CN401S124P_00685 à 00687) ; acte complet.",
-      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 13 juillet 1874, après midi, en l'étude du notaire, sans témoin ; les deux parties signent. En marge : « Bail Demers à Guay — Or. ». Un renvoi paraphé « B. D. » ; la clause imprimée du droit de retrait est biffée. Mots rayés nuls.",
+      "cote": "Minute n° 142, images 001629 à 001632 (Drive : fichiers 04T_CN401S124P_00685 à 00688) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 13 juillet 1874, après midi, en l'étude du notaire, sans témoin ; les deux parties signent. En marge : « Bail Demers à Guay — Or. ». Un renvoi paraphé « B. D. » ; la clause imprimée du droit de retrait est biffée. Mots rayés nuls. Le fichier 00688 est la chemise imprimée de l'acte, restée blanche.",
       "transcription": "[001629-30] « N° 142 — 13 juillet 1874. Pardevant le Notaire Public […] Fut présent Benjamin Demers, cultivateur, de St Romuald, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […] à François-Xavier Guay, du même lieu, boulanger, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, comté de Lévis, contenant cinquante pieds de front sur soixante pieds de profondeur, borné en front à l'est à la rue St Paul, à l'ouest à Augustin Couture, au nord à Thomas Deschênes & au sud au dit F.-X. Guay, circonstances & dépendances. » — [001630-31] Charges imprimées : clore ; « (2) [renvoi : Dans le cas où le dit Sr Guay vendra à des étrangers cet emplacement, alors ils seront tenus] de bâtir sur le dit emplacement d'hui en un an une maison habitable […] » ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; [droit de retrait biffé] ; copie enregistrée ; clause de reprise. [001631-32] « Dont acte, fait et passé à St Romuald, étude [du dit notaire], l'an mil huit cent soixante-quatorze, le treizième jour de juillet, après midi, sous le numéro cent quarante-deux des originaux […]. Et lesdits sieurs Demers & Guay ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » Signatures : « Benj. Demers », « F. X. Guay », « E. H. Tremblay N.P. »",
       "personnes": [
         {
@@ -16193,7 +16193,117 @@
       ],
       "note": "Même formule qu'au n° 141 : le concessionnaire, déjà voisin, agrandit son terrain sans obligation de bâtir, sauf revente à des « étrangers ». La rue Saint-Paul se remplit de bout en bout : Guay, Deschênes, Larivée, Nicol, jusqu'à la rue Saint-Jean-Baptiste.",
       "ajoute_le": "2026-11-10",
-      "images": []
+      "images": [
+        {
+          "fichier": "00685",
+          "microfilm": "001629",
+          "drive": "1u1tWjpwUe8EeNjYfBfPftSVL5uBxEF44",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00686",
+          "microfilm": "001630",
+          "drive": "1XK1ns83RRBU8_idTzi_kdhF9n2b_u6hy",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00687",
+          "microfilm": "001631",
+          "drive": "17NEQKMkQR7ss4FhlqyRxNo5FhG__50fw",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00688",
+          "microfilm": "001632",
+          "drive": "17Mw7S8ShzVRuGri8IoBPcYQrWpYJaIC7",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-07-13-bail-demers-louis-filteau",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Louis Filteau, journalier, rue Demers, 1874",
+      "date": "1874-07-13",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 143, images 001633 à 001637 (Drive : fichiers 04T_CN401S124P_00689 à 00692) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 13 juillet 1874, après midi, en l'étude du notaire, sans témoin ; les deux parties signent. En marge : « Bail Demers à Louis Filteau — Orig. — Exp. 1re copie — Exp. 2e copie — Payé pour enregistrer » ; en marge du prix : « 100 / 33,34 ». Mots rayés nuls. Chemise imprimée « Bail à rente foncière par … à L. Filteau — Copie », 3,50 $ (fichier 00692).",
+      "transcription": "[001633-34] « N° 143 — 13 juillet 1874. Pardevant le Notaire Public […] Fut présent Benjamin Demers, écuier, cultivateur, demeurant en la paroisse de St Romuald, comté susdit, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […] à sieur Louis Filteau, du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald susdit, contenant trente-trois pieds de front, plus ou moins, sur la rue Demers, sur soixante pieds de profondeur ; borné à l'ouest, en front, à la rue Demers, à l'est, en arrière, partie à Léon Lefrançois & partie à François Montigny, au nord à Charles Filteau & au sud au concédant, circonstances & dépendances. » [mots rayés : « soixante… quinze pieds de front », « & six »] — [001634-35] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de huit piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent trente-trois piastres & trente-quatre centins » ; hypothèque ; droit de retrait réservé au dit Benjamin Demers, écuier ; copie enregistrée ; clause de reprise. [001635-36] « Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le treizième jour de juillet, après midi, sous le numéro cent quarante-trois des originaux […]. Et le concédant & le concessionnaire ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Louis Filteau », « Benj. Demers », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers ». Concède la rue Demers lot par lot (n° 140, 143)."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Louis Filteau",
+          "ref_personne": "1871-D1-P023-L14",
+          "note": "Journalier de Saint-Romuald ; signe. Voisin au sud de Charles Filteau (n° 140). Rattaché en probable au fils Louis, journalier de 21 ans, du ménage de Stanislas Filteau en 1871 (division 1, maison 59)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Léon Lefrançois",
+          "note": "Voisin à l'arrière (est). Non trouvé aux recensements de Saint-Romuald."
+        },
+        {
+          "role": "voisin",
+          "nom": "François Montigny",
+          "ref_personne": "1871-D1-P028-L01",
+          "note": "Voisin à l'arrière (est), comme au n° 140."
+        },
+        {
+          "role": "voisin",
+          "nom": "Charles Filteau",
+          "ref_personne": "1871-D1-P023-L15",
+          "note": "Voisin au nord : le concessionnaire du n° 140."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "residence",
+          "certitude": "probable",
+          "date": "1874-07-13",
+          "personnes": [
+            "1871-D1-P023-L14",
+            "1871-D1-P023-L15"
+          ],
+          "enonce": "Louis et Charles Filteau prennent à rente de Benjamin Demers deux emplacements contigus sur la rue Demers (n° 140 et 143), Charles au nord, Louis au sud ; leurs terrains touchent à l'arrière celui de François Montigny."
+        }
+      ],
+      "note": "Pendant du n° 140, deux jours plus tard : les deux frères Filteau s'installent côte à côte sur la rue Demers. Le n° 140 disait déjà Louis voisin au sud de Charles : il occupait sans doute le terrain avant d'en avoir le titre.",
+      "ajoute_le": "2026-11-10",
+      "images": [
+        {
+          "fichier": "00689",
+          "microfilm": "001633",
+          "drive": "1nTlsS4Gudl1N6XFsqryXJC14DivbogvC",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00690",
+          "microfilm": "001634",
+          "drive": "1i7ae1Wnh653xWgYWFq9MKirYn9saSisT",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00691",
+          "microfilm": "001635",
+          "drive": "1Y7rPo_N2ZEK3emb6hIngALsLaW4EHUqs",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00692",
+          "microfilm": "001636",
+          "drive": "1WDuvAFBamVxNOlrL0Koz61CDEmv3pa0z",
+          "legende": "4/4"
+        }
+      ]
     }
   ]
 }
