@@ -164,6 +164,16 @@ jamais le texte d'une fiche : un écart signalé se relit sur le manuscrit, puis
 se verse à la main. Les aperçus ne s'affichent sur le site que si le dossier
 Drive est partagé « Tous les utilisateurs disposant du lien ».
 
+### Les pages du manuscrit, en images
+
+`manuscrit/<annee>-D<division>/P<nnn>.jpg` : une image par page du
+recensement, découpée des recueils PDF et redressée
+(`python3 outils/manuscrit/pages71.py 1` pour 1871 ; les PDF se joignent à la
+conversation, ils sont trop gros pour le connecteur Google Drive).
+`node outils/generer-site.mjs` ajoute `image_ms` aux fiches des personnes dont
+la page existe ; la fiche montre alors « Voir la page du manuscrit ». Fait :
+1871 division 1, pages 1 à 77 (la page 78 est dans le recueil 5, non joint).
+
 ## Saint-Jean-Chrysostome et Saint-Romuald se recouvrent
 
 Dans les actes notariés (greffe Tremblay et autres), une personne dite « de la
