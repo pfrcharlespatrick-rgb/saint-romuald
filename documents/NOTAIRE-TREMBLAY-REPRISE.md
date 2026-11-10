@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (134 fiches au 10 novembre 2026, au soir).
+fiche dont l'identifiant commence par `notarie-` (145 fiches au 10 novembre 2026, au soir).
 
 ## Où sont les images
 
@@ -95,8 +95,32 @@ la main (Tropy ne les décrit pas encore).
   des chemises de baux (« Bail à rente foncière… Copie »), restés blancs ;
   00637 est un feuillet blanc ; 00639 une enveloppe portant les frais du n° 131.
 
-**Pour reprendre** : continuer au fichier **00652** (microfilm 001596-97, dans
-le sous-dossier `651-700`), après l'acte n° 134.
+**Suite du 10 novembre 2026, soir.** Le sous-dossier `651-700` est **entièrement
+lu** : actes **n° 135 à 145** (27 juin au 13 juillet 1874). **145 fiches
+`notarie-`.**
+
+- **Les îles de la Chaudière** (n° 134, 135, 137, 139) : Jean et Ferdinand Denis
+  dit Lapierre vendent trois îles à « H. King & Co. », au-dessus de leur moulin
+  à scie ; Jean solde ensuite à la **veuve Richard Topping (Angélique Boutin)**
+  le prix d'îles achetées en 1868 — cinq reçus de 50 $ (1869-1873) sont restés
+  dans la minute. Le nom lu « Lepping » au n° 134 est **Topping**.
+- **n° 136** : contrat de mariage Bergeron–Marcoux, passé un dimanche à
+  Saint-Colomb-de-Sillery, avec la liste des meubles du ménage.
+- **Benjamin Demers lotit les rues Saint-Paul et Demers** (n° 140 à 145,
+  11-13 juillet) : Charles et Louis Filteau, J.-B. Nicol, F.-X. Guay, James
+  Kiley, George Bilodeau. Le n° 144 nomme le **« terrain de la pompe »** (à
+  incendie) au nord du lot Kiley : à rapprocher du croquis du fichier 00291.
+  Plusieurs voisins sont rattachés en probable à 1871-D1 (maisons 51 à 87).
+- Page sans doute non filmée dans le **n° 135** (entre 00653 et 00654 : le prix
+  de l'île).
+- Le fichier **00700** est en double au Drive (sous-dossiers `651-700` et
+  `701-750`).
+
+**Pour reprendre** : continuer au fichier **00701** (microfilm 001645-46, dans
+le sous-dossier `701-750`) : l'acte **n° 146** (17 juillet 1874, vente de Charles
+Couture à Étienne Denis dit Lapierre, concession Saint-Augustin) y commence ;
+00702 est déjà lu (l'emplacement : maison de bois, entre Michel Bégin et
+Olivier Coulombe [?]).
 
 Fils suivis dans la série 00451-00550 :
 
