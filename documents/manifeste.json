@@ -20629,6 +20629,66 @@
         }
       ],
       "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-10-08-accord-bourassa-lapointe",
+      "type": "notarie",
+      "titre": "Accord de Joseph Bourassa et des frères Audet dit Lapointe, anciens fermiers, sur le partage des récoltes, 1874",
+      "date": "1874-10-08",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 216, images 001919 à 001921 (Drive : fichiers 04T_CN401S124P_00975 à 00977) ; acte complet, avec sa chemise « Accord n° 216 ».",
+      "nature": "Accord (quittance mutuelle), passé le 8 octobre 1874, avant midi, à Saint-Romuald, en la demeure de Joseph Bourassa, sans témoin ; les trois parties signent. En marge : « Accord Bourassa & Lapointe alias — Original — $1.50 Payé ».",
+      "transcription": "[001919] « N° 216 — 8 octobre 1874. L'an mil huit cent soixante-quatorze, le huitième jour d'octobre, avant midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Furent présents : Joseph Bourassa, de St Romuald, cultivateur & rentier, d'une part ; Et Damase Audet dit Lapointe & Alfred Audet dit Lapointe, de St Jean Chrysostome, dit comté, anciens fermiers, d'autre part ; Lesquels ont reconnu s'être fait justice quant au partage de tous les grains, foin, patates & produits des animaux généralement quelconques & provenant de la culture de la ferme louée par le dit Sr Bourassa aux dits sieurs Lapointe, suivant bail à ferme reçu par Maître Légaré, notaire, & témoin, en date du [blanc] mil huit cent soixante-treize. [001920] Dont & du tout les dites parties se donnent quittance mutuelle & réciproque. Dont acte, requis & octroyé à St Romuald susdit, demeure du dit Sr Bourassa, les jour, mois & an susdits, sous le numéro deux cent seize des originaux du notaire soussigné. Et les parties ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Joseph Bourassa », « Damase Audet dit Lapointe », « Alfred Audet dit Lapointe », « E. H. Tremblay N.P. » — [001921] chemise : « Accord — N° 216 — 8 octobre 1874 — E. H. T. N.P. »",
+      "personnes": [
+        {
+          "role": "partie",
+          "nom": "Joseph Bourassa",
+          "ref_personne": "1871-D1-P024-L13",
+          "note": "Cultivateur et rentier de Saint-Romuald ; propriétaire de la ferme du Petit-Saint-Jean ; signe."
+        },
+        {
+          "role": "partie",
+          "nom": "Damase Audet dit Lapointe",
+          "note": "Ancien fermier de Bourassa, de Saint-Jean-Chrysostome ; signe. Voir n° 101."
+        },
+        {
+          "role": "partie",
+          "nom": "Alfred Audet dit Lapointe",
+          "note": "Ancien fermier, associé de Damase ; signe."
+        },
+        {
+          "role": "autre",
+          "nom": "Légaré",
+          "note": "Notaire ; a reçu le bail à ferme Bourassa-Lapointe (17 avril 1873, d'après le n° 101)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Dernier règlement entre Joseph Bourassa et les fermiers sortants du Petit-Saint-Jean : après l'accord du 1er mai 1874 (n° 101), le partage à moitié des grains, foin, patates et produits des animaux de la dernière récolte est réglé. La ferme est passée à Louis Vallières (n° 69), puis promise à Octave Saindon pour 1875 (n° 193).",
+      "images": [
+        {
+          "fichier": "00975",
+          "microfilm": "001919",
+          "drive": "11dXMEf2ZHp3bgGFepTVcGWDRBR1vTmR0",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "00976",
+          "microfilm": "001920",
+          "drive": "18I8Zmcf3Xr3YJEpIE-EZMZ3j0J4d1anS",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "00977",
+          "microfilm": "001921",
+          "drive": "1HBOsmFGVVHt4MBNFhHS4FLvDIq9tkX6X",
+          "legende": "3/3"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
     }
   ]
 }
