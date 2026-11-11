@@ -20342,6 +20342,137 @@
         }
       ],
       "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-10-04-testament-ignace-lambert",
+      "type": "notarie",
+      "titre": "Testament d'Ignace Lambert, cultivateur de Saint-Jean-Chrysostome, en faveur de sa femme, 1874",
+      "date": "1874-10-04",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 212, images 001903 à 001905 (Drive : fichiers 04T_CN401S124P_00959 à 00961) ; acte complet, la première page réparée au ruban adhésif.",
+      "nature": "Testament authentique, dicté le 4 octobre 1874 (« 3 » corrigé en « 4 »), après midi, en l'étude du notaire à Saint-Romuald, devant deux témoins ; le testateur ne sait signer. En marge : « Testament de Ign. Lambert — Original — Exp. 1 fois ».",
+      "transcription": "[001903] « N° 212 — 4 octobre 1874. L'an mil huit cent soixante-quatorze, le quatre d'octobre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Georges Bégin, écr, marchand, de St Romuald, & de Mr Jean Plante, de St Jean Chrysostome, cultivateur, témoins au présent testament aussi soussignés ; Fut présent : Mr Ignace Lambert, cultivateur, demeurant à St Jean Chrysostome, dit comté, étant en bonne santé de corps, sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous notaire & témoins par ses discours & maintien ; Lequel a, dans la vue de la mort, fait & nommé son présent testament à nous notaire, en la présence des dits témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes dettes soient payées [001904] & mes torts réparés par mon exécutrice testamentaire ci-après nommée, à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes & prières ; 2° Je donne & lègue à Dame Marie Philomène Montminy, mon épouse actuelle, tous mes biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient & en quelques lieux & endroits qu'ils soient dus & situés, pour par elle en jouir en toute propriété à dater du jour de mon décès ; nommant ma dite épouse mon exécutrice testamentaire, & l'instituant ma légataire universelle en propriété ; 3° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par le dit testateur au dit notaire soussigné, en la présence actuelle & constante des dits témoins, & son présent testament lui ayant été [001905] lu, expliqué & relu par le dit notaire, les dits témoins toujours présents, il a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte, fait & passé à St Romuald, étude du dit notaire, les jour, mois & an susdits, sous le numéro deux cent douze des originaux du notaire soussigné. Requis de signer, le testateur a déclaré ne le savoir, en présence des dits témoins, qui ont signé avec moi, notaire, lecture faite & refaite. Mots rayés sont nuls. » Signatures : « Georges Bégin », « Jean Plante », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Ignace Lambert",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait signer. L'Ignace Lambert recensé à Saint-Romuald (1871-D1-P024-L01, journalier ; menuisier en 1891) a pour épouse une Camille : ce n'est sans doute pas lui. Non rattaché."
+        },
+        {
+          "role": "legataire",
+          "nom": "Marie-Philomène Montminy",
+          "note": "Épouse du testateur ; légataire universelle et exécutrice. Voir n° 213."
+        },
+        {
+          "role": "temoin",
+          "nom": "George Bégin",
+          "ref_personne": "1871-D1-P012-L04",
+          "note": "« Écr, marchand » de Saint-Romuald ; signe « Georges Bégin »."
+        },
+        {
+          "role": "temoin",
+          "nom": "Jean Plante",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe. Le Jean Plante des n° 197 à 200."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Testament mutuel en deux actes (n° 212 et 213) : chacun des époux lègue tout à l'autre. Les témoins sont un marchand de Saint-Romuald et Jean Plante, venu la semaine précédente pour les actes de sa propre famille.",
+      "images": [
+        {
+          "fichier": "00959",
+          "microfilm": "001903",
+          "drive": "101VKZYB29_DiJue-Z1q1NdZ6GiO-Pgbx",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "00960",
+          "microfilm": "001904",
+          "drive": "1Fon54zGjO6729Z0BaHvZjEyIGRWeCRpV",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "00961",
+          "microfilm": "001905",
+          "drive": "1X0SQsgTWa3I-ZtP5SRMHnCl27MNV1kCe",
+          "legende": "3/3"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-10-04-testament-philomene-montminy",
+      "type": "notarie",
+      "titre": "Testament de Marie-Philomène Montminy, épouse d'Ignace Lambert, de Saint-Jean-Chrysostome, en faveur de son mari, 1874",
+      "date": "1874-10-04",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 213, images 001906 à 001909 (Drive : fichiers 04T_CN401S124P_00962 à 00965) ; acte complet, le verso de 00965 blanc.",
+      "nature": "Testament authentique, dicté le 4 octobre 1874, après midi, en l'étude du notaire à Saint-Romuald, devant deux témoins ; la testatrice signe. En marge : « Testament de Philomène Montminy, épouse de Ignace Lambert — Original — Exp. 1 fois » ; « épouse de Nap. Paradis » rayé ; trois renvois paraphés « M. P. M. », « G. B. », « J. P. ».",
+      "transcription": "[001906] « N° 213 — 4 octobre 1874. L'an mil huit cent soixante-quatorze, le quatrième jour d'octobre, après midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Georges Bégin, écr, marchand, de St Romuald, & de Mr Jean Plante, de St Jean Chrysostome, cultivateur, [« demeurant tous deux au dit lieu de St Romuald », rayé] témoins au présent testament aussi soussignés ; Fut présente : Dame Marie Philomène Montminy, épouse de Sr Ignace Lambert [« épouse de Mr Léon [?] Paradis, Napoléon Paradis », rayé], cultivateur, & demeurant avec ce dernier en la dite paroisse de St [« Romuald », rayé] Jean Chrysostome, dit comté ; [renvoi (2) : « étant en bonne santé de corps, saine d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous notaire & témoins par ses discours & maintien »] ; Laquelle a, dans la vue de la mort, fait & nommé son présent testament au dit notaire soussigné, en la présence des dits témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes [001907] dettes soient payées & mes torts réparés par mon exécuteur testamentaire ci-après nommé, à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, messes & prières ; 2° Je donne & lègue à Mr [renvoi (3) : « Ignace Lambert »] [« Napoléon Paradis », rayé], mon époux actuel, tous les biens meubles & immeubles & autres effets mobiliers généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient & en quelques lieux qu'ils soient dus & situés, pour par mon dit époux en jouir, faire & disposer en pleine propriété à compter du jour de mon décès ; le nommant mon exécuteur testamentaire & l'instituant mon légataire universel en propriété ; 3° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par la dite [001908] testatrice au dit notaire soussigné, en la présence actuelle & constante des dits témoins, & son présent testament lui ayant été lu, expliqué & relu par le dit notaire, les dits témoins toujours présents, elle a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte, fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro deux cent treize des originaux du notaire soussigné. Et la testatrice a signé, ainsi que les dits témoins, avec moi, notaire, lecture faite & refaite. [001909] Mots rayés sont nuls. Renvois en marge sont bons & approuvés. » Signatures : « Marie Philomène Montminy », « Georges Bégin », « Jean Plante », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Marie-Philomène Montminy",
+          "note": "Épouse d'Ignace Lambert, de Saint-Jean-Chrysostome ; signe. Non rattachée (les Montminy de 1871-D2, maison 145, sont la famille de Pierre Montminy, charretier)."
+        },
+        {
+          "role": "legataire",
+          "nom": "Ignace Lambert",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait signer. L'Ignace Lambert recensé à Saint-Romuald (1871-D1-P024-L01, journalier ; menuisier en 1891) a pour épouse une Camille : ce n'est sans doute pas lui. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "George Bégin",
+          "ref_personne": "1871-D1-P012-L04",
+          "note": "Marchand de Saint-Romuald ; signe."
+        },
+        {
+          "role": "temoin",
+          "nom": "Jean Plante",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe."
+        },
+        {
+          "role": "autre",
+          "nom": "Napoléon Paradis",
+          "note": "Nom écrit puis rayé comme époux de la testatrice : le notaire avait sans doute commencé l'acte sur le brouillon d'un autre testament (celui de la femme de Napoléon Paradis, charpentier, voir n° 167 ?). Aucun lien avec la testatrice."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Pendant du n° 212. Le notaire, qui avait d'abord écrit le nom de Napoléon Paradis comme époux, puis « St Romuald » comme domicile, corrige en marge : indice qu'un testament de la femme de Napoléon Paradis se trouvait peut-être parmi les actes n° 201 à 209, aujourd'hui manquants au Drive.",
+      "images": [
+        {
+          "fichier": "00962",
+          "microfilm": "001906",
+          "drive": "14tRtnrXWl2qFyZ65VGRWq9deu9GdCaia",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00963",
+          "microfilm": "001907",
+          "drive": "1yPeb85EI6fHJ3H-PPU9zi6DruTFUaBBq",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00964",
+          "microfilm": "001908",
+          "drive": "1hc1QueemxyAi-Za1P_JIfh1cMHo-B_wA",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00965",
+          "microfilm": "001909",
+          "drive": "1ePNtmQaW_5yiyIUJI8o1vxprYOZbdn8z",
+          "legende": "4/4"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
     }
   ]
 }
