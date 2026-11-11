@@ -17704,8 +17704,8 @@
       "type": "notarie",
       "date": "1874-08-19",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 167, images 001727 à 001732 (Drive : fichiers 04T_CN401S124P_00783 à 00787) ; acte complet.",
-      "nature": "Vente, passée le 19 août 1874, après midi, en l'étude du notaire, en présence d'un témoin ; ni le vendeur ni l'acquéreur ne savent signer. En marge : « Vente Paradis à Fontaine — Original — Expédié 1 fois — Payé pour enregistrer 8/- » ; « Bailleur de fonds » en regard de la clause d'hypothèque. Deux renvois paraphés « Joseph L., E. H. T. ». Mots rayés nuls ; une ligne ajoutée entre les lignes sur les arrérages de rente.",
+      "cote": "Minute n° 167, images 001727 à 001734 (Drive : fichiers 04T_CN401S124P_00783 à 00789) ; acte complet.",
+      "nature": "Vente, passée le 19 août 1874, après midi, en l'étude du notaire, en présence d'un témoin ; ni le vendeur ni l'acquéreur ne savent signer. En marge : « Vente Paradis à Fontaine — Original — Expédié 1 fois — Payé pour enregistrer 8/- » ; « Bailleur de fonds » en regard de la clause d'hypothèque. Deux renvois paraphés « Joseph L., E. H. T. ». Mots rayés nuls ; une ligne ajoutée entre les lignes sur les arrérages de rente. Les fichiers 00788 et 00789 sont la dernière feuille, blanche, et son verso portant un calcul de frais (« 6 de commission », 1,00 + 0,20 + 0,10 + 0,30 + 0,50 = 2,10).",
       "transcription": "[001727-28] « N° 167 — 19 août 1874. L'an mil huit cent soixante-quatorze, le dix-neuvième jour d'août, après midi, en présence de Elzéar Hubert Tremblay, notaire public […] ; Et en présence de Joseph Leclerc, ancien marchand, de St Romuald, dit comté, témoin […] ; Fut présent : Mr Napoléon Paradis, de la paroisse de St Romuald, dit comté, charpentier ; Lequel vend, avec garantie de tous troubles & empêchements généralement quelconques, dès maintenant & à toujours, à Mr Jean-Baptiste Fontaine, de la cité de Québec, rentier, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayant cause à l'avenir, savoir : Un lot de terre ou emplacement situé au dit lieu de St Romuald, contenant cinquante pieds de front sur soixante pieds de profondeur ; borné au sud à Joseph Leclerc, au nord-est [001728-29] à Benjamin Demers, écr, & au sud-ouest à la rue St Paul, avec ensemble une maison en bois à deux étages & autres bâtisses dessus construites, circonstances & dépendances. Au vendeur appartient le dit immeuble pour l'avoir acquis suivant acte de bail à rente foncière & constituée reçu par le notaire L. Laliberté, en date du vingt-neuf mars mil huit cent soixante-dix. Pour par le dit acquéreur jouir, faire & disposer dès ce jour & à toujours, en pleine propriété, du dit immeuble, le vendeur s'en dessaisissant à son profit & voulant qu'il en soit saisi & mis en possession en vertu des présentes. Cette vente est faite à la charge par l'acquéreur, qui s'y oblige pour lui, ses hoirs & ayant cause à l'avenir : 1° De se conformer en tous points à l'acte de bail à rente foncière & constituée susdaté ; 2° De fournir à Benja[001729-30]min Demers, écr, ses hoirs & ayant cause, une copie de reconnaissance de rente sans délai ; 3° De payer toutes les taxes seigneuriales, municipales, scolaires & autres imposées & imposables sur le dit immeuble, garanti quitte de tous arrérages à cette date. Cette vente est faite en outre pour le prix ou somme de six cent cinquante piastres courant, sur & en à-compte de laquelle somme l'acquéreur a payé celle de deux cent cinquante piastres au moyen d'un billet promissoire fait payable à demande & daté de ce jour (2) [renvoi : au dit acquéreur ; dont quittance d'autant] ; & quant à la balance, formant la somme de quatre cents piastres, l'acquéreur s'oblige la payer par versements égaux & annuels de la somme de cinquante piastres chacun, payable au vingtième jour de juillet, sans intérêt. Tous les loyers de la maison d'hui au premier jour de mai prochain (1) [renvoi : appartiennent au vendeur]. [001730-31] Le vendeur se réserve le droit d'habiter la moitié sud du premier étage de la maison d'hui au premier jour de mai prochain, ce qui est accepté par l'acquéreur. L'acquéreur s'oblige faire assurer la maison, à l'expiration de la police d'assurance maintenant existante, pour un montant égal à la balance alors due au vendeur. L'acquéreur paiera sa part de rente à dater du vingt juillet dernier, sur le taux de six piastres par année [ajout entre les lignes : quant aux arrérages échus avant cette date, le vendeur s'oblige à les payer]. Et pour sûreté du paiement de la dite somme de quatre cents piastres courant, ainsi que pour l'exécution de toutes les autres charges, l'acquéreur hypothèque spécialement le dit immeuble sus-désigné en faveur du vendeur, qui se réserve ses droits & privilèges de bailleur de fonds. Et pour l'exécution des présentes, les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux, &c. Car ainsi, &c. Dont acte. Fait & passé à St Romuald susdit, étude du [001731-32] dit notaire, les jour, mois & an susdits, sous le numéro cent soixante-sept des originaux du notaire soussigné. Et, requis de signer, les vendeur & acquéreur ont déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. Mots rayés sont nuls ; deux renvois en marge sont bons & approuvés. » Signatures : « Joseph Leclerc », « E. H. Tremblay N.P. »",
       "personnes": [
         {
@@ -17751,33 +17751,129 @@
           "fichier": "00783",
           "microfilm": "001727",
           "drive": "1qE_I3x5MU-8vp2mVtt638A-VeUfBXCyZ",
-          "legende": "1/5"
+          "legende": "1/7"
         },
         {
           "fichier": "00784",
           "microfilm": "001728",
           "drive": "1hJLHKbDxP6wOpxozn_02axO6pFD7JR8f",
-          "legende": "2/5"
+          "legende": "2/7"
         },
         {
           "fichier": "00785",
           "microfilm": "001729",
           "drive": "12xgQVZN6GpF_h1MLYFngjqeooCWWRqIo",
-          "legende": "3/5"
+          "legende": "3/7"
         },
         {
           "fichier": "00786",
           "microfilm": "001730",
           "drive": "1smfUwsP_6t5oTJOq6y7_K7N0D74eL8ec",
-          "legende": "4/5"
+          "legende": "4/7"
         },
         {
           "fichier": "00787",
           "microfilm": "001731",
           "drive": "1c_OLA3ZHODi1MT8cDL0ZcSxB7j8EATlE",
-          "legende": "5/5"
+          "legende": "5/7"
+        },
+        {
+          "fichier": "00788",
+          "microfilm": "001732",
+          "drive": "1ldV5TWP4WNLMRSOchYvzq2--bzFqV5Ug",
+          "legende": "6/7"
+        },
+        {
+          "fichier": "00789",
+          "microfilm": "001733",
+          "drive": "1opr4Z_N5wN_uKlDavnFltHVBmqGqCoIJ",
+          "legende": "7/7"
         }
       ]
+    },
+    {
+      "id": "notarie-1874-08-22-protet-simoneau-blanchette",
+      "type": "notarie",
+      "titre": "Protêt d'Augustin Simoneau, boulanger, contre Victor Blanchette, creuseur de puits artésiens, 1874",
+      "date": "1874-08-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 168, images 001734 à 001740 (Drive : fichiers 04T_CN401S124P_00790 à 00795) ; acte complet, avec deux billets volants.",
+      "nature": "Protêt (déclarations, notifications, sommations, réquisitions et offres), fait le 22 août 1874, avant midi, à la réquisition d'Augustin Simoneau, signifié à Victor Blanchette en la demeure de l'hôtelier Théodule Bégin [?], où il pensionne ; copie authentique laissée ; seul le notaire signe. En marge : « Protêt Simoneau à Blanchette — Original — Exp. 1 fois ». Nombreux renvois paraphés « E. H. T. ». Deux billets volants filmés à la suite : « Joseph Carrette [?] — Félix Guérette [?] » (fichier 00794) et un calcul (16 × 6 = 96 ; 35,25 ; 110 ; 239,25 — fichier 00795).",
+      "transcription": "[001734-35] « N° 168 — 22 août 1874. L'an mil huit cent soixante-quatorze, le vingt-deux d'août, avant midi, à la réquisition de Augustin Simoneau, de St Romuald, comté de Lévis, maître boulanger, je, Elzéar Hubert Tremblay, notaire public […], me suis transporté en la demeure de sieur Théodule Bégin [?], hôtellier, située à St Romuald, où pensionne Victor Blanchette, de Ste Louise, comté de L'Islet, creuseur de puits artésiens, où étant & parlant à Victor Blanchette personnellement, lui ai fait les déclarations, notifications, sommations, réquisitions (2) [renvoi : & offres] suivantes, savoir : Attendu que lui, dit Victor Blanchette, a, suivant convention verbale avec le dit Augustin Simoneau, entrepris de creuser un puits artésien chez le dit sieur Simoneau, à une profondeur suffisante pour pouvoir procurer de l'eau claire au requérant au moyen de tuyaux & d'une pompe, aussi en fer, moyennant [001735-36] moyennant deux piastres par chaque pied, ainsi creusé (1) [renvoi : utilisé] sous sol ; Attendu que le dit requérant s'est obligé de fournir un homme pour une journée de travail seulement, à ses propres frais ; Attendu que le dit homme a été fourni & qu'il n'a pu travailler qu'une demi-journée, l'associé du dit V. Blanchette lui ayant dit de ne plus travailler, mais d'attendre ce dernier ; Attendu que le dit Victor Blanchette a manifesté hautement son intention de ne plus travailler pour cause de paresse ; Attendu qu'il a dit à deux reprises différentes, en présence de témoins, que si le requérant pouvait lui fournir deux hommes pour creuser le puits, qu'il les paierait lui-même à raison de sept chelins & demi par chaque pied ; Attendu que tels hommes ont été trouvés & offerts par le dit sieur Simoneau au dit Blanchette ; Attendu en outre que tel creusement de puits, au cas où il ne serait [001736-37] [continué], a été déclaré avantageux & assez facile par le dit Blanchette lui-même, en présence de témoins, & en conséquence de ce que (4) [renvoi : rien ne l'empêche de continuer son entreprise déjà commencée & rendue à une profondeur d'environ sept pieds de creusement]. C'est pourquoi je, dit notaire, à la réquisition susdite, (11) [renvoi : ai notifié, requis & sommé] le dit Victor Blanchette & autres intéressés, s'il y a lieu, de continuer tel ouvrage jusqu'à parachèvement & complétion, le sommant en outre d'accepter les services des deux hommes qui lui ont été offerts ce matin même par le requérant ((3) [renvoi : de St Romuald, journalier]) (étant les hommes refusés par le dit Blanchette par l'entremise du requérant), & de remplir les obligations susdites ; faute de quoi le requérant se pourvoira en justice pour l'y contraindre, ainsi que pour le recouvrement de tous les frais encourus & à encourir & les dommages soufferts & à souffrir, notamment pour les frais de travaux faits (5) [renvoi : & encourus pour la table du dit Blanchette par lui, & à faire, sans délai,] & les dommages faits aux planchers [?] de la maison du requérant par suite de la négligence de la part du [001737-38] dit Blanchette de terminer son entreprise. Et j'ai, (+) [renvoi : par suite des dites déclarations], notifications, sommations, réquisitions & offres, (1) [renvoi : à quoi le dit Victor Blanchette a répondu : « Je ne dis rien, je ne veux pas continuer mon ouvrage ; je ne crois pas pouvoir le terminer faute d'hommes ; je crois qu'il n'y a pas moyen d'avoir de l'eau. » Le dit Blanchette déclare qu'il a droit à paiement pour ce qu'il a fait jusqu'à présent, qu'il continue & parachève son ouvrage.] Dont acte, sous le numéro cent soixante-huit, fait, signifié & passé à St Romuald, au domicile actuel du dit Victor Blanchette ((1) [renvoi : situé chez le dit Bégin]), les jour, mois & an susdits, où je lui ai, parlant comme dit est, laissé une copie authentique des présentes, afin qu'il n'en prétende ni plaide cause d'ignorance. Et j'ai signé, lecture faite. Deux renvois en marge sont bons & approuvés ; mots rayés sont nuls. » Signature : « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "requerant",
+          "nom": "Augustin Simoneau",
+          "ref_personne": "1871-D1-P022-L17",
+          "note": "« Maître boulanger » de Saint-Romuald ; fait creuser un puits artésien chez lui. Boulanger de 40 ans en 1871 (division 1, maison 56)."
+        },
+        {
+          "role": "autre",
+          "nom": "Victor Blanchette",
+          "note": "« Creuseur de puits artésiens », de Sainte-Louise (comté de L'Islet), en pension chez l'hôtelier Bégin à Saint-Romuald. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Théodule Bégin [?]",
+          "note": "Hôtelier de Saint-Romuald, chez qui pensionne Blanchette. Prénom et nom de lecture incertaine ; non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le boulanger Simoneau, qui a besoin d'eau claire pour son four, avait fait venir de la Côte-du-Sud un creuseur de puits artésiens payé deux piastres le pied. À sept pieds, l'ouvrier abandonne, faute d'hommes et faute d'eau, dit-il ; le boulanger le somme de finir. Réponse consignée de Blanchette : « je crois qu'il n'y a pas moyen d'avoir de l'eau ».",
+      "ajoute_le": "2026-11-11",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-08-22-quittance-topping-lapierre",
+      "type": "notarie",
+      "titre": "Quittance de Louis Topping à Ferdinand Denis dit Lapierre, 800 piastres, prix d'une île de la Chaudière revendue à Breakey et King, 1874",
+      "date": "1874-08-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 169, images 001740 à 001742 (Drive : fichiers 04T_CN401S124P_00796 et 00797) ; acte complet.",
+      "nature": "Formulaire imprimé de quittance (« Pardevant le Notaire Public… résidant en la Cité de Québec », modèle du notaire André-Elphrid Tessier, corrigé à la main pour Saint-Romuald), passée le 22 août 1874, après midi, en l'étude du notaire, sans témoin ; le comparant signe. En marge : « Quittance [Topping] à Lapierre — Original — Payé pour enregistrement — Expédié 1 fois & enregistré ». La clause imprimée de radiation de l'hypothèque est rayée.",
+      "transcription": "[001740-41] « N° 169 — 22 août 1874. Pardevant le Notaire Public pour la Province de Québec, résidant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Louis Topping, de la paroisse de St Jean Chrysostome, comté de Lévis, agriculteur ; Lequel a volontairement reconnu & déclaré avoir eu & reçu, à son entière satisfaction, en bon argent, dès avant l'exécution des présentes, de Ferdinand Denis dit Lapierre, du même lieu, agriculteur, la somme de huit cents piastres courant, étant pour le parfait & entier paiement du prix d'une [île] vendue au dit sieur Lapierre & maintenant appartenant à MM. John Breakey & Henry King, suivant acte de vente fait & consenti par le dit sieur Topping en faveur du dit sieur Lapierre, reçu par Mtre L. Laliberté, notaire, & dûment enregistré au bureau d'enregistrement du comté de Dorchester, division numéro deux, Reg. B, vol. 21, page 249, no 16 415. Reconnaît en outre le dit comparant avoir aussi reçu du dit sieur Lapierre une autre somme égale aux intérêts dus & échus sur la susdite somme jusqu'à ce jour. [001741-42] C'est pourquoi le dit comparant donne & accorde par ces présentes au dit sieur Lapierre & à tous autres qu'il appartiendra quittance générale & finale. Car ainsi, &c. Dont acte. Fait & passé à St Romuald, étude de Mtre Elzéar H. Tremblay, notaire, l'an mil huit cent soixante-quatorze, le vingt-deuxième jour d'août, après midi, sous le numéro cent soixante-neuf des originaux du notaire soussigné. Et le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Louis Topping », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "creancier",
+          "nom": "Louis Topping",
+          "note": "Agriculteur de Saint-Jean-Chrysostome ; signe « Louis Topping ». Vendeur de l'île en 1869 (n° 135). Non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Ferdinand Denis dit Lapierre",
+          "note": "Agriculteur de Saint-Jean-Chrysostome ; le vendeur de l'île à « H. King & Co. » le 27 juin (n° 135)."
+        },
+        {
+          "role": "autre",
+          "nom": "John Breakey",
+          "note": "Propriétaire actuel de l'île avec Henry King (n° 135)."
+        },
+        {
+          "role": "autre",
+          "nom": "Henry King",
+          "note": "Propriétaire actuel de l'île avec John Breakey (n° 135)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-08-22",
+          "personnes": [],
+          "enonce": "L'île de la Chaudière vendue en 1869 par Louis Topping à Ferdinand Denis dit Lapierre, pour 800 piastres, appartient le 22 août 1874 à John Breakey et Henry King."
+        }
+      ],
+      "note": "Dernier acte du fil des îles de la Chaudière (n° 134, 135, 137, 139) : comme son frère Jean avec la veuve Topping, Ferdinand Denis dit Lapierre solde son propre vendeur, Louis Topping, avec l'argent des marchands de bois. La page manquante du n° 135 (le prix) n'est pas retrouvée, mais l'île avait coûté 800 piastres à Lapierre en 1869.",
+      "ajoute_le": "2026-11-11",
+      "images": []
     }
   ]
 }
