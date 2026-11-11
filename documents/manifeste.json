@@ -19422,6 +19422,78 @@
         }
       ],
       "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-09-22-titre-nouvel-fontaine-demers",
+      "type": "notarie",
+      "titre": "Titre nouvel de Jean-Baptiste Fontaine à Benjamin Demers pour la rente de l'emplacement acheté de Napoléon Paradis, 1874",
+      "date": "1874-09-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 192, images 001823 à 001825 (Drive : fichiers 04T_CN401S124P_00879 à 00881) ; acte complet.",
+      "nature": "Titre nouvel (reconnaissance de rente), passé le 22 septembre 1874, avant midi, en l'étude, devant un témoin ; Demers et le témoin signent, Fontaine ne sait signer. En marge : « Titre nouvel Fontaine à Demers — Original ».",
+      "transcription": "[001823] « N° 192 — 22 septembre 1874. L'an mil huit cent soixante-quatorze, le vingt-deux de septembre, avant midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Germain Cantin, du même lieu, marchand ; Furent présents : Benjamin Demers, écr, cultivateur, & Jean-Baptiste Fontaine, rentier, tous deux de St Romuald, dit comté ; Lequel dit Sr Fontaine a reconnu qu'au moyen de l'acquisition qu'il a faite de Napoléon Paradis d'un certain lot de terre ou emplacement situé au dit lieu de St Romuald, contenant cinquante pieds de front sur soixante pieds de profondeur, borné au sud à Joseph Leclerc, au nord [001824] & au nord-est à Benjamin Demers, écr, & au sud-ouest à la rue St Paul, avec ensemble une maison en bois à deux étages & autres bâtisses dessus construites, circonstances & dépendances — tel que le tout est porté par contrat passé devant Mtre L. Laliberté, notaire, & dans lequel le dit Sr Paradis s'est obligé de payer par le dit contrat la somme de six piastres courant de rente foncière & constituée envers le dit Benj. Demers, écr — Et en conséquence le dit Sr Fontaine promet & s'oblige par ces présentes de payer à l'époque mentionnée au dit acte de bail à rente foncière reçu par le dit Mtre Laliberté la dite somme de six piastres courant, & promet & s'oblige se conformer en tous points au dit acte de bail à rente foncière. Et pour l'exécution des présentes les parties [001825] élisent domiciles en leurs demeures actuelles & respectives, aux quels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent quatre-vingt-douze des originaux du notaire soussigné. Et les dits Srs Demers & Cantin ont signé avec moi, notaire, le dit Sr Fontaine, de ce requis, ayant déclaré ne le savoir, en présence du dit témoin, lecture faite. Mots rayés sont nuls. » Signatures : « Benj. Demers », « Germain Cantin », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "creancier",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Écuyer, cultivateur ; bailleur de fonds de l'emplacement ; signe."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Jean-Baptiste Fontaine",
+          "note": "Rentier de Saint-Romuald ; acquéreur de l'emplacement de Napoléon Paradis (n° 167) ; ne sait signer. Non rattaché (voir n° 191)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Marchand de Saint-Romuald ; signe."
+        },
+        {
+          "role": "auteur",
+          "nom": "Napoléon Paradis",
+          "note": "Charpentier, vendeur de l'emplacement (n° 167) ; avait reçu le bail à rente de Demers devant le notaire L. Laliberté."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Leclerc",
+          "ref_personne": "1871-D1-P019-L15",
+          "note": "Borne au sud, comme au n° 167."
+        },
+        {
+          "role": "autre",
+          "nom": "L. Laliberté",
+          "note": "Notaire, a reçu le bail à rente Demers-Paradis."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le nouvel acquéreur de la maison Paradis (deux étages, rue Saint-Paul) se reconnaît débiteur de la rente de six piastres due à Benjamin Demers, le même matin que son bail du lot voisin de la rue Saint-Louis (n° 191) : les deux terrains se touchent par l'arrière.",
+      "images": [
+        {
+          "fichier": "00879",
+          "microfilm": "001823",
+          "drive": "11gHvVA11CtT5T7LBQxq6f57d9U255W1D",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "00880",
+          "microfilm": "001824",
+          "drive": "14vGCAf_R87XMjja7NMewClpIbXTO2WiM",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "00881",
+          "microfilm": "001825",
+          "drive": "1E9Q-CjVVjxRM708oq5gDjXW5R6F_awc9",
+          "legende": "3/3"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
     }
   ]
 }
