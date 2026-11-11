@@ -17314,8 +17314,8 @@
       "titre": "Quittance de François Leclerc junior, marchand, à Jean-Baptiste Samson et Laurent Carrier, 1 000 piastres sur une terre de Saint-Jean-Chrysostome, 1874",
       "date": "1874-08-01",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 161, images 001703 à 001706 (Drive : fichiers 04T_CN401S124P_00759 à 00761) ; acte complet.",
-      "nature": "Quittance, passée le 1er août 1874, après midi, en l'étude du notaire, sans témoin ; le comparant signe. En marge : « Quittance Leclerc à Carrier [&] Samson — Original — Expédié 1 fois ». Un renvoi en marge, paraphé « F. L., E. H. T. ». Mots rayés nuls.",
+      "cote": "Minute n° 161, images 001703 à 001706 et 001709-10 (Drive : fichiers 04T_CN401S124P_00759 à 00761, et 00765) ; acte complet.",
+      "nature": "Quittance, passée le 1er août 1874, après midi, en l'étude du notaire, sans témoin ; le comparant signe. En marge : « Quittance Leclerc à Carrier [&] Samson — Original — Expédié 1 fois ». Un renvoi en marge, paraphé « F. L., E. H. T. ». Mots rayés nuls. Le fichier 00765, filmé après le n° 162, est un feuillet de brouillon du notaire pour cet acte : « Samson vend à Carrier pour 1350 — Samson devait à Leclerc la somme de $1000 qu'il lui a transportée — Carrier a payé à Leclerc $1000 & les intérêts à 6 % », avec des calculs.",
       "transcription": "[001703-04] « N° 161 — 1er août 1874. L'an mil huit cent soixante-quatorze, le premier jour d'août, après midi, en présence de Elzéar Hubert Tremblay, notaire public […] ; Fut présent : François Leclerc, junior, de St Romuald, marchand ; Lequel dit & déclare ce qui suit, savoir : Attendu que Jean-Baptiste Samson a, suivant acte reçu par Mtre É. Simard [?] le vingt-neuf octobre mil huit cent soixante-six, vendu à Laurent Carrier, de la paroisse de St Jean Chrysostome, cultivateur, une certaine terre située au dit lieu de St Jean Chrysostome, pour le prix de treize cent cinquante piastres courant & les intérêts y fixés ; Attendu qu'en date du vingt juillet mil huit cent soixante-neuf, le dit Jean[001704-05]-Baptiste Samson a transporté (renvoi : [suivant acte] reçu par Mtre Louis […] [?]), pour considérations mentionnées au dit acte de transport, la somme de mille piastres courant & les intérêts au taux de six pour cent par an, étant la balance due au dit Jean-Baptiste Samson par le dit Laurent Carrier ; Attendu que le dit François Leclerc a, dès avant ces présentes, eu & reçu à son entière satisfaction la dite somme de mille piastres courant & tous les intérêts échus sur icelle dite somme à lui transportée ; C'est pourquoi le dit comparant donne & accorde aux dits Jean-Baptiste Samson & Laurent Carrier quittance générale & finale. Dont acte, fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent soixante-un des originaux du notaire soussigné. [001705-06] Et le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls ; un renvoi en marge est bon & approuvé. » Signatures : « Frs Leclerc », « E. H. Tremblay N.P. »",
       "personnes": [
         {
@@ -17342,7 +17342,32 @@
       "affirmations": [],
       "note": "Un marchand de Saint-Romuald qui achète des créances hypothécaires de campagne : il touche enfin, cinq ans après la cession, les 1 000 piastres que devait Laurent Carrier sur sa terre.",
       "ajoute_le": "2026-11-11",
-      "images": []
+      "images": [
+        {
+          "fichier": "00759",
+          "microfilm": "001703",
+          "drive": "1jH9edt8LDHnxri_lSvygBduTK0MktKVS",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00760",
+          "microfilm": "001704",
+          "drive": "1CIVoI_sfMDkl4DI8wWz2lazbZB83ZqZI",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00761",
+          "microfilm": "001705",
+          "drive": "1QiFaf9LHCtJraJsUz_-VjcAWvIxYqQ7P",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00765",
+          "microfilm": "001709",
+          "drive": "1APHicS-N2fyU1Isz_taZPclXxgvqvjug",
+          "legende": "4/4"
+        }
+      ]
     },
     {
       "id": "notarie-1874-08-02-quittance-duperron-simoneau",
@@ -17400,6 +17425,75 @@
         }
       ],
       "note": "Le surnom lu « Laverte » aux n° 21 et 28 s'écrit ici « Lavertu ». La part d'héritage d'un enfant (neuf louis) restait hypothéquée sur la terre vendue par licitation depuis plus de dix ans : chaque acquéreur successif l'avait prise en charge.",
+      "ajoute_le": "2026-11-11",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-08-08-vente-tardif-filteau",
+      "type": "notarie",
+      "titre": "Vente d'un cheval et d'un harnais par Éphrem Tardif à Louis Filteau, 1874",
+      "date": "1874-08-08",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 163, images 001710 à 001714 (Drive : fichiers 04T_CN401S124P_00766 à 00769) ; acte complet.",
+      "nature": "Vente de meubles, passée le 8 août 1874, après midi, en l'étude du notaire, en présence d'un témoin ; le vendeur ne sait signer. En marge : « Vente Tardif à Filteau — Original ». Une première rédaction de la désignation est barrée en croix. L'acte annonce la signature de l'acquéreur, mais seules celles du témoin et du notaire figurent ; au bas, un « E. Tardif » rayé.",
+      "transcription": "[001710-11] « N° 163 — 8 août 1874. L'an mil huit cent soixante-quatorze, le huit d'août, après midi, en présence de Elzéar Hubert Tremblay, notaire public […], Et en présence de Germain Cantin, du même lieu, marchand, témoin […] ; Fut présent : Éphrem Tardif, de la paroisse de St Jean Chrysostome, journalier ; Lequel vend, cède, transporte & abandonne dès maintenant & à toujours, sans aucune garantie de bonté & de tous défauts, mais garantie d'âge quant au cheval, [001711-12] à Louis Filteau, de St Romuald susdit, journalier, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayant cause, savoir : Un cheval sous poil gris foncé, âgé de trois ans révolus, & un harnais noir avec boucles jaunes. Cette vente est faite pour le prix ou somme de cent huit piastres courant pour le tout, payable comme suit : vingt-cinq piastres au quatrième jour d'août mil huit cent soixante-quinze, vingt-cinq piastres au vingt-neuf septembre des années mil huit cent soixante-seize, mil huit cent soixante-[001712-13]dix-sept & mil huit cent soixante-dix-huit, & avec l'intérêt de huit pour cent par an, payable annuellement, sur la somme de cent piastres ; & quant à la balance, ou la somme de huit piastres courant, le dit acquéreur la paiera en même temps que le dernier versement en mil huit cent soixante-dix-huit, sans intérêts. Et pour l'exécution des présentes, les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux, &c. Car ainsi, &c. Dont acte. Fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & [001713-14] an susdits, sous le numéro cent soixante-trois des originaux du notaire soussigné. Requis de signer, le dit vendeur a déclaré ne le savoir, en présence du témoin, qui a signé ainsi que le dit acquéreur avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Germain Cantin », « E. H. Tremblay N.P. » ; au bas, « E. Tardif » rayé.",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Éphrem Tardif",
+          "note": "Journalier de Saint-Jean-Chrysostome ; ne sait signer. Absent des recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Louis Filteau",
+          "ref_personne": "1871-D1-P023-L14",
+          "note": "Journalier de Saint-Romuald ; le concessionnaire de la rue Demers (n° 143). Même rattachement probable (fils de Stanislas Filteau, 21 ans en 1871). Sa signature, annoncée, manque."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Marchand de Saint-Romuald ; signe."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un cheval de trois ans et son harnais, 108 piastres payables en quatre ans : l'outil de travail d'un charretier. Trois semaines après avoir pris son terrain de la rue Demers (n° 143), Louis Filteau s'équipe, à crédit — comme son frère Charles, déjà charretier (n° 140).",
+      "ajoute_le": "2026-11-11",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-08-15-quittance-lemieux-lemelin",
+      "type": "notarie",
+      "titre": "Quittance de Gabriel Lemieux, marchand, à Joseph Lemelin, batelier, 125 piastres à compte, 1874",
+      "date": "1874-08-15",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 164, images 001714 à 001717 (Drive : fichiers 04T_CN401S124P_00770 à 00772) ; acte complet. Les fichiers 00770 et 00771 sont deux prises de la même page.",
+      "nature": "Quittance, passée le 15 août 1874, après midi, en l'étude du notaire, sans témoin (la mention d'un témoin est rayée) ; le comparant signe « G. Lemieux ». En marge : « Quittance G. Lemieux à Jos. Lemelin — Original — Payé ». Le notaire avait d'abord écrit « le huitième jour » ; deux renvois en marge, paraphés « G. L., E. H. T. ».",
+      "transcription": "[001714-15] « N° 164 — 15 août 1874. L'an mil huit cent soixante-quatorze, le (1) [renvoi : quinzième ; « huitième », rayé] jour d'août, après midi, en présence de Elzéar Hubert Tremblay, notaire public […] ; [mention du témoin rayée] Fut présent : Gabriel Lemieux, marchand, de St Romuald, dit comté ; Lequel reconnaît que Joseph Lemelin, de St Romuald, batelier, lui a payé la somme de cent vingt-cinq piastres en à-compte sur plus forte somme que lui doit le dit Lemelin, suivant acte de vente consenti en faveur de ce dernier par le comparant, en date à St Romuald du vingt-huit de février mil [001716-17] huit cent soixante-dix [?], reçu par Mtre Laliberté, notaire. Dont quittance d'autant. (1) [renvoi : Tous reçus antérieurs au présent acte & relatifs aux dites sommes sont nuls de ce jour en vertu des présentes.] Dont & du tout le dit comparant a requis le présent acte, qui lui a été octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent soixante-[quatre] des originaux du notaire soussigné. Et, requis de signer, le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » Signatures : « G. Lemieux », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "creancier",
+          "nom": "Gabriel Lemieux",
+          "ref_personne": "1871-D1-P019-L16",
+          "note": "Marchand de Saint-Romuald ; signe « G. Lemieux ». Rattaché en probable au marchand de 59 ans de 1871 (division 1, maison 48) ; un autre Gabriel Lemieux, commis veuf de 35 ans (1871-D1-P074-L03), n'est pas marchand. A vendu un bien à Joseph Lemelin en 1870 [?]."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Joseph Lemelin",
+          "ref_personne": "1871-D2-P012-L13",
+          "note": "Batelier de Saint-Romuald ; le testateur du n° 89 (18 avril 1874). Même rattachement probable (veuf de 25 ans en 1871, division 2, maison 27 ; navigateur de 36 ans en 1881)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Joseph Lemelin, qui avait testé en avril (n° 89) en léguant tout à sa seconde épouse, continue de payer par acomptes le prix d'un bien acheté de Gabriel Lemieux en 1870 [?] ; la quittance notariée annule les reçus sous seing privé donnés jusque-là.",
       "ajoute_le": "2026-11-11",
       "images": []
     }
