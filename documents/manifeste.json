@@ -19094,7 +19094,7 @@
       "titre": "Quittance de Prosper Girard, prestidigitateur, à Alfred Boucher, qui avait troublé ses soirées, 1874",
       "date": "1874-09-18",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 187, images 001804 à 001806 (Drive : fichiers 04T_CN401S124P_00860 à 00862) ; acte complet.",
+      "cote": "Minute n° 187, images 001804 à 001807 (Drive : fichiers 04T_CN401S124P_00860 à 00863) ; acte complet, suivi d'un verso blanc (au crayon : « 12.00 »).",
       "nature": "Quittance, passée le 18 septembre 1874, avant midi, à Saint-Romuald, en la demeure de Madame veuve Smith, sans témoin ; le comparant signe. En marge : « Quittance Girard à Boucher — Original ». Somme : 10 piastres, payées par le notaire.",
       "transcription": "[001804] « N° 187 — 18 sept. 1874. L'an mil huit cent soixante-quatorze, le dix-huit septembre, avant midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Mr Pierre [sic] Girard, maintenant à St Romuald, prestidigitateur licencié ; Lequel déclare ce qui suit, savoir : Attendu que lundi, le quatorze du courant, [« Pierre Gagnon, de St Romuald, » rayé] Alfred Boucher, de St Romuald, journalier, a fait, en causant beaucoup de troubles & autres faits, un dommage considérable au comparant, en empêchant indirectement des gens d'entrer & de prendre des cartes d'admission à la soirée que donnait le dit Sr Girard, & qu'en conséquence, sous l'influence de [001805] tels faits, les personnes, craignant de nouveaux troubles, n'ont pas assisté aux soirées que devait subséquemment donner le comparant, ce qui a causé un grand dommage au dit Sr Girard en hâtant son départ ; Attendu que le dit Alfred Boucher a payé la somme de dix piastres en compensation de tous les dommages soufferts par le comparant ; C'est pourquoi le comparant donne & accorde au dit Alfred Boucher [renvoi (1) : « ou ses auteurs »] quittance générale & finale, & renonce par ces présentes (en considération de la somme susdite payée par le notaire soussigné) à tous droits acquis & à acquérir relatifs aux dommages soufferts comme susdit, ainsi qu'à tous droits qu'il peut ou pourrait avoir contre le [001806] dit Boucher pour raison de ce dessus cité. Dont & du tout le comparant a requis le présent acte, qui lui a été octroyé à St Romuald susdit, en la demeure de madame veuve Smith, les jour, mois & an susdits, sous le numéro cent quatre-vingt-sept des originaux du notaire soussigné. Et le comparant a signé avec moi, notaire, lecture faite. Un renvoi en marge est bon & approuvé. Dix-huit mots rayés sont nuls. » Signatures : « Prosper Girard », « E. H. Tremblay N.P. »",
       "personnes": [
@@ -19125,25 +19125,137 @@
         }
       ],
       "affirmations": [],
-      "note": "Un spectacle de prestidigitation à Saint-Romuald en septembre 1874 : la soirée du lundi 14 est troublée, le public n'ose plus revenir aux suivantes et l'artiste doit partir plus tôt. L'arrangement de dix piastres règle l'affaire sans procès. Le « ou ses auteurs » ajouté en marge laisse entendre que d'autres que Boucher étaient en cause.",
+      "note": "Un spectacle de prestidigitation à Saint-Romuald en septembre 1874 : la soirée du lundi 14 est troublée, le public n'ose plus revenir aux suivantes et l'artiste doit partir plus tôt. L'arrangement de dix piastres règle l'affaire sans procès. Le « ou ses auteurs » ajouté en marge laisse entendre que d'autres que Boucher étaient en cause. Le même matin, le prestidigitateur donne une quittance semblable à Pierre Gagnon (n° 188) : chacun des deux fauteurs de troubles paie dix piastres.",
       "images": [
         {
           "fichier": "00860",
           "microfilm": "001804",
           "drive": "1luHZ9_0-7mzfpwNKiiZOnh3nyFsxy9Nu",
-          "legende": "1/3"
+          "legende": "1/4"
         },
         {
           "fichier": "00861",
           "microfilm": "001805",
           "drive": "1pbYLxeo_LDCZuCdFSvtb6wHVA-GIRCrD",
-          "legende": "2/3"
+          "legende": "2/4"
         },
         {
           "fichier": "00862",
           "microfilm": "001806",
           "drive": "17GzVXJUnsEkIKcCd2E9r1b8DU5__g_HP",
-          "legende": "3/3"
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00863",
+          "microfilm": "001807",
+          "drive": "1DjoPxKneh8ipFSSAWN_B22PEk9A8slhl",
+          "legende": "4/4"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-09-18-quittance-girard-gagnon",
+      "type": "notarie",
+      "titre": "Quittance de Prosper Girard, prestidigitateur, à Pierre Gagnon, autre perturbateur de ses soirées, 1874",
+      "date": "1874-09-18",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 188, images 001808 à 001811 (Drive : fichiers 04T_CN401S124P_00864 à 00867) ; acte complet, avec la chemise « Quittance ».",
+      "nature": "Quittance, passée le 18 septembre 1874, avant midi, à Saint-Romuald, en la demeure de Dame veuve Smith, sans témoin ; le comparant signe. En marge : « Quittance Girard à Gagnon — Original ». Somme : 10 piastres, payées par le notaire.",
+      "transcription": "[001808] « N° 188 — 18 sept. 1874. L'an mil huit cent soixante-quatorze, le dix-huit de septembre, avant midi, en présence de Elzéar H. Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Mr Pierre [sic] Girard, maintenant à St Romuald, prestidigitateur licencié ; Lequel déclare ce qui suit, savoir : Attendu que lundi, le quatorze du courant, Pierre Gagnon, de St Romuald, journalier, a fait, en causant beaucoup de trouble & autres faits, un dommage considérable au comparant, en empêchant indirectement les gens d'entrer & de prendre des cartes d'admission à la soirée que donnait le dit sieur Girard, & qu'en conséquence, sous l'influence de ces faits, [« le dit Sr Girard n'a presque rien gagné … », rayé] les personnes craignant de nouveaux [001809] troubles n'ont pas assisté aux soirées [renvoi (1) : « que devait subséquemment donner le comparant, ce qui a causé un grand dommage au dit Sr Girard en hâtant son départ »] ; Attendu que le dit sieur Pierre Gagnon lui a payé la somme de dix piastres en compensation de tous les dommages soufferts par le comparant ; C'est pourquoi le comparant donne & accorde au dit Pierre Gagnon quittance générale & finale, & renonce par ces présentes (en considération de la somme susdite payée par le notaire soussigné) à tous droits acquis & à acquérir & relatifs aux dits dommages soufferts comme susdit, ainsi qu'à tous [renvoi : « droits qu'il peut ou pourrait avoir contre le dit Gagnon pour raison de ce que dessus cité »]. Dont & du tout le comparant a requis le présent acte, qui lui a été octroyé [renvoi : « à St Romuald susdit, en la demeure de Dame veuve Smith »], les jour, mois & an susdits, sous le numéro cent quatre-vingt-huit des originaux du notaire soussigné. Et le comparant a signé avec moi, notaire, lecture faite. Trois renvois en marge sont bons & approuvés. [001810] Vingt-trois mots rayés sont nuls. » Signatures : « Prosper Girard », « E. H. Tremblay N.P. » — [001811] chemise : « Quittance ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Prosper Girard",
+          "note": "Prestidigitateur licencié, de passage ; signe « Prosper Girard » et paraphe « P. G. » (le notaire écrit « Pierre » dans le texte). Voir n° 187."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Pierre Gagnon",
+          "note": "Journalier de Saint-Romuald ; d'abord nommé, puis rayé, dans le n° 187. Deux Pierre Gagnon d'une vingtaine d'années en 1871 (1871-D1-P001-L16, 22 ans ; 1871-D1-P057-L18, journalier de 21 ans, fils de Joseph Gagnon) : non rattaché faute de pouvoir choisir."
+        },
+        {
+          "role": "autre",
+          "nom": "veuve Smith",
+          "note": "En sa demeure l'acte est passé, comme le n° 187."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay",
+          "note": "Paie les dix piastres au comparant."
+        }
+      ],
+      "affirmations": [],
+      "note": "Pendant du n° 187, passé le même matin au même lieu : les deux journaliers qui avaient troublé la soirée du lundi 14 septembre paient chacun dix piastres au prestidigitateur. Le notaire avance l'argent dans les deux cas.",
+      "images": [
+        {
+          "fichier": "00864",
+          "microfilm": "001808",
+          "drive": "1fi1hmyOF3tXQakvengcfSUx7jqhPzeHM",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00865",
+          "microfilm": "001809",
+          "drive": "1zTVEvfGuAMK19buZQUMjuSCExUZjpmKQ",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00866",
+          "microfilm": "001810",
+          "drive": "1ysQ9NC3lACjgxRUJL96o1fHvEpFQmBad",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00867",
+          "microfilm": "001811",
+          "drive": "1ETtq0ly3BkNpN6WC-3WPlAow918sYA1H",
+          "legende": "4/4"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-09-18-obligation-roy-leclerc",
+      "type": "notarie",
+      "titre": "Obligation du boulanger Hubert Roy envers Joseph Leclerc, ancien marchand, 1874",
+      "date": "1874-09-18",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 189, images 001812 à 001813 (Drive : fichiers 04T_CN401S124P_00868 à 00869) ; acte complet.",
+      "nature": "Obligation, passée le 18 septembre 1874, après midi, en l'étude du notaire, sans témoin ; les deux parties signent. En marge : « Obligation Roy à Leclerc — Original ». Somme : 25 piastres, sans intérêt.",
+      "transcription": "[001812] « N° 189 — 18 sept. 1874. L'an mil huit cent soixante-quatorze, le dix-huit de septembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Mr Hubert Roy, de la paroisse de St Romuald, boulanger ; Lequel reconnaît & confesse devoir bien & légitimement, pour effets à lui vendus & livrés dès avant ces présentes par le créancier ci-après nommé [renvoi (1) : « ainsi que le dit Hubert Roy le reconnaît & dont il se déclare content & satisfait »], à Mr Joseph Leclerc, du même lieu, ancien marchand, à ce présent & acceptant créancier pour lui, ses hoirs & ayants cause, la somme de vingt-cinq piastres courant, que le dit sieur Roy promet & s'oblige payer & rembourser au dit sieur Leclerc comme suit, savoir : la somme de quatre piastres au premier jour de novembre prochain, & la balance ou vingt-une piastres par paiements égaux de un écu par semaines subséquentes jusqu'au parfait paiement de la dite somme capitale, le tout sans intérêt. Et pour l'exécution [001813] des présentes les parties élisent domicile en leurs demeures actuelles & respectives, aux quels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent quatre-vingt-neuf des originaux du notaire soussigné. Et les dits créancier & débiteur ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » Signatures : « Joseph Leclerc », « H. Roy », « E. H. Tremblay N.P. » ; paraphes en marge « J. L. », « H. R. ».",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Hubert Roy",
+          "ref_personne": "1881-D1-P028-L22",
+          "note": "Boulanger de Saint-Romuald ; signe « H. Roy ». Le boulanger de 54 ans recensé en 1881 (maison 111) et de 65 ans en 1891 (1891-D1-P001-L24) ; absent de 1871."
+        },
+        {
+          "role": "creancier",
+          "nom": "Joseph Leclerc",
+          "ref_personne": "1871-D1-P019-L15",
+          "note": "« Ancien marchand » de Saint-Romuald ; signe. Même rattachement probable qu'aux n° 93, 105, 131 et 160."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Vingt-cinq piastres de marchandises, à rembourser « un écu par semaine » (un demi-dollar) après un premier versement de quatre piastres : un échéancier de petit commerçant. L'ancien marchand liquide sans doute ses créances (voir aussi le n° 190, du même après-midi).",
+      "images": [
+        {
+          "fichier": "00868",
+          "microfilm": "001812",
+          "drive": "1ZJ8RZSaZRguyMjDCnJLwdSYrxNHcb2Qu",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "00869",
+          "microfilm": "001813",
+          "drive": "13d9_r_AGpRrTl5cHq7iAT-6jwoCi8g8t",
+          "legende": "2/2"
         }
       ],
       "ajoute_le": "2026-11-11"
