@@ -21610,6 +21610,144 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1874-09-29-obligation-demers-lapierre",
+      "type": "notarie",
+      "titre": "Obligation de Thomas Demers, cultivateur, envers Étienne Denis dit Lapierre, de Saint-Jean-Chrysostome, 1874",
+      "date": "1874-09-29",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 208, images 001888 à 001891 (Drive : fichiers 04T_CN401S124P_00944 à 00947) ; acte complet, sur formule imprimée du notaire Georges-Théophile Tremblay, de Québec, avec sa chemise « Obligation ». Original réparé au ruban adhésif.",
+      "nature": "Obligation hypothécaire, sur formule imprimée d'un autre notaire (Geo. Théo. Tremblay, Québec) corrigée à la main, passée le 29 septembre 1874 (« vingt-huit » corrigé), après midi, en l'étude ; les deux parties signent. En marge : « Obligation Demers à Lapierre — Original — Payé 2/6 [?] enregistrement — $3.00 ». Somme : 250 piastres, à 7 %.",
+      "transcription": "[001888] « N° 208 — 29 sept. 1874. Pardevant le Notaire Public résidant à St Romuald, comté de Lévis [« pour cette partie de la Province du Canada appelée Bas-Canada, résidant en la Cité de Québec », imprimé, rayé], soussigné ; Fut présent : [« Mr Étienne Denis dit Lapierre, cultivateur, de St Jean Chrysostome, dit comté », rayé] Sieur Thomas Demers, cultivateur, de St Jean Chrysostome, comté susdit ; Lequel a reconnu et confessé devoir bien légitimement à Mr Étienne Denis dit Lapierre, cultivateur, de St Jean Chrysostome, à ce présent et acceptant, la somme de deux cent cinquante piastres, étant pour autant que le dit créancier a prêté & réellement délivré au débiteur dès avant ces présentes, & ainsi que ce dernier le reconnaît et dont il se déclare content et satisfait. Laquelle dite somme de deux cent cinquante piastres courant, le dit débiteur promet et s'oblige pour lui, ses héritiers et ayants cause, payer et rembourser au dit créancier ou ordre, porteur des présentes en forme légale, savoir : cinquante piastres au premier novembre mil huit cent soixante-quinze, cent piastres au premier novembre mil huit cent soixante-seize & la balance ou cent piastres au premier novembre mil huit cent soixante-dix-sept, [001889] ensemble avec l'intérêt de sept pour cent par an, payable annuellement à compter du premier jour de novembre prochain jusqu'au parfait et entier paiement de la dite somme capitale. Pour sûreté de laquelle dite somme de deux cent cinquante piastres courant et des intérêts qui en proviendront, le dit débiteur hypothèque spécialement : Une terre située à St Jean Chrysostome, concession de [lacune — papier abîmé], contenant deux arpents & un quart de large sur trente arpents de profondeur, bornée à l'est à Léon Côté, à l'ouest à [?] Lambert, au nord à J. B. Hall & au sud à Jean-Baptiste Cantin, avec ensemble les bâtisses dessus construites, circonstances & dépendances. [001890] Et pour l'exécution des présentes les parties font élection de leurs domiciles irrévocables en leurs demeures actuelles et respectives, aux quels lieux, etc. Car ainsi, etc. Dont acte. Fait et passé à St Romuald [« Québec », imprimé, rayé], en l'étude de Mtre [« Geo. Théo. Tremblay », imprimé], Notaire, l'an mil huit cent soixante-quatorze, le vingt-neuvième jour de septembre, après midi, sous le numéro deux cent huit des originaux du notaire soussigné. Et les dits créancier & débiteur ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Étienne Lapierre », « Thomas Demers », « E. H. Tremblay N.P. » — [001891] chemise imprimée « Obligation par … à … — Copie — Geo. Théo. Tremblay, Notaire » ; au crayon « 3.00 / 1.20 / .30 ».",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Thomas Demers",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe. Non rattaché (le Thomas Demers de 1891 a 20 ans)."
+        },
+        {
+          "role": "creancier",
+          "nom": "Étienne Denis dit Lapierre",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe « Étienne Lapierre ». Le même qu'aux n° 136 et 149. Peut-être l'Étienne Denis dit Lapierre, journalier de 70 ans, de 1891 (1891-D1-P014-L04) ; non rattaché ici."
+        },
+        {
+          "role": "voisin",
+          "nom": "Léon Côté",
+          "note": "À l'est de la terre hypothéquée."
+        },
+        {
+          "role": "voisin",
+          "nom": "J. B. Hall",
+          "note": "Au nord (propriétaire aussi nommé aux n° 175 et 177)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Jean-Baptiste Cantin",
+          "note": "Au sud."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay",
+          "note": "Sur une formule imprimée au nom du notaire Georges-Théophile Tremblay, de Québec (homonyme, peut-être parent)."
+        }
+      ],
+      "affirmations": [],
+      "note": "Prêt de 250 piastres à 7 %, remboursable en trois ans, garanti sur une terre de Saint-Jean-Chrysostome bornée au nord par J. B. Hall. Le notaire utilise une formule imprimée d'un homonyme de Québec, Geo. Théo. Tremblay. Le nom de la concession est perdu sous une réparation du papier.",
+      "images": [
+        {
+          "fichier": "00944",
+          "microfilm": "001888",
+          "drive": "1E_57ph7THbxhc9CseGZztf6HYzGjtrDz",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00945",
+          "microfilm": "001889",
+          "drive": "1S-9kDjUU9aL879yelegPq04ucxixc8Zz",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00946",
+          "microfilm": "001890",
+          "drive": "1BwKwqr6SYuTn_-CFdmI7DqY2mh-u-Sc1",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00947",
+          "microfilm": "001891",
+          "drive": "1G4sP0_iHPFq3W-tAEc7d3HBMr9QzWHDO",
+          "legende": "4/4"
+        }
+      ],
+      "ajoute_le": "2026-11-12"
+    },
+    {
+      "id": "notarie-1874-10-02-quittance-savard-paquet",
+      "type": "notarie",
+      "titre": "Quittance de Pierre Savard, journalier, à Philéas Paquet et à son père François-Xavier, après une bagarre et un mandat d'arrestation, 1874",
+      "date": "1874-10-02",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 209, images 001892 à 001894 (Drive : fichiers 04T_CN401S124P_00948 à 00950) ; acte complet.",
+      "nature": "Quittance (transaction), passée le 2 octobre 1874, après midi, en l'étude, sans témoin ; le comparant signe. En marge : « Quittance Savard à Paquet & alias — Original ». Somme : 10 piastres.",
+      "transcription": "[001892] « N° 209 — 2 octobre 1874. L'an mil huit cent soixante-quatorze, le deuxième jour d'octobre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Pierre Savard, de St Romuald, journalier ; Lequel dit & déclare ce qui suit, savoir : Attendu que lundi, le vingt-huit de septembre dernier, le comparant a fait arrêter, au moyen d'un warrant d'arrestation, Philéas Paquet, enfant mineur de François-Xavier Paquet, [renvoi : « navigateur »], demeurant tous deux à St Romuald ; Attendu que le comparant, pour arranger toutes les difficultés survenues entre lui & le dit Philéas Paquet samedi, le vingt-six de septembre aussi dernier, a accepté, comme par ces [001893] présentes il accepte, du dit François-Xavier Paquet, père de l'accusé au dit warrant d'arrestation, [la somme de dix piastres] ; Attendu que la dite somme de dix piastres lui a été payée à vue & présence de nous, notaire, en bon argent courant & à l'entière satisfaction du comparant, qui déclare que le dit sieur Paquet & ses ayants cause ne seront pas tenus de payer aucuns frais relatifs au dit warrant d'arrestation émané contre le dit Philéas Paquet pour causes y mentionnées, à l'exception des frais de service de deux subpœnas qui doivent être servis à la réquisition du dit F. X. Paquet aux témoins de ce dernier, s'il y a lieu, lesquels seront payés par le dit sieur Paquet. C'est pourquoi le dit comparant donne & accorde, en considération de ce que dessus, quittance [001894] générale & finale au dit Philéas Paquet & au dit F. X. Paquet, son père, & ayants cause, pour toutes insultes, voies de fait ou assaut & batterie, ainsi que de tous dommages & intérêts soufferts & à souffrir & frais & dépens encourus & relatifs à cette affaire jusqu'à ce jour. Dont & du tout le requérant a requis le présent acte, qui lui a été octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro deux cent neuf des originaux du notaire soussigné. Et le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Pierre Savard », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Pierre Savard",
+          "ref_personne": "1881-D1-P031-L13",
+          "note": "Journalier de Saint-Romuald ; signe. Le journalier de 26 ans recensé en 1881 (maison 120) ; rattachement probable (il aurait eu 19 ans en 1874)."
+        },
+        {
+          "role": "autre",
+          "nom": "Philéas Paquet",
+          "ref_personne": "1871-D1-P045-L15",
+          "note": "« Enfant mineur » de François-Xavier Paquet ; arrêté sur mandat le lundi 28 septembre 1874 pour l'altercation du samedi 26. Le fils de 15 ans du navigateur F.-X. Paquet en 1871 (maison 125) : rattachement probable."
+        },
+        {
+          "role": "pere",
+          "nom": "François-Xavier Paquet",
+          "ref_personne": "1871-D1-P045-L12",
+          "note": "Navigateur de Saint-Romuald, père de Philéas ; paie dix piastres au comparant. Navigateur de 44 ans en 1871 (maison 125) : rattachement probable."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1871-D1-P045-L15",
+            "1871-D1-P045-L12"
+          ],
+          "enonce": "Philéas Paquet, mineur en 1874, est le fils de François-Xavier Paquet, navigateur de Saint-Romuald."
+        }
+      ],
+      "note": "Une rixe du samedi 26 septembre 1874 entre deux jeunes de Saint-Romuald conduit à un « warrant d'arrestation » le lundi ; le père de l'accusé règle l'affaire pour dix piastres le vendredi suivant, à charge de payer les subpœnas de ses propres témoins. Même procédé de règlement privé qu'aux n° 160 et 187-188.",
+      "images": [
+        {
+          "fichier": "00948",
+          "microfilm": "001892",
+          "drive": "1V5Jq7eOjhZTIfr7q-Y1Pqe4bI4GsJyJU",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "00949",
+          "microfilm": "001893",
+          "drive": "1tLfCN-fhaS87ki22xa4Rr7lypvwRkgwt",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "00950",
+          "microfilm": "001894",
+          "drive": "1GS-GAkeTriqfmePeHEmbZyzixrstK7NM",
+          "legende": "3/3"
+        }
+      ],
+      "ajoute_le": "2026-11-12"
     }
   ]
 }
