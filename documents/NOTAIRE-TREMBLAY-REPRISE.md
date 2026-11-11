@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (170 fiches au 11 novembre 2026, au soir).
+fiche dont l'identifiant commence par `notarie-` (191 fiches au 11 novembre 2026, dans la nuit).
 
 ## Où sont les images
 
@@ -163,9 +163,35 @@ et les actes **n° 158 à 170** (21 juillet au 24 août 1874) sont transcrits.
   notaire ; 00770 et 00771 sont deux prises de la même page ; 00782 est une
   feuille commencée puis abandonnée.
 
-**Pour reprendre** : au fichier **00801** (microfilm 001745-46), fin du bail
-**n° 170** (Pierre Denis dit Lapierre à Thomas Richard), dès que Patrick aura mis
-au Drive les fichiers suivants.
+**Mise à jour du 11 novembre 2026, nuit.** Patrick a demandé de continuer
+jusqu'au fichier 01000. Les fichiers **00801 à 00880** sont lus : actes
+**n° 170 à 191** (24 août au 22 septembre 1874), et le début du n° 192.
+**191 fiches `notarie-`.**
+
+- **n° 173-174** : protêt puis quittance entre le menuisier **Joseph Beaufort**
+  et **Marguerite Roberge**, épicière de New-Liverpool (le reçu joint donne le
+  prénom).
+- **n° 176-177** : fin du fil Demers-Gingras (n° 16, 31) : à l'Île d'Orléans,
+  le bail à ferme est résilié et le fermier achète la moitié de terre
+  (1 100 piastres).
+- **n° 179** : François Gagné fait sommer son père Antoine, qui a arraché huit
+  châssis de la maison donnée ; réponse consignée : « ce soir ils seront
+  brûlés ».
+- **n° 163, 180, 184, 185** : le même cheval gris passe de Tardif à Louis
+  Filteau, puis à son frère Charles, et revient — tout est résilié.
+- **n° 186** : protêt pour un cheval vendu « sain » et trouvé aveugle.
+- **n° 187-188** : un **prestidigitateur licencié, Prosper Girard**, donne
+  quittance à deux journaliers (Alfred Boucher, Pierre Gagnon) qui avaient
+  troublé sa soirée du lundi 14 septembre 1874.
+- **n° 190** : premier transfert d'un lot du lotissement Demers (Bilodeau →
+  François Leclerc, rue Saint-Paul, avec maison).
+- **n° 191** : nouvelle rue **Saint-Jean-Baptiste** dans le lotissement Demers.
+- Le fichier 00854 est une feuille volante : « Pierre Rouleau, son of Pierre
+  Rouleau, carpenter — volé du bois — Henry Atkinson by his agent H. G. King »
+  (138 piastres) : à rapprocher d'un acte à venir.
+
+**Pour reprendre** : au fichier **00881** (microfilm 001825-26), suite du
+**n° 192** (titre nouvel Fontaine à Demers, 22 septembre 1874).
 
 Fils suivis dans la série 00451-00550 :
 
