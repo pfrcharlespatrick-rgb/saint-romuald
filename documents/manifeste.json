@@ -19951,6 +19951,86 @@
         }
       ],
       "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-09-25-testament-ambroise-plante",
+      "type": "notarie",
+      "titre": "Testament d'Ambroise Plante, ancien cultivateur de Saint-Jean-Chrysostome, 1874",
+      "date": "1874-09-25",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 198, images 001855 à 001858 (Drive : fichiers 04T_CN401S124P_00911 à 00914) ; acte complet, le verso de 00914 blanc.",
+      "nature": "Testament authentique, dicté le 25 septembre 1874 (« vingt-quatre » rayé), après midi, à Saint-Jean-Chrysostome, en la demeure du testateur, devant deux témoins ; le testateur ne sait signer. En marge : « Testament de Ambr. Plante — Original — Exp. 1 fois ».",
+      "transcription": "[001855] « N° 198 — 25 sept. 1874. L'an mil huit cent soixante-quatorze, le vingt-cinquième jour de septembre, après midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Louis Joseph Stanislas Roberge, de la paroisse de St Romuald, susdit comté, instituteur, & de Mr Damase Lambert, menuisier, demeurant à St Jean Chrysostome, dit comté, témoins au présent testament aussi soussignés ; Fut présent : Mr Ambroise Plante, ancien cultivateur, demeurant à St Jean Chrysostome, dit comté, étant [renvoi : « en bonne santé de corps »], sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous notaire & témoins par ses maintien & discours & par la manifestation claire & précise de ses volontés ; Lequel a, dans la vue de la mort, fait & nommé [001856] son présent testament au dit notaire soussigné, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par sieur Jean Plante, mon fils, que je nomme par le présent testament mon exécuteur testamentaire & auquel je m'en rapporte pour le soin de mes funérailles, messes & prières ; 2° Je donne & lègue à Sr Pierre Plante, mon fils, tous mes biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient & en quelques lieux qu'ils soient dus & situés, pour par lui en jouir, faire & disposer en toute propriété à dater du jour de mon décès. Et dans le cas où mon dit légataire viendrait à mourir sans laisser d'enfants légitimes, je donne & lègue mes dits biens meubles & immeubles à Ambroise, Jean & Joséphine [renvoi : « Plante »], mes trois enfants, & seulement à ceux de ces derniers [001857] qui vivront alors, & sans que le secours de la représentation ne puisse être invoqué, pour par eux, le cas échéant, jouir de mes dits [renvoi : « biens »] par parts & portions égales ; 3° J'institue le dit Pierre Plante [renvoi : « légataire universel en propriété »] — les dits Ambroise, Jean & Joséphine [renvoi : « Plante »], suivant le cas, mon ou mes légataires universels en propriété [mots en partie rayés] ; 4° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant mes dernières volontés. Ce fut ainsi fait & nommé par le dit testateur à nous notaire, en la présence des dits témoins, & ce présent testament lui ayant été lu, expliqué & relu par le dit notaire, les dits témoins toujours présents, il a dit & déclaré l'avoir bien entendu & compris & y a persisté. Dont acte, fait & passé à St Jean Chrysostome, comté susdit, demeure du testateur, les jour, mois & an susdits, sous le numéro [cent quatre-vingt-dix-huit, laissé en blanc] des originaux du notaire soussigné. Requis de signer, le testateur a déclaré ne le savoir, en présence des témoins susdits, qui ont signé avec moi, notaire, après lecture faite & refaite. [001858] Mots rayés sont nuls. Renvoi en marge bon & approuvé. » Signatures : « Louis J. S. Roberge », « Damase Lambert », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Ambroise Plante",
+          "note": "Ancien cultivateur de Saint-Jean-Chrysostome ; ne sait signer. Le donateur du n° 197, du même jour. Non rattaché."
+        },
+        {
+          "role": "executeur",
+          "nom": "Jean Plante",
+          "note": "Fils ; exécuteur testamentaire ; légataire substitué. Voir n° 62 et 197."
+        },
+        {
+          "role": "legataire",
+          "nom": "Pierre Plante",
+          "note": "Fils mineur ; légataire universel de tous les biens qui resteront à son père."
+        },
+        {
+          "role": "legataire",
+          "nom": "Ambroise Plante, fils",
+          "note": "Fils ; légataire substitué si Pierre meurt sans enfants."
+        },
+        {
+          "role": "legataire",
+          "nom": "Joséphine Plante",
+          "note": "Fille ; légataire substituée si Pierre meurt sans enfants."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Joseph-Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe."
+        },
+        {
+          "role": "temoin",
+          "nom": "Damase Lambert",
+          "note": "Menuisier de Saint-Jean-Chrysostome ; signe."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le même après-midi que la donation n° 197, Ambroise Plante teste en faveur de son plus jeune fils Pierre, avec substitution au profit d'Ambroise, Jean et Joséphine s'il meurt sans enfants. Sa femme Geneviève Nadeau fait son propre testament dans la foulée (n° 199). La famille compte donc au moins cinq enfants : Geneviève (épouse de Théophile Couture, n° 62), Jean, Ambroise, Joséphine et Pierre.",
+      "images": [
+        {
+          "fichier": "00911",
+          "microfilm": "001855",
+          "drive": "1y4sPZ9tdKIiQZzwRM9uL9laphcgU5mfL",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00912",
+          "microfilm": "001856",
+          "drive": "12MU54BIzVWDXtygUCde1ECyajFHJZ3Qj",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00913",
+          "microfilm": "001857",
+          "drive": "19P2xVwaQKw3jE81cmsCFTbHPQea742Wd",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00914",
+          "microfilm": "001858",
+          "drive": "1wJ6Ab9KfDO-cZ761ORxABdWDCKJAZgrL",
+          "legende": "4/4"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
     }
   ]
 }
