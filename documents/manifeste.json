@@ -16336,7 +16336,7 @@
         {
           "role": "voisin",
           "nom": "Ignace Dubois",
-          "note": "Voisin au nord, en partie. Sans doute le meunier de Saint-Jean-Chrysostome des n° 50 à 52, qui avait échangé avec Benjamin Demers des terrains de ce quartier. Non rattaché."
+          "note": "Voisin au nord, en partie. Sans doute Ignace Dubois père, de Saint-Jean-Chrysostome, qui avait reçu de Benjamin Demers un emplacement des rues Saint-Paul et Saint-Louis par l’échange n° 51. Non rattaché."
         },
         {
           "role": "voisin",
@@ -16550,6 +16550,203 @@
         }
       ],
       "note": "Les Toussaint étaient déjà nommés à l'arrière des lots Filteau de la rue Demers (n° 140) : les emplacements de la rue Saint-Paul et de la rue Demers se tournent le dos. L'ordre nord-sud de ce côté de la rue Saint-Paul se lit maintenant : Deschênes, Guay (n° 142), Toussaint (n° 147), Montigny.",
+      "ajoute_le": "2026-11-11",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-07-18-donation-toussaint",
+      "type": "notarie",
+      "titre": "Donation par Antoine Toussaint, charretier, à Édouard Toussaint, batelier, de la moitié nord d'une maison de la rue Saint-Paul, 1874",
+      "date": "1874-07-18",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 148, images 001657 à 001661 (Drive : fichiers 04T_CN401S124P_00713 à 00716) ; acte complet.",
+      "nature": "Donation entre vifs, passée le 18 juillet 1874, après midi, en l'étude du notaire, en présence d'un témoin, juste après le bail n° 147 ; le donateur ne sait signer. En marge : « Donation Ant. Toussaint à Éd. Toussaint — Original — Exp. 1 f. — Payé pour enregistrer 2,50 $ ». Un renvoi en marge paraphé « É. T., G. C., E. H. T. ». Nombreux mots rayés, dont un passage de la première charge.",
+      "transcription": "[001657-58] « N° 148 — 18 juillet 1874. L'an mil huit cent soixante-quatorze, le dix-huitième jour de juillet, après midi, en présence de Elzéar Hubert Tremblay, notaire public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné, Et présence de Germain Cantin, écr, marchand, du même lieu, témoin au présent acte aussi soussigné ; Fut présent : Mr Antoine Toussaint, du dit lieu de St Romuald, charretier ; Lequel a fait par ces présentes donation entrevifs, pure, simple & irrévocable, en la meilleure manière & forme que donation puisse se faire, avec garantie de tous troubles & empêchements généralement quelconques, à Mr Édouard Toussaint, aussi batelier [sic], du même lieu, à ce présent & acceptant donataire pour lui, ses hoirs & [001658-59] ayant cause, savoir : La moitié nord d'une maison en bois à un étage (1) [renvoi : de trente-six pieds de longueur sur vingt-six pieds de largeur], sise sur un emplacement situé en la dite paroisse de St Romuald, comté susdit, & contenant cinquante pieds de front sur soixante pieds de profondeur, borné à l'est à la rue St Paul, à l'ouest à Benjamin Demers, écr, au nord à F.-X. Guay & au sud à Frs Montigny. Cette donation est faite à la charge par le donataire, qui s'y oblige pour lui, ses hoirs & ayant cause, 1° De payer sa part de rente foncière & constituée [« s'élevant à la somme de six piastres », rayé], ou trois piastres, à Benjamin Demers, écr, ses hoirs & ayant cause ; 2° De se conformer en tous points au bail à rente foncière consenti en faveur des dits donateur & donataire, en date de ce jour, par le dit Benjamin Demers, écr, devant le notaire soussigné. [001659-60] Il est expressément convenu entre les parties que toutes bâtisses qui seront construites sur la moitié nord de l'emplacement sus-désigné seront censées appartenir & appartiendront au dit donataire. Et pour l'exécution des présentes, les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux, &c. Car ainsi, &c. Dont acte. Fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent quarante-huit des originaux du notaire soussigné. Requis de signer, le dit donateur a déclaré ne le savoir, en présence du dit témoin, qui a signé ainsi que le dit donataire avec moi, notaire, lecture [001660-61] faite. Mots rayés sont nuls. Renvoi en marge est bon & approuvé. » Signatures : « Édouard Toussaint », « Germain Cantin », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "donateur",
+          "nom": "Antoine Toussaint",
+          "ref_personne": "1871-D1-P021-L07",
+          "note": "Charretier de Saint-Romuald ; ne sait signer. Rattaché en probable au charretier de 58 ans de 1871 (division 1, maison 51)."
+        },
+        {
+          "role": "donataire",
+          "nom": "Édouard Toussaint",
+          "ref_personne": "1871-D1-P021-L09",
+          "note": "Batelier de Saint-Romuald ; signe. Rattaché en probable au navigateur de 25 ans de 1871, fils d'Antoine (division 1, maison 51). L'acte ne dit pas le lien de parenté."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "« Écuier, marchand » de Saint-Romuald ; signe."
+        },
+        {
+          "role": "voisin",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Voisin à l'ouest ; le bailleur de l'emplacement (n° 147)."
+        },
+        {
+          "role": "voisin",
+          "nom": "François-Xavier Guay",
+          "ref_personne": "1871-D1-P020-L09",
+          "note": "Voisin au nord."
+        },
+        {
+          "role": "voisin",
+          "nom": "François Montigny",
+          "ref_personne": "1871-D1-P028-L01",
+          "note": "Voisin au sud."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-07-18",
+          "personnes": [
+            "1871-D1-P021-L07",
+            "1871-D1-P021-L09"
+          ],
+          "enonce": "Sur l'emplacement de la rue Saint-Paul baillé le jour même aux Toussaint (n° 147) se trouve déjà une maison de bois à un étage de 36 pieds sur 26 ; Antoine Toussaint en donne la moitié nord à Édouard Toussaint."
+        }
+      ],
+      "note": "Le bail n° 147 et cette donation, passés le même après-midi, règlent ensemble le partage d'une maison existante : le père (probable) garde la moitié sud, le fils reçoit la moitié nord et la moitié de la rente. Une maison de bois de 36 pieds sur 26 se tenait donc déjà sur la rue Saint-Paul avant le titre.",
+      "ajoute_le": "2026-11-11",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-07-20-vente-demers-topping",
+      "type": "notarie",
+      "titre": "Vente par Benjamin Demers à Léon Topping, batelier, d'une maison de bois de 30 pieds sur 20, 1874",
+      "date": "1874-07-20",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 149, images 001661 à 001665 (Drive : fichiers 04T_CN401S124P_00717 à 00720) ; acte complet.",
+      "nature": "Vente, passée le 20 juillet 1874, avant midi, en l'étude du notaire, sans témoin ; les deux parties signent. En marge : « Vente Demers à Topping — Original — Payé pour 1 copie non enregistrée — Exp. 1 fois ». Un renvoi paraphé « B. D., L. T., E. H. T. » ; un passage sur l'hypothèque de la maison rayé. Le fichier 00720 est le dos du feuillet, portant au crayon « Léon Topping ».",
+      "transcription": "[001661-62] « N° 149 — 20 juillet 1874. L'an mil huit cent soixante-quatorze, le vingtième jour de juillet, avant midi, en présence de Mtre Elzéar Hubert Tremblay, notaire public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Benjamin Demers, écr, de la paroisse de St Romuald, dit comté, cultivateur ; Lequel vend, avec garantie de tous troubles quelconques, à Mr Léon Topping, du même lieu, batelier, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayant cause, savoir : Une maison en bois à un étage, de trente pieds de longueur sur vingt pieds de largeur, sise sur un emplacement concédé au dit sieur Topping par le [001662-63] dit sieur Demers, en date de ce jour, suivant acte reçu par le notaire soussigné. [Passage rayé : la dite maison demeure hypothéquée en faveur du dit sieur Demers pour le paiement de la rente foncière portée au dit acte de bail…] Cette vente est faite pour le prix ou somme de cent piastres courant, que le vendeur reconnaît & confesse avoir eu & reçu dès avant ces présentes (1) [renvoi : de l'acquéreur]. Dont quittance générale & finale. Et pour l'exécution des présentes, les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux, &c. Car ainsi, &c. [001663-64] Dont acte. Fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent quarante-neuf. Et les vendeur & acquéreur ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Benj. Demers », « Léon Topping », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers »."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Léon Topping",
+          "ref_personne": "1871-D1-P033-L13",
+          "note": "« Batelier » de Saint-Romuald ; signe « Léon Topping ». Rattaché en probable au navigateur de 31 ans de 1871 (division 1, maison 87), maçon de 41 ans en 1881 (1881-D1-P034-L03). Fils, sans doute, de feu Richard Topping et d'Angélique Boutin (n° 134, 139)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-07-20",
+          "personnes": [
+            "1871-D1-P033-L13"
+          ],
+          "enonce": "Léon Topping, batelier, achète de Benjamin Demers, pour cent piastres, une maison de bois à un étage de 30 pieds sur 20, sise sur un emplacement que Demers lui concède le même jour (bail n° 150, rue Saint-Louis)."
+        }
+      ],
+      "note": "L'acte vise le bail n° 150 du même jour, qui suit dans le greffe : Demers vend la maison et concède à part le terrain sous rente. Léon Topping était déjà nommé à l'arrière du lot Kiley (n° 144).",
+      "ajoute_le": "2026-11-11",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-07-20-bail-demers-topping",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Léon Topping, batelier, rue Saint-Louis, 1874",
+      "date": "1874-07-20",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 150, images 001665 à 001669 (Drive : fichiers 04T_CN401S124P_00721 à 00724) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juillet 1874, après midi, en l'étude du notaire, sans témoin ; les deux parties signent. En marge : « Demers à Topping — Or. — Exp. 2 fois — Payé pour enregistrement ». La clause imprimée du droit de retrait est biffée. Chemise imprimée « Bail à rente foncière par $3,50 à Léon Topping — Copie » (fichier 00724).",
+      "transcription": "[001665-66] « N° 150 — 20 juillet 1874. Pardevant le Notaire Public […] Fut présent Benjamin Demers, écuier, cultivateur, demeurant en la paroisse de St Romuald, comté susdit, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […] à Mr Léon Topping, du même lieu, batelier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, comté susdit, contenant soixante pieds de front sur la rue St Louis, sur cinquante pieds de profondeur ; borné au nord à Ignace Dubois, au sud au concédant, à l'est à la dite rue St Louis, & à l'ouest partie à Ignace Dubois & partie à James Kiley, circonstances & dépendances. » — [001666-67] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; [droit de retrait biffé] ; copie enregistrée ; clause de reprise. [001667-68] « Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le vingtième jour de juillet, après midi, sous le numéro cent cinquante des originaux […]. Et le concédant & le concessionnaire ont signé avec moi, notaire, lecture faite. » Signatures : « Benj. Demers », « Léon Topping », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers »."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Léon Topping",
+          "ref_personne": "1871-D1-P033-L13",
+          "note": "« Batelier » de Saint-Romuald ; signe. Acheteur le même jour de la maison qui s'y trouve (n° 149). Navigateur de 31 ans en 1871 (division 1, maison 87)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Ignace Dubois",
+          "note": "De Saint-Jean-Chrysostome ; possède les terrains au nord et en partie à l'ouest, sans doute reçus de Benjamin Demers par l'échange n° 51. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "James Kiley",
+          "note": "Voisin à l'ouest, en partie : le charpentier du n° 144, dont le lot donne sur la rue Saint-Paul."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-07-20",
+          "personnes": [
+            "1871-D1-P033-L13"
+          ],
+          "enonce": "Léon Topping, batelier, tient de Benjamin Demers, à six piastres de rente, un emplacement de 60 pieds sur la rue Saint-Louis, dos à dos avec le lot de James Kiley sur la rue Saint-Paul, et y possède une maison de bois de 30 pieds sur 20 (n° 149)."
+        }
+      ],
+      "note": "Le n° 144 disait le lot de James Kiley borné à l'est par Léon Topping : les deux actes se répondent. Entre les rues Saint-Paul (à l'ouest) et Saint-Louis (à l'est), les lots se tournent le dos, Kiley d'un côté, Topping de l'autre, avec le terrain d'Ignace Dubois et celui de la pompe au nord.",
+      "ajoute_le": "2026-11-11",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-07-20-quittance-dubois-dubois",
+      "type": "notarie",
+      "titre": "Quittance de Joseph Dubois à Ignace Dubois, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-07-20",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 151, images 001669 à 001672 (Drive : fichiers 04T_CN401S124P_00725 à 00727) ; acte complet.",
+      "nature": "Quittance, passée le 20 juillet 1874, avant midi, en l'étude du notaire, en présence d'un témoin ; le comparant ne sait signer. En marge : « Quittance Dubois à Dubois — Original ». Mots rayés nuls.",
+      "transcription": "[001669-70] « N° 151 — 20 juillet 1874. L'an mil huit cent soixante-quatorze, le vingtième jour de juillet, avant midi, en présence de Elzéar Hubert Tremblay, notaire public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Benjamin Demers, du dit lieu de St Romuald, cultivateur, témoin au présent acte aussi soussigné ; Fut présent : Mr Joseph Dubois, de la paroisse de St Jean Chrysostome, dit comté, cultivateur ; Lequel reconnaît & confesse avoir eu dès avant ces présentes, en bon argent courant & à son entière satisfaction, la somme de deux cent cinquante piastres courant de Mr Ignace Dubois, du [001670-71] dit lieu de St Jean Chrysostome, cultivateur, laquelle dite somme lui était due par le dit Ignace Dubois suivant acte d'obligation reçu par Mtre Lépine [?] le […] de septembre mil huit cent soixante-treize. Dont & du tout le dit comparant donne & accorde quittance générale & finale au dit sieur Ignace Dubois. Dont acte, requis & octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent cinquante-un des originaux du notaire soussigné. Requis de signer, le comparant a déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture [001671-72] faite. Mots rayés sont nuls. » Signatures : « Benj. Demers », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "creancier",
+          "nom": "Joseph Dubois",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait signer. Non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Ignace Dubois",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; rembourse 250 $ empruntés en septembre 1873. Sans doute Ignace Dubois père, qui avait reçu de Benjamin Demers, par l’échange n° 51, un emplacement des rues Saint-Paul et Saint-Louis (le voisin des n° 144 et 150). Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers »."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le même matin, Benjamin Demers sert de témoin ; l’après-midi, il concède à Léon Topping le lot de la rue Saint-Louis voisin de celui d’Ignace Dubois (n° 150).",
       "ajoute_le": "2026-11-11",
       "images": []
     }
