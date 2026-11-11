@@ -18726,6 +18726,68 @@
         }
       ],
       "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-09-05-obligation-guenette-lagueux",
+      "type": "notarie",
+      "titre": "Obligation de Joseph Guénette, de Saint-Charles, envers Pierre Lagueux, juge de paix, 1874",
+      "date": "1874-09-05",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 181, images 001786 à 001789 (Drive : fichiers 04T_CN401S124P_00842 à 00845) ; acte complet, sur formule imprimée du notaire André-Elphrid Tessier, de Québec, adaptée à la main.",
+      "nature": "Obligation (prêt), passée le 5 septembre 1874, après midi, en l'étude du notaire à Saint-Romuald, devant un témoin ; le créancier et le témoin signent, le débiteur ne sait signer. En marge : « Obligation Guenette à Lagueux — Original — Expédié 1 fois ». Somme : 100 piastres, sans hypothèque (clause imprimée rayée).",
+      "transcription": "[001786-87] « N° 181 — 5 sept. 1874. Pardevant le Notaire Public [« résidant en la Cité de Québec », imprimé, rayé] résidant à St Romuald d'Etchemin, soussigné, et en présence de Edmond Rousseau, de Québec, étudiant en droit, témoin au présent acte aussi soussigné ; Fut présent : Mr Joseph Guenette, de la paroisse de St Charles, comté de Bellechasse ; Lequel a reconnu et confessé devoir légitimement à Pierre Lagueux, écr, rentier & juge de paix, de la paroisse de St Romuald, comté de Lévis, à ce présent et acceptant, la somme de cent piastres courant, étant pour prêt de pareille somme réellement fait [« dès avant ces présentes, à vue & présence de nous, notaire & témoins », rayé] au dit débiteur, ainsi que ce dernier le reconnaît et dont il se déclare content et satisfait. Laquelle dite somme de cent piastres courant, le dit débiteur promet et s'oblige, pour lui, ses héritiers et ayants cause, payer et rembourser au dit créancier ou ordre, porteur des présentes en forme légale, le premier jour d'août prochain, [« sans intérêt jusqu'à cette date », rayé] mais avec ensuite l'intérêt de huit pour cent par an après cette date, si la dite somme n'est pas payée au dit jour premier août prochain. [001787-88 : clauses imprimées d'intérêt et d'hypothèque rayées, page barrée.] [001788] Et pour l'exécution des présentes les parties font élection de leurs domiciles en leurs demeures actuelles et respectives, aux quels lieux, etc. Car ainsi, etc. Dont acte. Fait et passé à St Romuald, en l'étude de Maître Elzéar Hubert Tremblay, notaire, l'an mil huit cent soixante et quatorze, le cinquième jour de septembre, après midi, sous le numéro cent quatre-vingt-un des originaux du notaire soussigné. Et le créancier & le témoin ont signé avec moi, notaire, le débiteur ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » Signatures : « Pierre Lagueux », « Edm. Rousseau », « E. H. Tremblay N.P. » — [001789] chemise imprimée « Obligation par … à … — Copie — André Elphrid Tessier, Notaire — Québec ».",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Joseph Guénette",
+          "note": "De Saint-Charles (Bellechasse) ; métier non donné ; ne sait signer. Hors de la paroisse : non rattaché. Graphie de l'acte : « Guenette »."
+        },
+        {
+          "role": "creancier",
+          "nom": "Pierre Lagueux",
+          "ref_personne": "1871-D1-P076-L08",
+          "note": "« Écr, rentier & juge de paix » de Saint-Romuald ; signe. Voir n° 140."
+        },
+        {
+          "role": "temoin",
+          "nom": "Edmond Rousseau",
+          "note": "De Québec, étudiant en droit ; signe « Edm. Rousseau »."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay",
+          "note": "Utilise ici une formule imprimée au nom du notaire André-Elphrid Tessier, de Québec, corrigée à la main."
+        }
+      ],
+      "affirmations": [],
+      "note": "Prêt de cent piastres, sans intérêt jusqu'au 1er août 1875 puis à 8 %, sans garantie hypothécaire. La formule imprimée est celle du notaire Tessier, de Québec — Tremblay, en début de pratique, se sert encore de formules empruntées.",
+      "images": [
+        {
+          "fichier": "00842",
+          "microfilm": "001786",
+          "drive": "1ScuTPwhqECogLE7tpHq34QIVdmROG5Qt",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00843",
+          "microfilm": "001787",
+          "drive": "10gKBpSMNMozePRc-cMF8O3Q3c5FLUGyJ",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00844",
+          "microfilm": "001788",
+          "drive": "1ZAp2BNzEmSbycYHtmtwfgPCNnWYUqFkw",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00845",
+          "microfilm": "001789",
+          "drive": "1tvjEAssvzqvyhuKClHgADeUOvzq0k4U7",
+          "legende": "4/4"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
     }
   ]
 }
