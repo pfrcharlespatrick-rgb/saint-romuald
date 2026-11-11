@@ -17613,6 +17613,90 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1874-08-17-vente-vermette-prevost",
+      "type": "notarie",
+      "titre": "Vente par Basile Vermette fils, employé du Grand Tronc, à Joseph Prévost d'un emplacement bâti près de l'église de Saint-Jean-Chrysostome, 1874",
+      "date": "1874-08-17",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 166, images 001722 à 001727 (Drive : fichiers 04T_CN401S124P_00778 à 00782) ; acte complet.",
+      "nature": "Vente, passée le 17 août 1874, après midi, à Saint-Jean-Chrysostome, demeure du vendeur, sans témoin (la mention d'un témoin est rayée) ; les deux parties signent. En marge : « Vente Vermette à Prévost — Original ». Deux renvois paraphés « B. V., J. P., E. H. T. ». Le fichier 00782 est une feuille commencée puis abandonnée (« N° 166 — L'an mil huit cent soixante-quatorze »), restée blanche.",
+      "transcription": "[001722-23] « N° 166 — 17 août 1874. L'an mil huit cent soixante-quatorze, le dix-septième jour d'août, après midi, en présence de Elzéar Hubert Tremblay, notaire public […] ; [mention du témoin rayée] Fut présent : Mr Basile Vermette, fils, employé du Grand Trunk, de St Jean Chrysostome ; Lequel vend (2) [renvoi : avec garantie de tous troubles quelconques] à Mr Joseph Prévost, du même lieu, journalier, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayant cause, savoir : Un certain lot de terre ou emplacement situé en la dite paroisse [001723-24] de St Jean Chrysostome, en la concession Taniata, près de l'Église, contenant trois perches de front sur trois perches de profondeur, plus ou moins ; borné devant au sud-est à la route de Beaulieu [?], en arrière au nord-ouest & d'un côté au sud-ouest à Charles-Benjamin Couture & d'autre côté au nord-est à Charles Cotnoir [?], avec ensemble la maison & autres bâtisses érigées, circonstances & dépendances. Au vendeur cet emplacement appartient pour l'avoir acquis de Pierre Giroux [?], en date du vingt-un juin mil huit cent soixante-dix, suivant acte reçu par Mtre Laliberté. Cette vente est faite à la charge de toutes les rentes seigneuriales, municipales & autres, & à la charge de payer à Charles-Benjamin Couture ou ses représentants une rente annuelle, payable le premier jour de (1) [renvoi : novembre ; « mai », rayé] de chaque année, de trois piastres courant de rente foncière & constituée, quitte de tous arrérages jusqu'au premier novembre prochain. [001724-25] Cette vente est faite en outre pour le prix de vingt louis courant, payable, savoir : vingt-cinq piastres au premier jour de novembre prochain, sans intérêt, & vingt-cinq piastres au premier jour de novembre mil huit cent soixante-quinze, & quant à la balance, soit trente piastres, au dit jour de l'an mil huit cent soixante-seize, avec l'intérêt de huit pour cent par an sur les deux derniers versements. Et l'acquéreur hypothèque, pour les clauses, conditions & autres charges du présent acte de vente, le dit emplacement sus-désigné & vendu, sur lequel le vendeur se réserve expressément tous ses privilèges de bailleur de fonds. Et pour l'exécution des présentes, les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux, &c. Car ainsi, &c. Dont acte. [001725-26] Fait & passé à St Jean Chrysostome, demeure du vendeur, les jour, mois & an susdits, sous le numéro cent soixante-[six] des originaux du notaire soussigné. Et les vendeur & acquéreur ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls ; deux renvois en marge sont bons & approuvés. » Signatures : « Basile Vermette », « Joseph Prévost », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Basile Vermette, fils",
+          "note": "« Employé du Grand Trunk » (chemin de fer du Grand Tronc), de Saint-Jean-Chrysostome ; signe. Absent des recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Joseph Prévost",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe « Joseph Prévost ». Absent des recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Charles-Benjamin Couture",
+          "note": "Créancier d'une rente foncière de trois piastres sur l'emplacement (le bailleur primitif, sans doute) ; voisin au nord-ouest et au sud-ouest. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Charles Cotnoir [?]",
+          "note": "Voisin au nord-est ; nom de lecture incertaine."
+        },
+        {
+          "role": "autre",
+          "nom": "Pierre Giroux [?]",
+          "note": "Vendeur de l'emplacement à Basile Vermette le 21 juin 1870 (Me Laliberté). Nom de lecture incertaine."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1874-08-17",
+          "personnes": [],
+          "enonce": "Basile Vermette fils, de Saint-Jean-Chrysostome, est employé du chemin de fer du Grand Tronc en août 1874."
+        }
+      ],
+      "note": "Un emplacement de trois perches carrées avec maison, près de l'église de Saint-Jean-Chrysostome, vendu 20 louis (80 piastres) à crédit. Première mention dans la série d'un employé du Grand Tronc, dont la ligne passait à Saint-Jean-Chrysostome et à la Chaudière.",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "00778",
+          "microfilm": "001722",
+          "drive": "1kndbdl8PFJYPYsIkZJM-lV4lbhfwoIOF",
+          "legende": "1/5"
+        },
+        {
+          "fichier": "00779",
+          "microfilm": "001723",
+          "drive": "1sJbAdWkFtKLEZG24-Ri3hOuVDtMVxUHD",
+          "legende": "2/5"
+        },
+        {
+          "fichier": "00780",
+          "microfilm": "001724",
+          "drive": "1qmdFUCPzv5sPop47SOVOUNuolAMxB2By",
+          "legende": "3/5"
+        },
+        {
+          "fichier": "00781",
+          "microfilm": "001725",
+          "drive": "1w09sgdk2AAohYsrRiZC_OiygEQqYm3Br",
+          "legende": "4/5"
+        },
+        {
+          "fichier": "00782",
+          "microfilm": "001726",
+          "drive": "14UiRIk78ckvZbD4oddjjcuSmN1eT3x8V",
+          "legende": "5/5"
+        }
+      ]
     }
   ]
 }
