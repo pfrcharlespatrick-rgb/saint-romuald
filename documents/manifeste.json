@@ -19027,6 +19027,126 @@
         }
       ],
       "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-09-17-protet-begin-dubois",
+      "type": "notarie",
+      "titre": "Protêt de Pierre Bégin, de Notre-Dame-de-Lévis, contre Joseph Dubois, de Saint-Nicolas, pour un cheval aveugle, 1874",
+      "date": "1874-09-17",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 186, images 001800 à 001803 (Drive : fichiers 04T_CN401S124P_00856 à 00859) ; acte complet.",
+      "nature": "Protêt (sommation), signifié le 17 septembre 1874, vers deux heures de l'après-midi, au domicile de Joseph Dubois à Saint-Nicolas ; le notaire signe seul. En marge : « Protêt Bégin à Dubois — Original — Exp. 1 fois — Exp. 2 fois ».",
+      "transcription": "[001800] « N° 186 — 17 septembre 1874. L'an mil huit cent soixante-quatorze, le dix-septième jour de septembre, vers les deux heures de l'après-midi, à la réquisition de sieur Pierre Bégin, de la paroisse de Notre-Dame de Lévis, dans le comté de Lévis, cultivateur, je, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, dit comté, me suis exprès transporté, à la réquisition susdite, au domicile de Sr Joseph Dubois, de la paroisse de St Nicolas, comté susdit, cultivateur, où étant & parlant à Joseph Dubois personnellement, lui ai fait, ès dits noms & réquisition, les déclarations, notifications, sommations & réquisitions suivantes, savoir : Attendu que lui, dit Joseph Dubois, a vendu vers la fin de juillet dernier, [renvoi (1) : « au dit requérant »], un certain cheval [001801] sain, avec garantie de tous défauts généralement quelconques, pour le prix ou somme de quatorze louis courant ; Attendu que le dit sieur Pierre Bégin a payé comptant, en à-compte sur le prix susdit, la somme de quarante-quatre piastres courant (la balance devant être payée au premier jour de novembre prochain) ; Attendu que six jours après l'achat du dit cheval du dit Sr Dubois, le requérant, contrairement à la garantie à lui donnée par le vendeur, s'est aperçu que le cheval est aveugle ; Attendu que le requérant a notifié le dit sieur Dubois du fait & lui a donné avis d'avoir sans délai à chercher le cheval & rembourser le requérant du montant entier payé & autres frais ; C'est pourquoi je, dit notaire, à la réquisition susdite, [renvoi : « ai notifié, requis & sommé, comme par ces présentes je notifie, requiers & somme »] le dit Sr Joseph Dubois d'avoir à [001802] remettre & rembourser au dit requérant la somme de quarante-quatre piastres par lui reçue ; d'avoir en outre à aller chercher le cheval sans délai [renvoi : « & de payer la pension du dit cheval, qui se trouvera & demeurera au lieu ci-après indiqué »] (sans novation ni dérogation aux droits acquis par le requérant contre le dit Joseph Dubois quant aux dommages que ce dernier lui a fait souffrir, ainsi que pour tous les frais encourus & à encourir) ; informant le dit Sr Dubois qu'à dater de ce jour le cheval est & sera en pension chez Charles Bégin, de Notre-Dame de Lévis, cultivateur. Informant en outre le dit sieur Dubois que, s'il refuse ou néglige de se conformer aux exigences du présent protêt, [renvoi : « protestant dès à présent contre le dit Joseph Dubois pour tout refus ou négligence de sa part de se conformer entièrement aux exigences du présent protêt »] (sauf le recours contre le dit sieur Joseph Dubois pour dommages [& intérêts] que se réserve le requérant) le dit requérant se pourvoira en justice pour l'y contraindre, ainsi que pour le recouvrement de tous les frais & dépens encourus & à encourir & les dommages soufferts & à souffrir. À quoi le dit Joseph Dubois a répondu : [001803] « Je ne veux pas aller le chercher ; qu'il le garde. » Et j'ai persisté ès dites déclarations, notifications, sommations & réquisitions. Dont acte, fait, protesté & signifié au domicile du dit Joseph Dubois, les jour, mois & an susdits, sous le numéro cent quatre-vingt-six des originaux [renvoi (4) : « de Elzéar Hubert Tremblay, le dit »] notaire soussigné. Et j'ai, parlant comme dit est, laissé une copie authentique des présentes, après lecture faite, au dit Joseph Dubois personnellement, afin qu'il n'en puisse prétendre ni plaider cause d'ignorance. Et j'ai signé, lecture faite. Mots rayés sont nuls. Sept renvois en marge sont bons & approuvés. » Signature : « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "requerant",
+          "nom": "Pierre Bégin",
+          "note": "Cultivateur de Notre-Dame-de-Lévis. Hors de la paroisse : non rattaché (le Pierre Bégin, contremaître de 32 ans, de 1871-D1 n'est pas dit cultivateur)."
+        },
+        {
+          "role": "autre",
+          "nom": "Joseph Dubois",
+          "note": "Cultivateur de Saint-Nicolas, vendeur du cheval ; répond qu'il ne veut pas aller le chercher. Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Charles Bégin",
+          "note": "Cultivateur de Notre-Dame-de-Lévis, chez qui le cheval est mis en pension ; sans doute un parent du requérant."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Vice caché : un cheval vendu « sain, avec garantie de tous défauts » quatorze louis (56 piastres), dont 44 payées comptant, se révèle aveugle six jours après l'achat. Le vendeur refuse de le reprendre ; sa réponse est consignée. L'acte a été expédié deux fois, sans doute pour le procès.",
+      "images": [
+        {
+          "fichier": "00856",
+          "microfilm": "001800",
+          "drive": "1FfQdPkCwTBvAmYpcwHVZECBkX3ucLmr8",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00857",
+          "microfilm": "001801",
+          "drive": "1Q-7JF8xEQKs_W2sWkEOqWkOBW50lTuSl",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00858",
+          "microfilm": "001802",
+          "drive": "1jMUUcYNCarDDd7HrjXKOsx0ErWQHsXVF",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00859",
+          "microfilm": "001803",
+          "drive": "1kPzTuh8s2vlkb3mL7sfamSrpCU7y3qQO",
+          "legende": "4/4"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-09-18-quittance-girard-boucher",
+      "type": "notarie",
+      "titre": "Quittance de Prosper Girard, prestidigitateur, à Alfred Boucher, qui avait troublé ses soirées, 1874",
+      "date": "1874-09-18",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 187, images 001804 à 001806 (Drive : fichiers 04T_CN401S124P_00860 à 00862) ; acte complet.",
+      "nature": "Quittance, passée le 18 septembre 1874, avant midi, à Saint-Romuald, en la demeure de Madame veuve Smith, sans témoin ; le comparant signe. En marge : « Quittance Girard à Boucher — Original ». Somme : 10 piastres, payées par le notaire.",
+      "transcription": "[001804] « N° 187 — 18 sept. 1874. L'an mil huit cent soixante-quatorze, le dix-huit septembre, avant midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Mr Pierre [sic] Girard, maintenant à St Romuald, prestidigitateur licencié ; Lequel déclare ce qui suit, savoir : Attendu que lundi, le quatorze du courant, [« Pierre Gagnon, de St Romuald, » rayé] Alfred Boucher, de St Romuald, journalier, a fait, en causant beaucoup de troubles & autres faits, un dommage considérable au comparant, en empêchant indirectement des gens d'entrer & de prendre des cartes d'admission à la soirée que donnait le dit Sr Girard, & qu'en conséquence, sous l'influence de [001805] tels faits, les personnes, craignant de nouveaux troubles, n'ont pas assisté aux soirées que devait subséquemment donner le comparant, ce qui a causé un grand dommage au dit Sr Girard en hâtant son départ ; Attendu que le dit Alfred Boucher a payé la somme de dix piastres en compensation de tous les dommages soufferts par le comparant ; C'est pourquoi le comparant donne & accorde au dit Alfred Boucher [renvoi (1) : « ou ses auteurs »] quittance générale & finale, & renonce par ces présentes (en considération de la somme susdite payée par le notaire soussigné) à tous droits acquis & à acquérir relatifs aux dommages soufferts comme susdit, ainsi qu'à tous droits qu'il peut ou pourrait avoir contre le [001806] dit Boucher pour raison de ce dessus cité. Dont & du tout le comparant a requis le présent acte, qui lui a été octroyé à St Romuald susdit, en la demeure de madame veuve Smith, les jour, mois & an susdits, sous le numéro cent quatre-vingt-sept des originaux du notaire soussigné. Et le comparant a signé avec moi, notaire, lecture faite. Un renvoi en marge est bon & approuvé. Dix-huit mots rayés sont nuls. » Signatures : « Prosper Girard », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Prosper Girard",
+          "note": "« Prestidigitateur licencié », de passage à Saint-Romuald (« maintenant à St Romuald ») ; le notaire écrit « Pierre » dans le corps de l'acte, mais il signe « Prosper Girard » et paraphe « P. G. ». Absent des recensements : non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Alfred Boucher",
+          "note": "Journalier de Saint-Romuald, accusé d'avoir troublé la soirée du lundi 14 septembre 1874 ; dix piastres de dédommagement, versées par l'entremise du notaire. Un Alfred Boucher, 12 ans en 1871, fils de Benjamin Boucher (1871-D1-P006-L05) : rattachement possible (il aurait 15 ou 16 ans), non retenu faute d'indice."
+        },
+        {
+          "role": "autre",
+          "nom": "Pierre Gagnon",
+          "note": "De Saint-Romuald ; nommé d'abord comme auteur des troubles, puis rayé au profit d'Alfred Boucher."
+        },
+        {
+          "role": "autre",
+          "nom": "veuve Smith",
+          "note": "« Madame veuve Smith », en la demeure de qui l'acte est passé — sans doute la pension ou la salle où logeait le prestidigitateur."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay",
+          "note": "Paie lui-même les dix piastres au comparant."
+        }
+      ],
+      "affirmations": [],
+      "note": "Un spectacle de prestidigitation à Saint-Romuald en septembre 1874 : la soirée du lundi 14 est troublée, le public n'ose plus revenir aux suivantes et l'artiste doit partir plus tôt. L'arrangement de dix piastres règle l'affaire sans procès. Le « ou ses auteurs » ajouté en marge laisse entendre que d'autres que Boucher étaient en cause.",
+      "images": [
+        {
+          "fichier": "00860",
+          "microfilm": "001804",
+          "drive": "1luHZ9_0-7mzfpwNKiiZOnh3nyFsxy9Nu",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "00861",
+          "microfilm": "001805",
+          "drive": "1pbYLxeo_LDCZuCdFSvtb6wHVA-GIRCrD",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "00862",
+          "microfilm": "001806",
+          "drive": "17GzVXJUnsEkIKcCd2E9r1b8DU5__g_HP",
+          "legende": "3/3"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
     }
   ]
 }
