@@ -20184,6 +20184,164 @@
         }
       ],
       "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-10-03-quittance-campagna-langlois",
+      "type": "notarie",
+      "titre": "Quittance de Théodule Campagna, de Sainte-Julie-de-Somerset, à Athanase Langlois, de Saint-Lambert, solde du prix d'une terre, 1874",
+      "date": "1874-10-03",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 210, images 001895 à 001896 (Drive : fichiers 04T_CN401S124P_00951 à 00952) ; acte complet. Les actes n° 201 à 209 (fichiers 00921 à 00950) manquent au Drive.",
+      "nature": "Quittance, passée le 3 octobre 1874, avant midi, en l'étude, sans témoin ; le comparant signe. En marge : « Quittance Campagna à Langlois — Original — Expédié 1 fois au Bureau [—] Bureau : Registrateur, Ste-Hénédine, Co. Dorchester » ; au crayon, honoraires « 1.00 + .65 + .18 = 1.83 ». Somme : 150 piastres.",
+      "transcription": "[001895] « N° 210 — 3 octobre 1874. L'an mil huit cent soixante-quatorze, le troisième jour d'octobre, avant midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Sieur Théodule Campagna, de la paroisse de Ste Julie de Somerset, & ci-devant de la paroisse de St Isidore, comté de Dorchester, cultivateur ; Lequel reconnaît & confesse avoir eu & reçu à son entière satisfaction, en bon argent courant, lors de la passation & exécution des présentes, de sieur Athanase Langlois, de la paroisse de St Lambert, comté de Lévis, cultivateur, la somme de cent cinquante piastres courant, [renvoi (1) : « étant la balance revenant au comparant sur le prix »] d'une certaine vente de terre faite & consentie [001896] par le comparant en faveur du dit Sr Langlois, par & suivant acte passé devant Mtre Joseph Laurin [?], notaire, & témoin, & dûment enregistré au bureau d'enregistrement du comté de Dorchester, le six décembre mil huit cent soixante-treize, Reg. B, vol. 12, page 147, sous le n° 8821. Dont & du tout le comparant donne par ces présentes quittance générale & finale au dit sieur Athanase Langlois. Dont acte, requis & octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro deux cent dix des originaux du notaire soussigné. Et le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. Renvoi en marge est bon & approuvé. » Signatures : « Theodule Campagna », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Théodule Campagna",
+          "note": "Cultivateur, de Sainte-Julie-de-Somerset (Bois-Francs), autrefois de Saint-Isidore (Dorchester) ; signe. Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Athanase Langlois",
+          "note": "Cultivateur de Saint-Lambert (Lévis), acquéreur d'une terre de Campagna, sans doute à Saint-Isidore (acte enregistré à Dorchester, 6 décembre 1873). Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Joseph Laurin [?]",
+          "note": "Notaire ; a reçu la vente Campagna-Langlois ; nom de lecture incertaine."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Premier acte lisible après le trou du Drive (n° 201 à 209, fichiers 00921 à 00950). Un cultivateur parti de Saint-Isidore pour les Bois-Francs touche le solde du prix de sa terre ; l'expédition est destinée au registrateur de Dorchester, à Sainte-Hénédine.",
+      "images": [
+        {
+          "fichier": "00951",
+          "microfilm": "001895",
+          "drive": "1bSM8IsGzdsSkJpwjSH7W0Y2ScnlGPHl0",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "00952",
+          "microfilm": "001896",
+          "drive": "1rPJfvFPUowE-j4r3eBebV0cwoYN-Ynjc",
+          "legende": "2/2"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-10-03-contrat-mariage-carrier-levesque",
+      "type": "notarie",
+      "titre": "Contrat de mariage d'Hubert Carrier, journalier, et de Marie-Clémentine Lévesque, de Saint-Romuald, 1874",
+      "date": "1874-10-03",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 211, images 001897 à 001902 (Drive : fichiers 04T_CN401S124P_00953 à 00958) ; acte complet sur formule imprimée de contrat de mariage, avec la liste des meubles (barrée) et la chemise « Contrat de Mariage ».",
+      "nature": "Contrat de mariage, sur formule imprimée « Pardevant les Notaires Publics », passé le 3 octobre 1874, après midi, à Saint-Romuald, en la demeure de Calixte Rogers ; les futurs époux et leurs deux témoins-amis signent. Séparation de biens, sans douaire ; rente viagère de 36 piastres (capital 600 piastres) promise à l'épouse. En marge : « Mariage entre H. Carrier & C. Lévesque — Original — Payé pour honoraires & enregistrement — Expédié 1 fois — Enregistré » ; au crayon « 1050 » et honoraires « 1.00 + .60 + .05 + .30 = 1.95 ».",
+      "transcription": "[001897] « N° 211 — 3 octobre 1874. Pardevant les Notaires Publics [« pour cette partie de la Province du Canada appelée Bas-Canada, résidant dans le District de Québec, soussignés », imprimé, en partie rayé] résidant à St Romuald, comté de Lévis, soussigné, Furent présents : Mr Hubert Carrier, journalier, demeurant en la paroisse de St Romuald, garçon majeur, issu du mariage d'entre feu Louis Carrier & de feue Dame Félicité Cantin, stipulant pour lui & en son nom, d'une part ; Et Demoiselle Marie Clémentine Lévesque, fille de St Romuald, fille majeure issue du mariage d'entre feu Zacharie Lévesque & de feue Dame Charlotte Plourde, stipulant pour elle & en son nom, d'autre part ; Lesquels ont déclaré [...] avoir fait et arrêté entre eux les accords, conventions et traités civils de mariage qui suivent, c'est à savoir : 1° Qu'ils ont promis et promettent [...] de se prendre pour mari et femme et légitimes époux [...] et icelui faire célébrer en face de l'Église Catholique et Romaine sitôt que faire se pourra ; 2° Il a été convenu expressément qu'il n'y aura point de communauté de biens entre les dits futurs époux, nonobstant la coutume de Paris [...] ; [001898] 3° Les dits futurs ne seront aucunement tenus des dettes l'un de l'autre [...] ; 4° [...] les biens meubles de la dite future épouse consistent quant à présent en ses habits, hardes, linges, dentelles et bijoux à son usage personnel [...], ainsi qu'en une valise ; [5° — donation de meubles par le futur époux, imprimée, rayée ; « Trustee », commencé puis rayé] [...] ; 6° Il est convenu [...] que la dite future épouse et les enfants qui pourront naître du dit futur mariage ne pourront prétendre, réclamer ni exiger aucun douaire préfix ou coutumier sur les biens du dit futur époux [...] ; [001899] 7° Et pour donner de plus grandes marques d'amitié à la future épouse, le dit futur époux s'oblige par ces présentes de lui payer une rente annuelle de trente-six piastres, au capital de six cents piastres courant, rachetable à volonté par le dit futur époux, ce qui est accepté par [la future épouse] [passage rayé]. La dite rente s'éteindra au décès du futur époux & de la future épouse ; et si c'est la future épouse qui prédécède, alors la dite rente & tous les arrérages d'icelle seront éteints & forfaits en faveur du futur époux, de même que si telle rente n'eût jamais été stipulée. [001900] Car ainsi a été convenu entre les dites parties en présence de leurs amis ci-après nommés, savoir : de la part du dit futur époux, de sieur Calixte Rogers, son ami, & de la part de la future épouse, de sieur Georges Alphonse LaRoche, son ami. [...] Fait et passé à St Romuald, demeure de Calixte Rogers, l'an mil huit cent soixante-quatorze, le troisième jour d'octobre, après midi, sous le numéro deux cent onze des originaux de Me Elzéar Hubert Tremblay, le dit notaire soussigné. Et les futurs époux & les dits sieurs Rogers & LaRoche ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Clémentine Lévesque », « Hubert Carrier », « Calixte Roger », « G. A. LaRoche », « E. H. Tremblay N.P. » — [001901] « Liste des meubles et effets mobiliers mentionnés en le Contrat de Mariage ci-devant [...] et donnés par le futur époux à la future épouse » : « Deux tables valant trois piastres, [...] » — liste barrée en croix. — [001902] chemise imprimée « Contrat de Mariage entre … et … — Copie ».",
+      "personnes": [
+        {
+          "role": "epoux",
+          "nom": "Hubert Carrier",
+          "note": "Journalier de Saint-Romuald, garçon majeur, fils de feu Louis Carrier et de feue Félicité Cantin ; signe. Absent des recensements de Saint-Romuald sous ce prénom : non rattaché."
+        },
+        {
+          "role": "epouse",
+          "nom": "Marie-Clémentine Lévesque",
+          "note": "Fille majeure de Saint-Romuald, fille de feu Zacharie Lévesque et de feue Charlotte Plourde ; signe « Clémentine Lévesque ». Absente des recensements : non rattachée."
+        },
+        {
+          "role": "pere",
+          "nom": "Louis Carrier",
+          "note": "Feu ; père de l'époux."
+        },
+        {
+          "role": "mere",
+          "nom": "Félicité Cantin",
+          "note": "Feue ; mère de l'époux."
+        },
+        {
+          "role": "pere",
+          "nom": "Zacharie Lévesque",
+          "note": "Feu ; père de l'épouse."
+        },
+        {
+          "role": "mere",
+          "nom": "Charlotte Plourde",
+          "note": "Feue ; mère de l'épouse."
+        },
+        {
+          "role": "temoin",
+          "nom": "Calixte Rogers",
+          "note": "Ami de l'époux ; l'acte est passé en sa demeure à Saint-Romuald ; signe « Calixte Roger ». Absent des recensements : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Georges-Alphonse LaRoche",
+          "note": "Ami de l'épouse ; signe « G. A. LaRoche ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Hubert Carrier, journalier de Saint-Romuald, est le fils de feu Louis Carrier et de feue Félicité Cantin."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Marie-Clémentine Lévesque, de Saint-Romuald, est la fille de feu Zacharie Lévesque et de feue Charlotte Plourde."
+        }
+      ],
+      "note": "Deux orphelins majeurs, sans parents pour les assister : chacun amène un ami. Le régime choisi — séparation de biens, renonciation au douaire, rente viagère de 36 piastres — protège la future épouse, dont l'apport se résume à ses habits et une valise. Le mariage religieux devait suivre de peu à Saint-Romuald (registre paroissial à consulter).",
+      "images": [
+        {
+          "fichier": "00953",
+          "microfilm": "001897",
+          "drive": "1bVHrej6blSXwtLvdnOJn0-BJ5ljRIXru",
+          "legende": "1/6"
+        },
+        {
+          "fichier": "00954",
+          "microfilm": "001898",
+          "drive": "1J-mMTZbaPoT7NnWCidvEQAEazs3pPY1c",
+          "legende": "2/6"
+        },
+        {
+          "fichier": "00955",
+          "microfilm": "001899",
+          "drive": "1_-gDIwLliOY1GEaRlxQjFLIqV-0Sse8i",
+          "legende": "3/6"
+        },
+        {
+          "fichier": "00956",
+          "microfilm": "001900",
+          "drive": "1F-a0Vq4tL8_14ez0XNOq8jmN6jXnbDxB",
+          "legende": "4/6"
+        },
+        {
+          "fichier": "00957",
+          "microfilm": "001901",
+          "drive": "1XWRJkorJKa_lffJbYSK5jiNYZ4mufdmH",
+          "legende": "5/6"
+        },
+        {
+          "fichier": "00958",
+          "microfilm": "001902",
+          "drive": "1oURwh7tyXKwxolaa76pXS2Y0GbvbspvV",
+          "legende": "6/6"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
     }
   ]
 }
