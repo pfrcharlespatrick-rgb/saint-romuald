@@ -17095,9 +17095,9 @@
       "titre": "Bail à rente foncière de Benjamin Demers à Isidore Houle père, journalier, rue Demers, 1874",
       "date": "1874-07-20",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 157, images 001692 à 001694 (Drive : fichiers 04T_CN401S124P_00748 et 00749) ; la clôture et les signatures (fichier 00750) manquent au Drive.",
-      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juillet 1874, en présence d'un témoin. En marge : « Demers à I. Houle — Original — [3,50 $ payable…, rayé] — 12/6 payable par Chs Filteau — Résilié par le n° 654 » ; en marge du prix : « $5,42 du 1er mai au 1er octobre — 5,42 ». La clôture, la date de l'après-midi et les signatures sont sur l'image 001694-95 (fichier 00750), qui n'est pas encore au Drive.",
-      "transcription": "[001692-93] « N° 157 — 20 juillet 1874. Pardevant le Notaire Public […] Et en présence de Pierre Lagueux, écr, de St Romuald, juge de paix & rentier, témoin […] ; Fut présent : Benjamin Demers, écuier, de la paroisse de St Romuald, dit comté, cultivateur, Lequel a par ces présentes baillé et concédé […] à Isidore Houle, père, du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, dit comté, contenant soixante-deux pieds de front sur la rue Demers, sur soixante pieds de profondeur, mesure anglaise [?] ; borné à l'ouest à la rue Demers, à l'est à F.-X. Guay, au nord à Augustin Couture & au sud à Charles Filteau, circonstances & dépendances. » — [001693-94] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre prochain, la somme de treize piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de deux cent seize piastres & soixante-sept centins » ; hypothèque ; droit de retrait réservé au sieur Benjamin Demers ; copie enregistrée ; clause de reprise. [Clôture et signatures sur le fichier 00750, absent du Drive.]",
+      "cote": "Minute n° 157, images 001692 à 001696 (Drive : fichiers 04T_CN401S124P_00748 à 00751) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juillet 1874, en présence d'un témoin. En marge : « Demers à I. Houle — Original — [3,50 $ payable…, rayé] — 12/6 payable par Chs Filteau — Résilié par le n° 654 » ; en marge du prix : « $5,42 du 1er mai au 1er octobre — 5,42 ». Chemise imprimée « Bail à rente foncière à Isidore Houle — Copie », portant au dos « C. Filteau » (fichier 00751).",
+      "transcription": "[001692-93] « N° 157 — 20 juillet 1874. Pardevant le Notaire Public […] Et en présence de Pierre Lagueux, écr, de St Romuald, juge de paix & rentier, témoin […] ; Fut présent : Benjamin Demers, écuier, de la paroisse de St Romuald, dit comté, cultivateur, Lequel a par ces présentes baillé et concédé […] à Isidore Houle, père, du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, dit comté, contenant soixante-deux pieds de front sur la rue Demers, sur soixante pieds de profondeur, mesure anglaise [?] ; borné à l'ouest à la rue Demers, à l'est à F.-X. Guay, au nord à Augustin Couture & au sud à Charles Filteau, circonstances & dépendances. » — [001693-94] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre prochain, la somme de treize piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de deux cent seize piastres & soixante-sept centins » ; hypothèque ; droit de retrait réservé au sieur Benjamin Demers ; copie enregistrée ; clause de reprise. [001694-95] « Dont acte, fait et passé à St Romuald, étude, l'an mil huit cent soixante-quatorze, le vingtième jour de juillet, après midi, sous le numéro cent cinquante-sept des originaux […]. Et le concédant a signé ainsi que le dit témoin avec moi, notaire, le concessionnaire ayant déclaré ne savoir signer, de ce requis, lecture faite. » Signatures : « Benj. Demers », « Pierre Lagueux », « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "concedant",
@@ -17108,7 +17108,7 @@
         {
           "role": "concessionnaire",
           "nom": "Isidore Houle, père",
-          "note": "Journalier de Saint-Romuald. Aucun Isidore Houle aux recensements de Saint-Romuald : non rattaché."
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Aucun Isidore Houle aux recensements de Saint-Romuald : non rattaché."
         },
         {
           "role": "temoin",
@@ -17139,22 +17139,174 @@
         }
       ],
       "affirmations": [],
-      "note": "Lot de la rue Demers jumeau de celui de Charles Filteau (n° 140) : même largeur (62 pieds), même rente (13 piastres) et mêmes arrérages (5,42 $, du 1er mai au 1er octobre). Le bail fut plus tard résilié par la minute n° 654. La fin de l'acte est sur le fichier 00750, que le Drive n'a pas encore.",
+      "note": "Lot de la rue Demers jumeau de celui de Charles Filteau (n° 140) : même largeur (62 pieds), même rente (13 piastres) et mêmes arrérages (5,42 $, du 1er mai au 1er octobre). Le bail fut plus tard résilié par la minute n° 654. La chemise porte au dos le nom de « C. Filteau » : le titre semble être passé à Charles Filteau, le voisin.",
       "ajoute_le": "2026-11-11",
       "images": [
         {
           "fichier": "00748",
           "microfilm": "001692",
           "drive": "1CpY695Euu1dPqy-rIMoeTdWkmN4XCDyX",
-          "legende": "1/2"
+          "legende": "1/4"
         },
         {
           "fichier": "00749",
           "microfilm": "001693",
           "drive": "1maXQpcQVLMMl8XkxaxdSb5EegGLI2Lay",
-          "legende": "2/2"
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00750",
+          "microfilm": "001694",
+          "drive": "1d6jIHkhvfRQNf0rmhGCeVuPjJ9C_dF6P",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00751",
+          "microfilm": "001695",
+          "drive": "1CQ5eA7U1ljzBbJp8mTW6XgtmzIJEYM72",
+          "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1874-07-21-quittance-lecours-carrier",
+      "type": "notarie",
+      "titre": "Quittance de Catherine Lecours, veuve Samson, à Augustin Carrier pour une année de rente viagère, 1874",
+      "date": "1874-07-21",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 158, images 001696 à 001698 (Drive : fichiers 04T_CN401S124P_00752 et 00753) ; acte complet.",
+      "nature": "Quittance, passée le 21 juillet 1874, après midi, en l'étude du notaire, en présence d'un témoin ; la comparante ne sait signer. En marge : « Vve Samson à Carrier — Orig. — Exp. 1 fois ». Mots rayés nuls.",
+      "transcription": "[001696-97] « N° 158 — 21 juillet 1874. L'an mil huit cent soixante-quatorze, le vingt-unième jour de juillet, après midi, en présence de Elzéar Hubert Tremblay, notaire public […], Et en présence de Germain Cantin, écr, du même lieu, marchand, témoin […] ; Fut présente : Dame Catherine Lecours, de la paroisse de St Romuald, veuve en troisièmes noces de feu sieur Antoine Samson, en son vivant de Notre-Dame de Lévis, cultivateur ; Laquelle reconnaît que Mr Augustin Carrier, du dit lieu de Notre-Dame de Lévis, cultivateur, lui a payé toutes sommes de deniers & autres rentes mentionnées en un certain acte de donation consenti en faveur du dit sieur Carrier, pour l'année finissant le vingtième jour de juillet courant. [mots rayés] [001697-98] Dont & du tout elle lui accorde quittance générale. Dont acte, requis & octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent cinquante-huit des originaux du notaire soussigné. Requise de signer, la comparante a déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Germain Cantin », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "creanciere",
+          "nom": "Catherine Lecours",
+          "ref_personne": "1871-D1-P049-L01",
+          "note": "De Saint-Romuald, veuve en troisièmes noces d'Antoine Samson ; ne sait signer. Voir les n° 2, 26, 82 à 84."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Augustin Carrier",
+          "note": "Cultivateur de Notre-Dame de Lévis, son beau-fils et donataire, débiteur d'une rente viagère (voir n° 2 et 83). Non rattaché."
+        },
+        {
+          "role": "defunt",
+          "nom": "Antoine Samson",
+          "note": "Troisième époux de Catherine Lecours."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "« Écuier », marchand de Saint-Romuald ; signe."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Suite du fil Catherine Lecours (n° 2, 26, 82-84) : la vieille femme, logée chez son fils Louis Gelly, reçoit de son beau-fils Augustin Carrier l'année de rente échue le 20 juillet 1874. Elle est donc encore en vie à cette date.",
+      "ajoute_le": "2026-11-11",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-07-30-depot-procuration-demers",
+      "type": "notarie",
+      "titre": "Dépôt par Benjamin Demers de la procuration de Louis-Julien Demers, de South Manchester (Connecticut), 1874",
+      "date": "1874-07-30",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 159, images 001698 à 001700 (Drive : fichiers 04T_CN401S124P_00754 et 00755) ; acte complet, avec la pièce déposée.",
+      "nature": "Acte de dépôt, daté du 30 juillet 1874, signé du déposant et du notaire. En marge : « Dépôt B. Demers à E. H. Tremblay ». Pièce annexée (fichier 00755) : procuration sous seing privé, écrite et signée à South Manchester (Connecticut) le 1er mars 1874.",
+      "transcription": "[001698-99] « N° 159 — 30 juillet 1874. Dépôt B. Demers à E. H. Tremblay. La procuration ci-annexée a été, en date de ce jour, trente juillet mil huit cent soixante-quatorze, déposée par Benjamin Demers, écr, cultivateur, de la paroisse de St Romuald, au notaire soussigné, sous le numéro cent cinquante-neuf, pour servir & valoir ce que de droit. Et le dit sieur Demers a signé, lecture faite. Deux mots rayés sont nuls. » Signatures : « Benj. Demers », « E. H. Tremblay N.P. » — [001699-1700, pièce déposée] « Je soussigné, L. J. Demers, donne par le présent pouvoir à Benjamin Demers (mon père) de vendre ou de louer pour moi et en mon nom l'emplacement que je possède actuellement à St Romuald. Promettant d'avoir pour agréable et de ratifier à sa volonté tout ce qu'il aura fait à cet égard. Fait à South Manchester, Connecticut, É.-U., le premier mars mil huit cent soixante-quatorze. Louis Julien Demers. »",
+      "personnes": [
+        {
+          "role": "deposant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers ». Père et mandataire de Louis-Julien Demers."
+        },
+        {
+          "role": "mandant",
+          "nom": "Louis-Julien Demers",
+          "ref_personne": "1871-D1-P025-L06",
+          "note": "Fils de Benjamin Demers ; établi en 1874 à South Manchester, Connecticut (États-Unis) ; possède un emplacement à Saint-Romuald. Rattaché en probable à Louis Demers, cultivateur de 21 ans, fils de Benjamin en 1871 (division 1, maison 66)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "date": "1874-03-01",
+          "personnes": [
+            "1871-D1-P025-L06",
+            "1871-D1-P025-L04"
+          ],
+          "enonce": "Louis-Julien Demers est le fils de Benjamin Demers, de Saint-Romuald (« Benjamin Demers, mon père »)."
+        },
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "date": "1874-03-01",
+          "personnes": [
+            "1871-D1-P025-L06"
+          ],
+          "enonce": "Louis-Julien Demers vit à South Manchester, Connecticut, le 1er mars 1874, et possède encore un emplacement à Saint-Romuald."
+        }
+      ],
+      "note": "Un fils parti travailler dans les filatures de la Nouvelle-Angleterre (South Manchester, ville de la soie Cheney) laisse à son père le soin de vendre ou de louer son terrain de Saint-Romuald. Benjamin Demers dépose la procuration au moment même où il lotit ses rues (n° 140 à 157).",
+      "ajoute_le": "2026-11-11",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-07-30-accord-demers-pelletier",
+      "type": "notarie",
+      "titre": "Accord et quittance entre Lifroi Demers et Edmond Pelletier après une rixe, 1874",
+      "date": "1874-07-30",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 160, images 001700 à 001703 (Drive : fichiers 04T_CN401S124P_00756 à 00758) ; acte complet.",
+      "nature": "Accord et quittance, passés le 30 juillet 1874, après midi, en l'étude du notaire, sans témoin ; les deux parties signent. En marge : « Accord & Quittance Demers & Pelletier — Original » ; frais : 2,6 + 3,9 = 6,3. Mots rayés nuls.",
+      "transcription": "[001700-01] « N° 160 — 30 juillet 1874. L'an mil huit cent soixante-quatorze, le trentième jour de juillet, après midi, en présence de Elzéar Hubert Tremblay, notaire public […] ; Furent présents : Lifroi Demers, du dit lieu de St Romuald, employé chez Henry Atkinson, écr, journalier, d'une part ; Et Edmond Pelletier, du même lieu, journalier, de la seconde part ; Lesquelles parties ont, de leur propre consentement & volontairement, fait entre elles les accords, conventions & déclarations suivants, savoir : Attendu que le dit sieur Pelletier a, en date de ce jour, injurié le dit sieur Demers en le frappant à diverses reprises, sans qu'il y ait eu aucune provocation de la part de la partie de la première part ; Attendu que la [001701-02] partie de la seconde part offre & consent de payer les frais encourus & à encourir relativement à l'assaut & batterie sus-désigné, & paye en outre le salaire que lui ôtera sur sa journée de travail, lors du dit assaut, Henry Atkinson, écr, ou ses employés, s'il y a lieu ; Attendu que la partie de la première part accepte les offres en entier de la dite partie de la seconde part ; C'est pourquoi le dit sieur Demers donne & accorde au dit sieur Pelletier, en considération des offres & autres conditions sus-désignées & détaillées, quittance générale & finale, & quitte & décharge le dit sieur Pelletier de tous dépens, frais, dommages-intérêts à venir & résultant du dit assaut & batterie, autres que ceux sus-cités. Dont & du tout les dites parties ont requis [001702-03] le présent acte d'accord & quittance, qui leur a été octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent soixante des originaux du notaire soussigné. Et les parties ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Lifroi Demers », « Edmon Pelletier », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "partie",
+          "nom": "Lifroi Demers",
+          "note": "Journalier de Saint-Romuald, « employé chez Henry Atkinson, écr » ; signe. Aucun Lifroi (Elfroi) Demers aux recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "partie",
+          "nom": "Edmond Pelletier",
+          "note": "Journalier de Saint-Romuald ; signe « Edmon Pelletier ». Absent des recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Henry Atkinson",
+          "ref_personne": "1871-D1-P075-L17",
+          "note": "« Écuier », employeur de Lifroi Demers. Rattaché en probable au bourgeois de 38 ans de 1871 (division 1, maison 214), marchand de bois de 48 ans en 1881 (1881-D1-P088-L10)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "probable",
+          "date": "1874-07-30",
+          "personnes": [
+            "1871-D1-P075-L17"
+          ],
+          "enonce": "Henry Atkinson, écuier, emploie des journaliers à la journée à Saint-Romuald en 1874 (sans doute à ses moulins ou à son commerce de bois)."
+        }
+      ],
+      "note": "Une bagarre réglée chez le notaire le jour même : l'agresseur paie les frais et la journée de travail perdue chez Atkinson, et l'affaire n'ira pas en justice. Rare trace d'une vie ouvrière ordinaire.",
+      "ajoute_le": "2026-11-11",
+      "images": []
     }
   ]
 }
