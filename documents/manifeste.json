@@ -19594,6 +19594,174 @@
         }
       ],
       "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-09-22-obligation-belanger-labbe",
+      "type": "notarie",
+      "titre": "Obligation de Godfroy Bélanger, charretier, envers François-Xavier Labbé, journalier, pour gages, 1874",
+      "date": "1874-09-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 194, images 001834 à 001835 (Drive : fichiers 04T_CN401S124P_00890 à 00891) ; acte complet.",
+      "nature": "Obligation, passée le 22 septembre 1874, après midi, en l'étude, devant un témoin ; le créancier et le témoin signent, le débiteur ne sait signer. En marge : « Obligation Bélanger à Labbé — Original — Expédié 1 fois — [enregistré au bureau du] Comté de Lévis » ; et : « Transporté à G. Cantin, 28 sept. 1874 ». Somme : 20 piastres.",
+      "transcription": "[001834] « N° 194 — 22 sept. 1874. L'an mil huit cent soixante-quatorze, le vingt-deux de septembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, soussigné ; Et en présence de Germain Cantin, écr, du même lieu, marchand, témoin au présent acte, aussi soussigné ; Fut présent : Godfroy Bélanger, de la paroisse de St Jean Chrysostome, [« maçon », rayé] charretier ; Lequel reconnaît & confesse devoir légitimement à Mr François-Xavier Labbé, de St Romuald, journalier, à ce présent & acceptant, la somme de vingt piastres courant, étant pour autant que le dit débiteur doit au dit créancier pour gages [renvoi (1) : « ainsi que le dit débiteur le reconnaît »] ; laquelle somme le débiteur promet & s'oblige payer au créancier ou ordre, porteur des présentes en forme [001835] légale, le vingt-quatre de juin prochain, sans intérêt. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent quatre-vingt-quatorze. Et le créancier & le dit témoin ont signé avec moi, notaire, le débiteur ayant déclaré ne le savoir, de ce requis, lecture faite. [« Une ligne allongée est bonne », rayé.] Sept mots rayés sont nuls. Un renvoi en marge approuvé est bon. » Signatures : « François Labbé », « Germain Cantin », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Godfroy Bélanger",
+          "note": "Charretier (« maçon » rayé) de Saint-Jean-Chrysostome ; ne sait signer. Absent des recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "creancier",
+          "nom": "François-Xavier Labbé",
+          "note": "Journalier de Saint-Romuald, à qui Bélanger doit des gages ; signe « François Labbé ». Un François Labbé, commerçant de 47 ans, vit à Saint-Romuald en 1891 (1891-D1-P140-L23) : rapprochement possible, non fait. Il cède la créance à Germain Cantin six jours plus tard (note marginale)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Écuyer, marchand de Saint-Romuald ; signe. Cessionnaire de la créance le 28 septembre 1874."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un charretier reconnaît vingt piastres de gages dus à un journalier qui avait travaillé pour lui, payables à la Saint-Jean 1875. Le journalier transporte aussitôt sa créance au marchand Germain Cantin — sans doute en paiement de son compte au magasin.",
+      "images": [
+        {
+          "fichier": "00890",
+          "microfilm": "001834",
+          "drive": "10J2CR3ZImngtC7Y1hlB1yGuxETeppxS4",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "00891",
+          "microfilm": "001835",
+          "drive": "1Ma9L8L_xUtUHSKlS1wCn_-0igIGgfe-r",
+          "legende": "2/2"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-09-23-vente-leclerc-leclerc",
+      "type": "notarie",
+      "titre": "Vente par Joseph Leclerc, ancien marchand, à François Leclerc junior, marchand, de trois emplacements bâtis (rues Saint-Paul et Saint-Jean-Baptiste), 1874",
+      "date": "1874-09-23",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 195, images 001836 à 001843 (Drive : fichiers 04T_CN401S124P_00892 à 00899) ; acte complet, avec deux pages barrées (00895 et une partie de 00897-98) ; le numéro, dans la clôture, est laissé incomplet (« cent quatre-vingt »).",
+      "nature": "Vente, passée le 23 septembre 1874, après midi, en l'étude, en présence de Benjamin Demers, bailleur de fonds ; les parties et Demers signent ; paraphes « J. L. », « F. L. », « B. D. ». En marge : « Vente Leclerc à Leclerc — Original — Pas de copie ». Prix : 940 piastres.",
+      "transcription": "[001836] « N° 195 — 23 septembre 1874. L'an mil huit cent soixante-quatorze, le vingt-trois de septembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public […] soussigné ; Fut présent : Joseph Leclerc, écr, ancien marchand, de St Romuald susdit ; Lequel vend, cède, transporte & abandonne dès maintenant & à toujours, avec garantie de tous troubles & empêchements généralement quelconques, à François Leclerc, junior, écuier, marchand, du même lieu, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayants cause à l'avenir, savoir : 1° Un emplacement ou lot de terre situé au dit lieu de St Romuald, contenant cinquante pieds de front sur soixante pieds de profondeur, mesure française, borné au nord-est [001837] à Benjamin Demers, écr, au nord à la rue St Jean-Baptiste, au sud à Fabien Barriault [?] ou ses représentants & au sud-ouest à la rue St Paul, [renvoi (1) : « avec ensemble une maison en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances »] ; 2° Un autre emplacement situé au même lieu & de même étendue, borné au sud à la rue St Jean-Baptiste, au nord à Jean-Baptiste Fontaine, à l'est à Benjamin Demers, écr, & au sud-ouest à la rue St Paul, avec ensemble une maison en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances ; 3° Enfin un autre emplacement ou lopin de terre situé en la dite paroisse de St Romuald, contenant quarante-deux pieds de front sur soixante pieds de profondeur, borné par devant au nord au chemin public & par derrière au sud à Benjamin Demers, d'un côté au nord-est à Pierre Rouleau & d'autre côté au sud-ouest à Barthélemi St-Hilaire, avec ensemble la maison en bois & autres bâtisses dessus construites, circonstances & dépendances. [001838] Au vendeur appartiennent les dits immeubles sus-désignés & vendus pour les avoir acquis [renvoi (1) : « savoir : les lots en premier & second lieux désignés »] suivant actes à rentes foncière & constituée consentis en sa faveur par Benjamin Demers, en date du quatorze de décembre mil huit cent soixante-neuf, reçus par Mtre L. Laliberté, notaire ; & le lot en troisième lieu décrit appartient au vendeur pour l'avoir acquis de Jacques Létarte, suivant acte de vente en date du vingt-neuf août mil huit cent soixante-sept, reçu par Mtre Étienne Simard [?], & le dit sieur Létarte le possédait pour l'avoir acquis suivant acte de bail à rente foncière. De tous lesquels titres le vendeur promet aider l'acquéreur au besoin. [001839, page barrée.] [001840] Cette vente est faite aux charges & conditions suivantes, que l'acquéreur promet & s'oblige exécuter & accomplir pour lui, ses hoirs & ayants cause, savoir : 1° de payer toutes les taxes municipales, scolaires & autres auxquelles les dits immeubles peuvent ou pourront être tenus, garanti quitte de tous arrérages à ce jour ; 2° de se conformer en tous points aux titres originaux sus-datés & notamment de payer au dit Benjamin Demers, écr, à ce aussi présent & acceptant pour lui, ses hoirs & ayants cause : 1° une somme de six piastres courant [renvoi : « de rente foncière & constituée »] pour chacun des lots premièrement & secondement désignés & décrits, annuellement, au premier jour d'octobre de chaque année, garanti quitte de tous arrérages jusqu'au premier jour d'octobre dernier ; & 2° une autre somme de quatorze piastres courant de rente foncière & constituée, au premier jour d'octobre de chaque année, quitte des arrérages jusqu'au [001841] premier jour d'octobre aussi dernier. Cette vente est faite en outre pour le prix ou somme de neuf cent quarante piastres courant, sur & en à-compte de laquelle le vendeur reconnaît avoir eu & reçu : celle de cent quarante piastres par la remise d'un montant égal dû à l'acquéreur en vertu d'une obligation [référence d'enregistrement laissée en blanc, rayée] ; 2° celle de sept cent soixante-quatorze piastres par un billet promissoire en date de ce jour, fait payable le vingt-quatre du courant ; dont & du tout le vendeur accorde à l'acquéreur quittance générale & finale. Et quant à la balance, ou [001842] formant la somme de vingt-six piastres, l'acquéreur la paiera à Benjamin Demers, écr, au premier jour d'octobre prochain, étant le montant des rentes [renvoi : « qui seront dues »] à ce dernier, qui accepte les dites sommes par ces présentes au dit premier jour d'octobre prochain. Et pour l'exécution des présentes les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent quatre-vingt [sic] des originaux du notaire [001843] soussigné. Et les vendeur & acquéreur ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. Renvois en marge sont bons & approuvés. » Signatures : « Joseph Leclerc », « Frs Leclerc », « Benj. Demers », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Joseph Leclerc",
+          "ref_personne": "1871-D1-P019-L15",
+          "note": "« Écr, ancien marchand » de Saint-Romuald ; signe. Il liquide ses biens : voir aussi le n° 189 (créance sur le boulanger Hubert Roy)."
+        },
+        {
+          "role": "acquereur",
+          "nom": "François Leclerc, junior",
+          "ref_personne": "1871-D1-P049-L14",
+          "note": "Écuyer, marchand de Saint-Romuald ; signe « Frs Leclerc ». Acheteur aussi du lot Bilodeau (n° 190) cinq jours plus tôt."
+        },
+        {
+          "role": "bailleur",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Écuyer, bailleur de fonds des deux premiers lots (baux du 14 décembre 1869, Me Laliberté) et créancier de la rente de 14 piastres du troisième ; présent, il accepte et signe."
+        },
+        {
+          "role": "voisin",
+          "nom": "Fabien Barriault [?]",
+          "note": "Borne le premier lot au sud ; nom de lecture incertaine. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Jean-Baptiste Fontaine",
+          "note": "Borne le deuxième lot au nord : l'acquéreur de la maison Paradis (n° 167, 192)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Pierre Rouleau",
+          "ref_personne": "1871-D1-P040-L04",
+          "note": "Borne le troisième lot au nord-est, sur le chemin public. Le menuisier de 40 ans de 1871 (maison 106) ; rattachement probable — sans doute le « Pierre Rouleau, carpenter » de la note volante du fichier 00854."
+        },
+        {
+          "role": "voisin",
+          "nom": "Barthélemi St-Hilaire",
+          "ref_personne": "1871-D1-P034-L12",
+          "note": "Borne le troisième lot au sud-ouest. Journalier de 36 ans en 1871 (maison 90) ; rattachement probable."
+        },
+        {
+          "role": "auteur",
+          "nom": "Jacques Létarte",
+          "note": "Vendeur du troisième lot à Joseph Leclerc le 29 août 1867 ; il le tenait d'un bail à rente. Un Jacques Létarte, journalier de 81 ans, vit à Saint-Romuald en 1881 (1881-D1-P085-L09) : rapprochement possible, non fait."
+        },
+        {
+          "role": "autre",
+          "nom": "L. Laliberté",
+          "note": "Notaire ; baux Demers-Leclerc du 14 décembre 1869."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Les deux premiers lots, de part et d'autre de la rue Saint-Jean-Baptiste, sur la rue Saint-Paul, étaient concédés par Benjamin Demers dès 1869 : le lotissement Demers est donc plus ancien que la série de 1874 (n° 140 et suiv.). Le troisième, sur le chemin public (sans doute la grande route du bord de l'eau), voisine Pierre Rouleau et Barthélemi St-Hilaire. Le prix de 940 piastres est réglé par compensation d'une obligation (140), un billet au lendemain (774) et 26 piastres d'arrérages de rentes versées directement à Demers. L'acte, très raturé, garde un numéro incomplet dans la clôture.",
+      "images": [
+        {
+          "fichier": "00892",
+          "microfilm": "001836",
+          "drive": "1xlCe4lpFtbWQe504tbGpT5b4WH4ebm2y",
+          "legende": "1/8"
+        },
+        {
+          "fichier": "00893",
+          "microfilm": "001837",
+          "drive": "1jc_3N9KQ2MYgPoB5TXEYRmO_4Z4KW9tm",
+          "legende": "2/8"
+        },
+        {
+          "fichier": "00894",
+          "microfilm": "001838",
+          "drive": "1UfSKjP0dfFBjOSGFX4TC5m1eG-hvZZur",
+          "legende": "3/8"
+        },
+        {
+          "fichier": "00895",
+          "microfilm": "001839",
+          "drive": "1D-phHJ5PBHKcUTVSvRIyY6hlVptogBG8",
+          "legende": "4/8"
+        },
+        {
+          "fichier": "00896",
+          "microfilm": "001840",
+          "drive": "1bvHy97PzQQvCiT-K8U-VtF1WJcLPV5-r",
+          "legende": "5/8"
+        },
+        {
+          "fichier": "00897",
+          "microfilm": "001841",
+          "drive": "1g6-4QoYTtcx5-07ED-4LbNu2bHnjF6AT",
+          "legende": "6/8"
+        },
+        {
+          "fichier": "00898",
+          "microfilm": "001842",
+          "drive": "1ZFDqsgJa4dA-e3ajNQj7Qa9unEolOmlK",
+          "legende": "7/8"
+        },
+        {
+          "fichier": "00899",
+          "microfilm": "001843",
+          "drive": "1ZrE-le_yB8Wnw_PP8uMXaNng3J5DPodP",
+          "legende": "8/8"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
     }
   ]
 }
