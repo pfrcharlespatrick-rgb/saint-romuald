@@ -21326,6 +21326,84 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1874-09-26-testament-charles-benjamin-couture",
+      "type": "notarie",
+      "titre": "Testament de Charles-Benjamin Couture, ancien cultivateur de Saint-Jean-Chrysostome, en faveur de son fils Ignace, 1874",
+      "date": "1874-09-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 204, images 001874 à 001877 (Drive : fichiers 04T_CN401S124P_00930 à 00933) ; acte complet.",
+      "nature": "Testament authentique, dicté le 26 septembre 1874, après midi, à Saint-Jean-Chrysostome, en la demeure du testateur, chez son fils Ignace, devant deux témoins ; le testateur ne sait signer. L'en-tête marginal porte par erreur « Testament de Ignace Couture ». En marge : « Original — Payé pour enregistrer $1.90 le 30 déc. 1874 — Expédié 1 fois » ; au bas : « Déclaration 50 » et « Chs B. Couture est décédé le 12 de décembre [1874], en rapport avec l'Art. 2098 C. C. B. C. ».",
+      "transcription": "[001874] « N° 204. L'an mil huit cent soixante-quatorze, le vingt-sixième jour de septembre, après midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Pierre Giroux, écuier, marchand, de St Jean Chrysostome, & de Mr Louis Joseph Stanislas Roberge, de St Romuald, instituteur, témoins au présent testament aussi soussignés ; Fut présent : Mr Charles Benjamin Couture, ancien cultivateur, & demeurant à St Jean Chrysostome susdit, étant en bonne santé de corps, sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous dit notaire & aux dits témoins par son maintien & ses discours & par la manifestation claire & précise de ses volontés ; Lequel a, dans la vue de la mort, fait & nommé son présent testament à nous notaire, en la présence des dits témoins, ainsi qu'il suit, savoir : [001875] Premièrement — Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par mon exécuteur testamentaire ci-après nommé, à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, messes & prières ; 2° — Je donne & lègue à sieur Ignace Couture, mon fils, tous les biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient & en quelques lieux qu'ils soient dus & situés, pour par mon dit fils en jouir, faire & disposer en pleine & entière propriété à compter du jour de mon décès ; 3° Je nomme le dit sieur Ignace Couture mon exécuteur testamentaire & l'institue mon légataire universel en propriété ; 4° Je ratifie la donation que j'ai faite conjointement avec mon épouse au sieur Ignace Couture, mon fils ; [001876] 5° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par le dit testateur au dit notaire soussigné, en la présence des dits témoins, & son présent testament lui ayant été lu, expliqué & relu [renvoi : « par le dit notaire, les dits témoins toujours présents »], il a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte, fait & passé à St Jean Chrysostome susdit, demeure du testateur, située chez le dit Sr Ignace Couture, les jour, mois & an susdits, sous le numéro deux cent quatre des originaux du notaire soussigné. Requis de signer, le testateur a déclaré ne le savoir, en présence des dits témoins, qui ont signé avec moi, notaire, après lecture faite & refaite. [001877] Mots rayés sont nuls. Renvoi en marge bon & approuvé. » Signatures : « Pierre Giroux », « Louis J. S. Roberge », « E. H. Tremblay N.P. » — Note ultérieure : « Chs B. Couture est décédé le 12 de décembre, en rapport avec l'Art. 2098 C. C. B. C. ».",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Charles-Benjamin Couture",
+          "note": "Ancien cultivateur de Saint-Jean-Chrysostome, demeurant chez son fils Ignace ; ne sait signer. Mort le 12 décembre 1874 d'après la note marginale (le testament est enregistré le 30 décembre). Non rattaché."
+        },
+        {
+          "role": "legataire",
+          "nom": "Ignace Couture",
+          "note": "Fils ; légataire universel et exécuteur ; donataire de ses parents (n° 203)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Giroux",
+          "note": "Écuyer, marchand de Saint-Jean-Chrysostome ; signe. Absent des recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Joseph-Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Ignace Couture, de Saint-Jean-Chrysostome, est le fils de Charles-Benjamin Couture (« mon fils »)."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Charles-Benjamin Couture, ancien cultivateur de Saint-Jean-Chrysostome, est mort le 12 décembre 1874 (note marginale du notaire, en vue de l'enregistrement du testament le 30 décembre)."
+        }
+      ],
+      "note": "Le même jour que la renonciation n° 203 : tout va à Ignace, déjà donataire, et le père ratifie la donation faite avec sa femme. La note marginale date sa mort : le 12 décembre 1874, moins de trois mois plus tard. Sa femme, Marie-Olive Hince, teste à la suite (n° 205).",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "00930",
+          "microfilm": "001874",
+          "drive": "1Yh56AcFq5DaV3_lopq6QzG0YTjgey3sm",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00931",
+          "microfilm": "001875",
+          "drive": "1zoTg7QLnlddnAfQy6HDPxdQPrYVs-Xlr",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00932",
+          "microfilm": "001876",
+          "drive": "1vSZGZQ6X4gKclBRfYGB_VBu9DNiAAwlB",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00933",
+          "microfilm": "001877",
+          "drive": "1wHP_g6EMKg4f6-X9_LajUi05uyGH-q0I",
+          "legende": "4/4"
+        }
+      ]
     }
   ]
 }
