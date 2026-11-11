@@ -16917,8 +16917,8 @@
       "titre": "Bail à rente foncière de Benjamin Demers à Léon Lefrançois, meublier, rue Saint-Paul, 1874",
       "date": "1874-07-20",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 155, images 001684 à 001687 (Drive : fichiers 04T_CN401S124P_00740 à 00742) ; acte complet.",
-      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juillet 1874, après midi, en l'étude du notaire, en présence d'un témoin ; le concessionnaire ne sait signer. En marge : « Demers à Lefrançois — Orig. — Payé pour enregistrement — Exp. 2 fois ». La clause du droit de retrait est biffée.",
+      "cote": "Minute n° 155, images 001684 à 001688 (Drive : fichiers 04T_CN401S124P_00740 à 00743) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juillet 1874, après midi, en l'étude du notaire, en présence d'un témoin ; le concessionnaire ne sait signer. En marge : « Demers à Lefrançois — Orig. — Payé pour enregistrement — Exp. 2 fois ». La clause du droit de retrait est biffée. Chemise imprimée « Bail à rente foncière par $3,50 à Léon Lefrançois — Copie » (fichier 00743).",
       "transcription": "[001684-85] « N° 155 — 20 juillet 1874. Pardevant le Notaire Public […] Et en présence de Germain Cantin, écr, de St Romuald, marchand, témoin […] ; Fut présent Benjamin Demers, écuier, cultivateur, du dit lieu de St Romuald, comté susdit, Lequel a par ces présentes baillé et concédé […] à sieur Léon Lefrançois, du même lieu, meublier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, dit comté, contenant cinquante pieds de front sur soixante pieds de profondeur, borné en front à l'est à la rue St Paul, à l'ouest au concédant, au nord à François Montigny & au sud à Michel Larivée, circonstances & dépendances. » — [001685-86] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; [clause du droit de retrait biffée] ; copie enregistrée ; clause de reprise pour deux années impayées. [001686-87] « Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le vingtième jour de juillet, après midi, sous le numéro cent cinquante-cinq des originaux […]. Et le concédant a signé ainsi que le dit témoin avec moi, notaire, le dit concessionnaire ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » Signatures : « Benj. Demers », « Germain Cantin », « E. H. Tremblay N.P. »",
       "personnes": [
         {
@@ -16969,7 +16969,125 @@
       ],
       "note": "Avec les n° 141, 142 et 147, ce lot complète la suite des terrains du côté ouest de la rue Saint-Paul : du nord au sud, Deschênes, Guay, Toussaint, Montigny, Lefrançois, Larivée, Nicol, jusqu'à la rue Saint-Jean-Baptiste. Le recensement de 1881 range dans le même ordre Montigny (maison 103), Lefrançois (105) et Larivée (106).",
       "ajoute_le": "2026-11-11",
-      "images": []
+      "images": [
+        {
+          "fichier": "00740",
+          "microfilm": "001684",
+          "drive": "1xiP65MUSvXZmM_qpRKZvO9WNxcggzAL0",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00741",
+          "microfilm": "001685",
+          "drive": "1x6X2QMJkwA1T9q1FkUXz_cnlqmlTMa2I",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00742",
+          "microfilm": "001686",
+          "drive": "18b1L7O9ZK-IOvz1mm3GdM319IPJuOW3A",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00743",
+          "microfilm": "001687",
+          "drive": "1IDqQZBLxJt4lCedCUPoVH09eW_y-YtxF",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-07-20-bail-demers-larivee",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Michel Larivée, journalier, rue Saint-Paul, 1874",
+      "date": "1874-07-20",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 156, images 001688 à 001692 (Drive : fichiers 04T_CN401S124P_00744 à 00747) ; acte complet, mais sans la signature du notaire.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juillet 1874, après midi, en l'étude du notaire, en présence d'un témoin ; le concessionnaire ne sait signer. En marge : « Demers à Michel Larivée — Original — Exp. 2 fois ». **La signature du notaire manque** sous celles du concédant et du témoin. Chemise imprimée « Bail à rente foncière par $3,50 à Michel Larivée — Copie » (fichier 00747).",
+      "transcription": "[001688-89] « N° 156 — 20 juillet 1874. Pardevant le Notaire Public […] Et en présence de Germain Cantin, écr, de St Romuald, marchand, témoin […] ; Fut présent : Benjamin Demers, écuier, cultivateur, demeurant au dit lieu de St Romuald, Lequel a par ces présentes baillé et concédé […] à sieur Michel Larivée, du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, comté susdit, contenant cinquante pieds de front sur soixante pieds de profondeur ; borné à l'est à la rue St Paul, à l'ouest à Charles Lépine, au nord à Léon Lefrançois & au sud à Jean-Baptiste Nicol, circonstances & dépendances. » — [001689-90] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; droit de retrait réservé au dit Benjamin Demers, écuier ; copie enregistrée ; clause de reprise. [001690-91] « Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le vingtième jour de juillet, après midi, sous le numéro cent cinquante-six des originaux […]. Et le concédant a signé ainsi que le dit témoin avec moi, notaire, le dit sieur Larivée ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » Signatures : « Benj. Demers », « Germain Cantin » [pas de signature du notaire].",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers »."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Michel Larivée",
+          "ref_personne": "1871-D1-P028-L13",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Rattaché en probable au journalier de 50 ans de 1871 (division 1, maison 73), journalier de 64 ans en 1881 (maison 106, juste après Léon Lefrançois, maison 105). Déjà nommé voisin aux n° 141 et 155."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "« Écuier », marchand de Saint-Romuald ; signe."
+        },
+        {
+          "role": "voisin",
+          "nom": "Charles Lépine",
+          "note": "Voisin à l’ouest (à l’arrière). Rattaché en probable au Charles Lépine de 23 ans, chef de ménage en 1871 (division 1, maison 74), voisin de Michel Larivée (maison 73).",
+          "ref_personne": "1871-D1-P029-L04"
+        },
+        {
+          "role": "voisin",
+          "nom": "Léon Lefrançois",
+          "ref_personne": "1881-D1-P027-L08",
+          "note": "Voisin au nord (n° 155)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Jean-Baptiste Nicol",
+          "ref_personne": "1871-D1-P039-L16",
+          "note": "Voisin au sud (n° 141)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay",
+          "note": "N'a pas signé la minute."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "residence",
+          "certitude": "probable",
+          "date": "1874-07-20",
+          "personnes": [
+            "1871-D1-P028-L13",
+            "1881-D1-P027-L08"
+          ],
+          "enonce": "Sur le côté ouest de la rue Saint-Paul, Michel Larivée tient de Benjamin Demers l'emplacement compris entre Léon Lefrançois au nord et Jean-Baptiste Nicol au sud ; au recensement de 1881, Lefrançois et Larivée sont aussi voisins (maisons 105 et 106)."
+        }
+      ],
+      "note": "Dernier des baux passés par Benjamin Demers les 11, 13, 18 et 20 juillet 1874 sur les rues Saint-Paul, Saint-Louis et Demers (n° 140 à 156). La signature du notaire manque : la minute est restée inachevée, sans que l'acte en soit moins expédié deux fois.",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "00744",
+          "microfilm": "001688",
+          "drive": "10K7LDD9AK5aT-AIG-BjBIAnfcwH7V-eX",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00745",
+          "microfilm": "001689",
+          "drive": "1pz3dTWXovALpp0gtQCDd8-Qc1xTzT4n_",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00746",
+          "microfilm": "001690",
+          "drive": "1eXxXCY3ZmOAiOVfbrKMfkqImxPX0lv2E",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00747",
+          "microfilm": "001691",
+          "drive": "1S1UxIivfEyRlxFKaQSVewt3STvAXfjvz",
+          "legende": "4/4"
+        }
+      ]
     }
   ]
 }
