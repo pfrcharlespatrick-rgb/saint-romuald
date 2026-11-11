@@ -20,7 +20,7 @@ personne retrouvée, sa ligne exacte dans le recensement.
 **Le corpus.** Cinquante actes ont été transcrits et versés dans le site :
 les minutes n° 1 à 40 (6 novembre 1873 au 24 février 1874, sauf le n° 10,
 introuvable), l'inventaire n° 42 (27 février 1874) et les minutes n° 113 à
-122 (9 mai au 26 juin 1874).{{corpus}}
+122 (9 mai au 20 juin 1874).{{corpus}}
 
 **Comment lire les rattachements.** Une personne de l'acte est rattachée à
 une ligne du recensement selon trois degrés, les mêmes que ceux du site :
@@ -746,7 +746,7 @@ La reprise de la transcription commence au fichier 00181.{{reprise}}
 @a119: Greffe E.-H. Tremblay, minute n° 119, 22 mai 1874 (en-tête : 20 mai), « Sommation Ed. Bourassa & A. Forcade à Fçois Morin » ; images filmées dans le désordre. Cite la tutelle du 29 juillet 1871, la mort de François Bourassa le 28 août 1873, l'autorisation du 3 janvier 1874, la renonciation du 9 janvier, la curatelle du 14 février et le bail du 30 mars 1874 (notaire J.-B. Hamel). Microfilm, images 001529 à 001535 (Drive : 00585 à 00591). Fiche : notarie-1874-05-sommation-bourassa-morin.
 @a120: Greffe E.-H. Tremblay, minute n° 120, 30 mai 1874, « Quittance Gn Lambert à Ls Tardif » ; témoin Germain Cantin ; cite la vente de 1855 devant le notaire Amb. Trudelle. Microfilm, images 001535 à 001539 (Drive : 00591 à 00595). Fiche : notarie-1874-05-30-quittance-lambert-tardif.
 @a121: Greffe E.-H. Tremblay, minute n° 121, 30 mai 1874, « Quittance Ls Tardif à Ls Paradis & ux ». Microfilm, images 001539 à 001542 (Drive : 00595 à 00598). Fiche : notarie-1874-05-30-quittance-tardif-paradis.
-@a122: Greffe E.-H. Tremblay, minute n° 122, 26 juin 1874, bail à rente foncière de Pierre Roberge à Joachim Richard, Saint-Jean-Chrysostome. Microfilm, images 001542 à 001545 (Drive : 00598 à 00601). Fiche : notarie-1874-06-26-bail-roberge-richard.
+@a122: Greffe E.-H. Tremblay, minute n° 122, 20 juin 1874, bail à rente foncière de Pierre Roberge à Joachim Richard, Saint-Jean-Chrysostome. Microfilm, images 001542 à 001545 (Drive : 00598 à 00601). Fiche : notarie-1874-06-26-bail-roberge-richard.
 @lieu-1900: Carte du site, lieu « La maison Bourassa », 1900, chemin du Fleuve (identifiant 1900-cf, data/lieux-data.js) : construite en 1857, toujours debout ; occupation de 1871 (division 2, maison 158 [?]) au statut « confirmé » par Patrick le 30 octobre 2026 ; documents rattachés : actes n° 23, 25, 40, 42 et 119. Rôle d'auberge des capitaines et marins de l'anse Benson : indication de Patrick ; pierre de l'église : Société d'histoire, d'après la fiche du lieu.
 @lieu-ecole: Carte du site, lieu « Maison d'École », 2211, rue Saint-Jean-Baptiste (identifiant maison-d-ecole, data/lieux-data.js) ; identification du « terrain de la corporation scolaire » par Patrick ; l'acte n° 113 y est rattaché directement.
 @lieu-mckenzie: Carte du site, lieu « Maison McKenzie », 1633, chemin du Fleuve (identifiant 1633-cf, data/lieux-data.js).

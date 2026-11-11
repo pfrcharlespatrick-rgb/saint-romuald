@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (122 fiches au 10 novembre 2026).
+fiche dont l'identifiant commence par `notarie-` (221 fiches au 12 novembre 2026 ; série 00601-01000 complète).
 
 ## Où sont les images
 
@@ -67,6 +67,164 @@ nouveau lot d'actes, réexporter Tropy, remplacer le fichier et relancer l'outil
 **Pour reprendre** : continuer au fichier **00602** (microfilm 001546-47),
 après l'acte n° 122, si Patrick l'a mis au Drive ; sinon, s'attaquer aux pages
 manquantes du tableau plus bas.
+
+**Mise à jour du 10 novembre 2026, soir.** Patrick a ajouté les fichiers
+**00601 à 00800** (sous-dossiers `601-650`, `651-700`…). Les fichiers **00602 à
+00651** sont lus : actes **n° 123 à 134** (20 au 27 juin 1874). **134 fiches
+`notarie-`.** Les identifiants Drive de 00601 à 00651 sont ajoutés à
+`documents/tropy/images-drive.json` ; les images de ces fiches y sont posées à
+la main (Tropy ne les décrit pas encore).
+
+- **Le n° 122 est du 20 juin 1874, pas du 26** : la clôture dit « le vingtième
+  jour de juin », et les n° 123 à 128 sont du même jour. La fiche est corrigée
+  (son identifiant garde « 06-26 »). **Tropy porte encore « 1874-06-26 »** :
+  à corriger dans Tropy avant le prochain export.
+- **Le hameau Roberge** (n° 122 à 128) : le 20 juin, Pierre Roberge,
+  cultivateur de Saint-Jean-Chrysostome, concède sept emplacements de sa terre
+  de la concession Saint-Augustin (sept piastres de rente chacun). Seul Eusèbe
+  Bilodeau, menuisier, est rattaché (probable, 1871-D2-P035-L07).
+- **Les Roberge du premier rang** (n° 129-130) : Hubert senior et Magloire,
+  bateliers, frères de feu Louis, annulent une vente de 1866 [?] et échangent
+  des parts de la terre familiale avec leur neveu **Louis-Hubert Roberge**, le
+  navigateur des n° 49, 53, 58, 72, 74 et 110. Le n° 130 cite le partage de la
+  succession de Luce Demers, veuve de Julien Roberge (Me J.-B. Couillard,
+  30 décembre 1848).
+- **« H. King & Co. »** (n° 126, 134) : Henry King, de Québec, et John Breakey,
+  marchands de bois, achètent deux îles bâties de la Chaudière.
+- Les fichiers 00605, 00609, 00613, 00617, 00621 et 00625 sont les dos imprimés
+  des chemises de baux (« Bail à rente foncière… Copie »), restés blancs ;
+  00637 est un feuillet blanc ; 00639 une enveloppe portant les frais du n° 131.
+
+**Suite du 10 novembre 2026, soir.** Le sous-dossier `651-700` est **entièrement
+lu** : actes **n° 135 à 145** (27 juin au 13 juillet 1874). **145 fiches
+`notarie-`.**
+
+- **Les îles de la Chaudière** (n° 134, 135, 137, 139) : Jean et Ferdinand Denis
+  dit Lapierre vendent trois îles à « H. King & Co. », au-dessus de leur moulin
+  à scie ; Jean solde ensuite à la **veuve Richard Topping (Angélique Boutin)**
+  le prix d'îles achetées en 1868 — cinq reçus de 50 $ (1869-1873) sont restés
+  dans la minute. Le nom lu « Lepping » au n° 134 est **Topping**.
+- **n° 136** : contrat de mariage Bergeron–Marcoux, passé un dimanche à
+  Saint-Colomb-de-Sillery, avec la liste des meubles du ménage.
+- **Benjamin Demers lotit les rues Saint-Paul et Demers** (n° 140 à 145,
+  11-13 juillet) : Charles et Louis Filteau, J.-B. Nicol, F.-X. Guay, James
+  Kiley, George Bilodeau. Le n° 144 nomme le **« terrain de la pompe »** (à
+  incendie) au nord du lot Kiley : à rapprocher du croquis du fichier 00291.
+  Plusieurs voisins sont rattachés en probable à 1871-D1 (maisons 51 à 87).
+- Page sans doute non filmée dans le **n° 135** (entre 00653 et 00654 : le prix
+  de l'île).
+- Le fichier **00700** est en double au Drive (sous-dossiers `651-700` et
+  `701-750`).
+
+**Mise à jour du 11 novembre 2026.** Les fichiers **00701 à 00749** sont lus :
+actes **n° 146 à 157** (17 au 20 juillet 1874). **157 fiches `notarie-`.**
+
+- **n° 146** : vente à réméré de Charles Couture à Étienne Denis dit Lapierre ;
+  elle montre que le hameau Roberge était loti dès 1870 environ.
+- **Benjamin Demers achève le lotissement des rues Saint-Paul, Saint-Louis et
+  Demers** (n° 147 à 157 ; avec les n° 140 à 145, dix-sept actes en dix jours).
+  L'ordre des lots du côté ouest de la rue Saint-Paul, du nord au sud :
+  Michel Blais fils (au coin du chemin Royal, n° 154), Deschênes (n° 152), Guay,
+  Toussaint, Montigny, Lefrançois, Larivée, Nicol, rue Saint-Jean-Baptiste. Côté
+  est : terrain de la pompe, Kiley, St-Hilaire, Beaulé, Paradis [?]. Rue
+  Saint-Louis : Léon Topping (n° 149-150), dos à dos avec Kiley. Le recensement
+  de 1881 range Montigny, Lefrançois et Larivée dans le même ordre (maisons 103,
+  105, 106).
+- **n° 148** : Antoine Toussaint donne à Édouard la moitié nord d'une maison de
+  36 pieds sur 26 déjà bâtie sur la rue Saint-Paul.
+- **n° 156** : la minute n'est pas signée par le notaire.
+- **n° 157** (bail Demers à Isidore Houle, rue Demers) : **incomplet**, la
+  clôture est sur le fichier **00750**. En marge : « Résilié par le n° 654 ».
+
+**Mise à jour du 11 novembre 2026, soir.** Patrick a rempli le sous-dossier
+« 750 à 800 ». Les fichiers **00750 à 00800** sont lus : le n° 157 est complété,
+et les actes **n° 158 à 170** (21 juillet au 24 août 1874) sont transcrits.
+**170 fiches `notarie-`.**
+
+- **n° 158** : Catherine Lecours, veuve Samson, encore en vie le 21 juillet
+  1874, reçoit sa rente d'Augustin Carrier (fil des n° 2, 26, 82-84).
+- **n° 159** : Benjamin Demers dépose la procuration de son fils **Louis-Julien
+  Demers, établi à South Manchester (Connecticut)** — un émigré des filatures.
+- **n° 160** : accord après une bagarre entre deux journaliers, dont un
+  « employé chez Henry Atkinson ».
+- **n° 162** : le surnom « Laverte » des n° 21 et 28 se lit **Lavertu**
+  (Duperron dit Lavertu, de Saint-Lambert).
+- **n° 165, 167** : la rue Saint-Louis (lot Valcourt, 120 pieds) est parallèle à
+  la rue Saint-Paul et adossée aux lots St-Hilaire, Beaulé et Napoléon Paradis ;
+  Napoléon Paradis, charpentier, vend sa maison de deux étages (n° 167).
+- **n° 166** : Basile Vermette, « employé du Grand Trunk », de Saint-Jean-
+  Chrysostome.
+- **n° 168** : le boulanger Simoneau fait sommer un **creuseur de puits
+  artésiens** de finir son ouvrage.
+- **n° 169** clôt le fil des îles de la Chaudière : Louis Topping est payé de
+  l'île vendue 800 piastres en 1869 à Ferdinand Lapierre (la page du prix
+  manquait au n° 135).
+- Les fichiers 00765, 00773, 00789 et 00795 sont des feuillets de calcul du
+  notaire ; 00770 et 00771 sont deux prises de la même page ; 00782 est une
+  feuille commencée puis abandonnée.
+
+**Mise à jour du 11 novembre 2026, nuit.** Patrick a demandé de continuer
+jusqu'au fichier 01000. Les fichiers **00801 à 00880** sont lus : actes
+**n° 170 à 191** (24 août au 22 septembre 1874), et le début du n° 192.
+**191 fiches `notarie-`.**
+
+- **n° 173-174** : protêt puis quittance entre le menuisier **Joseph Beaufort**
+  et **Marguerite Roberge**, épicière de New-Liverpool (le reçu joint donne le
+  prénom).
+- **n° 176-177** : fin du fil Demers-Gingras (n° 16, 31) : à l'Île d'Orléans,
+  le bail à ferme est résilié et le fermier achète la moitié de terre
+  (1 100 piastres).
+- **n° 179** : François Gagné fait sommer son père Antoine, qui a arraché huit
+  châssis de la maison donnée ; réponse consignée : « ce soir ils seront
+  brûlés ».
+- **n° 163, 180, 184, 185** : le même cheval gris passe de Tardif à Louis
+  Filteau, puis à son frère Charles, et revient — tout est résilié.
+- **n° 186** : protêt pour un cheval vendu « sain » et trouvé aveugle.
+- **n° 187-188** : un **prestidigitateur licencié, Prosper Girard**, donne
+  quittance à deux journaliers (Alfred Boucher, Pierre Gagnon) qui avaient
+  troublé sa soirée du lundi 14 septembre 1874.
+- **n° 190** : premier transfert d'un lot du lotissement Demers (Bilodeau →
+  François Leclerc, rue Saint-Paul, avec maison).
+- **n° 191** : nouvelle rue **Saint-Jean-Baptiste** dans le lotissement Demers.
+- Le fichier 00854 est une feuille volante : « Pierre Rouleau, son of Pierre
+  Rouleau, carpenter — volé du bois — Henry Atkinson by his agent H. G. King »
+  (138 piastres) : à rapprocher d'un acte à venir.
+
+Suite : fichiers **00881 à 00899** lus, actes **n° 192 à 195** (22-23 septembre
+1874). **195 fiches `notarie-`.**
+
+- **n° 193** : Joseph Bourassa reloue la ferme du Petit-Saint-Jean (déjà
+  affermée à Vallières, n° 69) à **Octave Saindon, de Saint-Épiphane** ; le bail
+  détaille tout le cheptel et l'outillage. « Route des Belles-Amours ».
+- **n° 195** : deux lots de la rue Saint-Paul concédés par Benjamin Demers
+  **dès 1869** (Me Laliberté) : le lotissement Demers est plus ancien que la
+  série de 1874.
+
+Fin de la demande « jusqu'à 1000 » : fichiers **00900 à 00920** et **00951 à
+01000** lus, actes **n° 196 à 200** et **n° 210 à 221** (24 septembre au
+14 octobre 1874). **212 fiches `notarie-`.**
+
+- **Trou comblé (12 novembre 2026)** : Patrick a déposé les fichiers 00921 à
+  00950 ; les actes **n° 201 à 209** sont transcrits (**221 fiches**). Le n° 206
+  **résilie la vente n° 195** (Leclerc), ce qui lève la contradiction avec le
+  n° 217. Le n° 204 porte en marge la date de décès de Charles-Benjamin Couture
+  (12 décembre 1874). Le n° 209 : rixe et « warrant d'arrestation » contre le
+  jeune Philéas Paquet, réglés pour dix piastres. Les n° 201 et 207 ouvrent deux
+  lots jumeaux de la rue Saint-Louis (Lajoie, Napoléon Paradis).
+- **n° 197 à 200** : la famille Plante, de Saint-Jean-Chrysostome (donation aux
+  fils Jean et Pierre, deux testaments, procuration) ; toponymes : concessions
+  Saint-Romain, Apennin, Saint-Louis, Marangouinière, Terrebonne.
+- **n° 211** : contrat de mariage Hubert Carrier - Clémentine Lévesque (parents
+  des deux époux nommés).
+- **n° 214, 217, 218** : les lots de la rue Saint-Paul changent vite de main ;
+  la vente n° 195 avait été résiliée (n° 206).
+- **n° 219** : premier lot du hameau Roberge revendu (Richard à Gagné).
+- **n° 220** : la maison de Louis Filteau, rue Demers, bâtie à l'été 1874 par le
+  meublier Régis Martel.
+- **n° 221 est incomplet** : la suite est sur le fichier 01001.
+
+**Pour reprendre** : continuer au fichier **01001** (microfilm
+001945), fin de la donation **n° 221** (Joncas, Saint-Étienne).
 
 Fils suivis dans la série 00451-00550 :
 
@@ -166,6 +324,7 @@ jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivant
 | n° 37 (promesse Pelletier à Langelier) | une page du milieu | 001103-04 | 00159 |
 | n° 42 (inventaire Bourassa) | moitié basse d'une page (fichier tronqué) | 001173-74 | 00229 |
 | n° 45 (vente Pichette à Couture) | deuxième page : l'acheteur, le début de la terre (fichier absent du Drive) | 001191-92 | 00247 |
+| n° 133 (résiliation de donation Cadorette) | moitié basse d'une page : la date et le notaire de la donation résiliée (fichier tronqué, 786 Ko) | 001588-89 | 00644 |
 
 Patrick n'a pas trouvé ces pages en les cherchant à la main ; le Drive les
 contient peut-être. La page 001084-85 n'a peut-être jamais été photographiée.

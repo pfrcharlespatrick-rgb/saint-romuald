@@ -19,7 +19,7 @@ personne retrouvée, sa ligne exacte dans le recensement.
 
 **Le corpus.** Soixante-quatre actes ont été transcrits et versés dans le
 site : les minutes n° 1 à 55 (6 novembre 1873 au 8 mars 1874, sauf le n° 10,
-introuvable) et les minutes n° 113 à 122 (9 mai au 26 juin 1874). Cette
+introuvable) et les minutes n° 113 à 122 (9 mai au 20 juin 1874). Cette
 édition réunit le premier rapport (31 octobre 2026, cinquante actes) et sa
 suite (1er novembre 2026, actes n° 40 à 55, et l'inventaire Bourassa lu en
 entier).^1^
@@ -1007,7 +1007,7 @@ ne sont pas ajoutés au Drive.^113^
 108. Greffe E.-H. Tremblay, minutes n° 13 et 14, 7 décembre 1873, « Testament de Sieur Vermette » et « Testament de Dame Vermette », Saint-Jean-Chrysostome. Microfilm, images 000988 à 000994 (Drive : 00044 à 00050). Fiches : notarie-1873-12-07-testament-vermette et notarie-1873-12-07-testament-roberge-vermette.
 109. Olivier Roberge, 20 ans, dans le ménage de Louis Roberge : recensement de 1871, division 2, maison 22 (1871-D2-P010-L03) ; 1881, 32 ans (1881-D2-P057-L08).
 110. Greffe E.-H. Tremblay, minute n° 121, 30 mai 1874, « Quittance Ls Tardif à Ls Paradis & ux ». Microfilm, images 001539 à 001542 (Drive : 00595 à 00598). Fiche : notarie-1874-05-30-quittance-tardif-paradis.
-111. Greffe E.-H. Tremblay, minute n° 122, 26 juin 1874, bail à rente foncière de Pierre Roberge à Joachim Richard, Saint-Jean-Chrysostome. Microfilm, images 001542 à 001545 (Drive : 00598 à 00601). Fiche : notarie-1874-06-26-bail-roberge-richard.
+111. Greffe E.-H. Tremblay, minute n° 122, 20 juin 1874, bail à rente foncière de Pierre Roberge à Joachim Richard, Saint-Jean-Chrysostome. Microfilm, images 001542 à 001545 (Drive : 00598 à 00601). Fiche : notarie-1874-06-26-bail-roberge-richard.
 112. Greffe E.-H. Tremblay, minute n° 7, 24 novembre 1873, « Bail Dumais à J. Matte », Saint-Étienne. Microfilm, images 000971 à 000975 (Drive : 00027 à 00031). Fiche : notarie-1873-11-24-bail-dumais-matte.
 113. documents/NOTAIRE-TREMBLAY-REPRISE.md, « Où reprendre » et « Les pages qui manquent encore » (note de passation mise à jour le 1er novembre 2026).
 114. Index établi à partir des champs ref_personne et des degrés de certitude des fiches « notarie- » de documents/manifeste.json. Les identifiants se lisent : année – division – page du manuscrit – ligne (ex. 1871-D2-P067-L19 = recensement de 1871, division 2, page 67, ligne 19). Fichiers : data/recensement-1871-d1-data.js, -1871-d2-, -1881-d1-, -1881-d2-, -1891-d1-.
