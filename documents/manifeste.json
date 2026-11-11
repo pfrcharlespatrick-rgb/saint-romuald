@@ -16749,6 +16749,227 @@
       "note": "Le même matin, Benjamin Demers sert de témoin ; l’après-midi, il concède à Léon Topping le lot de la rue Saint-Louis voisin de celui d’Ignace Dubois (n° 150).",
       "ajoute_le": "2026-11-11",
       "images": []
+    },
+    {
+      "id": "notarie-1874-07-20-bail-demers-deschenes",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Thomas Deschênes, journalier, côté ouest de la rue Saint-Paul, 1874",
+      "date": "1874-07-20",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 152, images 001672 à 001676 (Drive : fichiers 04T_CN401S124P_00728 à 00731) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juillet 1874, après midi, en l'étude du notaire, en présence d'un témoin ; le concessionnaire ne sait signer. En marge : « Demers à Deschênes — Original — Exp. 1 fois — 3,00 $ pour lui — Payé pour enregistrement & honoraires 3,50 ». La clause du droit de retrait est biffée. Chemise imprimée « Bail à rente foncière par $3,50 à Thos. Deschênes — Copie », avec des calculs (fichier 00731).",
+      "transcription": "[001672-73] « N° 152 — 20 juillet 1874. Pardevant le Notaire Public […] Et en présence de Germain Cantin, écr, de St Romuald, marchand, témoin […] ; Fut présent Benjamin Demers, écuier, cultivateur, demeurant au dit lieu de St Romuald, Lequel a par ces présentes baillé et concédé […] à sieur Thomas Deschênes, du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, comté susdit, contenant soixante pieds de front, plus ou moins, sur le niveau ouest de la rue St Paul, sur soixante pieds de profondeur, borné en front à l'est à la rue St Paul, à l'ouest partie à Philippe Demers & partie à Augustin Blais, au nord à Michel Blais [&] au sud à Peter O'Regan, circonstances & dépendances. » [mots rayés] — [001673-74] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de huit piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent trente-trois [piastres] & trente-quatre centins piastres » ; hypothèque ; [clause du droit de retrait biffée] ; copie enregistrée ; clause de reprise pour deux années impayées. [001674-75] « Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le vingtième jour de juillet, après midi, sous le numéro cent cinquante-deux des originaux […]. Et le concédant a signé ainsi que le dit témoin avec moi, notaire, le dit sieur Deschênes ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » Signatures : « Benj. Demers », « Germain Cantin », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers »."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Thomas Deschênes",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Sans doute le même Thomas Deschênes que l’entrepreneur locataire de Benjamin Demers au n° 36 et le voisin nord de F.-X. Guay au n° 142 : ce bail lui donne le titre de son terrain. Plusieurs Thomas Deschênes aux recensements : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "« Écuier », marchand de Saint-Romuald ; signe."
+        },
+        {
+          "role": "voisin",
+          "nom": "Philippe Demers",
+          "note": "Voisin à l'ouest, en partie. Philippe Demers, menuisier de 31 ans, est recensé en 1881 (1881-D1-P024-L20) à côté d'Augustin Blais (maison 95) : rapprochement probable, non versé."
+        },
+        {
+          "role": "voisin",
+          "nom": "Augustin Blais",
+          "ref_personne": "1871-D1-P017-L17",
+          "note": "Voisin à l'ouest, en partie. Rattaché en probable au journalier de 34 ans de 1871 (division 1, maison 43) ; charpentier de 40 ans en 1881 (maison 95), voisin de Philippe Demers."
+        },
+        {
+          "role": "voisin",
+          "nom": "Michel Blais",
+          "note": "Voisin au nord : le père ou le fils (voir n° 154)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Peter O'Regan",
+          "note": "Voisin au sud : l'écuier, marchand-épicier, ci-devant de Québec, bailleur des n° 92, 93 et 103."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Côté ouest de la rue Saint-Paul, au bout nord de la suite Guay–Toussaint–Montigny–Lefrançois–Larivée–Nicol : Deschênes y était déjà nommé voisin de Guay (n° 142) ; derrière lui, Philippe Demers et Augustin Blais ; au nord, Michel Blais ; au sud, Peter O’Regan.",
+      "ajoute_le": "2026-11-11",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-07-20-bail-demers-beaule",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Philéas Beaulé, journalier, rue Saint-Paul, 1874",
+      "date": "1874-07-20",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 153, images 001676 à 001680 (Drive : fichiers 04T_CN401S124P_00732 à 00735) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juillet 1874, après midi, en l'étude du notaire, en présence d'un témoin ; le concessionnaire ne sait signer. En marge : « Demers à Beaulé — Orig. — Expédié 1 fois — Enregistré — Payé ». Le notaire avait d'abord écrit « Dubé » puis « Philéas Dubé ». La clause du droit de retrait est biffée. Chemise imprimée « Bail à rente foncière par $3,50 à Philéas Beaulé — Copie » (fichier 00735).",
+      "transcription": "[001676-77] « N° 153 — 20 juillet 1874. Pardevant le Notaire Public […] Et en présence de François Leclerc, écr, marchand, de St Romuald, témoin […] ; Fut présent : Benjamin Demers, écuier, cultivateur, demeurant au dit lieu de St Romuald, comté susdit, Lequel a par ces présentes baillé et concédé […] à sieur Philéas Beaulé [« Dubé », rayé], du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, comté susdit, contenant cinquante pieds de front sur soixante pieds de profondeur, borné en front à l'ouest à la rue St Paul, à l'est au concédant, au nord à Charles St-Hilaire & au sud à Napoléon Paradis [?], circonstances & dépendances. » — [001677-78] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; [clause du droit de retrait biffée] ; copie enregistrée ; clause de reprise pour deux années impayées. [001678-79] « Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le vingtième jour de juillet, après midi, sous le numéro cent cinquante-trois des originaux […]. Et le concédant a signé ainsi que le dit témoin avec moi, notaire, le dit sieur Beaulé ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » Signatures : « Benj. Demers », « Témoin François Leclerc », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers »."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Philéas Beaulé",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Le notaire avait d'abord écrit « Dubé ». Aucun Philéas Beaulé (ni Beaulieu, ni Dubé) aux recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "François Leclerc",
+          "ref_personne": "1871-D1-P049-L14",
+          "note": "« Écuier, marchand » de Saint-Romuald ; signe « François Leclerc ». Rattaché en probable au marchand de 37 ans de 1871 (division 1, maison 134), comme aux n° 51 et 52."
+        },
+        {
+          "role": "voisin",
+          "nom": "Charles St-Hilaire",
+          "ref_personne": "1881-D1-P031-L15",
+          "note": "Voisin au nord ; déjà voisin au sud du lot de James Kiley (n° 144)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Napoléon Paradis [?]",
+          "note": "Voisin au sud ; prénom de lecture incertaine."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Ce lot fait suite, au sud, à celui de James Kiley (n° 144) : sur le côté est de la rue Saint-Paul se suivent, du nord au sud, le terrain de la pompe, Kiley, Charles St-Hilaire, Philéas Beaulé et Napoléon Paradis [?]. Le notaire écrit ici « borné en front à l'ouest à la rue St Paul » : le lot est donc à l'est de la rue.",
+      "ajoute_le": "2026-11-11",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-07-20-bail-demers-blais",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Michel Blais fils, journalier, au coin du chemin Royal et de la rue Saint-Paul, 1874",
+      "date": "1874-07-20",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 154, images 001680 à 001684 (Drive : fichiers 04T_CN401S124P_00736 à 00739) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juillet 1874, après midi, en l'étude du notaire, en présence d'un témoin ; le concessionnaire ne sait signer. En marge : « Bail Deschênes [sic] à Blais — Orig. — Expédié 1 fois — 2 fois — 3,50 $ payé ». En marge du prix : « 100 / 66,66 2/3 — $166,66 2/3 » ; un renvoi « (1) Douze » paraphé « Benj. Demers, T. J., E. H. T. ». Chemise imprimée « Bail à rente foncière par $3,50 à Michel Blais jr — Copie » (fichier 00739).",
+      "transcription": "[001680-81] « N° 154 — 20 juillet 1874. Pardevant le Notaire Public […] Et en présence de Mr Thomas Joncas, de St Romuald, menuisier, témoin […] ; Fut présent Benjamin Demers, écuier, cultivateur, demeurant au dit lieu de St Romuald, comté susdit, Lequel a par ces présentes baillé et concédé […] à sieur Michel Blais, fils, du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, comté susdit, contenant trente-cinq pieds de front sur soixante pieds de profondeur, borné au nord au chemin Royal, au sud-ouest à Gédéon Blais ou ses représentants, au sud au concédant & au nord-est à la rue St Paul, circonstances & dépendances. » — [001681-82] Charges imprimées, avec « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre mil huit cent soixante-[treize ?], la somme de dix piastres [renvoi (1) : douze ; « six piastres » rayé] courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent soixante-six [piastres] & soixante-sept centins » ; droit de retrait réservé au dit Benjamin Demers, écuier ; clause de reprise. [001682-83] « Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le vingtième jour de juillet, après midi, sous le numéro cent cinquante-quatre des originaux […]. Et le concédant a signé ainsi que le dit témoin avec moi, notaire, le dit sieur Blais, de ce requis, ayant déclaré ne le savoir, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » Signatures : « Benj. Demers », « Thomas Joncas », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers »."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Michel Blais, fils",
+          "ref_personne": "1871-D1-P019-L03",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Rattaché en probable au journalier de 40 ans de 1871 (division 1, maison 47), dans la maison de son père, Michel Blais, forgeron veuf de 63 ans, et de Gédéon Blais, forgeron de 24 ans."
+        },
+        {
+          "role": "temoin",
+          "nom": "Thomas Joncas",
+          "ref_personne": "1871-D2-P021-L05",
+          "note": "Menuisier de Saint-Romuald ; signe « Thomas Joncas ». Rattaché en probable au menuisier de 36 ans de 1871 (division 2, maison 53), menuisier de 45 ans en 1881."
+        },
+        {
+          "role": "voisin",
+          "nom": "Gédéon Blais",
+          "ref_personne": "1871-D1-P019-L11",
+          "note": "Voisin au sud-ouest, « ou ses représentants ». Rattaché en probable au forgeron de 24 ans de 1871, dans le ménage de Michel Blais père (division 1, maison 47)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "residence",
+          "certitude": "probable",
+          "date": "1874-07-20",
+          "personnes": [
+            "1871-D1-P019-L03",
+            "1871-D1-P019-L11"
+          ],
+          "enonce": "Michel Blais fils prend à rente de Benjamin Demers un emplacement de 35 pieds au coin du chemin Royal (au nord) et de la rue Saint-Paul (au nord-est), voisin de Gédéon Blais : les Blais, recensés ensemble en 1871 (division 1, maison 47), tiennent le bout nord de la rue Saint-Paul."
+        }
+      ],
+      "note": "Le lot ouvre la rue Saint-Paul sur le chemin Royal : c'est le seul acte de la série à situer l'entrée de la rue. La rente, plus forte que d'ordinaire (dix ou douze piastres), court depuis octobre 1873 : Blais occupait sans doute déjà le terrain. Le Michel Blais voisin au nord du lot Deschênes (n° 152) est l'un des deux Blais, père ou fils.",
+      "ajoute_le": "2026-11-11",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-07-20-bail-demers-lefrancois",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Léon Lefrançois, meublier, rue Saint-Paul, 1874",
+      "date": "1874-07-20",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 155, images 001684 à 001687 (Drive : fichiers 04T_CN401S124P_00740 à 00742) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juillet 1874, après midi, en l'étude du notaire, en présence d'un témoin ; le concessionnaire ne sait signer. En marge : « Demers à Lefrançois — Orig. — Payé pour enregistrement — Exp. 2 fois ». La clause du droit de retrait est biffée.",
+      "transcription": "[001684-85] « N° 155 — 20 juillet 1874. Pardevant le Notaire Public […] Et en présence de Germain Cantin, écr, de St Romuald, marchand, témoin […] ; Fut présent Benjamin Demers, écuier, cultivateur, du dit lieu de St Romuald, comté susdit, Lequel a par ces présentes baillé et concédé […] à sieur Léon Lefrançois, du même lieu, meublier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, dit comté, contenant cinquante pieds de front sur soixante pieds de profondeur, borné en front à l'est à la rue St Paul, à l'ouest au concédant, au nord à François Montigny & au sud à Michel Larivée, circonstances & dépendances. » — [001685-86] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; [clause du droit de retrait biffée] ; copie enregistrée ; clause de reprise pour deux années impayées. [001686-87] « Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le vingtième jour de juillet, après midi, sous le numéro cent cinquante-cinq des originaux […]. Et le concédant a signé ainsi que le dit témoin avec moi, notaire, le dit concessionnaire ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » Signatures : « Benj. Demers », « Germain Cantin », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers »."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Léon Lefrançois",
+          "ref_personne": "1881-D1-P027-L08",
+          "note": "Meublier de Saint-Romuald ; ne sait signer. Rattaché en probable au meublier de 55 ans de 1881 (division 1, maison 105) ; déjà voisin à l'arrière du lot de Louis Filteau, rue Demers (n° 143)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "« Écuier », marchand de Saint-Romuald ; signe."
+        },
+        {
+          "role": "voisin",
+          "nom": "François Montigny",
+          "ref_personne": "1871-D1-P028-L01",
+          "note": "Voisin au nord."
+        },
+        {
+          "role": "voisin",
+          "nom": "Michel Larivée",
+          "ref_personne": "1871-D1-P028-L13",
+          "note": "Voisin au sud ; au nord du lot de J.-B. Nicol (n° 141)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-07-20",
+          "personnes": [
+            "1881-D1-P027-L08"
+          ],
+          "enonce": "Léon Lefrançois, meublier, prend à rente de Benjamin Demers un emplacement de 50 pieds sur 60 du côté ouest de la rue Saint-Paul, entre François Montigny au nord et Michel Larivée au sud."
+        }
+      ],
+      "note": "Avec les n° 141, 142 et 147, ce lot complète la suite des terrains du côté ouest de la rue Saint-Paul : du nord au sud, Deschênes, Guay, Toussaint, Montigny, Lefrançois, Larivée, Nicol, jusqu'à la rue Saint-Jean-Baptiste. Le recensement de 1881 range dans le même ordre Montigny (maison 103), Lefrançois (105) et Larivée (106).",
+      "ajoute_le": "2026-11-11",
+      "images": []
     }
   ]
 }
