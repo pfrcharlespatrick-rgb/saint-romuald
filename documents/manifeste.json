@@ -1,7 +1,7 @@
 {
   "format": "documents-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-11-10",
+  "mis_a_jour": "2026-11-11",
   "note": "Index des documents historiques qui établissent des liens de filiation. Un document versé ici l'emporte toujours sur une proposition automatique de data/filiation-data.js : l'acte est une preuve, le rapprochement algorithmique n'est qu'une hypothèse. Voir documents/README.md pour la marche à suivre.",
   "types_admis": {
     "bapteme": "Acte de baptême — établit une filiation directe et une date de naissance",
@@ -16420,6 +16420,137 @@
       ],
       "note": "Le recensement de 1871 et l'acte se recoupent : Boutin et Bilodeau, voisins en 1871, le sont encore sur la rue Saint-Paul en 1874. Cinquième concession de Benjamin Demers en trois jours (n° 140 à 145).",
       "ajoute_le": "2026-11-10",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-07-17-vente-couture-lapierre",
+      "type": "notarie",
+      "titre": "Vente à réméré par Charles Couture à Étienne Denis dit Lapierre d'un emplacement bâti du hameau Roberge, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-07-17",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 146, images 001645 à 001653 (Drive : fichiers 04T_CN401S124P_00701 à 00708) ; acte complet.",
+      "nature": "Vente avec faculté de rachat, passée le 17 juillet 1874, après midi, en l'étude du notaire, en présence d'un témoin ; Pierre Roberge, bailleur de l'emplacement, intervient. Le vendeur et Roberge ne savent signer. En marge : « Vente Couture à Lapierre — Original — Exp. 1 fois — Payé pour enregistrement ». Le notaire avait d'abord écrit Étienne Lapierre comme comparant, puis a interverti les rôles. Renvois paraphés « É. L., M. G., E. H. T. ». Nombreux mots et deux passages rayés.",
+      "transcription": "[001645-46] « N° 146 — 17 juillet 1874. L'an mil huit cent soixante-quatorze, le dix-septième jour de juillet, après midi, par-devant Mtre Elzéar Hubert Tremblay, notaire public pour la Province de Québec, résidant & pratiquant à St Romuald, comté de Lévis, soussigné, & en présence de Mathias Gaumont, du même lieu, ferblantier, témoin au présent acte, aussi soussigné ; Fut présent : sieur Charles Couture, journalier, (1) [renvoi : sous la faculté de réméré ci-après stipulée] de la paroisse de St Jean Chrysostome, dit comté ; Lequel vend, cède, transporte & abandonne dès maintenant & à toujours, avec garantie de tous troubles & empêchements généralement quelconques, à Étienne Denis dit Lapierre, du même lieu, cultivateur, à ce présent & acceptant acquéreur pour lui, [001646-47] ses hoirs & ayant cause, savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant quarante [?] pieds de front sur quatre-vingts pieds de profondeur, le tout plus ou moins, sans garantie de mesure précise, & tel que le dit emplacement se trouve maintenant clos ; borné à l'est à Michel Bégin, à l'ouest à Olivier Coulombe [?], au nord à une petite route & au sud à Michel Leclerc, avec ensemble une maison en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances. Tel que le tout est actuellement & se poursuit, comporte & s'étend de toutes parts, sans aucune réserve quelconque. [001647-48] Au vendeur appartient le dit immeuble pour l'avoir concédé de Mr Pierre Roberge, du même lieu, cultivateur, auquel dit Mr Roberge le dit acquéreur reconnaît & confesse qu'il devra payer la somme de sept piastres courant de rente foncière & constituée, au huit de juillet de chaque année, à dater du huit de juillet courant, garanti quitte de tous arrérages jusqu'au huit de juillet courant ; ce qui est accepté par le dit [001648-49] sieur Roberge, à ce aussi présent. Cette vente est faite aux charges, clauses & conditions suivantes, que l'acquéreur promet exécuter, savoir : 1° De payer toutes les taxes municipales & autres imposées & imposables sur le dit emplacement ; 2° De payer annuellement, au huit de juillet, à dater du huit de juillet courant, la dite rente de sept piastres courant au dit sieur Roberge, ses hoirs & ayant cause ; [001649-50] 3° De se conformer en tous points au dit acte de bail à rente foncière & constituée consenti par le dit sieur Roberge en faveur du vendeur, il y a à peu près quatre ans. Enfin pour le prix de soixante-douze piastres courant, que le dit vendeur reconnaît & confesse avoir eu & reçu dès avant ces présentes du dit sieur Lapierre. Dont quittance. Il est convenu entre les parties, & sans laquelle convention la présente vente n'aurait jamais eu lieu, que si le dit vendeur veut racheter le dit emplacement d'hui à deux ans, en par lui remboursant la dite somme de soixante-douze pias[001650-51]tres, avec intérêt de six pour cent par an, les rentes alors payées au dit sieur Roberge & les autres frais & loyaux coûts encourus & à encourir relatifs à la dite propriété sus-désignée & vendue, alors & dans ce cas le dit vendeur aura le droit de la reprendre, le dit acquéreur s'obligeant y consentir à cet effet en faveur du vendeur actuel. Tous profits que rapportera la propriété seront tournables à l'acquéreur. Le dit vendeur aura le droit d'habiter la dite maison avec sa famille d'hui à deux ans, en par lui occupant les chambres qui lui seront indiquées par le dit acquéreur. Le vendeur souffrira toutes les réparations grosses & petites qui seront faites à la dite maison, sans pour cela pouvoir prétendre aucune indemnité. [001651-52] Et pour l'exécution des présentes, les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux, &c., car ainsi, &c. Dont acte. Fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent quarante-six des originaux du notaire soussigné. Requis de signer, les dits sieurs Couture & Roberge ont déclaré ne le savoir, en présence du dit témoin, qui a alors signé, ainsi que le dit sieur Lapierre, avec moi, [001652-53] notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Étienne Lapierre », « Mathias Gaumont », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Charles Couture",
+          "note": "Journalier de Saint-Jean-Chrysostome ; ne sait signer. Concessionnaire de Pierre Roberge vers 1870 ; déjà voisin à l'ouest du lot de Michel Bégin père au n° 123. Aucun Charles Couture adulte aux recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Étienne Denis dit Lapierre",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe « Étienne Lapierre ». Voisin de Thomas Richard au bord de la Chaudière (n° 137). Un Étienne Denis, journalier de 50 ans, est recensé en 1871 (1871-D1-P050-L07) et un Étienne Denis dit Lapierre, journalier de 70 ans, en 1891 (1891-D1-P014-L04) : rapprochement non fait, faute d'indice décisif."
+        },
+        {
+          "role": "autre",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait signer. Le bailleur du hameau Roberge (n° 122 à 128) ; intervient pour accepter le nouvel acquéreur comme débiteur de la rente de sept piastres. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Mathias Gaumont",
+          "ref_personne": "1871-D1-P021-L05",
+          "note": "Ferblantier de Saint-Romuald ; signe. Ferblantier de 25 ans en 1871 (division 1, maison 50)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Michel Bégin",
+          "note": "Voisin à l'est : Michel Bégin père (n° 123)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Olivier Coulombe [?]",
+          "note": "Voisin à l'ouest ; nom de lecture incertaine."
+        },
+        {
+          "role": "voisin",
+          "nom": "Michel Leclerc",
+          "note": "Voisin au sud (voir n° 123, 125, 128)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-07-17",
+          "personnes": [],
+          "enonce": "Le hameau de Pierre Roberge, concession Saint-Augustin de Saint-Jean-Chrysostome, est loti dès 1870 environ : Charles Couture y tient de Roberge, à sept piastres de rente, un emplacement avec une maison de bois à un étage, entre Michel Bégin et Olivier Coulombe [?]."
+        }
+      ],
+      "note": "Un journalier endetté vend sa maison 72 piastres avec faculté de la racheter dans les deux ans, et reste y loger avec sa famille dans les chambres que lui laissera l'acheteur : un prêt sur gage déguisé en vente. L'acte montre que le lotissement Roberge (n° 122 à 128, 20 juin 1874) avait commencé environ quatre ans plus tôt, aux mêmes conditions.",
+      "ajoute_le": "2026-11-11",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-07-18-bail-demers-toussaint",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Édouard et Antoine Toussaint, rue Saint-Paul, 1874",
+      "date": "1874-07-18",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 147, images 001653 à 001657 (Drive : fichiers 04T_CN401S124P_00709 à 00712) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 18 juillet 1874, après midi, en l'étude du notaire, en présence d'un témoin ; Antoine Toussaint ne sait signer. En marge : « Bail Demers à Toussaint & Toussaint — Original — Exp. 2 fois — 3 copies — Payé pour enregistrer & hon. 3,50 ». Chemise imprimée « Bail à rente foncière par $3,50 à Édouard Toussaint — Copie » (fichier 00712).",
+      "transcription": "[001653-54] « N° 147 — 18 juillet 1874. Pardevant le Notaire Public […] Et en présence de Germain Cantin, de St Romuald, marchand, témoin […] ; Fut présent : Benjamin Demers, du dit lieu de St Romuald, dit comté, écuier, cultivateur, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […] à sieur Édouard Toussaint, batelier, & sieur Antoine Toussaint, charretier, tous deux de St Romuald, à ce présents et acceptant concessionnaires pour eux, leurs héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, comté susdit, contenant cinquante pieds de front sur la rue St Paul sur soixante pieds de profondeur, mesure française ; borné en front à l'est à la rue St Paul, à l'ouest au concédant, au nord à François-Xavier Guay & au sud à François Montigny, circonstances & dépendances. » — [001654-55] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre prochain, la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; droit de retrait réservé au dit Benjamin Demers, écuier ; copie enregistrée ; clause de reprise. [001655-56] « Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le dix-huitième jour de juillet, après midi, sous le numéro cent quarante-sept des originaux […]. Et le concédant a signé, ainsi que le dit sieur Édouard Toussaint & le dit témoin, avec moi, notaire, le dit Sr Antoine Toussaint ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » Signatures : « Benj. Demers », « Édouard Toussaint », « Germain Cantin », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers ». Sixième concession sur ses terrains des rues Saint-Paul et Demers en une semaine (n° 140 à 147)."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Édouard Toussaint",
+          "ref_personne": "1871-D1-P021-L09",
+          "note": "Batelier de Saint-Romuald ; signe. Rattaché en probable au navigateur de 25 ans, fils d'Antoine, en 1871 (division 1, maison 51) ; batelier de 36 ans en 1881 (1881-D1-P026-L14)."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Antoine Toussaint",
+          "ref_personne": "1871-D1-P021-L07",
+          "note": "Charretier de Saint-Romuald ; ne sait signer. Rattaché en probable au charretier de 58 ans de 1871 (division 1, maison 51), père d'Édouard."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Marchand de Saint-Romuald ; signe."
+        },
+        {
+          "role": "voisin",
+          "nom": "François-Xavier Guay",
+          "ref_personne": "1871-D1-P020-L09",
+          "note": "Voisin au nord : le boulanger du n° 142."
+        },
+        {
+          "role": "voisin",
+          "nom": "François Montigny",
+          "ref_personne": "1871-D1-P028-L01",
+          "note": "Voisin au sud."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-07-18",
+          "personnes": [
+            "1871-D1-P021-L07",
+            "1871-D1-P021-L09"
+          ],
+          "enonce": "Antoine Toussaint, charretier, et son fils (probable) Édouard, batelier, prennent ensemble à rente de Benjamin Demers un emplacement de 50 pieds sur la rue Saint-Paul, entre François-Xavier Guay au nord et François Montigny au sud."
+        }
+      ],
+      "note": "Les Toussaint étaient déjà nommés à l'arrière des lots Filteau de la rue Demers (n° 140) : les emplacements de la rue Saint-Paul et de la rue Demers se tournent le dos. L'ordre nord-sud de ce côté de la rue Saint-Paul se lit maintenant : Deschênes, Guay (n° 142), Toussaint (n° 147), Montigny.",
+      "ajoute_le": "2026-11-11",
       "images": []
     }
   ]
