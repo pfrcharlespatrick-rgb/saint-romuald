@@ -20564,6 +20564,71 @@
         }
       ],
       "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-10-07-procuration-pinault-dube",
+      "type": "notarie",
+      "titre": "Procuration d'Alarie Pinault, cordonnier venu de Saint-Germain-de-Rimouski, à Joseph Dubé pour vendre sa maison de Rimouski, 1874",
+      "date": "1874-10-07",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 215, images 001916 à 001918 (Drive : fichiers 04T_CN401S124P_00972 à 00974) ; acte complet, le bas de 00974 blanc.",
+      "nature": "Procuration spéciale, passée le 7 octobre 1874, avant midi, en l'étude, devant un témoin ; le mandant ne sait signer. En marge : « Procuration Alarie Pinault à Dubé — Original — Exp. 1 fois ».",
+      "transcription": "[001916] « N° 215 — 7 octobre 1874. L'an mil huit cent soixante-quatorze, le septième jour d'octobre, avant midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Michel Boivin, junior, commis marchand, de St Romuald, témoin au présent acte aussi soussigné ; Fut présent : Alarie Pinault, cordonnier, ci-devant [« de la ville », rayé] de St Germain de Rimouski & maintenant à St Romuald, dit comté ; Lequel par ces présentes fait & constitue pour son procureur spécial la personne de Joseph Dubé, du dit lieu de St Germain de Rimouski, journalier, auquel il donne pouvoir de, pour lui & en son nom, vendre à qui bon lui semblera [renvoi (1) : « aux charges, clauses & autres obligations mentionnées au bail consenti par Fortunat Rouleau, écr, en sa faveur, il y a à peu près trois ans, & autres conditions qu'il jugera convenables »] un emplacement situé au dit lieu de St Germain de Rimouski, contenant quatre-vingt-dix pieds [001917] de longueur sur quatre-vingt-dix pieds de largeur, plus ou moins, borné au nord [« au chemin public », rayé] à la deuxième rue, au sud à Fortunat Rouleau, écr, à l'est à Henri Martin & à l'ouest à Fortunat Rouleau, écr, avec ensemble une maison en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances. Le mandant voulant que son mandataire vende le dit immeuble pour le prix [« qu'il jugera convenable & au-dessus de trente louis argent comptant », rayé] [renvoi : « & aux conditions »] qu'il jugera convenables & qu'il en donne quittance, ratifiant dès à présent tout ce que son mandataire fera en vertu des présentes, & sans néanmoins que telle ratification de sa part ne soit aucunement nécessaire. Dont & du tout le dit mandant a requis le présent acte, qui lui a été octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro [001918] deux cent quinze des originaux du notaire soussigné. Requis de signer, le mandant a déclaré ne le savoir, en présence du dit témoin, qui a signé avec moi, notaire, lecture faite. Un renvoi en marge est bon & approuvé. Trente-neuf mots rayés sont nuls. » Signatures : « Michel Boivin », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "mandant",
+          "nom": "Alarie Pinault",
+          "note": "Cordonnier, « ci-devant de St Germain de Rimouski & maintenant à St Romuald » ; ne sait signer. Prénom tel qu'écrit par le notaire (« Alarie » — Hilaire ?). Absent des recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "mandataire",
+          "nom": "Joseph Dubé",
+          "note": "Journalier de Saint-Germain-de-Rimouski. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Michel Boivin, junior",
+          "ref_personne": "1871-D1-P037-L07",
+          "note": "Commis marchand de Saint-Romuald ; signe « Michel Boivin ». Le fils de 17 ans du « grocer » Michel Boivin en 1871 (maison 95) ; rattachement probable."
+        },
+        {
+          "role": "autre",
+          "nom": "Fortunat Rouleau",
+          "note": "Écuyer, de Rimouski ; a concédé l'emplacement à bail au mandant vers 1871 ; borne au sud et à l'ouest."
+        },
+        {
+          "role": "voisin",
+          "nom": "Henri Martin",
+          "note": "Borne l'emplacement à l'est, à Rimouski."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un artisan du Bas-du-Fleuve établi à Saint-Romuald fait vendre la maison qu'il a laissée à Rimouski, sur la « deuxième rue ». Le notaire a d'abord fixé un prix plancher de trente louis comptant, puis l'a rayé pour laisser le prix au jugement du mandataire. Comme Octave Saindon (n° 193), un témoin du courant de migration du Bas-Saint-Laurent vers la région de Lévis.",
+      "images": [
+        {
+          "fichier": "00972",
+          "microfilm": "001916",
+          "drive": "1rzkMnnewduK-N0wGFMdPtjrJUowVMf_U",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "00973",
+          "microfilm": "001917",
+          "drive": "1wjrdDkwjgD_ZBjoefdKV_j_Hb01xsyQn",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "00974",
+          "microfilm": "001918",
+          "drive": "103y92HYBAtHf9ycp2vvnfkU_NpvwMSnD",
+          "legende": "3/3"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
     }
   ]
 }
