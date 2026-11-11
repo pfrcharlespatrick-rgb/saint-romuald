@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (195 fiches au 11 novembre 2026, dans la nuit).
+fiche dont l'identifiant commence par `notarie-` (212 fiches au 11 novembre 2026, fin de la série 00601-01000).
 
 ## Où sont les images
 
@@ -200,8 +200,29 @@ Suite : fichiers **00881 à 00899** lus, actes **n° 192 à 195** (22-23 septemb
   **dès 1869** (Me Laliberté) : le lotissement Demers est plus ancien que la
   série de 1874.
 
-**Pour reprendre** : au fichier **00900** (microfilm 001844-45), **n° 196**
-(quittance Pierre Bégin à Pierre Cantin, 24 septembre 1874).
+Fin de la demande « jusqu'à 1000 » : fichiers **00900 à 00920** et **00951 à
+01000** lus, actes **n° 196 à 200** et **n° 210 à 221** (24 septembre au
+14 octobre 1874). **212 fiches `notarie-`.**
+
+- **Trou au Drive : les fichiers 00921 à 00950 manquent** (dossier « 901-950 »
+  incomplet). Ils contiennent les actes **n° 201 à 209** (fin septembre - début
+  octobre 1874). Indice : au n° 213, le notaire a d'abord écrit « épouse de
+  Napoléon Paradis » — un testament de cette famille est peut-être dans le trou.
+- **n° 197 à 200** : la famille Plante, de Saint-Jean-Chrysostome (donation aux
+  fils Jean et Pierre, deux testaments, procuration) ; toponymes : concessions
+  Saint-Romain, Apennin, Saint-Louis, Marangouinière, Terrebonne.
+- **n° 211** : contrat de mariage Hubert Carrier - Clémentine Lévesque (parents
+  des deux époux nommés).
+- **n° 214, 217, 218** : les lots de la rue Saint-Paul changent vite de main ;
+  le n° 217 contredit le titre invoqué au n° 195 (même lot) — à relire.
+- **n° 219** : premier lot du hameau Roberge revendu (Richard à Gagné).
+- **n° 220** : la maison de Louis Filteau, rue Demers, bâtie à l'été 1874 par le
+  meublier Régis Martel.
+- **n° 221 est incomplet** : la suite est sur le fichier 01001.
+
+**Pour reprendre** : 1) mettre au Drive les fichiers **00921 à 00950** et les
+transcrire (n° 201 à 209) ; 2) continuer au fichier **01001** (microfilm
+001945), fin de la donation **n° 221** (Joncas, Saint-Étienne).
 
 Fils suivis dans la série 00451-00550 :
 
