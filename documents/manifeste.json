@@ -21244,6 +21244,88 @@
         }
       ],
       "ajoute_le": "2026-11-12"
+    },
+    {
+      "id": "notarie-1874-09-26-renonciation-couture-hince",
+      "type": "notarie",
+      "titre": "Renonciation de Charles-Benjamin Couture et Marie-Olive Hince à l'emplacement réservé pour leur fils Frédérick, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-09-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 203, images 001871 à 001873 (Drive : fichiers 04T_CN401S124P_00927 à 00929) ; acte complet, le bas de 00929 blanc.",
+      "nature": "Renonciation, passée le 26 septembre 1874, après midi, à Saint-Jean-Chrysostome, en la demeure des comparants, devant un témoin ; les comparants ne savent signer. Ignace Couture, d'abord nommé comme seconde partie, est rayé. En marge : « Renonciation Couture & uxor — Original — Payé 6/6 pour enregistrement — Expédié 1 fois & enregistré » ; « $1.30 ».",
+      "transcription": "[001871] « N° 203 — 26 sept. 1874. L'an mil huit cent soixante-quatorze, le vingt-six de septembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Louis Joseph Stanislas Roberge, de St Romuald, instituteur, témoin au présent acte aussi soussigné ; Furent présents : Mr Charles Benjamin Couture, ancien agriculteur, & Dame Marie Olive Hince, son épouse, qu'il autorise bien & dûment à l'effet des présentes, demeurant tous deux à St Jean Chrysostome, dit comté ; [« Et Mr Ignace Couture, agriculteur, du même lieu, d'autre part », rayé] Lesquels ont renoncé, comme par ces présentes ils renoncent expressément, pour considérations à eux connues, à la réserve qu'ils ont faite en faveur de [001872] Frédérick Couture, leur fils, ou leurs enfants, & consistant en un emplacement de quatre perches carrées à détacher de la terre donnée au dit sieur Ignace Couture & à prendre du côté sud-ouest de l'emplacement de Jean Leclerc, tel qu'il appert par un certain acte de donation entre vifs consenti par les comparants au (1) [renvoi : « dit sieur Ignace Couture »] en date du quinze de septembre mil huit cent soixante-[douze ?], reçu par Mtre Étienne Simard, notaire, & témoin, & enregistré au bureau d'enregistrement du comté de Lévis, Reg. B, vol. 20, page 233, sous le n° 15,688. Et pour l'exécution des présentes les parties élisent domicile en leurs demeures actuelles, auxquels lieux &c. Car ainsi &c. Dont acte, fait & passé à St [« Romuald », rayé] Jean Chrysostome susdit, demeure des dits comparants, les jour, mois & an susdits, sous le numéro deux cent trois des originaux du notaire soussigné. Requises de signer, les dites parties ont déclaré ne le savoir, en présence du dit témoin, qui a signé [001873] avec moi, notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » Signatures : « Louis J. S. Roberge », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "partie",
+          "nom": "Charles-Benjamin Couture",
+          "note": "Ancien agriculteur de Saint-Jean-Chrysostome ; ne sait signer. Sans doute le créancier de rente nommé au n° 164 (vente Vermette-Prévost). Non rattaché."
+        },
+        {
+          "role": "partie",
+          "nom": "Marie-Olive Hince",
+          "note": "Épouse de Charles-Benjamin Couture ; ne sait signer."
+        },
+        {
+          "role": "autre",
+          "nom": "Frédérick Couture",
+          "note": "Leur fils, bénéficiaire de la réserve à laquelle ils renoncent. Sans doute le cultivateur du second rang de Taniata des n° 53-54 et 114-115 ; non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Ignace Couture",
+          "note": "Agriculteur de Saint-Jean-Chrysostome, donataire de ses parents (Me Étienne Simard, 15 septembre 186[2 ?]) ; nommé puis rayé comme partie."
+        },
+        {
+          "role": "voisin",
+          "nom": "Jean Leclerc",
+          "note": "L'emplacement réservé était à prendre au sud-ouest du sien."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Joseph-Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe."
+        },
+        {
+          "role": "autre",
+          "nom": "Étienne Simard",
+          "ref_personne": "1871-D1-P021-L03",
+          "note": "Notaire ; a reçu la donation."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Frédérick Couture est le fils de Charles-Benjamin Couture et de Marie-Olive Hince ; Ignace Couture est leur donataire (vraisemblablement aussi leur fils)."
+        }
+      ],
+      "note": "Les parents avaient donné leur terre à Ignace en réservant, pour leur autre fils Frédérick, un petit emplacement de quatre perches carrées ; ils y renoncent, ce qui laisse la terre entière à Ignace. L'année de la donation se lit mal (« soixante-douze » ?).",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "00927",
+          "microfilm": "001871",
+          "drive": "1McKGicx111SrSA8PhlNrizqk3B6Bk0fH",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "00928",
+          "microfilm": "001872",
+          "drive": "1Rh9o-s9wkHdlY9sqLKMN-FyCqm9i0ZNx",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "00929",
+          "microfilm": "001873",
+          "drive": "1Qa2M79X08XoMUt65ss6rS5oAAsYtSusD",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
