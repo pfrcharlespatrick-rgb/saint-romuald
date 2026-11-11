@@ -17088,6 +17088,73 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1874-07-20-bail-demers-houle",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Isidore Houle père, journalier, rue Demers, 1874",
+      "date": "1874-07-20",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 157, images 001692 à 001694 (Drive : fichiers 04T_CN401S124P_00748 et 00749) ; la clôture et les signatures (fichier 00750) manquent au Drive.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juillet 1874, en présence d'un témoin. En marge : « Demers à I. Houle — Original — [3,50 $ payable…, rayé] — 12/6 payable par Chs Filteau — Résilié par le n° 654 » ; en marge du prix : « $5,42 du 1er mai au 1er octobre — 5,42 ». La clôture, la date de l'après-midi et les signatures sont sur l'image 001694-95 (fichier 00750), qui n'est pas encore au Drive.",
+      "transcription": "[001692-93] « N° 157 — 20 juillet 1874. Pardevant le Notaire Public […] Et en présence de Pierre Lagueux, écr, de St Romuald, juge de paix & rentier, témoin […] ; Fut présent : Benjamin Demers, écuier, de la paroisse de St Romuald, dit comté, cultivateur, Lequel a par ces présentes baillé et concédé […] à Isidore Houle, père, du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, dit comté, contenant soixante-deux pieds de front sur la rue Demers, sur soixante pieds de profondeur, mesure anglaise [?] ; borné à l'ouest à la rue Demers, à l'est à F.-X. Guay, au nord à Augustin Couture & au sud à Charles Filteau, circonstances & dépendances. » — [001693-94] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre prochain, la somme de treize piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de deux cent seize piastres & soixante-sept centins » ; hypothèque ; droit de retrait réservé au sieur Benjamin Demers ; copie enregistrée ; clause de reprise. [Clôture et signatures sur le fichier 00750, absent du Drive.]",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Isidore Houle, père",
+          "note": "Journalier de Saint-Romuald. Aucun Isidore Houle aux recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Lagueux",
+          "ref_personne": "1871-D1-P076-L08",
+          "note": "« Écuier, juge de paix & rentier » de Saint-Romuald ; cultivateur de 39 ans en 1871 (division 1, maison 215)."
+        },
+        {
+          "role": "voisin",
+          "nom": "François-Xavier Guay",
+          "ref_personne": "1871-D1-P020-L09",
+          "note": "Voisin à l'est (à l'arrière) : le boulanger, dont le lot donne sur la rue Saint-Paul (n° 142)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Augustin Couture",
+          "note": "Voisin au nord ; déjà voisin à l'ouest du lot Guay (n° 142)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Charles Filteau",
+          "ref_personne": "1871-D1-P023-L15",
+          "note": "Voisin au sud : le charretier du n° 140. La note marginale « 12/6 payable par Chs Filteau » laisse penser que Filteau prit ensuite en charge une partie de la rente."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Lot de la rue Demers jumeau de celui de Charles Filteau (n° 140) : même largeur (62 pieds), même rente (13 piastres) et mêmes arrérages (5,42 $, du 1er mai au 1er octobre). Le bail fut plus tard résilié par la minute n° 654. La fin de l'acte est sur le fichier 00750, que le Drive n'a pas encore.",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "00748",
+          "microfilm": "001692",
+          "drive": "1CpY695Euu1dPqy-rIMoeTdWkmN4XCDyX",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "00749",
+          "microfilm": "001693",
+          "drive": "1maXQpcQVLMMl8XkxaxdSb5EegGLI2Lay",
+          "legende": "2/2"
+        }
+      ]
     }
   ]
 }

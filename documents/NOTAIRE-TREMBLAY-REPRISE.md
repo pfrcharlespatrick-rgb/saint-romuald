@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (145 fiches au 10 novembre 2026, au soir).
+fiche dont l'identifiant commence par `notarie-` (157 fiches au 11 novembre 2026).
 
 ## Où sont les images
 
@@ -116,11 +116,29 @@ lu** : actes **n° 135 à 145** (27 juin au 13 juillet 1874). **145 fiches
 - Le fichier **00700** est en double au Drive (sous-dossiers `651-700` et
   `701-750`).
 
-**Pour reprendre** : continuer au fichier **00701** (microfilm 001645-46, dans
-le sous-dossier `701-750`) : l'acte **n° 146** (17 juillet 1874, vente de Charles
-Couture à Étienne Denis dit Lapierre, concession Saint-Augustin) y commence ;
-00702 est déjà lu (l'emplacement : maison de bois, entre Michel Bégin et
-Olivier Coulombe [?]).
+**Mise à jour du 11 novembre 2026.** Les fichiers **00701 à 00749** sont lus :
+actes **n° 146 à 157** (17 au 20 juillet 1874). **157 fiches `notarie-`.**
+
+- **n° 146** : vente à réméré de Charles Couture à Étienne Denis dit Lapierre ;
+  elle montre que le hameau Roberge était loti dès 1870 environ.
+- **Benjamin Demers achève le lotissement des rues Saint-Paul, Saint-Louis et
+  Demers** (n° 147 à 157 ; avec les n° 140 à 145, dix-sept actes en dix jours).
+  L'ordre des lots du côté ouest de la rue Saint-Paul, du nord au sud :
+  Michel Blais fils (au coin du chemin Royal, n° 154), Deschênes (n° 152), Guay,
+  Toussaint, Montigny, Lefrançois, Larivée, Nicol, rue Saint-Jean-Baptiste. Côté
+  est : terrain de la pompe, Kiley, St-Hilaire, Beaulé, Paradis [?]. Rue
+  Saint-Louis : Léon Topping (n° 149-150), dos à dos avec Kiley. Le recensement
+  de 1881 range Montigny, Lefrançois et Larivée dans le même ordre (maisons 103,
+  105, 106).
+- **n° 148** : Antoine Toussaint donne à Édouard la moitié nord d'une maison de
+  36 pieds sur 26 déjà bâtie sur la rue Saint-Paul.
+- **n° 156** : la minute n'est pas signée par le notaire.
+- **n° 157** (bail Demers à Isidore Houle, rue Demers) : **incomplet**, la
+  clôture est sur le fichier **00750**. En marge : « Résilié par le n° 654 ».
+
+**Le sous-dossier « 750 à 800 » est vide au Drive** : les fichiers 00750 à 00800
+n'y sont pas encore. **Pour reprendre** : au fichier **00750** (microfilm
+001694-95), fin du n° 157, dès que Patrick l'aura mis au Drive.
 
 Fils suivis dans la série 00451-00550 :
 
