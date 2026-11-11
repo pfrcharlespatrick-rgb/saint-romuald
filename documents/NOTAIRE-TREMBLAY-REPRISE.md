@@ -225,10 +225,10 @@ Fin de la demande « jusqu'à 1000 » : fichiers **00900 à 00920** et **00951 �
 
 **Mise à jour du 11 novembre 2026, nuit (suite).** Patrick a déposé les
 fichiers **01001 à 01050** (sous-dossier « 1001-1050 »). Les fichiers **01001
-à 01015** sont lus : la donation **n° 221** (Joncas) est complétée (clôture et
-signatures sur 01001-01003), et les actes **n° 222 à 226** (15-17 octobre
-1874) sont transcrits. **226 fiches `notarie-`.** Les identifiants Drive de
-01001 à 01015 sont ajoutés à `documents/tropy/images-drive.json` ; les images
+à 01020** sont lus : la donation **n° 221** (Joncas) est complétée (clôture et
+signatures sur 01001-01003), et les actes **n° 222 à 227** (15-17 octobre
+1874) sont transcrits. **227 fiches `notarie-`.** Les identifiants Drive de
+01001 à 01020 sont ajoutés à `documents/tropy/images-drive.json` ; les images
 de ces fiches y sont posées à la main (Tropy ne les décrit pas encore).
 
 - **Deux dates corrigées par renvoi**, comme pour le n° 122 : le **n° 222**
@@ -248,13 +248,27 @@ de ces fiches y sont posées à la main (Tropy ne les décrit pas encore).
   vendre un emplacement à Rimouski (conditions posées par sa femme Caroline
   Rouleau) et révoque celle qu'il avait donnée à Joseph Dubé. Hors paroisse ;
   seul le témoin Onésime Blouin, corroyeur, est de St-Romuald.
-- **n° 226** : Edmond Montminy, de St-Jean-Chrysostome, charge Edouard Couture
+- **n° 226** : Edouard Montminy, de St-Jean-Chrysostome, charge Edouard Couture
   (de St-Jérôme, Lac-St-Jean) de recouvrer 40 piastres d'Hippolyte Dufour.
-  Acte passé au domicile de Montminy ; le mandant signe. Aucun Edmond Montminy
-  au recensement — non rattaché.
+  Acte passé au domicile de Montminy ; le mandant signe « Edouard Montminy »
+  (le corps écrit plutôt « Edmond »). L'acte court jusqu'au fichier **01016**
+  (la signature). Aucun Montminy de ce prénom au recensement — non rattaché.
+- **n° 227** (fichiers 01017-01020) : obligation sur formulaire imprimé
+  (notaire Tessier). Antoine Joncas, cultivateur de St-Étienne, reconnaît
+  devoir quarante louis à Octave Montminy, rentier de St-Jean-Chrysostome,
+  garantis par une terre de la concession St-André à St-Nicolas (jadis à
+  St-Nicolas, passée à St-Étienne). Passé au domicile du créancier ; les deux
+  signent. Hors paroisse — non rattachés. Le fichier **01020** est la chemise
+  imprimée de l'obligation (calculs de frais).
+- **Les Joncas du n° 221 retrouvés** : Pierre Joncas et Adèle Faucher, donateurs
+  de St-Étienne en 1874, paraissent à St-Romuald (division 1) dès 1881
+  (maison 245 : Pierre 50, Adèle 47, fils Joseph 19) et en 1891 (maison 396).
+  Le couple et le fils Joseph (donataire substitué) sont rattachés en probable
+  (`1881-D1-P063-L04/L05/L06`) ; le donataire Pierre fils reste sans
+  rattachement (plusieurs Pierre Joncas).
 
-**Pour reprendre** : continuer au fichier **01016** (microfilm 001960),
-après l'acte n° 226.
+**Pour reprendre** : continuer au fichier **01021** (microfilm 001965),
+après l'acte n° 227.
 
 Fils suivis dans la série 00451-00550 :
 

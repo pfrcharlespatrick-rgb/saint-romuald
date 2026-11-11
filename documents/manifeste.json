@@ -21032,22 +21032,25 @@
         {
           "role": "donateur",
           "nom": "Pierre Joncas",
-          "note": "Cultivateur de Saint-Étienne-de-Lauzon. Hors de la paroisse : non rattaché."
+          "note": "Cultivateur de Saint-Étienne-de-Lauzon en 1874. La famille paraît à Saint-Romuald (division 1) au recensement de 1881 : Pierre Joncas, 50 ans, avec sa femme Adèle, 47 ans, et leur fils Joseph, 19 ans (maison 245) ; de nouveau en 1891 (Pierre 59, Adèle 57, maison 396). Rattachement probable.",
+          "ref_personne": "1881-D1-P063-L04"
         },
         {
           "role": "donatrice",
           "nom": "Adèle Faucher",
-          "note": "Épouse de Pierre Joncas, autorisée par lui."
+          "note": "Épouse de Pierre Joncas, autorisée par lui ; née Faucher. Recensée « Joncas Adèle », 47 ans en 1881 (maison 245, division 1), 57 ans en 1891. Rattachement probable.",
+          "ref_personne": "1881-D1-P063-L05"
         },
         {
           "role": "donataire",
           "nom": "Pierre Joncas, fils",
-          "note": "Fils mineur ; doit accepter à sa majorité."
+          "note": "Fils mineur ; doit accepter la donation à sa majorité. Plusieurs Pierre Joncas au recensement : pas de rattachement sûr."
         },
         {
           "role": "donataire",
           "nom": "Joseph Joncas",
-          "note": "Autre fils mineur, donataire substitué si Pierre n'accepte pas."
+          "note": "Autre fils mineur, donataire substitué si Pierre n'accepte pas. Vraisemblablement le Joseph Joncas de 19 ans recensé en 1881 avec ses parents (maison 245, division 1). Rattachement probable.",
+          "ref_personne": "1881-D1-P063-L06"
         },
         {
           "role": "autre",
@@ -21385,17 +21388,17 @@
     {
       "id": "notarie-1874-10-17-procuration-montminy-couture",
       "type": "notarie",
-      "titre": "Procuration d'Edmond Montminy, de Saint-Jean-Chrysostome, à Edouard Couture, pour recouvrer une dette d'Hippolyte Dufour au Lac-Saint-Jean — minute n° 226, 17 octobre 1874",
+      "titre": "Procuration d'Edouard Montminy, de Saint-Jean-Chrysostome, à Edouard Couture, pour recouvrer une dette d'Hippolyte Dufour au Lac-Saint-Jean — minute n° 226, 17 octobre 1874",
       "date": "1874-10-17",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 226, images 001958 à 001959 (Drive : fichiers 04T_CN401S124P_01014 à 01015) ; en marge « Procuration — Mr Montminy à Mr Couture — Original — Exp. 1 fois ». Acte passé au domicile du mandant, à Saint-Jean-Chrysostome. Acte complet.",
-      "nature": "Procuration passée le 17 octobre 1874, après-midi, devant le notaire, sans témoin nommé, au domicile du mandant à Saint-Jean-Chrysostome ; le mandant signe.",
-      "transcription": "[001958] « N° 226 — 17 octobre 1874. L'an mil huit cent soixante-quatorze, le dix-sept d'octobre après-midi, en présence de Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Mr Edmond Montminy, agriculteur, de St Jean Chrysostome, dit comté ; Lequel fait & constitue pour son procureur spécial la personne de Mr Edouard Couture, de la paroisse de St Jérôme, comté de Saguenay (lac St Jean), district […] de Québec, auquel il donne pouvoir, de pour lui & en son nom, retirer & recevoir de Hypolite Dufour, cultivateur, du dit lieu de St Jérôme du lac St Jean, la somme de quarante piastres courant & les intérêts échus sur icelle dite somme de quarante piastres, laquelle dite somme était due & devait être payée dans le courant de mars dernier, & de donner tous reçus & quittances notariés & y relatifs ; de poursuivre pour [faire] en toutes cours de justice, aux fins de contraindre le dit sieur Dufour [001959] [& d'obtenir tous jugements] de payer la dite somme & les intérêts échus, mettre à exécution, discontinuer toute procédure judiciaire ; prendre tous arrangements qu'il jugera convenables ; consentir une résiliation de vente de terre entre le dit sieur Dufour & le mandant, pour & au nom de ce dernier, faire enregistrer telle résiliation, le tout aux frais & dépens du dit sieur Dufour ; enfin faire tous actes de la plus libre & de la plus entière administration & non prévus en ces présentes ; ratifiant tout ce que son mandataire fera en vertu des présentes, sans que telle ratification de sa part ne soit en tout nécessaire. Dont & du tout le dit mandant a requis le présent acte qui lui a été octroyé à St Jean Chrysostome susdit, demeure du dit Montminy, les jour, mois & an susdits, sous le numéro deux cent vingt six des originaux du Notaire soussigné. [Le mandant] a signé avec moi, Notaire, lecture faite. [Mots rayés nuls ; renvois.] E. H. Tremblay, N.P. »",
+      "cote": "Minute n° 226, images 001958 à 001960 (Drive : fichiers 04T_CN401S124P_01014 à 01016) ; en marge « Procuration — Mr Montminy à Mr Couture — Original — Exp. 1 fois ». Acte passé au domicile du mandant, à Saint-Jean-Chrysostome. Acte complet.",
+      "nature": "Procuration passée le 17 octobre 1874, après-midi, devant le notaire, sans témoin nommé, au domicile du mandant à Saint-Jean-Chrysostome ; le mandant signe (« Edouard Montminy »).",
+      "transcription": "[001958] « N° 226 — 17 octobre 1874. L'an mil huit cent soixante-quatorze, le dix-sept d'octobre après-midi, en présence de Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Mr Edouard [le corps semble écrire « Edmond »] Montminy, agriculteur, de St Jean Chrysostome, dit comté ; Lequel fait & constitue pour son procureur spécial la personne de Mr Edouard Couture, de la paroisse de St Jérôme, comté de Saguenay (lac St Jean), district […] de Québec, auquel il donne pouvoir, de pour lui & en son nom, retirer & recevoir de Hypolite Dufour, cultivateur, du dit lieu de St Jérôme du lac St Jean, la somme de quarante piastres courant & les intérêts échus sur icelle dite somme de quarante piastres, laquelle dite somme était due & devait être payée dans le courant de mars dernier, & de donner tous reçus & quittances notariés & y relatifs ; de poursuivre pour [faire] en toutes cours de justice, aux fins de contraindre le dit sieur Dufour [001959] [& d'obtenir tous jugements] de payer la dite somme & les intérêts échus, mettre à exécution, discontinuer toute procédure judiciaire ; prendre tous arrangements qu'il jugera convenables ; consentir une résiliation de vente de terre entre le dit sieur Dufour & le mandant, pour & au nom de ce dernier, faire enregistrer telle résiliation, le tout aux frais & dépens du dit sieur Dufour ; enfin faire tous actes de la plus libre & de la plus entière administration & non prévus en ces présentes ; ratifiant tout ce que son mandataire fera en vertu des présentes, sans que telle ratification de sa part ne soit en tout nécessaire. Dont & du tout le dit mandant a requis le présent acte qui lui a été octroyé à St Jean Chrysostome susdit, demeure du dit Montminy, les jour, mois & an susdits, sous le numéro deux cent vingt six des originaux du Notaire soussigné. [001960] Le mandant a signé avec moi, Notaire, lecture faite. [Mots rayés nuls ; renvois en marge bons & approuvés.] Edouard Montminy ; E. H. Tremblay, N.P. »",
       "personnes": [
         {
           "role": "mandant",
-          "nom": "Edmond Montminy",
-          "note": "Agriculteur de Saint-Jean-Chrysostome ; signe. Saint-Jean-Chrysostome recouvre Saint-Romuald (surtout en division 2), mais aucun Edmond Montminy n'est recensé (les Montminy recensés sont Pierre et Joseph) : non rattaché."
+          "nom": "Edouard Montminy",
+          "note": "Agriculteur de Saint-Jean-Chrysostome ; signe « Edouard Montminy » (le corps de l'acte semble plutôt écrire « Edmond »). Saint-Jean-Chrysostome recouvre Saint-Romuald (surtout en division 2), mais aucun Edouard ni Edmond Montminy n'est recensé (les Montminy recensés sont Pierre et Joseph) : non rattaché."
         },
         {
           "role": "mandataire",
@@ -21413,20 +21416,96 @@
         }
       ],
       "affirmations": [],
-      "note": "Edmond Montminy, agriculteur de Saint-Jean-Chrysostome, charge Edouard Couture, de Saint-Jérôme au Lac-Saint-Jean, de recouvrer d'Hippolyte Dufour quarante piastres (plus intérêts) dues depuis mars, au besoin en justice, et de consentir au nom de Montminy une résiliation de vente de terre. L'acte est passé au domicile de Montminy, à Saint-Jean-Chrysostome ; fait rare dans ce greffe, le mandant signe lui-même.",
+      "note": "Edouard Montminy, agriculteur de Saint-Jean-Chrysostome, charge Edouard Couture, de Saint-Jérôme au Lac-Saint-Jean, de recouvrer d'Hippolyte Dufour quarante piastres (plus intérêts) dues depuis mars, au besoin en justice, et de consentir au nom de Montminy une résiliation de vente de terre. L'acte est passé au domicile de Montminy, à Saint-Jean-Chrysostome ; fait rare dans ce greffe, le mandant signe lui-même.",
       "ajoute_le": "2026-11-11",
       "images": [
         {
           "fichier": "01014",
           "microfilm": "001958",
           "drive": "13FbfS2TbT7M9JWqsZVJit_4l2_MNHZuD",
-          "legende": "1/2"
+          "legende": "1/3"
         },
         {
           "fichier": "01015",
           "microfilm": "001959",
           "drive": "1sR5O3N64uGs4R-Fj6dWYBmpfmdJUmeV9",
-          "legende": "2/2"
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01016",
+          "microfilm": "001960",
+          "drive": "1Pj1I2ZlxBfXmiOg0K18Q69gsPneygigq",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-10-17-obligation-joncas-montminy",
+      "type": "notarie",
+      "titre": "Obligation d'Antoine Joncas, de Saint-Étienne-de-Lauzon, envers Octave Montminy, rentier de Saint-Jean-Chrysostome, garantie par une terre à Saint-Nicolas — minute n° 227, 17 octobre 1874",
+      "date": "1874-10-17",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 227, images 001961 à 001964 (Drive : fichiers 04T_CN401S124P_01017 à 01020) ; en marge « Obligation — Joncas à Montminy — Original — Exp. 1 fois — enregistré ». Rédigé sur un formulaire imprimé d'un autre notaire (Me André-Elphide Tessier), dont la chemise imprimée est le fichier 01020 (calculs de frais). Acte complet.",
+      "nature": "Obligation (reconnaissance de dette) passée le 17 octobre 1874, après-midi, à Saint-Jean-Chrysostome, au domicile du créancier ; le débiteur et le créancier signent. Formulaire imprimé Tessier réutilisé, les mentions propres à ce notaire étant rayées.",
+      "transcription": "[001961] « N° 227 — 17 octobre 1874. Pardevant le Notaire Public résidant à St Romuald, comté de Lévis, [imprimé rayé : résidant en la Cité de Québec] soussigné ; Fut présent : Sieur Antoine Joncas, cultivateur, de la paroisse de St Étienne de Lauzon, dit comté ; Lequel a reconnu & confessé devoir légitimement à Jean Baptiste Octave Montminy, bourgeois-rentier, de la paroisse de St Jean Chrysostome, à ce présent & acceptant, la somme de quarante louis courant, étant pour prêt de pareille somme fait, comme réellement fait en bon argent courant […], savoir : cent piastres [?] dès avant ces présentes & [le reste ?] lors de l'exécution des présentes à vue & présence de nous dit notaire, — ainsi que le dit Débiteur le reconnaît & dont il se déclare content & satisfait. Laquelle dite somme de quarante louis courant, le dit Débiteur promet & s'oblige, pour lui, ses héritiers & ayans cause, payer & rembourser au dit créancier ou ordre, porteur des présentes en forme légale, comme suit, savoir : par versements égaux & annuels de la somme de quarante piastres [?] chaque, & dont le premier versement écherra & se fera au vingt-neuf septembre de chaque année, à dater du vingt-neuf septembre dernier, jusqu'au parfait paiement, [001962] ensemble avec l'intérêt de huit pour cent par an, payable annuellement à compter du vingt-neuf septembre dernier, jusqu'au parfait & entier paiement de la dite somme capitale. Pour sûreté du paiement de laquelle dite somme de quarante louis courant, & des intérêts qui en proviendront, le dit Débiteur hypothèque spécialement, savoir : Une terre située en la paroisse de St Nicolas, en la concession St André, étant le n° huit, contenant trois arpents de front sur trente arpents de profondeur, bornée par-devant vers le nord-est à la Rivière Bruyante, & par-derrière vers le sud-ouest au bout de la dite profondeur, d'un côté vers le nord-ouest à Olivier Simoneau ou ses représentants, & de l'autre côté au sud-est à Pierre Cantin ou ses représentants, sans aucune garantie de mesure précise, avec ensemble toutes les bâtisses dessus érigées, circonstances & dépendances. Le dit Sr Joncas déclarant que la dite terre sus-désignée était ci-devant dans la paroisse de St Nicolas (au moment de l'exécution de l'acte de vente à lui consenti par François Bilodeau) & qu'elle se trouve maintenant à faire partie de la paroisse de St Étienne susdit, par suite de l'érection de la petite paroisse de St Étienne. [001963] Et pour l'exécution des présentes les parties font élection de leurs domiciles en leurs demeures actuelles & respectives, aux quels lieux, etc. Car ainsi, etc. Dont acte. Fait & passé à [Québec rayé] St Jean Chrysostome, demeure du créancier, [imprimé rayé : en l'étude de Maître André-Elphide Tessier, Notaire] l'an mil huit cent soixante & quatorze, le dix-septième jour d'octobre après-midi, sous le numéro deux [mille rayé] cent vingt-sept des originaux de Me Elzéar Hubert Tremblay, le Notaire soussigné. Et les dits créancier & débiteur ont signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Oct. Montminy ; Antoine Joncas ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "débiteur",
+          "nom": "Antoine Joncas",
+          "note": "Cultivateur de Saint-Étienne-de-Lauzon. Hors de la paroisse de Saint-Romuald en 1874 ; de nombreux Joncas au recensement, aucun ne correspond sûrement — non rattaché."
+        },
+        {
+          "role": "créancier",
+          "nom": "Octave Montminy",
+          "note": "Jean-Baptiste Octave Montminy, bourgeois-rentier de Saint-Jean-Chrysostome ; prête quarante louis & signe « Oct. Montminy ». Aucun Octave Montminy au recensement de Saint-Romuald — non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Olivier Simoneau",
+          "note": "Borne nord-ouest de la terre hypothéquée, à Saint-Nicolas (devenu Saint-Étienne)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Pierre Cantin",
+          "note": "Borne sud-est de la terre hypothéquée, à Saint-Nicolas (devenu Saint-Étienne)."
+        },
+        {
+          "role": "autre",
+          "nom": "François Bilodeau",
+          "note": "Avait vendu la terre à Antoine Joncas (vente antérieure, lorsque la terre était encore dans Saint-Nicolas)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Antoine Joncas, cultivateur de Saint-Étienne-de-Lauzon, reconnaît devoir quarante louis à Octave Montminy, rentier de Saint-Jean-Chrysostome, remboursables par versements annuels (au 29 septembre) à 8 % d'intérêt. La dette est garantie par une hypothèque sur sa terre de la concession Saint-André à Saint-Nicolas (n° 8, trois arpents sur trente, sur la rivière Bruyante), achetée jadis de François Bilodeau ; Joncas précise que la terre, d'abord dans Saint-Nicolas, est passée dans la nouvelle paroisse de Saint-Étienne. Passé le même jour que la procuration Montminy (n° 226) et sur un formulaire imprimé du notaire Tessier.",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "01017",
+          "microfilm": "001961",
+          "drive": "18Wiw9RHfW1FX577CTJVEHjpOfJ0_cC73",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01018",
+          "microfilm": "001962",
+          "drive": "1t8aXcqq-yadr6Y4rg3iyQoZbKZUf1_vp",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01019",
+          "microfilm": "001963",
+          "drive": "1wr3eLFkY3Phr0ryre_X0Tga-Jr_O89uI",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01020",
+          "microfilm": "001964",
+          "drive": "1LqohSyqj-F4qNkKllaJreD7CjMKFZw3F",
+          "legende": "4/4"
         }
       ]
     },
