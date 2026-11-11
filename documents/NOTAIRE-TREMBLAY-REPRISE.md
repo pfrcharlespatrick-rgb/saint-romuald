@@ -223,8 +223,38 @@ Fin de la demande « jusqu'à 1000 » : fichiers **00900 à 00920** et **00951 �
   meublier Régis Martel.
 - **n° 221 est incomplet** : la suite est sur le fichier 01001.
 
-**Pour reprendre** : continuer au fichier **01001** (microfilm
-001945), fin de la donation **n° 221** (Joncas, Saint-Étienne).
+**Mise à jour du 11 novembre 2026, nuit (suite).** Patrick a déposé les
+fichiers **01001 à 01050** (sous-dossier « 1001-1050 »). Les fichiers **01001
+à 01015** sont lus : la donation **n° 221** (Joncas) est complétée (clôture et
+signatures sur 01001-01003), et les actes **n° 222 à 226** (15-17 octobre
+1874) sont transcrits. **226 fiches `notarie-`.** Les identifiants Drive de
+01001 à 01015 sont ajoutés à `documents/tropy/images-drive.json` ; les images
+de ces fiches y sont posées à la main (Tropy ne les décrit pas encore).
+
+- **Deux dates corrigées par renvoi**, comme pour le n° 122 : le **n° 222**
+  (quittance Couture à Wilson) porte « 14 octobre » en tête mais « quinzième
+  d'octobre » dans le corps — il est du **15 octobre** ; le **n° 225**
+  (révocation Pinault) a d'abord été daté de septembre dans le corps, corrigé
+  au **17 octobre**.
+- **Le ménage Couture** (n° 222-223) : Vital Couture, journalier, et sa femme
+  Céleste Hince (« Hynce »), `1871-D1-P017-L09/L10`, règlent deux affaires :
+  William Wilson répare une « injure » de la nuit du 12-13 octobre (n° 222,
+  rattaché en probable à `1871-D2-P005-L18`, fils de Thomas Wilson), et le
+  jeune Thomas Conry, de la famille irlandaise Conroy de la division 2
+  (maison 109), est quittancé après une plainte du 14 octobre (n° 223 ; son
+  père Daniel et son frère James signent ; témoin Edouard Bourassa).
+- **Marie Pinault, cordonnier** (n° 224-225), ci-devant de St-Germain-de-
+  Rimouski, le même jour donne procuration à l'avocat Fortunat Rouleau pour
+  vendre un emplacement à Rimouski (conditions posées par sa femme Caroline
+  Rouleau) et révoque celle qu'il avait donnée à Joseph Dubé. Hors paroisse ;
+  seul le témoin Onésime Blouin, corroyeur, est de St-Romuald.
+- **n° 226** : Edmond Montminy, de St-Jean-Chrysostome, charge Edouard Couture
+  (de St-Jérôme, Lac-St-Jean) de recouvrer 40 piastres d'Hippolyte Dufour.
+  Acte passé au domicile de Montminy ; le mandant signe. Aucun Edmond Montminy
+  au recensement — non rattaché.
+
+**Pour reprendre** : continuer au fichier **01016** (microfilm 001960),
+après l'acte n° 226.
 
 Fils suivis dans la série 00451-00550 :
 
