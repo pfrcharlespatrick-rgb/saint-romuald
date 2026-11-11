@@ -16816,7 +16816,7 @@
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
       "cote": "Minute n° 153, images 001676 à 001680 (Drive : fichiers 04T_CN401S124P_00732 à 00735) ; acte complet.",
       "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 20 juillet 1874, après midi, en l'étude du notaire, en présence d'un témoin ; le concessionnaire ne sait signer. En marge : « Demers à Beaulé — Orig. — Expédié 1 fois — Enregistré — Payé ». Le notaire avait d'abord écrit « Dubé » puis « Philéas Dubé ». La clause du droit de retrait est biffée. Chemise imprimée « Bail à rente foncière par $3,50 à Philéas Beaulé — Copie » (fichier 00735).",
-      "transcription": "[001676-77] « N° 153 — 20 juillet 1874. Pardevant le Notaire Public […] Et en présence de François Leclerc, écr, marchand, de St Romuald, témoin […] ; Fut présent : Benjamin Demers, écuier, cultivateur, demeurant au dit lieu de St Romuald, comté susdit, Lequel a par ces présentes baillé et concédé […] à sieur Philéas Beaulé [« Dubé », rayé], du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, comté susdit, contenant cinquante pieds de front sur soixante pieds de profondeur, borné en front à l'ouest à la rue St Paul, à l'est au concédant, au nord à Charles St-Hilaire & au sud à Napoléon Paradis [?], circonstances & dépendances. » — [001677-78] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; [clause du droit de retrait biffée] ; copie enregistrée ; clause de reprise pour deux années impayées. [001678-79] « Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le vingtième jour de juillet, après midi, sous le numéro cent cinquante-trois des originaux […]. Et le concédant a signé ainsi que le dit témoin avec moi, notaire, le dit sieur Beaulé ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » Signatures : « Benj. Demers », « Témoin François Leclerc », « E. H. Tremblay N.P. »",
+      "transcription": "[001676-77] « N° 153 — 20 juillet 1874. Pardevant le Notaire Public […] Et en présence de François Leclerc, écr, marchand, de St Romuald, témoin […] ; Fut présent : Benjamin Demers, écuier, cultivateur, demeurant au dit lieu de St Romuald, comté susdit, Lequel a par ces présentes baillé et concédé […] à sieur Philéas Beaulé [« Dubé », rayé], du même lieu, journalier, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, comté susdit, contenant cinquante pieds de front sur soixante pieds de profondeur, borné en front à l'ouest à la rue St Paul, à l'est au concédant, au nord à Charles St-Hilaire & au sud à Napoléon Paradis, circonstances & dépendances. » — [001677-78] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; [clause du droit de retrait biffée] ; copie enregistrée ; clause de reprise pour deux années impayées. [001678-79] « Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le vingtième jour de juillet, après midi, sous le numéro cent cinquante-trois des originaux […]. Et le concédant a signé ainsi que le dit témoin avec moi, notaire, le dit sieur Beaulé ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » Signatures : « Benj. Demers », « Témoin François Leclerc », « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "concedant",
@@ -16843,8 +16843,8 @@
         },
         {
           "role": "voisin",
-          "nom": "Napoléon Paradis [?]",
-          "note": "Voisin au sud ; prénom de lecture incertaine."
+          "nom": "Napoléon Paradis",
+          "note": "Voisin au sud ; le prénom est confirmé par le n° 165. Absent des recensements de Saint-Romuald."
         },
         {
           "role": "notaire",
@@ -16852,7 +16852,7 @@
         }
       ],
       "affirmations": [],
-      "note": "Ce lot fait suite, au sud, à celui de James Kiley (n° 144) : sur le côté est de la rue Saint-Paul se suivent, du nord au sud, le terrain de la pompe, Kiley, Charles St-Hilaire, Philéas Beaulé et Napoléon Paradis [?]. Le notaire écrit ici « borné en front à l'ouest à la rue St Paul » : le lot est donc à l'est de la rue.",
+      "note": "Ce lot fait suite, au sud, à celui de James Kiley (n° 144) : sur le côté est de la rue Saint-Paul se suivent, du nord au sud, le terrain de la pompe, Kiley, Charles St-Hilaire, Philéas Beaulé et Napoléon Paradis. Le notaire écrit ici « borné en front à l'ouest à la rue St Paul » : le lot est donc à l'est de la rue.",
       "ajoute_le": "2026-11-11",
       "images": []
     },
@@ -17471,8 +17471,8 @@
       "titre": "Quittance de Gabriel Lemieux, marchand, à Joseph Lemelin, batelier, 125 piastres à compte, 1874",
       "date": "1874-08-15",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 164, images 001714 à 001717 (Drive : fichiers 04T_CN401S124P_00770 à 00772) ; acte complet. Les fichiers 00770 et 00771 sont deux prises de la même page.",
-      "nature": "Quittance, passée le 15 août 1874, après midi, en l'étude du notaire, sans témoin (la mention d'un témoin est rayée) ; le comparant signe « G. Lemieux ». En marge : « Quittance G. Lemieux à Jos. Lemelin — Original — Payé ». Le notaire avait d'abord écrit « le huitième jour » ; deux renvois en marge, paraphés « G. L., E. H. T. ».",
+      "cote": "Minute n° 164, images 001714 à 001718 (Drive : fichiers 04T_CN401S124P_00770 à 00773) ; acte complet. Les fichiers 00770 et 00771 sont deux prises de la même page.",
+      "nature": "Quittance, passée le 15 août 1874, après midi, en l'étude du notaire, sans témoin (la mention d'un témoin est rayée) ; le comparant signe « G. Lemieux ». En marge : « Quittance G. Lemieux à Jos. Lemelin — Original — Payé ». Le notaire avait d'abord écrit « le huitième jour » ; deux renvois en marge, paraphés « G. L., E. H. T. ». Le fichier 00773 est un feuillet de calcul (125 + 16 + 20 + 9 + 25 + 25 = 220 ; puis une colonne de versements de 25, 20, 16, 9 et 26 totalisant 240) : sans doute le relevé des acomptes de Lemelin.",
       "transcription": "[001714-15] « N° 164 — 15 août 1874. L'an mil huit cent soixante-quatorze, le (1) [renvoi : quinzième ; « huitième », rayé] jour d'août, après midi, en présence de Elzéar Hubert Tremblay, notaire public […] ; [mention du témoin rayée] Fut présent : Gabriel Lemieux, marchand, de St Romuald, dit comté ; Lequel reconnaît que Joseph Lemelin, de St Romuald, batelier, lui a payé la somme de cent vingt-cinq piastres en à-compte sur plus forte somme que lui doit le dit Lemelin, suivant acte de vente consenti en faveur de ce dernier par le comparant, en date à St Romuald du vingt-huit de février mil [001716-17] huit cent soixante-dix [?], reçu par Mtre Laliberté, notaire. Dont quittance d'autant. (1) [renvoi : Tous reçus antérieurs au présent acte & relatifs aux dites sommes sont nuls de ce jour en vertu des présentes.] Dont & du tout le dit comparant a requis le présent acte, qui lui a été octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent soixante-[quatre] des originaux du notaire soussigné. Et, requis de signer, le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » Signatures : « G. Lemieux », « E. H. Tremblay N.P. »",
       "personnes": [
         {
@@ -17495,7 +17495,124 @@
       "affirmations": [],
       "note": "Joseph Lemelin, qui avait testé en avril (n° 89) en léguant tout à sa seconde épouse, continue de payer par acomptes le prix d'un bien acheté de Gabriel Lemieux en 1870 [?] ; la quittance notariée annule les reçus sous seing privé donnés jusque-là.",
       "ajoute_le": "2026-11-11",
-      "images": []
+      "images": [
+        {
+          "fichier": "00770",
+          "microfilm": "001714",
+          "drive": "13Pnrl0QxFqTzqD78l5q613-txbEKikyf",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00771",
+          "microfilm": "001715",
+          "drive": "16-IzKo60OPNEZRnHVg0VLBnjOt5i6HbH",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00772",
+          "microfilm": "001716",
+          "drive": "10UCgqh5avHQAerkLtPTeabjciO5M0NVR",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00773",
+          "microfilm": "001717",
+          "drive": "1PGS5uw_nLla3FkikDrHdUC1UrzZySaoV",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-08-15-bail-demers-valcourt",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Frédérick Valcourt, boucher de Sillery, rue Saint-Louis, 1874",
+      "date": "1874-08-15",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 165, images 001718 à 001722 (Drive : fichiers 04T_CN401S124P_00774 à 00777) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 15 août 1874, après midi, en l'étude du notaire, en présence d'un témoin ; le concessionnaire ne sait signer. En marge : « Bail Demers à Fréd. Valcourt — Original — Exp. 1 f. — Payé pour enregistrer & hon. 3,50 $ » et « (120 × 50) ». La clause du droit de retrait est barrée ; une clause manuscrite est ajoutée sur l'obligation de bâtir en cas de revente. Chemise imprimée restée blanche (fichier 00777).",
+      "transcription": "[001718-19] « N° 165 — 15 août 1874. Pardevant le Notaire Public […] Et en présence de Germain Cantin, de St Romuald susdit, marchand, témoin […] ; Fut présent Benjamin Demers, écr, cultivateur, demeurant au dit lieu de St Romuald, Lequel a par ces présentes baillé et concédé […] à Mr Frédérick Valcourt, demeurant en la paroisse de St Colomb de Sillery, district de Québec, boucher, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Romuald, comté de Lévis susdit, contenant cent vingt pieds de front sur cinquante pieds de profondeur, mesure anglaise ; borné pardevant à l'est à la rue St Louis, à l'ouest partie à Charles St-Hilaire, partie à Philéas Beaulé & partie à Napoléon Paradis, au nord à Léon Topping & au sud au concédant, circonstances & dépendances. » — [001719-20] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre prochain, la somme de douze piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de deux cents piastres » ; hypothèque ; [droit de retrait barré] ; copie enregistrée ; clause de reprise ; « Il est convenu expressément que si le concessionnaire concède ou aliène en quelque manière que ce soit tout ou partie de l'emplacement sus-désigné & concédé, alors & dans ce cas le nouveau concessionnaire propriétaire sera tenu de bâtir une autre maison telle que ci-dessus déterminée & dans les mêmes délais. » [001720-21] « Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le quinzième jour d'août, après midi, sous le numéro cent soixante-cinq des originaux […]. Et le dit concédant & le dit témoin ont signé avec moi, notaire, le dit concessionnaire ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » Signatures : « Benj. Demers », « Germain Cantin », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » de Saint-Romuald ; signe « Benj. Demers »."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Frédérick Valcourt",
+          "note": "Boucher, demeurant à Saint-Colomb-de-Sillery (district de Québec) ; ne sait signer. Absent des recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Marchand de Saint-Romuald ; signe."
+        },
+        {
+          "role": "voisin",
+          "nom": "Charles St-Hilaire",
+          "ref_personne": "1881-D1-P031-L15",
+          "note": "Voisin à l'ouest, en partie (n° 144, 153)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Philéas Beaulé",
+          "note": "Voisin à l'ouest, en partie (n° 153)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Napoléon Paradis",
+          "note": "Voisin à l'ouest, en partie (n° 153)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Léon Topping",
+          "ref_personne": "1871-D1-P033-L13",
+          "note": "Voisin au nord (n° 149-150)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-08-15",
+          "personnes": [],
+          "enonce": "Sur la rue Saint-Louis, Frédérick Valcourt, boucher de Sillery, prend à rente de Benjamin Demers un emplacement de 120 pieds de front, adossé aux lots St-Hilaire, Beaulé et Paradis de la rue Saint-Paul et voisin au sud de Léon Topping."
+        }
+      ],
+      "note": "Le lot, double de l'ordinaire (120 pieds de front), est le pendant sur la rue Saint-Louis des trois lots de la rue Saint-Paul qui lui tournent le dos : il confirme que ces deux rues sont parallèles, séparées par une profondeur de lots. L'acheteur, boucher de Sillery, est le second habitant de l'autre rive du fleuve à paraître dans cette série (après le n° 136) ; la clause ajoutée prévoit déjà la subdivision du terrain.",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "00774",
+          "microfilm": "001718",
+          "drive": "1jVP9ALJSrIEmuuw33EpnISPjdHCmZ3Ex",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00775",
+          "microfilm": "001719",
+          "drive": "12GbpGIeZ9eyQIrshKzHIHHJZwhgL0jgm",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00776",
+          "microfilm": "001720",
+          "drive": "1WJnzjee0R66DXpkwS4_N14XYT3Ib2XPr",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00777",
+          "microfilm": "001721",
+          "drive": "13oDXfjVbq4JCJ3Vuamw9ryqAqEMcwUJO",
+          "legende": "4/4"
+        }
+      ]
     }
   ]
 }
