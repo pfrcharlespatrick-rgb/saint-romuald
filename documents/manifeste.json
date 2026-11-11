@@ -17900,14 +17900,14 @@
       "titre": "Bail à rente foncière de Pierre Denis dit Lapierre à Thomas Richard, concession Saint-Augustin, Saint-Jean-Chrysostome, 1874",
       "date": "1874-08-24",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 170, images 001743 à 001745 (Drive : fichiers 04T_CN401S124P_00799 et 00800) ; la clôture et les signatures (fichier 00801) ne sont pas encore lues.",
-      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, daté du 24 août 1874, en présence d'un témoin prénommé Augustin (nom non écrit). En marge : « Bail Lapierre à Richard — Original — Exp. 1 fois — $2,50 — Payé ». La clause du droit de retrait est barrée. La fin de l'acte est sur le fichier 00801, hors du lot 00750-00800.",
-      "transcription": "[001743-44] « N° 170 — 24 août 1874. Pardevant le Notaire Public […] Et en présence de Augustin […], témoin au présent acte, aussi soussigné ; Fut présent Mr Pierre Denis dit Lapierre, cultivateur, de St Jean Chrysostome, dit comté, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […] à Mr Thomas Richard, du même lieu, cultivateur, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant cinquante pieds de front, plus ou moins, sur soixante pieds de profondeur, plus ou moins, tel que le dit emplacement est maintenant clos ; borné en front, à l'ouest, au chemin public, à l'est au concédant, au nord à William [?] Paradis & au sud au concessionnaire, circonstances & dépendances. » — [001744-45] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour de juillet de chaque année, à dater du premier jour de juillet mil huit cent soixante-[treize ?], la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; [droit de retrait barré] ; copie enregistrée ; clause de reprise. [Suite et signatures sur le fichier 00801.]",
+      "cote": "Minute n° 170, images 001743 à 001747 (Drive : fichiers 04T_CN401S124P_00799 à 00802) ; acte complet.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, passé le 24 août 1874, après midi, à Saint-Jean-Chrysostome, demeure du concessionnaire ; le témoin annoncé (« Augustin ») n’est pas nommé ni ne signe ; concédant et concessionnaire signent. En marge : « Bail Lapierre à Richard — Original — Exp. 1 fois — $2,50 — Payé ». La clause du droit de retrait est barrée. Chemise imprimée restée blanche (fichier 00802).",
+      "transcription": "[001743-44] « N° 170 — 24 août 1874. Pardevant le Notaire Public […] Et en présence de Augustin […], témoin au présent acte, aussi soussigné ; Fut présent Mr Pierre Denis dit Lapierre, cultivateur, de St Jean Chrysostome, dit comté, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […] à Mr Thomas Richard, du même lieu, cultivateur, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant cinquante pieds de front, plus ou moins, sur soixante pieds de profondeur, plus ou moins, tel que le dit emplacement est maintenant clos ; borné en front, à l'ouest, au chemin public, à l'est au concédant, au nord à William Paradis & au sud au concessionnaire, circonstances & dépendances. » — [001744-45] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour de juillet de chaque année, à dater du premier jour de juillet mil huit cent soixante-[treize ?], la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; [droit de retrait barré] ; copie enregistrée ; clause de reprise. [001745-46] « Dont acte, fait et passé à St Jean Chrysostome susdit, demeure du concessionnaire, l’an mil huit cent soixante-quatorze, le vingt-quatrième jour d’août, après midi, sous le numéro cent soixante-dix des originaux […]. Et les concédant & concessionnaire ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « P. Lapierre », « Thomas Richard », « E. H. Tremblay N.P. »",
       "personnes": [
         {
           "role": "concedant",
           "nom": "Pierre Denis dit Lapierre",
-          "note": "Cultivateur de Saint-Jean-Chrysostome ; le frère, sans doute, de Jean et de Ferdinand Denis dit Lapierre, voisin du lot vendu à Thomas Richard le 2 juillet (n° 137). Non rattaché."
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe « P. Lapierre ». Le frère, sans doute, de Jean et de Ferdinand Denis dit Lapierre, voisin du lot vendu à Thomas Richard le 2 juillet (n° 137). Non rattaché."
         },
         {
           "role": "concessionnaire",
@@ -17916,8 +17916,8 @@
         },
         {
           "role": "voisin",
-          "nom": "William [?] Paradis",
-          "note": "Voisin au nord ; prénom de lecture incertaine."
+          "nom": "William Paradis",
+          "note": "Voisin au nord (prénom confirmé au n° 171)."
         },
         {
           "role": "notaire",
@@ -17925,22 +17925,154 @@
         }
       ],
       "affirmations": [],
-      "note": "Thomas Richard, déjà acquéreur de la maison des Lapierre entre le chemin public et la Chaudière (n° 137), prend à rente un emplacement voisin au nord. Acte à compléter quand le fichier 00801 sera lu.",
+      "note": "Thomas Richard prend à rente de Pierre Denis dit Lapierre un emplacement bâti, voisin au nord de son propre terrain, et le revend le jour même à Augustin Duperron dit Lavertu (n° 171).",
       "ajoute_le": "2026-11-11",
       "images": [
         {
           "fichier": "00799",
           "microfilm": "001743",
           "drive": "1-_I88WxKpkUj6qekgCufrrExwQKfZfCZ",
-          "legende": "1/2"
+          "legende": "1/4"
         },
         {
           "fichier": "00800",
           "microfilm": "001744",
           "drive": "1CD_nt-eSqRcb0jvt2U4KuRIqhOBHEuUd",
-          "legende": "2/2"
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00801",
+          "microfilm": "001745",
+          "drive": "1Xbcp4GjeXHelCRad2WzhbV59r2azbXFL",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00802",
+          "microfilm": "001746",
+          "drive": "1_19qIjkZAOBLDI2QUramV_XIS3-MPKML",
+          "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1874-08-24-vente-richard-lavertu",
+      "type": "notarie",
+      "titre": "Vente par Thomas Richard à Augustin Duperron dit Lavertu d'un emplacement bâti de la concession Saint-Augustin, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-08-24",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 171, images 001747 à 001752 (Drive : fichiers 04T_CN401S124P_00803 à 00807) ; acte complet.",
+      "nature": "Vente, passée le 24 août 1874, après midi, à Saint-Jean-Chrysostome, demeure du vendeur, sans témoin ; les deux parties signent. En marge : « Vente Richard à Lavertu — Original — Payé pour hon. & enrég. $1,50 — Expédié 1 fois & enregistré ». Une longue clause d'assurance ajoutée en marge, paraphée « A. L., E. H. T. ». Le fichier 00808 est le verso de la dernière feuille, portant les calculs de frais du notaire (« Au bureau 600… Titre nouvel… Vente Simoneau »).",
+      "transcription": "[001747-48] « N° 171 — L'an mil huit cent soixante-quatorze, le vingt-quatrième jour d'août, après midi, en présence de Elzéar Hubert Tremblay, notaire public […] ; Fut présent : sieur Thomas Richard, cultivateur, demeurant en la paroisse de St Jean Chrysostome, dit comté ; Lequel vend, avec garantie de tous troubles & empêchements généralement quelconques, à Augustin Duperron dit Lavertu, du même lieu, journalier, à ce présent & acceptant acquéreur pour lui, ses héritiers & ayant cause, savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, [001748-49] contenant cinquante pieds de front, plus ou moins, sur soixante pieds de profondeur, plus ou moins, & tel que le dit emplacement est maintenant clos ; borné en front, à l'ouest, au chemin public, à l'est à Pierre Denis dit Lapierre, au nord à William Paradis & au sud au vendeur, avec ensemble une maison en bois à un étage dessus construite, circonstances & dépendances. Tel que le tout est actuellement, se poursuit & comporte & s'étend de toutes parts, sans autre réserve qu'une petite bâtisse servant d'engrais [?] & la récolte des patates semées cette année sur le dit emplacement en faveur du vendeur. Pour par le dit acquéreur jouir de ce que dessus dès ce jour & à toujours en pleine propriété, […] & mis en possession en vertu [001749-50] des présentes. Cette vente est faite aux charges & conditions suivantes, que l'acquéreur s'oblige exécuter & accomplir pour lui, ses hoirs & ayant cause à l'avenir, savoir : 1° De payer annuellement, au premier jour de juillet de chaque année, à dater du premier jour de juillet dernier, une rente foncière & constituée de six piastres courant à Mr Pierre Denis dit Lapierre, ses hoirs & ayant cause ; 2° De payer toutes les taxes municipales, scolaires & rentes seigneuriales & autres taxes à ce jour & à l'avenir, garanti quitte de tous arrérages ; 3° De se conformer au bail à rente foncière consenti par le dit sieur Lapierre au dit vendeur en date de ce jour, reçu par le notaire soussigné ; (1) [renvoi : 4° De faire assurer la dite maison & de la tenir assurée jusqu'à parfait paiement, pour un montant d'au moins deux cents piastres, & de transporter la police au vendeur ; & dans le cas où l'acquéreur négligerait de faire assurer telle maison, alors le vendeur aura le droit de la faire assurer aux frais de lui, dit acquéreur.] Enfin, cette vente [001750-51] est faite pour le prix de deux cents piastres, payable en cinq paiements égaux & annuels de la somme de quarante piastres, & dont le premier paiement échoira & se fera le premier jour de juin prochain, pour ensuite continuer chaque année à pareil jour jusqu'au parfait paiement de la dite somme capitale, avec ensemble l'intérêt de six pour cent par an, payable annuellement, à dater de ce jour. Et pour sûreté du paiement de la dite somme de deux cents piastres & des intérêts susdits, l'acquéreur hypothèque spécialement le dit immeuble sus-vendu en faveur du vendeur, qui se réserve ses droits & privilèges de bailleur de fonds. [001751-52] Et pour l'exécution des présentes, les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux, &c. Car ainsi, &c. Dont acte. Fait & passé à St Jean Chrysostome susdit, demeure du vendeur, les jour, mois & an susdits, sous le numéro cent soixante-onze des originaux du notaire soussigné. Et les vendeur & acquéreur ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Thomas Richard », « A. Lavertu », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Thomas Richard",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe. Concessionnaire du lot le jour même (n° 170). Non rattaché."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Augustin Duperron dit Lavertu",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe « A. Lavertu ». Le notaire avait d'abord écrit « Augustin Duperron dit Laverte alias Augustin [Lavertu] » ; de la même famille, sans doute, que les Duperron dit Lavertu de Saint-Lambert (n° 21, 162). Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Pierre Denis dit Lapierre",
+          "note": "Bailleur primitif de l'emplacement (n° 170), créancier de la rente de six piastres ; voisin à l'est."
+        },
+        {
+          "role": "voisin",
+          "nom": "William Paradis",
+          "note": "Voisin au nord ; le prénom, douteux au n° 170, se lit ici William."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1874-08-24",
+          "personnes": [],
+          "enonce": "Augustin Duperron dit Lavertu, journalier, achète de Thomas Richard pour 200 piastres, à Saint-Jean-Chrysostome (concession Saint-Augustin), un emplacement avec maison de bois à un étage, bordé à l'ouest par le chemin public."
+        }
+      ],
+      "note": "Opération en trois actes passés le même après-midi chez Richard et chez Lapierre (n° 170 à 172) : Pierre Lapierre baille le terrain bâti à Thomas Richard, qui le revend aussitôt, maison comprise, au journalier Lavertu, lequel reconnaît la rente au bailleur primitif. Richard garde la récolte de patates de l'année.",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "00803",
+          "microfilm": "001747",
+          "drive": "1wTaOs2r1Z9vEc4BgVMepCeFXTZSFExKe",
+          "legende": "1/6"
+        },
+        {
+          "fichier": "00804",
+          "microfilm": "001748",
+          "drive": "19JmyVoCoGpWySkCD1toiB_M_nGqH-F_K",
+          "legende": "2/6"
+        },
+        {
+          "fichier": "00805",
+          "microfilm": "001749",
+          "drive": "19l4RxODcT2MXI7zuqCo5t5ERBX0lJ1cK",
+          "legende": "3/6"
+        },
+        {
+          "fichier": "00806",
+          "microfilm": "001750",
+          "drive": "103OhbtiBiXT7rkWpSnuWzKkduoeRswbi",
+          "legende": "4/6"
+        },
+        {
+          "fichier": "00807",
+          "microfilm": "001751",
+          "drive": "1O0-Kxs6Mey5OSHuCs7mC6cW_EnmVzGc1",
+          "legende": "5/6"
+        },
+        {
+          "fichier": "00808",
+          "microfilm": "001752",
+          "drive": "1NEJnGWebrGN9ixumD3xfwE-Whz-aueGq",
+          "legende": "6/6"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-08-24-titre-nouvel-lavertu-lapierre",
+      "type": "notarie",
+      "titre": "Titre nouvel d'Augustin Duperron dit Lavertu à Pierre Denis dit Lapierre pour une rente foncière de six piastres, 1874",
+      "date": "1874-08-24",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 172, images 001753 à 001755 (Drive : fichiers 04T_CN401S124P_00809 et 00810) ; acte complet.",
+      "nature": "Titre nouvel (reconnaissance de rente), passé le 24 août 1874, après midi, à Saint-Jean-Chrysostome, demeure de Thomas Richard, sans témoin ; le comparant signe. En marge : « Titre nouvel — Payé ».",
+      "transcription": "[001753-54] « N° 172 — L'an mil huit cent soixante-quatorze, le vingt-quatre août, après midi, en présence de Elzéar Hubert Tremblay, notaire public […] ; Fut présent : Mr Augustin Duperron dit Lavertu, de St Jean Chrysostome, journalier ; Lequel reconnaît qu'il doit payer à Mr Pierre Denis dit Lapierre, du même lieu, annuellement au premier jour de juillet, à dater du premier jour de juillet dernier, une somme de six piastres courant de rente foncière & constituée, à l'acquit de sieur Thomas Richard, du même lieu, cultivateur, & tel que le comparant s'y est obligé en vertu d'un acte de vente consenti [001754-55] par le dit sieur Richard au dit comparant en date de ce jour & reçu par le notaire soussigné. Dont & du tout le comparant a requis le présent acte, qui lui a été octroyé à St Jean Chrysostome susdit, demeure du dit sieur Richard, les jour, mois & an susdits, sous le numéro cent soixante-douze. Et le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « A. Lavertu », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Augustin Duperron dit Lavertu",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe « A. Lavertu ». Le notaire avait d'abord écrit « Augustin Duperron dit Laverte alias Augustin [Lavertu] » ; de la même famille, sans doute, que les Duperron dit Lavertu de Saint-Lambert (n° 21, 162). Non rattaché."
+        },
+        {
+          "role": "crediteur",
+          "nom": "Pierre Denis dit Lapierre",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, bailleur primitif (n° 170). Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Thomas Richard",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe. Concessionnaire du lot le jour même (n° 170). Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Troisième acte de l'opération du 24 août (n° 170-171) : le nouvel acquéreur reconnaît directement la rente due au bailleur primitif.",
+      "ajoute_le": "2026-11-11",
+      "images": []
     }
   ]
 }
