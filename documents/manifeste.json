@@ -20031,6 +20031,159 @@
         }
       ],
       "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-09-25-testament-genevieve-nadeau",
+      "type": "notarie",
+      "titre": "Testament de Geneviève Nadeau, épouse d'Ambroise Plante, de Saint-Jean-Chrysostome, 1874",
+      "date": "1874-09-25",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 199, images 001859 à 001861 (Drive : fichiers 04T_CN401S124P_00915 à 00917) ; acte complet.",
+      "nature": "Testament authentique, dicté le 25 septembre 1874, après midi, à Saint-Jean-Chrysostome, en la demeure de la testatrice, devant deux témoins ; la testatrice signe. En marge : « Testament de [l']épouse de Ambroise Plante — Original — Exp. 1 fois ».",
+      "transcription": "[001859] « N° 199 — 25 sept. 1874. L'an mil huit cent soixante-quatorze, le vingt-cinquième jour de septembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Louis Joseph Stanislas Roberge, de St Romuald, instituteur, & Mr Damase Lambert, menuisier, de St Jean Chrysostome, dit comté, témoins au présent acte, aussi soussignés ; Fut présente : Dame Geneviève Nadeau, épouse de sieur Ambroise Plante, cultivateur, & demeurant avec ce dernier en la paroisse de St Jean Chrysostome, comté susdit ; étant en bonne santé de corps, saine d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu aux dits notaire & témoins par son maintien, ses discours & par la manifestation claire & précise de ses volontés ; Laquelle a, dans la vue de la mort, fait & nommé son présent testament au dit notaire, en présence des dits témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par sieur Jean Plante, [001860] que je nomme par le présent testament mon exécuteur testamentaire & auquel je m'en rapporte pour le soin de mes funérailles, messes & prières ; 2° Je donne & lègue à Sr Pierre Plante, mon fils, tous mes biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature qu'ils soient & en quelques lieux qu'ils soient dus & situés, pour par lui en jouir, faire & disposer en toute propriété à dater du jour de mon décès ; Et dans le cas où le dit Pierre Plante viendrait à mourir sans laisser d'enfant légitime, je donne & lègue mes dits biens meubles & immeubles à Ambroise, Jean & Joséphine Plante, mes trois enfants, & seulement à ceux de ces derniers qui vivront alors, sans que le secours de la représentation ne puisse être invoqué, pour par eux, le cas échéant, jouir de mes dits biens par parts & portions égales ; [001861] 3° J'institue le dit Pierre Plante, ou les dits Ambroise, Jean & Joséphine Plante, suivant le cas, mon ou mes légataires universels en propriété ; 4° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant mes dernières volontés. Ce fut ainsi fait & nommé par la dite testatrice à nous notaire, en la présence des dits témoins, & son présent testament lui ayant été lu, expliqué & relu par le dit notaire, les dits témoins toujours présents, elle a dit & déclaré l'avoir bien entendu & compris & y a persisté. Dont acte, fait & passé à St Jean Chrysostome susdit, demeure de la testatrice, les jour, mois & an susdits, sous le numéro cent quatre-vingt-dix-neuf des originaux du notaire soussigné. Et requise de signer, la testatrice a [« déclaré ne le savoir », rayé — elle signe] en la présence des dits témoins, qui ont alors signé avec moi, notaire, lecture faite & refaite. Mots rayés sont nuls. » Signatures : « Geneviève Nadeau », « Louis J. S. Roberge », « Damase Lambert », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Geneviève Nadeau",
+          "note": "Épouse d'Ambroise Plante, de Saint-Jean-Chrysostome ; signe. Non rattachée."
+        },
+        {
+          "role": "epoux",
+          "nom": "Ambroise Plante",
+          "note": "Cultivateur ; voir n° 197 et 198."
+        },
+        {
+          "role": "executeur",
+          "nom": "Jean Plante",
+          "note": "Fils ; exécuteur testamentaire."
+        },
+        {
+          "role": "legataire",
+          "nom": "Pierre Plante",
+          "note": "Fils mineur ; légataire universel."
+        },
+        {
+          "role": "legataire",
+          "nom": "Ambroise Plante, fils",
+          "note": "Légataire substitué."
+        },
+        {
+          "role": "legataire",
+          "nom": "Joséphine Plante",
+          "note": "Légataire substituée."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Joseph-Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe."
+        },
+        {
+          "role": "temoin",
+          "nom": "Damase Lambert",
+          "note": "Menuisier de Saint-Jean-Chrysostome ; signe."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Testament jumeau de celui de son mari (n° 198), mot pour mot : tout à Pierre, le plus jeune, avec substitution aux trois autres enfants. La formule « déclaré ne le savoir », prévue par le notaire, est rayée : Geneviève Nadeau signe, alors que son mari ne le sait pas.",
+      "images": [
+        {
+          "fichier": "00915",
+          "microfilm": "001859",
+          "drive": "1KYSFh5N1wN7134ck-_IBDcmYb8nsMJ2T",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "00916",
+          "microfilm": "001860",
+          "drive": "1nN-zigYfrvKMRa6awBQVqGpCb07GwDls",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "00917",
+          "microfilm": "001861",
+          "drive": "1WyAZhWKJE2VjcKa8mgSLrT-1S9FaxKHA",
+          "legende": "3/3"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-09-25-procuration-plante-plante",
+      "type": "notarie",
+      "titre": "Procuration d'Ambroise Plante à son fils Jean pour faire tirer une ligne de division contre Louis Patry, à la Marangouinière, 1874",
+      "date": "1874-09-25",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 200, images 001862 à 001864 (Drive : fichiers 04T_CN401S124P_00918 à 00920) ; acte complet.",
+      "nature": "Procuration spéciale, passée le 25 septembre 1874, après midi, à Saint-Jean-Chrysostome, en la demeure du mandant, chez le mandataire, devant un témoin ; le mandataire et le témoin signent, le mandant ne sait signer. En marge : « Procuration Plante à Plante — Original — Exp. 1 fois à Plante pour servir » ; la date d'en-tête porte « 24 » corrigé en « 25 ».",
+      "transcription": "[001862] « N° 200 — 25 sept. 1874. L'an mil huit cent soixante-quatorze, le vingt-cinquième jour de septembre, après-midi, en présence de Me Elzéar Hubert Tremblay, notaire public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Damase Lambert, menuisier, de St Jean Chrysostome, dit comté, témoin au présent acte, aussi soussigné ; Fut présent : Mr Ambroise Plante, de la paroisse de St Jean Chrysostome, dit comté, ancien cultivateur ; Lequel a fait & constitué pour son procureur spécial la personne de Mr Jean Plante, son fils, agriculteur, du même lieu, à ce présent & acceptant, auquel il donne pouvoir de, pour lui & en son nom, faire tirer une ligne de division & de démarcation entre la propriété de Louis Patry au nord & celle du mandant au sud (la propriété du mandant se trouvant celle sur laquelle Dame Angèle Fontaine, mère de Zénon [?] & de Pierre Simoneau, avait [001863] droit à la jouissance & usufruit jusqu'au décès de la dite Dame Angèle Fontaine, convolée en secondes noces avec François-Xavier Hamel), situées toutes deux à St Jean Chrysostome, dit comté, concession de la Maringouinière ; de prendre tous les moyens nécessaires pour parvenir à tirer la dite ligne de division entre leurs propriétés ; protester, sommer & requérir, au nom du dit mandant (à moins que ce dernier le fasse lui-même), le dit Louis Patry, de St Jean Chrysostome susdit, cultivateur & cordonnier, d'avoir à se trouver tel jour que le mandataire fixera pour procéder à tirer la ligne de division susdite avec arpenteur ; se pourvoir en justice pour contraindre le dit Louis Patry de ce faire, de réclamer des dommages s'il y a lieu, de paraître [renvoi : « & représenter le mandant »] en toute cour de justice, faire paraître tous témoins, fournir toutes pièces & titres nécessaires, les contester, toutes procédures & actions en instituer d'autres ; enfin faire tout ce qui sera nécessaire de faire pour parvenir à tirer la dite ligne, le mandant ratifiant d'avance tout ce qui sera fait par son mandataire en vertu des présentes. [001864] Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Jean Chrysostome susdit, demeure du mandant, savoir chez le mandataire, les jour, mois & an susdits, sous le numéro deux cents des originaux du notaire soussigné. Et le mandataire a signé, ainsi que le dit témoin, avec moi, notaire, le mandant ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. Renvois en marge sont bons & approuvés. » Signatures : « Jean Plante », « Damase Lambert », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "mandant",
+          "nom": "Ambroise Plante",
+          "note": "Ancien cultivateur de Saint-Jean-Chrysostome ; ne sait signer. Demeure chez son fils Jean. Voir n° 197 à 199."
+        },
+        {
+          "role": "mandataire",
+          "nom": "Jean Plante",
+          "note": "Fils ; agriculteur de Saint-Jean-Chrysostome ; signe."
+        },
+        {
+          "role": "autre",
+          "nom": "Louis Patry",
+          "note": "Cultivateur et cordonnier de Saint-Jean-Chrysostome, propriétaire voisin au nord. Absent des recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Angèle Fontaine",
+          "note": "Mère de Zénon [?] et de Pierre Simoneau ; usufruitière de la terre jusqu'à son décès ; remariée à François-Xavier Hamel. Non rattachée."
+        },
+        {
+          "role": "autre",
+          "nom": "François-Xavier Hamel",
+          "note": "Second mari d'Angèle Fontaine."
+        },
+        {
+          "role": "autre",
+          "nom": "Pierre Simoneau",
+          "note": "Fils d'Angèle Fontaine (premier lit). Peut-être de la famille de Louis Simoneau, voisin au n° 197 ; non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Damase Lambert",
+          "note": "Menuisier de Saint-Jean-Chrysostome ; signe."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Quatrième acte de la même journée chez les Plante (n° 197 à 200). La terre de la Maringouinière dont il faut tirer la ligne avait été grevée de l'usufruit d'Angèle Fontaine, veuve Simoneau remariée Hamel — sans doute un ancien bien Simoneau acheté par Ambroise Plante. Deux cents actes en dix mois de pratique pour le notaire Tremblay. Le prénom du premier fils d'Angèle Fontaine (« Zénon » ?) est d'une lecture incertaine.",
+      "images": [
+        {
+          "fichier": "00918",
+          "microfilm": "001862",
+          "drive": "1m5JU36Io97MKnukx7tCniPiY5azL-fJ6",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "00919",
+          "microfilm": "001863",
+          "drive": "1NSOdgE3LS1V7kR7VecWutJIItVIILQAy",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "00920",
+          "microfilm": "001864",
+          "drive": "12Dp6n4pvuCe2w18PhlbelBCCLtW7AhDY",
+          "legende": "3/3"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
     }
   ]
 }
