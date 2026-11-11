@@ -225,11 +225,12 @@ Fin de la demande « jusqu'à 1000 » : fichiers **00900 à 00920** et **00951 �
 
 **Mise à jour du 11 novembre 2026, nuit (suite).** Patrick a déposé les
 fichiers **01001 à 01050** (sous-dossier « 1001-1050 »). Les fichiers **01001
-à 01020** sont lus : la donation **n° 221** (Joncas) est complétée (clôture et
-signatures sur 01001-01003), et les actes **n° 222 à 227** (15-17 octobre
-1874) sont transcrits. **227 fiches `notarie-`.** Les identifiants Drive de
-01001 à 01020 sont ajoutés à `documents/tropy/images-drive.json` ; les images
-de ces fiches y sont posées à la main (Tropy ne les décrit pas encore).
+à 01035** sont lus : la donation **n° 221** (Joncas) est complétée (clôture et
+signatures sur 01001-01003), et les actes **n° 222 à 232** (15-23 octobre
+1874) sont transcrits — sauf le **n° 229, manquant au greffe** (fichier 01024,
+feuillet « ACTE MANQUANT # 229 »). **231 fiches `notarie-`.** Les identifiants
+Drive de 01001 à 01035 sont ajoutés à `documents/tropy/images-drive.json` ; les
+images de ces fiches y sont posées à la main (Tropy ne les décrit pas encore).
 
 - **Deux dates corrigées par renvoi**, comme pour le n° 122 : le **n° 222**
   (quittance Couture à Wilson) porte « 14 octobre » en tête mais « quinzième
@@ -267,8 +268,34 @@ de ces fiches y sont posées à la main (Tropy ne les décrit pas encore).
   (`1881-D1-P063-L04/L05/L06`) ; le donataire Pierre fils reste sans
   rattachement (plusieurs Pierre Joncas).
 
-**Pour reprendre** : continuer au fichier **01021** (microfilm 001965),
-après l'acte n° 227.
+- **n° 228** (fichiers 01021-01023) : quittance de Ferdinand Villeneuve,
+  architecte-sculpteur de St-Romuald (`1871-D1-P013-L13`), à Joseph Couture
+  fils, de St-Isidore (Dorchester), pour le solde (1 900 piastres) d'une terre
+  vendue en 1868 (Me Fortier) ; mainlevée d'hypothèque. Le fichier 01023 est un
+  feuillet de calcul du prix.
+- **n° 229 manque** : le fichier 01024 est un feuillet imprimé « ACTE MANQUANT
+  # 229 » — la minute n'est pas au greffe. Pas de fiche.
+- **n° 230** (01025-01028) : bail à rente foncière de Louis-Julien Demers
+  (fils de Benjamin, `1871-D1-P025-L06`) à **Moses Kiely**, capitaine de
+  bateaux à vapeur (signe « Moses Kiely » ; en marge « Kirly » ; non rattaché),
+  pour un emplacement borné par la rue St-Paul, Ignace Dubois et Joseph Picard.
+  Le fichier 01028 est la chemise imprimée du bail.
+- **n° 231** (01029-01032) : bail à rente foncière de Benjamin Demers
+  (`1871-D1-P025-L04`) à Hubert Lefebvre, journalier (non rattaché), rue
+  St-Louis ; témoin le marchand **Germain Cantin** (`1871-D1-P017-L04`, signe
+  « Germain Cantin »). Le fichier 01032 est la chemise imprimée.
+- **n° 232** (01033-01035) : accord Bourassa–Vallières mettant fin au bail à
+  ferme du 18 mars 1874 (fiche `notarie-1874-03-18-bail-ferme-bourassa-vallieres`)
+  au 30 avril 1875 — partage du foin, soin des animaux, bois. Joseph Bourassa
+  (`1871-D1-P024-L13`) et Louis Vallières (fermier de St-Jean-Chrysostome, non
+  rattaché) signent. Nouveau preneur à venir : Octave Saindon (n° 193).
+- **La grande signature ornée** finissant par « N.P. », au bas de chaque
+  minute, est celle du notaire **Elzéar-Hubert Tremblay** (précision de
+  Patrick) : enregistrée partout comme le notaire, distincte des signatures
+  des parties.
+
+**Pour reprendre** : continuer au fichier **01036** (microfilm 001980),
+après l'acte n° 232.
 
 Fils suivis dans la série 00451-00550 :
 

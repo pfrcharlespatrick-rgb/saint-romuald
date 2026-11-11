@@ -21510,6 +21510,239 @@
       ]
     },
     {
+      "id": "notarie-1874-10-19-quittance-villeneuve-couture",
+      "type": "notarie",
+      "titre": "Quittance de Ferdinand Villeneuve à Joseph Couture fils, pour le solde du prix d'une terre vendue en 1868 — minute n° 228, 19 octobre 1874",
+      "date": "1874-10-19",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 228, images 001965 à 001967 (Drive : fichiers 04T_CN401S124P_01021 à 01023) ; en marge « Quittance — Villeneuve à Couture — Original — Exp. 1 fois ». Le fichier 01023 est un feuillet de calcul du prix (2000 moins 100, etc.). Acte complet.",
+      "nature": "Quittance passée le 19 octobre 1874, avant-midi, devant le notaire (sans témoin nommé) ; le comparant signe.",
+      "transcription": "[001965] « N° 228 — 19 octobre 1874. L'an mil huit cent soixante-quatorze, le dix-neuvième jour d'octobre, avant midi, en présence de Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant à St Romuald, comté de Lévis, soussigné ; Fut présent : Ferdinand Villeneuve, Ecr, architecte & sculpteur, demeurant à St Romuald susdit ; Lequel reconnaît avoir eu & reçu de sieur Joseph Couture, fils, de la paroisse de St Isidore, dans le comté de Dorchester, cultivateur, partie avant & partie lors de l'exécution des présentes, en bon argent courant & à son entière satisfaction, la somme de dix-neuf cents piastres courant, étant pour le parfait & entier paiement de la balance revenant au comparant sur le prix d'une terre qu'il a vendue au dit Sr Couture, tel qu'il appert par un acte de vente en date du dix-huit de juillet mil huit cent soixante-huit, reçu par [E.] R. Fortier, Notaire, [001966] enregistré au Bureau d'enregistrement du comté de Dorchester, Reg. B, Vol. 7, Page 804, sous le N° 5 309. Reconnaît en outre le comparant avoir aussi reçu à son entière satisfaction tous les intérêts échus sur la dite balance. Dont & du tout le comparant donne & accorde au dit Sr Couture, fils, quittance générale & finale, & veut & consent que l'hypothèque créée en sa faveur soit éteinte de ce jour & à toujours. Dont acte requis & octroyé à St Romuald, étude, les jour, mois & an susdits, sous le numéro deux cent vingt-huit des originaux du Notaire soussigné. Et le comparant a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Ferdinand Villeneuve ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "quittançant",
+          "nom": "Ferdinand Villeneuve",
+          "ref_personne": "1871-D1-P013-L13",
+          "note": "Écuyer, architecte & sculpteur de Saint-Romuald ; signe. Recensé « sculpteur » (39 ans) en 1871 (maison 33), « architecte » en 1881, « architecte-sculpteur-doreur d'églises » en 1891. Rattachement probable (un seul Ferdinand Villeneuve)."
+        },
+        {
+          "role": "quittancé",
+          "nom": "Joseph Couture, fils",
+          "note": "Cultivateur de Saint-Isidore (comté de Dorchester) ; avait acheté une terre de Villeneuve en 1868 (Me Fortier). Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Ferdinand Villeneuve, architecte et sculpteur de Saint-Romuald, reconnaît avoir reçu de Joseph Couture fils, de Saint-Isidore (Dorchester), le solde (dix-neuf cents piastres) du prix d'une terre qu'il lui avait vendue le 18 juillet 1868 (Me R. Fortier), et donne quittance finale avec mainlevée d'hypothèque. Le fichier 01023 est le feuillet où le notaire a posé le calcul du prix.",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "01021",
+          "microfilm": "001965",
+          "drive": "1OOkBcCqnASWGXXM1dVYEsbhfWT6JDIYF",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01022",
+          "microfilm": "001966",
+          "drive": "1Yz-9TqyvY4i8YdMuM3c3odwkQaCsZ3hw",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01023",
+          "microfilm": "001967",
+          "drive": "1dF7m7UrQKU7eijOQ8tMMfMrjZ5wUp3Co",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-10-22-bail-demers-kiely",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Louis-Julien Demers à Moses Kiely, capitaine de bateaux à vapeur, pour un emplacement près de la rue Saint-Paul — minute n° 230, 22 octobre 1874",
+      "date": "1874-10-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 230, images 001969 à 001972 (Drive : fichiers 04T_CN401S124P_01025 à 01028) ; en marge « Bail — Demers à Kiely [lu « Kirly »] — Original — Exp. 1 fois ; honoraire 2.25, enregistrement 1.25, payé 3.50 les 4-5 novembre 1874 ». Rédigé sur le formulaire imprimé de bail à rente foncière de Me Tremblay (le fichier 01028 en est la chemise imprimée, restée vierge). Acte complet.",
+      "nature": "Bail à rente foncière & constituée, passé le 22 octobre 1874, avant-midi, devant le notaire (sans témoin nommé) ; les deux parties signent.",
+      "transcription": "[001969] « N° 230 — 22 octobre 1874. Pardevant le Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné ; Fut présent : Mr Louis Demers [signe « Louis Julien Demers »], cultivateur, de St Romuald, dit comté ; Lequel a par ces présentes baillé & concédé dès maintenant & à toujours, à titre de Bail à rente foncière & constituée, & promet garantir de tous troubles & évictions quelconques, à Mr Moses Kiely, du même lieu, capitaine de bateaux à vapeur, à ce présent & acceptant concessionnaire pour lui, ses héritiers & ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, dit comté, [d'environ quatre-vingts pieds sur le chemin public & quarante-huit pieds au bout de la profondeur ; quatre-vingt-deux pieds de front du côté ouest & soixante-sept pieds du côté est (?) , mesure anglaise], borné au nord au chemin [public], au sud à Ignace Dubois, à l'ouest à la rue St Paul & à l'est à Joseph Picard, circonstances & dépendances. [001970] [Suivent les conditions imprimées du bail à rente foncière :] bâtir dans l'an une maison avec cheminée de pierre ou de briques ; entretenir les rues & fossés ; payer au concédant, au premier jour [d'août ?] de chaque année, à dater du premier jour d'avril dernier, la somme de [vingt-sept ?] piastres courant de rente foncière & constituée, rachetable en un seul paiement au capital de quatre cent cinquante piastres ; hypothèque de l'emplacement ; le concédant se réserve le droit de Retrait en cas de vente ; copie à fournir ; reprise de possession après deux ans de rente impayée. [001971] Au moyen de quoi le concédant veut & consent que le concessionnaire jouisse & dispose de l'emplacement en pleine propriété & à perpétuité. Dont acte, fait & passé à St Romuald susdit, étude du dit Notaire, le vingt-deuxième jour d'octobre, sous le numéro deux cent trente des originaux de Me Elzéar Hubert Tremblay, le dit Notaire soussigné. Et les dits concédant & concessionnaire ont signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Louis Julien Demers ; Moses Kiely ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "concédant",
+          "nom": "Louis-Julien Demers",
+          "ref_personne": "1871-D1-P025-L06",
+          "note": "Cultivateur de Saint-Romuald ; signe « Louis Julien Demers ». Fils de Benjamin Demers : recensé, 21 ans, dans la maison de son père en 1871 (maison 66), marchand de 41 ans en 1891. Rattachement probable. C'est lui dont Benjamin déposait la procuration au n° 159 (alors « établi à South Manchester, Connecticut ») ; il est pourtant présent et signe ici."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Moses Kiely",
+          "note": "Capitaine de bateaux à vapeur de Saint-Romuald ; signe « Moses Kiely » (en marge « Kirly »). Aucun Kiely au recensement de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Ignace Dubois",
+          "note": "Borne sud de l'emplacement. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Picard",
+          "note": "Borne est de l'emplacement. Peut-être Joseph Picard, marchand de Saint-Romuald (1871-D1-P021-L14), sans certitude : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Louis-Julien Demers, fils de Benjamin Demers, concède à Moses Kiely, capitaine de bateaux à vapeur, un emplacement du lotissement proche de la rue Saint-Paul (borné à l'ouest par cette rue, au sud par Ignace Dubois, à l'est par Joseph Picard), moyennant une rente foncière rachetable au capital de quatre cent cinquante piastres. L'honoraire et l'enregistrement (3,50 $) ont été payés les 4-5 novembre 1874.",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "01025",
+          "microfilm": "001969",
+          "drive": "18Q-S9vkCgKZsYHp5e-LZ-r-cfL1jreh9",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01026",
+          "microfilm": "001970",
+          "drive": "15seJimlUWUOhyab27XTtRpohcLkFUmvK",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01027",
+          "microfilm": "001971",
+          "drive": "1bwouxKRePzDoVJsPpOX88H2u9QCXoJLF",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01028",
+          "microfilm": "001972",
+          "drive": "1PVZhG36PxqWI-kQxDaI9uf7PxK_Eas0j",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-10-22-bail-demers-lefebvre",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Hubert Lefebvre, journalier, pour un emplacement de la rue Saint-Louis — minute n° 231, 22 octobre 1874",
+      "date": "1874-10-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 231, images 001973 à 001976 (Drive : fichiers 04T_CN401S124P_01029 à 01032) ; en marge « Bail — Demers à Lefebvre — Original — Exp. 2 fois — enregistré ». Rédigé sur le formulaire imprimé de bail à rente foncière de Me Tremblay (le fichier 01032 en est la chemise). Acte complet.",
+      "nature": "Bail à rente foncière & constituée, passé le 22 octobre 1874, après-midi, devant le notaire et un témoin, Germain Cantin, marchand de Saint-Romuald ; le concédant et le témoin signent, le concessionnaire ne sait signer.",
+      "transcription": "[001973] « N° 231 — 22 octobre 1874. Pardevant le Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Germain Cantin, Ecr, de St Romuald, marchand, témoin au présent acte, aussi soussigné ; Fut présent : Benjamin Demers, Écuyer, cultivateur & rentier, de St Romuald, dit comté ; Lequel a par ces présentes baillé & concédé dès maintenant & à toujours, à titre de Bail à rente foncière & constituée, & promet garantir de tous troubles & évictions quelconques, à Sieur Hubert Lefebvre, journalier, du même lieu, à ce présent & acceptant concessionnaire pour lui, ses héritiers & ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, dit comté, contenant cinquante pieds de front [à l'ouest] sur la rue St Louis & cinquante pieds de largeur sur une rue projetée à l'est, sur une profondeur de quatre-vingts pieds, le tout mesure anglaise, borné à l'ouest à la rue St Louis, à l'est à une rue projetée, au nord à Louis Langlais & au sud au concédant, circonstances & dépendances. [001974] [Suivent les conditions imprimées du bail à rente foncière :] bâtir dans l'an une maison avec cheminée de pierre ou de briques ; entretenir rues & fossés ; payer au concédant, au premier jour d'octobre de chaque année, à dater du premier jour d'octobre courant, la somme de huit piastres courant de rente foncière & constituée, rachetable en un seul paiement au capital de cent trente-trois piastres & trente-quatre centins ; hypothèque de l'emplacement ; le concédant Benjamin Demers se réserve le droit de Retrait en cas de vente ; copie à fournir ; reprise de possession après deux ans de rente impayée. [001975] Au moyen de quoi le concédant veut & consent que le concessionnaire jouisse & dispose de l'emplacement en pleine propriété & à perpétuité. Dont acte, fait & passé à St Romuald susdit, étude du dit Notaire, le vingt-deuxième jour d'octobre, après midi, sous le numéro deux cent trente-un des originaux de Me Elzéar Hubert Tremblay, le dit Notaire soussigné. Et le concédant a signé, ainsi que le dit témoin, avec moi, Notaire, le dit Sr Lefebvre ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. Benjamin Demers ; Germain Cantin ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "concédant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Écuyer, cultivateur & rentier de Saint-Romuald ; signe. C'est lui qui lotit les rues Saint-Paul, Saint-Louis et Demers. Père de Louis-Julien Demers (n° 230). Rattachement établi."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Hubert Lefebvre",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Aucun Hubert Lefebvre au recensement : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Marchand de Saint-Romuald ; signe « Germain Cantin ». Recensé marchand en 1871 (38 ans, maison 42), 1881 et 1891. Rattachement probable."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis Langlais",
+          "note": "Borne nord de l'emplacement. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Benjamin Demers poursuit le lotissement de ses rues : il concède à Hubert Lefebvre, journalier, un emplacement de cinquante pieds sur la rue Saint-Louis (entre cette rue et une rue projetée à l'est, bornée au nord par Louis Langlais), moyennant une rente foncière de huit piastres l'an, rachetable au capital de 133,34 piastres. Témoin : le marchand Germain Cantin.",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "01029",
+          "microfilm": "001973",
+          "drive": "1z0WVUqSwiQzz6I7XXmAeY0x5lfkYApTy",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01030",
+          "microfilm": "001974",
+          "drive": "1ogfBWgRgLEqo7XPL0g7nNjrgDVc_avil",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01031",
+          "microfilm": "001975",
+          "drive": "1m5yHwzfN3rI4aI9K3djTLHoNITqJODP0",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01032",
+          "microfilm": "001976",
+          "drive": "1uOeM4vwNbDfr85o5jsa5OVxiNOqbJdcq",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-10-23-accord-bourassa-vallieres",
+      "type": "notarie",
+      "titre": "Accord entre Joseph Bourassa et son fermier Louis Vallières : fin du bail à ferme et partage du foin — minute n° 232, 23 octobre 1874",
+      "date": "1874-10-23",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 232, images 001977 à 001979 (Drive : fichiers 04T_CN401S124P_01033 à 01035) ; en marge « Accord — Bourassa & Vallières — Original ». Acte complet.",
+      "nature": "Accord passé le 23 octobre 1874, avant-midi, devant le notaire (sans témoin nommé) ; les deux parties signent.",
+      "transcription": "[001977] « N° 232 — 23 octobre 1874. L'an mil huit cent soixante-quatorze, le vingt-troisième jour d'octobre, avant midi, en présence de Elzéar Hubert Tremblay, Notaire Public, résidant & pratiquant à St Romuald, comté de Lévis, soussigné ; Fut présent : Sieur Louis Vallières, fermier, de St Jean Chrysostome ; Lequel dit & déclare qu'il doit laisser en total la quantité de [mille cinquante-cinq ?] bottes [de foin], savoir : plus cent trente bottes de bon foin, lié & pesé suivant la loi, dans la grange de Mr Joseph Bourassa, ici aussi présent & acceptant, & ce au départ du dit sieur Vallières, qui déclare par ces présentes être suffisamment notifié que son bail à ferme, daté du dix-huit de mars dernier, consenti en sa faveur & reçu par le Notaire soussigné, sera & demeurera nul à dater du trente avril prochain, mil huit cent soixante-quinze, & qu'il devra laisser les dites terres à lui baillées, aux termes du dit bail, après avoir rempli toutes & chacune les obligations mentionnées au dit acte de bail, en la possession [001978] [du nouveau preneur]. Il est convenu & entendu que la quantité de foin susdite sera laissée par le dit sieur Vallières dans la proportion suivante, savoir : trois cent trente-deux bottes & demie, plus cent trente bottes sur sa part seule, des foins récoltés cette année. Le comparant s'oblige en outre de remettre au dit Sr Bourassa une quantité égale à celle qu'ils estimeront ou feront évaluer, pour nourrir [le poulain ?] que garde le comparant, & ce depuis le onze de juillet dernier jusqu'au jour où le dit [poulain] cessera d'être nourri sur la quantité totale de foin à être partagé. Le comparant déclare en outre s'obliger à faire travailler les animaux, tant les siens que ceux du dit Sr Bourassa, suivant leur force & capacité & chacun leur tour. Le comparant s'obligeant en outre de ne pas labourer cet automne la terre où il y a eu du grain de coupé, c'est-à-dire ne pas labourer dans la chaume cet automne, les parties ayant reconnu que tel labour n'est [001979] pas aussi bon fait l'automne que le printemps ; le comparant s'obligeant de faire le labour dans la friche. Le comparant s'oblige à couper à ses frais & charroyer près de la maison [dix cordes ?] de bois, de la qualité que lui désignera Mr Bourassa, aux premières neiges ; en considération de quoi le dit Sr Bourassa décharge le comparant de l'obligation de lui fournir & charroyer quinze cordes de bois comme au dit acte de bail. Dont acte requis & octroyé à St Romuald, étude, les jour, mois & an susdits, sous le numéro deux cent trente-deux des originaux du Notaire soussigné. Et les dits sieurs Vallières & Bourassa ont signé avec moi, Notaire, lecture faite. Mots rayés sont nuls ; renvoi en marge bon & approuvé. L. Vallière ; Joseph Bourassa ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "fermier",
+          "nom": "Louis Vallières",
+          "note": "Fermier de Saint-Jean-Chrysostome ; signe « L. Vallière ». Preneur de la ferme Bourassa par le bail du 18 mars 1874 (fiche notarie-1874-03-18-bail-ferme-bourassa-vallieres). Aucun Louis Vallières au recensement de Saint-Romuald : non rattaché (comme dans les autres fiches de ce bail)."
+        },
+        {
+          "role": "propriétaire",
+          "nom": "Joseph Bourassa",
+          "ref_personne": "1871-D1-P024-L13",
+          "note": "Rentier de Saint-Romuald ; signe. Propriétaire de la ferme (du Petit-Saint-Jean) donnée à bail à Vallières. Rattachement probable (dossier Bourassa, n° 69)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Joseph Bourassa et son fermier Louis Vallières règlent la fin du bail à ferme du 18 mars 1874 (fiche notarie-1874-03-18-bail-ferme-bourassa-vallieres), qui prendra fin le 30 avril 1875 : partage du foin récolté (bottes à laisser dans la grange), soin des animaux, interdiction de labourer la chaume cet automne, et bois à couper et charroyer. Pièce du dossier de la ferme du Petit-Saint-Jean ; le nouveau preneur sera Octave Saindon (bail n° 193).",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "01033",
+          "microfilm": "001977",
+          "drive": "1iF-4PVMKuqzFeVPniM6C0RXs37TOSPYM",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01034",
+          "microfilm": "001978",
+          "drive": "1ExIbMJ1w_qdwuCfMhlpc-uk1py390vJB",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01035",
+          "microfilm": "001979",
+          "drive": "1o89xIxdrVZLAjh8HeZd1j96wFazO8Yhk",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
       "id": "notarie-1874-09-26-bail-demers-lajoie",
       "type": "notarie",
       "titre": "Bail à rente foncière de Benjamin Demers à Joseph Lajoie, charpentier, rue Saint-Louis, 1874",
