@@ -17833,8 +17833,8 @@
       "titre": "Quittance de Louis Topping à Ferdinand Denis dit Lapierre, 800 piastres, prix d'une île de la Chaudière revendue à Breakey et King, 1874",
       "date": "1874-08-22",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 169, images 001740 à 001742 (Drive : fichiers 04T_CN401S124P_00796 et 00797) ; acte complet.",
-      "nature": "Formulaire imprimé de quittance (« Pardevant le Notaire Public… résidant en la Cité de Québec », modèle du notaire André-Elphrid Tessier, corrigé à la main pour Saint-Romuald), passée le 22 août 1874, après midi, en l'étude du notaire, sans témoin ; le comparant signe. En marge : « Quittance [Topping] à Lapierre — Original — Payé pour enregistrement — Expédié 1 fois & enregistré ». La clause imprimée de radiation de l'hypothèque est rayée.",
+      "cote": "Minute n° 169, images 001740 à 001743 (Drive : fichiers 04T_CN401S124P_00796 à 00798) ; acte complet.",
+      "nature": "Formulaire imprimé de quittance (« Pardevant le Notaire Public… résidant en la Cité de Québec », modèle du notaire André-Elphrid Tessier, corrigé à la main pour Saint-Romuald), passée le 22 août 1874, après midi, en l'étude du notaire, sans témoin ; le comparant signe. En marge : « Quittance [Topping] à Lapierre — Original — Payé pour enregistrement — Expédié 1 fois & enregistré ». La clause imprimée de radiation de l'hypothèque est rayée. Chemise imprimée du même notaire Tessier, « Quittance par … à … — Copie », restée blanche (fichier 00798).",
       "transcription": "[001740-41] « N° 169 — 22 août 1874. Pardevant le Notaire Public pour la Province de Québec, résidant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Louis Topping, de la paroisse de St Jean Chrysostome, comté de Lévis, agriculteur ; Lequel a volontairement reconnu & déclaré avoir eu & reçu, à son entière satisfaction, en bon argent, dès avant l'exécution des présentes, de Ferdinand Denis dit Lapierre, du même lieu, agriculteur, la somme de huit cents piastres courant, étant pour le parfait & entier paiement du prix d'une [île] vendue au dit sieur Lapierre & maintenant appartenant à MM. John Breakey & Henry King, suivant acte de vente fait & consenti par le dit sieur Topping en faveur du dit sieur Lapierre, reçu par Mtre L. Laliberté, notaire, & dûment enregistré au bureau d'enregistrement du comté de Dorchester, division numéro deux, Reg. B, vol. 21, page 249, no 16 415. Reconnaît en outre le dit comparant avoir aussi reçu du dit sieur Lapierre une autre somme égale aux intérêts dus & échus sur la susdite somme jusqu'à ce jour. [001741-42] C'est pourquoi le dit comparant donne & accorde par ces présentes au dit sieur Lapierre & à tous autres qu'il appartiendra quittance générale & finale. Car ainsi, &c. Dont acte. Fait & passé à St Romuald, étude de Mtre Elzéar H. Tremblay, notaire, l'an mil huit cent soixante-quatorze, le vingt-deuxième jour d'août, après midi, sous le numéro cent soixante-neuf des originaux du notaire soussigné. Et le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Louis Topping », « E. H. Tremblay N.P. »",
       "personnes": [
         {
@@ -17873,7 +17873,74 @@
       ],
       "note": "Dernier acte du fil des îles de la Chaudière (n° 134, 135, 137, 139) : comme son frère Jean avec la veuve Topping, Ferdinand Denis dit Lapierre solde son propre vendeur, Louis Topping, avec l'argent des marchands de bois. La page manquante du n° 135 (le prix) n'est pas retrouvée, mais l'île avait coûté 800 piastres à Lapierre en 1869.",
       "ajoute_le": "2026-11-11",
-      "images": []
+      "images": [
+        {
+          "fichier": "00796",
+          "microfilm": "001740",
+          "drive": "1JafxDdIDb_MatbcaqLmF9q3t7BEtxbod",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "00797",
+          "microfilm": "001741",
+          "drive": "1gMkJfMVNBHFjWqvvcKKmGlN_2ePF8U-3",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "00798",
+          "microfilm": "001742",
+          "drive": "1T9mqguKiuATX3EgQ7OT6z5LcqyuR0rFX",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-08-24-bail-lapierre-richard",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Pierre Denis dit Lapierre à Thomas Richard, concession Saint-Augustin, Saint-Jean-Chrysostome, 1874",
+      "date": "1874-08-24",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 170, images 001743 à 001745 (Drive : fichiers 04T_CN401S124P_00799 et 00800) ; la clôture et les signatures (fichier 00801) ne sont pas encore lues.",
+      "nature": "Formulaire imprimé « Pardevant le Notaire Public », rempli à la main, daté du 24 août 1874, en présence d'un témoin prénommé Augustin (nom non écrit). En marge : « Bail Lapierre à Richard — Original — Exp. 1 fois — $2,50 — Payé ». La clause du droit de retrait est barrée. La fin de l'acte est sur le fichier 00801, hors du lot 00750-00800.",
+      "transcription": "[001743-44] « N° 170 — 24 août 1874. Pardevant le Notaire Public […] Et en présence de Augustin […], témoin au présent acte, aussi soussigné ; Fut présent Mr Pierre Denis dit Lapierre, cultivateur, de St Jean Chrysostome, dit comté, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […] à Mr Thomas Richard, du même lieu, cultivateur, à ce présent et acceptant concessionnaire […] savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant cinquante pieds de front, plus ou moins, sur soixante pieds de profondeur, plus ou moins, tel que le dit emplacement est maintenant clos ; borné en front, à l'ouest, au chemin public, à l'est au concédant, au nord à William [?] Paradis & au sud au concessionnaire, circonstances & dépendances. » — [001744-45] Charges imprimées : clore ; bâtir d'ici un an une maison habitable avec cheminée en pierre ou en briques ; entretenir rues et fossés ; « 4° De payer au dit concédant […] au premier jour de juillet de chaque année, à dater du premier jour de juillet mil huit cent soixante-[treize ?], la somme de six piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres » ; hypothèque ; [droit de retrait barré] ; copie enregistrée ; clause de reprise. [Suite et signatures sur le fichier 00801.]",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Pierre Denis dit Lapierre",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; le frère, sans doute, de Jean et de Ferdinand Denis dit Lapierre, voisin du lot vendu à Thomas Richard le 2 juillet (n° 137). Non rattaché."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Thomas Richard",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; l'acquéreur du bien paternel des Lapierre au bord de la Chaudière (n° 137), qu'il agrandit ici d'un emplacement contigu au nord. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "William [?] Paradis",
+          "note": "Voisin au nord ; prénom de lecture incertaine."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Thomas Richard, déjà acquéreur de la maison des Lapierre entre le chemin public et la Chaudière (n° 137), prend à rente un emplacement voisin au nord. Acte à compléter quand le fichier 00801 sera lu.",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "00799",
+          "microfilm": "001743",
+          "drive": "1-_I88WxKpkUj6qekgCufrrExwQKfZfCZ",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "00800",
+          "microfilm": "001744",
+          "drive": "1CD_nt-eSqRcb0jvt2U4KuRIqhOBHEuUd",
+          "legende": "2/2"
+        }
+      ]
     }
   ]
 }

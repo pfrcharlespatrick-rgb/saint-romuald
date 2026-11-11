@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (157 fiches au 11 novembre 2026).
+fiche dont l'identifiant commence par `notarie-` (170 fiches au 11 novembre 2026, au soir).
 
 ## Où sont les images
 
@@ -136,9 +136,36 @@ actes **n° 146 à 157** (17 au 20 juillet 1874). **157 fiches `notarie-`.**
 - **n° 157** (bail Demers à Isidore Houle, rue Demers) : **incomplet**, la
   clôture est sur le fichier **00750**. En marge : « Résilié par le n° 654 ».
 
-**Le sous-dossier « 750 à 800 » est vide au Drive** : les fichiers 00750 à 00800
-n'y sont pas encore. **Pour reprendre** : au fichier **00750** (microfilm
-001694-95), fin du n° 157, dès que Patrick l'aura mis au Drive.
+**Mise à jour du 11 novembre 2026, soir.** Patrick a rempli le sous-dossier
+« 750 à 800 ». Les fichiers **00750 à 00800** sont lus : le n° 157 est complété,
+et les actes **n° 158 à 170** (21 juillet au 24 août 1874) sont transcrits.
+**170 fiches `notarie-`.**
+
+- **n° 158** : Catherine Lecours, veuve Samson, encore en vie le 21 juillet
+  1874, reçoit sa rente d'Augustin Carrier (fil des n° 2, 26, 82-84).
+- **n° 159** : Benjamin Demers dépose la procuration de son fils **Louis-Julien
+  Demers, établi à South Manchester (Connecticut)** — un émigré des filatures.
+- **n° 160** : accord après une bagarre entre deux journaliers, dont un
+  « employé chez Henry Atkinson ».
+- **n° 162** : le surnom « Laverte » des n° 21 et 28 se lit **Lavertu**
+  (Duperron dit Lavertu, de Saint-Lambert).
+- **n° 165, 167** : la rue Saint-Louis (lot Valcourt, 120 pieds) est parallèle à
+  la rue Saint-Paul et adossée aux lots St-Hilaire, Beaulé et Napoléon Paradis ;
+  Napoléon Paradis, charpentier, vend sa maison de deux étages (n° 167).
+- **n° 166** : Basile Vermette, « employé du Grand Trunk », de Saint-Jean-
+  Chrysostome.
+- **n° 168** : le boulanger Simoneau fait sommer un **creuseur de puits
+  artésiens** de finir son ouvrage.
+- **n° 169** clôt le fil des îles de la Chaudière : Louis Topping est payé de
+  l'île vendue 800 piastres en 1869 à Ferdinand Lapierre (la page du prix
+  manquait au n° 135).
+- Les fichiers 00765, 00773, 00789 et 00795 sont des feuillets de calcul du
+  notaire ; 00770 et 00771 sont deux prises de la même page ; 00782 est une
+  feuille commencée puis abandonnée.
+
+**Pour reprendre** : au fichier **00801** (microfilm 001745-46), fin du bail
+**n° 170** (Pierre Denis dit Lapierre à Thomas Richard), dès que Patrick aura mis
+au Drive les fichiers suivants.
 
 Fils suivis dans la série 00451-00550 :
 
