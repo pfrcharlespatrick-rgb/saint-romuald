@@ -21115,6 +21115,135 @@
           "legende": "5/5"
         }
       ]
+    },
+    {
+      "id": "notarie-1874-09-26-bail-demers-lajoie",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Joseph Lajoie, charpentier, rue Saint-Louis, 1874",
+      "date": "1874-09-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 201, images 001865 à 001868 (Drive : fichiers 04T_CN401S124P_00921 à 00924) ; acte complet sur formule imprimée, avec sa chemise imprimée « Bail à rente foncière ».",
+      "nature": "Bail à rente foncière et constituée, sur formule imprimée du notaire, passé le 26 septembre 1874, après midi, en l'étude, devant un témoin ; le concédant et le témoin signent, le concessionnaire ne sait signer. En marge : « Bail Demers à Lajoie — Original — Expédié 2 fois & enregistré » ; au crayon, calcul du capital : « 66.67 + 33.33 + 16.67 = 116.67 ». Rente : 7 piastres par an, rachetable 116,67 piastres.",
+      "transcription": "[001865] « N° 201 — 26 sept. 1874. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Philippe de Néri Hallé, de St Romuald, forgeron, témoin au présent acte, aussi soussigné ; Fut présent Benjamin Demers, écr, agriculteur, demeurant à [« St Jean Chrysostome », rayé] St Romuald, dit comté ; Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de Bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à sieur Joseph Lajoie, du même lieu, charpentier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, comté de Lévis, contenant [« cinquante », rayé] soixante-douze pieds de front sur cinquante pieds de profondeur, le tout mesure anglaise, borné à l'est à la rue St Louis, à l'ouest partie à Joseph Levasseur & partie à Frs Leclerc, fils, au nord au concédant & au sud à Napoléon Paradis, circonstances et dépendances. Tel que le dit emplacement est actuellement, sans en rien réserver […]. [001866] 1° De clore le dit emplacement […] ; 2° De bâtir sur le dit emplacement d'hui en un an une maison habitable et logeable, avec une cheminée soit en pierre, soit en briques […] ; 3° D'entretenir à ses propres frais et dépens toutes les rues, ruelles ou chemins […] ; 4° De payer au dit concédant, ses hoirs et ayant cause, au vingt-neuvième jour de septembre de chaque année, à dater du vingt-neuvième jour de septembre courant, la somme de sept piastres courant, de rente foncière et constituée, rachetable en un seul paiement au capital de cent seize piastres, soixante-sept centins. [Hypothèque spéciale ; 5° droit de retrait rayé ; 6° copie enregistrée ; clause de reprise après deux années impayées.] [001867] Au moyen de quoi le dit concédant veut et consent que le dit concessionnaire jouisse et dispose du dit emplacement en pleine propriété et à perpétuité. Dont acte, fait et passé à St Romuald susdit, étude du dit notaire, l'an mil huit cent soixante-quatorze, le vingt-sixième jour de septembre, après midi, sous le numéro deux cent un des originaux de Mtre Elzéar Hubert Tremblay, le dit notaire soussigné. Et le concédant a signé ainsi que le dit témoin avec moi, notaire, le dit concessionnaire ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » Signatures : « Benj. Demers », « Philippe de Néri Hallé », « E. H. Tremblay N.P. » — [001868] chemise imprimée « Bail à rente foncière par … à … — Copie — E. H. Tremblay, N.P. », non remplie.",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Écuyer, agriculteur de Saint-Romuald (le notaire avait d'abord écrit « St Jean Chrysostome ») ; signe."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Joseph Lajoie",
+          "ref_personne": "1881-D1-P030-L09",
+          "note": "Charpentier de Saint-Romuald ; ne sait signer. Le charpentier de 35 ans recensé en 1881 (maison 117) ; rattachement probable (en 1871, un Joseph Lajoie de 23 ans vit chez Firmin Landry, 1871-D1-P038-L11)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Philippe de Néri Hallé",
+          "ref_personne": "1871-D1-P010-L19",
+          "note": "Forgeron de Saint-Romuald ; signe. Le forgeron de 28 ans de 1871 (maison 26, ménage d'Ursule Dussault) ; rattachement probable."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Levasseur",
+          "note": "À l'ouest, en partie (voisin des lots de la rue Saint-Paul, n° 145)."
+        },
+        {
+          "role": "voisin",
+          "nom": "François Leclerc, fils",
+          "ref_personne": "1871-D1-P049-L14",
+          "note": "À l'ouest, en partie (lot Bilodeau, n° 190)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Napoléon Paradis",
+          "note": "Au sud."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Nouveau lot de la rue Saint-Louis, adossé aux lots de la rue Saint-Paul (Levasseur, Leclerc fils — l'ancien lot Bilodeau). Capital de rachat calculé au taux de 6 % (7 piastres de rente ≈ 116,67 piastres).",
+      "images": [
+        {
+          "fichier": "00921",
+          "microfilm": "001865",
+          "drive": "1L-Pu8KVrxQ3xo32TUygU7y38XBVUtiDO",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "00922",
+          "microfilm": "001866",
+          "drive": "16ihstzNCu2RUIFN7iGwjSAsy2z62oeNR",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "00923",
+          "microfilm": "001867",
+          "drive": "14vai5DPwMrXNU68XWbbAOwo5XB7oMZKW",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "00924",
+          "microfilm": "001868",
+          "drive": "1LU0vAtEG_9fA1fcO5XC-chCwvz9vu7Vs",
+          "legende": "4/4"
+        }
+      ],
+      "ajoute_le": "2026-11-12"
+    },
+    {
+      "id": "notarie-1874-09-26-obligation-belanger-leclerc",
+      "type": "notarie",
+      "titre": "Obligation de Godfroy Bélanger, charretier, envers Joseph Leclerc, ancien marchand, 1874",
+      "date": "1874-09-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 202, images 001869 à 001870 (Drive : fichiers 04T_CN401S124P_00925 à 00926) ; acte complet.",
+      "nature": "Obligation, passée le 26 septembre 1874, après midi, en l'étude, devant un témoin ; le créancier et le témoin signent, le débiteur ne sait signer. En marge : « Obligation Bélanger à Leclerc — Original » ; renvoi : « La présente obligation annule un certain billet payable au vingt-neuf septembre courant ». Somme : 16 piastres.",
+      "transcription": "[001869] « N° 202 — 26 sept. 1874. L'an mil huit cent soixante-quatorze, le vingt-six de septembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant à St Romuald, comté de Lévis ; Et en présence de Edouard Bourassa, écr, agriculteur, de St Romuald, témoin au présent acte aussi soussigné ; Fut présent : Sieur Godfroy Bélanger, charretier, de St Jean Chrysostome ; Lequel reconnaît devoir bien & légitimement à sieur Joseph Leclerc, de St Romuald, ancien marchand, à ce présent & acceptant, la somme de seize piastres courant, ainsi que le dit débiteur le reconnaît & dont il se déclare content & satisfait. Laquelle dite somme de [001870] seize piastres le débiteur promet payer & rembourser au dit créancier ou ordre, porteur des présentes en forme légale, au premier jour de novembre prochain, & sans intérêt jusqu'à cette date, mais ensuite avec intérêt de huit pour cent, payable en même temps que la dite somme. [Renvoi (1) : « La présente obligation annule un certain billet payable au vingt-neuf septembre courant ».] Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte, fait & passé à St Romuald, étude du dit notaire, les jour, mois & an susdits, sous le numéro deux cent deux des originaux du notaire soussigné. Et le dit créancier & le témoin ont signé avec moi, notaire, le débiteur ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » Signatures : « Joseph Leclerc », « Edouard Bourassa », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Godfroy Bélanger",
+          "note": "Charretier de Saint-Jean-Chrysostome ; ne sait signer. Le débiteur du n° 194 (gages dus à François-Xavier Labbé). Non rattaché."
+        },
+        {
+          "role": "creancier",
+          "nom": "Joseph Leclerc",
+          "ref_personne": "1871-D1-P019-L15",
+          "note": "Ancien marchand de Saint-Romuald ; signe."
+        },
+        {
+          "role": "temoin",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "Écuyer, agriculteur de Saint-Romuald ; signe."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Quatre jours après avoir reconnu des gages à F.-X. Labbé (n° 194), le charretier Godfroy Bélanger convertit en obligation notariée un billet de seize piastres dû à l'ancien marchand Joseph Leclerc.",
+      "images": [
+        {
+          "fichier": "00925",
+          "microfilm": "001869",
+          "drive": "1aRQGlmjfd0MM5ceozGxjiIXeI5ZqqbC3",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "00926",
+          "microfilm": "001870",
+          "drive": "1b5-W5H4IVm0niXcE5av5RH21_-OhK-5p",
+          "legende": "2/2"
+        }
+      ],
+      "ajoute_le": "2026-11-12"
     }
   ]
 }
