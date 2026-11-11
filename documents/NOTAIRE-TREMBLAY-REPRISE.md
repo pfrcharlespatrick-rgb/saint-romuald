@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (212 fiches au 11 novembre 2026, fin de la série 00601-01000).
+fiche dont l'identifiant commence par `notarie-` (221 fiches au 12 novembre 2026 ; série 00601-01000 complète).
 
 ## Où sont les images
 
@@ -204,24 +204,26 @@ Fin de la demande « jusqu'à 1000 » : fichiers **00900 à 00920** et **00951 �
 01000** lus, actes **n° 196 à 200** et **n° 210 à 221** (24 septembre au
 14 octobre 1874). **212 fiches `notarie-`.**
 
-- **Trou au Drive : les fichiers 00921 à 00950 manquent** (dossier « 901-950 »
-  incomplet). Ils contiennent les actes **n° 201 à 209** (fin septembre - début
-  octobre 1874). Indice : au n° 213, le notaire a d'abord écrit « épouse de
-  Napoléon Paradis » — un testament de cette famille est peut-être dans le trou.
+- **Trou comblé (12 novembre 2026)** : Patrick a déposé les fichiers 00921 à
+  00950 ; les actes **n° 201 à 209** sont transcrits (**221 fiches**). Le n° 206
+  **résilie la vente n° 195** (Leclerc), ce qui lève la contradiction avec le
+  n° 217. Le n° 204 porte en marge la date de décès de Charles-Benjamin Couture
+  (12 décembre 1874). Le n° 209 : rixe et « warrant d'arrestation » contre le
+  jeune Philéas Paquet, réglés pour dix piastres. Les n° 201 et 207 ouvrent deux
+  lots jumeaux de la rue Saint-Louis (Lajoie, Napoléon Paradis).
 - **n° 197 à 200** : la famille Plante, de Saint-Jean-Chrysostome (donation aux
   fils Jean et Pierre, deux testaments, procuration) ; toponymes : concessions
   Saint-Romain, Apennin, Saint-Louis, Marangouinière, Terrebonne.
 - **n° 211** : contrat de mariage Hubert Carrier - Clémentine Lévesque (parents
   des deux époux nommés).
 - **n° 214, 217, 218** : les lots de la rue Saint-Paul changent vite de main ;
-  le n° 217 contredit le titre invoqué au n° 195 (même lot) — à relire.
+  la vente n° 195 avait été résiliée (n° 206).
 - **n° 219** : premier lot du hameau Roberge revendu (Richard à Gagné).
 - **n° 220** : la maison de Louis Filteau, rue Demers, bâtie à l'été 1874 par le
   meublier Régis Martel.
 - **n° 221 est incomplet** : la suite est sur le fichier 01001.
 
-**Pour reprendre** : 1) mettre au Drive les fichiers **00921 à 00950** et les
-transcrire (n° 201 à 209) ; 2) continuer au fichier **01001** (microfilm
+**Pour reprendre** : continuer au fichier **01001** (microfilm
 001945), fin de la donation **n° 221** (Joncas, Saint-Étienne).
 
 Fils suivis dans la série 00451-00550 :
