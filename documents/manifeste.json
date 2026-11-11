@@ -18788,6 +18788,131 @@
         }
       ],
       "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-09-09-quittance-tremblay-tremblay",
+      "type": "notarie",
+      "titre": "Quittance d'Antoine Tremblay à Pierre Tremblay, de Saint-Étienne, pour sa part de la donation de Louis Tremblay, 1874",
+      "date": "1874-09-09",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 182, images 001790 à 001792 (Drive : fichiers 04T_CN401S124P_00846 à 00848) ; acte complet, sur formule imprimée du notaire André-Elphrid Tessier, de Québec, avec sa chemise.",
+      "nature": "Quittance, passée le 9 septembre 1874, avant midi, en l'étude du notaire à Saint-Romuald, devant un témoin ; le comparant ne sait signer. En marge : « Quittance Tremblay à Tremblay — Original — Exp. 1 fois ». Somme : 100 piastres.",
+      "transcription": "[001790] « N° 182 — 9 sept. 1874. Pardevant le Notaire Public [« résidant en la Cité de Québec », imprimé, rayé] résidant à St Romuald, comté de Lévis, soussigné, et en présence de George Bégin, de St Romuald, marchand [?], témoin au présent acte aussi soussigné ; Fut présent Antoine Tremblay, journalier, de la paroisse de St Étienne, comté de Lévis ; Lequel a volontairement reconnu et déclaré avoir eu et reçu à son entière satisfaction, en bon argent du cours actuel en cette province, et lors de la passation et exécution des présentes, de Mr Pierre Tremblay, du même lieu, cultivateur, la somme de cent piastres, étant la part revenant au comparant, que le dit sieur Pierre Tremblay s'est obligé lui payer [« dans les droits à lui échus », rayé], suivant & tel qu'il appert par un certain acte de donation fait et consenti par Sr Louis Tremblay & son épouse en faveur du dit sieur Pierre Tremblay, par et suivant acte passé devant Mtre Étienne Simard, notaire, & témoins, le cinq avril mil huit cent soixante-sept, et dûment enregistré au bureau d'enregistrement du comté de Dorchester, division n° 2, le huitième jour d'avril mil huit cent soixante-sept, Reg. B, vol. 15, page 576, n° 12,039. [Clause imprimée des intérêts, barrée.] [001791] C'est pourquoi le dit comparant donne et accorde par ces présentes au dit sieur Pierre Tremblay et tous autres qu'il appartiendra, quittance générale et finale de la dite somme de cent piastres sus-mentionnée et datée [suite imprimée — intérêts, extinction de l'hypothèque, radiation — rayée]. Car ainsi, &c. Dont acte. Fait et passé à St Romuald, en l'étude de Mtre E. H. Tremblay, notaire, l'an mil huit cent soixante-quatorze, le neuvième jour de septembre, avant midi, sous le numéro cent quatre-vingt-deux des originaux du notaire soussigné. Requis de signer, le comparant a déclaré ne le savoir, de ce enquis, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « George Bégin », « E. H. Tremblay N.P. » — [001792] chemise imprimée « Quittance par … à … — Copie — André Elphrid Tessier, Notaire ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Antoine Tremblay",
+          "note": "Journalier de Saint-Étienne-de-Lauzon ; ne sait signer. Sans doute un frère de Pierre, ayant droit à une part (« la part revenant au comparant ») dans la donation des parents. Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Pierre Tremblay",
+          "note": "Cultivateur de Saint-Étienne, donataire de Louis Tremblay et de son épouse (1867), tenu de payer leur part aux autres enfants. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Louis Tremblay",
+          "note": "Donateur, avec son épouse (non nommée), par acte du 5 avril 1867 devant Étienne Simard ; vraisemblablement le père de Pierre et d'Antoine. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "George Bégin",
+          "ref_personne": "1871-D1-P012-L04",
+          "note": "De Saint-Romuald ; signe « George Bégin ». Le marchand des actes précédents (le métier, écrit en interligne, est peu lisible)."
+        },
+        {
+          "role": "autre",
+          "nom": "Étienne Simard",
+          "ref_personne": "1871-D1-P021-L03",
+          "note": "Notaire ; a reçu la donation de 1867."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Règlement d'une part d'héritier anticipée : le donataire d'une terre de Saint-Étienne paie à un cohéritier les cent piastres que la donation de 1867 lui réservait. Le lien entre Louis, Pierre et Antoine Tremblay n'est pas dit en toutes lettres.",
+      "images": [
+        {
+          "fichier": "00846",
+          "microfilm": "001790",
+          "drive": "1crfzXpme6NyrkA8zIh32Uqi0RSE2nxAI",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "00847",
+          "microfilm": "001791",
+          "drive": "16HrS4eCVaxFj6Z3wbdYtzDjtyD-QqOQu",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "00848",
+          "microfilm": "001792",
+          "drive": "12gkGXkyvuACw9h7FXQOk20f3Es5oLBAi",
+          "legende": "3/3"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
+    },
+    {
+      "id": "notarie-1874-09-10-quittance-cantin-cantin",
+      "type": "notarie",
+      "titre": "Quittance de Marie Cantin, épouse de François Samson, à Louis Cantin, de Saint-Jean-Chrysostome, 1874",
+      "date": "1874-09-10",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 183, images 001793 à 001795 (Drive : fichiers 04T_CN401S124P_00849 à 00851) ; acte complet.",
+      "nature": "Quittance, passée le 10 septembre 1874, après midi, en l'étude du notaire, sans témoin ; la comparante et son mari signent. En marge : « Quittance Cantin à Cantin — Original — Payé pour enregistrement — Expédié 1 fois & enregistré ». Somme : 100 piastres et un ménage.",
+      "transcription": "[001793] « N° 183 — 10 sept. 1874. L'an mil huit cent soixante-quatorze, le dixième jour de septembre, après-midi, en présence de Elzéar Hubert Tremblay, notaire public pour la province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présente : Dame Marie Cantin, épouse de Sr François Samson, [« cultivateur », rayé] journalier, demeurant tous deux en la paroisse de St Jean Chrysostome, dit comté, ce dernier à ce aussi présent & autorisant la dite épouse à l'effet des présentes ; Laquelle, sous l'autorisation susdite, reconnaît & confesse avoir eu & reçu à son entière satisfaction, en bon argent courant & à vue & présence [001794] de nous, dit notaire, la somme de cent piastres courant, qui était due à la comparante par le sieur Louis Cantin, de la dite paroisse de St Jean Chrysostome, dit comté, cultivateur, [renvoi (1) : « ainsi qu'un ménage qu'elle reconnaît avoir eu & reçu à son entière satisfaction du dit sieur Louis Cantin »], & tel que ce dernier s'y est obligé dans un certain acte de donation entre vifs consenti par Sr Abraham Cantin & son épouse en faveur du dit sieur Louis Cantin ; lequel acte de donation a été dûment enregistré au bureau d'enregistrement du comté de Lévis dans le cours du printemps dernier. Dont & du tout la dite comparante, sous l'autorisation susdite, donne & accorde au dit Sr Louis Cantin quittance générale & finale. Dont acte, requis & octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent quatre-vingt-trois. Et la dite comparante & son dit époux ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » Signatures : « Marie Cantin », « François Samson », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Marie Cantin",
+          "note": "Épouse de François Samson, de Saint-Jean-Chrysostome ; signe. Sans doute fille d'Abraham Cantin, donateur — une Marie Cantin de 18 ans vit chez Abraham Cantin, cultivateur, en 1871 (1871-D2-P010-L11), mais le rattachement reste une hypothèse : non rattachée."
+        },
+        {
+          "role": "epoux",
+          "nom": "François Samson",
+          "note": "Journalier (« cultivateur » rayé) de Saint-Jean-Chrysostome ; autorise sa femme et signe. Peut-être le François Samson, charretier de 32 ans, recensé en 1881 (1881-D1-P038-L06) ; non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Louis Cantin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, donataire d'Abraham Cantin et de son épouse (donation enregistrée au printemps 1874). Ce n'est pas l'écuyer Louis Cantin, juge de paix, du n° 99 (rien ne l'indique). Non rattaché : le seul Louis du ménage d'Abraham Cantin en 1871 avait 9 ans."
+        },
+        {
+          "role": "autre",
+          "nom": "Abraham Cantin",
+          "note": "Donateur, avec son épouse (non nommée), de ses biens à Louis Cantin. Un Abraham Cantin, cultivateur de 50 ans, est recensé en 1871 dans la division 2 (1871-D2-P010-L06) ; non rattaché faute de preuve."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Règlement de la part d'une fille dans une donation entre vifs : cent piastres et « un ménage » (le trousseau de mobilier). Saint-Jean-Chrysostome et Saint-Romuald se recouvrent : la famille d'Abraham Cantin de 1871 (division 2, maison 23 — Abraham 50 ans, Louise 49, Marie 18, Louis 9, Abraham 10) est un candidat plausible, mais l'âge du Louis de 1871 ne convient pas à un donataire en 1874.",
+      "images": [
+        {
+          "fichier": "00849",
+          "microfilm": "001793",
+          "drive": "1heopsqYWLKTK_ONxtD-TUKA9n9T3i0SF",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "00850",
+          "microfilm": "001794",
+          "drive": "16Zhv7JzDTvhDaM7tV1pECBSdAo5BWId3",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "00851",
+          "microfilm": "001795",
+          "drive": "1IrLLWeBzs3UkmRdrBkjHA3JV5fCzQXOb",
+          "legende": "3/3"
+        }
+      ],
+      "ajoute_le": "2026-11-11"
     }
   ]
 }
