@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (191 fiches au 11 novembre 2026, dans la nuit).
+fiche dont l'identifiant commence par `notarie-` (195 fiches au 11 novembre 2026, dans la nuit).
 
 ## Où sont les images
 
@@ -190,8 +190,18 @@ jusqu'au fichier 01000. Les fichiers **00801 à 00880** sont lus : actes
   Rouleau, carpenter — volé du bois — Henry Atkinson by his agent H. G. King »
   (138 piastres) : à rapprocher d'un acte à venir.
 
-**Pour reprendre** : au fichier **00881** (microfilm 001825-26), suite du
-**n° 192** (titre nouvel Fontaine à Demers, 22 septembre 1874).
+Suite : fichiers **00881 à 00899** lus, actes **n° 192 à 195** (22-23 septembre
+1874). **195 fiches `notarie-`.**
+
+- **n° 193** : Joseph Bourassa reloue la ferme du Petit-Saint-Jean (déjà
+  affermée à Vallières, n° 69) à **Octave Saindon, de Saint-Épiphane** ; le bail
+  détaille tout le cheptel et l'outillage. « Route des Belles-Amours ».
+- **n° 195** : deux lots de la rue Saint-Paul concédés par Benjamin Demers
+  **dès 1869** (Me Laliberté) : le lotissement Demers est plus ancien que la
+  série de 1874.
+
+**Pour reprendre** : au fichier **00900** (microfilm 001844-45), **n° 196**
+(quittance Pierre Bégin à Pierre Cantin, 24 septembre 1874).
 
 Fils suivis dans la série 00451-00550 :
 
