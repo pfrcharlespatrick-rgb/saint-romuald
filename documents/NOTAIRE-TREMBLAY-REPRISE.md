@@ -225,12 +225,14 @@ Fin de la demande « jusqu'à 1000 » : fichiers **00900 à 00920** et **00951 �
 
 **Mise à jour du 11 novembre 2026, nuit (suite).** Patrick a déposé les
 fichiers **01001 à 01050** (sous-dossier « 1001-1050 »). Les fichiers **01001
-à 01035** sont lus : la donation **n° 221** (Joncas) est complétée (clôture et
-signatures sur 01001-01003), et les actes **n° 222 à 232** (15-23 octobre
-1874) sont transcrits — sauf le **n° 229, manquant au greffe** (fichier 01024,
-feuillet « ACTE MANQUANT # 229 »). **231 fiches `notarie-`.** Les identifiants
-Drive de 01001 à 01035 sont ajoutés à `documents/tropy/images-drive.json` ; les
-images de ces fiches y sont posées à la main (Tropy ne les décrit pas encore).
+à 01050** (le sous-dossier « 1001-1050 » en entier) sont lus : la donation
+**n° 221** (Joncas) est complétée (clôture et signatures sur 01001-01003), et
+les actes **n° 222 à 237** (15 octobre au 5 novembre 1874) sont transcrits —
+sauf le **n° 229, manquant au greffe** (fichier 01024, feuillet « ACTE MANQUANT
+# 229 »), et le **n° 237, incomplet** (seule sa première page, 01050, est au
+Drive). **236 fiches `notarie-`.** Les identifiants Drive de 01001 à 01050 sont
+ajoutés à `documents/tropy/images-drive.json` ; les images de ces fiches y sont
+posées à la main (Tropy ne les décrit pas encore).
 
 - **Deux dates corrigées par renvoi**, comme pour le n° 122 : le **n° 222**
   (quittance Couture à Wilson) porte « 14 octobre » en tête mais « quinzième
@@ -294,8 +296,28 @@ images de ces fiches y sont posées à la main (Tropy ne les décrit pas encore)
   Patrick) : enregistrée partout comme le notaire, distincte des signatures
   des parties.
 
-**Pour reprendre** : continuer au fichier **01036** (microfilm 001980),
-après l'acte n° 232.
+- **n° 233** (01036-01039) : bail de six mois d'Édouard Bourassa
+  (`1871-D1-P040-L18`) à A. Gaston Bélanger, marchand de Québec, de deux pièces
+  d'un hangar sur la « rue des Quarante-Arpents » (2,50 $/mois).
+- **n° 234** (01040-01043) : bail de six mois de **Jean-Baptiste Fontaine**,
+  rentier (probable `1891-D1-P087-L19`, ex-cultivateur de 87 ans en 1891, ne
+  sait signer), à Jean-Baptiste Lambert, journalier (non rattaché), de deux
+  chambres rue Saint-Paul (12 $). A. Gaston Bélanger témoin. Reçu d'acompte de
+  7 $ au dos de la chemise (01043).
+- **n° 235** (01044-01045) : quittance de Pierre Cantin, cultivateur de
+  St-Jean-Chrysostome, à Joseph Couture, de St-Lambert, pour 100 $ (obligation
+  de 1869). Hors paroisse.
+- **n° 236** (01046-01049) : obligation de Joseph Couture (le même, St-Lambert)
+  à Napoléon Sévigny, ingénieur de St-Jean-Chrysostome, 150 $ à 8 %, garantie
+  par deux terres de la concession St-Augustin sur la Chaudière. Hors paroisse.
+- **n° 237, incomplet** (01050) : vente d'un emplacement à St-Jean-Chrysostome,
+  de George Gagné, marchand, à Étienne Denis dit Lapierre, cultivateur (tous
+  deux déjà laissés sans rattachement dans d'autres actes). Seule la première
+  page est au Drive ; la fiche est à compléter au fichier 01051.
+
+**Pour reprendre** : continuer au fichier **01051** (microfilm 001995), pour
+compléter la vente **n° 237** (Gagné à Denis dit Lapierre), quand Patrick aura
+déposé le sous-dossier « 1051-1100 ».
 
 Fils suivis dans la série 00451-00550 :
 

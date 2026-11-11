@@ -21743,6 +21743,288 @@
       ]
     },
     {
+      "id": "notarie-1874-10-28-bail-bourassa-belanger",
+      "type": "notarie",
+      "titre": "Bail de six mois d'Édouard Bourassa à A. Gaston Bélanger, de deux pièces d'un hangar sur la rue des Quarante-Arpents — minute n° 233, 28 octobre 1874",
+      "date": "1874-10-28",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 233, images 001980 à 001983 (Drive : fichiers 04T_CN401S124P_01036 à 01039) ; en marge « Bail — Bourassa à Bélanger — Original ». Rédigé sur le formulaire imprimé de bail (loyer) de Me Tremblay (le fichier 01039 en est la chemise, vierge). Acte complet.",
+      "nature": "Bail à loyer de six mois (1er novembre 1874 au 30 avril 1875), passé le 28 octobre 1874, après-midi, devant le notaire (sans témoin nommé) ; les deux parties signent.",
+      "transcription": "[001980] « N° 233 — 28 octobre 1874. L'an mil huit cent soixante-quatorze, le vingt-huitième jour du mois d'octobre, après midi, pardevant Me Elzéar Hubert Tremblay, Notaire Public, résidant [à Québec rayé] à St Romuald, soussigné ; Fut présent : Edouard Bourassa, Ecr, agronome & rentier, demeurant à St Romuald, comté de Lévis ; Lequel a par ces présentes donné à loyer, pour le terme & espace de six mois entiers qui commenceront à courir du premier jour de novembre prochain & finiront le trentième jour d'avril de l'année mil huit cent soixante-quinze, à A. Gaston Bélanger, Ecr, de la Cité de Québec, marchand, à ce présent & acceptant preneur pour lui, ses hoirs & ayans causes, savoir : Deux appartements dans le bas ou premier étage (le deuxième appartement allant à la deuxième poutre à l'est de la cloison actuelle, & le premier à l'ouest, à partir vis-à-vis de la poutre du haut de l'escalier) ; le tout situé à la partie ouest, sur la Rue des Quarante Arpents, & formant partie d'un hangar appartenant au Bailleur ; ensemble l'usage de la cour sans pouvoir l'embarrasser, place pour le bois […] entre la propriété de James Faherty [lu « Zaherty »], Ecr, & celle du hangar. [001981] [Suivent les charges imprimées du bail ; les clauses relatives à la Ville, à la police et à l'aqueduc sont rayées.] Ce bail est fait pour le prix de deux piastres & demie par mois, payable par versements mensuels égaux à la fin de chaque mois. [001982] Il est expressément convenu que le preneur aura, de préférence à tout autre, le droit de continuer le bail au premier jour de mai prochain, au prix que le bailleur fixera alors, sans que le bailleur s'oblige à le continuer. Dont acte, fait & passé à St Romuald, étude du dit Notaire, les jour, mois & an susdits, sous le numéro deux cent trente-trois des originaux du Notaire soussigné. Et les bailleur & preneur ont signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Edouard Bourassa ; A. Gaston Bélanger ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Edouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "Écuyer, « agronome & rentier » de Saint-Romuald ; signe. Cultivateur en 1871 (maison 108), marchand ensuite ; témoin fréquent du greffe. Rattachement établi."
+        },
+        {
+          "role": "preneur",
+          "nom": "A. Gaston Bélanger",
+          "note": "Écuyer, marchand de la Cité de Québec. Hors de la paroisse : non rattaché. Témoin au n° 234, passé le même jour."
+        },
+        {
+          "role": "voisin",
+          "nom": "James Faherty",
+          "note": "« Ecr » ; sa propriété borde le hangar (nom lu « Zaherty »). Peut-être James Faherty, navigateur recensé en division 2 en 1881 (1881-D2-P057-L13), sans certitude : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Édouard Bourassa loue à A. Gaston Bélanger, marchand de Québec, deux pièces d'un hangar lui appartenant, sur la rue des Quarante-Arpents, pour six mois d'hiver (novembre 1874 à avril 1875), au loyer de 2,50 piastres par mois, avec une option de renouvellement au printemps. Le même A. Gaston Bélanger est témoin du bail suivant (n° 234).",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "01036",
+          "microfilm": "001980",
+          "drive": "1R7j7e6pB859_wmAPGaavd9X1cOxdBMFj",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01037",
+          "microfilm": "001981",
+          "drive": "12pgZGXGjTF2LieQBCA7Y25IEs1fPcjuE",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01038",
+          "microfilm": "001982",
+          "drive": "1VnUaYvZO1wLZJ01S6DV06uZXtPTtn3X5",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01039",
+          "microfilm": "001983",
+          "drive": "1SLT9EBhyAot_c90xZJON72zrWsmpCanp",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-10-28-bail-fontaine-lambert",
+      "type": "notarie",
+      "titre": "Bail de six mois de Jean-Baptiste Fontaine à Jean-Baptiste Lambert, de deux chambres d'une maison de la rue Saint-Paul — minute n° 234, 28 octobre 1874",
+      "date": "1874-10-28",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 234, images 001984 à 001987 (Drive : fichiers 04T_CN401S124P_01040 à 01043) ; en marge « Bail — Fontaine à Lambert — Original ». Rédigé sur le formulaire imprimé de bail (loyer) de Me Tremblay ; le fichier 01043 en est la chemise, portant au dos un reçu d'acompte de sept piastres (marque « X » de Fontaine, témoin le notaire, 28 octobre 1874). Acte complet.",
+      "nature": "Bail à loyer de six mois (1er novembre 1874 au 30 avril 1875), passé le 28 octobre 1874, à midi, devant le notaire et un témoin (A. Gaston Bélanger, ancien marchand de Québec) ; le preneur et le témoin signent, le bailleur ne sait signer.",
+      "transcription": "[001984] « N° 234 — 28 octobre 1874. L'an mil huit cent soixante-quatorze, le vingt-huitième jour du mois d'octobre, à midi, pardevant Me Elzéar Hubert Tremblay, Notaire Public, résidant [à Québec rayé] à St Romuald, soussigné ; Fut présent : Jean-Baptiste Fontaine, rentier, de St Romuald, comté de Lévis ; Lequel a par ces présentes donné à loyer, pour le terme & espace de six mois entiers qui commenceront à courir du premier jour de novembre prochain & finiront le trentième jour d'avril de l'année mil huit cent soixante-quinze, à Jean-Baptiste Lambert, du même lieu, journalier, à ce présent & acceptant preneur pour lui, ses hoirs & ayans causes, savoir : Deux chambres dans le deuxième étage & une partie dans le premier, le tout du côté nord, d'une maison en bois à deux étages, située sur le niveau est de la rue St Paul & appartenant au Bailleur ; ensemble part de cour pour le bois de chauffage & droit au puits d'aisance. [001985] [Suivent les charges imprimées du bail.] Ce bail est fait pour le prix & somme de douze piastres courant pour les six mois de sa durée, payable en un seul paiement au premier jour de novembre prochain. [001986] Dont acte, fait & passé à St Romuald, étude du dit Notaire, les jour, mois & an susdits, sous le numéro deux cent trente-quatre des originaux du Notaire soussigné. Requis de signer, le Bailleur a déclaré ne le savoir, en présence de Mr A. Gaston Bélanger, de Québec, ancien marchand, témoin, qui a signé ainsi que le preneur avec moi, Notaire, lecture faite. Mots rayés sont nuls. Jean Baptiste Lambert ; A. Gaston Bélanger ; E. H. Tremblay, N.P. » — [Au dos de la chemise (001987) : « Reçu en acompte sur le loyer stipulé à ce bail, la somme de sept piastres. St Romuald, 28 octobre 1874. » marque « X » de J.-B. Fontaine, témoin le notaire.]",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Jean-Baptiste Fontaine",
+          "ref_personne": "1891-D1-P087-L19",
+          "note": "Rentier de Saint-Romuald ; ne sait signer (marque « X »). Vraisemblablement le Jean-Baptiste Fontaine « ex-cultivateur », 87 ans au recensement de 1891 (maison 379) — soit environ 70 ans en 1874, ce qui cadre avec « rentier ». Rattachement probable."
+        },
+        {
+          "role": "preneur",
+          "nom": "Jean-Baptiste Lambert",
+          "note": "Journalier de Saint-Romuald ; signe. Plusieurs Jean-Baptiste Lambert journaliers au recensement (ainsi 1881-D1-P019-L17, 45 ans) : aucun ne se distingue sûrement — non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "A. Gaston Bélanger",
+          "note": "Ancien marchand de Québec ; signe. Preneur du bail précédent (n° 233). Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Jean-Baptiste Fontaine, vieux rentier de Saint-Romuald, loue à Jean-Baptiste Lambert, journalier, deux chambres (plus une partie du premier étage), côté nord d'une maison de bois à deux étages sur la rue Saint-Paul, pour six mois d'hiver, au prix de douze piastres payées d'avance ; il reçoit sept piastres d'acompte le jour même. Fontaine ne sait signer ; témoin A. Gaston Bélanger, de Québec, qui est aussi le preneur du n° 233.",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "01040",
+          "microfilm": "001984",
+          "drive": "11gttDZrsrEYOOV6_I1JL7QXUSxAdR9tR",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01041",
+          "microfilm": "001985",
+          "drive": "1CMY-D6LU1BFJ_pGjsncLWBxYETTfJWhP",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01042",
+          "microfilm": "001986",
+          "drive": "1xZ9juegyRVTtLrLzozQalovxMaZ8GMWJ",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01043",
+          "microfilm": "001987",
+          "drive": "1L8vhwnWKs9CWHHB8l7DLeysuUwUf9X6H",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-02-quittance-cantin-couture",
+      "type": "notarie",
+      "titre": "Quittance de Pierre Cantin, de Saint-Jean-Chrysostome, à Joseph Couture, de Saint-Lambert, pour une obligation de 1869 — minute n° 235, 2 novembre 1874",
+      "date": "1874-11-02",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 235, images 001988 à 001989 (Drive : fichiers 04T_CN401S124P_01044 à 01045) ; en marge « Quittance — Cantin — Couture — Original — Exp. 1 fois — payé ». Acte complet.",
+      "nature": "Quittance passée le 2 novembre 1874, après-midi, devant le notaire (sans témoin nommé) ; le comparant signe.",
+      "transcription": "[001988] « N° 235 — 2 novembre 1874. L'an mil huit cent soixante-quatorze, le deuxième jour de novembre après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant à St Romuald, comté de Lévis, soussigné ; Fut présent : Mr Pierre Cantin, cultivateur, demeurant à St Jean Chrysostome, dit comté ; Lequel reconnaît & confesse avoir eu & reçu à son entière satisfaction, en bon argent courant, lors de l'exécution des présentes, à vue & présence de nous notaire, de sieur Joseph Couture, cultivateur, de St Lambert, dit comté, la somme de cent piastres courant & tous les intérêts échus jusqu'à ce jour ; [001989] laquelle somme était due au comparant suivant obligation consentie par le dit Sr Couture en date du douze octobre mil huit cent soixante-neuf, reçue par Me Laliberté, Notaire, enregistrée au Bureau du comté de Dorchester, division n° deux, Reg. B, Vol. 17, Page 400, sous le N° 13 752. Dont & du tout le comparant donne & accorde au dit sieur Couture quittance générale & finale. Dont acte requis & octroyé à St Romuald, étude du dit Notaire, les jour, mois & an susdits, sous le numéro deux cent trente-cinq. Et le comparant a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Pierre Cantin ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "créancier",
+          "nom": "Pierre Cantin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe. Saint-Jean-Chrysostome recouvre Saint-Romuald : un Pierre Cantin cultivateur est recensé en division 2 (64 ans en 1871, maison 6 ; 71 ans en 1881, maison 225) — peut-être le même, sans certitude. Non rattaché."
+        },
+        {
+          "role": "débiteur",
+          "nom": "Joseph Couture",
+          "note": "Cultivateur de Saint-Lambert ; devait cent piastres à Cantin depuis une obligation du 12 octobre 1869 (Me Laliberté). Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Pierre Cantin, cultivateur de Saint-Jean-Chrysostome, donne quittance générale et finale à Joseph Couture, cultivateur de Saint-Lambert, qui lui rembourse cent piastres (et les intérêts) dues depuis une obligation du 12 octobre 1869 (Me Laliberté, enregistrée dans le comté de Dorchester).",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "01044",
+          "microfilm": "001988",
+          "drive": "1BWslqaDSpuhm4VVRyTbtOy4HVmc_A2fL",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01045",
+          "microfilm": "001989",
+          "drive": "1E5U1D50r6m7joAXMrWMPVRGHLoR3NzFF",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-02-obligation-couture-sevigny",
+      "type": "notarie",
+      "titre": "Obligation de Joseph Couture, de Saint-Lambert, envers Napoléon Sévigny, ingénieur, garantie par deux terres à Saint-Lambert — minute n° 236, 2 novembre 1874",
+      "date": "1874-11-02",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 236, images 001990 à 001993 (Drive : fichiers 04T_CN401S124P_01046 à 01049) ; en marge « Obligation — Couture — Sévigny — Original — Exp. 1 fois ». Rédigée sur un formulaire imprimé d'obligation (Me Geo.-Théo. Tremblay), dont le fichier 01049 est la chemise, vierge. Acte complet.",
+      "nature": "Obligation (reconnaissance de dette) passée le 2 novembre 1874, après-midi, à Saint-Romuald, étude du notaire (sans témoin nommé) ; le débiteur et le créancier signent.",
+      "transcription": "[001990] « N° 236 — 2 novembre 1874. Pardevant le Notaire Public résidant & pratiquant à St Romuald, comté de Lévis, [imprimé rayé : pour cette partie de la Province du Canada appelée Bas-Canada, résidant en la Cité de Québec] soussigné ; Fut présent : Sieur Joseph Couture, cultivateur, demeurant en la paroisse de St Lambert, dans le comté de Lévis ; Lequel a reconnu & confessé devoir bien légitimement à Mr Napoléon Sévigny, de St Jean Chrysostome, ingénieur, à ce présent & acceptant, la somme de cent & cinquante piastres, étant pour prêt de pareille somme fait & délivré, partie avant & partie lors de l'exécution des présentes, en bon argent courant — ainsi que le dit Débiteur le reconnaît & dont il se déclare content & satisfait. Laquelle dite somme de cent & cinquante piastres courant, le dit Débiteur promet & s'oblige, pour lui, ses héritiers & ayans cause, payer & rembourser au dit créancier ou ordre, porteur des présentes en forme légale, à première demande, ensemble avec l'intérêt de huit pour cent par an, payable annuellement à compter de ce jour, jusqu'au parfait & entier paiement de la dite somme capitale. [001991] Pour sûreté de laquelle dite somme de cent & cinquante piastres courant, & des intérêts qui en proviendront, le dit Débiteur hypothèque spécialement : 1° La moitié indivise d'une terre de un arpent & demi de front sur vingt-deux arpents de profondeur, plus ou moins (tant pour le front que pour la profondeur), située à St Lambert susdit, concession St Augustin, étant le lot numéro cinquante-un, bornée par-devant au sud-ouest à la Rivière Chaudière, par-derrière au nord-est à sa profondeur, au nord à [A. ?] Demers & au sud à Magloire Lemieux, circonstances & dépendances, sans réserve ; 2° Une autre terre, aux mêmes lieu & concession, bornée au sud-ouest à la Rivière Chaudière & au nord-est à la profondeur, contenant un arpent & demi de front sur vingt arpents de profondeur, le tout plus ou moins, tenant au nord à Magloire Dubois & au sud à Louis Mageau [?], avec les bâtisses y érigées, circonstances & dépendances, sans réserve. [001992] Et pour l'exécution des présentes les parties font élection de leurs domiciles irrévocables en leurs demeures actuelles & respectives, aux quels lieux, etc. Car ainsi, etc. Dont acte, fait & passé à St Romuald, en l'étude de Me E. H. Tremblay, Notaire, l'an mil huit cent soixante-quatorze, le deuxième jour de novembre après-midi, sous le numéro deux cent trente-six des originaux du Notaire soussigné. Et les débiteur & créancier ont signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Napoléon Sévigny ; Joseph Couture ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "débiteur",
+          "nom": "Joseph Couture",
+          "note": "Cultivateur de Saint-Lambert ; signe. Hors de la paroisse de Saint-Romuald : non rattaché. C'est le même Joseph Couture qui, le même jour, rembourse Pierre Cantin (n° 235)."
+        },
+        {
+          "role": "créancier",
+          "nom": "Napoléon Sévigny",
+          "note": "Ingénieur de Saint-Jean-Chrysostome ; prête cent cinquante piastres ; signe. Aucun Napoléon Sévigny au recensement de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Magloire Lemieux",
+          "note": "Borne sud du premier lot (n° 51, concession Saint-Augustin, à Saint-Lambert)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Magloire Dubois",
+          "note": "Borne nord de la seconde terre."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis Mageau",
+          "note": "Borne sud de la seconde terre (lecture incertaine)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le même jour qu'il rembourse Pierre Cantin (n° 235), Joseph Couture, cultivateur de Saint-Lambert, emprunte cent cinquante piastres à Napoléon Sévigny, ingénieur de Saint-Jean-Chrysostome, à 8 % d'intérêt, remboursables à première demande. La dette est garantie par deux terres de la concession Saint-Augustin à Saint-Lambert, sur la rivière Chaudière (dont le lot n° 51).",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "01046",
+          "microfilm": "001990",
+          "drive": "1QQamgFmpqQWykKXqx-4Hj3NWzrmOZxKh",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01047",
+          "microfilm": "001991",
+          "drive": "1UjStWsFHEKPEpgK6CSBDJpOg9NFB2aZy",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01048",
+          "microfilm": "001992",
+          "drive": "1dBAcDC_QKcY0xylyvDbuUQSLfScU1yY6",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01049",
+          "microfilm": "001993",
+          "drive": "1yEkA4HRk3RtkUBjJbvTTthryUEpKOCB5",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-05-vente-gagne-lapierre",
+      "type": "notarie",
+      "titre": "Vente de George Gagné à Étienne Denis dit Lapierre, d'un emplacement à Saint-Jean-Chrysostome — minute n° 237, 5 novembre 1874",
+      "date": "1874-11-05",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 237, image 001994 (Drive : fichier 04T_CN401S124P_01050) ; en marge « Vente — Gagné à Lapierre — Original — enregistré — payé ». Acte INCOMPLET : seule la première page est au Drive (le sous-dossier 1051-1100 n'est pas encore déposé) ; la suite est sur le fichier 01051.",
+      "nature": "Vente passée le 5 novembre 1874, après-midi, devant le notaire. Première page seulement.",
+      "transcription": "[001994] « N° 237. L'an mil huit cent soixante-quatorze, le cinq de novembre, après-midi, en présence de Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Mr George Gagné, de la paroisse de St Jean Chrysostome, marchand ; Lequel vend, cède, transporte & abandonne dès maintenant & à toujours, avec garantie de tous troubles & empêchements généralement quelconques, à Mr Étienne Denis dit Lapierre, du même lieu, cultivateur, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayant cause, savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant cent cinquante [?] pieds de front sur cent soixante [?] pieds de profondeur, le tout plus ou moins, borné au nord à Antoine Paradis, aux autres côtés à Mr Pierre [E. ?] Roberge […] » [suite sur le fichier 01051, non encore au Drive].",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "George Gagné",
+          "note": "Marchand de Saint-Jean-Chrysostome. Non rattaché (laissé tel dans la vente du 9 octobre, notarie-1874-10-09-vente-richard-gagne) ; un George Gagné journalier est recensé en 1871 (1871-D1-P073-L06), sans certitude."
+        },
+        {
+          "role": "acheteur",
+          "nom": "Étienne Denis dit Lapierre",
+          "note": "Cultivateur de Saint-Jean-Chrysostome. Non rattaché (comme dans la vente du 2 juillet, notarie-1874-07-02-vente-lapierre-richard) ; un Étienne (Denis dit) Lapierre, journalier, est recensé à Saint-Romuald en 1881 (1881-D1-P052-L08) et 1891 (1891-D1-P014-L04), sans certitude."
+        },
+        {
+          "role": "voisin",
+          "nom": "Antoine Paradis",
+          "note": "Borne nord de l'emplacement, à Saint-Jean-Chrysostome."
+        },
+        {
+          "role": "voisin",
+          "nom": "Pierre Roberge",
+          "note": "Autre borne de l'emplacement."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Première page d'une vente d'emplacement à Saint-Jean-Chrysostome (concession Saint-Augustin), de George Gagné, marchand, à Étienne Denis dit Lapierre, cultivateur. La suite (prix, conditions, clôture, signatures) est sur le fichier 01051, pas encore déposé au Drive. À compléter au prochain lot.",
+      "ajoute_le": "2026-11-11",
+      "images": [
+        {
+          "fichier": "01050",
+          "microfilm": "001994",
+          "drive": "1n4VhAoiKljnlckinch8LotyIF06j-_49",
+          "legende": "1/1"
+        }
+      ]
+    },
+    {
       "id": "notarie-1874-09-26-bail-demers-lajoie",
       "type": "notarie",
       "titre": "Bail à rente foncière de Benjamin Demers à Joseph Lajoie, charpentier, rue Saint-Louis, 1874",
