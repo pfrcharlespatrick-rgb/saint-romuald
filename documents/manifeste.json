@@ -17307,6 +17307,101 @@
       "note": "Une bagarre réglée chez le notaire le jour même : l'agresseur paie les frais et la journée de travail perdue chez Atkinson, et l'affaire n'ira pas en justice. Rare trace d'une vie ouvrière ordinaire.",
       "ajoute_le": "2026-11-11",
       "images": []
+    },
+    {
+      "id": "notarie-1874-08-01-quittance-leclerc-samson-carrier",
+      "type": "notarie",
+      "titre": "Quittance de François Leclerc junior, marchand, à Jean-Baptiste Samson et Laurent Carrier, 1 000 piastres sur une terre de Saint-Jean-Chrysostome, 1874",
+      "date": "1874-08-01",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 161, images 001703 à 001706 (Drive : fichiers 04T_CN401S124P_00759 à 00761) ; acte complet.",
+      "nature": "Quittance, passée le 1er août 1874, après midi, en l'étude du notaire, sans témoin ; le comparant signe. En marge : « Quittance Leclerc à Carrier [&] Samson — Original — Expédié 1 fois ». Un renvoi en marge, paraphé « F. L., E. H. T. ». Mots rayés nuls.",
+      "transcription": "[001703-04] « N° 161 — 1er août 1874. L'an mil huit cent soixante-quatorze, le premier jour d'août, après midi, en présence de Elzéar Hubert Tremblay, notaire public […] ; Fut présent : François Leclerc, junior, de St Romuald, marchand ; Lequel dit & déclare ce qui suit, savoir : Attendu que Jean-Baptiste Samson a, suivant acte reçu par Mtre É. Simard [?] le vingt-neuf octobre mil huit cent soixante-six, vendu à Laurent Carrier, de la paroisse de St Jean Chrysostome, cultivateur, une certaine terre située au dit lieu de St Jean Chrysostome, pour le prix de treize cent cinquante piastres courant & les intérêts y fixés ; Attendu qu'en date du vingt juillet mil huit cent soixante-neuf, le dit Jean[001704-05]-Baptiste Samson a transporté (renvoi : [suivant acte] reçu par Mtre Louis […] [?]), pour considérations mentionnées au dit acte de transport, la somme de mille piastres courant & les intérêts au taux de six pour cent par an, étant la balance due au dit Jean-Baptiste Samson par le dit Laurent Carrier ; Attendu que le dit François Leclerc a, dès avant ces présentes, eu & reçu à son entière satisfaction la dite somme de mille piastres courant & tous les intérêts échus sur icelle dite somme à lui transportée ; C'est pourquoi le dit comparant donne & accorde aux dits Jean-Baptiste Samson & Laurent Carrier quittance générale & finale. Dont acte, fait & passé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent soixante-un des originaux du notaire soussigné. [001705-06] Et le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls ; un renvoi en marge est bon & approuvé. » Signatures : « Frs Leclerc », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "creancier",
+          "nom": "François Leclerc, junior",
+          "ref_personne": "1871-D1-P049-L14",
+          "note": "Marchand de Saint-Romuald ; signe « Frs Leclerc ». Cessionnaire en 1869 de la créance de Jean-Baptiste Samson. Marchand de 37 ans en 1871 (division 1, maison 134), comme aux n° 51-52 et 153."
+        },
+        {
+          "role": "autre",
+          "nom": "Jean-Baptiste Samson",
+          "note": "Vendeur en 1866 d'une terre de Saint-Jean-Chrysostome à Laurent Carrier ; a cédé en 1869 le solde du prix à François Leclerc. Non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Laurent Carrier",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, acquéreur de la terre en 1866 pour 1 350 piastres. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un marchand de Saint-Romuald qui achète des créances hypothécaires de campagne : il touche enfin, cinq ans après la cession, les 1 000 piastres que devait Laurent Carrier sur sa terre.",
+      "ajoute_le": "2026-11-11",
+      "images": []
+    },
+    {
+      "id": "notarie-1874-08-02-quittance-duperron-simoneau",
+      "type": "notarie",
+      "titre": "Quittance d'Antoine Duperron dit Lavertu fils, de Saint-Lambert, à Laurent Simoneau, pour sa part d'héritage de feue Marie Roberge, 1874",
+      "date": "1874-08-02",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 162, images 001706 à 001709 (Drive : fichiers 04T_CN401S124P_00762 à 00764) ; acte complet.",
+      "nature": "Quittance, passée le 2 août 1874, après midi, en l'étude du notaire, en présence d'un témoin ; le comparant ne sait signer. En marge : « Quittance Ant. Lavertu fils à Laurent Simoneau — Original — Expédié 1 fois pour enregistrer — Payé pour enregistrement » ; en marge du quatrième feuillet : « Acte de vente de Blanchet à Simoneau ». Quatre renvois paraphés « J. B. G., E. H. T. ». Le notaire avait d'abord écrit « le troisième jour d'août, avant midi ».",
+      "transcription": "[001706-07] « N° 162 — 2 août 1874. L'an mil huit cent soixante-quatorze, le deuxième jour d'août, après midi, en présence de Elzéar Hubert Tremblay, notaire public […] ; Et en présence de Jean-Baptiste Gagnon, menuisier, du même lieu, témoin […] ; Fut présent : Antoine (1) [renvoi : Duperron dit] Lavertu, fils, de la paroisse de St (2) [renvoi : Lambert ; « Jean Chrysostome », rayé], dit comté, cultivateur ; Lequel dit & déclare ce qui suit, savoir : Attendu que feue Dame Marie Roberge est décédée ab intestat, laissant pour héritiers cinq enfants, au nombre desquels se trouve le comparant ; Attendu que, suivant inventaire & acte de partage fait depuis, la somme de neuf louis revenait à chaque héritier ; Attendu que la vente de la moitié de la terre (1) [renvoi : ainsi que l'autre moitié de la dite terre échue à Antoine Lavertu, père du comparant, en sa qualité de commun en biens avec la dite feue Dame Marie Roberge] échue aux dits enfants a été faite par forme de licitation & adjugée à Jean-Baptiste Blanchet, de St Jean Chrysostome, cultivateur, aux charges mentionnées au dit acte de vente, & notam[001707-08]ment de payer la part revenant aux dits héritiers, formant un montant total de la somme de quarante-cinq louis courant & intérêts ; Attendu que subséquemment le dit sieur Blanchet a vendu (2) [renvoi : à sieur Laurent Simoneau, de St Jean Chrysostome, cultivateur] la dite terre aux mêmes charges, clauses & conditions que le dit sieur Blanchet lui-même y était obligé, & à l'acquit & décharge de ce dernier, suivant acte de vente reçu par Mtre Étienne Simard & son confrère, notaires, en date à St Romuald susdit du seizième jour de septembre mil huit cent soixante [?], lequel acte de vente a été enregistré au bureau d'enregistrement du comté de Lévis quelque temps après ; Attendu que le dit comparant reconnaît & confesse avoir eu & reçu à son entière satisfaction, partie avant & partie lors de l'exécution des présentes, en bon argent courant, la dite somme de neuf louis courant & les intérêts échus sur icelle dite somme jusqu'à ce jour ; C'est pourquoi le dit comparant donne & accorde par ces présentes quittance générale & finale en faveur du dit sieur Simoneau, [001708-09] à l'acquit & décharge du dit sieur Blanchet, & veut & consent que l'hypothèque créée en sa faveur soit radiée de ce jour & à toujours. Dont & du tout le dit comparant a requis le présent acte, qui lui a été octroyé à St Romuald susdit, étude du dit notaire, les jour, mois & an susdits, sous le numéro cent soixante-deux des originaux du notaire soussigné. Requis de signer, le comparant a déclaré ne le savoir, en présence du dit témoin, qui a alors signé avec moi, notaire, lecture faite. Mots rayés sont nuls ; renvois en marge bons & approuvés. » Signatures : « Jean Baptiste Gagnon », « E. H. Tremblay N.P. »",
+      "personnes": [
+        {
+          "role": "creancier",
+          "nom": "Antoine Duperron dit Lavertu, fils",
+          "note": "Cultivateur de Saint-Lambert ; ne sait signer. Fils d'Antoine Duperron dit Lavertu père et de feue Marie Roberge. Sans doute l'« Antoine Duperron dit Laverte [?] » de Saint-Lambert du n° 21 : le surnom se lit ici Lavertu. Non rattaché."
+        },
+        {
+          "role": "pere",
+          "nom": "Antoine Duperron dit Lavertu, père",
+          "note": "Commun en biens avec feue Marie Roberge ; reçut la moitié de la terre. Non rattaché."
+        },
+        {
+          "role": "defunte",
+          "nom": "Marie Roberge",
+          "note": "Épouse d'Antoine Duperron dit Lavertu père ; morte sans testament, laissant cinq enfants. Non rattachée."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Laurent Simoneau",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; acquéreur de la terre de Jean-Baptiste Blanchet (Me Étienne Simard, 16 septembre 1860 [?]), à charge de payer la part des héritiers. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Jean-Baptiste Blanchet",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; adjudicataire de la terre par licitation. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Jean-Baptiste Gagnon",
+          "ref_personne": "1871-D1-P046-L20",
+          "note": "Menuisier de Saint-Romuald ; signe. Rattaché en probable au menuisier veuf de 45 ans de 1871 (division 1, maison 127), menuisier encore en 1881 et 1891."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "date": "1874-08-02",
+          "personnes": [],
+          "enonce": "Antoine Duperron dit Lavertu fils, de Saint-Lambert, est l'un des cinq enfants d'Antoine Duperron dit Lavertu père et de feue Marie Roberge, morte ab intestat."
+        }
+      ],
+      "note": "Le surnom lu « Laverte » aux n° 21 et 28 s'écrit ici « Lavertu ». La part d'héritage d'un enfant (neuf louis) restait hypothéquée sur la terre vendue par licitation depuis plus de dix ans : chaque acquéreur successif l'avait prise en charge.",
+      "ajoute_le": "2026-11-11",
+      "images": []
     }
   ]
 }
