@@ -1,7 +1,7 @@
 {
   "format": "documents-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-11-11",
+  "mis_a_jour": "2026-11-12",
   "note": "Index des documents historiques qui établissent des liens de filiation. Un document versé ici l'emporte toujours sur une proposition automatique de data/filiation-data.js : l'acte est une preuve, le rapprochement algorithmique n'est qu'une hypothèse. Voir documents/README.md pour la marche à suivre.",
   "types_admis": {
     "bapteme": "Acte de baptême — établit une filiation directe et une date de naissance",
@@ -380,7 +380,9 @@
         },
         {
           "role": "mere",
-          "nom": "Théotiste Forcade (née Desrochers)"
+          "nom": "Théotiste Forcade (née Desrochers)",
+          "ref_personne": "1871-D2-P018-L08",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « familysearch-theotiste-forcade-desrochers » — recensée « Théotis Desrochers », 78 ans, dans le ménage de son fils Albert (maison 43)."
         },
         {
           "role": "soeur",
@@ -533,7 +535,9 @@
         },
         {
           "role": "mere",
-          "nom": "Théotiste Forcade (née Desrochers)"
+          "nom": "Théotiste Forcade (née Desrochers)",
+          "ref_personne": "1871-D2-P018-L08",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « familysearch-theotiste-forcade-desrochers » — recensée « Théotis Desrochers », 78 ans, dans le ménage de son fils Albert (maison 43)."
         }
       ],
       "affirmations": [
@@ -796,11 +800,15 @@
         },
         {
           "role": "mere",
-          "nom": "Emilie Casey"
+          "nom": "Emilie Casey",
+          "ref_personne": "1871-D2-P029-L16",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « familysearch-robert-mcready-arbre » — recensée « Emélie Casey », 75 ans, en 1871 (maison 75)."
         },
         {
           "role": "frere",
-          "nom": "John McReady"
+          "nom": "John McReady",
+          "ref_personne": "1871-D2-P022-L13",
+          "note": "Rattaché par recoupement le 2026-11-12 : même personne que dans la fiche « familysearch-robert-mcready-arbre » — recensé « John Macready », 50 ans, en 1871 (maison 58)."
         },
         {
           "role": "frere",
@@ -1070,7 +1078,9 @@
         },
         {
           "role": "mere",
-          "nom": "Emilie Casey"
+          "nom": "Emilie Casey",
+          "ref_personne": "1871-D2-P029-L16",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « familysearch-robert-mcready-arbre » — recensée « Emélie Casey », 75 ans, en 1871 (maison 75)."
         },
         {
           "role": "epouse",
@@ -1341,7 +1351,9 @@
         },
         {
           "role": "enfant",
-          "nom": "Rose-De-Lima Délima (de Lima) Roberge"
+          "nom": "Rose-De-Lima Délima (de Lima) Roberge",
+          "ref_personne": "1871-D2-P019-L01",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « geni-rose-delima-roberge-hardy » — recensée « Rose Hardy », 45 ans, sous son nom d'épouse, en 1871 (maison 47)."
         },
         {
           "role": "enfant",
@@ -1366,7 +1378,9 @@
         },
         {
           "role": "enfant",
-          "nom": "Céleste Roberge"
+          "nom": "Céleste Roberge",
+          "ref_personne": "1871-D2-P020-L02",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « sthilaire-2010-magdeleine-delisle » — recensée « Céleste Peltier », 45 ans, sous son nom d'épouse, en 1871 (maison 50)."
         },
         {
           "role": "enfant",
@@ -1434,7 +1448,9 @@
         },
         {
           "role": "soeur",
-          "nom": "Rose-De-Lima Délima (de Lima) Roberge"
+          "nom": "Rose-De-Lima Délima (de Lima) Roberge",
+          "ref_personne": "1871-D2-P019-L01",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « geni-rose-delima-roberge-hardy » — recensée « Rose Hardy », 45 ans, sous son nom d'épouse, en 1871 (maison 47)."
         },
         {
           "role": "frere",
@@ -1454,7 +1470,9 @@
         },
         {
           "role": "soeur",
-          "nom": "Céleste Roberge"
+          "nom": "Céleste Roberge",
+          "ref_personne": "1871-D2-P020-L02",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « sthilaire-2010-magdeleine-delisle » — recensée « Céleste Peltier », 45 ans, sous son nom d'épouse, en 1871 (maison 50)."
         },
         {
           "role": "soeur",
@@ -3228,11 +3246,6 @@
           "nom": "Ernest Benson",
           "ref_personne": "1881-D2-P054-L22",
           "note": "Dépouillé « Ernest Bindon ». Le manuscrit porte « Benson Ernest », 36 ans, marchand de bois."
-        },
-        {
-          "role": "enfant",
-          "nom": "Alice McCready",
-          "note": "Ligne 15 du feuillet, 2 ans, fille de Robert McCready. Absente du dépouillement — non ajoutée d'office."
         },
         {
           "role": "mere",

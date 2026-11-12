@@ -1,6 +1,6 @@
 # Reprise des rattachements lieu ↔ maison
 
-*Établi le 2026-09-13 par `outils/lieux/rapprocher.mjs`, sur les cinq recensements dépouillés.*
+*Établi le 2026-11-12 par `outils/lieux/rapprocher.mjs`, sur les cinq recensements dépouillés.*
 
 Les occupations de la couche des lieux ont été posées en août 2026, à partir
 des propositions de la brochure Bussière. Les recensements ont été relus depuis :
@@ -32,7 +32,8 @@ propositions de la brochure, qui rattachait un nom à une adresse sans dater le
 rattachement — c'est exactement le défaut que la couche des lieux a été écrite
 pour corriger.
 
-Aucune : tous les rattachements en place sont compatibles avec la date de bâti.
+- **La maison du curé Sax** (2393, chemin du Fleuve) — rattachement 1871, division 1, maison 217 : bâti en 1877, soit 6 an(s) après le recensement de 1871.
+  <br>Motif inscrit : « Pierre Sax »
 
 ---
 
@@ -71,7 +72,6 @@ du rapport : elle dit ce qu'un rapprochement naïf aurait écrit.
 
 - La maison Saint-Hilaire — 1871 : bâti en v.1880, soit 9 an(s) après le recensement de 1871.
 - La maison Demers — 1871 : Louis Demers y est recensé sans être chef de ménage (1871, division 1, maison 66) — il y loge, il n'y tient pas maison.
-- La maison du curé Sax — 1871 : bâti en 1877, soit 6 an(s) après le recensement de 1871.
 
 **Maisons déjà prises ailleurs.** Le ménage s'y retrouve, mais la maison appartient déjà à un autre emplacement : c'est le signe d'un déménagement, ou d'une erreur à trancher.
 
@@ -134,7 +134,7 @@ qu'on y recense telle année. Rien n'est versé automatiquement.
 
 - **Joseph Gagnon** → 6 ménages : 1871 D1 maison 149 (Joseph Gagnon, 26 a., Journalier) ; 1871 D1 maison 153 (Joseph Gagnon, 58 a., Journalier) ; 1881 D1 maison 96 (Joseph Gagnon, 51 a., Journalier) ; 1881 D1 maison 311 (Joseph Gagnon, 65 a., Journalier) ; 1881 D2 maison 138 (Joseph Gagnon, 26 a., Navigateur) ; 1891 D1 maison 167 (Joseph Gagnon, 74 a., Journalier)
 - **Célina Cadoret** → 1 ménage : 1881 D1 maison 219 (Délina Cadoret, 32 a., Blanchisseuse)
-- **Cadoret** → 14 ménages : 1871 D1 maison 47 (Joseph Cadoret, 28 a., Journalier) ; 1871 D2 maison 71 (Louis Cadoret, 70 a., Journalier) ; 1871 D2 maison 87 (Paul Cadoret, 30 a., Journalier) ; 1871 D2 maison 93 (Jacques [?] Cadoret, 40 a., Journalier) ; 1871 D2 maison 103 (George Cadoret, 48 a., Journalier) ; 1871 D2 maison 107 (Michel Cadoret, 30 a., Journalier) ; 1871 D2 maison 120 (Louis Cadoret, 44 a., [illisible] [?]) ; 1871 D2 maison 137 (Nazaire Cadoret, 26 a.) ; 1881 D1 maison 219 (Délina Cadoret, 32 a., Blanchisseuse) ; 1891 D1 maison 487 (Michel Cadoret, 53 a., Journalier) ; 1891 D1 maison 499 (Paul Cadoret, 58 a., Journalier) ; 1891 D1 maison 501 (Philippe Cadoret, 29 a., Débardeur) ; 1891 D1 maison 532 (Archille Cadoret, 27 a., Débardeur) ; 1891 D1 maison 535 (Jacque Cadoret, 60 a., Débardeur)
+- **Cadoret** → 14 ménages : 1871 D1 maison 47 (Joseph Cadoret, 28 a., Journalier) ; 1871 D2 maison 71 (Louis Cadoret, 70 a., Journalier) ; 1871 D2 maison 87 (Paul Cadoret, 30 a., Journalier) ; 1871 D2 maison 93 (Jacques [?] Cadoret, 40 a., Journalier) ; 1871 D2 maison 103 (George Cadoret, 48 a., Journalier) ; 1871 D2 maison 107 (Michel Cadoret, 30 a., Journalier) ; 1871 D2 maison 120 (Louis Cadoret, 44 a., [illisible] [?]) ; 1871 D2 maison 138 (Nazaire Cadoret, 26 a.) ; 1881 D1 maison 219 (Délina Cadoret, 32 a., Blanchisseuse) ; 1891 D1 maison 487 (Michel Cadoret, 53 a., Journalier) ; 1891 D1 maison 499 (Paul Cadoret, 58 a., Journalier) ; 1891 D1 maison 501 (Philippe Cadoret, 29 a., Débardeur) ; 1891 D1 maison 532 (Archille Cadoret, 27 a., Débardeur) ; 1891 D1 maison 535 (Jacque Cadoret, 60 a., Débardeur)
 
 ### Maison du Dr Michel P. Lambert — 2547, chemin du Fleuve
 
@@ -158,3 +158,40 @@ qu'on y recense telle année. Rien n'est versé automatiquement.
 
 - **Benjamin Demers** → 1 ménage : 1871 D1 maison 66 (Benjamin Demers, 48 a., Cultivateur)
 - **Julien Demers** → 3 ménages : 1881 D1 maison 67 (L.Julien Demers, 31 a., Marchand) ; 1881 D1 maison 205 (Julie Demers, 54 a.) ; 1891 D1 maison 129 (Louis Julien Demers, 41 a., Marchand de marchandises sèches)
+- **Pierre-Télesphore Sax** → 1 ménage : 1871 D1 maison 217 (Pierre Sax, 48 a., Prêtre)
+
+### 55 : maison en bois - Goad
+
+- **bois** → 5 ménages : 1871 D2 maison 4 (Célestin Bois, 40 a., Journalier) ; 1871 D2 maison 165 [?] (Louis Bois, 21 a., Journalier) ; 1881 D1 maison 118 (Célestin Bois, 49 a., Journalier) ; 1881 D1 maison 218 (Elzéar Bois, 33 a., Journalier) ; 1891 D1 maison 364 (Émélie Bois, 44 a.)
+
+### 35 : maison en bois - Goad
+
+- **bois** → 5 ménages : 1871 D2 maison 4 (Célestin Bois, 40 a., Journalier) ; 1871 D2 maison 165 [?] (Louis Bois, 21 a., Journalier) ; 1881 D1 maison 118 (Célestin Bois, 49 a., Journalier) ; 1881 D1 maison 218 (Elzéar Bois, 33 a., Journalier) ; 1891 D1 maison 364 (Émélie Bois, 44 a.)
+
+### 40 : maison en bois - Goad
+
+- **bois** → 5 ménages : 1871 D2 maison 4 (Célestin Bois, 40 a., Journalier) ; 1871 D2 maison 165 [?] (Louis Bois, 21 a., Journalier) ; 1881 D1 maison 118 (Célestin Bois, 49 a., Journalier) ; 1881 D1 maison 218 (Elzéar Bois, 33 a., Journalier) ; 1891 D1 maison 364 (Émélie Bois, 44 a.)
+
+### 32 : Dépendances en bois, remises et bâtiments secondaires non habités
+
+- **bois** → 5 ménages : 1871 D2 maison 4 (Célestin Bois, 40 a., Journalier) ; 1871 D2 maison 165 [?] (Louis Bois, 21 a., Journalier) ; 1881 D1 maison 118 (Célestin Bois, 49 a., Journalier) ; 1881 D1 maison 218 (Elzéar Bois, 33 a., Journalier) ; 1891 D1 maison 364 (Émélie Bois, 44 a.)
+
+### 30 : maison en bois - Goad
+
+- **bois** → 5 ménages : 1871 D2 maison 4 (Célestin Bois, 40 a., Journalier) ; 1871 D2 maison 165 [?] (Louis Bois, 21 a., Journalier) ; 1881 D1 maison 118 (Célestin Bois, 49 a., Journalier) ; 1881 D1 maison 218 (Elzéar Bois, 33 a., Journalier) ; 1891 D1 maison 364 (Émélie Bois, 44 a.)
+
+### Ritchie and Cull
+
+- **Ritchie** → 3 ménages : 1871 D1 maison 207 (John Ritchie, 35 a., Bourgeois) ; 1871 D2 maison 132 [?] (Hugh Ritchie, 39 a., Marchand de bois) ; 1881 D2 maison 247 (Hugh Ritchie, 49 a., Marchand de bois)
+
+### 15 : maison en bois - Goad
+
+- **bois** → 5 ménages : 1871 D2 maison 4 (Célestin Bois, 40 a., Journalier) ; 1871 D2 maison 165 [?] (Louis Bois, 21 a., Journalier) ; 1881 D1 maison 118 (Célestin Bois, 49 a., Journalier) ; 1881 D1 maison 218 (Elzéar Bois, 33 a., Journalier) ; 1891 D1 maison 364 (Émélie Bois, 44 a.)
+
+### A : Bois empilé; zones de stockage à haut risque de feu - Goad
+
+- **Bois** → 5 ménages : 1871 D2 maison 4 (Célestin Bois, 40 a., Journalier) ; 1871 D2 maison 165 [?] (Louis Bois, 21 a., Journalier) ; 1881 D1 maison 118 (Célestin Bois, 49 a., Journalier) ; 1881 D1 maison 218 (Elzéar Bois, 33 a., Journalier) ; 1891 D1 maison 364 (Émélie Bois, 44 a.)
+
+### Maison Denis Bordeleau — 1623 Chemin du fleuve
+
+- **Denis** → 3 ménages : 1871 D1 maison 129 (Joseph Denis, 36 a., Journalier) ; 1871 D1 maison 135 (Etienne Denis, 50 a., Journalier) ; 1891 D1 maison 55 (Étienne Denis dit Lapierre, 70 a., Journalier)
