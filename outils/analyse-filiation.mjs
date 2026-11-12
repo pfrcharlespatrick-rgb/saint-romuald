@@ -279,6 +279,25 @@ function scorerCouple(avant, apres, ecart) {
   return { score, motifs, sPat, sPre, age };
 }
 
+/** Ce qui concorde entre deux fiches que le calcul par le nom n'a pas
+    retenues ensemble — pour dire sur quoi repose un lien posé à la main.
+    Rend une liste vide quand rien ne concorde : ni nom, ni prénom, ni âge. */
+function appuisDe(avant, apres, ecart) {
+  const motifs = [];
+  const sPat = similarPatronyme(avant.clePatronyme, apres.clePatronyme);
+  const sPre = similarPrenom(avant.clesPrenom, apres.clesPrenom);
+  const age = noterAge(avant.age, apres.age, ecart);
+  const ageTient = age.connu && age.derive <= 6;
+  if (sPat < 0.6 && sPre < 0.75 && !ageTient) return motifs;
+  motifs.push(sPat === 1 ? 'patronyme identique' : sPat >= 0.6 ? `patronyme proche (${avant.nom} / ${apres.nom})`
+    : `patronyme différent (${avant.nom} / ${apres.nom})`);
+  motifs.push(sPre === 1 ? 'prénom concordant' : sPre >= 0.75 ? `prénom proche (${avant.prenom} / ${apres.prenom})`
+    : `prénom différent (${avant.prenom || '—'} / ${apres.prenom || '—'})`);
+  if (age.connu) motifs.push(`âge ${ageTient ? 'cohérent' : 'divergent'} (${avant.age} → ${apres.age}, écart de ${ecart} ans)`);
+  if (sexeFiable(avant) && sexeFiable(apres)) motifs.push(avant.sexe === apres.sexe ? 'sexe concordant' : `sexe divergent (${avant.sexe} → ${apres.sexe})`);
+  return motifs;
+}
+
 /**
  * Rapproche deux recensements.
  * Passe 1 : couples plausibles, indexés par patronyme pour rester rapide.
@@ -365,17 +384,23 @@ function rapprocher(personnesAvant, personnesApres, ecart, main = { forces: [], 
   const parPaire = new Map(couples.map(c => [`${c.avant.id}__${c.apres.id}`, c]));
   for (const f of main.forces) {
     const calcule = parPaire.get(`${f.avant.id}__${f.apres.id}`);
+    // Un lien que le nom n'avait pas retenu — une épouse sous son nom de
+    // naissance, un prénom d'usage — porte quand même ce qui concorde : l'âge,
+    // le sexe, l'un des deux noms. C'est le cas des rapprochements proposés
+    // par le ménage puis confirmés.
+    const appuis = calcule ? null : appuisDe(f.avant, f.apres, ecart);
     const c = calcule || {
       avant: f.avant, apres: f.apres, compagnons: 0,
-      motifs: ['aucun indice calculé : le rapprochement ne tient qu\'à la main'],
+      motifs: appuis.length ? appuis : ['aucun indice calculé : le rapprochement ne tient qu\'à la main'],
     };
     c.score = 1;
+    c.brut = Infinity;
     c.main = true;
-    // Un lien que rien ne corrobore — ni nom, ni âge, ni ménage — est retenu
-    // quand même, mais dit comme tel : c'est souvent un identifiant qui a
-    // glissé depuis la confirmation, et il faut que ça se voie.
-    if (!calcule) c.sansIndice = true;
-    c.motifs = [...c.motifs, `rapprochement confirmé à la main dans l'atelier${f.note ? ' — ' + f.note : ''}`];
+    // Un lien que rien ne corrobore — ni nom, ni âge — est retenu quand même,
+    // mais dit comme tel : c'est souvent un identifiant qui a glissé depuis la
+    // confirmation, et il faut que ça se voie.
+    if (!calcule && !appuis.length) c.sansIndice = true;
+    c.motifs = [...c.motifs, `rapprochement confirmé à la main ${f.dicte ? 'par le chercheur' : 'dans l\'atelier'}${f.note ? ' — ' + f.note : ''}`];
     prisAvant.set(c.avant.id, c);
     prisApres.set(c.apres.id, c);
     retenus.push(c);
@@ -793,7 +818,7 @@ function main() {
   for (const x of liensLaisses) process.stderr.write(`  lien laissé — ${x}\n`);
   const forcesEntre = (anneeDe, anneeVers) => liensMain
     .filter(r => r.de.startsWith(anneeDe + '-') && r.vers.startsWith(anneeVers + '-'))
-    .map(r => ({ avant: parId.get(r.de), apres: parId.get(r.vers), note: r.note }));
+    .map(r => ({ avant: parId.get(r.de), apres: parId.get(r.vers), note: r.note, dicte: r.dicte }));
   const ecartes = [];
 
   const parAnnee = new Map();

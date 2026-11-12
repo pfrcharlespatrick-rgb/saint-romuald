@@ -322,6 +322,13 @@ Paul Cadoret et « Paul Cadorette », le révérend F.-X. Smith et « Fred Augus
 Smith ». Le site les donnait pour morts. Cinq veuvages nouveaux sont apparus,
 dont celui d'Isabelle Burroughs, veuve d'Hubert Roberge père entre 1881 et 1891.
 
+Le 12 novembre 2026, Patrick a confirmé d'un bloc les 132 rapprochements
+proposés par le ménage et les 10 maillons déduits : ils sortent désormais avec
+`origine: "main"`, comme tout lien confirmé, et la décision est consignée dans
+`data/decisions-dictees.json` (voir CLAUDE.md, « Les décisions dictées »). La
+passe reste en place : les prochaines corrections de dépouillement en feront
+apparaître de nouveaux, à confirmer à leur tour.
+
 Les chiffres cités plus haut dans ce document (homonymies, disparitions) sont
 ceux de sa rédaction ; `data/filiation-data.js`, champ `comptes`, donne ceux
 du jour.

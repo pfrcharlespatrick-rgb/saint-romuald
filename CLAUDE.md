@@ -100,6 +100,28 @@ node outils/generer-site.mjs                    # propager aux fiches du site
 `data/travail-personnel.json` n'est jamais réécrit par ces outils : c'est
 l'archive de ce qui a été tranché.
 
+### Les décisions dictées
+
+Patrick tranche aussi hors de l'atelier, en le disant à Claude (« c'est bien la
+ligne 17 », « confirme-les tous »). Ces décisions sont **la main**, au même
+titre qu'une case corrigée — mais elles ne s'écrivent **pas** dans
+`data/travail-personnel.json` : l'atelier réécrit ce fichier en entier, depuis
+le navigateur, à chaque sauvegarde, et la décision s'en irait avec la suivante.
+Elles vont dans `data/decisions-dictees.json`, que `atelier.mjs` lit par-dessus
+le fichier de travail :
+
+- `corrections` — `{ id, champ, atelier, valeur, date, motif }` : le champ vaut
+  `valeur` **tant que l'atelier porte encore `atelier`** (`null` : il n'en dit
+  rien). Si la case a changé dans l'atelier depuis, la main y est repassée :
+  l'atelier l'emporte, et `fondre.mjs` dit la décision « dépassée ».
+- `liens` — comme `suivi-liens`. Un lien dicté s'efface devant un rejet posé
+  depuis dans l'annexe des filiations.
+
+N'y écrire que ce que Patrick a dit, avec la date et ses mots dans `motif`.
+L'atelier, lui, continue d'afficher sa propre case tant que Patrick ne l'a pas
+corrigée dans son navigateur : le lui rappeler quand une décision dictée
+contredit une case de l'atelier.
+
 ### Où en est la relecture à la main
 
 | Recensement | Relu par Patrick jusqu'à | Versé dans le site |
