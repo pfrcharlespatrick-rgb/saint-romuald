@@ -316,9 +316,45 @@ posées à la main (Tropy ne les décrit pas encore).
   deux déjà laissés sans rattachement dans d'autres actes). Seule la première
   page est au Drive ; la fiche est à compléter au fichier 01051.
 
-**Pour reprendre** : continuer au fichier **01051** (microfilm 001995), pour
-compléter la vente **n° 237** (Gagné à Denis dit Lapierre), quand Patrick aura
-déposé le sous-dossier « 1051-1100 ».
+**Mise à jour du 12 novembre 2026 — sous-dossier 1051-1100.** Patrick a déposé
+les fichiers **01051 à 01100**. Ils sont **tous lus** : la vente **n° 237** est
+complétée (01051-01052), et les actes **n° 238 à 251** (5 au 28 novembre 1874)
+sont transcrits ; le **n° 251 est incomplet** (sa fin est sur le fichier 01101,
+pas encore au Drive). **250 fiches `notarie-`.** Les identifiants Drive de 01051
+à 01100 sont dans `images-drive.json`.
+
+- **La boucle du hameau Roberge** (n° 237-239, 5 nov.) : Gagné vend à Étienne
+  Denis dit Lapierre un emplacement, Lapierre en donne quittance à Gagné sur une
+  dette (n° 238), puis reconnaît la rente de 7 piastres à Pierre Roberge par
+  titre nouvel (n° 239).
+- **Contrat de mariage Boucher–Topping** (n° 240, 9 nov.) : riche en
+  rattachements (voir le commit) — John Boucher et ses parents, Elizabeth
+  Topping, Angélique Boutin, Cédulie Topping, Louis Gelly.
+- **n° 241** : obligation Demeule à l'Île d'Orléans (hors paroisse).
+- **n° 242-244** : quittance Régin-Couture ; vente Benjamin Demers à Germain
+  Cantin (lotissement rue St-Louis/St-Jean-Baptiste, `1871-D1-P017-L04`) ;
+  quittance Shaw-Lizotte d'un billet égaré (Markham, à Québec).
+- **n° 245-248** : bail Roberge à Turgeon (hameau Roberge) ; obligation Pichette
+  à Villeneuve (`1871-D2-P072-L08` / `1871-D1-P013-L13`) ; vente de la veuve
+  Lambert (Louise Demers, `1871-D2-P071-L19`) à Pichette le lendemain ; bail de
+  la veuve Hallé (Ursule Drouin) à Frédéric Gagné (`1871-D2-P024-L07`).
+- **La boucle de l'emplacement Hallé** (n° 248-250, 26 nov.), calquée sur celle
+  du hameau Roberge : la veuve Hallé baille à Frédéric Gagné (n° 248), Gagné
+  revend le jour même à Ferdinand Roberge, chaloupier (n° 249, `1871-D2-P040-L03`),
+  qui reconnaît la rente par titre nouvel (n° 250).
+- **n° 251, incomplet** : vente par Germain Cantin à Charles Filteau
+  (`1871-D1-P023-L15`) d'une maison de bois à déménager. À compléter au 01101.
+- **Chemise sans acte** : le fichier **01079** est une chemise imprimée
+  « Bail à rente foncière — par Turgeon à L. Vallière ». Aucun bail Turgeon →
+  Vallière n'est dans ce sous-dossier : son acte est sans doute dans le
+  sous-dossier suivant (1101+) ; l'y rattacher alors (l'image 01079 n'est posée
+  sur aucune fiche pour l'instant).
+- **Témoin récurrent** : Louis-Joseph-Stanislas Roberge, instituteur de
+  St-Romuald (n° 247-250) ; non recensé sous ce nom.
+
+**Pour reprendre** : continuer au fichier **01101** (microfilm 002045), pour
+compléter la vente **n° 251** (Cantin à Filteau), quand Patrick aura déposé le
+sous-dossier « 1101-1150 ».
 
 Fils suivis dans la série 00451-00550 :
 

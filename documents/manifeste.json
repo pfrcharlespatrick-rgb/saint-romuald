@@ -22749,7 +22749,7 @@
       "titre": "Bail à rente foncière d'Ursule Drouin, veuve d'Antoine Hallé, à Frédéric Gagné, journalier, d'un emplacement à Saint-Romuald — minute n° 248, 26 novembre 1874",
       "date": "1874-11-26",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 248, images 002032 à 002034 (Drive : fichiers 04T_CN401S124P_01088 à 01090) ; en marge « Bail à rente — Hallé à Gagné — Original — payé 3.50 ; 1re copie à Dame Hallé, 2e copie à Mr Frédéric Roberge ». Rédigé sur le formulaire imprimé de bail à rente foncière de Me Tremblay. Acte complet.",
+      "cote": "Minute n° 248, images 002032 à 002035 (Drive : fichiers 04T_CN401S124P_01088 à 01091 ; le fichier 01091 est la chemise imprimée) ; en marge « Bail à rente — Hallé à Gagné — Original — payé 3.50 ; 1re copie à Dame Hallé, 2e copie à Mr Frédéric Roberge ». Rédigé sur le formulaire imprimé de bail à rente foncière de Me Tremblay. Acte complet.",
       "nature": "Bail à rente foncière & constituée, passé le 26 novembre 1874, vers midi, à Saint-Romuald, devant le notaire et un témoin, Louis-Joseph-Stanislas Roberge, instituteur ; la concédante et le concessionnaire ne savent signer, seul le témoin signe.",
       "transcription": "[002032] « N° 248 — 26 novembre 1874. Pardevant le Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Mr Louis-Joseph-Stanislas Roberge, de St Romuald, instituteur, témoin au présent acte aussi soussigné ; Fut présente : Dame Ursule Drouin, de St Romuald, veuve de feu Sr Antoine Hallé, en son vivant du même lieu, forgeron ; Laquelle a par ces présentes baillé & concédé dès maintenant & à toujours, à titre de Bail à rente foncière & constituée, & promet garantir de tous troubles & évictions quelconques, à Frédéric Gagné, de St Romuald, journalier, à ce présent & acceptant concessionnaire pour lui, ses héritiers & ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, comté de Lévis, contenant cinquante pieds de front sur cinquante pieds de profondeur, plus ou moins, le tout mesure française, borné au sud à une Rue, au nord à William Andrews, à l'est à Marguerite Roberge & à l'ouest à Albert Forcade, circonstances & dépendances. [002033] [Suivent les conditions imprimées du bail à rente foncière :] bâtir dans l'an une maison avec cheminée de pierre ou de briques ; entretenir rues & fossés ; payer à la concédante, au vingt-neuvième jour de septembre de chaque année, à dater du vingt-neuvième jour de septembre dernier, la somme de six piastres courant de rente foncière & constituée, rachetable en un seul paiement au capital de cent piastres ; hypothèque de l'emplacement ; la dite Dame Hallé se réserve le droit de Retrait en cas de vente ; copie à fournir ; reprise de possession après deux ans de rente impayée. [002034] Au moyen de quoi la concédante veut & consent que le concessionnaire jouisse & dispose de l'emplacement en pleine propriété & à perpétuité. Dont acte, fait & passé à St Romuald, étude, le vingt-sixième jour de novembre vers midi, sous le numéro deux cent quarante-huit des originaux de Me Elzéar Hubert Tremblay, le dit Notaire soussigné. Requis de signer, les dits concédante & concessionnaire ont déclaré ne le savoir, en présence du dit témoin qui a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Louis J. S. Roberge ; E. H. Tremblay, N.P. »",
       "personnes": [
@@ -22802,19 +22802,222 @@
           "fichier": "01088",
           "microfilm": "002032",
           "drive": "1e5-owKsbXx09zjHqC2YzmO9Vle0-TcUO",
-          "legende": "1/3"
+          "legende": "1/4"
         },
         {
           "fichier": "01089",
           "microfilm": "002033",
           "drive": "1YcMKyCDOHz8tE-B4pfyoBBfW-yVlK0kR",
-          "legende": "2/3"
+          "legende": "2/4"
         },
         {
           "fichier": "01090",
           "microfilm": "002034",
           "drive": "1cm9HQBNipOi7TL_tzsj_ADr2fc6l6MSN",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01091",
+          "microfilm": "002035",
+          "drive": "1B834RlnWgNikqzPzZbE2_4c2O1JNf3pi",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-26-vente-gagne-roberge",
+      "type": "notarie",
+      "titre": "Vente de Frédéric Gagné à Ferdinand Roberge, chaloupier, de l'emplacement et de la maison acquis le jour même de la veuve Hallé — minute n° 249, 26 novembre 1874",
+      "date": "1874-11-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 249, images 002036 à 002039 (Drive : fichiers 04T_CN401S124P_01092 à 01095) ; en marge « Vente — Gagné à Roberge — Original — Exp. 1 fois ». Acte complet.",
+      "nature": "Vente passée le 26 novembre 1874, après-midi, à Saint-Romuald, devant le notaire et un témoin, Louis-Joseph-Stanislas Roberge, instituteur ; vendeur et acquéreur ne savent signer, seul le témoin signe.",
+      "transcription": "[002036] « N° 249 — 26 novembre 1874. L'an mil huit cent soixante-quatorze, le vingt-six de novembre après-midi, en présence de Me E. Hubert Tremblay, Notaire Public, résidant & pratiquant à St Romuald, comté de Lévis, soussigné ; Et en présence de son honneur Louis-Joseph-Stanislas Roberge, instituteur, du même lieu, témoin au présent acte aussi soussigné ; Fut présent : Mr Frédéric Gagné, de St Romuald, journalier ; Lequel vend avec garantie de tous troubles généralement quelconques à Mr Ferdinand Roberge, du même lieu, chaloupier, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayant cause, savoir : [002037] Un emplacement situé en la paroisse de St Romuald, comté de Lévis, contenant cinquante pieds de front sur cinquante pieds de profondeur, plus ou moins, le tout mesure française, borné au sud à une Rue, au nord à William Andrews, à l'est à Marguerite Roberge & à l'ouest à Albert Forcade, avec ensemble une maison en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances. Tel que le tout est actuellement, sans aucune réserve quelconque ; le vendeur s'en dessaisissant au profit de l'acquéreur. Au vendeur appartient le dit immeuble pour l'avoir acquis, en date de ce jour, de la Dame veuve Antoine Hallé, suivant bail à rente foncière reçu par le notaire soussigné. [002038] Cette vente est faite aux mêmes charges que celles mentionnées à l'acte de bail à rente susdaté, & notamment de payer à la dite Dame Hallé, ses hoirs & ayant cause, la somme de six piastres courant de rente foncière & constituée, au vingt-neuf septembre de chaque année, à dater du vingt-neuf septembre dernier ; le tout ce à quoi s'oblige l'acquéreur. Cette vente est faite en outre pour le prix ou somme de cent trente-cinq piastres courant, dont le vendeur déclare avoir reçu, lors de l'exécution des présentes, la somme de cent piastres (quittance d'autant), & quant à la balance de trente-cinq piastres, l'acquéreur s'oblige de la payer au premier jour de juin prochain, sans intérêt ; [002039] et pour en assurer le paiement, hypothèque spécialement le dit emplacement, le vendeur se réservant ses droits & privilèges de bailleur de fonds. Et pour l'exécution des présentes les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux, etc. Car ainsi, etc. Dont acte. Fait & passé à St Romuald, étude, les jour, mois & an susdits, sous le numéro deux cent quarante-neuf des originaux du Notaire soussigné. Et le vendeur & acquéreur ont déclaré ne savoir écrire ni signer, de ce requis, le dit témoin ayant signé avec moi, Notaire, lecture faite. Mots rayés sont nuls ; renvoi en marge bon & approuvé. Louis J. S. Roberge ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Frédéric Gagné",
+          "ref_personne": "1871-D2-P024-L07",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Acquéreur de l'emplacement de la veuve Hallé le jour même (n° 248), qu'il revend aussitôt. Frédéric Gagné, journalier, 44 ans en 1871 (maison 61, division 2). Rattachement probable."
+        },
+        {
+          "role": "acheteur",
+          "nom": "Ferdinand Roberge",
+          "ref_personne": "1871-D2-P040-L03",
+          "note": "Chaloupier de Saint-Romuald ; ne sait signer. Ferdinand Roberge, journalier de 30 ans en 1871 (maison 101, division 2), navigateur en 1881, batelier en 1891. Rattachement probable."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Joseph-Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe. Témoin récurrent (n° 247-250)."
+        },
+        {
+          "role": "autre",
+          "nom": "Ursule Drouin",
+          "note": "Veuve d'Antoine Hallé, forgeron ; a concédé l'emplacement à Gagné le jour même (n° 248) et reste créancière de la rente de six piastres. Non rattachée."
+        },
+        {
+          "role": "voisin",
+          "nom": "William Andrews",
+          "note": "Borne nord de l'emplacement."
+        },
+        {
+          "role": "voisin",
+          "nom": "Marguerite Roberge",
+          "note": "Borne est de l'emplacement."
+        },
+        {
+          "role": "voisin",
+          "nom": "Albert Forcade",
+          "note": "Borne ouest de l'emplacement (sans doute le curateur de la succession Bourassa, cf. n° 42)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Spéculation d'un jour : Frédéric Gagné, qui vient de prendre à rente foncière un emplacement de la veuve Hallé (n° 248), le revend le jour même à Ferdinand Roberge, chaloupier, avec une maison de bois, pour cent trente-cinq piastres, à charge de la rente de six piastres. Le même jour, Roberge reconnaît cette rente par titre nouvel (n° 250).",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "01092",
+          "microfilm": "002036",
+          "drive": "1Cj--CCKoZOoemqIht4kAGy0lxeoANMyQ",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01093",
+          "microfilm": "002037",
+          "drive": "1ud0htvThvoo3gUhAnQqqPi-xWPdKHMjB",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01094",
+          "microfilm": "002038",
+          "drive": "15aFGR9vW11g182pGD7TrXl9Yg0U075e4",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01095",
+          "microfilm": "002039",
+          "drive": "1BmuOb11FHdg25dRirmfdt21J_TMIcpWy",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-26-titre-nouvel-roberge-halle",
+      "type": "notarie",
+      "titre": "Titre nouvel : Ferdinand Roberge reconnaît à la veuve Hallé la rente foncière de l'emplacement acheté de Gagné — minute n° 250, 26 novembre 1874",
+      "date": "1874-11-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 250, images 002040 à 002042 (Drive : fichiers 04T_CN401S124P_01096 à 01098) ; en marge « Titre nouvel — Roberge à Hallé — Original — payé 1.00 ». Acte complet.",
+      "nature": "Titre nouvel (reconnaissance de rente) passé le 26 novembre 1874, après-midi, à Saint-Romuald, devant le notaire et un témoin, Louis-Joseph-Stanislas Roberge, instituteur ; les parties ne savent signer, seul le témoin signe.",
+      "transcription": "[002040] « N° 250 — 26 novembre 1874. L'an mil huit cent soixante-quatorze, le vingt-six de novembre après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Louis-Joseph-Stanislas Roberge, du même lieu, instituteur, témoin au présent acte aussi soussigné ; Fut présent : Mr Ferdinand Roberge, de St Romuald, chaloupier ; Lequel dit & déclare que, par suite de l'acquisition qu'il a faite en date de ce jour, suivant acte reçu par le notaire soussigné, de Frédéric Gagné, du même lieu, de l'immeuble ci-après désigné, il a reconnu & reconnaît par ces présentes & promet payer, au vingt-neuf de septembre de chaque année, à dater du vingt-neuf septembre dernier, six piastres courant de rente constituée à Madame veuve Antoine Hallé, à ce aussi présente & acceptante, pour elle, ses hoirs & ayant cause — s'obligeant en outre à se conformer en tout à l'acte de bail à rente foncière susdaté ; [002041] savoir : Un emplacement situé à St Romuald, comté de Lévis, contenant cinquante pieds de front sur cinquante pieds de profondeur, plus ou moins, le tout mesure française, borné au sud à une Rue, au nord à William Andrews, à l'est à Delle Marguerite Roberge & à l'ouest à Albert Forcade, avec ensemble une maison en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances ; sur lequel immeuble la dite Dame Hallé se réserve ses droits & privilèges de bailleur de fonds. [002042] Et pour l'exécution des présentes les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux, etc. Car ainsi, etc. Dont acte. Fait & passé à St Romuald, étude, les jour, mois & an susdits, sous le numéro deux cent cinquante des originaux du Notaire soussigné. Requis de signer, les parties ont déclaré ne le savoir, en présence du témoin qui a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Louis J. S. Roberge ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "débiteur de rente",
+          "nom": "Ferdinand Roberge",
+          "ref_personne": "1871-D2-P040-L03",
+          "note": "Chaloupier de Saint-Romuald ; nouvel acquéreur de l'emplacement (n° 249), il reconnaît la rente ; ne sait signer. Rattachement probable (voir n° 249)."
+        },
+        {
+          "role": "créancière de rente",
+          "nom": "Ursule Drouin",
+          "note": "Veuve d'Antoine Hallé, forgeron ; bailleresse à rente foncière de l'emplacement (n° 248) ; ne sait signer. Non rattachée."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Joseph-Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe."
+        },
+        {
+          "role": "voisin",
+          "nom": "William Andrews",
+          "note": "Borne nord de l'emplacement."
+        },
+        {
+          "role": "voisin",
+          "nom": "Marguerite Roberge",
+          "note": "Borne est de l'emplacement."
+        },
+        {
+          "role": "voisin",
+          "nom": "Albert Forcade",
+          "note": "Borne ouest de l'emplacement."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Troisième acte du jour autour de l'emplacement de la veuve Hallé (voir n° 248-249) : le nouvel acquéreur Ferdinand Roberge reconnaît formellement, par titre nouvel, devoir à Ursule Drouin (veuve Hallé) la rente foncière de six piastres l'an. Même enchaînement que pour l'emplacement du hameau Roberge (n° 237-239).",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "01096",
+          "microfilm": "002040",
+          "drive": "1Kf6vNjDddKBS_u6kQ4AFT10JH5ShBY5U",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01097",
+          "microfilm": "002041",
+          "drive": "1MXwVFIuRatpfhdnC0a-bJy-oMJxIo0Xh",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01098",
+          "microfilm": "002042",
+          "drive": "1KppVvyDk7tXiuLVlcLMlLqN6MondnX3U",
           "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-28-vente-cantin-filteau",
+      "type": "notarie",
+      "titre": "Vente de Germain Cantin à Charles Filteau, charretier, d'une maison de bois à déménager — minute n° 251, 28 novembre 1874",
+      "date": "1874-11-28",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 251, images 002043 à 002044 (Drive : fichiers 04T_CN401S124P_01099 à 01100) ; en marge « Vente — Cantin à Filteau — Original — prix 160.00 ; hypothèque, intérêt 8 %, police d'assurance 250.00 ; Exp. 1 fois & enregistré vers les 4-5 décembre 1874 ». Acte INCOMPLET : seules les deux premières pages sont au Drive (le sous-dossier 1101-1150 n'est pas encore déposé) ; la suite est sur le fichier 01101.",
+      "nature": "Vente passée le 28 novembre 1874, après-midi, devant le notaire. Deux premières pages seulement.",
+      "transcription": "[002043] « N° 251 — 28 novembre 1874. L'an mil huit cent soixante-quatorze, le vingt-huit de novembre après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant à St Romuald, comté de Lévis, soussigné ; Fut présent : Germain Cantin, Ecr, marchand, de St Romuald ; Lequel vend avec garantie de tous troubles quelconques à Sr Charles Filteau, du même lieu, charretier, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayant cause, savoir : Une maison en bois de vingt-quatre pieds carrés, telle que la dite maison est actuellement construite, dont l'acquéreur se déclare satisfait pour l'avoir vue & visitée, & qui sera enlevée & reconstruite sur l'emplacement ci-après désigné. [002044] Cette vente est faite pour le prix de cent soixante piastres courant, payable par versements égaux & annuels, au premier jour de novembre de chaque année, de vingt-cinq piastres chacun — excepté le dernier paiement, qui ne sera que de dix piastres — le tout avec l'intérêt de huit pour cent par an, payable annuellement à compter du premier jour de novembre courant. L'acquéreur s'oblige de faire assurer la dite maison contre le feu pour un montant d'au moins deux cent cinquante piastres, d'en porter la police au vendeur & de la renouveler tant que tous les paiements ne seront pas effectués, remboursant au vendeur, à demande, ce que ce dernier aurait déboursé pour l'assurance si Filteau refusait ou négligeait de la faire […] » [suite sur le fichier 01101, non encore au Drive].",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Écuyer, marchand de Saint-Romuald. Rattachement probable (voir n° 231, 243)."
+        },
+        {
+          "role": "acheteur",
+          "nom": "Charles Filteau",
+          "ref_personne": "1871-D1-P023-L15",
+          "note": "Charretier de Saint-Romuald. Charles Filteau, 20 ans (journalier) en 1871 (maison 59, division 1) — déjà rattaché à cet identifiant ; l'un des Filteau du lotissement Demers (cf. n° 140-145). Rattachement probable."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Première partie d'une vente : Germain Cantin, marchand, vend à Charles Filteau, charretier, une maison de bois de vingt-quatre pieds carrés à déménager et reconstruire, pour cent soixante piastres payables sur plusieurs années (à 8 % d'intérêt), avec obligation d'assurance contre le feu de deux cent cinquante piastres. La désignation de l'emplacement, la clôture et les signatures sont sur le fichier 01101, pas encore déposé. À compléter au prochain lot.",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "01099",
+          "microfilm": "002043",
+          "drive": "1VoxWwVgv4kQwKxnrBvstd7nrdPXEY8cd",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01100",
+          "microfilm": "002044",
+          "drive": "1MzcD3LYvVf9vz7bu0LgA5LdN1RLPjkfJ",
+          "legende": "2/2"
         }
       ]
     },
