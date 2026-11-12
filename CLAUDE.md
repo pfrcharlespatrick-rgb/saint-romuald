@@ -185,6 +185,18 @@ Ce que cela impose :
    (`atelier.mjs`) : « Peltier  » est « Peltier ». Le fichier, lui, n'est pas
    réécrit.
 
+## Les plans anciens se calculent, ils ne se posent pas à l'œil
+
+Les quatre feuilles Goad de 1876 (`assets/plans/`) sont posées sur la carte
+par `node outils/lieux/caler-plans.mjs`, depuis `data/plans-reperes.json` :
+un repère est un bâtiment lu sur la feuille (pixels) et le lieu de
+`data/lieux-data.js` qui lui répond. Lire d'abord `docs/PLANS-ANCIENS.md` :
+ces feuilles **ne sont pas à une échelle constante**, chacune n'est juste
+qu'autour de ses repères, et deux feuilles voisines peuvent ne pas se
+rejoindre à cent mètres près. Ne pas chercher à « corriger » cela en
+étirant une feuille, ni présenter une feuille provisoire (`cale: false`)
+comme établie. Un plan réglé aux poignées par Patrick n'est plus recalculé.
+
 ## 1891 n'a qu'une division
 
 Le formulaire de 1891 n'a pas de case « division » : `recensement-1891-d1-data.js`

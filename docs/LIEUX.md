@@ -265,16 +265,17 @@ par champ, pas en remplacement — puis on passe `--tenir-pour-verse`.
 
 ## Les plans anciens en surimpression
 
-> **La couche est vide depuis le 14 septembre 2026.** Les cinq plans qui s'y
-> trouvaient — le cadastre de 1879 et les feuilles 12 à 15 de Goad — ont été
-> retirés du dépôt avec leurs images, sur décision de Patrick : aucun n'avait pu
-> être calé de façon sûre, et un ancrage posé à l'œil sur une carte de recherche
-> est une erreur qui se propage à tout ce qu'on lit dessus. On les reposera
-> depuis les numéros de lot et les renvois Goad que Patrick consigne désormais
-> dans les notes des lieux — c'est-à-dire en partant du terrain connu, et non
-> d'un cadrage approché. **`docs/PLANS-ANCIENS.md`** garde les cotes d'archives,
-> le contenu de chaque feuille et tout ce que les calages successifs avaient
-> appris. Ce qui suit décrit le mécanisme, qui n'a pas bougé.
+> **Les quatre feuilles Goad de 1876 sont revenues le 12 novembre 2026**,
+> calculées cette fois depuis les lieux que Patrick a rattachés à leur numéro
+> Goad (`outils/lieux/caler-plans.mjs`, `data/plans-reperes.json`). Elles
+> avaient été retirées le 14 septembre, avec le cadastre de 1879, faute d'un
+> calage sûr : un ancrage posé à l'œil sur une carte de recherche est une
+> erreur qui se propage à tout ce qu'on lit dessus. Seule la feuille 14, tenue
+> par quatorze maisons du village de New Liverpool, est montrée au public ;
+> les trois autres sont provisoires, visibles dans l'atelier.
+> **`docs/PLANS-ANCIENS.md`** dit comment elles sont posées, ce qu'elles
+> valent — ces feuilles ne sont pas à une échelle constante — et comment
+> resserrer un calage. Ce qui suit décrit le mécanisme d'affichage.
 
 `data/plans-data.js` → `window.PLANS`. Chaque plan est une image rangée dans
 `assets/plans/`, ancrée par **trois coins** — nord-ouest, nord-est, sud-ouest de
@@ -360,9 +361,10 @@ enfler un fichier que tous les visiteurs chargent.
    C'est l'étape que Patrick a choisi de faire passer avant tout calage : un
    plan calé sur des repères connus vaut mieux qu'un plan calé à l'œil, puis
    corrigé indéfiniment.
-5. **Reposer les plans anciens**, une fois ces numéros en main — le mécanisme
-   est intact et `docs/PLANS-ANCIENS.md` dit ce qu'il faut retélécharger et ce
-   que les calages précédents avaient appris, échecs compris. Une fois calé, le
+5. **Resserrer le calage des plans anciens.** Les feuilles Goad sont reposées
+   (novembre 2026), la 14 solidement, les trois autres à titre provisoire :
+   `docs/PLANS-ANCIENS.md` dit quels repères manquent. Le cadastre de 1879
+   reste à reposer. Une fois calé, le
    cadastre de 1879 devient le meilleur guide pour replacer les points des
    lieux : les lots y sont dessinés, il suffit de glisser chaque point sur le
    sien.
