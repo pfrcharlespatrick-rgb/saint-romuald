@@ -278,8 +278,9 @@ posées à la main (Tropy ne les décrit pas encore).
 - **n° 229 manque** : le fichier 01024 est un feuillet imprimé « ACTE MANQUANT
   # 229 » — la minute n'est pas au greffe. Pas de fiche.
 - **n° 230** (01025-01028) : bail à rente foncière de Louis-Julien Demers
-  (fils de Benjamin, `1871-D1-P025-L06`) à **Moses Kiely**, capitaine de
-  bateaux à vapeur (signe « Moses Kiely » ; en marge « Kirly » ; non rattaché),
+  (fils de Benjamin, `1871-D1-P025-L06`) à **Moses Kelly**, capitaine de
+  bateaux à vapeur (signe « Moses Kelly », lu par Patrick ; le notaire avait
+  écrit « Kirly » en marge ; non rattaché),
   pour un emplacement borné par la rue St-Paul, Ignace Dubois et Joseph Picard.
   Le fichier 01028 est la chemise imprimée du bail.
 - **n° 231** (01029-01032) : bail à rente foncière de Benjamin Demers
