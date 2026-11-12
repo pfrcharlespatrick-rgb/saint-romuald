@@ -1,0 +1,343 @@
+{
+  "format": "plans-reperes-saint-romuald",
+  "version": 1,
+  "note": "Repères de calage des plans anciens : pour chaque feuille, des points lus sur l'image (x, y en pixels, origine en haut à gauche) et le lieu de data/lieux-data.js dont la position relevée leur répond. outils/lieux/caler-plans.mjs en tire les trois coins de chaque plan (data/plans-data.js) et dit les écarts. Voir docs/PLANS-ANCIENS.md.",
+  "reference": "quebec-coves-1876-f14",
+  "plans": {
+    "quebec-coves-1876-f14": {
+      "feuillet": "14",
+      "largeur": 2000,
+      "hauteur": 1232,
+      "fleche_nord": 121.55,
+      "methode": "similitude",
+      "reperes": [
+        {
+          "lieu": "1648-chemin-du-fleuve",
+          "x": 566.7,
+          "y": 495.7,
+          "quoi": "n° 14"
+        },
+        {
+          "lieu": "1640-chemin-du-fleuve",
+          "x": 637,
+          "y": 501,
+          "quoi": "n° 17, première maison"
+        },
+        {
+          "lieu": "1630-34-38-cemin-du-fleuve",
+          "x": 659.5,
+          "y": 499.5,
+          "quoi": "n° 17, seconde maison"
+        },
+        {
+          "lieu": "1644-chemin-du-fleuve",
+          "x": 628,
+          "y": 529,
+          "quoi": "n° 18"
+        },
+        {
+          "lieu": "1633-cf",
+          "x": 655,
+          "y": 529,
+          "quoi": "n° 20, maison de brique"
+        },
+        {
+          "lieu": "1628-chemin-du-fleuve",
+          "x": 708,
+          "y": 501,
+          "quoi": "n° 21"
+        },
+        {
+          "lieu": "1626-chemin-du-fleuve",
+          "x": 721,
+          "y": 501,
+          "quoi": "n° 23"
+        },
+        {
+          "lieu": "1631-chemin-du-fleuve",
+          "x": 679.5,
+          "y": 527.5,
+          "quoi": "n° 24, première maison"
+        },
+        {
+          "lieu": "1727-chemin-du-fleuve",
+          "x": 707,
+          "y": 526,
+          "quoi": "n° 24, deuxième maison"
+        },
+        {
+          "lieu": "maison-denis-bordeleau",
+          "x": 723,
+          "y": 526,
+          "quoi": "n° 24, troisième maison"
+        },
+        {
+          "lieu": "1610-chemin-du-fleuve",
+          "x": 750,
+          "y": 497.5,
+          "quoi": "n° 25"
+        },
+        {
+          "lieu": "maison-julie-marie",
+          "x": 784,
+          "y": 496,
+          "quoi": "n° 29"
+        },
+        {
+          "lieu": "1604-cf",
+          "x": 840,
+          "y": 493,
+          "quoi": "n° 33"
+        },
+        {
+          "lieu": "1596-cf",
+          "x": 871.7,
+          "y": 485.7,
+          "quoi": "n° 35, magasin de brique"
+        }
+      ],
+      "controle": [
+        {
+          "lieu": "1736-cf",
+          "x": 146,
+          "y": 396,
+          "quoi": "n° 1"
+        },
+        {
+          "lieu": "1720-chemin-du-fleuve",
+          "x": 360.5,
+          "y": 462,
+          "quoi": "n° 5"
+        },
+        {
+          "lieu": "1719-1720-cf",
+          "x": 341,
+          "y": 514,
+          "quoi": "n° 6"
+        }
+      ],
+      "raccords": {
+        "quebec-coves-1876-f13": [
+          [
+            91,
+            405
+          ],
+          [
+            91,
+            507
+          ]
+        ],
+        "quebec-coves-1876-f15": [
+          [
+            1925,
+            713
+          ],
+          [
+            1925,
+            760
+          ]
+        ]
+      },
+      "calcul": {
+        "nw": {
+          "lat": 46.748352,
+          "lon": -71.250603
+        },
+        "ne": {
+          "lat": 46.741535,
+          "lon": -71.265852
+        },
+        "sw": {
+          "lat": 46.754788,
+          "lon": -71.256732
+        }
+      }
+    },
+    "quebec-coves-1876-f13": {
+      "feuillet": "13",
+      "largeur": 2000,
+      "hauteur": 1219,
+      "fleche_nord": 121.57,
+      "methode": "ancre",
+      "reperes": [
+        {
+          "lieu": "120-coterouge",
+          "x": 1098,
+          "y": 347,
+          "quoi": "église anglicane, bâtiment de pierre"
+        }
+      ],
+      "controle": [
+        {
+          "lieu": "manoir-longwood",
+          "x": 835,
+          "y": 640,
+          "quoi": "grand bâtiment au centre de l'éperon"
+        }
+      ],
+      "raccords": {
+        "quebec-coves-1876-f14": [
+          [
+            1910,
+            380
+          ],
+          [
+            1910,
+            482
+          ]
+        ],
+        "quebec-coves-1876-f12": [
+          [
+            86,
+            614
+          ],
+          [
+            86,
+            676
+          ]
+        ]
+      },
+      "calcul": {
+        "nw": {
+          "lat": 46.754144,
+          "lon": -71.238418
+        },
+        "ne": {
+          "lat": 46.747323,
+          "lon": -71.253664
+        },
+        "sw": {
+          "lat": 46.76051,
+          "lon": -71.244485
+        }
+      }
+    },
+    "quebec-coves-1876-f12": {
+      "feuillet": "12",
+      "largeur": 2000,
+      "hauteur": 1223,
+      "fleche_nord": -56.29,
+      "methode": "similitude",
+      "reperes": [
+        {
+          "lieu": "182-eglise",
+          "x": 505,
+          "y": 1012,
+          "quoi": "église Saint-Romuald"
+        },
+        {
+          "lieu": "2393-cf",
+          "x": 1334,
+          "y": 710,
+          "quoi": "n° 68"
+        },
+        {
+          "lieu": "30-juvenat",
+          "x": 1097,
+          "y": 284,
+          "quoi": "n° 142, villa de brique"
+        }
+      ],
+      "controle": [],
+      "raccords": {
+        "quebec-coves-1876-f13": [
+          [
+            61,
+            597
+          ],
+          [
+            61,
+            534
+          ]
+        ]
+      },
+      "calcul": {
+        "nw": {
+          "lat": 46.758868,
+          "lon": -71.24548
+        },
+        "ne": {
+          "lat": 46.765454,
+          "lon": -71.232513
+        },
+        "sw": {
+          "lat": 46.753436,
+          "lon": -71.239602
+        }
+      }
+    },
+    "quebec-coves-1876-f15": {
+      "feuillet": "15",
+      "largeur": 2000,
+      "hauteur": 1231,
+      "fleche_nord": 120.26,
+      "methode": "raccord",
+      "voisin": "quebec-coves-1876-f14",
+      "reperes": [],
+      "controle": [
+        {
+          "lieu": "15-goad",
+          "x": 623,
+          "y": 776,
+          "quoi": "n° 15"
+        },
+        {
+          "lieu": "30-goad",
+          "x": 1104.5,
+          "y": 889,
+          "quoi": "n° 30"
+        },
+        {
+          "lieu": "32-goad",
+          "x": 1149,
+          "y": 937.5,
+          "quoi": "n° 32"
+        },
+        {
+          "lieu": "35-goad",
+          "x": 1165,
+          "y": 885,
+          "quoi": "n° 35"
+        },
+        {
+          "lieu": "40-goad",
+          "x": 1205,
+          "y": 870,
+          "quoi": "n° 40"
+        },
+        {
+          "lieu": "55",
+          "x": 1308,
+          "y": 807.5,
+          "quoi": "n° 55"
+        }
+      ],
+      "raccords": {
+        "quebec-coves-1876-f14": [
+          [
+            90,
+            738.5
+          ],
+          [
+            90,
+            786
+          ]
+        ]
+      },
+      "calcul": {
+        "nw": {
+          "lat": 46.741895,
+          "lon": -71.264588
+        },
+        "ne": {
+          "lat": 46.735313,
+          "lon": -71.280057
+        },
+        "sw": {
+          "lat": 46.748419,
+          "lon": -71.270499
+        }
+      }
+    }
+  }
+}
