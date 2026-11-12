@@ -22511,6 +22511,314 @@
       ]
     },
     {
+      "id": "notarie-1874-11-21-bail-roberge-turgeon",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Pierre Roberge à Georges Turgeon, cordonnier, d'un emplacement à Saint-Jean-Chrysostome — minute n° 245, 21 novembre 1874",
+      "date": "1874-11-21",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 245, images 002020 à 002022 (Drive : fichiers 04T_CN401S124P_01076 à 01078) ; en marge « Bail — Roberge à Turgeon — Original ». Rédigé sur le formulaire imprimé de bail à rente foncière de Me Tremblay. Acte complet.",
+      "nature": "Bail à rente foncière & constituée, passé le 21 novembre 1874, après-midi, au domicile du concessionnaire (Turgeon), à Saint-Jean-Chrysostome, devant le notaire et un témoin, Pierre Giroux fils, cultivateur ; le concessionnaire et le témoin signent, le concédant Pierre Roberge ne sait signer.",
+      "transcription": "[002020] « N° 245 — 21 novembre 1874. Pardevant le Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Pierre Giroux, fils, de St Jean Chrysostome, cultivateur, témoin au présent acte, aussi soussigné ; Fut présent : Sieur Pierre Roberge, de St Jean Chrysostome, cultivateur ; Lequel a par ces présentes baillé & concédé dès maintenant & à toujours, à titre de Bail à rente foncière & constituée, & promet garantir de tous troubles & évictions quelconques, à Sieur Georges Turgeon, du dit lieu de St Jean Chrysostome, cordonnier, à ce présent & acceptant concessionnaire pour lui, ses héritiers & ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, contenant trente-huit pieds de front à l'ouest & quarante pieds du côté est, sur cinquante pieds de profondeur, le tout plus ou moins, borné à l'ouest au chemin de front, à l'est à Michel Leclerc, au nord à Edmond Guay & au sud à Jean Demers, Ecr, circonstances & dépendances. [002021] [Suivent les conditions imprimées du bail à rente foncière :] bâtir dans l'an une maison avec cheminée de pierre ou de briques ; entretenir rues & fossés ; payer au concédant, au septième jour de juillet de chaque année, à dater du septième jour de juillet dernier, la somme de trois piastres courant de rente foncière & constituée, rachetable en un seul paiement au capital de cinquante piastres ; hypothèque de l'emplacement ; le concédant Pierre Roberge se réserve le droit de Retrait en cas de vente ; copie à fournir ; reprise de possession après deux ans de rente impayée. [002022] Au moyen de quoi le concédant veut & consent que le concessionnaire jouisse & dispose de l'emplacement en pleine propriété & à perpétuité. Dont acte, fait & passé à St Jean Chrysostome, demeure du dit Sr Turgeon, le vingt-unième jour de novembre après midi, sous le numéro deux cent quarante-cinq des originaux de Me Elzéar Hubert Tremblay, le dit Notaire soussigné. Et le dit sieur Turgeon & le dit témoin ont signé avec moi, Notaire, le dit Sr Roberge ayant déclaré ne le savoir, de ce requis, lecture faite. George Turgeon ; Pierre Giroux ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "concédant",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; bailleur à rente foncière du hameau Roberge (cf. n° 122-128, 239) ; ne sait signer. Non rattaché."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Georges Turgeon",
+          "note": "Cordonnier de Saint-Jean-Chrysostome ; signe. Hors de la paroisse de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Giroux",
+          "note": "« Fils » ; cultivateur de Saint-Jean-Chrysostome ; signe. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Michel Leclerc",
+          "note": "Borne est de l'emplacement."
+        },
+        {
+          "role": "voisin",
+          "nom": "Edmond Guay",
+          "note": "Borne nord de l'emplacement."
+        },
+        {
+          "role": "voisin",
+          "nom": "Jean Demers",
+          "note": "Écuyer ; borne sud de l'emplacement."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Autre concession du hameau Roberge : Pierre Roberge baille à rente foncière à Georges Turgeon, cordonnier, un emplacement de Saint-Jean-Chrysostome, moyennant une rente de trois piastres l'an (rachetable à cinquante piastres). L'acte est passé au domicile de Turgeon.",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "01076",
+          "microfilm": "002020",
+          "drive": "1waKabCqsdPYK-EnLtaBrxCY-AKC-Hoic",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01077",
+          "microfilm": "002021",
+          "drive": "1qCGNgRhDqqBQbTjKrOMSkkM220HOY7Qi",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01078",
+          "microfilm": "002022",
+          "drive": "1TQm64SrCsxSGyi2p6kuJNavgLYBBnKuy",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-24-obligation-pichette-villeneuve",
+      "type": "notarie",
+      "titre": "Obligation de Louis Pichette, menuisier, envers Ferdinand Villeneuve, architecte, garantie par deux emplacements de Saint-Romuald — minute n° 246, 24 novembre 1874",
+      "date": "1874-11-24",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 246, images 002024 à 002027 (Drive : fichiers 04T_CN401S124P_01080 à 01083) ; en marge « Obligation — Pichette à Villeneuve — Original — Exp. 1 fois ». Rédigée sur un formulaire imprimé d'obligation (Me Geo.-Théo. Tremblay), dont le fichier 01083 est la chemise, vierge. Acte complet.",
+      "nature": "Obligation (reconnaissance de dette) passée le 24 novembre 1874, vers midi, à Saint-Romuald, devant le notaire (sans témoin nommé) ; les deux parties signent.",
+      "transcription": "[002024] « N° 246 — 24 novembre 1874. Pardevant le Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Fut présent : Mr Louis Pichette, menuisier, demeurant à St Romuald ; Lequel a reconnu & confessé devoir bien légitimement à Ferdinand Villeneuve, Ecr, architecte, du même lieu, à ce présent & acceptant, la somme de trois cent soixante-quinze piastres courant, étant pour prêt de pareille somme fait à vue & présence de moi, Notaire, en bon argent courant & lors de l'exécution des présentes, ainsi que le Débiteur le reconnaît & dont il se déclare content & satisfait. Laquelle dite somme de trois cent soixante-quinze piastres courant, le dit Débiteur promet & s'oblige, pour lui, ses héritiers & ayans cause, payer & rembourser au dit créancier ou ordre, porteur des présentes en forme légale, à demande, [002025] ensemble avec l'intérêt de sept pour cent par an, payable annuellement à compter de ce jour, jusqu'au parfait & entier paiement de la dite somme capitale. Pour sûreté de laquelle dite somme de trois cent soixante-quinze piastres, & des intérêts, le dit Débiteur hypothèque spécialement : 1° Un emplacement situé en la paroisse de St Romuald, contenant cent huit pieds de front sur cent huit pieds de profondeur, borné au nord à Louis Lambert, au sud à James Faherty, à l'est à Louis Lambert & à l'ouest à Joseph Lambert, avec ensemble la maison & les autres bâtisses dessus construites, circonstances & dépendances ; 2° Un autre emplacement au dit lieu de St Romuald, contenant quatre cents pieds de front sur trois cents pieds de profondeur, allant jusqu'à l'extrémité de la profondeur qui se termine en pointe, le dit emplacement formant un triangle, borné au sud à Louis Lambert, au nord à Mr Hamilton, à l'est à Julien Lambert & à l'ouest […], circonstances & dépendances. [002026] Et pour l'exécution des présentes les parties font élection de leurs domiciles irrévocables en leurs demeures actuelles & respectives, aux quels lieux, etc. Car ainsi, etc. Dont acte. Fait & passé à St Romuald, l'an mil huit cent soixante-quatorze, le vingt-quatrième jour de novembre vers midi, sous le numéro deux cent quarante-six des originaux du Notaire soussigné. Et les créancier & débiteur ont signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Louis Pichette ; Ferdinand Villeneuve ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "débiteur",
+          "nom": "Louis Pichette",
+          "ref_personne": "1871-D2-P072-L08",
+          "note": "Menuisier de Saint-Romuald ; signe. Un seul Louis Pichette au recensement : 17 ans en 1871 (maison 140, division 2) — soit une vingtaine en 1874 ; l'âge surprend pour un propriétaire. Rattachement probable."
+        },
+        {
+          "role": "créancier",
+          "nom": "Ferdinand Villeneuve",
+          "ref_personne": "1871-D1-P013-L13",
+          "note": "Écuyer, architecte & sculpteur de Saint-Romuald ; prête 375 piastres ; signe. Rattachement établi (voir n° 228)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis Lambert",
+          "note": "Borne de l'emplacement principal (nord et est) et du lot triangulaire (sud). Non rattaché (plusieurs Louis Lambert)."
+        },
+        {
+          "role": "voisin",
+          "nom": "James Faherty",
+          "note": "Borne sud de l'emplacement principal (cf. n° 233). Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Lambert",
+          "note": "Borne ouest de l'emplacement principal."
+        },
+        {
+          "role": "voisin",
+          "nom": "Julien Lambert",
+          "note": "Borne est du lot triangulaire."
+        },
+        {
+          "role": "voisin",
+          "nom": "Hamilton",
+          "note": "Borne nord du lot triangulaire."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Louis Pichette, menuisier de Saint-Romuald, emprunte 375 piastres à l'architecte-sculpteur Ferdinand Villeneuve, à 7 % d'intérêt, garanties par deux de ses emplacements à Saint-Romuald (dont un bâti de 108 pieds de côté et un grand lot triangulaire de 400 sur 300 pieds), au milieu des terrains Lambert. Le lendemain (n° 247), Pichette achète un lot voisin de la veuve Lambert.",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "01080",
+          "microfilm": "002024",
+          "drive": "1WRlwqvdkC-zuinel6xZ3BVFPygpqF18_",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01081",
+          "microfilm": "002025",
+          "drive": "1MqcMRRYC7qd0OhrUtQsE_lhryuJKA6Vd",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01082",
+          "microfilm": "002026",
+          "drive": "1csjn5FZrppKZIxQOdzrwIGz2Ot_oOnLf",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01083",
+          "microfilm": "002027",
+          "drive": "1fc3cSYPny_JMOxHZmLL6hJGfEcw4CBq7",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-25-vente-lambert-pichette",
+      "type": "notarie",
+      "titre": "Vente de Louise Demers, veuve de Joseph Lambert, à Louis Pichette, menuisier, d'un lot à Saint-Romuald — minute n° 247, 25 novembre 1874",
+      "date": "1874-11-25",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 247, images 002028 à 002031 (Drive : fichiers 04T_CN401S124P_01084 à 01087) ; en marge « Vente — Lambert à Pichette — Original — Exp. 1 fois ». Acte complet.",
+      "nature": "Vente passée le 25 novembre 1874, après-midi, devant le notaire et un témoin, Louis-Joseph-Stanislas Roberge, instituteur de Saint-Romuald ; l'acquéreur et le témoin signent, la venderesse ne sait signer.",
+      "transcription": "[002028] « N° 247 — 25 novembre 1874. L'an mil huit cent soixante-quatorze, le vingt-cinquième jour de novembre après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Louis-Joseph-Stanislas Roberge, de St Romuald, instituteur, témoin au présent acte aussi soussigné ; Fut présente : Madame Louise Demers, veuve de feu sieur Joseph Lambert, en son vivant de St Romuald, agriculteur, la dite Dame Lambert demeurant à St Romuald ; Laquelle vend avec garantie de tous troubles & empêchements généralement quelconques à Mr Louis Pichette, du même lieu, menuisier, à ce aussi présent & acceptant acquéreur pour lui, ses hoirs & ayant cause, savoir : Un lot de terre de forme irrégulière, situé au dit lieu de St Romuald, contenant quatre cent quatre-vingt-un pieds de front vers le sud, sur quinze pieds de largeur du côté sud-ouest ; deux cent quarante-quatre pieds en courant vers le nord-est, à partir de la ligne nord des quinze pieds au sud-ouest ; & trois cent trente-six pieds, en courant vers le nord-ouest, à partir de l'extrémité est de la ligne de front ; borné au sud à une route, à l'ouest à Charles Lord, au nord-ouest partie à Jean-Baptiste Vachon & partie à Mr Hamilton, au nord-est à Louis Lambert, circonstances & dépendances. [002029] Tel que le tout est actuellement, sans en rien réserver ni excepter, la venderesse se dessaisissant au profit de l'acquéreur. À la venderesse appartient le dit immeuble, avec plus grande étendue de terrain, en qualité de commune en biens & de légataire universelle de feu Sr Joseph Lambert, son mari. [002030] Cette vente est faite à la charge par l'acquéreur : 1° de clore le dit emplacement avec ses près-voisins & la ligne sud formant le front, & d'entretenir sa part des chemins de front ; 2° de faire les fossés nécessaires à l'écoulement des eaux ; 3° de payer toutes les taxes municipales, scolaires & autres. Enfin pour le prix ou somme de trois cent cinquante piastres courant, comptant, payé à la venderesse à vue & présence de nous Notaire & témoin ; dont quittance générale & finale en faveur de l'acquéreur. Et pour l'exécution des présentes les parties élisent domicile en leurs demeures actuelles & respectives, aux quels lieux, etc. Car ainsi, etc. Dont acte. Fait & passé à St Romuald, étude, [002031] les jour, mois & an susdits, sous le numéro deux cent quarante-sept des originaux du Notaire soussigné. Requise de signer, la dite Dame venderesse a déclaré ne le savoir, en présence du dit témoin qui a signé ainsi que l'acquéreur avec moi, Notaire, lecture faite. Mots rayés sont nuls ; renvoi en marge bon & approuvé. Louis Pichette ; Louis J. S. Roberge ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "venderesse",
+          "nom": "Louise Demers",
+          "ref_personne": "1871-D2-P071-L19",
+          "note": "Veuve de feu Joseph Lambert, agriculteur ; légataire universelle de son mari ; ne sait signer. Recensée sous son nom de jeune fille « Louise Demers », veuve, 68 ans en 1871 (maison 169, division 2). Rattachement probable."
+        },
+        {
+          "role": "acheteur",
+          "nom": "Louis Pichette",
+          "ref_personne": "1871-D2-P072-L08",
+          "note": "Menuisier de Saint-Romuald ; signe. Voir n° 246 (il emprunte la veille pour, semble-t-il, financer cet achat). Rattachement probable."
+        },
+        {
+          "role": "autre",
+          "nom": "Joseph Lambert",
+          "note": "Feu mari de la venderesse, agriculteur de Saint-Romuald ; décédé avant 1871, non recensé."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Joseph-Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe. Témoin récurrent (n° 247, 248) ; non recensé sous ce nom."
+        },
+        {
+          "role": "voisin",
+          "nom": "Charles Lord",
+          "note": "Borne ouest du lot. Peut-être Charles Lord, menuisier de Saint-Romuald (1871-D1-P003-L06), sans certitude."
+        },
+        {
+          "role": "voisin",
+          "nom": "Jean-Baptiste Vachon",
+          "note": "Borne nord-ouest du lot."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis Lambert",
+          "note": "Borne nord-est du lot."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Louise Demers, veuve de l'agriculteur Joseph Lambert et légataire de ses biens, vend à Louis Pichette, menuisier, un grand lot de terre irrégulier à Saint-Romuald, pour trois cent cinquante piastres comptant. L'achat suit d'un jour l'emprunt de 375 piastres que Pichette avait contracté auprès de Ferdinand Villeneuve (n° 246) : le lot jouxte ses propres emplacements, au milieu des terrains Lambert.",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "01084",
+          "microfilm": "002028",
+          "drive": "1dmzIqteYB9uG-DnHNwoXfpBcBy6bFwmg",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01085",
+          "microfilm": "002029",
+          "drive": "14qfpyDW0v7w-LwjO3zMW9OWD-6FDMCZZ",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01086",
+          "microfilm": "002030",
+          "drive": "1kxu6dALj1ihIJN-5mfKxa5CLO4W2HiYi",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01087",
+          "microfilm": "002031",
+          "drive": "1tGkx2UmlUglrKx6hNnUNOh3X7uyfz_DB",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-26-bail-halle-gagne",
+      "type": "notarie",
+      "titre": "Bail à rente foncière d'Ursule Drouin, veuve d'Antoine Hallé, à Frédéric Gagné, journalier, d'un emplacement à Saint-Romuald — minute n° 248, 26 novembre 1874",
+      "date": "1874-11-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 248, images 002032 à 002034 (Drive : fichiers 04T_CN401S124P_01088 à 01090) ; en marge « Bail à rente — Hallé à Gagné — Original — payé 3.50 ; 1re copie à Dame Hallé, 2e copie à Mr Frédéric Roberge ». Rédigé sur le formulaire imprimé de bail à rente foncière de Me Tremblay. Acte complet.",
+      "nature": "Bail à rente foncière & constituée, passé le 26 novembre 1874, vers midi, à Saint-Romuald, devant le notaire et un témoin, Louis-Joseph-Stanislas Roberge, instituteur ; la concédante et le concessionnaire ne savent signer, seul le témoin signe.",
+      "transcription": "[002032] « N° 248 — 26 novembre 1874. Pardevant le Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Mr Louis-Joseph-Stanislas Roberge, de St Romuald, instituteur, témoin au présent acte aussi soussigné ; Fut présente : Dame Ursule Drouin, de St Romuald, veuve de feu Sr Antoine Hallé, en son vivant du même lieu, forgeron ; Laquelle a par ces présentes baillé & concédé dès maintenant & à toujours, à titre de Bail à rente foncière & constituée, & promet garantir de tous troubles & évictions quelconques, à Frédéric Gagné, de St Romuald, journalier, à ce présent & acceptant concessionnaire pour lui, ses héritiers & ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, comté de Lévis, contenant cinquante pieds de front sur cinquante pieds de profondeur, plus ou moins, le tout mesure française, borné au sud à une Rue, au nord à William Andrews, à l'est à Marguerite Roberge & à l'ouest à Albert Forcade, circonstances & dépendances. [002033] [Suivent les conditions imprimées du bail à rente foncière :] bâtir dans l'an une maison avec cheminée de pierre ou de briques ; entretenir rues & fossés ; payer à la concédante, au vingt-neuvième jour de septembre de chaque année, à dater du vingt-neuvième jour de septembre dernier, la somme de six piastres courant de rente foncière & constituée, rachetable en un seul paiement au capital de cent piastres ; hypothèque de l'emplacement ; la dite Dame Hallé se réserve le droit de Retrait en cas de vente ; copie à fournir ; reprise de possession après deux ans de rente impayée. [002034] Au moyen de quoi la concédante veut & consent que le concessionnaire jouisse & dispose de l'emplacement en pleine propriété & à perpétuité. Dont acte, fait & passé à St Romuald, étude, le vingt-sixième jour de novembre vers midi, sous le numéro deux cent quarante-huit des originaux de Me Elzéar Hubert Tremblay, le dit Notaire soussigné. Requis de signer, les dits concédante & concessionnaire ont déclaré ne le savoir, en présence du dit témoin qui a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Louis J. S. Roberge ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "concédante",
+          "nom": "Ursule Drouin",
+          "note": "Veuve de feu Antoine Hallé, forgeron de Saint-Romuald ; ne sait signer. Non recensée sous ce nom en 1871 ; ses fils, forgerons (George, Philippe Hallé, etc.), sont recensés maison 26 (division 1). Non rattachée."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Frédéric Gagné",
+          "ref_personne": "1871-D2-P024-L07",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Frédéric Gagné, journalier, 44 ans en 1871 (maison 61, division 2). Rattachement probable."
+        },
+        {
+          "role": "autre",
+          "nom": "Antoine Hallé",
+          "note": "Feu mari de la concédante, forgeron de Saint-Romuald ; décédé avant l'acte."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Joseph-Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe. Même témoin qu'au n° 247."
+        },
+        {
+          "role": "voisin",
+          "nom": "William Andrews",
+          "note": "Borne nord de l'emplacement."
+        },
+        {
+          "role": "voisin",
+          "nom": "Marguerite Roberge",
+          "note": "Borne est de l'emplacement."
+        },
+        {
+          "role": "voisin",
+          "nom": "Albert Forcade",
+          "note": "Borne ouest de l'emplacement ; sans doute l'Albert Forcade curateur de la succession Bourassa (cf. n° 42)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Ursule Drouin, veuve du forgeron Antoine Hallé, concède à Frédéric Gagné, journalier, un emplacement de cinquante pieds de côté à Saint-Romuald, moyennant une rente foncière de six piastres l'an (rachetable à cent piastres). Une copie est délivrée à la veuve, une autre à un Frédéric Roberge.",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "01088",
+          "microfilm": "002032",
+          "drive": "1e5-owKsbXx09zjHqC2YzmO9Vle0-TcUO",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01089",
+          "microfilm": "002033",
+          "drive": "1YcMKyCDOHz8tE-B4pfyoBBfW-yVlK0kR",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01090",
+          "microfilm": "002034",
+          "drive": "1cm9HQBNipOi7TL_tzsj_ADr2fc6l6MSN",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
       "id": "notarie-1874-09-26-bail-demers-lajoie",
       "type": "notarie",
       "titre": "Bail à rente foncière de Benjamin Demers à Joseph Lajoie, charpentier, rue Saint-Louis, 1874",
