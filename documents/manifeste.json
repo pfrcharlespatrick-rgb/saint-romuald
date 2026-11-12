@@ -22272,7 +22272,7 @@
       "titre": "Obligation de Pierre Demeule à la veuve Marie Demeule (veuve de Joseph Dallaire), garantie par une terre de l'Île d'Orléans — minute n° 241, 14 novembre 1874",
       "date": "1874-11-14",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 241, images 002007 à 002009 (Drive : fichiers 04T_CN401S124P_01063 à 01065) ; en marge « Obligation — Demeule à Demeule — Original — Exp. 1 fois — copie pour Marie Demeule ». Rédigée sur un formulaire imprimé d'obligation (Me André-Elphide Tessier) ; passée hors paroisse. Acte complet.",
+      "cote": "Minute n° 241, images 002007 à 002010 (Drive : fichiers 04T_CN401S124P_01063 à 01066) ; en marge « Obligation — Demeule à Demeule — Original — Exp. 1 fois — copie pour Marie Demeule ». Rédigée sur un formulaire imprimé d'obligation (Me André-Elphide Tessier) ; passée hors paroisse. Acte complet.",
       "nature": "Obligation (reconnaissance de dette) passée le 14 novembre 1874, vers midi, à Saint-Jean-de-l'Île-d'Orléans, au domicile de sieur Jacques Tremblay, pilote, devant le notaire et un témoin, Abraham Roy, cultivateur ; les parties ne savent signer, le témoin signe.",
       "transcription": "[002007] « N° 241 — 14 novembre 1874. Pardevant le Notaire Public résidant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Abraham Roy, du comté de Montmorency, cultivateur, témoin au présent acte aussi soussigné ; Fut présent : Mr Pierre Demeule, fils Hubert, paroissien de St Romuald, agriculteur, de St Jean de l'Île d'Orléans, dit comté de Montmorency ; Lequel a reconnu & confessé devoir légitimement à Dame Marie Demeule, veuve de feu Joseph Dallaire, en son vivant de St Jean de l'Île d'Orléans, journalier, à ce présente & acceptant pour elle & en son nom, la somme de cent soixante-quatre piastres courant, étant pour prêt de pareille somme fait & délivré au dit débiteur en bon argent courant, dès avant ces présentes, ainsi que le Débiteur le reconnaît & dont il se déclare content & satisfait. Laquelle dite somme de cent soixante-quatre piastres courant, le dit Débiteur promet & s'oblige, pour lui, ses héritiers & ayans cause, payer & rembourser à la dite créancière ou ordre, porteur des présentes en forme légale, à demande, [002008] ensemble avec l'intérêt de six pour cent par an, payable annuellement à compter du premier jour de novembre courant, jusqu'au parfait & entier paiement de la dite somme capitale. Pour sûreté du paiement de laquelle dite somme de cent soixante-quatre piastres, & des intérêts, le dit Débiteur hypothèque spécialement : Une terre située en la dite paroisse de St Jean Île d'Orléans, contenant deux arpents de front sur la profondeur de cinquante arpents, le tout plus ou moins, bornée par-devant au sud au fleuve St Laurent, au nord au trait carré, au nord-est à Joseph Demeule & à l'ouest ou au sud-ouest à François Pouliot, avec ensemble les bâtisses dessus construites, circonstances & dépendances. [002009] Et pour l'exécution des présentes les parties font élection de leurs domiciles irrévocables en leurs demeures actuelles & respectives, aux quels lieux, etc. Car ainsi, etc. Dont acte. Fait & passé à St Jean Île d'Orléans, demeure de sieur Jacques Tremblay, pilote, l'an mil huit cent soixante & quatorze, le quatorzième jour de novembre vers midi, sous le numéro deux cent quarante-un des originaux de Me Elzéar Hubert Tremblay, le Notaire soussigné. [Les parties] ne savent écrire ni signer, de ce requises, en présence du dit témoin qui a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Abraham Roy ; E. H. Tremblay, N.P. »",
       "personnes": [
@@ -22319,19 +22319,194 @@
           "fichier": "01063",
           "microfilm": "002007",
           "drive": "1GbVlbB9T2XwZMto9lXqiWSE6OsuXs8Ru",
-          "legende": "1/3"
+          "legende": "1/4"
         },
         {
           "fichier": "01064",
           "microfilm": "002008",
           "drive": "1AmYaypM8Dr_ZDfKAVRWcrIgx_T7GhScc",
-          "legende": "2/3"
+          "legende": "2/4"
         },
         {
           "fichier": "01065",
           "microfilm": "002009",
           "drive": "1ZiixLW-kYpfmk0CU_kXvC8MuwcoLElRA",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01066",
+          "microfilm": "002010",
+          "drive": "1DZcP9UNMCDqP3PWIRkJD0fdT-T7vIE30",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-16-quittance-regin-couture",
+      "type": "notarie",
+      "titre": "Quittance de Michel Régin à Jean Couture, de Saint-Lambert, pour une ancienne obligation — minute n° 242, 16 novembre 1874",
+      "date": "1874-11-16",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 242, images 002011 à 002012 (Drive : fichiers 04T_CN401S124P_01067 à 01068) ; en marge « Quittance — Régin à Couture — Original — Exp. 1 fois — payé ». Acte complet.",
+      "nature": "Quittance passée le 16 novembre 1874, après-midi, devant le notaire et un témoin, Louis Cantin, cultivateur ; le comparant ne sait signer, le témoin signe.",
+      "transcription": "[002011] « N° 242 — 16 novembre 1874. L'an mil huit cent soixante-quatorze, le seizième jour de novembre après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public, résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Louis Cantin, cultivateur, témoin au présent acte aussi soussigné ; Fut présent : Michel Régin, senior, journalier, de St Jean Chrysostome ; Lequel reconnaît & confesse avoir eu & reçu à son entière satisfaction, avant ces présentes, de Jean Couture, de la paroisse de St Lambert, cultivateur, la somme de cent cinquante piastres [?] courant, étant pour le parfait & entier paiement du montant d'une certaine obligation consentie par le dit sieur Couture en faveur du dit sieur Régin il y a environ seize ans, lequel acte d'obligation a été enregistré au Bureau d'enregistrement du comté de Lévis quelques jours après son exécution. [002012] Dont & du tout le comparant donne & accorde au dit Sr Couture, entièrement payé, quittance générale & finale. Dont acte requis & octroyé à St Romuald susdit, étude, les jour, mois & an susdits, sous le numéro deux cent quarante-deux des originaux du Notaire soussigné. Requis de signer, le comparant a déclaré ne le savoir, en présence du dit témoin qui a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Louis Cantin ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "créancier",
+          "nom": "Michel Régin",
+          "note": "Journalier (« senior ») de Saint-Jean-Chrysostome ; ne sait signer. Hors de la paroisse : non rattaché (lecture du nom incertaine : « Régin »)."
+        },
+        {
+          "role": "débiteur",
+          "nom": "Jean Couture",
+          "note": "Cultivateur de Saint-Lambert ; avait consenti une obligation à Régin il y a quelque seize ans. Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Cantin",
+          "note": "Cultivateur ; signe. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Michel Régin, journalier de Saint-Jean-Chrysostome, donne quittance générale et finale à Jean Couture, cultivateur de Saint-Lambert, qui lui a enfin payé le montant d'une obligation vieille d'environ seize ans (enregistrée dans le comté de Lévis).",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "01067",
+          "microfilm": "002011",
+          "drive": "1EbuF0GQbYq0IInR-OrVnSwLwlAv4f6p7",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01068",
+          "microfilm": "002012",
+          "drive": "1a7o35saME_XV7E4QCR22HZ5nPS598YTP",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-16-vente-demers-cantin",
+      "type": "notarie",
+      "titre": "Vente de Benjamin Demers à Germain Cantin, d'un emplacement du lotissement (rue Saint-Louis / rue Saint-Jean-Baptiste) — minute n° 243, 16 novembre 1874",
+      "date": "1874-11-16",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 243, images 002013 à 002015 (Drive : fichiers 04T_CN401S124P_01069 à 01071) ; en marge « Vente — Demers à Cantin — Original — expédié le 18 — 1 fois — enregistré ». Acte complet.",
+      "nature": "Vente passée le 16 novembre 1874, après-midi, devant le notaire (sans témoin nommé) ; les deux parties signent. Les bornes de l'emplacement ont été marquées par quatre piquets plantés par les parties elles-mêmes.",
+      "transcription": "[002013] « N° 243 — 16 novembre 1874. En présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant à St Romuald, comté de Lévis, soussigné ; Fut présent : Benjamin Demers, de St Romuald, Ecr, agronome & rentier ; Lequel vend avec garantie de tous troubles généralement quelconques à Germain Cantin, du même lieu, Ecr, marchand, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayant cause, savoir : Un emplacement situé en la paroisse de St Romuald, dit comté, contenant [trois cents ?] pieds de front sur quatre-vingts pieds de profondeur, le tout plus ou moins (1) tel que le dit emplacement se trouve maintenant borné, au moyen de quatre petits piquets implantés en terre par les parties elles-mêmes, le tout mesure anglaise, borné à l'ouest à la Rue St Louis, à l'est à une rue projetée que le vendeur s'oblige de tracer du nord au sud, sur une largeur de vingt-quatre pieds, vis-à-vis du dit emplacement, au nord à Hubert Lefebvre & au sud à la Rue St Jean Baptiste, circonstances & dépendances. [002014] Tel que le tout est actuellement, l'acquéreur le reconnaissant satisfait & content, pour par lui en jouir, faire & disposer en toute propriété de ce jour & à toujours. Au vendeur appartient le dit emplacement, avec plus grande étendue de terrain, pour le posséder en vertu de titres bons & valables. Cette vente est faite aux charges suivantes que l'acquéreur s'oblige d'exécuter : 1° De clore le dit emplacement avec ses près-voisins ; 2° De faire, réparer & entretenir, seul & à ses frais, sa part des chemins, tant des côtés ouest & est que du côté sud, & de bons fossés où besoin sera. Il est expressément convenu que si l'acquéreur a besoin de l'usage de la rue St Jean Baptiste & d'une partie de la rue projetée, il ne pourra obliger le vendeur à les entretenir jusqu'à ce que les emplacements voisins, au nord & à l'est de la rue projetée & de la rue St Jean Baptiste, soient concédés ; [renvoi : les maisons que l'acquéreur devra bâtir seront munies de cheminées en pierre ou en briques]. [002015] Cette vente est faite pour le prix ou somme de cent cinquante piastres courant, comptant, payé lors de l'exécution des présentes ; dont quittance générale & finale en faveur de l'acquéreur. Et pour l'exécution des présentes les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux, etc. Car ainsi, etc. Dont acte. Fait & passé à St Romuald, étude, l'an mil huit cent soixante-quatorze, le seizième jour de novembre après-midi, sous le numéro deux cent quarante-trois des originaux du dit Notaire soussigné. Et le vendeur & acquéreur ont signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Benj. Demers ; Germain Cantin ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Écuyer, « agronome & rentier » de Saint-Romuald, qui lotit ses rues ; signe. Rattachement établi."
+        },
+        {
+          "role": "acheteur",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Écuyer, marchand de Saint-Romuald ; signe. Le même qui fut témoin au n° 231. Recensé marchand (38 ans en 1871, maison 42), 1881 et 1891. Rattachement probable."
+        },
+        {
+          "role": "voisin",
+          "nom": "Hubert Lefebvre",
+          "note": "Borne nord de l'emplacement ; concessionnaire d'un lot voisin de Benjamin Demers (n° 231). Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Benjamin Demers vend à Germain Cantin, marchand, un emplacement de son lotissement, à l'angle de la rue Saint-Louis et de la rue Saint-Jean-Baptiste (avec une rue projetée de vingt-quatre pieds à l'est), pour cent cinquante piastres comptant. L'emplacement jouxte au nord celui qu'Hubert Lefebvre tient de Demers (n° 231) ; ses bornes ont été plantées de quatre piquets par les parties.",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "01069",
+          "microfilm": "002013",
+          "drive": "1QV2tZ6-UIsNXRWcS99kjauXDGrZ8WUF_",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01070",
+          "microfilm": "002014",
+          "drive": "1AaS9JZzPw0X9SEVUdvJnf5n7RVTVUzuy",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01071",
+          "microfilm": "002015",
+          "drive": "1vWoMvy4WKuJwZT_9U27mCL1NX783-mUI",
           "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-19-quittance-shaw-lizotte",
+      "type": "notarie",
+      "titre": "Quittance de Henri John Shaw (par son procureur A. John Markham) à Thomas Hilaire Lizotte, pour un billet promissoire égaré — minute n° 244, 19 novembre 1874",
+      "date": "1874-11-19",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 244, images 002016 à 002019 (Drive : fichiers 04T_CN401S124P_01072 à 01075) ; en marge « Markham — Lizotte — Quittance — Original ». Passée à Québec, au bureau du comparant (rue Saint-Pierre, Basse-Ville) ; la procuration de Shaw est demeurée annexée. Acte complet.",
+      "nature": "Quittance passée le 19 novembre 1874, avant midi, devant le notaire (sans témoin nommé), au bureau d'affaires du comparant à Québec ; le comparant signe.",
+      "transcription": "[002016] « N° 244 — 19 novembre 1874. L'an mil huit cent soixante-quatorze, le dix-neuvième jour de novembre avant midi, en présence de Me E. Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant à St Romuald, comté de Lévis, soussigné ; Fut présent : Andrew John Markham, Ecr, encanteur & marchand à commission, demeurant en la cité de Québec, agissant en ces présentes en qualité de procureur dûment fondé de Henri John Shaw, Ecr, de la cité de Montréal, encanteur & marchand à commission, tel qu'il appert par un acte de procuration reçu par Me James Donegan, Notaire, en date à Montréal du onzième jour de novembre courant, laquelle procuration est demeurée annexée à la minute des présentes ; Lequel, ès qualité, déclare ce qui suit : [002017] Attendu que Mr Thomas Hilaire Lizotte, de la paroisse de Ste Pétronille, de l'Île d'Orléans, comté de Montmorency, hôtelier, a donné le vingt-deux de mai dernier un billet promissoire pour le montant de deux cent quatre-vingt-neuf piastres, payable à quatre mois de la date, à l'ordre du dit Sr Lizotte & endossé par ce dernier en faveur du dit Sr Shaw ; Et attendu que le dit billet promissoire a été égaré & ne peut être remis en la possession du dit Sr Lizotte, qui est prêt depuis longtemps à en payer le montant ; Et attendu que le dit sieur Lizotte a, lors de l'exécution des présentes, à vue & présence de nous dit Notaire, payé en bon argent courant au dit comparant la dite somme de deux cent quatre-vingt-neuf piastres courant (montant entier porté au dit billet) ; [002018] C'est pourquoi le comparant, ès qualité, donne & accorde par ces présentes quittance générale & finale en faveur du dit Sr Thomas Hilaire Lizotte, & s'oblige, pour & au nom de son mandant, ses hoirs & ayant cause, de ne jamais troubler, de quelque manière que ce soit, le dit Sr Lizotte relativement au dit billet, promettant de le retourner au dit sieur Lizotte & de l'en remettre en possession s'il est subséquemment trouvé. Dont & du tout le comparant a requis le présent acte, qui lui a été octroyé à Québec susdit, au bureau d'affaires du dit comparant situé sur la Rue St Pierre, en la Basse Ville de Québec, les jour, mois & an susdits, sous le numéro deux cent quarante-quatre des originaux du Notaire soussigné. [002019] Et le comparant & mandataire a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. A. John Markham, p.p. H. J. Shaw ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "créancier",
+          "nom": "Henri John Shaw",
+          "note": "Écuyer, encanteur & marchand à commission de Montréal ; porteur du billet ; représenté par son procureur A. John Markham. Hors de la paroisse."
+        },
+        {
+          "role": "mandataire",
+          "nom": "A. John Markham",
+          "note": "Andrew John Markham, écuyer, encanteur & marchand à commission de Québec (bureau rue Saint-Pierre, Basse-Ville) ; procureur de Shaw ; signe « A. John Markham, p.p. H. J. Shaw ». Hors de la paroisse."
+        },
+        {
+          "role": "débiteur",
+          "nom": "Thomas Hilaire Lizotte",
+          "note": "Hôtelier de Sainte-Pétronille (Île d'Orléans) ; paie 289 piastres d'un billet égaré. Hors de la paroisse : non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "James Donegan",
+          "note": "Notaire à Montréal (procuration de Shaw à Markham, 11 novembre 1874)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Quittance tenant lieu d'un billet promissoire perdu : Thomas Hilaire Lizotte, hôtelier de Sainte-Pétronille (Île d'Orléans), paie les 289 piastres d'un billet (du 22 mai, endossé au marchand montréalais Henri John Shaw) qui a été égaré ; le procureur de Shaw à Québec, A. John Markham, lui en donne quittance et s'engage à lui rendre le billet s'il reparaît. Me Tremblay a passé l'acte au bureau de Markham, rue Saint-Pierre, à Québec.",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "01072",
+          "microfilm": "002016",
+          "drive": "1yZy2GpZpQYVCOOw1EDi7NH3T4OrIgBdB",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01073",
+          "microfilm": "002017",
+          "drive": "1_qA_MMdWAd8IsmtV0L_780wuXaQmb8VC",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01074",
+          "microfilm": "002018",
+          "drive": "1N1an63zG7k2OXUEaE7ePHin2QhN-zKrb",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01075",
+          "microfilm": "002019",
+          "drive": "1szn89SJ4iQqBMt-_Rs_kvAfUi272JHjx",
+          "legende": "4/4"
         }
       ]
     },
