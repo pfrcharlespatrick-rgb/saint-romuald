@@ -9,11 +9,7 @@
   var cache = {};
   var contenu = document.getElementById('contenu');
 
-  function esc(s) {
-    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
-    });
-  }
+  var esc = FICHE.esc;
 
   // Un fragment par page de manuscrit, gardé une fois chargé : les gens d'une
   // même maisonnée se suivent sur la page, on ne la redemande pas à chaque clic.
@@ -31,20 +27,37 @@
       });
   }
 
+  // L'état civil et la tête du ménage s'accordent avec le sexe porté au
+  // registre : « mariée », « veuf », « cheffe de ménage » — et gardent la
+  // forme double quand le sexe n'est pas établi.
+  var ETATS_CIVILS = {
+    M: { M: 'marié', F: 'mariée', '': 'marié(e)' },
+    C: { M: 'célibataire', F: 'célibataire', '': 'célibataire' },
+    V: { M: 'veuf', F: 'veuve', '': 'veuf ou veuve' }
+  };
+  function sexeDe(f) { return f.sexe === 'M' || f.sexe === 'F' ? f.sexe : ''; }
+
   function phraseIdentite(f) {
     var bits = [];
+    var sexe = sexeDe(f);
     var age = parseInt(f.age, 10);
     if (!isNaN(age) && age >= 0) {
-      var naissance = Number(f.annee) - age;
-      bits.push((f.sexe === 'F' ? 'Née' : f.sexe === 'M' ? 'Né' : 'Née/né') + ' vers ' + naissance + ' (' + age + ' ans en ' + f.annee + ')');
+      // « 6 mois », « 2/12 » : un nourrisson, né dans l'année.
+      var nourrisson = /mois|\/12|jour|semaine/i.test(String(f.age));
+      var naissance = Number(f.annee) - (nourrisson ? 0 : age);
+      bits.push((sexe === 'F' ? 'Née' : sexe === 'M' ? 'Né' : 'Née/né') + ' vers ' + naissance +
+        ' (' + (nourrisson ? String(f.age).trim() : age + ' ans') + ' en ' + f.annee + ')');
     }
     if (f.profession) bits.push(f.profession.toLowerCase());
-    if (f.etat_civil && f.etat_civil !== '—') bits.push(f.etat_civil.toLowerCase());
-    if (f.chef) bits.push('chef(fe) de ménage');
+    var etat = ETATS_CIVILS[f.etat_matrimonial];
+    if (etat) bits.push(etat[sexe]);
+    if (f.chef) bits.push(sexe === 'F' ? 'cheffe de ménage' : sexe === 'M' ? 'chef de ménage' : 'chef(fe) de ménage');
+    if (f.infirmites && f.infirmites.length) bits.push('noté(e) ' + f.infirmites.join(', ') + ' au registre');
     var phrase = bits.length ? bits.join(', ') + '.' : '';
     if (f.trajectoire && f.trajectoire.mentions.length > 1) {
       var annees = f.trajectoire.mentions.map(function (m) { return m.annee; });
-      phrase += ' Mentionnée aux recensements de ' + annees.join(', ') + '.';
+      phrase += (phrase ? ' ' : '') + (sexe === 'F' ? 'Mentionnée' : sexe === 'M' ? 'Mentionné' : 'Mentionné(e)') +
+        ' aux recensements de ' + annees.join(', ') + '.';
     }
     return phrase;
   }
@@ -66,7 +79,10 @@
         var l = liaisons[i];
         // Un rapprochement confirmé à la main dans l'atelier le dit ; les
         // autres portent la confiance du calcul.
-        var etiquette = l.origine === 'main' ? 'confirmé à la main' : esc(l.confiance);
+        var etiquette = l.origine === 'main' ? 'confirmé à la main'
+          : l.par_menage ? 'proposé par le ménage'
+          : l.transitif ? 'maillon déduit'
+          : esc(l.confiance);
         cellules.push(
           '<div class="lien-traj"><span class="puce-conf conf-' + esc(l.confiance) + '">' +
           etiquette + ' · ' + l.motifs.length + ' indice' + (l.motifs.length > 1 ? 's' : '') +
@@ -75,38 +91,50 @@
       }
     });
     var classeTaille = mentions.length === 2 ? ' taille-2' : '';
-    var indices = liaisons.length ? '<ul class="indices">' + liaisons.flatMap(function (l) { return l.motifs; }).map(function (m) { return '<li>' + esc(m) + '</li>'; }).join('') + '</ul>' : '';
+    // Les indices, lien par lien : mis bout à bout dans une seule liste, on
+    // ne savait plus lequel appuyait quel rapprochement.
+    var indices = liaisons.map(function (l, i) {
+      if (!l.motifs.length) return '';
+      var titre = liaisons.length > 1
+        ? '<p class="indices-titre">De ' + esc(mentions[i].annee) + ' à ' + esc(mentions[i + 1].annee) + '</p>' : '';
+      return titre + '<ul class="indices">' + l.motifs.map(function (m) { return '<li>' + esc(m) + '</li>'; }).join('') + '</ul>';
+    }).join('');
     return (
       '<section class="bloc"><h3 class="bloc-titre">Sa trajectoire, ' + esc(mentions[0].annee) + ' → ' + esc(mentions[mentions.length - 1].annee) + '</h3>' +
-      '<p class="bloc-note">Les rapprochements sont calculés, non prouvés. La pastille dit la confiance du calcul — ou que le lien a été confirmé à la main dans l\'atelier ; les indices sont détaillés dessous, et un document d\'archive peut confirmer ou infirmer chaque lien.</p>' +
+      '<p class="bloc-note">Les rapprochements sont calculés, non prouvés. La pastille dit la confiance du calcul — ou que le lien a été confirmé à la main dans l\'atelier, ou seulement proposé par le ménage quand le nom ne suffisait pas ; les indices sont détaillés dessous, et un document d\'archive peut confirmer ou infirmer chaque lien.</p>' +
       '<div class="trajectoire' + classeTaille + '">' + cellules.join('') + '</div>' +
       indices +
       '</section>'
     );
   }
 
+  var TYPES_EVENEMENT = { veuvage: 'Veuvage', essaimage: 'Essaimage', menage_continu: 'Ménage continu', age_incoherent: 'Âge à vérifier' };
   function rendreEvenements(f) {
     if (!f.evenements || !f.evenements.length) return '';
     return f.evenements.map(function (e) {
-      return '<div class="evenement"><span class="qual">Événement · confiance ' + esc(e.confiance) + '</span>' + esc(e.resume) + '</div>';
+      return '<div class="evenement"><span class="qual">' + esc(TYPES_EVENEMENT[e.type] || 'Événement') + ' · confiance ' + esc(e.confiance) + '</span>' + esc(e.resume) + '</div>';
     }).join('');
   }
 
-  function rendreMaisonnee(f) {
+  function rendreMaisonnee(f, fragment) {
     var titre = 'Sa maisonnée en ' + esc(f.annee);
     var lienMaison = '<a href="maison.html#' + esc(f.cle_maison) + '">maison ' + esc(f.no_maison) + '</a>';
-    if (!f.maisonnee) {
+    // La composition du ménage est écrite une fois par page de manuscrit
+    // (fragment._menages), pas dans chaque fiche : voir outils/generer-site.mjs.
+    var lignesMenage = f.menage && fragment._menages ? fragment._menages[f.menage] : null;
+    if (!lignesMenage) {
       return '<section class="bloc"><h3 class="bloc-titre">' + titre + '</h3><div class="vide">Composition de la maisonnée non disponible pour cette fiche.</div></section>';
     }
-    var entetes = f.maisonnee.entetes;
+    var entetes = fragment._entetes || [];
     var thead = '<tr><th class="ligne-no">L.</th>' + entetes.map(function (h) { return '<th>' + esc(h) + '</th>'; }).join('') + '</tr>';
-    var lignes = f.maisonnee.lignes.map(function (l) {
+    var lignes = lignesMenage.map(function (l) {
+      var courante = l.id === f.id;
       var classes = [];
       if (l.chef) classes.push('chef');
-      if (l.courante) classes.push('courante');
+      if (courante) classes.push('courante');
       var tds = l.valeurs.map(function (v, i) {
         if (v === '✓') return '<td class="coche">✓</td>';
-        if (i === 0 && !l.courante) return '<td><a href="personne.html#' + esc(l.id) + '">' + esc(v) + '</a></td>';
+        if (i === 0 && !courante) return '<td><a href="personne.html#' + esc(l.id) + '">' + esc(v) + '</a></td>';
         return '<td>' + esc(v) + '</td>';
       }).join('');
       return '<tr class="' + classes.join(' ') + '"><td class="ligne-no">' + esc(l.ligne) + '</td>' + tds + '</tr>';
@@ -127,6 +155,11 @@
     }
     // Le recenseur a rayé cette ligne : la personne est conservée dans le site,
     // mais elle ne compte pas dans le dénombrement officiel de 1891.
+    // Le dépouillement a marqué cette ligne : une lecture y reste à confirmer.
+    if (f.incertain) {
+      marginale += '<div class="marginale"><b>Lecture incertaine</b>' +
+        'Le dépouillement signale que cette ligne se lit mal au manuscrit : un nom, un âge ou un métier peut y être à corriger.</div>';
+    }
     if (f.biffee) {
       marginale = '<div class="marginale"><b>Ligne biffée au manuscrit</b>' +
         'Le recenseur a rayé cette ligne : cette personne ne figure pas dans son dénombrement. ' +
@@ -158,44 +191,6 @@
     return '<p class="bloc-note">Au sol : ' + items + '</p>';
   }
 
-  // La référence du document — dépôt ou greffe, n° de minute et images, date —
-  // et sa transcription, repliée.
-  var MOIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août',
-    'septembre', 'octobre', 'novembre', 'décembre'];
-  function dateLisible(t) {
-    var m = /^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?$/.exec(t || '');
-    if (!m) return t || '';
-    return (m[3] ? Number(m[3]) + (m[3] === '01' ? 'er' : '') + ' ' : '') +
-      (m[2] ? MOIS[Number(m[2]) - 1] + ' ' : '') + m[1];
-  }
-  // Les images du manuscrit (outils/tropy/fondre.mjs), repliées : rien ne se
-  // charge tant que le lecteur n'ouvre pas le volet. L'aperçu vient de Google
-  // Drive ; si le dossier n'est pas partagé, il reste le lien vers l'image.
-  function imagesDocument(doc) {
-    var imgs = (doc.images || []).filter(function (i) { return i && /^[\w-]+$/.test(i.drive || ''); });
-    if (!imgs.length) return '';
-    return '<details class="doc-images"><summary>Images du manuscrit (' + imgs.length + ')</summary><div class="doc-images-liste">' +
-      imgs.map(function (i) {
-        var vue = 'https://drive.google.com/file/d/' + i.drive + '/view';
-        var legende = 'Microfilm ' + i.microfilm + (i.legende ? ' · p. ' + i.legende : '');
-        return '<a class="doc-image" href="' + vue + '" target="_blank" rel="noopener">' +
-          '<img loading="lazy" alt="' + esc(legende) + '" src="https://drive.google.com/thumbnail?id=' + i.drive + '&amp;sz=w400" ' +
-          'onerror="this.remove()">' +
-          '<span>' + esc(legende) + '</span></a>';
-      }).join('') + '</div></details>';
-  }
-
-  function referenceDocument(doc) {
-    var parts = [];
-    if (doc.source) parts.push(esc(doc.source));
-    if (doc.cote) parts.push(esc(doc.cote));
-    if (doc.date) parts.push(esc(dateLisible(doc.date)) + (doc.date_incertaine ? ' (date incertaine)' : ''));
-    if (doc.url && /^https?:\/\//.test(doc.url)) parts.push('<a href="' + esc(doc.url) + '" rel="noopener">numérisation</a>');
-    return (parts.length ? '<div class="occ-detail">Référence : ' + parts.join(' · ') + '</div>' : '') +
-      (doc.transcription ? '<details><summary>Transcription</summary><p style="white-space:pre-wrap">' + esc(doc.transcription) + '</p></details>' : '') +
-      imagesDocument(doc);
-  }
-
   function rendreDocuments(f) {
     if (!f.documents || !f.documents.length) {
       return (
@@ -205,10 +200,8 @@
       );
     }
     var blocs = f.documents.map(function (doc) {
-      var affirmations = doc.affirmations.map(function (a) {
-        return '<li>' + esc(a.enonce) + ' <span class="etiquette">(' + esc(a.certitude) + ')</span></li>';
-      }).join('');
-      return '<div class="marginale"><b>' + esc(doc.titre) + '</b>' + referenceDocument(doc) + '<ul class="indices" style="columns:1">' + affirmations + '</ul></div>';
+      return '<div class="marginale"><b>' + esc(doc.titre) + '</b>' + FICHE.referenceDocument(doc) +
+        FICHE.affirmationsDocument(doc.affirmations) + '</div>';
     }).join('');
     return (
       '<section class="bloc"><h3 class="bloc-titre">Preuves documentaires</h3>' +
@@ -216,16 +209,17 @@
     );
   }
 
-  function rendre(id, f) {
-    document.title = f.prenom + ' ' + f.nom + ' — Saint-Romuald, les gens du Fleuve';
+  function rendre(id, f, fragment) {
+    var nomComplet = [f.prenom, f.nom].filter(Boolean).join(' ') || '—';
+    document.title = nomComplet + ' — Saint-Romuald, les gens du Fleuve';
     contenu.innerHTML = (
       '<span class="etiquette">Fiche de personne · identifiant ' + esc(id) + '</span>' +
-      '<h2 class="titre-vue">' + esc(f.prenom) + ' ' + esc(f.nom) + '</h2>' +
+      '<h2 class="titre-vue">' + esc(nomComplet) + '</h2>' +
       '<p class="sous-titre">' + esc(phraseIdentite(f)) + '</p>' +
       '<div class="actions-fiche"><button class="bouton" onclick="window.print()">Imprimer / exporter en PDF</button></div>' +
       rendreTrajectoire(f) +
       rendreEvenements(f) +
-      rendreMaisonnee(f) +
+      rendreMaisonnee(f, fragment) +
       rendreDocuments(f)
     );
   }
@@ -235,12 +229,13 @@
   }
 
   function charger() {
-    var id = decodeURIComponent(location.hash.slice(1));
+    var id = FICHE.identifiant();
+    document.title = 'Une personne — Saint-Romuald, les gens du Fleuve';
     if (!id) {
       contenu.innerHTML = (
         '<span class="etiquette">Fiche de personne</span>' +
         '<h2 class="titre-vue">Aucune personne sélectionnée</h2>' +
-        '<p class="sous-titre">Cherchez une personne depuis <a href="index.html">l\'accueil</a> ou la <a href="recherche.html">liste complète des résultats</a> pour ouvrir sa fiche.</p>'
+        '<p class="sous-titre">Chaque personne des trois recensements a sa fiche. <a href="recherche.html">Cherchez-la par son nom, son prénom ou son métier</a>, ou commencez par <a href="personne.html#1871-D2-P030-L13">Margaret Lee, du chemin du Fleuve</a>.</p>'
       );
       return;
     }
@@ -254,9 +249,11 @@
     contenu.innerHTML = '<p class="chargement">Chargement de la fiche…</p>';
     chargerPage(m[1], m[2], m[3])
       .then(function (fragment) {
-        var f = fragment[id];
+        // Les clés réservées du fragment (_entetes, _menages) ne sont pas des fiches.
+        var f = id.charAt(0) === '_' ? null : fragment[id];
         if (!f) { rendreErreur('Personne introuvable : ' + id); return; }
-        rendre(id, f);
+        rendre(id, f, fragment);
+        window.scrollTo(0, 0);
       })
       .catch(function () { rendreErreur('La fiche n\'a pas pu être chargée.'); });
   }

@@ -880,8 +880,10 @@
     rendreBarreAtelier();
 
     var h = location.hash;
-    if (h.indexOf('#l-') === 0) selectionner(decodeURIComponent(h.slice(3)), true);
-    else if (h.indexOf('#b-') === 0) selectionner(decodeURIComponent(h.slice(3)), true); // ancien lien de fiche de maison
+    // Une adresse abîmée (un « % » qui ne code rien) ne doit pas arrêter la carte.
+    var decoder = function (t) { try { return decodeURIComponent(t); } catch (e) { return t; } };
+    if (h.indexOf('#l-') === 0) selectionner(decoder(h.slice(3)), true);
+    else if (h.indexOf('#b-') === 0) selectionner(decoder(h.slice(3)), true); // ancien lien de fiche de maison
     else rendrePanneau();
 
     // Cadrer sur ce qui est effectivement posé.

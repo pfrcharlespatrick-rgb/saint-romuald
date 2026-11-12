@@ -134,13 +134,12 @@ function pagesAVisiter() {
   if (index && index.length) {
     pages.splice(1, 0, { cle: 'personne', url: `personne.html#${index[0][0]}`, nom: 'Personne' });
   }
-  const lots = fs.existsSync(path.join(RACINE, 'fiches/maison'))
-    ? fs.readdirSync(path.join(RACINE, 'fiches/maison')).filter((f) => f.endsWith('.json')).sort()
-    : [];
-  if (lots.length) {
-    const lot = lireJson(`fiches/maison/${lots[0]}`);
-    const id = lot && Object.keys(lot)[0];
-    if (id) pages.splice(2, 0, { cle: 'maison', url: `maison.html#${id}`, nom: 'Maison' });
+  // Les fiches de maison sont rangées par tranche (fiches/maison/<annee-D>/M<tranche>.json) ;
+  // l'index des maisons donne un identifiant réel sans avoir à connaître ce rangement.
+  const maisons = lireJson('fiches/maisons-index.json');
+  if (maisons && maisons.length) {
+    pages.splice(2, 0, { cle: 'maison', url: `maison.html#${encodeURIComponent(maisons[0][0])}`, nom: 'Maison' });
+    pages.splice(3, 0, { cle: 'maisons', url: 'maison.html', nom: 'Répertoire des maisons' });
   }
   const lieux = lireJson('fiches/lieux.json');
   const lieu = lieux && lieux.lieux && lieux.lieux[0];

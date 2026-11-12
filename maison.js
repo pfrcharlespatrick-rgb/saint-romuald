@@ -11,22 +11,35 @@
     navigation: 'Tableau 8 — Navigation et pêcheries',
     deces: 'Tableau 2 — Décès des 12 derniers mois'
   };
-  var CHAMPS_IGNORES = { annee: 1, division: 1, page: 1, ligne: 1, ref_personne: 1, ref_maison: 1, remarque: 1 };
+  var CHAMPS_IGNORES = { annee: 1, division: 1, page: 1, ligne: 1, ref_personne: 1, ref_maison: 1, remarque: 1,
+    division_inferee: 1, division_source: 1, rattachement: 1 };
 
   var cache = {};
   var contenu = document.getElementById('contenu');
 
-  function esc(s) {
-    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
-    });
-  }
+  var esc = FICHE.esc;
 
-  function chargerLot(cleAD) {
-    if (cache[cleAD]) return Promise.resolve(cache[cleAD]);
-    return fetch('fiches/maison/' + cleAD + '.json')
-      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-      .then(function (lot) { cache[cleAD] = lot; return lot; });
+  // Les fiches sont rangées par tranche de vingt-cinq numéros de maison :
+  // « 1871-D2-M78 » se lit dans fiches/maison/1871-D2/M075.json. La règle est
+  // celle de trancheMaison() dans outils/generer-site.mjs — les garder d'accord.
+  var TRANCHE = 25;
+  function trancheDe(noMaison) {
+    var n = parseInt(noMaison, 10);
+    if (isNaN(n) || n < 0) return 'Mx';
+    var t = String(Math.floor(n / TRANCHE) * TRANCHE);
+    while (t.length < 3) t = '0' + t;
+    return 'M' + t;
+  }
+  // Une tranche qui n'existe pas (404) se lit comme « maison introuvable ».
+  function chargerLot(cleAD, noMaison) {
+    var cle = cleAD + '/' + trancheDe(noMaison);
+    if (cache[cle]) return Promise.resolve(cache[cle]);
+    return fetch('fiches/maison/' + cle + '.json')
+      .then(function (r) {
+        if (r.status === 404) return {};
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json().then(function (lot) { cache[cle] = lot; return lot; });
+      });
   }
 
   function ligneAsPhrase(ligne) {
@@ -77,11 +90,22 @@
     );
   }
 
+  // Tableau 2 : « Hugues de Martigny, 6 mois, mort en novembre — fièvre typhoïde ».
+  function decesEnClair(l) {
+    var qui = [l.prenom, l.nom].filter(Boolean).join(' ');
+    var age = /\d\s*$/.test(String(l.age || '')) ? l.age + ' an' + (Number(l.age) > 1 ? 's' : '') : (l.age || '');
+    return qui + (age ? ', ' + age : '') + (l.mois ? ', mort' + (l.sexe === 'F' ? 'e' : '') + ' en ' + String(l.mois).toLowerCase() : '') +
+      (l.cause ? ' — ' + String(l.cause).toLowerCase() : '');
+  }
+
   function rendreRenvois(f) {
     var tables = Object.keys(f.renvois || {});
     if (!tables.length) return '';
     var blocs = tables.map(function (nom) {
-      var lignes = f.renvois[nom].map(function (l) { return '<li>' + esc(ligneAsPhrase(l)) + '</li>'; }).join('');
+      var lignes = f.renvois[nom].map(function (l) {
+        return '<li>' + esc(nom === 'deces' ? decesEnClair(l) : ligneAsPhrase(l)) +
+          (l.rattachement === 'propose' && l.remarque ? '<br><span class="occ-detail">' + esc(l.remarque) + '</span>' : '') + '</li>';
+      }).join('');
       return '<div class="marginale"><b>' + esc(NOMS_TABLEAUX[nom] || nom) + '</b><ul class="indices" style="columns:1">' + lignes + '</ul></div>';
     }).join('');
     return (
@@ -93,62 +117,13 @@
 
   // Les documents du manifeste qui nomment l'un ou l'autre des habitants de la
   // maison — acte notarié, monographie, registre — avec ce qu'ils en disent.
-  var ROLES = { concedant: 'concédant', temoin: 'témoin', defunt: 'défunt', defunte: 'défunte',
-    requerante: 'requérante', acquereur: 'acquéreur', pere: 'père', mere: 'mère', epouse: 'épouse',
-    proprietaire: 'propriétaire', cedant: 'cédant' };
-
-  // La référence du document — dépôt ou greffe, n° de minute et images, date —
-  // et sa transcription, repliée.
-  var MOIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août',
-    'septembre', 'octobre', 'novembre', 'décembre'];
-  function dateLisible(t) {
-    var m = /^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?$/.exec(t || '');
-    if (!m) return t || '';
-    return (m[3] ? Number(m[3]) + (m[3] === '01' ? 'er' : '') + ' ' : '') +
-      (m[2] ? MOIS[Number(m[2]) - 1] + ' ' : '') + m[1];
-  }
-  // Les images du manuscrit (outils/tropy/fondre.mjs), repliées : rien ne se
-  // charge tant que le lecteur n'ouvre pas le volet. L'aperçu vient de Google
-  // Drive ; si le dossier n'est pas partagé, il reste le lien vers l'image.
-  function imagesDocument(doc) {
-    var imgs = (doc.images || []).filter(function (i) { return i && /^[\w-]+$/.test(i.drive || ''); });
-    if (!imgs.length) return '';
-    return '<details class="doc-images"><summary>Images du manuscrit (' + imgs.length + ')</summary><div class="doc-images-liste">' +
-      imgs.map(function (i) {
-        var vue = 'https://drive.google.com/file/d/' + i.drive + '/view';
-        var legende = 'Microfilm ' + i.microfilm + (i.legende ? ' · p. ' + i.legende : '');
-        return '<a class="doc-image" href="' + vue + '" target="_blank" rel="noopener">' +
-          '<img loading="lazy" alt="' + esc(legende) + '" src="https://drive.google.com/thumbnail?id=' + i.drive + '&amp;sz=w400" ' +
-          'onerror="this.remove()">' +
-          '<span>' + esc(legende) + '</span></a>';
-      }).join('') + '</div></details>';
-  }
-
-  function referenceDocument(doc) {
-    var parts = [];
-    if (doc.source) parts.push(esc(doc.source));
-    if (doc.cote) parts.push(esc(doc.cote));
-    if (doc.date) parts.push(esc(dateLisible(doc.date)) + (doc.date_incertaine ? ' (date incertaine)' : ''));
-    if (doc.url && /^https?:\/\//.test(doc.url)) parts.push('<a href="' + esc(doc.url) + '" rel="noopener">numérisation</a>');
-    return (parts.length ? '<div class="occ-detail">Référence : ' + parts.join(' · ') + '</div>' : '') +
-      (doc.transcription ? '<details><summary>Transcription</summary><p style="white-space:pre-wrap">' + esc(doc.transcription) + '</p></details>' : '') +
-      imagesDocument(doc);
-  }
-
   function rendreDocuments(f) {
     var docs = f.documents || [];
     if (!docs.length) return '';
     var blocs = docs.map(function (doc) {
-      var qui = doc.personnes.map(function (p) {
-        return '<a href="personne.html#' + esc(p.id) + '">' + esc(p.nom) + (p.annee ? ', ' + esc(p.annee) : '') + '</a>' +
-          (p.role ? ' <span class="occ-detail">(' + esc(ROLES[p.role] || p.role) + ')</span>' : '');
-      }).join(' · ');
-      var affirmations = doc.affirmations.map(function (a) {
-        return '<li>' + esc(a.enonce) + ' <span class="etiquette">(' + esc(a.certitude) + ')</span></li>';
-      }).join('');
-      return '<div class="marginale"><b>' + esc(doc.titre) + '</b>' + referenceDocument(doc) +
-        '<div>Nomme : ' + qui + '</div>' +
-        (affirmations ? '<ul class="indices" style="columns:1">' + affirmations + '</ul>' : '') + '</div>';
+      return '<div class="marginale"><b>' + esc(doc.titre) + '</b>' + FICHE.referenceDocument(doc) +
+        '<div>Nomme : ' + FICHE.personnesDocument(doc.personnes) + '</div>' +
+        FICHE.affirmationsDocument(doc.affirmations) + '</div>';
     }).join('');
     return (
       '<section class="bloc"><h3 class="bloc-titre">Preuves documentaires</h3>' +
@@ -243,20 +218,108 @@
   }
 
   function rendreErreur(msg) {
-    contenu.innerHTML = '<p class="erreur">' + esc(msg) + '</p><p><a href="index.html">← Retour à la recherche</a></p>';
+    contenu.innerHTML = '<p class="erreur">' + esc(msg) + '</p><p><a href="maison.html">← Toutes les maisons</a> · <a href="index.html">Retour à l\'accueil</a></p>';
+  }
+
+  // ── le répertoire : quand aucune maison n'est choisie ────────────────────
+  // « Une maison » menait à une page vide avec un seul exemple. On y trouve
+  // maintenant toutes les maisons des trois recensements, à filtrer par le
+  // nom d'un chef de ménage ou par un numéro, recensement par recensement.
+  // L'index est celui de l'atelier de la carte (fiches/maisons-index.json) :
+  // [clé, année, division, numéro, chefs, effectif].
+  var indexMaisons = null;
+  var etatRepertoire = { q: '', annee: '1871', division: '1' };
+  var LOTS = [['1871', '1'], ['1871', '2'], ['1881', '1'], ['1881', '2'], ['1891', '1']];
+
+  function normaliser(t) {
+    return String(t == null ? '' : t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  }
+
+  function chargerIndex() {
+    if (!indexMaisons) {
+      indexMaisons = fetch('fiches/maisons-index.json')
+        .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .catch(function (e) { indexMaisons = null; throw e; });
+    }
+    return indexMaisons;
+  }
+
+  function listeRepertoire(index) {
+    var mots = normaliser(etatRepertoire.q).split(/\s+/).filter(Boolean);
+    var partout = mots.length > 0; // une recherche passe sur les trois recensements
+    var trouvees = index.filter(function (m) {
+      if (!partout && (m[1] !== etatRepertoire.annee || String(m[2]) !== etatRepertoire.division)) return false;
+      var foin = normaliser(m[4]) + ' maison ' + normaliser(m[3]);
+      return mots.every(function (mot) {
+        return /^\d+$/.test(mot) ? String(parseInt(m[3], 10)) === mot : foin.indexOf(mot) !== -1;
+      });
+    });
+    var PLAFOND = 800; // le plus gros recensement compte 637 maisons : tout se parcourt
+    var lignes = trouvees.slice(0, PLAFOND).map(function (m) {
+      return '<a class="resultat" href="maison.html#' + esc(m[0]) + '">' +
+        '<span class="qui">Maison ' + esc(m[3]) + '</span>' +
+        '<span class="quoi">' + esc(m[4] || 'chef non relevé') + '</span>' +
+        '<span class="ou">' + esc(m[1]) + ' · D' + esc(m[2]) + ' · ' + m[5] + ' pers.</span></a>';
+    }).join('');
+    var compte = trouvees.length + ' maison' + (trouvees.length > 1 ? 's' : '') +
+      (partout ? ' pour « ' + esc(etatRepertoire.q.trim()) + ' », dans les trois recensements'
+        : ' au recensement de ' + esc(etatRepertoire.annee) + (etatRepertoire.annee === '1891' ? '' : ', division ' + esc(etatRepertoire.division))) +
+      (trouvees.length > PLAFOND ? ' — les ' + PLAFOND + ' premières sont affichées, précisez la recherche' : '') + '.';
+    return '<p class="bloc-note" aria-live="polite">' + compte + '</p>' +
+      (lignes ? '<div class="liste-personnes">' + lignes + '</div>'
+        : '<div class="vide">Aucune maison ne répond à cette recherche. Essayez un seul nom, ou un numéro de maison.</div>');
+  }
+
+  function rendreRepertoire() {
+    document.title = 'Une maison — Saint-Romuald, les gens du Fleuve';
+    contenu.innerHTML = (
+      '<span class="etiquette">Fiche de maison</span>' +
+      '<h2 class="titre-vue">Entrer dans une maison</h2>' +
+      '<p class="sous-titre">La maison est l\'unité du recensement. Choisissez-en une par le nom d\'un chef de ménage ou par son numéro au registre — ou essayez <a href="maison.html#1871-D2-M78">la maison 78 de 1871, chez les Lee</a>.</p>' +
+      '<div class="filtres">' +
+      '<div class="champ-recherche"><input id="q-maison" type="search" autocomplete="off" aria-label="Chercher une maison" ' +
+      'placeholder="Un chef de ménage, un numéro… « Forcade », « 78 »"></div>' +
+      '<div class="filtre-annees" role="group" aria-label="Recensement">' +
+      LOTS.map(function (l) {
+        return '<button type="button" data-annee="' + l[0] + '" data-division="' + l[1] + '">' + l[0] +
+          (l[0] === '1891' ? '' : ' · div. ' + l[1]) + '</button>';
+      }).join('') + '</div></div>' +
+      '<div id="repertoire"><p class="chargement">Chargement des maisons…</p></div>'
+    );
+    var champ = document.getElementById('q-maison');
+    var zone = document.getElementById('repertoire');
+    var boutons = Array.prototype.slice.call(contenu.querySelectorAll('.filtre-annees button'));
+    champ.value = etatRepertoire.q;
+    function peindre(index) {
+      var recherche = normaliser(etatRepertoire.q).trim() !== '';
+      boutons.forEach(function (b) {
+        var actif = !recherche && b.getAttribute('data-annee') === etatRepertoire.annee && b.getAttribute('data-division') === etatRepertoire.division;
+        b.classList.toggle('actif', actif);
+        b.setAttribute('aria-pressed', actif ? 'true' : 'false');
+      });
+      zone.innerHTML = listeRepertoire(index);
+    }
+    chargerIndex().then(function (index) {
+      peindre(index);
+      champ.addEventListener('input', function () { etatRepertoire.q = champ.value; peindre(index); });
+      boutons.forEach(function (b) {
+        b.addEventListener('click', function () {
+          etatRepertoire.annee = b.getAttribute('data-annee');
+          etatRepertoire.division = b.getAttribute('data-division');
+          etatRepertoire.q = ''; champ.value = '';
+          peindre(index);
+        });
+      });
+    }).catch(function () {
+      zone.innerHTML = '<p class="erreur">La liste des maisons n\'a pas pu être chargée. Rechargez la page.</p>';
+    });
   }
 
   function charger() {
-    var id = decodeURIComponent(location.hash.slice(1));
-    if (!id) {
-      contenu.innerHTML = (
-        '<span class="etiquette">Fiche de maison</span>' +
-        '<h2 class="titre-vue">Aucune maison sélectionnée</h2>' +
-        '<p class="sous-titre">Ouvrez une maison depuis une fiche de personne, ou essayez <a href="maison.html#1871-D2-M78">la maison 78, 1871</a>.</p>'
-      );
-      return;
-    }
-    var m = id.match(/^(\d{4})-D(\d)-M/);
+    var id = FICHE.identifiant();
+    if (!id) { rendreRepertoire(); return; }
+    document.title = 'Une maison — Saint-Romuald, les gens du Fleuve';
+    var m = id.match(/^(\d{4})-D(\d)-M(.+)$/);
     if (!m) { rendreErreur('Identifiant de maison invalide : ' + id); return; }
     if (m[1] === '1891' && m[2] === '2') {
       rendreErreur('Le recensement de 1891 n’a qu’une division : toutes ses maisons sont sous « 1891-D1 ». ' +
@@ -264,11 +327,12 @@
       return;
     }
     contenu.innerHTML = '<p class="chargement">Chargement de la fiche…</p>';
-    chargerLot(m[1] + '-D' + m[2])
+    chargerLot(m[1] + '-D' + m[2], m[3])
       .then(function (lot) {
         var f = lot[id];
         if (!f) { rendreErreur('Maison introuvable : ' + id); return; }
         rendre(id, f);
+        window.scrollTo(0, 0);
       })
       .catch(function () { rendreErreur('La fiche n\'a pas pu être chargée.'); });
   }
