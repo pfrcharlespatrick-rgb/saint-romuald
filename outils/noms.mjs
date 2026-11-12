@@ -29,11 +29,14 @@ const CLASSES_PRENOMS = [
   ['marguerite', 'margaret', 'margarette', 'maggie', 'maggy', 'margot', 'peggy', 'marg', 'margt'],
   ['marie', 'mary', 'maria', 'may', 'mariane', 'marianne', 'mary anne', 'mary ann', 'maryann', 'marie anne'],
   ['george', 'georges', 'georgie'],
-  ['guillaume', 'william', 'willie', 'will', 'bill', 'willm'],
-  ['jean', 'john', 'johnny', 'jonh', 'jno'],
+  ['guillaume', 'william', 'willie', 'will', 'bill', 'willm', 'wm'],
+  ['jean', 'john', 'johnny', 'johny', 'johnie', 'jonh', 'jno'],
   ['jacques', 'james', 'jimmy', 'jim', 'jas'],
   ['joseph', 'josef', 'joe', 'jos'],
-  ['elisabeth', 'elizabeth', 'eliza', 'betsy', 'lizzie', 'liza', 'bessie'],
+  // Isabelle est la forme ancienne d'Élisabeth, et le recenseur passe de l'une
+  // à l'autre : Elisabeth McNaughton (1871) est Isabella en 1881.
+  ['elisabeth', 'elizabeth', 'eliza', 'elisa', 'elise', 'elize', 'betsy', 'lizzie', 'lizie', 'lizy', 'liza', 'bessie',
+    'isabelle', 'isabella', 'isabel', 'bella'],
   ['catherine', 'katherine', 'kate', 'katie', 'cathrine', 'cathe', 'kathleen'],
   ['michel', 'michael', 'mike', 'mick'],
   ['patrice', 'patrick', 'paddy', 'pat', 'patk'],
@@ -41,7 +44,7 @@ const CLASSES_PRENOMS = [
   ['charles', 'charlie', 'chas'],
   ['henri', 'henry', 'harry'],
   ['edouard', 'edward', 'eddie', 'edwd', 'ned'],
-  ['francois', 'francis', 'frank', 'frs'],
+  ['francois', 'francis', 'frank', 'frs', 'fs'],
   ['antoine', 'anthony', 'antony', 'tony'],
   ['andre', 'andrew', 'andy'],
   ['etienne', 'stephen', 'steven'],
@@ -57,13 +60,13 @@ const CLASSES_PRENOMS = [
   ['nicolas', 'nicholas', 'nick'],
   ['anne', 'ann', 'anna', 'annie', 'hannah', 'nancy'],
   ['sarah', 'sara', 'sally'],
-  ['jeanne', 'jane', 'jenny', 'janet', 'jennie'],
+  ['jeanne', 'jane', 'jenny', 'janet', 'jennie', 'jany'],
   ['helene', 'ellen', 'helen', 'nellie', 'nelly'],
   ['brigitte', 'bridget', 'biddy', 'bridgt'],
   ['julie', 'julia', 'julienne'],
   ['sophie', 'sophia'],
-  ['emilie', 'emily', 'emelie', 'emma'],
-  ['rose', 'rosalie', 'rosa', 'rosanna'],
+  ['emilie', 'emily', 'emelie', 'emma', 'ema'],
+  ['rose', 'rosalie', 'roselie', 'rosa', 'rosanna', 'rosana', 'rosann', 'rose anna', 'roseanna'],
   ['victoire', 'victoria'],
   ['lucie', 'lucy', 'luce'],
   ['virginie', 'virginia'],
@@ -77,7 +80,6 @@ const CLASSES_PRENOMS = [
   ['genevieve', 'genevive'],
   ['adelaide', 'adele', 'adela'],
   ['christine', 'christina'],
-  ['isabelle', 'isabella', 'isabel', 'bella'],
   ['matthieu', 'mathew', 'matthew', 'mathieu'],
   ['timothee', 'timothy', 'tim'],
   ['denis', 'dennis'],
@@ -110,7 +112,15 @@ const CLASSES_PRENOMS = [
   ['raoul'],
   ['wilfrid', 'wilfred'],
   ['xavier'],
+  ['phileas', 'philias', 'filias', 'felias', 'phelias'],
+  ['theotiste', 'theotis', 'theotos'],
+  ['belzemire', 'belzemir', 'belsimir', 'belzimire'],
+  ['apolline', 'apoline', 'appoline', 'pauline'],
+  ['frederic', 'frederick', 'fred', 'freddy', 'fredk'],
 ];
+
+/* Marque d'une graphie gardée à côté de la clé de sa classe. */
+const GRAPHIE = '=';
 
 const INDEX_PRENOMS = new Map();
 for (const classe of CLASSES_PRENOMS) {
@@ -122,12 +132,25 @@ for (const classe of CLASSES_PRENOMS) {
 const PARTICULES = new Set(['de', 'du', 'des', 'le', 'la', 'l', 'mc', 'mac', 'o', 'st', 'ste', 'saint', 'sainte', 'van', 'von']);
 
 /**
- * Clé de prénom. Un prénom composé (« Marie Louise ») rend la clé de son
- * premier élément significatif ; les formes secondaires sont retournées à
- * part pour permettre un rapprochement plus souple.
+ * Clés de prénom. Un prénom composé (« Marie Louise ») rend la clé de chacun
+ * de ses éléments ; un rapprochement tient dès que deux fiches en partagent une.
+ *
+ * Trois choses que le recenseur fait varier d'une décennie à l'autre, et que
+ * la clé doit absorber :
+ *   - le trait d'union : « Jean-Baptiste » (1891) est « J.Baptiste » (1881) et
+ *     « J. Baptiste » (1871). Le prénom se découpe donc aussi sur le trait
+ *     d'union — sans quoi « jean-baptiste » restait un seul mot, qui ne
+ *     rencontrait jamais ni « jean » ni « baptiste » ;
+ *   - l'initiale : « J. » devant « Baptiste » est Jean. Une initiale seule
+ *     n'est pas un prénom : elle ne sert de clé que si la fiche n'a rien
+ *     d'autre, sinon « J.Baptiste » et « J.Louis » se rencontreraient sur « j » ;
+ *   - la graphie : « Ema » pour « Emma ». La forme écrite est gardée à côté de
+ *     la clé de sa classe, pour que la comparaison lettre à lettre de
+ *     similarPrenom la voie — « emma » rangé sous « emilie » ne ressemblait
+ *     plus à « ema ».
  */
 export function clesPrenom(prenom) {
-  const brut = normaliser(prenom);
+  const brut = normaliser(prenom).replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
   if (!brut) return [];
   const mots = brut.split(' ').filter(m => m && !PARTICULES.has(m));
   const cles = new Set();
@@ -136,9 +159,16 @@ export function clesPrenom(prenom) {
   const entier = INDEX_PRENOMS.get(brut) || brut;
   cles.add(entier);
 
-  for (const mot of mots) {
-    cles.add(INDEX_PRENOMS.get(mot) || mot);
+  const longs = mots.filter(m => m.length > 1);
+  for (const mot of (longs.length ? longs : mots)) {
+    const classe = INDEX_PRENOMS.get(mot);
+    cles.add(classe || mot);
+    // La graphie d'un prénom rangé dans une classe, marquée d'un « = » : elle
+    // ne sert qu'à la comparaison lettre à lettre (voir similarPrenom).
+    if (classe && classe !== mot) cles.add(GRAPHIE + mot);
   }
+  // « J. Baptiste », « J.Bte » : l'initiale est celle de Jean.
+  if (mots[0] === 'j' && /^(baptiste|bte|bapt)$/.test(mots[1] || '')) { cles.add('jean'); cles.add('baptiste'); }
   return [...cles];
 }
 
@@ -204,21 +234,33 @@ export function similarPatronyme(a, b) {
   return 0;
 }
 
-/** Similarité de prénom, entre 0 et 1, via les classes d'équivalence. */
+/**
+ * Similarité de prénom, entre 0 et 1, via les classes d'équivalence.
+ *
+ * Une clé commune vaut 1. À défaut, deux clés à une lettre près valent 0,75,
+ * à deux lettres près 0,5 (sur six lettres au moins). Les graphies marquées
+ * — « =emma », gardée à côté de la clé « emilie » — ne comptent qu'à une
+ * lettre près, et jamais pour une égalité : elles rattrapent « Ema » pour
+ * « Emma » sans ouvrir la porte aux ressemblances lointaines.
+ */
 export function similarPrenom(clesA, clesB) {
   if (!clesA.length || !clesB.length) return 0;
   for (const a of clesA) {
+    if (a[0] === GRAPHIE) continue;
     for (const b of clesB) {
       if (a === b) return 1;
     }
   }
   let meilleure = 0;
-  for (const a of clesA) {
-    for (const b of clesB) {
+  for (const ka of clesA) {
+    for (const kb of clesB) {
+      const graphie = ka[0] === GRAPHIE || kb[0] === GRAPHIE;
+      const a = ka[0] === GRAPHIE ? ka.slice(1) : ka;
+      const b = kb[0] === GRAPHIE ? kb.slice(1) : kb;
       if (a.length < 3 || b.length < 3) continue;
       const d = distance(a, b, 2);
-      if (d === 1) meilleure = Math.max(meilleure, 0.75);
-      else if (d === 2 && Math.max(a.length, b.length) >= 6) meilleure = Math.max(meilleure, 0.5);
+      if (d === 0 || d === 1) meilleure = Math.max(meilleure, 0.75);
+      else if (!graphie && d === 2 && Math.max(a.length, b.length) >= 6) meilleure = Math.max(meilleure, 0.5);
     }
   }
   return meilleure;

@@ -162,7 +162,7 @@ data/bussiere1990-data.js ──────────────────
                                                      │ outils/generer-site.mjs
                                                      ▼
                               fiches/lieux.json ── carte.html, lieu.html
-                              fiches/maison/*.json ─ maison.html  (champ « lieux »)
+                              fiches/maison/*/M*.json ─ maison.html (champ « lieux »)
                               fiches/personne/*/P*.json ─ personne.html (champ « lieux »)
                               fiches/maisons-index.json ─ recherche par nom
 

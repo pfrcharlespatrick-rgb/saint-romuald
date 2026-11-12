@@ -60,19 +60,19 @@
       boite.appendChild(ligneNote('Aucun résultat pour « ' + q + ' ».'));
       return;
     }
+    // Chaque résultat est un vrai lien : il s'ouvre au clavier, se copie, et
+    // s'ouvre dans un nouvel onglet comme n'importe quel lien — ce qu'un bloc
+    // rendu cliquable par script ne permettait pas.
     trouves.slice(0, PLAFOND).forEach(function (t) {
       var p = t.p;
-      var div = document.createElement('div');
-      div.className = 'resultat';
-      div.setAttribute('tabindex', '0');
-      div.innerHTML = '<span class="qui"></span><span class="quoi"></span><span class="ou"></span>';
-      div.querySelector('.qui').textContent = p.nom;
-      div.querySelector('.quoi').textContent = p.profession;
-      div.querySelector('.ou').textContent = R.situer(p);
-      var aller = function () { location.href = 'personne.html#' + p.id; };
-      div.addEventListener('click', aller);
-      div.addEventListener('keydown', function (e) { if (e.key === 'Enter') aller(); });
-      boite.appendChild(div);
+      var a = document.createElement('a');
+      a.className = 'resultat';
+      a.href = 'personne.html#' + encodeURIComponent(p.id);
+      a.innerHTML = '<span class="qui"></span><span class="quoi"></span><span class="ou"></span>';
+      a.querySelector('.qui').textContent = p.nom;
+      a.querySelector('.quoi').textContent = p.profession;
+      a.querySelector('.ou').textContent = R.situer(p);
+      boite.appendChild(a);
     });
     if (trouves.length > PLAFOND) {
       boite.appendChild(ligneSuite(trouves.length - PLAFOND, q));

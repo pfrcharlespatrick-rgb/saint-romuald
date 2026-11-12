@@ -5,7 +5,10 @@
 //   fiches/personne/<annee-D>/P<page>.json — fiches de personne, une page de
 //                                  manuscrit par fragment (docs/REFONTE.md :
 //                                  jamais 5 Mo au chargement)
-//   fiches/maison/<annee-D>.json   — fiches de maison, par lot annee-division
+//   fiches/maison/<annee-D>/M<tranche>.json — fiches de maison, par tranche de
+//                                  vingt-cinq numéros de maison
+//   fiches/document/<id>.json      — la transcription d'un document, chargée
+//                                  seulement quand le lecteur l'ouvre
 //   fiches/lieux.json              — lieux résolus, pour carte.html et lieu.html
 //   stats-donnees.json             — statistiques précalculées pour stats.html
 //
@@ -18,6 +21,10 @@ import { chargerDonnees, RACINE, cleMaison } from './lib/charger-donnees.mjs';
 import { colonnesDe, nettoyerRemarque, nomComplet, etatCivil, alphabetisation } from './lib/colonnes.mjs';
 
 const d = chargerDonnees();
+
+// L'identifiant d'un document sert de nom de fichier à sa transcription
+// (fiches/document/<id>.json) : rien d'autre que lettres, chiffres et tirets.
+const ID_DOCUMENT = /^[\w-]+$/;
 
 // Le complément de 1881 est rattaché par page et ligne du manuscrit : un
 // décalage s'y voit à ce qu'une naissance des douze derniers mois tombe sur
@@ -59,7 +66,7 @@ function mentionDe(id) {
   const attributs = [];
   if (p.age) attributs.push(`${p.age} ans`);
   attributs.push(`maison ${p.no_maison}, famille ${p.no_famille}`);
-  if (p.chef) attributs.push('chef(fe) de ménage');
+  if (p.chef) attributs.push(p.sexe === 'F' ? 'cheffe de ménage' : p.sexe === 'M' ? 'chef de ménage' : 'chef(fe) de ménage');
   return {
     id, annee: p.annee, division: p.division,
     division_reconstituee: p.division_reconstituee || undefined,
@@ -103,7 +110,10 @@ function trajectoireDe(id) {
     liaisons: liaisons.map((l) => ({
       confiance: l.confiance, motifs: l.motifs || [], score: l.score,
       // Un rapprochement confirmé à la main (docs/FILIATION.md) le dit à la fiche.
-      ...(l.origine === 'main' ? { origine: 'main' } : {})
+      ...(l.origine === 'main' ? { origine: 'main' } : {}),
+      // Proposé par le ménage plutôt que par le nom, ou maillon qui s'en déduit.
+      ...(l.par_menage ? { par_menage: true } : {}),
+      ...(l.transitif ? { transitif: true } : {})
     }))
   };
 }
@@ -118,6 +128,14 @@ function trajectoireDe(id) {
 // que le navigateur le lira ; page_ms s'y accorde par construction, et on le
 // dit si ce n'était plus le cas.
 
+// Deux choses ne sont écrites qu'une fois par fragment, sous des clés
+// réservées que personne.js relit :
+//   _entetes  les titres de colonnes du registre, les mêmes pour toute l'année ;
+//   _menages  la composition de chaque ménage de la page. Vingt personnes d'une
+//             page partagent trois ou quatre ménages : répétée dans chaque
+//             fiche, la maisonnée faisait à elle seule la moitié des 23 Mo du
+//             dossier. La fiche n'en garde que la clé (`menage`).
+
 const PAGE_DANS_ID = /^(\d{4})-D(\d)-P(\d{3})-/;
 const parLotPersonne = new Map(); // "annee-Ddivision" -> Map "page" -> { id: fiche }
 
@@ -131,21 +149,21 @@ for (const p of d.personnes.values()) {
   }
   if (!parLotPersonne.has(cleAD)) parLotPersonne.set(cleAD, new Map());
   const pages = parLotPersonne.get(cleAD);
-  if (!pages.has(page)) pages.set(page, {});
+  const cols = colonnesDe(Number(p.annee));
+  if (!pages.has(page)) pages.set(page, { _entetes: cols.entetes, _menages: {} });
   const lot = pages.get(page);
 
   const cleM = cleMaison(p.annee, p.division, p.no_maison);
   const maison = d.maisons.get(cleM);
   const famille = maison?.familles.find((f) => String(f.no_famille) === String(p.no_famille));
-  const cols = colonnesDe(Number(p.annee));
-  const maisonnee = famille ? {
-    entetes: cols.entetes,
-    lignes: famille.membres.map((mid) => {
+  const cleMenage = famille ? `${cleM}-F${p.no_famille}` : null;
+  if (famille && !lot._menages[cleMenage]) {
+    lot._menages[cleMenage] = famille.membres.map((mid) => {
       const m = d.personnes.get(mid);
       if (!m) return null;
-      return { id: mid, ligne: m.ligne, chef: !!m.chef, courante: mid === p.id, valeurs: cols.valeurs(m) };
-    }).filter(Boolean)
-  } : null;
+      return { id: mid, ligne: m.ligne, chef: !!m.chef, valeurs: cols.valeurs(m) };
+    }).filter(Boolean);
+  }
 
   const evenements = (d.evenementsParPersonne.get(p.id) || [])
     .filter((e) => e.resume)
@@ -199,7 +217,7 @@ for (const p of d.personnes.values()) {
       etat: l.etat, statut: l.statut
     })),
     trajectoire: trajectoireDe(p.id),
-    maisonnee,
+    menage: cleMenage,
     evenements,
     documents
   };
@@ -223,14 +241,17 @@ function fichiersSous(dossier) {
     return e.isDirectory() ? fichiersSous(chemin) : [chemin];
   });
 }
-const dossierPersonne = path.join(RACINE, 'fiches', 'personne');
-for (const chemin of fichiersSous(dossierPersonne)) {
-  if (fragmentsEcrits.has(chemin)) continue;
-  fs.rmSync(chemin);
-  console.log(`  retiré : ${path.relative(RACINE, chemin)} — n'est plus produit`);
-  const dossier = path.dirname(chemin);
-  if (dossier !== dossierPersonne && fs.readdirSync(dossier).length === 0) fs.rmdirSync(dossier);
+function retirerLeReste(dossierRacine, ecrits) {
+  for (const chemin of fichiersSous(dossierRacine)) {
+    if (ecrits.has(chemin)) continue;
+    fs.rmSync(chemin);
+    console.log(`  retiré : ${path.relative(RACINE, chemin)} — n'est plus produit`);
+    const dossier = path.dirname(chemin);
+    if (dossier !== dossierRacine && fs.readdirSync(dossier).length === 0) fs.rmdirSync(dossier);
+  }
 }
+const dossierPersonne = path.join(RACINE, 'fiches', 'personne');
+retirerLeReste(dossierPersonne, fragmentsEcrits);
 
 const tailles = [...fragmentsEcrits.values()].sort((a, b) => a - b);
 const [cheminPlusLourd, octetsPlusLourd] = [...fragmentsEcrits].reduce((a, b) => (b[1] > a[1] ? b : a));
@@ -252,7 +273,12 @@ function referenceDe(doc) {
     source: doc.source || '', cote: doc.cote || '', date: doc.date || '',
     ...(doc.date_incertaine ? { date_incertaine: true } : {}),
     ...(doc.url ? { url: doc.url } : {}),
-    ...(doc.transcription ? { transcription: doc.transcription } : {}),
+    // La transcription n'est pas recopiée dans la fiche : un acte du greffe en
+    // fait plusieurs Ko, et chaque fiche de personne, de maison et de lieu qui
+    // le cite en portait une copie — 1,2 Mo sur les 1,5 Mo d'un lot de maisons.
+    // La fiche dit seulement qu'elle existe ; le navigateur va la chercher dans
+    // fiches/document/<id>.json quand le lecteur ouvre le volet.
+    ...(doc.transcription && ID_DOCUMENT.test(doc.id) ? { a_transcription: true } : {}),
     // Les images du manuscrit, rangées par outils/tropy/fondre.mjs : seul ce
     // qu'il faut pour les montrer (aperçu Google Drive) et les citer.
     ...(doc.images && doc.images.length ? {
@@ -344,12 +370,55 @@ for (const [cleM, maison] of d.maisons) {
   };
 }
 
-let totalOctetsMaison = 0;
-for (const [cleAD, lot] of parLotMaison) {
-  const chemin = ecrireJson(`fiches/maison/${cleAD}.json`, lot);
-  totalOctetsMaison += fs.statSync(chemin).size;
+// Un lot annee-division pesait jusqu'à 1,5 Mo pour montrer une seule maison.
+// Les fiches sont donc rangées par tranche de vingt-cinq numéros de maison —
+// fiches/maison/1871-D2/M075.json porte les maisons 75 à 99 —, et maison.js
+// déduit le chemin de l'identifiant, sans index : « 1871-D2-M78 » → tranche 75.
+// Un numéro sans chiffre en tête irait sous « Mx » ; il n'y en a pas
+// aujourd'hui. La règle est écrite deux fois, ici et dans maison.js :
+// les garder d'accord.
+const TRANCHE_MAISONS = 25;
+function trancheMaison(noMaison) {
+  const n = parseInt(String(noMaison), 10);
+  return Number.isFinite(n) && n >= 0
+    ? 'M' + String(Math.floor(n / TRANCHE_MAISONS) * TRANCHE_MAISONS).padStart(3, '0')
+    : 'Mx';
 }
-console.log(`fiches/maison/*.json : ${parLotMaison.size} lots, ${(totalOctetsMaison / 1024).toFixed(0)} Ko au total`);
+const maisonsEcrites = new Map(); // chemin absolu -> octets
+for (const [cleAD, lot] of parLotMaison) {
+  const tranches = new Map();
+  for (const [cleM, fiche] of Object.entries(lot)) {
+    const t = trancheMaison(fiche.no_maison);
+    if (!tranches.has(t)) tranches.set(t, {});
+    tranches.get(t)[cleM] = fiche;
+  }
+  for (const [t, contenu] of tranches) {
+    const chemin = ecrireJson(`fiches/maison/${cleAD}/${t}.json`, contenu);
+    maisonsEcrites.set(chemin, fs.statSync(chemin).size);
+  }
+}
+retirerLeReste(path.join(RACINE, 'fiches', 'maison'), maisonsEcrites);
+{
+  const octets = [...maisonsEcrites.values()];
+  console.log(`fiches/maison/<annee-D>/M<tranche>.json : ${octets.length} tranches en ${parLotMaison.size} lots, ` +
+    `${(octets.reduce((s, o) => s + o, 0) / 1024).toFixed(0)} Ko au total — la plus lourde fait ${(Math.max(...octets) / 1024).toFixed(0)} Ko`);
+}
+
+// ───────────────────────── transcriptions ─────────────────────────
+// Une par document, chargée à la demande (voir referenceDe).
+const transcriptionsEcrites = new Map();
+for (const doc of d.manifeste.documents || []) {
+  if (!doc.transcription) continue;
+  if (!ID_DOCUMENT.test(doc.id)) {
+    console.warn(`  document « ${doc.id} » : identifiant inutilisable comme nom de fichier — transcription non publiée`);
+    continue;
+  }
+  const chemin = ecrireJson(`fiches/document/${doc.id}.json`, { id: doc.id, transcription: doc.transcription });
+  transcriptionsEcrites.set(chemin, fs.statSync(chemin).size);
+}
+retirerLeReste(path.join(RACINE, 'fiches', 'document'), transcriptionsEcrites);
+console.log(`fiches/document/<id>.json : ${transcriptionsEcrites.size} transcriptions, ` +
+  `${([...transcriptionsEcrites.values()].reduce((s, o) => s + o, 0) / 1024).toFixed(0)} Ko au total`);
 
 // ───────────────────────── fiches de lieu ─────────────────────────
 // Un seul fichier pour les 39 lieux : la carte les veut tous à la fois pour
@@ -470,7 +539,7 @@ function pyramideAges(annee) {
   const F = new Array(17).fill(0);
   let compte = 0;
   for (const p of d.personnes.values()) {
-    if (p.annee !== String(annee)) continue;
+    if (p.annee !== String(annee) || p.biffee === true) continue;
     const age = ageEnAnnees(p.age);
     if (age === null) continue;
     const tranche = Math.min(16, Math.floor(age / 5));
@@ -504,7 +573,7 @@ function normaliserOrigine(v) {
 function frequences(annee, champ, limite, normaliser) {
   const compte = new Map();
   for (const p of d.personnes.values()) {
-    if (p.annee !== String(annee)) continue;
+    if (p.annee !== String(annee) || p.biffee === true) continue;
     let v = (p[champ] || '').trim();
     if (!v) continue;
     if (normaliser) v = normaliser(v);
@@ -566,9 +635,20 @@ const stats = {
     liens: d.filiation.comptes.liens,
     forte: d.filiation.comptes.liens_forte,
     moyenne: d.filiation.comptes.liens_moyenne,
+    par_menage: d.filiation.comptes.liens_par_menage || 0,
+    main: d.filiation.comptes.liens_main || 0,
     veuvage: d.filiation.comptes.veuvage,
     essaimage: d.filiation.comptes.essaimage
-  }
+  },
+  // Tableau 2 du recensement de 1871 : les décès des douze mois précédents.
+  // Le tableau a sa propre pagination et ne renvoie à aucune maison ; il
+  // n'apparaissait donc nulle part sur le site. `maison` n'est rempli que pour
+  // les rattachements proposés (voir data/annexe-deces-data.js).
+  deces_1871: (d.annexes.deces || []).map((l) => ({
+    nom: [l.prenom, l.nom].filter(Boolean).join(' '), sexe: l.sexe || '', age: l.age || '',
+    mois: l.mois || '', cause: l.cause || '',
+    ...(l.ref_maison ? { maison: cleMaison(l.annee, l.division, l.ref_maison), rattachement: l.rattachement || '' } : {})
+  }))
 };
 ecrireJson('stats-donnees.json', stats);
 console.log('stats-donnees.json écrit.');

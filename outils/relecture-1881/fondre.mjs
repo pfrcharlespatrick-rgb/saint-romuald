@@ -5,7 +5,7 @@ import {
   corrections, manuel, touche, sansRelecture,
   correctionsMaisons, correctionsFamilles, manuelMaison, cleMaisonAtelier, cleFamilleAtelier, recensementDeCle,
   notesFamilles, lignes,
-  resoudreLiens, rejets,
+  resoudreLiens, rejets, decisionsDictees,
 } from './atelier.mjs';
 const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 
@@ -413,6 +413,17 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     total += faits.length;
   }
   console.log(`\n${total} changement(s) au total${essai ? ' — essai à blanc, rien écrit' : ''}`);
+
+  // ── Décisions dictées (data/decisions-dictees.json) ──
+  const dictees = decisionsDictees();
+  if (dictees.appliquees.length || dictees.depassees.length) {
+    console.log(`\n=== Décisions dictées — data/decisions-dictees.json ===`);
+    console.log(`${dictees.appliquees.length} correction(s) dictée(s) appliquée(s) par-dessus l'atelier`);
+    if (dictees.depassees.length) {
+      console.log(`${dictees.depassees.length} dépassée(s) — l'atelier porte autre chose depuis, il l'emporte :`);
+      dictees.depassees.forEach(c => console.log(`  ✕ ${c.id} ${c.champ} : dicté « ${c.valeur} », l'atelier porte « ${c.porte === null ? '' : c.porte} »`));
+    }
+  }
 
   // ── Liens entre recensements ──
   const etat = etatDesLiens();

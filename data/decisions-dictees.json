@@ -1,0 +1,1612 @@
+{
+ "format": "suivi-saint-romuald-decisions",
+ "version": 1,
+ "note": "Décisions que Patrick a dictées à Claude hors de l'atelier. Elles sont la main, au même titre qu'une case corrigée dans l'atelier, et sont lues par-dessus data/travail-personnel.json (outils/relecture-1881/atelier.mjs). Elles ne s'écrivent pas dans le fichier de travail, que l'atelier réécrit en entier à chaque sauvegarde. Une correction s'applique tant que l'atelier porte encore la valeur notée sous « atelier » (null : il n'en dit rien) ; un lien s'efface devant un rejet posé depuis dans l'annexe des filiations. Voir CLAUDE.md, « Les décisions dictées ».",
+ "mis_a_jour": "2026-11-12",
+ "corrections": [
+  {
+   "id": "1881-D2-P018-L16",
+   "champ": "prenom",
+   "atelier": "Rose Delima",
+   "valeur": "John",
+   "date": "2026-11-12",
+   "motif": "La correction « Rose Delima » visait la ligne 17 (Patrick, en séance) : elle avait glissé d'une ligne quand Alice McCready a été réinsérée à la ligne 15. La ligne 16 est le chef de la famille 80 ; le manuscrit porte « McCready John », 60 ans, navigateur (voir la fiche « relecture-manuscrit-1881-d2 » du manifeste)."
+  },
+  {
+   "id": "1881-D2-P018-L17",
+   "champ": "prenom",
+   "atelier": null,
+   "valeur": "Rose Delima",
+   "date": "2026-11-12",
+   "motif": "La correction posée dans l'atelier sur la ligne 16 était pour cette ligne-ci (Patrick, en séance) : Rose Delima, 57 ans, épouse de John McCready."
+  },
+  {
+   "id": "1881-D2-P004-L11",
+   "champ": "sexe",
+   "atelier": null,
+   "valeur": "M",
+   "date": "2026-11-12",
+   "motif": "Narcisse Joncas : prénom corrigé dans l'atelier, le sexe était resté « F » de l'ancienne lecture — masculin (Patrick, en séance)."
+  },
+  {
+   "id": "1881-D2-P004-L09",
+   "champ": "sexe",
+   "atelier": null,
+   "valeur": "M",
+   "date": "2026-11-12",
+   "motif": "Louis Honoré Joncas : prénom corrigé dans l'atelier, le sexe était resté « F » de l'ancienne lecture — masculin (Patrick, en séance)."
+  },
+  {
+   "id": "1881-D2-P005-L23",
+   "champ": "sexe",
+   "atelier": null,
+   "valeur": "M",
+   "date": "2026-11-12",
+   "motif": "Homère Daigle : prénom corrigé dans l'atelier, le sexe était resté « F » de l'ancienne lecture — masculin (Patrick, en séance)."
+  }
+ ],
+ "liens": {
+  "1871-D1-P046-L19": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "50",
+    "ligne": "23",
+    "nom": "Eugénie Plaisance",
+    "note": "Rapprochement proposé par le ménage — même ménage : 9 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Euphémie / Eugénie) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P046-L18": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "88",
+    "ligne": "7",
+    "nom": "Régina Girard",
+    "note": "Rapprochement proposé par le ménage — même ménage : 8 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Eugénie / Régina) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P034-L07": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "40",
+    "ligne": "13",
+    "nom": "Altania Grégoire",
+    "note": "Rapprochement proposé par le ménage — même ménage : 8 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Alvina / Altania) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P034-L09": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "40",
+    "ligne": "15",
+    "nom": "Solfina Grégoire",
+    "note": "Rapprochement proposé par le ménage — même ménage : 8 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Selphina / Solfina) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P054-L19": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "55",
+    "ligne": "13",
+    "nom": "Berthe Vachon",
+    "note": "Rapprochement proposé par le ménage — même ménage : 7 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Barbe / Berthe) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P030-L10": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "81",
+    "ligne": "4",
+    "nom": "Laura Desroches",
+    "note": "Rapprochement proposé par le ménage — même ménage : 7 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Flore / Laura) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P033-L16": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "16",
+    "ligne": "20",
+    "nom": "Marie Huard",
+    "note": "Rapprochement proposé par le ménage — même ménage : 7 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Florida / Marie) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P014-L16": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "29",
+    "ligne": "17",
+    "nom": "Zéphirin Beaulieu",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Séverin / Zéphirin) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P016-L14": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "12",
+    "ligne": "4",
+    "nom": "Odéline Paquette",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Aubéline / Odéline) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P016-L15": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "12",
+    "ligne": "7",
+    "nom": "Alexina Paquette",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Emma / Alexina) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P007-L07": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "44",
+    "ligne": "23",
+    "nom": "Célie Roberge",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Elise / Célie) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P007-L19": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "45",
+    "ligne": "12",
+    "nom": "Marguerite St.Hilaire",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Boucher / St.Hilaire) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P002-L16": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "17",
+    "ligne": "24",
+    "nom": "Azilda Halé",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Elzida / Azilda) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P020-L19": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "35",
+    "ligne": "25",
+    "nom": "Loveria Roberge",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Louise / Loveria) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P023-L10": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "38",
+    "ligne": "21",
+    "nom": "Caniette Roberge",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Louise / Caniette) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P049-L11": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "44",
+    "ligne": "22",
+    "nom": "Léola Chevrette",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Léda / Léola) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P011-L15": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "52",
+    "ligne": "2",
+    "nom": "Isaac McNaughton",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (John / Isaac) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P012-L02": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "52",
+    "ligne": "9",
+    "nom": "Ada McNaughton",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Eva / Ada) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P034-L03": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "39",
+    "ligne": "16",
+    "nom": "François Paradis",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Aimée / François) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P004-L20": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "54",
+    "ligne": "17",
+    "nom": "Delmia Boucher",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Célina / Delmia) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P016-L08": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "38",
+    "ligne": "7",
+    "nom": "Sophonias Roberge",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Hubert / Sophonias) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P017-L08": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "40",
+    "ligne": "23",
+    "nom": "Célina Binette",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Selvie / Célina) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P021-L10": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "35",
+    "ligne": "12",
+    "nom": "Azélie Joncas",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Arsilie / Azélie) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P022-L13": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "18",
+    "ligne": "16",
+    "nom": "John McCready",
+    "note": "Rapprochement proposé par le ménage quand la ligne 16 portait par erreur « Rose Delima » (5 autres membres du ménage s'y retrouvent) ; confirmé par Patrick le 2026-11-12, en séance, avec la correction du prénom."
+   }
+  ],
+  "1871-D1-P040-L11": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "58",
+    "ligne": "13",
+    "nom": "Alexina Gingras",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Maxina / Alexina) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P049-L19": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "72",
+    "ligne": "22",
+    "nom": "Sofronie Leclerc",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Euphrasie / Sofronie) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P049-L20": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "72",
+    "ligne": "23",
+    "nom": "Arthur Leclerc",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (François / Arthur) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P059-L09": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "76",
+    "ligne": "24",
+    "nom": "Lydia Carrier",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Léda / Lydia) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P067-L15": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "71",
+    "ligne": "22",
+    "nom": "Teberia Gopelin",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Vitéria / Teberia) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P070-L20": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "73",
+    "ligne": "24",
+    "nom": "Alphonsine Lebel",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Artémise / Alphonsine) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P075-L19": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "88",
+    "ligne": "12",
+    "nom": "W.Frédéric Atkinson",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (William / W.Frédéric) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P021-L19": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "32",
+    "ligne": "24",
+    "nom": "Archild Picard",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Achille / Archild) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P022-L20": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "80",
+    "ligne": "7",
+    "nom": "Hersilie Simoneau",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Amélie / Hersilie) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P024-L04": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "35",
+    "ligne": "2",
+    "nom": "Gédias Lambert",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Louis / Gédias) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P031-L07": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "20",
+    "ligne": "24",
+    "nom": "Célanire Leclerc",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Emélie / Célanire) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P036-L11": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "41",
+    "ligne": "16",
+    "nom": "S.Ordina Clouston",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Wilhélmina / S.Ordina) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P036-L14": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "41",
+    "ligne": "17",
+    "nom": "Sefroy Clouston",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Anna / Sefroy) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P039-L11": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "34",
+    "ligne": "4",
+    "nom": "Marie Elmire Guillotte",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Délina / Marie Elmire) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P011-L02": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "48",
+    "ligne": "14",
+    "nom": "Anselme Coté",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Anthime / Anselme) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P011-L03": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "48",
+    "ligne": "16",
+    "nom": "Alinéon Coté",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Siméon / Alinéon) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P011-L05": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "48",
+    "ligne": "15",
+    "nom": "Eugénie Coté",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Ursule / Eugénie) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P019-L06": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "36",
+    "ligne": "13",
+    "nom": "Marie Louise Hardy",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Florida / Marie Louise) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P031-L07": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "26",
+    "ligne": "11",
+    "nom": "Angélique Fréchette",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Roberge / Fréchette) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P036-L05": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "31",
+    "ligne": "23",
+    "nom": "Ephrem Lefevre",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Elzéar / Ephrem) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P072-L03": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "82",
+    "ligne": "16",
+    "nom": "Jean Gauthier",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Joseph / Jean) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P017-L08": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "12",
+    "ligne": "19",
+    "nom": "Joseph Cantin",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Amédée / Joseph) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P017-L11": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "47",
+    "ligne": "4",
+    "nom": "Ephrem Couture",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Louis / Ephrem) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P037-L07": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "41",
+    "ligne": "22",
+    "nom": "M.Joseph Boivin",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Michel / M.Joseph) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P046-L04": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "13",
+    "ligne": "25",
+    "nom": "Ernest Bergeron",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Jacques / Ernest) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P049-L20": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "10",
+    "ligne": "3",
+    "nom": "Prudèle Gagné",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Praxède / Prudèle) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P056-L10": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "8",
+    "ligne": "21",
+    "nom": "Illisible Montminy",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Césarie / Illisible) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P065-L03": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "10",
+    "ligne": "25",
+    "nom": "Odile Bergeron",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Julie / Odile) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P065-L04": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "11",
+    "ligne": "1",
+    "nom": "Odile Bergeron",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Eléonore / Odile) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P065-L14": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "37",
+    "ligne": "19",
+    "nom": "Aidé Coté",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Adèle / Aidé) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P008-L16": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "45",
+    "ligne": "15",
+    "nom": "Belzémire Samson",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Julie / Belzémire) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P023-L08": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "42",
+    "ligne": "24",
+    "nom": "Sem Guay",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Léon / Sem) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P028-L16": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "17",
+    "ligne": "22",
+    "nom": "Alganita Roberge",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Florida / Alganita) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P034-L18": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "40",
+    "ligne": "3",
+    "nom": "Aristeleth Cadorette",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Elisabeth / Aristeleth) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P004-L13": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "2",
+    "ligne": "19",
+    "nom": "Edouard Lambert",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Alphonse / Edouard) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P044-L11": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "14",
+    "ligne": "23",
+    "nom": "Solvie Piger",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Marie / Solvie) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P071-L16": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "77",
+    "ligne": "17",
+    "nom": "Alvina Allaire",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Poirvert / Allaire) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P014-L07": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "14",
+    "ligne": "7",
+    "nom": "Anna Bella Doran",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Emélie / Anna Bella) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P028-L17": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "27",
+    "ligne": "12",
+    "nom": "Joseph Larivée",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Lavoie / Larivée) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P028-L18": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "27",
+    "ligne": "13",
+    "nom": "Eugénie Larivée",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Lavoie / Larivée) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P038-L03": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "63",
+    "ligne": "25",
+    "nom": "Joséphine Joncas",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Malvina / Joséphine) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P005-L15": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "10",
+    "ligne": "2",
+    "nom": "Mary McCarthy",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Wilson / McCarthy) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P006-L06": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "10",
+    "ligne": "1",
+    "nom": "Marguerite McCarthy",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Alice / McCarthy) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P009-L02": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "45",
+    "ligne": "22",
+    "nom": "Ursule Forgue",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Marie / Ursule) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P031-L16": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "29",
+    "ligne": "7",
+    "nom": "Elvira Bourassa",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Albina / Elvira) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D2-P021-L04": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "39",
+    "ligne": "5",
+    "nom": "Céline Lefèvre",
+    "note": "Rapprochement maillon déduit des deux rapprochements qui l'encadrent ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P018-L16": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "63",
+    "ligne": "16",
+    "nom": "F.Xavier Gagné",
+    "note": "Rapprochement maillon déduit des deux rapprochements qui l'encadrent ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1871-D1-P002-L01": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "21",
+    "ligne": "22",
+    "nom": "Cléara McNaughton",
+    "note": "Rapprochement maillon déduit des deux rapprochements qui l'encadrent ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P035-L25": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "107",
+    "ligne": "24",
+    "nom": "Louise Roberge",
+    "note": "Rapprochement maillon déduit des deux rapprochements qui l'encadrent ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P052-L02": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "131",
+    "ligne": "6",
+    "nom": "John McNaugton",
+    "note": "Rapprochement maillon déduit des deux rapprochements qui l'encadrent ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P088-L12": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "99",
+    "ligne": "8",
+    "nom": "Wm P. Atkinson",
+    "note": "Rapprochement maillon déduit des deux rapprochements qui l'encadrent ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P032-L24": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "59",
+    "ligne": "3",
+    "nom": "Achille Picard",
+    "note": "Rapprochement maillon déduit des deux rapprochements qui l'encadrent ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P048-L16": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "130",
+    "ligne": "7",
+    "nom": "Simeon Côté",
+    "note": "Rapprochement maillon déduit des deux rapprochements qui l'encadrent ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P042-L24": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "112",
+    "ligne": "19",
+    "nom": "Léon Guay",
+    "note": "Rapprochement maillon déduit des deux rapprochements qui l'encadrent ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P010-L02": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "97",
+    "ligne": "4",
+    "nom": "Mary Wilson",
+    "note": "Rapprochement maillon déduit des deux rapprochements qui l'encadrent ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P001-L12": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "54",
+    "ligne": "21",
+    "nom": "Pierre Lagueux",
+    "note": "Rapprochement proposé par le ménage — même ménage : 10 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Delyre / Pierre) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P055-L17": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "16",
+    "ligne": "4",
+    "nom": "Oscar Vachon",
+    "note": "Rapprochement proposé par le ménage — même ménage : 8 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Edgar / Oscar) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P066-L14": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "22",
+    "ligne": "25",
+    "nom": "Clelie Delisle",
+    "note": "Rapprochement proposé par le ménage — même ménage : 8 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Louise / Clelie) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P016-L05": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "66",
+    "ligne": "1",
+    "nom": "Edouard Deschênes",
+    "note": "Rapprochement proposé par le ménage — même ménage : 7 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Edmond / Edouard) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P004-L12": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "71",
+    "ligne": "4",
+    "nom": "Amédé Joncas",
+    "note": "Rapprochement proposé par le ménage — même ménage : 7 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Forcat / Joncas) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P035-L14": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "55",
+    "ligne": "12",
+    "nom": "Jacques Demore",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Demers / Demore) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P068-L07": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "5",
+    "ligne": "6",
+    "nom": "Louisa Belanger",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Merina / Louisa) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P068-L12": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "4",
+    "ligne": "3",
+    "nom": "Alain Vermette",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Alexis / Alain) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P019-L12": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "140",
+    "ligne": "25",
+    "nom": "Octave Labbé",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Pierre / Octave) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P030-L15": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "116",
+    "ligne": "12",
+    "nom": "Lumina Roberge",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Erminia / Lumina) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P039-L05": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "102",
+    "ligne": "2",
+    "nom": "Cézarie Lefèvre",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Céline / Cézarie) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P039-L06": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "102",
+    "ligne": "3",
+    "nom": "Lucie Lefèvre",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Eudoxie / Lucie) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P045-L06": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "73",
+    "ligne": "11",
+    "nom": "Ulzer St-Hilaire",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Ludger / Ulzer) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P045-L09": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "73",
+    "ligne": "15",
+    "nom": "Desneige St-Hilaire",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Emilie / Desneige) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P049-L17": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "30",
+    "ligne": "5",
+    "nom": "Delia Boucher",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Léa / Delia) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P051-L11": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "136",
+    "ligne": "20",
+    "nom": "Desneige St-Hilaire",
+    "note": "Rapprochement proposé par le ménage — même ménage : 6 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Odénige / Desneige) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P004-L01": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "94",
+    "ligne": "22",
+    "nom": "Joseph Beaulieu",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Damase / Joseph) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P027-L23": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "87",
+    "ligne": "14",
+    "nom": "Adélaïde Gagnon",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Aglaé / Adélaïde) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P063-L16": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "79",
+    "ligne": "12",
+    "nom": "François Gagné",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (F.Xavier / François) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P065-L08": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "8",
+    "ligne": "18",
+    "nom": "Petaline Roberge",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Vitaliche / Petaline) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P069-L08": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "25",
+    "ligne": "1",
+    "nom": "Alfred Emond",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Freddy / Alfred) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P025-L16": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "17",
+    "ligne": "2",
+    "nom": "Rosina Lambert",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Georgina / Rosina) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P025-L07": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "109",
+    "ligne": "22",
+    "nom": "Pierre St Laurent",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Louis / Pierre) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P034-L09": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "114",
+    "ligne": "3",
+    "nom": "Delores Boulet",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Adélaïde / Delores) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P011-L14": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "70",
+    "ligne": "3",
+    "nom": "Louis Boucher",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Arthur / Louis) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P021-L22": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "72",
+    "ligne": "6",
+    "nom": "Elvira McNaughton",
+    "note": "Rapprochement proposé par le ménage — même ménage : 5 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Cléara / Elvira) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P040-L07": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "84",
+    "ligne": "8",
+    "nom": "Flore Bégin",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Tremblay / Bégin) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P044-L25": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "49",
+    "ligne": "25",
+    "nom": "Élaïe Chevrette",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Eloïs / Élaïe) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P084-L09": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "39",
+    "ligne": "9",
+    "nom": "Marie Louise Gingras",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Artémise / Marie Louise) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P025-L21": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "115",
+    "ligne": "19",
+    "nom": "Eleonard Joncas",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Bourgette / Eleonard) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P031-L10": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "91",
+    "ligne": "22",
+    "nom": "Georgenia Simoneau",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Marie / Georgenia) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P054-L20": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "128",
+    "ligne": "15",
+    "nom": "Colonir Boucher",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Emilie / Colonir) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P055-L01": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "136",
+    "ligne": "25",
+    "nom": "Fred Augustin Smith",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (F.Xavier Rev. / Fred Augustin) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P001-L23": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "93",
+    "ligne": "14",
+    "nom": "Victoria Montigny",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Marie Valeria / Victoria) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P001-L25": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "93",
+    "ligne": "16",
+    "nom": "Alderine Montigny",
+    "note": "Rapprochement proposé par le ménage — même ménage : 4 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Marie Aldina / Alderine) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P054-L07": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "5",
+    "ligne": "16",
+    "nom": "Joseph Bernier",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (J.Baptiste / Joseph) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P059-L11": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "26",
+    "ligne": "18",
+    "nom": "Adele Rochette",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Doré / Rochette) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P063-L25": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "43",
+    "ligne": "6",
+    "nom": "Josephine Lacroix",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Joncas / Lacroix) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P082-L18": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "47",
+    "ligne": "22",
+    "nom": "Eliza Letarte",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Gauthier / Letarte) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P012-L13": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "61",
+    "ligne": "14",
+    "nom": "Pergina Bégin",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Virginie / Pergina) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P013-L25": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "62",
+    "ligne": "2",
+    "nom": "Harvey Boucher",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Stanislas / Harvey) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P021-L03": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "98",
+    "ligne": "17",
+    "nom": "Amanda Leclerc",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Alviard / Amanda) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P031-L05": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "118",
+    "ligne": "8",
+    "nom": "Regina Bilodeau",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Odina / Regina) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P056-L13": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "112",
+    "ligne": "8",
+    "nom": "Lane Walker",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Elisabeth / Lane) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P057-L10": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "132",
+    "ligne": "10",
+    "nom": "Belzemir Roberge",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Brigitte / Belzemir) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P057-L22": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "139",
+    "ligne": "8",
+    "nom": "Edouard St-Hilaire",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Thomas / Edouard) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P010-L04": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "38",
+    "ligne": "3",
+    "nom": "Johny Gagne",
+    "note": "Rapprochement proposé par le ménage — même ménage : 3 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Thomy / Johny) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P026-L14": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "86",
+    "ligne": "5",
+    "nom": "Edmond Toussaint",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Edouard / Edmond) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P028-L05": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "46",
+    "ligne": "8",
+    "nom": "Marie Landry",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Mœdi / Marie) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P038-L04": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "44",
+    "ligne": "18",
+    "nom": "Médé Robin",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Samuel / Médé) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P040-L16": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "76",
+    "ligne": "11",
+    "nom": "Albert Rouleau",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Alfred / Albert) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P046-L23": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "30",
+    "ligne": "25",
+    "nom": "Delina Gosselin",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Simard / Gosselin) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P064-L15": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "140",
+    "ligne": "5",
+    "nom": "Rigiete Martel",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Régis / Rigiete) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P080-L19": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "18",
+    "ligne": "22",
+    "nom": "George Fox",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Sax / Fox) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P082-L05": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "10",
+    "ligne": "21",
+    "nom": "Arthur Ferland",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Alfred / Arthur) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D1-P024-L22": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "87",
+    "ligne": "24",
+    "nom": "Rosana Boucher",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Demers / Boucher) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P048-L10": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "131",
+    "ligne": "5",
+    "nom": "Rabert Anderson",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Gordon / Rabert) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P049-L12": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "130",
+    "ligne": "20",
+    "nom": "Malvina Boucher",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Belzémire / Malvina) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P052-L03": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "131",
+    "ligne": "7",
+    "nom": "Ann McNaugton",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Isabella / Ann) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P052-L11": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "131",
+    "ligne": "11",
+    "nom": "James McNaugton",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Denis / James) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P011-L19": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "65",
+    "ligne": "11",
+    "nom": "Bartelimi Bergeron",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Barthélemy / Bartelimi) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P002-L17": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "72",
+    "ligne": "2",
+    "nom": "Prime Lambert",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; patronyme concordant, prénom différent (Rémi / Prime) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ],
+  "1881-D2-P016-L08": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "124",
+    "ligne": "18",
+    "nom": "Laura St-Hilaire",
+    "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Andrew / St-Hilaire) ; confirmé par Patrick le 2026-11-12, en séance."
+   }
+  ]
+ }
+}

@@ -100,6 +100,28 @@ node outils/generer-site.mjs                    # propager aux fiches du site
 `data/travail-personnel.json` n'est jamais réécrit par ces outils : c'est
 l'archive de ce qui a été tranché.
 
+### Les décisions dictées
+
+Patrick tranche aussi hors de l'atelier, en le disant à Claude (« c'est bien la
+ligne 17 », « confirme-les tous »). Ces décisions sont **la main**, au même
+titre qu'une case corrigée — mais elles ne s'écrivent **pas** dans
+`data/travail-personnel.json` : l'atelier réécrit ce fichier en entier, depuis
+le navigateur, à chaque sauvegarde, et la décision s'en irait avec la suivante.
+Elles vont dans `data/decisions-dictees.json`, que `atelier.mjs` lit par-dessus
+le fichier de travail :
+
+- `corrections` — `{ id, champ, atelier, valeur, date, motif }` : le champ vaut
+  `valeur` **tant que l'atelier porte encore `atelier`** (`null` : il n'en dit
+  rien). Si la case a changé dans l'atelier depuis, la main y est repassée :
+  l'atelier l'emporte, et `fondre.mjs` dit la décision « dépassée ».
+- `liens` — comme `suivi-liens`. Un lien dicté s'efface devant un rejet posé
+  depuis dans l'annexe des filiations.
+
+N'y écrire que ce que Patrick a dit, avec la date et ses mots dans `motif`.
+L'atelier, lui, continue d'afficher sa propre case tant que Patrick ne l'a pas
+corrigée dans son navigateur : le lui rappeler quand une décision dictée
+contredit une case de l'atelier.
+
 ### Où en est la relecture à la main
 
 | Recensement | Relu par Patrick jusqu'à | Versé dans le site |
@@ -110,6 +132,34 @@ Une ligne de ce tableau dit « relu », pas « corrigé » : une famille relue s
 correction n'a pas d'entrée dans `suivi-familles-corrections` (ainsi la
 famille 29 de 1871-D1). Mettre le tableau à jour à chaque nouvelle sauvegarde
 versée.
+
+## Contrôle des croisements : ce qui reste à trancher
+
+`node outils/controle-croisements.mjs` relit toutes les données et écrit
+`docs/CONTROLE-CROISEMENTS.md` : corrections manuelles dont le prénom et le
+sexe se contredisent (souvent une correction qui a glissé d'une ligne),
+rapprochements proposés par le ménage, décès de 1871 sans maison, personnes
+rattachées dans un document et pas dans un autre, lignes incomplètes. Il ne
+modifie aucune donnée — c'est la liste de ce que Patrick tranche lui-même.
+Le relancer après un versement de l'atelier ou une série d'actes, à la suite
+de `analyse-filiation.mjs` et de `generer-site.mjs`.
+
+Les rapprochements « par le ménage » (`par_menage`, confiance moyenne) sont
+des propositions du calcul (docs/FILIATION.md, « Compléter les ménages
+reconnus ») : ne jamais les présenter comme établis.
+
+## Le site ne charge que ce qu'il montre
+
+`outils/generer-site.mjs` range ses sorties pour qu'une page n'en charge
+qu'une petite part : une fiche de personne par page de manuscrit
+(`fiches/personne/<annee-D>/P<page>.json`, ménages écrits une fois sous
+`_menages`), les maisons par tranche de vingt-cinq numéros
+(`fiches/maison/<annee-D>/M<tranche>.json`), et la transcription d'un document
+à part (`fiches/document/<id>.json`), chargée quand le lecteur ouvre le volet.
+Ne pas remettre une transcription ni une maisonnée entière dans chaque fiche :
+c'est ce qui faisait peser 1,5 Mo à l'ouverture d'une maison. Le code commun
+aux trois fiches est dans `fiche-commun.js` ; `node outils/audit-telephone.mjs`
+vérifie le rendu sur petit écran.
 
 ## Les lieux : la file de l'atelier de la carte se vide une fois versée
 

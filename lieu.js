@@ -182,66 +182,18 @@
   // Les documents du manifeste rattachés au lieu, et ceux qui nomment ses
   // occupants recensés — avec le rattachement qui les amène quand il n'est
   // pas confirmé.
-  var ROLES = { concedant: 'concédant', temoin: 'témoin', defunt: 'défunt', defunte: 'défunte',
-    requerante: 'requérante', acquereur: 'acquéreur', pere: 'père', mere: 'mère', epouse: 'épouse',
-    proprietaire: 'propriétaire', cedant: 'cédant' };
-
-  // La référence du document — dépôt ou greffe, n° de minute et images, date —
-  // et sa transcription, repliée.
-  var MOIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août',
-    'septembre', 'octobre', 'novembre', 'décembre'];
-  function dateLisible(t) {
-    var m = /^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?$/.exec(t || '');
-    if (!m) return t || '';
-    return (m[3] ? Number(m[3]) + (m[3] === '01' ? 'er' : '') + ' ' : '') +
-      (m[2] ? MOIS[Number(m[2]) - 1] + ' ' : '') + m[1];
-  }
-  // Les images du manuscrit (outils/tropy/fondre.mjs), repliées : rien ne se
-  // charge tant que le lecteur n'ouvre pas le volet. L'aperçu vient de Google
-  // Drive ; si le dossier n'est pas partagé, il reste le lien vers l'image.
-  function imagesDocument(doc) {
-    var imgs = (doc.images || []).filter(function (i) { return i && /^[\w-]+$/.test(i.drive || ''); });
-    if (!imgs.length) return '';
-    return '<details class="doc-images"><summary>Images du manuscrit (' + imgs.length + ')</summary><div class="doc-images-liste">' +
-      imgs.map(function (i) {
-        var vue = 'https://drive.google.com/file/d/' + i.drive + '/view';
-        var legende = 'Microfilm ' + i.microfilm + (i.legende ? ' · p. ' + i.legende : '');
-        return '<a class="doc-image" href="' + vue + '" target="_blank" rel="noopener">' +
-          '<img loading="lazy" alt="' + esc(legende) + '" src="https://drive.google.com/thumbnail?id=' + i.drive + '&amp;sz=w400" ' +
-          'onerror="this.remove()">' +
-          '<span>' + esc(legende) + '</span></a>';
-      }).join('') + '</div></details>';
-  }
-
-  function referenceDocument(doc) {
-    var parts = [];
-    if (doc.source) parts.push(esc(doc.source));
-    if (doc.cote) parts.push(esc(doc.cote));
-    if (doc.date) parts.push(esc(dateLisible(doc.date)) + (doc.date_incertaine ? ' (date incertaine)' : ''));
-    if (doc.url && /^https?:\/\//.test(doc.url)) parts.push('<a href="' + esc(doc.url) + '" rel="noopener">numérisation</a>');
-    return (parts.length ? '<div class="occ-detail">Référence : ' + parts.join(' · ') + '</div>' : '') +
-      (doc.transcription ? '<details><summary>Transcription</summary><p style="white-space:pre-wrap">' + esc(doc.transcription) + '</p></details>' : '') +
-      imagesDocument(doc);
-  }
-
   function blocDocuments(l) {
     var docs = (l.documents || []).filter(function (d) { return d && typeof d === 'object'; });
     if (!docs.length) return '';
     var blocs = docs.map(function (doc) {
-      var qui = (doc.personnes || []).map(function (p) {
-        return '<a href="personne.html#' + esc(p.id) + '">' + esc(p.nom) + (p.annee ? ', ' + esc(p.annee) : '') + '</a>' +
-          (p.role ? ' <span class="occ-detail">(' + esc(ROLES[p.role] || p.role) + ')</span>' : '');
-      }).join(' · ');
+      var qui = FICHE.personnesDocument(doc.personnes);
       var via = (doc.via || []).filter(function (v) { return v.statut !== 'confirme'; }).map(function (v) {
-        return 'occupant de ' + v.annee + ', rattachement ' + (v.statut === 'propose' ? 'proposé' : v.statut === 'a_verifier' ? 'à vérifier' : v.statut);
+        return 'occupant de ' + v.annee + ', rattachement ' + (v.statut === 'propose' ? 'proposé' : v.statut === 'a_verifier' ? 'à vérifier' : v.statut === 'hypothese' ? 'par hypothèse' : v.statut);
       });
-      var affirmations = (doc.affirmations || []).map(function (a) {
-        return '<li>' + esc(a.enonce) + ' <span class="etiquette">(' + esc(a.certitude) + ')</span></li>';
-      }).join('');
-      return '<div class="marginale"><b>' + esc(doc.titre) + '</b>' + referenceDocument(doc) +
+      return '<div class="marginale"><b>' + esc(doc.titre) + '</b>' + FICHE.referenceDocument(doc) +
         (qui ? '<div>Nomme : ' + qui + '</div>' : '') +
         (via.length ? '<div class="occ-detail">Par ' + esc(via.join(' ; ')) + '</div>' : '') +
-        (affirmations ? '<ul class="indices" style="columns:1">' + affirmations + '</ul>' : '') + '</div>';
+        FICHE.affirmationsDocument(doc.affirmations) + '</div>';
     }).join('');
     return '<section class="bloc"><h3 class="bloc-titre">Preuves documentaires</h3>' +
       '<p class="bloc-note">Actes et ouvrages qui touchent cette maison ou les gens qui y ont vécu. Le détail est sur la fiche de chaque personne.</p>' +
@@ -300,7 +252,8 @@
   }
 
   function charger() {
-    var id = decodeURIComponent(location.hash.slice(1));
+    var id = FICHE.identifiant();
+    document.title = 'Un lieu — Saint-Romuald, les gens du Fleuve';
     contenu.innerHTML = '<p class="chargement">Chargement de la fiche…</p>';
     Promise.all([LX.charger(), LX.photosLocales()]).then(function (r) {
       var lieux = r[0].lieux, locales = r[1];
