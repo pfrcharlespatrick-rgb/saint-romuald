@@ -21983,19 +21983,19 @@
       "titre": "Vente de George Gagné à Étienne Denis dit Lapierre, d'un emplacement à Saint-Jean-Chrysostome — minute n° 237, 5 novembre 1874",
       "date": "1874-11-05",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 237, image 001994 (Drive : fichier 04T_CN401S124P_01050) ; en marge « Vente — Gagné à Lapierre — Original — enregistré — payé ». Acte INCOMPLET : seule la première page est au Drive (le sous-dossier 1051-1100 n'est pas encore déposé) ; la suite est sur le fichier 01051.",
-      "nature": "Vente passée le 5 novembre 1874, après-midi, devant le notaire. Première page seulement.",
-      "transcription": "[001994] « N° 237. L'an mil huit cent soixante-quatorze, le cinq de novembre, après-midi, en présence de Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Mr George Gagné, de la paroisse de St Jean Chrysostome, marchand ; Lequel vend, cède, transporte & abandonne dès maintenant & à toujours, avec garantie de tous troubles & empêchements généralement quelconques, à Mr Étienne Denis dit Lapierre, du même lieu, cultivateur, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayant cause, savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant cent cinquante [?] pieds de front sur cent soixante [?] pieds de profondeur, le tout plus ou moins, borné au nord à Antoine Paradis, aux autres côtés à Mr Pierre [E. ?] Roberge […] » [suite sur le fichier 01051, non encore au Drive].",
+      "cote": "Minute n° 237, images 001994 à 001996 (Drive : fichiers 04T_CN401S124P_01050 à 01052) ; en marge « Vente — Gagné à Lapierre — Original — enregistré — payé ». Acte complet.",
+      "nature": "Vente passée le 5 novembre 1874, après-midi, devant le notaire (sans témoin nommé) ; les deux parties signent.",
+      "transcription": "[001994] « N° 237. L'an mil huit cent soixante-quatorze, le cinq de novembre, après-midi, en présence de Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Mr George Gagné, de la paroisse de St Jean Chrysostome, marchand ; Lequel vend, cède, transporte & abandonne dès maintenant & à toujours, avec garantie de tous troubles & empêchements généralement quelconques, à Mr Étienne Denis dit Lapierre, du même lieu, cultivateur, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayant cause, savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant cinquante pieds de front sur soixante pieds de profondeur, le tout plus ou moins, borné au nord à Antoine Paradis, au sud à Mr Pierre [001995] Roberge, à l'est à une route & à l'ouest à Ferdinand Dubois, avec ensemble une maison en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances. Tel que le tout est actuellement, sans en rien réserver ; le vendeur s'en dessaisissant actuellement au profit de l'acquéreur, pour par celui-ci en jouir, faire & disposer en pleine propriété & à perpétuité. Au vendeur appartient le dit immeuble pour l'avoir acquis de Joachim Richard, suivant acte reçu par le notaire soussigné, & le dit Sr Richard le possédait pour l'avoir acquis de Sr Pierre Roberge, suivant bail à rente foncière reçu par le notaire soussigné en date du vingt de juin dernier. Cette vente aux charges suivantes, savoir : 1° De se conformer en tous points au bail à rente foncière & constitué sus-cité & daté ; 2° Et notamment de payer au premier jour de juillet de chaque année, à dater du premier jour de juillet dernier, la somme de sept piastres, garantie quitte de tous arrérages. [001996] Cette vente est faite pour le prix ou somme de cinquante piastres courant, en bon argent courant, dès avant ces présentes, ainsi que le vendeur le reconnaît ; dont il donne quittance générale & finale à l'acquéreur. Et pour l'exécution des présentes les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux, etc. Car ainsi, etc. Dont acte. Fait & passé à St Romuald, étude du dit Notaire, les jour, mois & an susdits, sous le numéro deux cent trente-sept des originaux du Notaire soussigné. Et les vendeur & acquéreur ont signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. George Gagné ; Étienne [Denis dit] Lapierre ; E. H. Tremblay, N.P. »",
       "personnes": [
         {
           "role": "vendeur",
           "nom": "George Gagné",
-          "note": "Marchand de Saint-Jean-Chrysostome. Non rattaché (laissé tel dans la vente du 9 octobre, notarie-1874-10-09-vente-richard-gagne) ; un George Gagné journalier est recensé en 1871 (1871-D1-P073-L06), sans certitude."
+          "note": "Marchand de Saint-Jean-Chrysostome ; signe. Non rattaché (laissé tel dans la vente du 9 octobre, notarie-1874-10-09-vente-richard-gagne)."
         },
         {
           "role": "acheteur",
           "nom": "Étienne Denis dit Lapierre",
-          "note": "Cultivateur de Saint-Jean-Chrysostome. Non rattaché (comme dans la vente du 2 juillet, notarie-1874-07-02-vente-lapierre-richard) ; un Étienne (Denis dit) Lapierre, journalier, est recensé à Saint-Romuald en 1881 (1881-D1-P052-L08) et 1891 (1891-D1-P014-L04), sans certitude."
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe « Étienne Lapierre ». Non rattaché (comme dans ses autres actes) ; un Étienne (Denis dit) Lapierre, journalier, est recensé à Saint-Romuald en 1881 (1881-D1-P052-L08) et 1891 (1891-D1-P014-L04), sans certitude."
         },
         {
           "role": "voisin",
@@ -22005,7 +22005,17 @@
         {
           "role": "voisin",
           "nom": "Pierre Roberge",
-          "note": "Autre borne de l'emplacement."
+          "note": "Borne sud ; aussi le bailleur à rente foncière de l'emplacement (hameau Roberge). Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Ferdinand Dubois",
+          "note": "Borne ouest de l'emplacement."
+        },
+        {
+          "role": "autre",
+          "nom": "Joachim Richard",
+          "note": "Ancien propriétaire : avait acquis l'emplacement de Pierre Roberge (bail à rente foncière du 20 juin 1874), puis l'a vendu à Gagné. Non rattaché."
         },
         {
           "role": "notaire",
@@ -22013,14 +22023,315 @@
         }
       ],
       "affirmations": [],
-      "note": "Première page d'une vente d'emplacement à Saint-Jean-Chrysostome (concession Saint-Augustin), de George Gagné, marchand, à Étienne Denis dit Lapierre, cultivateur. La suite (prix, conditions, clôture, signatures) est sur le fichier 01051, pas encore déposé au Drive. À compléter au prochain lot.",
+      "note": "Vente d'un emplacement du hameau Roberge (concession Saint-Augustin, Saint-Jean-Chrysostome), de George Gagné à Étienne Denis dit Lapierre, pour cinquante piastres, à charge de la rente foncière de sept piastres l'an due à Pierre Roberge. La chaîne de titres : Pierre Roberge → Joachim Richard → George Gagné → Lapierre. Le même jour, Lapierre donne à Gagné quittance de ces cinquante piastres sur une dette antérieure (n° 238) et reconnaît la rente envers Pierre Roberge par titre nouvel (n° 239).",
       "ajoute_le": "2026-11-11",
       "images": [
         {
           "fichier": "01050",
           "microfilm": "001994",
           "drive": "1n4VhAoiKljnlckinch8LotyIF06j-_49",
-          "legende": "1/1"
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01051",
+          "microfilm": "001995",
+          "drive": "1FS_pSP2-8WTUcSgghlS52k-FF0txM6DD",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01052",
+          "microfilm": "001996",
+          "drive": "1xxmYbWgKOxGM4P4htm3II5WRfkZmJtsc",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-05-quittance-lapierre-gagne",
+      "type": "notarie",
+      "titre": "Quittance d'Étienne Denis dit Lapierre à George Gagné, de cinquante piastres sur une obligation — minute n° 238, 5 novembre 1874",
+      "date": "1874-11-05",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 238, images 001997 à 001998 (Drive : fichiers 04T_CN401S124P_01053 à 01054) ; en marge « Quittance — Lapierre à Gagné — Original — Exp. 1 fois — payé ». Acte complet.",
+      "nature": "Quittance passée le 5 novembre 1874, après-midi, devant le notaire (sans témoin nommé) ; le comparant signe.",
+      "transcription": "[001997] « N° 238 — 5 novembre 1874. L'an mil huit cent soixante-quatorze, le cinq de novembre après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public, résidant & pratiquant à St Romuald, comté de Lévis, soussigné ; Fut présent : Mr Étienne Denis dit Lapierre, de St Jean Chrysostome, cultivateur ; Lequel reconnaît & confesse avoir eu & reçu dès avant ces présentes la somme de cinquante piastres courant, en bon argent courant, lequel paiement ayant été fait ou à compte sur le montant d'une obligation consentie en faveur du comparant par le dit Sr Gagné, lequel acte a été reçu devant Me Légaré & enregistré au Bureau d'enregistrement du comté de Lévis. Dont quittance d'autant. Dont acte fait & passé à [001998] St Romuald, étude du dit Notaire, les jour, mois & an susdits, sous le numéro deux cent trente-huit des originaux du Notaire soussigné. Et le comparant a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Étienne Lapierre ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "créancier",
+          "nom": "Étienne Denis dit Lapierre",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe. Donne quittance de cinquante piastres. Non rattaché (voir n° 237)."
+        },
+        {
+          "role": "débiteur",
+          "nom": "George Gagné",
+          "note": "Marchand de Saint-Jean-Chrysostome ; devait une somme à Lapierre suivant obligation (Me Légaré, comté de Lévis). Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Contrepartie du n° 237 : les cinquante piastres du prix de vente ne changent pas de main, mais éteignent d'autant une obligation que George Gagné avait consentie à Lapierre (Me Légaré). Lapierre en donne quittance.",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "01053",
+          "microfilm": "001997",
+          "drive": "1GL47d8mDcigT3gJIXAFx4oJ5PVZAW4P8",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01054",
+          "microfilm": "001998",
+          "drive": "1O4d16Hgsja2-TFchVdOw6VuuHVyMhh_t",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-05-titre-nouvel-lapierre-roberge",
+      "type": "notarie",
+      "titre": "Titre nouvel : Étienne Denis dit Lapierre reconnaît à Pierre Roberge la rente foncière de l'emplacement acheté de Gagné — minute n° 239, 5 novembre 1874",
+      "date": "1874-11-05",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 239, images 001999 à 002000 (Drive : fichiers 04T_CN401S124P_01055 à 01056) ; en marge « Titre nouvel — Lapierre à Roberge — Original ». Acte complet.",
+      "nature": "Titre nouvel (reconnaissance de rente) passé le 5 novembre 1874, après-midi, devant le notaire et un témoin, George Gagné, marchand de Saint-Jean-Chrysostome ; le comparant et le témoin signent, le créancier Pierre Roberge ne sait signer.",
+      "transcription": "[001999] « N° 239 — 5 novembre 1874. L'an mil huit cent soixante-quatorze, le cinq de novembre après-midi, en présence de Elzéar Hubert Tremblay, Notaire Public, résidant & pratiquant à St Romuald, comté de Lévis, soussigné ; Et en présence de George Gagné, de St Jean Chrysostome, marchand, témoin au présent acte, aussi soussigné ; Fut présent : Mr Étienne Denis dit Lapierre, de St Jean Chrysostome, cultivateur ; Lequel reconnaît être obligé & s'oblige de payer à Mr Pierre Roberge, du même lieu, cultivateur, (1) à ce aussi présent & acceptant, pour lui, ses hoirs & ayant cause, au premier jour de juillet de chaque année, la somme de sept piastres courant de rente foncière & constituée, telle que le sont obligés Joachim Richard & George Gagné ; ce dernier ayant vendu au dit Sr Lapierre l'emplacement pour lequel la dite rente a été créée, comme susdit, & dont voici la désignation : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant cinquante pieds de front sur soixante pieds de profondeur, le tout plus ou moins, borné [002000] au nord à Antoine Paradis, au sud à Mr Pierre Roberge, à l'est à une route & à l'ouest à Ferdinand Dubois, circonstances & dépendances. Le dit Sr Lapierre s'obligeant en outre de se conformer en tous points au dit acte de bail à rente foncière & constituée. Dont acte reçu & octroyé à St Romuald, étude du dit Notaire, les jour, mois & an susdits, sous le numéro deux cent trente-neuf des originaux du Notaire soussigné. Et le comparant a signé ainsi que le dit témoin avec moi, Notaire, le dit Sr Roberge ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls ; un renvoi en marge est bon & approuvé. Étienne Lapierre ; George Gagné ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "débiteur de rente",
+          "nom": "Étienne Denis dit Lapierre",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; nouvel acquéreur de l'emplacement (n° 237), il reconnaît devoir la rente ; signe. Non rattaché."
+        },
+        {
+          "role": "créancier de rente",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; bailleur à rente foncière du hameau Roberge (cf. n° 122-128) ; ne sait signer. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "George Gagné",
+          "note": "Marchand de Saint-Jean-Chrysostome ; vendeur au n° 237 ; signe. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Joachim Richard",
+          "note": "Précédent débiteur de la même rente. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Antoine Paradis",
+          "note": "Borne nord de l'emplacement."
+        },
+        {
+          "role": "voisin",
+          "nom": "Ferdinand Dubois",
+          "note": "Borne ouest de l'emplacement."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Dernier des trois actes du 5 novembre autour de l'emplacement du hameau Roberge (voir n° 237-238) : le nouvel acquéreur Étienne Denis dit Lapierre reconnaît formellement, par titre nouvel, devoir à Pierre Roberge la rente foncière de sept piastres l'an (premier paiement au 1er juillet), comme l'en étaient tenus les précédents propriétaires Joachim Richard et George Gagné.",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "01055",
+          "microfilm": "001999",
+          "drive": "1NJzECCVeX8Ep8epEuVt4b6jf74uwIh04",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01056",
+          "microfilm": "002000",
+          "drive": "1IQNmoQhBMDunzwI9Eo7VxxYT-uWqRJO0",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-09-contrat-mariage-boucher-topping",
+      "type": "notarie",
+      "titre": "Contrat de mariage (séparation de biens) entre Jean-Baptiste Boucher et Elizabeth Topping — minute n° 240, 9 novembre 1874",
+      "date": "1874-11-09",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 240, images 002001 à 002006 (Drive : fichiers 04T_CN401S124P_01057 à 01062) ; en marge « Contrat de mariage ». Rédigé sur le formulaire imprimé de contrat de mariage de Me Tremblay (le fichier 01062 en est la chemise, vierge). Acte complet.",
+      "nature": "Contrat de mariage passé le 9 novembre 1874, avant midi, au domicile de la future épouse, devant le notaire, en présence des parents & amis des parties ; régime de séparation de biens. L'en-tête imprimée prévoit deux notaires, réduite à un seul.",
+      "transcription": "[002001] « N° 240 — 9 novembre 1874. Pardevant le Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Furent présents : Mr Jean-Baptiste Boucher, de la paroisse de St Romuald, journalier, fils mineur, issu du mariage d'entre sieur Benjamin Boucher & de Dame Euphrosine Beaulieu ; le dit Sr Benjamin Boucher à ce aussi présent aux fins d'assister son dit enfant mineur & stipulant pour ce dernier & en son nom, d'une part ; Et Mademoiselle Elizabeth Topping, de la dite paroisse de St Romuald, fille majeure issue du mariage d'entre feu sr Richard Topping & de Dame Angélique Boutin, acceptant pour elle & en son nom, d'autre part ; Lesquels ont déclaré avoir fait & arrêté entre eux les accords, conventions & traités civils de mariage qui suivent : [002002] 1° promesse de se prendre pour mari & femme & de faire célébrer le mariage en face de l'Église catholique romaine ; 2° point de communauté de biens entre les futurs époux (séparation de biens), la future épouse administrant seule ses propres biens ; 3° les futurs ne seront pas tenus des dettes l'un de l'autre ; 4° les biens meubles de la future épouse (habits, hardes, linges, dentelles, bijoux à son usage) lui restent propres ; 5° le futur époux donne à la future épouse, par donation entre vifs, les meubles & effets détaillés en une liste annexée (restée en blanc) ; 6° la future épouse renonce au douaire préfix ou coutumier ; [002003] 7° le futur époux sera tenu seul de l'entretien de la future épouse & de la nourriture, entretien & éducation des enfants à naître ; [renvoi : si le futur époux prédécède, la future épouse prendra sur ses biens, avant partage & hors part, une somme de huit cents piastres]. Et le futur époux, voulant donner des marques de l'amitié qu'il porte à la future épouse & lui assurer un revenu annuel sa vie durant, s'oblige à lui payer annuellement, sa vie durant, la somme de quatre-vingts piastres courant à titre de rente constituée, rachetable au capital de treize cent trente-quatre piastres ; la rente s'éteignant au décès de l'un ou l'autre des époux, ou s'ils cessent d'habiter ensemble. [002004] Car ainsi a été convenu entre les parties en présence de leurs parents & amis : de la part du futur époux, le dit Sr Benjamin Boucher, son père ; de la part de la future épouse, Dame Angélique Boutin, sa mère, Delle Cédulie Topping, sa sœur, Dame Vitaline Dupéron dit Lavertu, sa belle-sœur, Sr Louis Topping, son frère, & Sr Louis Gelly, cordonnier, son oncle, tous de St Romuald. Fait & passé à St Romuald, demeure de la future épouse, le neuvième jour de novembre à midi, sous le numéro deux cent quarante des originaux de Me Elzéar Hubert Tremblay, le dit Notaire soussigné. Et les parties contractantes & les autres parties présentes ont signé, à l'exception de Dame Vitaline Dupéron dit Lavertu & de Sr Louis Gelly, qui ont déclaré ne le savoir, lecture faite. [002005] Mots rayés sont nuls ; renvoi en marge approuvé & bon. Elizabeth Topping ; John Boucher ; Benjamin Boucher ; Angélique Boutin ; Cédulie Topping ; Louis Topping ; [marque « X » de] Vitaline Dupéron dit Lavertu ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "époux",
+          "nom": "Jean-Baptiste Boucher",
+          "ref_personne": "1871-D1-P006-L04",
+          "note": "Journalier de Saint-Romuald, fils mineur de Benjamin Boucher & d'Euphrosine Beaulieu ; signe « John Boucher ». Recensé « John Boucher », 16 ans en 1871, dans la maison de ses parents (maison 15, division 1). Rattachement confiant."
+        },
+        {
+          "role": "père de l'époux",
+          "nom": "Benjamin Boucher",
+          "ref_personne": "1871-D1-P005-L19",
+          "note": "Père de l'époux, qu'il assiste & pour qui il stipule ; signe. « Boom man » (ouvrier à l'estacade), 51 ans en 1871 (maison 15, division 1). Rattachement confiant."
+        },
+        {
+          "role": "mère de l'époux",
+          "nom": "Euphrosine Beaulieu",
+          "ref_personne": "1871-D1-P005-L20",
+          "note": "Mère de l'époux, épouse de Benjamin Boucher ; nommée mais non présente. Recensée « Euphrasie Boucher », 47 ans en 1871 (maison 15). Rattachement confiant."
+        },
+        {
+          "role": "épouse",
+          "nom": "Elizabeth Topping",
+          "ref_personne": "1871-D1-P025-L02",
+          "note": "Fille majeure de feu Richard Topping & d'Angélique Boutin ; institutrice ; signe. Recensée « Elisabeth Topping », institutrice, 18 ans en 1871 (maison 65, division 1). Rattachement confiant."
+        },
+        {
+          "role": "mère de l'épouse",
+          "nom": "Angélique Boutin",
+          "ref_personne": "1871-D1-P024-L20",
+          "note": "Mère de l'épouse, veuve de Richard Topping ; présente, signe. Recensée 52 ans en 1871 (maison 65, division 1). Rattachement confiant."
+        },
+        {
+          "role": "sœur de l'épouse",
+          "nom": "Cédulie Topping",
+          "ref_personne": "1871-D1-P025-L01",
+          "note": "Sœur de l'épouse ; couturière ; présente, signe. Recensée 24 ans en 1871 (maison 65). Rattachement confiant."
+        },
+        {
+          "role": "frère de l'épouse",
+          "nom": "Louis Topping",
+          "note": "Frère de l'épouse ; présent, signe. Non rattaché : la maison 65 ne montre en 1871 qu'un frère « Moïse Topping » (15 ans) ; Louis Topping est peut-être le navigateur des îles de la Chaudière (cf. n° 169)."
+        },
+        {
+          "role": "belle-sœur de l'épouse",
+          "nom": "Vitaline Dupéron dit Lavertu",
+          "note": "Belle-sœur de l'épouse ; présente, ne sait signer (croix). Famille Duperron dit Lavertu (cf. n° 162, de Saint-Lambert) : non rattachée."
+        },
+        {
+          "role": "parent de l'épouse",
+          "nom": "Louis Gelly",
+          "ref_personne": "1871-D1-P048-L13",
+          "note": "Oncle de l'épouse ; cordonnier ; présent, ne sait signer. Louis Gelly, cordonnier, 58 ans en 1871 (maison 131, division 1), fils de Catherine Lecours (cf. n° 84) ; déjà rattaché à cet identifiant. Rattachement probable."
+        },
+        {
+          "role": "autre",
+          "nom": "Richard Topping",
+          "note": "Père de l'épouse, décédé (« feu ») avant l'acte ; marchand/navigateur des îles de la Chaudière (cf. n° 134-135). Non recensé en 1871."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Contrat de mariage entre Jean-Baptiste (« John ») Boucher, jeune journalier, fils de Benjamin Boucher et d'Euphrosine Beaulieu, et Elizabeth Topping, institutrice, fille de feu Richard Topping et d'Angélique Boutin. Régime de séparation de biens ; l'époux constitue à l'épouse une rente viagère de 80 piastres l'an (rachetable à 1 334 piastres) et lui promet, s'il prédécède, un préciput de 800 piastres. L'acte réunit les deux familles de Saint-Romuald : du côté Boucher le père Benjamin ; du côté Topping la mère Angélique Boutin, la sœur Cédulie, le frère Louis, la belle-sœur Vitaline Dupéron dit Lavertu et l'oncle Louis Gelly, cordonnier. Document précieux pour la filiation des familles Boucher et Topping.",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "01057",
+          "microfilm": "002001",
+          "drive": "18ObKim5d14FxE8t4fdVRFIJ92uz4ed9J",
+          "legende": "1/6"
+        },
+        {
+          "fichier": "01058",
+          "microfilm": "002002",
+          "drive": "1bJSgRExKD0MziXJ8JJyg2dkg9cFtI_Pi",
+          "legende": "2/6"
+        },
+        {
+          "fichier": "01059",
+          "microfilm": "002003",
+          "drive": "1y2S1M003-vVupZtjRqrqyPLXfcknBE62",
+          "legende": "3/6"
+        },
+        {
+          "fichier": "01060",
+          "microfilm": "002004",
+          "drive": "1Vxd542weJM_e8OxMPeZZr7rMLNxxHPYO",
+          "legende": "4/6"
+        },
+        {
+          "fichier": "01061",
+          "microfilm": "002005",
+          "drive": "1QA0Zd9_rQYPZkzHuG-odVXwy8WRD54hN",
+          "legende": "5/6"
+        },
+        {
+          "fichier": "01062",
+          "microfilm": "002006",
+          "drive": "1DG3TVi35huUuHqc2_ck9cBxZXy9fFzPm",
+          "legende": "6/6"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-11-14-obligation-demeule-demeule",
+      "type": "notarie",
+      "titre": "Obligation de Pierre Demeule à la veuve Marie Demeule (veuve de Joseph Dallaire), garantie par une terre de l'Île d'Orléans — minute n° 241, 14 novembre 1874",
+      "date": "1874-11-14",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 241, images 002007 à 002009 (Drive : fichiers 04T_CN401S124P_01063 à 01065) ; en marge « Obligation — Demeule à Demeule — Original — Exp. 1 fois — copie pour Marie Demeule ». Rédigée sur un formulaire imprimé d'obligation (Me André-Elphide Tessier) ; passée hors paroisse. Acte complet.",
+      "nature": "Obligation (reconnaissance de dette) passée le 14 novembre 1874, vers midi, à Saint-Jean-de-l'Île-d'Orléans, au domicile de sieur Jacques Tremblay, pilote, devant le notaire et un témoin, Abraham Roy, cultivateur ; les parties ne savent signer, le témoin signe.",
+      "transcription": "[002007] « N° 241 — 14 novembre 1874. Pardevant le Notaire Public résidant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Abraham Roy, du comté de Montmorency, cultivateur, témoin au présent acte aussi soussigné ; Fut présent : Mr Pierre Demeule, fils Hubert, paroissien de St Romuald, agriculteur, de St Jean de l'Île d'Orléans, dit comté de Montmorency ; Lequel a reconnu & confessé devoir légitimement à Dame Marie Demeule, veuve de feu Joseph Dallaire, en son vivant de St Jean de l'Île d'Orléans, journalier, à ce présente & acceptant pour elle & en son nom, la somme de cent soixante-quatre piastres courant, étant pour prêt de pareille somme fait & délivré au dit débiteur en bon argent courant, dès avant ces présentes, ainsi que le Débiteur le reconnaît & dont il se déclare content & satisfait. Laquelle dite somme de cent soixante-quatre piastres courant, le dit Débiteur promet & s'oblige, pour lui, ses héritiers & ayans cause, payer & rembourser à la dite créancière ou ordre, porteur des présentes en forme légale, à demande, [002008] ensemble avec l'intérêt de six pour cent par an, payable annuellement à compter du premier jour de novembre courant, jusqu'au parfait & entier paiement de la dite somme capitale. Pour sûreté du paiement de laquelle dite somme de cent soixante-quatre piastres, & des intérêts, le dit Débiteur hypothèque spécialement : Une terre située en la dite paroisse de St Jean Île d'Orléans, contenant deux arpents de front sur la profondeur de cinquante arpents, le tout plus ou moins, bornée par-devant au sud au fleuve St Laurent, au nord au trait carré, au nord-est à Joseph Demeule & à l'ouest ou au sud-ouest à François Pouliot, avec ensemble les bâtisses dessus construites, circonstances & dépendances. [002009] Et pour l'exécution des présentes les parties font élection de leurs domiciles irrévocables en leurs demeures actuelles & respectives, aux quels lieux, etc. Car ainsi, etc. Dont acte. Fait & passé à St Jean Île d'Orléans, demeure de sieur Jacques Tremblay, pilote, l'an mil huit cent soixante & quatorze, le quatorzième jour de novembre vers midi, sous le numéro deux cent quarante-un des originaux de Me Elzéar Hubert Tremblay, le Notaire soussigné. [Les parties] ne savent écrire ni signer, de ce requises, en présence du dit témoin qui a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Abraham Roy ; E. H. Tremblay, N.P. »",
+      "personnes": [
+        {
+          "role": "débiteur",
+          "nom": "Pierre Demeule",
+          "note": "« Fils Hubert », agriculteur de Saint-Jean-de-l'Île-d'Orléans (comté de Montmorency), dit paroissien de Saint-Romuald ; ne sait signer. Hors de la paroisse : non rattaché (les Demeule recensés à Saint-Romuald, famille d'Onézime, division 2, ne correspondent pas)."
+        },
+        {
+          "role": "créancière",
+          "nom": "Marie Demeule",
+          "note": "Veuve de feu Joseph Dallaire ; prête cent soixante-quatre piastres ; ne sait signer. Hors de la paroisse : non rattachée."
+        },
+        {
+          "role": "autre",
+          "nom": "Joseph Dallaire",
+          "note": "Feu mari de la créancière, journalier de Saint-Jean-de-l'Île-d'Orléans."
+        },
+        {
+          "role": "temoin",
+          "nom": "Abraham Roy",
+          "note": "Cultivateur du comté de Montmorency ; signe. Hors de la paroisse."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Demeule",
+          "note": "Borne nord-est de la terre hypothéquée, à l'Île d'Orléans."
+        },
+        {
+          "role": "voisin",
+          "nom": "François Pouliot",
+          "note": "Borne ouest / sud-ouest de la terre hypothéquée."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Obligation passée à l'Île d'Orléans : Pierre Demeule (fils Hubert), agriculteur de Saint-Jean-de-l'Île-d'Orléans mais dit paroissien de Saint-Romuald, emprunte cent soixante-quatre piastres à la veuve Marie Demeule (veuve de Joseph Dallaire), à 6 % d'intérêt, garanties par sa terre de l'Île d'Orléans (deux arpents sur cinquante, sur le fleuve). Rédigée sur un formulaire du notaire Tessier ; aucune des parties ne réside à Saint-Romuald.",
+      "ajoute_le": "2026-11-12",
+      "images": [
+        {
+          "fichier": "01063",
+          "microfilm": "002007",
+          "drive": "1GbVlbB9T2XwZMto9lXqiWSE6OsuXs8Ru",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01064",
+          "microfilm": "002008",
+          "drive": "1AmYaypM8Dr_ZDfKAVRWcrIgx_T7GhScc",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01065",
+          "microfilm": "002009",
+          "drive": "1ZiixLW-kYpfmk0CU_kXvC8MuwcoLElRA",
+          "legende": "3/3"
         }
       ]
     },
