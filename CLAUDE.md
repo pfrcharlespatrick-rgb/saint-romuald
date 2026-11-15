@@ -144,6 +144,22 @@ modifie aucune donnée — c'est la liste de ce que Patrick tranche lui-même.
 Le relancer après un versement de l'atelier ou une série d'actes, à la suite
 de `analyse-filiation.mjs` et de `generer-site.mjs`.
 
+Depuis le 2026-11-15 il confronte aussi **les documents aux recensements** et
+**les recensements entre eux** : « [?] » qu'un acte lève, signature au bas des
+actes contre « sait écrire », prénom d'une fiche qui n'est pas celui de la
+ligne rattachée, naissance connue contre âge recensé, identité dite par un
+document sans lien de filiation, sexe ou âge qui ne suit pas le long d'un
+lien, trous de numérotation. `--json` sort les mêmes sections, et
+`node outils/releve-verification.mjs <sortie.html>` en monte **le relevé à
+cocher remis à Patrick** : une page en clair (quoi regarder, où, quoi faire),
+qui dit aussi ce qui est en ordre. Elle ne se range pas dans le dépôt — elle
+se publie à part, en page privée (artefact) ; Patrick y coche, annote, et
+colle ses réponses dans la conversation : ce sont alors des décisions dictées.
+Deux mises en garde : signer n'est pas
+écrire — une contradiction se relit au manuscrit, elle ne se corrige pas
+d'office ; et un champ posé à la main (`protege`) n'y est jamais proposé à la
+réécriture.
+
 Les rapprochements « par le ménage » (`par_menage`, confiance moyenne) sont
 des propositions du calcul (docs/FILIATION.md, « Compléter les ménages
 reconnus ») : ne jamais les présenter comme établis.
