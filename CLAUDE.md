@@ -232,6 +232,17 @@ rejoindre à cent mètres près. Ne pas chercher à « corriger » cela en
 étirant une feuille, ni présenter une feuille provisoire (`cale: false`)
 comme établie. Un plan réglé aux poignées par Patrick n'est plus recalculé.
 
+Le croquis de l'Hétrière de 1844 (`hetriere-1844`) n'a pas de repère : il est
+posé une fois, par calcul, sur trois hypothèses dites dans
+`docs/PLANS-ANCIENS.md`, et reste provisoire tant qu'aucun point n'est relevé
+sur le terrain.
+
+## La rivière Bruyante est la Chaudière
+
+Dans les plans et les actes anciens (plan Lambert de 1844, greffe Tremblay),
+la « rivière Bruyante » est la rivière Chaudière d'aujourd'hui (indication de
+Patrick, 2026-11-16).
+
 ## 1891 n'a qu'une division
 
 Le formulaire de 1891 n'a pas de case « division » : `recensement-1891-d1-data.js`

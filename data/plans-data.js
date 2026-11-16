@@ -4,7 +4,7 @@
 window.PLANS = {
   "format": "plans-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-11-12",
+  "mis_a_jour": "2026-11-16",
   "plans": [
     {
       "id": "quebec-coves-1876-f12",
@@ -97,6 +97,30 @@ window.PLANS = {
         "sw": {
           "lat": 46.748419,
           "lon": -71.270499
+        }
+      },
+      "opacite": 0.6,
+      "cale": false
+    },
+    {
+      "id": "hetriere-1844",
+      "titre": "Plan de l'Hétrière, 1844 — entre le Premier rang et la Chaudière (croquis de P. Lambert)",
+      "annee": 1844,
+      "fichier": "assets/plans/st-jean-chrysostome-1844-hetriere.jpg",
+      "source": "P. Lambert, arpenteur, plan et description d'une étendue de terre de la paroisse de Saint-Jean-Chrysostome, 5 février 1844. Image fournie par Patrick Blanchet, novembre 2026 ; dépôt et cote à préciser. Fiche : documents/manifeste.json, « plan-1844-02-05-hetriere-riviere-bruyante ».",
+      "note": "Pose provisoire, à confirmer — un point de départ pour le calage, non une position établie. C'est un croquis, pas un plan à l'échelle. La « rivière Bruyante » est la Chaudière (indication de Patrick, 16 novembre 2026). La pose est calculée sur trois hypothèses : le point B, où des hachures barrent la rivière, est mis aux chutes de la Chaudière ; l'échelle vient des 16 arpents et demi de front écrits entre A et D (environ 2,3 m par pixel) ; l'orientation vient de la flèche « Vrai Nord », pointe au nord. Ainsi posé, le croquis s'accorde avec le terrain : la rivière vient du sud, repart au nord-nord-ouest, et la ligne du rang court nord-est – sud-ouest, comme le fleuve. Mais aucun point n'a été relevé sur place : l'ensemble peut être décalé de plusieurs centaines de mètres.",
+      "points": {
+        "nw": {
+          "lat": 46.723009,
+          "lon": -71.255142
+        },
+        "ne": {
+          "lat": 46.704036,
+          "lon": -71.281487
+        },
+        "sw": {
+          "lat": 46.751552,
+          "lon": -71.298777
         }
       },
       "opacite": 0.6,
