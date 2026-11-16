@@ -122,6 +122,33 @@ https://collections.banq.qc.ca/ark:/52327/3121049
 
 ---
 
+## Versé comme document, non posé sur la carte : plan de l'Hétrière (1844)
+
+- **Fichier** : `assets/plans/st-jean-chrysostome-1844-hetriere.jpg`
+- **Fiche** : `plan-1844-02-05-hetriere-riviere-bruyante` dans
+  `documents/manifeste.json` — elle porte l'image, la transcription et les
+  réserves ; on la lit à `filiation.html#doc-plan-1844-02-05-hetriere-riviere-bruyante`.
+- **Ce que c'est** : croquis de l'arpenteur P. Lambert, 5 février 1844 — une
+  étendue A-B-C-D de la paroisse de Saint-Jean-Chrysostome, entre la
+  concession de l'Hétrière, le Premier rang et la rivière Bruyante, partagée
+  entre cinq occupants (Côté, Cantin, Hallé, veuve Cantin, Cantin).
+
+Il n'a **pas** d'entrée dans `data/plans-data.js`, et c'est voulu :
+
+1. ce n'est pas un plan à l'échelle — les bandes ne sont pas dessinées en
+   proportion des largeurs écrites, rien n'est coté en profondeur ;
+2. on ne sait pas encore où il tombe : la « rivière Bruyante » n'a pas été
+   rapportée, sur une source, à un cours d'eau d'aujourd'hui, et aucun lieu
+   de `data/lieux-data.js` ne lui sert de repère.
+
+Le poser quand même serait un ancrage à l'œil. Pour le poser un jour :
+identifier la rivière et la ligne du rang sur le terrain, relever au moins
+deux points sûrs (le point B, à la rivière ; un coin de terre retrouvé au
+cadastre), créer son entrée dans `data/plans-data.js` avec `cale: false`,
+puis ses repères dans `data/plans-reperes.json`.
+
+---
+
 ## Retiré : plan officiel de la paroisse de St-Romuald d'Etchemin (1879)
 
 - **Identifiant** : `cadastre-1879` — **année** : 1879
