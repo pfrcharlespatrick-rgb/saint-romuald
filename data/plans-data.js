@@ -132,19 +132,19 @@ window.PLANS = {
       "annee": 1866,
       "fichier": "assets/plans/embouchure-chaudiere-1866-hamel.jpg",
       "source": "Alfred Hamel, arpenteur provincial, « Plan annexé au Procès Verbal, en date des 6 et 7 Août 1866, des lignes et bornes entre le lot de terre du Gouvernement et les Voisins ; situé à la Rivière Chaudière », Québec, 11 août 1866. Échelle de 150 pieds français au pouce. Image fournie par Patrick Blanchet le 16 novembre 2026 sous le nom de fichier « 03Q_CA301S22D189 » — sans doute une cote de BAnQ Québec, à confirmer.",
-      "note": "Pose provisoire, à confirmer. Le plan montre la pointe est de l'embouchure : le quai, la grève, le chemin public au pied du cap, et l'escarpement qui longe le Grand Bassin ; voisins nommés : Thos Hickey, Louis Paradis, Ignace Roberge, John Thomson, Pierre Pichette, David Boucher, Humphrey. L'échelle est celle de la barre graphique (0,42 m par pixel). L'orientation est un choix de Patrick (16 novembre 2026) : posé selon sa flèche « Nord Astronomique » (nord à 44° sur la feuille), le plan menait son chemin public jusqu'au bord de l'eau, à 48 m au nord du chemin du Fleuve d'aujourd'hui ; Patrick a demandé de l'incliner sur ce chemin, d'abord à 37°, puis à 32°. Le chemin public du plan suit maintenant le chemin du Fleuve à moins de 10 m sur sa moitié est. Ce que cela coûte : la rive du Bassin s'écarte de 11 à 42 m — l'escarpement du plan déborde sur l'eau dans sa moitié sud — et la ligne C-D, que le procès-verbal de Pierre Lambert de 1841 mesure « Sud 32° Est », tombe au sud 21° est (au sud 33° est avec la flèche). La grève et le quai ont été remblayés depuis (marina) : ne pas s'y fier pour juger du calage.",
+      "note": "Pose provisoire, à confirmer. Le plan montre la pointe est de l'embouchure : le quai, la grève, le chemin public au pied du cap, et l'escarpement qui longe le Grand Bassin ; voisins nommés : Thos Hickey, Louis Paradis, Ignace Roberge, John Thomson, Pierre Pichette, David Boucher, Humphrey. La pose est celle que Patrick a dictée le 16 novembre 2026, en trois temps. Posé selon sa flèche « Nord Astronomique » (nord à 44° sur la feuille), le plan menait son chemin public jusqu'au bord de l'eau : il l'a fait incliner sur le chemin du Fleuve d'aujourd'hui. Puis il a désigné deux repères sur la carte, par deux flèches : le quai du plan est la pointe du Pont-Garneau, et la grève à l'ouest du quai est la rive ouest de cette pointe — 46 m vers le sud-ouest —, en demandant de réduire le plan de quelques pour cent. Le plan est donc déplacé sur ces deux repères (à 4 m près), réduit de 3 % (0,408 m par pixel, quand sa barre graphique donne 0,420), et incliné à 34°, où son chemin public suit le mieux le chemin du Fleuve (3 m à son bout est). Ce que cela coûte : l'escarpement du Grand Bassin, juste dans sa moitié nord (3 à 14 m), sort sur l'eau dans sa moitié sud, jusqu'à 71 m de la rive ; et la ligne C-D, que le procès-verbal de Pierre Lambert de 1841 mesure « Sud 32° Est, 121 pieds », tombe au sud 23° est, sur 37,8 m pour 39,3 m. Un plan posé d'un bloc ne peut pas tenir à la fois le chemin, le quai et la rive du Bassin.",
       "points": {
         "nw": {
-          "lat": 46.743966,
-          "lon": -71.281812
+          "lat": 46.743539,
+          "lon": -71.282098
         },
         "ne": {
-          "lat": 46.747836,
-          "lon": -71.272782
+          "lat": 46.747501,
+          "lon": -71.273536
         },
         "sw": {
           "lat": 46.735711,
-          "lon": -71.274293
+          "lon": -71.274401
         }
       },
       "opacite": 0.6,
@@ -156,19 +156,19 @@ window.PLANS = {
       "annee": 1842,
       "fichier": "assets/plans/embouchure-chaudiere-1842-lambert.jpg",
       "source": "Pierre Lambert, arpenteur, « Plan du Terrein et Grève appartenant au Gouvernement, situés à l'embouchure de la Rivière Bruyante ou Chaudière, Seigneurie Lauzon, paroisse Saint Romuald d'Etchemin, Comté de Lévi », 24 février 1842, avec le procès-verbal de bornage du 28 octobre 1841. Image fournie par Patrick Blanchet le 16 novembre 2026 sous le nom « 03Q_CN301S323D04140R » — sans doute une cote de BAnQ Québec, à confirmer. Fiche : documents/manifeste.json, « plan-1842-02-24-embouchure-chaudiere-lambert ».",
-      "note": "Pose provisoire, à confirmer. Le plan de 1842 et celui d'Alfred Hamel de 1866 bornent le même terrain : ils partagent les bornes A, B, C, D, la longue ligne qui descend vers le Bassin (« Pierre Pichet » en 1842, « Pierre Pichette » en 1866 : 448 et 449 m) et la borne du bas, chez Boucher. Le plan de 1842 est donc posé sur celui de 1866 par ces six points communs, échelle et rotation libres : 4 à 10 m d'écart. Il suit ainsi l'inclinaison choisie par Patrick pour le plan de 1866 (voir sa note) : le nord tombe à 34° sur la feuille, quand sa flèche le met à 49°. L'échelle trouvée (0,80 m par pixel) est celle de sa barre graphique. Le dessin de 1842 est moins exact que celui de 1866 : la ligne C-D, 121 pieds au procès-verbal, n'y fait que 29 m.",
+      "note": "Pose provisoire, à confirmer. Le plan de 1842 et celui d'Alfred Hamel de 1866 bornent le même terrain : ils partagent les bornes A, B, C, D, la longue ligne qui descend vers le Bassin (« Pierre Pichet » en 1842, « Pierre Pichette » en 1866 : 448 et 449 m) et la borne du bas, chez Boucher. Le plan de 1842 est donc posé sur celui de 1866 par ces six points communs, échelle et rotation libres : 4 à 9 m d'écart. Il suit ainsi la pose dictée par Patrick pour le plan de 1866 (voir sa note) : le nord tombe à 36° sur la feuille, quand sa flèche le met à 49°, et l'échelle à 0,78 m par pixel, quand sa barre graphique donne 0,80. Le dessin de 1842 est moins exact que celui de 1866 : la ligne C-D, 121 pieds au procès-verbal, n'y fait que 28 m.",
       "points": {
         "nw": {
-          "lat": 46.743769,
-          "lon": -71.282237
+          "lat": 46.743339,
+          "lon": -71.2825
         },
         "ne": {
-          "lat": 46.747816,
-          "lon": -71.273408
+          "lat": 46.747468,
+          "lon": -71.274141
         },
         "sw": {
-          "lat": 46.736333,
-          "lon": -71.274994
+          "lat": 46.736299,
+          "lon": -71.275112
         }
       },
       "opacite": 0.6,

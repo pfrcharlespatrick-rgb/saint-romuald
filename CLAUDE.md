@@ -238,11 +238,12 @@ posé une fois, par calcul, sur trois hypothèses dites dans
 sur le terrain. Les plans de l'embouchure de la Chaudière
 (`embouchure-chaudiere-1866`, Alfred Hamel ; `embouchure-chaudiere-1842`,
 Pierre Lambert) sont posés de même, une fois : celui de 1866 sur sa barre
-graphique, puis incliné à la demande de Patrick (2026-11-16 : « le chemin du
-fleuve mène dans l'eau du côté est ») pour que son chemin public suive le
-chemin du Fleuve d'aujourd'hui (nord à 32° sur la feuille) — au prix de la
-flèche du nord du plan et de la ligne C-D du procès-verbal de 1841, comme le
-dit `docs/PLANS-ANCIENS.md` ;
+graphique, puis posé comme Patrick l'a dicté (2026-11-16) : son chemin public sur le
+chemin du Fleuve d'aujourd'hui (« le chemin du fleuve mène dans l'eau du côté
+est »), son quai sur la pointe du Pont-Garneau (deux repères désignés par
+deux flèches), réduit de 3 % — nord à 34° sur la feuille, au prix de la flèche
+du nord du plan, de la ligne C-D du procès-verbal de 1841 et de la rive sud
+du Bassin, comme le dit `docs/PLANS-ANCIENS.md` ;
 celui de 1842 sur celui de 1866, par six points communs. Aucun ne passe par
 `caler-plans.mjs`. Ne pas revenir à la flèche du plan sans le lui demander.
 
