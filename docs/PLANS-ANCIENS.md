@@ -4,9 +4,9 @@ Quatre feuilles de l'atlas d'assurance de Charles E. Goad, « Quebec Coves.
 South Shore » (mars 1876), sont posées en surimpression de la carte
 (`carte.html`). Elles y sont revenues le 12 novembre 2026, **calculées** depuis
 les lieux que Patrick a rattachés à leur numéro Goad, et non plus posées à
-l'œil. Le cadastre de 1879 reste retiré (voir à la fin). Deux autres plans sont posés à part, à titre
-provisoire (voir plus bas) : le croquis de l'Hétrière de 1844 et le plan de
-l'embouchure de la Chaudière de 1866.
+l'œil. Le cadastre de 1879 reste retiré (voir à la fin). Trois autres plans sont posés à part, à titre
+provisoire (voir plus bas) : le croquis de l'Hétrière de 1844 et les plans de
+l'embouchure de la Chaudière de 1842 et de 1866.
 
 Trois fichiers :
 
@@ -172,46 +172,73 @@ marqué « à caler »), et ne doit pas être présenté comme établi. Pour le
 resserrer : retrouver au cadastre un coin de terre de la ligne A-B ou de la
 ligne A-D, ou régler les poignées sur la rive de la Chaudière.
 
-## Plan de l'embouchure de la Chaudière (1866) : posé sur deux repères, atelier seulement
+## L'embouchure de la Chaudière : plans de 1842 et de 1866, atelier seulement
 
-- **Fichier** : `assets/plans/embouchure-chaudiere-1866-hamel.jpg` (1933 × 2576 px),
-  l'image fournie, recomprimée sans changer ses dimensions
-- **Plan** : `embouchure-chaudiere-1866` dans `data/plans-data.js`, `cale: false`.
-- **Ce que c'est** : Alfred Hamel, arpenteur provincial, « Plan annexé au
-  Procès Verbal, en date des 6 et 7 Août 1866, des lignes et bornes entre le
-  lot de terre du Gouvernement et les Voisins ; situé à la Rivière
-  Chaudière », Québec, 11 août 1866 — la pointe est de l'embouchure : quai,
-  grève, chemin public, cap, escarpement du Grand Bassin, et les voisins
-  (Hickey, Paradis, Roberge, Thomson, Pichette, Boucher, Humphrey).
-- **Source** : image fournie par Patrick le 16 novembre 2026 sous le nom
-  « 03Q_CA301S22D189 » — sans doute une cote de BAnQ Québec, à confirmer.
+Deux plans bornent le même terrain du Gouvernement, sur la pointe est de
+l'embouchure : le quai, les grèves, le chemin public, le cap et la falaise qui
+longe le Bassin. Ils ne passent pas par `caler-plans.mjs` (aucun lieu de
+`data/lieux-data.js` n'est sur cette pointe) : leurs coins ont été calculés
+une fois, comme dit ci-dessous. Tous deux restent `cale: false`.
 
-C'est un plan d'arpentage à l'échelle (150 pieds français au pouce), bien plus
-sûr que le croquis de 1844. Il ne passe pas non plus par `caler-plans.mjs` :
-aucun lieu de `data/lieux-data.js` n'est sur cette pointe. Sa pose a été
-calculée une fois, ainsi :
+| Plan | Fichier | Dans `data/plans-data.js` |
+|---|---|---|
+| Pierre Lambert, plan du 24 février 1842 et procès-verbal du 28 octobre 1841 | `assets/plans/embouchure-chaudiere-1842-lambert.jpg` (la page du plan) ; la double page entière, `…-lambert-page.jpg`, sert à la fiche `plan-1842-02-24-embouchure-chaudiere-lambert` | `embouchure-chaudiere-1842` |
+| Alfred Hamel, plan annexé au procès-verbal des 6 et 7 août 1866, Québec, 11 août 1866 | `assets/plans/embouchure-chaudiere-1866-hamel.jpg` (l'image fournie, recomprimée sans changer ses dimensions) | `embouchure-chaudiere-1866` |
+
+Les images ont été fournies par Patrick le 16 novembre 2026 sous les noms
+« 03Q_CN301S323D04140R » (1842) et « 03Q_CA301S22D189 » (1866) — sans doute
+des cotes de BAnQ Québec, à confirmer. Un troisième plan du même terrain,
+dressé par Pierre Lambert en octobre 1854, n'est connu que par une
+transcription ; il n'est pas versé.
+
+### Le plan de 1866 : la pièce maîtresse
+
+C'est un plan d'arpentage à l'échelle (150 pieds français au pouce). Sa pose :
 
 | Ce qu'il fallait | D'où on le tire | Valeur |
 |---|---|---|
-| l'échelle | la barre graphique du plan : 500 pieds français (162,4 m) sur 386,5 px | 0,42 m par pixel |
-| repère 1 | la pointe du cap, pixel (590, 802) ↔ le nez des courbes de niveau, lu sur la carte topographique | 46,74245 N, 71,27657 O |
-| repère 2 | le bas du lot Humphrey, où la rive tourne, pixel (1024, 1990) ↔ le coin du Bassin où débouche le ruisseau | 46,73990 N, 71,27107 O |
-| rotation et position | moindres carrés sur ces deux repères, échelle tenue | nord à 36° sur la feuille ; 13 m d'écart à chaque repère |
+| l'échelle | la barre graphique : 500 pieds français (162,4 m) sur 386,5 px | 0,42 m par pixel |
+| l'orientation | la flèche « Nord Astronomique » du plan | nord à 44,2° sur la feuille |
+| la position | ajustée sur la rive actuelle du Bassin (sept points du pied de l'escarpement), la pointe du cap et le coin où débouche le ruisseau, au lot Humphrey | écart quadratique 15 m |
 
-Vérifié en superposant le plan à la carte topographique et à la photo
-aérienne : le cap du plan suit la falaise boisée, l'escarpement suit la rive
-est du Bassin jusqu'à la bouche du ruisseau, le chemin public tombe sur le
-chemin du Fleuve et la côte Garneau.
+**Le contrôle vient du procès-verbal de 1841.** Lambert y mesure la ligne C-D :
+« sur le vrai Rhumb de vent Sud 32° Est […] distance de 121 pieds ». Le plan de
+1866, posé selon sa flèche, la dessine au sud 33° est, sur 39,0 m pour 39,3 m ;
+et la ligne courbe A-B, « 300 pieds » (97,5 m), y fait 102 m. Une première pose,
+du 16 novembre 2026, tournait le plan de huit degrés de plus (nord à 36°) pour
+coller à deux formes du terrain ; elle donnait C-D au sud 25° est. Elle est
+abandonnée : la mesure de l'arpenteur l'emporte sur une forme lue sur la carte.
 
-Deux réserves. **La flèche « Nord Astronomique » du plan est à 44° sur la
-feuille, la pose retient 36°** : avec la flèche, l'escarpement du Bassin
-tient encore mais le chemin public et le cap s'écartent du terrain de
-plusieurs dizaines de mètres vers l'est ; l'écart de huit degrés n'est pas
-expliqué. Et **la grève et le quai ont été remblayés** (marina de la
-Chaudière) : la ligne de rivage de 1866 ne se retrouve pas sur le terrain.
+### Le plan de 1842 : posé sur celui de 1866
 
-Les deux repères sont des formes du terrain, non des bornes retrouvées. Pour
-resserrer : une borne du procès-verbal de 1866 retrouvée au cadastre, ou une
+Le dessin de 1842 est moins exact (la ligne C-D, 121 pieds au procès-verbal,
+n'y fait que 29 m), mais il partage avec celui de 1866 six points sûrs : les
+bornes A, B, C, D, la pointe du cap, et la borne du bas de la longue ligne qui
+descend vers le Bassin (« Pierre Pichet » en 1842, « Pierre Pichette » en
+1866 : 448 et 449 m). Il est posé sur le plan de 1866 par ces six points,
+échelle et rotation libres : 4 à 9 m d'écart. L'échelle trouvée, 0,80 m par
+pixel, est celle de sa barre graphique de 900 pieds ; le nord tombe à 46°,
+sa flèche le met à 49°.
+
+### Où sont les bornes aujourd'hui
+
+À une quinzaine de mètres près :
+
+| Borne | Ce qu'en dit le procès-verbal de 1841 | Aujourd'hui | Coordonnées |
+|---|---|---|---|
+| A | angle nord du terrain de Thomas Hickey, côté sud-est du chemin public | sur le chemin du Fleuve, au nord-est du bas de la côte Garneau | 46,74386 N, 71,27465 O |
+| B | à 300 pieds de A le long du chemin, extrémité sud-ouest du terrain de Hickey | sur le chemin, à l'entrée du parc de la Marina-de-la-Chaudière | 46,74336 N, 71,27578 O |
+| C | 62 pieds plus loin le long du chemin | idem | 46,74320 N, 71,27594 O |
+| D | pied du cap, « Sud 32° Est », 121 pieds ; fin de l'emplacement d'Ignace Roberge | sur le versant de la côte Garneau | 46,74291 N, 71,27566 O |
+| bas de la ligne Pichet | borne de chez Boucher (1866) | sur la rive du Bassin, au sud de la rue de l'Étang | 46,74034 N, 71,27176 O |
+
+Le quai de 1841 est sous la pointe remblayée du parc de la Marina ; le lot
+n° 2 est la bande de falaise qui longe le Bassin, au sud de la rue du
+Curé-Dupont. La grève et le quai ont été remblayés : le rivage d'alors ne se
+retrouve pas sur le terrain.
+
+Pour resserrer : retrouver une des bornes (pierre, avec des « morceaux de
+faillance » dessous, selon la synthèse remise avec le plan de 1842), ou une
 maison encore debout d'un des voisins nommés.
 
 ---

@@ -235,10 +235,12 @@ comme établie. Un plan réglé aux poignées par Patrick n'est plus recalculé.
 Le croquis de l'Hétrière de 1844 (`hetriere-1844`) n'a pas de repère : il est
 posé une fois, par calcul, sur trois hypothèses dites dans
 `docs/PLANS-ANCIENS.md`, et reste provisoire tant qu'aucun point n'est relevé
-sur le terrain. Le plan de l'embouchure de la Chaudière de 1866
-(`embouchure-chaudiere-1866`) est posé de même, une fois, sur l'échelle de sa
-barre graphique et deux repères du terrain ; ni l'un ni l'autre ne passe par
-`caler-plans.mjs`.
+sur le terrain. Les plans de l'embouchure de la Chaudière
+(`embouchure-chaudiere-1866`, Alfred Hamel ; `embouchure-chaudiere-1842`,
+Pierre Lambert) sont posés de même, une fois : celui de 1866 sur sa barre
+graphique, sa flèche du nord et la rive du Bassin, contrôlé par la ligne C-D
+mesurée au procès-verbal de 1841 ; celui de 1842 sur celui de 1866, par six
+points communs. Aucun ne passe par `caler-plans.mjs`.
 
 ## La rivière Bruyante est la Chaudière
 
@@ -247,7 +249,8 @@ la « rivière Bruyante » est la rivière Chaudière d'aujourd'hui (indication 
 Patrick, 2026-11-16). Une source l'écrit : le plan de l'embouchure dressé par
 Pierre Lambert, arpenteur provincial, en octobre 1854, porte « Rivière
 Bruyante ou Chaudière » (transcription fournie par Patrick ; ce plan n'est
-pas versé au site).
+pas versé au site). Le plan de Pierre Lambert du 24 février 1842,
+versé, l'écrit aussi dans son cartouche.
 
 ## 1891 n'a qu'une division
 
