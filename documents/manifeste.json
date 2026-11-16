@@ -21777,6 +21777,89 @@
         }
       ],
       "ajoute_le": "2026-11-12"
+    },
+    {
+      "id": "plan-1844-02-05-hetriere-riviere-bruyante",
+      "type": "autre",
+      "titre": "Plan d'une étendue de terre entre la concession de l'Hétrière et la rivière Bruyante, paroisse de Saint-Jean-Chrysostome — P. Lambert, arpenteur, 5 février 1844",
+      "date": "1844-02-05",
+      "source": "À préciser : image numérisée du plan, fournie par Patrick Blanchet le 16 novembre 2026, sans indication de dépôt.",
+      "cote": "",
+      "fichier": "assets/plans/st-jean-chrysostome-1844-hetriere.jpg",
+      "nature": "Croquis d'arpenteur à la plume, sur une feuille pliée, suivi d'une « Description » de quatre lignes, datée et signée « P. Lambert, A.P. ». Il montre un périmètre A-B-C-D partagé en cinq bandes, avec le nom de l'occupant de chacune et sa largeur en arpents de front. Ce n'est pas un plan à l'échelle : aucune échelle n'est écrite, ni la profondeur ni les orientations ne sont cotées, et si les quatre premières bandes sont dessinées à peu près en proportion des largeurs écrites, la dernière ne l'est pas. Il vaut pour les noms, le voisinage et l'origine du titre — non pour des mesures.",
+      "transcription": "[Au crayon, dans le coin, d'une autre main :] 5 fév. 1844 — [Sur le plan, au-dessus de la ligne A-B, dans une suite de bandes étroites :] Partie de la Concession ou Rang Hétrière — [Le long de la ligne A-D, hors du périmètre, écrit de bas en haut :] Joseph Lambert — [Flèche :] Vrai Nord — [Dans le périmètre A-B-C-D, de haut en bas :] Jean Marie Côté. 7 arp de front — Pierre Cantin – 2 d° — Antoine Hallé 3 – d° — Vv. Fr. Cantin : Marg. Carrier. 1 ½ d° — Pierre Cantin. [au crayon :] 3 d° — [Sous la ligne D-C :] Partie du Premier rang. — [Le long du cours d'eau, entre B et C, avec des flèches de courant :] Rivière Bruyante — Description. A.B.C.D.A. Représente une Certaine Etendue de Terre située — Paroisse St. Jean Chrysostôme, ci devant Appartenante à Sieur — Louis Gaspard Dussault pour l'avoir eu en contre échange de Sir John Caldwell – St. J. Chrysostôme, 5 février 1844 – P. Lambert, A.P.",
+      "personnes": [
+        {
+          "role": "proprietaire",
+          "nom": "Jean Marie Côté",
+          "ref_personne": null,
+          "note": "Première bande, contre la ligne A-B : « 7 arp de front ». Non rattaché."
+        },
+        {
+          "role": "proprietaire",
+          "nom": "Pierre Cantin",
+          "ref_personne": null,
+          "note": "Nommé deux fois : la deuxième bande (« 2 d° ») et la cinquième, contre la ligne D-C, dont le « 3 d° » est ajouté au crayon. Rien ne dit s'il s'agit d'un seul homme ou de deux. Un Pierre Cantin, cultivateur de 64 ans dit « de St Jean Chrysostome », est recensé en 1871 dans la division 2 (1871-D2-P002-L18) : il aurait eu 37 ans en 1844. Simple piste — le nom est commun dans la paroisse : non rattaché."
+        },
+        {
+          "role": "proprietaire",
+          "nom": "Antoine Hallé",
+          "ref_personne": null,
+          "note": "Troisième bande : « 3 – d° ». Un Antoine Hallé concède des emplacements à rente foncière à Saint-Romuald en 1863 et meurt avant le 1er mai 1874 (minutes Tremblay, ventes Guillot à Brunet et Bilodeau à Lefebvre) ; rien n'établit que ce soit le même. Non retrouvé aux recensements : non rattaché."
+        },
+        {
+          "role": "proprietaire",
+          "nom": "Vv. Fr. Cantin : Marg. Carrier",
+          "ref_personne": null,
+          "note": "Quatrième bande : « 1 ½ d° ». À lire sans doute « veuve François Cantin, Marguerite Carrier » ; les deux prénoms sont abrégés sur le plan, leur développement est une lecture. Non rattachée."
+        },
+        {
+          "role": "auteur",
+          "nom": "Louis Gaspard Dussault",
+          "ref_personne": null,
+          "note": "« Sieur » ; l'étendue A-B-C-D lui appartenait « ci devant », pour l'avoir eue en contre-échange de Sir John Caldwell. Le plan ne donne ni la date ni le notaire de cet échange. Non rattaché."
+        },
+        {
+          "role": "seigneur",
+          "nom": "Sir John Caldwell",
+          "ref_personne": null,
+          "note": "A cédé l'étendue à Dussault en contre-échange. Le seigneur de Lauzon des actes du greffe Tremblay (« l'Honorable John Caldwell »)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Lambert",
+          "ref_personne": null,
+          "note": "Son nom est écrit le long de la ligne A-D, du côté extérieur du périmètre : c'est la place d'un voisin, non celle d'une signature. Non rattaché."
+        },
+        {
+          "role": "arpenteur",
+          "nom": "P. Lambert, A.P.",
+          "ref_personne": null,
+          "note": "Signe la description. Sans doute Pierre Lambert, arpenteur, auteur des plans de 1835 (propriété Hamilton, à Etchemin) et de 1853 (moulin de la rivière à la Scie) cités par Julie Doyon, Mission New Liverpool, p. 35 et 43 ; le plan n'écrit que l'initiale."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Le 5 février 1844, l'étendue A-B-C-D, comprise entre la ligne de la concession ou rang Hétrière, la terre de Joseph Lambert, le Premier rang et la rivière Bruyante — la Chaudière d'aujourd'hui —, dans la paroisse de Saint-Jean-Chrysostome, est partagée entre Jean Marie Côté (7 arpents de front), Pierre Cantin (2), Antoine Hallé (3), la veuve Fr. Cantin, Marg. Carrier (1 ½), et Pierre Cantin de nouveau (3, chiffre au crayon) — 16 arpents et demi de front en tout."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Cette étendue appartenait auparavant au sieur Louis Gaspard Dussault, qui l'avait eue en contre-échange de Sir John Caldwell."
+        },
+        {
+          "type": "nom_de_naissance",
+          "certitude": "probable",
+          "personnes": [],
+          "enonce": "La veuve de « Fr. » Cantin, occupante d'un arpent et demi de front en 1844, est « Marg. » Carrier — sans doute Marguerite Carrier, veuve de François Cantin ; les prénoms sont abrégés sur le plan."
+        }
+      ],
+      "note": "Lecture faite sur l'image, mot à mot. Deux points s'écartent de la description qui accompagnait l'image : l'arpenteur signe « P. Lambert, A.P. », et Joseph Lambert, dont le nom longe la ligne A-D hors du périmètre, est le voisin, non l'auteur du plan. La mention « 3 d° » de la dernière bande est au crayon, d'une encre différente du reste : ajout possible, à ne pas tenir pour de la main de l'arpenteur. Les hachures dessinées dans la rivière à la hauteur du point B ne sont pas légendées. Lieu : la « rivière Bruyante » est la rivière Chaudière d'aujourd'hui (indication de Patrick Blanchet, 16 novembre 2026) ; les actes du greffe Tremblay nomment la même rivière à Saint-Étienne (vente Gagnon à Duperron, 9 février 1874). Le terrain est donc sur la rive est de la Chaudière. La flèche « Vrai Nord » est en biais sur la feuille ; lue pointe au nord, elle fait venir la rivière du sud et la fait repartir au nord-nord-ouest, comme la Chaudière, et fait courir la ligne du rang nord-est – sud-ouest, comme le fleuve : c'est la lecture retenue. Les hachures du point B sont probablement les chutes de la Chaudière, et les flèches dessinées dans la rivière donnent le sens de l'eau, vers le fleuve (indications de Patrick Blanchet, 16 novembre 2026) ; le plan lui-même ne les légende pas. Sur cette lecture, le plan est posé sur la carte du site à titre provisoire, visible dans l'atelier seulement (voir docs/PLANS-ANCIENS.md) ; aucun point n'a été relevé sur le terrain. Il manque le dépôt d'archives et la cote : sans eux, personne ne pourra retrouver l'original. Piste : en 1871, un Philippe de Néri Hallé, forgeron, vit à Saint-Romuald dans le ménage d'Ursule Dussault (1871-D1-P010-L19, maison 26) — un Hallé et une Dussault sous le même toit, comme sur ce plan un Hallé sur l'ancienne terre d'un Dussault ; aucun lien n'est démontré.",
+      "ajoute_le": "2026-11-16"
     }
   ]
 }

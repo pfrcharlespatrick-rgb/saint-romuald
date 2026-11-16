@@ -4,7 +4,8 @@ Quatre feuilles de l'atlas d'assurance de Charles E. Goad, « Quebec Coves.
 South Shore » (mars 1876), sont posées en surimpression de la carte
 (`carte.html`). Elles y sont revenues le 12 novembre 2026, **calculées** depuis
 les lieux que Patrick a rattachés à leur numéro Goad, et non plus posées à
-l'œil. Le cadastre de 1879 reste retiré (voir à la fin).
+l'œil. Le cadastre de 1879 reste retiré (voir à la fin). Un cinquième plan, le croquis de
+l'Hétrière de 1844, est posé à part, à titre provisoire (voir plus bas).
 
 Trois fichiers :
 
@@ -119,6 +120,50 @@ Charles E. Goad, « Quebec Coves. South Shore », mars 1876, feuilles 12 à 15.
 Plans d'assurance-incendie, échelle annoncée de 200 pieds au pouce. BAnQ,
 Archives nationales à Québec, cote P600,S4,SS1,D67 —
 https://collections.banq.qc.ca/ark:/52327/3121049
+
+---
+
+## Plan de l'Hétrière (1844) : posé à titre provisoire, atelier seulement
+
+- **Fichier** : `assets/plans/st-jean-chrysostome-1844-hetriere.jpg`
+- **Plan** : `hetriere-1844` dans `data/plans-data.js`, `cale: false`.
+- **Fiche** : `plan-1844-02-05-hetriere-riviere-bruyante` dans
+  `documents/manifeste.json` — l'image, la transcription et les réserves ; on
+  la lit à `filiation.html#doc-plan-1844-02-05-hetriere-riviere-bruyante`.
+- **Ce que c'est** : croquis de l'arpenteur P. Lambert, 5 février 1844 — une
+  étendue A-B-C-D de la paroisse de Saint-Jean-Chrysostome, entre la
+  concession de l'Hétrière, le Premier rang et la « rivière Bruyante »,
+  partagée entre cinq occupants (Côté, Cantin, Hallé, veuve Cantin, Cantin).
+
+**La rivière Bruyante est la Chaudière** (indication de Patrick, 16 novembre
+2026). Le terrain est donc sur la rive est de la Chaudière.
+
+Ce croquis n'est pas un plan à l'échelle et aucun lieu de
+`data/lieux-data.js` ne lui sert de repère : il ne passe pas par
+`caler-plans.mjs` (il n'est pas dans `data/plans-reperes.json`, l'outil le
+laisse tel quel). Ses trois coins ont été calculés une fois, sur trois
+hypothèses :
+
+| Ce qu'il fallait | D'où on le tire | Valeur |
+|---|---|---|
+| un point d'ancrage | le point B (pixel 917, 380), où des hachures barrent la rivière, mis **aux chutes de la Chaudière** | 46,7147 N, 71,2825 O |
+| l'échelle | les 16 arpents et demi de front écrits entre A et D (964,8 m), mesurés sur l'image | 2,3 m par pixel (2,2 à 2,4 selon les bandes) |
+| l'orientation | la flèche « Vrai Nord », pointe au nord | le haut de l'image regarde le sud-est (azimut 134°) |
+
+Ce qui plaide pour cette pose : la rivière y vient du sud et repart au
+nord-nord-ouest, comme la Chaudière sous ses chutes ; la ligne A-B court à
+55° du nord, comme le fleuve et les rangs de la seigneurie ; le Premier rang
+tombe du côté du fleuve, l'Hétrière du côté des terres. Ce qui manque : **un
+seul point relevé sur le terrain**. « B aux chutes » est une lecture des
+hachures — probable, selon Patrick (16 novembre 2026), qui lit aussi les
+flèches de la rivière comme le sens de l'eau vers le fleuve — mais rien ne
+l'écrit sur le plan ; l'ensemble peut être décalé de
+plusieurs centaines de mètres.
+
+Il reste donc dans l'atelier (`carte.html?atelier=1`, bloc « Plans anciens »,
+marqué « à caler »), et ne doit pas être présenté comme établi. Pour le
+resserrer : retrouver au cadastre un coin de terre de la ligne A-B ou de la
+ligne A-D, ou régler les poignées sur la rive de la Chaudière.
 
 ---
 
