@@ -193,21 +193,36 @@ transcription ; il n'est pas versé.
 
 ### Le plan de 1866 : la pièce maîtresse
 
-C'est un plan d'arpentage à l'échelle (150 pieds français au pouce). Sa pose :
+C'est un plan d'arpentage à l'échelle (150 pieds français au pouce). Sa pose
+actuelle est **un compromis demandé par Patrick** (16 novembre 2026) :
 
 | Ce qu'il fallait | D'où on le tire | Valeur |
 |---|---|---|
 | l'échelle | la barre graphique : 500 pieds français (162,4 m) sur 386,5 px | 0,42 m par pixel |
-| l'orientation | la flèche « Nord Astronomique » du plan | nord à 44,2° sur la feuille |
-| la position | ajustée sur la rive actuelle du Bassin (sept points du pied de l'escarpement), la pointe du cap et le coin où débouche le ruisseau, au lot Humphrey | écart quadratique 15 m |
+| l'orientation et la position | ajustées ensemble sur quatre choses du terrain d'aujourd'hui : l'axe du chemin du Fleuve (sept points du chemin public du plan, comptés double), la rive du Bassin (sept points du pied de l'escarpement), la pointe du cap, le coin où débouche le ruisseau | nord à 37° sur la feuille |
 
-**Le contrôle vient du procès-verbal de 1841.** Lambert y mesure la ligne C-D :
-« sur le vrai Rhumb de vent Sud 32° Est […] distance de 121 pieds ». Le plan de
-1866, posé selon sa flèche, la dessine au sud 33° est, sur 39,0 m pour 39,3 m ;
-et la ligne courbe A-B, « 300 pieds » (97,5 m), y fait 102 m. Une première pose,
-du 16 novembre 2026, tournait le plan de huit degrés de plus (nord à 36°) pour
-coller à deux formes du terrain ; elle donnait C-D au sud 25° est. Elle est
-abandonnée : la mesure de l'arpenteur l'emporte sur une forme lue sur la carte.
+Les trois poses qui se sont succédé, et ce que vaut chacune :
+
+| Pose | Nord sur la feuille | Chemin public, à son bout est | Rive du Bassin | Ligne C-D (procès-verbal : « Sud 32° Est ») |
+|---|---|---|---|---|
+| sur deux formes du terrain (abandonnée) | 36° | 20 m du chemin du Fleuve | 10 à 30 m | sud 25° est |
+| selon la flèche « Nord Astronomique » du plan | 44° | **48 m au nord, au bord de l'eau** | 1 à 14 m | **sud 33° est** |
+| **compromis retenu** | **37°** | 25 m, sur les terrains riverains | 9 à 27 m | sud 26° est |
+
+Ce qu'il faut en retenir : **le plan ne peut pas être juste partout à la
+fois.** Posé selon sa flèche, il redonne la ligne C-D mesurée par Pierre
+Lambert en 1841 (« sur le vrai Rhumb de vent Sud 32° Est […] 121 pieds » : il
+la dessine au sud 33° est, sur 39,0 m pour 39,3 m) et suit la rive du Bassin,
+mais son chemin public part vers le fleuve. Patrick a jugé, carte en main, que
+le chemin ne pouvait pas mener dans l'eau du côté est, et a demandé d'incliner
+le plan en se fiant en partie au chemin d'aujourd'hui. La pose retenue ramène
+le chemin sur la terre ferme au prix de six degrés sur la ligne C-D. Elle
+reste provisoire ; les poignées de l'atelier permettent de la reprendre.
+
+Deux lectures restent ouvertes, que seule une borne retrouvée trancherait :
+le chemin de 1866 n'est plus où est le chemin du Fleuve (remblais, tracé
+refait), et la flèche est juste ; ou la flèche du plan est fausse de quelques
+degrés, et les directions du procès-verbal avec elle.
 
 ### Le plan de 1842 : posé sur celui de 1866
 
@@ -216,21 +231,25 @@ n'y fait que 29 m), mais il partage avec celui de 1866 six points sûrs : les
 bornes A, B, C, D, la pointe du cap, et la borne du bas de la longue ligne qui
 descend vers le Bassin (« Pierre Pichet » en 1842, « Pierre Pichette » en
 1866 : 448 et 449 m). Il est posé sur le plan de 1866 par ces six points,
-échelle et rotation libres : 4 à 9 m d'écart. L'échelle trouvée, 0,80 m par
-pixel, est celle de sa barre graphique de 900 pieds ; le nord tombe à 46°,
-sa flèche le met à 49°.
+échelle et rotation libres : 3 à 13 m d'écart. Il suit donc l'inclinaison
+donnée au plan de 1866 : le nord tombe à 40° sur la feuille, sa flèche le met
+à 49°. L'échelle trouvée, 0,80 m par pixel, est celle de sa barre graphique
+de 900 pieds.
 
 ### Où sont les bornes aujourd'hui
 
-À une quinzaine de mètres près :
+À une vingtaine de mètres près, avec la pose retenue :
 
 | Borne | Ce qu'en dit le procès-verbal de 1841 | Aujourd'hui | Coordonnées |
 |---|---|---|---|
-| A | angle nord du terrain de Thomas Hickey, côté sud-est du chemin public | sur le chemin du Fleuve, au nord-est du bas de la côte Garneau | 46,74386 N, 71,27465 O |
-| B | à 300 pieds de A le long du chemin, extrémité sud-ouest du terrain de Hickey | sur le chemin, à l'entrée du parc de la Marina-de-la-Chaudière | 46,74336 N, 71,27578 O |
-| C | 62 pieds plus loin le long du chemin | idem | 46,74320 N, 71,27594 O |
-| D | pied du cap, « Sud 32° Est », 121 pieds ; fin de l'emplacement d'Ignace Roberge | sur le versant de la côte Garneau | 46,74291 N, 71,27566 O |
-| bas de la ligne Pichet | borne de chez Boucher (1866) | sur la rive du Bassin, au sud de la rue de l'Étang | 46,74034 N, 71,27176 O |
+| A | angle nord du terrain de Thomas Hickey, côté sud-est du chemin public | au bord du chemin du Fleuve, au nord-est du bas de la côte Garneau | 46,74392 N, 71,27416 O |
+| B | à 300 pieds de A le long du chemin, extrémité sud-ouest du terrain de Hickey | près du chemin, à l'entrée du parc de la Marina-de-la-Chaudière | 46,74352 N, 71,27537 O |
+| C | 62 pieds plus loin le long du chemin | idem | 46,74337 N, 71,27556 O |
+| D | pied du cap, « Sud 32° Est », 121 pieds ; fin de l'emplacement d'Ignace Roberge | sur le versant de la côte Garneau | 46,74306 N, 71,27534 O |
+| bas de la ligne Pichet | borne de chez Boucher (1866) | sur la rive du Bassin, au sud de la rue de l'Étang | 46,74018 N, 71,27194 O |
+
+Entre la pose selon la flèche et la pose retenue, ces bornes bougent de 23 à
+44 m : c'est la mesure de ce qu'on ne sait pas encore.
 
 Le quai de 1841 est sous la pointe remblayée du parc de la Marina ; le lot
 n° 2 est la bande de falaise qui longe le Bassin, au sud de la rue du

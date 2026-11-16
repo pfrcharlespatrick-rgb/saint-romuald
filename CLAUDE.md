@@ -238,9 +238,12 @@ posé une fois, par calcul, sur trois hypothèses dites dans
 sur le terrain. Les plans de l'embouchure de la Chaudière
 (`embouchure-chaudiere-1866`, Alfred Hamel ; `embouchure-chaudiere-1842`,
 Pierre Lambert) sont posés de même, une fois : celui de 1866 sur sa barre
-graphique, sa flèche du nord et la rive du Bassin, contrôlé par la ligne C-D
-mesurée au procès-verbal de 1841 ; celui de 1842 sur celui de 1866, par six
-points communs. Aucun ne passe par `caler-plans.mjs`.
+graphique, puis incliné à la demande de Patrick (2026-11-16 : « le chemin du
+fleuve mène dans l'eau du côté est ») pour ramener son chemin public vers le
+chemin du Fleuve d'aujourd'hui — un compromis avec la flèche du nord du plan
+et la ligne C-D du procès-verbal de 1841, dit dans `docs/PLANS-ANCIENS.md` ;
+celui de 1842 sur celui de 1866, par six points communs. Aucun ne passe par
+`caler-plans.mjs`. Ne pas revenir à la flèche du plan sans le lui demander.
 
 ## La rivière Bruyante est la Chaudière
 
