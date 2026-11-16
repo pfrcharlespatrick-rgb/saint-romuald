@@ -241,7 +241,10 @@ sur le terrain.
 
 Dans les plans et les actes anciens (plan Lambert de 1844, greffe Tremblay),
 la « rivière Bruyante » est la rivière Chaudière d'aujourd'hui (indication de
-Patrick, 2026-11-16).
+Patrick, 2026-11-16). Une source l'écrit : le plan de l'embouchure dressé par
+Pierre Lambert, arpenteur provincial, en octobre 1854, porte « Rivière
+Bruyante ou Chaudière » (transcription fournie par Patrick ; ce plan n'est
+pas versé au site).
 
 ## 1891 n'a qu'une division
 
