@@ -152,21 +152,29 @@ const empreinte = (texte) => {
 };
 
 let total = 0;
+let enSuspens = 0; // réponses de Patrick que je n'ai pas pu consigner telles quelles
+// points déjà répondus, que le contrôle ne repose plus
+const repondus = controle.sections.reduce((n, s) => n + (s.repondus || 0), 0);
 const rendreSection = (conf) => {
   const s = parCle.get(conf.cle);
   if (!s) return { html: '', n: 0, nom: conf.nom };
   const etiquettes = cellules(s.entete.split('\n')[0]);
-  const points = s.lignes.map((ligne) => {
+  const points = s.lignes.map((ligne, rang) => {
     const c = cellules(ligne);
     const ids = [...ligne.matchAll(/`(\d{4}-D\d-P\d+-L\d+)`/g)].map((m) => m[1]);
-    const cle = `${conf.cle}|${ids.length ? ids.join('+') : empreinte(c.join('|'))}`;
+    // La clé du point est celle du contrôle, qui s'en sert pour reconnaître
+    // les réponses déjà données ; à défaut (rubrique montée ici), la même règle.
+    const cle = (s.cles && s.cles[rang]) || `${conf.cle}|${ids.length ? ids.join('+') : empreinte(c.join('|'))}`;
+    const attente = s.attentes && s.attentes[cle];
+    if (attente) enSuspens++;
     const details = c.map((v, i) => (i === conf.titre || !v || v === '—' ? '' : `<div class="rang"><dt>${esc(etiquettes[i] || '')}</dt><dd>${riche(v)}</dd></div>`)).join('');
     total++;
-    return `<li class="point" data-cle="${esc(cle)}" data-resume="${esc(c[conf.titre].replace(/`/g, ''))}">
+    return `<li class="point" data-cle="${esc(cle)}"${attente ? ` data-deja="${esc(attente.note)}"` : ''} data-resume="${esc(c[conf.titre].replace(/`/g, ''))}">
 <input type="checkbox" id="vu-${esc(empreinte(cle))}" class="case" aria-label="Vu">
 <div class="corps">
 <p class="qui">${riche(c[conf.titre])}</p>
 <dl>${details}</dl>
+${attente ? `<p class="attente"><span class="etiq">Ta réponse, à préciser</span>${attente.note ? `Tu as écrit « ${esc(attente.note)} ». ` : ''}${esc(attente.question.replace(/^Tu as écrit « [^»]* »\. /, ''))}</p>` : ''}
 <div class="suite"><button type="button" class="bouton-note">Ajouter une note</button><textarea class="note" id="note-${esc(empreinte(cle))}" rows="2" placeholder="Ce que tu as vu au manuscrit, ou ta décision" hidden></textarea></div>
 </div></li>`;
   });
@@ -305,6 +313,7 @@ details[data-vide] summary .compte, summary .compte.fini{color:var(--fait)}
 .case:checked::after{content:"";position:absolute;left:4px;top:5px;width:11px;height:6px;border-left:2px solid var(--surface);border-bottom:2px solid var(--surface);transform:rotate(-45deg)}
 .corps{min-width:0;display:flex;flex-direction:column;gap:6px}
 .qui{margin:0;font-weight:600;line-height:1.35;overflow-wrap:anywhere}
+.attente{margin:8px 0 0;background:var(--creux);padding:10px 12px;border-left:2px solid var(--madder);max-width:70ch;display:flex;flex-direction:column;gap:4px;line-height:1.45}
 .qui code{font-weight:400}
 dl{margin:0;display:flex;flex-direction:column;gap:4px}
 .rang{display:grid;grid-template-columns:minmax(0,150px) minmax(0,1fr);gap:2px 14px;align-items:baseline}
@@ -344,6 +353,7 @@ body.masquer .point.vu{display:none}
   <h1>Relevé de vérification</h1>
   <p class="date">Dressé le ${esc(dateLongue)}, après l'intégration des actes du greffe Tremblay, de tes corrections de l'atelier et des liens confirmés.</p>
   <p>Tout ce qui a été versé dans le projet a été confronté aux recensements, et les recensements entre eux. Rien n'a été corrigé d'office : ce relevé est la liste de ce qui demande ton œil. Coche un point quand tu l'as regardé, ajoute une note si tu as tranché, puis appuie sur « Copier mes réponses » et colle le texte dans notre conversation.</p>
+  ${repondus ? `<p>Tu as déjà répondu à ${repondus} point${repondus > 1 ? 's' : ''} : ils sont consignés et ne te sont pas reposés.${enSuspens ? ` ${enSuspens} de tes réponses demandent une précision avant d'être consignées : elles portent la mention « Ta réponse, à préciser ».` : ''}</p>` : ''}
 </header>
 
 <section>
@@ -410,6 +420,11 @@ ${g.rendues.map((r) => r.html).join('\n')}
 
   points.forEach(function (li) {
     var cle = li.getAttribute('data-cle');
+    // Une réponse déjà reçue, et reposée ici pour précision : la note gardée
+    // par ce navigateur est celle d'avant. On repart d'une case vide, pour
+    // qu'une note écrite maintenant soit bien la nouvelle réponse.
+    var deja = li.getAttribute('data-deja');
+    if (deja !== null && etat[cle] && String(etat[cle].note || '').replace(/\s+/g, ' ').trim() === deja) { delete etat[cle]; garder(); }
     var caseVu = li.querySelector('.case'), note = li.querySelector('.note'), bouton = li.querySelector('.bouton-note');
     var e = etat[cle] || {};
     if (e.vu) { caseVu.checked = true; li.classList.add('vu'); }

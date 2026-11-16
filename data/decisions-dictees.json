@@ -1,8 +1,8 @@
 {
  "format": "suivi-saint-romuald-decisions",
  "version": 1,
- "note": "Décisions que Patrick a dictées à Claude hors de l'atelier. Elles sont la main, au même titre qu'une case corrigée dans l'atelier, et sont lues par-dessus data/travail-personnel.json (outils/relecture-1881/atelier.mjs). Elles ne s'écrivent pas dans le fichier de travail, que l'atelier réécrit en entier à chaque sauvegarde. Une correction s'applique tant que l'atelier porte encore la valeur notée sous « atelier » (null : il n'en dit rien) ; un lien s'efface devant un rejet posé depuis dans l'annexe des filiations. Voir CLAUDE.md, « Les décisions dictées ».",
- "mis_a_jour": "2026-11-12",
+ "note": "Décisions que Patrick a dictées à Claude hors de l'atelier. Elles sont la main, au même titre qu'une case corrigée dans l'atelier, et sont lues par-dessus data/travail-personnel.json (outils/relecture-1881/atelier.mjs). Elles ne s'écrivent pas dans le fichier de travail, que l'atelier réécrit en entier à chaque sauvegarde. Une correction s'applique tant que l'atelier porte encore la valeur notée sous « atelier » (null : il n'en dit rien) ; un lien s'efface devant un rejet posé depuis dans l'annexe des filiations. Voir CLAUDE.md, « Les décisions dictées ». « releve » garde, point par point, les réponses de Patrick au relevé de vérification (outils/releve-verification.mjs) : ce qu'il a écrit (note), ce qui en a été fait (suite) ou la question à lui reposer (attente) ; le contrôle des croisements ne repose pas un point qui y figure sans « attente ».",
+ "mis_a_jour": "2026-11-16",
  "corrections": [
   {
    "id": "1881-D2-P018-L16",
@@ -43,6 +43,230 @@
    "valeur": "M",
    "date": "2026-11-12",
    "motif": "Homère Daigle : prénom corrigé dans l'atelier, le sexe était resté « F » de l'ancienne lecture — masculin (Patrick, en séance)."
+  },
+  {
+   "id": "1871-D1-P008-L01",
+   "champ": "sait_ecrire",
+   "atelier": null,
+   "valeur": false,
+   "date": "2026-11-16",
+   "motif": "Ferdinand Demers — instruction, colonnes 18 et 19. Patrick : « Ne sait pas écire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D1-P035-L19",
+   "champ": "sait_lire",
+   "atelier": null,
+   "valeur": true,
+   "date": "2026-11-16",
+   "motif": "Joseph Langelier — instruction, colonnes 18 et 19. Patrick : « sait lire et écire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D1-P035-L19",
+   "champ": "sait_ecrire",
+   "atelier": null,
+   "valeur": true,
+   "date": "2026-11-16",
+   "motif": "Joseph Langelier — instruction, colonnes 18 et 19. Patrick : « sait lire et écire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D2-P020-L20",
+   "champ": "sait_lire",
+   "atelier": null,
+   "valeur": false,
+   "date": "2026-11-16",
+   "motif": "Thomas Proulx — instruction, colonnes 18 et 19. Patrick : « ne sait pas lire et écrire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D2-P020-L20",
+   "champ": "sait_ecrire",
+   "atelier": null,
+   "valeur": false,
+   "date": "2026-11-16",
+   "motif": "Thomas Proulx — instruction, colonnes 18 et 19. Patrick : « ne sait pas lire et écrire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D2-P016-L05",
+   "champ": "sait_lire",
+   "atelier": null,
+   "valeur": false,
+   "date": "2026-11-16",
+   "motif": "J. Baptiste Croteau — instruction, colonnes 18 et 19. Patrick : « ne sait pas lire et écrire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D2-P016-L05",
+   "champ": "sait_ecrire",
+   "atelier": null,
+   "valeur": false,
+   "date": "2026-11-16",
+   "motif": "J. Baptiste Croteau — instruction, colonnes 18 et 19. Patrick : « ne sait pas lire et écrire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D1-P032-L07",
+   "champ": "sait_lire",
+   "atelier": null,
+   "valeur": true,
+   "date": "2026-11-16",
+   "motif": "Philomène Dubé — instruction, colonnes 18 et 19. Patrick : « sait lire et écrire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D1-P032-L07",
+   "champ": "sait_ecrire",
+   "atelier": null,
+   "valeur": true,
+   "date": "2026-11-16",
+   "motif": "Philomène Dubé — instruction, colonnes 18 et 19. Patrick : « sait lire et écrire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D1-P025-L19",
+   "champ": "sait_lire",
+   "atelier": null,
+   "valeur": true,
+   "date": "2026-11-16",
+   "motif": "George Bilodeau — instruction, colonnes 18 et 19. Patrick : « saint lire et écrire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D1-P025-L19",
+   "champ": "sait_ecrire",
+   "atelier": null,
+   "valeur": true,
+   "date": "2026-11-16",
+   "motif": "George Bilodeau — instruction, colonnes 18 et 19. Patrick : « saint lire et écrire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D1-P019-L03",
+   "champ": "sait_lire",
+   "atelier": null,
+   "valeur": false,
+   "date": "2026-11-16",
+   "motif": "Michel Blais — instruction, colonnes 18 et 19. Patrick : « ne sait pas lire et écrire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D1-P019-L03",
+   "champ": "sait_ecrire",
+   "atelier": null,
+   "valeur": false,
+   "date": "2026-11-16",
+   "motif": "Michel Blais — instruction, colonnes 18 et 19. Patrick : « ne sait pas lire et écrire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D2-P039-L19",
+   "champ": "sait_lire",
+   "atelier": null,
+   "valeur": false,
+   "date": "2026-11-16",
+   "motif": "Marguerite [?] Roberge — instruction, colonnes 18 et 19. Patrick : « ne sait pas lire et écrire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D2-P039-L19",
+   "champ": "sait_ecrire",
+   "atelier": null,
+   "valeur": false,
+   "date": "2026-11-16",
+   "motif": "Marguerite [?] Roberge — instruction, colonnes 18 et 19. Patrick : « ne sait pas lire et écrire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1881-D2-P040-L17",
+   "champ": "sexe",
+   "atelier": null,
+   "valeur": "F",
+   "date": "2026-11-16",
+   "motif": "Elisé Grégoire — Elise Grégoire, 2 ans en 1871 (F), lue « Elisé, M » en 1881 : la personne est une femme. Patrick : « femme » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1881-D1-P081-L07",
+   "champ": "sexe",
+   "atelier": null,
+   "valeur": "F",
+   "date": "2026-11-16",
+   "motif": "Marie Elizabeth Desroches — Marie Elizabeth Desroches, notée « M » en 1881, « Marie Anne, F » en 1891. Patrick : « femme » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1881-D2-P047-L25",
+   "champ": "sexe",
+   "atelier": null,
+   "valeur": "M",
+   "date": "2026-11-16",
+   "motif": "Philippa Couture — Philippa Couture, notée « F » en 1881, « Philippe, M » en 1891. Patrick : « homme » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1881-D1-P051-L25",
+   "champ": "sexe",
+   "atelier": null,
+   "valeur": "M",
+   "date": "2026-11-16",
+   "motif": "Pierre Roberge — Pierre Roberge, journalier, noté « F » en 1881, « M » en 1871 et en 1891. Patrick : « homme » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D2-P039-L19",
+   "champ": "prenom",
+   "atelier": null,
+   "valeur": "Marguerite",
+   "date": "2026-11-16",
+   "motif": "Marguerite [?] Roberge — le doute est levé sur le prénom. Patrick : « marguerite, femme, marchande, célibataire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D2-P039-L19",
+   "champ": "sexe",
+   "atelier": null,
+   "valeur": "F",
+   "date": "2026-11-16",
+   "motif": "Marguerite [?] Roberge — le doute est levé sur le sexe (dit aussi « femme » aux lignes incomplètes). Patrick : « marguerite, femme, marchande, célibataire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D2-P039-L19",
+   "champ": "profession",
+   "atelier": null,
+   "valeur": "Marchande",
+   "date": "2026-11-16",
+   "motif": "Marguerite [?] Roberge — le doute est levé sur le métier. Patrick : « marguerite, femme, marchande, célibataire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D2-P039-L19",
+   "champ": "etat_matrimonial",
+   "atelier": null,
+   "valeur": "",
+   "date": "2026-11-16",
+   "motif": "Marguerite [?] Roberge — célibataire, et non veuve (« V [?] ») : la case de l'état matrimonial reste vide, comme pour tout célibataire de 1871. Patrick : « marguerite, femme, marchande, célibataire » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D2-P061-L03",
+   "champ": "age",
+   "atelier": null,
+   "valeur": "54",
+   "date": "2026-11-16",
+   "motif": "Régis Martel — Régis Martel : le doute est levé sur l'âge. Patrick : « 54 ans » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D2-P046-L19",
+   "champ": "sexe",
+   "atelier": null,
+   "valeur": "M",
+   "date": "2026-11-16",
+   "motif": "Isaïe [?] Girard — Isaïe [?] Girard : sexe noté « M [?] ». Patrick : « male » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D2-P064-L10",
+   "champ": "sexe",
+   "atelier": null,
+   "valeur": "M",
+   "date": "2026-11-16",
+   "motif": "Etienne [?] Cantin — Etienne [?] Cantin : sexe noté « M [?] ». Patrick : « male » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D2-P068-L09",
+   "champ": "sexe",
+   "atelier": null,
+   "valeur": "M",
+   "date": "2026-11-16",
+   "motif": "Malcolm [?] Slater [?] — Malcolm [?] Slater [?] : sexe noté « M [?] ». Patrick : « male » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D2-P071-L19",
+   "champ": "sexe",
+   "atelier": null,
+   "valeur": "M",
+   "date": "2026-11-16",
+   "motif": "Louise [?] Demers — Louise [?] Demers : sexe noté « F [?] » ; la première lecture était « Louis, M, 68 ». Le prénom n'a pas été dicté : il reste « Louise [?] ». Patrick : « male » (relevé de vérification du 2026-11-15, réponse de Patrick)."
   }
  ],
  "liens": {
@@ -1607,6 +1831,1450 @@
     "nom": "Laura St-Hilaire",
     "note": "Rapprochement proposé par le ménage — même ménage : 2 autre(s) membre(s) s'y retrouvent ensemble ; prénom concordant, patronyme différent (Andrew / St-Hilaire) ; confirmé par Patrick le 2026-11-12, en séance."
    }
+  ],
+  "1871-D1-P055-L13": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "70",
+    "ligne": "5",
+    "nom": "Caroline Forcade",
+    "note": "Caroline Peltier (37 ans en 1871) est la Caroline Forcade de 1881 (48 ans) et de 1891 (60 ans) : identité dite par un document (« sthilaire-2010-magdeleine-delisle », établi). Patrick a confirmé le lien 1871 → 1891 — « confirme » — et coché celui-ci « vu » (relevé de vérification du 2026-11-15, réponse de Patrick) ; l'identité confirmée se pose par la chaîne 1871 → 1881 → 1891, sans lien direct qui doublerait celui de 1881."
+   }
+  ],
+  "1871-D2-P007-L18": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "45",
+    "ligne": "8",
+    "nom": "Ernestine St.Hilaire",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (6/12 en 1871, 10 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D1-P010-L04": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "55",
+    "ligne": "8",
+    "nom": "Marie Samson",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (2 en 1871, 18 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P058-L02": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "20",
+    "ligne": "22",
+    "nom": "Augustin Lambert",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (7/12 (avril) en 1881, 11 en 1891) ; confirmé par Patrick — « confrime » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P070-L22": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "82",
+    "ligne": "23",
+    "nom": "Wilfred Rivard",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (6/12 (nov.) en 1881, 10 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D2-P002-L01": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "93",
+    "ligne": "17",
+    "nom": "Joseph Montigny",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (6/12 (juin) en 1881, 10 en 1891) ; confirmé par Patrick — « confime » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P041-L09": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "57",
+    "ligne": "11",
+    "nom": "Maria Garant",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (6/12 (sept.) en 1881, 10 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D2-P006-L09": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "103",
+    "ligne": "21",
+    "nom": "Louis Morin",
+    "note": "Lien calculé (confiance moyenne) dont l'âge ne suit pas (13 en 1881, 29 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D1-P040-L16": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "16",
+    "ligne": "11",
+    "nom": "Celanir Bernier",
+    "note": "Lien calculé (confiance moyenne) dont l'âge ne suit pas (6 en 1871, 32 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P023-L18": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "20",
+    "ligne": "2",
+    "nom": "Marie Couture",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (44 en 1871, 48 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D1-P043-L14": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "77",
+    "ligne": "1",
+    "nom": "James Thomson",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (43 en 1871, 47 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P049-L18": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "10",
+    "ligne": "1",
+    "nom": "Marie Gagné",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (36 en 1871, 40 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P065-L12": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "37",
+    "ligne": "17",
+    "nom": "Théophile Coté",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (36 en 1871, 40 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P065-L13": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "37",
+    "ligne": "18",
+    "nom": "Vitaline Coté",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (23 en 1871, 39 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D1-P064-L14": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "74",
+    "ligne": "17",
+    "nom": "James Moore",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (57 en 1871, 61 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D1-P047-L02": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "30",
+    "ligne": "5",
+    "nom": "Louis Gagnon",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (20 en 1871, 36 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D1-P009-L08": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "3",
+    "ligne": "25",
+    "nom": "Odéline Beaulieu",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (29 en 1871, 33 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D2-P034-L23": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "113",
+    "ligne": "10",
+    "nom": "Julie Couture",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (36 en 1881, 40 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P022-L14": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "140",
+    "ligne": "15",
+    "nom": "Marie Cantin",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (56 en 1881, 60 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P029-L23": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "16",
+    "ligne": "16",
+    "nom": "George Bilodeau",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (49 en 1881, 53 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P044-L20": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "49",
+    "ligne": "23",
+    "nom": "Adèle Chevrette",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (49 en 1881, 53 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P081-L11": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "5",
+    "ligne": "23",
+    "nom": "Genevieve Clouston",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (56 en 1881, 60 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P082-L14": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "10",
+    "ligne": "8",
+    "nom": "Mathilda Ferland",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (22 en 1881, 26 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P082-L15": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "10",
+    "ligne": "7",
+    "nom": "Philomene Ferland",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (20 en 1881, 24 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D2-P028-L13": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "123",
+    "ligne": "1",
+    "nom": "Delphine Carrier",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (23 en 1881, 39 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P072-L01": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "28",
+    "ligne": "17",
+    "nom": "Antoine Robitaille",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (54 en 1881, 58 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P019-L18": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "132",
+    "ligne": "25",
+    "nom": "Joseph Lambert",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (20 en 1881, 24 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D2-P029-L09": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "119",
+    "ligne": "1",
+    "nom": "Julienne Carrier",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (60 en 1881, 64 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P074-L23": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "34",
+    "ligne": "13",
+    "nom": "Emmanuel Thibault",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (56 en 1881, 60 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P002-L04": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "83",
+    "ligne": "21",
+    "nom": "Émélie Bois",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (30 en 1871, 44 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P013-L11": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "128",
+    "ligne": "18",
+    "nom": "Pierre Boucher",
+    "note": "Lien calculé (confiance forte) dont l'âge ne suit pas (59 en 1871, 73 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P017-L07": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "40",
+    "ligne": "22",
+    "nom": "Charles Binette",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (42 en 1871, 64 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D1-P070-L12": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "73",
+    "ligne": "19",
+    "nom": "J.Baptiste Lebel",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (50 en 1871, 46 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P034-L16": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "40",
+    "ligne": "1",
+    "nom": "Paul Cadorette",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (30 en 1871, 48 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D1-P044-L10": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "14",
+    "ligne": "22",
+    "nom": "Thomas Piger",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (50 en 1871, 45 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P023-L17": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "20",
+    "ligne": "1",
+    "nom": "Joseph Couture",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (48 en 1871, 50 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P067-L04": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "7",
+    "ligne": "19",
+    "nom": "David Swinton",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (57 en 1871, 50 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P043-L03": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "22",
+    "ligne": "12",
+    "nom": "François Cantin",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (35 en 1871, 61 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P032-L02": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "28",
+    "ligne": "20",
+    "nom": "Louis Simonneau",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (41 en 1871, 80 en 1881) ; confirmé par Patrick — « confiorme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P022-L08": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "19",
+    "ligne": "20",
+    "nom": "David Allen",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (48 en 1871, 68 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D1-P060-L17": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "64",
+    "ligne": "19",
+    "nom": "Louis Landry",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (31 en 1871, 32 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P041-L15": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "26",
+    "ligne": "1",
+    "nom": "Edouard Villers",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (40 en 1871, 36 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P048-L18": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "11",
+    "ligne": "15",
+    "nom": "Joseph Bergeron",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (59 [?] en 1871, 60 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P066-L14": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "7",
+    "ligne": "1",
+    "nom": "George Dion",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (56 en 1871, 49 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P036-L07": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "24",
+    "ligne": "1",
+    "nom": "Jacques Cadorette",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (40 [?] en 1871, 57 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P038-L18": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "34",
+    "ligne": "8",
+    "nom": "Augustin Boutet",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (49 en 1871, 67 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D2-P040-L08": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "2",
+    "page": "30",
+    "ligne": "20",
+    "nom": "William Ahearn",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (63 [?] en 1871, 82 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D1-P059-L10": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "79",
+    "ligne": "20",
+    "nom": "Pierre Sirois",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (40 en 1871, 33 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1871-D1-P059-L20": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1881",
+    "division": "1",
+    "page": "69",
+    "ligne": "2",
+    "nom": "J.Baptiste Edmond",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (28 en 1871, 28 en 1881) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D2-P034-L08": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "114",
+    "ligne": "2",
+    "nom": "Augustin Boulet",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (67 en 1881, 69 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D2-P011-L07": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "69",
+    "ligne": "22",
+    "nom": "Joseph Boucher",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (48 en 1881, 48 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P084-L10": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "24",
+    "ligne": "14",
+    "nom": "Joseph Gendron",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (34 en 1881, 54 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D2-P028-L20": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "118",
+    "ligne": "18",
+    "nom": "Louis Simoneau",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (80 en 1881, 60 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P056-L14": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "39",
+    "ligne": "25",
+    "nom": "Eusèbe Boucher",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (40 en 1881, 59 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D2-P032-L19": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "117",
+    "ligne": "19",
+    "nom": "Francis Binet",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (52 en 1881, 41 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P073-L19": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "40",
+    "ligne": "24",
+    "nom": "J.Baptiste Lebel",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (46 en 1881, 72 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P082-L12": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "10",
+    "ligne": "5",
+    "nom": "Narcisse Ferland",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (52 en 1881, 51 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D2-P019-L20": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "108",
+    "ligne": "17",
+    "nom": "David Allen",
+    "note": "Chef du même ménage, que le calcul n'avait pas relié : l'âge ne suit pas (68 en 1881, 66 en 1891) ; confirmé par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
+  ],
+  "1881-D1-P070-L05": [
+   {
+    "relation": "Suivi (Filiations)",
+    "annee": "1891",
+    "division": "1",
+    "page": "25",
+    "ligne": "13",
+    "nom": "Caroline Forcade",
+    "note": "Lien calculé (confiance forte, 48 ans en 1881, 60 en 1891), second maillon de l'identité Caroline Peltier (1871) = Caroline Forcade (1891) confirmée par Patrick — « confirme » — relevé de vérification du 2026-11-15, réponse de Patrick."
+   }
   ]
+ },
+ "releve": {
+  "signatures|1871-D2-P067-L20": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Marguerite Bourassa, 41 ans",
+   "suite": "vu, sans suite dictée"
+  },
+  "signatures|1871-D1-P008-L01": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Ferdinand Demers, 35 ans, domestique",
+   "note": "Ne sait pas écire",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "signatures|1871-D1-P025-L04": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Benjamin Demers, 48 ans, cultivateur",
+   "suite": "vu, sans suite dictée"
+  },
+  "signatures|1871-D1-P035-L19": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Joseph Langelier, 44 ans, forgeron",
+   "note": "sait lire et écire",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "signatures|1871-D1-P024-L20": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Angélique Boutin, 52 ans",
+   "suite": "vu, sans suite dictée"
+  },
+  "signatures|1871-D2-P020-L20": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Thomas Proulx, 52 ans, menuisier",
+   "note": "ne sait pas lire et écrire",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "signatures|1871-D2-P022-L05": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Patrick Esmond, 25 ans, journalier",
+   "suite": "vu, sans suite dictée"
+  },
+  "signatures|1871-D2-P016-L05": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "J. Baptiste Croteau, 23 ans, navigateur",
+   "note": "ne sait pas lire et écrire",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "signatures|1871-D1-P032-L06": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "François Dubé, 36 ans, journalier",
+   "suite": "vu, sans suite dictée"
+  },
+  "signatures|1871-D1-P032-L07": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Philomène Dubé, 25 ans",
+   "note": "sait lire et écrire",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "signatures|1871-D1-P023-L15": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Charles Filteau, 20 ans, journalier",
+   "suite": "vu, sans suite dictée"
+  },
+  "signatures|1871-D1-P025-L19": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "George Bilodeau, 36 ans, menuisier",
+   "note": "saint lire et écrire",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "signatures|1871-D1-P021-L07": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Antoine Toussaint, 58 ans, charretier",
+   "suite": "vu, sans suite dictée"
+  },
+  "signatures|1871-D1-P019-L03": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Michel Blais, 40 ans, journalier",
+   "note": "ne sait pas lire et écrire",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "signatures|1871-D1-P028-L13": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Michel Larivée, 50 ans, journalier",
+   "suite": "vu, sans suite dictée"
+  },
+  "signatures|1871-D2-P039-L19": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Marguerite [?] Roberge, 45 [?] ans, marchande [?]",
+   "note": "ne sait pas lire et écrire",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "sexes|1871-D2-P034-L11+1881-D2-P040-L17": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Elise Grégoire, F, 2 ans — 1871, div. 2, maison 85, p. 34 l. 11",
+   "note": "femme",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "sexes|1871-D2-P067-L07+1881-D2-P007-L21": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Margaret Swinton, F, 14 ans — 1871, div. 2, maison 157 [?], p. 67 l. 7",
+   "suite": "vu, sans suite dictée"
+  },
+  "sexes|1871-D1-P039-L07+1881-D1-P051-L25": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Pierre Roberge, M, 16 ans — 1871, div. 1, maison 104, p. 39 l. 7",
+   "note": "femme",
+   "suite": "« femme » non consigné : la même ligne de 1881 est dite « homme » au point suivant, et c'est « homme » qui a été retenu pour 1881 ; la ligne de 1871 reste « M ». À redire si c'était voulu."
+  },
+  "sexes|1871-D1-P013-L18+1881-D1-P073-L13": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Lord Villeneuve, M, 11 ans — 1871, div. 1, maison 33, p. 13 l. 18",
+   "suite": "vu, sans suite dictée"
+  },
+  "sexes|1881-D1-P081-L07+1891-D1-P048-L08": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Marie Elizabeth Desroches, M, 4 ans — 1881, div. 1, maison 319, p. 81 l. 7",
+   "note": "femme",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "sexes|1881-D2-P046-L10+1891-D1-P134-L20": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Wilfride Boucher, F, 8 ans — 1881, div. 2, maison 196, p. 46 l. 10",
+   "suite": "vu, sans suite dictée"
+  },
+  "sexes|1881-D2-P047-L25+1891-D1-P080-L09": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Philippa Couture, F, 5 ans — 1881, div. 2, maison 203, p. 47 l. 25",
+   "note": "homme",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "sexes|1881-D2-P054-L13+1891-D1-P128-L24": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Wilfride Roberge, F, 8 ans — 1881, div. 2, maison 227, p. 54 l. 13",
+   "suite": "vu, sans suite dictée"
+  },
+  "sexes|1881-D1-P051-L25+1891-D1-P075-L05": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Pierre Roberge, F, 25 ans — 1881, div. 1, maison 204, p. 51 l. 25",
+   "note": "homme",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "sexes|1881-D1-P046-L03": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Eva Cadier, M, 4 ans — 1881, div. 1, maison 179, p. 46 l. 3",
+   "suite": "vu, sans suite dictée"
+  },
+  "sexes|1891-D1-P111-L07": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Marie Xavier Gagnon, M, 33 ans, batelier, chef — 1891, div. 1, maison 492, p. 111 l. 7",
+   "note": "femme",
+   "attente": "Tu as écrit « femme ». Mais Marie Xavier Gagnon est le chef du ménage, batelier, et la ligne suivante est son épouse Rosalie, 30 ans, suivie de leurs deux fils : je n'ai rien changé. Est-ce bien une femme — ou le prénom qui est à relire ?"
+  },
+  "lectures|1871-D2-P068-L02": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Bourassa, Romuald [?], 13 ans",
+   "attente": "Tu as coché cette ligne et écrit « romuald » dans la case de la suivante (Thomas Voyer). Dois-je lever le doute ici — le prénom est bien Romuald ?"
+  },
+  "lectures|1871-D2-P069-L05": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Voyer [?], Thomas, 37 ans, M, Menuisier",
+   "note": "romuald",
+   "attente": "Tu as écrit « romuald » ici : était-ce pour la ligne Bourassa, juste au-dessus ? Et pour cette ligne-ci : le nom Voyer est-il confirmé ?"
+  },
+  "lectures|1871-D2-P039-L19": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Roberge, Marguerite [?], 45 [?] ans, V [?], Marchande [?]",
+   "note": "marguerite, femme, marchande, célibataire",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "lectures|1871-D2-P061-L03": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Martel, Régis, 54 [?] ans, M, Menuisier",
+   "note": "54 ans",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "lignes|1871-D2-P039-L19": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Marguerite [?] Roberge",
+   "note": "femme",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "lignes|1871-D2-P043-L04": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Philomène Cantin",
+   "note": "possible",
+   "suite": "« possible » : pris pour « c'est possible, laisser tel quel » — rien changé"
+  },
+  "lignes|1871-D2-P046-L19": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Isaïe [?] Girard",
+   "note": "male",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "lignes|1871-D2-P064-L10": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Etienne [?] Cantin",
+   "note": "male",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "lignes|1871-D2-P068-L09": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Malcolm [?] Slater [?]",
+   "note": "male",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "lignes|1871-D2-P071-L19": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Louise [?] Demers",
+   "note": "male",
+   "suite": "consigné dans les corrections dictées"
+  },
+  "identites|1871-D1-P055-L13+1881-D1-P070-L05": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Caroline Peltier, 37 ans — 1871, div. 1, maison 149, p. 55 l. 13",
+   "suite": "vu, sans note ; le lien est posé tout de même : il est le premier maillon de l'identité confirmée au point suivant (1871 → 1891)"
+  },
+  "identites|1871-D1-P055-L13+1891-D1-P025-L13": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Caroline Peltier, 37 ans — 1871, div. 1, maison 149, p. 55 l. 13",
+   "note": "confirme",
+   "suite": "identité confirmée : consignée dans les liens dictés par la chaîne 1871 → 1881 → 1891"
+  },
+  "ages-liens|1871-D2-P005-L02+1881-D2-P054-L19": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Jacob Boucher, 7/12 — 1871, div. 2, maison 11, p. 5 l. 2",
+   "suite": "vu, sans suite dictée"
+  },
+  "ages-liens|1871-D2-P007-L18+1881-D2-P045-L08": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Ernestine St-Hilaire, 6/12 — 1871, div. 2, maison 17, p. 7 l. 18",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1871-D1-P066-L16+1881-D1-P062-L03": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Edouard Boutet, 9 ans — 1871, div. 1, maison 177, p. 66 l. 16",
+   "suite": "vu, sans suite dictée"
+  },
+  "ages-liens|1871-D1-P008-L07+1881-D1-P084-L22": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "François Xavier Boucher, 6 ans — 1871, div. 1, maison 19, p. 8 l. 7",
+   "suite": "vu, sans suite dictée"
+  },
+  "ages-liens|1871-D1-P010-L04+1881-D2-P055-L08": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Marie Samson, 2 ans — 1871, div. 1, maison 24, p. 10 l. 4",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1871-D1-P029-L17+1881-D1-P055-L01": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Marie Clavette, 7 mois — 1871, div. 1, maison 75, p. 29 l. 17",
+   "note": "confirme",
+   "attente": "Tu as écrit « confirme ». Mais la Marie de 1881 a 4 ans : elle est née vers 1877, après le recensement de 1871, et ses parents sont Edouard et Elize, non Cyrille et Luce. Ce serait une autre enfant. Je confirme quand même, ou j'écarte le lien ?"
+  },
+  "ages-liens|1871-D1-P032-L03+1881-D2-P001-L22": {
+   "date": "2026-11-16",
+   "vu": true,
+   "resume": "Marie Montigny, 6 ans — 1871, div. 1, maison 82, p. 32 l. 3",
+   "suite": "vu, sans suite dictée"
+  },
+  "ages-liens|1881-D1-P058-L02+1891-D1-P020-L22": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Augustin Lambert, 7/12 (avril) — 1881, div. 1, maison 225, p. 58 l. 2",
+   "note": "confrime",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D1-P070-L22+1891-D1-P082-L23": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Wilfred Rivard, 6/12 (nov.) — 1881, div. 1, maison 274, p. 70 l. 22",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D2-P002-L01+1891-D1-P093-L17": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Louis Joseph Montigny, 6/12 (juin) — 1881, div. 2, maison 3, p. 2 l. 1",
+   "note": "confime",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D1-P041-L09+1891-D1-P057-L11": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Marie Garan, 6/12 (sept.) — 1881, div. 1, maison 162, p. 41 l. 9",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D1-P048-L21+1891-D1-P127-L22": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Mary Cantin, 4 ans — 1881, div. 1, maison 190, p. 48 l. 21",
+   "note": "confirme",
+   "attente": "Tu as écrit « confirme ». Mais la Marie Désirée de 1891 a 8 ans : elle est née vers 1883, après le recensement de 1881, et ses parents sont Jacob et Marie Delias, non Pierre et Délina. Je confirme quand même, ou j'écarte le lien ?"
+  },
+  "ages-liens|1881-D1-P075-L24+1891-D1-P129-L20": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Agnès Coté, 4 ans — 1881, div. 1, maison 296, p. 75 l. 24",
+   "note": "confirme",
+   "attente": "Tu as écrit « confirme ». Mais l'Agnès de 1891 a 8 ans : elle est née vers 1883, après le recensement de 1881, et ses parents sont Léon et Marie, non Alcide et Geneviève. Je confirme quand même, ou j'écarte le lien ?"
+  },
+  "ages-liens|1881-D2-P006-L09+1891-D1-P103-L21": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Louis Marie Morin, 13 ans — 1881, div. 2, maison 22, p. 6 l. 9",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D2-P043-L14+1891-D1-P115-L11": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Fleurida Roberge, 11 ans — 1881, div. 2, maison 181, p. 43 l. 14",
+   "note": "indiqué Florida et confirme",
+   "attente": "Tu as écrit « indiqué Florida et confirme ». Mais la Florida de 1891 (27 ans) est la fille de Marguerite Roberge, veuve, et la sœur de Célina McReady ; la Fleurida de 1881 (11 ans) est la fille d'Etienne et de Catherine. Ce seraient deux familles. Je confirme quand même ? Et « indiqué Florida » : faut-il écrire Florida sur la ligne de 1881 ?"
+  },
+  "ages-liens|1871-D2-P032-L10+1891-D1-P118-L23": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Delvina Simoneau, 10/12 — 1871, div. 2, maison 82, p. 32 l. 10",
+   "note": "confirme",
+   "attente": "Tu as écrit « confirme ». Mais la Delina de 1891 est dite « bru » de Louis Simoneau : c'est la femme de son fils Pierre, non sa fille. La fille Delvina de 1871 serait plutôt la « Malvina » de 1881 (10 ans) et de 1891 (20 ans, « fille »). Je confirme quand même, ou j'écarte le lien ?"
+  },
+  "ages-liens|1871-D1-P040-L16+1891-D1-P016-L11": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Célanire Bernier, 6 ans — 1871, div. 1, maison 107, p. 40 l. 16",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1871-D2-P023-L18+1881-D2-P020-L02": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Marie Couture, 44 ans — 1871, div. 2, maison 60, p. 23 l. 18",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1871-D1-P043-L14+1881-D1-P077-L01": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "James Thompson, 43 ans — 1871, div. 1, maison 119, p. 43 l. 14",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1871-D2-P049-L18+1881-D2-P010-L01": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Marie Gagné, 36 ans — 1871, div. 2, maison 126, p. 49 l. 18",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1871-D2-P065-L12+1881-D2-P037-L17": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Théophile Côté, 36 ans — 1871, div. 2, maison 151 [?], p. 65 l. 12",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1871-D2-P065-L13+1881-D2-P037-L18": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Vitaline Côté, 23 ans — 1871, div. 2, maison 151 [?], p. 65 l. 13",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1871-D1-P064-L14+1881-D1-P074-L17": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "James Moor, 57 ans — 1871, div. 1, maison 171, p. 64 l. 14",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1871-D1-P047-L02+1881-D1-P030-L05": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Louis Gagnon, 20 ans — 1871, div. 1, maison 127, p. 47 l. 2",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1871-D1-P009-L08+1881-D1-P003-L25": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Adeline Beaulieu, 29 ans — 1871, div. 1, maison 22, p. 9 l. 8",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1871-D1-P023-L17+1881-D1-P077-L12": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Philomène Filteau, 16 ans — 1871, div. 1, maison 59, p. 23 l. 17",
+   "note": "nom de famille filteau confirme",
+   "attente": "Tu as écrit « nom de famille filteau confirme ». Mais la Philomène de 1881 est mariée à F. Xavier Fecteau et a une fille de 13 ans, née vers 1868 — alors que la Philomène Filteau de 1871 a 16 ans et vit chez son père. Je confirme quand même ? Et faut-il écrire « Filteau » au lieu de « Fecteau » pour elle seule, ou pour toute la famille de 1881 ?"
+  },
+  "ages-liens|1881-D2-P034-L23+1891-D1-P113-L10": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Julie Couture, 36 ans — 1881, div. 2, maison 144, p. 34 l. 23",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D1-P022-L14+1891-D1-P140-L15": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Marie Cantin, 56 ans — 1881, div. 1, maison 83, p. 22 l. 14",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D1-P029-L23+1891-D1-P016-L16": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "George Bilodeau, 49 ans — 1881, div. 1, maison 115, p. 29 l. 23",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D1-P044-L20+1891-D1-P049-L23": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Adèle Chevrette, 49 ans — 1881, div. 1, maison 175, p. 44 l. 20",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D1-P081-L11+1891-D1-P005-L23": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Geneviève Clouston, 56 ans — 1881, div. 1, maison 321, p. 81 l. 11",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D1-P082-L14+1891-D1-P010-L08": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Mathilda Ferland, 22 ans — 1881, div. 1, maison 326, p. 82 l. 14",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D1-P082-L15+1891-D1-P010-L07": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Philomène Ferland, 20 ans — 1881, div. 1, maison 326, p. 82 l. 15",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D2-P028-L13+1891-D1-P123-L01": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Delphine Carrier, 23 ans — 1881, div. 2, maison 112, p. 28 l. 13",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D1-P072-L01+1891-D1-P028-L17": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Antoine Robitaille, 54 ans — 1881, div. 1, maison 280, p. 72 l. 1",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D1-P019-L18+1891-D1-P132-L25": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Joseph Lambert, 20 ans — 1881, div. 1, maison 73, p. 19 l. 18",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D1-P047-L08+1891-D1-P026-L08": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Henriette Gagnon, 24 ans — 1881, div. 1, maison 184, p. 47 l. 8",
+   "note": "confirme",
+   "attente": "Tu as écrit « confirme ». Mais l'Henriette de 1891 est l'épouse de Léon Gagnon et a des fils de 16 et 14 ans, nés vers 1875 et 1877 — alors que l'Henriette de 1881 est célibataire, chez Anselme Gagnon. Je confirme quand même, ou j'écarte le lien ?"
+  },
+  "ages-liens|1881-D1-P072-L03+1891-D1-P024-L05": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Marie Robitaille, 17 ans — 1881, div. 1, maison 280, p. 72 l. 3",
+   "note": "confirme",
+   "attente": "Tu as écrit « confirme ». Mais en 1891 la fille d'Antoine Robitaille, Marie, est toujours chez lui : 27 ans, mariée, « fille », avec son mari Julien (page 28). La Marie de 21 ans, épouse d'Edmond Robitaille, serait une autre personne. Je confirme quand même, ou je relie plutôt la Marie de 1881 à celle de 27 ans ?"
+  },
+  "ages-liens|1881-D2-P029-L09+1891-D1-P119-L01": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Julienne Carrier, 60 ans — 1881, div. 2, maison 116, p. 29 l. 9",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1881-D1-P074-L23+1891-D1-P034-L13": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Manuel Thibault, 56 ans — 1881, div. 1, maison 292, p. 74 l. 23",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1871-D2-P002-L04+1891-D1-P083-L21": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Emilie Bois, 30 ans — 1871, div. 2, maison 4, p. 2 l. 4",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-liens|1871-D2-P013-L11+1891-D1-P128-L18": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Pierre Boucher, 59 ans — 1871, div. 2, maison 32, p. 13 l. 11",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D2-P017-L07+1881-D2-P040-L22": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Charles Binet, 42 ans — 1871, div. 2, maison 42, p. 17 l. 7",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D1-P070-L12+1881-D1-P073-L19": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "J. Baptiste Lebel, 50 ans — 1871, div. 1, maison 192, p. 70 l. 12",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D2-P034-L16+1881-D2-P040-L01": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Paul Cadoret, 30 ans — 1871, div. 2, maison 87, p. 34 l. 16",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D1-P044-L10+1881-D1-P014-L22": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Thomas Viger, 50 ans — 1871, div. 1, maison 121, p. 44 l. 10",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D2-P023-L17+1881-D2-P020-L01": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Joseph Couture, 48 ans — 1871, div. 2, maison 60, p. 23 l. 17",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D2-P067-L04+1881-D2-P007-L19": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "David Swinton, 57 ans — 1871, div. 2, maison 157 [?], p. 67 l. 4",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D2-P043-L03+1881-D2-P022-L12": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "François Cantin, 35 ans — 1871, div. 2, maison 107, p. 43 l. 3",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D2-P032-L02+1881-D2-P028-L20": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Louis Simoneau, 41 ans — 1871, div. 2, maison 82, p. 32 l. 2",
+   "note": "confiorme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D2-P022-L08+1881-D2-P019-L20": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "David Allen, 48 ans — 1871, div. 2, maison 57, p. 22 l. 8",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D1-P060-L17+1881-D1-P064-L19": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Louis Landry, 31 ans — 1871, div. 1, maison 160, p. 60 l. 17",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D2-P041-L15+1881-D2-P026-L01": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Edouard Villers [?], 40 ans — 1871, div. 2, maison 104, p. 41 l. 15",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D2-P048-L18+1881-D2-P011-L15": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Joseph Bergeron, 59 [?] ans — 1871, div. 2, maison 124, p. 48 l. 18",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D2-P066-L14+1881-D2-P007-L01": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "George Dion, 56 ans — 1871, div. 2, maison 154 [?], p. 66 l. 14",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D2-P036-L07+1881-D2-P024-L01": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Jacques [?] Cadoret, 40 [?] ans — 1871, div. 2, maison 93, p. 36 l. 7",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D2-P038-L18+1881-D2-P034-L08": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Augustin Boulet, 49 ans — 1871, div. 2, maison 99, p. 38 l. 18",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D2-P040-L08+1881-D2-P030-L20": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "William Hearn, 63 [?] ans — 1871, div. 2, maison 102, p. 40 l. 8",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D1-P059-L10+1881-D1-P079-L20": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Pierre Syrois, 40 ans — 1871, div. 1, maison 158, p. 59 l. 10",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D1-P059-L20+1881-D1-P069-L02": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "J. Baptiste Emond, 28 ans — 1871, div. 1, maison 158, p. 59 l. 20",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1881-D2-P034-L08+1891-D1-P114-L02": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Augustin Boutet, 67 ans — 1881, div. 2, maison 142, p. 34 l. 8",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1881-D2-P011-L07+1891-D1-P069-L22": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Joseph Boucher, 48 ans — 1881, div. 2, maison 41, p. 11 l. 7",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1881-D2-P011-L15+1891-D1-P065-L08": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Joseph Bergeron, 60 ans — 1881, div. 2, maison 42, p. 11 l. 15",
+   "note": "confirme",
+   "attente": "Tu as écrit « confirme ». Mais le Joseph Bergeron de 29 ans, chef en 1891, vit avec sa mère veuve : c'est le fils (23 ans en 1881, déjà relié à cette ligne), et le père de 60 ans est sans doute mort entre-temps. Je n'ai pas relié le père au fils. D'accord ?"
+  },
+  "ages-menages|1881-D1-P084-L10+1891-D1-P024-L14": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Joseph Gendron, 34 ans — 1881, div. 1, maison 336, p. 84 l. 10",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1881-D2-P028-L20+1891-D1-P118-L18": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Louis Simonneau, 80 ans — 1881, div. 2, maison 114, p. 28 l. 20",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1881-D1-P056-L14+1891-D1-P039-L25": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Eusèbe Boucher, 40 ans — 1881, div. 1, maison 220, p. 56 l. 14",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1881-D2-P032-L19+1891-D1-P117-L19": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "François Binette, 52 ans — 1881, div. 2, maison 134, p. 32 l. 19",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1881-D1-P073-L19+1891-D1-P040-L24": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "J.Baptiste Lebel, 46 ans — 1881, div. 1, maison 287, p. 73 l. 19",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1881-D2-P015-L03+1891-D1-P092-L13": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Edouard Labrie, 47 ans — 1881, div. 2, maison 55, p. 15 l. 3",
+   "note": "confirme",
+   "attente": "Tu as écrit « confirme ». Mais l'Édouard Labrie de 25 ans, chef en 1891, vit avec son frère Joseph et sa sœur Marie : c'est le fils (16 ans en 1881, déjà relié à cette ligne), non le père de 47 ans. Je n'ai pas relié le père au fils. D'accord ?"
+  },
+  "ages-menages|1881-D1-P082-L12+1891-D1-P010-L05": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Narcisse Ferland, 52 ans — 1881, div. 1, maison 326, p. 82 l. 12",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1881-D2-P019-L20+1891-D1-P108-L17": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "David Allen, 68 ans — 1881, div. 2, maison 78, p. 19 l. 20",
+   "note": "confirme",
+   "suite": "lien confirmé, consigné dans les liens dictés"
+  },
+  "ages-menages|1871-D2-P012-L09+1891-D1-P133-L17": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "André Lemelin, 56 ans — 1871, div. 2, maison 26, p. 12 l. 9",
+   "note": "confirme",
+   "attente": "Tu as écrit « confirme ». Mais l'André Lemelin de 37 ans, chef en 1891, vit avec sa sœur Vitaline : c'est le fils (18 ans en 1871, déjà relié à cette ligne), non le père de 56 ans. Je n'ai pas relié le père au fils. D'accord ?"
+  },
+  "documents|1881-D2-P037-L23+1871-D2-P016-L18": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Magloire Roberge (frere)",
+   "note": "confirme",
+   "suite": "rattachement posé dans la fiche du document (voir sa note)"
+  },
+  "documents|1871-D2-P029-L19+1871-D2-P016-L08": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Hubert Roberge (frere)",
+   "note": "confirme",
+   "suite": "rattachement posé dans la fiche du document (voir sa note)"
+  },
+  "documents|1881-D2-P038-L20": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Julien Roberge (frere)",
+   "note": "confirme",
+   "suite": "rattachement posé dans la fiche du document (voir sa note)"
+  },
+  "documents|1871-D2-P020-L09": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Hubert Roberge (père) (pere)",
+   "note": "confirme",
+   "suite": "rattachement posé dans la fiche du document (voir sa note)"
+  },
+  "documents|1871-D1-P025-L04": {
+   "date": "2026-11-16",
+   "vu": false,
+   "resume": "Benjamin Demers (voisin)",
+   "note": "confirme",
+   "suite": "rattachement posé dans la fiche du document (voir sa note)"
+  }
  }
 }

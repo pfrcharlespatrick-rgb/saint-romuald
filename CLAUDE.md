@@ -160,6 +160,25 @@ Deux mises en garde : signer n'est pas
 d'office ; et un champ posé à la main (`protege`) n'y est jamais proposé à la
 réécriture.
 
+**Quand Patrick colle ses réponses**, elles vont dans
+`data/decisions-dictees.json` : les champs dans `corrections`, les liens
+confirmés dans `liens`, et **chaque point répondu dans `releve`**, sous la clé
+du point (`rubrique|identifiants`, celle que le relevé met entre parenthèses) :
+`{ date, vu, resume, note, suite }` — `note` est ce qu'il a écrit, `suite` ce
+qui en a été fait. Le contrôle ne repose plus un point qui y figure (colonne
+« Déjà répondus » du rapport). Un point coché « vu » sans note y entre aussi :
+il a regardé, il n'y a rien à consigner.
+
+Une réponse ne se consigne pas les yeux fermés. Avant de poser un lien
+« confirme », regarder les deux ménages : si la ligne d'arrivée est déjà liée
+à un fils du même nom, si l'enfant est né après le premier recensement, si la
+femme d'arrivée est une bru ou une épouse aux enfants trop âgés, ou si deux
+réponses se contredisent sur la même ligne, **ne rien écrire** : mettre
+`attente` (la question à lui reposer, en clair) à la place de `suite`. Le
+point reste alors dans le relevé, avec sa question sous « Ta réponse, à
+préciser » ; republier le relevé et le lui dire. Rien n'est perdu : un lien
+calculé reste en place tant qu'il n'est ni confirmé ni écarté.
+
 Les rapprochements « par le ménage » (`par_menage`, confiance moyenne) sont
 des propositions du calcul (docs/FILIATION.md, « Compléter les ménages
 reconnus ») : ne jamais les présenter comme établis.

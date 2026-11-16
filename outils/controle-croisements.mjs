@@ -629,6 +629,48 @@ const sexeDuPrenom = (() => {
   });
 }
 
+// ───────────── ce que Patrick a déjà répondu ─────────────
+// Le relevé à cocher (outils/releve-verification.mjs) lui revient avec ses
+// réponses ; elles sont consignées sous `releve` dans
+// data/decisions-dictees.json, une entrée par point, sous la clé du point :
+// la rubrique, puis les identifiants de la ligne. Un point répondu ne lui est
+// pas reposé — il sort de la liste et n'est plus que compté. Un point dont la
+// réponse n'a pas pu être consignée telle quelle (`attente` : la question à
+// lui reposer) reste dans la liste, avec la question.
+const cellules = (ligne) => ligne.replace(/^\|\s?/, '').replace(/\s?\|\s*$/, '').split(' | ').map((x) => x.trim());
+const empreinte = (texte) => {
+  let h = 2166136261;
+  for (let i = 0; i < texte.length; i++) { h ^= texte.charCodeAt(i); h = Math.imul(h, 16777619); }
+  return (h >>> 0).toString(36);
+};
+const cleDuPoint = (cle, ligne) => {
+  const ids = [...ligne.matchAll(/`(\d{4}-D\d-P\d+-L\d+)`/g)].map((m) => m[1]);
+  return `${cle}|${ids.length ? ids.join('+') : empreinte(cellules(ligne).join('|'))}`;
+};
+const releve = (() => {
+  try { return JSON.parse(fs.readFileSync(path.join(RACINE, 'data', 'decisions-dictees.json'), 'utf8')).releve || {}; } catch { return {}; }
+})();
+for (const s of sections) {
+  const gardees = [];
+  s.cles = [];
+  s.attentes = {};
+  s.repondus = 0;
+  for (const ligne of s.lignes) {
+    const k = cleDuPoint(s.cle, ligne);
+    // Un lien que Patrick a confirmé là où le calcul hésitait (chef du même
+    // ménage, identité dite par un document) reparaît ensuite ici, parmi les
+    // liens dont l'âge ne suit pas : c'est la même question, déjà répondue.
+    const r = releve[k] || (s.cle === 'ages-liens'
+      ? ['ages-menages', 'identites'].map((autre) => releve[k.replace(/^ages-liens\|/, autre + '|')]).find((x) => x && !x.attente)
+      : undefined);
+    if (r && !r.attente) { s.repondus++; continue; }
+    gardees.push(ligne);
+    s.cles.push(k);
+    if (r) s.attentes[k] = { note: r.note || '', question: r.attente, resume: r.resume || '' };
+  }
+  s.lignes = gardees;
+}
+
 // ───────────── rapport ─────────────
 const c = d.filiation.comptes;
 let md = `# Contrôle des croisements
@@ -641,9 +683,12 @@ Il dresse la liste de ce que les données ne se disent pas encore entre elles �
 ou se disent de travers. **Rien de ce qui suit n'a été modifié d'office** : chaque
 section dit où la décision se prend.
 
-| Section | À regarder |
-|---|---|
-${sections.map((s) => `| ${s.titre} | ${s.lignes.length} |`).join('\n')}
+| Section | À regarder | Déjà répondus |
+|---|---|---|
+${sections.map((s) => `| ${s.titre} | ${s.lignes.length} | ${s.repondus || ''} |`).join('\n')}
+
+« Déjà répondus » : les points auxquels Patrick a répondu dans le relevé à cocher
+(\`releve\`, dans \`data/decisions-dictees.json\`). Ils ne lui sont pas reposés.
 
 État des rapprochements entre recensements : ${c.liens} liens, dont ${c.liens_forte} de
 confiance forte, ${c.liens_moyenne} moyenne, ${c.liens_main} confirmés à la main,
@@ -652,6 +697,12 @@ ${c.liens_par_menage || 0} proposés par le ménage ; ${c.veuvage} veuvages, ${c
 for (const s of sections) {
   md += `\n## ${s.titre} — ${s.lignes.length}\n\n${s.intro}\n\n**Où trancher :** ${s.ou}.\n\n`;
   md += s.lignes.length ? `${s.entete}\n${s.lignes.join('\n')}\n` : 'Rien à signaler.\n';
+  const attentes = Object.entries(s.attentes);
+  if (attentes.length) {
+    md += `\n**Réponses de Patrick en attente d'une précision — ${attentes.length} :**\n\n`;
+    md += attentes.map(([k, a]) => `- ${a.resume || k.split('|')[1]}${a.note ? ` — il a écrit « ${a.note} »` : ''}. ${a.question}`).join('\n') + '\n';
+  }
+  if (s.repondus) md += `\n${s.repondus} autre(s) point(s) de cette rubrique ont déjà reçu la réponse de Patrick.\n`;
 }
 
 const resume = sections.map((s) => `  ${String(s.lignes.length).padStart(4)}  ${s.titre}`).join('\n');
