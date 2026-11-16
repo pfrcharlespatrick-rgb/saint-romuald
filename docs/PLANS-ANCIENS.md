@@ -136,7 +136,8 @@ https://collections.banq.qc.ca/ark:/52327/3121049
   partagée entre cinq occupants (Côté, Cantin, Hallé, veuve Cantin, Cantin).
 
 **La rivière Bruyante est la Chaudière** (indication de Patrick, 16 novembre
-2026). Le terrain est donc sur la rive est de la Chaudière.
+2026 ; le plan de l'embouchure dressé par Pierre Lambert en octobre 1854
+l'écrit : « Rivière Bruyante ou Chaudière »). Le terrain est donc sur la rive est de la Chaudière.
 
 Ce croquis n'est pas un plan à l'échelle et aucun lieu de
 `data/lieux-data.js` ne lui sert de repère : il ne passe pas par
