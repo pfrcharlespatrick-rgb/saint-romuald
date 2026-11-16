@@ -4,8 +4,9 @@ Quatre feuilles de l'atlas d'assurance de Charles E. Goad, « Quebec Coves.
 South Shore » (mars 1876), sont posées en surimpression de la carte
 (`carte.html`). Elles y sont revenues le 12 novembre 2026, **calculées** depuis
 les lieux que Patrick a rattachés à leur numéro Goad, et non plus posées à
-l'œil. Le cadastre de 1879 reste retiré (voir à la fin). Un cinquième plan, le croquis de
-l'Hétrière de 1844, est posé à part, à titre provisoire (voir plus bas).
+l'œil. Le cadastre de 1879 reste retiré (voir à la fin). Deux autres plans sont posés à part, à titre
+provisoire (voir plus bas) : le croquis de l'Hétrière de 1844 et le plan de
+l'embouchure de la Chaudière de 1866.
 
 Trois fichiers :
 
@@ -161,10 +162,57 @@ flèches de la rivière comme le sens de l'eau vers le fleuve — mais rien ne
 l'écrit sur le plan ; l'ensemble peut être décalé de
 plusieurs centaines de mètres.
 
+Comparé au fond de carte le 16 novembre 2026 : ainsi posé, la rivière du
+croquis suit bien la Chaudière des chutes jusqu'au Petit Bassin, à 150 m près,
+et le terrain A-B-C-D tombe au nord-est des chutes, dans le haut de Charny.
+C'est cohérent, sans être une preuve.
+
 Il reste donc dans l'atelier (`carte.html?atelier=1`, bloc « Plans anciens »,
 marqué « à caler »), et ne doit pas être présenté comme établi. Pour le
 resserrer : retrouver au cadastre un coin de terre de la ligne A-B ou de la
 ligne A-D, ou régler les poignées sur la rive de la Chaudière.
+
+## Plan de l'embouchure de la Chaudière (1866) : posé sur deux repères, atelier seulement
+
+- **Fichier** : `assets/plans/embouchure-chaudiere-1866-hamel.jpg` (1933 × 2576 px),
+  l'image fournie, recomprimée sans changer ses dimensions
+- **Plan** : `embouchure-chaudiere-1866` dans `data/plans-data.js`, `cale: false`.
+- **Ce que c'est** : Alfred Hamel, arpenteur provincial, « Plan annexé au
+  Procès Verbal, en date des 6 et 7 Août 1866, des lignes et bornes entre le
+  lot de terre du Gouvernement et les Voisins ; situé à la Rivière
+  Chaudière », Québec, 11 août 1866 — la pointe est de l'embouchure : quai,
+  grève, chemin public, cap, escarpement du Grand Bassin, et les voisins
+  (Hickey, Paradis, Roberge, Thomson, Pichette, Boucher, Humphrey).
+- **Source** : image fournie par Patrick le 16 novembre 2026 sous le nom
+  « 03Q_CA301S22D189 » — sans doute une cote de BAnQ Québec, à confirmer.
+
+C'est un plan d'arpentage à l'échelle (150 pieds français au pouce), bien plus
+sûr que le croquis de 1844. Il ne passe pas non plus par `caler-plans.mjs` :
+aucun lieu de `data/lieux-data.js` n'est sur cette pointe. Sa pose a été
+calculée une fois, ainsi :
+
+| Ce qu'il fallait | D'où on le tire | Valeur |
+|---|---|---|
+| l'échelle | la barre graphique du plan : 500 pieds français (162,4 m) sur 386,5 px | 0,42 m par pixel |
+| repère 1 | la pointe du cap, pixel (590, 802) ↔ le nez des courbes de niveau, lu sur la carte topographique | 46,74245 N, 71,27657 O |
+| repère 2 | le bas du lot Humphrey, où la rive tourne, pixel (1024, 1990) ↔ le coin du Bassin où débouche le ruisseau | 46,73990 N, 71,27107 O |
+| rotation et position | moindres carrés sur ces deux repères, échelle tenue | nord à 36° sur la feuille ; 13 m d'écart à chaque repère |
+
+Vérifié en superposant le plan à la carte topographique et à la photo
+aérienne : le cap du plan suit la falaise boisée, l'escarpement suit la rive
+est du Bassin jusqu'à la bouche du ruisseau, le chemin public tombe sur le
+chemin du Fleuve et la côte Garneau.
+
+Deux réserves. **La flèche « Nord Astronomique » du plan est à 44° sur la
+feuille, la pose retient 36°** : avec la flèche, l'escarpement du Bassin
+tient encore mais le chemin public et le cap s'écartent du terrain de
+plusieurs dizaines de mètres vers l'est ; l'écart de huit degrés n'est pas
+expliqué. Et **la grève et le quai ont été remblayés** (marina de la
+Chaudière) : la ligne de rivage de 1866 ne se retrouve pas sur le terrain.
+
+Les deux repères sont des formes du terrain, non des bornes retrouvées. Pour
+resserrer : une borne du procès-verbal de 1866 retrouvée au cadastre, ou une
+maison encore debout d'un des voisins nommés.
 
 ---
 

@@ -125,6 +125,30 @@ window.PLANS = {
       },
       "opacite": 0.6,
       "cale": false
+    },
+    {
+      "id": "embouchure-chaudiere-1866",
+      "titre": "Embouchure de la Chaudière, 1866 — lot du Gouvernement et ses voisins (plan d'Alfred Hamel)",
+      "annee": 1866,
+      "fichier": "assets/plans/embouchure-chaudiere-1866-hamel.jpg",
+      "source": "Alfred Hamel, arpenteur provincial, « Plan annexé au Procès Verbal, en date des 6 et 7 Août 1866, des lignes et bornes entre le lot de terre du Gouvernement et les Voisins ; situé à la Rivière Chaudière », Québec, 11 août 1866. Échelle de 150 pieds français au pouce. Image fournie par Patrick Blanchet le 16 novembre 2026 sous le nom de fichier « 03Q_CA301S22D189 » — sans doute une cote de BAnQ Québec, à confirmer.",
+      "note": "Pose provisoire, à confirmer. Le plan montre la pointe est de l'embouchure : le quai, la grève, le chemin public au pied du cap, et l'escarpement qui longe le Grand Bassin ; voisins nommés : Thos Hickey, Louis Paradis, Ignace Roberge, John Thomson, Pierre Pichette, David Boucher, Humphrey. L'échelle est celle de la barre graphique du plan (0,42 m par pixel) ; la position et l'orientation sont ajustées sur deux repères du terrain d'aujourd'hui, lus sur la carte topographique — la pointe du cap et le coin du Bassin où débouche le ruisseau, au lot Humphrey —, justes à 13 m chacun. Superposé à la photo aérienne, le cap du plan suit la falaise boisée, l'escarpement suit la rive du Bassin et le chemin public tombe sur le chemin du Fleuve. Une réserve : ainsi posé, le nord tombe à 36° sur la feuille, quand la flèche « Nord Astronomique » du plan est à 44° — huit degrés d'écart, non expliqués. La grève et le quai ont été remblayés depuis (marina) : ne pas s'y fier pour juger du calage.",
+      "points": {
+        "nw": {
+          "lat": 46.743656,
+          "lon": -71.281933
+        },
+        "ne": {
+          "lat": 46.747945,
+          "lon": -71.273315
+        },
+        "sw": {
+          "lat": 46.735777,
+          "lon": -71.273601
+        }
+      },
+      "opacite": 0.6,
+      "cale": false
     }
   ]
 };
