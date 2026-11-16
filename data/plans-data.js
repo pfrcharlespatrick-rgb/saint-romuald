@@ -132,19 +132,19 @@ window.PLANS = {
       "annee": 1866,
       "fichier": "assets/plans/embouchure-chaudiere-1866-hamel.jpg",
       "source": "Alfred Hamel, arpenteur provincial, « Plan annexé au Procès Verbal, en date des 6 et 7 Août 1866, des lignes et bornes entre le lot de terre du Gouvernement et les Voisins ; situé à la Rivière Chaudière », Québec, 11 août 1866. Échelle de 150 pieds français au pouce. Image fournie par Patrick Blanchet le 16 novembre 2026 sous le nom de fichier « 03Q_CA301S22D189 » — sans doute une cote de BAnQ Québec, à confirmer.",
-      "note": "Pose provisoire, à confirmer. Le plan montre la pointe est de l'embouchure : le quai, la grève, le chemin public au pied du cap, et l'escarpement qui longe le Grand Bassin ; voisins nommés : Thos Hickey, Louis Paradis, Ignace Roberge, John Thomson, Pierre Pichette, David Boucher, Humphrey. L'échelle est celle de la barre graphique (0,42 m par pixel). L'orientation est un compromis demandé par Patrick le 16 novembre 2026 : posé selon sa flèche « Nord Astronomique » (nord à 44° sur la feuille), le plan menait son chemin public jusqu'au bord de l'eau, à 48 m au nord du chemin du Fleuve d'aujourd'hui ; il est incliné de sept degrés (nord à 37°), ajusté à la fois sur le chemin du Fleuve, sur la rive du Bassin, sur la pointe du cap et sur le coin du ruisseau, le chemin comptant double. Le bout est du chemin revient à 25 m du tracé actuel, sur les terrains riverains ; la rive du Bassin s'écarte de 9 à 27 m. Ce que cela coûte : la ligne C-D, que le procès-verbal de Pierre Lambert de 1841 mesure « Sud 32° Est », tombe au sud 26° est (elle tombait au sud 33° est avec la flèche). La grève et le quai ont été remblayés depuis (marina) : ne pas s'y fier pour juger du calage.",
+      "note": "Pose provisoire, à confirmer. Le plan montre la pointe est de l'embouchure : le quai, la grève, le chemin public au pied du cap, et l'escarpement qui longe le Grand Bassin ; voisins nommés : Thos Hickey, Louis Paradis, Ignace Roberge, John Thomson, Pierre Pichette, David Boucher, Humphrey. L'échelle est celle de la barre graphique (0,42 m par pixel). L'orientation est un choix de Patrick (16 novembre 2026) : posé selon sa flèche « Nord Astronomique » (nord à 44° sur la feuille), le plan menait son chemin public jusqu'au bord de l'eau, à 48 m au nord du chemin du Fleuve d'aujourd'hui ; Patrick a demandé de l'incliner sur ce chemin, d'abord à 37°, puis à 32°. Le chemin public du plan suit maintenant le chemin du Fleuve à moins de 10 m sur sa moitié est. Ce que cela coûte : la rive du Bassin s'écarte de 11 à 42 m — l'escarpement du plan déborde sur l'eau dans sa moitié sud — et la ligne C-D, que le procès-verbal de Pierre Lambert de 1841 mesure « Sud 32° Est », tombe au sud 21° est (au sud 33° est avec la flèche). La grève et le quai ont été remblayés depuis (marina) : ne pas s'y fier pour juger du calage.",
       "points": {
         "nw": {
-          "lat": 46.743453,
-          "lon": -71.282104
+          "lat": 46.743966,
+          "lon": -71.281812
         },
         "ne": {
-          "lat": 46.747849,
-          "lon": -71.2736
+          "lat": 46.747836,
+          "lon": -71.272782
         },
         "sw": {
-          "lat": 46.735679,
-          "lon": -71.273564
+          "lat": 46.735711,
+          "lon": -71.274293
         }
       },
       "opacite": 0.6,
@@ -156,19 +156,19 @@ window.PLANS = {
       "annee": 1842,
       "fichier": "assets/plans/embouchure-chaudiere-1842-lambert.jpg",
       "source": "Pierre Lambert, arpenteur, « Plan du Terrein et Grève appartenant au Gouvernement, situés à l'embouchure de la Rivière Bruyante ou Chaudière, Seigneurie Lauzon, paroisse Saint Romuald d'Etchemin, Comté de Lévi », 24 février 1842, avec le procès-verbal de bornage du 28 octobre 1841. Image fournie par Patrick Blanchet le 16 novembre 2026 sous le nom « 03Q_CN301S323D04140R » — sans doute une cote de BAnQ Québec, à confirmer. Fiche : documents/manifeste.json, « plan-1842-02-24-embouchure-chaudiere-lambert ».",
-      "note": "Pose provisoire, à confirmer. Le plan de 1842 et celui d'Alfred Hamel de 1866 bornent le même terrain : ils partagent les bornes A, B, C, D, la longue ligne qui descend vers le Bassin (« Pierre Pichet » en 1842, « Pierre Pichette » en 1866 : 448 et 449 m) et la borne du bas, chez Boucher. Le plan de 1842 est donc posé sur celui de 1866 par ces six points communs, échelle et rotation libres : 3 à 13 m d'écart. Il suit ainsi l'inclinaison donnée au plan de 1866 à la demande de Patrick (voir sa note) : le nord tombe à 40° sur la feuille, quand sa flèche le met à 49°. L'échelle trouvée (0,80 m par pixel) est celle de sa barre graphique. Le dessin de 1842 est moins exact que celui de 1866 : la ligne C-D, 121 pieds au procès-verbal, n'y fait que 29 m.",
+      "note": "Pose provisoire, à confirmer. Le plan de 1842 et celui d'Alfred Hamel de 1866 bornent le même terrain : ils partagent les bornes A, B, C, D, la longue ligne qui descend vers le Bassin (« Pierre Pichet » en 1842, « Pierre Pichette » en 1866 : 448 et 449 m) et la borne du bas, chez Boucher. Le plan de 1842 est donc posé sur celui de 1866 par ces six points communs, échelle et rotation libres : 4 à 10 m d'écart. Il suit ainsi l'inclinaison choisie par Patrick pour le plan de 1866 (voir sa note) : le nord tombe à 34° sur la feuille, quand sa flèche le met à 49°. L'échelle trouvée (0,80 m par pixel) est celle de sa barre graphique. Le dessin de 1842 est moins exact que celui de 1866 : la ligne C-D, 121 pieds au procès-verbal, n'y fait que 29 m.",
       "points": {
         "nw": {
-          "lat": 46.743118,
-          "lon": -71.282516
+          "lat": 46.743769,
+          "lon": -71.282237
         },
         "ne": {
-          "lat": 46.7478,
-          "lon": -71.274382
+          "lat": 46.747816,
+          "lon": -71.273408
         },
         "sw": {
-          "lat": 46.736267,
-          "lon": -71.274137
+          "lat": 46.736333,
+          "lon": -71.274994
         }
       },
       "opacite": 0.6,
