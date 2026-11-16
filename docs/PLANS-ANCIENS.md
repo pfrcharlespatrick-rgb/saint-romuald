@@ -155,7 +155,9 @@ nord-nord-ouest, comme la Chaudière sous ses chutes ; la ligne A-B court à
 55° du nord, comme le fleuve et les rangs de la seigneurie ; le Premier rang
 tombe du côté du fleuve, l'Hétrière du côté des terres. Ce qui manque : **un
 seul point relevé sur le terrain**. « B aux chutes » est une lecture des
-hachures, rien ne l'écrit sur le plan ; l'ensemble peut être décalé de
+hachures — probable, selon Patrick (16 novembre 2026), qui lit aussi les
+flèches de la rivière comme le sens de l'eau vers le fleuve — mais rien ne
+l'écrit sur le plan ; l'ensemble peut être décalé de
 plusieurs centaines de mètres.
 
 Il reste donc dans l'atelier (`carte.html?atelier=1`, bloc « Plans anciens »,
