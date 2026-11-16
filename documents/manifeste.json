@@ -1,7 +1,7 @@
 {
   "format": "documents-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-11-12",
+  "mis_a_jour": "2026-11-16",
   "note": "Index des documents historiques qui établissent des liens de filiation. Un document versé ici l'emporte toujours sur une proposition automatique de data/filiation-data.js : l'acte est une preuve, le rapprochement algorithmique n'est qu'une hypothèse. Voir documents/README.md pour la marche à suivre.",
   "types_admis": {
     "bapteme": "Acte de baptême — établit une filiation directe et une date de naissance",
@@ -1357,12 +1357,15 @@
         },
         {
           "role": "enfant",
-          "nom": "Magloire Roberge"
+          "nom": "Magloire Roberge",
+          "ref_personne": "1871-D2-P016-L18",
+          "note": "Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : même personne que le Magloire Roberge, navigateur, 50 ans en 1871 (division 2, maison 40), rattaché dans la fiche « notarie-1874-06-22-resiliation-roberge » ; il reparaît à 61 ans en 1881 (1881-D2-P037-L23, fiche « roberge-fratrie-julien-1881 »)."
         },
         {
           "role": "enfant",
           "nom": "Hubert Roberge",
-          "note": "Père d'Hubert William Roberge (voir geni-hubert-roberge-pere-isabelle-burroughs et geni-hubert-roberge-fils-sara-porter)."
+          "note": "Père d'Hubert William Roberge (voir geni-hubert-roberge-pere-isabelle-burroughs et geni-hubert-roberge-fils-sara-porter). Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : c'est Hubert Roberge père, navigateur, 54 ans en 1871 (division 2, maison 52, famille 63), époux d'Elisabeth — la ligne que la fiche « geni-hubert-roberge-pere-isabelle-burroughs » proposait par hypothèse. Le contrôle proposait aussi, sur le seul nom, les Hubert Roberge de 29 et de 33 ans (1871-D2-P029-L19, 1871-D2-P016-L08) : ils sont trop jeunes pour être un fils de Julien Roberge, mort en 1832 ; le premier est son fils Hubert William.",
+          "ref_personne": "1871-D2-P020-L09"
         },
         {
           "role": "enfant",
@@ -1370,7 +1373,9 @@
         },
         {
           "role": "enfant",
-          "nom": "Julien Roberge"
+          "nom": "Julien Roberge",
+          "ref_personne": "1881-D2-P038-L20",
+          "note": "Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : même personne que le Julien Roberge, journalier, 52 ans en 1881 (division 2), rattaché dans la fiche « roberge-fratrie-julien-1881 »."
         },
         {
           "role": "enfant",
@@ -1418,7 +1423,8 @@
         {
           "role": "sujet",
           "nom": "Hubert Roberge",
-          "note": "Né à St-Nicolas. Non nommément rattaché ; identifié par hypothèse à 1871-D2-P020-L09 — voir affirmation ci-dessous."
+          "note": "Né à St-Nicolas. Non nommément rattaché ; identifié par hypothèse à 1871-D2-P020-L09 — voir affirmation ci-dessous. Rattachement confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme »).",
+          "ref_personne": "1871-D2-P020-L09"
         },
         {
           "role": "pere",
@@ -1454,7 +1460,9 @@
         },
         {
           "role": "frere",
-          "nom": "Magloire Roberge"
+          "nom": "Magloire Roberge",
+          "ref_personne": "1871-D2-P016-L18",
+          "note": "Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : même personne que le Magloire Roberge, navigateur, 50 ans en 1871 (division 2, maison 40), rattaché dans la fiche « notarie-1874-06-22-resiliation-roberge » ; il reparaît à 61 ans en 1881 (1881-D2-P037-L23, fiche « roberge-fratrie-julien-1881 »)."
         },
         {
           "role": "soeur",
@@ -1462,7 +1470,9 @@
         },
         {
           "role": "frere",
-          "nom": "Julien Roberge"
+          "nom": "Julien Roberge",
+          "ref_personne": "1881-D2-P038-L20",
+          "note": "Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : même personne que le Julien Roberge, journalier, 52 ans en 1881 (division 2), rattaché dans la fiche « roberge-fratrie-julien-1881 »."
         },
         {
           "role": "soeur",
@@ -1489,10 +1499,12 @@
         },
         {
           "type": "identite",
-          "certitude": "hypothese",
-          "personnes": [],
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P020-L09"
+          ],
           "enonce": "Ce Hubert Roberge, navigateur, marié à une Elisabeth (âgée de 51 ans en 1871, 54 ans lui-même) et chef du ménage 1871-D2-P020 (famille 63), serait ce couple.",
-          "note": "Rapprochement fragile : le prénom recensé de l'épouse (« Elisabeth ») diffère de celui du document (« Isabelle »), ce qui peut être la même personne sous deux graphies voisines ou deux personnes distinctes. Le fils Hubert (notre Hubert William, né v. 1842) n'apparaît pas dans ce ménage en 1871, ce qui est attendu puisqu'il a déjà son propre foyer (1871-D2-P029) — son absence ne contredit donc pas le rapprochement, mais ne le confirme pas non plus. Le métier de navigateur, commun au père et au fils, est le seul indice positif supplémentaire."
+          "note": "Rapprochement fragile : le prénom recensé de l'épouse (« Elisabeth ») diffère de celui du document (« Isabelle »), ce qui peut être la même personne sous deux graphies voisines ou deux personnes distinctes. Le fils Hubert (notre Hubert William, né v. 1842) n'apparaît pas dans ce ménage en 1871, ce qui est attendu puisqu'il a déjà son propre foyer (1871-D2-P029) — son absence ne contredit donc pas le rapprochement, mais ne le confirme pas non plus. Le métier de navigateur, commun au père et au fils, est le seul indice positif supplémentaire. Rapprochement confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») ; la réserve sur le prénom de l'épouse (« Elisabeth » au recensement, « Isabelle » dans le document) demeure, d'où « probable » et non « établi »."
         }
       ],
       "note": "Le fils Hubert William Roberge (voir geni-hubert-roberge-fils-sara-porter et myheritage-hubert-william-roberge-deces) est solidement rattaché au recensement ; son père reste une identification prudente, à confirmer.",
@@ -1516,7 +1528,8 @@
         {
           "role": "pere",
           "nom": "Hubert Roberge (père)",
-          "note": "Voir geni-hubert-roberge-pere-isabelle-burroughs."
+          "note": "Voir geni-hubert-roberge-pere-isabelle-burroughs. Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : Hubert Roberge, navigateur, 54 ans en 1871 (division 2, maison 52).",
+          "ref_personne": "1871-D2-P020-L09"
         },
         {
           "role": "mere",
@@ -1892,7 +1905,8 @@
         {
           "role": "frere",
           "nom": "Hubert Roberge",
-          "note": "Voir geni-hubert-roberge-pere-isabelle-burroughs."
+          "note": "Voir geni-hubert-roberge-pere-isabelle-burroughs. Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : c'est Hubert Roberge père, navigateur, 54 ans en 1871 (division 2, maison 52, famille 63), époux d'Elisabeth — la ligne que la fiche « geni-hubert-roberge-pere-isabelle-burroughs » proposait par hypothèse. Le contrôle proposait aussi, sur le seul nom, les Hubert Roberge de 29 et de 33 ans (1871-D2-P029-L19, 1871-D2-P016-L08) : ils sont trop jeunes pour être un fils de Julien Roberge, mort en 1832 ; le premier est son fils Hubert William.",
+          "ref_personne": "1871-D2-P020-L09"
         }
       ],
       "affirmations": [
@@ -7081,7 +7095,9 @@
         },
         {
           "role": "voisin",
-          "nom": "Benjamin Demers"
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : même personne que le Benjamin Demers, cultivateur, 48 ans en 1871 (division 1, maison 66), partie à de nombreux actes du greffe (fiche « notarie-1873-12-03-depot-bourassa-demers »). La terre donnée est à Saint-Jean-Chrysostome, dont les limites recouvrent celles de Saint-Romuald."
         },
         {
           "role": "voisin",
