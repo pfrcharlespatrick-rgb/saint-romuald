@@ -235,7 +235,10 @@ comme établie. Un plan réglé aux poignées par Patrick n'est plus recalculé.
 Le croquis de l'Hétrière de 1844 (`hetriere-1844`) n'a pas de repère : il est
 posé une fois, par calcul, sur trois hypothèses dites dans
 `docs/PLANS-ANCIENS.md`, et reste provisoire tant qu'aucun point n'est relevé
-sur le terrain.
+sur le terrain. Le plan de l'embouchure de la Chaudière de 1866
+(`embouchure-chaudiere-1866`) est posé de même, une fois, sur l'échelle de sa
+barre graphique et deux repères du terrain ; ni l'un ni l'autre ne passe par
+`caler-plans.mjs`.
 
 ## La rivière Bruyante est la Chaudière
 
