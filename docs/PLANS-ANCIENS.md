@@ -35,11 +35,20 @@ et c'est ce qui avait fait échouer les calages de l'été 2026 :
   mètres de sa place quand on cale la feuille 12 sur le chemin du Fleuve — le
   plateau n'intéressait pas l'assureur, il est esquissé.
 
-Une feuille se pose d'un bloc (trois coins : échelle, orientation, position).
-Elle ne peut donc pas être juste partout à la fois, et deux feuilles bien
-posées **ne se rejoignent pas forcément à leur lisière**. On a choisi la
-justesse près des repères — là où sont les maisons qu'on cherche — plutôt
-qu'un raccord propre entre feuilles.
+Les feuilles Goad sont posées d'un bloc (trois coins : échelle, orientation,
+position). Posée ainsi, une feuille ne peut pas être juste partout à la fois,
+et deux feuilles bien posées **ne se rejoignent pas forcément à leur
+lisière**. On a choisi la justesse près des repères — là où sont les maisons
+qu'on cherche — plutôt qu'un raccord propre entre feuilles.
+
+**Un plan peut aussi être étiré.** Les trois coins sont indépendants : les
+déplacer séparément change les proportions et les angles de l'image. La règle
+qui l'interdisait (« on n'étire pas une feuille ») a été levée par Patrick le
+17 novembre 2026. Un plan étiré le dit dans sa note, avec ses deux échelles
+et l'angle de ses axes, parce que ses distances et ses angles ne sont plus
+ceux du dessin ; c'est le cas des deux plans de l'embouchure de la Chaudière
+(voir plus bas). Les feuilles Goad, elles, sont encore posées d'un bloc :
+`caler-plans.mjs` ne les étire pas.
 
 Ce qui tient, en revanche, d'une feuille à l'autre : l'échelle locale
 (0,69 m par pixel de ces images, au village comme à la côte Rouge) et la
@@ -194,8 +203,8 @@ transcription ; il n'est pas versé.
 ### Le plan de 1866 : la pièce maîtresse — et un plan étiré
 
 C'est un plan d'arpentage à l'échelle (150 pieds français au pouce). **Sa pose
-actuelle l'étire : c'est une décision de Patrick (17 novembre 2026), et une
-exception.** Elle est venue en quatre temps, les 16 et 17 novembre :
+actuelle l'étire : c'est une décision de Patrick (17 novembre 2026).** Elle
+est venue en quatre temps, les 16 et 17 novembre :
 
 1. « dans le plan de 1866 le chemin du fleuve mène dans l'eau du côté est » :
    incliner le plan en se fiant en partie au chemin d'aujourd'hui (37°) ;
@@ -241,8 +250,7 @@ dessin du chemin sont fautifs. La pose reste provisoire ; les poignées de
 l'atelier permettent de la reprendre.
 
 **Ne pas « redresser » ce plan** (revenir à une pose non étirée) sans le
-demander à Patrick ; et ne pas étendre l'exception aux feuilles Goad, pour
-lesquelles la règle tient : on n'étire pas une feuille.
+demander à Patrick.
 
 ### Le plan de 1842 : posé sur celui de 1866
 
