@@ -228,10 +228,11 @@
           ) : '') +
           (etat.atelier ? '<label class="plan-cale"><input type="checkbox" data-plan-cale="' + esc(p.id) + '"' + (p.cale ? ' checked' : '') + '> calé, montrer au public</label>' : '') +
           (etat.atelier && p._local ? '<button type="button" class="bouton" data-plan-exporter="1">Télécharger data/plans-data.js</button>' : '') +
+          (etat.atelier && p._local ? '<button type="button" class="bouton lien-danger" data-plan-oublier="' + esc(p.id) + '" title="Efface le réglage fait dans ce navigateur (position, transparence, « calé ») et reprend la version publiée">Revenir au plan publié</button>' : '') +
           '</div>';
       }).join('') +
       (etat.atelier && planEnCalage
-        ? '<p class="plan-aide">Glissez les trois poignées NO, NE, SO pour amener le plan sur le terrain — commencez par NO (position), puis NE (échelle et rotation), puis SO. Le plan de 1879 mêle trois échelles : calez la bande du chemin du Fleuve, le reste ne peut pas tomber juste en même temps.</p>'
+        ? '<p class="plan-aide">Glissez les trois poignées NO, NE, SO pour amener le plan sur le terrain — commencez par NO (position), puis NE (échelle et rotation), puis SO. Chaque poignée ne bouge que son coin : pour déplacer le plan sans le déformer, déplacez les trois de la même façon. Un plan ancien ne tombe pas juste partout à la fois : calez-le là où sont les lieux qu\'on cherche.</p>'
         : '') +
       '</div>';
   }
@@ -275,6 +276,18 @@
       }
       if (t.dataset.planExporter) {
         LX.telecharger('plans-data.js', LX.versFichierPlans(plans), 'text/javascript');
+        return;
+      }
+      if (t.dataset.planOublier) {
+        var id = t.dataset.planOublier;
+        if (!confirm('Effacer le réglage de ce plan fait dans ce navigateur, et revenir à la version publiée ?')) return;
+        var visible = !!couchesPlans[id];
+        if (planEnCalage === id) finirCalage();
+        masquerPlan(id);
+        LX.oublierPlan(id);
+        plans = LX.chargerPlans();
+        if (visible) afficherPlan(planParId(id));
+        rendreControlePlans();
         return;
       }
     });

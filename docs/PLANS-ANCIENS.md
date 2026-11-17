@@ -85,6 +85,35 @@ pour le plan de 1866 —, la rive est du Bassin et le chemin. Le prix : 252 m
 d'écart avec la feuille 14 à leur lisière commune, et l'anse Albert
 approximative.
 
+**Puis Patrick l'a réglée à la main, et la pose a été recalculée de zéro** (17
+novembre 2026). Il a demandé de continuer son réglage « en fonction du quai,
+du chemin du fleuve vers l'est et de la montagne », puis de reprendre sans
+tenir compte de son travail, en vérifiant aussi la crête, le bord du fleuve
+et celui de la Chaudière. Le calcul (affine, de plusieurs points de départ)
+retombe tout près de son réglage. La feuille tient à cinq choses :
+
+| Ce qui est dessiné sur la feuille | Sur quoi c'est posé aujourd'hui | Écart |
+|---|---|---|
+| le quai à l'embouchure | le quai du plan de 1866, sur la pointe du Pont-Garneau | 6 m |
+| le chemin public, vers l'est | l'axe du chemin du Fleuve | 6 m |
+| la crête de la montagne | le haut de la falaise du cap Anderson (lisière haute du bois, contrôlée sur le relief ombré) | 24 m au milieu, 35 m au pire |
+| le bord du fleuve | la limite de l'eau sur OpenStreetMap | 15 m au milieu, 37 m au pire |
+| la berge est de la Chaudière | la limite de l'eau, de la pointe au coude du Bassin | 18 m au milieu, 42 m au pire |
+
+**Goad a dessiné la montagne trop près du chemin** : pour la porter sur la vraie
+crête, la feuille est étirée du double dans le sens de la pente (0,37 m par
+pixel en largeur, 0,71 en hauteur, axes à 81°). Moins étirée (0,47 et 0,56),
+la crête restait à 41 m ; Patrick a choisi de tout tenir. Ces coins sont
+écrits à la main dans `data/plans-data.js` : `caler-plans.mjs` les reconnaît
+comme réglés à la main et les laisse ; ce qui a servi à les calculer est gardé
+sous `pose_dictee` (feuille 15) et `lignes_actuelles` dans
+`data/plans-reperes.json`. Ne pas les recalculer (`--forcer`) sans le
+demander à Patrick.
+
+Le réglage fait aux poignées reste dans le navigateur de Patrick et y masque
+la version publiée : le bouton **« Revenir au plan publié »**, sur la ligne du
+plan dans l'atelier de la carte, l'efface.
+
 | Feuille | Avant (similitude) | Étirée | Ce que ça change |
 |---|---|---|---|
 | 12 | 0,616 m par pixel ; repères à 11–21 m ; chemin à 18 m au milieu, 40 m au pire | 0,572 (largeur) et 0,650 (hauteur) m par pixel, axes à 93,3° ; repères à 4–7 m ; chemin à 10 m, 30 m au pire | nettement mieux : la feuille est la plus déformée des quatre |
@@ -116,7 +145,7 @@ mesurer, se servir de l'image et de son échelle, non de sa pose sur la carte.
 | 12 | village d'Etchemin, église, moulins Atkinson, étangs | 3 repères : église Saint-Romuald, n° 68 (curé Sax), n° 142 (villa Atkinson), et son chemin ; étirée | 4 à 7 m aux repères ; chemin à 10 m au milieu ; 50 m au raccord ouest | non — atelier seulement |
 | 13 | anse Hamilton, anse de New Liverpool, côte Rouge | 1 repère : l'église anglicane, et son chemin ; étirée | église à 4 m ; chemin à 9 m au milieu ; éperon du manoir Longwood à 45 m ; 86 m au raccord ouest | non — atelier seulement |
 | 14 | village de New Liverpool, scierie Ritchie and Cull | 14 maisons du village, nos 14 à 35, et son chemin ; à peine étirée | **7 m en moyenne, 11 m au pire** ; incertaine à sa lisière est (nos 1 à 9) | **oui** |
-| 15 | anse Albert, bassin de la Chaudière | 2 repères (pointe du cap, coin du ruisseau), la rive est du Bassin et son chemin ; étirée ; plus accrochée à la 14 | repères à 11–15 m ; rive du Bassin à 43 m au milieu ; 252 m de la 14 à sa lisière | non — atelier seulement |
+| 15 | anse Albert, bassin de la Chaudière | pose dictée par Patrick : quai, chemin vers l'est, crête de la montagne, bord du fleuve, berge de la Chaudière ; étirée du double | quai et chemin à 6 m ; crête à 24 m ; fleuve à 15 m ; Chaudière à 18 m ; ne rejoint pas la 14 | non — atelier seulement |
 
 Le fleuve est en bas des feuilles : le nord est donc vers le bas, la gauche vers
 l'aval. L'image de la feuille 12 est à l'envers ; cela ne change rien, les
