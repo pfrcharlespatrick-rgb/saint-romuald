@@ -228,9 +228,16 @@ un repère est un bâtiment lu sur la feuille (pixels) et le lieu de
 `data/lieux-data.js` qui lui répond. Lire d'abord `docs/PLANS-ANCIENS.md` :
 ces feuilles **ne sont pas à une échelle constante**, chacune n'est juste
 qu'autour de ses repères, et deux feuilles voisines peuvent ne pas se
-rejoindre à cent mètres près. Ne pas chercher à « corriger » cela en
-étirant une feuille, ni présenter une feuille provisoire (`cale: false`)
-comme établie. Un plan réglé aux poignées par Patrick n'est plus recalculé.
+rejoindre à cent mètres près. Ne pas présenter une feuille provisoire
+(`cale: false`) comme établie. Un plan réglé aux poignées par Patrick n'est
+plus recalculé.
+
+Un plan peut être étiré — posé par trois coins indépendants, ce qui change
+ses proportions et ses angles — quand Patrick le demande : il a levé le
+2026-11-17 la règle qui l'interdisait (« éliminer la règle “on n'étire pas
+une feuille” »). Un plan étiré le dit dans sa note, avec ses deux échelles et
+l'angle de ses axes : ses distances et ses angles ne sont plus ceux du
+dessin.
 
 Le croquis de l'Hétrière de 1844 (`hetriere-1844`) n'a pas de repère : il est
 posé une fois, par calcul, sur trois hypothèses dites dans
@@ -243,9 +250,7 @@ quai sur la pointe du Pont-Garneau (deux repères désignés par deux flèches)
 et son escarpement sur la rive du Bassin — ce qui a demandé de **l'étirer**
 (0,445 m par pixel en largeur, 0,403 en hauteur, axes à 85°) ; celui de 1842
 est rapporté à celui de 1866 par six points communs et reçoit la même
-déformation. C'est une exception décidée par Patrick, propre à ces deux
-plans : la règle « on n'étire pas une feuille » tient pour les feuilles Goad.
-Aucun ne passe par `caler-plans.mjs`. Ne pas les redresser sans le lui
+déformation. Aucun ne passe par `caler-plans.mjs`. Ne pas les redresser sans le lui
 demander ; pour mesurer, se servir de l'image du plan, non de sa pose
 (`docs/PLANS-ANCIENS.md`).
 
