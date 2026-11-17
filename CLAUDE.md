@@ -244,7 +244,9 @@ sur l'axe du chemin du Fleuve d'aujourd'hui (`chemin_actuel`) — voir
 `docs/PLANS-ANCIENS.md`, « Les feuilles sont étirées ». Le même jour encore,
 il a demandé de les raccorder (« raccord serré ») : `raccords_tenus`, en tête
 de `data/plans-reperes.json`, fait calculer les quatre feuilles ensemble, et
-leurs lisières tombent sous 10 m — voir « Les feuilles sont raccordées ». La
+leurs lisières tombent sous 15 m — voir « Les feuilles sont raccordées » ; la
+15 est attachée à la 14 sur trois points (crête, chemin, rive). Les quatre
+feuilles sont publiques (`cale: true`) depuis le même jour, à sa demande. La
 feuille 15 tient au quai (posé sur celui du plan de 1866), au chemin vers
 l'est, à la crête du cap Anderson, au bord du fleuve et à la berge de la
 Chaudière, appuis qu'il a désignés. Un réglage aux poignées resté dans un

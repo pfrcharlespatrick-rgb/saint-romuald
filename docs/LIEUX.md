@@ -270,9 +270,11 @@ par champ, pas en remplacement — puis on passe `--tenir-pour-verse`.
 > Goad (`outils/lieux/caler-plans.mjs`, `data/plans-reperes.json`). Elles
 > avaient été retirées le 14 septembre, avec le cadastre de 1879, faute d'un
 > calage sûr : un ancrage posé à l'œil sur une carte de recherche est une
-> erreur qui se propage à tout ce qu'on lit dessus. Seule la feuille 14, tenue
-> par quatorze maisons du village de New Liverpool, est montrée au public ;
-> les trois autres sont provisoires, visibles dans l'atelier.
+> erreur qui se propage à tout ce qu'on lit dessus. Depuis le 17 novembre
+> 2026, à la demande de Patrick, les quatre feuilles sont montrées au public :
+> étirées sur leurs repères et sur le chemin du Fleuve, calculées ensemble
+> pour que leurs lisières se rejoignent (moins de 15 m), la 15 attachée à la
+> 14 par la crête, le chemin et la rive.
 > **`docs/PLANS-ANCIENS.md`** dit comment elles sont posées, ce qu'elles
 > valent — ces feuilles ne sont pas à une échelle constante — et comment
 > resserrer un calage. Ce qui suit décrit le mécanisme d'affichage.
