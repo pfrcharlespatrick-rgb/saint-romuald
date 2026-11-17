@@ -575,7 +575,7 @@
     }
   },
   "raccords_tenus": {
-    "note": "Les feuilles se rejoignent à leurs lisières (ligne « See sheet No ») : décision de Patrick, 2026-11-17 (« raccord serré »). Les feuilles marquées « etirer » sont alors calculées ensemble, chacune sur ses repères et ses lignes, et chaque paire nommée ici doit se rejoindre (poids donné, comme un repère). Retirer cette clé pour revenir à des feuilles calées chacune seule.",
+    "note": "Les feuilles se rejoignent à leurs lisières (ligne « See sheet No ») : décision de Patrick, 2026-11-17 (« raccord serré »). Les feuilles marquées « etirer » sont alors calculées ensemble, chacune sur ses repères et ses lignes, et chaque paire nommée ici doit se rejoindre (poids donné, comme un repère). Retirer cette clé pour revenir à des feuilles calées chacune seule. La paire 14–15 porte un poids double (8, troisième élément) et trois points : la crête de la montagne, le chemin et la rive, lus là où la ligne « See sheet No » les coupe sur chaque feuille — Patrick a demandé d'attacher la 15 à la 14 (2026-11-17).",
     "poids": 4,
     "paires": [
       [
@@ -588,7 +588,8 @@
       ],
       [
         "quebec-coves-1876-f14",
-        "quebec-coves-1876-f15"
+        "quebec-coves-1876-f15",
+        8
       ]
     ]
   },
@@ -719,6 +720,10 @@
         "quebec-coves-1876-f15": [
           [
             1925,
+            527
+          ],
+          [
+            1925,
             713
           ],
           [
@@ -729,16 +734,16 @@
       },
       "calcul": {
         "nw": {
-          "lat": 46.748304,
-          "lon": -71.251347
+          "lat": 46.748409,
+          "lon": -71.250958
         },
         "ne": {
-          "lat": 46.74197,
-          "lon": -71.265295
+          "lat": 46.742007,
+          "lon": -71.264865
         },
         "sw": {
-          "lat": 46.754419,
-          "lon": -71.256807
+          "lat": 46.754327,
+          "lon": -71.257398
         }
       },
       "etirer": true,
@@ -851,16 +856,16 @@
       },
       "calcul": {
         "nw": {
-          "lat": 46.753735,
-          "lon": -71.239706
+          "lat": 46.753717,
+          "lon": -71.239702
         },
         "ne": {
-          "lat": 46.747772,
-          "lon": -71.253135
+          "lat": 46.747795,
+          "lon": -71.25309
         },
         "sw": {
-          "lat": 46.760012,
-          "lon": -71.244064
+          "lat": 46.760002,
+          "lon": -71.244109
         }
       },
       "etirer": true,
@@ -996,16 +1001,16 @@
       },
       "calcul": {
         "nw": {
-          "lat": 46.759389,
-          "lon": -71.245673
+          "lat": 46.759375,
+          "lon": -71.2457
         },
         "ne": {
-          "lat": 46.765514,
-          "lon": -71.232494
+          "lat": 46.765519,
+          "lon": -71.232487
         },
         "sw": {
-          "lat": 46.753395,
-          "lon": -71.239722
+          "lat": 46.753388,
+          "lon": -71.239732
         }
       },
       "etirer": true,
@@ -1114,6 +1119,10 @@
         "quebec-coves-1876-f14": [
           [
             90,
+            551
+          ],
+          [
+            90,
             738.5
           ],
           [
@@ -1124,16 +1133,16 @@
       },
       "calcul": {
         "nw": {
-          "lat": 46.74242,
-          "lon": -71.263053
+          "lat": 46.742429,
+          "lon": -71.263535
         },
         "ne": {
-          "lat": 46.737124,
-          "lon": -71.275784
+          "lat": 46.737284,
+          "lon": -71.276077
         },
         "sw": {
-          "lat": 46.748337,
-          "lon": -71.270176
+          "lat": 46.74821,
+          "lon": -71.27017
         }
       },
       "etirer": true,

@@ -123,6 +123,21 @@ raccord souple (lisières à 10–25 m) et un raccord serré, Patrick a choisi l
 Aux lisières : **9 m entre la 12 et la 13, 9 m entre la 13 et la 14, 3 m entre
 la 14 et la 15** (50, 86 et 179 m quand chaque feuille était calée seule).
 
+**Puis la 15 a été attachée à la 14** (Patrick, même jour : « avant, tente
+d'attacher la 15 avec la 14 »). Deux points de raccord (chemin et rive) la
+tenaient au bas de la lisière, mais la crête de la montagne y faisait un
+décrochement. Un troisième point a été lu sur chaque feuille, là où la ligne
+« See sheet No » coupe la crête (feuille 14 : pixel 1925, 527 ; feuille 15 :
+90, 551), et la paire 14–15 pèse le double (poids 8, troisième élément de la
+paire dans `raccords_tenus`). La crête passe maintenant d'une feuille à
+l'autre ; la lisière 14–15 tient à 2 m sur ses trois points. Ce que cela
+coûte ailleurs est faible : maisons de la 14 à 8 m en moyenne (17 au pire),
+église de la 13 à 17 m, lisière 13–14 à 13 m, berge de la Chaudière mieux
+tenue (37 m au pire au lieu de 56).
+
+**Les quatre feuilles sont publiques depuis le 17 novembre 2026** (« rends
+les feuilles 12, 13 et 15 publiques ») : `cale: true` pour chacune.
+
 Pour revenir à des feuilles calées chacune seule, retirer `raccords_tenus` et
 relancer `caler-plans.mjs` ; pour un raccord plus souple, baisser son `poids`
 (4 = un repère ; 2 donnait des lisières à 10–25 m).
@@ -143,10 +158,10 @@ mesurer, se servir de l'image et de son échelle, non de sa pose sur la carte.
 
 | Feuille | Ce qu'elle montre | Posée par | Justesse | Sur la carte publique |
 |---|---|---|---|---|
-| 12 | village d'Etchemin, église, moulins Atkinson, étangs | 3 repères : église Saint-Romuald, n° 68 (curé Sax), n° 142 (villa Atkinson), et son chemin ; étirée, raccordée à la 13 | 15 à 17 m aux repères ; chemin à 9 m au milieu ; 9 m au raccord | non — atelier seulement |
-| 13 | anse Hamilton, anse de New Liverpool, côte Rouge | 1 repère : l'église anglicane, et son chemin ; étirée, raccordée à la 12 et à la 14 | église à 15 m ; chemin à 11 m au milieu ; éperon du manoir Longwood à 56 m ; 9 m aux raccords | non — atelier seulement |
-| 14 | village de New Liverpool, scierie Ritchie and Cull | 14 maisons du village, nos 14 à 35, et son chemin ; étirée, raccordée à la 13 et à la 15 | **8 m en moyenne, 15 m au pire** ; incertaine à sa lisière est (nos 1 à 9) | **oui** |
-| 15 | anse Albert, bassin de la Chaudière | le quai, le chemin vers l'est, la crête du cap Anderson, le bord du fleuve, la berge de la Chaudière ; étirée, raccordée à la 14 | quai à 5 m ; chemin à 4 m ; crête à 37 m ; fleuve à 19 m ; Chaudière à 28 m ; 3 m au raccord | non — atelier seulement |
+| 12 | village d'Etchemin, église, moulins Atkinson, étangs | 3 repères : église Saint-Romuald, n° 68 (curé Sax), n° 142 (villa Atkinson), et son chemin ; étirée, raccordée à la 13 | 16 à 17 m aux repères ; chemin à 9 m au milieu ; 9 m au raccord | **oui** |
+| 13 | anse Hamilton, anse de New Liverpool, côte Rouge | 1 repère : l'église anglicane, et son chemin ; étirée, raccordée à la 12 et à la 14 | église à 17 m ; chemin à 11 m au milieu ; éperon du manoir Longwood à 55 m ; 9 et 13 m aux raccords | **oui** |
+| 14 | village de New Liverpool, scierie Ritchie and Cull | 14 maisons du village, nos 14 à 35, et son chemin ; étirée, raccordée à la 13 et à la 15 | **8 m en moyenne, 17 m au pire** ; incertaine à sa lisière est (nos 1 à 9) | **oui** |
+| 15 | anse Albert, bassin de la Chaudière | le quai, le chemin vers l'est, la crête du cap Anderson, le bord du fleuve, la berge de la Chaudière ; étirée, attachée à la 14 sur toute la lisière | quai à 7 m ; chemin à 4 m ; crête à 38 m ; fleuve à 20 m ; Chaudière à 28 m ; 2 m au raccord | **oui** |
 
 Le fleuve est en bas des feuilles : le nord est donc vers le bas, la gauche vers
 l'aval. L'image de la feuille 12 est à l'envers ; cela ne change rien, les
