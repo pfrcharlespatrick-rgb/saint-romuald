@@ -237,15 +237,17 @@ posé une fois, par calcul, sur trois hypothèses dites dans
 `docs/PLANS-ANCIENS.md`, et reste provisoire tant qu'aucun point n'est relevé
 sur le terrain. Les plans de l'embouchure de la Chaudière
 (`embouchure-chaudiere-1866`, Alfred Hamel ; `embouchure-chaudiere-1842`,
-Pierre Lambert) sont posés de même, une fois : celui de 1866 sur sa barre
-graphique, puis posé comme Patrick l'a dicté (2026-11-16) : son chemin public sur le
-chemin du Fleuve d'aujourd'hui (« le chemin du fleuve mène dans l'eau du côté
-est »), son quai sur la pointe du Pont-Garneau (deux repères désignés par
-deux flèches), réduit de 3 % — nord à 34° sur la feuille, au prix de la flèche
-du nord du plan, de la ligne C-D du procès-verbal de 1841 et de la rive sud
-du Bassin, comme le dit `docs/PLANS-ANCIENS.md` ;
-celui de 1842 sur celui de 1866, par six points communs. Aucun ne passe par
-`caler-plans.mjs`. Ne pas revenir à la flèche du plan sans le lui demander.
+Pierre Lambert) sont posés de même, une fois, comme Patrick l'a dicté (2026-11-16 et 17) :
+celui de 1866 a son chemin public sur le chemin du Fleuve d'aujourd'hui, son
+quai sur la pointe du Pont-Garneau (deux repères désignés par deux flèches)
+et son escarpement sur la rive du Bassin — ce qui a demandé de **l'étirer**
+(0,445 m par pixel en largeur, 0,403 en hauteur, axes à 85°) ; celui de 1842
+est rapporté à celui de 1866 par six points communs et reçoit la même
+déformation. C'est une exception décidée par Patrick, propre à ces deux
+plans : la règle « on n'étire pas une feuille » tient pour les feuilles Goad.
+Aucun ne passe par `caler-plans.mjs`. Ne pas les redresser sans le lui
+demander ; pour mesurer, se servir de l'image du plan, non de sa pose
+(`docs/PLANS-ANCIENS.md`).
 
 ## La rivière Bruyante est la Chaudière
 

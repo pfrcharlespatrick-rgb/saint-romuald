@@ -191,62 +191,69 @@ des cotes de BAnQ Québec, à confirmer. Un troisième plan du même terrain,
 dressé par Pierre Lambert en octobre 1854, n'est connu que par une
 transcription ; il n'est pas versé.
 
-### Le plan de 1866 : la pièce maîtresse
+### Le plan de 1866 : la pièce maîtresse — et un plan étiré
 
-C'est un plan d'arpentage à l'échelle (150 pieds français au pouce). Sa pose
-actuelle est **celle que Patrick a dictée** le 16 novembre 2026, en trois
-temps : incliner le plan sur le chemin du Fleuve d'aujourd'hui (« le chemin du
-fleuve mène dans l'eau du côté est ») ; aller jusqu'à 32° ; puis le déplacer
-sur deux repères qu'il a désignés par deux flèches sur la carte, en le
-réduisant de quelques pour cent.
+C'est un plan d'arpentage à l'échelle (150 pieds français au pouce). **Sa pose
+actuelle l'étire : c'est une décision de Patrick (17 novembre 2026), et une
+exception.** Elle est venue en quatre temps, les 16 et 17 novembre :
 
-| Ce qu'il fallait | D'où on le tire | Valeur |
-|---|---|---|
-| deux repères | désignés par Patrick : le quai du plan (pixel 727, 554) est la pointe du Pont-Garneau ; la grève à l'ouest du quai (pixel 684, 649) est la rive ouest de cette pointe | 46 m vers le sud-ouest ; tenus à 4 m près |
-| l'échelle | la barre graphique donne 0,420 m par pixel (500 pieds français sur 386,5 px) ; réduite de 3 % à la demande de Patrick | 0,408 m par pixel |
-| l'orientation | les deux repères tenus, celle où le chemin public du plan suit le mieux le chemin du Fleuve | nord à 34° sur la feuille |
+1. « dans le plan de 1866 le chemin du fleuve mène dans l'eau du côté est » :
+   incliner le plan en se fiant en partie au chemin d'aujourd'hui (37°) ;
+2. aller jusqu'à ce que le chemin public suive le chemin du Fleuve (32°) ;
+3. deux repères désignés par deux flèches sur la carte — le quai du plan
+   (pixel 727, 554) est la pointe du Pont-Garneau, la grève à l'ouest du quai
+   (pixel 684, 649) est la rive ouest de cette pointe, soit 46 m vers le
+   sud-ouest — et réduire le plan de quelques pour cent (34°, 3 % de moins) ;
+4. l'escarpement du Grand Bassin sortait alors sur l'eau, jusqu'à 71 m de la
+   rive. Réduire davantage (10 %, 20 %) n'y changeait rien : l'écart venait de
+   l'angle du plan, non de sa taille. Mis devant quatre solutions — laisser,
+   réduire, tourner à 39°, étirer —, Patrick a choisi d'étirer.
+
+| Ce qui pose le plan | Valeur |
+|---|---|
+| ajustement, les six inconnues libres, sur : les deux repères de Patrick (les plus lourds), l'axe du chemin du Fleuve (compté double), la rive du Bassin, la pointe du cap, le coin du ruisseau | trois coins indépendants dans `data/plans-data.js` |
+| échelle dans la largeur de la feuille | 0,445 m par pixel |
+| échelle dans sa hauteur | 0,403 m par pixel (la barre graphique du plan donne 0,420) |
+| angle entre les deux axes | 85° au lieu de 90° |
 
 Les poses qui se sont succédé, et ce que vaut chacune :
 
-| Pose | Nord sur la feuille | Chemin public, à son bout est | Rive du Bassin | Ligne C-D (procès-verbal : « Sud 32° Est ») |
+| Pose | Chemin public, à son bout est | Rive du Bassin | Quai sur la pointe du Pont-Garneau | Ligne C-D (procès-verbal : « Sud 32° Est », 39,3 m) |
 |---|---|---|---|---|
-| sur deux formes du terrain (abandonnée) | 36° | 20 m du chemin du Fleuve | 10 à 30 m | sud 25° est |
-| selon la flèche « Nord Astronomique » du plan | 44° | **48 m au nord, au bord de l'eau** | 1 à 14 m | **sud 33° est** |
-| premier compromis demandé par Patrick | 37° | 25 m, sur les terrains riverains | 9 à 27 m | sud 26° est |
-| incliné sur le chemin, à sa demande | 32° | 3 à 9 m | 11 à 42 m | sud 21° est |
-| **pose retenue : ses deux repères, le chemin, 3 % de moins** | **34°** | **3 m** | 3 à 14 m au nord, **42 à 71 m au sud** | sud 23° est |
+| selon la flèche « Nord Astronomique » du plan (44°) | 48 m au nord, au bord de l'eau | 1 à 14 m | non | **sud 33° est, 39,0 m** |
+| premier compromis (37°) | 25 m | 9 à 27 m | non | sud 26° est |
+| incliné sur le chemin (32°) | 3 à 9 m | 11 à 42 m | non, à 46 m | sud 21° est |
+| sur les deux repères, réduit de 3 % (34°) | 3 m | 3 à 14 m au nord, 42 à 71 m au sud, sur l'eau | oui, à 4 m | sud 23° est, 37,8 m |
+| **étiré — pose retenue** | **2 à 12 m** | **4 à 25 m** | **oui, à 5 m** | sud 27° est, 36,8 m |
 
-Ce qu'il faut en retenir : **le plan ne peut pas être juste partout à la
-fois.** Posé selon sa flèche, il redonne la ligne C-D mesurée par Pierre
-Lambert en 1841 (« sur le vrai Rhumb de vent Sud 32° Est […] 121 pieds » : il
-la dessine au sud 33° est, sur 39,0 m pour 39,3 m) et suit la rive du Bassin,
-mais son chemin public part vers le fleuve et son quai tombe dans l'eau, au
-nord de la pointe. Posé comme Patrick l'a dicté, son quai est sur la pointe du
-Pont-Garneau et son chemin sur le chemin du Fleuve ; mais l'escarpement du
-Grand Bassin sort sur l'eau dans sa moitié sud, jusqu'à 71 m de la rive, et la
-ligne C-D tombe au sud 23° est, sur 37,8 m. Réduire le plan de quelques pour
-cent n'y change presque rien : l'écart vient de l'angle, non de la taille.
-
-Pour tenir aussi la rive sud du Bassin, il faudrait ou bien revenir vers 38 à
-40° (le chemin repart alors de 27 à 40 m à son bout est), ou bien étirer le
-plan — ce qu'on ne fait pas. La pose reste provisoire ; les poignées de
-l'atelier permettent de la reprendre.
+Ce qu'il faut en retenir : **posé d'un bloc, ce plan ne peut pas être juste
+partout à la fois** — son chemin public fait avec l'escarpement du Bassin un
+angle plus ouvert d'une quinzaine de degrés que le chemin du Fleuve avec la
+rive d'aujourd'hui. L'étirer fait tenir le chemin, le quai et la rive ; cela
+se paie sur ce que le plan a de plus sûr : **les angles et les distances lus
+sur le plan étiré ne sont plus ceux de l'arpenteur.** Pour mesurer, se servir
+de l'image du plan et de son échelle, non de sa pose sur la carte.
 
 Deux lectures restent ouvertes, que seule une borne retrouvée trancherait :
 le chemin de 1866 n'est plus où est le chemin du Fleuve (remblais, tracé
-refait), et la flèche est juste ; ou la flèche du plan est fausse d'une
-dizaine de degrés, et les directions du procès-verbal avec elle.
+refait), et le plan, posé selon sa flèche, était juste ; ou la flèche et le
+dessin du chemin sont fautifs. La pose reste provisoire ; les poignées de
+l'atelier permettent de la reprendre.
+
+**Ne pas « redresser » ce plan** (revenir à une pose non étirée) sans le
+demander à Patrick ; et ne pas étendre l'exception aux feuilles Goad, pour
+lesquelles la règle tient : on n'étire pas une feuille.
 
 ### Le plan de 1842 : posé sur celui de 1866
 
 Le dessin de 1842 est moins exact (la ligne C-D, 121 pieds au procès-verbal,
-n'y fait que 28 m), mais il partage avec celui de 1866 six points sûrs : les
+n'y fait que 29 m), mais il partage avec celui de 1866 six points sûrs : les
 bornes A, B, C, D, la pointe du cap, et la borne du bas de la longue ligne qui
 descend vers le Bassin (« Pierre Pichet » en 1842, « Pierre Pichette » en
-1866 : 448 et 449 m). Il est posé sur le plan de 1866 par ces six points,
-échelle et rotation libres : 4 à 9 m d'écart. Il suit donc la pose dictée pour
-le plan de 1866 : le nord tombe à 36° sur la feuille (sa flèche le met à 49°),
-l'échelle à 0,78 m par pixel (sa barre graphique de 900 pieds donne 0,80).
+1866 : 448 et 449 m). Il est rapporté au plan de 1866 par ces six points
+(4 à 9 m d'écart), puis reçoit **la même déformation que lui** : 0,85 m par
+pixel dans sa largeur, 0,77 dans sa hauteur, quand sa barre graphique de
+900 pieds donne 0,80.
 
 ### Où sont les bornes aujourd'hui
 
@@ -254,16 +261,14 @@ Avec la pose retenue :
 
 | Borne | Ce qu'en dit le procès-verbal de 1841 | Aujourd'hui | Coordonnées |
 |---|---|---|---|
-| A | angle nord du terrain de Thomas Hickey, côté sud-est du chemin public | près du chemin du Fleuve, au nord-est du bas de la côte Garneau | 46,74371 N, 71,27437 O |
-| B | à 300 pieds de A le long du chemin, extrémité sud-ouest du terrain de Hickey | dans le parc de la Marina-de-la-Chaudière, entre le chemin du Fleuve et la côte Garneau | 46,74337 N, 71,27557 O |
-| C | 62 pieds plus loin le long du chemin | idem | 46,74323 N, 71,27577 O |
-| D | pied du cap, « Sud 32° Est », 121 pieds ; fin de l'emplacement d'Ignace Roberge | sur le versant de la côte Garneau | 46,74292 N, 71,27558 O |
+| A | angle nord du terrain de Thomas Hickey, côté sud-est du chemin public | au bord du chemin du Fleuve, au nord-est du bas de la côte Garneau | 46,74385 N, 71,27411 O |
+| B | à 300 pieds de A le long du chemin, extrémité sud-ouest du terrain de Hickey | près du chemin du Fleuve, vers le bas de la côte Garneau | 46,74345 N, 71,27542 O |
+| C | 62 pieds plus loin le long du chemin | idem | 46,74331 N, 71,27563 O |
+| D | pied du cap, « Sud 32° Est », 121 pieds ; fin de l'emplacement d'Ignace Roberge | sur le versant de la côte Garneau | 46,74301 N, 71,27542 O |
+| bas de la ligne Pichet | borne de chez Boucher (1866) | sur la rive du Bassin, au sud de la rue de l'Étang | 46,74034 N, 71,27199 O |
 
-Près de la pointe, les poses s'accordent : entre la pose selon la flèche du
-plan et la pose retenue, les bornes A à D ne bougent que de 7 à 27 m. C'est au
-sud que tout se joue : la borne du bas de la ligne Pichet, chez Boucher, bouge
-de 67 m, et la pose retenue la met dans l'eau du Bassin — elle n'est donc pas
-située.
+Entre la pose selon la flèche du plan et la pose retenue, ces bornes bougent
+de 17 à 42 m : c'est la mesure de ce qu'on ne sait pas encore.
 
 Le quai de 1841 est la pointe du Pont-Garneau (repère de Patrick) ; le lot
 n° 2 est la bande de falaise qui longe le Bassin, au sud de la rue du
