@@ -20,6 +20,12 @@ Trois fichiers :
 trois coins de chaque feuille, les écrit dans `data/plans-data.js` et dit les
 écarts. `--essai` montre sans écrire.
 
+`data/plans-reperes.json` porte aussi, depuis le 17 novembre 2026, l'axe du
+chemin du Fleuve d'aujourd'hui (`chemin_actuel`, relevé sur OpenStreetMap, de
+la côte Garneau à l'Etchemin) et, pour chaque feuille, le chemin public
+qu'elle dessine (`chemin`, en pixels) : les quatre feuilles sont **étirées**
+sur ces deux lignes (voir « Les feuilles sont étirées », plus bas).
+
 ## Ce qu'il faut savoir avant de s'y fier
 
 **Ces feuilles ne sont pas dessinées à une échelle constante.** Chacune est
@@ -35,34 +41,66 @@ et c'est ce qui avait fait échouer les calages de l'été 2026 :
   mètres de sa place quand on cale la feuille 12 sur le chemin du Fleuve — le
   plateau n'intéressait pas l'assureur, il est esquissé.
 
-Les feuilles Goad sont posées d'un bloc (trois coins : échelle, orientation,
-position). Posée ainsi, une feuille ne peut pas être juste partout à la fois,
-et deux feuilles bien posées **ne se rejoignent pas forcément à leur
-lisière**. On a choisi la justesse près des repères — là où sont les maisons
-qu'on cherche — plutôt qu'un raccord propre entre feuilles.
+Une feuille, même étirée, se pose d'un seul tenant : elle ne peut pas être
+juste partout à la fois, et deux feuilles bien posées **ne se rejoignent pas
+forcément à leur lisière**. On a choisi la justesse près des repères et le
+long du chemin — là où sont les maisons qu'on cherche — plutôt qu'un raccord
+propre entre feuilles.
 
-**Un plan peut aussi être étiré.** Les trois coins sont indépendants : les
-déplacer séparément change les proportions et les angles de l'image. La règle
-qui l'interdisait (« on n'étire pas une feuille ») a été levée par Patrick le
-17 novembre 2026. Un plan étiré le dit dans sa note, avec ses deux échelles
-et l'angle de ses axes, parce que ses distances et ses angles ne sont plus
-ceux du dessin ; c'est le cas des deux plans de l'embouchure de la Chaudière
-(voir plus bas). Les feuilles Goad, elles, sont encore posées d'un bloc :
-`caler-plans.mjs` ne les étire pas.
+### Les feuilles sont étirées (17 novembre 2026)
 
-Ce qui tient, en revanche, d'une feuille à l'autre : l'échelle locale
-(0,69 m par pixel de ces images, au village comme à la côte Rouge) et la
-**flèche du nord**, qui indique le nord vrai à moins de 2° près. C'est ce qui
-permet de poser une feuille sur un seul repère.
+La règle qui interdisait d'étirer une feuille (« on n'étire pas une
+feuille ») a été levée par Patrick le 17 novembre 2026, après les plans de
+l'embouchure de la Chaudière ; il a demandé le même jour d'ajuster ainsi les
+quatre feuilles Goad.
+
+Chaque feuille garde d'abord la pose calculée comme avant (similitude sur ses
+repères, ou ancrage, ou raccord), puis `caler-plans.mjs` la reprend en
+transformation affine — deux échelles, des axes qui peuvent ne plus être
+d'équerre — ajustée sur :
+
+- **ses repères** (poids 4) ;
+- **le chemin public qu'elle dessine**, posé sur l'axe du chemin du Fleuve
+  d'aujourd'hui (poids 1 par point ; un point du chemin dessiné va au point
+  le plus proche de l'axe actuel, et l'on recommence jusqu'à ce que rien ne
+  bouge ; un point qui tombe au-delà d'un bout de l'axe ne compte pas) ;
+- **le raccord** avec une voisine, seulement pour la feuille 15, qui n'a aucun
+  repère (poids 2) ;
+- **un rappel vers la similitude** (poids 0,3), pour qu'une feuille ne se
+  déforme que là où les points l'y obligent.
+
+Les feuilles 12 et 13 ne sont pas accrochées à leurs voisines : on garde le
+principe de la justesse près des repères plutôt qu'aux lisières.
+
+| Feuille | Avant (similitude) | Étirée | Ce que ça change |
+|---|---|---|---|
+| 12 | 0,616 m par pixel ; repères à 11–21 m ; chemin à 18 m au milieu, 40 m au pire | 0,572 (largeur) et 0,650 (hauteur) m par pixel, axes à 93,3° ; repères à 4–7 m ; chemin à 10 m, 30 m au pire | nettement mieux : la feuille est la plus déformée des quatre |
+| 13 | 0,694 (échelle de la 14) ; église à 0 m (seul repère) ; chemin à 14 m, 45 m au pire ; manoir Longwood à 27 m | 0,641 et 0,639, axes à 92,9° ; église à 4 m ; chemin à 9 m, 33 m au pire ; **manoir Longwood à 45 m** | mieux le long du chemin, moins bien sur l'éperon |
+| 14 | 0,694 ; 14 maisons à 7 m en moyenne, 11 m au pire ; chemin à 12 m, 50 m au pire | 0,692 et 0,706, axes à 89,4° ; maisons à 7 m en moyenne, 11 m au pire ; chemin à 12 m, 49 m au pire | presque rien : elle bouge de 14 m au plus |
+| 15 | 0,694, accrochée à la 14 ; chemin à 6 m, 22 m au pire (6 points) | 0,653 et 0,650, axes à 89,9° ; raccord à 2 m ; chemin à 12 m, 19 m au pire (7 points sur 14 : la route qui descend à la Chaudière n'existe plus) | peu sûr : sans repère, elle tient au raccord et à la moitié de son chemin |
+
+Aux lisières : 86 m entre la 14 et la 13 (133 m avant), 50 m entre la 13 et
+la 12 (76 m avant), 2 m entre la 14 et la 15.
+
+Ce que cela dit : **l'échelle n'est pas la même d'une feuille à l'autre.** On
+avait cru que les feuilles tenaient toutes 0,69 m par pixel ; mais celle de la
+feuille 13 n'avait jamais été mesurée — elle était prise à la 14, faute de
+second repère. Étirées sur le chemin, les feuilles 12, 13 et 15 sortent plus
+petites que la 14 (0,57 à 0,65 m par pixel), ce qui rejoint ce qu'on avait vu
+aux lisières : le dessin est trop long entre New Liverpool et la côte Rouge.
+Ce qui tient toujours : la **flèche du nord**, à quelques degrés près.
+
+Une feuille étirée n'a plus ses distances ni ses angles d'origine : pour
+mesurer, se servir de l'image et de son échelle, non de sa pose sur la carte.
 
 ## État de chaque feuille
 
 | Feuille | Ce qu'elle montre | Posée par | Justesse | Sur la carte publique |
 |---|---|---|---|---|
-| 12 | village d'Etchemin, église, moulins Atkinson, étangs | 3 repères : église Saint-Romuald, n° 68 (curé Sax), n° 142 (villa Atkinson) | 11 à 21 m aux repères ; 76 m au raccord ouest | non — atelier seulement |
-| 13 | anse Hamilton, anse de New Liverpool, côte Rouge | 1 repère : l'église anglicane ; échelle de la 14, flèche du nord | vérifiée à l'œil autour de la côte Rouge et de l'éperon du manoir Longwood (27 m) ; 133 m au raccord ouest | non — atelier seulement |
-| 14 | village de New Liverpool, scierie Ritchie and Cull | 14 maisons du village, nos 14 à 35 | **7 m en moyenne, 11 m au pire** ; incertaine à sa lisière est (nos 1 à 9) | **oui** |
-| 15 | anse Albert, bassin de la Chaudière | aucun repère : accrochée à la 14 | inconnue | non — atelier seulement |
+| 12 | village d'Etchemin, église, moulins Atkinson, étangs | 3 repères : église Saint-Romuald, n° 68 (curé Sax), n° 142 (villa Atkinson), et son chemin ; étirée | 4 à 7 m aux repères ; chemin à 10 m au milieu ; 50 m au raccord ouest | non — atelier seulement |
+| 13 | anse Hamilton, anse de New Liverpool, côte Rouge | 1 repère : l'église anglicane, et son chemin ; étirée | église à 4 m ; chemin à 9 m au milieu ; éperon du manoir Longwood à 45 m ; 86 m au raccord ouest | non — atelier seulement |
+| 14 | village de New Liverpool, scierie Ritchie and Cull | 14 maisons du village, nos 14 à 35, et son chemin ; à peine étirée | **7 m en moyenne, 11 m au pire** ; incertaine à sa lisière est (nos 1 à 9) | **oui** |
+| 15 | anse Albert, bassin de la Chaudière | aucun repère : accrochée à la 14, et la moitié est de son chemin ; étirée | chemin à 12 m au milieu ; le reste inconnu | non — atelier seulement |
 
 Le fleuve est en bas des feuilles : le nord est donc vers le bas, la gauche vers
 l'aval. L'image de la feuille 12 est à l'envers ; cela ne change rien, les
@@ -91,7 +129,8 @@ cale la 13 sur l'église) ; ou le n° 1 de la feuille 14 est la maison du 1720.
 
 De même, les lieux « … – Goad » de la feuille 15 (nos 15, 30, 32, 35, 40, 55)
 ont été posés le 14 septembre 2026 d'après le calage d'alors : ils s'écartent
-de 160 à 260 m de la feuille accrochée à la 14. On ne sait pas lequel des
+de 160 à 260 m de la feuille accrochée à la 14 (de 117 à 208 m de la feuille
+étirée). On ne sait pas lequel des
 deux a raison ; ils sont sous `controle`.
 
 ## Pour resserrer un calage
@@ -106,7 +145,9 @@ debout dont on connaît le numéro Goad en est un :
 3. relancer `node outils/lieux/caler-plans.mjs` et lire les écarts.
 
 À partir de trois repères bien écartés, passer la `methode` de la feuille à
-`similitude` : elle trouve alors sa propre échelle. Ce qui aiderait le plus
+`similitude` : elle trouve alors sa propre échelle. Les repères pèsent quatre
+fois plus que chaque point du chemin : quelques maisons de plus suffisent à
+reprendre la main sur le chemin. Ce qui aiderait le plus
 aujourd'hui : des maisons du chemin du Fleuve sur la feuille 12 (une douzaine
 sont déjà relevées, sans numéro Goad), le 1871 et le 1900 chemin du Fleuve et
 les maisons de l'anse Hamilton sur la feuille 13, et n'importe quel bâtiment

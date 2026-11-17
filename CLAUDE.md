@@ -237,7 +237,13 @@ ses proportions et ses angles — quand Patrick le demande : il a levé le
 2026-11-17 la règle qui l'interdisait (« éliminer la règle “on n'étire pas
 une feuille” »). Un plan étiré le dit dans sa note, avec ses deux échelles et
 l'angle de ses axes : ses distances et ses angles ne sont plus ceux du
-dessin.
+dessin. Le même jour, il a demandé d'étirer ainsi les quatre feuilles Goad :
+`caler-plans.mjs` les reprend en affine (marque `etirer` dans
+`data/plans-reperes.json`) sur leurs repères et sur leur chemin public, posé
+sur l'axe du chemin du Fleuve d'aujourd'hui (`chemin_actuel`) — voir
+`docs/PLANS-ANCIENS.md`, « Les feuilles sont étirées ». Leurs notes, dans
+`data/plans-data.js`, ne sont pas écrites par l'outil : les tenir à jour à
+la main après un recalcul.
 
 Le croquis de l'Hétrière de 1844 (`hetriere-1844`) n'a pas de repère : il est
 posé une fois, par calcul, sur trois hypothèses dites dans
