@@ -23,6 +23,20 @@
 //               leur ligne de raccord (« See sheet No »), même échelle, flèche
 //               du nord.
 //
+// Puis, pour une feuille marquée « etirer » (Patrick a levé le 2026-11-17 la
+// règle qui interdisait d'étirer une feuille), la pose est reprise en
+// transformation affine — deux échelles, des axes qui peuvent ne plus être
+// d'équerre — ajustée à la fois sur :
+//   - ses repères (poids 4) ;
+//   - le chemin public qu'elle dessine (« chemin », pixels), posé sur l'axe du
+//     chemin du Fleuve d'aujourd'hui (« chemin_actuel », en tête du fichier des
+//     repères) : chaque point du chemin dessiné va au point le plus proche de
+//     l'axe actuel (poids 1), et l'on recommence jusqu'à ce que rien ne bouge ;
+//     un point qui tomberait au-delà d'un bout de l'axe actuel ne compte pas ;
+//   - le raccord avec les voisines qu'elle nomme dans « accroche » (poids 2) ;
+//   - un rappel vers la similitude (poids 0,3), pour que la feuille ne se
+//     déforme que là où les points l'y obligent.
+//
 // Ce que le programme dit, et qu'il faut lire : l'écart de chaque repère, celui
 // des points de contrôle (des lieux qu'on n'a pas voulu faire peser — douteux,
 // ou placés autrefois d'après un ancien calage), et l'écart aux raccords entre
@@ -68,11 +82,18 @@ const versTerre = ([x, y]) => ({
 });
 const metres = ([dx, dy]) => Math.hypot(dx, dy) * K0;
 
-// ─── similitudes ────────────────────────────────────────────────────────────
-// Une pose est { a, b, tx, ty } : (x, y) ↦ (a·x − b·y + tx, b·x + a·y + ty).
-const appliquer = (m, [x, y]) => [m.a * x - m.b * y + m.tx, m.b * x + m.a * y + m.ty];
-const echelleDe = (m) => Math.hypot(m.a, m.b) * K0;                 // mètres par pixel
-const rotationDe = (m) => Math.atan2(m.b, m.a) * 180 / Math.PI;      // degrés, sens horaire à l'écran
+// ─── poses ──────────────────────────────────────────────────────────────────
+// Une pose est une transformation affine { a, b, c, d, tx, ty } :
+// (x, y) ↦ (a·x + b·y + tx, c·x + d·y + ty). Une similitude est le cas a = d,
+// b = −c : même échelle dans les deux sens, axes d'équerre.
+const similitude = (a, b, tx, ty) => ({ a, b: -b, c: b, d: a, tx, ty });
+const appliquer = (m, [x, y]) => [m.a * x + m.b * y + m.tx, m.c * x + m.d * y + m.ty];
+const echelleX = (m) => Math.hypot(m.a, m.c) * K0;                   // mètres par pixel, largeur de la feuille
+const echelleY = (m) => Math.hypot(m.b, m.d) * K0;                   // mètres par pixel, hauteur de la feuille
+const echelleDe = (m) => (echelleX(m) + echelleY(m)) / 2;
+const rotationDe = (m) => Math.atan2(m.c, m.a) * 180 / Math.PI;      // degrés, sens horaire à l'écran
+const anglesAxes = (m) => Math.acos((m.a * m.b + m.c * m.d) / Math.hypot(m.a, m.c) / Math.hypot(m.b, m.d)) * 180 / Math.PI;
+const estEtiree = (m) => Math.abs(echelleX(m) - echelleY(m)) > 0.0005 || Math.abs(anglesAxes(m) - 90) > 0.05;
 
 /** Moindres carrés sur des couples (pixel, sol). */
 function ajuster(couples) {
@@ -86,14 +107,85 @@ function ajuster(couples) {
     num1 += dx * du + dy * dv; num2 += dx * dv - dy * du; den += dx * dx + dy * dy;
   }
   const a = num1 / den, b = num2 / den;
-  return { a, b, tx: mu - (a * mx - b * my), ty: mv - (b * mx + a * my) };
+  return similitude(a, b, mu - (a * mx - b * my), mv - (b * mx + a * my));
 }
 
 /** Échelle (m/px) et rotation (degrés) données, passant par un couple (pixel, sol). */
 function poser(echelle, rotation, pixel, sol) {
   const s = echelle / K0, t = rotation * Math.PI / 180;
   const a = s * Math.cos(t), b = s * Math.sin(t);
-  return { a, b, tx: sol[0] - (a * pixel[0] - b * pixel[1]), ty: sol[1] - (b * pixel[0] + a * pixel[1]) };
+  return similitude(a, b, sol[0] - (a * pixel[0] - b * pixel[1]), sol[1] - (b * pixel[0] + a * pixel[1]));
+}
+
+// ─── étirer : affine sur repères, chemin et raccords ────────────────────────
+/** Résout le système linéaire n × n (élimination de Gauss, pivot partiel). */
+function resoudre(A, y) {
+  const n = y.length, M = A.map((ligne, i) => [...ligne, y[i]]);
+  for (let k = 0; k < n; k++) {
+    let p = k;
+    for (let i = k + 1; i < n; i++) if (Math.abs(M[i][k]) > Math.abs(M[p][k])) p = i;
+    [M[k], M[p]] = [M[p], M[k]];
+    for (let i = k + 1; i < n; i++) {
+      const f = M[i][k] / M[k][k];
+      for (let j = k; j <= n; j++) M[i][j] -= f * M[k][j];
+    }
+  }
+  const x = new Array(n).fill(0);
+  for (let i = n - 1; i >= 0; i--) {
+    let s = M[i][n];
+    for (let j = i + 1; j < n; j++) s -= M[i][j] * x[j];
+    x[i] = s / M[i][i];
+  }
+  return x;
+}
+
+/** Le point de l'axe actuel le plus proche ; null s'il tombe au-delà d'un bout. */
+function lePlusProche(p, axe) {
+  let mieux = null;
+  for (let i = 0; i < axe.length - 1; i++) {
+    const [ax, ay] = axe[i], [bx, by] = axe[i + 1];
+    const ux = bx - ax, uy = by - ay;
+    let t = ((p[0] - ax) * ux + (p[1] - ay) * uy) / (ux * ux + uy * uy);
+    const bout = (t <= 0 && i === 0) || (t >= 1 && i === axe.length - 2);
+    t = Math.min(1, Math.max(0, t));
+    const q = [ax + t * ux, ay + t * uy], dist = Math.hypot(p[0] - q[0], p[1] - q[1]);
+    if (!mieux || dist < mieux.dist) mieux = { q, dist, bout };
+  }
+  return mieux && !mieux.bout ? mieux : null;
+}
+
+const POIDS = { repere: 4, chemin: 1, raccord: 2, similitude: 0.3 };
+const PORTEE = 150 / K0;   // un point du chemin à plus de 150 m de l'axe actuel ne compte pas
+
+/** Reprend une pose en affine : repères, chemin dessiné ↔ chemin actuel, raccords. */
+function etirer(depart, { repere, chemin, raccord, axe, taille }) {
+  // Coordonnées centrées : la feuille autour de son milieu, le sol autour de
+  // l'image de ce milieu — sans quoi les grands nombres de la projection
+  // noieraient le calcul.
+  const pc = [taille[0] / 2, taille[1] / 2], o = appliquer(depart, pc), L = Math.max(...taille);
+  let m = depart;
+  for (let tour = 0; tour < 40; tour++) {
+    const N = Array.from({ length: 6 }, () => new Array(6).fill(0)), y = new Array(6).fill(0);
+    const ajouter = (ligne, cible, w) => {
+      for (let i = 0; i < 6; i++) { y[i] += w * w * ligne[i] * cible; for (let j = 0; j < 6; j++) N[i][j] += w * w * ligne[i] * ligne[j]; }
+    };
+    const observer = (px, sol, w) => {
+      const dx = px[0] - pc[0], dy = px[1] - pc[1];
+      ajouter([dx, dy, 1, 0, 0, 0], sol[0] - o[0], w);
+      ajouter([0, 0, 0, dx, dy, 1], sol[1] - o[1], w);
+    };
+    for (const [px, sol] of repere) observer(px, sol, POIDS.repere);
+    for (const [px, sol] of raccord) observer(px, sol, POIDS.raccord);
+    for (const px of chemin) {
+      const p = lePlusProche(appliquer(m, px), axe);
+      if (p && p.dist < PORTEE) observer(px, p.q, POIDS.chemin);
+    }
+    ajouter([L, 0, 0, 0, -L, 0], 0, POIDS.similitude);   // a = d
+    ajouter([0, L, 0, L, 0, 0], 0, POIDS.similitude);    // b = −c
+    const [a, b, t1, c, d, t2] = resoudre(N, y);
+    m = { a, b, c, d, tx: o[0] + t1 - (a * pc[0] + b * pc[1]), ty: o[1] + t2 - (c * pc[0] + d * pc[1]) };
+  }
+  return m;
 }
 
 const milieu = (pts) => [pts.reduce((s, p) => s + p[0], 0) / pts.length, pts.reduce((s, p) => s + p[1], 0) / pts.length];
@@ -153,6 +245,33 @@ for (const [id, p] of Object.entries(plans)) {
   methodes.set(id, `accrochée à la feuille ${plans[voisin].feuillet} par leur ligne de raccord, même échelle, flèche du nord`);
 }
 
+// Étirer : la référence d'abord, puis les feuilles dans l'ordre du fichier ;
+// une feuille qui s'accroche à une voisine la prend telle qu'elle vient d'être
+// reprise. La pose de départ est celle qu'on vient de calculer.
+const axe = (reperes.chemin_actuel?.points || []).map(([lat, lon]) => versPlan(lat, lon));
+const aEtirer = Object.keys(plans).filter((id) => plans[id].etirer);
+aEtirer.sort((x, y) => (x === ref ? -1 : y === ref ? 1 : 0));
+const repris = new Set();
+for (const id of aEtirer) {
+  const p = plans[id];
+  if (!poses.has(id)) continue;
+  if (axe.length < 2 && p.chemin?.length) throw new Error(`${id} : « etirer » avec un chemin demande « chemin_actuel » en tête de ${path.basename(F_REPERES)}`);
+  const raccord = [];
+  for (const voisin of p.accroche || []) {
+    if (!repris.has(voisin) && plans[voisin]?.etirer) throw new Error(`${id} : la voisine « ${voisin} » doit être reprise avant elle`);
+    const ici = p.raccords?.[voisin], la = plans[voisin]?.raccords?.[id];
+    if (!ici || !la || !poses.has(voisin)) throw new Error(`${id} : pas de raccord utilisable avec « ${voisin} »`);
+    ici.forEach((px, i) => raccord.push([px, appliquer(poses.get(voisin), la[i])]));
+  }
+  poses.set(id, etirer(poses.get(id), {
+    repere: couplesDe(p.reperes, id).map((c) => [c.pixel, c.sol]),
+    chemin: p.chemin || [], raccord, axe, taille: [p.largeur, p.hauteur]
+  }));
+  repris.add(id);
+  methodes.set(id, `${methodes.get(id)}, puis étirée sur ${(p.reperes || []).length ? 'ses repères, ' : ''}son chemin et le chemin du Fleuve d'aujourd'hui` +
+    (raccord.length ? `, accrochée à la feuille ${p.accroche.map((v) => plans[v].feuillet).join(', ')}` : ''));
+}
+
 // ─── compte rendu ───────────────────────────────────────────────────────────
 const lignes = [];
 const dire = (t = '') => lignes.push(t);
@@ -162,13 +281,18 @@ for (const [id, p] of Object.entries(plans)) {
   if (!m) { avis.push(`${id} : méthode « ${p.methode} » inconnue — non posé`); continue; }
   coins.set(id, { nw: versTerre(appliquer(m, [0, 0])), ne: versTerre(appliquer(m, [p.largeur, 0])), sw: versTerre(appliquer(m, [0, p.hauteur])) });
   dire(`\n── feuille ${p.feuillet} (${id}) — ${methodes.get(id)}`);
-  dire(`   échelle ${echelleDe(m).toFixed(3)} m par pixel ; orientation ${rotationDe(m).toFixed(1)}°`);
+  if (estEtiree(m)) dire(`   échelles ${echelleX(m).toFixed(3)} (largeur) et ${echelleY(m).toFixed(3)} (hauteur) m par pixel ; axes à ${anglesAxes(m).toFixed(1)}° ; orientation ${rotationDe(m).toFixed(1)}°`);
+  else dire(`   échelle ${echelleDe(m).toFixed(3)} m par pixel ; orientation ${rotationDe(m).toFixed(1)}°`);
   const ecart = (c) => { const q = appliquer(m, c.pixel); return metres([q[0] - c.sol[0], q[1] - c.sol[1]]); };
   const rep = couplesDe(p.reperes, id);
   if (rep.length) {
     const e = rep.map(ecart);
     dire(`   repères : écart moyen ${(Math.sqrt(e.reduce((s, x) => s + x * x, 0) / e.length)).toFixed(0)} m, le pire ${Math.max(...e).toFixed(0)} m`);
     rep.forEach((c, i) => dire(`     ${String(e[i].toFixed(0)).padStart(4)} m  ${c.r.quoi} — ${c.r.lieu || 'point donné'}`));
+  }
+  if (p.etirer && p.chemin?.length && axe.length > 1) {
+    const e = p.chemin.map((px) => lePlusProche(appliquer(m, px), axe)).filter(Boolean).map((q) => q.dist * K0).sort((x, y) => x - y);
+    if (e.length) dire(`   chemin dessiné ↔ chemin du Fleuve d'aujourd'hui : ${e[Math.floor(e.length / 2)].toFixed(0)} m au milieu, le pire ${e[e.length - 1].toFixed(0)} m (${e.length} points sur ${p.chemin.length})`);
   }
   const ctl = couplesDe(p.controle, id);
   if (ctl.length) {

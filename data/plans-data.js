@@ -12,19 +12,19 @@ window.PLANS = {
       "annee": 1876,
       "fichier": "assets/plans/quebec-coves-1876-f12.jpg",
       "source": "Charles E. Goad, « Quebec Coves. South Shore », mars 1876, feuille 12. Plans d'assurance-incendie. BAnQ, Archives nationales à Québec, cote P600,S4,SS1,D67 — https://collections.banq.qc.ca/ark:/52327/3121049",
-      "note": "Calage provisoire, à confirmer. Posé sur trois repères de Patrick — l'église Saint-Romuald, la maison du curé Sax (n° 68) et la villa Atkinson (n° 142) —, justes à une vingtaine de mètres. Le long du chemin du Fleuve, vers l'ouest, le plan s'écarte jusqu'à 75 m : la feuille n'est pas dessinée à une échelle constante. D'autres maisons du chemin du Fleuve rattachées à leur numéro Goad le resserreront.",
+      "note": "Calage provisoire, à confirmer. Posé sur trois repères de Patrick — l'église Saint-Romuald, la maison du curé Sax (n° 68) et la villa Atkinson (n° 142) — et, depuis le 17 novembre 2026, étiré sur le chemin public qu'il dessine, posé sur le chemin du Fleuve d'aujourd'hui (à la demande de Patrick). Les repères tombent à 4 à 7 m (11 à 21 m auparavant), le chemin à 10 m au milieu, 30 m au pire (jusqu'à 75 m auparavant, vers l'ouest). C'est la feuille la plus déformée des quatre : 0,572 m par pixel dans sa largeur, 0,650 dans sa hauteur, axes à 93°. Ses distances et ses angles ne sont plus ceux du dessin. D'autres maisons du chemin du Fleuve rattachées à leur numéro Goad le resserreront.",
       "points": {
         "nw": {
-          "lat": 46.758868,
-          "lon": -71.24548
+          "lat": 46.759523,
+          "lon": -71.244943
         },
         "ne": {
-          "lat": 46.765454,
-          "lon": -71.232513
+          "lat": 46.76546,
+          "lon": -71.232691
         },
         "sw": {
-          "lat": 46.753436,
-          "lon": -71.239602
+          "lat": 46.753472,
+          "lon": -71.239424
         }
       },
       "opacite": 0.6,
@@ -36,19 +36,19 @@ window.PLANS = {
       "annee": 1876,
       "fichier": "assets/plans/quebec-coves-1876-f13.jpg",
       "source": "Charles E. Goad, « Quebec Coves. South Shore », mars 1876, feuille 13. Plans d'assurance-incendie. BAnQ, Archives nationales à Québec, cote P600,S4,SS1,D67 — https://collections.banq.qc.ca/ark:/52327/3121049",
-      "note": "Calage provisoire, à confirmer. Un seul repère : l'église anglicane de la côte Rouge ; l'échelle est celle de la feuille 14 et l'orientation vient de la flèche du nord. Autour de l'église le plan tombe juste — la côte Rouge, le chemin du Fleuve, l'éperon du manoir Longwood et le pied de la falaise se superposent à la carte d'aujourd'hui. Aux deux lisières il ne rejoint pas ses voisines à cent mètres près.",
+      "note": "Calage provisoire, à confirmer. Un seul repère : l'église anglicane de la côte Rouge (à 4 m). Depuis le 17 novembre 2026, la feuille est étirée sur le chemin public qu'elle dessine, posé sur le chemin du Fleuve d'aujourd'hui (à la demande de Patrick) : 9 m au milieu, 33 m au pire (14 et 45 m auparavant). Elle en sort plus petite que la feuille 14 — 0,641 m par pixel dans sa largeur, 0,639 dans sa hauteur, axes à 93° —, ce qui rejoint ce qu'on avait mesuré : le dessin est trop long entre New Liverpool et la côte Rouge. En revanche, le grand bâtiment de l'éperon du manoir Longwood, qui tombait à 27 m, tombe à 45 m. Aux lisières, elle ne rejoint pas ses voisines : 86 m avec la feuille 14, 50 m avec la feuille 12.",
       "points": {
         "nw": {
-          "lat": 46.754144,
-          "lon": -71.238418
+          "lat": 46.753995,
+          "lon": -71.2393
         },
         "ne": {
-          "lat": 46.747323,
-          "lon": -71.253664
+          "lat": 46.747611,
+          "lon": -71.2533
         },
         "sw": {
-          "lat": 46.76051,
-          "lon": -71.244485
+          "lat": 46.760004,
+          "lon": -71.244519
         }
       },
       "opacite": 0.6,
@@ -60,19 +60,19 @@ window.PLANS = {
       "annee": 1876,
       "fichier": "assets/plans/quebec-coves-1876-f14.jpg",
       "source": "Charles E. Goad, « Quebec Coves. South Shore », mars 1876, feuille 14. Plans d'assurance-incendie. BAnQ, Archives nationales à Québec, cote P600,S4,SS1,D67 — https://collections.banq.qc.ca/ark:/52327/3121049",
-      "note": "Calé sur quatorze maisons du village que Patrick a rattachées à leur numéro Goad (nos 14 à 35) : écart moyen de 7 m, le pire de 11 m. Les rues Saint-Damase et Saint-Vincent retombent sur les ruelles du plan. Loin du village le plan est moins sûr, surtout à sa lisière est (nos 1 à 9), où l'écart peut dépasser cent mètres : ces feuilles ne sont pas dessinées à une échelle constante.",
+      "note": "Calé sur quatorze maisons du village que Patrick a rattachées à leur numéro Goad (nos 14 à 35) : écart moyen de 7 m, le pire de 11 m. Les rues Saint-Damase et Saint-Vincent retombent sur les ruelles du plan. Depuis le 17 novembre 2026, la feuille est aussi étirée sur le chemin public qu'elle dessine, posé sur le chemin du Fleuve d'aujourd'hui (à la demande de Patrick) : cela ne la change presque pas — 0,692 m par pixel dans sa largeur, 0,706 dans sa hauteur, axes à 89°, 14 m de déplacement au plus. Loin du village le plan est moins sûr, surtout à sa lisière est (nos 1 à 9), où l'écart peut dépasser cent mètres : ces feuilles ne sont pas dessinées à une échelle constante.",
       "points": {
         "nw": {
-          "lat": 46.748352,
-          "lon": -71.250603
+          "lat": 46.748278,
+          "lon": -71.250533
         },
         "ne": {
-          "lat": 46.741535,
-          "lon": -71.265852
+          "lat": 46.74155,
+          "lon": -71.265796
         },
         "sw": {
-          "lat": 46.754788,
-          "lon": -71.256732
+          "lat": 46.754804,
+          "lon": -71.256809
         }
       },
       "opacite": 0.6,
@@ -84,19 +84,19 @@ window.PLANS = {
       "annee": 1876,
       "fichier": "assets/plans/quebec-coves-1876-f15.jpg",
       "source": "Charles E. Goad, « Quebec Coves. South Shore », mars 1876, feuille 15. Plans d'assurance-incendie. BAnQ, Archives nationales à Québec, cote P600,S4,SS1,D67 — https://collections.banq.qc.ca/ark:/52327/3121049",
-      "note": "Calage provisoire, à confirmer. Aucun repère sûr sur cette feuille : elle est accrochée à la feuille 14 par leur ligne de raccord, à la même échelle, orientée par sa flèche du nord. L'embouchure de la Chaudière a été remodelée (marina, remblais) et ne peut pas servir d'appui. Les lieux « … – Goad » de ce secteur, posés autrefois d'après un ancien calage, s'en écartent de 160 à 260 m.",
+      "note": "Calage provisoire, à confirmer. Aucun repère sûr sur cette feuille : elle est accrochée à la feuille 14 par leur ligne de raccord (2 m) et, depuis le 17 novembre 2026, étirée sur le chemin public qu'elle dessine, posé sur le chemin du Fleuve d'aujourd'hui (à la demande de Patrick) — sept points sur quatorze seulement, la route qui descendait à la Chaudière n'existant plus : 12 m au milieu, 19 m au pire. 0,653 m par pixel dans sa largeur, 0,650 dans sa hauteur, axes d'équerre. L'embouchure de la Chaudière a été remodelée (marina, remblais) et ne peut pas servir d'appui. Les lieux « … – Goad » de ce secteur, posés autrefois d'après un ancien calage, s'en écartent de 117 à 208 m.",
       "points": {
         "nw": {
-          "lat": 46.741895,
-          "lon": -71.264588
+          "lat": 46.742356,
+          "lon": -71.264613
         },
         "ne": {
-          "lat": 46.735313,
-          "lon": -71.280057
+          "lat": 46.735629,
+          "lon": -71.278632
         },
         "sw": {
-          "lat": 46.748419,
-          "lon": -71.270499
+          "lat": 46.748238,
+          "lon": -71.270635
         }
       },
       "opacite": 0.6,
