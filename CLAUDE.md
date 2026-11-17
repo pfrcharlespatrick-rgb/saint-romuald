@@ -241,14 +241,15 @@ dessin. Le même jour, il a demandé d'étirer ainsi les quatre feuilles Goad :
 `caler-plans.mjs` les reprend en affine (marque `etirer` dans
 `data/plans-reperes.json`) sur leurs repères et sur leur chemin public, posé
 sur l'axe du chemin du Fleuve d'aujourd'hui (`chemin_actuel`) — voir
-`docs/PLANS-ANCIENS.md`, « Les feuilles sont étirées ». La feuille 15 est
-posée comme Patrick l'a dicté (2026-11-17) : recalculée de zéro sur le quai,
-le chemin vers l'est, la crête du cap Anderson, le bord du fleuve et la berge
-de la Chaudière, étirée du double (0,37 et 0,71 m par pixel) ; ses coins sont
-écrits à la main, `caler-plans.mjs` les laisse — ne pas la recalculer sans le
-lui demander (`pose_dictee` dans `data/plans-reperes.json`). Un réglage aux
-poignées resté dans un navigateur masque la version publiée : le bouton
-« Revenir au plan publié » de l'atelier l'efface. Leurs notes, dans
+`docs/PLANS-ANCIENS.md`, « Les feuilles sont étirées ». Le même jour encore,
+il a demandé de les raccorder (« raccord serré ») : `raccords_tenus`, en tête
+de `data/plans-reperes.json`, fait calculer les quatre feuilles ensemble, et
+leurs lisières tombent sous 10 m — voir « Les feuilles sont raccordées ». La
+feuille 15 tient au quai (posé sur celui du plan de 1866), au chemin vers
+l'est, à la crête du cap Anderson, au bord du fleuve et à la berge de la
+Chaudière, appuis qu'il a désignés. Un réglage aux poignées resté dans un
+navigateur masque la version publiée : le bouton « Revenir au plan publié »
+de l'atelier l'efface. Leurs notes, dans
 `data/plans-data.js`, ne sont pas écrites par l'outil : les tenir à jour à
 la main après un recalcul.
 

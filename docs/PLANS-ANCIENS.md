@@ -42,10 +42,12 @@ et c'est ce qui avait fait échouer les calages de l'été 2026 :
   plateau n'intéressait pas l'assureur, il est esquissé.
 
 Une feuille, même étirée, se pose d'un seul tenant : elle ne peut pas être
-juste partout à la fois, et deux feuilles bien posées **ne se rejoignent pas
-forcément à leur lisière**. On a choisi la justesse près des repères et le
-long du chemin — là où sont les maisons qu'on cherche — plutôt qu'un raccord
-propre entre feuilles.
+juste partout à la fois. Calées chacune seule, deux feuilles voisines **ne se
+rejoignent pas à leur lisière** (50 à 180 m d'écart). Depuis le 17 novembre
+2026, à la demande de Patrick, elles sont **calculées ensemble et raccordées**
+(voir « Les feuilles sont raccordées », plus bas) : les lisières tombent sous
+10 m, au prix d'une dizaine de mètres de plus sur les repères de chaque
+feuille.
 
 ### Les feuilles sont étirées (17 novembre 2026)
 
@@ -72,67 +74,66 @@ d'équerre — ajustée sur :
 - **un rappel vers la similitude** (poids 0,3), pour qu'une feuille ne se
   déforme que là où les points l'y obligent.
 
-Aucune feuille n'est accrochée à ses voisines : on garde le principe de la
-justesse près des repères plutôt qu'aux lisières.
+Les feuilles ont ensuite été raccordées (voir plus bas).
 
-**La feuille 15 est calée sur le Bassin, non sur la feuille 14** (décision de
-Patrick, 17 novembre 2026 : « elles sont toutes bonnes sauf la feuille 15 qui
-tombe dans la Chaudière »). Raccordée à la 14, elle rétrécissait d'un tiers
-(0,54 et 0,46 m par pixel) et son Bassin ne couvrait que la moitié du vrai.
-Mis devant deux poses, Patrick a choisi celle-ci : deux repères — la pointe du
-cap à l'embouchure et le coin du Bassin où débouche le ruisseau, les mêmes que
-pour le plan de 1866 —, la rive est du Bassin et le chemin. Le prix : 252 m
-d'écart avec la feuille 14 à leur lisière commune, et l'anse Albert
-approximative.
+**La feuille 15 a demandé trois essais**, tous le 17 novembre 2026 :
 
-**Puis Patrick l'a réglée à la main, et la pose a été recalculée de zéro** (17
-novembre 2026). Il a demandé de continuer son réglage « en fonction du quai,
-du chemin du fleuve vers l'est et de la montagne », puis de reprendre sans
-tenir compte de son travail, en vérifiant aussi la crête, le bord du fleuve
-et celui de la Chaudière. Le calcul (affine, de plusieurs points de départ)
-retombe tout près de son réglage. La feuille tient à cinq choses :
+1. accrochée à la feuille 14 seule, elle rétrécissait d'un tiers et son
+   Bassin tombait à côté du vrai (« elles sont toutes bonnes sauf la feuille
+   15 qui tombe dans la Chaudière ») ;
+2. calée sur le Bassin seul (pointe du cap, coin du ruisseau, rive est), elle
+   ne rejoignait plus la 14 (252 m) ;
+3. Patrick l'a réglée aux poignées, puis a demandé de la reprendre de zéro sur
+   cinq choses : le quai dessiné à l'embouchure, posé sur le quai du plan de
+   1866 (pointe du Pont-Garneau) ; le chemin public vers l'est ; la crête de la
+   montagne, sur le haut de la falaise du cap Anderson (lisière haute du bois,
+   contrôlée sur le relief ombré) ; le bord du fleuve ; la berge est de la
+   Chaudière. Le calcul est retombé tout près de son réglage. Ces cinq appuis
+   sont ceux de la feuille aujourd'hui (`reperes`, `chemin` et `lignes` de la
+   feuille 15, `lignes_actuelles` en tête du fichier).
 
-| Ce qui est dessiné sur la feuille | Sur quoi c'est posé aujourd'hui | Écart |
-|---|---|---|
-| le quai à l'embouchure | le quai du plan de 1866, sur la pointe du Pont-Garneau | 6 m |
-| le chemin public, vers l'est | l'axe du chemin du Fleuve | 6 m |
-| la crête de la montagne | le haut de la falaise du cap Anderson (lisière haute du bois, contrôlée sur le relief ombré) | 24 m au milieu, 35 m au pire |
-| le bord du fleuve | la limite de l'eau sur OpenStreetMap | 15 m au milieu, 37 m au pire |
-| la berge est de la Chaudière | la limite de l'eau, de la pointe au coude du Bassin | 18 m au milieu, 42 m au pire |
-
-**Goad a dessiné la montagne trop près du chemin** : pour la porter sur la vraie
-crête, la feuille est étirée du double dans le sens de la pente (0,37 m par
-pixel en largeur, 0,71 en hauteur, axes à 81°). Moins étirée (0,47 et 0,56),
-la crête restait à 41 m ; Patrick a choisi de tout tenir. Ces coins sont
-écrits à la main dans `data/plans-data.js` : `caler-plans.mjs` les reconnaît
-comme réglés à la main et les laisse ; ce qui a servi à les calculer est gardé
-sous `pose_dictee` (feuille 15) et `lignes_actuelles` dans
-`data/plans-reperes.json`. Ne pas les recalculer (`--forcer`) sans le
-demander à Patrick.
+**Goad a dessiné la montagne trop près du chemin** : pour porter sa crête sur
+la vraie, la feuille 15 s'étire dans le sens de la pente (le rappel vers la
+similitude y est plus faible, `rappel: 0.05`, et la portée des lignes plus
+longue, `portee: 250`).
 
 Le réglage fait aux poignées reste dans le navigateur de Patrick et y masque
 la version publiée : le bouton **« Revenir au plan publié »**, sur la ligne du
 plan dans l'atelier de la carte, l'efface.
 
-| Feuille | Avant (similitude) | Étirée | Ce que ça change |
-|---|---|---|---|
-| 12 | 0,616 m par pixel ; repères à 11–21 m ; chemin à 18 m au milieu, 40 m au pire | 0,572 (largeur) et 0,650 (hauteur) m par pixel, axes à 93,3° ; repères à 4–7 m ; chemin à 10 m, 30 m au pire | nettement mieux : la feuille est la plus déformée des quatre |
-| 13 | 0,694 (échelle de la 14) ; église à 0 m (seul repère) ; chemin à 14 m, 45 m au pire ; manoir Longwood à 27 m | 0,641 et 0,639, axes à 92,9° ; église à 4 m ; chemin à 9 m, 33 m au pire ; **manoir Longwood à 45 m** | mieux le long du chemin, moins bien sur l'éperon |
-| 14 | 0,694 ; 14 maisons à 7 m en moyenne, 11 m au pire ; chemin à 12 m, 50 m au pire | 0,692 et 0,706, axes à 89,4° ; maisons à 7 m en moyenne, 11 m au pire ; chemin à 12 m, 49 m au pire | presque rien : elle bouge de 14 m au plus |
-| 15 | 0,694, accrochée à la 14 ; chemin à 6 m, 22 m au pire (6 points) ; son Bassin à côté du vrai | 0,731 et 0,754, axes à 84,5° ; pointe du cap à 15 m, coin du ruisseau à 11 m ; rive est du Bassin à 43 m au milieu ; chemin à 30 m, 69 m au pire | calée sur le Bassin à la demande de Patrick ; ne rejoint plus la 14 |
+### Les feuilles sont raccordées (17 novembre 2026)
 
-Aux lisières : 86 m entre la 14 et la 13 (133 m avant), 50 m entre la 13 et
-la 12 (76 m avant), 252 m entre la 14 et la 15 (0 m avant : elle y était
-accrochée).
+Patrick : « Ils ont fait pour s'emboîter l'une dans l'autre » ; « continuons
+en raccordant tous les Goad l'une avec l'autre ». Chaque feuille porte, à ses
+lisières, la ligne « See sheet No » et deux points de raccord (`raccords` dans
+`data/plans-reperes.json`). `raccords_tenus`, en tête du fichier, nomme les
+trois paires (14–13, 13–12, 14–15) : `caler-plans.mjs` calcule alors les quatre
+feuilles **ensemble** — chacune sur ses repères et ses lignes, comme avant — et
+chaque paire doit se rejoindre, avec le poids d'un repère. Mis devant un
+raccord souple (lisières à 10–25 m) et un raccord serré, Patrick a choisi le
+**raccord serré**.
 
-Ce que cela dit : **l'échelle n'est pas la même d'une feuille à l'autre.** On
-avait cru que les feuilles tenaient toutes 0,69 m par pixel ; mais celle de la
-feuille 13 n'avait jamais été mesurée — elle était prise à la 14, faute de
-second repère. Étirées sur le chemin, les feuilles 12 et 13 sortent plus
-petites que la 14 (0,57 à 0,65 m par pixel), ce qui rejoint ce qu'on avait vu
-aux lisières : le dessin est trop long entre New Liverpool et la côte Rouge.
-La feuille 15, calée sur le Bassin, sort au contraire un peu plus grande
-(0,73 à 0,75).
+| Feuille | Calée seule (étirée) | Raccordée |
+|---|---|---|
+| 12 | repères à 4–7 m ; chemin à 10 m au milieu | repères à 15–17 m ; chemin à 9 m au milieu, 24 m au pire ; 0,607 et 0,660 m par pixel |
+| 13 | église anglicane à 4 m ; chemin à 8 m ; manoir Longwood à 45 m | église à 15 m ; chemin à 11 m, 35 m au pire ; manoir Longwood à 56 m ; 0,610 et 0,635, axes à 97° — c'est elle qui se déforme le plus, prise entre la 12 et la 14 |
+| 14 | 14 maisons à 6 m en moyenne, 11 m au pire | maisons à 8 m en moyenne, 15 m au pire ; elle rétrécit d'environ 7 % (0,638 et 0,648) |
+| 15 | quai et chemin à 6 m ; crête à 24 m ; fleuve à 15 m ; Chaudière à 18 m | quai à 5 m ; chemin à 4 m ; crête à 37 m ; fleuve à 19 m ; Chaudière à 28 m ; 0,568 et 0,694, axes à 82° |
+
+Aux lisières : **9 m entre la 12 et la 13, 9 m entre la 13 et la 14, 3 m entre
+la 14 et la 15** (50, 86 et 179 m quand chaque feuille était calée seule).
+
+Pour revenir à des feuilles calées chacune seule, retirer `raccords_tenus` et
+relancer `caler-plans.mjs` ; pour un raccord plus souple, baisser son `poids`
+(4 = un repère ; 2 donnait des lisières à 10–25 m).
+
+Ce que cela dit : **l'échelle n'est pas tout à fait la même d'une feuille à
+l'autre.** On avait cru que les feuilles tenaient toutes 0,69 m par pixel ;
+mais celle de la feuille 13 n'avait jamais été mesurée — elle était prise à la
+14, faute de second repère. Raccordées, les quatre feuilles tiennent entre
+0,57 et 0,69 m par pixel : le dessin est un peu trop long entre New Liverpool
+et la côte Rouge, et l'est de la feuille 15 (la pente du cap) est dessiné
+plus court que nature.
 Ce qui tient toujours : la **flèche du nord**, à quelques degrés près.
 
 Une feuille étirée n'a plus ses distances ni ses angles d'origine : pour
@@ -142,10 +143,10 @@ mesurer, se servir de l'image et de son échelle, non de sa pose sur la carte.
 
 | Feuille | Ce qu'elle montre | Posée par | Justesse | Sur la carte publique |
 |---|---|---|---|---|
-| 12 | village d'Etchemin, église, moulins Atkinson, étangs | 3 repères : église Saint-Romuald, n° 68 (curé Sax), n° 142 (villa Atkinson), et son chemin ; étirée | 4 à 7 m aux repères ; chemin à 10 m au milieu ; 50 m au raccord ouest | non — atelier seulement |
-| 13 | anse Hamilton, anse de New Liverpool, côte Rouge | 1 repère : l'église anglicane, et son chemin ; étirée | église à 4 m ; chemin à 9 m au milieu ; éperon du manoir Longwood à 45 m ; 86 m au raccord ouest | non — atelier seulement |
-| 14 | village de New Liverpool, scierie Ritchie and Cull | 14 maisons du village, nos 14 à 35, et son chemin ; à peine étirée | **7 m en moyenne, 11 m au pire** ; incertaine à sa lisière est (nos 1 à 9) | **oui** |
-| 15 | anse Albert, bassin de la Chaudière | pose dictée par Patrick : quai, chemin vers l'est, crête de la montagne, bord du fleuve, berge de la Chaudière ; étirée du double | quai et chemin à 6 m ; crête à 24 m ; fleuve à 15 m ; Chaudière à 18 m ; ne rejoint pas la 14 | non — atelier seulement |
+| 12 | village d'Etchemin, église, moulins Atkinson, étangs | 3 repères : église Saint-Romuald, n° 68 (curé Sax), n° 142 (villa Atkinson), et son chemin ; étirée, raccordée à la 13 | 15 à 17 m aux repères ; chemin à 9 m au milieu ; 9 m au raccord | non — atelier seulement |
+| 13 | anse Hamilton, anse de New Liverpool, côte Rouge | 1 repère : l'église anglicane, et son chemin ; étirée, raccordée à la 12 et à la 14 | église à 15 m ; chemin à 11 m au milieu ; éperon du manoir Longwood à 56 m ; 9 m aux raccords | non — atelier seulement |
+| 14 | village de New Liverpool, scierie Ritchie and Cull | 14 maisons du village, nos 14 à 35, et son chemin ; étirée, raccordée à la 13 et à la 15 | **8 m en moyenne, 15 m au pire** ; incertaine à sa lisière est (nos 1 à 9) | **oui** |
+| 15 | anse Albert, bassin de la Chaudière | le quai, le chemin vers l'est, la crête du cap Anderson, le bord du fleuve, la berge de la Chaudière ; étirée, raccordée à la 14 | quai à 5 m ; chemin à 4 m ; crête à 37 m ; fleuve à 19 m ; Chaudière à 28 m ; 3 m au raccord | non — atelier seulement |
 
 Le fleuve est en bas des feuilles : le nord est donc vers le bas, la gauche vers
 l'aval. L'image de la feuille 12 est à l'envers ; cela ne change rien, les
