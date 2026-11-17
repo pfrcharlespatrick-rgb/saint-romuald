@@ -186,6 +186,13 @@ window.LX = (function () {
     return o[id];
   }
 
+  /* Efface le réglage local d'un plan : la carte reprend la version publiée. */
+  function oublierPlan(id) {
+    var o = plansOverlay();
+    delete o[id];
+    ecrire(CLE_PLANS, o);
+  }
+
   function chargerPlans() {
     var base = ((window.PLANS || {}).plans || []).map(function (p) { return JSON.parse(JSON.stringify(p)); });
     var o = plansOverlay();
@@ -450,6 +457,6 @@ window.LX = (function () {
     chargerMaisons: chargerMaisons, chercherMaisons: chercherMaisons,
     photosLocales: photosLocales, ajouterPhoto: ajouterPhoto, majPhoto: majPhoto, retirerPhoto: retirerPhoto,
     telecharger: telecharger, versFichierDonnees: versFichierDonnees,
-    chargerPlans: chargerPlans, majPlan: majPlan, plansOverlay: plansOverlay, versFichierPlans: versFichierPlans
+    chargerPlans: chargerPlans, majPlan: majPlan, oublierPlan: oublierPlan, plansOverlay: plansOverlay, versFichierPlans: versFichierPlans
   };
 })();

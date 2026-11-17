@@ -84,19 +84,19 @@ window.PLANS = {
       "annee": 1876,
       "fichier": "assets/plans/quebec-coves-1876-f15.jpg",
       "source": "Charles E. Goad, « Quebec Coves. South Shore », mars 1876, feuille 15. Plans d'assurance-incendie. BAnQ, Archives nationales à Québec, cote P600,S4,SS1,D67 — https://collections.banq.qc.ca/ark:/52327/3121049",
-      "note": "Calage provisoire, à confirmer. Patrick a demandé le 17 novembre 2026 de la caler sur le Bassin de la Chaudière, et non plus sur la feuille 14 : raccordée à sa voisine, elle rétrécissait d'un tiers et son Bassin tombait à côté du vrai. Elle tient maintenant à deux repères — la pointe du cap à l'embouchure (15 m) et le coin du Bassin où débouche le ruisseau (11 m) — et est étirée sur la rive est du Bassin (43 m au milieu, 58 m au pire) et sur le chemin public qu'elle dessine (30 m au milieu, 69 m au pire, 10 points sur 14). 0,731 m par pixel dans sa largeur, 0,754 dans sa hauteur, axes à 85° : ses distances et ses angles ne sont plus ceux du dessin. Son bord est ne rejoint plus la feuille 14 (252 m d'écart) : l'anse Albert et le chantier Ritchie and Cull restent approximatifs. Les lieux « … – Goad » de ce secteur s'en écartent de 8 à 57 m.",
+      "note": "Calage provisoire, à confirmer — feuille étirée, par décision de Patrick (17 novembre 2026). Patrick avait d'abord réglé la feuille aux poignées ; à sa demande, elle a été recalculée de zéro sur cinq choses : le quai dessiné à l'embouchure, posé sur le quai du plan de 1866 (pointe du Pont-Garneau) ; le chemin public vers l'est, sur le chemin du Fleuve ; la crête de la montagne, sur le haut de la falaise boisée du cap Anderson (vérifiée sur le relief) ; le bord du fleuve ; et la berge est de la Chaudière. Le calcul retombe tout près du réglage de Patrick. Ainsi posée : quai à 6 m, chemin à 6 m, crête à 24 m au milieu (35 m au pire), bord du fleuve à 15 m, berge de la Chaudière à 18 m. Goad a dessiné la montagne trop près du chemin : pour l'amener sur la vraie crête, la feuille est étirée du double dans le sens de la pente — 0,37 m par pixel dans sa largeur, 0,71 dans sa hauteur, axes à 81°. Ses distances et ses angles ne sont plus ceux du dessin : pour mesurer, se servir de l'image. Elle ne rejoint pas la feuille 14 à leur lisière commune. Pose dictée : outils/lieux/caler-plans.mjs la laisse telle quelle (voir docs/PLANS-ANCIENS.md).",
       "points": {
         "nw": {
-          "lat": 46.742374,
-          "lon": -71.26086
+          "lat": 46.74158,
+          "lon": -71.265727
         },
         "ne": {
-          "lat": 46.736108,
-          "lon": -71.27771
+          "lat": 46.737807,
+          "lon": -71.273573
         },
         "sw": {
-          "lat": 46.749286,
-          "lon": -71.267656
+          "lat": 46.747274,
+          "lon": -71.273663
         }
       },
       "opacite": 0.6,
