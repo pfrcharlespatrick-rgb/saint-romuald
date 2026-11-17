@@ -12,19 +12,19 @@ window.PLANS = {
       "annee": 1876,
       "fichier": "assets/plans/quebec-coves-1876-f12.jpg",
       "source": "Charles E. Goad, « Quebec Coves. South Shore », mars 1876, feuille 12. Plans d'assurance-incendie. BAnQ, Archives nationales à Québec, cote P600,S4,SS1,D67 — https://collections.banq.qc.ca/ark:/52327/3121049",
-      "note": "Calage provisoire, à confirmer. Posé sur trois repères de Patrick — l'église Saint-Romuald, la maison du curé Sax (n° 68) et la villa Atkinson (n° 142) — et, depuis le 17 novembre 2026, étiré sur le chemin public qu'il dessine, posé sur le chemin du Fleuve d'aujourd'hui (à la demande de Patrick). Les repères tombent à 4 à 7 m (11 à 21 m auparavant), le chemin à 10 m au milieu, 30 m au pire (jusqu'à 75 m auparavant, vers l'ouest). C'est la feuille la plus déformée des quatre : 0,572 m par pixel dans sa largeur, 0,650 dans sa hauteur, axes à 93°. Ses distances et ses angles ne sont plus ceux du dessin. D'autres maisons du chemin du Fleuve rattachées à leur numéro Goad le resserreront.",
+      "note": "Calage provisoire, à confirmer. Posé sur trois repères de Patrick — l'église Saint-Romuald, la maison du curé Sax (n° 68) et la villa Atkinson (n° 142) — et étiré sur le chemin public qu'il dessine, posé sur le chemin du Fleuve d'aujourd'hui (à la demande de Patrick). Depuis le 17 novembre 2026, les quatre feuilles Goad sont calculées ensemble et raccordées à leurs lisières (« raccord serré », décision de Patrick) : 9 m entre les feuilles 12 et 13, 9 m entre 13 et 14, 3 m entre 14 et 15. Raccordée à la feuille 13, elle s'éloigne un peu de ses repères : 15 à 17 m (4 à 7 m quand elle était calée seule) ; le chemin tombe à 9 m au milieu, 24 m au pire. 0,607 m par pixel dans sa largeur, 0,660 dans sa hauteur, axes d'équerre. Ses distances et ses angles ne sont plus ceux du dessin. D'autres maisons du chemin du Fleuve rattachées à leur numéro Goad la resserreront.",
       "points": {
         "nw": {
-          "lat": 46.759523,
-          "lon": -71.244943
+          "lat": 46.759389,
+          "lon": -71.245673
         },
         "ne": {
-          "lat": 46.76546,
-          "lon": -71.232691
+          "lat": 46.765514,
+          "lon": -71.232494
         },
         "sw": {
-          "lat": 46.753472,
-          "lon": -71.239424
+          "lat": 46.753395,
+          "lon": -71.239722
         }
       },
       "opacite": 0.6,
@@ -36,19 +36,19 @@ window.PLANS = {
       "annee": 1876,
       "fichier": "assets/plans/quebec-coves-1876-f13.jpg",
       "source": "Charles E. Goad, « Quebec Coves. South Shore », mars 1876, feuille 13. Plans d'assurance-incendie. BAnQ, Archives nationales à Québec, cote P600,S4,SS1,D67 — https://collections.banq.qc.ca/ark:/52327/3121049",
-      "note": "Calage provisoire, à confirmer. Un seul repère : l'église anglicane de la côte Rouge (à 4 m). Depuis le 17 novembre 2026, la feuille est étirée sur le chemin public qu'elle dessine, posé sur le chemin du Fleuve d'aujourd'hui (à la demande de Patrick) : 9 m au milieu, 33 m au pire (14 et 45 m auparavant). Elle en sort plus petite que la feuille 14 — 0,641 m par pixel dans sa largeur, 0,639 dans sa hauteur, axes à 93° —, ce qui rejoint ce qu'on avait mesuré : le dessin est trop long entre New Liverpool et la côte Rouge. En revanche, le grand bâtiment de l'éperon du manoir Longwood, qui tombait à 27 m, tombe à 45 m. Aux lisières, elle ne rejoint pas ses voisines : 86 m avec la feuille 14, 50 m avec la feuille 12.",
+      "note": "Calage provisoire, à confirmer. Un seul repère : l'église anglicane de la côte Rouge ; la feuille est étirée sur le chemin public qu'elle dessine, posé sur le chemin du Fleuve d'aujourd'hui (à la demande de Patrick). Depuis le 17 novembre 2026, les quatre feuilles Goad sont calculées ensemble et raccordées à leurs lisières (« raccord serré », décision de Patrick) : 9 m entre les feuilles 12 et 13, 9 m entre 13 et 14, 3 m entre 14 et 15. Prise entre les feuilles 12 et 14, c'est elle qui se déforme le plus : 0,610 m par pixel dans sa largeur, 0,635 dans sa hauteur, axes à 97°. L'église tombe à 15 m (4 m quand la feuille était calée seule), le chemin à 11 m au milieu, 35 m au pire, et le grand bâtiment de l'éperon du manoir Longwood à 56 m. Ses distances et ses angles ne sont plus ceux du dessin.",
       "points": {
         "nw": {
-          "lat": 46.753995,
-          "lon": -71.2393
+          "lat": 46.753735,
+          "lon": -71.239706
         },
         "ne": {
-          "lat": 46.747611,
-          "lon": -71.2533
+          "lat": 46.747772,
+          "lon": -71.253135
         },
         "sw": {
-          "lat": 46.760004,
-          "lon": -71.244519
+          "lat": 46.760012,
+          "lon": -71.244064
         }
       },
       "opacite": 0.6,
@@ -60,19 +60,19 @@ window.PLANS = {
       "annee": 1876,
       "fichier": "assets/plans/quebec-coves-1876-f14.jpg",
       "source": "Charles E. Goad, « Quebec Coves. South Shore », mars 1876, feuille 14. Plans d'assurance-incendie. BAnQ, Archives nationales à Québec, cote P600,S4,SS1,D67 — https://collections.banq.qc.ca/ark:/52327/3121049",
-      "note": "Calé sur quatorze maisons du village que Patrick a rattachées à leur numéro Goad (nos 14 à 35) : écart moyen de 7 m, le pire de 11 m. Les rues Saint-Damase et Saint-Vincent retombent sur les ruelles du plan. Depuis le 17 novembre 2026, la feuille est aussi étirée sur le chemin public qu'elle dessine, posé sur le chemin du Fleuve d'aujourd'hui (à la demande de Patrick) : cela ne la change presque pas — 0,692 m par pixel dans sa largeur, 0,706 dans sa hauteur, axes à 89°, 14 m de déplacement au plus. Loin du village le plan est moins sûr, surtout à sa lisière est (nos 1 à 9), où l'écart peut dépasser cent mètres : ces feuilles ne sont pas dessinées à une échelle constante.",
+      "note": "Calée sur quatorze maisons du village que Patrick a rattachées à leur numéro Goad (nos 14 à 35), et étirée sur le chemin public qu'elle dessine, posé sur le chemin du Fleuve d'aujourd'hui (à la demande de Patrick). Depuis le 17 novembre 2026, les quatre feuilles Goad sont calculées ensemble et raccordées à leurs lisières (« raccord serré », décision de Patrick) : 9 m entre les feuilles 12 et 13, 9 m entre 13 et 14, 3 m entre 14 et 15. Raccordée à ses deux voisines, elle rétrécit d'environ 7 % (0,638 m par pixel dans sa largeur, 0,648 dans sa hauteur, axes à 92°), mais ses maisons restent à 8 m en moyenne, 15 m au pire ; les rues Saint-Damase et Saint-Vincent retombent sur les ruelles du plan. Loin du village le plan est moins sûr, surtout à sa lisière est (nos 1 à 9), où l'écart dépasse cent mètres.",
       "points": {
         "nw": {
-          "lat": 46.748278,
-          "lon": -71.250533
+          "lat": 46.748304,
+          "lon": -71.251347
         },
         "ne": {
-          "lat": 46.74155,
-          "lon": -71.265796
+          "lat": 46.74197,
+          "lon": -71.265295
         },
         "sw": {
-          "lat": 46.754804,
-          "lon": -71.256809
+          "lat": 46.754419,
+          "lon": -71.256807
         }
       },
       "opacite": 0.6,
@@ -84,19 +84,19 @@ window.PLANS = {
       "annee": 1876,
       "fichier": "assets/plans/quebec-coves-1876-f15.jpg",
       "source": "Charles E. Goad, « Quebec Coves. South Shore », mars 1876, feuille 15. Plans d'assurance-incendie. BAnQ, Archives nationales à Québec, cote P600,S4,SS1,D67 — https://collections.banq.qc.ca/ark:/52327/3121049",
-      "note": "Calage provisoire, à confirmer — feuille étirée, par décision de Patrick (17 novembre 2026). Patrick avait d'abord réglé la feuille aux poignées ; à sa demande, elle a été recalculée de zéro sur cinq choses : le quai dessiné à l'embouchure, posé sur le quai du plan de 1866 (pointe du Pont-Garneau) ; le chemin public vers l'est, sur le chemin du Fleuve ; la crête de la montagne, sur le haut de la falaise boisée du cap Anderson (vérifiée sur le relief) ; le bord du fleuve ; et la berge est de la Chaudière. Le calcul retombe tout près du réglage de Patrick. Ainsi posée : quai à 6 m, chemin à 6 m, crête à 24 m au milieu (35 m au pire), bord du fleuve à 15 m, berge de la Chaudière à 18 m. Goad a dessiné la montagne trop près du chemin : pour l'amener sur la vraie crête, la feuille est étirée du double dans le sens de la pente — 0,37 m par pixel dans sa largeur, 0,71 dans sa hauteur, axes à 81°. Ses distances et ses angles ne sont plus ceux du dessin : pour mesurer, se servir de l'image. Elle ne rejoint pas la feuille 14 à leur lisière commune. Pose dictée : outils/lieux/caler-plans.mjs la laisse telle quelle (voir docs/PLANS-ANCIENS.md).",
+      "note": "Calage provisoire, à confirmer — feuille étirée. Patrick l'a d'abord réglée à la main, puis a demandé de la poser sur cinq choses : le quai dessiné à l'embouchure, sur le quai du plan de 1866 (pointe du Pont-Garneau) ; le chemin public vers l'est, sur le chemin du Fleuve ; la crête de la montagne, sur le haut de la falaise du cap Anderson ; le bord du fleuve ; la berge est de la Chaudière. Depuis le 17 novembre 2026, les quatre feuilles Goad sont calculées ensemble et raccordées à leurs lisières (« raccord serré », décision de Patrick) : 9 m entre les feuilles 12 et 13, 9 m entre 13 et 14, 3 m entre 14 et 15. Raccordée à la feuille 14 : quai à 5 m, chemin à 4 m, bord du fleuve à 19 m, berge de la Chaudière à 28 m, crête à 37 m au milieu (24 m quand la feuille était calée seule : Goad a dessiné la montagne trop près du chemin). 0,568 m par pixel dans sa largeur, 0,694 dans sa hauteur, axes à 82°. Ses distances et ses angles ne sont plus ceux du dessin. Les lieux « … – Goad » de ce secteur s'en écartent de 30 à 43 m (96 m pour le n° 15).",
       "points": {
         "nw": {
-          "lat": 46.74158,
-          "lon": -71.265727
+          "lat": 46.74242,
+          "lon": -71.263053
         },
         "ne": {
-          "lat": 46.737807,
-          "lon": -71.273573
+          "lat": 46.737124,
+          "lon": -71.275784
         },
         "sw": {
-          "lat": 46.747274,
-          "lon": -71.273663
+          "lat": 46.748337,
+          "lon": -71.270176
         }
       },
       "opacite": 0.6,

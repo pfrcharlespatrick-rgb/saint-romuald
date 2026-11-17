@@ -574,6 +574,24 @@
       ]
     }
   },
+  "raccords_tenus": {
+    "note": "Les feuilles se rejoignent à leurs lisières (ligne « See sheet No ») : décision de Patrick, 2026-11-17 (« raccord serré »). Les feuilles marquées « etirer » sont alors calculées ensemble, chacune sur ses repères et ses lignes, et chaque paire nommée ici doit se rejoindre (poids donné, comme un repère). Retirer cette clé pour revenir à des feuilles calées chacune seule.",
+    "poids": 4,
+    "paires": [
+      [
+        "quebec-coves-1876-f14",
+        "quebec-coves-1876-f13"
+      ],
+      [
+        "quebec-coves-1876-f13",
+        "quebec-coves-1876-f12"
+      ],
+      [
+        "quebec-coves-1876-f14",
+        "quebec-coves-1876-f15"
+      ]
+    ]
+  },
   "plans": {
     "quebec-coves-1876-f14": {
       "feuillet": "14",
@@ -711,16 +729,16 @@
       },
       "calcul": {
         "nw": {
-          "lat": 46.748278,
-          "lon": -71.250533
+          "lat": 46.748304,
+          "lon": -71.251347
         },
         "ne": {
-          "lat": 46.74155,
-          "lon": -71.265796
+          "lat": 46.74197,
+          "lon": -71.265295
         },
         "sw": {
-          "lat": 46.754804,
-          "lon": -71.256809
+          "lat": 46.754419,
+          "lon": -71.256807
         }
       },
       "etirer": true,
@@ -833,16 +851,16 @@
       },
       "calcul": {
         "nw": {
-          "lat": 46.753995,
-          "lon": -71.2393
+          "lat": 46.753735,
+          "lon": -71.239706
         },
         "ne": {
-          "lat": 46.747611,
-          "lon": -71.2533
+          "lat": 46.747772,
+          "lon": -71.253135
         },
         "sw": {
-          "lat": 46.760004,
-          "lon": -71.244519
+          "lat": 46.760012,
+          "lon": -71.244064
         }
       },
       "etirer": true,
@@ -978,16 +996,16 @@
       },
       "calcul": {
         "nw": {
-          "lat": 46.759523,
-          "lon": -71.244943
+          "lat": 46.759389,
+          "lon": -71.245673
         },
         "ne": {
-          "lat": 46.76546,
-          "lon": -71.232691
+          "lat": 46.765514,
+          "lon": -71.232494
         },
         "sw": {
-          "lat": 46.753472,
-          "lon": -71.239424
+          "lat": 46.753395,
+          "lon": -71.239722
         }
       },
       "etirer": true,
@@ -1047,18 +1065,11 @@
       "voisin": "quebec-coves-1876-f14",
       "reperes": [
         {
-          "x": 1372,
-          "y": 752,
-          "lat": 46.742313,
-          "lon": -71.27676,
-          "quoi": "pointe du cap, à l'embouchure de la Chaudière — le nez de la falaise, lu sur la carte topographique (le même point que pour le plan de 1866)"
-        },
-        {
-          "x": 1090,
-          "y": 186,
-          "lat": 46.739905,
-          "lon": -71.271068,
-          "quoi": "coin du Bassin où débouche le ruisseau, au bout sud de la rive est — lu sur la carte topographique (le même point que pour le plan de 1866)"
+          "x": 1342.6,
+          "y": 946,
+          "lat": 46.743367,
+          "lon": -71.277098,
+          "quoi": "le quai à l'embouchure — posé sur le quai du plan de 1866 (pointe du Pont-Garneau), repère choisi par Patrick"
         }
       ],
       "controle": [
@@ -1113,16 +1124,16 @@
       },
       "calcul": {
         "nw": {
-          "lat": 46.742374,
-          "lon": -71.26086
+          "lat": 46.74242,
+          "lon": -71.263053
         },
         "ne": {
-          "lat": 46.736108,
-          "lon": -71.27771
+          "lat": 46.737124,
+          "lon": -71.275784
         },
         "sw": {
-          "lat": 46.749286,
-          "lon": -71.267656
+          "lat": 46.748337,
+          "lon": -71.270176
         }
       },
       "etirer": true,
@@ -1146,46 +1157,110 @@
         [
           673,
           798
-        ],
-        [
-          818,
-          841
-        ],
-        [
-          955,
-          886
-        ],
-        [
-          1041,
-          895
-        ],
-        [
-          1114,
-          914
-        ],
-        [
-          1177,
-          900
-        ],
-        [
-          1250,
-          864
-        ],
-        [
-          1314,
-          823
-        ],
-        [
-          1377,
-          777
-        ],
-        [
-          1395,
-          764
         ]
       ],
       "lignes": {
-        "rive-est-du-bassin": [
+        "crete-cap-anderson": [
+          [
+            40,
+            538
+          ],
+          [
+            100,
+            560
+          ],
+          [
+            200,
+            590
+          ],
+          [
+            300,
+            615
+          ],
+          [
+            400,
+            638
+          ],
+          [
+            500,
+            660
+          ],
+          [
+            600,
+            690
+          ],
+          [
+            700,
+            712
+          ],
+          [
+            800,
+            718
+          ],
+          [
+            870,
+            718
+          ]
+        ],
+        "bord-du-fleuve-cap-anderson": [
+          [
+            91,
+            786
+          ],
+          [
+            175,
+            781
+          ],
+          [
+            250,
+            797
+          ],
+          [
+            300,
+            809
+          ],
+          [
+            375,
+            825
+          ],
+          [
+            438,
+            830
+          ],
+          [
+            500,
+            834
+          ],
+          [
+            550,
+            833
+          ],
+          [
+            594,
+            841
+          ],
+          [
+            644,
+            850
+          ],
+          [
+            756,
+            841
+          ],
+          [
+            806,
+            846
+          ],
+          [
+            856,
+            858
+          ],
+          [
+            900,
+            872
+          ]
+        ],
+        "berge-est-chaudiere": [
           [
             1386,
             734
@@ -1236,230 +1311,8 @@
           ]
         ]
       },
-      "pose_dictee": {
-        "date": "2026-11-17",
-        "note": "Pose demandée par Patrick : recalculée de zéro, étirée, sur le quai, le chemin vers l'est, la crête, le bord du fleuve et la berge de la Chaudière. Les coins sont écrits à la main dans data/plans-data.js ; caler-plans.mjs les reconnaît comme réglés à la main et les laisse. Ne pas les recalculer (--forcer) sans le lui demander.",
-        "quai": {
-          "pixels": [
-            [
-              1322,
-              909
-            ],
-            [
-              1375,
-              916
-            ],
-            [
-              1400,
-              934
-            ],
-            [
-              1341,
-              1009
-            ],
-            [
-              1275,
-              962
-            ]
-          ],
-          "sur": "le quai du plan de 1866 (embouchure-chaudiere-1866), posé sur la pointe du Pont-Garneau"
-        },
-        "lignes": {
-          "chemin vers l'est": [
-            [
-              36,
-              733
-            ],
-            [
-              227,
-              745
-            ],
-            [
-              445,
-              748
-            ],
-            [
-              564,
-              773
-            ],
-            [
-              673,
-              798
-            ]
-          ],
-          "crete-cap-anderson": [
-            [
-              40,
-              538
-            ],
-            [
-              100,
-              560
-            ],
-            [
-              200,
-              590
-            ],
-            [
-              300,
-              615
-            ],
-            [
-              400,
-              638
-            ],
-            [
-              500,
-              660
-            ],
-            [
-              600,
-              690
-            ],
-            [
-              700,
-              712
-            ],
-            [
-              800,
-              718
-            ],
-            [
-              870,
-              718
-            ]
-          ],
-          "bord-du-fleuve-cap-anderson": [
-            [
-              91,
-              786
-            ],
-            [
-              175,
-              781
-            ],
-            [
-              250,
-              797
-            ],
-            [
-              300,
-              809
-            ],
-            [
-              375,
-              825
-            ],
-            [
-              438,
-              830
-            ],
-            [
-              500,
-              834
-            ],
-            [
-              550,
-              833
-            ],
-            [
-              594,
-              841
-            ],
-            [
-              644,
-              850
-            ],
-            [
-              756,
-              841
-            ],
-            [
-              806,
-              846
-            ],
-            [
-              856,
-              858
-            ],
-            [
-              900,
-              872
-            ]
-          ],
-          "berge-est-chaudiere": [
-            [
-              1386,
-              734
-            ],
-            [
-              1371,
-              677
-            ],
-            [
-              1357,
-              620
-            ],
-            [
-              1336,
-              577
-            ],
-            [
-              1314,
-              534
-            ],
-            [
-              1286,
-              499
-            ],
-            [
-              1250,
-              441
-            ],
-            [
-              1229,
-              384
-            ],
-            [
-              1204,
-              356
-            ],
-            [
-              1150,
-              309
-            ],
-            [
-              1107,
-              263
-            ],
-            [
-              1079,
-              188
-            ]
-          ]
-        },
-        "ecarts": {
-          "quai": 6,
-          "chemin": 6,
-          "crete": [
-            24,
-            35
-          ],
-          "bord du fleuve": [
-            15,
-            37
-          ],
-          "berge de la Chaudière": [
-            18,
-            42
-          ]
-        },
-        "echelles": [
-          0.366,
-          0.712
-        ],
-        "axes": 81.4
-      }
+      "rappel": 0.05,
+      "portee": 250
     }
   }
 }

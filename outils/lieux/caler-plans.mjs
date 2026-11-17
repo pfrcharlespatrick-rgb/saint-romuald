@@ -37,8 +37,13 @@
 //     (« lignes », pixels ↔ « lignes_actuelles », même nom), traitées comme le
 //     chemin — ainsi la rive est du Grand Bassin pour la feuille 15 ;
 //   - le raccord avec les voisines qu'elle nomme dans « accroche » (poids 2) ;
-//   - un rappel vers la similitude (poids 0,3), pour que la feuille ne se
-//     déforme que là où les points l'y obligent.
+//   - un rappel vers la similitude (poids 0,3, ou « rappel » sur la feuille),
+//     pour que la feuille ne se déforme que là où les points l'y obligent.
+//
+// Si le fichier des repères porte « raccords_tenus » (décision de Patrick,
+// 2026-11-17), les feuilles à étirer sont calculées ensemble plutôt qu'une à
+// une : chacune garde ses repères et ses lignes, et chaque paire nommée doit
+// se rejoindre à sa lisière, sur les points « raccords » des deux feuilles.
 //
 // Ce que le programme dit, et qu'il faut lire : l'écart de chaque repère, celui
 // des points de contrôle (des lieux qu'on n'a pas voulu faire peser — douteux,
@@ -158,7 +163,61 @@ function lePlusProche(p, axe) {
 }
 
 const POIDS = { repere: 4, chemin: 1, raccord: 2, similitude: 0.3 };
-const PORTEE = 150 / K0;   // un point du chemin à plus de 150 m de l'axe actuel ne compte pas
+const PORTEE = 150 / K0;   // un point du chemin à plus de 150 m de l'axe actuel ne compte pas (« portee » sur la feuille pour changer)
+
+/**
+ * Reprend ensemble les poses de plusieurs feuilles, en affine, et tient leurs
+ * raccords : chaque feuille { depart, repere, lignes, taille, rappel, portee },
+ * chaque raccord [i, pixelI, j, pixelJ] veut appliquer(Mi, pixelI) = appliquer(Mj, pixelJ).
+ */
+function etirerEnsemble(feuilles, raccords, poidsRaccord) {
+  const n = feuilles.length, N = 6 * n;
+  const ctr = feuilles.map((f) => {
+    const pc = [f.taille[0] / 2, f.taille[1] / 2];
+    return { pc, o: appliquer(f.depart, pc), L: Math.max(...f.taille) };
+  });
+  let ms = feuilles.map((f) => f.depart);
+  for (let tour = 0; tour < 60; tour++) {
+    const A = Array.from({ length: N }, () => new Array(N).fill(0)), y = new Array(N).fill(0);
+    const ajouter = (termes, cible, w) => {
+      for (const [i, vi] of termes) {
+        y[i] += w * w * vi * cible;
+        for (const [j, vj] of termes) A[i][j] += w * w * vi * vj;
+      }
+    };
+    const observer = (k, px, sol, w) => {
+      const { pc, o } = ctr[k], dx = px[0] - pc[0], dy = px[1] - pc[1], b = 6 * k;
+      ajouter([[b, dx], [b + 1, dy], [b + 2, 1]], sol[0] - o[0], w);
+      ajouter([[b + 3, dx], [b + 4, dy], [b + 5, 1]], sol[1] - o[1], w);
+    };
+    feuilles.forEach((f, k) => {
+      for (const [px, sol] of f.repere) observer(k, px, sol, POIDS.repere);
+      for (const { pixels, axe: ligne } of f.lignes) {
+        for (const px of pixels) {
+          const p = lePlusProche(appliquer(ms[k], px), ligne);
+          if (p && p.dist < f.portee) observer(k, px, p.q, POIDS.chemin);
+        }
+      }
+      const b = 6 * k, L = ctr[k].L;
+      ajouter([[b, L], [b + 4, -L]], 0, f.rappel);   // a = d
+      ajouter([[b + 1, L], [b + 3, L]], 0, f.rappel); // b = −c
+    });
+    for (const [i, pi, j, pj] of raccords) {
+      const ci = ctr[i], cj = ctr[j];
+      const di = [pi[0] - ci.pc[0], pi[1] - ci.pc[1]], dj = [pj[0] - cj.pc[0], pj[1] - cj.pc[1]];
+      for (const c of [0, 1]) {
+        ajouter([[6 * i + 3 * c, di[0]], [6 * i + 3 * c + 1, di[1]], [6 * i + 3 * c + 2, 1],
+          [6 * j + 3 * c, -dj[0]], [6 * j + 3 * c + 1, -dj[1]], [6 * j + 3 * c + 2, -1]], cj.o[c] - ci.o[c], poidsRaccord);
+      }
+    }
+    const x = resoudre(A, y);
+    ms = feuilles.map((f, k) => {
+      const [a, b, t1, c, d, t2] = x.slice(6 * k, 6 * k + 6), { pc, o } = ctr[k];
+      return { a, b, c, d, tx: o[0] + t1 - (a * pc[0] + b * pc[1]), ty: o[1] + t2 - (c * pc[0] + d * pc[1]) };
+    });
+  }
+  return ms;
+}
 
 /** Reprend une pose en affine : repères, lignes dessinées ↔ lignes actuelles, raccords. */
 function etirer(depart, { repere, lignes, raccord, taille }) {
@@ -268,7 +327,35 @@ function lignesDe(id) {
 const aEtirer = Object.keys(plans).filter((id) => plans[id].etirer);
 aEtirer.sort((x, y) => (x === ref ? -1 : y === ref ? 1 : 0));
 const repris = new Set();
-for (const id of aEtirer) {
+const tenus = reperes.raccords_tenus;
+if (tenus?.paires?.length) {
+  // Toutes les feuilles à étirer, ensemble, raccords tenus.
+  const ids = aEtirer.filter((id) => poses.has(id));
+  const rang = new Map(ids.map((id, k) => [id, k]));
+  const feuilles = ids.map((id) => {
+    const p = plans[id];
+    if (axe.length < 2 && p.chemin?.length) throw new Error(`${id} : « etirer » avec un chemin demande « chemin_actuel » en tête de ${path.basename(F_REPERES)}`);
+    return {
+      depart: poses.get(id), repere: couplesDe(p.reperes, id).map((c) => [c.pixel, c.sol]), lignes: lignesDe(id),
+      taille: [p.largeur, p.hauteur], rappel: p.rappel ?? POIDS.similitude, portee: p.portee ? p.portee / K0 : PORTEE
+    };
+  });
+  const raccords = [];
+  for (const [a, b] of tenus.paires) {
+    if (!rang.has(a) || !rang.has(b)) throw new Error(`raccords_tenus : « ${a} » et « ${b} » doivent être deux feuilles à étirer`);
+    const ici = plans[a].raccords?.[b], la = plans[b].raccords?.[a];
+    if (!ici || !la || ici.length !== la.length) throw new Error(`raccords_tenus : pas de raccord utilisable entre « ${a} » et « ${b} »`);
+    ici.forEach((px, k) => raccords.push([rang.get(a), px, rang.get(b), la[k]]));
+  }
+  const ms = etirerEnsemble(feuilles, raccords, tenus.poids ?? POIDS.repere);
+  ids.forEach((id, k) => {
+    poses.set(id, ms[k]);
+    const p = plans[id], voisines = tenus.paires.filter((x) => x.includes(id)).map((x) => plans[x[0] === id ? x[1] : x[0]].feuillet);
+    methodes.set(id, `${methodes.get(id)}, puis étirée sur ${(p.reperes || []).length ? 'ses repères et ' : ''}${feuilles[k].lignes.map((l) => l.nom).join(', ')}` +
+      `, calculée avec ses voisines et raccordée à la feuille ${voisines.join(' et ')}`);
+  });
+}
+for (const id of tenus?.paires?.length ? [] : aEtirer) {
   const p = plans[id];
   if (!poses.has(id)) continue;
   if (axe.length < 2 && p.chemin?.length) throw new Error(`${id} : « etirer » avec un chemin demande « chemin_actuel » en tête de ${path.basename(F_REPERES)}`);
