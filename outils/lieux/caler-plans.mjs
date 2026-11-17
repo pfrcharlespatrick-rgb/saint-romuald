@@ -168,9 +168,9 @@ const PORTEE = 150 / K0;   // un point du chemin à plus de 150 m de l'axe actue
 /**
  * Reprend ensemble les poses de plusieurs feuilles, en affine, et tient leurs
  * raccords : chaque feuille { depart, repere, lignes, taille, rappel, portee },
- * chaque raccord [i, pixelI, j, pixelJ] veut appliquer(Mi, pixelI) = appliquer(Mj, pixelJ).
+ * chaque raccord [i, pixelI, j, pixelJ, poids] veut appliquer(Mi, pixelI) = appliquer(Mj, pixelJ).
  */
-function etirerEnsemble(feuilles, raccords, poidsRaccord) {
+function etirerEnsemble(feuilles, raccords) {
   const n = feuilles.length, N = 6 * n;
   const ctr = feuilles.map((f) => {
     const pc = [f.taille[0] / 2, f.taille[1] / 2];
@@ -202,7 +202,7 @@ function etirerEnsemble(feuilles, raccords, poidsRaccord) {
       ajouter([[b, L], [b + 4, -L]], 0, f.rappel);   // a = d
       ajouter([[b + 1, L], [b + 3, L]], 0, f.rappel); // b = −c
     });
-    for (const [i, pi, j, pj] of raccords) {
+    for (const [i, pi, j, pj, poidsRaccord] of raccords) {
       const ci = ctr[i], cj = ctr[j];
       const di = [pi[0] - ci.pc[0], pi[1] - ci.pc[1]], dj = [pj[0] - cj.pc[0], pj[1] - cj.pc[1]];
       for (const c of [0, 1]) {
@@ -341,13 +341,13 @@ if (tenus?.paires?.length) {
     };
   });
   const raccords = [];
-  for (const [a, b] of tenus.paires) {
+  for (const [a, b, poids] of tenus.paires) {
     if (!rang.has(a) || !rang.has(b)) throw new Error(`raccords_tenus : « ${a} » et « ${b} » doivent être deux feuilles à étirer`);
     const ici = plans[a].raccords?.[b], la = plans[b].raccords?.[a];
     if (!ici || !la || ici.length !== la.length) throw new Error(`raccords_tenus : pas de raccord utilisable entre « ${a} » et « ${b} »`);
-    ici.forEach((px, k) => raccords.push([rang.get(a), px, rang.get(b), la[k]]));
+    ici.forEach((px, k) => raccords.push([rang.get(a), px, rang.get(b), la[k], poids ?? tenus.poids ?? POIDS.repere]));
   }
-  const ms = etirerEnsemble(feuilles, raccords, tenus.poids ?? POIDS.repere);
+  const ms = etirerEnsemble(feuilles, raccords);
   ids.forEach((id, k) => {
     poses.set(id, ms[k]);
     const p = plans[id], voisines = tenus.paires.filter((x) => x.includes(id)).map((x) => plans[x[0] === id ? x[1] : x[0]].feuillet);
