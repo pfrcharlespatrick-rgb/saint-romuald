@@ -136,6 +136,65 @@
       ]
     ]
   },
+  "lignes_actuelles": {
+    "rive-est-du-bassin": {
+      "note": "La rive est du Grand Bassin de la Chaudière au pied de l'escarpement, de la pointe du cap (embouchure) au coin où débouche le ruisseau : relevée sur la photo aérienne et la carte topographique le 2026-11-16, pour le plan de 1866. Les feuilles qui la dessinent la nomment dans « lignes ».",
+      "points": [
+        [
+          46.742239,
+          -71.276813
+        ],
+        [
+          46.74211,
+          -71.276357
+        ],
+        [
+          46.741993,
+          -71.275821
+        ],
+        [
+          46.741871,
+          -71.275284
+        ],
+        [
+          46.741754,
+          -71.274748
+        ],
+        [
+          46.741677,
+          -71.274319
+        ],
+        [
+          46.741522,
+          -71.273782
+        ],
+        [
+          46.741302,
+          -71.273246
+        ],
+        [
+          46.740971,
+          -71.272709
+        ],
+        [
+          46.740603,
+          -71.272173
+        ],
+        [
+          46.740199,
+          -71.27169
+        ],
+        [
+          46.740147,
+          -71.271658
+        ],
+        [
+          46.739905,
+          -71.271068
+        ]
+      ]
+    }
+  },
   "plans": {
     "quebec-coves-1876-f14": {
       "feuillet": "14",
@@ -607,7 +666,22 @@
       "fleche_nord": 120.26,
       "methode": "raccord",
       "voisin": "quebec-coves-1876-f14",
-      "reperes": [],
+      "reperes": [
+        {
+          "x": 1372,
+          "y": 752,
+          "lat": 46.742313,
+          "lon": -71.27676,
+          "quoi": "pointe du cap, à l'embouchure de la Chaudière — le nez de la falaise, lu sur la carte topographique (le même point que pour le plan de 1866)"
+        },
+        {
+          "x": 1090,
+          "y": 186,
+          "lat": 46.739905,
+          "lon": -71.271068,
+          "quoi": "coin du Bassin où débouche le ruisseau, au bout sud de la rive est — lu sur la carte topographique (le même point que pour le plan de 1866)"
+        }
+      ],
       "controle": [
         {
           "lieu": "15-goad",
@@ -660,16 +734,16 @@
       },
       "calcul": {
         "nw": {
-          "lat": 46.742356,
-          "lon": -71.264613
+          "lat": 46.742374,
+          "lon": -71.26086
         },
         "ne": {
-          "lat": 46.735629,
-          "lon": -71.278632
+          "lat": 46.736108,
+          "lon": -71.27771
         },
         "sw": {
-          "lat": 46.748238,
-          "lon": -71.270635
+          "lat": 46.749286,
+          "lon": -71.267656
         }
       },
       "etirer": true,
@@ -731,9 +805,58 @@
           764
         ]
       ],
-      "accroche": [
-        "quebec-coves-1876-f14"
-      ]
+      "lignes": {
+        "rive-est-du-bassin": [
+          [
+            1386,
+            734
+          ],
+          [
+            1371,
+            677
+          ],
+          [
+            1357,
+            620
+          ],
+          [
+            1336,
+            577
+          ],
+          [
+            1314,
+            534
+          ],
+          [
+            1286,
+            499
+          ],
+          [
+            1250,
+            441
+          ],
+          [
+            1229,
+            384
+          ],
+          [
+            1204,
+            356
+          ],
+          [
+            1150,
+            309
+          ],
+          [
+            1107,
+            263
+          ],
+          [
+            1079,
+            188
+          ]
+        ]
+      }
     }
   }
 }

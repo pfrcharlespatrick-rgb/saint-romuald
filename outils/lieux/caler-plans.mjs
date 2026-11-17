@@ -33,6 +33,9 @@
 //     repères) : chaque point du chemin dessiné va au point le plus proche de
 //     l'axe actuel (poids 1), et l'on recommence jusqu'à ce que rien ne bouge ;
 //     un point qui tomberait au-delà d'un bout de l'axe actuel ne compte pas ;
+//   - d'autres lignes qu'elle dessine et qu'on retrouve sur le terrain
+//     (« lignes », pixels ↔ « lignes_actuelles », même nom), traitées comme le
+//     chemin — ainsi la rive est du Grand Bassin pour la feuille 15 ;
 //   - le raccord avec les voisines qu'elle nomme dans « accroche » (poids 2) ;
 //   - un rappel vers la similitude (poids 0,3), pour que la feuille ne se
 //     déforme que là où les points l'y obligent.
@@ -157,8 +160,8 @@ function lePlusProche(p, axe) {
 const POIDS = { repere: 4, chemin: 1, raccord: 2, similitude: 0.3 };
 const PORTEE = 150 / K0;   // un point du chemin à plus de 150 m de l'axe actuel ne compte pas
 
-/** Reprend une pose en affine : repères, chemin dessiné ↔ chemin actuel, raccords. */
-function etirer(depart, { repere, chemin, raccord, axe, taille }) {
+/** Reprend une pose en affine : repères, lignes dessinées ↔ lignes actuelles, raccords. */
+function etirer(depart, { repere, lignes, raccord, taille }) {
   // Coordonnées centrées : la feuille autour de son milieu, le sol autour de
   // l'image de ce milieu — sans quoi les grands nombres de la projection
   // noieraient le calcul.
@@ -176,9 +179,11 @@ function etirer(depart, { repere, chemin, raccord, axe, taille }) {
     };
     for (const [px, sol] of repere) observer(px, sol, POIDS.repere);
     for (const [px, sol] of raccord) observer(px, sol, POIDS.raccord);
-    for (const px of chemin) {
-      const p = lePlusProche(appliquer(m, px), axe);
-      if (p && p.dist < PORTEE) observer(px, p.q, POIDS.chemin);
+    for (const { pixels, axe } of lignes) {
+      for (const px of pixels) {
+        const p = lePlusProche(appliquer(m, px), axe);
+        if (p && p.dist < PORTEE) observer(px, p.q, POIDS.chemin);
+      }
     }
     ajouter([L, 0, 0, 0, -L, 0], 0, POIDS.similitude);   // a = d
     ajouter([0, L, 0, L, 0, 0], 0, POIDS.similitude);    // b = −c
@@ -249,6 +254,17 @@ for (const [id, p] of Object.entries(plans)) {
 // une feuille qui s'accroche à une voisine la prend telle qu'elle vient d'être
 // reprise. La pose de départ est celle qu'on vient de calculer.
 const axe = (reperes.chemin_actuel?.points || []).map(([lat, lon]) => versPlan(lat, lon));
+/** Les lignes d'une feuille : son chemin, puis ses autres lignes nommées. */
+function lignesDe(id) {
+  const p = plans[id], l = [];
+  if (p.chemin?.length && axe.length > 1) l.push({ nom: 'chemin du Fleuve', pixels: p.chemin, axe });
+  for (const [nom, pixels] of Object.entries(p.lignes || {})) {
+    const sol = reperes.lignes_actuelles?.[nom]?.points;
+    if (!sol || sol.length < 2) throw new Error(`${id} : la ligne « ${nom} » n'a pas de tracé actuel dans « lignes_actuelles »`);
+    l.push({ nom, pixels, axe: sol.map(([lat, lon]) => versPlan(lat, lon)) });
+  }
+  return l;
+}
 const aEtirer = Object.keys(plans).filter((id) => plans[id].etirer);
 aEtirer.sort((x, y) => (x === ref ? -1 : y === ref ? 1 : 0));
 const repris = new Set();
@@ -263,12 +279,13 @@ for (const id of aEtirer) {
     if (!ici || !la || !poses.has(voisin)) throw new Error(`${id} : pas de raccord utilisable avec « ${voisin} »`);
     ici.forEach((px, i) => raccord.push([px, appliquer(poses.get(voisin), la[i])]));
   }
+  const lignes = lignesDe(id);
   poses.set(id, etirer(poses.get(id), {
     repere: couplesDe(p.reperes, id).map((c) => [c.pixel, c.sol]),
-    chemin: p.chemin || [], raccord, axe, taille: [p.largeur, p.hauteur]
+    lignes, raccord, taille: [p.largeur, p.hauteur]
   }));
   repris.add(id);
-  methodes.set(id, `${methodes.get(id)}, puis étirée sur ${(p.reperes || []).length ? 'ses repères, ' : ''}son chemin et le chemin du Fleuve d'aujourd'hui` +
+  methodes.set(id, `${methodes.get(id)}, puis étirée sur ${(p.reperes || []).length ? 'ses repères et ' : ''}${lignes.map((l) => l.nom).join(', ')}` +
     (raccord.length ? `, accrochée à la feuille ${p.accroche.map((v) => plans[v].feuillet).join(', ')}` : ''));
 }
 
@@ -290,9 +307,12 @@ for (const [id, p] of Object.entries(plans)) {
     dire(`   repères : écart moyen ${(Math.sqrt(e.reduce((s, x) => s + x * x, 0) / e.length)).toFixed(0)} m, le pire ${Math.max(...e).toFixed(0)} m`);
     rep.forEach((c, i) => dire(`     ${String(e[i].toFixed(0)).padStart(4)} m  ${c.r.quoi} — ${c.r.lieu || 'point donné'}`));
   }
-  if (p.etirer && p.chemin?.length && axe.length > 1) {
-    const e = p.chemin.map((px) => lePlusProche(appliquer(m, px), axe)).filter(Boolean).map((q) => q.dist * K0).sort((x, y) => x - y);
-    if (e.length) dire(`   chemin dessiné ↔ chemin du Fleuve d'aujourd'hui : ${e[Math.floor(e.length / 2)].toFixed(0)} m au milieu, le pire ${e[e.length - 1].toFixed(0)} m (${e.length} points sur ${p.chemin.length})`);
+  if (p.etirer) {
+    for (const l of lignesDe(id)) {
+      const e = l.pixels.map((px) => lePlusProche(appliquer(m, px), l.axe)).filter(Boolean).map((q) => q.dist * K0).sort((x, y) => x - y);
+      if (e.length) dire(`   ${l.nom}, dessin ↔ aujourd'hui : ${e[Math.floor(e.length / 2)].toFixed(0)} m au milieu, le pire ${e[e.length - 1].toFixed(0)} m (${e.length} points sur ${l.pixels.length})`);
+      else dire(`   ${l.nom} : aucun point du dessin ne tombe en face du tracé d'aujourd'hui`);
+    }
   }
   const ctl = couplesDe(p.controle, id);
   if (ctl.length) {

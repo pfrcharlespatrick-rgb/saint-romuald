@@ -64,30 +64,46 @@ d'équerre — ajustée sur :
   d'aujourd'hui (poids 1 par point ; un point du chemin dessiné va au point
   le plus proche de l'axe actuel, et l'on recommence jusqu'à ce que rien ne
   bouge ; un point qui tombe au-delà d'un bout de l'axe ne compte pas) ;
-- **le raccord** avec une voisine, seulement pour la feuille 15, qui n'a aucun
-  repère (poids 2) ;
+- d'autres lignes qu'elle dessine et qu'on retrouve sur le terrain
+  (`lignes`, en pixels ↔ `lignes_actuelles`, en coordonnées, sous le même
+  nom) : ainsi la rive est du Grand Bassin pour la feuille 15 ;
+- **le raccord** avec une voisine nommée dans `accroche` (poids 2) — aucune
+  feuille ne s'en sert plus ;
 - **un rappel vers la similitude** (poids 0,3), pour qu'une feuille ne se
   déforme que là où les points l'y obligent.
 
-Les feuilles 12 et 13 ne sont pas accrochées à leurs voisines : on garde le
-principe de la justesse près des repères plutôt qu'aux lisières.
+Aucune feuille n'est accrochée à ses voisines : on garde le principe de la
+justesse près des repères plutôt qu'aux lisières.
+
+**La feuille 15 est calée sur le Bassin, non sur la feuille 14** (décision de
+Patrick, 17 novembre 2026 : « elles sont toutes bonnes sauf la feuille 15 qui
+tombe dans la Chaudière »). Raccordée à la 14, elle rétrécissait d'un tiers
+(0,54 et 0,46 m par pixel) et son Bassin ne couvrait que la moitié du vrai.
+Mis devant deux poses, Patrick a choisi celle-ci : deux repères — la pointe du
+cap à l'embouchure et le coin du Bassin où débouche le ruisseau, les mêmes que
+pour le plan de 1866 —, la rive est du Bassin et le chemin. Le prix : 252 m
+d'écart avec la feuille 14 à leur lisière commune, et l'anse Albert
+approximative.
 
 | Feuille | Avant (similitude) | Étirée | Ce que ça change |
 |---|---|---|---|
 | 12 | 0,616 m par pixel ; repères à 11–21 m ; chemin à 18 m au milieu, 40 m au pire | 0,572 (largeur) et 0,650 (hauteur) m par pixel, axes à 93,3° ; repères à 4–7 m ; chemin à 10 m, 30 m au pire | nettement mieux : la feuille est la plus déformée des quatre |
 | 13 | 0,694 (échelle de la 14) ; église à 0 m (seul repère) ; chemin à 14 m, 45 m au pire ; manoir Longwood à 27 m | 0,641 et 0,639, axes à 92,9° ; église à 4 m ; chemin à 9 m, 33 m au pire ; **manoir Longwood à 45 m** | mieux le long du chemin, moins bien sur l'éperon |
 | 14 | 0,694 ; 14 maisons à 7 m en moyenne, 11 m au pire ; chemin à 12 m, 50 m au pire | 0,692 et 0,706, axes à 89,4° ; maisons à 7 m en moyenne, 11 m au pire ; chemin à 12 m, 49 m au pire | presque rien : elle bouge de 14 m au plus |
-| 15 | 0,694, accrochée à la 14 ; chemin à 6 m, 22 m au pire (6 points) | 0,653 et 0,650, axes à 89,9° ; raccord à 2 m ; chemin à 12 m, 19 m au pire (7 points sur 14 : la route qui descend à la Chaudière n'existe plus) | peu sûr : sans repère, elle tient au raccord et à la moitié de son chemin |
+| 15 | 0,694, accrochée à la 14 ; chemin à 6 m, 22 m au pire (6 points) ; son Bassin à côté du vrai | 0,731 et 0,754, axes à 84,5° ; pointe du cap à 15 m, coin du ruisseau à 11 m ; rive est du Bassin à 43 m au milieu ; chemin à 30 m, 69 m au pire | calée sur le Bassin à la demande de Patrick ; ne rejoint plus la 14 |
 
 Aux lisières : 86 m entre la 14 et la 13 (133 m avant), 50 m entre la 13 et
-la 12 (76 m avant), 2 m entre la 14 et la 15.
+la 12 (76 m avant), 252 m entre la 14 et la 15 (0 m avant : elle y était
+accrochée).
 
 Ce que cela dit : **l'échelle n'est pas la même d'une feuille à l'autre.** On
 avait cru que les feuilles tenaient toutes 0,69 m par pixel ; mais celle de la
 feuille 13 n'avait jamais été mesurée — elle était prise à la 14, faute de
-second repère. Étirées sur le chemin, les feuilles 12, 13 et 15 sortent plus
+second repère. Étirées sur le chemin, les feuilles 12 et 13 sortent plus
 petites que la 14 (0,57 à 0,65 m par pixel), ce qui rejoint ce qu'on avait vu
 aux lisières : le dessin est trop long entre New Liverpool et la côte Rouge.
+La feuille 15, calée sur le Bassin, sort au contraire un peu plus grande
+(0,73 à 0,75).
 Ce qui tient toujours : la **flèche du nord**, à quelques degrés près.
 
 Une feuille étirée n'a plus ses distances ni ses angles d'origine : pour
@@ -100,7 +116,7 @@ mesurer, se servir de l'image et de son échelle, non de sa pose sur la carte.
 | 12 | village d'Etchemin, église, moulins Atkinson, étangs | 3 repères : église Saint-Romuald, n° 68 (curé Sax), n° 142 (villa Atkinson), et son chemin ; étirée | 4 à 7 m aux repères ; chemin à 10 m au milieu ; 50 m au raccord ouest | non — atelier seulement |
 | 13 | anse Hamilton, anse de New Liverpool, côte Rouge | 1 repère : l'église anglicane, et son chemin ; étirée | église à 4 m ; chemin à 9 m au milieu ; éperon du manoir Longwood à 45 m ; 86 m au raccord ouest | non — atelier seulement |
 | 14 | village de New Liverpool, scierie Ritchie and Cull | 14 maisons du village, nos 14 à 35, et son chemin ; à peine étirée | **7 m en moyenne, 11 m au pire** ; incertaine à sa lisière est (nos 1 à 9) | **oui** |
-| 15 | anse Albert, bassin de la Chaudière | aucun repère : accrochée à la 14, et la moitié est de son chemin ; étirée | chemin à 12 m au milieu ; le reste inconnu | non — atelier seulement |
+| 15 | anse Albert, bassin de la Chaudière | 2 repères (pointe du cap, coin du ruisseau), la rive est du Bassin et son chemin ; étirée ; plus accrochée à la 14 | repères à 11–15 m ; rive du Bassin à 43 m au milieu ; 252 m de la 14 à sa lisière | non — atelier seulement |
 
 Le fleuve est en bas des feuilles : le nord est donc vers le bas, la gauche vers
 l'aval. L'image de la feuille 12 est à l'envers ; cela ne change rien, les
@@ -129,8 +145,8 @@ cale la 13 sur l'église) ; ou le n° 1 de la feuille 14 est la maison du 1720.
 
 De même, les lieux « … – Goad » de la feuille 15 (nos 15, 30, 32, 35, 40, 55)
 ont été posés le 14 septembre 2026 d'après le calage d'alors : ils s'écartent
-de 160 à 260 m de la feuille accrochée à la 14 (de 117 à 208 m de la feuille
-étirée). On ne sait pas lequel des
+de 160 à 260 m de la feuille accrochée à la 14, mais de 8 à 57 m de la
+feuille calée sur le Bassin : le calage d'alors était sans doute le bon. On ne sait pas lequel des
 deux a raison ; ils sont sous `controle`.
 
 ## Pour resserrer un calage

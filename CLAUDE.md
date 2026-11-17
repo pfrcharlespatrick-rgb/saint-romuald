@@ -241,7 +241,10 @@ dessin. Le même jour, il a demandé d'étirer ainsi les quatre feuilles Goad :
 `caler-plans.mjs` les reprend en affine (marque `etirer` dans
 `data/plans-reperes.json`) sur leurs repères et sur leur chemin public, posé
 sur l'axe du chemin du Fleuve d'aujourd'hui (`chemin_actuel`) — voir
-`docs/PLANS-ANCIENS.md`, « Les feuilles sont étirées ». Leurs notes, dans
+`docs/PLANS-ANCIENS.md`, « Les feuilles sont étirées ». La feuille 15 est
+calée sur le Bassin de la Chaudière (pointe du cap, coin du ruisseau, rive
+est), non plus sur la feuille 14 : choix de Patrick, au prix de 252 m à leur
+lisière. Leurs notes, dans
 `data/plans-data.js`, ne sont pas écrites par l'outil : les tenir à jour à
 la main après un recalcul.
 

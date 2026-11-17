@@ -84,19 +84,19 @@ window.PLANS = {
       "annee": 1876,
       "fichier": "assets/plans/quebec-coves-1876-f15.jpg",
       "source": "Charles E. Goad, « Quebec Coves. South Shore », mars 1876, feuille 15. Plans d'assurance-incendie. BAnQ, Archives nationales à Québec, cote P600,S4,SS1,D67 — https://collections.banq.qc.ca/ark:/52327/3121049",
-      "note": "Calage provisoire, à confirmer. Aucun repère sûr sur cette feuille : elle est accrochée à la feuille 14 par leur ligne de raccord (2 m) et, depuis le 17 novembre 2026, étirée sur le chemin public qu'elle dessine, posé sur le chemin du Fleuve d'aujourd'hui (à la demande de Patrick) — sept points sur quatorze seulement, la route qui descendait à la Chaudière n'existant plus : 12 m au milieu, 19 m au pire. 0,653 m par pixel dans sa largeur, 0,650 dans sa hauteur, axes d'équerre. L'embouchure de la Chaudière a été remodelée (marina, remblais) et ne peut pas servir d'appui. Les lieux « … – Goad » de ce secteur, posés autrefois d'après un ancien calage, s'en écartent de 117 à 208 m.",
+      "note": "Calage provisoire, à confirmer. Patrick a demandé le 17 novembre 2026 de la caler sur le Bassin de la Chaudière, et non plus sur la feuille 14 : raccordée à sa voisine, elle rétrécissait d'un tiers et son Bassin tombait à côté du vrai. Elle tient maintenant à deux repères — la pointe du cap à l'embouchure (15 m) et le coin du Bassin où débouche le ruisseau (11 m) — et est étirée sur la rive est du Bassin (43 m au milieu, 58 m au pire) et sur le chemin public qu'elle dessine (30 m au milieu, 69 m au pire, 10 points sur 14). 0,731 m par pixel dans sa largeur, 0,754 dans sa hauteur, axes à 85° : ses distances et ses angles ne sont plus ceux du dessin. Son bord est ne rejoint plus la feuille 14 (252 m d'écart) : l'anse Albert et le chantier Ritchie and Cull restent approximatifs. Les lieux « … – Goad » de ce secteur s'en écartent de 8 à 57 m.",
       "points": {
         "nw": {
-          "lat": 46.742356,
-          "lon": -71.264613
+          "lat": 46.742374,
+          "lon": -71.26086
         },
         "ne": {
-          "lat": 46.735629,
-          "lon": -71.278632
+          "lat": 46.736108,
+          "lon": -71.27771
         },
         "sw": {
-          "lat": 46.748238,
-          "lon": -71.270635
+          "lat": 46.749286,
+          "lon": -71.267656
         }
       },
       "opacite": 0.6,
