@@ -22675,6 +22675,49 @@
         }
       ],
       "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "lettre-1931-05-29-northern-construction-alphonse-demers",
+      "type": "correspondance",
+      "titre": "Lettre de recommandation de la Northern Construction Company pour Alphonse Demers, contremaître charpentier, 1931",
+      "date": "1931-05-29",
+      "source": "Pièce de famille, gardée dans les papiers des Demers : lettre originale de la Northern Construction Company, Limited, and J. W. Stewart, bureau de Trois-Rivières ; photographiée par Patrick (2026-11-18).",
+      "cote": "Lettre du 29 mai 1931, signée par le surintendant de la compagnie à Trois-Rivières",
+      "nature": "Lettre dactylographiée en anglais sur papier à en-tête « Northern Construction Company, Limited, and J. W. Stewart — Montreal, Quebec, Three Rivers, Vancouver », signée à la main. Une page, pliée en quatre.",
+      "transcription": "« Northern Construction Company, Limited, and J. W. Stewart. Montreal — Quebec — Three Rivers — Vancouver. Three Rivers, Que. May 29th. 1931. To all whom it concerns. The bearer Alphonse Demers has been in the employ of the Northern Construction Company Limited and J. W. Stewart, for the last five years, and during that time has been employed as a carpenter foreman, he was in charge of the concrete form-work at the New Harbour Works in Quebec at Wolfe's Cove, and also was in charge of the crib construction work in Three Rivers, and also form work for concrete in Three Rivers. We have no hesitation in recommending him to any one requiring such services, for he has at all times shown great ability, has always done reliable work, is steady, sober and very willing and obliging, he has blue print experience and is capable of taking charge of laying out work. Northern Construction Company Limited and J. W. Stewart, per [D. McLaughlin ?], Superintendent for Three Rivers, Que. » — Traduction : « À qui de droit. Le porteur, Alphonse Demers, est au service de la Northern Construction Company Limited et J. W. Stewart depuis cinq ans, comme contremaître charpentier. Il a eu la charge des coffrages de béton des nouveaux travaux du port de Québec, à l'Anse-au-Foulon (Wolfe's Cove), de la construction des caissons de bois (cribs) à Trois-Rivières, et des coffrages de béton à Trois-Rivières. Nous le recommandons sans hésiter : il a toujours montré beaucoup de compétence, fait un travail sûr ; il est régulier, sobre, très dévoué et serviable ; il sait lire les plans (bleus) et peut diriger l'implantation des ouvrages. »",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Alphonse Demers",
+          "ref_personne": "1891-D1-P123-L13",
+          "note": "Contremaître charpentier de la Northern Construction Company et J. W. Stewart, de 1926 environ à 1931, au port de Québec (Anse-au-Foulon) puis à Trois-Rivières. Déjà charpentier au pont de Québec de 1914 à 1918 (fiche « lettre-1918-09-27-pont-quebec-alphonse-demers »)."
+        },
+        {
+          "role": "signataire",
+          "nom": "[D. McLaughlin ?]",
+          "note": "Surintendant de la compagnie pour Trois-Rivières ; la signature est d'une lecture incertaine."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1931-05-29",
+          "personnes": [
+            "1891-D1-P123-L13"
+          ],
+          "enonce": "De 1926 environ à 1931, Alphonse Demers est contremaître charpentier pour la Northern Construction Company et J. W. Stewart : il dirige les coffrages de béton des nouveaux travaux du port de Québec, à l'Anse-au-Foulon, puis les caissons et les coffrages de béton à Trois-Rivières.",
+          "consequence": "Treize ans après le pont de Québec, le charpentier est devenu contremaître et sait lire les plans."
+        }
+      ],
+      "note": "Huitième pièce de famille des Demers, et la seconde lettre de recommandation d'Alphonse, après celle de la St. Lawrence Bridge Company (1918). Comme la première, elle a dû être demandée à la fin d'un chantier, pour chercher un autre emploi — en 1931, au creux de la crise. Alphonse travaille alors loin de Saint-Romuald, à Trois-Rivières, trois ans après avoir reçu la maison familiale du lot 529 (donation de 1928) ; sa femme Éléonore meurt en 1938.",
+      "images": [
+        {
+          "local": "documents/scans/lettre-northern-construction-alphonse-demers-1931.jpg",
+          "legende": "Lettre du 29 mai 1931"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
     }
   ]
 }
