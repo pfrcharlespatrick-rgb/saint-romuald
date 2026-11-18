@@ -17,9 +17,9 @@ section dit où la décision se prend.
 | Lignes incomplètes ou renvois cassés | 4 | 1 |
 | Lignes incertaines qu'un document éclaire | 2 | 1 |
 | Signature au bas des actes et « sait écrire » au recensement | 0 | 8 |
-| Documents : le nom écrit n'est pas celui de la ligne rattachée | 5 |  |
+| Documents : le nom écrit n'est pas celui de la ligne rattachée | 6 |  |
 | Naissances et décès connus, face au recensement | 4 |  |
-| Identité dite par un document, sans lien entre les recensements | 0 |  |
+| Identité dite par un document, sans lien entre les recensements | 1 |  |
 | Le sexe ne suit pas — d'un recensement à l'autre, ou sur la ligne même | 1 | 5 |
 | L'âge ne suit pas le long d'un lien | 25 | 61 |
 | Le même ménage, un chef dont l'âge ne suit pas | 4 |  |
@@ -118,7 +118,7 @@ Le dépouillement a laissé un « [?] » sur ces lignes, et un acte versé depui
 
 ## Signature au bas des actes et « sait écrire » au recensement — 0
 
-Les actes disent qui signe et qui « a déclaré ne le savoir ». Sur 77 personnes rattachées dont le recensement dit si elles écrivent, 67 s'accordent avec leurs actes ; les autres sont ici. Signer n'est pas écrire, et le recenseur a pu omettre une marque : chaque ligne demande le manuscrit.
+Les actes disent qui signe et qui « a déclaré ne le savoir ». Sur 79 personnes rattachées dont le recensement dit si elles écrivent, 69 s'accordent avec leurs actes ; les autres sont ici. Signer n'est pas écrire, et le recenseur a pu omettre une marque : chaque ligne demande le manuscrit.
 
 **Où trancher :** au manuscrit, dans les colonnes d'instruction ; puis dans l'atelier si la marque est à déplacer.
 
@@ -126,7 +126,7 @@ Rien à signaler.
 
 8 autre(s) point(s) de cette rubrique ont déjà reçu la réponse de Patrick.
 
-## Documents : le nom écrit n'est pas celui de la ligne rattachée — 5
+## Documents : le nom écrit n'est pas celui de la ligne rattachée — 6
 
 La fiche d'un document rattache une personne à une ligne dont le prénom (ou, pour un homme, le patronyme) n'est pas le sien. Trois cas : la ligne du recensement est mal lue ; la fiche reprend une lecture que la relecture a corrigée depuis ; ou le rattachement vise la mauvaise ligne.
 
@@ -139,6 +139,7 @@ La fiche d'un document rattache une personne à une ligne dont le prénom (ou, p
 | « roberge-fratrie-julien-1881 » (recensement, 1881-04-19) | Elzéar Roberge (enfant) | `1881-D2-P038-L24` — Eléonore Roberge, 14 ans — 1881, div. 2, maison 162, p. 38 l. 24 | prénom différent |  |
 | « roberge-fratrie-julien-1881 » (recensement, 1881-04-19) | Roberge (prénom lu « Stbert ») (enfant) | `1881-D2-P038-L25` — Albert Roberge, 12 ans — 1881, div. 2, maison 162, p. 38 l. 25 | prénom voisin, pas identique |  |
 | « notarie-1874-07-20-bail-demers-deschenes » (notarie, 1874-07-20) | Augustin Blais (voisin) | `1871-D1-P017-L17` — Auguste Blais, 34 ans — 1871, div. 1, maison 43, p. 17 l. 17 | prénom voisin, pas identique | Voisin à l'ouest, en partie. Rattaché en probable au journalier de 34 ans de 1871 (division 1, maison 43) ; charpentier de 40 ans en 1881 (maison 95), voisin… |
+| « notarie-1914-07-31-testament-leocadie-beaudoin » (notarie, 1914-07-31) | Joseph Boutin Bourassa (notaire) | `1891-D1-P139-L02` — Joseph Bunton-Bourassa, 36 ans — 1891, div. 1, maison 621, p. 139 l. 2 | patronyme différent | Notaire public, résidant et pratiquant à Saint-Romuald ; signe « J. Boutin Bourassa, N.P. ». Recensé « Joseph Boutin dit Bourassa », notaire, 26 ans, en 1881… |
 
 ## Naissances et décès connus, face au recensement — 4
 
@@ -153,13 +154,15 @@ Un document donne l'année de naissance ou de décès d'une personne rattachée.
 | « sthilaire-2010-magdeleine-delisle » | Édouard Pelletier, né(e) 1828-05-10 | `1871-D2-P020-L01` — Edouard Peltier, 46 ans — 1871, div. 2, maison 50, p. 20 l. 1 | 43 ans attendus en 1871, 46 recensés : écart de 3 ans |
 | « sthilaire-2010-magdeleine-delisle » | Caroline Pelletier, né(e) 1831 | `1871-D1-P055-L13` — Caroline Peltier, 37 ans — 1871, div. 1, maison 149, p. 55 l. 13 | 40 ans attendus en 1871, 37 recensés : écart de 3 ans |
 
-## Identité dite par un document, sans lien entre les recensements — 0
+## Identité dite par un document, sans lien entre les recensements — 1
 
 Un document affirme que deux lignes de deux recensements sont la même personne — le plus souvent une femme qui a changé de nom —, et le calcul des filiations ne les relie pas. Le lien n'a pas été posé d'office : il se confirme à la main.
 
 **Où trancher :** dans l'annexe des filiations, ou en le dictant (« confirme le lien ») — il ira dans `data/decisions-dictees.json`.
 
-Rien à signaler.
+| Avant | Après | Document | État | Identifiants |
+|---|---|---|---|---|
+| Joseph Boutin dit Bourassa, 26 ans — 1881, div. 1, maison 83, p. 22 l. 13 | Joseph Bunton-Bourassa, 36 ans — 1891, div. 1, maison 621, p. 139 l. 2 | « notarie-1914-07-31-testament-leocadie-beaudoin » (probable) | aucun lien entre les deux lignes | `1881-D1-P022-L13` → `1891-D1-P139-L02` |
 
 ## Le sexe ne suit pas — d'un recensement à l'autre, ou sur la ligne même — 1
 
