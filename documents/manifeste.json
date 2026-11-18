@@ -675,7 +675,7 @@
         {
           "role": "epouse",
           "nom": "Éléonore Roberge",
-          "note": "Non rattachée à une fiche de recensement, faute de temps."
+          "note": "Non rattachée : elle ne figure pas aux recensements dépouillés — née après 1881, et absente de Saint-Romuald en 1891. Ses parents seraient le David Roberge, 19 ans, et l'Éléonore Couture, 20 ans, recensés en 1881 (1881-D2-P044-L24, 1881-D2-P020-L07), qui disparaissent ensuite des recensements de Saint-Romuald — hypothèse. Morte le 13 avril 1938, épouse d'Alphonse Demers (fiche « sepulture-1938-04-18-eleonore-roberge »)."
         },
         {
           "role": "pere",
@@ -707,7 +707,7 @@
           "enonce": "Alphonse Demers est le fils de Louis Demers et de Léocadie Beaudoin — même couple parental qu'Alfred Demers (acte-mariage-alfred-demers-1898)."
         }
       ],
-      "note": "Corrige une confusion de l'ancienne fiche « 1616, chemin du Fleuve » (retirée du site), qui donnait Éléonore (Roberge) comme épouse de Louis Demers lui-même plutôt que de son fils Alphonse, et Léocadie Beaudoin comme une simple colistée plutôt que comme l'épouse de Louis. Éléonore Roberge reste à rattacher à une fiche de recensement.",
+      "note": "Corrige une confusion de l'ancienne fiche « 1616, chemin du Fleuve » (retirée du site), qui donnait Éléonore (Roberge) comme épouse de Louis Demers lui-même plutôt que de son fils Alphonse, et Léocadie Beaudoin comme une simple colistée plutôt que comme l'épouse de Louis. Éléonore Roberge ne peut être rattachée au recensement (voir sa note) ; son décès, le 13 avril 1938, est connu par le certificat du curé (fiche « sepulture-1938-04-18-eleonore-roberge »).",
       "ajoute_le": "2026-07-30"
     },
     {
@@ -22503,6 +22503,70 @@
         {
           "local": "documents/scans/donation-demers-1928-3-signatures.jpg",
           "legende": "Charges et signatures"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "sepulture-1938-04-18-eleonore-roberge",
+      "type": "sepulture",
+      "titre": "Certificat de décès et d'inhumation d'Éléonore Roberge, épouse d'Alphonse Demers, Saint-Romuald, 1938",
+      "date": "1939-06-15",
+      "source": "Pièce de famille, gardée dans les papiers des Demers : certificat délivré par le curé de Saint-Romuald d'après le registre paroissial ; photographié par Patrick (2026-11-18). L'acte de sépulture lui-même est au registre de la paroisse de Saint-Romuald, année 1938.",
+      "cote": "Certificat du 15 juin 1939, signé par l'abbé E.-A. Dupont, curé de Saint-Romuald ; tampon de réception « A. D. G. Clause — JUN 21 1939 »",
+      "nature": "Lettre dactylographiée sur papier à en-tête imprimé « Paroisse de St-Romuald, comté de Lévis, P.Q. », signée à la main par le curé, avec le sceau sec de la paroisse. Au bas, un tampon dateur « A. D. G. Clause », du 21 juin 1939 : sans doute celui du destinataire (notaire, compagnie d'assurance ou administration), qui avait demandé le certificat.",
+      "transcription": "« Paroisse de St-Romuald, comté de Lévis, P.Q. — 15 juin 1939. Nous soussigné, prêtre curé de Saint-Romuald, certifions que Eléonore Roberge épouse de Alphonse Demers est décédée le treize avril mil neuf cent trente huit et a été inhumée dans le cimetière de Saint-Romuald le dix-huit du même mois et de la même année en présence de Arthur Morin et de Georges Marcoux et autres parents et amis. Certifié par nous prêtre curé de Saint-Romuald, ce quinzième jour de juin mil neuf cent trente-neuf. E.-A. Dupont, ptre-curé. » [Signature manuscrite du curé.] — Tampon : « A. D. G. Clause — JUN 21 1939 ».",
+      "personnes": [
+        {
+          "role": "defunte",
+          "nom": "Éléonore Roberge",
+          "note": "Épouse d'Alphonse Demers (mariés le 15 juin 1908, fiche « acte-mariage-alphonse-demers-1908 ») ; morte le 13 avril 1938, inhumée le 18. Absente des recensements dépouillés : née après 1881 et absente de Saint-Romuald en 1891. Non rattachée."
+        },
+        {
+          "role": "epoux",
+          "nom": "Alphonse Demers",
+          "ref_personne": "1891-D1-P123-L13",
+          "note": "Le certificat la dit « épouse », non veuve : Alphonse est vraisemblablement vivant en avril 1938."
+        },
+        {
+          "role": "temoin",
+          "nom": "Arthur Morin",
+          "note": "Présent à l'inhumation. Non rattaché (1938)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Georges Marcoux",
+          "note": "Présent à l'inhumation. Non rattaché (1938)."
+        },
+        {
+          "role": "cure",
+          "nom": "E.-A. Dupont",
+          "note": "Prêtre curé de Saint-Romuald en 1939 ; signe le certificat."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1938-04-13",
+          "personnes": [],
+          "enonce": "Éléonore Roberge, épouse d'Alphonse Demers, meurt le 13 avril 1938 et est inhumée le 18 avril 1938 au cimetière de Saint-Romuald."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1938-04-13",
+          "personnes": [
+            "1891-D1-P123-L13"
+          ],
+          "enonce": "Éléonore Roberge est toujours l'épouse d'Alphonse Demers à sa mort, en 1938 : le couple marié en 1908 n'a pas été séparé par un veuvage."
+        }
+      ],
+      "note": "Sixième pièce de famille des Demers, et la première d'un registre paroissial. Le certificat a été demandé plus d'un an après le décès et reçu par « A. D. G. Clause » le 21 juin 1939 — sans doute pour une succession ou une assurance. Les parents d'Éléonore, David Roberge et Éléonore Hélène Couture (acte de mariage de 1908), sont peut-être le David Roberge, laboureur, 19 ans en 1881 (1881-D2-P044-L24), et l'Éléonore Couture, 20 ans en 1881 (1881-D2-P020-L07) : tous deux disparaissent des recensements de Saint-Romuald après 1881, ce qui irait avec un mariage suivi d'un départ — hypothèse, rien ne le confirme.",
+      "images": [
+        {
+          "local": "documents/scans/sepulture-eleonore-roberge-1938.jpg",
+          "legende": "Certificat du curé, 1939"
         }
       ],
       "ajoute_le": "2026-11-18"
