@@ -22274,6 +22274,134 @@
         }
       ],
       "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "notarie-1914-07-31-testament-leocadie-beaudoin",
+      "type": "notarie",
+      "titre": "Testament de Léocadie Beaudoin, veuve de Louis Demers, Saint-Romuald, 1914",
+      "date": "1914-07-31",
+      "source": "Pièce de famille, gardée dans les papiers de Louis Demers et de Léocadie Beaudoin : première copie délivrée par le notaire Joseph Boutin Bourassa, de Saint-Romuald ; photographiée par Patrick (2026-11-18). La minute originale est au greffe de ce notaire.",
+      "cote": "Minute n° 6884 du notaire Joseph Boutin Bourassa",
+      "nature": "Copie dactylographiée, complétée à la main (date, noms des témoins, numéro de la minute) et paraphée « J.B.B. » dans les marges, à chaque renvoi. Endos tapé : « No-6884- / St Romuald 31 Juillet 1914 / TESTAMENT / Vve Louis Demers / 1ère Copie », paraphe « J.B.B. ». Le dernier article porte par erreur le numéro « 6o », comme le précédent.",
+      "transcription": "[Tapé à la machine ; ce qui est écrit à la main est signalé.] « L'an mil neuf cent quatorze, le [à la main : trente-unième] jour du mois de [à la main : juillet]. Devant Joseph Boutin Bourassa, notaire public pour la province de Québec, résidant et pratiquant à St Romuald. A comparu Madame Léocadie Beaudoin, de la paroisse de St Romuald, veuve de feu Louis [rayé : Demers] [renvoi (1) en marge : Demers, J.B.B.], en son vivant du même lieu, commerçant. Laquelle nous a requis de recevoir son testament qu'elle a, en présence de [à la main : Docteur Narcisse G. Cantin, de St Côme [?], Beauce, médecin, et Ernest Robitaille] [renvoi (11) en marge : employé civil, J.B.B.] [rayé : tous deux] de la dite paroisse de St Romuald et témoins aux présentes, fait comme suit, savoir : 1o — Je lègue à Alphonse Demers, mon fils, tous mes meubles de ménage, sans exception, ainsi que mon immeuble situé à St Romuald, division New Liverpool, avec les bâtisses dessus construites. Mais, dans le cas où il mourrait avant moi et que je ne pourrais faire de testament avant mon décès pour disposer des dits biens ci-dessus légués, je veux qu'ils retournent et appartiennent aux enfants du dit Alphonse Demers, par parts égales ; 2o — Je lègue tous mes linges, lingerie et vêtements, sans exception ni réserve, à mes enfants nés de mon mariage avec le dit feu Louis Demers, mon époux, à l'exception du dit Alphonse Demers, pour être partagés entre eux par parts égales par mon exécuteur ci-après nommé ; 3o — Je veux que, sur les argents que je posséderai à mon décès, qu'il soit pris une somme de quatre cents piastres pour payer mes soins de dernière maladie, mes funérailles, pour me faire chanter deux services, le premier au coût de cinquante-six piastres, lors de mon décès, le second, au coût de trente piastres, un an après mon décès, et la balance pour faire chanter des grandes messes pour le repos de mon âme, aussitôt possible après mon décès ; 4o — Je lègue le reste de mes argents et les autres biens que je posséderai à mon décès aux enfants nés de mon mariage avec le dit Louis Demers, même et y compris le dit Alphonse Demers, pour être partagés entre eux par parts égales par mon exécuteur testamentaire. 5o — Je nomme pour mon exécuteur testamentaire Charles Demers, mon fils, et je veux qu'il reste en fonction au-delà de l'an et jour fixés par la loi, c'est-à-dire jusqu'à l'entière exécution de mon présent testament. Si ce dernier meurt ou devient incapable de voir à l'exécution de mon présent testament, je nomme mon autre fils, Joseph Demers, pour le remplacer. 6o — Je donne à mon exécuteur testamentaire le pouvoir de faire le partage de mes biens mentionnés dans les articles deux et [rayé : trois] [renvoi (1) en marge : quatre, J.B.B.] de mon présent testament, d'une manière juste et au meilleur de son jugement et suivant sa conscience, et je veux que sa décision soit finale et sans appel. 6o [sic] — Je révoque tout autre testament et codicille que j'aurais pu faire avant le présent auquel je m'arrête. Dont acte : fait et passé à St Romuald, étude du notaire soussigné, sous le numéro six mille huit cent [à la main : quatre-vingt-quatre]. Et, après lecture faite à la testatrice de son présent testament par le dit notaire, en présence des dits témoins, elle a déclaré le bien comprendre et y persister et l'a signé avec et en présence de nous, dits notaire et témoins, qui l'avons aussi signé avec elle et en sa présence et avec et en présence l'un de l'autre. (Signé) “Léocadie Beaudoin” “N. G. Cantin, M.D.” “Ernest Robitaille” “J. Boutin Bourassa, N.P.” Vraie copie de la minute demeurée en mon étude. [À la main :] Trois renvois bons, [sept ?] mots rayés nuls. J. Boutin Bourassa N.P. »",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Léocadie Beaudoin",
+          "ref_personne": "1891-D1-P123-L06",
+          "note": "Veuve de Louis Demers, de Saint-Romuald ; signe « Léocadie Beaudoin ». Vivante le 31 juillet 1914 ; morte le 5 mai 1931 (fiche « filae-leocadie-beaudoin »)."
+        },
+        {
+          "role": "epoux",
+          "nom": "Louis Demers",
+          "ref_personne": "1891-D1-P123-L05",
+          "note": "« Feu Louis Demers, en son vivant du même lieu, commerçant ». Mort le 30 octobre 1912 (fiche « notarie-1912-11-22-transmission-demers »)."
+        },
+        {
+          "role": "legataire",
+          "nom": "Alphonse Demers",
+          "ref_personne": "1891-D1-P123-L13",
+          "note": "« Mon fils » ; reçoit les meubles de ménage et l'immeuble de New Liverpool, puis sa part du reste. Marié en 1908 à Éléonore Roberge (fiche « acte-mariage-alphonse-demers-1908 »)."
+        },
+        {
+          "role": "executeur",
+          "nom": "Charles Demers",
+          "ref_personne": "1891-D1-P123-L07",
+          "note": "« Mon fils » ; exécuteur testamentaire, maintenu au-delà de l'an et jour. Marié en 1896 à Mary Jane Cadorette (fiche « acte-mariage-charles-demers-1896 »)."
+        },
+        {
+          "role": "executeur",
+          "nom": "Joseph Demers",
+          "ref_personne": "1891-D1-P123-L08",
+          "note": "« Mon autre fils » ; exécuteur en second, si Charles meurt ou ne peut agir. Marié en 1900 à Honoré Gagné (fiche « acte-mariage-joseph-demers-1900 »)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Narcisse G. Cantin",
+          "ref_personne": "1891-D1-P066-L16",
+          "note": "Docteur, médecin, dit « de St Côme [?], Beauce » ; signe « N. G. Cantin, M.D. ». Rattachement probable : Narcisse Cantin, étudiant en médecine, 28 ans en 1891, fils de Narcisse Cantin, cultivateur de Saint-Romuald (8 ans en 1871, 17 ans en 1881). Il aurait 51 ans en 1914."
+        },
+        {
+          "role": "temoin",
+          "nom": "Ernest Robitaille",
+          "note": "Employé civil, de Saint-Romuald ; signe. Un Ernest Robitaille a 11 ans en 1891, fils d'Honoré Robitaille, charretier (1891-D1-P139-L17) ; il aurait 34 ans en 1914. Rien d'autre ne le relie : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Joseph Boutin Bourassa",
+          "ref_personne": "1891-D1-P139-L02",
+          "note": "Notaire public, résidant et pratiquant à Saint-Romuald ; signe « J. Boutin Bourassa, N.P. ». Recensé « Joseph Boutin dit Bourassa », notaire, 26 ans, en 1881 (1881-D1-P022-L13), et « Joseph Bunton-Bourassa », notaire public, 36 ans, en 1891 : le calcul ne relie pas les deux lignes, à cause de la graphie de 1891."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1891-D1-P123-L06",
+            "1891-D1-P123-L13",
+            "1891-D1-P123-L07",
+            "1891-D1-P123-L08"
+          ],
+          "enonce": "Alphonse, Charles et Joseph Demers sont fils de Léocadie Beaudoin et de Louis Demers, et vivants le 31 juillet 1914.",
+          "consequence": "Confirme, de la main de leur mère, ce que disaient les actes de mariage des trois fils."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1914-07-31",
+          "personnes": [
+            "1891-D1-P123-L06",
+            "1891-D1-P123-L13"
+          ],
+          "enonce": "Léocadie Beaudoin possède en 1914 un immeuble à Saint-Romuald, « division New Liverpool », avec bâtisses, qu'elle lègue à son fils Alphonse avec ses meubles de ménage."
+        },
+        {
+          "type": "propriete",
+          "certitude": "probable",
+          "date": "1914-07-31",
+          "personnes": [
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "Cet immeuble de New Liverpool est vraisemblablement le lot n° 529, au bord du fleuve, dont elle a hérité la totalité en 1912 (fiche « notarie-1912-11-22-transmission-demers »).",
+          "note": "Le testament ne donne pas le numéro du lot."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1914-07-31",
+          "personnes": [
+            "1891-D1-P139-L02"
+          ],
+          "enonce": "Joseph Boutin Bourassa est notaire public à Saint-Romuald en 1914."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1881-D1-P022-L13",
+            "1891-D1-P139-L02"
+          ],
+          "enonce": "Le notaire Joseph Boutin dit Bourassa, 26 ans en 1881, est le « Joseph Bunton-Bourassa », notaire public, 36 ans, de 1891 : même prénom, même métier, l'âge suit, et l'acte le nomme Boutin Bourassa.",
+          "note": "Proposition à confirmer dans l'annexe des filiations : « Bunton » est sans doute une mauvaise lecture de « Boutin » au dépouillement de 1891."
+        }
+      ],
+      "note": "Quatrième pièce de famille des Demers, après le testament de Louis Demers (1904), la vente Brown-Ahern (1886) et la déclaration de transmission (1912). Léocadie favorise Alphonse, sans doute celui qui vit avec elle ; ses autres enfants n'ont que les vêtements et le reste de l'argent. Seuls trois enfants sont nommés : Alfred, Ernest, Malcolm, Eusèbe et la fille aînée Léocadie, recensés en 1881 et 1891, ne le sont pas. Ce testament n'est peut-être pas le dernier : une autre photo montre, dans les mêmes papiers, un testament dactylographié « No-10135 », « St-Romuald, 11 Août », « Léocadie Beaudoin veuve de Louis Demers », d'une année non lue — à verser quand il sera photographié.",
+      "images": [
+        {
+          "local": "documents/scans/testament-leocadie-beaudoin-1914-1-endos.jpg",
+          "legende": "Endos, n° 6884"
+        },
+        {
+          "local": "documents/scans/testament-leocadie-beaudoin-1914-2-acte.jpg",
+          "legende": "Articles 1 à 4"
+        },
+        {
+          "local": "documents/scans/testament-leocadie-beaudoin-1914-3-signatures.jpg",
+          "legende": "Articles 4 à 7, signatures"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
     }
   ]
 }
