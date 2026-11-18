@@ -654,7 +654,7 @@
       "date": "1908-06-15",
       "source": "Couples du Canada et du Québec, via MyHeritage",
       "cote": "",
-      "nature": "Compilation d'acte de mariage, sans image jointe cette fois — moins directement vérifiable que acte-mariage-alfred-demers-1898.",
+      "nature": "Compilation d'acte de mariage, sans image jointe cette fois — moins directement vérifiable que acte-mariage-alfred-demers-1898. La famille a gardé l'extrait de l'acte délivré par la paroisse : sa couverture, seule photographiée (Patrick, 2026-11-18), porte « Extrait — Acte de Mariage de Alphonse Demers et Eléonore Roberge — 15 juin 1908 », et un sceau sec illisible sur la photo ; l'intérieur, avec le lieu, les parents et les témoins, reste à photographier.",
       "personnes": [
         {
           "role": "epoux",
@@ -689,12 +689,13 @@
       "affirmations": [
         {
           "type": "mariage",
-          "certitude": "probable",
+          "certitude": "etabli",
           "date": "1908-06-15",
           "personnes": [
             "1891-D1-P123-L13"
           ],
-          "enonce": "Alphonse Demers épouse Éléonore Roberge le 15 juin 1908 à Saint-Romuald."
+          "enonce": "Alphonse Demers épouse Éléonore Roberge le 15 juin 1908, à Saint-Romuald selon la compilation.",
+          "note": "Le couple et la date sont confirmés par l'extrait de mariage gardé par la famille ; le lieu ne l'est pas encore (l'intérieur de l'extrait n'est pas photographié)."
         },
         {
           "type": "filiation",
@@ -708,7 +709,13 @@
         }
       ],
       "note": "Corrige une confusion de l'ancienne fiche « 1616, chemin du Fleuve » (retirée du site), qui donnait Éléonore (Roberge) comme épouse de Louis Demers lui-même plutôt que de son fils Alphonse, et Léocadie Beaudoin comme une simple colistée plutôt que comme l'épouse de Louis. Éléonore Roberge ne peut être rattachée au recensement (voir sa note) ; son décès, le 13 avril 1938, est connu par le certificat du curé (fiche « sepulture-1938-04-18-eleonore-roberge »).",
-      "ajoute_le": "2026-07-30"
+      "ajoute_le": "2026-07-30",
+      "images": [
+        {
+          "local": "documents/scans/extrait-mariage-alphonse-demers-1908.jpg",
+          "legende": "Couverture de l'extrait de mariage"
+        }
+      ]
     },
     {
       "id": "acte-mariage-charles-demers-1896",
@@ -22567,6 +22574,49 @@
         {
           "local": "documents/scans/sepulture-eleonore-roberge-1938.jpg",
           "legende": "Certificat du curé, 1939"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "lettre-1918-09-27-pont-quebec-alphonse-demers",
+      "type": "correspondance",
+      "titre": "Lettre de recommandation de la St. Lawrence Bridge Company pour Alphonse Demers, charpentier au pont de Québec, 1918",
+      "date": "1918-09-27",
+      "source": "Pièce de famille, gardée dans les papiers des Demers : lettre originale de la St. Lawrence Bridge Company, Limited, bureau de Québec ; photographiée par Patrick (2026-11-18).",
+      "cote": "Lettre du 27 septembre 1918, signée par l'« Erection Accountant » de la compagnie ; initiales de dactylographie « LPL »",
+      "nature": "Lettre dactylographiée en anglais sur papier à en-tête gravé « St. Lawrence Bridge Company, Limited — Cable Address: “Lawbridge” Montreal — P.O. Box 635, Quebec, Que. », signée à la main. Une page, pliée en quatre.",
+      "transcription": "« St. Lawrence Bridge Company, Limited. Cable Address: “Lawbridge” Montreal. P.O. Box 635, Quebec, Que. September 27/1918. To whom it may concern, — This is to certify that Alphonse Demers has been in the employ of this Company for the past 4 years as Carpenter on the construction of the Quebec Bridge. He is a good, steady worker and we have always found him attentive and entirely satisfactory in all his work, and take pleasure in recommending him to anyone desirous of a first class Carpenter. Yours truly, St. Lawrence Bridge Co. Limited, [signature : L. P. Ledden ?], Erection Accountant. LPL/ » — Traduction : « À qui de droit. Nous certifions qu'Alphonse Demers est au service de la compagnie depuis quatre ans comme charpentier à la construction du pont de Québec. C'est un bon ouvrier, régulier ; nous l'avons toujours trouvé attentif et pleinement satisfaisant dans tout son travail, et nous le recommandons volontiers à quiconque cherche un charpentier de premier ordre. »",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Alphonse Demers",
+          "ref_personne": "1891-D1-P123-L13",
+          "note": "Charpentier pour la St. Lawrence Bridge Company depuis environ 1914, au chantier du pont de Québec. Fils de Louis Demers et de Léocadie Beaudoin ; marié en 1908 à Éléonore Roberge."
+        },
+        {
+          "role": "signataire",
+          "nom": "L. P. [Ledden ?]",
+          "note": "« Erection Accountant » (comptable du montage) de la St. Lawrence Bridge Company ; la signature est d'une lecture incertaine, les initiales « LPL » au bas de la lettre sont sans doute les siennes."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1918-09-27",
+          "personnes": [
+            "1891-D1-P123-L13"
+          ],
+          "enonce": "Alphonse Demers travaille comme charpentier pour la St. Lawrence Bridge Company, à la construction du pont de Québec, pendant les quatre années qui précèdent septembre 1918 — de 1914 environ à 1918.",
+          "consequence": "Le fils du boucher de Saint-Romuald a été l'un des charpentiers du chantier du pont de Québec, sur la rive voisine de la Chaudière."
+        }
+      ],
+      "note": "Septième pièce de famille des Demers. Une lettre de ce genre se demandait à la fin d'un emploi, pour en chercher un autre : en septembre 1918, le gros du chantier était terminé, et la compagnie licenciait ses ouvriers. Alphonse, charpentier ici, est l'héritier de la maison familiale du lot 529 (testament de sa mère de 1914, donation de 1928).",
+      "images": [
+        {
+          "local": "documents/scans/lettre-pont-quebec-alphonse-demers-1918.jpg",
+          "legende": "Lettre du 27 septembre 1918"
         }
       ],
       "ajoute_le": "2026-11-18"
