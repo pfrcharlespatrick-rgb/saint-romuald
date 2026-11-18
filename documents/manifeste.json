@@ -650,22 +650,23 @@
     {
       "id": "acte-mariage-alphonse-demers-1908",
       "type": "mariage",
-      "titre": "Mariage d'Alphonse Demers et Éléonore Roberge, 1908",
+      "titre": "Mariage d'Alphonse Demers et Éléonore Roberge, Saint-Romuald, 1908",
       "date": "1908-06-15",
-      "source": "Couples du Canada et du Québec, via MyHeritage",
-      "cote": "",
-      "nature": "Compilation d'acte de mariage, sans image jointe cette fois — moins directement vérifiable que acte-mariage-alfred-demers-1898. La famille a gardé l'extrait de l'acte délivré par la paroisse : sa couverture, seule photographiée (Patrick, 2026-11-18), porte « Extrait — Acte de Mariage de Alphonse Demers et Eléonore Roberge — 15 juin 1908 », et un sceau sec illisible sur la photo ; l'intérieur, avec le lieu, les parents et les témoins, reste à photographier.",
+      "source": "Registre des baptêmes, mariages et sépultures de la paroisse de Saint-Romuald d'Etchemin, 1908 : extrait certifié conforme par le vicaire J. L. Dufresne le 8 avril 1918, gardé dans les papiers des Demers et photographié par Patrick (2026-11-18). Signalé d'abord par la compilation « Couples du Canada et du Québec », via MyHeritage.",
+      "cote": "Registre de Saint-Romuald d'Etchemin, 1908, acte du 15 juin ; extrait du 8 avril 1918",
+      "nature": "Extrait sur formulaire imprimé de la paroisse (« Extrait du Registre des baptêmes, mariages et sépultures de la paroisse de Saint-Romuald d'Etchemin »), recopié à la main par le vicaire, avec le sceau sec « Fabrique St-Romuald — Diocèse de Québec — comté de Lévis ». Couverture manuscrite : « Extrait — Acte de Mariage de Alphonse Demers et Eléonore Roberge — 15 juin 1908 ». La feuille est réparée au ruban adhésif.",
       "personnes": [
         {
           "role": "epoux",
           "nom": "Alphonse Demers",
           "ref_personne": "1891-D1-P123-L13",
-          "note": "3 ans en 1891 — cohérent avec un mariage à ~20 ans en 1908. Absent des recensements de 1871 et 1881, né entre 1881 et 1891."
+          "note": "Domicilié à Saint-Romuald, « fils mineur » de Louis Demers et de Léocadie Beaudoin ; signe. 3 ans en 1891 : une vingtaine d'années en 1908, d'où « mineur » (moins de 21 ans)."
         },
         {
           "role": "pere",
           "nom": "Louis Demers",
-          "ref_personne": "1891-D1-P123-L05"
+          "ref_personne": "1891-D1-P123-L05",
+          "note": "Présent et consentant ; signe « Louis Demers ». Le vicaire, en recopiant, a écrit par erreur « Louis Roberge, père de l'époux »."
         },
         {
           "role": "mere",
@@ -675,15 +676,43 @@
         {
           "role": "epouse",
           "nom": "Éléonore Roberge",
-          "note": "Non rattachée : elle ne figure pas aux recensements dépouillés — née après 1881, et absente de Saint-Romuald en 1891. Ses parents seraient le David Roberge, 19 ans, et l'Éléonore Couture, 20 ans, recensés en 1881 (1881-D2-P044-L24, 1881-D2-P020-L07), qui disparaissent ensuite des recensements de Saint-Romuald — hypothèse. Morte le 13 avril 1938, épouse d'Alphonse Demers (fiche « sepulture-1938-04-18-eleonore-roberge »)."
+          "note": "Domiciliée à Saint-Romuald, « fille mineure » de David Roberge et d'Éléonore Couture, « aussi de cette paroisse » ; signe. Non rattachée : elle ne figure pas aux recensements dépouillés — née après 1881, et absente de Saint-Romuald en 1891. Ses parents seraient le David Roberge, 19 ans, et l'Éléonore Couture, 20 ans, recensés en 1881 (1881-D2-P044-L24, 1881-D2-P020-L07), qui disparaissent ensuite des recensements de Saint-Romuald et y sont revenus en 1908 — hypothèse. Morte le 13 avril 1938, épouse d'Alphonse Demers (fiche « sepulture-1938-04-18-eleonore-roberge »)."
         },
         {
           "role": "pere",
-          "nom": "David Roberge"
+          "nom": "David Roberge",
+          "note": "De Saint-Romuald en 1908 ; consent au mariage de sa fille mineure."
         },
         {
           "role": "mere",
-          "nom": "Éléonore Hélène Couture"
+          "nom": "Éléonore Couture",
+          "note": "De Saint-Romuald en 1908. L'extrait du registre écrit « Eléonore Couture » ; la compilation MyHeritage ajoutait « Hélène »."
+        },
+        {
+          "role": "temoin",
+          "nom": "Damase Vallières",
+          "ref_personne": "1891-D1-P114-L11",
+          "note": "« A déclaré ne savoir signer ». Rattachement probable : Damase Vallière, seul de ce nom dans la paroisse — 15 ans en 1871, journalier de 25 ans en 1881, débardeur de 36 ans en 1891, que le recensement dit ne sachant ni lire ni écrire."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Demers (écrit « Louis Roberge »)",
+          "note": "Le père de l'époux, second témoin ; voir plus haut."
+        },
+        {
+          "role": "cure",
+          "nom": "[H. ?] Richard",
+          "note": "Prêtre, curé de Saint-Romuald en 1908 ; célèbre le mariage."
+        },
+        {
+          "role": "vicaire",
+          "nom": "J. L. Dufresne",
+          "note": "Vicaire de Saint-Romuald ; délivre l'extrait le 8 avril 1918."
+        },
+        {
+          "role": "autorite",
+          "nom": "Mgr [E.] A. Marois",
+          "note": "Vicaire général de Mgr L.-N. Bégin, archevêque de Québec ; accorde les dispenses."
         }
       ],
       "affirmations": [
@@ -694,8 +723,8 @@
           "personnes": [
             "1891-D1-P123-L13"
           ],
-          "enonce": "Alphonse Demers épouse Éléonore Roberge le 15 juin 1908, à Saint-Romuald selon la compilation.",
-          "note": "Le couple et la date sont confirmés par l'extrait de mariage gardé par la famille ; le lieu ne l'est pas encore (l'intérieur de l'extrait n'est pas photographié)."
+          "enonce": "Alphonse Demers épouse Éléonore Roberge le 15 juin 1908 à Saint-Romuald d'Etchemin, tous deux mineurs, avec l'accord de leurs pères.",
+          "note": "Établi par l'extrait du registre paroissial gardé par la famille, qui confirme la date et le lieu donnés par la compilation MyHeritage."
         },
         {
           "type": "filiation",
@@ -706,16 +735,42 @@
             "1891-D1-P123-L13"
           ],
           "enonce": "Alphonse Demers est le fils de Louis Demers et de Léocadie Beaudoin — même couple parental qu'Alfred Demers (acte-mariage-alfred-demers-1898)."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Éléonore Roberge est la fille de David Roberge et d'Éléonore Couture, de Saint-Romuald en 1908."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "personnes": [
+            "1891-D1-P123-L13",
+            "1891-D1-P123-L05",
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "Alphonse Demers et Éléonore Roberge sont parents au troisième degré de consanguinité, ce qui exige une dispense de l'archevêché : ils descendent d'un même couple d'ancêtres, deux générations au-dessus de leurs parents.",
+          "note": "Le troisième degré du droit canonique de 1908 désigne des cousins issus de germains : l'un des parents d'Alphonse et l'un des parents d'Éléonore sont cousins germains. L'acte ne dit pas par quel côté."
         }
       ],
-      "note": "Corrige une confusion de l'ancienne fiche « 1616, chemin du Fleuve » (retirée du site), qui donnait Éléonore (Roberge) comme épouse de Louis Demers lui-même plutôt que de son fils Alphonse, et Léocadie Beaudoin comme une simple colistée plutôt que comme l'épouse de Louis. Éléonore Roberge ne peut être rattachée au recensement (voir sa note) ; son décès, le 13 avril 1938, est connu par le certificat du curé (fiche « sepulture-1938-04-18-eleonore-roberge »).",
+      "note": "Corrige une confusion de l'ancienne fiche « 1616, chemin du Fleuve » (retirée du site), qui donnait Éléonore (Roberge) comme épouse de Louis Demers lui-même plutôt que de son fils Alphonse, et Léocadie Beaudoin comme une simple colistée plutôt que comme l'épouse de Louis. L'extrait du registre, délivré le 8 avril 1918, a été demandé dix ans après le mariage — la même année que la lettre de la St. Lawrence Bridge Company (fiche « lettre-1918-09-27-pont-quebec-alphonse-demers ») ; en 1918, la loi sur le service militaire appelait d'abord les célibataires, et un homme marié avait à le prouver : c'est une explication possible, rien ici ne le dit. Éléonore Roberge ne peut être rattachée au recensement (voir sa note) ; son décès, le 13 avril 1938, est connu par le certificat du curé (fiche « sepulture-1938-04-18-eleonore-roberge »).",
       "ajoute_le": "2026-07-30",
       "images": [
         {
           "local": "documents/scans/extrait-mariage-alphonse-demers-1908.jpg",
-          "legende": "Couverture de l'extrait de mariage"
+          "legende": "Couverture de l'extrait"
+        },
+        {
+          "local": "documents/scans/extrait-mariage-alphonse-demers-1908-2-acte.jpg",
+          "legende": "L'extrait du registre"
+        },
+        {
+          "local": "documents/scans/extrait-mariage-alphonse-demers-1908-3-detail.jpg",
+          "legende": "L'extrait, de plus près"
         }
-      ]
+      ],
+      "transcription": "« Extrait du Registre des baptêmes, mariages et sépultures de la paroisse de Saint-Romuald d'Etchemin, pour l'année mil neuf cent huit. Le quinze juin mil neuf cent huit, vu la dispense de deux bans de mariage et du troisième degré de consanguinité, accordée le [treize ?] du courant par Monseigneur [E.] A. Marois, V.G. de Sa Grandeur Monseigneur L. N. Bégin, archevêque de Québec, vu la publication d'un autre ban faite au prône de notre messe paroissiale entre Alphonse Demers, domicilié en cette paroisse, fils mineur de Louis Demers et de Léocadie Beaudoin de cette paroisse, d'une part ; et Eléonore Roberge, domiciliée en cette paroisse, fille mineure de David Roberge et de Eléonore Couture, aussi de cette paroisse, d'autre part ; ne s'étant découvert aucun empêchement au dit mariage, nous, prêtre curé soussigné, avons, avec l'agrément des pères des époux mineurs, reçu leur mutuel consentement de mariage et leur avons donné la bénédiction nuptiale en présence de Damase Vallières, qui a déclaré ne savoir signer, et de Louis Roberge [sic : Louis Demers, d'après les signatures], père de l'époux, soussigné avec les époux. Lecture faite. (Signé) Eléonore Roberge, Alphonse Demers, Louis Demers, [H. ?] Richard, ptre. Lequel extrait, nous soussigné, vicaire de la paroisse de St-Romuald d'Etchemin, certifions être vrai et conforme au registre original, déposé dans les archives de cette paroisse. Fait à Saint-Romuald d'Etchemin le 8e jour du mois d'avril mil neuf cent dix-huit. J. L. Dufresne, ptre. »"
     },
     {
       "id": "acte-mariage-charles-demers-1896",
