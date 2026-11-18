@@ -65,6 +65,14 @@ Le scan lui-même, s'il est volumineux, n'a pas à entrer dans le dépôt : un l
 Les fichiers de plus de quelques mégaoctets alourdissent le site pour tous les
 visiteurs sans rien apporter à la démonstration.
 
+Une **pièce de famille** photographiée (testament, contrat gardé à la maison)
+fait exception : elle n'est en ligne nulle part. Les photos, allégées à
+1 400 pixels de haut et quelques centaines de Ko, vont dans `documents/scans/`,
+et la fiche les nomme dans `images` : `{ "local": "documents/scans/xxx.jpg",
+"legende": "Feuillet 1" }`. Le site les montre dans le volet « Images du
+document », comme les images du greffe. Exemple : le testament de Louis
+Demers, 1904 (`notarie-1904-11-15-testament-louis-demers`).
+
 ---
 
 ## Ce qu'un document peut trancher

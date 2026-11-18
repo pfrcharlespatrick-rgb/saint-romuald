@@ -283,7 +283,10 @@ function referenceDe(doc) {
     // qu'il faut pour les montrer (aperçu Google Drive) et les citer.
     ...(doc.images && doc.images.length ? {
       images: doc.images.map((i) => ({ fichier: i.fichier, microfilm: i.microfilm,
-        ...(i.drive ? { drive: i.drive } : {}), ...(i.legende ? { legende: i.legende } : {}) }))
+        ...(i.drive ? { drive: i.drive } : {}), ...(i.legende ? { legende: i.legende } : {}),
+        // Une photo prise par Patrick d'une pièce de famille, rangée dans le
+        // dépôt (documents/scans/), allégée : le site la sert lui-même.
+        ...(i.local && /^documents\/scans\/[\w.-]+\.jpg$/.test(i.local) ? { local: i.local } : {}) }))
     } : {})
   };
 }

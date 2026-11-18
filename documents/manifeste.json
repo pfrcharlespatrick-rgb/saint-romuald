@@ -1,7 +1,7 @@
 {
   "format": "documents-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-11-17",
+  "mis_a_jour": "2026-11-18",
   "note": "Index des documents historiques qui établissent des liens de filiation. Un document versé ici l'emporte toujours sur une proposition automatique de data/filiation-data.js : l'acte est une preuve, le rapprochement algorithmique n'est qu'une hypothèse. Voir documents/README.md pour la marche à suivre.",
   "types_admis": {
     "bapteme": "Acte de baptême — établit une filiation directe et une date de naissance",
@@ -21949,6 +21949,102 @@
       ],
       "note": "Transcription faite sur l'image, page de droite et bas de la page de gauche. La suite (pose des bornes, superficies, clôture, signatures) manque à l'image : la synthèse remise avec l'image en donne des chiffres — lot n° 1 de 4 arpents 78 perches, lot n° 2 de 4 arpents 24 perches, 9 arpents 33 perches en tout, lot n° 2 achevé au printemps 1842 —, non vérifiés ici. Deux lectures de cette synthèse sont corrigées sur l'image : « 14 perches » (et non 15) ; « Isaac Fontaine fils, marchand » (et non Isaac Montminy ni Isaac Fortier). Date du plan : le second chiffre de « 24 » a la forme du 4 de « 1841 ». Ce plan, celui de 1854 (même arpenteur, même terrain) et celui d'Alfred Hamel de 1866 se recoupent : mêmes bornes A à D, même ligne Pichet/Pichette (448 et 449 m), mêmes voisins. Les deux plans de 1842 et de 1866 sont posés sur la carte du site, dans l'atelier (voir docs/PLANS-ANCIENS.md). La « Traverse » du plan, au pied du chemin public, est là où le pont Garneau sera bâti plus tard (la pointe porte aujourd'hui le nom de pointe du Pont-Garneau) — rapprochement de lieu, non démontré par une source.",
       "ajoute_le": "2026-11-16"
+    },
+    {
+      "id": "notarie-1904-11-15-testament-louis-demers",
+      "type": "notarie",
+      "titre": "Testament de Louis Demers, boucher, en faveur de Léocadie Beaudoin, son épouse, Saint-Romuald d'Etchemin, 1904",
+      "date": "1904-11-15",
+      "source": "Pièce de famille : première copie authentique délivrée par le notaire Jean-Théophile Lemieux, de Saint-Romuald d'Etchemin ; photographiée par Patrick (2026-11-18). La minute originale est au greffe du notaire Lemieux.",
+      "cote": "Minute n° 2337 du notaire Jean-Théophile Lemieux ; copie enregistrée le 26 novembre 1912 (timbre d'enregistrement de 30 cents)",
+      "nature": "Testament authentique sur formulaire imprimé, rempli à la main, en trois feuillets pliés. Endos : « N° 2337 / St Romuald, 15 nov. 1904 / Testament de Mr Louis Demers / 1re copie / J. Lemieux N.P. ». Sur l'endos, au crayon, « J. T. Lemieux N.P. », « (30) », « $2.30 » et le cachet ovale « Division d'enregistrement [de Lévis ?] — NOV 26 1912 — comté de L[évis ?] » ; sur l'acte, le timbre « Enregistrement Québec 30 cents » sous un cachet violet en partie illisible. Le bas du premier feuillet et le haut du second sont barrés de traits ondulés, pour qu'on n'y ajoute rien.",
+      "transcription": "[Partie imprimée en romain ; ce que le notaire a écrit à la main est rendu tel quel.] « L'an mil neuf cent quatre, le quinzième jour du mois de novembre ; Devant Jean Théophile Lemieux, notaire public, pour la province de Québec, résidant et pratiquant en la paroisse de St-Romuald d'Etchemin, soussigné, et en présence de Messieurs Honoré McReady, marchand, et Paul Girard, inspecteur de bois, tous deux de la paroisse de St-Romuald d'Etchemin, témoins exprès demandés au présent testament. A comparu : Sieur Louis Demers de la paroisse de St-Romuald d'Etchemin, boucher, étant en santé de corps, sain d'esprit, mémoire, jugement et entendement ainsi qu'il a paru aux dits notaire et témoins ci-dessus nommés : Lequel a dans la vue de la mort fait et dicté son présent testament au dit notaire en la présence actuelle et constante des dits témoins ainsi qu'il suit, savoir : 1o Je recommande mon âme à Dieu et le prie de lui faire miséricorde. 2o Je veux qu'avant tout mes dettes soient payées et mes torts, s'il y a, scrupuleusement réparés par mon exécutrice testamentaire ci-après nommé à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes et prières, voulant néanmoins qu'un service soit chanté sur mon corps le jour de mes funérailles et un autre [rayé : semblable] service dans l'an de mon décès aussi que vingt-cinq messes basses [rayé : de requiem] soient dites le plus tôt possible après mon décès pour le repos de mon âme. 3o Je donne et lègue à Dame Léocadie Beaudoin mon épouse actuelle tous mes biens meubles et immeubles que je délaisserai au jour de mon décès de quelque nature et valeur qu'ils soient et en quelque lieu qu'ils soient dûs et situés, l'instituant ma légataire universelle et mon exécutrice testamentaire. 4o Je révoque tous autres testaments et codicilles que je pourrais avoir faits avant celui-ci. Ce fut ainsi fait et dicté par le dit testateur au dit notaire soussigné en la présence actuelle et constante des dits témoins, et son présent testament lui ayant été lu et expliqué par nous notaire en présence des dits témoins il nous a dit et déclaré devant eux l'avoir bien entendu et compris et y a persisté comme renfermant ses dernières volontés. Dont acte, fait et passé en la paroisse de St-Romuald d'Etchemin, au domicile du dit testateur, les jours, mois et an susdit sous le numéro deux mille trois cent trente-sept des minutes du [rayé : originaux] notaire soussigné. Et après lecture faite comme dit ci-dessus du présent testament le testateur, les témoins et nous notaire l'avons tous signé au même instant et en la présence les uns des autres [rayé : et en la présence d… dit testat… qui nous a déclaré en présence des dits témoins ne savoir écrire ni signer de ce requis]. (Signé) “Louis Demers”, “Honoré McReady”, “Paul Girard”, “J. Théo. Lemieux N.P.” Vraie copie de la minute de record en mon étude. Vingt-huit mots rayés sont nuls. J. Théo. Lemieux N.P. »",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Louis Demers",
+          "ref_personne": "1891-D1-P123-L05",
+          "note": "Boucher, de Saint-Romuald d'Etchemin, « en santé » ; l'acte est passé à son domicile. Il signe : il sait écrire, comme le disent les recensements de 1871 et de 1891. Boucher déjà en 1891 (maison 543). Né le 27 février 1844, mort le 30 octobre 1912 (fiche « myheritage-louis-demers-vital »)."
+        },
+        {
+          "role": "legataire",
+          "nom": "Léocadie Beaudoin",
+          "ref_personne": "1891-D1-P123-L06",
+          "note": "« Mon épouse actuelle » ; légataire universelle et exécutrice testamentaire. Recensée « Léocadie Demers » en 1871, 1881 et 1891. Morte le 5 mai 1931 (fiche « filae-leocadie-beaudoin »)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Honoré McReady",
+          "note": "Marchand, de Saint-Romuald d'Etchemin ; signe. Aucun Honoré dans les familles McReady / McCready recensées de 1871 à 1891 : non rattaché. Peut-être un fils né après 1891, ou un prénom d'usage différent de celui du recensement."
+        },
+        {
+          "role": "temoin",
+          "nom": "Paul Girard",
+          "note": "Inspecteur de bois, de Saint-Romuald d'Etchemin ; signe. Un Paul Girard a 14 ans en 1871 (1871-D2-P046-L14) et 23 ans en 1881 (1881-D1-P088-L03) ; il aurait 46 ou 47 ans en 1904. Rien d'autre ne le relie : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Jean-Théophile Lemieux",
+          "note": "Notaire public, résidant et pratiquant à Saint-Romuald d'Etchemin ; signe « J. Théo. Lemieux N.P. ». Non rattaché : le F. Théophile Lemieux de 1891 (1891-D1-P066-L09) est cultivateur."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1904-11-15",
+          "personnes": [
+            "1891-D1-P123-L05"
+          ],
+          "enonce": "Louis Demers est boucher à Saint-Romuald d'Etchemin en 1904, comme en 1891."
+        },
+        {
+          "type": "nom_de_naissance",
+          "certitude": "etabli",
+          "date": "1904-11-15",
+          "personnes": [
+            "1891-D1-P123-L05",
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "L'épouse de Louis Demers, recensée « Léocadie Demers », se nomme Léocadie Beaudoin ; elle est vivante le 15 novembre 1904."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1904-11-15",
+          "personnes": [
+            "1891-D1-P123-L05",
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "Louis Demers lègue à sa femme, Léocadie Beaudoin, tous ses biens meubles et immeubles et la nomme sa légataire universelle et son exécutrice testamentaire ; aucun de ses enfants n'est nommé."
+        },
+        {
+          "type": "deces",
+          "certitude": "probable",
+          "date": "1912-11-26",
+          "personnes": [
+            "1891-D1-P123-L05"
+          ],
+          "enonce": "La copie du testament est enregistrée le 26 novembre 1912, moins d'un mois après la mort de Louis Demers (30 octobre 1912) : c'est l'enregistrement de la succession.",
+          "note": "La date de décès vient de la fiche « myheritage-louis-demers-vital » ; le cachet de l'endos ne la donne pas, mais il la confirme à quatre semaines près."
+        }
+      ],
+      "note": "Pièce de famille, la première venue d'ailleurs que des registres en ligne pour le couple Louis Demers et Léocadie Beaudoin (1871-D2-P031, 1881-D2-P025, 1891-D1-P123), déjà suivi par les mariages de leurs fils Charles (1896), Alfred (1898), Joseph (1900) et Alphonse (1908). Le testament est un formulaire imprimé, signé par le testateur : la clause « ne savoir écrire ni signer » est rayée. La signature recoupe le recensement, qui le dit sachant lire et écrire. Le timbre et le cachet d'enregistrement sont en partie illisibles sur la photo ; le nom du bureau (« Lévis ») est à confirmer sur l'original.",
+      "images": [
+        {
+          "local": "documents/scans/testament-louis-demers-1904-1-endos.jpg",
+          "legende": "Endos, n° 2337"
+        },
+        {
+          "local": "documents/scans/testament-louis-demers-1904-2-acte.jpg",
+          "legende": "Feuillet 1"
+        },
+        {
+          "local": "documents/scans/testament-louis-demers-1904-3-signatures.jpg",
+          "legende": "Feuillet 2, signatures"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
     }
   ]
 }
