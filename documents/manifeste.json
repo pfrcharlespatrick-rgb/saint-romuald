@@ -21957,7 +21957,7 @@
       "date": "1904-11-15",
       "source": "Pièce de famille : première copie authentique délivrée par le notaire Jean-Théophile Lemieux, de Saint-Romuald d'Etchemin ; photographiée par Patrick (2026-11-18). La minute originale est au greffe du notaire Lemieux.",
       "cote": "Minute n° 2337 du notaire Jean-Théophile Lemieux ; copie enregistrée le 26 novembre 1912 (timbre d'enregistrement de 30 cents)",
-      "nature": "Testament authentique sur formulaire imprimé, rempli à la main, en trois feuillets pliés. Endos : « N° 2337 / St Romuald, 15 nov. 1904 / Testament de Mr Louis Demers / 1re copie / J. Lemieux N.P. ». Sur l'endos, au crayon, « J. T. Lemieux N.P. », « (30) », « $2.30 » et le cachet ovale « Division d'enregistrement [de Lévis ?] — NOV 26 1912 — comté de L[évis ?] » ; sur l'acte, le timbre « Enregistrement Québec 30 cents » sous un cachet violet en partie illisible. Le bas du premier feuillet et le haut du second sont barrés de traits ondulés, pour qu'on n'y ajoute rien.",
+      "nature": "Testament authentique sur formulaire imprimé, rempli à la main, en trois feuillets pliés. Endos : « N° 2337 / St Romuald, 15 nov. 1904 / Testament de Mr Louis Demers / 1re copie / J. Lemieux N.P. ». Sur l'endos, au crayon, « J. T. Lemieux N.P. », « (30) », « $2.30 » et le cachet ovale « Division d'enregistrement — NOV 26 1912 — comté de Lévis » (lu sur le même cachet, plus net, de la déclaration de transmission du 22 novembre 1912) ; sur l'acte, le timbre « Enregistrement Québec 30 cents » sous un cachet violet en partie illisible. Le bas du premier feuillet et le haut du second sont barrés de traits ondulés, pour qu'on n'y ajoute rien.",
       "transcription": "[Partie imprimée en romain ; ce que le notaire a écrit à la main est rendu tel quel.] « L'an mil neuf cent quatre, le quinzième jour du mois de novembre ; Devant Jean Théophile Lemieux, notaire public, pour la province de Québec, résidant et pratiquant en la paroisse de St-Romuald d'Etchemin, soussigné, et en présence de Messieurs Honoré McReady, marchand, et Paul Girard, inspecteur de bois, tous deux de la paroisse de St-Romuald d'Etchemin, témoins exprès demandés au présent testament. A comparu : Sieur Louis Demers de la paroisse de St-Romuald d'Etchemin, boucher, étant en santé de corps, sain d'esprit, mémoire, jugement et entendement ainsi qu'il a paru aux dits notaire et témoins ci-dessus nommés : Lequel a dans la vue de la mort fait et dicté son présent testament au dit notaire en la présence actuelle et constante des dits témoins ainsi qu'il suit, savoir : 1o Je recommande mon âme à Dieu et le prie de lui faire miséricorde. 2o Je veux qu'avant tout mes dettes soient payées et mes torts, s'il y a, scrupuleusement réparés par mon exécutrice testamentaire ci-après nommé à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes et prières, voulant néanmoins qu'un service soit chanté sur mon corps le jour de mes funérailles et un autre [rayé : semblable] service dans l'an de mon décès aussi que vingt-cinq messes basses [rayé : de requiem] soient dites le plus tôt possible après mon décès pour le repos de mon âme. 3o Je donne et lègue à Dame Léocadie Beaudoin mon épouse actuelle tous mes biens meubles et immeubles que je délaisserai au jour de mon décès de quelque nature et valeur qu'ils soient et en quelque lieu qu'ils soient dûs et situés, l'instituant ma légataire universelle et mon exécutrice testamentaire. 4o Je révoque tous autres testaments et codicilles que je pourrais avoir faits avant celui-ci. Ce fut ainsi fait et dicté par le dit testateur au dit notaire soussigné en la présence actuelle et constante des dits témoins, et son présent testament lui ayant été lu et expliqué par nous notaire en présence des dits témoins il nous a dit et déclaré devant eux l'avoir bien entendu et compris et y a persisté comme renfermant ses dernières volontés. Dont acte, fait et passé en la paroisse de St-Romuald d'Etchemin, au domicile du dit testateur, les jours, mois et an susdit sous le numéro deux mille trois cent trente-sept des minutes du [rayé : originaux] notaire soussigné. Et après lecture faite comme dit ci-dessus du présent testament le testateur, les témoins et nous notaire l'avons tous signé au même instant et en la présence les uns des autres [rayé : et en la présence d… dit testat… qui nous a déclaré en présence des dits témoins ne savoir écrire ni signer de ce requis]. (Signé) “Louis Demers”, “Honoré McReady”, “Paul Girard”, “J. Théo. Lemieux N.P.” Vraie copie de la minute de record en mon étude. Vingt-huit mots rayés sont nuls. J. Théo. Lemieux N.P. »",
       "personnes": [
         {
@@ -22020,16 +22020,16 @@
         },
         {
           "type": "deces",
-          "certitude": "probable",
+          "certitude": "etabli",
           "date": "1912-11-26",
           "personnes": [
             "1891-D1-P123-L05"
           ],
-          "enonce": "La copie du testament est enregistrée le 26 novembre 1912, moins d'un mois après la mort de Louis Demers (30 octobre 1912) : c'est l'enregistrement de la succession.",
-          "note": "La date de décès vient de la fiche « myheritage-louis-demers-vital » ; le cachet de l'endos ne la donne pas, mais il la confirme à quatre semaines près."
+          "enonce": "Louis Demers meurt le 30 octobre 1912 sans avoir changé ce testament ; la copie est enregistrée au bureau de Lévis le 26 novembre 1912, le même jour que la déclaration de transmission de sa veuve.",
+          "note": "Date de décès établie par la déclaration de transmission du 22 novembre 1912 (fiche « notarie-1912-11-22-transmission-demers »), qui confirme celle de l'arbre MyHeritage."
         }
       ],
-      "note": "Pièce de famille, la première venue d'ailleurs que des registres en ligne pour le couple Louis Demers et Léocadie Beaudoin (1871-D2-P031, 1881-D2-P025, 1891-D1-P123), déjà suivi par les mariages de leurs fils Charles (1896), Alfred (1898), Joseph (1900) et Alphonse (1908). Le testament est un formulaire imprimé, signé par le testateur : la clause « ne savoir écrire ni signer » est rayée. La signature recoupe le recensement, qui le dit sachant lire et écrire. Le timbre et le cachet d'enregistrement sont en partie illisibles sur la photo ; le nom du bureau (« Lévis ») est à confirmer sur l'original.",
+      "note": "Pièce de famille, la première venue d'ailleurs que des registres en ligne pour le couple Louis Demers et Léocadie Beaudoin (1871-D2-P031, 1881-D2-P025, 1891-D1-P123), déjà suivi par les mariages de leurs fils Charles (1896), Alfred (1898), Joseph (1900) et Alphonse (1908). Le testament est un formulaire imprimé, signé par le testateur : la clause « ne savoir écrire ni signer » est rayée. La signature recoupe le recensement, qui le dit sachant lire et écrire. Le timbre et le cachet d'enregistrement sont en partie illisibles sur la photo ; le bureau est celui de Lévis, comme le montre le cachet du même jour sur la déclaration de transmission (fiche « notarie-1912-11-22-transmission-demers »).",
       "images": [
         {
           "local": "documents/scans/testament-louis-demers-1904-1-endos.jpg",
@@ -22163,7 +22163,7 @@
           "enonce": "L'emplacement n° 529, au bord du fleuve, entre Ward et Cullen, est vraisemblablement celui de la maison d'Arthur Brown en 1871 (division 2, maison 63, entre la maison 62 des Cullen et la maison 64 des Ward)."
         }
       ],
-      "note": "Pièce de famille trouvée dans les papiers de Louis Demers et de Léocadie Beaudoin, avec leurs testaments. L'acte ne nomme aucun Demers : la propriété est peut-être passée plus tard aux Demers, et un acheteur reçoit d'ordinaire les titres antérieurs de son terrain — à vérifier, rien ici ne le dit. Les Brown étaient bouchers, comme Louis Demers à partir des années 1890. Le premier feuillet manque aux photos, avec la comparution des parties : le nom de naissance de Matilda Brown, le métier des parties et la largeur du terrain y sont sans doute. La cinquième photo envoyée, qui reprend de biais les feuillets de la rente et de la clôture, n'est pas reproduite.",
+      "note": "Pièce de famille trouvée dans les papiers de Louis Demers et de Léocadie Beaudoin, avec leurs testaments. L'acte ne nomme aucun Demers, mais le même lot 529 appartient à Louis Demers et Léocadie Beaudoin en 1912 (déclaration de transmission, fiche « notarie-1912-11-22-transmission-demers ») : le terrain leur est passé entre 1886 et 1912, et avec lui ses titres antérieurs. L'acte d'acquisition des Demers reste à trouver. Les Brown étaient bouchers, comme Louis Demers à partir des années 1890. Le premier feuillet manque aux photos, avec la comparution des parties : le nom de naissance de Matilda Brown, le métier des parties et la largeur du terrain y sont sans doute. La cinquième photo envoyée, qui reprend de biais les feuillets de la rente et de la clôture, n'est pas reproduite.",
       "images": [
         {
           "local": "documents/scans/vente-brown-ahern-1886-1-endos.jpg",
@@ -22184,6 +22184,93 @@
         {
           "local": "documents/scans/vente-brown-ahern-1886-5-signatures.jpg",
           "legende": "Date et signatures"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "notarie-1912-11-22-transmission-demers",
+      "type": "notarie",
+      "titre": "Déclaration de transmission par Léocadie Beaudoin, veuve de Louis Demers, du lot n° 529, Saint-Romuald d'Etchemin, 1912",
+      "date": "1912-11-22",
+      "source": "Pièce de famille, gardée dans les papiers de Louis Demers et de Léocadie Beaudoin : première copie délivrée par le notaire Jean-Théophile Lemieux, de Saint-Romuald d'Etchemin ; photographiée par Patrick (2026-11-18). La minute originale est au greffe du notaire Lemieux.",
+      "cote": "Minute n° 3760 du notaire Jean-Théophile Lemieux ; enregistrée par transcription au bureau de la division d'enregistrement du comté de Lévis, registre B, volume 56, page 348, n° 50833, le 26 novembre 1912 à deux heures de l'après-midi",
+      "nature": "Copie dactylographiée, signée à la main par le notaire. Endos : « N° 3760 / St Romuald, 22 nov 1912 / Déclaration de transmission par Dme Léocadie Beaudoin Demers / 1re copie / J. Lemieux N.P. », au crayon « J. T. Lemieux N.P. », « (20) », « $1.90 », et le cachet « Division d'enregistrement — NOV 26 1912 — comté de Lévis ». Au revers, le certificat d'enregistrement, signé « J. A. Carrier, Régistrateur ». Sur l'acte, deux timbres d'enregistrement du Québec, de 5 et de 15 cents. Deux corrections à la plume dans le texte tapé (« légués », « et l'autre moitié »).",
+      "transcription": "« L'an mil neuf cent douze, le vingt deuxième jour du mois de novembre ; Devant Jean Théophile Lemieux, notaire public pour la province de Québec, résidant et pratiquant en la paroisse de St Romuald d'Etchemin, soussigné ; A comparu : Dame Léocadie Beaudoin de la paroisse de St Romuald d'Etchemin, veuve de feu Louis Demers, ce dernier en son vivant du même lieu, boucher et commerçant de bois. Laquelle donne par les présentes avis à Monsieur le Régistrateur du comté de Lévis que son dit époux, feu Louis Demers, est décédé en la dite paroisse de St Romuald d'Etchemin le trentième jour du mois de octobre dernier après avoir fait recevoir son testament authentique par le notaire soussigné, le quinze novembre mil neuf cent quatre, lequel testament n'a pas été révoqué ni changé. Que par son susdit testament le dit Louis Demers a institué la dite comparante sa légataire universelle et son exécutrice testamentaire. Qu'au nombre des biens légués à la dite comparante se trouve la moitié indivise de l'immeuble suivant sur laquelle la dite comparante requiert l'enregistrement de ses droits de propriété, [à la plume : et l'] autre moitié indivise appartenant déjà à la dite comparante comme étant sa part de communauté de biens, savoir : Un emplacement contenant cinquante pieds de front sur environ cent pieds de profondeur, étant le lot numéro cinq cent vingt-neuf (529) du cadastre de la paroisse de St Romuald d'Etchemin, comté de Lévis, avec bâtisses, circonstances et dépendances ; Cette déclaration est ainsi faite en conformité à l'article deux mille quatre-vingt-dix-huit du code civil du Bas Canada et pour valoir ce que de droit. Dont acte, fait et passé en la paroisse de St Romuald d'Etchemin les jour, mois et an susdits, sous le numéro trois mille sept cent soixante des minutes du notaire soussigné. Après lecture faite des présentes à la dite comparante, elle a signé avec nous notaire. (Signé) “Léocadie Beaudoin” “Demers” “J. Théo. Lemieux N.P.” Vraie copie de la minute de record en mon étude. J. Théo. Lemieux N.P. » — Au revers de l'endos : « No 50833. Cet acte de Décl. de transmission a été enregistré par transcription, au Bureau de la Division d'Enregistrement du Comté de Lévis, Registre B, Volume 56, Page 348, sous le Numéro cinquante mille huit cent trente-trois, à deux heures de l'après-midi, le vingt-six novembre mil neuf cent douze. J. A. Carrier, Régistrateur. »",
+      "personnes": [
+        {
+          "role": "declarante",
+          "nom": "Léocadie Beaudoin",
+          "ref_personne": "1891-D1-P123-L06",
+          "note": "Veuve de Louis Demers, légataire universelle et exécutrice de son testament de 1904. Signe « Léocadie Beaudoin Demers ». Déjà propriétaire de la moitié du lot 529 par la communauté de biens du couple."
+        },
+        {
+          "role": "defunt",
+          "nom": "Louis Demers",
+          "ref_personne": "1891-D1-P123-L05",
+          "note": "« En son vivant boucher et commerçant de bois », de Saint-Romuald d'Etchemin ; mort le 30 octobre 1912."
+        },
+        {
+          "role": "notaire",
+          "nom": "Jean-Théophile Lemieux",
+          "note": "Le notaire du testament de 1904, qui en a gardé la minute."
+        },
+        {
+          "role": "registrateur",
+          "nom": "J. A. Carrier",
+          "note": "Régistrateur du comté de Lévis ; signe le certificat d'enregistrement."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1912-10-30",
+          "personnes": [
+            "1891-D1-P123-L05"
+          ],
+          "enonce": "Louis Demers meurt à Saint-Romuald d'Etchemin le 30 octobre 1912, sans avoir changé son testament du 15 novembre 1904.",
+          "consequence": "Confirme par un acte notarié la date que donnait l'arbre MyHeritage (fiche « myheritage-louis-demers-vital »)."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1912-10-30",
+          "personnes": [
+            "1891-D1-P123-L05"
+          ],
+          "enonce": "À sa mort, Louis Demers est boucher et commerçant de bois."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1912-11-22",
+          "personnes": [
+            "1891-D1-P123-L05",
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "Louis Demers et Léocadie Beaudoin possèdent en communauté de biens le lot n° 529 du cadastre de Saint-Romuald, un emplacement de 50 pieds de front sur environ 100 pieds de profondeur, avec bâtisses. À la mort de son mari, Léocadie en a la totalité : sa moitié de communauté et celle qu'il lui lègue.",
+          "consequence": "C'est le terrain vendu en 1886 par John Brown à Robert Ahern (fiche « notarie-1886-11-23-vente-brown-ahern ») : il est passé aux Demers entre 1886 et 1912, ce qui explique que cette vente soit dans leurs papiers."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "personnes": [
+            "1891-D1-P123-L05",
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "Louis Demers et Léocadie Beaudoin étaient mariés sous le régime de la communauté de biens."
+        }
+      ],
+      "note": "La déclaration de transmission informe le bureau d'enregistrement qu'un immeuble a changé de propriétaire par succession. Elle relie les deux autres pièces de famille : le testament de Louis Demers (1904, même notaire, enregistré le même jour, le 26 novembre 1912) et la vente Brown-Ahern de 1886, qui porte sur le même lot 529. Reste à trouver l'acte par lequel les Demers ont acquis ce lot de Robert Ahern ou d'un propriétaire suivant : il serait au bureau d'enregistrement de Lévis, à l'index du lot 529. À éclaircir aussi : selon la fiche de lieu « Maison Demers », la famille habite le 1617, chemin du Fleuve, depuis 1871 ; or le lot 529 était en 1886 la maison des Brown, et les Demers n'y étaient pas en 1871 (maison 81 de la division 2, quand les Brown sont à la maison 63). Ou bien le lot 529 est un autre bien des Demers (une boucherie ?), ou bien le 1617 n'est pas leur maison de 1871.",
+      "images": [
+        {
+          "local": "documents/scans/transmission-demers-1912-1-endos.jpg",
+          "legende": "Endos et enregistrement"
+        },
+        {
+          "local": "documents/scans/transmission-demers-1912-2-acte.jpg",
+          "legende": "L'acte, signatures"
         }
       ],
       "ajoute_le": "2026-11-18"
