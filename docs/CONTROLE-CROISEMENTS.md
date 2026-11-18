@@ -118,7 +118,7 @@ Le dépouillement a laissé un « [?] » sur ces lignes, et un acte versé depui
 
 ## Signature au bas des actes et « sait écrire » au recensement — 0
 
-Les actes disent qui signe et qui « a déclaré ne le savoir ». Sur 75 personnes rattachées dont le recensement dit si elles écrivent, 65 s'accordent avec leurs actes ; les autres sont ici. Signer n'est pas écrire, et le recenseur a pu omettre une marque : chaque ligne demande le manuscrit.
+Les actes disent qui signe et qui « a déclaré ne le savoir ». Sur 76 personnes rattachées dont le recensement dit si elles écrivent, 66 s'accordent avec leurs actes ; les autres sont ici. Signer n'est pas écrire, et le recenseur a pu omettre une marque : chaque ligne demande le manuscrit.
 
 **Où trancher :** au manuscrit, dans les colonnes d'instruction ; puis dans l'atelier si la marque est à déplacer.
 

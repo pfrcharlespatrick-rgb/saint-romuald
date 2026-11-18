@@ -403,7 +403,9 @@ const sexeDuPrenom = (() => {
     const simPat = Math.max(0, ...candidats.map((m) => similarPatronyme(clePatronyme(m), cp)));
     const prenoms = mots.filter((m) => !TITRES.has(m) && similarPatronyme(clePatronyme(m), cp) < 0.6);
     const clesRec = clesPrenom(c.prenom);
-    const simPre = prenoms.length && clesRec.length ? similarPrenom(clesPrenom(prenoms.join(' ')), clesRec) : 1;
+    // « Veuve Charles Ward » : le prénom écrit est celui du mari, pas le sien.
+    const veuve = /^(veuve|vve)$/.test(mots[0] || '');
+    const simPre = !veuve && prenoms.length && clesRec.length ? similarPrenom(clesPrenom(prenoms.join(' ')), clesRec) : 1;
     let quoi = '';
     if (simPre < 0.75) quoi = simPre >= 0.5 ? 'prénom voisin, pas identique' : 'prénom différent';
     // Une femme change de nom en se mariant ; un homme, non.
