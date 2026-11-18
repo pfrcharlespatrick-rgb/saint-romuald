@@ -17,7 +17,7 @@ section dit où la décision se prend.
 | Lignes incomplètes ou renvois cassés | 4 | 1 |
 | Lignes incertaines qu'un document éclaire | 2 | 1 |
 | Signature au bas des actes et « sait écrire » au recensement | 0 | 8 |
-| Documents : le nom écrit n'est pas celui de la ligne rattachée | 6 |  |
+| Documents : le nom écrit n'est pas celui de la ligne rattachée | 7 |  |
 | Naissances et décès connus, face au recensement | 4 |  |
 | Identité dite par un document, sans lien entre les recensements | 1 |  |
 | Le sexe ne suit pas — d'un recensement à l'autre, ou sur la ligne même | 1 | 5 |
@@ -126,7 +126,7 @@ Rien à signaler.
 
 8 autre(s) point(s) de cette rubrique ont déjà reçu la réponse de Patrick.
 
-## Documents : le nom écrit n'est pas celui de la ligne rattachée — 6
+## Documents : le nom écrit n'est pas celui de la ligne rattachée — 7
 
 La fiche d'un document rattache une personne à une ligne dont le prénom (ou, pour un homme, le patronyme) n'est pas le sien. Trois cas : la ligne du recensement est mal lue ; la fiche reprend une lecture que la relecture a corrigée depuis ; ou le rattachement vise la mauvaise ligne.
 
@@ -140,6 +140,7 @@ La fiche d'un document rattache une personne à une ligne dont le prénom (ou, p
 | « roberge-fratrie-julien-1881 » (recensement, 1881-04-19) | Roberge (prénom lu « Stbert ») (enfant) | `1881-D2-P038-L25` — Albert Roberge, 12 ans — 1881, div. 2, maison 162, p. 38 l. 25 | prénom voisin, pas identique |  |
 | « notarie-1874-07-20-bail-demers-deschenes » (notarie, 1874-07-20) | Augustin Blais (voisin) | `1871-D1-P017-L17` — Auguste Blais, 34 ans — 1871, div. 1, maison 43, p. 17 l. 17 | prénom voisin, pas identique | Voisin à l'ouest, en partie. Rattaché en probable au journalier de 34 ans de 1871 (division 1, maison 43) ; charpentier de 40 ans en 1881 (maison 95), voisin… |
 | « notarie-1914-07-31-testament-leocadie-beaudoin » (notarie, 1914-07-31) | Joseph Boutin Bourassa (notaire) | `1891-D1-P139-L02` — Joseph Bunton-Bourassa, 36 ans — 1891, div. 1, maison 621, p. 139 l. 2 | patronyme différent | Notaire public, résidant et pratiquant à Saint-Romuald ; signe « J. Boutin Bourassa, N.P. ». Recensé « Joseph Boutin dit Bourassa », notaire, 26 ans, en 1881… |
+| « notarie-1928-08-11-donation-demers » (notarie, 1928-08-11) | Joseph Boutin Bourassa (notaire) | `1891-D1-P139-L02` — Joseph Bunton-Bourassa, 36 ans — 1891, div. 1, maison 621, p. 139 l. 2 | patronyme différent | Notaire de Saint-Romuald ; le même qu'au testament de 1914. |
 
 ## Naissances et décès connus, face au recensement — 4
 
