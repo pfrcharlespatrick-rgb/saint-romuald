@@ -22045,6 +22045,148 @@
         }
       ],
       "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "notarie-1886-11-23-vente-brown-ahern",
+      "type": "notarie",
+      "titre": "Vente d'un emplacement au bord du fleuve (cadastre n° 529) par John Brown et son épouse à Robert Ahern, Saint-Romuald, 1886",
+      "date": "1886-11-23",
+      "source": "Pièce de famille, gardée dans les papiers de Louis Demers et de Léocadie Beaudoin : première copie délivrée par le notaire M. U. Damien [Séguré ?], de Saint-Romuald ; photographiée par Patrick (2026-11-18). La minute originale est au greffe de ce notaire.",
+      "cote": "Minute n° 2115 du notaire M. U. Damien [Séguré ?] ; enregistrée par transcription au bureau de la division d'enregistrement du comté de Lévis, registre B, volume 33, page 582, n° 28451, le 10 décembre 1886 à trois heures de l'après-midi",
+      "nature": "Copie manuscrite sur papier réglé, plusieurs feuillets pliés. Endos : « N° 2115 / 23 Novembre 1886 / Vente / Sr John Brown et Uxor à Sr Robert Ahern / 1re Copie / M. U. Damien [Séguré ?] N.P. », la mention « Payé […] $1.80 », une signature au crayon (« Robert Ahern » ?) et le cachet circulaire « Division d'enregistrement — 10 DEC 1886 ». Au revers, le certificat d'enregistrement imprimé, rempli et signé « O. Carrier, Dép. Régistrateur ». Le premier feuillet de l'acte (comparution des parties et début de la description du terrain) n'est pas sur les photos : le texte transcrit commence au milieu des tenants et aboutissants.",
+      "transcription": "[Le début de l'acte manque sur les photos.] « […] au nord à la grève du fleuve St Laurent, d'un côté au nord-est à Veuve Charles Ward et d'autre côté au sud-ouest à John Cullen, avec maison dessus construite, circonstances et dépendances. Le dit emplacement porte le numéro cinq cent vingt-neuf (529) des plan et livre de renvois officiels du cadastre dans et pour la paroisse de St Romuald, comté de Lévis. Tel et ainsi que le tout se poursuit, comporte de fond en comble et s'étend de toutes parts, et dont le dit acquéreur se déclare content et satisfait pour le tout bien connaître et l'avoir vu et visité. Appartenant à la dite Dame John Brown pour l'avoir eu par testament de feu Sieur Arthur Brown, reçu en présence du notaire soussigné et témoins le quatrième jour de septembre mil huit cent quatre-vingt-six. Pour par le dit acquéreur, ses dits hoirs et ayants cause, à l'avenir jouir, faire et disposer des dites prémisses en pleine et entière propriété, à commencer la jouissance immédiatement. A l'effet de quoi les dits vendeurs [se désistent ?] et transportent au dit acquéreur tous droits de propriété qu'ils ont ou peuvent avoir sur les dites prémisses, s'en dessaisissant à son profit, voulant et consentant qu'il en soit saisi et mis en possession, tel que de droit. Cette vente est faite pour et moyennant le prix et somme de cinq cent piastres courant, payable comme suit, savoir : la somme de cent piastres courant dès l'exécution des présentes, dont quittance d'autant ; quant à la balance, il la paiera comme suit : cent piastres le vingt-deuxième jour de novembre mil huit cent quatre-vingt-sept et ensuite cent piastres par année à pareille date jusqu'au parfait paiement, le tout sans intérêt ; si les paiements ne se faisaient pas régulièrement, l'intérêt serait de six par cent par année. Cette vente est faite à la charge par le dit acquéreur, ses dits hoirs et ayants cause, de payer annuellement au premier octobre de chaque année à Sieur Théophile [Hallé ?], ses héritiers et ayants cause, une rente foncière et constituée de huit piastres courant par année. A la charge en outre de se conformer strictement à toutes les charges, clauses et conditions et réserves mentionnées et énumérées en le contrat de concession du vingt et un de novembre mil huit cent soixante, en présence de Étienne Simard et son confrère, notaires. Et pour sûreté de la dite somme de cinq cent piastres courant et des intérêts [qui en pourraient courir ?] comme dit est, le dit acquéreur a spécialement hypothéqué le dit immeuble ci-dessus désigné et vendu, sur lequel les dits vendeurs se réservent expressément tous droits et privilèges de bailleurs de fonds. Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables en leurs demeures actuelles et respectives, auxquels lieux, &c. Car ainsi. Dont acte. Fait et passé à St Romuald, en l'étude de Me M. U. Damien [Séguré ?], notaire, l'an mil huit cent quatre-vingt-six, le vingt-troisième jour du mois de novembre, après-midi, sous le numéro deux mille cent quinze des minutes du notaire soussigné. Et les parties ont signé avec le notaire soussigné, de ce requis, lecture faite. (Signé) “Matilda [Moffet ?] Brown”, “John Brown”, “Robert Ahern”, “M. U. Damien [Séguré ?] N.P.” Vraie copie de la minute demeurée en mon étude. M. U. Damien [Séguré ?] N.P. » — Au revers de l'endos, imprimé et rempli à la main : « No. 28451. Cet acte de Vente a été enregistré par transcription, au Bureau de la Division d'Enregistrement du Comté de Lévis, dans le Registre B, Volume 33, Page 582, sous le Numéro vingt-huit mille quatre cent cinquante et un, à trois heures de l'après-midi le dix de Décembre mil huit cent quatre-vingt-six. O. Carrier, Dép. Régistrateur. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "John Brown",
+          "ref_personne": "1881-D1-P005-L07",
+          "note": "Signe. Rattaché par recoupement : fils d'Arthur Brown, boucher (14 ans en 1871, maison 63), boucher lui-même et marié à une Mathilda en 1881 (24 ans, division 1, maison 15). L'acte nomme sa femme « Dame John Brown » et dit qu'elle tient le terrain du testament d'Arthur Brown. Absent du recensement de 1891."
+        },
+        {
+          "role": "venderesse",
+          "nom": "Matilda [Moffet ?] Brown",
+          "ref_personne": "1881-D1-P005-L08",
+          "note": "« Dame John Brown », propriétaire du terrain par le testament d'Arthur Brown ; signe « Matilda [Moffet ?] Brown » — le nom de naissance est d'une lecture incertaine. Mathilda Brown, 26 ans, épouse de John en 1881."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Robert Ahern",
+          "ref_personne": "1891-D1-P110-L04",
+          "note": "Signe. Suivi par le calcul : Robert Hearn, 20 ans en 1871 (fils de William, division 2, maison 102), Robert Ahearn, 28 ans en 1881 (maison 124), Robert Ahern, 38 ans, arrimeur, célibataire, chez son beau-frère Célestin Carrier en 1891 (maison 486)."
+        },
+        {
+          "role": "testateur",
+          "nom": "Arthur Brown",
+          "ref_personne": "1881-D2-P020-L25",
+          "note": "« Feu Sieur Arthur Brown » : son testament est reçu le 4 septembre 1886 par le même notaire, et il est mort le 23 novembre 1886. Boucher, 60 ans en 1871 (division 2, maison 63, entre John Cullen et Charles Ward, les voisins que nomme l'acte), 70 ans en 1881 (maison 83). Absent du recensement de 1891."
+        },
+        {
+          "role": "voisin",
+          "nom": "Veuve Charles Ward",
+          "ref_personne": "1881-D2-P021-L08",
+          "note": "Au nord-est. Bridget Ward, épouse de Charles Ward en 1871 (maison 64, voisine d'Arthur Brown) et en 1881 (maison 85). L'acte la dit veuve en 1886. Rattachement probable."
+        },
+        {
+          "role": "voisin",
+          "nom": "John Cullen",
+          "note": "Au sud-ouest. En 1871, John Cullen, meunier, 62 ans, et son fils John, 24 ans, habitent la maison 62, voisine d'Arthur Brown. On ne sait lequel des deux est le voisin de 1886 : non rattaché."
+        },
+        {
+          "role": "crediteur",
+          "nom": "Théophile [Hallé ?]",
+          "note": "Reçoit la rente foncière de huit piastres par an, chaque 1er octobre — sans doute l'héritier du concédant de 1860. Un Théophile Hallé, forgeron, a 40 ans en 1891 (1891-D1-P065-L12) ; la lecture du patronyme est incertaine : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Étienne Simard",
+          "note": "Notaire du contrat de concession du 21 novembre 1860, avec un confrère."
+        },
+        {
+          "role": "notaire",
+          "nom": "M. U. Damien [Séguré ?]",
+          "note": "Notaire à Saint-Romuald ; signe la minute et la copie. La lecture du patronyme est incertaine sur la signature."
+        },
+        {
+          "role": "registrateur",
+          "nom": "O. Carrier",
+          "note": "Député-régistrateur du comté de Lévis ; signe le certificat d'enregistrement."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1886-11-23",
+          "personnes": [
+            "1881-D1-P005-L07",
+            "1881-D1-P005-L08",
+            "1891-D1-P110-L04"
+          ],
+          "enonce": "John Brown et sa femme vendent à Robert Ahern, pour 500 piastres, l'emplacement n° 529 du cadastre de Saint-Romuald, au bord du fleuve, avec sa maison, entre la veuve Charles Ward et John Cullen.",
+          "consequence": "Robert Ahern paie 100 piastres comptant, puis 100 piastres chaque 22 novembre à compter de 1887, sans intérêt. Il doit aussi une rente foncière de 8 piastres par an à Théophile [Hallé ?], héritée du contrat de concession de 1860."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1886-11-23",
+          "personnes": [
+            "1881-D2-P020-L25"
+          ],
+          "enonce": "Arthur Brown, boucher, meurt entre le 4 septembre 1886, date de son testament, et le 23 novembre 1886, où l'acte le dit « feu ».",
+          "note": "Explique son absence du recensement de 1891. Le rattachement de l'Arthur Brown de l'acte à la ligne de 1881 est fondé sur le voisinage (Ward, Cullen) et sur le fils John."
+        },
+        {
+          "type": "deces",
+          "certitude": "probable",
+          "date": "1886-11-23",
+          "personnes": [
+            "1881-D2-P021-L07"
+          ],
+          "enonce": "Charles Ward est mort avant le 23 novembre 1886 : l'acte nomme sa veuve comme voisine du terrain."
+        },
+        {
+          "type": "filiation",
+          "certitude": "probable",
+          "personnes": [
+            "1881-D2-P020-L25",
+            "1881-D1-P005-L07"
+          ],
+          "enonce": "John Brown est le fils d'Arthur Brown : il est dans son ménage en 1871, et sa femme hérite d'Arthur le terrain voisin de l'ancienne maison familiale.",
+          "note": "L'acte ne dit pas « fils » ; le lien vient du recensement de 1871 et confirme le rapprochement calculé John Brown 1871 → 1881."
+        },
+        {
+          "type": "residence",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P025-L12"
+          ],
+          "enonce": "L'emplacement n° 529, au bord du fleuve, entre Ward et Cullen, est vraisemblablement celui de la maison d'Arthur Brown en 1871 (division 2, maison 63, entre la maison 62 des Cullen et la maison 64 des Ward)."
+        }
+      ],
+      "note": "Pièce de famille trouvée dans les papiers de Louis Demers et de Léocadie Beaudoin, avec leurs testaments. L'acte ne nomme aucun Demers : la propriété est peut-être passée plus tard aux Demers, et un acheteur reçoit d'ordinaire les titres antérieurs de son terrain — à vérifier, rien ici ne le dit. Les Brown étaient bouchers, comme Louis Demers à partir des années 1890. Le premier feuillet manque aux photos, avec la comparution des parties : le nom de naissance de Matilda Brown, le métier des parties et la largeur du terrain y sont sans doute. La cinquième photo envoyée, qui reprend de biais les feuillets de la rente et de la clôture, n'est pas reproduite.",
+      "images": [
+        {
+          "local": "documents/scans/vente-brown-ahern-1886-1-endos.jpg",
+          "legende": "Endos et enregistrement"
+        },
+        {
+          "local": "documents/scans/vente-brown-ahern-1886-2-lot.jpg",
+          "legende": "Le lot 529"
+        },
+        {
+          "local": "documents/scans/vente-brown-ahern-1886-3-prix.jpg",
+          "legende": "Le prix"
+        },
+        {
+          "local": "documents/scans/vente-brown-ahern-1886-4-rente.jpg",
+          "legende": "La rente et la clôture"
+        },
+        {
+          "local": "documents/scans/vente-brown-ahern-1886-5-signatures.jpg",
+          "legende": "Date et signatures"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
     }
   ]
 }
