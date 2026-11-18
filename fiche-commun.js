@@ -144,6 +144,8 @@ window.FICHE = (function () {
     if (doc.cote) parts.push(esc(doc.cote));
     if (doc.date) parts.push(esc(dateLisible(doc.date)) + (doc.date_incertaine ? ' (date incertaine)' : ''));
     if (doc.url && /^https?:\/\//.test(doc.url)) parts.push('<a href="' + esc(doc.url) + '" rel="noopener">numérisation</a>');
+    // Un dossier de synthèse rangé avec le site (documents/rapports/), en PDF.
+    if (doc.fichier && /^documents\/rapports\/[\w.-]+\.pdf$/.test(doc.fichier)) parts.push('<a href="' + esc(doc.fichier) + '" target="_blank" rel="noopener">lire le dossier (PDF)</a>');
     return (parts.length ? '<div class="occ-detail">Référence : ' + parts.join(' · ') + '</div>' : '') +
       transcriptionDocument(doc) + imagesDocument(doc);
   }

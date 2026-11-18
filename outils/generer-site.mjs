@@ -273,6 +273,8 @@ function referenceDe(doc) {
     source: doc.source || '', cote: doc.cote || '', date: doc.date || '',
     ...(doc.date_incertaine ? { date_incertaine: true } : {}),
     ...(doc.url ? { url: doc.url } : {}),
+    // Un dossier de synthèse en PDF rangé avec le site (documents/rapports/).
+    ...(doc.fichier && /^documents\/rapports\/[\w.-]+\.pdf$/.test(doc.fichier) ? { fichier: doc.fichier } : {}),
     // La transcription n'est pas recopiée dans la fiche : un acte du greffe en
     // fait plusieurs Ko, et chaque fiche de personne, de maison et de lieu qui
     // le cite en portait une copie — 1,2 Mo sur les 1,5 Mo d'un lot de maisons.

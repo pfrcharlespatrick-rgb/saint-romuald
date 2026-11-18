@@ -22752,6 +22752,72 @@
         }
       ],
       "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "dossier-famille-louis-demers-leocadie-beaudoin",
+      "type": "autre",
+      "titre": "Louis Demers et Léocadie Beaudoin — dossier de famille (1844-1931)",
+      "date": "2026-11-18",
+      "source": "Dossier de synthèse rédigé pour le projet par Patrick Blanchet, à l'intention des descendants : recensements de 1871, 1881 et 1891, actes notariés, papiers de famille et arbres en ligne.",
+      "cote": "PDF de 44 pages : biographies, recensements, enfants, histoire du lot n° 529, transcriptions des actes, pistes de recherche, sources et photos des documents",
+      "fichier": "documents/rapports/dossier-famille-louis-demers-leocadie-beaudoin.pdf",
+      "nature": "Synthèse, non une source : chaque fait y renvoie à sa source, versée par ailleurs dans ce manifeste. Le texte source (HTML) est rangé à côté du PDF.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Louis Demers",
+          "ref_personne": "1891-D1-P123-L05"
+        },
+        {
+          "role": "sujet",
+          "nom": "Léocadie Beaudoin",
+          "ref_personne": "1891-D1-P123-L06"
+        },
+        {
+          "role": "enfant",
+          "nom": "Léocadie Demers",
+          "ref_personne": "1881-D2-P025-L19",
+          "note": "Fille aînée, absente en 1891."
+        },
+        {
+          "role": "enfant",
+          "nom": "Charles Demers",
+          "ref_personne": "1891-D1-P123-L07"
+        },
+        {
+          "role": "enfant",
+          "nom": "Joseph Demers",
+          "ref_personne": "1891-D1-P123-L08"
+        },
+        {
+          "role": "enfant",
+          "nom": "Ernest Demers",
+          "ref_personne": "1891-D1-P123-L09"
+        },
+        {
+          "role": "enfant",
+          "nom": "Alfred Demers",
+          "ref_personne": "1891-D1-P123-L10"
+        },
+        {
+          "role": "enfant",
+          "nom": "Malcolm Demers",
+          "ref_personne": "1891-D1-P123-L11"
+        },
+        {
+          "role": "enfant",
+          "nom": "Eusèbe Demers",
+          "ref_personne": "1891-D1-P123-L12"
+        },
+        {
+          "role": "enfant",
+          "nom": "Alphonse Demers",
+          "ref_personne": "1891-D1-P123-L13"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le dossier réunit, en novembre 2026, tout ce que le projet sait du couple et de ses enfants. Il ne porte aucune affirmation propre : les faits qu'il expose sont ceux des fiches qu'il cite. À refaire quand de nouvelles pièces seront versées (second testament de Léocadie de 1928, actes de baptême, de mariage de 1865, de sépulture).",
+      "ajoute_le": "2026-11-18"
     }
   ]
 }

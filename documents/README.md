@@ -73,6 +73,14 @@ et la fiche les nomme dans `images` : `{ "local": "documents/scans/xxx.jpg",
 document », comme les images du greffe. Exemple : le testament de Louis
 Demers, 1904 (`notarie-1904-11-15-testament-louis-demers`).
 
+Un **dossier de synthèse** (par exemple le dossier de famille de Louis Demers
+et de Léocadie Beaudoin) n'est pas une source : il se range dans
+`documents/rapports/`, en PDF, avec son texte source HTML à côté, et sa fiche
+nomme le PDF dans `fichier` (`documents/rapports/xxx.pdf`) sans porter
+d'affirmation propre. Les fiches des personnes qu'il traite affichent alors le
+lien « lire le dossier (PDF) ». Le PDF se refait depuis le HTML avec Chromium
+(Playwright, `page.pdf`, format Letter).
+
 ---
 
 ## Ce qu'un document peut trancher
