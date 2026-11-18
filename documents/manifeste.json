@@ -22718,6 +22718,40 @@
         }
       ],
       "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "devis-1919-07-17-ecole-new-liverpool",
+      "type": "autre",
+      "titre": "Devis pour la réparation de la maison d'école de Saint-Romuald d'Etchemin (New Liverpool), 1919",
+      "date": "1919-07-17",
+      "source": "Pièce de famille, gardée dans les papiers des Demers ; photographiée par Patrick (2026-11-18).",
+      "cote": "Devis dactylographié, daté de Saint-Romuald le 17 juillet 1919, signé « Henri Dutil »",
+      "nature": "Une feuille dactylographiée, signée à la main, pliée en quatre et usée aux plis. Une correction à la main à l'article 2 (« des » rayé, « deux » ajouté). Le devis décrit les travaux à faire, sans le prix d'ensemble ; seul le hangar à bois est chiffré.",
+      "transcription": "« Devis pour la réparation de la maison d'école de St Romuald d'Etchemin (New Liverpool). 1o — Réhausser l'étage supérieur en renouvelant la tôle et les soliveaux, baisser le plancher de un pied et relever la maison de un pied. 2o — Ajouter [rayé : des] [à la main : deux] ventilateurs (chassis) dans chaque classe, 10x10, de manière à fournir le plus d'air possible aux élèves. 3o — Faire un lambris en planche d'épinette de un pouce embouveté avec un rang de papier feutre sous le lambris. 4o — Recouvrir ce lambris en bardeau d'amiante avec un papier [coded ?] sous le dit lambris. 5o — Refaire le surplus du solage en béton en y ajoutant 4 soupiraux de [1x6x4 ?] pieds pour ventiler la cave. 6o — Changer l'escalier de place pour permettre d'ajouter un chassis du côté ouest. 7o — Refaire les perrons en béton. 8o — Renouveler la couverture en bardeaux de cèdre ou de pin. 9o — Renouveler les deux portes d'entrée en pin de 3 pouces avec carreaux en verre double ; ces dites portes devront être faites avec renvoi d'eau et munies de ferrures convenables. 10o — Refaire les boiseries des fenêtres ainsi que des plafonds des larmiers au bas de la couverture. 11o — Peinturer la couverture à deux couches de peinture créosote de couleur métallique, peinturer les chassis et les portes à deux couches en renouvelant les vitres cassées et refaire le mastiquage après avoir donné deux couches de peinture à l'intérieur de chaque chassis. 12o — Refaire et construire un petit hangar à bois de 12x18 pieds d'une valeur de $300.00. 13o — Construire un tambour temporaire en avant, en planche embouvetée, avec deux chassis et d'une grandeur de 8x12 pieds. St Romuald, le 17 juillet 1919. Henri Dutil »",
+      "personnes": [
+        {
+          "role": "signataire",
+          "nom": "Henri Dutil",
+          "note": "Signe le devis. Sa qualité n'est pas dite : entrepreneur, architecte ou secrétaire de la commission scolaire. Aucun Dutil aux recensements de Saint-Romuald (1871-1891) : non rattaché."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "date": "1919-07-17",
+          "personnes": [],
+          "enonce": "En 1919, New Liverpool a sa maison d'école, à deux niveaux et plusieurs classes, avec cave, deux portes d'entrée et un toit de tôle ; elle est à reprendre presque entièrement : surélévation de l'étage, nouveau lambris d'épinette couvert de bardeau d'amiante, solage et perrons de béton, ventilation des classes et de la cave."
+        }
+      ],
+      "note": "Neuvième pièce des papiers des Demers ; aucun Demers n'y est nommé. Le devis est daté de juillet 1919, dix mois après la fin d'emploi d'Alphonse Demers au pont de Québec (lettre du 27 septembre 1918) : charpentier de New Liverpool, il a pu soumissionner ou travailler à ces réparations, ce qui expliquerait que la feuille soit restée chez lui — hypothèse, rien ici ne le dit. Le devis n'est rattaché à aucun lieu de la carte : à placer sur la maison d'école de New Liverpool quand Patrick aura dit laquelle c'est (la « Maison-école » du 83, rue Saint-Damase, construite vers 1861, est à une centaine de mètres de la maison Demers du chemin du Fleuve).",
+      "images": [
+        {
+          "local": "documents/scans/devis-ecole-new-liverpool-1919.jpg",
+          "legende": "Devis du 17 juillet 1919"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
     }
   ]
 }
