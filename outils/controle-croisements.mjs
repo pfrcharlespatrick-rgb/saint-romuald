@@ -356,6 +356,10 @@ const sexeDuPrenom = (() => {
       if (f.ne.length && f.oui.length) lignes.push(`| \`${id}\` — ${ou(p)} | ${nomDe(p)}, ${ageDit(p.age)} | — (colonne absente en ${p.annee}) | ${actes} | les actes se contredisent entre eux : relire la fiche de l'acte, ou deux personnes du même nom |`);
       continue;
     }
+    // Un enfant recensé ne sait pas encore écrire : qu'il signe un acte
+    // vingt ans plus tard ne contredit rien.
+    const ageRec = ageEnAnnees(p.age);
+    if (ageRec != null && ageRec < 15 && !(f.ne.length && f.oui.length)) continue;
     bilan.compares++;
     const dit = p.sait_ecrire ? (p.sait_lire ? 'sait lire et écrire' : 'sait écrire') : (p.sait_lire ? 'sait lire, pas écrire' : 'ne sait ni lire ni écrire');
     const contredit = f.ne.length && f.oui.length ? 'actes'
