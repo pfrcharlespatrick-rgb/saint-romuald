@@ -1,6 +1,6 @@
 # Contrôle des croisements
 
-Produit par `node outils/controle-croisements.mjs` le 2026-11-16. Ne pas le
+Produit par `node outils/controle-croisements.mjs` le 2026-11-18. Ne pas le
 corriger à la main : il est réécrit à chaque passage, et se vide à mesure que les
 questions sont tranchées.
 
@@ -13,7 +13,7 @@ section dit où la décision se prend.
 | Corrections manuelles à relire | 0 |  |
 | Rapprochements proposés par le ménage | 0 |  |
 | Décès de 1871 sans maison | 16 |  |
-| Documents : la même personne, rattachée dans une fiche et pas dans l'autre | 0 |  |
+| Documents : la même personne, rattachée dans une fiche et pas dans l'autre | 1 |  |
 | Lignes incomplètes ou renvois cassés | 4 | 1 |
 | Lignes incertaines qu'un document éclaire | 2 | 1 |
 | Signature au bas des actes et « sait écrire » au recensement | 0 | 8 |
@@ -73,13 +73,15 @@ Le tableau 2 ne renvoie à aucune maison. Un rattachement n'est proposé d'offic
 | Magdeleine Demers, 78 ans | Novembre — Apoplexie | 14 ménage(s) de ce nom : div. 1, maison 12 ; div. 1, maison 17 ; div. 1, maison 18 ; div. 1, maison 43 ; div. 1, maison 50 ; div. 1, maison 66 ; … |
 | Marguerite Cantin, 38 ans | Mars — Pleurésie | 12 ménage(s) de ce nom : div. 1, maison 18 ; div. 1, maison 28 ; div. 1, maison 42 ; div. 1, maison 63 ; div. 1, maison 89 ; div. 2, maison 6 ; … |
 
-## Documents : la même personne, rattachée dans une fiche et pas dans l'autre — 0
+## Documents : la même personne, rattachée dans une fiche et pas dans l'autre — 1
 
 Le même nom porte un rattachement au recensement dans un autre document. Ce peut être la même personne — ou un homonyme : à vérifier avant de verser.
 
 **Où trancher :** dans `documents/manifeste.json` (champ `ref_personne`).
 
-Rien à signaler.
+| Document | Personne | Rattachée ailleurs à | Note de la fiche |
+|---|---|---|---|
+| plan-1844-02-05-hetriere-riviere-bruyante | Pierre Cantin (proprietaire) | `1871-D2-P002-L18` (Pierre Cantin, 64 ans, fiche « notarie-1874-02-14-vente-couture-cantin ») | Nommé deux fois : la deuxième bande (« 2 d° ») et la cinquième, contre la ligne D-C, dont le « 3 d° » est ajouté au crayon. Rien ne dit s'il |
 
 ## Lignes incomplètes ou renvois cassés — 4
 
@@ -116,7 +118,7 @@ Le dépouillement a laissé un « [?] » sur ces lignes, et un acte versé depui
 
 ## Signature au bas des actes et « sait écrire » au recensement — 0
 
-Les actes disent qui signe et qui « a déclaré ne le savoir ». Sur 74 personnes rattachées dont le recensement dit si elles écrivent, 64 s'accordent avec leurs actes ; les autres sont ici. Signer n'est pas écrire, et le recenseur a pu omettre une marque : chaque ligne demande le manuscrit.
+Les actes disent qui signe et qui « a déclaré ne le savoir ». Sur 75 personnes rattachées dont le recensement dit si elles écrivent, 65 s'accordent avec leurs actes ; les autres sont ici. Signer n'est pas écrire, et le recenseur a pu omettre une marque : chaque ligne demande le manuscrit.
 
 **Où trancher :** au manuscrit, dans les colonnes d'instruction ; puis dans l'atelier si la marque est à déplacer.
 

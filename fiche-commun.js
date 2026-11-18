@@ -65,11 +65,20 @@ window.FICHE = (function () {
   // Les images du manuscrit (outils/tropy/fondre.mjs), repliées : rien ne se
   // charge tant que le lecteur n'ouvre pas le volet. L'aperçu vient de Google
   // Drive ; si le dossier n'est pas partagé, il reste le lien vers l'image.
+  // Une photo d'une pièce de famille, rangée dans le dépôt (champ `local`),
+  // se montre de même, servie par le site.
+  var LOCAL = /^documents\/scans\/[\w.-]+\.jpg$/;
   function imagesDocument(doc) {
-    var imgs = (doc.images || []).filter(function (i) { return i && /^[\w-]+$/.test(i.drive || ''); });
+    var imgs = (doc.images || []).filter(function (i) { return i && (/^[\w-]+$/.test(i.drive || '') || LOCAL.test(i.local || '')); });
     if (!imgs.length) return '';
-    return '<details class="doc-images"><summary>Images du manuscrit (' + imgs.length + ')</summary><div class="doc-images-liste">' +
+    return '<details class="doc-images"><summary>Images du document (' + imgs.length + ')</summary><div class="doc-images-liste">' +
       imgs.map(function (i) {
+        if (LOCAL.test(i.local || '')) {
+          var titre = i.legende || 'Image';
+          return '<a class="doc-image" href="' + esc(i.local) + '" target="_blank" rel="noopener">' +
+            '<img loading="lazy" alt="' + esc(titre) + '" src="' + esc(i.local) + '">' +
+            '<span>' + esc(titre) + '</span></a>';
+        }
         var vue = 'https://drive.google.com/file/d/' + i.drive + '/view';
         var legende = 'Microfilm ' + i.microfilm + (i.legende ? ' · p. ' + i.legende : '');
         return '<a class="doc-image" href="' + vue + '" target="_blank" rel="noopener">' +
