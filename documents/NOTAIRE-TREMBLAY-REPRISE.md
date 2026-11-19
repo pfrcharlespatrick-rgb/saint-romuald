@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (268 fiches au 19 novembre 2026 ; série jusqu'à 01150 lue).
+fiche dont l'identifiant commence par `notarie-` (279 fiches au 19 novembre 2026 ; série jusqu'à 01229 lue).
 
 ## Où sont les images
 
@@ -454,10 +454,38 @@ Suite du 19 novembre : fichiers **01103 à 01150** lus, actes **n° 252 à 264**
 
 **Le sous-dossier « 1101-1150 » est entièrement lu.**
 
-**Pour reprendre** : continuer au fichier **01151** (microfilm 002095-96) : le
-sous-dossier suivant est déjà au Drive (01161, 01166, 01183, 01195… y sont
-vus). Chercher les identifiants par `title contains '04T_CN401S124P_0115'`,
-puis `0116`, etc.
+**Mise à jour du 19 novembre 2026, suite — fichiers 01151 à 01229.** Patrick a
+demandé de continuer « jusqu'à épuiser tous les dossiers » (le Drive va au moins
+jusqu'au fichier 01849). Lus : actes **n° 265 à 277** (15 au 30 décembre 1874).
+**279 fiches `notarie-`.** Les n° **272 et 273 manquent au greffe** (fichier 01191,
+feuillet « Acte manquant »).
+
+- **n° 265** : Augustin Samson, de Saint-Jean-Chrysostome, donne à sa mère
+  Marguerite Demers, « à titre de propre », un morceau de terre de Taniata, une
+  vache, deux brebis et le mobilier d'un ménage ; elle renonce à sa pension.
+  Feuillets filmés dans le désordre (lire 01151, 01152, 01155, 01156, 01154, 01153).
+- **n° 266** : titre nouvel d'**Henry Atkinson** envers Édouard Lagueux, rente
+  d'un emplacement de la grève de l'Etchemin (« through the coves »), concédé en
+  1852 à Terence Morgan, partagé avec **Denis Faherty**, propriétaire de bateaux
+  à vapeur parti à Montréal. 01158 et 01159 : deux prises de la même page.
+- **n° 267** : Alexis Pichette, maçon-plâtrier, lot n° 6 de la **rue Demers**,
+  concédé dès **1855** à Augustin Plaisance : la rue Demers est ouverte depuis 1855.
+- **n° 268** (en anglais) : Joseph Bourassa et Geneviève Cantin vendent à deux
+  ingénieurs, Dewar et Bryan, un lot avec **quai à Hadlow Cove** (300 louis).
+- **n° 269, 270, 274, 275** : Louis-Hubert Roberge lotit **New-Liverpool** (rue
+  projetée, **puits commun** aux concessionnaires) : Thomas Proulx (maison de
+  deux étages déjà bâtie, 600 $ prêtés), Jean et Thomas Vallières (rattachés en
+  hypothèse à 1881-D2).
+- **n° 271, 276** : Édouard Bourassa vend les lots de Lévis (rue Saint-Pierre)
+  hérités de sa femme, puis fait faire l'**inventaire** de leur communauté
+  (26 pages, pièce par pièce, ~713 $ de meubles ; îles de la « Rivière
+  Bruyante » ; titres A à Q). **À soumettre à Patrick** : l'inventaire dit
+  Benjamin Demers subrogé tuteur, l'acte de tutelle n° 261 nommait Pierre Cantin.
+- **n° 277** : Isidore Houle fait bâtir par Louis Filteau, menuisier, sa maison
+  de 24 pieds de la rue Demers (même lot qu'au n° 157 : confirme le rattachement).
+
+**Pour reprendre** : continuer au fichier **01230** (microfilm 002174-75).
+Chercher les identifiants par `title contains '04T_CN401S124P_0123'`, puis `0124`, etc.
 
 Fils suivis dans la série 00451-00550 :
 

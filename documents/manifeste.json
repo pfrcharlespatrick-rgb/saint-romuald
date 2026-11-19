@@ -26809,6 +26809,86 @@
           "legende": "26/26"
         }
       ]
+    },
+    {
+      "id": "notarie-1874-12-30-marche-houle-filteau",
+      "type": "notarie",
+      "titre": "Marché d'Isidore Houle, journalier, avec Louis Filteau, menuisier, pour la charpente et la couverture d'une maison de 24 pieds sur la rue Demers — minute n° 277, 30 décembre 1874",
+      "date": "1874-12-30",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 277, images 002170 à 002173 (Drive : fichiers 04T_CN401S124P_01226 à 01229). En marge « Marché entre Houle & Filteau — Original — Hon. 1.00 payable par Filteau ». Acte complet.",
+      "nature": "Marché (contrat d'ouvrage) avec hypothèque, passé le 30 décembre 1874, après-midi, à l'étude du notaire, devant un témoin, Pierre Lagueux, juge de paix ; Houle ne sait signer, Filteau signe.",
+      "transcription": "[002170] « N° 277 — 30 Décembre 1874. L'an mil huit cent soixante-quatorze, le trente décembre après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Pierre Lagueux, Ecr, rentier & Juge de Paix, de St Romuald, témoin au présent acte, aussi soussigné ; Furent présents : Isidore Houle, journalier, de St Romuald, d'une part, & Louis Filteau, du même lieu, menuisier, d'autre part ; Lequel dit Sr Filteau s'est obligé & s'oblige d'équarrir le bois nécessaire pour élever une maison de vingt-quatre pieds carrés à un étage sur un emplacement concédé de Benjamin Demers ; d'entourer telle maison avec des madriers debout (sur le cant) ; de couvrir le toit en planches & en bardeaux, le bardeau prêt à poser, Filteau devant embouveter la planche pour les pignons ; de faire deux lucarnes du côté sud-ouest de la maison, avec cadres seulement & couvertes en bardeaux ; de laisser [002171] de percer à l'extérieur deux portes aux côtés nord & sud du front de la maison & deux châssis entre les deux portes ; deux châssis en arrière & un châssis dans chaque pignon. Tous les matériaux nécessaires seront fournis par le dit Isidore Houle. Tels ouvrages devront être faits d'hui au premier jour de mai prochain, pourvu que le dit Sr Houle fournisse tous les matériaux nécessaires au dit Filteau en temps & lieu. De son côté le dit Houle promet fournir le bois & les autres matériaux en temps convenable & s'oblige, pour lui, ses hoirs & ayant cause, payer au dit Filteau la somme de cinquante [piastres] pour prix de son ouvrage, au vingt-neuf septembre prochain, sans intérêt. Et pour sûreté du paiement de la somme de cinquante piastres, le dit Isidore Houle hypothèque en faveur du dit Louis Filteau, savoir : un emplacement situé à St Romuald, contenant [002172] soixante-deux pieds de front sur la Rue Demers, sur soixante pieds de profondeur, borné à l'ouest à la Rue Demers, à l'est à F.-X. Guay, au nord à Augustin Couture & au sud à Charles Filteau, avec la bâtisse qui est en construction & autres bâtisses, circonstances & dépendances. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald, Étude, les jour, mois & an susdits, sous le numéro deux cent soixante-dix-sept des originaux du notaire soussigné. Requis de signer, le dit Sr Houle a déclaré ne le savoir, en présence du dit témoin, qui a signé ainsi que le dit Sr Filteau avec moi, Notaire, lecture faite. [002173] Mots rayés sont nuls. » — Signé : « Louis Filteau », « Pierre Lagueux », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "partie",
+          "nom": "Isidore Houle",
+          "ref_personne": "1871-D1-P026-L16",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Le concessionnaire du lot de la rue Demers au n° 157 : l'emplacement hypothéqué ici a exactement les mêmes dimensions et les mêmes voisins (Guay, Augustin Couture, Charles Filteau). Rattaché, sur décision de Patrick, au journalier de 45 ans de 1871 (recensé « Houde », corrigé « Houle »)."
+        },
+        {
+          "role": "partie",
+          "nom": "Louis Filteau",
+          "ref_personne": "1871-D1-P023-L14",
+          "note": "Menuisier de Saint-Romuald (« journalier » aux n° 143 et 220) ; signe « Louis Filteau ». Le frère de Charles Filteau, voisin au sud du lot. Rattachement probable."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Lagueux",
+          "ref_personne": "1871-D1-P076-L08",
+          "note": "« Écuier, rentier & Juge de Paix » ; signe."
+        },
+        {
+          "role": "voisin",
+          "nom": "François-Xavier Guay",
+          "ref_personne": "1871-D1-P020-L09",
+          "note": "Voisin à l'est (à l'arrière), comme au n° 157."
+        },
+        {
+          "role": "voisin",
+          "nom": "Augustin Couture",
+          "note": "Voisin au nord, comme au n° 157."
+        },
+        {
+          "role": "voisin",
+          "nom": "Charles Filteau",
+          "ref_personne": "1871-D1-P023-L15",
+          "note": "Voisin au sud : le charretier des n° 140 et 251."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Cinq mois après avoir reçu son lot de la rue Demers (n° 157), Isidore Houle, journalier, fait bâtir sa maison : Louis Filteau, menuisier — qui vient de construire la sienne, voisine — s'engage, pour cinquante piastres payables au 29 septembre 1875, à équarrir le bois, à monter une maison d'un étage de vingt-quatre pieds carrés en madriers debout « sur le cant », à la couvrir de planches et de bardeaux, avec deux lucarnes au sud-ouest, deux portes en façade (nord et sud), deux fenêtres entre elles, deux à l'arrière et une dans chaque pignon, le tout pour le 1er mai ; Houle fournit les matériaux et hypothèque son lot, sur lequel la bâtisse est « en construction ». C'est la même maison type de 24 pieds carrés que celle que Charles Filteau achète de Germain Cantin pour la remonter à côté (n° 251) : la rue Demers se bâtit en série. L'acte confirme que l'Isidore Houle du n° 157 est bien le voisin des Filteau.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01226",
+          "microfilm": "002170",
+          "drive": "13troaJ6T9WA4xLMxsH5iEdER_KWc3bA9",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01227",
+          "microfilm": "002171",
+          "drive": "1Qh_VUOyjGOuaN8MbmwbHRHD0yY1Pobka",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01228",
+          "microfilm": "002172",
+          "drive": "1q_jVxpVoSObMM9FiCxBsQSl02i8Z0lyd",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01229",
+          "microfilm": "002173",
+          "drive": "1WJR1ZKZiOU4gCxlPYKK52f0T6CJzaX5b",
+          "legende": "4/4"
+        }
+      ]
     }
   ]
 }
