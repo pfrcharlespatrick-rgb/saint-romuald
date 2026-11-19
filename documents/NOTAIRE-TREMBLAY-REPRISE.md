@@ -454,9 +454,10 @@ Suite du 19 novembre : fichiers **01103 à 01150** lus, actes **n° 252 à 264**
 
 **Le sous-dossier « 1101-1150 » est entièrement lu.**
 
-**Pour reprendre** : continuer au fichier **01151** (microfilm 002095-96), quand
-Patrick aura déposé le sous-dossier « 1151-1200 » (vérifier d'abord s'il est
-déjà au Drive : `title contains '04T_CN401S124P_0115'`).
+**Pour reprendre** : continuer au fichier **01151** (microfilm 002095-96) : le
+sous-dossier suivant est déjà au Drive (01161, 01166, 01183, 01195… y sont
+vus). Chercher les identifiants par `title contains '04T_CN401S124P_0115'`,
+puis `0116`, etc.
 
 Fils suivis dans la série 00451-00550 :
 
