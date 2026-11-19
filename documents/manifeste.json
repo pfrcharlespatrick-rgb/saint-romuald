@@ -28622,6 +28622,67 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-02-11-bail-demers-guay",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à François-Xavier Guay, maître boulanger, d'un emplacement de la rue Saint-Paul — minute n° 303, 11 février 1875",
+      "date": "1875-02-11",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 303, images 002263 à 002265 (Drive : fichiers 04T_CN401S124P_01319 à 01321). Formulaire imprimé de bail à rente foncière de Me Tremblay ; l'article 5 (droit de retrait) est biffé en croix et remplacé par une clause en marge. En marge « B. Demers à F.-X. Guay — Or. — Exp. 2 fois — [« pas » rayé] payé — Une seule copie pour Mr Demers — 3.50 honoraires, enregist. $2.50 — $2.50 [pas] payé, paid ». Le quantième, d'abord « treizième », est corrigé « onzième » ; taches d'encre sur la clôture. Acte complet.",
+      "nature": "Bail à rente foncière & constituée, passé le 11 février 1875, avant midi, à l'étude du notaire, sans témoin ; les deux parties signent.",
+      "transcription": "[002263] « N° 303 — 11 Février 1875. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Fut présent : Benjamin Demers, Écuier, cultivateur, demeurant à St Romuald susdit ; Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de Bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à François-Xavier Guay, Écuier, du même lieu, Mtre boulanger, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, comté susdit, contenant cinquante pieds de front sur soixante pieds de profondeur, borné en front à l'est à la Rue St Paul, à l'ouest à Augustin Couture, au nord à Thomas Deschênes & au sud au concessionnaire, circonstances & dépendances. Tel que le dit emplacement est actuellement […]. [002264] 1° De clore […] ; 2° De bâtir […] [« d'hui en » remplacé par « dans »] un an une maison habitable et logeable […] ; 3° D'entretenir […] ; 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de six piastres courant, de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres. […] [5° (droit de retrait) : biffé.] [renvoi (2) : « Il est expressément convenu entre les parties, & sans laquelle convention le présent bail n'aurait jamais eu lieu, que si le dit Sieur Guay se dessaisit en faveur d'un étranger de son droit de propriété sur l'immeuble susdésigné & concédé, alors le nouveau propriétaire sera tenu [de bâtir dans un an …] »] 6° […]. [reprise de possession après deux années de rente impayée] [002265] Au moyen de quoi […]. Dont acte, fait et passé à St Romuald susdit, Étude du dit Notaire, l'an mil huit cent soixante-quinze, le [rayé : « treizième »] onzième jour de février, avant midi, sous le numéro trois cent trois des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et les dits concédant & concessionnaire ont signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « Benj. Demers », « F.-X. Guay », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, cultivateur » ; signe « Benj. Demers »."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "François-Xavier Guay",
+          "ref_personne": "1871-D1-P020-L09",
+          "note": "« Écuier, Mtre boulanger » ; signe « F.-X. Guay ». Le boulanger de la rue Saint-Paul (n° 142), qui vient de recevoir congé de la maison de pierre de Bourassa (n° 293) : il agrandit son terrain de la rue Saint-Paul. Rattachement probable."
+        },
+        {
+          "role": "voisin",
+          "nom": "Augustin Couture",
+          "note": "Voisin à l'ouest (à l'arrière) ; déjà voisin aux n° 142 et 157."
+        },
+        {
+          "role": "voisin",
+          "nom": "Thomas Deschênes",
+          "note": "Voisin au nord ; sans doute le Deschênes du n° 152. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Dix jours après avoir reçu son congé de la maison de pierre d'Édouard Bourassa (n° 293), le maître boulanger François-Xavier Guay prend de Benjamin Demers un second lot de cinquante pieds sur la rue Saint-Paul, au nord du sien (n° 142), pour six piastres de rente (rachetable cent). Le droit de retrait habituel est remplacé par une clause : si Guay cède le lot à un étranger, le nouveau propriétaire devra bâtir dans l'année — Guay, lui, en est dispensé, car il agrandit sa propriété. Le boulanger s'installe chez lui, rue Saint-Paul, pour le 1er mai.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01319",
+          "microfilm": "002263",
+          "drive": "1KihXOPObN0LLxHq105MgwlF0iMm9LxFK",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01320",
+          "microfilm": "002264",
+          "drive": "1nxLzR8Zy15YEEKPzfiSqH17V5xAO3i0i",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01321",
+          "microfilm": "002265",
+          "drive": "1KyyE8dTc_Lrggaoh7u37Fly0e8VSe1T8",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
