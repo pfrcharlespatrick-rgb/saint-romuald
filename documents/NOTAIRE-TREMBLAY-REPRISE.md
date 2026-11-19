@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (221 fiches au 12 novembre 2026 ; série 00601-01000 complète).
+fiche dont l'identifiant commence par `notarie-` (250 fiches au 19 novembre 2026 ; série jusqu'à 01102 lue).
 
 ## Où sont les images
 
@@ -352,9 +352,33 @@ pas encore au Drive). **250 fiches `notarie-`.** Les identifiants Drive de 01051
 - **Témoin récurrent** : Louis-Joseph-Stanislas Roberge, instituteur de
   St-Romuald (n° 247-250) ; non recensé sous ce nom.
 
-**Pour reprendre** : continuer au fichier **01101** (microfilm 002045), pour
-compléter la vente **n° 251** (Cantin à Filteau), quand Patrick aura déposé le
-sous-dossier « 1101-1150 ».
+**Mise à jour du 19 novembre 2026.** Le sous-dossier « 1101-1150 » est au
+Drive. Les fichiers **01101-01102** sont lus : la vente **n° 251** (Cantin à
+Filteau) est **complète** — hypothèque, clôture et signatures. **250 fiches
+`notarie-`.** Les identifiants Drive de 01101 à 01109 sont dans
+`images-drive.json`.
+
+- **L'emplacement hypothéqué est celui du n° 140** (62 pieds sur 60, rue
+  Demers, mêmes voisins), et il porte déjà « une maison en bois à un étage » :
+  Charles Filteau a bâti en quatre mois, et il y remonte une seconde maison
+  achetée de Germain Cantin.
+- **Le voisin du nord, illisible au n° 140** (« François-Xavier Bor[…] [?] »),
+  se lit en clair au n° 251 : **François-Xavier Croteau**. La fiche du n° 140
+  n'est pas réécrite : à soumettre à Patrick.
+- **Piste à soumettre à Patrick** : en 1871, un François-Xavier Croteau de
+  18 ans vit chez **Isidore Houde, journalier** (`1871-D1-P026-L16`, maison
+  voisine des Filteau) ; or le lot voisin au nord de Charles Filteau est
+  concédé le 20 juillet 1874 à « **Isidore Houle père, journalier** » (n° 157),
+  laissé sans rattachement faute d'un « Houle » au recensement. Houde et Houle
+  sont sans doute le même homme. Croteau est rattaché en hypothèse
+  (`1871-D1-P027-L05`) ; le n° 157 n'est pas touché.
+- Charles Filteau signe « Chs Filteau » au n° 251, alors qu'il ne savait
+  signer au n° 140 (juillet 1874).
+
+**Pour reprendre** : continuer au fichier **01103** (microfilm 002047-48) :
+c'est le début du **n° 252**, obligation de Joseph Laflamme, inspecteur et
+mesureur de bois de Notre-Dame-de-Lévis, à William Henry Vachon, teneur de
+livres de Saint-Romuald (500 piastres, 1er décembre 1874).
 
 Fils suivis dans la série 00451-00550 :
 

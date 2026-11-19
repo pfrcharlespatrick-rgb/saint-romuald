@@ -1,7 +1,7 @@
 {
   "format": "documents-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-11-18",
+  "mis_a_jour": "2026-11-19",
   "note": "Index des documents historiques qui établissent des liens de filiation. Un document versé ici l'emporte toujours sur une proposition automatique de data/filiation-data.js : l'acte est une preuve, le rapprochement algorithmique n'est qu'une hypothèse. Voir documents/README.md pour la marche à suivre.",
   "types_admis": {
     "bapteme": "Acte de baptême — établit une filiation directe et une date de naissance",
@@ -23073,21 +23073,51 @@
       "titre": "Vente de Germain Cantin à Charles Filteau, charretier, d'une maison de bois à déménager — minute n° 251, 28 novembre 1874",
       "date": "1874-11-28",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 251, images 002043 à 002044 (Drive : fichiers 04T_CN401S124P_01099 à 01100) ; en marge « Vente — Cantin à Filteau — Original — prix 160.00 ; hypothèque, intérêt 8 %, police d'assurance 250.00 ; Exp. 1 fois & enregistré vers les 4-5 décembre 1874 ». Acte INCOMPLET : seules les deux premières pages sont au Drive (le sous-dossier 1101-1150 n'est pas encore déposé) ; la suite est sur le fichier 01101.",
-      "nature": "Vente passée le 28 novembre 1874, après-midi, devant le notaire. Deux premières pages seulement.",
-      "transcription": "[002043] « N° 251 — 28 novembre 1874. L'an mil huit cent soixante-quatorze, le vingt-huit de novembre après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant à St Romuald, comté de Lévis, soussigné ; Fut présent : Germain Cantin, Ecr, marchand, de St Romuald ; Lequel vend avec garantie de tous troubles quelconques à Sr Charles Filteau, du même lieu, charretier, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayant cause, savoir : Une maison en bois de vingt-quatre pieds carrés, telle que la dite maison est actuellement construite, dont l'acquéreur se déclare satisfait pour l'avoir vue & visitée, & qui sera enlevée & reconstruite sur l'emplacement ci-après désigné. [002044] Cette vente est faite pour le prix de cent soixante piastres courant, payable par versements égaux & annuels, au premier jour de novembre de chaque année, de vingt-cinq piastres chacun — excepté le dernier paiement, qui ne sera que de dix piastres — le tout avec l'intérêt de huit pour cent par an, payable annuellement à compter du premier jour de novembre courant. L'acquéreur s'oblige de faire assurer la dite maison contre le feu pour un montant d'au moins deux cent cinquante piastres, d'en porter la police au vendeur & de la renouveler tant que tous les paiements ne seront pas effectués, remboursant au vendeur, à demande, ce que ce dernier aurait déboursé pour l'assurance si Filteau refusait ou négligeait de la faire […] » [suite sur le fichier 01101, non encore au Drive].",
+      "cote": "Minute n° 251, images 002043 à 002046 (Drive : fichiers 04T_CN401S124P_01099 à 01102) ; en marge « Vente — Cantin à Filteau — Original — prix 160.00 ; hypothèque, intérêt 8 %, police d'assurance 250.00 ; Exp. 1 fois & enregistré vers les 4-5 décembre 1874 ».",
+      "nature": "Vente passée le 28 novembre 1874, après-midi, en l'étude du notaire à Saint-Romuald, avec hypothèque sur l'emplacement de l'acquéreur, rue Demers.",
+      "transcription": "[002043] « N° 251 — 28 novembre 1874. L'an mil huit cent soixante-quatorze, le vingt-huit de novembre après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant à St Romuald, comté de Lévis, soussigné ; Fut présent : Germain Cantin, Ecr, marchand, de St Romuald ; Lequel vend avec garantie de tous troubles quelconques à Sr Charles Filteau, du même lieu, charretier, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayant cause, savoir : Une maison en bois de vingt-quatre pieds carrés, telle que la dite maison est actuellement construite, dont l'acquéreur se déclare satisfait pour l'avoir vue & visitée, & qui sera enlevée & reconstruite sur l'emplacement ci-après désigné. [002044] Cette vente est faite pour le prix de cent soixante piastres courant, payable par versements égaux & annuels, au premier jour de novembre de chaque année, de vingt-cinq piastres chacun — excepté le dernier paiement, qui ne sera que de dix piastres — le tout avec l'intérêt de huit pour cent par an, payable annuellement à compter du premier jour de novembre courant. L'acquéreur s'oblige de faire assurer la dite maison contre le feu pour un montant d'au moins deux cent cinquante piastres, d'en porter la police au vendeur & de la renouveler tant que tous les paiements ne seront pas effectués, remboursant au vendeur, à demande, ce que ce dernier aurait déboursé pour l'assurance si Filteau refusait ou négligeait de la faire […] [002045] & s'obligeant [de] faire reconstruire la dite maison sur l'emplacement du dit Ch. Filteau & de la remettre dans le même état qu'elle se trouvait avant que d'avoir été démolie & enlevée. — Et pour assurer le paiement de la dite somme de cent soixante piastres & des intérêts qui en proviendront, l'acquéreur hypothèque spécialement en faveur du vendeur l'immeuble suivant, savoir : Un emplacement situé en la dite paroisse de St Romuald [mots rayés : « comté de Lévis »], contenant soixante-deux pieds de front sur la Rue Demers, soixante pieds de profondeur ; borné à l'ouest en front à la Rue Demers, à l'est partie à François Montigny & partie à Édouard Toussaint & Antoine Toussaint, au nord à François Xavier Croteau & au sud à Louis Filteau, avec ensemble une maison en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances. [002046] Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. — Car ainsi &c. — Dont acte. Fait & passé à St Romuald, Étude, les jour, mois & an susdits, sous le numéro deux cent cinquante-un des originaux du notaire soussigné. Et les parties ont signé avec moi, lecture faite. [Deux] mots rayés sont nuls. » — Signé : « Germain Cantin », « Chs Filteau », « E. H. Tremblay, N.P. »",
       "personnes": [
         {
           "role": "vendeur",
           "nom": "Germain Cantin",
           "ref_personne": "1871-D1-P017-L04",
-          "note": "Écuyer, marchand de Saint-Romuald. Rattachement probable (voir n° 231, 243)."
+          "note": "Écuyer, marchand de Saint-Romuald. Rattachement probable (voir n° 231, 243). Signe « Germain Cantin »."
         },
         {
           "role": "acheteur",
           "nom": "Charles Filteau",
           "ref_personne": "1871-D1-P023-L15",
-          "note": "Charretier de Saint-Romuald. Charles Filteau, 20 ans (journalier) en 1871 (maison 59, division 1) — déjà rattaché à cet identifiant ; l'un des Filteau du lotissement Demers (cf. n° 140-145). Rattachement probable."
+          "note": "Charretier de Saint-Romuald. Charles Filteau, 20 ans (journalier) en 1871 (maison 59, division 1) — déjà rattaché à cet identifiant ; l'un des Filteau du lotissement Demers (cf. n° 140-145). Rattachement probable. Signe « Chs Filteau » (au n° 140, en juillet, il ne savait signer)."
+        },
+        {
+          "role": "voisin",
+          "nom": "François Montigny",
+          "ref_personne": "1871-D1-P028-L01",
+          "note": "Voisin à l'est (en partie) de l'emplacement hypothéqué ; mêmes bornes qu'au n° 140. Rattachement probable, comme au n° 140."
+        },
+        {
+          "role": "voisin",
+          "nom": "Édouard Toussaint",
+          "ref_personne": "1871-D1-P021-L09",
+          "note": "Voisin à l'est, avec Antoine Toussaint. Rattachement probable, comme au n° 140."
+        },
+        {
+          "role": "voisin",
+          "nom": "Antoine Toussaint",
+          "ref_personne": "1871-D1-P021-L07",
+          "note": "Voisin à l'est. Rattachement probable, comme au n° 140."
+        },
+        {
+          "role": "voisin",
+          "nom": "François-Xavier Croteau",
+          "ref_personne": "1871-D1-P027-L05",
+          "note": "Voisin au nord. Le n° 140 (même emplacement) laissait ce nom illisible (« François-Xavier Bor[…] [?] ») ; le n° 251 l'écrit en clair. Hypothèse : le François-Xavier Croteau de 18 ans qui, en 1871, vit chez Isidore Houde, journalier (division 1, maison 70 environ, page 26-27) — or c'est à un « Isidore Houle père, journalier » que Benjamin Demers concède le lot voisin au nord, le 20 juillet 1874 (n° 157). À soumettre à Patrick."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis Filteau",
+          "ref_personne": "1871-D1-P023-L14",
+          "note": "Voisin au sud : le frère de l'acquéreur (n° 143, 180)."
         },
         {
           "role": "notaire",
@@ -23095,20 +23125,32 @@
         }
       ],
       "affirmations": [],
-      "note": "Première partie d'une vente : Germain Cantin, marchand, vend à Charles Filteau, charretier, une maison de bois de vingt-quatre pieds carrés à déménager et reconstruire, pour cent soixante piastres payables sur plusieurs années (à 8 % d'intérêt), avec obligation d'assurance contre le feu de deux cent cinquante piastres. La désignation de l'emplacement, la clôture et les signatures sont sur le fichier 01101, pas encore déposé. À compléter au prochain lot.",
+      "note": "Germain Cantin, marchand, vend à Charles Filteau, charretier, une maison de bois de vingt-quatre pieds carrés, à démolir et à reconstruire sur l'emplacement de l'acquéreur, rue Demers, « dans le même état » ; prix 160 piastres payables en versements annuels de 25 piastres (le dernier de 10) au 1er novembre, à 8 % d'intérêt ; assurance contre le feu d'au moins 250 piastres. L'emplacement hypothéqué est exactement celui que Benjamin Demers avait concédé à Charles Filteau le 11 juillet 1874 (n° 140 : 62 pieds sur 60, mêmes voisins) ; il porte déjà « une maison en bois à un étage & autres bâtisses » : en quatre mois, Filteau a bâti, comme le bail l'y obligeait, et il y ajoute une seconde maison déménagée. Le voisin du nord, illisible au n° 140, se lit ici en clair : François-Xavier Croteau. Charles Filteau signe « Chs Filteau », lui qui ne savait signer en juillet. Passé à l'étude du notaire.",
       "ajoute_le": "2026-11-12",
       "images": [
         {
           "fichier": "01099",
           "microfilm": "002043",
           "drive": "1VoxWwVgv4kQwKxnrBvstd7nrdPXEY8cd",
-          "legende": "1/2"
+          "legende": "1/4"
         },
         {
           "fichier": "01100",
           "microfilm": "002044",
           "drive": "1MzcD3LYvVf9vz7bu0LgA5LdN1RLPjkfJ",
-          "legende": "2/2"
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01101",
+          "microfilm": "002045",
+          "drive": "1unK3GcUS8NOs4YQlWn_8oEmotzdHT9ef",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01102",
+          "microfilm": "002046",
+          "drive": "1dSzqWAeTANO0-bMW86otLMY3kzwqGpj8",
+          "legende": "4/4"
         }
       ]
     },
