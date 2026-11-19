@@ -52,12 +52,69 @@ function travail() {
   return cacheTravail;
 }
 
+/* ─── Décisions dictées ───────────────────────────────────────────────── */
+
+/* Patrick tranche aussi hors de l'atelier : « c'est bien la ligne 17 »,
+   « confirme-les tous », dit à Claude en séance. Ces décisions sont la main,
+   au même titre qu'une case corrigée — mais elles ne peuvent pas s'écrire dans
+   data/travail-personnel.json : ce fichier est réécrit en entier, depuis le
+   navigateur, à chaque sauvegarde de l'atelier, et la décision s'en irait avec
+   la sauvegarde suivante. Elles vivent donc à part, dans
+   data/decisions-dictees.json, et se lisent ici par-dessus l'atelier.
+
+   Deux formes :
+
+     corrections   { id, champ, atelier, valeur } — le champ vaut `valeur`
+                   **tant que l'atelier porte encore `atelier`** (null : il n'en
+                   dit rien). Dès que la case a changé dans l'atelier, c'est
+                   que la main y est repassée depuis : l'atelier l'emporte, et
+                   la décision est dite dépassée.
+     liens         comme suivi-liens, par identifiant de personne. Un lien
+                   dicté s'efface devant un rejet posé depuis dans l'annexe
+                   des filiations (suivi-filiation-rejets).
+
+   Voir CLAUDE.md, « Les décisions dictées ». */
+
+const FICHIER_DICTEES = RACINE + '/data/decisions-dictees.json';
+
+let cacheDictees = null;
+function dictees() {
+  if (cacheDictees) return cacheDictees;
+  try {
+    cacheDictees = JSON.parse(fs.readFileSync(FICHIER_DICTEES, 'utf8'));
+  } catch (e) {
+    cacheDictees = {};
+  }
+  return cacheDictees;
+}
+
 /* ─── Personnes ───────────────────────────────────────────────────────── */
 
 let cache = null;
+let bilanDictees = null;
 export function corrections() {
-  if (!cache) cache = rognerTout(travail()['suivi-familles-corrections']);
+  if (cache) return cache;
+  cache = rognerTout(travail()['suivi-familles-corrections']);
+  bilanDictees = { appliquees: [], depassees: [] };
+  for (const c of dictees().corrections || []) {
+    const porte = cache[c.id] && Object.prototype.hasOwnProperty.call(cache[c.id], c.champ) ? cache[c.id][c.champ] : null;
+    const attendu = c.atelier === undefined ? null : c.atelier;
+    if (porte === attendu) {
+      cache[c.id] = { ...(cache[c.id] || {}), [c.champ]: typeof c.valeur === 'string' ? c.valeur.trim() : c.valeur };
+      bilanDictees.appliquees.push(c);
+    } else {
+      // L'atelier a bougé depuis la décision : la main y est repassée, elle l'emporte.
+      bilanDictees.depassees.push({ ...c, porte });
+    }
+  }
   return cache;
+}
+
+/** Ce qu'il est advenu des corrections dictées : appliquées, ou dépassées
+    parce que l'atelier porte désormais autre chose sur la même case. */
+export function decisionsDictees() {
+  corrections();
+  return bilanDictees;
 }
 
 /** Les champs qu'une main a fixés sur cette personne, ou un objet vide. */
@@ -177,6 +234,17 @@ export function liens() {
   for (const [id, liste] of Object.entries(travail()['suivi-liens'] || {})) {
     if (Array.isArray(liste)) cacheLiens[id] = liste.map(rogner);
   }
+  // Les liens dictés (data/decisions-dictees.json) s'ajoutent à ceux de
+  // l'atelier, sans doubler un lien que l'atelier porte déjà vers la même ligne.
+  const position = (l) => `${l.annee}|${l.division || ''}|${l.page}|${l.ligne}`;
+  for (const [id, liste] of Object.entries(dictees().liens || {})) {
+    if (!Array.isArray(liste)) continue;
+    const deja = new Set((cacheLiens[id] || []).map(position));
+    for (const l of liste.map(rogner)) {
+      if (deja.has(position(l))) continue;
+      (cacheLiens[id] ||= []).push({ ...l, dicte: true });
+    }
+  }
   return cacheLiens;
 }
 
@@ -231,7 +299,12 @@ export function resoudreLiens(positions, existe) {
       const cle = `${de}__${vers}`;
       if (vus.has(cle)) continue;
       vus.add(cle);
-      resolus.push({ de, vers, source, relation: l.relation || '', nom: l.nom || '', note: l.note || '' });
+      // Un lien dicté s'efface devant un rejet posé depuis dans l'annexe.
+      if (l.dicte && rejets().has(cle)) {
+        laisses.push(`${etiquette} : confirmé en séance, écarté depuis dans l'annexe des filiations — le rejet l'emporte`);
+        continue;
+      }
+      resolus.push({ de, vers, source, relation: l.relation || '', nom: l.nom || '', note: l.note || '', dicte: !!l.dicte });
     }
   }
   return { resolus, laisses };

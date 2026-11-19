@@ -13,6 +13,11 @@
     el.addEventListener('mouseleave', function () { bulle.style.display = 'none'; });
   }
   function fr(n) { return n.toLocaleString('fr-CA'); }
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
 
   fetch('stats-donnees.json').then(function (r) { return r.json(); }).then(function (s) {
     // ---------- tuiles par année ----------
@@ -64,7 +69,8 @@
         var lib = d[0], val = d[1];
         var r = document.createElement('div');
         r.className = 'barre-rang';
-        r.innerHTML = '<div class="lib" title="' + lib + '">' + lib + '</div>' +
+        // Le libellé vient des données (un métier, une origine) : il s'échappe.
+        r.innerHTML = '<div class="lib" title="' + esc(lib) + '">' + esc(lib) + '</div>' +
           '<div class="barre-piste"><i style="width:' + (val / max * 100) + '%"></i></div>' +
           '<div class="val">' + fr(val) + '</div>';
         b.appendChild(r);
@@ -84,12 +90,33 @@
       [t.moyenne, 'Confiance moyenne'],
       [t.veuvage, 'Veuvages repérés'],
       [t.essaimage, 'Essaimages']
-    ].forEach(function (pair) {
+    ].concat(t.par_menage ? [[t.par_menage, 'Proposés par le ménage']] : [])
+     .concat(t.main ? [[t.main, 'Confirmés à la main']] : [])
+     .forEach(function (pair) {
       var div = document.createElement('div');
       div.className = 'tuile';
       div.innerHTML = '<div class="gros">' + fr(pair[0]) + '</div><div class="quoi">' + pair[1] + '</div>';
       tuilesT.appendChild(div);
     });
+
+    // ---------- décès de 1871 ----------
+    // Le tableau 2 du recensement : vingt lignes qui n'étaient visibles nulle
+    // part, faute de renvoi à une maison.
+    var deces = s.deces_1871 || [];
+    var blocDeces = document.getElementById('bloc-deces');
+    if (blocDeces && deces.length) {
+      var ans = function (a) { return /^\d+$/.test(String(a)) ? a + ' an' + (Number(a) > 1 ? 's' : '') : a; };
+      document.getElementById('table-deces').innerHTML =
+        '<thead><tr><th>Nom</th><th>Âge</th><th>Mois</th><th>Cause déclarée</th><th>Ménage</th></tr></thead><tbody>' +
+        deces.map(function (x) {
+          var menage = x.maison
+            ? '<a href="maison.html#' + esc(x.maison) + '">maison ' + esc(x.maison.replace(/^.*-M/, '')) + '</a>' +
+              (x.rattachement === 'propose' ? ' <span class="occ-detail">(proposé)</span>' : '')
+            : '<span class="occ-detail">non rattaché</span>';
+          return '<tr><td>' + esc(x.nom) + '</td><td>' + esc(ans(x.age)) + '</td><td>' + esc(x.mois) + '</td><td>' + esc(x.cause) + '</td><td>' + menage + '</td></tr>';
+        }).join('') + '</tbody>';
+      blocDeces.hidden = false;
+    }
   }).catch(function () {
     document.querySelector('.cadre').insertAdjacentHTML('afterbegin', '<p class="erreur">Les statistiques n\'ont pas pu être chargées.</p>');
   });

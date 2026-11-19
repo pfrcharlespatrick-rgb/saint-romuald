@@ -128,6 +128,23 @@ l'anglais selon la famille et selon sa main : Marguerite devient Margaret puis
 Maggie, Guillaume devient William, Marie devient Mary puis May. Sans cette
 table, la moitié des rapprochements irlandais et écossais échouerait.
 Elle est dans `outils/noms.mjs` et se complète à mesure des cas rencontrés.
+Trois variations du recenseur y sont absorbées depuis novembre 2026 :
+
+- **le trait d'union** — « Jean-Baptiste » en 1891 est « J.Baptiste » en 1881 et
+  « J. Baptiste » en 1871. Le prénom se découpe aussi sur le trait d'union ;
+  avant cela, « jean-baptiste » restait un seul mot qui ne rencontrait ni
+  « jean » ni « baptiste », et aucun Jean-Baptiste de 1891 n'était rapproché
+  par son prénom ;
+- **l'initiale** — « J. » devant « Baptiste » est Jean. Une initiale seule
+  n'est plus une clé quand la fiche porte un autre prénom, sans quoi
+  « J.Baptiste » et « J.Louis » se rencontraient sur « j » ;
+- **la graphie** — « Ema » pour « Emma », « Johny » pour « John », « Félias »
+  pour « Philias ». La forme écrite est gardée à côté de la clé de sa classe et
+  comparée lettre à lettre, à une lettre près seulement.
+
+Isabelle et Élisabeth sont une même classe : Elisabeth McNaughton (1871) est
+Isabella en 1881, et Isabelle Burroughs, femme d'Hubert Roberge père, est
+« Elisabeth » au recensement de 1881.
 
 **L'âge**, le plus faible des quatre. Un écart de dix ans exactement est
 l'exception, pas la règle. La tolérance va jusqu'à six ans de dérive avec un
@@ -136,6 +153,47 @@ le poids donné au voisinage.
 
 Le sexe ne sert que lorsqu'il est fiable. Un contrôle automatique écarte tout
 jeu dont la répartition penche à plus de 75 % d'un côté.
+
+### À score égal, c'est le score brut qui départage
+
+Le score affiché est borné à 1. Deux homonymes bien corroborés y arrivaient
+tous deux, et le premier lu l'emportait : Hubert Roberge, 33 ans, pouvait
+prendre auprès de Sara la place de Hubert Roberge, 29 ans, son mari. Le tri se
+fait désormais sur le score **non borné** — âge plus juste, ménage mieux
+retrouvé —, qui garde l'écart que le plafond effaçait. La part des liens
+corroborés par un autre membre du ménage est passée de 76 % à 83 %.
+
+### Compléter les ménages reconnus
+
+Quand deux membres au moins d'un ménage se retrouvent ensemble dix ans plus
+tard, le ménage est reconnu ; mais il y reste souvent quelqu'un que le nom n'a
+pas su suivre, des deux côtés :
+
+- **le patronyme a changé** — l'épouse est inscrite sous son nom de naissance
+  une année, sous celui de son mari la suivante. Mary Wilson, 45 ans en 1871,
+  est Mary McCarthy, 54 ans, en 1881, toujours auprès de Duncan et d'Elizabeth
+  Wilson ; sa mère, « Marguerite Alice », 68 ans, y est Marguerite McCarthy ;
+- **le prénom a changé** — prénom d'usage contre prénom de baptême, ou lecture
+  fautive : Séverin Beaulieu, 13 ans, est Zéphirin Beaulieu, 22 ans ; Hubert
+  Roberge, 33 ans, est lu « Sophonias » en 1881, auprès de la même Philomène.
+
+Une dernière passe (`completerMenages`) retient le cas sans équivoque : dans le
+ménage d'arrivée, **une seule** personne encore libre a le sexe et l'âge
+attendus, à deux ans près, **et réciproquement** ; et l'un des deux noms —
+prénom ou patronyme — concorde. Deux candidats possibles, et rien n'est retenu.
+
+Ces liens portent `par_menage: true`, une confiance « moyenne » — jamais
+« forte » : ils reposent sur le ménage, pas sur l'identité — et le disent dans
+leurs motifs. La fiche de personne affiche « proposé par le ménage ». Ce sont
+des propositions : `docs/CONTROLE-CROISEMENTS.md` en tient la liste, à confirmer
+ou à écarter dans l'annexe.
+
+La passe vient après toutes les autres et **ne contredit jamais le nom**. Quand
+la personne avait déjà été reliée de 1871 à 1891 par-dessus 1881 et que son
+ménage la retrouve aussi en 1881, le lien par-dessus se défait en deux
+maillons : celui du ménage, et celui qui s'en déduit (`transitif: true`,
+affiché « maillon déduit »). Si la personne de 1881 est déjà prise de l'autre
+côté, le nom garde le dernier mot et le ménage s'abstient.
 
 ---
 
@@ -176,6 +234,15 @@ parce qu'un âge est mal transcrit. **James Thompson est noté 25 ans en 1871
 alors qu'il a un fils de 12 ans**, et reparaît chef à 47 ans en 1881, avec la
 même épouse et les mêmes enfants. Déclarer sa mort serait une erreur grave, et
 d'autant plus trompeuse qu'elle se lirait comme un fait établi.
+
+Le garde-fou tolère une graphie voisine du patronyme (« Binet » en 1871,
+« Binette » en 1881) : exiger le même nom à la lettre laissait passer Charles
+Binet pour mort alors qu'il tient toujours sa maison.
+
+Deux autres précautions : une **domestique** n'est pas l'épouse présumée du
+chef — le curé Sax ne laisse pas de veuve en la personne de sa ménagère —,
+pas plus qu'une femme que le manuscrit dit célibataire ou déjà veuve ; et un
+chef **prêtre ou religieux** n'a pas d'épouse à chercher.
 
 Ces cas sont retirés des veuvages et versés aux contrôles sous le type
 `age_incoherent` — 21 relevés, dont « Frédéric Gagné : 13 ans en 1871, 55 ans en
@@ -233,6 +300,38 @@ de vingt ans — mais seulement pour les personnes que les passes consécutives 
 laissées sans rattachement, afin de ne rien défaire de ce qu'elles ont établi.
 Ces liens portent `saut: '1881'` et le motif « absent du recensement de 1881 ».
 160 rapprochements de ce type.
+
+---
+
+## Novembre 2026 : ce que la révision a changé
+
+| | Avant | Après |
+|---|---|---|
+| Rapprochements | 2 712 | 2 910 |
+| … dont proposés par le ménage | — | 132, plus 10 maillons déduits |
+| Corroborés par un autre membre du ménage | 76 % | 83 % |
+| Liens isolés (aucun compagnon) | 653 | 496 |
+| Veuvages | 48 | 37 |
+| Âges à vérifier | 28 | 31 |
+| Disparitions | 4 022 | 3 819 |
+
+Seize « veuvages » étaient faux : l'homme n'était pas mort, il était recensé
+sous une autre graphie que le calcul ne rapprochait pas — John Vachon et
+« J.Baptiste Vachon », J.Baptiste Laliberté et « Jean-Baptiste Laliberté »,
+Paul Cadoret et « Paul Cadorette », le révérend F.-X. Smith et « Fred Augustin
+Smith ». Le site les donnait pour morts. Cinq veuvages nouveaux sont apparus,
+dont celui d'Isabelle Burroughs, veuve d'Hubert Roberge père entre 1881 et 1891.
+
+Le 12 novembre 2026, Patrick a confirmé d'un bloc les 132 rapprochements
+proposés par le ménage et les 10 maillons déduits : ils sortent désormais avec
+`origine: "main"`, comme tout lien confirmé, et la décision est consignée dans
+`data/decisions-dictees.json` (voir CLAUDE.md, « Les décisions dictées »). La
+passe reste en place : les prochaines corrections de dépouillement en feront
+apparaître de nouveaux, à confirmer à leur tour.
+
+Les chiffres cités plus haut dans ce document (homonymies, disparitions) sont
+ceux de sa rédaction ; `data/filiation-data.js`, champ `comptes`, donne ceux
+du jour.
 
 ---
 

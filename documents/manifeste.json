@@ -1,7 +1,7 @@
 {
   "format": "documents-saint-romuald",
   "version": 1,
-  "mis_a_jour": "2026-11-11",
+  "mis_a_jour": "2026-11-18",
   "note": "Index des documents historiques qui établissent des liens de filiation. Un document versé ici l'emporte toujours sur une proposition automatique de data/filiation-data.js : l'acte est une preuve, le rapprochement algorithmique n'est qu'une hypothèse. Voir documents/README.md pour la marche à suivre.",
   "types_admis": {
     "bapteme": "Acte de baptême — établit une filiation directe et une date de naissance",
@@ -380,7 +380,9 @@
         },
         {
           "role": "mere",
-          "nom": "Théotiste Forcade (née Desrochers)"
+          "nom": "Théotiste Forcade (née Desrochers)",
+          "ref_personne": "1871-D2-P018-L08",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « familysearch-theotiste-forcade-desrochers » — recensée « Théotis Desrochers », 78 ans, dans le ménage de son fils Albert (maison 43)."
         },
         {
           "role": "soeur",
@@ -533,7 +535,9 @@
         },
         {
           "role": "mere",
-          "nom": "Théotiste Forcade (née Desrochers)"
+          "nom": "Théotiste Forcade (née Desrochers)",
+          "ref_personne": "1871-D2-P018-L08",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « familysearch-theotiste-forcade-desrochers » — recensée « Théotis Desrochers », 78 ans, dans le ménage de son fils Albert (maison 43)."
         }
       ],
       "affirmations": [
@@ -646,22 +650,23 @@
     {
       "id": "acte-mariage-alphonse-demers-1908",
       "type": "mariage",
-      "titre": "Mariage d'Alphonse Demers et Éléonore Roberge, 1908",
+      "titre": "Mariage d'Alphonse Demers et Éléonore Roberge, Saint-Romuald, 1908",
       "date": "1908-06-15",
-      "source": "Couples du Canada et du Québec, via MyHeritage",
-      "cote": "",
-      "nature": "Compilation d'acte de mariage, sans image jointe cette fois — moins directement vérifiable que acte-mariage-alfred-demers-1898.",
+      "source": "Registre des baptêmes, mariages et sépultures de la paroisse de Saint-Romuald d'Etchemin, 1908 : extrait certifié conforme par le vicaire J. L. Dufresne le 8 avril 1918, gardé dans les papiers des Demers et photographié par Patrick (2026-11-18). Signalé d'abord par la compilation « Couples du Canada et du Québec », via MyHeritage.",
+      "cote": "Registre de Saint-Romuald d'Etchemin, 1908, acte du 15 juin ; extrait du 8 avril 1918",
+      "nature": "Extrait sur formulaire imprimé de la paroisse (« Extrait du Registre des baptêmes, mariages et sépultures de la paroisse de Saint-Romuald d'Etchemin »), recopié à la main par le vicaire, avec le sceau sec « Fabrique St-Romuald — Diocèse de Québec — comté de Lévis ». Couverture manuscrite : « Extrait — Acte de Mariage de Alphonse Demers et Eléonore Roberge — 15 juin 1908 ». La feuille est réparée au ruban adhésif.",
       "personnes": [
         {
           "role": "epoux",
           "nom": "Alphonse Demers",
           "ref_personne": "1891-D1-P123-L13",
-          "note": "3 ans en 1891 — cohérent avec un mariage à ~20 ans en 1908. Absent des recensements de 1871 et 1881, né entre 1881 et 1891."
+          "note": "Domicilié à Saint-Romuald, « fils mineur » de Louis Demers et de Léocadie Beaudoin ; signe. 3 ans en 1891 : une vingtaine d'années en 1908, d'où « mineur » (moins de 21 ans)."
         },
         {
           "role": "pere",
           "nom": "Louis Demers",
-          "ref_personne": "1891-D1-P123-L05"
+          "ref_personne": "1891-D1-P123-L05",
+          "note": "Présent et consentant ; signe « Louis Demers ». Le vicaire, en recopiant, a écrit par erreur « Louis Roberge, père de l'époux »."
         },
         {
           "role": "mere",
@@ -671,26 +676,55 @@
         {
           "role": "epouse",
           "nom": "Éléonore Roberge",
-          "note": "Non rattachée à une fiche de recensement, faute de temps."
+          "note": "Domiciliée à Saint-Romuald, « fille mineure » de David Roberge et d'Éléonore Couture, « aussi de cette paroisse » ; signe. Non rattachée : elle ne figure pas aux recensements dépouillés — née après 1881, et absente de Saint-Romuald en 1891. Ses parents seraient le David Roberge, 19 ans, et l'Éléonore Couture, 20 ans, recensés en 1881 (1881-D2-P044-L24, 1881-D2-P020-L07), qui disparaissent ensuite des recensements de Saint-Romuald et y sont revenus en 1908 — hypothèse. Morte le 13 avril 1938, épouse d'Alphonse Demers (fiche « sepulture-1938-04-18-eleonore-roberge »)."
         },
         {
           "role": "pere",
-          "nom": "David Roberge"
+          "nom": "David Roberge",
+          "note": "De Saint-Romuald en 1908 ; consent au mariage de sa fille mineure."
         },
         {
           "role": "mere",
-          "nom": "Éléonore Hélène Couture"
+          "nom": "Éléonore Couture",
+          "note": "De Saint-Romuald en 1908. L'extrait du registre écrit « Eléonore Couture » ; la compilation MyHeritage ajoutait « Hélène »."
+        },
+        {
+          "role": "temoin",
+          "nom": "Damase Vallières",
+          "ref_personne": "1891-D1-P114-L11",
+          "note": "« A déclaré ne savoir signer ». Rattachement probable : Damase Vallière, seul de ce nom dans la paroisse — 15 ans en 1871, journalier de 25 ans en 1881, débardeur de 36 ans en 1891, que le recensement dit ne sachant ni lire ni écrire."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Demers (écrit « Louis Roberge »)",
+          "note": "Le père de l'époux, second témoin ; voir plus haut."
+        },
+        {
+          "role": "cure",
+          "nom": "[H. ?] Richard",
+          "note": "Prêtre, curé de Saint-Romuald en 1908 ; célèbre le mariage."
+        },
+        {
+          "role": "vicaire",
+          "nom": "J. L. Dufresne",
+          "note": "Vicaire de Saint-Romuald ; délivre l'extrait le 8 avril 1918."
+        },
+        {
+          "role": "autorite",
+          "nom": "Mgr [E.] A. Marois",
+          "note": "Vicaire général de Mgr L.-N. Bégin, archevêque de Québec ; accorde les dispenses."
         }
       ],
       "affirmations": [
         {
           "type": "mariage",
-          "certitude": "probable",
+          "certitude": "etabli",
           "date": "1908-06-15",
           "personnes": [
             "1891-D1-P123-L13"
           ],
-          "enonce": "Alphonse Demers épouse Éléonore Roberge le 15 juin 1908 à Saint-Romuald."
+          "enonce": "Alphonse Demers épouse Éléonore Roberge le 15 juin 1908 à Saint-Romuald d'Etchemin, tous deux mineurs, avec l'accord de leurs pères.",
+          "note": "Établi par l'extrait du registre paroissial gardé par la famille, qui confirme la date et le lieu donnés par la compilation MyHeritage."
         },
         {
           "type": "filiation",
@@ -701,10 +735,42 @@
             "1891-D1-P123-L13"
           ],
           "enonce": "Alphonse Demers est le fils de Louis Demers et de Léocadie Beaudoin — même couple parental qu'Alfred Demers (acte-mariage-alfred-demers-1898)."
+        },
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Éléonore Roberge est la fille de David Roberge et d'Éléonore Couture, de Saint-Romuald en 1908."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "personnes": [
+            "1891-D1-P123-L13",
+            "1891-D1-P123-L05",
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "Alphonse Demers et Éléonore Roberge sont parents au troisième degré de consanguinité, ce qui exige une dispense de l'archevêché : ils descendent d'un même couple d'ancêtres, deux générations au-dessus de leurs parents.",
+          "note": "Le troisième degré du droit canonique de 1908 désigne des cousins issus de germains : l'un des parents d'Alphonse et l'un des parents d'Éléonore sont cousins germains. L'acte ne dit pas par quel côté."
         }
       ],
-      "note": "Corrige une confusion de l'ancienne fiche « 1616, chemin du Fleuve » (retirée du site), qui donnait Éléonore (Roberge) comme épouse de Louis Demers lui-même plutôt que de son fils Alphonse, et Léocadie Beaudoin comme une simple colistée plutôt que comme l'épouse de Louis. Éléonore Roberge reste à rattacher à une fiche de recensement.",
-      "ajoute_le": "2026-07-30"
+      "note": "Corrige une confusion de l'ancienne fiche « 1616, chemin du Fleuve » (retirée du site), qui donnait Éléonore (Roberge) comme épouse de Louis Demers lui-même plutôt que de son fils Alphonse, et Léocadie Beaudoin comme une simple colistée plutôt que comme l'épouse de Louis. L'extrait du registre, délivré le 8 avril 1918, a été demandé dix ans après le mariage — la même année que la lettre de la St. Lawrence Bridge Company (fiche « lettre-1918-09-27-pont-quebec-alphonse-demers ») ; en 1918, la loi sur le service militaire appelait d'abord les célibataires, et un homme marié avait à le prouver : c'est une explication possible, rien ici ne le dit. Éléonore Roberge ne peut être rattachée au recensement (voir sa note) ; son décès, le 13 avril 1938, est connu par le certificat du curé (fiche « sepulture-1938-04-18-eleonore-roberge »).",
+      "ajoute_le": "2026-07-30",
+      "images": [
+        {
+          "local": "documents/scans/extrait-mariage-alphonse-demers-1908.jpg",
+          "legende": "Couverture de l'extrait"
+        },
+        {
+          "local": "documents/scans/extrait-mariage-alphonse-demers-1908-2-acte.jpg",
+          "legende": "L'extrait du registre"
+        },
+        {
+          "local": "documents/scans/extrait-mariage-alphonse-demers-1908-3-detail.jpg",
+          "legende": "L'extrait, de plus près"
+        }
+      ],
+      "transcription": "« Extrait du Registre des baptêmes, mariages et sépultures de la paroisse de Saint-Romuald d'Etchemin, pour l'année mil neuf cent huit. Le quinze juin mil neuf cent huit, vu la dispense de deux bans de mariage et du troisième degré de consanguinité, accordée le [treize ?] du courant par Monseigneur [E.] A. Marois, V.G. de Sa Grandeur Monseigneur L. N. Bégin, archevêque de Québec, vu la publication d'un autre ban faite au prône de notre messe paroissiale entre Alphonse Demers, domicilié en cette paroisse, fils mineur de Louis Demers et de Léocadie Beaudoin de cette paroisse, d'une part ; et Eléonore Roberge, domiciliée en cette paroisse, fille mineure de David Roberge et de Eléonore Couture, aussi de cette paroisse, d'autre part ; ne s'étant découvert aucun empêchement au dit mariage, nous, prêtre curé soussigné, avons, avec l'agrément des pères des époux mineurs, reçu leur mutuel consentement de mariage et leur avons donné la bénédiction nuptiale en présence de Damase Vallières, qui a déclaré ne savoir signer, et de Louis Roberge [sic : Louis Demers, d'après les signatures], père de l'époux, soussigné avec les époux. Lecture faite. (Signé) Eléonore Roberge, Alphonse Demers, Louis Demers, [H. ?] Richard, ptre. Lequel extrait, nous soussigné, vicaire de la paroisse de St-Romuald d'Etchemin, certifions être vrai et conforme au registre original, déposé dans les archives de cette paroisse. Fait à Saint-Romuald d'Etchemin le 8e jour du mois d'avril mil neuf cent dix-huit. J. L. Dufresne, ptre. »"
     },
     {
       "id": "acte-mariage-charles-demers-1896",
@@ -796,11 +862,15 @@
         },
         {
           "role": "mere",
-          "nom": "Emilie Casey"
+          "nom": "Emilie Casey",
+          "ref_personne": "1871-D2-P029-L16",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « familysearch-robert-mcready-arbre » — recensée « Emélie Casey », 75 ans, en 1871 (maison 75)."
         },
         {
           "role": "frere",
-          "nom": "John McReady"
+          "nom": "John McReady",
+          "ref_personne": "1871-D2-P022-L13",
+          "note": "Rattaché par recoupement le 2026-11-12 : même personne que dans la fiche « familysearch-robert-mcready-arbre » — recensé « John Macready », 50 ans, en 1871 (maison 58)."
         },
         {
           "role": "frere",
@@ -1070,7 +1140,9 @@
         },
         {
           "role": "mere",
-          "nom": "Emilie Casey"
+          "nom": "Emilie Casey",
+          "ref_personne": "1871-D2-P029-L16",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « familysearch-robert-mcready-arbre » — recensée « Emélie Casey », 75 ans, en 1871 (maison 75)."
         },
         {
           "role": "epouse",
@@ -1341,16 +1413,21 @@
         },
         {
           "role": "enfant",
-          "nom": "Rose-De-Lima Délima (de Lima) Roberge"
+          "nom": "Rose-De-Lima Délima (de Lima) Roberge",
+          "ref_personne": "1871-D2-P019-L01",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « geni-rose-delima-roberge-hardy » — recensée « Rose Hardy », 45 ans, sous son nom d'épouse, en 1871 (maison 47)."
         },
         {
           "role": "enfant",
-          "nom": "Magloire Roberge"
+          "nom": "Magloire Roberge",
+          "ref_personne": "1871-D2-P016-L18",
+          "note": "Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : même personne que le Magloire Roberge, navigateur, 50 ans en 1871 (division 2, maison 40), rattaché dans la fiche « notarie-1874-06-22-resiliation-roberge » ; il reparaît à 61 ans en 1881 (1881-D2-P037-L23, fiche « roberge-fratrie-julien-1881 »)."
         },
         {
           "role": "enfant",
           "nom": "Hubert Roberge",
-          "note": "Père d'Hubert William Roberge (voir geni-hubert-roberge-pere-isabelle-burroughs et geni-hubert-roberge-fils-sara-porter)."
+          "note": "Père d'Hubert William Roberge (voir geni-hubert-roberge-pere-isabelle-burroughs et geni-hubert-roberge-fils-sara-porter). Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : c'est Hubert Roberge père, navigateur, 54 ans en 1871 (division 2, maison 52, famille 63), époux d'Elisabeth — la ligne que la fiche « geni-hubert-roberge-pere-isabelle-burroughs » proposait par hypothèse. Le contrôle proposait aussi, sur le seul nom, les Hubert Roberge de 29 et de 33 ans (1871-D2-P029-L19, 1871-D2-P016-L08) : ils sont trop jeunes pour être un fils de Julien Roberge, mort en 1832 ; le premier est son fils Hubert William.",
+          "ref_personne": "1871-D2-P020-L09"
         },
         {
           "role": "enfant",
@@ -1358,7 +1435,9 @@
         },
         {
           "role": "enfant",
-          "nom": "Julien Roberge"
+          "nom": "Julien Roberge",
+          "ref_personne": "1881-D2-P038-L20",
+          "note": "Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : même personne que le Julien Roberge, journalier, 52 ans en 1881 (division 2), rattaché dans la fiche « roberge-fratrie-julien-1881 »."
         },
         {
           "role": "enfant",
@@ -1366,7 +1445,9 @@
         },
         {
           "role": "enfant",
-          "nom": "Céleste Roberge"
+          "nom": "Céleste Roberge",
+          "ref_personne": "1871-D2-P020-L02",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « sthilaire-2010-magdeleine-delisle » — recensée « Céleste Peltier », 45 ans, sous son nom d'épouse, en 1871 (maison 50)."
         },
         {
           "role": "enfant",
@@ -1404,7 +1485,8 @@
         {
           "role": "sujet",
           "nom": "Hubert Roberge",
-          "note": "Né à St-Nicolas. Non nommément rattaché ; identifié par hypothèse à 1871-D2-P020-L09 — voir affirmation ci-dessous."
+          "note": "Né à St-Nicolas. Non nommément rattaché ; identifié par hypothèse à 1871-D2-P020-L09 — voir affirmation ci-dessous. Rattachement confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme »).",
+          "ref_personne": "1871-D2-P020-L09"
         },
         {
           "role": "pere",
@@ -1434,11 +1516,15 @@
         },
         {
           "role": "soeur",
-          "nom": "Rose-De-Lima Délima (de Lima) Roberge"
+          "nom": "Rose-De-Lima Délima (de Lima) Roberge",
+          "ref_personne": "1871-D2-P019-L01",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « geni-rose-delima-roberge-hardy » — recensée « Rose Hardy », 45 ans, sous son nom d'épouse, en 1871 (maison 47)."
         },
         {
           "role": "frere",
-          "nom": "Magloire Roberge"
+          "nom": "Magloire Roberge",
+          "ref_personne": "1871-D2-P016-L18",
+          "note": "Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : même personne que le Magloire Roberge, navigateur, 50 ans en 1871 (division 2, maison 40), rattaché dans la fiche « notarie-1874-06-22-resiliation-roberge » ; il reparaît à 61 ans en 1881 (1881-D2-P037-L23, fiche « roberge-fratrie-julien-1881 »)."
         },
         {
           "role": "soeur",
@@ -1446,7 +1532,9 @@
         },
         {
           "role": "frere",
-          "nom": "Julien Roberge"
+          "nom": "Julien Roberge",
+          "ref_personne": "1881-D2-P038-L20",
+          "note": "Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : même personne que le Julien Roberge, journalier, 52 ans en 1881 (division 2), rattaché dans la fiche « roberge-fratrie-julien-1881 »."
         },
         {
           "role": "soeur",
@@ -1454,7 +1542,9 @@
         },
         {
           "role": "soeur",
-          "nom": "Céleste Roberge"
+          "nom": "Céleste Roberge",
+          "ref_personne": "1871-D2-P020-L02",
+          "note": "Rattachée par recoupement le 2026-11-12 : même personne que dans la fiche « sthilaire-2010-magdeleine-delisle » — recensée « Céleste Peltier », 45 ans, sous son nom d'épouse, en 1871 (maison 50)."
         },
         {
           "role": "soeur",
@@ -1471,10 +1561,12 @@
         },
         {
           "type": "identite",
-          "certitude": "hypothese",
-          "personnes": [],
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P020-L09"
+          ],
           "enonce": "Ce Hubert Roberge, navigateur, marié à une Elisabeth (âgée de 51 ans en 1871, 54 ans lui-même) et chef du ménage 1871-D2-P020 (famille 63), serait ce couple.",
-          "note": "Rapprochement fragile : le prénom recensé de l'épouse (« Elisabeth ») diffère de celui du document (« Isabelle »), ce qui peut être la même personne sous deux graphies voisines ou deux personnes distinctes. Le fils Hubert (notre Hubert William, né v. 1842) n'apparaît pas dans ce ménage en 1871, ce qui est attendu puisqu'il a déjà son propre foyer (1871-D2-P029) — son absence ne contredit donc pas le rapprochement, mais ne le confirme pas non plus. Le métier de navigateur, commun au père et au fils, est le seul indice positif supplémentaire."
+          "note": "Rapprochement fragile : le prénom recensé de l'épouse (« Elisabeth ») diffère de celui du document (« Isabelle »), ce qui peut être la même personne sous deux graphies voisines ou deux personnes distinctes. Le fils Hubert (notre Hubert William, né v. 1842) n'apparaît pas dans ce ménage en 1871, ce qui est attendu puisqu'il a déjà son propre foyer (1871-D2-P029) — son absence ne contredit donc pas le rapprochement, mais ne le confirme pas non plus. Le métier de navigateur, commun au père et au fils, est le seul indice positif supplémentaire. Rapprochement confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») ; la réserve sur le prénom de l'épouse (« Elisabeth » au recensement, « Isabelle » dans le document) demeure, d'où « probable » et non « établi »."
         }
       ],
       "note": "Le fils Hubert William Roberge (voir geni-hubert-roberge-fils-sara-porter et myheritage-hubert-william-roberge-deces) est solidement rattaché au recensement ; son père reste une identification prudente, à confirmer.",
@@ -1498,7 +1590,8 @@
         {
           "role": "pere",
           "nom": "Hubert Roberge (père)",
-          "note": "Voir geni-hubert-roberge-pere-isabelle-burroughs."
+          "note": "Voir geni-hubert-roberge-pere-isabelle-burroughs. Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : Hubert Roberge, navigateur, 54 ans en 1871 (division 2, maison 52).",
+          "ref_personne": "1871-D2-P020-L09"
         },
         {
           "role": "mere",
@@ -1874,7 +1967,8 @@
         {
           "role": "frere",
           "nom": "Hubert Roberge",
-          "note": "Voir geni-hubert-roberge-pere-isabelle-burroughs."
+          "note": "Voir geni-hubert-roberge-pere-isabelle-burroughs. Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : c'est Hubert Roberge père, navigateur, 54 ans en 1871 (division 2, maison 52, famille 63), époux d'Elisabeth — la ligne que la fiche « geni-hubert-roberge-pere-isabelle-burroughs » proposait par hypothèse. Le contrôle proposait aussi, sur le seul nom, les Hubert Roberge de 29 et de 33 ans (1871-D2-P029-L19, 1871-D2-P016-L08) : ils sont trop jeunes pour être un fils de Julien Roberge, mort en 1832 ; le premier est son fils Hubert William.",
+          "ref_personne": "1871-D2-P020-L09"
         }
       ],
       "affirmations": [
@@ -3228,11 +3322,6 @@
           "nom": "Ernest Benson",
           "ref_personne": "1881-D2-P054-L22",
           "note": "Dépouillé « Ernest Bindon ». Le manuscrit porte « Benson Ernest », 36 ans, marchand de bois."
-        },
-        {
-          "role": "enfant",
-          "nom": "Alice McCready",
-          "note": "Ligne 15 du feuillet, 2 ans, fille de Robert McCready. Absente du dépouillement — non ajoutée d'office."
         },
         {
           "role": "mere",
@@ -7068,7 +7157,9 @@
         },
         {
           "role": "voisin",
-          "nom": "Benjamin Demers"
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Rattaché, confirmé par Patrick le 2026-11-16 (relevé de vérification du 15 novembre : « confirme ») : même personne que le Benjamin Demers, cultivateur, 48 ans en 1871 (division 1, maison 66), partie à de nombreux actes du greffe (fiche « notarie-1873-12-03-depot-bourassa-demers »). La terre donnée est à Saint-Jean-Chrysostome, dont les limites recouvrent celles de Saint-Romuald."
         },
         {
           "role": "voisin",
@@ -23653,6 +23744,985 @@
         }
       ],
       "ajoute_le": "2026-11-12"
+    },
+    {
+      "id": "plan-1844-02-05-hetriere-riviere-bruyante",
+      "type": "autre",
+      "titre": "Plan d'une étendue de terre entre la concession de l'Hétrière et la rivière Bruyante, paroisse de Saint-Jean-Chrysostome — P. Lambert, arpenteur, 5 février 1844",
+      "date": "1844-02-05",
+      "source": "À préciser : image numérisée du plan, fournie par Patrick Blanchet le 16 novembre 2026, sans indication de dépôt.",
+      "cote": "",
+      "fichier": "assets/plans/st-jean-chrysostome-1844-hetriere.jpg",
+      "nature": "Croquis d'arpenteur à la plume, sur une feuille pliée, suivi d'une « Description » de quatre lignes, datée et signée « P. Lambert, A.P. ». Il montre un périmètre A-B-C-D partagé en cinq bandes, avec le nom de l'occupant de chacune et sa largeur en arpents de front. Ce n'est pas un plan à l'échelle : aucune échelle n'est écrite, ni la profondeur ni les orientations ne sont cotées, et si les quatre premières bandes sont dessinées à peu près en proportion des largeurs écrites, la dernière ne l'est pas. Il vaut pour les noms, le voisinage et l'origine du titre — non pour des mesures.",
+      "transcription": "[Au crayon, dans le coin, d'une autre main :] 5 fév. 1844 — [Sur le plan, au-dessus de la ligne A-B, dans une suite de bandes étroites :] Partie de la Concession ou Rang Hétrière — [Le long de la ligne A-D, hors du périmètre, écrit de bas en haut :] Joseph Lambert — [Flèche :] Vrai Nord — [Dans le périmètre A-B-C-D, de haut en bas :] Jean Marie Côté. 7 arp de front — Pierre Cantin – 2 d° — Antoine Hallé 3 – d° — Vv. Fr. Cantin : Marg. Carrier. 1 ½ d° — Pierre Cantin. [au crayon :] 3 d° — [Sous la ligne D-C :] Partie du Premier rang. — [Le long du cours d'eau, entre B et C, avec des flèches de courant :] Rivière Bruyante — Description. A.B.C.D.A. Représente une Certaine Etendue de Terre située — Paroisse St. Jean Chrysostôme, ci devant Appartenante à Sieur — Louis Gaspard Dussault pour l'avoir eu en contre échange de Sir John Caldwell – St. J. Chrysostôme, 5 février 1844 – P. Lambert, A.P.",
+      "personnes": [
+        {
+          "role": "proprietaire",
+          "nom": "Jean Marie Côté",
+          "ref_personne": null,
+          "note": "Première bande, contre la ligne A-B : « 7 arp de front ». Non rattaché."
+        },
+        {
+          "role": "proprietaire",
+          "nom": "Pierre Cantin",
+          "ref_personne": null,
+          "note": "Nommé deux fois : la deuxième bande (« 2 d° ») et la cinquième, contre la ligne D-C, dont le « 3 d° » est ajouté au crayon. Rien ne dit s'il s'agit d'un seul homme ou de deux. Un Pierre Cantin, cultivateur de 64 ans dit « de St Jean Chrysostome », est recensé en 1871 dans la division 2 (1871-D2-P002-L18) : il aurait eu 37 ans en 1844. Simple piste — le nom est commun dans la paroisse : non rattaché."
+        },
+        {
+          "role": "proprietaire",
+          "nom": "Antoine Hallé",
+          "ref_personne": null,
+          "note": "Troisième bande : « 3 – d° ». Un Antoine Hallé concède des emplacements à rente foncière à Saint-Romuald en 1863 et meurt avant le 1er mai 1874 (minutes Tremblay, ventes Guillot à Brunet et Bilodeau à Lefebvre) ; rien n'établit que ce soit le même. Non retrouvé aux recensements : non rattaché."
+        },
+        {
+          "role": "proprietaire",
+          "nom": "Vv. Fr. Cantin : Marg. Carrier",
+          "ref_personne": null,
+          "note": "Quatrième bande : « 1 ½ d° ». À lire sans doute « veuve François Cantin, Marguerite Carrier » ; les deux prénoms sont abrégés sur le plan, leur développement est une lecture. Non rattachée."
+        },
+        {
+          "role": "auteur",
+          "nom": "Louis Gaspard Dussault",
+          "ref_personne": null,
+          "note": "« Sieur » ; l'étendue A-B-C-D lui appartenait « ci devant », pour l'avoir eue en contre-échange de Sir John Caldwell. Le plan ne donne ni la date ni le notaire de cet échange. Non rattaché."
+        },
+        {
+          "role": "seigneur",
+          "nom": "Sir John Caldwell",
+          "ref_personne": null,
+          "note": "A cédé l'étendue à Dussault en contre-échange. Le seigneur de Lauzon des actes du greffe Tremblay (« l'Honorable John Caldwell »)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Lambert",
+          "ref_personne": null,
+          "note": "Son nom est écrit le long de la ligne A-D, du côté extérieur du périmètre : c'est la place d'un voisin, non celle d'une signature. Non rattaché."
+        },
+        {
+          "role": "arpenteur",
+          "nom": "P. Lambert, A.P.",
+          "ref_personne": null,
+          "note": "Signe la description. Sans doute Pierre Lambert, arpenteur, auteur des plans de 1835 (propriété Hamilton, à Etchemin) et de 1853 (moulin de la rivière à la Scie) cités par Julie Doyon, Mission New Liverpool, p. 35 et 43 ; le plan n'écrit que l'initiale. Appui : dix ans plus tard, un « Pierre Lambert, Arpenteur Provincial, résidant paroisse St Romuald d'Etchemin » signe « Pierre Lambert, A.P. » le plan spécial du terrain et de la grève du Gouvernement à l'embouchure de la « Rivière Bruyante ou Chaudière », dressé le 28 octobre 1854 et jours suivants (transcription fournie par Patrick Blanchet le 16 novembre 2026, non relue ici sur l'image)."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Le 5 février 1844, l'étendue A-B-C-D, comprise entre la ligne de la concession ou rang Hétrière, la terre de Joseph Lambert, le Premier rang et la rivière Bruyante — la Chaudière d'aujourd'hui —, dans la paroisse de Saint-Jean-Chrysostome, est partagée entre Jean Marie Côté (7 arpents de front), Pierre Cantin (2), Antoine Hallé (3), la veuve Fr. Cantin, Marg. Carrier (1 ½), et Pierre Cantin de nouveau (3, chiffre au crayon) — 16 arpents et demi de front en tout."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Cette étendue appartenait auparavant au sieur Louis Gaspard Dussault, qui l'avait eue en contre-échange de Sir John Caldwell."
+        },
+        {
+          "type": "nom_de_naissance",
+          "certitude": "probable",
+          "personnes": [],
+          "enonce": "La veuve de « Fr. » Cantin, occupante d'un arpent et demi de front en 1844, est « Marg. » Carrier — sans doute Marguerite Carrier, veuve de François Cantin ; les prénoms sont abrégés sur le plan."
+        }
+      ],
+      "note": "Lecture faite sur l'image, mot à mot. Deux points s'écartent de la description qui accompagnait l'image : l'arpenteur signe « P. Lambert, A.P. », et Joseph Lambert, dont le nom longe la ligne A-D hors du périmètre, est le voisin, non l'auteur du plan. La mention « 3 d° » de la dernière bande est au crayon, d'une encre différente du reste : ajout possible, à ne pas tenir pour de la main de l'arpenteur. Les hachures dessinées dans la rivière à la hauteur du point B ne sont pas légendées. Lieu : la « rivière Bruyante » est la rivière Chaudière d'aujourd'hui (indication de Patrick Blanchet, 16 novembre 2026), ce qu'écrit en toutes lettres le plan de Pierre Lambert de 1854, « Rivière Bruyante ou Chaudière » (voir la note sur l'arpenteur) ; les actes du greffe Tremblay nomment la même rivière à Saint-Étienne (vente Gagnon à Duperron, 9 février 1874). Le terrain est donc sur la rive est de la Chaudière. La flèche « Vrai Nord » est en biais sur la feuille ; lue pointe au nord, elle fait venir la rivière du sud et la fait repartir au nord-nord-ouest, comme la Chaudière, et fait courir la ligne du rang nord-est – sud-ouest, comme le fleuve : c'est la lecture retenue. Les hachures du point B sont probablement les chutes de la Chaudière, et les flèches dessinées dans la rivière donnent le sens de l'eau, vers le fleuve (indications de Patrick Blanchet, 16 novembre 2026) ; le plan lui-même ne les légende pas. Sur cette lecture, le plan est posé sur la carte du site à titre provisoire, visible dans l'atelier seulement (voir docs/PLANS-ANCIENS.md) ; aucun point n'a été relevé sur le terrain. Il manque le dépôt d'archives et la cote : sans eux, personne ne pourra retrouver l'original. Piste : en 1871, un Philippe de Néri Hallé, forgeron, vit à Saint-Romuald dans le ménage d'Ursule Dussault (1871-D1-P010-L19, maison 26) — un Hallé et une Dussault sous le même toit, comme sur ce plan un Hallé sur l'ancienne terre d'un Dussault ; aucun lien n'est démontré.",
+      "ajoute_le": "2026-11-16"
+    },
+    {
+      "id": "plan-1842-02-24-embouchure-chaudiere-lambert",
+      "type": "autre",
+      "titre": "Plan et procès-verbal de bornage du terrain et de la grève du Gouvernement à l'embouchure de la Chaudière — Pierre Lambert, arpenteur provincial, 28 octobre 1841 et 24 février 1842",
+      "date": "1842-02-24",
+      "source": "Image fournie par Patrick Blanchet le 16 novembre 2026 sous le nom de fichier « 03Q_CN301S323D04140R » — sans doute une cote de BAnQ Québec (Archives nationales à Québec), à confirmer.",
+      "cote": "",
+      "fichier": "assets/plans/embouchure-chaudiere-1842-lambert-page.jpg",
+      "nature": "Une double page : à gauche, le plan aquarellé à l'échelle (barre graphique de 900 pieds français, flèche « Nord Astronomique »), son cartouche, et le début du procès-verbal ; à droite, la suite du procès-verbal. La page qui suit — la pose des bornes, les superficies, la clôture et les signatures — n'est pas dans l'image fournie. Le procès-verbal donne des directions et des distances mesurées : c'est la pièce la plus exacte du dossier pour situer le terrain.",
+      "transcription": "[Sur le plan :] Partie du Fleuve Saint Laurent. — Quai — Grève — Grève — Traverse — N° 1 — N° 2 — T. Hickey — I. Roberge — J. Thomson — Pierre Pichet — Bassin de la Rivière Chaudière — Nord Astronomique — Échelle de 900 pieds Français. — [bornes et repères :] A à Q. — [Cartouche :] Plan du Terrein et Grève appartenant au Gouvernement, situés à l'embouchure de la Rivière Bruyante ou Chaudière, Seigneurie Lauzon, paroisse Saint Romuald d'Etchemin, Comté de Lévi, dressé par Pierre Lambert arpenteur, le 24 Février 1842. — [Procès-verbal :] Le vingt huitième Jour d'Octobre, 1841. Je Pierre Lambert, Arpenteur Provincial résidant paroisse St. Romuald d'Etchemin, [en marge : à la réquisition] de A. Russell, Ecuïer, Assistant Secrétaire des Terres de la Couronne, je me suis transporté sur la propriété foncière appartenant au Gouvernement, située au côté Nord-Est de l'embouchure et Bassin de la Rivière Chaudière, consistant en deux Lots contigus, N° 1 et N° 2, bornés comme suit, savoir : Le N° 1, commençant au côté Sud-Est du Chemin public, à l'Angle Nord du Terrein de Thomas Hickey, étant le point limitrophe entre le Gouvernement et Thomas Hickey et John Thomson, marqué A. Et du quel point, par la ligne courbe au côté Sud-Est du dit Chemin, jusqu'à la distance de 300 pieds, marqué B, à l'extrémité Sud-Ouest du Terrein du dit Thomas Hickey. Et de ce point, par la même ligne courbe Sud-Est du dit Chemin, jusqu'à la distance de 62 pieds, marqué C. Et du quel point par une ligne courant sur le vrai Rhumb de vent Sud 32° Est jusqu'au pied de la Côte ou Cap, marqué D, distance de 121 pieds, où se termine la profondeur de l'Emplacement d'Ignace Roberge (y compris dans icelui, environ 14 perches en superficie, que le dit Ignace Roberge prétend lui appartenir par prescription) ; et du quel point D, allant le long du dit Cap Nord 70° Est, 62 pieds, au point marqué E, et de ce point, Sud 45° Est, jusqu'à la Cîme du dit Cap ou Côte marqué F, et de suite, par les sinuosités de la Cîme du dit Cap et les sinuosités de la Rivière Chaudière et du Fleuve Saint Laurent, par les lettres G.H.I.K.L.M.N.O.P.Q.A. Et étant sur les lieux les Jour et an sus-cités, où toutes les parties intéressées en ayant été prévenues et requises de s'y trouver, le Sieur Pierre Pichet étant absent ainsi que le Sieur John Thomson, ce dernier m'en ayant prévenu par sa lettre du 5 du dit mois, m'autorisant de procéder au bornage entre lui et le Gouvernement et le dit Thomas Hickey. Les dits Thomas Hickey et Ignace Roberge étant présents, ainsi que Félix Fortier, Ecuïer, Agent de la Seigneurie Lauzon, et les Sieurs Isaac Fontaine fils, marchand, et Félix Lambert, journalier au dit lieu, chaîneurs jurés pour cette opération et témoins. J'ai procédé à constater toutes les lignes et limites de divisions agréables à leurs titres et appropriations ; et de suite, j'ai posé des bornes [la suite est sur la page suivante, non fournie].",
+      "personnes": [
+        {
+          "role": "arpenteur",
+          "nom": "Pierre Lambert",
+          "ref_personne": null,
+          "note": "Arpenteur provincial résidant à Saint-Romuald d'Etchemin ; dresse le procès-verbal (28 octobre 1841) et le plan (24 février 1842). Le même dresse le plan de l'Hétrière de 1844 (« P. Lambert, A.P. ») et le plan spécial de l'embouchure de 1854."
+        },
+        {
+          "role": "requerant",
+          "nom": "A. Russell",
+          "ref_personne": null,
+          "note": "« Ecuïer, Assistant Secrétaire des Terres de la Couronne » ; l'arpenteur agit à sa réquisition."
+        },
+        {
+          "role": "voisin",
+          "nom": "Thomas Hickey",
+          "ref_personne": null,
+          "note": "Son terrain borne le lot n° 1 au nord-est, au côté sud-est du chemin public : la borne A est à son angle nord, la borne B à son extrémité sud-ouest. Présent. Encore voisin en 1866 (« Thos Hickey » sur le plan d'Alfred Hamel). Aucun Hickey dans les recensements de Saint-Romuald de 1871 à 1891."
+        },
+        {
+          "role": "voisin",
+          "nom": "John Thomson",
+          "ref_personne": null,
+          "note": "Voisin à la borne A ; absent, il autorise le bornage par lettre du 5 octobre 1841. Encore voisin en 1866 (« John Thomson », qui signe le procès-verbal d'Alfred Hamel). Un John Thompson enfant est recensé en 1871 (1871-D1-P043-L19) : sans rapport démontré, non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Ignace Roberge",
+          "ref_personne": null,
+          "note": "Son emplacement s'arrête au pied du cap, à la borne D ; il prétend posséder par prescription environ 14 perches du terrain du Gouvernement. Présent. Encore voisin en 1866 (« Ignace Roberge »). Des Ignace Roberge sont recensés en 1871 (1871-D2-P003-L10, cultivateur), 1881 et 1891 : il faudrait un acte pour choisir, non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Pierre Pichet",
+          "ref_personne": null,
+          "note": "Absent. Son nom longe la grande ligne qui descend du chemin vers le Bassin, à l'est du lot n° 2. En 1866, la même ligne porte « Pierre Pichette », qui signe le procès-verbal d'Alfred Hamel. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Félix Fortier",
+          "ref_personne": null,
+          "note": "« Ecuïer, Agent de la Seigneurie Lauzon » ; présent."
+        },
+        {
+          "role": "temoin",
+          "nom": "Isaac Fontaine fils",
+          "ref_personne": null,
+          "note": "« Marchand » ; chaîneur juré et témoin. Lecture du nom faite sur l'image : « Isaac Fontaine fils »."
+        },
+        {
+          "role": "temoin",
+          "nom": "Félix Lambert",
+          "ref_personne": null,
+          "note": "« Journalier au dit lieu » ; chaîneur juré et témoin."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "En octobre 1841, le Gouvernement possède au côté nord-est de l'embouchure et du Bassin de la Chaudière deux lots contigus, n° 1 et n° 2 : le n° 1 comprend le quai, les grèves, le chemin public et le cap jusqu'à sa cime ; il est borné au nord-est par Thomas Hickey et John Thomson, et touche l'emplacement d'Ignace Roberge, qui en revendique environ 14 perches par prescription."
+        },
+        {
+          "type": "lecture",
+          "certitude": "etabli",
+          "personnes": [],
+          "enonce": "Le cartouche écrit « Rivière Bruyante ou Chaudière » : la plus ancienne des pièces versées qui dise que la rivière Bruyante est la Chaudière."
+        },
+        {
+          "type": "residence",
+          "certitude": "hypothese",
+          "personnes": [],
+          "enonce": "Reportées sur la carte d'aujourd'hui par le plan de 1866, posé comme Patrick Blanchet l'a décidé — son quai sur la pointe du Pont-Garneau, son chemin public sur le chemin du Fleuve, son escarpement sur la rive du Bassin, au prix d'un plan étiré (voir docs/PLANS-ANCIENS.md) —, les bornes tombent ainsi : A, angle nord du terrain de Hickey, au bord du chemin du Fleuve, au nord-est du bas de la côte Garneau (46.74385 N, 71.27411 O) ; B et C près du chemin du Fleuve, vers le bas de la côte Garneau (46.74345 N, 71.27542 O ; 46.74331 N, 71.27563 O) ; D, pied du cap, sur le versant de la côte Garneau (46.74301 N, 71.27542 O). Le quai de 1841 est la pointe du Pont-Garneau ; le lot n° 2 est la bande de falaise qui longe le Bassin, au sud de la rue du Curé-Dupont, jusqu'à la borne de chez Boucher (46.74034 N, 71.27199 O). Ces positions dépendent de la pose retenue : d'une pose à l'autre, les bornes A à D ont bougé de 20 à 60 m."
+        }
+      ],
+      "note": "Transcription faite sur l'image, page de droite et bas de la page de gauche. La suite (pose des bornes, superficies, clôture, signatures) manque à l'image : la synthèse remise avec l'image en donne des chiffres — lot n° 1 de 4 arpents 78 perches, lot n° 2 de 4 arpents 24 perches, 9 arpents 33 perches en tout, lot n° 2 achevé au printemps 1842 —, non vérifiés ici. Deux lectures de cette synthèse sont corrigées sur l'image : « 14 perches » (et non 15) ; « Isaac Fontaine fils, marchand » (et non Isaac Montminy ni Isaac Fortier). Date du plan : le second chiffre de « 24 » a la forme du 4 de « 1841 ». Ce plan, celui de 1854 (même arpenteur, même terrain) et celui d'Alfred Hamel de 1866 se recoupent : mêmes bornes A à D, même ligne Pichet/Pichette (448 et 449 m), mêmes voisins. Les deux plans de 1842 et de 1866 sont posés sur la carte du site, dans l'atelier (voir docs/PLANS-ANCIENS.md). La « Traverse » du plan, au pied du chemin public, est là où le pont Garneau sera bâti plus tard (la pointe porte aujourd'hui le nom de pointe du Pont-Garneau) — rapprochement de lieu, non démontré par une source.",
+      "ajoute_le": "2026-11-16"
+    },
+    {
+      "id": "notarie-1904-11-15-testament-louis-demers",
+      "type": "notarie",
+      "titre": "Testament de Louis Demers, boucher, en faveur de Léocadie Beaudoin, son épouse, Saint-Romuald d'Etchemin, 1904",
+      "date": "1904-11-15",
+      "source": "Pièce de famille : première copie authentique délivrée par le notaire Jean-Théophile Lemieux, de Saint-Romuald d'Etchemin ; photographiée par Patrick (2026-11-18). La minute originale est au greffe du notaire Lemieux.",
+      "cote": "Minute n° 2337 du notaire Jean-Théophile Lemieux ; copie enregistrée le 26 novembre 1912 (timbre d'enregistrement de 30 cents)",
+      "nature": "Testament authentique sur formulaire imprimé, rempli à la main, en trois feuillets pliés. Endos : « N° 2337 / St Romuald, 15 nov. 1904 / Testament de Mr Louis Demers / 1re copie / J. Lemieux N.P. ». Sur l'endos, au crayon, « J. T. Lemieux N.P. », « (30) », « $2.30 » et le cachet ovale « Division d'enregistrement — NOV 26 1912 — comté de Lévis » (lu sur le même cachet, plus net, de la déclaration de transmission du 22 novembre 1912) ; sur l'acte, le timbre « Enregistrement Québec 30 cents » sous un cachet violet en partie illisible. Le bas du premier feuillet et le haut du second sont barrés de traits ondulés, pour qu'on n'y ajoute rien.",
+      "transcription": "[Partie imprimée en romain ; ce que le notaire a écrit à la main est rendu tel quel.] « L'an mil neuf cent quatre, le quinzième jour du mois de novembre ; Devant Jean Théophile Lemieux, notaire public, pour la province de Québec, résidant et pratiquant en la paroisse de St-Romuald d'Etchemin, soussigné, et en présence de Messieurs Honoré McReady, marchand, et Paul Girard, inspecteur de bois, tous deux de la paroisse de St-Romuald d'Etchemin, témoins exprès demandés au présent testament. A comparu : Sieur Louis Demers de la paroisse de St-Romuald d'Etchemin, boucher, étant en santé de corps, sain d'esprit, mémoire, jugement et entendement ainsi qu'il a paru aux dits notaire et témoins ci-dessus nommés : Lequel a dans la vue de la mort fait et dicté son présent testament au dit notaire en la présence actuelle et constante des dits témoins ainsi qu'il suit, savoir : 1o Je recommande mon âme à Dieu et le prie de lui faire miséricorde. 2o Je veux qu'avant tout mes dettes soient payées et mes torts, s'il y a, scrupuleusement réparés par mon exécutrice testamentaire ci-après nommé à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes et prières, voulant néanmoins qu'un service soit chanté sur mon corps le jour de mes funérailles et un autre [rayé : semblable] service dans l'an de mon décès aussi que vingt-cinq messes basses [rayé : de requiem] soient dites le plus tôt possible après mon décès pour le repos de mon âme. 3o Je donne et lègue à Dame Léocadie Beaudoin mon épouse actuelle tous mes biens meubles et immeubles que je délaisserai au jour de mon décès de quelque nature et valeur qu'ils soient et en quelque lieu qu'ils soient dûs et situés, l'instituant ma légataire universelle et mon exécutrice testamentaire. 4o Je révoque tous autres testaments et codicilles que je pourrais avoir faits avant celui-ci. Ce fut ainsi fait et dicté par le dit testateur au dit notaire soussigné en la présence actuelle et constante des dits témoins, et son présent testament lui ayant été lu et expliqué par nous notaire en présence des dits témoins il nous a dit et déclaré devant eux l'avoir bien entendu et compris et y a persisté comme renfermant ses dernières volontés. Dont acte, fait et passé en la paroisse de St-Romuald d'Etchemin, au domicile du dit testateur, les jours, mois et an susdit sous le numéro deux mille trois cent trente-sept des minutes du [rayé : originaux] notaire soussigné. Et après lecture faite comme dit ci-dessus du présent testament le testateur, les témoins et nous notaire l'avons tous signé au même instant et en la présence les uns des autres [rayé : et en la présence d… dit testat… qui nous a déclaré en présence des dits témoins ne savoir écrire ni signer de ce requis]. (Signé) “Louis Demers”, “Honoré McReady”, “Paul Girard”, “J. Théo. Lemieux N.P.” Vraie copie de la minute de record en mon étude. Vingt-huit mots rayés sont nuls. J. Théo. Lemieux N.P. »",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Louis Demers",
+          "ref_personne": "1891-D1-P123-L05",
+          "note": "Boucher, de Saint-Romuald d'Etchemin, « en santé » ; l'acte est passé à son domicile. Il signe : il sait écrire, comme le disent les recensements de 1871 et de 1891. Boucher déjà en 1891 (maison 543). Né le 27 février 1844, mort le 30 octobre 1912 (fiche « myheritage-louis-demers-vital »)."
+        },
+        {
+          "role": "legataire",
+          "nom": "Léocadie Beaudoin",
+          "ref_personne": "1891-D1-P123-L06",
+          "note": "« Mon épouse actuelle » ; légataire universelle et exécutrice testamentaire. Recensée « Léocadie Demers » en 1871, 1881 et 1891. Morte le 5 mai 1931 (fiche « filae-leocadie-beaudoin »)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Honoré McReady",
+          "note": "Marchand, de Saint-Romuald d'Etchemin ; signe. Aucun Honoré dans les familles McReady / McCready recensées de 1871 à 1891 : non rattaché. Peut-être un fils né après 1891, ou un prénom d'usage différent de celui du recensement."
+        },
+        {
+          "role": "temoin",
+          "nom": "Paul Girard",
+          "note": "Inspecteur de bois, de Saint-Romuald d'Etchemin ; signe. Un Paul Girard a 14 ans en 1871 (1871-D2-P046-L14) et 23 ans en 1881 (1881-D1-P088-L03) ; il aurait 46 ou 47 ans en 1904. Rien d'autre ne le relie : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Jean-Théophile Lemieux",
+          "note": "Notaire public, résidant et pratiquant à Saint-Romuald d'Etchemin ; signe « J. Théo. Lemieux N.P. ». Non rattaché : le F. Théophile Lemieux de 1891 (1891-D1-P066-L09) est cultivateur."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1904-11-15",
+          "personnes": [
+            "1891-D1-P123-L05"
+          ],
+          "enonce": "Louis Demers est boucher à Saint-Romuald d'Etchemin en 1904, comme en 1891."
+        },
+        {
+          "type": "nom_de_naissance",
+          "certitude": "etabli",
+          "date": "1904-11-15",
+          "personnes": [
+            "1891-D1-P123-L05",
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "L'épouse de Louis Demers, recensée « Léocadie Demers », se nomme Léocadie Beaudoin ; elle est vivante le 15 novembre 1904."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1904-11-15",
+          "personnes": [
+            "1891-D1-P123-L05",
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "Louis Demers lègue à sa femme, Léocadie Beaudoin, tous ses biens meubles et immeubles et la nomme sa légataire universelle et son exécutrice testamentaire ; aucun de ses enfants n'est nommé."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1912-11-26",
+          "personnes": [
+            "1891-D1-P123-L05"
+          ],
+          "enonce": "Louis Demers meurt le 30 octobre 1912 sans avoir changé ce testament ; la copie est enregistrée au bureau de Lévis le 26 novembre 1912, le même jour que la déclaration de transmission de sa veuve.",
+          "note": "Date de décès établie par la déclaration de transmission du 22 novembre 1912 (fiche « notarie-1912-11-22-transmission-demers »), qui confirme celle de l'arbre MyHeritage."
+        }
+      ],
+      "note": "Pièce de famille, la première venue d'ailleurs que des registres en ligne pour le couple Louis Demers et Léocadie Beaudoin (1871-D2-P031, 1881-D2-P025, 1891-D1-P123), déjà suivi par les mariages de leurs fils Charles (1896), Alfred (1898), Joseph (1900) et Alphonse (1908). Le testament est un formulaire imprimé, signé par le testateur : la clause « ne savoir écrire ni signer » est rayée. La signature recoupe le recensement, qui le dit sachant lire et écrire. Le timbre et le cachet d'enregistrement sont en partie illisibles sur la photo ; le bureau est celui de Lévis, comme le montre le cachet du même jour sur la déclaration de transmission (fiche « notarie-1912-11-22-transmission-demers »).",
+      "images": [
+        {
+          "local": "documents/scans/testament-louis-demers-1904-1-endos.jpg",
+          "legende": "Endos, n° 2337"
+        },
+        {
+          "local": "documents/scans/testament-louis-demers-1904-2-acte.jpg",
+          "legende": "Feuillet 1"
+        },
+        {
+          "local": "documents/scans/testament-louis-demers-1904-3-signatures.jpg",
+          "legende": "Feuillet 2, signatures"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "notarie-1886-11-23-vente-brown-ahern",
+      "type": "notarie",
+      "titre": "Vente d'un emplacement au bord du fleuve (cadastre n° 529) par John Brown et son épouse à Robert Ahern, Saint-Romuald, 1886",
+      "date": "1886-11-23",
+      "source": "Pièce de famille, gardée dans les papiers de Louis Demers et de Léocadie Beaudoin : première copie délivrée par le notaire M. U. Damien [Séguré ?], de Saint-Romuald ; photographiée par Patrick (2026-11-18). La minute originale est au greffe de ce notaire.",
+      "cote": "Minute n° 2115 du notaire M. U. Damien [Séguré ?] ; enregistrée par transcription au bureau de la division d'enregistrement du comté de Lévis, registre B, volume 33, page 582, n° 28451, le 10 décembre 1886 à trois heures de l'après-midi",
+      "nature": "Copie manuscrite sur papier réglé, plusieurs feuillets pliés. Endos : « N° 2115 / 23 Novembre 1886 / Vente / Sr John Brown et Uxor à Sr Robert Ahern / 1re Copie / M. U. Damien [Séguré ?] N.P. », la mention « Payé […] $1.80 », une signature au crayon (« Robert Ahern » ?) et le cachet circulaire « Division d'enregistrement — 10 DEC 1886 ». Au revers, le certificat d'enregistrement imprimé, rempli et signé « O. Carrier, Dép. Régistrateur ». Le premier feuillet de l'acte (comparution des parties et début de la description du terrain) n'est pas sur les photos : le texte transcrit commence au milieu des tenants et aboutissants.",
+      "transcription": "[Le début de l'acte manque sur les photos.] « […] au nord à la grève du fleuve St Laurent, d'un côté au nord-est à Veuve Charles Ward et d'autre côté au sud-ouest à John Cullen, avec maison dessus construite, circonstances et dépendances. Le dit emplacement porte le numéro cinq cent vingt-neuf (529) des plan et livre de renvois officiels du cadastre dans et pour la paroisse de St Romuald, comté de Lévis. Tel et ainsi que le tout se poursuit, comporte de fond en comble et s'étend de toutes parts, et dont le dit acquéreur se déclare content et satisfait pour le tout bien connaître et l'avoir vu et visité. Appartenant à la dite Dame John Brown pour l'avoir eu par testament de feu Sieur Arthur Brown, reçu en présence du notaire soussigné et témoins le quatrième jour de septembre mil huit cent quatre-vingt-six. Pour par le dit acquéreur, ses dits hoirs et ayants cause, à l'avenir jouir, faire et disposer des dites prémisses en pleine et entière propriété, à commencer la jouissance immédiatement. A l'effet de quoi les dits vendeurs [se désistent ?] et transportent au dit acquéreur tous droits de propriété qu'ils ont ou peuvent avoir sur les dites prémisses, s'en dessaisissant à son profit, voulant et consentant qu'il en soit saisi et mis en possession, tel que de droit. Cette vente est faite pour et moyennant le prix et somme de cinq cent piastres courant, payable comme suit, savoir : la somme de cent piastres courant dès l'exécution des présentes, dont quittance d'autant ; quant à la balance, il la paiera comme suit : cent piastres le vingt-deuxième jour de novembre mil huit cent quatre-vingt-sept et ensuite cent piastres par année à pareille date jusqu'au parfait paiement, le tout sans intérêt ; si les paiements ne se faisaient pas régulièrement, l'intérêt serait de six par cent par année. Cette vente est faite à la charge par le dit acquéreur, ses dits hoirs et ayants cause, de payer annuellement au premier octobre de chaque année à Sieur Théophile Hallé, ses héritiers et ayants cause, une rente foncière et constituée de huit piastres courant par année. A la charge en outre de se conformer strictement à toutes les charges, clauses et conditions et réserves mentionnées et énumérées en le contrat de concession du vingt et un de novembre mil huit cent soixante, en présence de Étienne Simard et son confrère, notaires. Et pour sûreté de la dite somme de cinq cent piastres courant et des intérêts [qui en pourraient courir ?] comme dit est, le dit acquéreur a spécialement hypothéqué le dit immeuble ci-dessus désigné et vendu, sur lequel les dits vendeurs se réservent expressément tous droits et privilèges de bailleurs de fonds. Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables en leurs demeures actuelles et respectives, auxquels lieux, &c. Car ainsi. Dont acte. Fait et passé à St Romuald, en l'étude de Me M. U. Damien [Séguré ?], notaire, l'an mil huit cent quatre-vingt-six, le vingt-troisième jour du mois de novembre, après-midi, sous le numéro deux mille cent quinze des minutes du notaire soussigné. Et les parties ont signé avec le notaire soussigné, de ce requis, lecture faite. (Signé) “Matilda [Moffet ?] Brown”, “John Brown”, “Robert Ahern”, “M. U. Damien [Séguré ?] N.P.” Vraie copie de la minute demeurée en mon étude. M. U. Damien [Séguré ?] N.P. » — Au revers de l'endos, imprimé et rempli à la main : « No. 28451. Cet acte de Vente a été enregistré par transcription, au Bureau de la Division d'Enregistrement du Comté de Lévis, dans le Registre B, Volume 33, Page 582, sous le Numéro vingt-huit mille quatre cent cinquante et un, à trois heures de l'après-midi le dix de Décembre mil huit cent quatre-vingt-six. O. Carrier, Dép. Régistrateur. »",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "John Brown",
+          "ref_personne": "1881-D1-P005-L07",
+          "note": "Signe. Rattaché par recoupement : fils d'Arthur Brown, boucher (14 ans en 1871, maison 63), boucher lui-même et marié à une Mathilda en 1881 (24 ans, division 1, maison 15). L'acte nomme sa femme « Dame John Brown » et dit qu'elle tient le terrain du testament d'Arthur Brown. Absent du recensement de 1891."
+        },
+        {
+          "role": "venderesse",
+          "nom": "Matilda [Moffet ?] Brown",
+          "ref_personne": "1881-D1-P005-L08",
+          "note": "« Dame John Brown », propriétaire du terrain par le testament d'Arthur Brown ; signe « Matilda [Moffet ?] Brown » — le nom de naissance est d'une lecture incertaine. Mathilda Brown, 26 ans, épouse de John en 1881."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Robert Ahern",
+          "ref_personne": "1891-D1-P110-L04",
+          "note": "Signe. Suivi par le calcul : Robert Hearn, 20 ans en 1871 (fils de William, division 2, maison 102), Robert Ahearn, 28 ans en 1881 (maison 124), Robert Ahern, 38 ans, arrimeur, célibataire, chez son beau-frère Célestin Carrier en 1891 (maison 486)."
+        },
+        {
+          "role": "testateur",
+          "nom": "Arthur Brown",
+          "ref_personne": "1881-D2-P020-L25",
+          "note": "« Feu Sieur Arthur Brown » : son testament est reçu le 4 septembre 1886 par le même notaire, et il est mort le 23 novembre 1886. Boucher, 60 ans en 1871 (division 2, maison 63, entre John Cullen et Charles Ward, les voisins que nomme l'acte), 70 ans en 1881 (maison 83). Absent du recensement de 1891."
+        },
+        {
+          "role": "voisin",
+          "nom": "Veuve Charles Ward",
+          "ref_personne": "1881-D2-P021-L08",
+          "note": "Au nord-est. Bridget Ward, épouse de Charles Ward en 1871 (maison 64, voisine d'Arthur Brown) et en 1881 (maison 85). L'acte la dit veuve en 1886. Rattachement probable."
+        },
+        {
+          "role": "voisin",
+          "nom": "John Cullen",
+          "note": "Au sud-ouest. En 1871, John Cullen, meunier, 62 ans, et son fils John, 24 ans, habitent la maison 62, voisine d'Arthur Brown. On ne sait lequel des deux est le voisin de 1886 : non rattaché."
+        },
+        {
+          "role": "crediteur",
+          "nom": "Théophile Hallé",
+          "note": "Reçoit la rente foncière de huit piastres par an, chaque 1er octobre — sans doute l'héritier du concédant de 1860. Le patronyme, difficile à lire ici, est confirmé par la donation de 1928, où la même rente foncière est due à Jules Hallé (fiche « notarie-1928-08-11-donation-demers »). Un Théophile Hallé, forgeron, a 40 ans en 1891 (1891-D1-P065-L12) : non rattaché, faute d'autre indice."
+        },
+        {
+          "role": "notaire",
+          "nom": "Étienne Simard",
+          "note": "Notaire du contrat de concession du 21 novembre 1860, avec un confrère."
+        },
+        {
+          "role": "notaire",
+          "nom": "M. U. Damien [Séguré ?]",
+          "note": "Notaire à Saint-Romuald ; signe la minute et la copie. La lecture du patronyme est incertaine sur la signature."
+        },
+        {
+          "role": "registrateur",
+          "nom": "O. Carrier",
+          "note": "Député-régistrateur du comté de Lévis ; signe le certificat d'enregistrement."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1886-11-23",
+          "personnes": [
+            "1881-D1-P005-L07",
+            "1881-D1-P005-L08",
+            "1891-D1-P110-L04"
+          ],
+          "enonce": "John Brown et sa femme vendent à Robert Ahern, pour 500 piastres, l'emplacement n° 529 du cadastre de Saint-Romuald, au bord du fleuve, avec sa maison, entre la veuve Charles Ward et John Cullen.",
+          "consequence": "Robert Ahern paie 100 piastres comptant, puis 100 piastres chaque 22 novembre à compter de 1887, sans intérêt. Il doit aussi une rente foncière de 8 piastres par an à Théophile Hallé, héritée du contrat de concession de 1860."
+        },
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1886-11-23",
+          "personnes": [
+            "1881-D2-P020-L25"
+          ],
+          "enonce": "Arthur Brown, boucher, meurt entre le 4 septembre 1886, date de son testament, et le 23 novembre 1886, où l'acte le dit « feu ».",
+          "note": "Explique son absence du recensement de 1891. Le rattachement de l'Arthur Brown de l'acte à la ligne de 1881 est fondé sur le voisinage (Ward, Cullen) et sur le fils John."
+        },
+        {
+          "type": "deces",
+          "certitude": "probable",
+          "date": "1886-11-23",
+          "personnes": [
+            "1881-D2-P021-L07"
+          ],
+          "enonce": "Charles Ward est mort avant le 23 novembre 1886 : l'acte nomme sa veuve comme voisine du terrain."
+        },
+        {
+          "type": "filiation",
+          "certitude": "probable",
+          "personnes": [
+            "1881-D2-P020-L25",
+            "1881-D1-P005-L07"
+          ],
+          "enonce": "John Brown est le fils d'Arthur Brown : il est dans son ménage en 1871, et sa femme hérite d'Arthur le terrain voisin de l'ancienne maison familiale.",
+          "note": "L'acte ne dit pas « fils » ; le lien vient du recensement de 1871 et confirme le rapprochement calculé John Brown 1871 → 1881."
+        },
+        {
+          "type": "residence",
+          "certitude": "probable",
+          "personnes": [
+            "1871-D2-P025-L12"
+          ],
+          "enonce": "L'emplacement n° 529, au bord du fleuve, entre Ward et Cullen, est vraisemblablement celui de la maison d'Arthur Brown en 1871 (division 2, maison 63, entre la maison 62 des Cullen et la maison 64 des Ward)."
+        }
+      ],
+      "note": "Pièce de famille trouvée dans les papiers de Louis Demers et de Léocadie Beaudoin, avec leurs testaments. L'acte ne nomme aucun Demers, mais le même lot 529 appartient à Louis Demers et Léocadie Beaudoin en 1912 (déclaration de transmission, fiche « notarie-1912-11-22-transmission-demers ») : le terrain leur est passé entre 1886 et 1912, et avec lui ses titres antérieurs. L'acte d'acquisition des Demers reste à trouver. Les Brown étaient bouchers, comme Louis Demers à partir des années 1890. Le premier feuillet manque aux photos, avec la comparution des parties : le nom de naissance de Matilda Brown, le métier des parties et la largeur du terrain y sont sans doute. La cinquième photo envoyée, qui reprend de biais les feuillets de la rente et de la clôture, n'est pas reproduite.",
+      "images": [
+        {
+          "local": "documents/scans/vente-brown-ahern-1886-1-endos.jpg",
+          "legende": "Endos et enregistrement"
+        },
+        {
+          "local": "documents/scans/vente-brown-ahern-1886-2-lot.jpg",
+          "legende": "Le lot 529"
+        },
+        {
+          "local": "documents/scans/vente-brown-ahern-1886-3-prix.jpg",
+          "legende": "Le prix"
+        },
+        {
+          "local": "documents/scans/vente-brown-ahern-1886-4-rente.jpg",
+          "legende": "La rente et la clôture"
+        },
+        {
+          "local": "documents/scans/vente-brown-ahern-1886-5-signatures.jpg",
+          "legende": "Date et signatures"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "notarie-1912-11-22-transmission-demers",
+      "type": "notarie",
+      "titre": "Déclaration de transmission par Léocadie Beaudoin, veuve de Louis Demers, du lot n° 529, Saint-Romuald d'Etchemin, 1912",
+      "date": "1912-11-22",
+      "source": "Pièce de famille, gardée dans les papiers de Louis Demers et de Léocadie Beaudoin : première copie délivrée par le notaire Jean-Théophile Lemieux, de Saint-Romuald d'Etchemin ; photographiée par Patrick (2026-11-18). La minute originale est au greffe du notaire Lemieux.",
+      "cote": "Minute n° 3760 du notaire Jean-Théophile Lemieux ; enregistrée par transcription au bureau de la division d'enregistrement du comté de Lévis, registre B, volume 56, page 348, n° 50833, le 26 novembre 1912 à deux heures de l'après-midi",
+      "nature": "Copie dactylographiée, signée à la main par le notaire. Endos : « N° 3760 / St Romuald, 22 nov 1912 / Déclaration de transmission par Dme Léocadie Beaudoin Demers / 1re copie / J. Lemieux N.P. », au crayon « J. T. Lemieux N.P. », « (20) », « $1.90 », et le cachet « Division d'enregistrement — NOV 26 1912 — comté de Lévis ». Au revers, le certificat d'enregistrement, signé « J. A. Carrier, Régistrateur ». Sur l'acte, deux timbres d'enregistrement du Québec, de 5 et de 15 cents. Deux corrections à la plume dans le texte tapé (« légués », « et l'autre moitié »).",
+      "transcription": "« L'an mil neuf cent douze, le vingt deuxième jour du mois de novembre ; Devant Jean Théophile Lemieux, notaire public pour la province de Québec, résidant et pratiquant en la paroisse de St Romuald d'Etchemin, soussigné ; A comparu : Dame Léocadie Beaudoin de la paroisse de St Romuald d'Etchemin, veuve de feu Louis Demers, ce dernier en son vivant du même lieu, boucher et commerçant de bois. Laquelle donne par les présentes avis à Monsieur le Régistrateur du comté de Lévis que son dit époux, feu Louis Demers, est décédé en la dite paroisse de St Romuald d'Etchemin le trentième jour du mois de octobre dernier après avoir fait recevoir son testament authentique par le notaire soussigné, le quinze novembre mil neuf cent quatre, lequel testament n'a pas été révoqué ni changé. Que par son susdit testament le dit Louis Demers a institué la dite comparante sa légataire universelle et son exécutrice testamentaire. Qu'au nombre des biens légués à la dite comparante se trouve la moitié indivise de l'immeuble suivant sur laquelle la dite comparante requiert l'enregistrement de ses droits de propriété, [à la plume : et l'] autre moitié indivise appartenant déjà à la dite comparante comme étant sa part de communauté de biens, savoir : Un emplacement contenant cinquante pieds de front sur environ cent pieds de profondeur, étant le lot numéro cinq cent vingt-neuf (529) du cadastre de la paroisse de St Romuald d'Etchemin, comté de Lévis, avec bâtisses, circonstances et dépendances ; Cette déclaration est ainsi faite en conformité à l'article deux mille quatre-vingt-dix-huit du code civil du Bas Canada et pour valoir ce que de droit. Dont acte, fait et passé en la paroisse de St Romuald d'Etchemin les jour, mois et an susdits, sous le numéro trois mille sept cent soixante des minutes du notaire soussigné. Après lecture faite des présentes à la dite comparante, elle a signé avec nous notaire. (Signé) “Léocadie Beaudoin” “Demers” “J. Théo. Lemieux N.P.” Vraie copie de la minute de record en mon étude. J. Théo. Lemieux N.P. » — Au revers de l'endos : « No 50833. Cet acte de Décl. de transmission a été enregistré par transcription, au Bureau de la Division d'Enregistrement du Comté de Lévis, Registre B, Volume 56, Page 348, sous le Numéro cinquante mille huit cent trente-trois, à deux heures de l'après-midi, le vingt-six novembre mil neuf cent douze. J. A. Carrier, Régistrateur. »",
+      "personnes": [
+        {
+          "role": "declarante",
+          "nom": "Léocadie Beaudoin",
+          "ref_personne": "1891-D1-P123-L06",
+          "note": "Veuve de Louis Demers, légataire universelle et exécutrice de son testament de 1904. Signe « Léocadie Beaudoin Demers ». Déjà propriétaire de la moitié du lot 529 par la communauté de biens du couple."
+        },
+        {
+          "role": "defunt",
+          "nom": "Louis Demers",
+          "ref_personne": "1891-D1-P123-L05",
+          "note": "« En son vivant boucher et commerçant de bois », de Saint-Romuald d'Etchemin ; mort le 30 octobre 1912."
+        },
+        {
+          "role": "notaire",
+          "nom": "Jean-Théophile Lemieux",
+          "note": "Le notaire du testament de 1904, qui en a gardé la minute."
+        },
+        {
+          "role": "registrateur",
+          "nom": "J. A. Carrier",
+          "note": "Régistrateur du comté de Lévis ; signe le certificat d'enregistrement."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1912-10-30",
+          "personnes": [
+            "1891-D1-P123-L05"
+          ],
+          "enonce": "Louis Demers meurt à Saint-Romuald d'Etchemin le 30 octobre 1912, sans avoir changé son testament du 15 novembre 1904.",
+          "consequence": "Confirme par un acte notarié la date que donnait l'arbre MyHeritage (fiche « myheritage-louis-demers-vital »)."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1912-10-30",
+          "personnes": [
+            "1891-D1-P123-L05"
+          ],
+          "enonce": "À sa mort, Louis Demers est boucher et commerçant de bois."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1912-11-22",
+          "personnes": [
+            "1891-D1-P123-L05",
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "Louis Demers et Léocadie Beaudoin possèdent en communauté de biens le lot n° 529 du cadastre de Saint-Romuald, un emplacement de 50 pieds de front sur environ 100 pieds de profondeur, avec bâtisses. À la mort de son mari, Léocadie en a la totalité : sa moitié de communauté et celle qu'il lui lègue.",
+          "consequence": "C'est le terrain vendu en 1886 par John Brown à Robert Ahern (fiche « notarie-1886-11-23-vente-brown-ahern ») : il est passé aux Demers entre 1886 et 1912, ce qui explique que cette vente soit dans leurs papiers."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "personnes": [
+            "1891-D1-P123-L05",
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "Louis Demers et Léocadie Beaudoin étaient mariés sous le régime de la communauté de biens."
+        }
+      ],
+      "note": "La déclaration de transmission informe le bureau d'enregistrement qu'un immeuble a changé de propriétaire par succession. Elle relie les deux autres pièces de famille : le testament de Louis Demers (1904, même notaire, enregistré le même jour, le 26 novembre 1912) et la vente Brown-Ahern de 1886, qui porte sur le même lot 529. Reste à trouver l'acte par lequel les Demers ont acquis ce lot de Robert Ahern ou d'un propriétaire suivant : il serait au bureau d'enregistrement de Lévis, à l'index du lot 529. À éclaircir aussi : selon la fiche de lieu « Maison Demers », la famille habite le 1617, chemin du Fleuve, depuis 1871 ; or le lot 529 était en 1886 la maison des Brown, et les Demers n'y étaient pas en 1871 (maison 81 de la division 2, quand les Brown sont à la maison 63). Ou bien le lot 529 est un autre bien des Demers (une boucherie ?), ou bien le 1617 n'est pas leur maison de 1871.",
+      "images": [
+        {
+          "local": "documents/scans/transmission-demers-1912-1-endos.jpg",
+          "legende": "Endos et enregistrement"
+        },
+        {
+          "local": "documents/scans/transmission-demers-1912-2-acte.jpg",
+          "legende": "L'acte, signatures"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "notarie-1914-07-31-testament-leocadie-beaudoin",
+      "type": "notarie",
+      "titre": "Testament de Léocadie Beaudoin, veuve de Louis Demers, Saint-Romuald, 1914",
+      "date": "1914-07-31",
+      "source": "Pièce de famille, gardée dans les papiers de Louis Demers et de Léocadie Beaudoin : première copie délivrée par le notaire Joseph Boutin Bourassa, de Saint-Romuald ; photographiée par Patrick (2026-11-18). La minute originale est au greffe de ce notaire.",
+      "cote": "Minute n° 6884 du notaire Joseph Boutin Bourassa",
+      "nature": "Copie dactylographiée, complétée à la main (date, noms des témoins, numéro de la minute) et paraphée « J.B.B. » dans les marges, à chaque renvoi. Endos tapé : « No-6884- / St Romuald 31 Juillet 1914 / TESTAMENT / Vve Louis Demers / 1ère Copie », paraphe « J.B.B. ». Le dernier article porte par erreur le numéro « 6o », comme le précédent.",
+      "transcription": "[Tapé à la machine ; ce qui est écrit à la main est signalé.] « L'an mil neuf cent quatorze, le [à la main : trente-unième] jour du mois de [à la main : juillet]. Devant Joseph Boutin Bourassa, notaire public pour la province de Québec, résidant et pratiquant à St Romuald. A comparu Madame Léocadie Beaudoin, de la paroisse de St Romuald, veuve de feu Louis [rayé : Demers] [renvoi (1) en marge : Demers, J.B.B.], en son vivant du même lieu, commerçant. Laquelle nous a requis de recevoir son testament qu'elle a, en présence de [à la main : Docteur Narcisse G. Cantin, de St Côme [?], Beauce, médecin, et Ernest Robitaille] [renvoi (11) en marge : employé civil, J.B.B.] [rayé : tous deux] de la dite paroisse de St Romuald et témoins aux présentes, fait comme suit, savoir : 1o — Je lègue à Alphonse Demers, mon fils, tous mes meubles de ménage, sans exception, ainsi que mon immeuble situé à St Romuald, division New Liverpool, avec les bâtisses dessus construites. Mais, dans le cas où il mourrait avant moi et que je ne pourrais faire de testament avant mon décès pour disposer des dits biens ci-dessus légués, je veux qu'ils retournent et appartiennent aux enfants du dit Alphonse Demers, par parts égales ; 2o — Je lègue tous mes linges, lingerie et vêtements, sans exception ni réserve, à mes enfants nés de mon mariage avec le dit feu Louis Demers, mon époux, à l'exception du dit Alphonse Demers, pour être partagés entre eux par parts égales par mon exécuteur ci-après nommé ; 3o — Je veux que, sur les argents que je posséderai à mon décès, qu'il soit pris une somme de quatre cents piastres pour payer mes soins de dernière maladie, mes funérailles, pour me faire chanter deux services, le premier au coût de cinquante-six piastres, lors de mon décès, le second, au coût de trente piastres, un an après mon décès, et la balance pour faire chanter des grandes messes pour le repos de mon âme, aussitôt possible après mon décès ; 4o — Je lègue le reste de mes argents et les autres biens que je posséderai à mon décès aux enfants nés de mon mariage avec le dit Louis Demers, même et y compris le dit Alphonse Demers, pour être partagés entre eux par parts égales par mon exécuteur testamentaire. 5o — Je nomme pour mon exécuteur testamentaire Charles Demers, mon fils, et je veux qu'il reste en fonction au-delà de l'an et jour fixés par la loi, c'est-à-dire jusqu'à l'entière exécution de mon présent testament. Si ce dernier meurt ou devient incapable de voir à l'exécution de mon présent testament, je nomme mon autre fils, Joseph Demers, pour le remplacer. 6o — Je donne à mon exécuteur testamentaire le pouvoir de faire le partage de mes biens mentionnés dans les articles deux et [rayé : trois] [renvoi (1) en marge : quatre, J.B.B.] de mon présent testament, d'une manière juste et au meilleur de son jugement et suivant sa conscience, et je veux que sa décision soit finale et sans appel. 6o [sic] — Je révoque tout autre testament et codicille que j'aurais pu faire avant le présent auquel je m'arrête. Dont acte : fait et passé à St Romuald, étude du notaire soussigné, sous le numéro six mille huit cent [à la main : quatre-vingt-quatre]. Et, après lecture faite à la testatrice de son présent testament par le dit notaire, en présence des dits témoins, elle a déclaré le bien comprendre et y persister et l'a signé avec et en présence de nous, dits notaire et témoins, qui l'avons aussi signé avec elle et en sa présence et avec et en présence l'un de l'autre. (Signé) “Léocadie Beaudoin” “N. G. Cantin, M.D.” “Ernest Robitaille” “J. Boutin Bourassa, N.P.” Vraie copie de la minute demeurée en mon étude. [À la main :] Trois renvois bons, [sept ?] mots rayés nuls. J. Boutin Bourassa N.P. »",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Léocadie Beaudoin",
+          "ref_personne": "1891-D1-P123-L06",
+          "note": "Veuve de Louis Demers, de Saint-Romuald ; signe « Léocadie Beaudoin ». Vivante le 31 juillet 1914 ; morte le 5 mai 1931 (fiche « filae-leocadie-beaudoin »)."
+        },
+        {
+          "role": "epoux",
+          "nom": "Louis Demers",
+          "ref_personne": "1891-D1-P123-L05",
+          "note": "« Feu Louis Demers, en son vivant du même lieu, commerçant ». Mort le 30 octobre 1912 (fiche « notarie-1912-11-22-transmission-demers »)."
+        },
+        {
+          "role": "legataire",
+          "nom": "Alphonse Demers",
+          "ref_personne": "1891-D1-P123-L13",
+          "note": "« Mon fils » ; reçoit les meubles de ménage et l'immeuble de New Liverpool, puis sa part du reste. Marié en 1908 à Éléonore Roberge (fiche « acte-mariage-alphonse-demers-1908 »)."
+        },
+        {
+          "role": "executeur",
+          "nom": "Charles Demers",
+          "ref_personne": "1891-D1-P123-L07",
+          "note": "« Mon fils » ; exécuteur testamentaire, maintenu au-delà de l'an et jour. Marié en 1896 à Mary Jane Cadorette (fiche « acte-mariage-charles-demers-1896 »)."
+        },
+        {
+          "role": "executeur",
+          "nom": "Joseph Demers",
+          "ref_personne": "1891-D1-P123-L08",
+          "note": "« Mon autre fils » ; exécuteur en second, si Charles meurt ou ne peut agir. Marié en 1900 à Honoré Gagné (fiche « acte-mariage-joseph-demers-1900 »)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Narcisse G. Cantin",
+          "ref_personne": "1891-D1-P066-L16",
+          "note": "Docteur, médecin, dit « de St Côme [?], Beauce » ; signe « N. G. Cantin, M.D. ». Rattachement probable : Narcisse Cantin, étudiant en médecine, 28 ans en 1891, fils de Narcisse Cantin, cultivateur de Saint-Romuald (8 ans en 1871, 17 ans en 1881). Il aurait 51 ans en 1914."
+        },
+        {
+          "role": "temoin",
+          "nom": "Ernest Robitaille",
+          "note": "Employé civil, de Saint-Romuald ; signe. Un Ernest Robitaille a 11 ans en 1891, fils d'Honoré Robitaille, charretier (1891-D1-P139-L17) ; il aurait 34 ans en 1914. Rien d'autre ne le relie : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Joseph Boutin Bourassa",
+          "ref_personne": "1891-D1-P139-L02",
+          "note": "Notaire public, résidant et pratiquant à Saint-Romuald ; signe « J. Boutin Bourassa, N.P. ». Recensé « Joseph Boutin dit Bourassa », notaire, 26 ans, en 1881 (1881-D1-P022-L13), et « Joseph Bunton-Bourassa », notaire public, 36 ans, en 1891 : le calcul ne relie pas les deux lignes, à cause de la graphie de 1891."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "filiation",
+          "certitude": "etabli",
+          "personnes": [
+            "1891-D1-P123-L06",
+            "1891-D1-P123-L13",
+            "1891-D1-P123-L07",
+            "1891-D1-P123-L08"
+          ],
+          "enonce": "Alphonse, Charles et Joseph Demers sont fils de Léocadie Beaudoin et de Louis Demers, et vivants le 31 juillet 1914.",
+          "consequence": "Confirme, de la main de leur mère, ce que disaient les actes de mariage des trois fils."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1914-07-31",
+          "personnes": [
+            "1891-D1-P123-L06",
+            "1891-D1-P123-L13"
+          ],
+          "enonce": "Léocadie Beaudoin possède en 1914 un immeuble à Saint-Romuald, « division New Liverpool », avec bâtisses, qu'elle lègue à son fils Alphonse avec ses meubles de ménage."
+        },
+        {
+          "type": "propriete",
+          "certitude": "probable",
+          "date": "1914-07-31",
+          "personnes": [
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "Cet immeuble de New Liverpool est vraisemblablement le lot n° 529, au bord du fleuve, dont elle a hérité la totalité en 1912 (fiche « notarie-1912-11-22-transmission-demers »).",
+          "note": "Le testament ne donne pas le numéro du lot. La donation de 1928 montre que le lot 529, au bord du fleuve, porte la maison où vit Léocadie : c'est très vraisemblablement le même immeuble (fiche « notarie-1928-08-11-donation-demers »)."
+        },
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1914-07-31",
+          "personnes": [
+            "1891-D1-P139-L02"
+          ],
+          "enonce": "Joseph Boutin Bourassa est notaire public à Saint-Romuald en 1914."
+        },
+        {
+          "type": "identite",
+          "certitude": "probable",
+          "personnes": [
+            "1881-D1-P022-L13",
+            "1891-D1-P139-L02"
+          ],
+          "enonce": "Le notaire Joseph Boutin dit Bourassa, 26 ans en 1881, est le « Joseph Bunton-Bourassa », notaire public, 36 ans, de 1891 : même prénom, même métier, l'âge suit, et l'acte le nomme Boutin Bourassa.",
+          "note": "Proposition à confirmer dans l'annexe des filiations : « Bunton » est sans doute une mauvaise lecture de « Boutin » au dépouillement de 1891."
+        }
+      ],
+      "note": "Quatrième pièce de famille des Demers, après le testament de Louis Demers (1904), la vente Brown-Ahern (1886) et la déclaration de transmission (1912). Léocadie favorise Alphonse, sans doute celui qui vit avec elle ; ses autres enfants n'ont que les vêtements et le reste de l'argent. Seuls trois enfants sont nommés : Alfred, Ernest, Malcolm, Eusèbe et la fille aînée Léocadie, recensés en 1881 et 1891, ne le sont pas. Ce testament n'est pas le dernier : une autre photo montre, dans les mêmes papiers, un testament dactylographié « No-10135 », « St-Romuald, 11 Août », « Léocadie Beaudoin veuve de Louis Demers » — le numéro qui suit celui de la donation de sa maison à Alphonse, du 11 août 1928 (fiche « notarie-1928-08-11-donation-demers »). C'est donc un testament de 1928, qui révoque sans doute celui-ci ; à verser quand il sera photographié.",
+      "images": [
+        {
+          "local": "documents/scans/testament-leocadie-beaudoin-1914-1-endos.jpg",
+          "legende": "Endos, n° 6884"
+        },
+        {
+          "local": "documents/scans/testament-leocadie-beaudoin-1914-2-acte.jpg",
+          "legende": "Articles 1 à 4"
+        },
+        {
+          "local": "documents/scans/testament-leocadie-beaudoin-1914-3-signatures.jpg",
+          "legende": "Articles 4 à 7, signatures"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "notarie-1928-08-11-donation-demers",
+      "type": "notarie",
+      "titre": "Donation du lot n° 529 et de la maison familiale par Léocadie Beaudoin, veuve de Louis Demers, à son fils Alphonse Demers, Saint-Romuald, 1928",
+      "date": "1928-08-11",
+      "source": "Pièce de famille, gardée dans les papiers de Louis Demers et de Léocadie Beaudoin : copie délivrée par le notaire Joseph Boutin Bourassa, de Saint-Romuald ; photographiée par Patrick (2026-11-18). La minute originale est au greffe de ce notaire.",
+      "cote": "Minute n° 10134 du notaire Joseph Boutin Bourassa ; enregistrée au bureau de la division d'enregistrement du comté de Lévis le 16 août 1928 à dix heures du matin, registre B, volume 79, page [626 ?], n° 69959",
+      "nature": "Copie dactylographiée, signée et paraphée « J.B.B. » par le notaire. Endos tapé : « No-10134- / St-Romuald, 11 Août, 1928. / Donation. / Vve Louis Demers A Alphonse Demers. / Copie », paraphe « J.B.B. » ; au crayon, « 10 hrs 16 Août », « Payé », et dans un cadre « N. 69,959 / 16 Août 1928 / 10 hrs A.M. ». En marge de l'acte, le certificat d'enregistrement à l'encre violette, signé « J. A. Carrier, Régistrateur », et un timbre d'enregistrement du Québec de 30 cents sous le cachet de la division. Deux prénoms de voisins sont surchargés à la main (voir la transcription).",
+      "transcription": "« L'an mil neuf cent vingt-huit, le onzième jour du mois de Août. Devant Joseph Boutin Bourassa, Notaire Public pour la Province de Québec, résidant et pratiquant à St-Romuald. A comparu Madame Léocadie Beaudoin, de la paroisse de St-Romuald, veuve de feu Louis Demers, en son vivant du même lieu, commerçant. Laquelle a donné, par voie et à titre de donation entre-vifs, à Alphonse Demers, du même lieu, son fils, ce acceptant, savoir : Un emplacement contenant quarante pieds de front, sur environ cent pieds de profondeur, borné au sud par le chemin public, au nord, à la rive du fleuve St-Laurent, au nord-est à Alfred [au-dessus, à la main : Adélard] Cadoret et au sud-ouest à Xavier [au-dessous, à la main : Irénée [?]] Proulx, avec la maison et autres bâtisses dessus construites, connu et désigné sous le numéro cinq cent vingt-neuf (529) du cadastre pour la paroisse de St-Romuald, Comté de Lévis ; Tout son ameublement de maison, ainsi que les linges et lingerie qui se trouvent actuellement dans la maison construite sur l'immeuble ci-haut décrit, le tout sans exception ni réserve ; Donne de plus la donatrice au donataire la somme de cent piastres à elle due par le dit donataire en capital et intérêts. Cette donation est faite à la charge par le donataire des taxes et cotisations municipales et scolaires et d'une rente foncière annuelle de six piastres, payable à Jules Hallé, de St-Romuald. Encore à la charge par le donataire de recevoir chez lui la donatrice quand elle voudra y aller demeurer et, alors, de la nourrir et entretenir convenablement et comme le doit faire un bon fils pour sa mère ; sans garantie hypothécaire. Dont acte : fait et passé à St-Romuald, demeure du donataire, sous le numéro dix mille cent trente-quatre. Et, après lecture faite, les parties ont signé avec moi, Notaire. (Signé) “Léocadie Beaudoin” “Alphonse Demers” “J. Boutin Bourassa, N.P.” Vraie copie de la minute demeurée en mon étude. [À la main :] Un mot rayé nul. J. Boutin Bourassa N.P. » — En marge, à l'encre violette : « Enregistré au bureau de la Division d'Enregistrement du Comté de Lévis, le 16 jour de Août mil neuf cent vingt-huit à dix heures A.M. sous No. 69,959 dans le Reg. B, Vol. 79, page [626 ?]. J. A. Carrier, Régistrateur. »",
+      "personnes": [
+        {
+          "role": "donatrice",
+          "nom": "Léocadie Beaudoin",
+          "ref_personne": "1891-D1-P123-L06",
+          "note": "Veuve de Louis Demers, de Saint-Romuald ; signe « Léocadie Beaudoin ». Vivante le 11 août 1928, à 81 ou 82 ans ; morte le 5 mai 1931 (fiche « filae-leocadie-beaudoin »)."
+        },
+        {
+          "role": "donataire",
+          "nom": "Alphonse Demers",
+          "ref_personne": "1891-D1-P123-L13",
+          "note": "« Son fils », du même lieu ; accepte et signe. L'acte est passé à sa demeure. Il reçoit ce que le testament de 1914 lui léguait déjà : la maison et les meubles."
+        },
+        {
+          "role": "epoux",
+          "nom": "Louis Demers",
+          "ref_personne": "1891-D1-P123-L05",
+          "note": "« Feu Louis Demers, en son vivant du même lieu, commerçant »."
+        },
+        {
+          "role": "voisin",
+          "nom": "Alfred (Adélard ?) Cadoret",
+          "note": "Au nord-est. Le prénom tapé, Alfred, est surchargé à la main « Adélard » : sans doute une correction. Non rattaché (1928)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Xavier (Irénée ?) Proulx",
+          "note": "Au sud-ouest. Le prénom tapé, Xavier, porte au-dessous un prénom à la main, lu « Irénée » avec doute. Non rattaché (1928)."
+        },
+        {
+          "role": "crediteur",
+          "nom": "Jules Hallé",
+          "note": "De Saint-Romuald ; reçoit la rente foncière de six piastres par an. Sans doute un héritier du Théophile Hallé qui la touchait en 1886 (fiche « notarie-1886-11-23-vente-brown-ahern »)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Joseph Boutin Bourassa",
+          "ref_personne": "1891-D1-P139-L02",
+          "note": "Notaire de Saint-Romuald ; le même qu'au testament de 1914."
+        },
+        {
+          "role": "registrateur",
+          "nom": "J. A. Carrier",
+          "note": "Régistrateur du comté de Lévis, comme en 1912."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1928-08-11",
+          "personnes": [
+            "1891-D1-P123-L06",
+            "1891-D1-P123-L13"
+          ],
+          "enonce": "Léocadie Beaudoin donne à son fils Alphonse Demers le lot n° 529 du cadastre de Saint-Romuald, entre le chemin public au sud et la rive du fleuve au nord, avec la maison et les autres bâtiments, ainsi que tous les meubles et le linge de la maison.",
+          "consequence": "Ferme la chaîne des titres du lot 529 dans les papiers de famille : Arthur Brown, puis sa bru Matilda (testament de 1886), Robert Ahern (vente de 1886), Louis Demers et Léocadie Beaudoin (avant 1912), Léocadie seule (1912), Alphonse Demers (1928)."
+        },
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "date": "1928-08-11",
+          "personnes": [
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "En 1928, la maison familiale de Léocadie Beaudoin est celle du lot n° 529, au bord du fleuve : elle donne à Alphonse « les linges et lingerie qui se trouvent actuellement dans la maison construite sur l'immeuble »."
+        },
+        {
+          "type": "propriete",
+          "certitude": "etabli",
+          "date": "1928-08-11",
+          "personnes": [
+            "1891-D1-P123-L13",
+            "1891-D1-P123-L06"
+          ],
+          "enonce": "Alphonse Demers s'engage à recevoir sa mère chez lui quand elle le voudra, à la nourrir et à l'entretenir « comme le doit faire un bon fils pour sa mère », et à payer les taxes du lot et une rente foncière de six piastres par an à Jules Hallé."
+        }
+      ],
+      "note": "Cinquième pièce de famille des Demers. Elle a le numéro 10134 ; le testament de Léocadie vu sur une autre photo porte le numéro 10135, chez le même notaire, à la même date (« St-Romuald, 11 Août ») : la mère a donné sa maison à Alphonse et refait son testament le même jour. Écarts avec la déclaration de 1912 : le front du lot y était de cinquante pieds, il est ici de quarante ; et la rente foncière, de huit piastres en 1886, est ici de six. À relire sur l'original, ou à expliquer par une parcelle détachée du lot entre 1912 et 1928.",
+      "images": [
+        {
+          "local": "documents/scans/donation-demers-1928-1-endos.jpg",
+          "legende": "Endos, n° 10134"
+        },
+        {
+          "local": "documents/scans/donation-demers-1928-2-acte.jpg",
+          "legende": "L'acte et l'enregistrement"
+        },
+        {
+          "local": "documents/scans/donation-demers-1928-3-signatures.jpg",
+          "legende": "Charges et signatures"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "sepulture-1938-04-18-eleonore-roberge",
+      "type": "sepulture",
+      "titre": "Certificat de décès et d'inhumation d'Éléonore Roberge, épouse d'Alphonse Demers, Saint-Romuald, 1938",
+      "date": "1939-06-15",
+      "source": "Pièce de famille, gardée dans les papiers des Demers : certificat délivré par le curé de Saint-Romuald d'après le registre paroissial ; photographié par Patrick (2026-11-18). L'acte de sépulture lui-même est au registre de la paroisse de Saint-Romuald, année 1938.",
+      "cote": "Certificat du 15 juin 1939, signé par l'abbé E.-A. Dupont, curé de Saint-Romuald ; tampon de réception « A. D. G. Clause — JUN 21 1939 »",
+      "nature": "Lettre dactylographiée sur papier à en-tête imprimé « Paroisse de St-Romuald, comté de Lévis, P.Q. », signée à la main par le curé, avec le sceau sec de la paroisse. Au bas, un tampon dateur « A. D. G. Clause », du 21 juin 1939 : sans doute celui du destinataire (notaire, compagnie d'assurance ou administration), qui avait demandé le certificat.",
+      "transcription": "« Paroisse de St-Romuald, comté de Lévis, P.Q. — 15 juin 1939. Nous soussigné, prêtre curé de Saint-Romuald, certifions que Eléonore Roberge épouse de Alphonse Demers est décédée le treize avril mil neuf cent trente huit et a été inhumée dans le cimetière de Saint-Romuald le dix-huit du même mois et de la même année en présence de Arthur Morin et de Georges Marcoux et autres parents et amis. Certifié par nous prêtre curé de Saint-Romuald, ce quinzième jour de juin mil neuf cent trente-neuf. E.-A. Dupont, ptre-curé. » [Signature manuscrite du curé.] — Tampon : « A. D. G. Clause — JUN 21 1939 ».",
+      "personnes": [
+        {
+          "role": "defunte",
+          "nom": "Éléonore Roberge",
+          "note": "Épouse d'Alphonse Demers (mariés le 15 juin 1908, fiche « acte-mariage-alphonse-demers-1908 ») ; morte le 13 avril 1938, inhumée le 18. Absente des recensements dépouillés : née après 1881 et absente de Saint-Romuald en 1891. Non rattachée."
+        },
+        {
+          "role": "epoux",
+          "nom": "Alphonse Demers",
+          "ref_personne": "1891-D1-P123-L13",
+          "note": "Le certificat la dit « épouse », non veuve : Alphonse est vraisemblablement vivant en avril 1938."
+        },
+        {
+          "role": "temoin",
+          "nom": "Arthur Morin",
+          "note": "Présent à l'inhumation. Non rattaché (1938)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Georges Marcoux",
+          "note": "Présent à l'inhumation. Non rattaché (1938)."
+        },
+        {
+          "role": "cure",
+          "nom": "E.-A. Dupont",
+          "note": "Prêtre curé de Saint-Romuald en 1939 ; signe le certificat."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "deces",
+          "certitude": "etabli",
+          "date": "1938-04-13",
+          "personnes": [],
+          "enonce": "Éléonore Roberge, épouse d'Alphonse Demers, meurt le 13 avril 1938 et est inhumée le 18 avril 1938 au cimetière de Saint-Romuald."
+        },
+        {
+          "type": "mariage",
+          "certitude": "etabli",
+          "date": "1938-04-13",
+          "personnes": [
+            "1891-D1-P123-L13"
+          ],
+          "enonce": "Éléonore Roberge est toujours l'épouse d'Alphonse Demers à sa mort, en 1938 : le couple marié en 1908 n'a pas été séparé par un veuvage."
+        }
+      ],
+      "note": "Sixième pièce de famille des Demers, et la première d'un registre paroissial. Le certificat a été demandé plus d'un an après le décès et reçu par « A. D. G. Clause » le 21 juin 1939 — sans doute pour une succession ou une assurance. Les parents d'Éléonore, David Roberge et Éléonore Hélène Couture (acte de mariage de 1908), sont peut-être le David Roberge, laboureur, 19 ans en 1881 (1881-D2-P044-L24), et l'Éléonore Couture, 20 ans en 1881 (1881-D2-P020-L07) : tous deux disparaissent des recensements de Saint-Romuald après 1881, ce qui irait avec un mariage suivi d'un départ — hypothèse, rien ne le confirme.",
+      "images": [
+        {
+          "local": "documents/scans/sepulture-eleonore-roberge-1938.jpg",
+          "legende": "Certificat du curé, 1939"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "lettre-1918-09-27-pont-quebec-alphonse-demers",
+      "type": "correspondance",
+      "titre": "Lettre de recommandation de la St. Lawrence Bridge Company pour Alphonse Demers, charpentier au pont de Québec, 1918",
+      "date": "1918-09-27",
+      "source": "Pièce de famille, gardée dans les papiers des Demers : lettre originale de la St. Lawrence Bridge Company, Limited, bureau de Québec ; photographiée par Patrick (2026-11-18).",
+      "cote": "Lettre du 27 septembre 1918, signée par l'« Erection Accountant » de la compagnie ; initiales de dactylographie « LPL »",
+      "nature": "Lettre dactylographiée en anglais sur papier à en-tête gravé « St. Lawrence Bridge Company, Limited — Cable Address: “Lawbridge” Montreal — P.O. Box 635, Quebec, Que. », signée à la main. Une page, pliée en quatre.",
+      "transcription": "« St. Lawrence Bridge Company, Limited. Cable Address: “Lawbridge” Montreal. P.O. Box 635, Quebec, Que. September 27/1918. To whom it may concern, — This is to certify that Alphonse Demers has been in the employ of this Company for the past 4 years as Carpenter on the construction of the Quebec Bridge. He is a good, steady worker and we have always found him attentive and entirely satisfactory in all his work, and take pleasure in recommending him to anyone desirous of a first class Carpenter. Yours truly, St. Lawrence Bridge Co. Limited, [signature : L. P. Ledden ?], Erection Accountant. LPL/ » — Traduction : « À qui de droit. Nous certifions qu'Alphonse Demers est au service de la compagnie depuis quatre ans comme charpentier à la construction du pont de Québec. C'est un bon ouvrier, régulier ; nous l'avons toujours trouvé attentif et pleinement satisfaisant dans tout son travail, et nous le recommandons volontiers à quiconque cherche un charpentier de premier ordre. »",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Alphonse Demers",
+          "ref_personne": "1891-D1-P123-L13",
+          "note": "Charpentier pour la St. Lawrence Bridge Company depuis environ 1914, au chantier du pont de Québec. Fils de Louis Demers et de Léocadie Beaudoin ; marié en 1908 à Éléonore Roberge."
+        },
+        {
+          "role": "signataire",
+          "nom": "L. P. [Ledden ?]",
+          "note": "« Erection Accountant » (comptable du montage) de la St. Lawrence Bridge Company ; la signature est d'une lecture incertaine, les initiales « LPL » au bas de la lettre sont sans doute les siennes."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1918-09-27",
+          "personnes": [
+            "1891-D1-P123-L13"
+          ],
+          "enonce": "Alphonse Demers travaille comme charpentier pour la St. Lawrence Bridge Company, à la construction du pont de Québec, pendant les quatre années qui précèdent septembre 1918 — de 1914 environ à 1918.",
+          "consequence": "Le fils du boucher de Saint-Romuald a été l'un des charpentiers du chantier du pont de Québec, sur la rive voisine de la Chaudière."
+        }
+      ],
+      "note": "Septième pièce de famille des Demers. Une lettre de ce genre se demandait à la fin d'un emploi, pour en chercher un autre : en septembre 1918, le gros du chantier était terminé, et la compagnie licenciait ses ouvriers. Alphonse, charpentier ici, est l'héritier de la maison familiale du lot 529 (testament de sa mère de 1914, donation de 1928).",
+      "images": [
+        {
+          "local": "documents/scans/lettre-pont-quebec-alphonse-demers-1918.jpg",
+          "legende": "Lettre du 27 septembre 1918"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "lettre-1931-05-29-northern-construction-alphonse-demers",
+      "type": "correspondance",
+      "titre": "Lettre de recommandation de la Northern Construction Company pour Alphonse Demers, contremaître charpentier, 1931",
+      "date": "1931-05-29",
+      "source": "Pièce de famille, gardée dans les papiers des Demers : lettre originale de la Northern Construction Company, Limited, and J. W. Stewart, bureau de Trois-Rivières ; photographiée par Patrick (2026-11-18).",
+      "cote": "Lettre du 29 mai 1931, signée par le surintendant de la compagnie à Trois-Rivières",
+      "nature": "Lettre dactylographiée en anglais sur papier à en-tête « Northern Construction Company, Limited, and J. W. Stewart — Montreal, Quebec, Three Rivers, Vancouver », signée à la main. Une page, pliée en quatre.",
+      "transcription": "« Northern Construction Company, Limited, and J. W. Stewart. Montreal — Quebec — Three Rivers — Vancouver. Three Rivers, Que. May 29th. 1931. To all whom it concerns. The bearer Alphonse Demers has been in the employ of the Northern Construction Company Limited and J. W. Stewart, for the last five years, and during that time has been employed as a carpenter foreman, he was in charge of the concrete form-work at the New Harbour Works in Quebec at Wolfe's Cove, and also was in charge of the crib construction work in Three Rivers, and also form work for concrete in Three Rivers. We have no hesitation in recommending him to any one requiring such services, for he has at all times shown great ability, has always done reliable work, is steady, sober and very willing and obliging, he has blue print experience and is capable of taking charge of laying out work. Northern Construction Company Limited and J. W. Stewart, per [D. McLaughlin ?], Superintendent for Three Rivers, Que. » — Traduction : « À qui de droit. Le porteur, Alphonse Demers, est au service de la Northern Construction Company Limited et J. W. Stewart depuis cinq ans, comme contremaître charpentier. Il a eu la charge des coffrages de béton des nouveaux travaux du port de Québec, à l'Anse-au-Foulon (Wolfe's Cove), de la construction des caissons de bois (cribs) à Trois-Rivières, et des coffrages de béton à Trois-Rivières. Nous le recommandons sans hésiter : il a toujours montré beaucoup de compétence, fait un travail sûr ; il est régulier, sobre, très dévoué et serviable ; il sait lire les plans (bleus) et peut diriger l'implantation des ouvrages. »",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Alphonse Demers",
+          "ref_personne": "1891-D1-P123-L13",
+          "note": "Contremaître charpentier de la Northern Construction Company et J. W. Stewart, de 1926 environ à 1931, au port de Québec (Anse-au-Foulon) puis à Trois-Rivières. Déjà charpentier au pont de Québec de 1914 à 1918 (fiche « lettre-1918-09-27-pont-quebec-alphonse-demers »)."
+        },
+        {
+          "role": "signataire",
+          "nom": "[D. McLaughlin ?]",
+          "note": "Surintendant de la compagnie pour Trois-Rivières ; la signature est d'une lecture incertaine."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "fonction",
+          "certitude": "etabli",
+          "date": "1931-05-29",
+          "personnes": [
+            "1891-D1-P123-L13"
+          ],
+          "enonce": "De 1926 environ à 1931, Alphonse Demers est contremaître charpentier pour la Northern Construction Company et J. W. Stewart : il dirige les coffrages de béton des nouveaux travaux du port de Québec, à l'Anse-au-Foulon, puis les caissons et les coffrages de béton à Trois-Rivières.",
+          "consequence": "Treize ans après le pont de Québec, le charpentier est devenu contremaître et sait lire les plans."
+        }
+      ],
+      "note": "Huitième pièce de famille des Demers, et la seconde lettre de recommandation d'Alphonse, après celle de la St. Lawrence Bridge Company (1918). Comme la première, elle a dû être demandée à la fin d'un chantier, pour chercher un autre emploi — en 1931, au creux de la crise. Alphonse travaille alors loin de Saint-Romuald, à Trois-Rivières, trois ans après avoir reçu la maison familiale du lot 529 (donation de 1928) ; sa femme Éléonore meurt en 1938.",
+      "images": [
+        {
+          "local": "documents/scans/lettre-northern-construction-alphonse-demers-1931.jpg",
+          "legende": "Lettre du 29 mai 1931"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "devis-1919-07-17-ecole-new-liverpool",
+      "type": "autre",
+      "titre": "Devis pour la réparation de la maison d'école de Saint-Romuald d'Etchemin (New Liverpool), 1919",
+      "date": "1919-07-17",
+      "source": "Pièce de famille, gardée dans les papiers des Demers ; photographiée par Patrick (2026-11-18).",
+      "cote": "Devis dactylographié, daté de Saint-Romuald le 17 juillet 1919, signé « Henri Dutil »",
+      "nature": "Une feuille dactylographiée, signée à la main, pliée en quatre et usée aux plis. Une correction à la main à l'article 2 (« des » rayé, « deux » ajouté). Le devis décrit les travaux à faire, sans le prix d'ensemble ; seul le hangar à bois est chiffré.",
+      "transcription": "« Devis pour la réparation de la maison d'école de St Romuald d'Etchemin (New Liverpool). 1o — Réhausser l'étage supérieur en renouvelant la tôle et les soliveaux, baisser le plancher de un pied et relever la maison de un pied. 2o — Ajouter [rayé : des] [à la main : deux] ventilateurs (chassis) dans chaque classe, 10x10, de manière à fournir le plus d'air possible aux élèves. 3o — Faire un lambris en planche d'épinette de un pouce embouveté avec un rang de papier feutre sous le lambris. 4o — Recouvrir ce lambris en bardeau d'amiante avec un papier [coded ?] sous le dit lambris. 5o — Refaire le surplus du solage en béton en y ajoutant 4 soupiraux de [1x6x4 ?] pieds pour ventiler la cave. 6o — Changer l'escalier de place pour permettre d'ajouter un chassis du côté ouest. 7o — Refaire les perrons en béton. 8o — Renouveler la couverture en bardeaux de cèdre ou de pin. 9o — Renouveler les deux portes d'entrée en pin de 3 pouces avec carreaux en verre double ; ces dites portes devront être faites avec renvoi d'eau et munies de ferrures convenables. 10o — Refaire les boiseries des fenêtres ainsi que des plafonds des larmiers au bas de la couverture. 11o — Peinturer la couverture à deux couches de peinture créosote de couleur métallique, peinturer les chassis et les portes à deux couches en renouvelant les vitres cassées et refaire le mastiquage après avoir donné deux couches de peinture à l'intérieur de chaque chassis. 12o — Refaire et construire un petit hangar à bois de 12x18 pieds d'une valeur de $300.00. 13o — Construire un tambour temporaire en avant, en planche embouvetée, avec deux chassis et d'une grandeur de 8x12 pieds. St Romuald, le 17 juillet 1919. Henri Dutil »",
+      "personnes": [
+        {
+          "role": "signataire",
+          "nom": "Henri Dutil",
+          "note": "Signe le devis. Sa qualité n'est pas dite : entrepreneur, architecte ou secrétaire de la commission scolaire. Aucun Dutil aux recensements de Saint-Romuald (1871-1891) : non rattaché."
+        }
+      ],
+      "affirmations": [
+        {
+          "type": "residence",
+          "certitude": "etabli",
+          "date": "1919-07-17",
+          "personnes": [],
+          "enonce": "En 1919, New Liverpool a sa maison d'école, à deux niveaux et plusieurs classes, avec cave, deux portes d'entrée et un toit de tôle ; elle est à reprendre presque entièrement : surélévation de l'étage, nouveau lambris d'épinette couvert de bardeau d'amiante, solage et perrons de béton, ventilation des classes et de la cave."
+        }
+      ],
+      "note": "Neuvième pièce des papiers des Demers ; aucun Demers n'y est nommé. Le devis est daté de juillet 1919, dix mois après la fin d'emploi d'Alphonse Demers au pont de Québec (lettre du 27 septembre 1918) : charpentier de New Liverpool, il a pu soumissionner ou travailler à ces réparations, ce qui expliquerait que la feuille soit restée chez lui — hypothèse, rien ici ne le dit. Le devis n'est rattaché à aucun lieu de la carte : à placer sur la maison d'école de New Liverpool quand Patrick aura dit laquelle c'est (la « Maison-école » du 83, rue Saint-Damase, construite vers 1861, est à une centaine de mètres de la maison Demers du chemin du Fleuve).",
+      "images": [
+        {
+          "local": "documents/scans/devis-ecole-new-liverpool-1919.jpg",
+          "legende": "Devis du 17 juillet 1919"
+        }
+      ],
+      "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "dossier-famille-louis-demers-leocadie-beaudoin",
+      "type": "autre",
+      "titre": "Louis Demers et Léocadie Beaudoin — dossier de famille (1844-1931)",
+      "date": "2026-11-18",
+      "source": "Dossier de synthèse rédigé pour le projet par Patrick Blanchet, à l'intention des descendants : recensements de 1871, 1881 et 1891, actes notariés, papiers de famille et arbres en ligne.",
+      "cote": "PDF de 44 pages : biographies, recensements, enfants, histoire du lot n° 529, transcriptions des actes, pistes de recherche, sources et photos des documents",
+      "fichier": "documents/rapports/dossier-famille-louis-demers-leocadie-beaudoin.pdf",
+      "nature": "Synthèse, non une source : chaque fait y renvoie à sa source, versée par ailleurs dans ce manifeste. Le texte source (HTML) est rangé à côté du PDF.",
+      "personnes": [
+        {
+          "role": "sujet",
+          "nom": "Louis Demers",
+          "ref_personne": "1891-D1-P123-L05"
+        },
+        {
+          "role": "sujet",
+          "nom": "Léocadie Beaudoin",
+          "ref_personne": "1891-D1-P123-L06"
+        },
+        {
+          "role": "enfant",
+          "nom": "Léocadie Demers",
+          "ref_personne": "1881-D2-P025-L19",
+          "note": "Fille aînée, absente en 1891."
+        },
+        {
+          "role": "enfant",
+          "nom": "Charles Demers",
+          "ref_personne": "1891-D1-P123-L07"
+        },
+        {
+          "role": "enfant",
+          "nom": "Joseph Demers",
+          "ref_personne": "1891-D1-P123-L08"
+        },
+        {
+          "role": "enfant",
+          "nom": "Ernest Demers",
+          "ref_personne": "1891-D1-P123-L09"
+        },
+        {
+          "role": "enfant",
+          "nom": "Alfred Demers",
+          "ref_personne": "1891-D1-P123-L10"
+        },
+        {
+          "role": "enfant",
+          "nom": "Malcolm Demers",
+          "ref_personne": "1891-D1-P123-L11"
+        },
+        {
+          "role": "enfant",
+          "nom": "Eusèbe Demers",
+          "ref_personne": "1891-D1-P123-L12"
+        },
+        {
+          "role": "enfant",
+          "nom": "Alphonse Demers",
+          "ref_personne": "1891-D1-P123-L13"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le dossier réunit, en novembre 2026, tout ce que le projet sait du couple et de ses enfants. Il ne porte aucune affirmation propre : les faits qu'il expose sont ceux des fiches qu'il cite. À refaire quand de nouvelles pièces seront versées (second testament de Léocadie de 1928, actes de baptême, de mariage de 1865, de sépulture).",
+      "ajoute_le": "2026-11-18"
     }
   ]
 }

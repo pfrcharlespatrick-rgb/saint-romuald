@@ -100,6 +100,28 @@ node outils/generer-site.mjs                    # propager aux fiches du site
 `data/travail-personnel.json` n'est jamais réécrit par ces outils : c'est
 l'archive de ce qui a été tranché.
 
+### Les décisions dictées
+
+Patrick tranche aussi hors de l'atelier, en le disant à Claude (« c'est bien la
+ligne 17 », « confirme-les tous »). Ces décisions sont **la main**, au même
+titre qu'une case corrigée — mais elles ne s'écrivent **pas** dans
+`data/travail-personnel.json` : l'atelier réécrit ce fichier en entier, depuis
+le navigateur, à chaque sauvegarde, et la décision s'en irait avec la suivante.
+Elles vont dans `data/decisions-dictees.json`, que `atelier.mjs` lit par-dessus
+le fichier de travail :
+
+- `corrections` — `{ id, champ, atelier, valeur, date, motif }` : le champ vaut
+  `valeur` **tant que l'atelier porte encore `atelier`** (`null` : il n'en dit
+  rien). Si la case a changé dans l'atelier depuis, la main y est repassée :
+  l'atelier l'emporte, et `fondre.mjs` dit la décision « dépassée ».
+- `liens` — comme `suivi-liens`. Un lien dicté s'efface devant un rejet posé
+  depuis dans l'annexe des filiations.
+
+N'y écrire que ce que Patrick a dit, avec la date et ses mots dans `motif`.
+L'atelier, lui, continue d'afficher sa propre case tant que Patrick ne l'a pas
+corrigée dans son navigateur : le lui rappeler quand une décision dictée
+contredit une case de l'atelier.
+
 ### Où en est la relecture à la main
 
 | Recensement | Relu par Patrick jusqu'à | Versé dans le site |
@@ -110,6 +132,69 @@ Une ligne de ce tableau dit « relu », pas « corrigé » : une famille relue s
 correction n'a pas d'entrée dans `suivi-familles-corrections` (ainsi la
 famille 29 de 1871-D1). Mettre le tableau à jour à chaque nouvelle sauvegarde
 versée.
+
+## Contrôle des croisements : ce qui reste à trancher
+
+`node outils/controle-croisements.mjs` relit toutes les données et écrit
+`docs/CONTROLE-CROISEMENTS.md` : corrections manuelles dont le prénom et le
+sexe se contredisent (souvent une correction qui a glissé d'une ligne),
+rapprochements proposés par le ménage, décès de 1871 sans maison, personnes
+rattachées dans un document et pas dans un autre, lignes incomplètes. Il ne
+modifie aucune donnée — c'est la liste de ce que Patrick tranche lui-même.
+Le relancer après un versement de l'atelier ou une série d'actes, à la suite
+de `analyse-filiation.mjs` et de `generer-site.mjs`.
+
+Depuis le 2026-11-15 il confronte aussi **les documents aux recensements** et
+**les recensements entre eux** : « [?] » qu'un acte lève, signature au bas des
+actes contre « sait écrire », prénom d'une fiche qui n'est pas celui de la
+ligne rattachée, naissance connue contre âge recensé, identité dite par un
+document sans lien de filiation, sexe ou âge qui ne suit pas le long d'un
+lien, trous de numérotation. `--json` sort les mêmes sections, et
+`node outils/releve-verification.mjs <sortie.html>` en monte **le relevé à
+cocher remis à Patrick** : une page en clair (quoi regarder, où, quoi faire),
+qui dit aussi ce qui est en ordre. Elle ne se range pas dans le dépôt — elle
+se publie à part, en page privée (artefact) ; Patrick y coche, annote, et
+colle ses réponses dans la conversation : ce sont alors des décisions dictées.
+Deux mises en garde : signer n'est pas
+écrire — une contradiction se relit au manuscrit, elle ne se corrige pas
+d'office ; et un champ posé à la main (`protege`) n'y est jamais proposé à la
+réécriture.
+
+**Quand Patrick colle ses réponses**, elles vont dans
+`data/decisions-dictees.json` : les champs dans `corrections`, les liens
+confirmés dans `liens`, et **chaque point répondu dans `releve`**, sous la clé
+du point (`rubrique|identifiants`, celle que le relevé met entre parenthèses) :
+`{ date, vu, resume, note, suite }` — `note` est ce qu'il a écrit, `suite` ce
+qui en a été fait. Le contrôle ne repose plus un point qui y figure (colonne
+« Déjà répondus » du rapport). Un point coché « vu » sans note y entre aussi :
+il a regardé, il n'y a rien à consigner.
+
+Une réponse ne se consigne pas les yeux fermés. Avant de poser un lien
+« confirme », regarder les deux ménages : si la ligne d'arrivée est déjà liée
+à un fils du même nom, si l'enfant est né après le premier recensement, si la
+femme d'arrivée est une bru ou une épouse aux enfants trop âgés, ou si deux
+réponses se contredisent sur la même ligne, **ne rien écrire** : mettre
+`attente` (la question à lui reposer, en clair) à la place de `suite`. Le
+point reste alors dans le relevé, avec sa question sous « Ta réponse, à
+préciser » ; republier le relevé et le lui dire. Rien n'est perdu : un lien
+calculé reste en place tant qu'il n'est ni confirmé ni écarté.
+
+Les rapprochements « par le ménage » (`par_menage`, confiance moyenne) sont
+des propositions du calcul (docs/FILIATION.md, « Compléter les ménages
+reconnus ») : ne jamais les présenter comme établis.
+
+## Le site ne charge que ce qu'il montre
+
+`outils/generer-site.mjs` range ses sorties pour qu'une page n'en charge
+qu'une petite part : une fiche de personne par page de manuscrit
+(`fiches/personne/<annee-D>/P<page>.json`, ménages écrits une fois sous
+`_menages`), les maisons par tranche de vingt-cinq numéros
+(`fiches/maison/<annee-D>/M<tranche>.json`), et la transcription d'un document
+à part (`fiches/document/<id>.json`), chargée quand le lecteur ouvre le volet.
+Ne pas remettre une transcription ni une maisonnée entière dans chaque fiche :
+c'est ce qui faisait peser 1,5 Mo à l'ouverture d'une maison. Le code commun
+aux trois fiches est dans `fiche-commun.js` ; `node outils/audit-telephone.mjs`
+vérifie le rendu sur petit écran.
 
 ## Les lieux : la file de l'atelier de la carte se vide une fois versée
 
@@ -134,6 +219,66 @@ Ce que cela impose :
 4. Les valeurs de `suivi-familles-corrections` se lisent **rognées**
    (`atelier.mjs`) : « Peltier  » est « Peltier ». Le fichier, lui, n'est pas
    réécrit.
+
+## Les plans anciens se calculent, ils ne se posent pas à l'œil
+
+Les quatre feuilles Goad de 1876 (`assets/plans/`) sont posées sur la carte
+par `node outils/lieux/caler-plans.mjs`, depuis `data/plans-reperes.json` :
+un repère est un bâtiment lu sur la feuille (pixels) et le lieu de
+`data/lieux-data.js` qui lui répond. Lire d'abord `docs/PLANS-ANCIENS.md` :
+ces feuilles **ne sont pas à une échelle constante**, chacune n'est juste
+qu'autour de ses repères, et deux feuilles voisines peuvent ne pas se
+rejoindre à cent mètres près. Ne pas présenter une feuille provisoire
+(`cale: false`) comme établie. Un plan réglé aux poignées par Patrick n'est
+plus recalculé.
+
+Un plan peut être étiré — posé par trois coins indépendants, ce qui change
+ses proportions et ses angles — quand Patrick le demande : il a levé le
+2026-11-17 la règle qui l'interdisait (« éliminer la règle “on n'étire pas
+une feuille” »). Un plan étiré le dit dans sa note, avec ses deux échelles et
+l'angle de ses axes : ses distances et ses angles ne sont plus ceux du
+dessin. Le même jour, il a demandé d'étirer ainsi les quatre feuilles Goad :
+`caler-plans.mjs` les reprend en affine (marque `etirer` dans
+`data/plans-reperes.json`) sur leurs repères et sur leur chemin public, posé
+sur l'axe du chemin du Fleuve d'aujourd'hui (`chemin_actuel`) — voir
+`docs/PLANS-ANCIENS.md`, « Les feuilles sont étirées ». Le même jour encore,
+il a demandé de les raccorder (« raccord serré ») : `raccords_tenus`, en tête
+de `data/plans-reperes.json`, fait calculer les quatre feuilles ensemble, et
+leurs lisières tombent sous 15 m — voir « Les feuilles sont raccordées » ; la
+15 est attachée à la 14 sur trois points (crête, chemin, rive). Les quatre
+feuilles sont publiques (`cale: true`) depuis le même jour, à sa demande. La
+feuille 15 tient au quai (posé sur celui du plan de 1866), au chemin vers
+l'est, à la crête du cap Anderson, au bord du fleuve et à la berge de la
+Chaudière, appuis qu'il a désignés. Un réglage aux poignées resté dans un
+navigateur masque la version publiée : le bouton « Revenir au plan publié »
+de l'atelier l'efface. Leurs notes, dans
+`data/plans-data.js`, ne sont pas écrites par l'outil : les tenir à jour à
+la main après un recalcul.
+
+Le croquis de l'Hétrière de 1844 (`hetriere-1844`) n'a pas de repère : il est
+posé une fois, par calcul, sur trois hypothèses dites dans
+`docs/PLANS-ANCIENS.md`, et reste provisoire tant qu'aucun point n'est relevé
+sur le terrain. Les plans de l'embouchure de la Chaudière
+(`embouchure-chaudiere-1866`, Alfred Hamel ; `embouchure-chaudiere-1842`,
+Pierre Lambert) sont posés de même, une fois, comme Patrick l'a dicté (2026-11-16 et 17) :
+celui de 1866 a son chemin public sur le chemin du Fleuve d'aujourd'hui, son
+quai sur la pointe du Pont-Garneau (deux repères désignés par deux flèches)
+et son escarpement sur la rive du Bassin — ce qui a demandé de **l'étirer**
+(0,445 m par pixel en largeur, 0,403 en hauteur, axes à 85°) ; celui de 1842
+est rapporté à celui de 1866 par six points communs et reçoit la même
+déformation. Aucun ne passe par `caler-plans.mjs`. Ne pas les redresser sans le lui
+demander ; pour mesurer, se servir de l'image du plan, non de sa pose
+(`docs/PLANS-ANCIENS.md`).
+
+## La rivière Bruyante est la Chaudière
+
+Dans les plans et les actes anciens (plan Lambert de 1844, greffe Tremblay),
+la « rivière Bruyante » est la rivière Chaudière d'aujourd'hui (indication de
+Patrick, 2026-11-16). Une source l'écrit : le plan de l'embouchure dressé par
+Pierre Lambert, arpenteur provincial, en octobre 1854, porte « Rivière
+Bruyante ou Chaudière » (transcription fournie par Patrick ; ce plan n'est
+pas versé au site). Le plan de Pierre Lambert du 24 février 1842,
+versé, l'écrit aussi dans son cartouche.
 
 ## 1891 n'a qu'une division
 

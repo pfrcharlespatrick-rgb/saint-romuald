@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Louis Demers et Léocadie Beaudoin — dossier de famille</title>
+<style>
+/* Un dossier de famille : registre ancien, encre brune, filets rouges des
+   formulaires notariés que la famille a gardés. */
+:root{
+  --encre:#2a241c; --sepia:#6e6253; --filet:#b2342f; --papier:#ffffff;
+  --regle:#d9d0c1; --fond-encart:#f5efe3;
+  --serif:'Bitstream Charter','Charter','Caladea','Liberation Serif',Georgia,serif;
+  --etiq:'Inter','Liberation Sans',Arial,sans-serif;
+}
+@page{size:Letter;margin:22mm 20mm 20mm 22mm}
+@page :first{margin:0}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--papier);color:var(--encre)}
+body{font-family:var(--serif);font-size:11pt;line-height:1.5;hyphens:auto;-webkit-hyphens:auto}
+p{margin:0 0 .65em;text-align:justify}
+h1,h2,h3{font-weight:700;line-height:1.2;text-wrap:balance}
+h2{font-size:19pt;margin:0 0 .5em;padding-bottom:.25em;border-bottom:1.5pt solid var(--filet);break-after:avoid}
+h3{font-size:13pt;margin:1.2em 0 .35em;break-after:avoid}
+.etiq{font-family:var(--etiq);font-size:7.5pt;letter-spacing:.14em;text-transform:uppercase;color:var(--sepia)}
+section{break-before:page}
+section.suite{break-before:auto;margin-top:1.4em}
+em{font-style:italic}
+.cite{font-style:italic}
+small,.petit{font-size:9pt;color:var(--sepia)}
+sup{font-size:.7em}
+
+/* couverture */
+.couverture{height:279.4mm;padding:30mm 26mm 24mm;display:flex;flex-direction:column;justify-content:space-between;
+  background:var(--papier);border-left:9mm solid var(--filet);break-after:page}
+.couverture .haut{display:flex;flex-direction:column;gap:6mm}
+.couverture h1{font-size:34pt;margin:0;line-height:1.08}
+.couverture h1 span{display:block;font-size:20pt;font-weight:400;font-style:italic;color:var(--sepia);margin-top:3mm}
+.couverture .lieu{font-size:13pt}
+.couverture .filets{border-top:1pt solid var(--filet);border-bottom:1pt solid var(--filet);height:2.4mm;width:60mm}
+.couverture .bas{display:flex;justify-content:space-between;align-items:flex-end;gap:10mm}
+.couverture .bas p{text-align:left;margin:0;font-size:10pt;color:var(--sepia);max-width:95mm}
+.couverture img{width:62mm;border:1px solid var(--regle);box-shadow:0 1mm 3mm rgba(0,0,0,.15)}
+
+/* encarts */
+.encart{background:var(--fond-encart);border-left:2.5pt solid var(--filet);padding:3mm 4mm;margin:.6em 0 1em;break-inside:avoid}
+.encart p:last-child{margin-bottom:0}
+.prudence{border-left-color:var(--sepia)}
+
+/* chronologie */
+.chrono{width:100%;border-collapse:collapse;font-size:10pt}
+.chrono td{padding:1.6mm 2mm;border-bottom:.5pt solid var(--regle);vertical-align:top}
+.chrono td:first-child{width:24mm;font-family:var(--etiq);font-size:8.5pt;font-weight:600;white-space:nowrap;padding-top:2.1mm}
+.chrono tr{break-inside:avoid}
+
+/* recensements */
+table.rec{width:100%;border-collapse:collapse;font-size:9.5pt;margin:.4em 0 .8em}
+table.rec th{font-family:var(--etiq);font-size:7.2pt;letter-spacing:.08em;text-transform:uppercase;color:var(--sepia);text-align:left;
+  padding:1.2mm 1.6mm;border-bottom:1pt solid var(--encre);font-weight:600}
+table.rec td{padding:1.1mm 1.6mm;border-bottom:.5pt solid var(--regle)}
+table.rec td.n{font-variant-numeric:tabular-nums;white-space:nowrap}
+table.rec tr.autre td{color:var(--sepia);font-style:italic}
+table.rec{break-inside:avoid}
+
+/* enfants */
+.enfant{break-inside:avoid;margin:0 0 .9em;padding-left:4mm;border-left:.8pt solid var(--regle)}
+.enfant h3{margin:.2em 0 .2em;font-size:12pt}
+.enfant h3 .ne{font-weight:400;font-style:italic;color:var(--sepia);font-size:10pt;margin-left:2mm}
+.enfant p{margin-bottom:.35em}
+
+/* titres de propriété */
+ol.chaine{padding-left:6mm;margin:.3em 0 1em}
+ol.chaine li{margin-bottom:.35em}
+
+/* documents */
+.piece{break-inside:avoid;margin:0 0 6mm;display:grid;grid-template-columns:44mm 1fr;gap:5mm;align-items:start}
+.piece img{width:44mm;border:1px solid var(--regle)}
+.piece h3{margin:0 0 .25em;font-size:11.5pt}
+.piece .ref{font-size:8.5pt;color:var(--sepia);margin-bottom:.4em;text-align:left}
+.piece p{font-size:10pt}
+
+/* transcriptions */
+.trans{font-size:9.6pt;line-height:1.45;margin:0 0 1.2em}
+.trans h3{font-size:11pt;margin:1em 0 .3em}
+.trans p{text-align:left}
+
+/* galerie */
+.galerie figure{margin:0 0 6mm;break-inside:avoid;text-align:center}
+.galerie img{max-width:100%;max-height:205mm;border:1px solid var(--regle)}
+.galerie figcaption{font-family:var(--etiq);font-size:8pt;color:var(--sepia);margin-top:1.5mm}
+
+ul.pistes li{margin-bottom:.45em}
+.sources dt{font-weight:700;margin-top:.55em;font-size:10pt}
+.sources dd{margin:0 0 0 4mm;font-size:9.4pt}
+</style>
+</head>
+<body>
+
+<!-- ======================= COUVERTURE ======================= -->
+<div class="couverture">
+  <div class="haut">
+    <span class="etiq">Dossier de famille · Saint-Romuald d'Etchemin</span>
+    <div class="filets"></div>
+    <h1>Louis Demers<br>et Léocadie Beaudoin<span>Une famille de New Liverpool, 1844-1931</span></h1>
+    <p class="lieu">Ce que disent d'eux les recensements de 1871, 1881 et 1891,<br>les actes notariés et les papiers gardés par la famille.</p>
+  </div>
+  <div class="bas">
+    <p>Recherche : Patrick Blanchet<br>Novembre 2026<br><br>Préparé pour leurs descendants.</p>
+    <img src="../scans/testament-louis-demers-1904-1-endos.jpg" alt="Endos du testament de Louis Demers, 1904">
+  </div>
+</div>
+
+<!-- ======================= EN BREF ======================= -->
+<section style="break-before:auto">
+<span class="etiq">En bref</span>
+<h2>Une vie au bord du fleuve</h2>
+<p>Louis Demers naît le 27 février 1844 à Saint-Jean-Chrysostome. Léocadie Beaudoin naît le 22 août 1846. Ils se marient le 19 septembre 1865, à Saint-Jean-Chrysostome, et s'établissent à Saint-Romuald d'Etchemin, près du fleuve, du côté de New Liverpool, près de l'embouchure de la Chaudière. C'est là que les trois recensements de 1871, 1881 et 1891 les trouvent, avec leurs enfants.</p>
+<p>Louis est d'abord journalier, comme la plupart des hommes du quartier, qui vivait alors du commerce du bois et du chargement des navires. En 1891, il est devenu boucher, à son compte ; à sa mort, il est « boucher et commerçant de bois ». Le couple a au moins huit enfants : une fille, Léocadie, et sept garçons, Charles, Joseph, Ernest, Alfred, Malcolm, Eusèbe et Alphonse. Tous deux savent lire et écrire, et signent leurs actes.</p>
+<p>Avant 1912, ils deviennent propriétaires d'un terrain de cinquante pieds sur cent, avec maison, entre le chemin public et la rive du fleuve : le lot n° 529 du cadastre de Saint-Romuald. Louis meurt le 30 octobre 1912 et laisse tout à sa femme. Léocadie vit encore dix-neuf ans. En 1928, à 81 ans, elle donne la maison à son plus jeune fils, Alphonse, à condition qu'il la loge et la nourrisse « comme le doit faire un bon fils pour sa mère ». Elle meurt le 5 mai 1931, à Saint-Romuald.</p>
+
+<div class="encart">
+<p><strong>Comment lire ce dossier.</strong> Chaque fait est donné avec sa source. Les recensements et les actes que la famille a gardés sont des sources directes. Les dates tirées d'arbres généalogiques en ligne (MyHeritage, Filae) sont signalées comme telles : elles sont vraisemblables, mais n'ont pas encore été vérifiées sur les registres. Les années de naissance des enfants sont calculées d'après les âges déclarés aux recenseurs, qui sont souvent approximatifs d'un an ou deux.</p>
+</div>
+
+<h3>Chronologie</h3>
+<table class="chrono">
+<tr><td>27 févr. 1844</td><td>Naissance de Louis Demers à Saint-Jean-Chrysostome <span class="petit">(arbre MyHeritage)</span>.</td></tr>
+<tr><td>22 août 1846</td><td>Naissance de Léocadie Beaudoin, fille d'Henri Beaudoin et d'Antoinette Lepinay <span class="petit">(arbre Filae)</span>.</td></tr>
+<tr><td>6 mai 1856</td><td>Un Louis Demers, probablement le père, cède une terre de Saint-Jean-Chrysostome à Alexis Pichette.</td></tr>
+<tr><td>19 sept. 1865</td><td>Mariage de Louis Demers et de Léocadie Beaudoin à Saint-Jean-Chrysostome <span class="petit">(arbre Filae)</span>.</td></tr>
+<tr><td>Oct. 1870</td><td>Naissance de leur fils Charles.</td></tr>
+<tr><td>Avril 1871</td><td>Recensement : Louis, journalier, 27 ans, Léocadie, 24 ans, et deux enfants, à New Liverpool ; la maison est partagée avec le ménage de Benjamin Bourassa.</td></tr>
+<tr><td>Avril 1881</td><td>Recensement : Louis, journalier, 36 ans, Léocadie, 34 ans, et sept enfants.</td></tr>
+<tr><td>23 nov. 1886</td><td>Le lot n° 529, maison au bord du fleuve, est vendu par John Brown à Robert Ahern ; l'acte passera plus tard aux Demers avec le terrain.</td></tr>
+<tr><td>Avril 1891</td><td>Recensement : Louis, boucher, 47 ans, patron, Léocadie, 44 ans, et sept fils, dans une maison de bois d'un étage et de sept pièces.</td></tr>
+<tr><td>1896-1908</td><td>Mariage des fils Charles (1896), Alfred (1898), Joseph (1900) et Alphonse (1908) à Saint-Romuald.</td></tr>
+<tr><td>15 nov. 1904</td><td>Testament de Louis Demers, qui lègue tous ses biens à sa femme.</td></tr>
+<tr><td>30 oct. 1912</td><td>Mort de Louis Demers à Saint-Romuald, « boucher et commerçant de bois ».</td></tr>
+<tr><td>22 nov. 1912</td><td>Léocadie déclare l'héritage : elle possède désormais seule le lot n° 529.</td></tr>
+<tr><td>31 juill. 1914</td><td>Premier testament connu de Léocadie Beaudoin, en faveur de son fils Alphonse.</td></tr>
+<tr><td>11 août 1928</td><td>Léocadie donne la maison du lot n° 529 à Alphonse et refait son testament le même jour.</td></tr>
+<tr><td>5 mai 1931</td><td>Mort de Léocadie Beaudoin à Saint-Romuald <span class="petit">(arbre Filae)</span>.</td></tr>
+</table>
+</section>
+
+<!-- ======================= LOUIS ======================= -->
+<section>
+<span class="etiq">Le père</span>
+<h2>Louis Demers (1844-1912)</h2>
+
+<h3>Naissance et origine</h3>
+<p>Louis Demers naît le 27 février 1844 à Saint-Jean-Chrysostome, la paroisse voisine, au sud de Saint-Romuald. Cette date vient d'un arbre en ligne ; elle s'accorde avec les âges qu'il déclare aux recenseurs : 27 ans en 1871, 36 ans en 1881, 47 ans en 1891. Tous les recensements le disent né dans la province de Québec, de parents nés eux aussi au Québec, catholique et d'origine française.</p>
+<p>Ses parents ne sont pas encore connus avec certitude. Un acte notarié de 1874 rappelle qu'un Louis Demers a cédé une terre de Saint-Jean-Chrysostome à Alexis Pichette le 6 mai 1856, devant le notaire A. Trudelle ; c'est probablement son père. Une piste reste à vérifier : en 1873, un Louis Demers marié à Geneviève Gosselin habite Saint-Jean-Chrysostome, avec ses filles Euphrasie, Adélaïde et Virginie. S'il s'agit des parents de Louis, ces trois femmes seraient ses sœurs. Rien ne le prouve encore : l'acte de baptême de Louis, en 1844, le dirait.</p>
+
+<h3>Le métier</h3>
+<p>Aux recensements de 1871 et de 1881, Louis est <em>journalier</em> : il loue ses bras, sans doute aux chantiers de bois et aux quais de New Liverpool. En 1891, il est <em>boucher</em> et coche la colonne « patron » : il est à son compte. Son fils Joseph, 17 ans, est boucher lui aussi, inscrit comme employé : sans doute chez son père, mais le recensement ne le dit pas. Son testament de 1904 le dit encore boucher. À sa mort, en 1912, sa veuve le décrit comme « boucher et commerçant de bois » ; elle-même, en 1914 et en 1928, le dit « commerçant ».</p>
+
+<h3>Sait-il écrire ?</h3>
+<p>Oui. Les recensements de 1871 et de 1891 le comptent parmi ceux qui savent lire et écrire, et il signe lui-même son testament de 1904 : le notaire a rayé la formule prévue pour ceux qui « ne savent écrire ni signer ». En 1908, il signe aussi l'acte de mariage de son fils Alphonse.</p>
+
+<h3>Le testament de 1904</h3>
+<p>Le 15 novembre 1904, chez lui, devant le notaire Jean-Théophile Lemieux et deux témoins, Honoré McReady, marchand, et Paul Girard, inspecteur de bois, Louis Demers fait son testament. Il demande qu'on chante un service le jour de ses funérailles et un autre dans l'année, et qu'on dise vingt-cinq messes basses. Il lègue tous ses biens à « Dame Léocadie Beaudoin, mon épouse actuelle », qu'il nomme sa légataire universelle et son exécutrice testamentaire. Aucun de ses enfants n'est nommé.</p>
+
+<h3>La mort</h3>
+<p>Louis Demers meurt à Saint-Romuald le 30 octobre 1912, à 68 ans. La date est donnée par la déclaration de transmission que sa veuve fait faire trois semaines plus tard, le 22 novembre 1912, pour faire enregistrer l'héritage ; le testament et cette déclaration sont enregistrés le même jour, le 26 novembre 1912, au bureau d'enregistrement du comté de Lévis.</p>
+</section>
+
+<!-- ======================= LÉOCADIE ======================= -->
+<section>
+<span class="etiq">La mère</span>
+<h2>Léocadie Beaudoin (1846-1931)</h2>
+
+<h3>Naissance et famille</h3>
+<p>Léocadie Beaudoin naît le 22 août 1846. Ses parents sont Henri Beaudoin et Antoinette Lepinay. D'après le même arbre, elle a douze frères et sœurs : Joseph, Marie Agnès, Marie Odélie, Charles, Marie Émilie, Louis, Marie Louise, Marie Antoinette, Marie Elmire, Marie Adèle, Henri et Louis Onézime. Ces renseignements viennent de l'arbre Filae ; ils restent à vérifier sur les registres.</p>
+<p>Les recensements l'inscrivent sous le nom de son mari, « Léocadie Demers », comme toutes les femmes mariées de l'époque. Son nom de naissance, Beaudoin, est donné par les actes de mariage de ses fils et par tous les actes notariés. Une fois, à l'acte de mariage de Joseph en 1900, il est écrit « Beaulieu ».</p>
+
+<h3>Le mariage</h3>
+<p>Elle épouse Louis Demers le 19 septembre 1865 à Saint-Jean-Chrysostome ; elle a 19 ans, lui 21. La déclaration de 1912 précise qu'ils étaient mariés « en communauté de biens » : ce qu'ils acquéraient pendant le mariage appartenait aux deux.</p>
+
+<h3>Veuve et propriétaire</h3>
+<p>À la mort de Louis, elle hérite de tout. Le 22 novembre 1912, elle fait enregistrer ses droits sur la maison : elle en possédait déjà la moitié par la communauté de biens, et son mari lui lègue l'autre moitié. Elle signe « Léocadie Beaudoin Demers ».</p>
+
+<h3>Ses testaments</h3>
+<p>Le 31 juillet 1914, devant le notaire Joseph Boutin Bourassa, elle fait un testament qui favorise son fils Alphonse : il recevra ses meubles de ménage et sa maison de New Liverpool. Ses autres enfants se partageront son linge et ses vêtements, et tous, Alphonse compris, le reste de son argent. Elle réserve 400 piastres pour ses soins, ses funérailles, deux services chantés et des grand-messes. Son fils Charles sera son exécuteur testamentaire, et Joseph le remplacera au besoin. Les témoins sont le docteur Narcisse G. Cantin, médecin, et Ernest Robitaille, employé civil.</p>
+<p>Le 11 août 1928, elle refait son testament devant le même notaire (acte n° 10135). Ce second testament est dans les papiers de la famille, mais n'a pas encore été photographié ; il remplace sans doute celui de 1914.</p>
+
+<h3>La donation à Alphonse</h3>
+<p>Le même jour, le 11 août 1928, à 81 ans, elle donne de son vivant à Alphonse la maison et le terrain du lot n° 529, avec tous ses meubles et le linge de la maison. Elle lui remet aussi une dette de cent piastres. En échange, Alphonse paiera les taxes et une petite rente foncière annuelle, et devra « recevoir chez lui la donatrice quand elle voudra y aller demeurer et, alors, de la nourrir et entretenir convenablement et comme le doit faire un bon fils pour sa mère ». L'acte est passé chez Alphonse ; Léocadie et lui le signent.</p>
+
+<h3>La mort</h3>
+<p>Léocadie Beaudoin meurt le 5 mai 1931 à Saint-Romuald, à 84 ans <span class="petit">(arbre Filae ; l'acte de sépulture reste à retrouver)</span>.</p>
+</section>
+
+<!-- ======================= RECENSEMENTS ======================= -->
+<section>
+<span class="etiq">Les recensements</span>
+<h2>La famille sous l'œil du recenseur</h2>
+<p>Les trois recensements ont été faits au début d'avril. Les noms et les âges sont donnés tels que le recenseur les a écrits ; les âges sont ceux qu'on lui a déclarés. Les recensements de 1871 et de 1881 rangent Saint-Romuald en deux divisions ; les Demers sont dans la division 2. Le formulaire de 1891 n'a plus de case « division » et dresse une seule liste pour toute la paroisse ; mais la famille habite toujours le même secteur, celui de l'ancienne division 2. Patrick Blanchet l'a constaté, et la reconstitution des divisions de 1891 faite pour ce projet, maison par maison, place aussi la maison des Demers dans la division 2 : huit de ses membres y étaient déjà en 1881.</p>
+
+<h3>1871 — division 2, maison n° 81</h3>
+<table class="rec">
+<tr><th>Nom</th><th>Âge</th><th>État</th><th>Métier</th><th>Remarque</th></tr>
+<tr><td>Louis Demers</td><td class="n">27</td><td>marié</td><td>journalier</td><td>chef de la famille n° 102</td></tr>
+<tr><td>Léocadie Demers</td><td class="n">24</td><td>mariée</td><td></td><td></td></tr>
+<tr><td>Léocadie Demers</td><td class="n">7</td><td></td><td></td><td>va à l'école</td></tr>
+<tr><td>Charles Demers</td><td class="n">6 mois</td><td></td><td></td><td>né en octobre 1870</td></tr>
+<tr class="autre"><td>Benjamin Bourassa</td><td class="n">26</td><td>marié</td><td>journalier</td><td>autre famille de la même maison (n° 101)</td></tr>
+<tr class="autre"><td>Philomène Bourassa</td><td class="n">27</td><td>mariée</td><td></td><td></td></tr>
+<tr class="autre"><td>Albina et Belzémire Bourassa</td><td class="n">4 et 2</td><td></td><td></td><td>leurs filles</td></tr>
+</table>
+<p>Le jeune ménage partage sa maison avec celui de Benjamin Bourassa, journalier lui aussi. Tous sont nés au Québec, catholiques, d'origine française ; le recenseur n'a noté pour aucun des adultes la marque « ne sait pas écrire ».</p>
+
+<h3>1881 — division 2, maison n° 102</h3>
+<table class="rec">
+<tr><th>Nom</th><th>Âge</th><th>État</th><th>Métier</th><th>Remarque</th></tr>
+<tr><td>Louis Demers</td><td class="n">36</td><td>marié</td><td>journalier</td><td>chef de la famille n° 111</td></tr>
+<tr><td>Léocadie Demers</td><td class="n">34</td><td>mariée</td><td></td><td></td></tr>
+<tr><td>Charles</td><td class="n">11</td><td></td><td></td><td>à l'école</td></tr>
+<tr><td>Joseph</td><td class="n">7</td><td></td><td></td><td>à l'école</td></tr>
+<tr><td>Ernest</td><td class="n">5</td><td></td><td></td><td>à l'école</td></tr>
+<tr><td>Alfred</td><td class="n">3</td><td></td><td></td><td></td></tr>
+<tr><td>Malcolm</td><td class="n">2</td><td></td><td></td><td></td></tr>
+<tr><td>Eusèbe</td><td class="n">5 mois</td><td></td><td></td><td>né dans l'année</td></tr>
+<tr><td>Léocadie</td><td class="n">17</td><td></td><td></td><td></td></tr>
+</table>
+<p>La famille habite seule sa maison. La fille aînée, Léocadie, 17 ans, est inscrite en dernier, après les garçons.</p>
+
+<h3>1891 — maison n° 543, ancienne division 2</h3>
+<table class="rec">
+<tr><th>Nom</th><th>Âge</th><th>Lien</th><th>Métier</th><th>Remarque</th></tr>
+<tr><td>Louis Demers</td><td class="n">47</td><td>chef</td><td>boucher</td><td>patron ; sait lire et écrire</td></tr>
+<tr><td>Léocadie Demers</td><td class="n">44</td><td>épouse</td><td></td><td>sait lire et écrire</td></tr>
+<tr><td>Charles</td><td class="n">20</td><td>fils</td><td>journalier</td><td>employé</td></tr>
+<tr><td>Joseph</td><td class="n">17</td><td>fils</td><td>boucher</td><td>employé</td></tr>
+<tr><td>Ernest</td><td class="n">16</td><td>fils</td><td></td><td></td></tr>
+<tr><td>Alfred</td><td class="n">14</td><td>fils</td><td></td><td></td></tr>
+<tr><td>Malcom</td><td class="n">11</td><td>fils</td><td></td><td></td></tr>
+<tr><td>Eusèbe</td><td class="n">10</td><td>fils</td><td></td><td></td></tr>
+<tr><td>Alphonse</td><td class="n">3</td><td>fils</td><td></td><td></td></tr>
+</table>
+<p>Le recensement de 1891 décrit aussi la maison : elle est <strong>en bois, d'un étage, et compte sept pièces</strong>. Tous les membres de la famille sont dits nés au Québec, de parents nés au Québec, canadiens-français et catholiques. La fille aînée, Léocadie, n'est plus avec eux : elle avait alors environ 27 ans et s'était sans doute mariée.</p>
+
+<div class="encart prudence">
+<p><strong>Où était la maison ?</strong> Selon les notes de Patrick Blanchet, la famille habitait le 1617, chemin du Fleuve, de 1871 à 1891 sans déménager. Les papiers de famille montrent qu'en 1912 et en 1928 la maison familiale est sur le lot n° 529, au bord du fleuve. Mais en 1886 ce lot était encore la maison des Brown, et en 1871 les Demers vivaient dans une autre maison que celle d'Arthur Brown. Ou bien les Demers ont déménagé sur le lot 529 après l'avoir acheté, ou bien le lot 529 était un second bien (la boucherie, peut-être). L'acte d'achat du lot permettrait de trancher.</p>
+</div>
+</section>
+
+<!-- ======================= ENFANTS ======================= -->
+<section>
+<span class="etiq">Les enfants</span>
+<h2>Huit enfants connus</h2>
+<p>Huit enfants paraissent aux recensements. Les années de naissance sont calculées d'après les âges déclarés, sauf mention contraire. D'autres enfants ont pu naître et mourir entre deux recensements, ou naître après 1891 : seuls les registres de baptêmes le diraient.</p>
+
+<div class="enfant">
+<h3>Léocadie<span class="ne">née vers 1864</span></h3>
+<p>Fille aînée, 7 ans en 1871 (elle va déjà à l'école) et 17 ans en 1881 ; absente en 1891. Ses âges la font naître vers 1864, soit avant le mariage de ses parents en septembre 1865. Ou bien les âges sont approximatifs, ou bien c'est une parente élevée par le couple. Son acte de baptême et son mariage restent à trouver.</p>
+</div>
+<div class="enfant">
+<h3>Charles<span class="ne">né en octobre 1870</span></h3>
+<p>Six mois au recensement d'avril 1871, né en octobre 1870 ; journalier en 1891. Il épouse <strong>Mary Jane Cadorette</strong>, fille de Georges Cadorette et d'Amanda Villers, le 19 juin 1896 à Saint-Romuald. Sa mère le nomme son exécuteur testamentaire en 1914.</p>
+</div>
+<div class="enfant">
+<h3>Joseph<span class="ne">né vers 1873-1874</span></h3>
+<p>7 ans en 1881, 17 ans en 1891, déjà <strong>boucher</strong> comme son père. Il épouse <strong>Honoré Gagné</strong>, fille de Thomas Gagné et de Philomène Gingras, le 7 mai 1900 à Saint-Romuald. Sa mère le désigne en 1914 pour remplacer Charles comme exécuteur, au besoin.</p>
+</div>
+<div class="enfant">
+<h3>Ernest<span class="ne">né vers 1875-1876</span></h3>
+<p>5 ans en 1881 (à l'école), 16 ans en 1891. Aucun autre document pour l'instant.</p>
+</div>
+<div class="enfant">
+<h3>Alfred<span class="ne">né vers 1877-1878</span></h3>
+<p>3 ans en 1881, 14 ans en 1891. Il épouse <strong>Balzemine Cadorette</strong>, fille de Léon Cadorette et d'Angèle Cadorette, le 1<sup>er</sup> août 1898 en l'église de Saint-Romuald.</p>
+</div>
+<div class="enfant">
+<h3>Malcolm<span class="ne">né vers 1879</span></h3>
+<p>2 ans en 1881, 11 ans en 1891 (écrit « Malcom »). Aucun autre document pour l'instant.</p>
+</div>
+<div class="enfant">
+<h3>Eusèbe<span class="ne">né vers 1880-1881</span></h3>
+<p>Cinq mois au recensement d'avril 1881, 10 ans en 1891. Aucun autre document pour l'instant.</p>
+</div>
+<div class="enfant">
+<h3>Alphonse<span class="ne">né vers 1887-1888</span></h3>
+<p>Le plus jeune, 3 ans en 1891, et celui sur qui la famille a gardé le plus de papiers.</p>
+<p><strong>Mariage.</strong> Le 15 juin 1908, à Saint-Romuald, encore mineur, il épouse <strong>Éléonore Roberge</strong>, mineure elle aussi, fille de David Roberge et d'Éléonore Couture, de la même paroisse. Les deux jeunes gens sont parents : l'archevêché de Québec leur accorde une dispense du « troisième degré de consanguinité », ce qui veut dire qu'ils sont cousins issus de germains. Les témoins sont son père, Louis Demers, et Damase Vallières.</p>
+<p><strong>Charpentier au pont de Québec.</strong> De 1914 environ à 1918, il est charpentier pour la St. Lawrence Bridge Company, à la construction du pont de Québec. La compagnie le recommande en 1918 comme « un bon ouvrier, régulier », et « un charpentier de premier ordre ».</p>
+<p><strong>Contremaître.</strong> De 1926 environ à 1931, il est contremaître charpentier pour la Northern Construction Company et J. W. Stewart. Il dirige les coffrages de béton des nouveaux travaux du port de Québec, à l'Anse-au-Foulon, puis la construction des caissons et des coffrages à Trois-Rivières. La lettre de 1931 dit qu'il sait lire les plans et diriger l'implantation des ouvrages.</p>
+<p><strong>La maison familiale.</strong> Sa mère le favorise dans son testament de 1914 et lui donne la maison du lot 529 en 1928, à charge de l'héberger.</p>
+<p><strong>Veuvage.</strong> Éléonore Roberge meurt le 13 avril 1938 et est inhumée le 18 avril au cimetière de Saint-Romuald.</p>
+</div>
+</section>
+
+<!-- ======================= LA MAISON ======================= -->
+<section>
+<span class="etiq">La maison</span>
+<h2>Le lot n° 529, au bord du fleuve</h2>
+<p>Les papiers de la famille permettent de suivre un même terrain pendant plus de quarante ans. C'est le lot n° 529 du cadastre de la paroisse de Saint-Romuald, comté de Lévis : un emplacement de cinquante pieds de front (quarante, selon l'acte de 1928) sur environ cent pieds de profondeur. Il est borné au sud par le chemin public et au nord par la grève du Saint-Laurent, avec une maison et d'autres bâtiments.</p>
+
+<h3>De main en main</h3>
+<ol class="chaine">
+<li><strong>21 novembre 1860.</strong> Le terrain est concédé par un contrat passé devant le notaire Étienne Simard ; il reste grevé d'une rente foncière annuelle de huit piastres.</li>
+<li><strong>Jusqu'en 1886, Arthur Brown</strong>, boucher, en est propriétaire. Il le laisse par testament, le 4 septembre 1886, à sa belle-fille Matilda, femme de son fils John Brown, boucher lui aussi. Arthur meurt quelques semaines plus tard.</li>
+<li><strong>23 novembre 1886.</strong> John Brown et sa femme vendent le terrain et sa maison à <strong>Robert Ahern</strong>, pour 500 piastres. Les voisins sont alors la veuve de Charles Ward, au nord-est, et John Cullen, au sud-ouest ; la rente foncière est due à Théophile Hallé.</li>
+<li><strong>Entre 1886 et 1912, Louis Demers et Léocadie Beaudoin</strong> l'acquièrent. L'acte d'achat n'a pas encore été retrouvé ; ils ont reçu, avec le terrain, l'acte de vente de 1886, d'où sa présence dans leurs papiers.</li>
+<li><strong>22 novembre 1912.</strong> À la mort de Louis, <strong>Léocadie</strong> en devient seule propriétaire.</li>
+<li><strong>11 août 1928.</strong> Elle le donne à son fils <strong>Alphonse Demers</strong>. Les voisins sont alors Adélard (ou Alfred) Cadoret, au nord-est, et un Proulx, au sud-ouest ; la rente, de six piastres, est due à Jules Hallé.</li>
+</ol>
+<p>Le recensement de 1871 situe la maison d'Arthur Brown entre celles de John Cullen et de Charles Ward : ce sont exactement les voisins que nomme l'acte de 1886. Le lot 529 est donc très vraisemblablement la maison où vivait la famille Brown en 1871.</p>
+</section>
+
+<!-- ======================= PAPIERS DE FAMILLE ======================= -->
+<section>
+<span class="etiq">Les papiers de famille</span>
+<h2>Les documents gardés par la famille</h2>
+<p>Ces pièces originales ont été photographiées par Patrick Blanchet en novembre 2026. Leur transcription complète suit, et les photos sont reproduites à la fin du dossier.</p>
+
+<div class="piece"><img src="../scans/vente-brown-ahern-1886-1-endos.jpg" alt=""><div>
+<h3>1886 — Vente du lot 529 par John Brown à Robert Ahern</h3>
+<p class="ref">Copie notariée, minute n° 2115 du notaire M. U. Damien [Séguré ?], 23 novembre 1886 ; enregistrée à Lévis le 10 décembre 1886.</p>
+<p>Le plus ancien titre du terrain. La première page manque aux photos.</p></div></div>
+
+<div class="piece"><img src="../scans/testament-louis-demers-1904-2-acte.jpg" alt=""><div>
+<h3>1904 — Testament de Louis Demers</h3>
+<p class="ref">Copie notariée, minute n° 2337 du notaire Jean-Théophile Lemieux, 15 novembre 1904 ; enregistrée à Lévis le 26 novembre 1912.</p>
+<p>Louis lègue tout à sa femme.</p></div></div>
+
+<div class="piece"><img src="../scans/extrait-mariage-alphonse-demers-1908-2-acte.jpg" alt=""><div>
+<h3>1908 — Extrait de l'acte de mariage d'Alphonse Demers et d'Éléonore Roberge</h3>
+<p class="ref">Registre de la paroisse de Saint-Romuald d'Etchemin ; extrait certifié par le vicaire J. L. Dufresne le 8 avril 1918.</p>
+<p>Donne les parents des deux époux et la dispense de consanguinité.</p></div></div>
+
+<div class="piece"><img src="../scans/transmission-demers-1912-2-acte.jpg" alt=""><div>
+<h3>1912 — Déclaration de transmission par Léocadie Beaudoin</h3>
+<p class="ref">Copie notariée, minute n° 3760 du notaire J.-Théophile Lemieux, 22 novembre 1912 ; enregistrée à Lévis le 26 novembre 1912.</p>
+<p>Donne la date de mort de Louis et décrit le lot 529.</p></div></div>
+
+<div class="piece"><img src="../scans/testament-leocadie-beaudoin-1914-2-acte.jpg" alt=""><div>
+<h3>1914 — Testament de Léocadie Beaudoin</h3>
+<p class="ref">Copie notariée, minute n° 6884 du notaire Joseph Boutin Bourassa, 31 juillet 1914.</p>
+<p>Nomme Alphonse, Charles et Joseph.</p></div></div>
+
+<div class="piece"><img src="../scans/lettre-pont-quebec-alphonse-demers-1918.jpg" alt=""><div>
+<h3>1918 — Lettre de la St. Lawrence Bridge Company</h3>
+<p class="ref">Lettre originale, en anglais, Québec, 27 septembre 1918.</p>
+<p>Alphonse, charpentier au pont de Québec.</p></div></div>
+
+<div class="piece"><img src="../scans/devis-ecole-new-liverpool-1919.jpg" alt=""><div>
+<h3>1919 — Devis pour la réparation de l'école de New Liverpool</h3>
+<p class="ref">Devis signé Henri Dutil, Saint-Romuald, 17 juillet 1919.</p>
+<p>Aucun Demers n'y est nommé. Alphonse, charpentier, a peut-être soumissionné pour ces travaux : c'est une simple hypothèse.</p></div></div>
+
+<div class="piece"><img src="../scans/donation-demers-1928-2-acte.jpg" alt=""><div>
+<h3>1928 — Donation de la maison à Alphonse</h3>
+<p class="ref">Copie notariée, minute n° 10134 du notaire Joseph Boutin Bourassa, 11 août 1928 ; enregistrée à Lévis le 16 août 1928.</p>
+<p>Léocadie donne le lot 529 à son fils, qui s'engage à la garder chez lui.</p></div></div>
+
+<div class="piece"><img src="../scans/lettre-northern-construction-alphonse-demers-1931.jpg" alt=""><div>
+<h3>1931 — Lettre de la Northern Construction Company</h3>
+<p class="ref">Lettre originale, en anglais, Trois-Rivières, 29 mai 1931.</p>
+<p>Alphonse, contremaître charpentier.</p></div></div>
+
+<div class="piece"><img src="../scans/sepulture-eleonore-roberge-1938.jpg" alt=""><div>
+<h3>1938 — Certificat d'inhumation d'Éléonore Roberge</h3>
+<p class="ref">Certificat du curé E.-A. Dupont, Saint-Romuald, 15 juin 1939.</p>
+<p>Mort de l'épouse d'Alphonse, le 13 avril 1938.</p></div></div>
+</section>
+
+<!-- ======================= TRANSCRIPTIONS ======================= -->
+<section class="trans">
+<span class="etiq">Transcriptions</span>
+<h2>Le texte des documents</h2>
+<p>Les textes sont donnés tels qu'ils sont écrits, avec l'orthographe d'époque. Les crochets signalent une lecture incertaine [ ? ], un mot rayé ou une note du transcripteur.</p>
+
+<h3>Vente Brown-Ahern, 23 novembre 1886 (le début manque)</h3>
+<p>« […] au nord à la grève du fleuve St Laurent, d'un côté au nord-est à Veuve Charles Ward et d'autre côté au sud-ouest à John Cullen, avec maison dessus construite, circonstances et dépendances. Le dit emplacement porte le numéro cinq cent vingt-neuf (529) des plan et livre de renvois officiels du cadastre dans et pour la paroisse de St Romuald, comté de Lévis. Tel et ainsi que le tout se poursuit, comporte de fond en comble et s'étend de toutes parts, et dont le dit acquéreur se déclare content et satisfait pour le tout bien connaître et l'avoir vu et visité. Appartenant à la dite Dame John Brown pour l'avoir eu par testament de feu Sieur Arthur Brown, reçu en présence du notaire soussigné et témoins le quatrième jour de septembre mil huit cent quatre-vingt-six. […] Cette vente est faite pour et moyennant le prix et somme de cinq cent piastres courant, payable comme suit, savoir : la somme de cent piastres courant dès l'exécution des présentes, dont quittance d'autant ; quant à la balance, il la paiera comme suit : cent piastres le vingt-deuxième jour de novembre mil huit cent quatre-vingt-sept et ensuite cent piastres par année à pareille date jusqu'au parfait paiement, le tout sans intérêt ; si les paiements ne se faisaient pas régulièrement, l'intérêt serait de six par cent par année. Cette vente est faite à la charge par le dit acquéreur […] de payer annuellement au premier octobre de chaque année à Sieur Théophile Hallé, ses héritiers et ayants cause, une rente foncière et constituée de huit piastres courant par année. A la charge en outre de se conformer strictement à toutes les charges, clauses et conditions et réserves mentionnées et énumérées en le contrat de concession du vingt et un de novembre mil huit cent soixante, en présence de Étienne Simard et son confrère, notaires. […] Fait et passé à St Romuald, en l'étude de Me M. U. Damien [Séguré ?], notaire, l'an mil huit cent quatre-vingt-six, le vingt-troisième jour du mois de novembre, après-midi, sous le numéro deux mille cent quinze des minutes du notaire soussigné. […] (Signé) “Matilda [Moffet ?] Brown”, “John Brown”, “Robert Ahern”, “M. U. Damien [Séguré ?] N.P.” »</p>
+
+<h3>Testament de Louis Demers, 15 novembre 1904</h3>
+<p>« L'an mil neuf cent quatre, le quinzième jour du mois de novembre ; Devant Jean Théophile Lemieux, notaire public pour la province de Québec, résidant et pratiquant en la paroisse de St-Romuald d'Etchemin, soussigné, et en présence de Messieurs Honoré McReady, marchand, et Paul Girard, inspecteur de bois, tous deux de la paroisse de St-Romuald d'Etchemin, témoins exprès demandés au présent testament. A comparu : Sieur Louis Demers de la paroisse de St-Romuald d'Etchemin, boucher, étant en santé de corps, sain d'esprit, mémoire, jugement et entendement ainsi qu'il a paru aux dits notaire et témoins ci-dessus nommés : Lequel a dans la vue de la mort fait et dicté son présent testament au dit notaire en la présence actuelle et constante des dits témoins ainsi qu'il suit, savoir : 1o Je recommande mon âme à Dieu et le prie de lui faire miséricorde. 2o Je veux qu'avant tout mes dettes soient payées et mes torts, s'il y a, scrupuleusement réparés par mon exécutrice testamentaire ci-après nommé à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes et prières, voulant néanmoins qu'un service soit chanté sur mon corps le jour de mes funérailles et un autre service dans l'an de mon décès aussi que vingt-cinq messes basses soient dites le plus tôt possible après mon décès pour le repos de mon âme. 3o Je donne et lègue à Dame Léocadie Beaudoin mon épouse actuelle tous mes biens meubles et immeubles que je délaisserai au jour de mon décès de quelque nature et valeur qu'ils soient et en quelque lieu qu'ils soient dûs et situés, l'instituant ma légataire universelle et mon exécutrice testamentaire. 4o Je révoque tous autres testaments et codicilles que je pourrais avoir faits avant celui-ci. […] Dont acte, fait et passé en la paroisse de St-Romuald d'Etchemin, au domicile du dit testateur, les jours, mois et an susdit sous le numéro deux mille trois cent trente-sept des minutes du notaire soussigné. […] (Signé) “Louis Demers”, “Honoré McReady”, “Paul Girard”, “J. Théo. Lemieux N.P.” Vraie copie de la minute de record en mon étude. Vingt-huit mots rayés sont nuls. »</p>
+
+<h3>Mariage d'Alphonse Demers et d'Éléonore Roberge, 15 juin 1908</h3>
+<p>« Extrait du Registre des baptêmes, mariages et sépultures de la paroisse de Saint-Romuald d'Etchemin, pour l'année mil neuf cent huit. Le quinze juin mil neuf cent huit, vu la dispense de deux bans de mariage et du troisième degré de consanguinité, accordée le [treize ?] du courant par Monseigneur [E.] A. Marois, V.G. de Sa Grandeur Monseigneur L. N. Bégin, archevêque de Québec, vu la publication d'un autre ban faite au prône de notre messe paroissiale entre Alphonse Demers, domicilié en cette paroisse, fils mineur de Louis Demers et de Léocadie Beaudoin de cette paroisse, d'une part ; et Eléonore Roberge, domiciliée en cette paroisse, fille mineure de David Roberge et de Eléonore Couture, aussi de cette paroisse, d'autre part ; ne s'étant découvert aucun empêchement au dit mariage, nous, prêtre curé soussigné, avons, avec l'agrément des pères des époux mineurs, reçu leur mutuel consentement de mariage et leur avons donné la bénédiction nuptiale en présence de Damase Vallières, qui a déclaré ne savoir signer, et de Louis Roberge [sic : Louis Demers], père de l'époux, soussigné avec les époux. Lecture faite. (Signé) Eléonore Roberge, Alphonse Demers, Louis Demers, [H. ?] Richard, ptre. » — Extrait certifié conforme le 8 avril 1918 par J. L. Dufresne, ptre, vicaire.</p>
+
+<h3>Déclaration de transmission, 22 novembre 1912</h3>
+<p>« L'an mil neuf cent douze, le vingt deuxième jour du mois de novembre ; Devant Jean Théophile Lemieux, notaire public pour la province de Québec, résidant et pratiquant en la paroisse de St Romuald d'Etchemin, soussigné ; A comparu : Dame Léocadie Beaudoin de la paroisse de St Romuald d'Etchemin, veuve de feu Louis Demers, ce dernier en son vivant du même lieu, boucher et commerçant de bois. Laquelle donne par les présentes avis à Monsieur le Régistrateur du comté de Lévis que son dit époux, feu Louis Demers, est décédé en la dite paroisse de St Romuald d'Etchemin le trentième jour du mois de octobre dernier après avoir fait recevoir son testament authentique par le notaire soussigné, le quinze novembre mil neuf cent quatre, lequel testament n'a pas été révoqué ni changé. Que par son susdit testament le dit Louis Demers a institué la dite comparante sa légataire universelle et son exécutrice testamentaire. Qu'au nombre des biens légués à la dite comparante se trouve la moitié indivise de l'immeuble suivant sur laquelle la dite comparante requiert l'enregistrement de ses droits de propriété, et l'autre moitié indivise appartenant déjà à la dite comparante comme étant sa part de communauté de biens, savoir : Un emplacement contenant cinquante pieds de front sur environ cent pieds de profondeur, étant le lot numéro cinq cent vingt-neuf (529) du cadastre de la paroisse de St Romuald d'Etchemin, comté de Lévis, avec bâtisses, circonstances et dépendances ; Cette déclaration est ainsi faite en conformité à l'article deux mille quatre-vingt-dix-huit du code civil du Bas Canada et pour valoir ce que de droit. Dont acte […] sous le numéro trois mille sept cent soixante des minutes du notaire soussigné. Après lecture faite des présentes à la dite comparante, elle a signé avec nous notaire. (Signé) “Léocadie Beaudoin” “Demers” “J. Théo. Lemieux N.P.” »</p>
+
+<h3>Testament de Léocadie Beaudoin, 31 juillet 1914</h3>
+<p>« L'an mil neuf cent quatorze, le trente-unième jour du mois de juillet. Devant Joseph Boutin Bourassa, Notaire Public pour la Province de Québec, résidant et pratiquant à St Romuald. A comparu Madame Léocadie Beaudoin, de la paroisse de St Romuald, veuve de feu Louis Demers, en son vivant du même lieu, commerçant. Laquelle nous a requis de recevoir son testament qu'elle a, en présence de Docteur Narcisse G. Cantin, de St Côme [?], Beauce, médecin, et Ernest Robitaille, employé civil, de la dite paroisse de St Romuald et témoins aux présentes, fait comme suit, savoir : 1o — Je lègue à Alphonse Demers, mon fils, tous mes meubles de ménage, sans exception, ainsi que mon immeuble situé à St Romuald, division New Liverpool, avec les bâtisses dessus construites. Mais, dans le cas où il mourrait avant moi et que je ne pourrais faire de testament avant mon décès pour disposer des dits biens ci-dessus légués, je veux qu'ils retournent et appartiennent aux enfants du dit Alphonse Demers, par parts égales ; 2o — Je lègue tous mes linges, lingerie et vêtements, sans exception ni réserve, à mes enfants nés de mon mariage avec le dit feu Louis Demers, mon époux, à l'exception du dit Alphonse Demers, pour être partagés entre eux par parts égales par mon exécuteur ci-après nommé ; 3o — Je veux que, sur les argents que je posséderai à mon décès, qu'il soit pris une somme de quatre cents piastres pour payer mes soins de dernière maladie, mes funérailles, pour me faire chanter deux services, le premier au coût de cinquante-six piastres, lors de mon décès, le second, au coût de trente piastres, un an après mon décès, et la balance pour faire chanter des grandes messes pour le repos de mon âme, aussitôt possible après mon décès ; 4o — Je lègue le reste de mes argents et les autres biens que je posséderai à mon décès aux enfants nés de mon mariage avec le dit Louis Demers, même et y compris le dit Alphonse Demers, pour être partagés entre eux par parts égales par mon exécuteur testamentaire. 5o — Je nomme pour mon exécuteur testamentaire Charles Demers, mon fils, et je veux qu'il reste en fonction au-delà de l'an et jour fixés par la loi, c'est-à-dire jusqu'à l'entière exécution de mon présent testament. Si ce dernier meurt ou devient incapable de voir à l'exécution de mon présent testament, je nomme mon autre fils, Joseph Demers, pour le remplacer. 6o — Je donne à mon exécuteur testamentaire le pouvoir de faire le partage de mes biens mentionnés dans les articles deux et quatre de mon présent testament, d'une manière juste et au meilleur de son jugement et suivant sa conscience, et je veux que sa décision soit finale et sans appel. 7o — Je révoque tout autre testament et codicille que j'aurais pu faire avant le présent auquel je m'arrête. Dont acte : fait et passé à St Romuald, étude du notaire soussigné, sous le numéro six mille huit cent quatre-vingt-quatre. […] (Signé) “Léocadie Beaudoin” “N. G. Cantin, M.D.” “Ernest Robitaille” “J. Boutin Bourassa, N.P.” »</p>
+
+<h3>Lettre de la St. Lawrence Bridge Company, 27 septembre 1918 (traduction)</h3>
+<p>« À qui de droit. Nous certifions qu'Alphonse Demers est au service de la compagnie depuis quatre ans comme charpentier à la construction du pont de Québec. C'est un bon ouvrier, régulier ; nous l'avons toujours trouvé attentif et pleinement satisfaisant dans tout son travail, et nous le recommandons volontiers à quiconque cherche un charpentier de premier ordre. » <span class="petit">Original anglais : « This is to certify that Alphonse Demers has been in the employ of this Company for the past 4 years as Carpenter on the construction of the Quebec Bridge. […] »</span></p>
+
+<h3>Devis pour l'école de New Liverpool, 17 juillet 1919 (résumé)</h3>
+<p>Treize articles de travaux pour « la maison d'école de St Romuald d'Etchemin (New Liverpool) » : rehausser l'étage supérieur ; ajouter deux ventilateurs dans chaque classe « de manière à fournir le plus d'air possible aux élèves » ; lambris d'épinette recouvert de bardeau d'amiante ; solage et perrons de béton, avec soupiraux pour la cave ; déplacer l'escalier ; toiture en bardeaux de cèdre ou de pin ; portes neuves à double vitrage ; peinture ; un hangar à bois de 12 sur 18 pieds d'une valeur de 300 $ ; un tambour d'entrée temporaire. Signé : Henri Dutil.</p>
+
+<h3>Donation de Léocadie Beaudoin à Alphonse Demers, 11 août 1928</h3>
+<p>« L'an mil neuf cent vingt-huit, le onzième jour du mois de Août. Devant Joseph Boutin Bourassa, Notaire Public pour la Province de Québec, résidant et pratiquant à St-Romuald. A comparu Madame Léocadie Beaudoin, de la paroisse de St-Romuald, veuve de feu Louis Demers, en son vivant du même lieu, commerçant. Laquelle a donné, par voie et à titre de donation entre-vifs, à Alphonse Demers, du même lieu, son fils, ce acceptant, savoir : Un emplacement contenant quarante pieds de front, sur environ cent pieds de profondeur, borné au sud par le chemin public, au nord, à la rive du fleuve St-Laurent, au nord-est à Alfred [corrigé à la main : Adélard] Cadoret et au sud-ouest à Xavier [Irénée ?] Proulx, avec la maison et autres bâtisses dessus construites, connu et désigné sous le numéro cinq cent vingt-neuf (529) du cadastre pour la paroisse de St-Romuald, Comté de Lévis ; Tout son ameublement de maison, ainsi que les linges et lingerie qui se trouvent actuellement dans la maison construite sur l'immeuble ci-haut décrit, le tout sans exception ni réserve ; Donne de plus la donatrice au donataire la somme de cent piastres à elle due par le dit donataire en capital et intérêts. Cette donation est faite à la charge par le donataire des taxes et cotisations municipales et scolaires et d'une rente foncière annuelle de six piastres, payable à Jules Hallé, de St-Romuald. Encore à la charge par le donataire de recevoir chez lui la donatrice quand elle voudra y aller demeurer et, alors, de la nourrir et entretenir convenablement et comme le doit faire un bon fils pour sa mère ; sans garantie hypothécaire. Dont acte : fait et passé à St-Romuald, demeure du donataire, sous le numéro dix mille cent trente-quatre. Et, après lecture faite, les parties ont signé avec moi, Notaire. (Signé) “Léocadie Beaudoin” “Alphonse Demers” “J. Boutin Bourassa, N.P.” »</p>
+
+<h3>Lettre de la Northern Construction Company, 29 mai 1931 (traduction)</h3>
+<p>« À qui de droit. Le porteur, Alphonse Demers, est au service de la Northern Construction Company Limited et J. W. Stewart depuis cinq ans, comme contremaître charpentier. Il a eu la charge des coffrages de béton des nouveaux travaux du port de Québec, à l'Anse-au-Foulon, de la construction des caissons à Trois-Rivières, et des coffrages de béton à Trois-Rivières. Nous le recommandons sans hésiter à quiconque a besoin de tels services : il a toujours montré beaucoup de compétence et fait un travail sûr ; il est régulier, sobre, très dévoué et serviable ; il sait lire les plans et peut diriger l'implantation des ouvrages. »</p>
+
+<h3>Certificat d'inhumation d'Éléonore Roberge, 15 juin 1939</h3>
+<p>« Nous soussigné, prêtre curé de Saint-Romuald, certifions que Eléonore Roberge épouse de Alphonse Demers est décédée le treize avril mil neuf cent trente huit et a été inhumée dans le cimetière de Saint-Romuald le dix-huit du même mois et de la même année en présence de Arthur Morin et de Georges Marcoux et autres parents et amis. Certifié par nous prêtre curé de Saint-Romuald, ce quinzième jour de juin mil neuf cent trente-neuf. E.-A. Dupont, ptre-curé. »</p>
+</section>
+
+<!-- ======================= À CHERCHER ======================= -->
+<section>
+<span class="etiq">Pour aller plus loin</span>
+<h2>Ce qui reste à chercher</h2>
+<ul class="pistes">
+<li><strong>Le baptême de Louis Demers</strong> (Saint-Jean-Chrysostome, février 1844) : il nommera ses parents. Il dira si son père est le Louis Demers marié à Geneviève Gosselin, et donc si Euphrasie, Adélaïde et Virginie Demers étaient ses sœurs.</li>
+<li><strong>L'acte de mariage de 1865</strong> (Saint-Jean-Chrysostome, 19 septembre) : il confirmera la date et nommera les parents des deux époux.</li>
+<li><strong>Le baptême de Léocadie Beaudoin</strong> (22 août 1846) : pour vérifier les renseignements de l'arbre Filae et trouver la paroisse de naissance.</li>
+<li><strong>Les actes de sépulture</strong> de Louis (octobre-novembre 1912) et de Léocadie (mai 1931), au registre de Saint-Romuald : ils donneront leur âge au décès et les noms des témoins, souvent des fils ou des gendres.</li>
+<li><strong>Le second testament de Léocadie</strong>, du 11 août 1928 (n° 10135 du notaire Boutin Bourassa), qui est dans les papiers de la famille : à photographier.</li>
+<li><strong>L'achat du lot 529</strong> par les Demers, entre 1886 et 1912 : il se trouve au bureau de la publicité des droits de Lévis, à l'index aux immeubles du lot 529 de Saint-Romuald.</li>
+<li><strong>La fille aînée, Léocadie</strong> : son baptême, vers 1864, et son mariage, sans doute entre 1881 et 1891.</li>
+<li><strong>Ernest, Malcolm et Eusèbe</strong> : leurs mariages et leurs décès ne sont pas encore connus.</li>
+<li><strong>La parenté entre les Demers et les Roberge</strong>, que révèle la dispense de 1908 : un des parents d'Alphonse et un des parents d'Éléonore étaient cousins germains.</li>
+<li><strong>Le recensement de 1901</strong>, et ceux de 1911 et 1921, qui ne sont pas encore dépouillés dans ce projet : ils montreraient la famille après 1891.</li>
+</ul>
+</section>
+
+<!-- ======================= SOURCES ======================= -->
+<section class="suite">
+<span class="etiq">Sources</span>
+<h2>Les sources de ce dossier</h2>
+<dl class="sources">
+<dt>Recensements du Canada</dt>
+<dd>1871, Saint-Romuald, division 2, page 31, lignes 18 à 20, et page 32, ligne 1 (maison 81, famille 102). — 1881, division 2, page 25, lignes 11 à 19 (maison 102, famille 111). — 1891, page 123, lignes 5 à 13 (maison 543 ; le formulaire n'a pas de division, la maison se situe dans l'ancienne division 2). Dépouillement et relecture du manuscrit : projet de recherche sur les recensements de Saint-Romuald, Patrick Blanchet.</dd>
+<dt>Papiers de la famille Demers (originaux photographiés en novembre 2026)</dt>
+<dd>Vente Brown-Ahern, notaire M. U. Damien [Séguré ?], minute 2115, 23 novembre 1886 ; enregistrement Lévis, registre B, vol. 33, p. 582, n° 28451. — Testament de Louis Demers, notaire J.-Théophile Lemieux, minute 2337, 15 novembre 1904. — Extrait de mariage d'Alphonse Demers et d'Éléonore Roberge, registre de Saint-Romuald, 15 juin 1908, extrait du 8 avril 1918. — Déclaration de transmission, notaire J.-Théophile Lemieux, minute 3760, 22 novembre 1912 ; enregistrement Lévis, registre B, vol. 56, p. 348, n° 50833. — Testament de Léocadie Beaudoin, notaire Joseph Boutin Bourassa, minute 6884, 31 juillet 1914. — Lettre de la St. Lawrence Bridge Company, 27 septembre 1918. — Devis signé Henri Dutil, 17 juillet 1919. — Donation à Alphonse Demers, notaire Joseph Boutin Bourassa, minute 10134, 11 août 1928 ; enregistrement Lévis, registre B, vol. 79, n° 69959. — Lettre de la Northern Construction Company, 29 mai 1931. — Certificat du curé de Saint-Romuald, 15 juin 1939.</dd>
+<dt>Greffe du notaire Elzéar-Hubert Tremblay, Saint-Romuald (microfilm)</dt>
+<dd>Vente Pichette à Couture, minute 45, 28 février 1874 (mention de la cession de 1856 par Louis Demers). — Contrat de mariage Carrier-Demers, minute 6, 23 novembre 1873 (Louis Demers et Geneviève Gosselin, de Saint-Jean-Chrysostome).</dd>
+<dt>Compilations et arbres en ligne (à vérifier sur les registres)</dt>
+<dd>Mariages de Charles (1896), Alfred (1898) et Joseph (1900) Demers : « Canada, Quebec Marriages 1820-1917 », via MyHeritage. — Mariage d'Alphonse (1908) : « Couples du Canada et du Québec », via MyHeritage, confirmé par l'extrait de famille. — Naissance et décès de Louis Demers : arbre « Beaudoin Web Site », MyHeritage. — Naissance, parents, frères et sœurs, mariage et décès de Léocadie Beaudoin : arbres Filae.</dd>
+</dl>
+</section>
+
+<!-- ======================= GALERIE ======================= -->
+<section class="galerie">
+<span class="etiq">Annexe</span>
+<h2>Les documents en images</h2>
+<figure><img src="../scans/vente-brown-ahern-1886-1-endos.jpg" alt="Vente Brown-Ahern, 1886"><figcaption>Vente Brown-Ahern, 1886 — photo 1 sur 5</figcaption></figure>
+<figure><img src="../scans/vente-brown-ahern-1886-2-lot.jpg" alt="Vente Brown-Ahern, 1886"><figcaption>Vente Brown-Ahern, 1886 — photo 2 sur 5</figcaption></figure>
+<figure><img src="../scans/vente-brown-ahern-1886-3-prix.jpg" alt="Vente Brown-Ahern, 1886"><figcaption>Vente Brown-Ahern, 1886 — photo 3 sur 5</figcaption></figure>
+<figure><img src="../scans/vente-brown-ahern-1886-4-rente.jpg" alt="Vente Brown-Ahern, 1886"><figcaption>Vente Brown-Ahern, 1886 — photo 4 sur 5</figcaption></figure>
+<figure><img src="../scans/vente-brown-ahern-1886-5-signatures.jpg" alt="Vente Brown-Ahern, 1886"><figcaption>Vente Brown-Ahern, 1886 — photo 5 sur 5</figcaption></figure>
+<figure><img src="../scans/testament-louis-demers-1904-1-endos.jpg" alt="Testament de Louis Demers, 1904"><figcaption>Testament de Louis Demers, 1904 — photo 1 sur 3</figcaption></figure>
+<figure><img src="../scans/testament-louis-demers-1904-2-acte.jpg" alt="Testament de Louis Demers, 1904"><figcaption>Testament de Louis Demers, 1904 — photo 2 sur 3</figcaption></figure>
+<figure><img src="../scans/testament-louis-demers-1904-3-signatures.jpg" alt="Testament de Louis Demers, 1904"><figcaption>Testament de Louis Demers, 1904 — photo 3 sur 3</figcaption></figure>
+<figure><img src="../scans/extrait-mariage-alphonse-demers-1908-2-acte.jpg" alt="Mariage d'Alphonse Demers, 1908"><figcaption>Mariage d'Alphonse Demers, 1908 — photo 1 sur 3</figcaption></figure>
+<figure><img src="../scans/extrait-mariage-alphonse-demers-1908-3-detail.jpg" alt="Mariage d'Alphonse Demers, 1908"><figcaption>Mariage d'Alphonse Demers, 1908 — photo 2 sur 3</figcaption></figure>
+<figure><img src="../scans/extrait-mariage-alphonse-demers-1908.jpg" alt="Mariage d'Alphonse Demers, 1908"><figcaption>Mariage d'Alphonse Demers, 1908 — photo 3 sur 3</figcaption></figure>
+<figure><img src="../scans/transmission-demers-1912-1-endos.jpg" alt="Déclaration de transmission, 1912"><figcaption>Déclaration de transmission, 1912 — photo 1 sur 2</figcaption></figure>
+<figure><img src="../scans/transmission-demers-1912-2-acte.jpg" alt="Déclaration de transmission, 1912"><figcaption>Déclaration de transmission, 1912 — photo 2 sur 2</figcaption></figure>
+<figure><img src="../scans/testament-leocadie-beaudoin-1914-1-endos.jpg" alt="Testament de Léocadie Beaudoin, 1914"><figcaption>Testament de Léocadie Beaudoin, 1914 — photo 1 sur 3</figcaption></figure>
+<figure><img src="../scans/testament-leocadie-beaudoin-1914-2-acte.jpg" alt="Testament de Léocadie Beaudoin, 1914"><figcaption>Testament de Léocadie Beaudoin, 1914 — photo 2 sur 3</figcaption></figure>
+<figure><img src="../scans/testament-leocadie-beaudoin-1914-3-signatures.jpg" alt="Testament de Léocadie Beaudoin, 1914"><figcaption>Testament de Léocadie Beaudoin, 1914 — photo 3 sur 3</figcaption></figure>
+<figure><img src="../scans/lettre-pont-quebec-alphonse-demers-1918.jpg" alt="Lettre de la St. Lawrence Bridge Company, 1918"><figcaption>Lettre de la St. Lawrence Bridge Company, 1918</figcaption></figure>
+<figure><img src="../scans/devis-ecole-new-liverpool-1919.jpg" alt="Devis pour l'école de New Liverpool, 1919"><figcaption>Devis pour l'école de New Liverpool, 1919</figcaption></figure>
+<figure><img src="../scans/donation-demers-1928-1-endos.jpg" alt="Donation à Alphonse Demers, 1928"><figcaption>Donation à Alphonse Demers, 1928 — photo 1 sur 3</figcaption></figure>
+<figure><img src="../scans/donation-demers-1928-2-acte.jpg" alt="Donation à Alphonse Demers, 1928"><figcaption>Donation à Alphonse Demers, 1928 — photo 2 sur 3</figcaption></figure>
+<figure><img src="../scans/donation-demers-1928-3-signatures.jpg" alt="Donation à Alphonse Demers, 1928"><figcaption>Donation à Alphonse Demers, 1928 — photo 3 sur 3</figcaption></figure>
+<figure><img src="../scans/lettre-northern-construction-alphonse-demers-1931.jpg" alt="Lettre de la Northern Construction Company, 1931"><figcaption>Lettre de la Northern Construction Company, 1931</figcaption></figure>
+<figure><img src="../scans/sepulture-eleonore-roberge-1938.jpg" alt="Certificat d'inhumation d'Éléonore Roberge, 1939"><figcaption>Certificat d'inhumation d'Éléonore Roberge, 1939</figcaption></figure>
+</section>
+
+</body>
+</html>

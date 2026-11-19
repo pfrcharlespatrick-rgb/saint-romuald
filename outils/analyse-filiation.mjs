@@ -74,6 +74,14 @@ const SEXE_DOUTEUX = new Set();
 
 const SEUILS = { forte: 0.80, moyenne: 0.62, faible: 0.48 };
 
+/* Séparateur des paires de ménages. Une clé de ménage peut porter une espace
+   — « 1871-D2-M139 [?]-F176 », pour un numéro de lecture incertaine — : il
+   faut donc un caractère qui n'entre dans aucun numéro. C'est le caractère
+   nul, écrit ici par son échappement : posé tel quel dans le source, il
+   faisait passer ce fichier pour binaire aux yeux de git et de grep, et ses
+   modifications ne se lisaient plus dans l'historique. */
+const SEP = '\0';
+
 /* ─── Chargement ─────────────────────────────────────────────────────── */
 
 /* Compléments de dépouillement, chargés par-dessus les recensements. Ils ne
@@ -271,6 +279,25 @@ function scorerCouple(avant, apres, ecart) {
   return { score, motifs, sPat, sPre, age };
 }
 
+/** Ce qui concorde entre deux fiches que le calcul par le nom n'a pas
+    retenues ensemble — pour dire sur quoi repose un lien posé à la main.
+    Rend une liste vide quand rien ne concorde : ni nom, ni prénom, ni âge. */
+function appuisDe(avant, apres, ecart) {
+  const motifs = [];
+  const sPat = similarPatronyme(avant.clePatronyme, apres.clePatronyme);
+  const sPre = similarPrenom(avant.clesPrenom, apres.clesPrenom);
+  const age = noterAge(avant.age, apres.age, ecart);
+  const ageTient = age.connu && age.derive <= 6;
+  if (sPat < 0.6 && sPre < 0.75 && !ageTient) return motifs;
+  motifs.push(sPat === 1 ? 'patronyme identique' : sPat >= 0.6 ? `patronyme proche (${avant.nom} / ${apres.nom})`
+    : `patronyme différent (${avant.nom} / ${apres.nom})`);
+  motifs.push(sPre === 1 ? 'prénom concordant' : sPre >= 0.75 ? `prénom proche (${avant.prenom} / ${apres.prenom})`
+    : `prénom différent (${avant.prenom || '—'} / ${apres.prenom || '—'})`);
+  if (age.connu) motifs.push(`âge ${ageTient ? 'cohérent' : 'divergent'} (${avant.age} → ${apres.age}, écart de ${ecart} ans)`);
+  if (sexeFiable(avant) && sexeFiable(apres)) motifs.push(avant.sexe === apres.sexe ? 'sexe concordant' : `sexe divergent (${avant.sexe} → ${apres.sexe})`);
+  return motifs;
+}
+
 /**
  * Rapproche deux recensements.
  * Passe 1 : couples plausibles, indexés par patronyme pour rester rapide.
@@ -307,7 +334,7 @@ function rapprocher(personnesAvant, personnesApres, ecart, main = { forces: [], 
   const parMenages = new Map();
   for (const c of couples) {
     if (c.score < 0.5) continue;
-    const cle = `${c.avant.menage} ${c.apres.menage}`;
+    const cle = c.avant.menage + SEP + c.apres.menage;
     if (!parMenages.has(cle)) parMenages.set(cle, []);
     parMenages.get(cle).push(c);
   }
@@ -319,15 +346,19 @@ function rapprocher(personnesAvant, personnesApres, ecart, main = { forces: [], 
   }
 
   for (const c of couples) {
-    const cle = `${c.avant.menage} ${c.apres.menage}`;
+    const cle = c.avant.menage + SEP + c.apres.menage;
     const compagnons = (forceMenage.get(cle) || 1) - 1;
     if (compagnons > 0) {
       const bonus = Math.min(0.26, 0.07 * compagnons);
-      // Le score reste borné à 1 : au-delà, la confiance ne veut plus rien dire.
-      c.score = Math.min(1, c.score + bonus);
+      // Le score brut sert à départager (voir la passe 3) ; le score affiché
+      // reste borné à 1 : au-delà, la confiance ne veut plus rien dire.
+      c.brut = c.score + bonus;
+      c.score = Math.min(1, c.brut);
       c.compagnons = compagnons;
       c.motifs.push(`${compagnons} autre(s) membre(s) du ménage se retrouvent ensemble`);
     } else {
+      c.brut = c.score;
+      c.score = Math.min(1, c.score);
       c.compagnons = 0;
     }
   }
@@ -338,7 +369,12 @@ function rapprocher(personnesAvant, personnesApres, ecart, main = { forces: [], 
   // rapprochement écarté à la main n'est jamais retenu — le candidat suivant,
   // s'il en est un, prend sa place. Puis le meilleur couple gagne ; les autres
   // restent consultables comme concurrents, jamais supprimés en silence.
-  couples.sort((a, b) => b.score - a.score);
+  // Le tri se fait sur le score brut, non borné. Borné à 1, deux homonymes
+  // corroborés arrivaient à égalité et le premier lu l'emportait : Hubert
+  // Roberge, 33 ans, pouvait prendre la place de Hubert Roberge, 29 ans, auprès
+  // de l'épouse et du ménage du second. Le brut garde l'écart — âge plus juste,
+  // ménage mieux retrouvé — et c'est lui qui décide.
+  couples.sort((a, b) => b.brut - a.brut);
   const prisAvant = new Map();
   const prisApres = new Map();
   const retenus = [];
@@ -348,17 +384,23 @@ function rapprocher(personnesAvant, personnesApres, ecart, main = { forces: [], 
   const parPaire = new Map(couples.map(c => [`${c.avant.id}__${c.apres.id}`, c]));
   for (const f of main.forces) {
     const calcule = parPaire.get(`${f.avant.id}__${f.apres.id}`);
+    // Un lien que le nom n'avait pas retenu — une épouse sous son nom de
+    // naissance, un prénom d'usage — porte quand même ce qui concorde : l'âge,
+    // le sexe, l'un des deux noms. C'est le cas des rapprochements proposés
+    // par le ménage puis confirmés.
+    const appuis = calcule ? null : appuisDe(f.avant, f.apres, ecart);
     const c = calcule || {
       avant: f.avant, apres: f.apres, compagnons: 0,
-      motifs: ['aucun indice calculé : le rapprochement ne tient qu\'à la main'],
+      motifs: appuis.length ? appuis : ['aucun indice calculé : le rapprochement ne tient qu\'à la main'],
     };
     c.score = 1;
+    c.brut = Infinity;
     c.main = true;
-    // Un lien que rien ne corrobore — ni nom, ni âge, ni ménage — est retenu
-    // quand même, mais dit comme tel : c'est souvent un identifiant qui a
-    // glissé depuis la confirmation, et il faut que ça se voie.
-    if (!calcule) c.sansIndice = true;
-    c.motifs = [...c.motifs, `rapprochement confirmé à la main dans l'atelier${f.note ? ' — ' + f.note : ''}`];
+    // Un lien que rien ne corrobore — ni nom, ni âge — est retenu quand même,
+    // mais dit comme tel : c'est souvent un identifiant qui a glissé depuis la
+    // confirmation, et il faut que ça se voie.
+    if (!calcule && !appuis.length) c.sansIndice = true;
+    c.motifs = [...c.motifs, `rapprochement confirmé à la main ${f.dicte ? 'par le chercheur' : 'dans l\'atelier'}${f.note ? ' — ' + f.note : ''}`];
     prisAvant.set(c.avant.id, c);
     prisApres.set(c.apres.id, c);
     retenus.push(c);
@@ -399,6 +441,128 @@ function rapprocher(personnesAvant, personnesApres, ecart, main = { forces: [], 
     }
   }
   return { retenus, ecartes };
+}
+
+/**
+ * Passe 4 — compléter les ménages reconnus.
+ *
+ * Quand deux membres au moins d'un ménage se retrouvent ensemble dix ans plus
+ * tard, le ménage est reconnu ; mais il y reste souvent quelqu'un que les
+ * passes précédentes n'ont pas su suivre, des deux côtés. Deux raisons, que le
+ * nom seul ne peut pas franchir :
+ *
+ *   - le patronyme a changé : l'épouse est inscrite sous son nom de naissance
+ *     une année et sous celui de son mari la suivante (Mary Wilson, 45 ans en
+ *     1871, est Mary McCarthy, 54 ans, en 1881, toujours auprès de Duncan et
+ *     d'Elizabeth Wilson) ; ou le nom a été lu de travers ;
+ *   - le prénom a changé : prénom de baptême contre prénom d'usage, ou lecture
+ *     fautive (Séverin Beaulieu, 13 ans, est Zéphirin Beaulieu, 22 ans).
+ *
+ * On ne retient ici que le cas sans équivoque : dans le ménage d'arrivée, une
+ * seule personne encore libre a le sexe et l'âge attendus (à deux ans près),
+ * et réciproquement ; et l'un des deux noms — prénom ou patronyme — concorde.
+ * Deux candidats possibles, et rien n'est retenu.
+ *
+ * La passe vient après toutes les autres, y compris celle qui rapproche 1871
+ * et 1891 par-dessus 1881 : elle complète, elle ne défait rien. `garde(a, b)`
+ * dit si le couple est permis au regard de ce que les passes par le nom ont
+ * déjà établi ; `accepte(lien)` en tire les conséquences (voir main()).
+ *
+ * Le lien sort avec une confiance « moyenne », jamais « forte » : il repose
+ * sur le ménage, pas sur l'identité, et le dit dans ses motifs. C'est une
+ * proposition à confirmer ou à écarter dans l'annexe des filiations.
+ */
+function completerMenages(retenus, personnesAvant, personnesApres, ecart, rejetes, garde, accepte) {
+  const TOLERANCE = 2;
+  const prisAvant = new Set(retenus.map(c => c.avant.id));
+  const prisApres = new Set(retenus.map(c => c.apres.id));
+  const parMenageAvant = new Map(), parMenageApres = new Map();
+  for (const p of personnesAvant) {
+    if (prisAvant.has(p.id)) continue;
+    if (!parMenageAvant.has(p.menage)) parMenageAvant.set(p.menage, []);
+    parMenageAvant.get(p.menage).push(p);
+  }
+  for (const p of personnesApres) {
+    if (prisApres.has(p.id)) continue;
+    if (!parMenageApres.has(p.menage)) parMenageApres.set(p.menage, []);
+    parMenageApres.get(p.menage).push(p);
+  }
+  const paires = new Map();
+  for (const c of retenus) {
+    const cle = c.avant.menage + SEP + c.apres.menage;
+    paires.set(cle, (paires.get(cle) || 0) + 1);
+  }
+
+  const compatible = (a, b) => a.age != null && b.age != null
+    && Math.abs(b.age - a.age - ecart) <= TOLERANCE
+    && sexeFiable(a) && sexeFiable(b) && a.sexe === b.sexe;
+
+  const ajoutes = [];
+  // Les ménages les mieux reconnus d'abord : un même reliquat peut se
+  // présenter devant deux ménages d'arrivée, et le premier servi l'emporte.
+  const ordre = [...paires].filter(([, n]) => n >= 2).sort((x, y) => y[1] - x[1] || (x[0] < y[0] ? -1 : 1));
+  for (const [cle, compagnons] of ordre) {
+    const [cleAvant, cleApres] = cle.split(SEP);
+    const A = (parMenageAvant.get(cleAvant) || []).filter(p => !prisAvant.has(p.id));
+    const B = (parMenageApres.get(cleApres) || []).filter(p => !prisApres.has(p.id));
+    if (!A.length || !B.length) continue;
+    for (const a of A) {
+      const candidats = B.filter(b => !prisApres.has(b.id) && compatible(a, b));
+      if (candidats.length !== 1) continue;
+      const b = candidats[0];
+      if (A.filter(x => !prisAvant.has(x.id) && compatible(x, b)).length !== 1) continue;
+      if (rejetes.has(`${a.id}__${b.id}`)) continue;
+
+      const sPat = similarPatronyme(a.clePatronyme, b.clePatronyme);
+      const sPre = similarPrenom(a.clesPrenom, b.clesPrenom);
+      const memePrenom = sPre >= 0.75, memeNom = sPat >= 0.6;
+      // Ni le prénom ni le patronyme : ce n'est plus qu'un âge, on s'abstient.
+      if (!memePrenom && !memeNom) continue;
+      if (!garde(a, b)) continue;
+
+      const derive = Math.abs(b.age - a.age - ecart);
+      const motifs = [
+        `même ménage : ${compagnons} autre(s) membre(s) s'y retrouvent ensemble`,
+        'seule personne du ménage dont le sexe et l\'âge concordent, dans un sens comme dans l\'autre',
+        `âge cohérent (${a.age} → ${b.age}, écart de ${ecart} ans${derive ? `, ${derive} an(s) de dérive` : ''})`,
+      ];
+      if (memePrenom && memeNom) motifs.push(`noms proches (${a.prenom} ${a.nom} / ${b.prenom} ${b.nom})`);
+      else if (memePrenom) motifs.push(`prénom concordant, patronyme différent (${a.nom} / ${b.nom}) — nom de naissance contre nom d'épouse, ou lecture à vérifier`);
+      else motifs.push(`patronyme concordant, prénom différent (${a.prenom || '—'} / ${b.prenom || '—'}) — prénom d'usage contre prénom de baptême, ou lecture à vérifier`);
+      motifs.push('rapprochement proposé par le ménage, non par le nom : à confirmer');
+
+      const c = {
+        avant: a, apres: b,
+        // Toujours sous le seuil « forte » : 0,66 pour deux compagnons, 0,78 au plus.
+        score: Math.min(0.78, 0.60 + 0.03 * compagnons),
+        motifs, compagnons, parMenage: true, homonymie: false, concurrents: [],
+      };
+      prisAvant.add(a.id);
+      prisApres.add(b.id);
+      retenus.push(c);
+      ajoutes.push(c);
+      accepte(c);
+    }
+  }
+  return ajoutes;
+}
+
+/** Le maillon qui manquait : quand le ménage donne A → B et que le nom donnait
+    A → C par-dessus B (ou l'inverse), B et C sont la même personne. Le lien
+    vaut ce que vaut le plus faible des deux qui le portent : « moyenne ». */
+function lienTransitif(avant, apres, saut, parMenage) {
+  const [p71, p91] = [saut.avant, saut.apres];
+  const milieu = parMenage.avant.annee === p71.annee ? parMenage.apres : parMenage.avant;
+  return {
+    avant, apres,
+    score: Math.min(0.78, saut.score),
+    motifs: [
+      `même personne que ${resumer(p71)} et que ${resumer(p91)} : le nom et l'âge les rapprochent par-dessus le recensement de ${milieu.annee} (${p71.age ?? '?'} → ${p91.age ?? '?'} ans)`,
+      `en ${milieu.annee}, son ménage la désigne sous le nom « ${`${milieu.prenom} ${milieu.nom}`.trim()} »`,
+      'maillon déduit des deux rapprochements qui l\'encadrent : à confirmer',
+    ],
+    compagnons: 0, transitif: true, homonymie: false, concurrents: [],
+  };
 }
 
 function niveau(score, homonymie) {
@@ -448,13 +612,13 @@ function deduireEvenements(liens, personnesAvant, personnesApres, menages, ecart
   // Ménages rapprochés : on compte les correspondances membre à membre.
   const paires = new Map();
   for (const l of liens) {
-    const cle = `${l.avant.menage} ${l.apres.menage}`;
+    const cle = l.avant.menage + SEP + l.apres.menage;
     if (!paires.has(cle)) paires.set(cle, []);
     paires.get(cle).push(l);
   }
 
   for (const [cle, liste] of paires) {
-    const [cleAvant, cleApres] = cle.split(' ');
+    const [cleAvant, cleApres] = cle.split(SEP);
     const menageAvant = menages.get(cleAvant);
     const menageApres = menages.get(cleApres);
     if (!menageAvant || !menageApres || liste.length < 2) continue;
@@ -494,10 +658,17 @@ function deduireEvenements(liens, personnesAvant, personnesApres, menages, ecart
     if (chefAvant && chefAvant.sexe === 'M' && !versApres.has(chefAvant.id) && liste.length >= 2) {
       // Épouse présumée : femme adulte du ménage d'origine, la première venue
       // au rôle, d'un âge proche de celui du chef.
-      const epouse = menageAvant.membres
+      // Une domestique n'est pas une épouse, et un prêtre n'en a pas : le curé
+      // Sax, mort après 1881, ne laisse pas de veuve en la personne de sa
+      // ménagère. Une femme que le manuscrit dit célibataire ou déjà veuve
+      // n'est pas davantage l'épouse du chef.
+      const sansEpouse = /\b(pretre|cure|vicaire|frere|religieux|religieuse|soeur)\b/.test(normaliser(chefAvant.profession));
+      const servante = p => /\b(domestique|servante|engagee?|menagere de|bonne)\b/.test(normaliser(p.profession));
+      const epouse = sansEpouse ? null : menageAvant.membres
         .map(id => ficheParId.get(id))
         .filter(p => p && !p.estChef && p.sexe === 'F' && p.age != null && p.age >= 16
-          && chefAvant.age != null && Math.abs(p.age - chefAvant.age) <= 15)
+          && chefAvant.age != null && Math.abs(p.age - chefAvant.age) <= 15
+          && p.etat !== 'C' && p.etat !== 'V' && !servante(p))
         .sort((a, b) => a.rang - b.rang)[0];
 
       const lienEpouse = epouse ? versApres.get(epouse.id) : null;
@@ -514,7 +685,9 @@ function deduireEvenements(liens, personnesAvant, personnesApres, menages, ecart
          On refuse donc le veuvage, et on signale l'incohérence d'âge, qui est
          la vraie information à retenir. */
       const homonymeAuxCommandes = chefApres && chefApres.sexe === 'M'
-        && similarPatronyme(chefApres.clePatronyme, chefAvant.clePatronyme) >= 0.85
+        // 0,6 et non 0,85 : « Binet » en 1871, « Binette » en 1881, et Charles
+        // passait pour mort alors qu'il tient toujours sa maison.
+        && similarPatronyme(chefApres.clePatronyme, chefAvant.clePatronyme) >= 0.6
         && similarPrenom(chefApres.clesPrenom, chefAvant.clesPrenom) >= 0.9;
 
       if (homonymeAuxCommandes) {
@@ -645,7 +818,7 @@ function main() {
   for (const x of liensLaisses) process.stderr.write(`  lien laissé — ${x}\n`);
   const forcesEntre = (anneeDe, anneeVers) => liensMain
     .filter(r => r.de.startsWith(anneeDe + '-') && r.vers.startsWith(anneeVers + '-'))
-    .map(r => ({ avant: parId.get(r.de), apres: parId.get(r.vers), note: r.note }));
+    .map(r => ({ avant: parId.get(r.de), apres: parId.get(r.vers), note: r.note, dicte: r.dicte }));
   const ecartes = [];
 
   const parAnnee = new Map();
@@ -658,6 +831,8 @@ function main() {
   const liens = [];
   const evenements = [];
 
+  /* 1. Les passes par le nom, d'un recensement au suivant. */
+  const etapes = [];
   for (let i = 0; i < annees.length - 1; i++) {
     const anneeAvant = annees[i];
     const anneeApres = annees[i + 1];
@@ -670,30 +845,12 @@ function main() {
     process.stderr.write(`Rapprochement ${intervalle} : ${avant.length} → ${apres.length} personnes…\n`);
 
     const { retenus, ecartes: ecartesIci } = rapprocher(avant, apres, ecart, { forces: forcesEntre(anneeAvant, anneeApres), rejetes });
-    process.stderr.write(`  ${retenus.length} lien(s) retenu(s), dont ${retenus.filter(l => l.main).length} de la main ; ${ecartesIci.length} écarté(s) par la main\n`);
+    process.stderr.write(`  ${retenus.length} lien(s) retenu(s) par le nom, dont ${retenus.filter(l => l.main).length} de la main ; ${ecartesIci.length} écarté(s) par la main\n`);
     ecartes.push(...ecartesIci.map(l => lienEcarte(l, intervalle)));
-
-    for (const l of retenus) {
-      liens.push({
-        de: l.avant.id,
-        vers: l.apres.id,
-        intervalle,
-        score: Math.round(l.score * 100) / 100,
-        confiance: niveau(l.score, l.homonymie),
-        homonymie: l.homonymie || undefined,
-        origine: l.main ? 'main' : 'analyse',
-        sans_indice: l.sansIndice || undefined,
-        motifs: l.motifs,
-        concurrents: l.concurrents,
-        resume_de: resumer(l.avant),
-        resume_vers: resumer(l.apres),
-      });
-    }
-
-    evenements.push(...deduireEvenements(retenus, avant, apres, menages, ecart, intervalle));
+    etapes.push({ anneeAvant, anneeApres, avant, apres, ecart, intervalle, retenus });
   }
 
-  /* Passe par-dessus le recensement intermédiaire.
+  /* 2. Passe par-dessus le recensement intermédiaire.
      Le chaînage d'un recensement au suivant perd toute personne absente de
      celui du milieu — et l'absence est fréquente : on quitte la paroisse pour
      un chantier, on y revient dix ans plus tard. Albert Forcade est recensé en
@@ -701,10 +858,11 @@ function main() {
      restent deux inconnus. On ne rapproche ici que ceux que les passes
      consécutives ont laissés sans rattachement, pour ne rien défaire de ce
      qu'elles ont établi. */
-  if (annees.length >= 3) {
+  let saut = null;
+  if (annees.length >= 3 && etapes.length === annees.length - 1) {
     const premiere = annees[0], derniere = annees[annees.length - 1];
-    const dejaSortant = new Set(liens.map(l => l.de));
-    const dejaEntrant = new Set(liens.map(l => l.vers));
+    const dejaSortant = new Set(etapes.flatMap(e => e.retenus.map(l => l.avant.id)));
+    const dejaEntrant = new Set(etapes.flatMap(e => e.retenus.map(l => l.apres.id)));
     const orphelinsAvant = (parAnnee.get(premiere) || []).filter(p => !dejaSortant.has(p.id));
     const orphelinsApres = (parAnnee.get(derniere) || []).filter(p => !dejaEntrant.has(p.id));
     const ecart = parseInt(derniere, 10) - parseInt(premiere, 10);
@@ -714,25 +872,91 @@ function main() {
     const { retenus, ecartes: ecartesIci } = rapprocher(orphelinsAvant, orphelinsApres, ecart, { forces: forcesEntre(premiere, derniere), rejetes });
     process.stderr.write(`  ${retenus.length} lien(s) retenu(s), dont ${retenus.filter(l => l.main).length} de la main ; ${ecartesIci.length} écarté(s) par la main\n`);
     ecartes.push(...ecartesIci.map(l => lienEcarte(l, intervalle)));
+    saut = { avant: orphelinsAvant, apres: orphelinsApres, ecart, intervalle, retenus, milieu: annees[1] };
+  }
 
-    for (const l of retenus) {
+  /* 3. Compléter les ménages reconnus (voir completerMenages).
+     La passe vient en dernier et ne contredit jamais le nom. Reste le cas
+     d'une personne que la passe par-dessus a déjà reliée de 1871 à 1891 :
+     si son ménage la retrouve aussi en 1881, sous un autre nom, les trois
+     mentions sont la même personne — le lien par-dessus se défait en deux
+     maillons, celui du ménage et celui qui s'en déduit. Encore faut-il que
+     la personne de 1881 soit libre de l'autre côté ; sinon le nom garde le
+     dernier mot et le ménage s'abstient. */
+  if (saut && etapes.length === 2) {
+    const [e1, e2] = etapes;
+    const sautDe = new Map(saut.retenus.map(l => [l.avant.id, l]));
+    const sautVers = new Map(saut.retenus.map(l => [l.apres.id, l]));
+    const entrantMilieu = new Set(e1.retenus.map(l => l.apres.id));
+    const sortantMilieu = new Set(e2.retenus.map(l => l.avant.id));
+    const defaire = (lienSaut) => {
+      saut.retenus.splice(saut.retenus.indexOf(lienSaut), 1);
+      sautDe.delete(lienSaut.avant.id);
+      sautVers.delete(lienSaut.apres.id);
+    };
+
+    const n1 = completerMenages(e1.retenus, e1.avant, e1.apres, e1.ecart, rejetes,
+      (a, b) => {
+        const s = sautDe.get(a.id);
+        return !s || (!s.main && !sortantMilieu.has(b.id));
+      },
+      (c) => {
+        entrantMilieu.add(c.apres.id);
+        const s = sautDe.get(c.avant.id);
+        if (!s) return;
+        defaire(s);
+        e2.retenus.push(lienTransitif(c.apres, s.apres, s, c));
+        sortantMilieu.add(c.apres.id);
+      }).length;
+    const n2 = completerMenages(e2.retenus, e2.avant, e2.apres, e2.ecart, rejetes,
+      (b, c) => {
+        const s = sautVers.get(c.id);
+        return !s || (!s.main && !entrantMilieu.has(b.id));
+      },
+      (c) => {
+        sortantMilieu.add(c.avant.id);
+        const s = sautVers.get(c.apres.id);
+        if (!s) return;
+        defaire(s);
+        e1.retenus.push(lienTransitif(s.avant, c.avant, s, c));
+        entrantMilieu.add(c.avant.id);
+      }).length;
+    process.stderr.write(`Ménages complétés : ${n1} lien(s) ${e1.intervalle}, ${n2} lien(s) ${e2.intervalle} ; ` +
+      `${etapes.reduce((n, e) => n + e.retenus.filter(l => l.transitif).length, 0)} maillon(s) déduit(s)\n`);
+  } else {
+    for (const e of etapes) completerMenages(e.retenus, e.avant, e.apres, e.ecart, rejetes, () => true, () => {});
+  }
+
+  /* 4. Sortie : les liens, puis les événements qui s'en déduisent. */
+  const versSortie = (l, intervalle, extra = {}) => ({
+    de: l.avant.id,
+    vers: l.apres.id,
+    intervalle,
+    ...extra,
+    score: Math.round(l.score * 100) / 100,
+    confiance: niveau(l.score, l.homonymie),
+    homonymie: l.homonymie || undefined,
+    origine: l.main ? 'main' : 'analyse',
+    par_menage: l.parMenage || undefined,
+    transitif: l.transitif || undefined,
+    sans_indice: l.sansIndice || undefined,
+    motifs: l.motifs,
+    concurrents: l.concurrents,
+    resume_de: resumer(l.avant),
+    resume_vers: resumer(l.apres),
+  });
+  for (const e of etapes) {
+    for (const l of e.retenus) liens.push(versSortie(l, e.intervalle));
+    evenements.push(...deduireEvenements(e.retenus, e.avant, e.apres, menages, e.ecart, e.intervalle));
+  }
+  if (saut) {
+    for (const l of saut.retenus) {
       liens.push({
-        de: l.avant.id,
-        vers: l.apres.id,
-        intervalle,
-        saut: annees[1],
-        score: Math.round(l.score * 100) / 100,
-        confiance: niveau(l.score, l.homonymie),
-        homonymie: l.homonymie || undefined,
-        origine: l.main ? 'main' : 'analyse',
-        sans_indice: l.sansIndice || undefined,
-        motifs: [...l.motifs, `absent du recensement de ${annees[1]} — rapprochement établi par-dessus`],
-        concurrents: l.concurrents,
-        resume_de: resumer(l.avant),
-        resume_vers: resumer(l.apres),
+        ...versSortie(l, saut.intervalle, { saut: saut.milieu }),
+        motifs: [...l.motifs, `absent du recensement de ${saut.milieu} — rapprochement établi par-dessus`],
       });
     }
-    evenements.push(...deduireEvenements(retenus, orphelinsAvant, orphelinsApres, menages, ecart, intervalle)
+    evenements.push(...deduireEvenements(saut.retenus, saut.avant, saut.apres, menages, saut.ecart, saut.intervalle)
       .filter(e => e.type !== 'disparition' && e.type !== 'arrivee'));
   }
 
@@ -757,6 +981,8 @@ function main() {
     liens_faible: liens.filter(l => l.confiance === 'faible').length,
     liens_homonymie: liens.filter(l => l.homonymie).length,
     liens_par_dessus: liens.filter(l => l.saut).length,
+    liens_par_menage: liens.filter(l => l.par_menage).length,
+    liens_transitifs: liens.filter(l => l.transitif).length,
     liens_main: liens.filter(l => l.origine === 'main').length,
     liens_ecartes: ecartes.length,
   };
