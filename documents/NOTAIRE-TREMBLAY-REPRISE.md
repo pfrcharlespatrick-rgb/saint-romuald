@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (255 fiches au 19 novembre 2026 ; série jusqu'à 01119 lue).
+fiche dont l'identifiant commence par `notarie-` (257 fiches au 19 novembre 2026 ; série jusqu'à 01126 lue).
 
 ## Où sont les images
 
@@ -381,8 +381,8 @@ Filteau) est **complète** — hypothèque, clôture et signatures. **250 fiches
   et versée par `fondre.mjs`. Le Napoléon de 1881 (`1881-D1-P087-L23`) reste
   « Houde » ; le lien 1871 → 1881 tient (« patronyme proche »).
 
-Suite du 19 novembre : fichiers **01103 à 01119** lus, actes **n° 252 à 256**
-(1er-10 décembre 1874). **255 fiches `notarie-`.**
+Suite du 19 novembre : fichiers **01103 à 01126** lus, actes **n° 252 à 258**
+(1er-11 décembre 1874). **257 fiches `notarie-`.**
 
 - **n° 252** : obligation de Joseph Laflamme, inspecteur et mesureur de bois de
   Notre-Dame-de-Lévis, à **William Henry Vachon**, teneur de livres de
@@ -401,15 +401,21 @@ Suite du 19 novembre : fichiers **01103 à 01119** lus, actes **n° 252 à 256**
 - **n° 255** (7 déc.) : Antoine Toussaint vend à son fils **Édouard**, navigateur,
   un **bateau à fond plat** peint en noir, d'environ 45 pieds, avec ancres et
   voiles (400 $), hiverné chez Louis-Hubert Roberge à New-Liverpool, de qui le
-  père l'avait acheté. La profession du père (« Mtre chaloupier » ou
-  « charretier ») est de lecture incertaine.
+  père l'avait acheté. Le père est « Mtre Charretier » (abrégé au n° 255,
+  en toutes lettres aux n° 257-258).
 - **n° 256** (10 déc.) : le **curé Pierre Saxe** donne quittance à la veuve
   Lambert (Louise Demers) de 40 louis prêtés en 1870 (Me L. Laliberté) : la
   suite du n° 246-247 (Villeneuve prête à Pichette, qui paie la veuve
   comptant, qui rembourse le curé). Formulaire imprimé de Me Tessier, de
-  Québec, nom rayé.
+  Québec, nom rayé ; sa chemise imprimée est le fichier **01120**.
+- **n° 257-258** (11 déc.) : **testaments réciproques** d'Antoine Toussaint,
+  maître charretier, et de sa femme **Émilie Bruno** (recensée « Emélie »
+  Toussaint, 58 ans, `1871-D1-P021-L08`), « malade de corps » ; chacun fait de
+  l'autre son légataire universel. Témoins : Germain Cantin et **Thomas
+  Wilson, « culler »** (mesureur de bois ; `1871-D2-P005-L14`). Aucun enfant
+  nommé. « Bruno » est peut-être Bruneau : à voir dans les registres.
 
-**Pour reprendre** : continuer au fichier **01120** (microfilm 002064-65).
+**Pour reprendre** : continuer au fichier **01127** (microfilm 002071-72).
 
 Fils suivis dans la série 00451-00550 :
 
