@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (279 fiches au 19 novembre 2026 ; série jusqu'à 01229 lue).
+fiche dont l'identifiant commence par `notarie-` (289 fiches au 19 novembre 2026 ; série jusqu'à 01269 lue).
 
 ## Où sont les images
 
@@ -484,8 +484,30 @@ feuillet « Acte manquant »).
 - **n° 277** : Isidore Houle fait bâtir par Louis Filteau, menuisier, sa maison
   de 24 pieds de la rue Demers (même lot qu'au n° 157 : confirme le rattachement).
 
-**Pour reprendre** : continuer au fichier **01230** (microfilm 002174-75).
-Chercher les identifiants par `title contains '04T_CN401S124P_0123'`, puis `0124`, etc.
+Suite : fichiers **01230 à 01269** lus, actes **n° 278 à 287** (31 décembre 1874
+au 14 janvier 1875). **289 fiches `notarie-`.**
+
+- **n° 278** : protêt d'un journalier, Narcisse Bouffard, contre son
+  propriétaire J.-B. Vachon fils (logement insalubre ; « Il n'y a aucune
+  promesse de faite ! »).
+- **n° 279-281, 283-284** : la **veuve Hallé** (son nom est **Ursule
+  Dussault**, comme au recensement de 1871 — le « Drouin » lu au n° 248 est à
+  relire) régularise en deux jours tout un îlot de New-Liverpool : Villers,
+  Benjamin Bourassa fils, François Biret [?] (nom à relire, fichier 01241),
+  Éphrem Lefebvre, Augustin Picard (installé depuis 1871).
+- **n° 282** : reçu d'Ignace Dubois (suite de l'échange n° 51).
+- **n° 285-286** : contrat de mariage **François-Xavier Morneau – Marie
+  Dubois**, veuve Gagné, et légitime de Pierre Morneau ; toute la fratrie
+  Morneau concorde avec le ménage de Louis Morneau en 1871.
+- **n° 287** : contrat de mariage **Édouard Bourassa – Marie-Aurélie Turgeon**,
+  institutrice de Beaumont : l'« Aurélie » de 1881 ; ses sœurs Élisabeth et
+  Alvine sont à Saint-Romuald en 1871 chez Joseph Bourassa.
+- Plusieurs en-têtes de janvier 1875 portent « 1874 » par lapsus.
+- Chemises blanches : 01236, 01240, 01244, 01250 (en double au Drive), 01254.
+
+**Pour reprendre** : continuer au fichier **01270** (microfilm 002214-15).
+Chercher les identifiants par `title contains '04T_CN401S124P_0127'`, puis `0128`, etc.
+Le Drive va au moins jusqu'au fichier 01849.
 
 Fils suivis dans la série 00451-00550 :
 
