@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (289 fiches au 19 novembre 2026 ; série jusqu'à 01269 lue).
+fiche dont l'identifiant commence par `notarie-` (302 fiches au 19 novembre 2026 ; série jusqu'à 01313 lue).
 
 ## Où sont les images
 
@@ -505,8 +505,27 @@ au 14 janvier 1875). **289 fiches `notarie-`.**
 - Plusieurs en-têtes de janvier 1875 portent « 1874 » par lapsus.
 - Chemises blanches : 01236, 01240, 01244, 01250 (en double au Drive), 01254.
 
-**Pour reprendre** : continuer au fichier **01270** (microfilm 002214-15).
-Chercher les identifiants par `title contains '04T_CN401S124P_0127'`, puis `0128`, etc.
+Suite : fichiers **01270 à 01313** lus, actes **n° 288 à 300** (19 janvier au
+4 février 1875). **302 fiches `notarie-`.**
+
+- **n° 288-289** : congés de déloger de la veuve John Cameron (petites maisons
+  du rivage) à Samuel Ménard et Édouard Lacroix.
+- **n° 290-292** : Demers et Marcel Gingras échangent deux triangles « pour
+  redresser la rue St Louis » ; bail Demers à Gingras entre les rues
+  Saint-Louis et Saint-Pierre ; Pierre Lagueux concède à Joseph Gingras le
+  **lot n° 5 du plan de ses terrains dressé par l'arpenteur Joseph Gamache**.
+- **n° 293-295** : Édouard Bourassa donne congé au boulanger F.-X. Guay
+  (rez-de-chaussée et four de sa maison de pierre) et concède à Napoléon Nadeau
+  un demi-lot de Lévis (rente de 50 $).
+- **n° 296-297** : testament de Marguerite Demers (épouse Samson) et vente
+  François Samson → Charles Samson fils (suite du n° 265).
+- **n° 298-299** : Demers concède à Germain Cantin le lot où Stanislas Filteau
+  avait bâti ; Filteau vend sa maison à Cantin **à réméré** (prêt déguisé).
+- **n° 300** : procuration d'**Henry Atkinson & Co.** à Benoni Gosselin,
+  mesureur de billots (créances jusqu'à la rivière Gatineau).
+
+**Pour reprendre** : continuer au fichier **01314** (microfilm 002258-59).
+Chercher les identifiants par `title contains '04T_CN401S124P_0131'`, puis `0132`, etc.
 Le Drive va au moins jusqu'au fichier 01849.
 
 Fils suivis dans la série 00451-00550 :
