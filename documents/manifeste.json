@@ -28239,6 +28239,82 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-02-02-vente-samson-samson",
+      "type": "notarie",
+      "titre": "Vente par François Samson, journalier, à son frère Charles Samson fils, cultivateur, d'un emplacement bâti de Saint-Jean-Chrysostome — minute n° 297, 2 février 1875",
+      "date": "1875-02-02",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 297, images 002244 à 002247 (Drive : fichiers 04T_CN401S124P_01300 à 01303 ; 01300 et 01301 sont deux prises de la même première page). Rédigé sur un formulaire imprimé de vente d'un notaire de Québec (« Paroisse St Sauveur, District de Québec… Mtre Jean-Baptiste Hamel », rayés), adapté. En marge « Vente par Frs Samson à Chs Samson — Original — Expédié 1 fois — $1.50 hon. payé — Enreg. 1.65 payé » et des calculs (« 1.25, .40 — 1.65 » ; « 300.00 » ; « 3.00, 1.50, 1.50 — 7.00 »). Treize lignes de la deuxième page sont biffées (« 13 lignes »). Renvois paraphés « F. S. », « L. P. G. », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Vente, passée le 2 février 1875, avant midi, à l'étude du notaire, devant un témoin, Louis-Pierre Gelly, cordonnier ; le vendeur signe, l'acquéreur ne sait signer.",
+      "transcription": "[002244-002245] « N° 297 — 2 Fév. 1875. Pardevant le Notaire Public pour la Province de Québec, résidant en la Paroisse de St Romuald, comté de Lévis, soussigné, Et en présence de Sr Louis Pierre Gelly, de St Romuald, cordonnier, témoin au présent acte, aussi soussigné ; Fut présent : Sieur François Samson, journalier, de la paroisse de St Jean Chrysostome, dit comté ; Lequel a vendu, cédé, transporté et abandonné dès maintenant et à toujours, et promet garantir de tous troubles, dons, douaires, dettes, hypothèques, évictions et autres empêchements généralement quelconques, à Sieur Charles Samson, fils, de St Jean Chrysostome susdit, cultivateur, à ce présent et acceptant acquéreur pour lui, ses héritiers et ayants cause à l'avenir, c'est à savoir : Un emplacement situé en la dite Paroisse de St Jean Chrysostome, sur le niveau du chemin public, contenant quarante-cinq pieds de front sur le chemin public, sur [—] pieds de profondeur, borné devant à l'ouest au chemin public, par derrière à l'est à Dame Charles Samson, née Marguerite Demers, d'un côté au nord à Pierre Giroux & d'autre côté au sud à Dame Charles Samson, avec ensemble une maison en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances. Tel que le tout est actuellement […]. [002246] Pour par le dit acquéreur jouir, faire et disposer […]. Le vendeur déclare que cet immeuble lui appartient pour l'avoir acquis de l'acquéreur [sic] suivant contrat passé devant Mtre N. D. Légaré, N.P. & témoins, il y a environ quatre ans. Le vendeur aura le droit d'habiter avec l'acquéreur la dite maison d'hui au premier jour de juin prochain, sans indemnité. La présente vente est faite à la charge par le dit acquéreur […] 1° De payer au Domaine de Sa Majesté […] les cens ou autres Droits Seigneuriaux […] ; 2° De payer annuellement au vingt-neuf septembre de chaque année à Dame Charles Samson, mère de l'acquéreur, la somme de trois piastres courant, de rente foncière & constituée, garantie quitte de tous arrérages jusqu'au vingt-neuf septembre dernier ; [treize lignes biffées] 3° De se conformer strictement à toutes les charges […] portées au contrat de concession du dit immeuble. La présente vente est faite en outre pour et moyennant la somme de trois cents piastres courant, payable par versements égaux & annuels au vingt-cinq de décembre, [002247] de cent piastres chaque, & dont le premier paiement écherra & se fera le vingt-cinq de décembre prochain, & ainsi de suite chaque année à pareille date jusqu'au parfait paiement, sans intérêt si les paiements sont faits comme susdit. Et pour assurer le paiement de la dite somme de trois cents piastres, l'acquéreur s'oblige faire assurer la maison & l'étable construites sur le dit emplacement pour un montant de trois cents piastres, de transporter telle police au vendeur & de tenir la maison assurée jusqu'au parfait paiement du prix susdit, faute de quoi l'acquéreur s'oblige remettre au vendeur, à demande, tout ce qu'il aura déboursé pour effectuer ou continuer telle police d'assurance. Et pour sûreté du paiement de la dite somme de trois cents piastres courant […] le dit acquéreur a spécialement hypothéqué le dit immeuble […]. Dont Acte, Fait et Passé en la dite Paroisse St Romuald, en l'étude de Mtre Elzéar Hubert Tremblay, Notaire, l'an mil huit cent soixante-quinze le deuxième jour de février avant midi, sous le numéro deux cent quatre-vingt-dix-sept des originaux du Notaire soussigné. Et le vendeur & le dit témoin ont signé avec moi, Notaire, le dit acquéreur ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. Renvoi en marge bon & approuvé. Lignes blanches remplies sont nulles. » — Signé : « François Samson », « L. P. Gelly », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "François Samson",
+          "note": "Journalier de Saint-Jean-Chrysostome ; signe « François Samson ». Le concessionnaire de l'emplacement compris dans la terre donnée à sa mère (n° 265) ; sans doute le François Samson de la quittance Cantin (n° 183). Hors paroisse ; non rattaché. Il n'est pas nommé parmi les enfants légitimaires du testament de sa mère (n° 296) : à vérifier s'il est bien un fils."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Charles Samson, fils",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait signer. Le légataire universel de sa mère au n° 296, du même matin. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Marguerite Demers",
+          "note": "« Dame Charles Samson, née Marguerite Demers », mère de l'acquéreur, voisine à l'est et au sud, et créancière de la rente de trois piastres (cédée par Augustin au n° 265)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Pierre Giroux",
+          "note": "Voisin au nord ; le « Pierre Giroux [?] » du n° 265, ici lisible."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Pierre Gelly",
+          "ref_personne": "1871-D1-P048-L13",
+          "note": "Cordonnier de Saint-Romuald ; signe « L. P. Gelly »."
+        },
+        {
+          "role": "autre",
+          "nom": "N.-D. Légaré",
+          "note": "Notaire du contrat d'acquisition du vendeur, environ quatre ans plus tôt."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le même matin que le testament de sa mère (n° 296), François Samson, journalier, vend à Charles Samson fils, son frère et légataire de leur mère, l'emplacement de quarante-cinq pieds sur le chemin public, bâti d'une maison d'un étage et d'une étable, que le n° 265 disait concédé à un François Samson dans la terre donnée à Marguerite Demers. Prix : trois cents piastres sans intérêt, en trois annuités de cent piastres à Noël ; l'acquéreur paiera à sa mère la rente foncière de trois piastres. Le vendeur pourra habiter la maison avec son frère jusqu'au 1er juin. Le texte dit le vendeur propriétaire « pour l'avoir acquis de l'acquéreur » : sans doute un lapsus (de son père ?). Les deux actes du même matin regroupent entre les mains de Charles fils la part maternelle de la terre familiale.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01300",
+          "microfilm": "002244",
+          "drive": "1JnD0k_Hk6qY8Zl9M1GtR1Ai8PLcQ25iw",
+          "legende": "1/4 (première prise)"
+        },
+        {
+          "fichier": "01301",
+          "microfilm": "002245",
+          "drive": "1hkZ4iQRz58bQaNa-Wm8sFHeB3RQE4Md8",
+          "legende": "1/4 (seconde prise)"
+        },
+        {
+          "fichier": "01302",
+          "microfilm": "002246",
+          "drive": "1VtVDIOrEo74ZwITxiVf8FLSHlfdUACKd",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01303",
+          "microfilm": "002247",
+          "drive": "1IQ86ODxCqr5-ewX2o-ngVKVrKdB2yWOt",
+          "legende": "3/4"
+        }
+      ]
     }
   ]
 }
