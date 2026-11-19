@@ -27291,6 +27291,86 @@
           "microfilm": "002193",
           "drive": "1cpvqctvlS1hmcNRDp6v4QpBInbsCSd6w",
           "legende": "3/3"
+        },
+        {
+          "fichier": "01250",
+          "microfilm": "002194",
+          "drive": "1dXPQ1KfHQXRmof6Mg5cD6ZVmmvA9SfhD",
+          "legende": "chemise"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-01-08-bail-halle-picard",
+      "type": "notarie",
+      "titre": "Bail à rente foncière d'Ursule Dussault, veuve d'Antoine Hallé, à Augustin Picard, journalier, d'un emplacement de la division de New-Liverpool — minute n° 284, 8 janvier 1875",
+      "date": "1875-01-08",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 284, images 002196 à 002199 (Drive : fichiers 04T_CN401S124P_01251 à 01254 ; le fichier 01254 est la chemise imprimée, restée blanche). Le fichier 01250, qui précède, est la chemise (blanche) du n° 283 ; il est en double au Drive (deux sous-dossiers). Formulaire imprimé de bail à rente foncière de Me Tremblay. En marge « Bail — Hallé à Picard — Original — hon. 2.00 ; enrég. 1.50 payé ; $3.50 — Exp. 1 fois à Picard & enrégistré », et un calcul (« 12, 40, 52 »). Le témoin d'abord prévu, Louis Fréchette, est rayé et remplacé par Édouard Paquet ; le quantième « septième » est rayé pour « huitième » ; « Étude du dit notaire » est rayé dans le lieu. Acte complet.",
+      "nature": "Bail à rente foncière & constituée, passé le 8 janvier 1875, après-midi, à Saint-Romuald, devant un témoin, Édouard Paquet, cordonnier ; la concédante et le concessionnaire ne savent signer.",
+      "transcription": "[002196] « N° 284 — 8 Janvier 1875. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Édouard Paquet, cordonnier, [rayé : « Sr Louis Fréchette »] de St Romuald, [rayé : « journalier »] témoin au présent acte, aussi soussigné ; Fut présente : Dame Ursule Dussault, de St Romuald, veuve de feu Sieur Antoine Hallé, en son vivant de St Romuald, forgeron ; Laquelle a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de Bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à Sr Augustin Picard, de St Romuald, [rayé : « batelier »] journalier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, division de New Liverpool, contenant quarante pieds de front sur soixante pieds de profondeur, mesure française ; borné à l'ouest à une rue, à l'est à un passage au pied du cap, au nord à une rue & au sud à Édouard Villers, circonstances & dépendances. Tel que le dit emplacement est actuellement […]. [002197] 1° De clore […] ; 2° De bâtir […] ; 3° D'entretenir […] les rues, ruelles ou chemins […] [« derrière ou sur les côtés du dit emplacement » : rayé] ; 4° De payer à la dite concédante […] au vingt-neuvième jour de septembre de chaque année, à dater du premier jour d'août mil huit cent soixante-onze, la somme de six piastres courant, de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres. […] 5° La dite Dame Veuve Antoine Hallé se réserve […] le droit de Retrait […] ; 6° […]. [reprise de possession après deux ans de rente impayée] [002198] Au moyen de quoi […]. Dont acte, fait et passé à St Romuald, l'an mil huit cent soixante-quinze, le [rayé : « septième »] huitième jour de Janvier, après-midi, sous le numéro deux cent quatre-vingt-quatre des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et les dits concédante & concessionnaire ont déclaré ne savoir écrire ni signer, de ce requis, en présence du dit témoin qui a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Edouard Paquet », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedante",
+          "nom": "Ursule Dussault",
+          "ref_personne": "1871-D1-P010-L17",
+          "note": "Veuve d'Antoine Hallé, forgeron ; ne sait signer. Cinquième bail en deux jours. Rattachement probable."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Augustin Picard",
+          "ref_personne": "1881-D2-P024-L21",
+          "note": "Journalier de Saint-Romuald (« batelier » rayé) ; ne sait signer ; occupe le lot depuis août 1871 (date de départ de la rente). Le voisin au nord du lot Villers (n° 279). Hypothèse : Augustin Picard, journalier de 39 ans en 1881 (division 2). Rattachement à confirmer."
+        },
+        {
+          "role": "temoin",
+          "nom": "Édouard Paquet",
+          "ref_personne": "1871-D1-P016-L07",
+          "note": "Cordonnier de Saint-Romuald ; signe « Edouard Paquet ». Le cordonnier de 38 ans de 1871, déjà dans le congé Paquet-Giroux de janvier 1874. Rattachement probable."
+        },
+        {
+          "role": "autre",
+          "nom": "Antoine Hallé",
+          "note": "Feu mari de la concédante."
+        },
+        {
+          "role": "voisin",
+          "nom": "Édouard Villers",
+          "ref_personne": "1881-D2-P026-L01",
+          "note": "Voisin au sud : le concessionnaire du n° 279."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Cinquième et dernière concession de la veuve Hallé (n° 279 à 284 sauf 282) : Augustin Picard, journalier, reçoit le lot d'angle de 40 pieds sur 60, entre une rue à l'ouest, une autre rue au nord, un « passage au pied du cap » à l'est et Édouard Villers au sud. La rente est due depuis le 1er août 1871 : Picard était installé depuis plus de trois ans. En deux jours, la veuve a donné un titre aux occupants de tout un îlot de New-Liverpool — Villers, Bourassa, Biret [?], Lefebvre et Picard — sur la pente qui descend du plateau vers le pied du cap.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01251",
+          "microfilm": "002195",
+          "drive": "1rYi6dSfN7aW4vrGN3R_DpN41oxwGvzHM",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01252",
+          "microfilm": "002196",
+          "drive": "1F-BR20mw4fEV8gX4DU68N7bOyo8Ei7qY",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01253",
+          "microfilm": "002197",
+          "drive": "1QKB-B-MevJcwpURFEUyhiBtL-MGsGiHy",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01254",
+          "microfilm": "002198",
+          "drive": "1PMeKJ8pK36wHNzlpmop49UnFXE1cX2Nb",
+          "legende": "chemise"
         }
       ]
     }
