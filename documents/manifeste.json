@@ -28515,6 +28515,113 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-02-07-quittance-belanger-lambert-fouquet",
+      "type": "notarie",
+      "titre": "Quittance de Paul Lefebvre dit Bélanger, agriculteur de Saint-Jean-Chrysostome, à Michel Lambert et Benjamin Fouquet, d'une obligation de deux cents piastres (1855) — minute n° 301, 7 février 1875",
+      "date": "1875-02-07",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 301, images 002258 à 002259 (Drive : fichiers 04T_CN401S124P_01314 à 01315). En marge « Quittance — Bélanger à Lambert — Original — $1.00 hon. ; enreg. [0.65] ; [« pas payé » rayé] payé — Expédié 1 fois » et une mention « Perdu 2 actes pour [?] … ». Renvoi paraphé « P. B. », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Quittance générale et finale, passée le 7 février 1875, après-midi, à Saint-Jean-Chrysostome, en la demeure du comparant ; le comparant signe.",
+      "transcription": "[002258] « N° 301 — 7 février 1875. L'an mil huit cent soixante-quinze, le sept de février après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné : Fut présent : Mr Paul Lefebvre dit Bélanger, agriculteur, demeurant en la paroisse de St Jean Chrysostome, dit comté ; Lequel reconnaît & confesse avoir reçu à son entière satisfaction & dès avant ces présentes, en bon argent courant, de Mr Michel Lambert, de St Jean Chrysostome, dit comté, agriculteur, la somme de deux cents piastres courant, que lui a payée le dit Sr Lambert pour & à l'acquit & décharge de Sieur Benjamin Fouquet, ci-devant de St Jean Chrysostome, cultivateur, & affectant la propriété désignée en un certain acte d'obligation consenti par le dit Benjamin [002259] Fouquet au dit Sr Bélanger, en date du dix août mil huit cent cinquante-cinq, & reçu par Ambroise Fradet [?], N.P., & témoins, & enregistré au Bureau d'enregistrement du comté de Dorchester, division numéro deux, Reg. B, Vol. 8, page 435, sous le N° 5,990. [renvoi (1) : « reconnaissant le comparant avoir aussi reçu tous intérêts échus sur icelle dite somme jusqu'à ce jour »]. C'est pourquoi le dit Sr Paul Lefebvre dit Bélanger donne & accorde aux dits Sr Benjamin Fouquet & au dit Sr Michel Lambert, quittance générale & finale. Dont acte requis & octroyé à St Jean Chrysostome susdit, demeure du dit Sr Bélanger, les jour, mois & an susdits, sous le numéro trois cent & un des originaux du Notaire soussigné. Et le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « Paul Bélanger », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Paul Lefebvre dit Bélanger",
+          "note": "Agriculteur de Saint-Jean-Chrysostome ; signe « Paul Bélanger ». Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Benjamin Fouquet",
+          "note": "« Ci-devant de St Jean Chrysostome, cultivateur » ; auteur de l'obligation de 1855 (Me Ambroise Fradet [?]). Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Michel Lambert",
+          "note": "Agriculteur de Saint-Jean-Chrysostome, qui paie la dette à l'acquit de Fouquet — sans doute l'acquéreur de la propriété hypothéquée. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Une obligation de deux cents piastres consentie en 1855 par Benjamin Fouquet à Paul Lefebvre dit Bélanger, et enregistrée dans le comté de Dorchester (la propriété hypothéquée devait être de ce côté de Saint-Jean-Chrysostome), est enfin remboursée vingt ans plus tard, intérêts compris, par Michel Lambert, qui a sans doute acquis le bien grevé. Le notaire se déplace chez le créancier.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01314",
+          "microfilm": "002258",
+          "drive": "1fgbUtKZ0TveKw3mrJTTWXLwvJk8DxDLi",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01315",
+          "microfilm": "002259",
+          "drive": "1xoXkNPgQnTTvOCIupfDx8r7hE_IoW57U",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-02-09-accord-grenier-parent",
+      "type": "notarie",
+      "titre": "Accord de dissolution de société entre Ferdinand Grenier, maître ferblantier de Québec, sa femme Catherine-Éléonore Laurière, et Isidore Parent, maître ferblantier de Québec — minute n° 302, 9 février 1875",
+      "date": "1875-02-09",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 302, images 002260 à 002262 (Drive : fichiers 04T_CN401S124P_01316 à 01318). Écrit sur papier réglé à colonnes de comptabilité. En marge « Accord — Grenier & Parent — Original — Exp. 2 copies — copie délivrée le 19 avril 75, $1.00 », avec des mentions rayées. Sept renvois en marge, paraphés « E. C. L. », « F. G. », « I. P. », « E. H. T. N.P. ». Acte complet ; plusieurs chiffres de lecture incertaine.",
+      "nature": "Règlement de comptes et dissolution de société, passé le 9 février 1875, avant midi, à Québec, en la demeure de Ferdinand Grenier ; toutes les parties signent.",
+      "transcription": "[002260] « N° 302 — 9 février 1875. L'an mil huit cent soixante-quinze, le neuf de février, avant midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Furent présents : Mr Ferdinand Grenier, de Québec, Mtre ferblantier, & Dame Catherine Éléonore Laurière, épouse du dit Sr Grenier, dûment autorisée par son dit époux à l'effet des présentes, d'une part ; Et Sieur Isidore Parent, Mtre ferblantier, [renvoi : « aussi de Québec »], d'autre part ; Lesquels ont arrêté entre eux les accords qui suivent, savoir : Qu'ils ont arrêté le montant de l'actif & du passif de la société qui a existé alternativement entre eux, & qu'après avoir ajusté tous leurs comptes, ils en sont venus aux conclusions suivantes, savoir : 1° Que les loyers & les taxes en entier, à l'avenir, pour la maison & la boutique, seront payés par Mr Grenier ; [renvoi : « Les autres dettes passives à cette date & relatives à la dite société seront payées par les dites parties »] ; 2° Que les argents dus à la dite société seront collectés & divisés par moitié entre les dits Srs Parent & Grenier ; 3° Que la dite Dame Grenier reprendra les outils qui lui sont accordés suivant l'acte de société daté du vingt-quatre [002261] août mil huit cent soixante-dix, reçu par Me S. D. Marceau [?], Notaire, & le reste des outils sera partagé, ainsi que le stock qu'il y a aujourd'hui, par moitié entre le dit Sr Parent & le dit Sr Grenier ; 4° Le compte d'Olivier Grenier [renvoi : « au montant de la somme de cent soixante-dix-huit piastres »] à cette date sera payable moitié par Mr Parent & moitié par Mr Grenier ; 5° Le partage des outils & du stock devra être fait sans délai par deux experts choisis par les dits sieurs Grenier & Parent, avec pouvoir aux dits experts de s'adjoindre un troisième expert pour les départager au besoin (lesquels tels experts ne soient aucunement parents des parties intéressées dans tel partage) ; [renvoi (5) : « Les frais du règlement des affaires de la dite société & le coût du présent acte seront payés moitié par le dit Sr Parent & moitié par le dit Sr Grenier »]. Et le dit Sieur Parent a payé aux dits Sieur & Dame Grenier, qui le reconnaissent & en donnent quittance, pour balance revenant & frais de pension aux dits Sr & Dame Grenier, la somme de deux cent soixante-dix-huit piastres & soixante-dix-huit centins [renvoi : « comme suit : deux cent soixante-huit piastres à Mme Grenier, la balance au dit Sr Grenier, à … lors de l'exécution des présentes » ; « depuis le premier novembre dernier »]. Les dites parties se quittant & déchargeant de toutes & chacune les réclamations qu'elles ont ou pourraient avoir relativement à leur dite société — dont quittance générale & finale, mutuelle & réciproque. Et en conséquence de ce qui précède, tous actes de société [002262] & notamment un certain acte de convention entre les dits sieurs Grenier & Parent [renvoi : « par le dit Sr Parent »], reçu par Mtre Vocelle [?], N.P., le trente juin mil huit cent soixante-quatorze, sont résiliés, rescindés & annulés de ce jour & à toujours. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte fait & passé à [rayé : « St Romuald »] Québec, demeure du dit Sr Grenier, les jour, mois & an susdits, sous le numéro trois cent & deux des originaux du Notaire soussigné. Et toutes les parties ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. Sept renvois en marge sont bons & approuvés. » — Signé : « Éléonore Laurière », « Ferdinand Grenier », « Isidore Parent », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "partie",
+          "nom": "Ferdinand Grenier",
+          "note": "Maître ferblantier de Québec ; signe « Ferdinand Grenier ». Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "partie",
+          "nom": "Catherine-Éléonore Laurière",
+          "note": "Épouse de Ferdinand Grenier, associée (elle avait apporté des outils à la société de 1870) ; signe « Éléonore Laurière ». Hors paroisse."
+        },
+        {
+          "role": "partie",
+          "nom": "Isidore Parent",
+          "note": "Maître ferblantier de Québec ; signe « Isidore Parent ». Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Olivier Grenier",
+          "note": "Débiteur de la société (178 piastres). Peut-être un parent de Ferdinand. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Acte passé à Québec, chez Ferdinand Grenier, et sans lien avec Saint-Romuald sinon le notaire : deux maîtres ferblantiers de Québec, Ferdinand Grenier et Isidore Parent, liquident la société de ferblanterie qu'ils formaient avec la femme de Grenier depuis 1870 (Me S.-D. Marceau [?]) et renouvelée en juin 1874. Grenier garde la maison et la boutique ; les créances et le stock sont partagés par moitié ; Mme Grenier reprend ses outils ; des experts non parents partageront le reste. Parent verse 278,78 piastres aux Grenier pour solde et frais de pension (il logeait chez eux). Un rare aperçu d'une petite entreprise artisanale tenue en partie par une femme.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01316",
+          "microfilm": "002260",
+          "drive": "1wdEytFYi4IBxPN_bZKnEY5iIy0wgQ1RM",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01317",
+          "microfilm": "002261",
+          "drive": "1QXtq8QctWcNDOAf3oS1Ckpr5aceigFuD",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01318",
+          "microfilm": "002262",
+          "drive": "1awOhbdy0UOqKscrFXszsfQnpqjdyiJqf",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
