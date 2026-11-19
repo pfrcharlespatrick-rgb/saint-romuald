@@ -2,7 +2,7 @@
  "format": "suivi-saint-romuald-decisions",
  "version": 1,
  "note": "Décisions que Patrick a dictées à Claude hors de l'atelier. Elles sont la main, au même titre qu'une case corrigée dans l'atelier, et sont lues par-dessus data/travail-personnel.json (outils/relecture-1881/atelier.mjs). Elles ne s'écrivent pas dans le fichier de travail, que l'atelier réécrit en entier à chaque sauvegarde. Une correction s'applique tant que l'atelier porte encore la valeur notée sous « atelier » (null : il n'en dit rien) ; un lien s'efface devant un rejet posé depuis dans l'annexe des filiations. Voir CLAUDE.md, « Les décisions dictées ». « releve » garde, point par point, les réponses de Patrick au relevé de vérification (outils/releve-verification.mjs) : ce qu'il a écrit (note), ce qui en a été fait (suite) ou la question à lui reposer (attente) ; le contrôle des croisements ne repose pas un point qui y figure sans « attente ».",
- "mis_a_jour": "2026-11-16",
+ "mis_a_jour": "2026-11-19",
  "corrections": [
   {
    "id": "1881-D2-P018-L16",
@@ -267,6 +267,70 @@
    "valeur": "M",
    "date": "2026-11-16",
    "motif": "Louise [?] Demers — Louise [?] Demers : sexe noté « F [?] » ; la première lecture était « Louis, M, 68 ». Le prénom n'a pas été dicté : il reste « Louise [?] ». Patrick : « male » (relevé de vérification du 2026-11-15, réponse de Patrick)."
+  },
+  {
+   "id": "1871-D1-P026-L16",
+   "champ": "nom",
+   "atelier": null,
+   "valeur": "Houle",
+   "date": "2026-11-19",
+   "motif": "Patrick, en conversation : « modifie dans le recensement le nom houle pour houde », précisé : remplacer « Houde » par « Houle » pour les huit membres du ménage d'Isidore. Le notaire Tremblay écrit « Isidore Houle père, journalier » (bail Demers à Houle, n° 157, 20 juillet 1874), rattaché à cette ligne le même jour sur décision de Patrick."
+  },
+  {
+   "id": "1871-D1-P026-L17",
+   "champ": "nom",
+   "atelier": null,
+   "valeur": "Houle",
+   "date": "2026-11-19",
+   "motif": "Patrick, en conversation : « modifie dans le recensement le nom houle pour houde », précisé : remplacer « Houde » par « Houle » pour les huit membres du ménage d'Isidore. Le notaire Tremblay écrit « Isidore Houle père, journalier » (bail Demers à Houle, n° 157, 20 juillet 1874), rattaché à cette ligne le même jour sur décision de Patrick."
+  },
+  {
+   "id": "1871-D1-P026-L18",
+   "champ": "nom",
+   "atelier": null,
+   "valeur": "Houle",
+   "date": "2026-11-19",
+   "motif": "Patrick, en conversation : « modifie dans le recensement le nom houle pour houde », précisé : remplacer « Houde » par « Houle » pour les huit membres du ménage d'Isidore. Le notaire Tremblay écrit « Isidore Houle père, journalier » (bail Demers à Houle, n° 157, 20 juillet 1874), rattaché à cette ligne le même jour sur décision de Patrick."
+  },
+  {
+   "id": "1871-D1-P026-L19",
+   "champ": "nom",
+   "atelier": null,
+   "valeur": "Houle",
+   "date": "2026-11-19",
+   "motif": "Patrick, en conversation : « modifie dans le recensement le nom houle pour houde », précisé : remplacer « Houde » par « Houle » pour les huit membres du ménage d'Isidore. Le notaire Tremblay écrit « Isidore Houle père, journalier » (bail Demers à Houle, n° 157, 20 juillet 1874), rattaché à cette ligne le même jour sur décision de Patrick."
+  },
+  {
+   "id": "1871-D1-P026-L20",
+   "champ": "nom",
+   "atelier": null,
+   "valeur": "Houle",
+   "date": "2026-11-19",
+   "motif": "Patrick, en conversation : « modifie dans le recensement le nom houle pour houde », précisé : remplacer « Houde » par « Houle » pour les huit membres du ménage d'Isidore. Le notaire Tremblay écrit « Isidore Houle père, journalier » (bail Demers à Houle, n° 157, 20 juillet 1874), rattaché à cette ligne le même jour sur décision de Patrick."
+  },
+  {
+   "id": "1871-D1-P027-L01",
+   "champ": "nom",
+   "atelier": null,
+   "valeur": "Houle",
+   "date": "2026-11-19",
+   "motif": "Patrick, en conversation : « modifie dans le recensement le nom houle pour houde », précisé : remplacer « Houde » par « Houle » pour les huit membres du ménage d'Isidore. Le notaire Tremblay écrit « Isidore Houle père, journalier » (bail Demers à Houle, n° 157, 20 juillet 1874), rattaché à cette ligne le même jour sur décision de Patrick."
+  },
+  {
+   "id": "1871-D1-P027-L02",
+   "champ": "nom",
+   "atelier": null,
+   "valeur": "Houle",
+   "date": "2026-11-19",
+   "motif": "Patrick, en conversation : « modifie dans le recensement le nom houle pour houde », précisé : remplacer « Houde » par « Houle » pour les huit membres du ménage d'Isidore. Le notaire Tremblay écrit « Isidore Houle père, journalier » (bail Demers à Houle, n° 157, 20 juillet 1874), rattaché à cette ligne le même jour sur décision de Patrick."
+  },
+  {
+   "id": "1871-D1-P027-L03",
+   "champ": "nom",
+   "atelier": null,
+   "valeur": "Houle",
+   "date": "2026-11-19",
+   "motif": "Patrick, en conversation : « modifie dans le recensement le nom houle pour houde », précisé : remplacer « Houde » par « Houle » pour les huit membres du ménage d'Isidore. Le notaire Tremblay écrit « Isidore Houle père, journalier » (bail Demers à Houle, n° 157, 20 juillet 1874), rattaché à cette ligne le même jour sur décision de Patrick."
   }
  ],
  "liens": {

@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (250 fiches au 19 novembre 2026 ; série jusqu'à 01102 lue).
+fiche dont l'identifiant commence par `notarie-` (253 fiches au 19 novembre 2026 ; série jusqu'à 01114 lue).
 
 ## Où sont les images
 
@@ -369,16 +369,36 @@ Filteau) est **complète** — hypothèque, clôture et signatures. **250 fiches
   18 ans vit chez **Isidore Houde, journalier** (`1871-D1-P026-L16`, maison
   voisine des Filteau) ; or le lot voisin au nord de Charles Filteau est
   concédé le 20 juillet 1874 à « **Isidore Houle père, journalier** » (n° 157),
-  laissé sans rattachement faute d'un « Houle » au recensement. Houde et Houle
-  sont sans doute le même homme. Croteau est rattaché en hypothèse
-  (`1871-D1-P027-L05`) ; le n° 157 n'est pas touché.
+  laissé sans rattachement faute d'un « Houle » au recensement. **Décision de
+  Patrick (19 novembre)** : Houle et Houde sont le même homme — le n° 157 est
+  rattaché à `1871-D1-P026-L16`. Croteau reste en hypothèse (`1871-D1-P027-L05`).
 - Charles Filteau signe « Chs Filteau » au n° 251, alors qu'il ne savait
   signer au n° 140 (juillet 1874).
 
-**Pour reprendre** : continuer au fichier **01103** (microfilm 002047-48) :
-c'est le début du **n° 252**, obligation de Joseph Laflamme, inspecteur et
-mesureur de bois de Notre-Dame-de-Lévis, à William Henry Vachon, teneur de
-livres de Saint-Romuald (500 piastres, 1er décembre 1874).
+  Le même jour, Patrick a fait **remplacer « Houde » par « Houle »** dans le
+  recensement de 1871 pour les huit membres du ménage (`1871-D1-P026-L16` à
+  `P027-L03`) : décision dictée, consignée dans `data/decisions-dictees.json`
+  et versée par `fondre.mjs`. Le Napoléon de 1881 (`1881-D1-P087-L23`) reste
+  « Houde » ; le lien 1871 → 1881 tient (« patronyme proche »).
+
+Suite du 19 novembre : fichiers **01103 à 01114** lus, actes **n° 252 à 254**
+(1er-2 décembre 1874). **253 fiches `notarie-`.**
+
+- **n° 252** : obligation de Joseph Laflamme, inspecteur et mesureur de bois de
+  Notre-Dame-de-Lévis, à **William Henry Vachon**, teneur de livres de
+  St-Romuald (500 $ à 8 %), sur deux maisons de la rue Saint-Laurent à Lévis
+  et une police de la Western Assurance (700 $). Passé **au bureau de Ritchie &
+  Cull**. Vachon rattaché en hypothèse à Henry Vachon, ingénieur de 29 ans en
+  1871 (`1871-D1-P003-L15`).
+- **n° 253-254, la « Rue Atkinson »** (première mention) : Pierre Lagueux, juge
+  de paix, concède à **Ambroise Joncas**, journalier (`1871-D1-P037-L18`), un lot
+  de 60 × 50 pieds (8 $ de rente) ; le même après-midi, Joncas l'hypothèque au
+  marchand **Jean-Baptiste Gosselin** (`1871-D1-P056-L03`) pour 78,42 $ d'« effets
+  de groceries ». Le lot porte déjà une maison d'un étage. Ni Joncas ni Gosselin
+  ne signent (le recensement les dit tous deux ne pas savoir écrire).
+- Le fichier **01110** est la chemise imprimée (blanche) du n° 253.
+
+**Pour reprendre** : continuer au fichier **01115** (microfilm 002059-60).
 
 Fils suivis dans la série 00451-00550 :
 
