@@ -223,8 +223,138 @@ Fin de la demande « jusqu'à 1000 » : fichiers **00900 à 00920** et **00951 �
   meublier Régis Martel.
 - **n° 221 est incomplet** : la suite est sur le fichier 01001.
 
-**Pour reprendre** : continuer au fichier **01001** (microfilm
-001945), fin de la donation **n° 221** (Joncas, Saint-Étienne).
+**Mise à jour du 11 novembre 2026, nuit (suite).** Patrick a déposé les
+fichiers **01001 à 01050** (sous-dossier « 1001-1050 »). Les fichiers **01001
+à 01050** (le sous-dossier « 1001-1050 » en entier) sont lus : la donation
+**n° 221** (Joncas) est complétée (clôture et signatures sur 01001-01003), et
+les actes **n° 222 à 237** (15 octobre au 5 novembre 1874) sont transcrits —
+sauf le **n° 229, manquant au greffe** (fichier 01024, feuillet « ACTE MANQUANT
+# 229 »), et le **n° 237, incomplet** (seule sa première page, 01050, est au
+Drive). **236 fiches `notarie-`.** Les identifiants Drive de 01001 à 01050 sont
+ajoutés à `documents/tropy/images-drive.json` ; les images de ces fiches y sont
+posées à la main (Tropy ne les décrit pas encore).
+
+- **Deux dates corrigées par renvoi**, comme pour le n° 122 : le **n° 222**
+  (quittance Couture à Wilson) porte « 14 octobre » en tête mais « quinzième
+  d'octobre » dans le corps — il est du **15 octobre** ; le **n° 225**
+  (révocation Pinault) a d'abord été daté de septembre dans le corps, corrigé
+  au **17 octobre**.
+- **Le ménage Couture** (n° 222-223) : Vital Couture, journalier, et sa femme
+  Céleste Hince (« Hynce »), `1871-D1-P017-L09/L10`, règlent deux affaires :
+  William Wilson répare une « injure » de la nuit du 12-13 octobre (n° 222,
+  rattaché en probable à `1871-D2-P005-L18`, fils de Thomas Wilson), et le
+  jeune Thomas Conry, de la famille irlandaise Conroy de la division 2
+  (maison 109), est quittancé après une plainte du 14 octobre (n° 223 ; son
+  père Daniel et son frère James signent ; témoin Edouard Bourassa).
+- **Marie Pinault, cordonnier** (n° 224-225), ci-devant de St-Germain-de-
+  Rimouski, le même jour donne procuration à l'avocat Fortunat Rouleau pour
+  vendre un emplacement à Rimouski (conditions posées par sa femme Caroline
+  Rouleau) et révoque celle qu'il avait donnée à Joseph Dubé. Hors paroisse ;
+  seul le témoin Onésime Blouin, corroyeur, est de St-Romuald.
+- **n° 226** : Edouard Montminy, de St-Jean-Chrysostome, charge Edouard Couture
+  (de St-Jérôme, Lac-St-Jean) de recouvrer 40 piastres d'Hippolyte Dufour.
+  Acte passé au domicile de Montminy ; le mandant signe « Edouard Montminy »
+  (le corps écrit plutôt « Edmond »). L'acte court jusqu'au fichier **01016**
+  (la signature). Aucun Montminy de ce prénom au recensement — non rattaché.
+- **n° 227** (fichiers 01017-01020) : obligation sur formulaire imprimé
+  (notaire Tessier). Antoine Joncas, cultivateur de St-Étienne, reconnaît
+  devoir quarante louis à Octave Montminy, rentier de St-Jean-Chrysostome,
+  garantis par une terre de la concession St-André à St-Nicolas (jadis à
+  St-Nicolas, passée à St-Étienne). Passé au domicile du créancier ; les deux
+  signent. Hors paroisse — non rattachés. Le fichier **01020** est la chemise
+  imprimée de l'obligation (calculs de frais).
+- **Les Joncas du n° 221 retrouvés** : Pierre Joncas et Adèle Faucher, donateurs
+  de St-Étienne en 1874, paraissent à St-Romuald (division 1) dès 1881
+  (maison 245 : Pierre 50, Adèle 47, fils Joseph 19) et en 1891 (maison 396).
+  Le couple et le fils Joseph (donataire substitué) sont rattachés en probable
+  (`1881-D1-P063-L04/L05/L06`) ; le donataire Pierre fils reste sans
+  rattachement (plusieurs Pierre Joncas).
+
+- **n° 228** (fichiers 01021-01023) : quittance de Ferdinand Villeneuve,
+  architecte-sculpteur de St-Romuald (`1871-D1-P013-L13`), à Joseph Couture
+  fils, de St-Isidore (Dorchester), pour le solde (1 900 piastres) d'une terre
+  vendue en 1868 (Me Fortier) ; mainlevée d'hypothèque. Le fichier 01023 est un
+  feuillet de calcul du prix.
+- **n° 229 manque** : le fichier 01024 est un feuillet imprimé « ACTE MANQUANT
+  # 229 » — la minute n'est pas au greffe. Pas de fiche.
+- **n° 230** (01025-01028) : bail à rente foncière de Louis-Julien Demers
+  (fils de Benjamin, `1871-D1-P025-L06`) à **Moses Kelly**, capitaine de
+  bateaux à vapeur (signe « Moses Kelly », lu par Patrick ; le notaire avait
+  écrit « Kirly » en marge ; non rattaché),
+  pour un emplacement borné par la rue St-Paul, Ignace Dubois et Joseph Picard.
+  Le fichier 01028 est la chemise imprimée du bail.
+- **n° 231** (01029-01032) : bail à rente foncière de Benjamin Demers
+  (`1871-D1-P025-L04`) à Hubert Lefebvre, journalier (non rattaché), rue
+  St-Louis ; témoin le marchand **Germain Cantin** (`1871-D1-P017-L04`, signe
+  « Germain Cantin »). Le fichier 01032 est la chemise imprimée.
+- **n° 232** (01033-01035) : accord Bourassa–Vallières mettant fin au bail à
+  ferme du 18 mars 1874 (fiche `notarie-1874-03-18-bail-ferme-bourassa-vallieres`)
+  au 30 avril 1875 — partage du foin, soin des animaux, bois. Joseph Bourassa
+  (`1871-D1-P024-L13`) et Louis Vallières (fermier de St-Jean-Chrysostome, non
+  rattaché) signent. Nouveau preneur à venir : Octave Saindon (n° 193).
+- **La grande signature ornée** finissant par « N.P. », au bas de chaque
+  minute, est celle du notaire **Elzéar-Hubert Tremblay** (précision de
+  Patrick) : enregistrée partout comme le notaire, distincte des signatures
+  des parties.
+
+- **n° 233** (01036-01039) : bail de six mois d'Édouard Bourassa
+  (`1871-D1-P040-L18`) à A. Gaston Bélanger, marchand de Québec, de deux pièces
+  d'un hangar sur la « rue des Quarante-Arpents » (2,50 $/mois).
+- **n° 234** (01040-01043) : bail de six mois de **Jean-Baptiste Fontaine**,
+  rentier (probable `1891-D1-P087-L19`, ex-cultivateur de 87 ans en 1891, ne
+  sait signer), à Jean-Baptiste Lambert, journalier (non rattaché), de deux
+  chambres rue Saint-Paul (12 $). A. Gaston Bélanger témoin. Reçu d'acompte de
+  7 $ au dos de la chemise (01043).
+- **n° 235** (01044-01045) : quittance de Pierre Cantin, cultivateur de
+  St-Jean-Chrysostome, à Joseph Couture, de St-Lambert, pour 100 $ (obligation
+  de 1869). Hors paroisse.
+- **n° 236** (01046-01049) : obligation de Joseph Couture (le même, St-Lambert)
+  à Napoléon Sévigny, ingénieur de St-Jean-Chrysostome, 150 $ à 8 %, garantie
+  par deux terres de la concession St-Augustin sur la Chaudière. Hors paroisse.
+- **n° 237, incomplet** (01050) : vente d'un emplacement à St-Jean-Chrysostome,
+  de George Gagné, marchand, à Étienne Denis dit Lapierre, cultivateur (tous
+  deux déjà laissés sans rattachement dans d'autres actes). Seule la première
+  page est au Drive ; la fiche est à compléter au fichier 01051.
+
+**Mise à jour du 12 novembre 2026 — sous-dossier 1051-1100.** Patrick a déposé
+les fichiers **01051 à 01100**. Ils sont **tous lus** : la vente **n° 237** est
+complétée (01051-01052), et les actes **n° 238 à 251** (5 au 28 novembre 1874)
+sont transcrits ; le **n° 251 est incomplet** (sa fin est sur le fichier 01101,
+pas encore au Drive). **250 fiches `notarie-`.** Les identifiants Drive de 01051
+à 01100 sont dans `images-drive.json`.
+
+- **La boucle du hameau Roberge** (n° 237-239, 5 nov.) : Gagné vend à Étienne
+  Denis dit Lapierre un emplacement, Lapierre en donne quittance à Gagné sur une
+  dette (n° 238), puis reconnaît la rente de 7 piastres à Pierre Roberge par
+  titre nouvel (n° 239).
+- **Contrat de mariage Boucher–Topping** (n° 240, 9 nov.) : riche en
+  rattachements (voir le commit) — John Boucher et ses parents, Elizabeth
+  Topping, Angélique Boutin, Cédulie Topping, Louis Gelly.
+- **n° 241** : obligation Demeule à l'Île d'Orléans (hors paroisse).
+- **n° 242-244** : quittance Régin-Couture ; vente Benjamin Demers à Germain
+  Cantin (lotissement rue St-Louis/St-Jean-Baptiste, `1871-D1-P017-L04`) ;
+  quittance Shaw-Lizotte d'un billet égaré (Markham, à Québec).
+- **n° 245-248** : bail Roberge à Turgeon (hameau Roberge) ; obligation Pichette
+  à Villeneuve (`1871-D2-P072-L08` / `1871-D1-P013-L13`) ; vente de la veuve
+  Lambert (Louise Demers, `1871-D2-P071-L19`) à Pichette le lendemain ; bail de
+  la veuve Hallé (Ursule Drouin) à Frédéric Gagné (`1871-D2-P024-L07`).
+- **La boucle de l'emplacement Hallé** (n° 248-250, 26 nov.), calquée sur celle
+  du hameau Roberge : la veuve Hallé baille à Frédéric Gagné (n° 248), Gagné
+  revend le jour même à Ferdinand Roberge, chaloupier (n° 249, `1871-D2-P040-L03`),
+  qui reconnaît la rente par titre nouvel (n° 250).
+- **n° 251, incomplet** : vente par Germain Cantin à Charles Filteau
+  (`1871-D1-P023-L15`) d'une maison de bois à déménager. À compléter au 01101.
+- **Chemise sans acte** : le fichier **01079** est une chemise imprimée
+  « Bail à rente foncière — par Turgeon à L. Vallière ». Aucun bail Turgeon →
+  Vallière n'est dans ce sous-dossier : son acte est sans doute dans le
+  sous-dossier suivant (1101+) ; l'y rattacher alors (l'image 01079 n'est posée
+  sur aucune fiche pour l'instant).
+- **Témoin récurrent** : Louis-Joseph-Stanislas Roberge, instituteur de
+  St-Romuald (n° 247-250) ; non recensé sous ce nom.
+
+**Pour reprendre** : continuer au fichier **01101** (microfilm 002045), pour
+compléter la vente **n° 251** (Cantin à Filteau), quand Patrick aura déposé le
+sous-dossier « 1101-1150 ».
 
 Fils suivis dans la série 00451-00550 :
 
