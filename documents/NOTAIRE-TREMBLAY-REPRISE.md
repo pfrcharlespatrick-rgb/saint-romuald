@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (257 fiches au 19 novembre 2026 ; série jusqu'à 01126 lue).
+fiche dont l'identifiant commence par `notarie-` (258 fiches au 19 novembre 2026 ; série jusqu'à 01131 lue).
 
 ## Où sont les images
 
@@ -381,8 +381,8 @@ Filteau) est **complète** — hypothèque, clôture et signatures. **250 fiches
   et versée par `fondre.mjs`. Le Napoléon de 1881 (`1881-D1-P087-L23`) reste
   « Houde » ; le lien 1871 → 1881 tient (« patronyme proche »).
 
-Suite du 19 novembre : fichiers **01103 à 01126** lus, actes **n° 252 à 258**
-(1er-11 décembre 1874). **257 fiches `notarie-`.**
+Suite du 19 novembre : fichiers **01103 à 01131** lus, actes **n° 252 à 259**
+(1er-11 décembre 1874). **258 fiches `notarie-`.**
 
 - **n° 252** : obligation de Joseph Laflamme, inspecteur et mesureur de bois de
   Notre-Dame-de-Lévis, à **William Henry Vachon**, teneur de livres de
@@ -415,7 +415,16 @@ Suite du 19 novembre : fichiers **01103 à 01126** lus, actes **n° 252 à 258**
   Wilson, « culler »** (mesureur de bois ; `1871-D2-P005-L14`). Aucun enfant
   nommé. « Bruno » est peut-être Bruneau : à voir dans les registres.
 
-**Pour reprendre** : continuer au fichier **01127** (microfilm 002071-72).
+- Le fichier **01127** est la chemise manuscrite commune aux deux testaments
+  (« Testaments du Père Toussaint & uxor »).
+- **n° 259** (10 déc., numéroté après les testaments du 11) : Benjamin Demers
+  concède à **Augustin Plaisance fils**, « foreman » (le notaire avait écrit
+  « commis », rayé — sa profession au recensement de 1871,
+  `1871-D1-P046-L10`), un grand lot sur la **« rue St Pierre »**, adossé à la
+  terre de Pierre Lagueux, voisin de Pierre Rouleau et de Barthélemi
+  St-Hilaire (18 $ de rente). Feuillet déchiré ; chemise : **01131**.
+
+**Pour reprendre** : continuer au fichier **01132** (microfilm 002076-77).
 
 Fils suivis dans la série 00451-00550 :
 
