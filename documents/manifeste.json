@@ -22848,7 +22848,8 @@
         {
           "role": "concédante",
           "nom": "Ursule Drouin",
-          "note": "Veuve de feu Antoine Hallé, forgeron de Saint-Romuald ; ne sait signer. Non recensée sous ce nom en 1871 ; ses fils, forgerons (George, Philippe Hallé, etc.), sont recensés maison 26 (division 1). Non rattachée."
+          "note": "Veuve de feu Antoine Hallé, forgeron de Saint-Romuald ; ne sait signer. Le bail n° 279 (7 janvier 1875) écrit clairement « Ursule Dussault », et le recensement de 1871 donne « Ursule Dussault », veuve de 58 ans, avec ses fils Hallé forgerons (division 1, maison 26) : le nom lu ici « Drouin » est sans doute à relire « Dussault » sur le manuscrit (fichier 01088). Rattachement probable.",
+          "ref_personne": "1871-D1-P010-L17"
         },
         {
           "role": "concessionnaire",
@@ -26887,6 +26888,129 @@
           "microfilm": "002173",
           "drive": "1WJR1ZKZiOU4gCxlPYKK52f0T6CJzaX5b",
           "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-12-31-protet-bouffard-vachon",
+      "type": "notarie",
+      "titre": "Protêt de Narcisse Bouffard, journalier, contre son propriétaire Jean-Baptiste Vachon fils, mesureur de bois, pour des réparations non faites — minute n° 278, 31 décembre 1874",
+      "date": "1874-12-31",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 278, images 002174 à 002176 (Drive : fichiers 04T_CN401S124P_01230 à 01232). En marge « Protêt — Bouffard à Vachon — Original — Expédié 1 fois » et une note de vacation (« … heures de … »). Feuillet abîmé, réparé de bandes de papier collant qui masquent plusieurs mots (« [masqué] »). Renvoi paraphé « E. H. T. N.P. ». Le quantième (« trente-unième ») est en tête. Acte complet.",
+      "nature": "Protêt (déclaration, notification et sommation) signifié le 31 décembre 1874, avant midi, au domicile de Jean-Baptiste Vachon fils, à Saint-Romuald, à la requête de son locataire ; le notaire signe seul.",
+      "transcription": "[002174] « N° 278. Le trente-unième jour de Décembre, avant midi, de l'an mil huit cent soixante-quatorze, à la réquisition de Narcisse Bouffard, journalier, de St Romuald, je, Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, soussigné, me suis transporté au domicile de Jean-Baptiste Vachon, Écuier, fils, mesureur de bois, situé à St Romuald, où étant & parlant à lui-même, lui ai fait les déclarations, notifications & sommations suivantes, savoir : Attendu que le dit Sr Vachon a loué au requérant deux chambres dans le bas d'une maison en bois à un étage & une part dans le grenier, pour un loyer annuel de vingt piastres courant ; Attendu que le dit Sr Vachon a promis & s'est obligé de faire arranger le soulage sous les dites prémisses, [renvoi : « de faire radouber le plancher & de faire poser une porte neuve »], de fournir de l'étoupe au requérant pour calfater telles chambres, & que néanmoins rien de tout cela n'a été jusqu'ici fait ; Attendu que le dit Sieur Vachon s'était obligé de faire telles réparations immédiatement après le premier jour de mai dernier ; Attendu qu'il a commencé [002175] au dit temps de faire radouber telles prémisses, mais qu'il a ensuite arrêté les ouvriers dans leurs travaux, alléguant pour raisons que le bois n'était pas sec ; Attendu que le retard apporté à l'exécution de ces travaux est la cause que le requérant & sa famille sont exposés à contracter des maladies sérieuses ; Attendu que le requérant n'a pas payé de loyer au dit Sr Vachon pour la raison que telles réparations n'ont pas été faites ; C'est pourquoi, je, dit Notaire, à la réquisition susdite, notifie [masqué] le dit Sr Vachon d'avoir à faire arranger les dites prémisses sans délai & de tenir les lieux clos & couverts suivant la loi, l'informant qu'à dater du jour où telles réparations susdites seront faites, le requérant sera prêt à lui payer son loyer ; l'informant en outre qu'à défaut par lui de ce faire sans délai, le requérant se pourvoira en justice pour l'y contraindre, ainsi que pour le recouvrement de tous les frais encourus & à encourir, & les dommages soufferts & à souffrir (le requérant se réservant tous [002176] droits quelconques qu'il a ou pourrait avoir pour tous dommages soufferts par lui & sa famille & résultant du mauvais état des dites prémisses). À quoi le dit Sieur Jean-Baptiste Vachon a répondu : “Il n'y a aucune promesse de faite !” Et j'ai persisté ès dites déclarations, notifications, sommations & réquisitions. Dont acte fait & signifié au domicile du dit Sieur Jean-Baptiste Vachon, les jour, mois & an susdits, sous le numéro deux cent soixante-dix-huit, où j'ai laissé une copie authentique des présentes au dit Sieur Vachon, afin qu'il n'en puisse prétendre ni plaider cause d'ignorance. Et j'ai signé, lecture faite. » — Signé : « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "requerant",
+          "nom": "Narcisse Bouffard",
+          "note": "Journalier de Saint-Romuald, locataire de deux chambres et d'une part de grenier ; vit avec sa famille dans un logement qu'il dit insalubre. Aucun Narcisse Bouffard aux recensements de la paroisse : non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Jean-Baptiste Vachon, fils",
+          "ref_personne": "1871-D1-P054-L13",
+          "note": "« Écuier, fils, mesureur de bois » de Saint-Romuald, propriétaire de la maison ; répond qu'« il n'y a aucune promesse de faite ». Le « culler » de la quittance Vachon-Campbell (n° 100), rattaché alors au « John Vachon » de 1871. Rattachement probable."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le dernier jour de 1874, un journalier, Narcisse Bouffard, fait protester contre son propriétaire, le mesureur de bois Jean-Baptiste Vachon fils : il loue pour vingt piastres par an deux chambres au rez-de-chaussée d'une maison de bois d'un étage et une part du grenier ; Vachon avait promis de refaire le soulage (le dessous du plancher), de radouber le plancher, de poser une porte neuve et de lui fournir de l'étoupe pour calfater les murs ; les travaux, commencés en mai, ont été arrêtés « parce que le bois n'était pas sec ». En plein hiver, la famille risque « des maladies sérieuses » ; le locataire retient son loyer jusqu'aux réparations. Réponse du propriétaire, consignée entre guillemets : « Il n'y a aucune promesse de faite ! » Un rare témoignage sur les conditions de logement des journaliers.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01230",
+          "microfilm": "002174",
+          "drive": "1MHR_eKijGSo3ftbT7JEkK_HTZwKpJKWl",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01231",
+          "microfilm": "002175",
+          "drive": "1WphRxm2-sIv8Ut-KSlkNqdi_5qYPwFj8",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01232",
+          "microfilm": "002176",
+          "drive": "1d93aOZaWTMKixqaE8E6eljHzFzjCpXIF",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-01-07-bail-halle-villers",
+      "type": "notarie",
+      "titre": "Bail à rente foncière d'Ursule Dussault, veuve d'Antoine Hallé, à Édouard Villers, journalier, d'un emplacement de la division de New-Liverpool — minute n° 279, 7 janvier 1875",
+      "date": "1875-01-07",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 279, images 002177 à 002179 (Drive : fichiers 04T_CN401S124P_01233 à 01235). Rédigé sur le formulaire imprimé de bail à rente foncière de Me Tremblay ; l'article 5 (droit de retrait) est rayé. En marge « Exp. à Villers — Hon. $3.50 ; acte & enrégist. 1.50 ; hon. dus $2.00 — Payé — Exp. 3 fois — Enrég. ». Feuillet abîmé, coins repliés, réparé de papier collant. Le capital de rachat est écrit « six … » sans chiffre complet. Acte complet.",
+      "nature": "Bail à rente foncière & constituée, passé le 7 janvier 1875, après-midi, à Saint-Romuald, en la demeure du concessionnaire, devant un témoin, Louis Fréchette, journalier ; la concédante et le concessionnaire ne savent signer.",
+      "transcription": "[002177] « N° 279 — 7 Janvier 1875. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Sr Louis Fréchette, de St Romuald, journalier, témoin au présent acte, aussi soussigné ; Fut présente : Dame Ursule Dussault, veuve de feu Sieur Antoine Hallé, en son vivant du même lieu, forgeron ; Laquelle a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de Bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à Sieur Édouard Villers, du même lieu, journalier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, division de New Liverpool, contenant quarante pieds de front sur soixante pieds de profondeur, mesure française ; borné à l'ouest à une rue, à l'est au bout de la profondeur, au nord à Augustin Picard & au sud à Thomas Lee, circonstances & dépendances. Tel que le dit emplacement est actuellement, sans en rien réserver, et dont le dit concessionnaire se déclare content et satisfait. Ce bail est fait à la charge par le dit concessionnaire qui s'y oblige pour lui, ses hoirs et ayant cause ; [002178] 1° De clore […] ; 2° De bâtir […] d'hui en un an une maison habitable et logeable […] ; 3° D'entretenir à ses propres frais […] les rues, ruelles ou chemins […] sur les côtés du dit emplacement […] ; 4° De payer au dit concédant […] au vingt-neuvième jour de septembre de chaque année, à dater du vingt-neuvième jour de septembre mil huit cent soixante-treize, la somme de six piastres courant, de rente foncière et constituée, rachetable en un seul paiement au capital de six [—] piastres. […] [5° (droit de retrait réservé à « Dame Veuve Antoine Hallé ») : rayé.] 6° […] copie enregistrée […]. [reprise de possession après deux années de rente impayée] [002179] Au moyen de quoi le dit concédant veut et consent que le dit concessionnaire jouisse et dispose du dit emplacement en pleine propriété et à perpétuité. Dont acte, fait et passé à St Romuald, demeure du dit Sr Villers, l'an mil huit cent soixante-quinze le septième jour de Janvier après-midi, sous le numéro deux cent soixante-dix-neuf des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Requis de signer, la concédante & le concessionnaire ont déclaré ne le savoir, en présence du dit témoin qui a signé avec moi, Notaire, lecture faite. » — Signé : « Louis Fréchette », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedante",
+          "nom": "Ursule Dussault",
+          "ref_personne": "1871-D1-P010-L17",
+          "note": "Veuve d'Antoine Hallé, forgeron ; ne sait signer. Recensée « Ursule Dussault », veuve de 58 ans, en 1871, avec ses fils George, Philippe et Joseph Hallé, forgerons et ingénieur (division 1). Rattachement probable. C'est la « Ursule Drouin » lue au bail Hallé-Gagné (n° 248) : le nom y est sans doute à relire « Dussault »."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Édouard Villers",
+          "ref_personne": "1881-D2-P026-L01",
+          "note": "Journalier de Saint-Romuald ; ne sait signer ; l'acte est passé chez lui (il occupe déjà le lot, la rente court depuis septembre 1873). Absent du recensement de 1871 ; Édouard Villers, 36 ans en 1881 (division 2), avec Rose et ses enfants. Rattachement probable."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Fréchette",
+          "note": "Journalier de Saint-Romuald ; signe « Louis Fréchette ». Non rattaché (seul un enfant de ce nom en 1871)."
+        },
+        {
+          "role": "autre",
+          "nom": "Antoine Hallé",
+          "note": "Feu mari de la concédante, forgeron de Saint-Romuald."
+        },
+        {
+          "role": "voisin",
+          "nom": "Augustin Picard",
+          "ref_personne": "1881-D2-P024-L21",
+          "note": "Voisin au nord. Hypothèse : Augustin Picard, journalier de 39 ans en 1881 (division 2, deux pages avant les Villers). Rattachement à confirmer."
+        },
+        {
+          "role": "voisin",
+          "nom": "Thomas Lee",
+          "ref_personne": "1881-D2-P026-L13",
+          "note": "Voisin au sud. Hypothèse : Thomas Lee, navigateur de 25 ans en 1881, recensé sur la même page que les Villers. Rattachement à confirmer."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "La veuve du forgeron Antoine Hallé, qui avait déjà concédé un lot à Frédéric Gagné (n° 248), lotit encore son terrain de New-Liverpool : elle concède à Édouard Villers, journalier, un emplacement de 40 pieds sur 60 (mesure française) sur une rue, pour six piastres de rente par an au 29 septembre — et la rente court depuis septembre 1873 : Villers y était installé avant d'avoir son titre, comme tant d'autres dans ce greffe. L'acte est passé chez lui. Il écrit clairement le nom de la veuve, « Ursule Dussault », que le recensement de 1871 donne aussi, avec ses fils Hallé ; au n° 248, le même nom avait été lu « Drouin ». Les voisins Picard et Lee, comme Villers, ne paraissent qu'au recensement de 1881, dans la division 2, sur des pages voisines : un quartier neuf de New-Liverpool.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01233",
+          "microfilm": "002177",
+          "drive": "1z3rUQKUUYXMs-cEhdA0N4woKsXWc32KO",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01234",
+          "microfilm": "002178",
+          "drive": "1EbahtQaIiri5hf5D9YIsDAULVJYOjH_n",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01235",
+          "microfilm": "002179",
+          "drive": "12ac43YKvaAmZibnJyg0jK4ZJrz_LBBB_",
+          "legende": "3/3"
         }
       ]
     }
