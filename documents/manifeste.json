@@ -28022,6 +28022,116 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-02-01-bail-bourassa-nadeau",
+      "type": "notarie",
+      "titre": "Bail à rente foncière d'Édouard Bourassa à Napoléon Nadeau, menuisier de Lévis, de la moitié nord-est d'un lot de la ville de Lévis — minute n° 294, 1er février 1875",
+      "date": "1875-02-01",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 294, images 002234 à 002236 (Drive : fichiers 04T_CN401S124P_01290 à 01292). Formulaire imprimé de bail à rente foncière de Me Tremblay, très remanié en marge. En marge « Bail — Bourassa à Nadeau — Expédié 2 fois — Payé pour enregistrer & honoraires $3.60 payé », et deux calculs de frais au bas de la première page (« 1.50, .10, 2.00 — 3.60 » ; « 1.50, .10, .15, 2.00 — $3.75 »). Renvois paraphés « E. B. », « N. N. », « E. H. T. N.P. ». Une clause rayée bornait le lot à un terrain de la « Compagnie du chemin de fer du Grand Trunk ». Acte complet.",
+      "nature": "Bail à rente foncière & constituée, passé le 1er février 1875, après-midi, en la demeure du concédant, à Saint-Romuald, sans témoin ; les deux parties signent.",
+      "transcription": "[002234] « N° 294 — 1 Février 1875. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Fut présent : Édouard Bourassa, de St Romuald, Écuier, agriculteur & rentier ; Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de Bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à Mr Napoléon Nadeau, de Lévis, comté du même nom, menuisier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : La juste moitié d'un emplacement ou lot de terre situé en la ville de Lévis, contenant en total cinq perches de front sur la profondeur qu'il peut y avoir depuis le chemin public à aller au pied de la côte en suivant la sinuosité de la dite côte, étant le côté nord-est du dit lot de terre, contenant deux perches & neuf pieds de front sur la profondeur susdite, le tout sans garantie de mesure précise quant à la largeur, tenant d'un côté au nord-est [renvoi (1) : « à Octave Lévesque, & au sud-ouest à George King »] [passage rayé : « … au terrain de la Compagnie du chemin de fer du Grand Trunk »], circonstances & dépendances. Tel que le dit emplacement est actuellement […]. [002235] 1° De clore le dit emplacement en tout temps à venir [« où il se trouvera voisin du dit concédant ou de ses représentants » : rayé], tel que le requiert la loi ; 2° De bâtir […] d'hui en un an une maison habitable et logeable […] ; 3° D'entretenir […] ; 4° De payer au dit concédant […] d'une année d'avance, au premier jour de février de chaque année, à dater du premier jour de février courant, la somme de cinquante piastres courant, de rente foncière et constituée, rachetable [« en un seul paiement » : rayé] au capital de sept cents piastres. [renvoi (2) : « Il est convenu entre les parties que le concessionnaire aura le droit d'effectuer le rachat de la dite rente sus-citée par versements de pas moins de cinquante piastres courant chaque, alors & dans ce cas la rente diminuera en proportion des versements effectués en à-compte sur le capital sus-stipulé. »] […] 5° Le dit Sr Édouard Bourassa se réserve […] le droit de Retrait […] ; 6° […]. [renvoi (3) : « 7° De payer toutes les taxes municipales, scolaires & autres imposées & imposables sur le dit emplacement, le tout à l'acquit & décharge du concédant — garantie quitte de tous arrérages au cinq de décembre dernier. »] Il est expressément convenu […] que si le dit concessionnaire […] laisse écouler [renvoi (4) : « dix-huit mois »] sans payer la dite rente […], le dit concédant […] aura le droit de reprendre possession […]. [002236] Au moyen de quoi […]. Dont acte, fait et passé à St Romuald, demeure du concédant, l'an mil huit cent soixante-quinze le premier jour de février après-midi, sous le numéro deux cent quatre-vingt-quatorze des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et le concédant & le concessionnaire ont signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Renvois en marge sont bons & approuvés. » — Signé : « Edouard Bourassa », « Napoléon Nadeau », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Édouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "« Écuier, agriculteur & rentier » de Saint-Romuald ; signe. Le demi-lot de Notre-Dame-de-la-Victoire (Lévis) qu'il possédait seul, d'après l'inventaire n° 276."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Napoléon Nadeau",
+          "note": "Menuisier de Lévis ; signe « Napoléon Nadeau ». Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Octave Lévesque",
+          "note": "Voisin au nord-est (le « nommé Lévesque » de l'inventaire n° 276). Hors paroisse."
+        },
+        {
+          "role": "voisin",
+          "nom": "George King",
+          "note": "Voisin au sud-ouest ; acquéreur de l'autre moitié du lot en 1861 (titre A de l'inventaire n° 276). Hors paroisse."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Après les lots de la rue Saint-Pierre (n° 271), Édouard Bourassa se défait d'un autre bien de Lévis : la moitié nord-est d'un lot de cinq perches entre le chemin public et le pied de la côte, qu'il concède à un menuisier, Napoléon Nadeau, pour une rente élevée de cinquante piastres par an, payable d'avance au 1er février, rachetable sept cents piastres, même par acomptes d'au moins cinquante piastres qui réduisent la rente d'autant. Une première rédaction bornait le lot au terrain de la Compagnie du chemin de fer du Grand Tronc, puis a été corrigée (Octave Lévesque et George King). L'acte reprend mot pour mot la description du demi-lot de l'inventaire n° 276. Le même jour, Nadeau verse un acompte de trente piastres (n° 295).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01290",
+          "microfilm": "002234",
+          "drive": "1gbJTkkNC7C5fXl3MZ47mWUxsrNQ-yTBQ",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01291",
+          "microfilm": "002235",
+          "drive": "1KtuJW2kzYsylos2yXHs98KcdgnNqDKpL",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01292",
+          "microfilm": "002236",
+          "drive": "1lFcppzyEhNGGxLWEjXupYJTciSAO06ZA",
+          "legende": "3/3"
+        },
+        {
+          "fichier": "01293",
+          "microfilm": "002237",
+          "drive": "1q7TjC9oGm3QuDqZVwsMvd-L3disLhKeM",
+          "legende": "chemise"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-02-01-quittance-bourassa-nadeau",
+      "type": "notarie",
+      "titre": "Quittance d'Édouard Bourassa à Napoléon Nadeau d'un acompte de trente piastres sur la rente du bail n° 294 — minute n° 295, 1er février 1875",
+      "date": "1875-02-01",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 295, images 002238 à 002239 (Drive : fichiers 04T_CN401S124P_01294 à 01295). Le fichier 01293, qui précède, est la chemise imprimée (blanche) du bail n° 294. En marge « Quittance — Ed. Bourassa à N. Nadeau — Original — Pas de copie ». Renvoi paraphé « E. B. », « N. N. », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Quittance partielle, passée le 1er février 1875, après-midi, en la demeure du comparant ; les deux signent.",
+      "transcription": "[002238] « N° 295 — 1er février 1875. L'an mil huit cent soixante-quinze, le premier jour de février après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, soussigné, Fut présent : Mr Édouard Bourassa, Ecr, de St Romuald, agriculteur & rentier ; Lequel reconnaît avoir reçu en à-compte de la rente foncière & constituée au montant de cinquante piastres courant, celle de trente piastres courant, [de] Sr Napoléon Nadeau, de Lévis, menuisier, dont quittance d'autant. [renvoi (1) : « Le dit Sr Nadeau, à ce aussi présent, s'obligeant payer la balance ou vingt piastres au vingt-neuf septembre prochain. »] Dont acte requis & octroyé à St Romuald, demeure du comparant, les jour, mois & an susdits, sous le numéro deux cent quatre-vingt-quinze. Et les comparants ont signé avec moi, Notaire, lecture faite. Trois mots rayés [002239] sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « Edouard Bourassa », « Napoléon Nadeau », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Édouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "Agriculteur et rentier de Saint-Romuald ; signe."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Napoléon Nadeau",
+          "note": "Menuisier de Lévis ; paie 30 piastres et s'engage à verser les 20 autres au 29 septembre ; signe. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Suite immédiate du bail n° 294 : la rente de cinquante piastres étant payable d'avance au 1er février, Napoléon Nadeau en verse trente le jour même ; Bourassa lui en donne quittance et Nadeau s'oblige à payer les vingt autres à la Saint-Michel (29 septembre). Pas de copie délivrée.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01294",
+          "microfilm": "002238",
+          "drive": "1Q-MqID1dFfeJOP6be-yiDRYzTmhipFlx",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01295",
+          "microfilm": "002239",
+          "drive": "105R5L4i-KVVItVGdwticpeKXglpUTsEH",
+          "legende": "2/2"
+        }
+      ]
     }
   ]
 }
