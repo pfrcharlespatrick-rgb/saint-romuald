@@ -25981,6 +25981,233 @@
           "legende": "dos du cahier"
         }
       ]
+    },
+    {
+      "id": "notarie-1874-12-18-titre-nouvel-pichette-demers",
+      "type": "notarie",
+      "titre": "Titre nouvel d'Alexis Pichette, maître maçon-plâtrier, en faveur de Benjamin Demers, pour un emplacement bâti de la rue Demers — minute n° 267, 18 décembre 1874",
+      "date": "1874-12-18",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 267, images 002113 à 002115 (Drive : fichiers 04T_CN401S124P_01169 à 01171) ; en marge « Titre nouvel — Pichette à Demers — Original — 5/- payable par A. Pichette ». Le quantième, d'abord « vingt-quatrième » [?], est rayé pour « dix-huit ». Renvoi paraphé « A. P. », « B. D. », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Titre nouvel (reconnaissance d'une rente foncière), passé le 18 décembre 1874, avant midi, à l'étude du notaire ; les deux parties signent.",
+      "transcription": "[002113] « N° 267 — 18 Déc. 1874. L'an mil huit cent soixante-quatorze, le [rayé : « vingt-quatrième » [?]] dix-huit jour de Décembre, avant midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant à St Romuald, comté de Lévis, soussigné ; Fut présent : Mr Alexis Pichette, Mtre maçon-plâtrier, de St Romuald, d'une part, & Benjamin Demers, Ecr, [rayé : « cultivateur »] rentier, de St Romuald, d'autre part ; Lequel dit Alexis Pichette dit & déclare qu'au moyen de l'acquisition par lui faite de Damase Roberge, [rayé : « Pierre Grégoire, de St Jean Chrysostome, dit comté, marchand »], d'un lot de terre ou emplacement situé à St Romuald, étant le N° six sur le côté sud-ouest d'une rue alors nouvellement ouverte par le dit Benjamin Demers, & portant aujourd'hui le nom de rue Demers ; contenant, le dit emplacement, soixante pieds de front sur cinquante pieds de profondeur, mesure française, borné en front au nord-est à la dite rue, en arrière à Édouard Horion ou ses représentants, d'un côté au nord à Adolphe Gosselin ou ses représentants, & d'autre côté au sud à Rémi Horion, avec ensemble une maison en bois à un étage dessus construite, circonstances [002114] & dépendances, par acte passé devant Mtre Légaré, notaire, il y a à peu près trois ans, il est le débiteur d'une rente foncière qu'il s'oblige envers le dit Benjamin Demers, Ecr, [à] payer, de la somme de trois louis courant par année, payable au premier octobre. [renvoi en marge (1) : « Le dit Sr Pichette déclarant qu'il doit la somme de vingt-quatre piastres d'arrérages de rente qu'il s'oblige payer au plus tôt ; & pour la sûreté de laquelle ainsi que pour le paiement à l'avenir de la dite rente de douze piastres, il hypothèque le dit emplacement & les bâtisses dessus construites en faveur de Mr Demers, qui se réserve ses privilèges de bailleur de fonds. »] C'est pourquoi le dit Alexis Pichette promet de payer au dit Sr Demers, à ce présent & acceptant pour lui, ses hoirs & ayant cause, la somme de trois louis courant par année, au premier jour d'octobre, & ce sans novation ni dérogation au bail primitif du dit emplacement consenti par le dit Sr Demers à Augustin Plaisance, le dix-sept mai mil huit cent cinquante-cinq, auquel bail le dit Sr Pichette promet se conformer strictement. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Dont acte. Fait & passé à St Romuald, Étude, les jour, mois & an susdits, sous le numéro deux cent soixante-sept [002115] des originaux du Notaire soussigné. Et les parties ont signé avec moi, Notaire, lecture faite. Un renvoi en marge est bon. Mots rayés sont nuls. » — Signé : « Alexis Pichette », « Benj. Demers », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Alexis Pichette",
+          "note": "« Mtre maçon-plâtrier » de Saint-Romuald ; signe « Alexis Pichette ». Acquéreur du lot n° 6 de la rue Demers, avec maison, il y a environ trois ans (Me Légaré). Aucun Alexis Pichette adulte à Saint-Romuald aux recensements ; un Alexis Pichette senior, ancien cultivateur de Saint-Jean-Chrysostome, fait son testament en février 1874 (n° 43) — peut-être le père. Non rattaché."
+        },
+        {
+          "role": "creancier",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, rentier » (le notaire avait d'abord écrit « cultivateur ») ; signe « Benj. Demers ». Le lotisseur de la rue Demers, qui porte son nom."
+        },
+        {
+          "role": "autre",
+          "nom": "Damase Roberge",
+          "ref_personne": "1871-D1-P022-L04",
+          "note": "Vendeur du lot à Pichette, vers 1871 (Me Légaré). Le maître de poste et marchand de 1871 (division 1). Rattachement probable."
+        },
+        {
+          "role": "autre",
+          "nom": "Augustin Plaisance",
+          "ref_personne": "1871-D1-P046-L08",
+          "note": "Premier preneur du lot, par bail de Benjamin Demers du 17 mai 1855. Sans doute le père, millwright de 55 ans en 1871 (le fils n'avait alors que sept ans). Rattachement probable."
+        },
+        {
+          "role": "voisin",
+          "nom": "Édouard Horion",
+          "note": "Voisin à l'arrière, « ou ses représentants » ; déjà nommé en 1874 (vente Guillot-Brunet, n° 78). Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Adolphe Gosselin",
+          "ref_personne": "1871-D1-P029-L18",
+          "note": "Voisin au nord, « ou ses représentants ». Hypothèse : Adolphe Gosselin, charpentier de 37 ans en 1871 (division 1). Rattachement à confirmer."
+        },
+        {
+          "role": "voisin",
+          "nom": "Rémi Horion",
+          "ref_personne": "1881-D1-P020-L18",
+          "note": "Voisin au sud. Hypothèse : Rémi Horion, boulanger de 54 ans en 1881 (division 1). Rattachement à confirmer."
+        },
+        {
+          "role": "autre",
+          "nom": "Légaré",
+          "note": "Notaire de la vente Roberge à Pichette (vers 1871)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Alexis Pichette, maître maçon-plâtrier, a acheté vers 1871 de Damase Roberge le lot n° 6 de la rue Demers (60 pieds sur 50, mesure française), bâti d'une maison d'un étage. Il reconnaît devoir au lotisseur Benjamin Demers la rente de trois louis (douze piastres) par an attachée au lot, plus 24 piastres d'arrérages (deux ans), et hypothèque l'emplacement. L'acte apprend que le lot avait été concédé dès le 17 mai 1855 à Augustin Plaisance : la rue Demers, que l'on croyait ouverte en 1874, l'était en fait depuis vingt ans, alors « nouvellement ouverte » — comme le laissait déjà penser le n° 195 (lots de 1869). Voisins : Édouard Horion à l'arrière, Adolphe Gosselin au nord, Rémi Horion au sud.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01169",
+          "microfilm": "002113",
+          "drive": "1Eoam_SxJxh3ReWhZIeWyB-w_TBLt1C3O",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01170",
+          "microfilm": "002114",
+          "drive": "12i4gNONZs-EEALFaFei-cPHsX57jzrih",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01171",
+          "microfilm": "002115",
+          "drive": "1xvElZtbQgKrKssL5bcpKWk7mqIEk47Tu",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-12-19-vente-bourassa-dewar-bryan",
+      "type": "notarie",
+      "titre": "Vente par Joseph Bourassa, cultivateur, et sa femme Geneviève Cantin à Duncan Dewar et George Bryan, ingénieurs, d'un lot avec quai à Hadlow Cove (Pointe-Lévy) — minute n° 268, 19 décembre 1874 (acte en anglais)",
+      "date": "1874-12-19",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 268, images 002116 à 002119 (Drive : fichiers 04T_CN401S124P_01172 à 01175 ; le fichier 01175 est la chemise imprimée « Deed of Sale … Copy », restée blanche). Rédigée en anglais sur un formulaire imprimé de vente (« Sale ») d'un notaire de Québec, adapté à la main. En marge « Sale by Jos. Bourassa to Messrs Dewar & Bryan — Original — Exp. 1 fois — Payé ». Renvoi paraphé « J. B. », « G. C. », « D. D. », « G. Bryan », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Vente (deed of sale), passée le 19 décembre 1874, à Saint-Romuald, en la résidence des vendeurs ; vendeurs et acquéreurs signent.",
+      "transcription": "[002116] « N° 268 — 19 December 1874. On this day, the nineteenth day of December one thousand eight hundred and seventy four, Before the undersigned Notary Public, residing at St Romuald, personally came and appeared : Mr Joseph Bourassa, of the Parish of St Romuald, in the County of Levis, farmer, [renvoi en marge (1) : « & Misses Geneviève Cantin, his wife, that the said Joseph Bourassa doth hereby & duly authorize to the effect of these presents »], of the first part ; & Mr Duncan Dewar, engineer, & Mr George Bryan, engineer, both residing in the Parish of Notre Dame de Levis, said county, [rayé : « at the place named Hadlow Cove »]. Which said parties in the presence of us, the said Notary, have stipulated, covenanted and agreed as follows, viz : The said Joseph Bourassa & Geneviève Cantin [rayé : « his wife »] did and do hereby grant, bargain and sell, and bind and oblige their heirs, executors & administrators to warrant, guard, garanty and defend against all incumbrances, mortgages, debts, dowers, demands and all other troubles whatsoever unto the said Messrs Dewar & Bryan, accepting hereof for themselves, their heirs and assigns, That is to say : A certain lot of ground situated in the Parish of Notre Dame of Point Levis, said County, in the Division called “Hadlow Cove”, containing about seven perches & one half (French) in front, & bounded as follows, viz : to the north by the public Road or St Lawrence [river], to the south at the south part of the wharf now erected ; to the West side by George Lebreux [?], & to the East side by George Bourassa, altogether with the house, kitchen & hangar thereon built, circumstances & dependencies, as the whole is now and whereof the said purchasers do declare themselves satisfied, having viewed and examined the same. [002117] Said lot of land and premises belonging to the said vendors by & in virtue of good titles duly passed & registered according to law. To have and to hold the said lot of land and premises hereby sold, together with all the rights, privileges and appurtenances thereunto belonging, unto the said Messrs Dewar & Bryan, their heirs and assigns, to their own proper use, behoof and benefit, in full and absolute property, henceforth for ever, to the effect whereof the said vendors do hereby divest themselves of the whole in favor of the said purchasers by these presents. This sale is made subject to the payment for the future of such cens, seigniorial rights, services and dues as may be payable for the said lot of land, as well as to the payment of all taxes, either municipal or scholar, & all other taxes whatsoever which are imposed or may be hereafter imposed upon the said property — garantee of all arrears due up to date. And lastly, the present sale is further made for, and in consideration of the sum of Three hundred Pounds Currency, that the vendors hereby acknowledge & confess to have received at the time of the execution of this presents, in good current money, from the said Messrs Duncan Dewar & George Bryan, to whom said vendors give a full & entire acquittance & discharge in consideration of said payment of the said sum. Dont quittance générale & finale in faveur des acquéreurs. [002118] [clause imprimée d'hypothèque de bailleur de fonds rayée] The said vendors declaring that they transfer the policy now existing upon the said house to the purchasers, without indemnity. For thus &c. Done and passed, at the said Parish of St Romuald, in the residence of the vendors, on the day and year above written, under number Two hundred & sixty eight of the original deeds of Elzéar Hubert Tremblay, the said Notary. And the vendors & purchasers have subscribed their names with me, Notary, after reading duly made according to law. Words struck out are null. » — Signé : « Geneviève Cantin », « Joseph Bourassa », « George Bryan », « Duncan Dewar », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Joseph Bourassa",
+          "ref_personne": "1871-D1-P024-L13",
+          "note": "« Farmer » de Saint-Romuald ; signe « Joseph Bourassa ». Cultivateur de 56 ans en 1871, rentier de 66 ans en 1881 (1881-D1-P022-L11), avec sa femme Geneviève. Le propriétaire de la ferme du Petit-Saint-Jean (n° 69, 193, 232). Rattachement probable."
+        },
+        {
+          "role": "vendeur",
+          "nom": "Geneviève Cantin",
+          "ref_personne": "1871-D1-P024-L14",
+          "note": "Femme de Joseph Bourassa, autorisée par lui ; covenderesse ; signe « Geneviève Cantin ». Recensée « Geneviève Bourassa », 51 ans en 1871 (même ménage), 61 ans en 1881. Rattachement probable."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Duncan Dewar",
+          "note": "« Engineer » de Notre-Dame-de-Lévis ; signe. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "acquereur",
+          "nom": "George Bryan",
+          "note": "« Engineer » de Notre-Dame-de-Lévis ; signe. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "George Lebreux [?]",
+          "note": "Voisin à l'ouest du lot de Hadlow Cove ; nom de lecture incertaine."
+        },
+        {
+          "role": "voisin",
+          "nom": "George Bourassa",
+          "note": "Voisin à l'est du lot de Hadlow Cove. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Acte rédigé en anglais, sur un formulaire imprimé de Québec, pour des acquéreurs anglophones. Joseph Bourassa, cultivateur de Saint-Romuald, et sa femme Geneviève Cantin vendent pour trois cents louis (1 200 piastres) comptant à deux ingénieurs, Duncan Dewar et George Bryan, un lot de sept perches et demie de front à Hadlow Cove, à la Pointe-Lévy, entre le chemin du fleuve et l'extrémité sud du quai « now erected », avec maison, cuisine et hangar ; la police d'assurance de la maison leur est cédée. Que deux ingénieurs achètent un quai à Hadlow Cove, anse de la Pointe-Lévy, n'est pas indifférent : le lien avec les chantiers ou le chemin de fer de Lévis reste à vérifier. L'acte est passé chez les vendeurs ; Geneviève Cantin signe de son nom de fille.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01172",
+          "microfilm": "002116",
+          "drive": "1YXUdQBaWax3I7gmyfKStQ0-JLBSAx5HH",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01173",
+          "microfilm": "002117",
+          "drive": "1DOvj4QOuvdRe_WicpaxrBhaBDuJycqp2",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01174",
+          "microfilm": "002118",
+          "drive": "1yp3zKXtaB0uO-DuGGN8Qw1EYWbe_Bj26",
+          "legende": "3/3"
+        },
+        {
+          "fichier": "01175",
+          "microfilm": "002119",
+          "drive": "1DKP6d6LH2JI4DDKhCDL3lGZUNzvUD9zt",
+          "legende": "chemise imprimée « Deed of Sale »"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-12-21-bail-roberge-proulx",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Louis-Hubert Roberge, rentier, à Thomas Proulx, menuisier, d'un emplacement de la division de New-Liverpool, avec droit à l'eau du puits — minute n° 269, 21 décembre 1874",
+      "date": "1874-12-21",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 269, images 002120 à 002123 (Drive : fichiers 04T_CN401S124P_01176 à 01179). Rédigé sur le formulaire imprimé de bail à rente foncière de Me Tremblay. En marge « Payé pour enregistrer » et « $266.67 à 6 % ». Le fichier 01179 est la chemise imprimée (« [Bail à] rente foncière — Bail : 1 copie 1.00, 2 [copies] 1.00 — 3.50 ; Obligation 1.00, 1.30 — 2.30 ; 5.80 — Thomas Proulx & obligation mobilière — Copie — Payé pour enregistrement du présent & de l'obligation 2.00, 1.30 — $3.30 — Payé ce 21 Déc 1874 ») : elle annonce une obligation liée, sans doute le n° 270. Une tache d'encre couvre une partie de la clôture. Acte complet.",
+      "nature": "Bail à rente foncière & constituée, passé le 21 décembre 1874, avant midi, à Saint-Romuald, en la demeure du concédant, devant un témoin, Louis-Joseph-Stanislas Roberge, instituteur ; le concessionnaire ne sait signer.",
+      "transcription": "[002120] « 269 — Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Louis Joseph Stanislas Roberge, de St Romuald, instituteur, témoin au présent acte, aussi soussigné ; Fut présent : Louis Hubert Roberge, Ecr, rentier, de St Romuald, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de Bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à Mr Thomas Proulx, du même lieu, [rayé : « char »] menuisier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, division New Liverpool, contenant cinquante pieds de front sur cinquante pieds de profondeur, le tout mesure anglaise ; borné à l'est à une rue projetée, à l'ouest à un nommé Thompson ou ses représentants, au nord & au sud au concédant, circonstances & dépendances. Tel que le dit emplacement est actuellement, sans en rien réserver, et dont le dit concessionnaire se déclare content et satisfait. Ce bail est fait à la charge par le dit concessionnaire qui s'y oblige pour lui, ses hoirs et ayant cause ; [002121] 1° De clore le dit emplacement […] ; 2° De bâtir sur le dit emplacement d'hui en un an une maison habitable et logeable, avec une cheminée soit en pierre, soit en briques […] ; 3° D'entretenir à ses propres frais et dépens toutes les rues, ruelles ou chemins […] ; 4° De payer au dit concédant, ses hoirs et ayant cause, au premier jour de novembre de chaque année, à dater du premier jour de novembre dernier, la somme de seize piastres courant, de rente foncière et constituée, rachetable en un seul paiement au capital de deux cent soixante-six piastres & soixante-sept centins courant. […] 5° Le dit Louis Hubert Roberge, Ecr, se réserve […] le droit de Retrait […] ; 6° […] copie enregistrée […]. [reprise de possession après deux ans de rente impayée] Le concessionnaire aura le droit de puiser de l'eau au puits ou fontaine du concédant, pourvu toutefois que le puisage de telle eau n'empêche pas le concédant d'avoir assez d'eau pour son usage, & à la condition que le concessionnaire fasse tous travaux, de ses frais ou en commun avec les autres concessionnaires, pour entretenir telle fontaine & la couvrir d'une petite [002122] bâtisse au besoin, sans que le concédant ne puisse en aucune manière y être tenu ou obligé. Au moyen de quoi le dit concédant veut et consent que le dit concessionnaire jouisse et dispose du dit emplacement en pleine propriété et à perpétuité. Dont acte, fait et passé à St Romuald, demeure du concédant, l'an mil huit cent soixante-quatorze le vingt-unième jour de Décembre avant midi, sous le numéro deux cent soixante-neuf des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et le concédant a signé ainsi que le dit témoin avec moi, [Notaire], le concessionnaire ayant déclaré ne [le] savoir, de ce requis, lecture faite. [tache d'encre] » — Signé : « L. Hubert Roberge », « Louis J. S. Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Louis-Hubert Roberge",
+          "note": "« Écuier, rentier » de Saint-Romuald (il était « navigateur » aux n° 49, 53, 58, 72, 74, 110) ; signe « L. Hubert Roberge ». Lotit à New-Liverpool, avec un puits commun aux concessionnaires. Laissé sans rattachement comme ailleurs (trois Hubert Roberge navigateurs en 1871)."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Thomas Proulx",
+          "ref_personne": "1871-D2-P020-L20",
+          "note": "Menuisier de Saint-Romuald (« char[pentier] » rayé) ; ne sait signer. Menuisier de 52 ans en 1871 (division 2) ; le locataire de Germain Cantin au n° 72. Rattachement probable, comme alors."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Joseph-Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe « Louis J. S. Roberge ». Témoin récurrent ; non recensé sous ce nom."
+        },
+        {
+          "role": "voisin",
+          "nom": "Thompson",
+          "note": "« Un nommé Thompson ou ses représentants », voisin à l'ouest. Des Thompson sont recensés en 1871 (division 1, page 43) : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Louis-Hubert Roberge, l'ancien navigateur devenu rentier, lotit sa terre de New-Liverpool : il concède à Thomas Proulx, menuisier, un emplacement de 50 pieds sur 50 au bord d'une « rue projetée », pour seize piastres de rente par an, rachetable 266,67 piastres (le capital à 6 %). Une clause ajoutée à la main donne au preneur le droit de puiser l'eau du puits ou de la fontaine du concédant, à charge de l'entretenir « en commun avec les autres concessionnaires » et de la couvrir d'une petite bâtisse : un lotissement avec un puits partagé. La chemise annonce une « obligation mobilière » de Proulx passée le même jour.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01176",
+          "microfilm": "002120",
+          "drive": "1mA83WDAF9n8zdMd5tsuiURdRxTt9yh4W",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01177",
+          "microfilm": "002121",
+          "drive": "15GLk0VJWlgs7MrJL82J10c_SsSPGrD9q",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01178",
+          "microfilm": "002122",
+          "drive": "10l8EnUhqCBrJbBV-t8BsEGYlYKbWH9iQ",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01179",
+          "microfilm": "002123",
+          "drive": "1FXzic81Q7LBe5BJhVaB8pM6Pxp1alq8z",
+          "legende": "chemise"
+        }
+      ]
     }
   ]
 }
