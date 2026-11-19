@@ -27787,6 +27787,129 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-01-28-echange-demers-gingras",
+      "type": "notarie",
+      "titre": "Échange de deux morceaux de terre triangulaires entre Benjamin Demers et Marcel Gingras, marchand, pour redresser la rue Saint-Louis — minute n° 290, 28 janvier 1875",
+      "date": "1875-01-28",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 290, images 002220 à 002222 (Drive : fichiers 04T_CN401S124P_01276 à 01278). En marge « Échange entre Benj. Demers & Marcel Gingras — Original — $3.00 — Payé pour enregistrer $1.30 — Expédié 1 fois ». Renvoi paraphé « B. D. », « M. G. », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Échange d'immeubles sans soulte, passé le 28 janvier 1875, avant midi, à l'étude du notaire ; les deux parties signent.",
+      "transcription": "[002220] « N° 290. L'an mil huit cent soixante-quinze, le vingt-huit de janvier avant midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Furent présents : Benjamin Demers, Ecr, rentier, de St Romuald, d'une part ; & Mr Marcel Gingras, du même lieu, marchand, d'autre part ; Lesquelles parties ont fait entre elles les échanges & permutations d'héritages suivants, sous la garantie réciproque de tous troubles, dons, dettes, douaires & hypothèques, savoir : Le dit Sr Demers donne en échange au dit Sr Gingras, à ce présent & acceptant, savoir : un morceau de terre de forme triangulaire situé à St Romuald, & ayant douze pieds de front sur la rue St Louis & allant en pointe se terminant à l'est vis- [002221] à-vis la partie ouest de l'emplacement de France Morin, borné au nord & au sud à Marcel Gingras & à l'ouest à la rue St Louis, circonstances & dépendances. Et en contre-échange le dit Sr Gingras [renvoi : « donne au dit Sr Demers »], à ce présent & acceptant, savoir : un morceau de terre de forme triangulaire situé à St Romuald, & se trouvant enclavé dans le tracé actuel de la rue St Louis, contenant douze pieds de largeur au sud & allant en pointe vers le nord, borné au sud & à l'ouest à la rue St Louis, au nord au chemin public & à l'est à Marcel Gingras, circonstances & dépendances. Cet échange est fait aux fins de redresser la dite rue St Louis, & en outre pour bonnes & valables considérations que les parties reconnaissent s'être données, dont quittance mutuelle. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte, fait & passé à St Romuald, Étude, les jour, mois & an susdits, sous [002222] le numéro deux cent quatre-vingt-dix des originaux du notaire soussigné. Et les parties ont signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « Benj. Demers », « Marcel Gingras », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "partie",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, rentier » ; signe « Benj. Demers ». Le lotisseur de la rue Saint-Louis."
+        },
+        {
+          "role": "partie",
+          "nom": "Marcel Gingras",
+          "ref_personne": "1871-D1-P040-L08",
+          "note": "Marchand de Saint-Romuald ; signe « Marcel Gingras ». Le seul Marcel Gingras de la paroisse (charretier de 32 ans en 1871, journalier en 1881), déjà « commerçant » au n° 2. Rattachement probable."
+        },
+        {
+          "role": "voisin",
+          "nom": "France Morin",
+          "note": "« France » (François) Morin, dont l'emplacement est à l'est du triangle cédé par Demers. Plusieurs François Morin aux recensements : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Petit acte d'urbanisme : la rue Saint-Louis, ouverte par Benjamin Demers, mordait sur le terrain de Marcel Gingras au coin du chemin public. Les deux voisins échangent deux triangles de terre de douze pieds de base — Gingras cède la pointe enclavée dans le tracé actuel de la rue, Demers lui rend un triangle équivalent de l'autre côté — « aux fins de redresser la dite rue St Louis ». Sans soulte.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01276",
+          "microfilm": "002220",
+          "drive": "1bwffgmJj1UW1Bq1Fsp8fUBQ7Y9kFQANx",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01277",
+          "microfilm": "002221",
+          "drive": "1I0NLCEj0ALY9Z1LsxNS6oZFkzkdIbWf7",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01278",
+          "microfilm": "002222",
+          "drive": "1D7D_-I4zrkC8Vdq0XrvZVU7FPjqbZKm5",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-01-28-bail-demers-gingras",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Marcel Gingras, marchand, d'un emplacement irrégulier entre les rues Saint-Louis et Saint-Pierre — minute n° 291, 28 janvier 1875",
+      "date": "1875-01-28",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 291, images 002223 à 002226 (Drive : fichiers 04T_CN401S124P_01279 à 01282 ; le fichier 01282 est la chemise imprimée « Bail à rente foncière — Copie », restée blanche). Formulaire imprimé de bail à rente foncière de Me Tremblay ; l'article 5 (droit de retrait) est rayé ; l'obligation de bâtir « d'hui en un an » est rayée. En marge « Bail à rente — Mr Demers à M. Gingras — Original — 3.50 — Exp. 2 fois — Payé enregistrement $2.00 — Bal. $2.00 », et des calculs (« 25, 33, 58 » ; « $12.00 — $200.00 — 1er octobre du 1er octobre dernier — $12.00 »). Renvoi paraphé « B. D. », « M. G. », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Bail à rente foncière & constituée, passé le 28 janvier 1875, avant midi, à l'étude du notaire, sans témoin ; les deux parties signent.",
+      "transcription": "[002223] « N° 291. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Fut présent : Benjamin Demers, Ecr, rentier, de St Romuald ; Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de Bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à Sieur Marcel Gingras, du même lieu, marchand, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald d'Etchemin, étant de forme irrégulière, contenant quatre-vingt-trois pieds [renvoi : « plus ou moins »] de front à l'ouest, sur une profondeur de quatre-vingts pieds plus ou moins du côté sud & de quatre-vingt-quatre pieds plus ou moins du côté nord, la dite largeur ayant environ cinquante-cinq pieds du côté nord-est du dit emplacement ; & borné à l'ouest à la rue St Louis, au sud à Laurent Bernier, au nord partie à Marcel Gingras & partie à France Morin, à l'est à la rue St Pierre, circonstances & dépendances. Tel que le dit emplacement est actuellement, sans en rien réserver, et dont le dit concessionnaire se déclare content et satisfait. Ce bail est fait à la charge par le dit concessionnaire qui s'y oblige pour lui, ses hoirs et ayant cause ; [002224] 1° De clore […] ; 2° De bâtir sur le dit emplacement [« d'hui en un an » : rayé] une maison habitable et logeable […] ; 3° D'entretenir […] les rues, ruelles ou chemins […] ; 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de [rayé : « treize »] douze piastres courant, de rente foncière et constituée, rachetable en un seul paiement au capital de [rayé : « cent soixante-quinze »] deux cents piastres. […] [5° (droit de retrait) : rayé.] 6° […] copie enregistrée […]. [reprise de possession après deux années de rente impayée] [002225] Au moyen de quoi […]. Dont acte, fait et passé à St Romuald, Étude [rayé : « demeure du concessionnaire »], l'an mil huit cent soixante-quinze, le vingt-huitième jour de Janvier, avant midi, sous le numéro deux cent quatre-vingt-onze des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et les concédant & concessionnaire ont signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « Benj. Demers », « Marcell Gingras », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, rentier » ; signe « Benj. Demers »."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Marcel Gingras",
+          "ref_personne": "1871-D1-P040-L08",
+          "note": "Marchand de Saint-Romuald ; signe « Marcell Gingras ». Le co-échangiste du n° 290, du même matin. Rattachement probable."
+        },
+        {
+          "role": "voisin",
+          "nom": "Laurent Bernier",
+          "note": "Voisin au sud. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "France Morin",
+          "note": "Voisin au nord (en partie), comme au n° 290."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le même matin que l'échange qui redresse la rue Saint-Louis (n° 290), Benjamin Demers concède à Marcel Gingras, marchand, un grand emplacement irrégulier qui traverse l'îlot d'une rue à l'autre — de la rue Saint-Louis, à l'ouest, à la rue Saint-Pierre, à l'est (83 pieds sur 80 à 84) —, adossé à ses propres terrains et à ceux de France Morin, pour douze piastres de rente au 1er octobre (rachetable deux cents piastres). Ni droit de retrait ni délai pour bâtir : un marchand qui agrandit son terrain plutôt qu'un journalier qu'on installe. L'acte situe la rue Saint-Pierre (n° 259) parallèle à la rue Saint-Louis, à l'est.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01279",
+          "microfilm": "002223",
+          "drive": "1_x30FqFA7q-jKLVNX03ZkmAji6Segtdd",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01280",
+          "microfilm": "002224",
+          "drive": "1tpkkhfo7IJfaBwTuQ7GVeH-6MgA9bvCe",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01281",
+          "microfilm": "002225",
+          "drive": "1SCVO0SGkmTUSsW27-82B0UxVzvKMKm9H",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01282",
+          "microfilm": "002226",
+          "drive": "1YSgsqwNhmpGP5tpWF0Le_R7s0EGbkCyF",
+          "legende": "chemise"
+        }
+      ]
     }
   ]
 }
