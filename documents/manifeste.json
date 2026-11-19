@@ -27093,6 +27093,83 @@
           "microfilm": "002183",
           "drive": "1OiZcA01WYNrb5otnFR6kFgCsUQbHJ5Lg",
           "legende": "3/3"
+        },
+        {
+          "fichier": "01240",
+          "microfilm": "002184",
+          "drive": "1Q7DXK-x98g2WyDS83DHqdo_7GZPwGdiO",
+          "legende": "chemise"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-01-07-bail-halle-biret",
+      "type": "notarie",
+      "titre": "Bail à rente foncière d'Ursule Dussault, veuve d'Antoine Hallé, à François Biret [?], journalier, d'un emplacement irrégulier à la cime de la côte, division de New-Liverpool — minute n° 281, 7 janvier 1875",
+      "date": "1875-01-07",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 281, images 002185 à 002188 (Drive : fichiers 04T_CN401S124P_01241 à 01243 ; le fichier 01244 est la chemise imprimée « Bail à rente foncière — Copie », restée blanche, avec des calculs au crayon). Le fichier 01240, qui précède, est la chemise (blanche) du n° 280. Formulaire imprimé de bail à rente foncière de Me Tremblay. En marge « Exp. 2e copie à Mr Biret [?] — hon. $3.50 ; acte & enrég. 1.50 payé ; hon. dus $2.00 payé », et un calcul en livres (« 8/9, 10/-, 20/6, 50/-, 89/3, £4.9.3 »). Le numéro est laissé en blanc dans la clôture (« deux cent [—] »). Nom du concessionnaire de lecture incertaine. Acte complet.",
+      "nature": "Bail à rente foncière & constituée, passé le 7 janvier 1875, après-midi, à Saint-Romuald, en la demeure de Benjamin Bourassa, devant un témoin, Louis Fréchette, journalier ; la concédante et le concessionnaire ne savent signer.",
+      "transcription": "[002185] « N° 281 — 7 Janvier 1875. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Sr Louis Fréchette, de St Romuald, journalier, témoin au présent acte, aussi soussigné ; Fut présente : Dame Ursule Dussault, veuve de feu Sr Antoine Hallé, demeurant à St Romuald ; Laquelle a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de Bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à Sr François Biret [?], de St Romuald, journalier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, division de New Liverpool, [renvoi en marge : « & étant de forme irrégulière & contenant quatre-vingt-dix pieds de front à l'ouest sur la profondeur de cinquante pieds dans la plus grande profondeur, & suivant en arrière les sinuosités de la côte »] [passage rayé : « contenant quatre-vingt-dix pieds de front à l'ouest & cinquante pieds à l'est »] ; borné à l'ouest à la cime de la côte, à l'est au pied du cap, au nord & au sud à la concédante, circonstances & dépendances. Tel que le dit emplacement est actuellement […]. Ce bail est fait à la charge […] ; [002186] 1° De clore […] ; 2° De bâtir […] d'hui en un an une maison habitable et logeable […] ; 3° D'entretenir […] ; 4° De payer au dit concédant […] au vingt-neuvième jour de septembre de chaque année, à dater du vingt-neuvième jour de septembre [renvoi : « mil huit cent soixante-seize »] [rayé : « prochain »], la somme de six piastres courant, de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres. […] 5° La dite Dame Veuve Antoine Hallé se réserve pour elle, ses héritiers et ayant cause, le droit de Retrait […] ; 6° […]. [reprise de possession après deux ans de rente impayée] [002187] Au moyen de quoi […]. Dont acte, fait et passé à St Romuald, demeure de Sr Benjamin Bourassa, l'an mil huit cent soixante-quinze le septième jour de Janvier après-midi, sous le numéro deux cent [en blanc] des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Requis de signer, les concédante & concessionnaire ont déclaré ne le savoir, en présence du dit témoin qui a signé avec moi, Notaire, lecture faite. Renvois en marge sont bons & approuvés. » — Signé : « Louis Fréchette », « E. H. Tremblay, N.P. » [une seconde signature « Louis Fréchette », plus bas, est rayée].",
+      "personnes": [
+        {
+          "role": "concedante",
+          "nom": "Ursule Dussault",
+          "ref_personne": "1871-D1-P010-L17",
+          "note": "Veuve d'Antoine Hallé, forgeron ; ne sait signer. Troisième bail du même après-midi (n° 279, 280). Rattachement probable."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "François Biret [?]",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Nom de lecture incertaine (Biret, Birot ?). Introuvable aux recensements ; non rattaché. À relire sur le manuscrit (fichier 01241)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Fréchette",
+          "note": "Journalier de Saint-Romuald ; signe."
+        },
+        {
+          "role": "autre",
+          "nom": "Benjamin Bourassa, fils",
+          "note": "L'acte est passé en sa demeure ; le concessionnaire du n° 280."
+        },
+        {
+          "role": "autre",
+          "nom": "Antoine Hallé",
+          "note": "Feu mari de la concédante."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Troisième concession de la veuve Hallé le même après-midi, passée cette fois chez Benjamin Bourassa (n° 280) : un emplacement irrégulier de quatre-vingt-dix pieds de front, entre la cime de la côte, à l'ouest, et le pied du cap, à l'est, suivant les sinuosités de la côte — un terrain en pente, entre le plateau et la grève de New-Liverpool. Mêmes conditions (six piastres de rente, rachat à cent), mais la rente ne courra qu'à partir de septembre 1876 : contrairement à Villers et Bourassa, le preneur, François Biret [?], ne l'occupait sans doute pas encore. Le notaire a oublié de remplir le numéro dans la clôture.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01241",
+          "microfilm": "002185",
+          "drive": "1bLK9uWpta_CDfW-UXU6wb6yq6oJLwOqP",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01242",
+          "microfilm": "002186",
+          "drive": "1AH1GxyOjKi2ug_t4UvS9kT60rEreUxiL",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01243",
+          "microfilm": "002187",
+          "drive": "1j7N-n8HRa_BOUEsuCliDN96j8GJu85B6",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01244",
+          "microfilm": "002188",
+          "drive": "1et8qQ_gHrI5Il_kDD3Tf7pUouWXHU7vF",
+          "legende": "chemise"
         }
       ]
     }
