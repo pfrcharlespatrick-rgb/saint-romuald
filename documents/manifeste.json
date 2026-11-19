@@ -24765,6 +24765,144 @@
       "affirmations": [],
       "note": "Le dossier réunit, en novembre 2026, tout ce que le projet sait du couple et de ses enfants. Il ne porte aucune affirmation propre : les faits qu'il expose sont ceux des fiches qu'il cite. À refaire quand de nouvelles pièces seront versées (second testament de Léocadie de 1928, actes de baptême, de mariage de 1865, de sépulture).",
       "ajoute_le": "2026-11-18"
+    },
+    {
+      "id": "notarie-1874-12-01-obligation-laflamme-vachon",
+      "type": "notarie",
+      "titre": "Obligation de Joseph Laflamme, inspecteur et mesureur de bois de Notre-Dame-de-Lévis, envers William Henry Vachon, teneur de livres de Saint-Romuald — minute n° 252, 1er décembre 1874",
+      "date": "1874-12-01",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 252, images 002047 à 002050 (Drive : fichiers 04T_CN401S124P_01103 à 01106) ; en marge « Obligation — Laflamme à Vachon — Original — Exp. 1 fois — Expédié 2e copie ». Le chiffre « 2 » du numéro est récrit sur un « 3 ». Acte complet.",
+      "nature": "Obligation (prêt hypothécaire) passée le 1er décembre 1874, avant midi, à Saint-Romuald, au bureau de « Messers Ritchie & Cull » ; le créancier et le débiteur signent.",
+      "transcription": "[002047] « N° 252 — 1er Décembre 1874. L'an mil huit cent soixante-quatorze, le premier jour de Décembre, avant midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant à St Romuald, comté de Lévis, soussigné ; Fut présent : Joseph Laflamme, Écuier, inspecteur & mesureur de bois, demeurant à Notre Dame de Lévis, dit comté ; Lequel reconnaît & confesse devoir bien & légitimement à William Henry Vachon, Ecr, de St Romuald, teneur de livres, à ce présent & acceptant, la somme de cinq cents piastres courant, étant pour prêt de pareille somme réellement fait & délivrée lors de l'exécution des présentes, à vue & présence du notaire, ainsi que le débiteur le reconnaît & dont il se déclare content & satisfait [mots rayés : « avec ensemble l'intérêt de huit pour cent »]. Laquelle dite somme de cinq cents piastres courant, le [002048] débiteur, pour lui, ses hoirs & ayant cause, promet & s'oblige payer & rembourser au créancier, ou ordre, porteur des présentes en forme légale, d'hui [rayé : « à demande »] à un an, à pareille date, avec ensemble l'intérêt de huit pour cent par an, payable annuellement à compter de ce jour. Et pour assurer le paiement de la somme de cinq cents piastres courant & des intérêts qui en proviendront, le débiteur hypothèque spécialement : 1° Un emplacement situé en la paroisse de Notre Dame de Lévis, contenant trente pieds de front, sur la profondeur qu'il peut y avoir depuis [renvoi en marge : « le côté sud de la Rue St Laurent »] à aller au pied du cap ; borné au nord à la Rue St Laurent, au sud au pied du cap, à l'est au lot ci-après décrit & à l'ouest à Thomas Guenette fils, avec ensemble une maison en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances. 2° Un autre lot ou emplacement situé au même lieu, contenant [rayé : « quarante pieds »] [002049] trente-deux pieds de front sur la profondeur [renvoi en marge : « qu'il peut y avoir »] à partir de la Rue St Laurent à aller au pied du cap, borné au nord à la Rue St Laurent, au sud au pied du cap, à l'est à Napoléon Lamontagne & Prudent Grégoire Roy, à l'ouest à l'emplacement premièrement décrit, avec ensemble une maison en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances. Et pour assurer davantage le paiement des cinq cents piastres & intérêts susdits, le débiteur transporte la police d'assurance qu'il a prise dans la “Western Assurance Company” au montant de sept cents piastres courant, laquelle police le débiteur promet continuer à l'expiration d'icelle pour un montant d'au moins sept cents piastres. Et dans le cas où le débiteur refuserait ou négligerait de continuer à tenir les deux maisons susdites assurées pour le montant susdit, alors le créancier aura le droit de les faire [002050] assurer aux frais & dépens du dit débiteur, qui s'oblige par ces présentes [à] remettre au créancier les frais [mots rayés] pour ce encourus, à demande. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald, bureau de Messers Ritchie & Cull, les jour, mois & an susdits, sous le numéro deux cent cinquante-deux des originaux du notaire soussigné. Et les créancier & débiteur ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » — Signé : « Wm H. Vachon », « Joseph Laflamme », « E. H. Tremblay, N.P. » ; renvois paraphés « Wm H. V. », « J. L. », « E. H. T. N.P. ».",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Joseph Laflamme",
+          "note": "« Écuier, inspecteur & mesureur de bois », de Notre-Dame-de-Lévis ; signe « Joseph Laflamme ». Hors paroisse : non rattaché."
+        },
+        {
+          "role": "creancier",
+          "nom": "William Henry Vachon",
+          "ref_personne": "1871-D1-P003-L15",
+          "note": "« Écuier, de St Romuald, teneur de livres » ; signe « Wm H. Vachon ». Hypothèse : Henry Vachon, ingénieur de 29 ans en 1871 (division 1), du ménage de Jean-Baptiste Vachon, inspecteur de bois de 75 ans — le seul Henry Vachon recensé. L'acte est passé au bureau de Ritchie & Cull, marchands de bois : il en était peut-être le teneur de livres. Rattachement à confirmer."
+        },
+        {
+          "role": "voisin",
+          "nom": "Thomas Guenette, fils",
+          "note": "Voisin à l'ouest du premier emplacement, rue Saint-Laurent, à Notre-Dame-de-Lévis. Hors paroisse."
+        },
+        {
+          "role": "voisin",
+          "nom": "Napoléon Lamontagne",
+          "note": "Voisin à l'est du second emplacement, avec Prudent Grégoire Roy, rue Saint-Laurent, à Notre-Dame-de-Lévis. Hors paroisse."
+        },
+        {
+          "role": "voisin",
+          "nom": "Prudent Grégoire Roy",
+          "note": "Voisin à l'est du second emplacement. Hors paroisse."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Joseph Laflamme, inspecteur et mesureur de bois de Notre-Dame-de-Lévis, emprunte cinq cents piastres à William Henry Vachon, teneur de livres de Saint-Romuald, remboursables dans un an à 8 % ; il hypothèque deux emplacements contigus de la rue Saint-Laurent, à Lévis, entre la rue et le pied du cap (30 et 32 pieds de front), bâtis chacun d'une maison de bois d'un étage, et cède au prêteur sa police de la Western Assurance Company (700 piastres). Acte passé au bureau de Ritchie & Cull, les marchands de bois de New-Liverpool (n° 58, 71, 110).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01103",
+          "microfilm": "002047",
+          "drive": "1dUk8XQVhKMel08UXFg4eke-acdP4K_2C",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01104",
+          "microfilm": "002048",
+          "drive": "1n_fHND_PE1LWp6UrnvI2n3d9DnY1PZ82",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01105",
+          "microfilm": "002049",
+          "drive": "1Ibgzfq4V6_BARE9-7IEKDJ2JLY9DpLYY",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01106",
+          "microfilm": "002050",
+          "drive": "1Kh7cQXcrP0lybFcZjpCCqlcTrySr8eE3",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-12-02-bail-lagueux-joncas",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Pierre Lagueux, juge de paix, à Ambroise Joncas, journalier, d'un emplacement sur la rue Atkinson — minute n° 253, 2 décembre 1874",
+      "date": "1874-12-02",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 253, images 002051 à 002053 (Drive : fichiers 04T_CN401S124P_01107 à 01109) ; en marge « Bail à rente — P. Lagueux, Ecr, à Amb. Joncas — Original — Payé pour hon. & enregistrement $3.50 — Exp. 1 fois », avec des calculs (« 50 × 60 », « $8.00 payable $4.00 par 6 mois, 1er mai, 1 terme », « 150.00 ») et un rappel des bornes. Rédigé sur le formulaire imprimé de bail à rente foncière de Me Tremblay. Acte complet.",
+      "nature": "Bail à rente foncière & constituée, passé le 2 décembre 1874, après-midi, à l'étude du notaire, devant un témoin, Louis-Joseph-Stanislas Roberge, instituteur (le notaire avait d'abord écrit Narcisse Cantin, écuier, rayé) ; le concessionnaire ne sait signer.",
+      "transcription": "[002051] « N° 253 — Déc. 2/74. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Louis Joseph Stanislas Roberge [rayé : « Narcisse Cantin, Ecr »], de St Romuald, instituteur, témoin au présent acte, aussi soussigné ; Fut présent Pierre Lagueux, Écuier, Juge de Paix de Sa Majesté, & rentier, demeurant à St Romuald, dit comté ; Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de Bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à Ambroise Joncas, du même lieu, journalier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, dit comté, contenant soixante pieds de front, sur cinquante pieds de profondeur, le tout mesure anglaise, borné à l'est à la Rue Atkinson, à l'ouest au concédant, au nord à un nommé Gagné & au sud au concédant, circonstances & dépendances ; Tel que le dit emplacement est actuellement, sans en rien réserver, et dont le dit concessionnaire se déclare content et satisfait. Ce bail est fait à la charge par le dit concessionnaire qui s'y oblige pour lui, ses hoirs et ayant cause ; [002052] 1° De clore le dit emplacement […] ; 2° De bâtir sur le dit emplacement d'hui en un an une maison habitable et logeable, avec une cheminée soit en pierre, soit en briques, et de la rebâtir dans le cours d'une année en cas d'incendie ou de destruction […] ; 3° D'entretenir à ses propres frais et dépens toutes les rues, ruelles ou chemins […] ; 4° De payer au dit concédant, ses hoirs et ayant cause, au premier jour des mois de novembre & mai de chaque année, à dater du premier jour de novembre dernier, la somme de quatre piastres courant [rayé : « formant en total huit »] piastres courant, de rente foncière et constituée, rachetable en un seul paiement au capital de cent cinquante piastres. Pour sûreté du paiement […] le dit concessionnaire a hypothéqué spécialement le dit emplacement […] ; 5° Le dit Pierre Lagueux, Écuier, se réserve pour lui, ses héritiers et ayant cause, le droit de Retrait en cas de vente à l'avenir […] ; 6° […] de fournir au dit concédant et à ses héritiers et ayant cause une copie enregistrée des présentes […]. Il est expressément convenu […] que si le dit concessionnaire […] laisse écouler deux années sans payer la dite rente […], le dit concédant […] aura le droit de reprendre possession […]. [002053] Au moyen de quoi […]. Dont acte, fait et passé à St Romuald, Étude, l'an mil huit cent soixante-quatorze, le deuxième jour de Décembre, après-midi, sous le numéro deux cent cinquante-trois des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et le concédant a signé ainsi que le dit témoin avec moi, Notaire, le dit concessionnaire ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » — Signé : [rayé : « Narcisse Cantin »], « Pierre Lagueux », « Louis J. S. Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Pierre Lagueux",
+          "ref_personne": "1871-D1-P076-L08",
+          "note": "« Écuier, Juge de Paix de Sa Majesté, & rentier », de Saint-Romuald ; signe « Pierre Lagueux ». Le seul Pierre Lagueux adulte de la paroisse : cultivateur de 39 ans en 1871 (division 1, maison 215). Rattachement probable, comme dans ses autres actes du greffe (bail à ferme Lagueux-Michaud, bail Demers-Houle)."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Ambroise Joncas",
+          "ref_personne": "1871-D1-P037-L18",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Le seul Ambroise Joncas recensé : journalier marié de 36 ans en 1871 (division 1). Rattachement probable."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Joseph-Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe « Louis J. S. Roberge ». Témoin récurrent (actes Plante de septembre 1874, n° 247 à 250). Non recensé sous ce nom ; non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Narcisse Cantin",
+          "ref_personne": "1871-D1-P007-L13",
+          "note": "« Écuier » : témoin d'abord prévu, rayé dans la comparution et sous les signatures ; il n'a pas assisté. Même rattachement qu'à la quittance de 1873 (Narcisse Cantin, cultivateur et rentier)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Gagné",
+          "note": "« Un nommé Gagné », voisin au nord ; prénom non donné. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Pierre Lagueux, juge de paix et rentier, concède à Ambroise Joncas, journalier, un emplacement de soixante pieds sur cinquante, taillé dans sa terre, en front sur la « Rue Atkinson » — première mention de cette rue dans le greffe —, moyennant huit piastres de rente par an payables en deux termes de quatre piastres (1er novembre et 1er mai), rachetable à cent cinquante piastres. Le nom de la rue renvoie sans doute à Henry Atkinson, le propriétaire des moulins de l'Etchemin (un « employé chez Henry Atkinson » au n° 160 ; feuille volante du fichier 00854). Lagueux lotit donc sa terre comme Benjamin Demers, Pierre Roberge et la veuve Hallé.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01107",
+          "microfilm": "002051",
+          "drive": "1ggllXjTNt1gwjYpqU4ThNj9PKOK7khfY",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01108",
+          "microfilm": "002052",
+          "drive": "1Q8eH5fSSpQV6TezDJ35n7_nZWG9PBB0o",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01109",
+          "microfilm": "002053",
+          "drive": "1cVz4NQ5-FQfQlznyUp-rVZvVKTqA60wd",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
