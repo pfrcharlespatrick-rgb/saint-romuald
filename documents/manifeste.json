@@ -28769,6 +28769,79 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-02-15-vente-remere-beaule-boivin",
+      "type": "notarie",
+      "titre": "Vente à réméré par Philéas Beaulé, journalier, à Michel Boivin, marchand, de son emplacement bâti de la rue Saint-Paul, pour une dette d'épicerie — minute n° 305, 15 février 1875",
+      "date": "1875-02-15",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 305, images 002271 à 002273 (Drive : fichiers 04T_CN401S124P_01327 à 01329). Rédigée sur le formulaire imprimé de vente de Me Jean-Baptiste Hamel (Québec), adapté. En marge « Vente par Beaulé à Boivin — Original — Payé pour hon. & enrég. — Expédié 1 fois & enregistré le 15 » et un décompte (« Mai 1874 [« Novembre 1874 » rayé] — $47.54 — 1.25, 1.00 — $49.79 »). Renvois paraphés « M. B. », « B. T. », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Vente à réméré (avec faculté de rachat), passée le 15 février 1875, après-midi, à Saint-Romuald, en la demeure de l'acquéreur, devant un témoin, Benjamin Toussaint, journalier ; le vendeur ne sait signer.",
+      "transcription": "[002271] « N° 305. Pardevant le Notaire Public pour la Province de Québec, résidant en la Paroisse St Romuald, comté de Lévis, soussigné, Et en présence de Mr Benjamin Toussaint, de St Romuald, journalier, témoin au présent acte, aussi soussigné ; Fut présent : Mr Philéas Beaulé, de St Romuald, dit comté, journalier ; Lequel a, sous la faculté de réméré ci-après stipulée, vendu, cédé, transporté et abandonné dès maintenant et à toujours, et promet garantir de tous troubles […], à Michel Boivin, de la paroisse de St Romuald, Écuier, marchand, à ce présent et acceptant acquéreur pour lui, ses héritiers et ayans cause à l'avenir, c'est à savoir : Un emplacement situé en la dite Paroisse de St Romuald, comté susdit, contenant cinquante pieds de front sur soixante pieds de profondeur, borné en front à l'ouest à la rue St Paul, à l'est à Benjamin Demers, Ecr, au nord à Charles St-Hilaire & au sud à Napoléon Paradis, avec ensemble une maison en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances. Tel que le tout est actuellement […]. [002272] Pour par le dit acquéreur jouir, faire et disposer […]. Le vendeur déclare que cet immeuble lui appartient pour l'avoir acquis de Benjamin Demers, Ecr, suivant contrat passé devant le Notaire soussigné le vingt de juillet dernier, & dûment enregistré au Bureau d'enregistrement du comté de Lévis quelques jours après. La présente vente est faite à la charge par le dit acquéreur […] 1° De payer annuellement au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de six piastres courant de rente foncière & constituée, garantie quitte de tous arrérages jusqu'au premier jour d'octobre dernier ; […] 3° De se conformer strictement à toutes les charges […] portées au contrat de concession du dit immeuble. La présente vente est faite en outre pour et moyennant la somme de quarante-neuf piastres & soixante-dix-neuf centins, payée dès avant ces présentes [rayé : « en marchandises, effets de groceries »], ainsi que le dit Sr Beaulé le reconnaît & en donne quittance générale & finale à l'acquéreur. [002273] Il est expressément convenu entre les parties que lorsque le dit Sr Philéas Beaulé aura payé au dit Sr Michel Boivin, ou à ses hoirs & ayant cause, la susdite somme de quarante-neuf piastres & soixante-dix-neuf centins, avec ensemble l'intérêt de huit pour cent par an à dater du premier jour de mai dernier sur la somme de quarante-sept piastres & cinquante-quatre centins, le montant total des rentes alors échues sur l'emplacement sus-désigné, les taxes scolaires & autres alors payées pour l'acquéreur, ainsi que le coût des présentes & de l'enregistrement, alors & dans ce cas le dit Sr Michel Boivin s'oblige consentir un acte de [rétrocession] au dit Philéas Beaulé ; tous & lesquels remboursements devant être faits à première demande & réquisition de Mr Boivin. […] Dont Acte, Fait et Passé en la dite Paroisse [renvoi : « de St Romuald, demeure de l'acquéreur »], l'an mil huit cent soixante-quinze le quinzième jour de février après-midi, sous le numéro trois cent cinq des originaux de Me Elzéar Hubert Tremblay, le Notaire soussigné. Requis de signer, le vendeur a déclaré ne le savoir en présence du dit témoin qui a signé ainsi que l'acquéreur avec moi, Notaire, lecture faite. Mots rayés sont nuls. Renvoi en marge bon & approuvé. » — Signé : « Michel Boivin », « Benjamin Toussaint », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Philéas Beaulé",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Le concessionnaire du lot de la rue Saint-Paul au n° 153 (20 juillet 1874). Non rattaché, comme alors."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Michel Boivin",
+          "ref_personne": "1871-D1-P037-L04",
+          "note": "« Écuier, marchand » (« grocer » en 1871, 46 ans, division 1) ; l'acte est passé chez lui ; signe « Michel Boivin ». Le père de Célina Boivin (n° 262-263). Rattachement probable."
+        },
+        {
+          "role": "temoin",
+          "nom": "Benjamin Toussaint",
+          "ref_personne": "1871-D1-P021-L11",
+          "note": "Journalier de Saint-Romuald ; signe « Benjamin Toussaint ». Hypothèse : Benjamin, fils d'Antoine Toussaint, menuisier de 20 ans en 1871 (beau-frère de Célina Boivin). Rattachement à confirmer."
+        },
+        {
+          "role": "voisin",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Voisin à l'est ; le concédant du lot (n° 153)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Charles St-Hilaire",
+          "ref_personne": "1881-D1-P031-L15",
+          "note": "Voisin au nord ; déjà voisin au bail Demers-Kiley (n° 144)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Napoléon Paradis",
+          "note": "Voisin au sud ; le charpentier du n° 167."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Sept mois après avoir reçu de Benjamin Demers son lot de la rue Saint-Paul (n° 153), le journalier Philéas Beaulé, qui y a bâti une maison d'un étage, doit 47,54 piastres d'épicerie au marchand Michel Boivin depuis mai 1874. Il lui « vend » la maison et le lot pour 49,79 piastres — la dette plus les frais —, avec faculté de rachat : dès qu'il aura remboursé la somme avec 8 % d'intérêt, les rentes et taxes avancées et le coût de l'acte, Boivin devra la lui rétrocéder, à première demande. La formule rayée « en marchandises, effets de groceries » trahit l'origine de la dette. Comme au n° 299, la vente à réméré sert de garantie à un crédit de comptoir.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01327",
+          "microfilm": "002271",
+          "drive": "1DiRKWyF9ad5xvcX_R8g3I_OWav4CBBlF",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01328",
+          "microfilm": "002272",
+          "drive": "1rpHV3lom7p4QwUue_OyRf2NpQKVRMj1e",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01329",
+          "microfilm": "002273",
+          "drive": "1eLVkWaHsKHJIRFFzkgnNE_fJleydHEIv",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
