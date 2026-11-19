@@ -28681,6 +28681,92 @@
           "microfilm": "002265",
           "drive": "1KyyE8dTc_Lrggaoh7u37Fly0e8VSe1T8",
           "legende": "3/3"
+        },
+        {
+          "fichier": "01322",
+          "microfilm": "002266",
+          "drive": "1OD6-b6DP5CvhKPCPNKLmVHY6Hnbtpdo8",
+          "legende": "chemise « … à F.-X. Guay, Ecr — Copie »"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-02-15-obligation-nadeau-vermette",
+      "type": "notarie",
+      "titre": "Obligation de Godfroy Nadeau, agriculteur de Saint-Jean-Chrysostome, envers Basile Vermette fils, employé du Grand Tronc, de deux cent quatre-vingts piastres, sur une terre de la concession Terrebonne — minute n° 304, 15 février 1875",
+      "date": "1875-02-15",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 304, images 002267 à 002270 (Drive : fichiers 04T_CN401S124P_01323 à 01326). Le fichier 01322, qui précède, est la chemise imprimée du n° 303 (« Bail à rente foncière … à F.-X. Guay, Ecr — Copie »). En marge « Obligation — Nadeau à Vermette — Original — Expédié 1 fois — Payé pour enregistrer & honoraires — 12/6 » et des calculs. Le numéro est récrit (« 304 ») et le quantième corrigé (« quinze »). Renvois paraphés « B. V. f. », « M. R. », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Obligation (prêt hypothécaire), passée le 15 février 1875, après-midi, à Saint-Jean-Chrysostome, en la demeure de Michel Roberge, devant ce dernier comme témoin ; le débiteur ne sait signer.",
+      "transcription": "[002267] « N° 304 — 15 février 1875. L'an mil huit cent soixante-quinze, le quinze de février après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant à St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Michel Roberge, de la paroisse de St Jean Chrysostome, dit comté, Mtre menuisier-entrepreneur, témoin au présent acte, aussi soussigné ; Fut présent : Mr Godfroy Nadeau, agriculteur, de St Jean Chrysostome, dit comté ; Lequel reconnaît & confesse devoir bien & légitimement à Mr Bazile Vermette, fils, de St Jean Chrysostome, employé du Grand Trunk, à ce présent & acceptant, la somme de deux cent quatre-vingts piastres courant, étant pour prêt de pareille somme [passage rayé : « … petites sommes à différentes reprises »] [002268] fait dès avant l'exécution des présentes, en bon argent courant, ainsi que le débiteur le reconnaît & dont il se déclare content & satisfait. Laquelle dite somme de deux cent quatre-vingts piastres courant, le débiteur [renvoi : « pour lui, ses hoirs & ayant cause »] promet & s'oblige payer & rembourser au dit créancier, ou ordre, porteur des présentes en forme légale, d'hui en un an, ensemble avec l'intérêt de huit pour cent par an payable annuellement à compter de ce jour, jusqu'au parfait remboursement. Et pour assurer le paiement de la dite somme de deux cent quatre-vingts piastres courant & des intérêts qui en [002269] proviendront, le débiteur hypothèque spécialement, savoir : Une terre située en la paroisse St Jean Chrysostome, en la concession Terrebonne, contenant trois arpents & un quart de front sur trente arpents de profondeur, bornée par devant au nord-est à la Rivière Etchemin, & par derrière au sud-ouest à Isaac Fontaine & Jean Rouleau ou ses représentants, d'un côté au nord-ouest à Octave Paradis, & de l'autre côté au sud-est à Jean-Frédérick Vallière, représentant Joachim Fouquette, avec ensemble une maison, une grange et les autres bâtisses dessus construites, circonstances & dépendances. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. [002270] Car ainsi &c. Dont acte. Fait & passé à St Jean Chrysostome, demeure de Mr Michel Roberge, les jour, mois & an susdits, sous le numéro trois cent quatre des originaux du Notaire soussigné. Requis de signer, le dit Sr Nadeau a déclaré ne le savoir, en présence du dit témoin qui a signé, ainsi que le créancier, avec moi, Notaire, lecture faite. Mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » — Signé : « Basile Vermette fils », « Michel Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Godfroy Nadeau",
+          "note": "Agriculteur de Saint-Jean-Chrysostome ; ne sait signer. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "creancier",
+          "nom": "Basile Vermette, fils",
+          "note": "« Employé du Grand Trunk », de Saint-Jean-Chrysostome ; signe « Basile Vermette fils ». Le Basile Vermette du n° 166 (« employé du Grand Trunk »). Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Michel Roberge",
+          "note": "« Mtre menuisier-entrepreneur » de Saint-Jean-Chrysostome ; l'acte est passé chez lui ; signe « Michel Roberge ». Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Isaac Fontaine",
+          "note": "Voisin à l'arrière (avec Jean Rouleau). Sans doute l'Isaac Fontaine vendeur à Édouard Bourassa en 1856 (inventaire n° 276, titre M)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Jean Rouleau",
+          "note": "Voisin à l'arrière, « ou ses représentants »."
+        },
+        {
+          "role": "voisin",
+          "nom": "Octave Paradis",
+          "note": "Voisin au nord-ouest."
+        },
+        {
+          "role": "voisin",
+          "nom": "Jean-Frédéric Vallière",
+          "note": "Voisin au sud-est, « représentant Joachim Fouquette »."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un employé du chemin de fer Grand Tronc, Basile Vermette fils, prête à un cultivateur de Saint-Jean-Chrysostome, Godfroy Nadeau, deux cent quatre-vingts piastres (avancées « par petites sommes à différentes reprises », selon une formule rayée) à 8 %, remboursables dans un an, contre hypothèque sur une terre de 3¼ arpents sur 30 de la concession Terrebonne, en front sur la rivière Etchemin, avec maison et grange. Le salaire régulier d'un cheminot permet ici de prêter à un agriculteur.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01323",
+          "microfilm": "002267",
+          "drive": "1nM8g-0Dqpy_tT92USm_QSLvao0ufjgBm",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01324",
+          "microfilm": "002268",
+          "drive": "1tSQwxWJ-mboDFkDchznvH42U_Ufq-p-z",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01325",
+          "microfilm": "002269",
+          "drive": "1VIWkA_w0_V67EstV1xyMDe8ga1ecI7pw",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01326",
+          "microfilm": "002270",
+          "drive": "1EaYxb35sepxaFgxFJlznSU_h-3-SHA_O",
+          "legende": "4/4"
         }
       ]
     }
