@@ -27910,6 +27910,118 @@
           "legende": "chemise"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-01-28-bail-lagueux-gingras",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Pierre Lagueux, juge de paix, à Joseph Gingras, marchand, du lot n° 5 du plan de ses terrains (arpenteur Joseph Gamache), au coin des rues Saint-Pierre et Saint-Jean-Baptiste — minute n° 292, 28 janvier 1875",
+      "date": "1875-01-28",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 292, images 002227 à 002229 (Drive : fichiers 04T_CN401S124P_01283 à 01285). Formulaire imprimé de bail à rente foncière de Me Tremblay. En marge « Bail — Lagueux, Ecr, à Jos. Gingras — Original — [« Pas payé » rayé] — Payé enregistrement $2.00 — Bal. $2.00 — Exp. 1re copie au Bureau [d'enregistrement] ce 2 mars 1875 [?] — Exp. 2 fois, 3 fois », et un calcul (« 125 »). Renvoi paraphé « P. L. », « J. G. », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Bail à rente foncière & constituée, passé le 28 janvier 1875, après-midi, à l'étude du notaire, sans témoin ; les deux parties signent.",
+      "transcription": "[002227] « N° 292 — 28 Janvier 1875. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Fut présent : Pierre Lagueux, Ecr, rentier, & Juge de Paix de Sa Majesté, demeurant à St Romuald, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de Bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à Mr Joseph Gingras, marchand, de St Romuald, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, dit comté, contenant quarante pieds, mesure anglaise, de front sur la Rue St Pierre, sur une profondeur de soixante pieds, mesure française ; borné au nord au concessionnaire, au sud à la dite Rue St Pierre [sic], à l'est à la Rue St Jean-Baptiste & à l'ouest au concédant, circonstances & dépendances ; le dit emplacement étant le lot N° cinq du plan des terrains du concédant fait & dressé par Joseph Gamache, arpenteur. Tel que le dit emplacement est actuellement […]. [002228] 1° De clore […] ; 2° De bâtir […] d'hui en un an une maison habitable et logeable […] ; 3° D'entretenir […] ; [renvoi en marge remplaçant l'article imprimé : « 4° De payer au dit concédant, ses hoirs & ayant cause, en deux paiements égaux & semi-annuels de la somme de trois piastres & demie chacun, au premier jour des mois de novembre & de mai de chaque année, à dater du premier jour de mai prochain, »] la somme de sept piastres courant, de rente foncière et constituée, rachetable en un seul paiement au capital de cent vingt-cinq piastres. […] 5° Le dit Pierre Lagueux, Ecr, se réserve […] le droit de Retrait […] ; 6° […]. [reprise de possession après deux années de rente impayée] [002229] Au moyen de quoi […]. Dont acte, fait et passé à St Romuald, Étude, l'an mil huit cent soixante-quinze le vingt-huitième jour de Janvier après-midi, sous le numéro deux cent quatre-vingt-douze des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et les concédant & concessionnaire ont signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « Pierre Lagueux », « Joseph Gingras », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Pierre Lagueux",
+          "ref_personne": "1871-D1-P076-L08",
+          "note": "« Écuier, rentier & Juge de Paix de Sa Majesté » ; signe « Pierre Lagueux ». Lotit sa terre selon un plan de l'arpenteur Joseph Gamache (lot n° 5). Rattachement probable."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Joseph Gingras",
+          "note": "Marchand de Saint-Romuald ; signe « Joseph Gingras » ; possède déjà le terrain voisin au nord. Aucun Joseph Gingras adulte recensé à Saint-Romuald en 1871 ou 1881 : non rattaché. Peut-être parent du marchand Marcel Gingras (n° 290-291)."
+        },
+        {
+          "role": "autre",
+          "nom": "Joseph Gamache",
+          "note": "Arpenteur, auteur du « plan des terrains » de Pierre Lagueux, où le lot concédé porte le n° 5."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "L'après-midi du jour où Benjamin Demers redresse la rue Saint-Louis et concède à Marcel Gingras (n° 290-291), Pierre Lagueux concède à un autre marchand, Joseph Gingras, le lot n° 5 du plan de ses terrains dressé par l'arpenteur Joseph Gamache : 40 pieds anglais sur la rue Saint-Pierre, 60 pieds français de profondeur, au coin de la rue Saint-Jean-Baptiste, contre sept piastres de rente en deux termes (rachetable cent vingt-cinq). C'est la première mention d'un plan d'arpentage numéroté pour le lotissement Lagueux, qui prolonge celui de Demers : les rues Saint-Pierre et Saint-Jean-Baptiste traversent les deux terres. Le texte borne le lot « au sud à la dite Rue St Pierre » après l'avoir mis « de front sur la Rue St Pierre » : une des deux orientations est sans doute une erreur du notaire.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01283",
+          "microfilm": "002227",
+          "drive": "1SMlAdSHhFUqZZ_lFUb11wwASIbPt0XR-",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01284",
+          "microfilm": "002228",
+          "drive": "1ZiB4qVkGk_DWkJ_Shq6R_FHgIM2xn0OR",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01285",
+          "microfilm": "002229",
+          "drive": "14yrB_XMJcHb-SeECm0H1gM3UdAimbQS4",
+          "legende": "3/3"
+        },
+        {
+          "fichier": "01286",
+          "microfilm": "002230",
+          "drive": "1yA4avUCYTVLye0aWEnSm5CAISLjeMacx",
+          "legende": "chemise"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-02-01-conge-bourassa-guay",
+      "type": "notarie",
+      "titre": "Congé de déloger d'Édouard Bourassa, cultivateur, à François-Xavier Guay, maître boulanger, locataire du rez-de-chaussée de sa maison de pierre de la route des Quarante-Arpents et de son four — minute n° 293, 1er février 1875",
+      "date": "1875-02-01",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 293, images 002231 à 002233 (Drive : fichiers 04T_CN401S124P_01287 à 01289). Le fichier 01286, qui précède, est la chemise imprimée (blanche) du bail n° 292. En marge « Congé de déloger — Bourassa à Guay — Original — Exp. 1 fois — Dû $1.00 ». Le millésime « quatorze » est rayé pour « quinze ». Renvois paraphés « E. H. T. N.P. ». Acte complet.",
+      "nature": "Congé de déloger, signifié le 1er février 1875, après-midi, au domicile de François-Xavier Guay, à Saint-Romuald, en parlant à lui-même ; le notaire signe seul.",
+      "transcription": "[002231] « N° 293 — 1 Fév. 1875. L'an mil huit cent soixante-[rayé : « quatorze »] quinze, le premier jour de février, après-midi, à la réquisition de Mr Édouard Bourassa, de St Romuald, cultivateur, je, Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné, me suis transporté au domicile de Sieur François-Xavier Guay, maître boulanger, situé à St Romuald susdit, où étant & parlant à lui-même, lui ai fait, ès dits nom & réquisition, les déclarations, notifications & sommations suivantes, savoir : Attendu que le requérant a loué, [renvoi (1) : « suivant convention verbale »], en mars dernier, au dit Sr François-Xavier Guay, le bas ou premier étage d'une maison en pierres sise sur le niveau est de la route dite des Quarante-Arpents, & située à St Romuald, avec ensemble l'usage d'un four y attaché, pour le terme d'un an [002232] à dater du premier jour de mai dernier, & devant expirer le trente avril prochain ; Attendu que le requérant entend ne pas continuer le bail verbal des dites prémisses pour une autre année, & entend disposer, à dater du dit jour, trente avril prochain, comme bon lui semblera, des dites prémisses, circonstances & dépendances ; enjoignant par le présent au dit Sieur François-Xavier Guay de remettre les lieux en même & semblable état qu'ils étaient lorsqu'il y est entré, d'y faire faire les réparations locatives & de rendre les clefs des dites prémisses au requérant, le tout à l'expiration de l'année courante, expirant comme susdit ; faute de quoi le requérant se pourvoira en justice pour l'y contraindre ; protestant [002233] dès à présent contre lui pour tous dépens & dommages-intérêts soufferts & à souffrir, & les frais encourus & à encourir, & de tout ce que l'on peut & doit protester en cas de refus ou de négligence de la part de Mr Guay de ce faire. À quoi il a répondu : “Qu'il loue sa maison à qui il voudra.” Et nous avons persisté ès dites protestations & réquisitions. Fait & signifié à St Romuald, sous le numéro deux cent quatre-vingt-treize des originaux du Notaire soussigné, les jour, mois & an susdits, en la résidence de Mr François-Xavier Guay, où je lui ai laissé une copie authentique des présentes, afin qu'il n'en puisse prétendre ni plaider cause d'ignorance. Et j'ai signé, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon. » — Signé : « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "requerant",
+          "nom": "Édouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "Cultivateur de Saint-Romuald, propriétaire de la maison de pierre de la route des Quarante-Arpents (n° 94, 276) ; tout juste remarié (n° 287). Rattachement établi."
+        },
+        {
+          "role": "autre",
+          "nom": "François-Xavier Guay",
+          "ref_personne": "1871-D1-P020-L09",
+          "note": "« Maître boulanger », locataire verbal du rez-de-chaussée et du four de la maison de pierre de Bourassa depuis mai 1874 ; le boulanger des lotissements Demers (n° 142, 157, 277). Répond : « Qu'il loue sa maison à qui il voudra. » Rattachement probable."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Trois semaines après son remariage (n° 287), Édouard Bourassa donne congé pour le 30 avril à son locataire, le maître boulanger François-Xavier Guay, qui occupe le rez-de-chaussée de sa maison de pierre de la route des Quarante-Arpents avec l'usage du four : la maison dont l'inventaire n° 276 attribuait aux enfants la moitié du second étage et de la toiture, et qui garantit la rente de la nouvelle épouse. Bourassa, qui en habitait déjà une partie, reprend sans doute tout le logis pour le nouveau ménage. Réponse du boulanger : « Qu'il loue sa maison à qui il voudra. »",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01287",
+          "microfilm": "002231",
+          "drive": "10k3X2d9jRtxcxLJ59pxDOzGJlADgNXbM",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01288",
+          "microfilm": "002232",
+          "drive": "1TCsH5yRoFvwc4bmRRwB818S6cz4QeWjo",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01289",
+          "microfilm": "002233",
+          "drive": "1qOobrzR-dcrHaAC1TpMai5GE0w31_JVW",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
