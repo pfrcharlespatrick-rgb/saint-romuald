@@ -28315,6 +28315,81 @@
           "legende": "3/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-02-02-bail-demers-cantin",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Germain Cantin, marchand, d'un emplacement de la rue Demers voisin de Louis Filteau — minute n° 298, 2 février 1875",
+      "date": "1875-02-02",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 298, images 002248 à 002251 (Drive : fichiers 04T_CN401S124P_01304 à 01307 ; le fichier 01307 est la chemise imprimée, restée blanche). Formulaire imprimé de bail à rente foncière de Me Tremblay. En marge « Bail à rente — Demers à Cantin — Original — $3.50 — Pas payé — Exp. 2 fois » et un calcul (« 50/100 — 33 1/3 »). Les signatures sont numérotées « (1) » et « (2) ». Acte complet.",
+      "nature": "Bail à rente foncière & constituée, passé le 2 février 1875, après-midi, à l'étude du notaire, sans témoin ; les deux parties signent.",
+      "transcription": "[002248] « N° 298 — 2 Fév. 1875. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Fut présent : Benjamin Demers, Écuier, rentier, de St Romuald ; Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de Bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à Germain Cantin, Ecr, marchand, du même lieu, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, contenant trente-trois pieds de front, plus ou moins, sur soixante pieds de profondeur ; borné à l'ouest à la Rue Demers, à l'est à [rayé : « Édouard & Antoine Toussaint »] Léon Lefrançois, au nord à Louis Filteau & au sud à Charles Lépine, circonstances & dépendances. Tel que le dit emplacement est actuellement […]. [002249] 1° De clore […] ; 2° De bâtir […] d'hui en un an une maison habitable et logeable […] ; 3° D'entretenir […] ; 4° De payer au dit concédant […] au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de huit piastres courant, de rente foncière et constituée, rachetable en un seul paiement au capital de cent trente-quatre piastres. […] 5° Le dit Benjamin Demers, Ecr, se réserve […] le droit de Retrait […] ; 6° […]. [reprise de possession après deux ans de rente impayée] [002250] Au moyen de quoi […]. Dont acte, fait et passé à St Romuald, Étude, l'an mil huit cent soixante-quinze, le deuxième jour de février après-midi, sous le numéro deux cent quatre-vingt-dix-huit des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et les concédant & concessionnaire ont signé avec moi, Notaire, lecture faite. Vingt-trois mots rayés sont nuls. » — Signé : « Germain Cantin (2) », « Benj. Demers (1) », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier, rentier » ; signe « Benj. Demers »."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "« Écuier, marchand » ; signe « Germain Cantin ». Le marchand qui vendait à Charles Filteau une maison à déménager (n° 251) et achetait déjà un lot de Demers (n° 243)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Léon Lefrançois",
+          "ref_personne": "1881-D1-P027-L08",
+          "note": "Voisin à l'est (à l'arrière), comme au bail Louis Filteau (n° 143) ; le notaire avait d'abord écrit les Toussaint. Rattachement probable, comme alors."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis Filteau",
+          "ref_personne": "1871-D1-P023-L14",
+          "note": "Voisin au nord ; le menuisier des n° 143 et 277."
+        },
+        {
+          "role": "voisin",
+          "nom": "Charles Lépine",
+          "ref_personne": "1871-D1-P029-L04",
+          "note": "Voisin au sud ; déjà voisin au bail Demers-Larivée (n° 156). Rattachement probable."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Benjamin Demers concède au marchand Germain Cantin un lot de trente-trois pieds sur la rue Demers, juste au sud de celui de Louis Filteau (n° 143) — c'est-à-dire la partie que le bail de Louis Filteau laissait « au concédant » —, adossé à Léon Lefrançois, pour huit piastres de rente (rachetable 134). Cantin, qui avait vendu à Charles Filteau une maison à déménager sur la même rue (n° 251), place son argent dans le lotissement : un marchand qui accumule les lots de la rue Demers.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01304",
+          "microfilm": "002248",
+          "drive": "19o7qK97pnd7pM5Qo2gixin3fkWcgt34T",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01305",
+          "microfilm": "002249",
+          "drive": "1EFOey9IceWNqIHobLb6BMj7i5LWJprxX",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01306",
+          "microfilm": "002250",
+          "drive": "1rsz3bC8SmpmURS4nV4saT_M6LUOM_liQ",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01307",
+          "microfilm": "002251",
+          "drive": "1hfZ_-990xMpnNw_-M1Hsst1Bc5Sb08RH",
+          "legende": "chemise"
+        }
+      ]
     }
   ]
 }
