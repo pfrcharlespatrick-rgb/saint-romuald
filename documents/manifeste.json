@@ -27172,6 +27172,127 @@
           "legende": "chemise"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-01-07-depot-recu-demers-dubois",
+      "type": "notarie",
+      "titre": "Dépôt par Benjamin Demers d'un reçu d'Ignace Dubois pour le premier versement de l'échange de mars 1874 (100 piastres) — minute n° 282, 7 janvier 1875",
+      "date": "1875-01-07",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 282, images 002189 à 002190 (Drive : fichiers 04T_CN401S124P_01245 à 01246). L'en-tête et le reçu portent par erreur « 1874 » ; le corps de l'acte de dépôt dit « mil huit cent soixante-quinze ». Le reçu, sur un petit feuillet déchiré, est filmé seul (01246). Acte complet.",
+      "nature": "Dépôt d'un reçu sous seing privé, passé le 7 janvier 1875 ; le déposant signe ; le reçu porte la marque d'Ignace Dubois, le notaire témoin.",
+      "transcription": "[002189] « N° 282 — 7 Janvier 187[5]. Le reçu annexé aux présentes & fait sous seing privé a été déposé à Mtre Elzéar Hubert Tremblay, Notaire Public, résidant & pratiquant à St Romuald, ce sept de janvier mil huit cent soixante-quinze, pour servir & valoir ce que de droit, sous le numéro deux cent quatre-vingt-deux des originaux du Notaire soussigné. Et le déposant a signé avec moi, Notaire, lecture faite. Cinq mots rayés sont nuls. » — Signé : « Benj. Demers », « E. H. Tremblay, N.P. ». [002190] [Reçu annexé :] « $100.00 — Reçu de Benjamin Demers, Écuier, la somme de cent piastres courant, étant le premier versement échu au soussigné, en vertu d'un acte d'échange daté du six mars mil huit cent soixante-quatorze, reçu par le Notaire Tremblay & dûment enregistré. St Romuald, 7 Janvier 187[5]. » — « Ignace Dubois », sa marque (X) ; « Témoin : E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "deposant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écuier » de Saint-Romuald ; dépose le reçu et signe « Benj. Demers »."
+        },
+        {
+          "role": "quittancant",
+          "nom": "Ignace Dubois",
+          "note": "Reçoit cent piastres, premier versement du retour (soulte) de l'échange du 6 mars 1874 (n° 51) ; ne sait signer, fait sa marque. L'Ignace Dubois senior de l'échange ; non rattaché, comme alors."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Suite de l'échange d'immeubles Dubois-Demers du 6 mars 1874 (n° 51) : Benjamin Demers paie à Ignace Dubois le premier versement de cent piastres de la soulte et fait déposer le reçu au greffe pour preuve. Le reçu et l'en-tête portent « 1874 », lapsus du Nouvel An : l'acte est bien du 7 janvier 1875.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01245",
+          "microfilm": "002189",
+          "drive": "1GrhkNK0pf_TkscSk2NW0z41-8OsAX1nW",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01246",
+          "microfilm": "002190",
+          "drive": "1TM12ShBisJ-yOLPEnoV_McdYE8S45cOl",
+          "legende": "reçu annexé"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-01-08-bail-halle-lefebvre",
+      "type": "notarie",
+      "titre": "Bail à rente foncière d'Ursule Dussault, veuve d'Antoine Hallé, à Éphrem Lefebvre, journalier, d'un emplacement de la division de New-Liverpool — minute n° 283, 8 janvier 1875",
+      "date": "1875-01-08",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 283, images 002192 à 002194 (Drive : fichiers 04T_CN401S124P_01247 à 01249). Formulaire imprimé de bail à rente foncière de Me Tremblay. En marge « Bail à rente — Hallé à Lefebvre — Original — Exp. 1 fois & enrégistré — Exp. 2 fois — hon. 2.00 ; enrég. 1.50 ; $3.50 pas payé ». Acte complet.",
+      "nature": "Bail à rente foncière & constituée, passé le 8 janvier 1875, après-midi, à l'étude du notaire, devant un témoin, Théodule Bégin, hôtelier ; la concédante et le concessionnaire ne savent signer.",
+      "transcription": "[002192] « N° 283 — 8 Janvier 1875. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Théodule Bégin, hôtellier, de St Romuald, témoin au présent acte, aussi soussigné ; Fut présente : Dame Ursule Dussault, de St Romuald, veuve de feu Sr Antoine Hallé, en son vivant de St Romuald, forgeron ; Laquelle a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de Bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à Mr Éphrem Lefebvre, de St Romuald, journalier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, division de New Liverpool, contenant cinquante pieds de front sur cinquante pieds de profondeur, mesure française ; borné à l'ouest à une rue, à l'est à Jean-Baptiste Huard, au nord à Pierre Bilodeau & au sud à Étienne Couture, circonstances & dépendances. Tel que le dit emplacement est actuellement […]. [002193] 1° De clore […] ; 2° De bâtir […] d'hui en un an une maison habitable et logeable […] ; 3° D'entretenir […] ; 4° De payer à la dite concédante […] au vingt-neuvième jour de septembre de chaque année, à dater du premier jour d'avril dernier, la somme de six piastres courant, de rente foncière et constituée, rachetable en un seul paiement au capital de cent piastres. […] 5° La dite Dame Veuve Antoine Hallé se réserve pour elle, ses héritiers et ayant cause, le droit de Retrait […] ; 6° […]. [reprise de possession après deux ans de rente impayée] [002194] Au moyen de quoi […]. Dont acte, fait et passé à St Romuald, Étude du dit Notaire, l'an mil huit cent soixante-quinze, le huitième jour de Janvier, après-midi, sous le numéro deux cent quatre-vingt-trois des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et les dits concédante & concessionnaire ont déclaré ne savoir écrire ni signer, de ce requis, en présence du dit témoin qui a signé avec moi, Notaire, lecture faite. » — Signé : « T. O. Bégin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedante",
+          "nom": "Ursule Dussault",
+          "ref_personne": "1871-D1-P010-L17",
+          "note": "Veuve d'Antoine Hallé, forgeron ; ne sait signer. Quatrième bail en deux jours (n° 279-281). Rattachement probable."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Éphrem Lefebvre",
+          "note": "Journalier de Saint-Romuald ; ne sait signer ; occupe déjà le lot (rente courant depuis le 1er avril 1874). Absent des recensements de la paroisse ; non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Théodule Bégin",
+          "ref_personne": "1881-D2-P001-L01",
+          "note": "Hôtelier de Saint-Romuald ; signe « T. O. Bégin ». Rattachement probable."
+        },
+        {
+          "role": "autre",
+          "nom": "Antoine Hallé",
+          "note": "Feu mari de la concédante, forgeron."
+        },
+        {
+          "role": "voisin",
+          "nom": "Jean-Baptiste Huard",
+          "note": "Voisin à l'est (au sud du lot Bourassa au n° 280). Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Pierre Bilodeau",
+          "ref_personne": "1881-D2-P030-L25",
+          "note": "Voisin au nord. Hypothèse, comme au n° 280."
+        },
+        {
+          "role": "voisin",
+          "nom": "Étienne Couture",
+          "note": "Voisin au sud. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le lendemain des trois baux du 7 janvier (n° 279-281), la veuve Hallé concède à l'étude un quatrième lot de 50 pieds sur 50 de New-Liverpool, à Éphrem Lefebvre, journalier, aux conditions habituelles (six piastres de rente, rachat cent piastres), la rente courant depuis avril 1874. Les voisins (Huard, Bilodeau, Couture) dessinent un îlot : les lots Bourassa (n° 280) et Lefebvre sont adossés, de part et d'autre de la propriété de Jean-Baptiste Huard et de Pierre Bilodeau.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01247",
+          "microfilm": "002191",
+          "drive": "1PnjqknXKOYe44x6ohKwzKxKLnEWlI-8b",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01248",
+          "microfilm": "002192",
+          "drive": "1sCV0rpEYGz4VQ2krne0QxcjE99bdqpH1",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01249",
+          "microfilm": "002193",
+          "drive": "1cpvqctvlS1hmcNRDp6v4QpBInbsCSd6w",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
