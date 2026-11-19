@@ -24978,6 +24978,122 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1874-12-07-vente-toussaint-toussaint",
+      "type": "notarie",
+      "titre": "Vente d'un bateau à fond plat par Antoine Toussaint à son fils Édouard, navigateur — minute n° 255, 7 décembre 1874",
+      "date": "1874-12-07",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 255, images 002059 à 002061 (Drive : fichiers 04T_CN401S124P_01115 à 01117) ; en marge « Vente — Toussaint à Toussaint — Original — La copie & la minute seront payées quand je délivrerai la copie $1.00 [?] — Expédié 1 fois ». Le quantième (« huitième » [?]) est rayé dans le corps ; l'en-tête porte « 7 Déc 1874 ». Acte complet.",
+      "nature": "Vente mobilière passée le 7 décembre 1874, après-midi, à l'étude du notaire, devant un témoin, Germain Cantin, marchand ; le vendeur ne sait signer.",
+      "transcription": "[002059] « N° 255 — 7 Déc. 1874. L'an mil huit cent soixante-quatorze, le [rayé : « huitième » [?]] [septième] jour de Décembre, après-midi, en présence de Me Elzéar H. Tremblay, Notaire Public pour la Province de Québec, résidant à St Romuald, comté de Lévis, soussigné, Et en présence de Germain Cantin, [rayé : « Ecr »], du même lieu, marchand, témoin au présent acte, aussi soussigné ; Fut présent : Mr Antoine Toussaint, de St Romuald, Mtre [chaloupier ou charretier — lecture incertaine] ; Lequel vend & abandonne dès maintenant & à toujours, avec garantie de tous troubles & empêchements généralement quelconques, à Mr Édouard Toussaint, du même lieu, navigateur, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayant cause, savoir : Un bateau à fond plat, peint en noir, d'environ quarante-cinq pieds de longueur, avec ses chaînes, ancres, voiles, cordages & autres agrès, tel qu'il se trouve maintenant [002060] sur la propriété de Louis Hubert Roberge, à New Liverpool ; le dit bateau portant actuellement le numéro [en blanc]. Au vendeur appartient le dit bateau pour l'avoir acquis de Louis Hubert Roberge. [passage rayé : « Cette vente est faite pour le prix ou somme de quatre cents piastres courant, &c. »] Pour, par l'acquéreur, jouir, faire & disposer de tout ce que dessus désigné & vendu en pleine & entière propriété à compter de ce jour & à toujours [passage rayé : le vendeur s'en dessaisissant au profit de l'acquéreur, etc.]. Cette vente est faite pour le prix ou somme de quatre cents piastres courant [rayé : « comptant payé »], que le dit vendeur reconnaît avoir eue & reçue en entier dès avant les présentes, ainsi que le vendeur le reconnaît, & en donne quittance générale & finale à l'acquéreur. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. [002061] Fait & passé à St Romuald, Étude, les jour, mois & an susdits, sous le numéro deux cent cinquante-cinq des originaux du Notaire soussigné. Et le vendeur a déclaré ne savoir écrire ni signer, de ce requis, en présence du dit témoin qui a signé, ainsi que ledit acquéreur, lecture faite. Mots rayés sont nuls. » — Signé : « Edouard Toussaint », « Germain Cantin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Antoine Toussaint",
+          "ref_personne": "1871-D1-P021-L07",
+          "note": "De Saint-Romuald ; profession de lecture incertaine (« Mtre chaloupier » ou « charretier ») ; ne sait signer. Charretier de 58 ans en 1871 (division 1, maison 51), voisin de Charles Filteau (n° 140, 251). Rattachement probable."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Édouard Toussaint",
+          "ref_personne": "1871-D1-P021-L09",
+          "note": "Navigateur de Saint-Romuald ; signe « Edouard Toussaint ». Navigateur de 25 ans en 1871, fils d'Antoine (même maison 51). Rattachement probable ; donataire de la moitié de la maison paternelle au n° 148."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Marchand de Saint-Romuald ; signe « Germain Cantin »."
+        },
+        {
+          "role": "autre",
+          "nom": "Louis-Hubert Roberge",
+          "note": "Navigateur de New-Liverpool : le bateau est sur sa propriété, et Antoine Toussaint le lui avait acheté. Le Louis-Hubert Roberge des n° 49, 53, 58, 72, 74, 110, 129-130 ; laissé sans rattachement comme ailleurs (trois Hubert Roberge navigateurs en 1871)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Antoine Toussaint vend à son fils Édouard, navigateur, pour quatre cents piastres déjà payées, un bateau à fond plat peint en noir, d'environ quarante-cinq pieds, avec chaînes, ancres, voiles et cordages — sans doute une barge ou goélette de cabotage —, hiverné sur la propriété de Louis-Hubert Roberge à New-Liverpool, de qui le père l'avait acheté. Le numéro d'enregistrement du bateau est laissé en blanc. Le père ne sait signer, le fils signe. Après la donation de la moitié de la maison (n° 148), le père passe au fils son outil de travail.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01115",
+          "microfilm": "002059",
+          "drive": "1ol-mHTNyMoDQMjiKGPMjORU1xj2Pa3U3",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01116",
+          "microfilm": "002060",
+          "drive": "1ieLNytd-OBjnMWPogDaGb1L-JaIJkaVX",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01117",
+          "microfilm": "002061",
+          "drive": "1oV6KLak6gX2bO2qMECWzL8lhPx7YyLxz",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-12-10-quittance-saxe-lambert",
+      "type": "notarie",
+      "titre": "Quittance du curé Pierre Saxe à Louise Demers, veuve de Joseph Lambert, d'une obligation de quarante louis — minute n° 256, 10 décembre 1874",
+      "date": "1874-12-10",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 256, images 002062 à 002063 (Drive : fichiers 04T_CN401S124P_01118 à 01119) ; en marge « Quittance — Revd Messire P. Saxe à Dme Veuve Jos. Lambert — Original — Exp. 1 fois ». Rédigée sur un formulaire imprimé de quittance au nom de Me André-Elphège [?] Tessier, notaire à Québec, dont le lieu et le nom sont rayés. Acte complet.",
+      "nature": "Quittance et mainlevée d'hypothèque, passée le 10 décembre 1874, avant midi, en la demeure du curé à Saint-Romuald ; le comparant signe.",
+      "transcription": "[002062] « N° 256 — 10 Décembre 1874. Pardevant le Notaire Public, résidant en la [rayé : « Cité de Québec, soussigné »] paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Révérend Messire Pierre Saxe, Prêtre, Curé, demeurant en la dite paroisse de St Romuald, dit comté ; Lequel a volontairement reconnu et déclaré avoir eu et reçu à son entière satisfaction, en bon argent du cours actuel en cette province et dès avant la passation et exécution des présentes, de Dame Louise Demers, veuve de feu Sr Joseph Lambert, du dit lieu de St Romuald, la somme de quarante louis courant, étant pour le parfait et entier paiement & remboursement du capital d'une certaine obligation faite et consentie par la dite Dame Veuve Joseph Lambert en faveur du Révérend Messire P. Saxe, par et suivant acte passé devant Mtre L. Laliberté, N.P., le onze de mai mil huit cent soixante-dix, et dûment enregistré au Bureau d'Enregistrement du Comté de Lévis le quatorzième jour de mai mil huit cent soixante-dix. Reconnaît en outre le dit comparant avoir aussi reçu de la dite Dame Veuve Joseph [rayé : « Demers »] Lambert une autre somme égale aux intérêts dus et échus sur la susdite somme jusqu'à ce jour. [002063] C'est pourquoi le dit comparant donne et accorde par ces présentes, à la dite Dame Veuve Joseph Lambert et tous autres qu'il appartiendra, Quittance générale et finale du montant entier du dit acte d'obligation sus-mentionné et daté, ainsi que de tous intérêts dus et échus sur icelui jusqu'à ce jour, et veut et consent que l'hypothèque créée par et en vertu du susdit acte d'obligation ci-dessus cité soit entièrement éteinte de ce jour et à toujours et que radiation en soit faite partout où besoin sera et par qui il appartiendra. Car ainsi, &c. Dont acte. Fait et passé à St Romuald, demeure du Revd Mr P. Saxe, [rayé : « Québec, en l'étude de Mtre André Elphège Tessier, Notaire »], l'an mil huit cent soixante-quatorze, le dixième jour de Décembre, avant midi, sous le numéro deux cent cinquante-six des originaux de Elzéar Hubert Tremblay, le dit Notaire soussigné. Et le comparant a signé avec moi, Notaire, lecture faite. Dix-huit mots rayés sont nuls. » — Signé : « P. Saxe, ptre », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "creancier",
+          "nom": "Pierre Saxe",
+          "note": "« Révérend Messire Pierre Saxe, Prêtre, Curé » de Saint-Romuald ; signe « P. Saxe ptre ». L'acte est passé en sa demeure (le presbytère). Déjà nommé à l'inventaire Bourassa (vente d'un lopin, 1863). Non recensé dans les relevés de la paroisse ; non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Louise Demers",
+          "ref_personne": "1871-D2-P071-L19",
+          "note": "Veuve de feu Joseph Lambert, de Saint-Romuald ; absente de l'acte, qui ne fait que constater le paiement. La venderesse du n° 247 (25 novembre 1874). Rattachement probable, comme au n° 247."
+        },
+        {
+          "role": "autre",
+          "nom": "Joseph Lambert",
+          "note": "Feu mari de la débitrice, agriculteur (n° 247)."
+        },
+        {
+          "role": "autre",
+          "nom": "L. Laliberté",
+          "note": "Notaire devant qui l'obligation fut passée le 11 mai 1870 (sans doute le Me Laliberté du n° 195)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le curé Pierre Saxe donne quittance à la veuve de Joseph Lambert de quarante louis (cent soixante piastres) qu'elle lui devait depuis le 11 mai 1870, intérêts compris, et consent à la radiation de l'hypothèque. L'argent vient sans doute de la vente du 25 novembre (n° 247) : la veuve a vendu un grand lot à Louis Pichette pour 350 piastres comptant, que Pichette avait empruntées la veille à Ferdinand Villeneuve (n° 246). En quinze jours, trois actes enchaînés : un prêt, une vente, un remboursement au curé. Le notaire écrit sur un formulaire imprimé d'un confrère de Québec (Me Tessier), dont il raye le nom.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01118",
+          "microfilm": "002062",
+          "drive": "1lG7v5x2XdsxTP6uozIJjJgGQ5wgKeqLI",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01119",
+          "microfilm": "002063",
+          "drive": "1lmfHN-UUUbByYHXJe7p77VdBzN9TN97r",
+          "legende": "2/2"
+        }
+      ]
     }
   ]
 }
