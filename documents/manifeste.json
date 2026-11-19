@@ -25313,6 +25313,184 @@
           "legende": "chemise"
         }
       ]
+    },
+    {
+      "id": "notarie-1874-12-12-requete-tutelle-bourassa",
+      "type": "notarie",
+      "titre": "Requête d'Édouard Bourassa, veuf de Marie-Philomène Cantin, pour faire nommer un tuteur à ses fils Pierre-Étienne et Joseph-Édouard avant son second mariage — minute n° 260, 12 décembre 1874",
+      "date": "1874-12-12",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 260, images 002076 à 002078 (Drive : fichiers 04T_CN401S124P_01132 à 01134). La marge de la première page est caviardée d'une bande d'encre sur les trois feuillets (mentions marginales illisibles). Renvoi en marge paraphé « E. B. », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Requête (réquisition d'avis de parents et amis en vue d'une tutelle), passée le 12 décembre 1874, après-midi, à l'étude du notaire ; le comparant signe.",
+      "transcription": "[002076] « N° 260 — L'an mil huit cent soixante-quatorze, le douzième jour de Décembre, après-midi, pardevant nous, Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; A comparu : Mr Édouard Bourassa, de la paroisse de St Romuald, dit comté, agriculteur ; Lequel dit & déclare ce qui suit, savoir : Attendu que feue Dame Marie Philomène Cantin, épouse du dit comparant, a, tel qu'il appert par son Testament reçu par Mtre Étienne Simard, Notaire, & Témoins, en date, à St Romuald, du dix-huit de Septembre mil huit cent soixante-sept, institué la personne du dit Édouard Bourassa pour son légataire universel, à la condition expresse & formelle que lui, dit comparant, demeurerait dans l'état de viduité ; & Attendu, tel qu'il appert par le dit Testament sus-cité & daté, que dans le cas où le dit comparant (légataire) viendrait à convoler en secondes noces, le dit [002077] legs à lui fait par la dite Dame feue Marie Philomène Cantin, sa dite épouse, de tous ses biens, deviendrait alors & serait nul & de nul effet, & [renvoi en marge : « lesquels biens »] appartiendraient en pleine propriété aux enfants issus du mariage d'entre la dite feue Dame Marie Philomène Cantin & le dit comparant, qui seraient alors vivants ; Attendu que, aujourd'hui, le dit comparant entend convoler en secondes noces & que les enfants mineurs suivants, âgés respectivement, savoir : Pierre Étienne Bourassa, de treize ans révolus, & Joseph Édouard Bourassa, de huit ans aussi révolus, seront, à dater du second mariage du comparant, leur père, habiles à se dire & porter héritiers pour chacun une moitié dans les biens délaissés par la dite feue Marie Philomène Cantin, leur dite mère ; Attendu qu'il est nécessaire qu'un Tuteur & un Subrogé-Tuteur soient nommés aux dits enfants mineurs ; Sur quoi le dit Édouard Bourassa, comparant & père des dits mineurs, requiert [002078] l'avis des parents & amis des dits enfants mineurs. Dont acte requis & octroyé à St Romuald, Étude, les jour, mois & an susdits, sous le numéro deux cent soixante des originaux de Me Elzéar Hubert Tremblay, le dit Notaire soussigné. Et le comparant a signé avec moi, Notaire, lecture faite. Un renvoi en marge est bon & approuvé. » — Signé : « Edouard Bourassa », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "requerant",
+          "nom": "Édouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "Agriculteur de Saint-Romuald, veuf ; signe « Edouard Bourassa ». Cultivateur veuf de 39 ans en 1871 (division 1, maison 108), marchand en 1881 (1881-D1-P018-L22). Le témoin et bailleur de nombreux actes du greffe, tuteur des mineurs de son frère François. Rattachement établi."
+        },
+        {
+          "role": "defunte",
+          "nom": "Marie-Philomène Cantin",
+          "note": "Première épouse d'Édouard Bourassa, décédée avant 1871 (il est recensé veuf) ; testament reçu par Me Étienne Simard le 18 septembre 1867, qui faisait de son mari son légataire universel à condition qu'il ne se remarie pas. Non recensée ; non rattachée."
+        },
+        {
+          "role": "enfant",
+          "nom": "Pierre-Étienne Bourassa",
+          "ref_personne": "1871-D1-P040-L19",
+          "note": "Fils mineur, « treize ans révolus » en décembre 1874. Recensé « Pierre », 9 ans, en 1871 avec son père, et « Pierre », 19 ans, en 1881 (1881-D1-P018-L24). Rattachement probable."
+        },
+        {
+          "role": "enfant",
+          "nom": "Joseph-Édouard Bourassa",
+          "ref_personne": "1871-D1-P040-L20",
+          "note": "Fils mineur, « huit ans révolus » en décembre 1874. Recensé « Joseph », 5 ans, en 1871, et 14 ans en 1881 (1881-D1-P018-L25). Rattachement probable."
+        },
+        {
+          "role": "autre",
+          "nom": "Étienne Simard",
+          "note": "Notaire qui reçut le testament de Marie-Philomène Cantin (18 septembre 1867) ; logé maison 50 en 1871 (1871-D1-P021-L03)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Édouard Bourassa, veuf, va se remarier. Or le testament de sa première femme, Marie-Philomène Cantin (Me Étienne Simard, 18 septembre 1867), ne lui laissait ses biens que s'il restait veuf : s'il se remarie, tout passe aux enfants vivants. Il déclare donc que ses deux fils, Pierre-Étienne (13 ans) et Joseph-Édouard (8 ans), deviennent héritiers chacun pour moitié et demande l'avis des parents et amis pour leur faire nommer un tuteur et un subrogé tuteur — lui qui était déjà le tuteur des enfants de son frère François. Les âges concordent exactement avec ceux de 1871 et de 1881. En 1881, une Aurélie Bourassa de 30 ans vit dans son ménage (1881-D1-P018-L23) : peut-être la seconde épouse, recensée sous le nom de son mari ; à vérifier au registre des mariages. Le testament de 1867 date le décès de la mère entre septembre 1867 et le recensement de 1871. L'assemblée de parents se tient le même après-midi (n° 261).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01132",
+          "microfilm": "002076",
+          "drive": "1HnVqt21tfGsA8O2bvQ247TUFIgZUwnjf",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01133",
+          "microfilm": "002077",
+          "drive": "19A48lzNftd10FdZJ1W1iLH6nwOdNOd2m",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01134",
+          "microfilm": "002078",
+          "drive": "1rQ5iVko08NxbnMVeSzsRzjultx8oMoDI",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1874-12-12-tutelle-bourassa",
+      "type": "notarie",
+      "titre": "Acte de tutelle des enfants mineurs d'Édouard Bourassa et de feue Marie-Philomène Cantin : avis de parents et amis — minute n° 261, 12 décembre 1874",
+      "date": "1874-12-12",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 261, images 002079 à 002081 (Drive : fichiers 04T_CN401S124P_01135 à 01137). La marge est caviardée de bandes d'encre (mentions marginales illisibles), comme au n° 260. Acte complet.",
+      "nature": "Acte de tutelle (avis de parents et amis, serment sur les Évangiles, nomination et acceptation du tuteur et du subrogé tuteur), passé le 12 décembre 1874, après-midi, à l'étude du notaire, à la suite de la requête n° 260 ; six signent, les autres ne savent écrire.",
+      "transcription": "[002079] « N° 261 — L'an mil huit cent soixante-quatorze, le douzième jour de Décembre, après-midi, en présence de Mtre Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; A comparu : Mr Édouard Bourassa, de la dite paroisse de St Romuald, dit comté, agriculteur ; Lequel aurait fait assembler pardevant nous, Notaire Public susdit, aux fins mentionnées en la déclaration ci-dessus faite devant nous en date de ce jour, & tendant à faire nommer un Tuteur & un Subrogé-Tuteur à Pierre Étienne Bourassa & Joseph Édouard Bourassa, deux enfants mineurs issus du mariage d'entre le comparant & feue Dame Marie Philomène Cantin ; savoir : 1. Joseph Bourassa, cultivateur, de Notre Dame de la Victoire, comté de Lévis, oncle paternel ; 2. Michel Bourassa, du même lieu, charretier, oncle paternel ; 3. Narcisse Cantin, de St Romuald, cultivateur, oncle maternel ; [002080] 4. Joseph Bourassa, fils, du dit lieu de Notre Dame de la Victoire, dit comté, [rayé : « cousin »] agriculteur, cousin ; 5. Noël Bourassa, du même lieu, agriculteur, cousin des dits enfants mineurs ; & à défaut de parents, 6. [rayé : « Pierre »] Joseph Fortin, charron, & 7. Antoine Toussaint, charretier, tous deux de St Romuald, amis des mineurs ; Lesquels, après serment prêté sur les Saints Évangiles, avoir pris communication de la déclaration sus-mentionnée, et avoir mûrement délibéré entre eux, ont été unanimement d'avis que le dit Édouard Bourassa soit nommé Tuteur, et que [rayé : « le dit Édouard B. »] Pierre Cantin, cultivateur, de Notre Dame de Lévis, oncle maternel des mineurs, soit nommé Subrogé Tuteur ; lesquels [interligne : « Tuteur & Subrogé Tuteur »], ici présents, ont volontairement accepté les dites charges & promis par serment faire devoir en icelles. Dont acte requis & octroyé à St Romuald susdit, les jour, mois & an susdits, en l'Étude du Notaire soussigné, sous le numéro deux cent soixante-un des originaux du dit Notaire. Et ceux sachant [002081] signer l'ont fait avec nous, notaire ; les autres ayant déclaré ne savoir écrire ni signer, de ce requis, lecture faite. » — Signé : « Noël Bourassa », « Edouard Bourassa », « Michel Bourassa », « Narcisse Cantin », « Joseph Fortin », « Pierre Lagueux » [?], « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "tuteur",
+          "nom": "Édouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "Agriculteur de Saint-Romuald, père des mineurs, nommé tuteur ; signe. Le requérant du n° 260."
+        },
+        {
+          "role": "autre",
+          "nom": "Pierre Cantin",
+          "note": "Cultivateur de Notre-Dame-de-Lévis, oncle maternel des mineurs, nommé subrogé tuteur ; accepte. Hors paroisse ; non rattaché. Sans doute pas le Pierre Cantin de Saint-Jean-Chrysostome du n° 235."
+        },
+        {
+          "role": "enfant",
+          "nom": "Pierre-Étienne Bourassa",
+          "ref_personne": "1871-D1-P040-L19",
+          "note": "Fils mineur (13 ans) ; voir n° 260."
+        },
+        {
+          "role": "enfant",
+          "nom": "Joseph-Édouard Bourassa",
+          "ref_personne": "1871-D1-P040-L20",
+          "note": "Fils mineur (8 ans) ; voir n° 260."
+        },
+        {
+          "role": "defunte",
+          "nom": "Marie-Philomène Cantin",
+          "note": "Mère des mineurs, première épouse d'Édouard Bourassa, décédée."
+        },
+        {
+          "role": "autre",
+          "nom": "Joseph Bourassa",
+          "note": "Cultivateur de Notre-Dame-de-la-Victoire (Lévis), oncle paternel ; ne signe pas. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Michel Bourassa",
+          "note": "Charretier de Notre-Dame-de-la-Victoire, oncle paternel ; signe « Michel Bourassa ». Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Narcisse Cantin",
+          "ref_personne": "1871-D1-P007-L13",
+          "note": "Cultivateur de Saint-Romuald, oncle maternel : Marie-Philomène Cantin était donc sa sœur (ou sa demi-sœur, ou sa belle-sœur). Signe « Narcisse Cantin ». Cultivateur de 40 ans en 1871 (division 1, maison 18) ; même rattachement qu'à la quittance de 1873."
+        },
+        {
+          "role": "autre",
+          "nom": "Joseph Bourassa, fils",
+          "note": "Agriculteur de Notre-Dame-de-la-Victoire, cousin des mineurs ; ne signe pas. Hors paroisse."
+        },
+        {
+          "role": "autre",
+          "nom": "Noël Bourassa",
+          "note": "Agriculteur de Notre-Dame-de-la-Victoire, cousin des mineurs ; signe « Noël Bourassa ». Hors paroisse."
+        },
+        {
+          "role": "autre",
+          "nom": "Joseph Fortin",
+          "ref_personne": "1871-D1-P022-L05",
+          "note": "Charron de Saint-Romuald, ami des mineurs ; signe « Joseph Fortin ». Hypothèse : le seul Joseph Fortin recensé, peintre de 40 ans en 1871 (division 1) — la profession diffère. Rattachement à confirmer."
+        },
+        {
+          "role": "autre",
+          "nom": "Antoine Toussaint",
+          "ref_personne": "1871-D1-P021-L07",
+          "note": "Charretier de Saint-Romuald, ami des mineurs ; ne sait signer (comme aux n° 255 et 257). Rattachement probable."
+        },
+        {
+          "role": "autre",
+          "nom": "Pierre Lagueux",
+          "ref_personne": "1871-D1-P076-L08",
+          "note": "Signature « Pierre Lagueux » [?] au bas de l'acte, alors que le corps ne le nomme pas ; le subrogé tuteur Pierre Cantin, présent, devait signer ou se dire illettré. La lecture du nom est à vérifier sur le manuscrit (Patrick)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Suite immédiate de la requête n° 260 : le même après-midi, cinq parents (deux oncles paternels et deux cousins Bourassa venus de Notre-Dame-de-la-Victoire, un oncle maternel, Narcisse Cantin) et deux amis (Joseph Fortin, charron, et Antoine Toussaint, charretier) jurent sur les Évangiles et nomment le père, Édouard Bourassa, tuteur de ses fils Pierre-Étienne et Joseph-Édouard, et Pierre Cantin, de Notre-Dame-de-Lévis, oncle maternel, subrogé tuteur. L'acte révèle la famille d'origine d'Édouard Bourassa à la Pointe-Lévy (Notre-Dame-de-la-Victoire) et apparente Narcisse Cantin, de Saint-Romuald, à sa première femme. Au bas, une signature « Pierre Lagueux » que l'acte n'annonce pas : à relire.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01135",
+          "microfilm": "002079",
+          "drive": "1jy-FI2Uhjp1rpu26u6QTnZ9gDRbLujEk",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01136",
+          "microfilm": "002080",
+          "drive": "1vAwg_qBCGXZPhy0eF3nCTUvy5vqUDuH4",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01137",
+          "microfilm": "002081",
+          "drive": "1VGabdDXkmINg0ZsNMdLTTveo9s8UsbR5",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }

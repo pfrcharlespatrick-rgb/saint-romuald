@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (258 fiches au 19 novembre 2026 ; série jusqu'à 01131 lue).
+fiche dont l'identifiant commence par `notarie-` (260 fiches au 19 novembre 2026 ; série jusqu'à 01137 lue).
 
 ## Où sont les images
 
@@ -381,8 +381,8 @@ Filteau) est **complète** — hypothèque, clôture et signatures. **250 fiches
   et versée par `fondre.mjs`. Le Napoléon de 1881 (`1881-D1-P087-L23`) reste
   « Houde » ; le lien 1871 → 1881 tient (« patronyme proche »).
 
-Suite du 19 novembre : fichiers **01103 à 01131** lus, actes **n° 252 à 259**
-(1er-11 décembre 1874). **258 fiches `notarie-`.**
+Suite du 19 novembre : fichiers **01103 à 01137** lus, actes **n° 252 à 261**
+(1er-12 décembre 1874). **260 fiches `notarie-`.**
 
 - **n° 252** : obligation de Joseph Laflamme, inspecteur et mesureur de bois de
   Notre-Dame-de-Lévis, à **William Henry Vachon**, teneur de livres de
@@ -424,7 +424,20 @@ Suite du 19 novembre : fichiers **01103 à 01131** lus, actes **n° 252 à 259**
   terre de Pierre Lagueux, voisin de Pierre Rouleau et de Barthélemi
   St-Hilaire (18 $ de rente). Feuillet déchiré ; chemise : **01131**.
 
-**Pour reprendre** : continuer au fichier **01132** (microfilm 002076-77).
+- **n° 260-261** (12 déc.) : **Édouard Bourassa**, veuf, va se remarier ; le
+  testament de sa première femme, **Marie-Philomène Cantin** (Me Étienne
+  Simard, 18 sept. 1867), ne lui laissait ses biens que s'il restait veuf. Il
+  fait nommer un tuteur à ses fils **Pierre-Étienne** (13 ans) et
+  **Joseph-Édouard** (8 ans) — âges conformes à 1871 et 1881. L'assemblée
+  révèle sa parenté de **Notre-Dame-de-la-Victoire** (oncles Joseph et Michel,
+  cousins Joseph fils et Noël Bourassa) ; **Narcisse Cantin** est oncle
+  maternel ; subrogé tuteur : Pierre Cantin, de Notre-Dame-de-Lévis.
+- **À soumettre à Patrick** : au bas du n° 261, une signature « Pierre
+  Lagueux » [?] que le corps de l'acte n'annonce pas (fichier 01137) ; et
+  Joseph Fortin, « charron », n'est recensé en 1871 que comme peintre
+  (hypothèse).
+
+**Pour reprendre** : continuer au fichier **01138** (microfilm 002082-83).
 
 Fils suivis dans la série 00451-00550 :
 
