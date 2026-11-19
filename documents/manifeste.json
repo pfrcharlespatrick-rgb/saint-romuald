@@ -28465,6 +28465,56 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-02-04-procuration-atkinson-gosselin",
+      "type": "notarie",
+      "titre": "Procuration d'Henry Atkinson, marchand de bois (« Henry Atkinson & Co. »), à Benoni Gosselin, mesureur de billots, pour recouvrer ses créances, hypothéquer, poursuivre et vendre ses lots — minute n° 300, 4 février 1875",
+      "date": "1875-02-04",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 300, images 002255 à 002257 (Drive : fichiers 04T_CN401S124P_01311 à 01313). En marge « Mandat — Atkinson à Gosselin — Original — Expédié 1 fois ». Renvoi paraphé « H. A. », « E. H. T. N.P. ». Quarante-deux mots rayés ; sept lignes blanches remplies (barrées). Acte complet.",
+      "nature": "Procuration générale (mandat), passée le 4 février 1875, après-midi, à l'étude du notaire ; le mandant signe.",
+      "transcription": "[002255] « N° 300 — 4 février 1875. L'an mil huit cent soixante-quinze, le quatrième jour de février, après-midi, en présence de Mtre Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné, Fut présent : Henry Atkinson, Écuier, marchand de bois, demeurant en la dite paroisse de St Romuald, [rayé : « l'un des membres de la société commerciale »] & y faisant affaire à St Romuald & ailleurs sous la raison sociale « Henry Atkinson & Co. » ; Lequel fait & constitue pour son procureur spécial la personne de Mr Benoni Gosselin, de la paroisse de St Romuald, culler de billots, auquel il donne pouvoir de, pour lui & en son nom, retirer & recevoir [renvoi (1) : « & appartiendront, qui demeurent près de la rivière Gatineau & ailleurs »] de toutes personnes qu'il appartiendra toutes sommes de deniers dues au dit mandant ; faire signer en faveur du mandant [002256] tous billets promissoires, cédules, obligations, prendre des hypothèques pour le montant de telles sommes & à tel intérêt que le mandataire jugera convenable, sur les immeubles des débiteurs ; poursuivre tous débiteurs, obtenir jugements, les faire mettre à exécution, discontinuer telles poursuites ; vendre les lots de terre qu'il jugera à propos de vendre & pour tel prix & aux conditions qu'il jugera raisonnables ; résilier telles ventes s'il le juge nécessaire. [lignes blanches barrées] Enfin faire tous actes de la plus libre & de la plus entière administration & relatifs à ce que dessus, ratifiant dès à présent tout ce que son mandataire fera en vertu des présentes sans que telle ratification de sa part ne soit du tout nécessaire. La présente procuration demeurera en force jusqu'à révocation expresse, nonobstant surannation & laps de temps. [002257] Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald, Étude, les jour, mois & an susdits, sous le numéro trois cents des originaux du Notaire soussigné. Et le dit Henry Atkinson, Écuier, a signé avec moi, Notaire, lecture faite. Quarante-deux mots rayés sont nuls. Un renvoi en marge est bon & approuvé. Sept lignes blanches remplies sont nulles. » — Signé : « Henry Atkinson », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "mandant",
+          "nom": "Henry Atkinson",
+          "ref_personne": "1871-D1-P075-L17",
+          "note": "« Écuier, marchand de bois », de Saint-Romuald, faisant affaire sous la raison sociale « Henry Atkinson & Co. » ; signe « Henry Atkinson ». Le maître des moulins de l'Etchemin (n° 266). Rattachement probable."
+        },
+        {
+          "role": "mandataire",
+          "nom": "Benoni Gosselin",
+          "note": "« Culler de billots » (mesureur de bois) de Saint-Romuald. Non trouvé sous ce prénom aux recensements ; non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le trois-centième acte du greffe. Henry Atkinson, le marchand de bois des moulins de l'Etchemin, qui fait affaire sous la raison « Henry Atkinson & Co. », donne une procuration très large à un mesureur de billots, Benoni Gosselin, pour recouvrer ses créances auprès de débiteurs « qui demeurent près de la rivière Gatineau & ailleurs », prendre des hypothèques, poursuivre et faire exécuter des jugements, et vendre ou résilier la vente de ses lots de terre. L'acte montre l'étendue du commerce d'Atkinson, jusqu'en Outaouais, d'où venait sans doute une partie du bois flotté jusqu'aux anses de l'Etchemin.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01311",
+          "microfilm": "002255",
+          "drive": "1wMjIPNkMUVwrYjMAGSPankOXZxlavUFZ",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01312",
+          "microfilm": "002256",
+          "drive": "1F0Yr58LWAw2ep1CCNUapkEgnAlhIGod8",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01313",
+          "microfilm": "002257",
+          "drive": "1GB2NuNI_WGuBY-YwIcOScbTwik2x4nvp",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
