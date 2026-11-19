@@ -27682,6 +27682,111 @@
           "legende": "5/5"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-01-19-conge-cameron-menard",
+      "type": "notarie",
+      "titre": "Congé de déloger signifié à Samuel Ménard, journalier, à la requête de la veuve de John Cameron, sa propriétaire — minute n° 288, 19 janvier 1875",
+      "date": "1875-01-19",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 288, images 002214 à 002216 (Drive : fichiers 04T_CN401S124P_01270 à 01272). L'en-tête porte « 1874 » par lapsus ; le corps dit « soixante-quinze ». En marge « Congé de déloger — Vve John Cameron à Ménard — Original — Exp. 1 fois — dû $0.30 par Vve Cameron ». Renvois paraphés « E. H. T. N.P. ». Acte complet.",
+      "nature": "Congé de déloger (protêt, sommation), signifié le 19 janvier 1875, après-midi, en la résidence de Samuel Ménard, à Saint-Romuald, en parlant à sa femme ; le notaire signe seul.",
+      "transcription": "[002214] « N° 288 — 19 Janvier 187[5]. L'an mil huit cent soixante-quinze, le dix-neuf de Janvier, après-midi, à la réquisition de Dame Veuve John Cameron, de St Romuald, dans le comté de Lévis, je, Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, soussigné, me suis transporté en la résidence de Samuel Ménard, journalier, situé à St Romuald, où étant & parlant à sa femme, je lui ai, ès dits nom & réquisition, fait les déclarations, notifications & sommations suivantes & lui ai signifié le présent congé de déloger, savoir : Attendu que la dite requérante a loué au dit Samuel Ménard, [renvoi : « suivant conventions verbales »], une petite maison sise & située sur le rivage au nord du chemin public, pour le terme d'une année à dater du premier jour de mai dernier, & devant expirer au trentième jour d'avril prochain ; Attendu que la requérante entend ne pas continuer [002215] le bail verbal de la dite maison pour une autre année ; Attendu que le dit Sr Ménard n'a pas effectué le paiement du loyer convenu entre lui & la requérante, & qu'en conséquence il doit des arrérages du dit loyer ; Attendu qu'au dit jour, trente avril prochain mil huit cent soixante-quinze, la requérante entend disposer de la dite maison, circonstances & dépendances, comme bon lui semblera ; enjoignant par le présent au dit Sr Samuel Ménard de payer les arrérages du dit loyer & les loyers à venir jusqu'au trente avril prochain, de rendre [renvoi : « à la requérante »] les clefs des dites prémisses, faire faire les réparations locatives & remettre les lieux en même & semblable état qu'ils étaient lorsqu'il y est entré ; faute de quoi la requérante se pourvoira en justice pour l'y contraindre, protestant [002216] dès à présent contre lui pour tous dépens & dommages-intérêts soufferts & à souffrir, & de frais encourus & à encourir, & de tout ce que l'on peut & doit protester en cas de refus ou de négligence de la part du dit Sr Ménard de ce faire. À quoi la dite Dame Ménard a répondu : “Je montrerai & délivrerai le présent congé de déloger à mon mari lorsqu'il sera arrivé.” Et nous avons persisté ès dites protestations & réquisitions. Fait & passé & signifié à St Romuald, sous le numéro deux cent quatre-vingt-huit des originaux du Notaire soussigné, les jour, mois & an susdits, en la résidence du dit Samuel Ménard, où je lui ai laissé [renvoi (2) : « ès mains de sa femme »] une copie authentique des présentes, afin qu'il n'en puisse prétendre ni plaider cause d'ignorance. Et j'ai signé, lecture faite. Mots rayés sont nuls. » — Signé : « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "requerant",
+          "nom": "Veuve John Cameron",
+          "ref_personne": "1871-D1-P016-L02",
+          "note": "Propriétaire d'une petite maison sur le rivage, au nord du chemin public. Hypothèse : Jessie Macpherson, marchande veuve de 50 ans en 1871, avec ses enfants John, Jessie et Elison (Alison) Cameron (division 1) ; en 1881, une « Sophy Cameron », marchande veuve de 65 ans, vit avec Allison Cameron (1881-D1-P014-L02). Rattachement à confirmer."
+        },
+        {
+          "role": "autre",
+          "nom": "Samuel Ménard",
+          "note": "Journalier de Saint-Romuald, locataire verbal de la maison depuis mai 1874, en retard de loyer ; absent lors de la signification. Le témoin du bail Cantin-Ferrien (n° 79). Aucun Samuel Ménard aux recensements : non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Dame Ménard",
+          "note": "Femme de Samuel Ménard, reçoit la signification et répond qu'elle remettra le congé à son mari « lorsqu'il sera arrivé »."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "La veuve de John Cameron, marchande, met fin au bail verbal de la petite maison qu'elle loue sur le rivage, au nord du chemin public, à Samuel Ménard, journalier : il ne paie pas son loyer ; il devra payer les arrérages, réparer et rendre les clefs pour le 30 avril, date habituelle de fin des baux au Québec. Le mari absent, sa femme répond : « Je montrerai & délivrerai le présent congé de déloger à mon mari lorsqu'il sera arrivé. » — sans doute parti travailler au loin pour l'hiver.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01270",
+          "microfilm": "002214",
+          "drive": "1YDBHxif7OD3-2it0gYaMPL0cPc-3_aFt",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01271",
+          "microfilm": "002215",
+          "drive": "1mp1G3AMLoS6P5BWIyFuZ1Bm2oOywbBuC",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01272",
+          "microfilm": "002216",
+          "drive": "1aSog5DBq3cc401OmmsnuuHzzWyMGG387",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-01-19-conge-cameron-lacroix",
+      "type": "notarie",
+      "titre": "Congé de déloger signifié à Édouard Lacroix, journalier, à la requête de la veuve de John Cameron — minute n° 289, 19 janvier 1875",
+      "date": "1875-01-19",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 289, images 002217 à 002219 (Drive : fichiers 04T_CN401S124P_01273 à 01275). En marge « Congé de déloger — Vve Cameron à Ed. Lacroix — Original — Exp. 1 fois — Dû $0.50 par Vve Cameron — Payé ». Le nom « Samuel M[énard] », copié du n° 288, est rayé au début. Acte complet.",
+      "nature": "Congé de déloger, signifié le 19 janvier 1875, après-midi, en la résidence d'Édouard Lacroix, à Saint-Romuald, en parlant à lui-même ; le notaire signe seul.",
+      "transcription": "[002217] « N° 289 — 19 Janvier 1875. L'an mil huit cent soixante-quinze, le dix-neuf de Janvier après-midi, à la réquisition de Dame Veuve John Cameron, de St Romuald, dans le comté de Lévis, je, Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, soussigné, me suis transporté en la résidence de [rayé : « Samuel M[énard] »] Édouard Lacroix, journalier, situé à St Romuald, où étant & parlant à lui-même personnellement, lui ai, ès dits nom & réquisition, fait les déclarations, notifications & sommations & lui ai signifié le présent congé de déloger, savoir : Attendu que la requérante a loué au Sr Édouard Lacroix, suivant conventions verbales, une petite maison sise & située sur le rivage nord du chemin public, pour le terme d'une année à dater du premier jour de mai dernier & devant expirer le trente avril prochain ; Attendu que la requérante en- [002218] tend ne pas continuer le bail verbal de la dite maison pour une autre année ; Attendu que le dit Sr Lacroix n'a pas effectué le paiement du loyer convenu entre lui & la requérante & qu'en conséquence il doit des arrérages du dit loyer ; Attendu qu'au dit jour, trente avril prochain mil huit cent soixante-quinze, la requérante entend disposer de la dite maison, circonstances & dépendances, comme bon lui semblera ; enjoignant par le présent au dit Sr Édouard Lacroix de payer les arrérages du dit loyer & les loyers à venir jusqu'au dit jour trente avril prochain, de rendre [renvoi : « à la requérante »] les clefs des dites prémisses, faire faire les réparations locatives & remettre les lieux en même & semblable état qu'ils étaient lorsqu'il y est entré ; faute de quoi la requérante se pourvoira en justice pour l'y contraindre ; protestant dès à présent contre lui pour tous dépens [002219] & dommages-intérêts soufferts & à souffrir, & les frais encourus & à encourir, & de tout ce que l'on peut & doit protester en cas de refus ou de négligence de la part du dit Sr Lacroix de ce faire ; à quoi il a répondu : “Quand l'année sera finie, elle aura le montant de son loyer.” Et nous avons persisté ès dites protestations & réquisitions. Fait, passé & signifié à St Romuald, sous le numéro deux cent quatre-vingt-neuf des originaux du Notaire soussigné, les jour, mois & an susdits, en la résidence du dit Sr Édouard Lacroix, où je lui ai laissé [renvoi : « à lui-même personnellement »] une copie authentique des présentes, afin qu'il n'en puisse prétendre ni plaider cause d'ignorance. Et j'ai signé, lecture faite. Mots rayés sont nuls. » — Signé : « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "requerant",
+          "nom": "Veuve John Cameron",
+          "ref_personne": "1871-D1-P016-L02",
+          "note": "Propriétaire de petites maisons sur le rivage, au nord du chemin public. Hypothèse, comme au n° 288 (Jessie Macpherson, marchande veuve en 1871)."
+        },
+        {
+          "role": "autre",
+          "nom": "Édouard Lacroix",
+          "note": "Journalier de Saint-Romuald, locataire verbal depuis mai 1874, en retard de loyer. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le même après-midi que le n° 288, la veuve Cameron donne congé à un second locataire de ses petites maisons du rivage, Édouard Lacroix, journalier, lui aussi en retard de loyer. Il répond au notaire : « Quand l'année sera finie, elle aura le montant de son loyer. » La veuve vide ses maisons pour le 1er mai 1875.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01273",
+          "microfilm": "002217",
+          "drive": "1piFMSaYbPmWWEWHPevFa5ZEJF3m4lMJy",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01274",
+          "microfilm": "002218",
+          "drive": "1tWoc6HLXLCDW629-XGm_L6KdCuopW5b1",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01275",
+          "microfilm": "002219",
+          "drive": "1EvDFMw-48BqIOjQ2c9QGY5jjvUJ5F45C",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
