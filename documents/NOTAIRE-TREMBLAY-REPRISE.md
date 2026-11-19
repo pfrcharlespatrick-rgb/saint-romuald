@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (260 fiches au 19 novembre 2026 ; série jusqu'à 01137 lue).
+fiche dont l'identifiant commence par `notarie-` (268 fiches au 19 novembre 2026 ; série jusqu'à 01150 lue).
 
 ## Où sont les images
 
@@ -354,8 +354,7 @@ pas encore au Drive). **250 fiches `notarie-`.** Les identifiants Drive de 01051
 
 **Mise à jour du 19 novembre 2026.** Le sous-dossier « 1101-1150 » est au
 Drive. Les fichiers **01101-01102** sont lus : la vente **n° 251** (Cantin à
-Filteau) est **complète** — hypothèque, clôture et signatures. **250 fiches
-`notarie-`.** Les identifiants Drive de 01101 à 01109 sont dans
+Filteau) est **complète** — hypothèque, clôture et signatures. Les identifiants Drive de 01101 à 01109 sont dans
 `images-drive.json`.
 
 - **L'emplacement hypothéqué est celui du n° 140** (62 pieds sur 60, rue
@@ -381,8 +380,9 @@ Filteau) est **complète** — hypothèque, clôture et signatures. **250 fiches
   et versée par `fondre.mjs`. Le Napoléon de 1881 (`1881-D1-P087-L23`) reste
   « Houde » ; le lien 1871 → 1881 tient (« patronyme proche »).
 
-Suite du 19 novembre : fichiers **01103 à 01137** lus, actes **n° 252 à 261**
-(1er-12 décembre 1874). **260 fiches `notarie-`.**
+Suite du 19 novembre : fichiers **01103 à 01150** lus, actes **n° 252 à 264**
+(1er-14 décembre 1874). **268 fiches `notarie-`** (décompte réel du manifeste au
+19 novembre ; les décomptes des mises à jour précédentes étaient en retard de cinq).
 
 - **n° 252** : obligation de Joseph Laflamme, inspecteur et mesureur de bois de
   Notre-Dame-de-Lévis, à **William Henry Vachon**, teneur de livres de
@@ -437,7 +437,26 @@ Suite du 19 novembre : fichiers **01103 à 01137** lus, actes **n° 252 à 261**
   Joseph Fortin, « charron », n'est recensé en 1871 que comme peintre
   (hypothèse).
 
-**Pour reprendre** : continuer au fichier **01138** (microfilm 002082-83).
+- **n° 262-263** (13 déc.) : testaments réciproques du jeune ménage
+  **Édouard Toussaint**, batelier, et **Marie-Julie-Célina Boivin** (hypothèse :
+  Célina, 19 ans en 1871, fille du « grocer » Michel Boivin,
+  `1871-D1-P037-L06`) ; elle signe. Témoins : James Kiely, charpentier, et
+  Anselme Lefebvre, marchand. Quatre actes Toussaint en une semaine (n° 255,
+  257, 258, 262, 263). « Mon épouse actuelle » est une formule du notaire.
+- **n° 264** (14 déc.) : la **veuve Lambert (Louise Demers) se donne à son fils
+  Louis** : deux terres, division **« Etchemin »** et division **« Sault »**,
+  bornées au sud par le trait carré de Saint-Jean-Chrysostome ; rente de 80 $
+  si elle quitte son fils ; vingt louis à chacune de ses trois filles (Hélène,
+  épouse Théophile Gingras, menuisier de Québec ; Philomène, épouse Ludger
+  Turgeon, **télégraphiste** de Saint-Charles-de-Bellechasse ; Marie, épouse
+  Alexis Chabot, cultivateur au même lieu). Fin du fil Lambert (n° 246, 247,
+  256, 264). Louis Lambert n'est pas recensé à un âge plausible : non rattaché.
+
+**Le sous-dossier « 1101-1150 » est entièrement lu.**
+
+**Pour reprendre** : continuer au fichier **01151** (microfilm 002095-96), quand
+Patrick aura déposé le sous-dossier « 1151-1200 » (vérifier d'abord s'il est
+déjà au Drive : `title contains '04T_CN401S124P_0115'`).
 
 Fils suivis dans la série 00451-00550 :
 
