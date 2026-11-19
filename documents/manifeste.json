@@ -28908,6 +28908,61 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-02-15-bail-filteau-desroches",
+      "type": "notarie",
+      "titre": "Bail à loyer de Charles Filteau, maître charretier, à Charles Desroches, journalier, de deux chambres de sa maison de la rue Demers — minute n° 307, 15 février 1875",
+      "date": "1875-02-15",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 307, images 002279 à 002281 (Drive : fichiers 04T_CN401S124P_01334 à 01336). Rédigé sur un formulaire imprimé de bail à loyer de Québec (« Cité de Québec », clauses d'aqueduc et de taxes de ville biffées). En marge « Bail — Filteau à Desroches — Original — Payé — payable 2/6 par Filteau ». Treize lignes de la dernière page biffées. Renvoi paraphé « L. J. S. R. », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Bail à loyer d'un an, passé le 15 février 1875, après-midi, à l'étude du notaire, devant un témoin, Louis-Joseph-Stanislas Roberge, instituteur ; bailleur et preneur ne savent signer.",
+      "transcription": "[002279] « N° 307 — 15 février 1875. L'an mil huit cent soixante-quinze, le quinzième jour du mois de février après-midi, Pardevant Mtre Elzéar Hubert Tremblay, Notaire Public, résidant en la paroisse de St Romuald, comté de Lévis, soussigné, Et en présence de [renvoi (1) : « Stanislas Roberge, de St Romuald, instituteur, témoin au présent acte, aussi soussigné »] ; Fut présent : Charles Filteau, de St Romuald, Mtre charretier, Lequel a, par ces présentes, donné à loyer pour le terme et espace d'une année entière qui commence à courir du premier jour de mai prochain et finit le trentième jour d'avril de l'année mil huit cent soixante-seize, à Charles Desroches, du même lieu, journalier, à ce présent et acceptant preneur pour lui, ses hoirs et ayans causes, c'est-à-savoir : Deux chambres dans le bas, côté sud, d'une maison en bois à un étage sise sur le niveau est de la Rue Demers, & appartenant au Bailleur, ensemble la moitié, côté sud, du grenier, part de cour pour mettre le bois du preneur & pour construire une petite bâtisse pour faire un engrais, le tout aux frais du preneur, tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité. Ce Bail est fait aux charges, clauses et conditions suivantes […] : 1° De jouir des premisses sus-louées en bon père de famille ; de les garnir et tenir garnies […] de meubles et effets exploitables […] ; [002280] 2° De les entretenir […] en bon état de réparations locatives ; 3° De n'y faire aucuns changements […] ; [4° (charges de ville et de police) : biffé] 5° De laisser voir, visiter et parcourir les premisses […] pendant les trois mois qui précéderont l'expiration du présent Bail […] ; 6° De ne point céder son droit au présent bail, ni sous-louer […]. De son côté le Bailleur promet et s'oblige faire jouir le preneur des premisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à aucune réparation quelconque, pas même à tenir les lieux clos ni couverts, nonobstant toute loi ou coutume à ce contraire. Ce Bail est fait en outre pour et en considération du prix et somme de vingt-cinq piastres courant pour l'année de sa durée, que le Preneur promet et s'oblige payer au dit Bailleur ou à son ordre par paiements égaux & semi-mensuels de la somme de deux piastres chaque jusqu'au parfait paiement, & le loyer devant être payé dans les six premiers mois de l'année, à dater du premier jour de mai prochain, à peine de nullité des présentes si le bailleur l'exige. [clauses d'aqueduc et de taxes de ville biffées] Le preneur n'aura pas le droit de prendre pour demeurer avec lui toute personne autre que les membres de sa famille. [002281] [treize lignes biffées] Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables, savoir, le Preneur en les premisses sus-louées et le Bailleur en sa demeure ordinaire où les paiements se feront. Aux quels lieux, etc. Car ainsi, etc. Dont Acte, Fait et Passé à St Romuald, Étude, les jour, mois et an susdits sous le numéro trois cent & sept des originaux du Notaire soussigné. Requis de signer, les Bailleur & Preneur ont déclaré ne le savoir, en présence du dit témoin qui a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « Louis J. S. Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Charles Filteau",
+          "ref_personne": "1871-D1-P023-L15",
+          "note": "« Mtre charretier » de Saint-Romuald, propriétaire de la maison de la rue Demers (n° 140, 251) ; déclare ne savoir signer (il signait « Chs Filteau » au n° 251). Rattachement probable."
+        },
+        {
+          "role": "preneur",
+          "nom": "Charles Desroches",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Non trouvé aux recensements : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Joseph-Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe « Louis J. S. Roberge »."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Charles Filteau loue à un journalier, Charles Desroches, deux chambres au rez-de-chaussée, côté sud, de la maison de bois d'un étage qu'il possède sur la rue Demers (sans doute la maison achetée de Germain Cantin et remontée sur son lot, n° 251), avec la moitié sud du grenier et une part de cour pour le bois de chauffage et une petite bâtisse « pour faire un engrais » (un tas de fumier). Loyer : vingt-cinq piastres par an, payable par versements de deux piastres tous les quinze jours, dans les six premiers mois. Le bailleur ne s'oblige à aucune réparation, « pas même à tenir les lieux clos ni couverts » ; le locataire ne pourra héberger que sa famille. Un rare bail de logement ouvrier, sur un formulaire de la ville de Québec adapté à la campagne. Curieusement, Filteau déclare ici ne savoir signer.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01334",
+          "microfilm": "002278",
+          "drive": "1B2XOJLmRgBeIt9moNNAJOdcWJPlqVvQy",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01335",
+          "microfilm": "002279",
+          "drive": "1LCWGkwa-kckjLZWZ2_V21DPZiOe7k2dD",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01336",
+          "microfilm": "002280",
+          "drive": "1VlLXGqpMFfbuumpyR5BHhRyO_u6yGLcQ",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
