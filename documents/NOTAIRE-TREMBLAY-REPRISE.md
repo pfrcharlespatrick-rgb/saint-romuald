@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (312 fiches au 20 novembre 2026 ; série jusqu'à 01349 lue).
+fiche dont l'identifiant commence par `notarie-` (328 fiches au 20 novembre 2026 ; série jusqu'à 01401 lue).
 
 ## Où sont les images
 
@@ -541,8 +541,45 @@ Suite (19-20 novembre) : fichiers **01314 à 01349** lus, actes **n° 301 à 310
 - **n° 309-310** : testaments réciproques Fortier-Nadeau, Saint-Jean, Île
   d'Orléans.
 
-**Pour reprendre** : continuer au fichier **01350** (microfilm 002294-95).
-Chercher les identifiants par `title contains '04T_CN401S124P_0135'`, puis `0136`, etc.
+Suite (20 novembre) : fichiers **01350 à 01401** lus, actes **n° 311 à 326**
+(23 février au 19 mars 1875). **328 fiches `notarie-`.**
+
+- **n° 311-312** : fin de la tournée à l'Île d'Orléans (vente Fortier à
+  Fortier ; quittance Gosselin à Thivierge, 1 400 $).
+- **n° 313** : Charles Filteau loue l'autre moitié de sa maison de la rue
+  Demers au charpentier Joseph Lajoie (25 $ l'an, une piastre par semaine).
+- **n° 314-319** : **le dossier Hallé**. La veuve Hallé (Ursule Dussault)
+  donne à François Hallé deux quittances (n° 314, « six cents » à relire —
+  la feuille de compte 01362 porte « 200 ») puis la quittance finale de
+  800 $ (n° 315) ; le même 27 février il rembourse Ferdinand Gosselin (tuteur
+  des mineurs de Louis Gosselin), **George Hallé**, maître forgeron
+  (`1871-D1-P010-L18`), et Cyrille Roy ; c'est un emprunt
+  de **900 $ au marchand Germain Cantin** (n° 319), hypothéqué sur une terre
+  « à l'endroit appelé Sault », entre le chemin et la Chaudière, qui paie le tout.
+- **n° 320** : obligation solidaire de deux Fontaine de Saint-Jean-Chrysostome
+  (concessions Beauséjour, Brise-culottes, Belair ; rang de Pétré à
+  Saint-Étienne).
+- **n° 321** : Édouard Bourassa transforme le bout d'un hangar de la route des
+  Quarante-Arpents en logement pour le peintre Ambroise Trudelle.
+- **n° 322** : George Bégin, marchand, loue une chambre rue Saint-Laurent et
+  se réserve de « changer la maison de place » pendant l'été.
+- **n° 323** : bail à ferme de Patrick Curran, forgeron, pour sa terre de
+  **Saint-Léon** (lot 14, 4e rang), loyer en patates, avoine et demi-porc.
+- **n° 324** : donation Curodeau à Curodeau, au **Sault** (emplacement entre
+  un ruisseau et la Chaudière, deux maisons), passée **à la maison d'école** ;
+  rattachée en probable au ménage Curadeau de 1881 (`1881-D2-P050`).
+- **n° 325** : Napoléon Bégin loue sa maison-magasin de **Lyster**.
+- **n° 326** : bail Lépine dit Marest à Honoré Houde, **résilié le 4 juillet
+  1875** (note au dos ; l'acte de résiliation reste à trouver).
+
+Particularités : les formules imprimées de bail ont un dos (« Bail par … à …
+— Copie ») filmé à part, souvent en blanc ; il est rangé avec son acte.
+**À partir du fichier 01401, les images sont dans un autre dossier du Drive**
+(identifiant `1MlQSVHXSo2yWG2HyF4u-2ec-Hx8Mp2ca`) ; la recherche par titre
+les trouve quand même.
+
+**Pour reprendre** : continuer au fichier **01402** (microfilm 002346).
+Chercher les identifiants par `title contains '04T_CN401S124P_0140'`, puis `0141`, etc.
 Le Drive va au moins jusqu'au fichier 01849.
 
 Fils suivis dans la série 00451-00550 :
