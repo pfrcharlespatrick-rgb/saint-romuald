@@ -31530,6 +31530,63 @@
           "legende": "dos imprimé « Deed of Lease », resté en blanc"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-04-09-bail-villeneuve-martel",
+      "type": "notarie",
+      "titre": "Bail (en anglais) par Ferdinand Villeneuve, écuyer, architecte, à Régis Martel, ébéniste, de deux pièces d'une maison à deux étages de Saint-Romuald — minute n° 351, 9 avril 1875",
+      "date": "1875-04-09",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 351, images 002424 à 002427 (Drive : fichiers 04T_CN401S124P_01480 à 01483 ; le fichier 01483 est le dos imprimé « Lease — by — to », laissé en blanc). Formule imprimée anglaise de bail (« Lease »), d'un autre modèle que le n° 350 ; « Three rooms » est corrigé en « Two rooms » ; le métier « meublier » est rayé et remplacé par « cabinet-maker ». La clause de caution (« And, at the same time personally came and intervened… ») est barrée. Le numéro est laissé en blanc dans la clôture. Acte complet.",
+      "nature": "Bail d'un an (1er mai 1875 – 30 avril 1876), en anglais, passé le 9 avril 1875 en l'étude du notaire à Saint-Romuald, sans témoin ; bailleur et preneur signent.",
+      "transcription": "[002424] « 351. On this day, the ninth day of April in the year of Our Lord, one thousand eight hundred and seventy-five, Before us the undersigned Notaries Public, residing [at St Romuald], personally came and appeared Ferdinand Villeneuve, Esquire, of St Romuald, architect, Who did, and by these presents do demise and lease unto Mr Régis Martel, of the same place, cabinet-maker, who hereby accept for himself, his heirs, executors, curators and administrators, that is to say : Two rooms in the east side of a two stories house, lying in the Parish of St Romuald, together with the passage & the front door in common with the lessor & the other tenant (the dairy in said passage being for the mere use of the lessor), with a place in the yard for his wood. As the whole is now and with which the said Lessee does declare himself satisfied, having been heretofore a tenant of said premises. To have and hold the premises above described and leased […] unto him the said Lessee […] to the full end and term of one year which shall commence to run and to be computed from the first of May next and shall be fully completed and ended on the thirtieth day of April which will be in the year of our Lord one thousand eight hundred and seventy-sixth ; during all which time the lessor does hereby promise and engage to cause the said lessee to enjoy the premises hereby leased peaceably and quietly, to maintain them in the landlord's repairs, without any repairs whatsoever. [002425 — clauses imprimées : le preneur en use en bon père de famille, fait les menues réparations, observe les règlements de police, de santé publique et de ramonage des cheminées, ne cède pas son bail sans consentement écrit, rend les lieux en bon état.] The present lease is further made for, and in consideration of the sum of thirty Dollars current money for the year, which the said lessee does bind and oblige himself to pay unto the lessor or to his order by sums of two Dollars fifty cents for each month, at the usual terms of payment in the year, say, at the expiration of each month. [Clause de caution barrée.] The lessee obliging himself not to leave said premises unheated for not more than one week during the winter time without making a fire & keeping warm said premises. [002426] Done and passed in the Office of Elzéar Hubert Tremblay, at St Romuald, Notary, on the day and year first above written, under the number : three hundred & [en blanc]. And the parties have signed with us Notary after reading duly made according to law. Words erased are null. » — Signé : « F. Villeneuve », « Régis Martelle », « E. H. Tremblay, N.P. ». [002427 — dos imprimé : « No. … Quebec, … 18 … Lease by … to … », en blanc.]",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Ferdinand Villeneuve",
+          "ref_personne": "1871-D1-P013-L13",
+          "note": "Écuyer, architecte de Saint-Romuald ; signe « F. Villeneuve ». Rattachement probable, comme au n° 350."
+        },
+        {
+          "role": "preneur",
+          "nom": "Régis Martel",
+          "ref_personne": "1871-D2-P061-L03",
+          "note": "Ébéniste (« cabinet-maker », d'abord « meublier ») de Saint-Romuald, déjà locataire des lieux ; signe « Régis Martelle ». Rattachement probable, comme dans l'obligation Filteau-Martel de 1874 (menuisier de 54 ans en 1871, de 65 ans en 1881)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le pendant du n° 350, passé le même jour : l'autre côté (est) de la maison à deux étages de l'architecte Villeneuve est loué à l'ébéniste Régis Martel, qui l'occupait déjà — l'« autre locataire » avec qui Vallerand partage l'entrée. Même loyer (trente piastres, 2,50 $ par mois), même clause d'hiver sur le chauffage, sur une autre formule imprimée anglaise. Le bailleur ne s'oblige à aucune réparation.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01480",
+          "microfilm": "002424",
+          "drive": "16UYXef6TY0IAd9bo2unt7ZVVpK8djMkH",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01481",
+          "microfilm": "002425",
+          "drive": "1gb4R-9h63hp0K0Ep1hCMn29UOW_wU_kT",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01482",
+          "microfilm": "002426",
+          "drive": "1dudvl0idbSeUK4NbLNH-uL-oJoKPtqaW",
+          "legende": "3/3"
+        },
+        {
+          "fichier": "01483",
+          "microfilm": "002427",
+          "drive": "1BA1wT193gfV9jOb1gVY0zNXrOjpZsi18",
+          "legende": "dos imprimé « Lease », resté en blanc"
+        }
+      ]
     }
   ]
 }
