@@ -32147,6 +32147,60 @@
           "legende": "2/2"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-04-26-vente-meubles-foster-leclerc",
+      "type": "notarie",
+      "titre": "Vente de meubles par Élie Foster [?], journalier, à François Leclerc père, charretier, en paiement d'arriérés de loyer — minute n° 375, 26 avril 1875",
+      "date": "1875-04-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 375, images 002507 à 002509 (Drive : fichiers 04T_CN401S124P_01563 à 01565). Formule imprimée de vente d'immeuble (paroisse Saint-Sauveur, étude de Me Jean-Baptiste Hamel), réemployée pour des meubles : la désignation imprimée de l'emplacement et les charges sont biffées. Le nom du vendeur se lit « Foster » dans le texte et « Doster » [?] en marge : à relire. En marge « Vente de meubles par Foster à Frs Leclerc, sen. — Original — $0.50 — Payé ». Acte complet.",
+      "nature": "Vente de meubles, passée le 26 avril 1875, après midi, à Saint-Romuald, étude du notaire, devant un témoin ; vendeur et acquéreur ne savent signer.",
+      "transcription": "[002507] « N° 375 — 26 avril 1875. Pardevant le Notaire Public pour la Province de Québec, résidant en la Paroisse St Romuald, soussigné, et en présence de Louis Pierre Gelly, cordonnier, de St Romuald, témoin, aussi soussigné ; Fut présent : Élie Foster [?], de St Romuald, journalier ; Lequel a vendu, cédé, transporté et abandonné dès maintenant et à toujours, et promet garantir de tous troubles, dons, dettes, hypothèques, évictions et autres empêchements généralement quelconques, à Mr François Leclerc, père, de St Romuald, charretier, à ce présent et acceptant acquéreur pour lui, ses héritiers et ayans cause à l'avenir, c'est à savoir : Un poêle double à deux ponts, de trois pieds de longueur, & tout son tuyau & les cendres ; deux couchettes doubles à barreaux, peintes l'une en noir & l'autre en jaune ; une grande table à panneaux (vieille) & une petite table quarrée (vieille) ; quatre chaises en bois, deux bancs, un chaudron, une marmite (boiler), une broche en fer, un fer à flasquer [?], deux cuves & deux assiettes. Tel que le tout est actuellement […] et dont le dit acquéreur se déclare satisfait et content, disant le bien connaître. [002508] Pour par le dit acquéreur jouir, faire et disposer à l'avenir des dits meubles en pleine et entière propriété […]. Tels que tous & chacun les meubles susdits se trouvent actuellement dans une maison en bois à un étage sise sur la Rue St Louis (niveau est) & appartenant au Bailleur. La présente vente est faite pour le prix ou somme de trente piastres & quatre chelins courant, que le vendeur confesse avoir eue & reçue dès avant ces présentes par compensation de la balance du prix égale à la somme susdite de loyer que devait le vendeur à l'acquéreur, ainsi que les vendeur & acquéreur le reconnaissent & dont ils se donnent quittance mutuelle & réciproque. [002509] Et pour l'exécution des présentes les parties élisent leurs domiciles en leurs demeures actuelles et respectives […]. Dont acte fait & passé à St Romuald, étude de Me Elzéar Hubert Tremblay, Notaire, l'an mil huit cent soixante-quinze, le vingt-sixième jour d'avril, après-midi, sous le numéro trois cent soixante-quinze. Requis de signer, les vendeur & acquéreur ont déclaré ne le savoir en présence du témoin qui a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « L. Pitre Gelly », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Élie Foster [?]",
+          "note": "Journalier de Saint-Romuald, locataire endetté de François Leclerc père ; ne sait signer. Nom de lecture incertaine (Foster ou Doster). Non rattaché."
+        },
+        {
+          "role": "acquereur",
+          "nom": "François Leclerc, père",
+          "note": "Charretier de Saint-Romuald, propriétaire de la maison de bois de la rue Saint-Louis ; ne sait signer. Non rattaché (à distinguer de François Leclerc fils, marchand, des n° 356 et 371-373)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Pierre Gelly",
+          "note": "Cordonnier de Saint-Romuald ; signe « L. Pitre Gelly ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un journalier qui doit trente piastres de loyer cède à son propriétaire, le charretier François Leclerc père, tout son ménage : un poêle double à deux ponts avec son tuyau, deux couchettes à barreaux (l'une peinte en noir, l'autre en jaune), deux tables usées, quatre chaises, deux bancs, un chaudron, une marmite (« boiler »), une broche en fer, deux cuves et deux assiettes. C'est l'inventaire, rare, de l'intérieur d'un logement ouvrier de la rue Saint-Louis.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01563",
+          "microfilm": "002507",
+          "drive": "1YEjokewiQTPQ2CXwnMsE-yMtR4Vub1J_",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01564",
+          "microfilm": "002508",
+          "drive": "1FGtcFZFWaV0OOPWosli6nDL12X-GXsof",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01565",
+          "microfilm": "002509",
+          "drive": "1MJFHZkjmDAZZutf8H76wY6O5zCIB3Tb9",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
