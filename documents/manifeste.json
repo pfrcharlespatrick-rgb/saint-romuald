@@ -33313,6 +33313,71 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-05-25-bail-oregan-simoneau",
+      "type": "notarie",
+      "titre": "Bail par Peter O'Regan, écuyer, marchand, à Julien Simoneau père et Pierre-Julien Simoneau fils, journaliers, de deux chambres d'une maison de bois, sans boisson ni querelle — minute n° 392, 25 mai 1875",
+      "date": "1875-05-25",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 392, images 002578 à 002580 (Drive : fichiers 04T_CN401S124P_01633 à 01635 ; le fichier 01632, qui précède, est le dos imprimé de la formule du n° 391, laissé en blanc). Formule imprimée de bail ; le preneur, d'abord le seul Julien Simoneau, est complété en interligne par « & Pierre Julien Simoneau fils » ; la clause de solidarité et les modalités de paiement sont très raturées. En marge « Bail O'Regan à Simoneau — Original — ½ O'R. payé, ½ Simoneau pas payé — 40 / 2 par semaine ». Acte complet.",
+      "nature": "Bail d'un an (1er mai 1875 – 30 avril 1876), passé le 25 mai 1875, après midi, à Saint-Romuald, en la demeure des preneurs, devant un témoin ; Julien Simoneau père ne sait signer.",
+      "transcription": "[002578] « N° 392 — 25 mai 1875. L'an mil huit cent soixante-quinze, le vingt-cinquième jour du mois de mai, après-midi, pardevant Mtre E. H. Tremblay, Notaire Public, à St Romuald, soussigné, et en présence de Sr Joseph Leclerc, de St Romuald, ancien marchand ; Fut présent : Peter O'Regan, Écr, de St Romuald, marchand ; Lequel a, par ces présentes, donné à loyer pour le terme et espace d'une année entière qui commence à courir du premier jour de mai courant et finir le trentième jour d'avril de l'année mil huit cent soixante-seize, à Julien Simoneau, journalier, & Pierre Julien Simoneau, fils, journalier, tous deux de St Romuald, à ce présents et acceptant preneurs pour eux, leurs hoirs et ayants cause, c'est-à-savoir : Deux chambres & une part du grenier vis-à-vis des dites chambres, le tout dans une maison en bois à un étage sise à St Romuald & appartenant au Bailleur, ensemble part de cour pour mettre leur bois de chauffage, avec défense de faire aucun engrais dans la dite cour ; tel que le tout est actuellement et dont les preneurs se déclarent contents et satisfaits pour l'avoir vu et visité. [Clauses imprimées.] [002579] De son côté le Bailleur promet et s'oblige faire jouir les preneurs des premisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à aucune réparation quelconque. Ce Bail est fait en outre pour et en considération du prix et somme de quarante piastres pour l'année de sa durée, et que les Preneurs promettent et s'obligent payer au dit Bailleur ou à son ordre solidairement, l'un d'eux seul pour le tout, sous les renonciations requises & de droit, par paiements égaux de deux piastres par semaine, sans interruption jusqu'au parfait paiement ; le premier paiement se fera samedi de la semaine prochaine ; le bailleur reconnaissant avoir reçu dès avant ces présentes un à-compte de trois piastres, les preneurs s'obligeant en outre des deux piastres susdites payer lundi prochain au Bailleur une piastre, & après cette date deux piastres par semaine. [002580] Les preneurs s'obligent ne pas permettre qu'aucune boisson quelconque ne soit prise dans les premisses, ni qu'aucune querelle n'ait lieu dans les dites premisses, sous peine de nullité du présent bail, sans novation aux droits du Bailleur pour les arrérages de loyer alors dus. Et pour l'exécution des présentes […]. Dont Acte, Fait et Passé à St Romuald, demeure des preneurs, les jour, mois et an susdits sous le numéro trois cent quatre-vingt-douze. Requis de signer, le dit Julien Simoneau, père, a déclaré ne le savoir, en présence du témoin qui a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. » — Signé : « P. O'Regan », « Joseph Leclerc », « E. H. Tremblay, N.P. ». [Pierre-Julien Simoneau fils ne signe pas.]",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Peter O'Regan",
+          "note": "Écuyer, marchand de Saint-Romuald ; signe « P. O'Regan ». Le bailleur du n° 386. Non rattaché."
+        },
+        {
+          "role": "preneur",
+          "nom": "Julien Simoneau, père",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Non rattaché."
+        },
+        {
+          "role": "preneur",
+          "nom": "Pierre-Julien Simoneau, fils",
+          "note": "Journalier de Saint-Romuald, solidaire de son père ; ne signe pas. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Joseph Leclerc",
+          "note": "« Ancien marchand » de Saint-Romuald ; signe. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un père et son fils, journaliers, louent ensemble deux chambres chez l'épicier O'Regan pour quarante piastres l'an, payables deux piastres par semaine, solidairement. Le bail interdit toute boisson et toute querelle dans le logement, sous peine de résiliation, ainsi que tout tas de fumier dans la cour.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01632",
+          "microfilm": "002576",
+          "drive": "129_WwiuHZJw9q48UD5ZPXMh9amefICM6",
+          "legende": "dos imprimé de la formule du n° 391, resté en blanc"
+        },
+        {
+          "fichier": "01633",
+          "microfilm": "002577",
+          "drive": "1J6tCWJohnJWXoNUG7Yx-l3TaTZ8zhYLS",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01634",
+          "microfilm": "002578",
+          "drive": "1Oho247Zwv76VVbOtuHh0ommeGBfjR70g",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01635",
+          "microfilm": "002579",
+          "drive": "1CssZgVcxl5lP0tUY7uSHpWG4KrmoMMZM",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
