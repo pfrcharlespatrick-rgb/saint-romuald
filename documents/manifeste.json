@@ -33829,9 +33829,9 @@
       "titre": "Renonciation de Marcelline Cantin, épouse de Charles St-Laurent, à la succession de sa mère Marcelline Couture, en faveur de son père Joseph Cantin — minute n° 398, 28 mai 1875",
       "date": "1875-05-28",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 398, images 002608 à 002610 (Drive : fichiers 04T_CN401S124P_01664 et 01665). Numéro confirmé par la clôture (« trois cent quatre-vingt-dix-huit »). En marge « Renonciation Dame St Laurent à Joseph Cantin — Original — Expédié 1 fois ». Le témoin d'abord écrit (« George[s] Lagüe [?], ancien marchand ») est rayé et remplacé par renvoi en marge, paraphé « E. H. T., N.P. ». Acte complet.",
+      "cote": "Minute n° 398, images 002608 à 002610 (Drive : fichiers 04T_CN401S124P_01664 et 01665). Numéro confirmé par la clôture (« trois cent quatre-vingt-dix-huit »). En marge « Renonciation Dame St Laurent à Joseph Cantin — Original — Expédié 1 fois ». Le témoin d'abord écrit (« George Gagné [?], ancien marchand ») est rayé et remplacé par renvoi en marge, paraphé « E. H. T., N.P. ». Acte complet.",
       "nature": "Renonciation à succession, reçue le 28 mai 1875, après midi, à Saint-Jean-Chrysostome, en la demeure de Joseph Cantin, devant un témoin ; les parties ne savent signer.",
-      "transcription": "[002608] « N° 398. 28 mai 1875. L'an mil huit cent soixante-quinze, le vingt-huit de mai, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de [rayé : « George[s] Lagüe [?], ancien marchand »] [renvoi : « Antoine Roberge, de St Jean, agriculteur, & de [?] »] de St Jean Chrysostome, témoin aussi soussigné ; Fut présente : Dame Marcelline Cantin, épouse de Sr Charles St Laurent, journalier, demeurant tous deux à St Jean Chrysostome susdit, & le dit Sr St Laurent à ce aussi présent & autorisant sa dite épouse à l'effet des présentes ; Laquelle a, sous l'autorisation susdite, renoncé, comme par ces présentes elle renonce, à tous droits quelconques qu'elle a ou pourrait prétendre dans l'hérédité & succession de feue Dame Marcelline Couture, [mots rayés] sa mère, décédée ab intestat, en faveur de Sieur Joseph Cantin, [rayé : « au même lieu »] de St Jean Chrysostome, journalier, son père, ce dernier à ce aussi présent & acceptant pour lui, ses hoirs & ayants cause, mettant & subrogeant le dit Sr Joseph Cantin en ses lieu & place, noms, droits, raisons, actions, privilèges & hypothèques. [rayé : « La présente renonciation s'étend »] La comparante déclarant [002609-10] que cette renonciation s'étend à tous les biens meubles & immeubles formant partie de la [rayé] part qu'elle a ou pourrait prétendre dans l'hérédité & succession susdite. Dont acte requis & octroyé à St Jean Chrysostome susdit, demeure du dit Joseph Cantin, les jour, mois & an susdits, sous le numéro trois cent quatre-vingt-dix-huit. Requis de signer, le dit Joseph Cantin, [rayé : « Requis de signer »] la comparante & son dit époux ont déclaré ne le savoir, en présence du témoin qui a signé avec moi, notaire, lecture faite. » — Signé : « Antoine Roberge », « E. H. Tremblay, N.P. ».",
+      "transcription": "[002608] « N° 398. 28 mai 1875. L'an mil huit cent soixante-quinze, le vingt-huit de mai, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de [rayé : « George Gagné [?], ancien marchand »] [renvoi : « Antoine Roberge, de St Jean, agriculteur, & de [?] »] de St Jean Chrysostome, témoin aussi soussigné ; Fut présente : Dame Marcelline Cantin, épouse de Sr Charles St Laurent, journalier, demeurant tous deux à St Jean Chrysostome susdit, & le dit Sr St Laurent à ce aussi présent & autorisant sa dite épouse à l'effet des présentes ; Laquelle a, sous l'autorisation susdite, renoncé, comme par ces présentes elle renonce, à tous droits quelconques qu'elle a ou pourrait prétendre dans l'hérédité & succession de feue Dame Marcelline Couture, [mots rayés] sa mère, décédée ab intestat, en faveur de Sieur Joseph Cantin, [rayé : « au même lieu »] de St Jean Chrysostome, journalier, son père, ce dernier à ce aussi présent & acceptant pour lui, ses hoirs & ayants cause, mettant & subrogeant le dit Sr Joseph Cantin en ses lieu & place, noms, droits, raisons, actions, privilèges & hypothèques. [rayé : « La présente renonciation s'étend »] La comparante déclarant [002609-10] que cette renonciation s'étend à tous les biens meubles & immeubles formant partie de la [rayé] part qu'elle a ou pourrait prétendre dans l'hérédité & succession susdite. Dont acte requis & octroyé à St Jean Chrysostome susdit, demeure du dit Joseph Cantin, les jour, mois & an susdits, sous le numéro trois cent quatre-vingt-dix-huit. Requis de signer, le dit Joseph Cantin, [rayé : « Requis de signer »] la comparante & son dit époux ont déclaré ne le savoir, en présence du témoin qui a signé avec moi, notaire, lecture faite. » — Signé : « Antoine Roberge », « E. H. Tremblay, N.P. ».",
       "personnes": [
         {
           "role": "comparante",
@@ -33860,8 +33860,8 @@
         },
         {
           "role": "autre",
-          "nom": "George[s] Lagüe [?]",
-          "note": "« Ancien marchand » de Saint-Jean-Chrysostome, d'abord inscrit comme témoin, puis rayé. Lecture du nom incertaine."
+          "nom": "George Gagné [?]",
+          "note": "« Ancien marchand » de Saint-Jean-Chrysostome, d'abord inscrit comme témoin, puis rayé. Nom raturé, lu « George Gagné » par rapprochement avec le témoin du n° 408 (même qualité, même paroisse). Non rattaché."
         },
         {
           "role": "notaire",
@@ -34197,6 +34197,375 @@
           "fichier": "01680",
           "microfilm": "002624",
           "drive": "1nSkYjDRZ7O-jcgvOn7lpa3GtSZBAk2Fc",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-08-bail-filteau-lessard",
+      "type": "notarie",
+      "titre": "Bail de Louis Filteau, charpentier, à Augustin Lessard, journalier, de deux chambres et de la moitié du grenier d'une maison de bois de Saint-Romuald, pour onze mois — minute n° 404, 8 juin 1875",
+      "date": "1875-06-08",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 404, images 002625 à 002628 (Drive : fichiers 04T_CN401S124P_01681 à 01683 ; 01684 est le dos imprimé de la chemise, « Bail par … à … Copie », resté blanc). Formulaire imprimé de bail de la cité de Québec, adapté à la main ; les clauses de ville (taxes, eau de l'aqueduc, règlements de police) sont biffées. Numéro confirmé par la clôture (« quatre cent quatre »). En marge « Bail Filteau à Lessard — Original — Filteau ⅓ payé, Lessard ⅓ payé [?] — 2/6 » ; renvoi paraphé « L. F. », « L. J. S. R. », « E. H. T. ». Acte complet.",
+      "nature": "Bail à loyer, reçu le 8 juin 1875, après midi, en l'étude du notaire à Saint-Romuald, devant un témoin ; le preneur ne sait signer.",
+      "transcription": "[002625-26] « N° 404. 8 juin 1875. L'an mil huit cent soixante-quinze, le huitième jour du mois de juin, après-midi, pardevant Mtre Elzéar Hubert Tremblay, Notaire Public, résidant à St Romuald, soussigné ; Et en présence de Louis Joseph Stanislas Roberge, de St Romuald, instituteur, témoin aussi soussigné ; Fut présent : Louis Filteau, de St Romuald, charpentier, Lequel a, par ces présentes, donné à loyer pour le terme et espace de onze mois entiers, qui ont commencé à courir du premier jour de juin courant et finiront le trentième jour d'avril de l'année mil huit cent soixante-seize, à Augustin Lessard, du même lieu, journalier, à ce présent et acceptant preneur pour lui, ses hoirs et ayants cause, c'est-à-savoir : Deux chambres au front sud-ouest [rayé : « d'une … »] & la moitié sud [rayé : « ouest »] du grenier, le tout dans une maison en bois à un étage sise à St Romuald & appartenant au bailleur, ensemble place de cour pour y mettre son bois, porte d'entrée à lui seul, circonstances & dépendances, tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité [ajouté : « & en être déjà en possession »]. Ce bail est fait aux charges, clauses et conditions suivantes, que le preneur promet et s'oblige d'exécuter […] : 1° De jouir des premisses sus-louées en bon père de famille ; de les garnir et tenir garnies […] de meubles et effets exploitables […] ; [002626-27] 2° De les entretenir […] et les rendre à la fin du présent bail en bon état de réparations locatives ; 3° De n'y faire aucuns changements […] sans le consentement exprès et par écrit du dit bailleur ; [4° biffé : charges de ville et de police] 5° De laisser voir, visiter et parcourir les premisses […] pendant les trois mois qui précéderont l'expiration du présent bail […] ; 6° De ne point céder son droit au présent bail, ni sous-louer […] sans le consentement exprès et par écrit du dit bailleur ; enfin, de rendre le tout à la fin du présent bail […]. De son côté le bailleur promet et s'oblige faire jouir le preneur des premisses sus-louées pendant toute la durée de ce bail, [rayé : « et de tenir les lieux clos et couverts suivant l'usage »] mais ne s'oblige à aucune réparation quelconque, pas même à tenir les lieux clos ni couverts, nonobstant toute loi ou coutume à ce contraire. Ce bail est fait en outre pour et en considération du prix et somme de vingt-quatre piastres pour les onze mois de sa durée, que le preneur promet et s'oblige payer au dit bailleur ou à son ordre par paiements égaux de une piastre par chaque semaine, à dater du premier jour de juin courant, & dont le premier paiement échoira & se fera le samedi douze du courant, & ainsi de suite chaque samedi des semaines subséquentes jusqu'au parfait paiement. [clauses imprimées des taxes de la Corporation et de l'eau de l'aqueduc biffées] [002627-28] Il est convenu entre les parties, & sans laquelle convention le présent bail n'aurait jamais eu lieu, qu'il sera loisible au bailleur de reprendre possession des dites deux chambres le premier jour d'octobre prochain, en par le preneur habitant la moitié susdite du grenier, que le bailleur s'oblige seulement dans ce cas diviser & rendre logeable [renvoi (1) : « le poêle du preneur devra alors demeurer en bas, & le dit preneur aura le droit de se servir de tel poêle avec le bailleur, au pas [?] ce dernier fournissant la moitié du bois de chauffage, à aller au premier jour de mai prochain, à dater du dit mois d'octobre prochain »], le loyer devant rester le même dans tous les cas. Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables, savoir, le preneur en les premisses sus-louées et le bailleur en sa demeure ordinaire où les paiements se feront. Aux quels lieux, etc. Car ainsi, etc. Dont acte, fait et passé à St Romuald, étude du dit Notaire, les jour, mois et an susdits, sous le numéro quatre cent quatre. Et le bailleur & le témoin ont signé avec moi, notaire, le preneur ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » — Signé : « Louis Filteau », « L. J. S. Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Louis Filteau",
+          "ref_personne": "1871-D1-P023-L14",
+          "note": "Charpentier de Saint-Romuald (journalier, puis menuisier dans les actes de 1874), propriétaire d'une maison de bois à un étage ; signe « Louis Filteau ». Le Louis Filteau de la rue Demers (n° 143, 166, 180, 220) et du bail Filteau–Houle (avril 1875). Même rattachement probable au fils de Stanislas Filteau, 21 ans en 1871 (division 1, maison 59)."
+        },
+        {
+          "role": "preneur",
+          "nom": "Augustin Lessard",
+          "note": "Journalier de Saint-Romuald ; déjà dans les lieux ; ne sait signer. Absent des recensements dépouillés : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Joseph-Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe « L. J. S. Roberge ». Non rattaché, comme dans ses actes précédents."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un logement d'ouvrier loué à la semaine (une piastre, payée le samedi) dans la maison même du propriétaire. Le bailleur se réserve de reprendre les deux chambres le 1er octobre pour loger son locataire au grenier, qu'il divisera ; le poêle restera alors en bas, partagé, chacun fournissant la moitié du bois. Le notaire s'est servi d'un formulaire de bail de la cité de Québec, dont il a biffé les clauses urbaines.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01681",
+          "microfilm": "002625",
+          "drive": "1HToXOYPLSUcSRfJmebhuLt37UQi0ncVZ",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01682",
+          "microfilm": "002626",
+          "drive": "1WWTgNsM_hBZhlGvEpEmUWCVNCkaIP6wL",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01683",
+          "microfilm": "002627",
+          "drive": "1en3bk3c6Ob3tzvwIoR43MsJl1U6y4oaH",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01684",
+          "microfilm": "002628",
+          "drive": "1nxBHVng5y56MPaVQXgyfwXuUPhYZ_Qyh",
+          "legende": "dos de la chemise"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-09-bail-rente-roberge-cantin",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Pierre Roberge, cultivateur, à Joachim Cantin, journalier, d'un emplacement de la concession Saint-Augustin, Saint-Jean-Chrysostome — minute n° 405, 9 juin 1875",
+      "date": "1875-06-09",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 405, images 002629 à 002632 (Drive : fichiers 04T_CN401S124P_01685 à 01687 ; 01688 est le dos imprimé de la chemise, « Bail à rente foncière par … à … Copie. E. H. Tremblay, N. P. », resté blanc). Formulaire imprimé du notaire, rempli à la main ; feuillets réparés au ruban adhésif. L'en-tête porte « 10 juin 1875 », mais la clôture dit « le neuvième jour de juin, avant midi » ; le numéro est confirmé par la clôture (« quatre cent cinq »). En marge « Bail Mr Roberge à Mr Cantin — Original — $2.50 — Payé pour hon. & enregistrement » et, dans un cercle, « Enregistré le 29 août 1876 » [?]. Acte complet.",
+      "nature": "Bail à rente foncière et constituée, reçu le 9 juin 1875, avant midi, à Saint-Jean-Chrysostome, en la demeure du concédant, devant un témoin ; les parties ne savent signer.",
+      "transcription": "[002629-30] « N° 405. 10 juin 1875. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de George Bégin, écr, de St Romuald, marchand, témoin au présent acte, aussi soussigné ; Fut présent : Mr Pierre Roberge, de St Jean Chrysostome, dit comté, cultivateur, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à Mr Joachim Cantin, de St Jean Chrysostome, journalier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant soixante pieds de front sur soixante pieds de profondeur, le tout mesure française ; borné au nord à une route projetée, au sud au concédant, à l'ouest à une autre route & à l'est au concédant, circonstances & dépendances. Tel que le dit emplacement est actuellement, sans en rien réserver, et dont le dit concessionnaire se déclare content et satisfait. Ce bail est fait à la charge par le dit concessionnaire, qui s'y oblige pour lui, ses hoirs et ayant cause ; [002630-31] 1° De clore le dit emplacement en tout temps à venir où il se trouvera voisin du dit concédant ou de ses représentants, sans que le concédant n'y soit aucunement tenu ; 2° De bâtir sur le dit emplacement d'hui en un an une maison habitable et logeable, avec une cheminée soit en pierre, soit en briques, et de la rebâtir dans le cours d'une année en cas d'incendie ou de destruction, à peine de nullité et de résiliation du présent acte si le dit concédant l'exige ; 3° D'entretenir à ses propres frais et dépens toutes les rues, ruelles ou chemins qui existent actuellement ou qui pourront être ordonnés à l'avenir, derrière ou sur les côtés du dit emplacement, et de faire et entretenir de bons fossés où besoin sera, sans que le concédant n'y soit aucunement obligé ; 4° De payer au dit concédant, ses hoirs et ayant cause, au huitième jour de juillet de chaque année, à dater du huitième jour de juillet dernier [sic], la somme de sept piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent dix-sept piastres. Pour sûreté du paiement de laquelle dite rente foncière […] le dit concessionnaire a hypothéqué spécialement le dit emplacement […] en faveur du concédant, qui se réserve tous ses droits et privilèges de bailleur de fonds. 5° Le dit Mr Pierre Roberge se réserve pour lui, ses héritiers et ayant cause, le droit de retrait en cas de vente à l'avenir […]. 6° À la charge enfin par le dit concessionnaire de fournir au dit concédant et à ses héritiers et ayant cause une copie enregistrée des présentes sans délai […]. Il est expressément convenu […] que si le dit concessionnaire […] laissent écouler deux années sans payer la dite rente […], alors le dit concédant […] aura le droit de reprendre possession, sans pour ce être tenu à aucune formalité de justice, du dit immeuble […]. [002631-32] Au moyen de quoi le dit concédant veut et consent que le dit concessionnaire jouisse et dispose du dit emplacement en pleine propriété et à perpétuité. Dont acte, fait et passé à St Jean Chrysostome, demeure du concédant, l'an mil huit cent soixante-quinze, le neuvième jour de juin, avant midi, sous le numéro quatre cent cinq des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Requis de signer, le concédant & le concessionnaire ont déclaré ne le savoir, en présence du témoin qui a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « George Bégin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, concession Saint-Augustin ; ne sait signer. Le concédant du hameau Roberge (n° 122 à 128, juin 1874). Non rattaché, comme alors."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Joachim Cantin",
+          "note": "Journalier de Saint-Jean-Chrysostome ; ne sait signer. Le priseur nommé par Marcelline Cantin à l'inventaire n° 395. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "George Bégin",
+          "ref_personne": "1871-D1-P012-L04",
+          "note": "« Écr, de St Romuald, marchand » ; signe « George Bégin ». Marchand de 26 ans en 1871 (division 1, maison 29), marchand en 1881 ; même rattachement probable que dans la quittance Cantin de 1873."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le hameau Roberge s'agrandit : un an après les sept emplacements concédés le 20 juin 1874 (n° 122 à 128), Pierre Roberge en concède deux autres le même matin (n° 405 et 406), aux mêmes conditions (sept piastres de rente, rachetables à 117 piastres, échéance au 8 juillet). L'emplacement de Joachim Cantin est entouré de deux routes et des terres du concédant.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01685",
+          "microfilm": "002629",
+          "drive": "1o9QJ-AsIJkMMjcdvUdmk15RX7Eh6_m4P",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01686",
+          "microfilm": "002630",
+          "drive": "1pAbVUsQScPgtZbnl_S0wpj_9joj9dfk8",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01687",
+          "microfilm": "002631",
+          "drive": "10lyPeQCVXFZNkukXPKzizHfAFO45ZXiw",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01688",
+          "microfilm": "002632",
+          "drive": "1WISjDgBwTYoXgjCRP-T4UQiC9a_WnMEn",
+          "legende": "dos de la chemise"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-09-bail-rente-roberge-paradis",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Pierre Roberge, agriculteur, à Antoine Paradis, journalier, d'un emplacement en trapèze de la concession Saint-Augustin, Saint-Jean-Chrysostome — minute n° 406, 9 juin 1875",
+      "date": "1875-06-09",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 406, images 002633 à 002636 (Drive : fichiers 04T_CN401S124P_01689 à 01691 ; 01692 est le dos imprimé de la chemise, « Bail à rente foncière par F. X. M. [?] … Copie. E. H. Tremblay, N. P. », sans autre inscription). Formulaire imprimé rempli à la main. Numéro confirmé par la clôture (« quatre cent six »). En marge « Bail à rente Roberge à Paradis — Original — $2.50 — Payé pour hon. & enregistrement », « Expédié 1 fois », et une note « Faire un nouveau titre avec N° … » accompagnée d'un petit croquis du lot en trapèze. Acte complet.",
+      "nature": "Bail à rente foncière et constituée, reçu le 9 juin 1875, avant midi, à Saint-Jean-Chrysostome, en la demeure du concédant, devant un témoin ; les parties ne savent signer.",
+      "transcription": "[002633-34] « N° 406. 9 juin 1875. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de George Bégin, écr, de St Romuald, marchand, témoin au présent acte, aussi soussigné ; Fut présent : Mr Pierre Roberge, agriculteur, de St Jean Chrysostome, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à Mr Antoine Paradis, de St Jean Chrysostome, journalier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Jean Chrysostome, concession St Augustin, contenant soixante pieds de front sur soixante pieds de profondeur, le tout mesure française, & étant en forme de trapèze ; borné au nord à Pierre Langlois, au sud à Étienne Denis dit Lapierre, à l'ouest à Charles Tremblay & à l'est à une route projetée, circonstances & dépendances. [Suit le formulaire imprimé, comme au n° 405 : clore sans que le concédant n'y soit aucunement tenu ; bâtir d'ici un an une maison habitable avec cheminée de pierre ou de brique ; entretenir rues et fossés sans que le concédant n'y soit aucunement obligé ; [002634-35] payer au concédant, au huitième jour de juillet de chaque année, à dater du huitième jour de juillet dernier, la somme de sept piastres courant de rente foncière et constituée, rachetable au capital de cent dix-sept piastres, avec hypothèque spéciale sur l'emplacement ; droit de retrait réservé au dit concédant ; copie enregistrée à fournir ; reprise de possession après deux années de rente impayées.] [002635-36] Au moyen de quoi le dit concédant veut et consent que le dit concessionnaire jouisse et dispose du dit emplacement en pleine propriété et à perpétuité. Dont acte, fait et passé à St Jean Chrysostome, demeure du concédant, l'an mil huit cent soixante-quinze, le neuvième jour de juin, avant midi, sous le numéro quatre cent six des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Requis de signer, le concédant & le concessionnaire ont déclaré ne le savoir, en présence du témoin qui a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « George Bégin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Pierre Roberge",
+          "note": "Agriculteur de Saint-Jean-Chrysostome ; ne sait signer. Le concédant du hameau Roberge. Non rattaché."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Antoine Paradis",
+          "note": "Journalier de Saint-Jean-Chrysostome ; ne sait signer. Déjà voisin au sud du lot Langlois et au nord du lot Richard en juin 1874 (n° 122 et 124) : il occupait sans doute le terrain avant d'en recevoir le titre. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Pierre Langlois",
+          "note": "Au nord : le concessionnaire du n° 124."
+        },
+        {
+          "role": "voisin",
+          "nom": "Étienne Denis dit Lapierre",
+          "note": "Au sud. Le cultivateur de Saint-Jean-Chrysostome des actes de 1874 ; non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Charles Tremblay",
+          "note": "À l'ouest ; aussi voisin d'Athanase Girard (n° 399)."
+        },
+        {
+          "role": "temoin",
+          "nom": "George Bégin",
+          "ref_personne": "1871-D1-P012-L04",
+          "note": "« Écr, de St Romuald, marchand » ; signe. Même rattachement probable qu'au n° 405."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Second emplacement concédé le même matin que le n° 405. Le lot d'Antoine Paradis, en trapèze, se place entre ceux de Pierre Langlois (au nord) et d'Étienne Denis dit Lapierre (au sud), Charles Tremblay à l'ouest : il permet de raccorder le plan du hameau Roberge reconstitué à partir des n° 122 à 128, 399 et 405. La note de marge (« faire un nouveau titre ») et le croquis indiquent que le notaire devait reprendre la désignation.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01689",
+          "microfilm": "002633",
+          "drive": "1YEL6STUCeffgAFhDNpv2zx-hVa-h-2hm",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01690",
+          "microfilm": "002634",
+          "drive": "1DOG1LHif8PiFGB32OB2agJkNzYfwD46Z",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01691",
+          "microfilm": "002635",
+          "drive": "1t-EjXKBOTjA8KMO6nuJD4z1wwHZr978W",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01692",
+          "microfilm": "002636",
+          "drive": "1z8cKSkMyPuDlZzb88JIg1d__Hn0EKc__",
+          "legende": "dos de la chemise"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-10-procuration-blouin-noel",
+      "type": "notarie",
+      "titre": "Procuration d'Anna Blouin [?], veuve d'Henry Noël, maître pilote de Saint-Jean de l'île d'Orléans, à Onésime [?] Noël, apprenti pilote, pour toucher des rentes de la Canada Agricultural Insurance Company — minute n° 407, 10 juin 1875",
+      "date": "1875-06-10",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 407, images 002637 à 002639 (Drive : fichiers 04T_CN401S124P_01693 et 01694). Numéro confirmé par la clôture (« quatre cent sept »). En marge « Procuration Dme Noël à O. Noël » ; trois renvois paraphés « A. B. », « E. H. T. ». « Onze mots rayés sont nuls. » Acte complet.",
+      "nature": "Procuration spéciale, reçue le 10 juin 1875, après midi, à Saint-Jean de l'île d'Orléans, en la demeure de la mandante ; la mandante signe.",
+      "transcription": "[002637-38] « N° 407. 10 juin 1875. L'an mil huit cent soixante-quinze, le dix de juin, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, [rayé : « comté de Lévis »] soussigné ; Fut présente : Madame [rayé : « Marie »] Anna Blouin [?], de St Jean, Île d'Orléans, comté Montmorency, [rayé : « soussignée »] veuve de feu Henry Noël, en son vivant du dit lieu de St Jean, Île d'Orléans, écr, maître pilote & juge de paix ; [renvoi (1) : « agissant en ces présentes en qualité de légataire usufruitière du dit feu Sr Noël, suivant le testament de ce dernier »] Laquelle fait & constitue pour son procureur spécial la personne de Sr Onésime [?] Noël, apprenti pilote, de St Jean, susdite île, auquel elle donne pouvoir de pour elle & en son nom retirer & recevoir de qui il appartient toutes rentes échues [renvoi (3) : « & à échoir »] sur tous les versements, de quelque date qu'ils aient été effectués, dans la compagnie dite la « Canada Agricultural Insurance Company », par son agent à Québec, & de donner tous reçus à cet égard ; ratifiant dès à présent tout ce que fera son mandataire en vertu des présentes [renvoi (2) : « sans que telle ratification soit du tout nécessaire »]. Dont acte requis & octroyé à St Jean susdit, demeure [002638-39] de la mandante, les jour, mois & an susdits, sous le numéro quatre cent sept. Et la mandante a signé avec moi, notaire, lecture faite. Onze mots rayés sont nuls. Trois renvois en marge sont bons & approuvés. » — Signé : « Anna Blais [?] » (signature de lecture incertaine), « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "mandante",
+          "nom": "Anna Blouin [?]",
+          "note": "Veuve d'Henry Noël, de Saint-Jean, île d'Orléans, sa légataire usufruitière ; signe (« Anna Blais » ou « Blain » [?] : le texte et la signature ne se lisent pas de même). Hors paroisse ; non rattachée."
+        },
+        {
+          "role": "mandataire",
+          "nom": "Onésime [?] Noël",
+          "note": "Apprenti pilote de Saint-Jean, île d'Orléans ; prénom de lecture incertaine (« O. Noël » en marge). Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "defunt",
+          "nom": "Henry Noël",
+          "note": "Écuyer, maître pilote et juge de paix de Saint-Jean, île d'Orléans."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Acte passé hors de la paroisse, à l'île d'Orléans : le notaire s'y est déplacé. Les « versements » faits à la Canada Agricultural Insurance Company sont sans doute des placements de rente viagère ou d'assurance, dont la veuve usufruitière fait toucher les arrérages à Québec.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01693",
+          "microfilm": "002637",
+          "drive": "1WDLC_e8rXVF1P_yzxMOrUA4vGLufbQUr",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01694",
+          "microfilm": "002638",
+          "drive": "1HgYwhiJ5K4uqtlJFhA56IX4BSVkm5Vu0",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-12-transport-boissonneault-lapierre",
+      "type": "notarie",
+      "titre": "Transport de Damase Boissonneault dit St-Onge à Étienne Denis dit Lapierre, cultivateurs de Saint-Jean-Chrysostome, d'une créance de cent piastres sur François Couture — minute n° 408, 12 juin 1875",
+      "date": "1875-06-12",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 408, images 002639 à 002643 (Drive : fichiers 04T_CN401S124P_01695 à 01698). Numéro confirmé par la clôture (« quatre cent huit »). En marge « Transport D. Boissonneault à Lapierre — Original — $2.40 (hon. 1.00, enreg. 1.40) — Payé 16 juin 75 — Exp. 1 fois, enregistré ». Acte complet.",
+      "nature": "Transport (cession) de créance avec intervention et hypothèque du débiteur, reçu le 12 juin 1875, après midi, en l'étude du notaire à Saint-Romuald, devant un témoin.",
+      "transcription": "[002639-40] « N° 408. 12 juin 1875. L'an mil huit cent soixante-quinze, le douze de juin, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de George Gagné, de St Jean Chrysostome, ancien marchand, [rayé : « de St Romuald, écr »] témoin aussi soussigné ; Fut présent : Damase Boissonneault dit St Onge, de St Jean Chrysostome, dit comté, cultivateur ; Lequel cède, transporte & abandonne dès maintenant & à toujours, & promet garantir de tous troubles quelconques, à Mr Étienne Denis dit Lapierre, de St Jean Chrysostome, cultivateur, à ce présent & acceptant, la somme de cent piastres courant, que [rayé : « lui »] doit au dit cédant François Couture, de St Jean Chrysostome, cultivateur, suivant billet promissoire [rayé : « daté à … »] fait en l'année mil [002640-41] huit cent soixante-douze (lequel billet demeure nul en vertu des présentes), mettant & subrogeant le dit cédant le dit cessionnaire en tous ses lieu & place, noms, droits, raisons, actions & privilèges. Ce [rayé : « billet »] transport est fait pour & en considération de ce que lui dit cédant doit au dit cessionnaire la dite somme de cent piastres, dont quittance en sa faveur par le dit cessionnaire. Pour par le dit cessionnaire retirer & recevoir du dit François Couture, ses hoirs & ayants cause, la dite somme de cent piastres aux époques suivantes, savoir : quarante piastres au vingt-neuf septembre prochain, & la balance, ou soixante piastres, au vingt-neuf septembre mil huit cent soixante-seize, sans intérêt [rayé : « jusqu'à ces dates »]. À ce fut aussi présent le dit François Couture ; lequel, après avoir pris communication & eu lecture du transport qui précède, déclare l'avoir pour agréable [002641-42] & promet & s'oblige, pour lui, ses hoirs & ayants cause, payer la dite somme de cent piastres aux termes & en la manière susdits, & déclare qu'il retient le présent transport pour bien & dûment signifié. Et pour assurer le paiement de la dite somme de cent piastres, le dit François Couture hypothèque une terre située en la paroisse de St Jean Chrysostome, concession Beauséjour, contenant trois arpents de largeur sur trente arpents de profondeur, bornée au nord [rayé : « à la concession de Belair, au sud à la concession »] aux terres de la concession Belair, au sud aux terres de la concession St Patrick, à l'est à François Xavier Duquet & à l'ouest à Benjamin Couture, avec ensemble toutes les bâtisses dessus construites, circonstances & dépendances. [002642-43] Et pour l'exécution des présentes les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte fait & passé à St Romuald, Étude, les jour, mois & an susdits, sous le numéro quatre cent huit. Et les dits cédant & cessionnaire ont signé, le dit Sr Couture ayant déclaré ne le savoir, de ce requis, en présence du dit témoin, qui a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Damas Boissonneault », « Étienne Lapierre », « George Gagné », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "cedant",
+          "nom": "Damase Boissonneault dit St-Onge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe « Damas Boissonneault ». Absent des recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "cessionnaire",
+          "nom": "Étienne Denis dit Lapierre",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe « Étienne Lapierre ». Le même que dans les actes de 1874 (n° 136, 149, 237) ; non rattaché, comme alors (un Étienne Lapierre, journalier, est recensé à Saint-Romuald en 1881 et 1891, sans certitude)."
+        },
+        {
+          "role": "debiteur",
+          "nom": "François Couture",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, concession Beauséjour ; débiteur d'un billet de 1872 ; ne sait signer. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "François-Xavier Duquet",
+          "note": "À l'est de la terre de François Couture."
+        },
+        {
+          "role": "voisin",
+          "nom": "Benjamin Couture",
+          "note": "À l'ouest de la terre de François Couture."
+        },
+        {
+          "role": "temoin",
+          "nom": "George Gagné",
+          "note": "« Ancien marchand » de Saint-Jean-Chrysostome ; signe « George Gagné ». Le marchand des actes de 1874 et de la tutelle Gagné (mai 1875) ; non rattaché, comme alors."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Une dette en paie une autre : Boissonneault devait cent piastres à Lapierre ; il lui cède le billet que lui avait signé François Couture en 1872. Couture, présent, accepte de payer Lapierre en deux termes (29 septembre 1875 et 1876) et donne sa terre en garantie. La concession Beauséjour est bornée au nord par la concession Belair et au sud par la concession Saint-Patrick.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01695",
+          "microfilm": "002639",
+          "drive": "1SAhRNc2OcUHSmY3EHf8LjAsVv7XfS8ph",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01696",
+          "microfilm": "002640",
+          "drive": "1G-9hdX-Hrc6086zWoiom4uFhJ-P8NFj5",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01697",
+          "microfilm": "002641",
+          "drive": "1FKmHBW_yyMklFwWBqAhryg7uMKaJtOb_",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01698",
+          "microfilm": "002642",
+          "drive": "103qm7rWpoKW_SKSt-V2TysV-agO6ptKy",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-15-quittance-gosselin-carrier",
+      "type": "notarie",
+      "titre": "Quittance de Ferdinand Gosselin, de Saint-Étienne-de-Lauzon, tuteur des mineurs Louis Gosselin, à Ambroise Carrier, cultivateur de Saint-Jean-Chrysostome, de 557 piastres — minute n° 409, 15 juin 1875",
+      "date": "1875-06-15",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 409, images 002643 à 002645 (Drive : fichiers 04T_CN401S124P_01699 et 01700). Numéro confirmé par la clôture (« quatre cent neuf »). En marge « Quittance Gosselin à Carrier — Original — Expédié 1 fois, payé » ; renvoi paraphé « F. G. », « E. H. T. ». Acte complet.",
+      "nature": "Quittance générale et finale, reçue le 15 juin 1875, avant midi, en l'étude du notaire à Saint-Romuald ; le comparant signe.",
+      "transcription": "[002643-44] « N° 409. 15 juin 1875. L'an mil huit cent soixante-quinze, le quinze de juin, [rayé : « après »] avant midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Fut présent : Ferdinand Gosselin, écr, de la paroisse de St Étienne de Lauzon, [rayé : « dans le »] comté de Lévis, [rayé : « cultivateur »] agriculteur, agissant en ces présentes en qualité de tuteur des mineurs Louis Gosselin ; Lequel, ès qualité, reconnaît & confesse avoir eu & reçu à son entière satisfaction, en bon argent courant, [rayé : « à vue & présence de nous Notaire »] [renvoi (1) : « et avant l'exécution des présentes »] de Sieur Ambroise Carrier, de St Jean Chrysostome, cultivateur, la somme de cinq cent cinquante-sept piastres courant, étant pour le parfait & entier paiement & remboursement du capital d'une obligation [002644-45] consentie en sa faveur ès qualité par le dit Sr Carrier, suivant obligation datée du six [?] septembre mil huit cent soixante-neuf, & enregistrée au Bureau d'Enregistrement du comté de Lévis, Reg. B, vol. 17, page 625, n° 13,685. Reconnaît en outre le comparant avoir aussi reçu tous les intérêts échus sur la dite somme jusqu'à ce jour. Dont & du tout il accorde au dit Sr Carrier quittance générale & finale. Dont acte requis & octroyé à St Romuald, Étude, les jour, mois & an susdits, sous le numéro quatre cent neuf. Et le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « Ferdinand Gosselin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Ferdinand Gosselin",
+          "note": "Écuyer, agriculteur de Saint-Étienne-de-Lauzon, tuteur des enfants mineurs de Louis Gosselin ; signe « Ferdinand Gosselin ». Sans doute le cultivateur nommé sur la feuille de compte de la quittance Halle (février 1875). Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Ambroise Carrier",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; débiteur d'une obligation de 557 piastres de 1869. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Louis Gosselin",
+          "note": "Père (sans doute défunt) des mineurs dont Ferdinand Gosselin est tuteur. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Remboursement d'un prêt important (557 piastres) fait en 1869 avec l'argent de mineurs, sans doute placé par leur tuteur sur une terre de Saint-Jean-Chrysostome. La cote d'enregistrement de l'obligation est donnée en entier (Lévis, registre B, vol. 17, p. 625, n° 13 685).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01699",
+          "microfilm": "002643",
+          "drive": "1wc9SnehzX5HBnY3yJllHzuo_HPATkY1x",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01700",
+          "microfilm": "002644",
+          "drive": "1xWZ358Ezx_4J4xLbpGgJ6hJKsV9q97sJ",
           "legende": "2/2"
         }
       ]

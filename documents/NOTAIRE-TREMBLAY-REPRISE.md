@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (387 fiches au 21 novembre 2026 ; série jusqu'à 01680 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
+fiche dont l'identifiant commence par `notarie-` (393 fiches au 21 novembre 2026 ; série jusqu'à 01700 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
 
 ## Où sont les images
 
@@ -691,10 +691,10 @@ Suite (20-21 novembre) : fichiers **01644 à 01660** lus, actes **n° 395-396**
 
 ## Passation à une nouvelle conversation (21 novembre 2026)
 
-**Où reprendre** : fichier **01681** (microfilm 002625), après la quittance
-n° 403 (3 juin 1875). Les fichiers 01661 à 01680 sont lus (n° 397 à 403, voir
+**Où reprendre** : fichier **01701** (microfilm 002645), après la quittance
+n° 409 (15 juin 1875). Les fichiers 01661 à 01700 sont lus (n° 397 à 409, voir
 « Suite du 21 novembre » plus bas). Chercher les suivants par
-`title = '04T_CN401S124P_01681.jpg' or title = '…01682.jpg' or …` (la
+`title = '04T_CN401S124P_01701.jpg' or title = '…01702.jpg' or …` (la
 recherche `title contains '…0167'` rate des fichiers). Les fichiers 016xx-017xx
 sont dans le dossier Drive `1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql` ; le Drive va
 au moins jusqu'au fichier 01900.
@@ -830,10 +830,20 @@ jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivant
 - **n° 401** : apprentissage de Pierre Dumont, de Lévis, chez le boulanger
   Augustin Simoneau (maison 56 de 1871-D1).
 
+- **Fichiers 01681 à 01700** : bail Filteau–Lessard (n° 404, logement payé
+  une piastre par semaine), deux nouveaux lots du hameau Roberge concédés le
+  9 juin (n° 405 Joachim Cantin, n° 406 Antoine Paradis, lot en trapèze entre
+  Langlois et Lapierre), procuration de la veuve du pilote Henry Noël, de
+  l'île d'Orléans (n° 407), transport Boissonneault–Lapierre sur François
+  Couture, concession Beauséjour (n° 408), quittance Gosselin–Carrier de
+  557 $ (n° 409). Les fichiers 01684, 01688 et 01692 sont des dos de chemises
+  imprimées. **n° 405** : en-tête « 10 juin », clôture « neuvième jour de
+  juin » (fiche datée du 9).
+
 Points pour Patrick : **n° 402**, l'en-tête dit « 2 juin », un renvoi du texte
 semble dire « quatrième jour » ; **n° 403**, la clôture dit « quatre cent
-deux » par erreur ; **n° 398**, le témoin rayé « George[s] Lagüe [?], ancien
-marchand » ; **n° 401**, la clôture « sous le numéro » manque (renvoi taché).
+deux » par erreur ; **n° 398**, le témoin rayé, lu « George Gagné [?] »
+d'après le n° 408 ; **n° 401**, la clôture « sous le numéro » manque (renvoi taché).
 
 ## Les pages qui manquent encore
 
