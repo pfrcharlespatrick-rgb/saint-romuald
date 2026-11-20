@@ -34920,7 +34920,7 @@
       "titre": "Bail à rente foncière de Benjamin Demers à Jean-Baptiste Vermette, charpentier, d'un emplacement entre les rues Saint-Louis et Saint-Pierre, Saint-Romuald — minute n° 415, 22 juin 1875",
       "date": "1875-06-22",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 415, images 002663 à 002665 (Drive : fichiers 04T_CN401S124P_01718 à 01720). Formulaire imprimé ; la clause 5 (droit de retrait) est biffée. L'en-tête porte « N° 415 » (surchargé) ; la clôture dit « vingt-deuxième jour de juin, après midi » et « quatre cent quinze ». En marge « Exp. 2 fois le 28 octobre 1876 — $300 pour amortissement [?] payé — [frais rayés] » ; « 134 » en regard du capital. Acte complet ; le dos de la chemise n'est sans doute pas encore filmé (fichier 01721 ?).",
+      "cote": "Minute n° 415, images 002663 à 002665 (Drive : fichiers 04T_CN401S124P_01718 à 01720 ; 01721, dos de la chemise). Formulaire imprimé ; la clause 5 (droit de retrait) est biffée. L'en-tête porte « N° 415 » (surchargé) ; la clôture dit « vingt-deuxième jour de juin, après midi » et « quatre cent quinze ». En marge « Exp. 2 fois le 28 octobre 1876 — $300 pour amortissement [?] payé — [frais rayés] » ; « 134 » en regard du capital. Acte complet ; 01721 est le dos imprimé de la chemise (annotation au crayon).",
       "nature": "Bail à rente foncière et constituée, reçu le 22 juin 1875, après midi, à Saint-Romuald, en la demeure du concédant, devant un témoin ; le concessionnaire ne sait signer.",
       "transcription": "[002663-64] « N° 415. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Jean Baptiste Nicol, de St Romuald, entrepreneur, témoin au présent acte, aussi soussigné ; Fut présent : Benjamin Demers, écr, de St Romuald, cultivateur & rentier, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […], à Mr Jean Baptiste Vermette, du même lieu, [rayé : « journalier »] charpentier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, contenant [rayé : « quatre »] cinquante pieds de front sur quatre-vingts pieds de profondeur, mesure anglaise ; borné à l'ouest à la rue St Louis, à l'est à la rue St Pierre, au nord au concédant & au sud à Modeste Dubois, circonstances & dépendances. Tel que le dit emplacement est actuellement […]. [002664-65] [Charges du formulaire : clore ; bâtir d'hui en un an une maison habitable avec cheminée de pierre ou de brique ; entretenir à ses frais rues et fossés ;] 4° De payer au dit concédant, ses hoirs et ayant cause, au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de huit piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent trente-quatre piastres. [hypothèque ; clause 5 du droit de retrait biffée ; copie enregistrée ; reprise de possession après deux années impayées.] [002665] Au moyen de quoi le dit concédant veut et consent que le dit concessionnaire jouisse et dispose du dit emplacement en pleine propriété et à perpétuité. Dont acte, fait et passé à St Romuald, demeure du concédant, l'an mil huit cent soixante-quinze, le vingt-deuxième jour de juin, après midi, sous le numéro quatre cent quinze des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et le concédant & le témoin ont signé avec moi, notaire, le concessionnaire ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » — Signé : « Benj. Demers », « J. Bte Nicol », « E. H. Tremblay, N.P. ».",
       "personnes": [
@@ -34972,6 +34972,341 @@
           "microfilm": "002664",
           "drive": "1IH16zMN6YzL7C8NRYVYfsKzUxaRSQXeE",
           "legende": "3/3"
+        },
+        {
+          "fichier": "01721",
+          "microfilm": "002665",
+          "drive": "1kP2edDhmF4lkV5WULieIsW2aZLkJHZgg",
+          "legende": "dos de la chemise"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-22-bail-rente-demers-dubois",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Modeste Dubois, journalier, d'un emplacement entre les rues Saint-Louis et Saint-Pierre, Saint-Romuald — minute n° 416, 22 juin 1875",
+      "date": "1875-06-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 416, images 002667 à 002669 (Drive : fichiers 04T_CN401S124P_01722 à 01724 ; 01725 est le dos imprimé de la chemise, resté blanc). Formulaire imprimé ; la clause 5 (droit de retrait) est biffée. Numéro confirmé par la clôture (« quatre cent seize »). En marge « Bail Demers à Dubois — Original — $3.50 — Payé — Exp. 2e copie à Dubois — Exp. 2 fois & enregistré ». Acte complet.",
+      "nature": "Bail à rente foncière et constituée, reçu le 22 juin 1875, après midi, à Saint-Romuald, en la demeure du concédant, devant un témoin ; le concessionnaire ne sait signer.",
+      "transcription": "[002667-68] « N° 416. 22 juin 1875. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Jean Baptiste Nicol, de St Romuald, menuisier-entrepreneur, témoin au présent acte, aussi soussigné ; Fut présent : Benjamin Demers, écr, de St Romuald, cultivateur & rentier, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […], à Mr Modeste Dubois, du même lieu, journalier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, contenant cinquante pieds de front sur quatre-vingts pieds de profondeur, mesure anglaise ; borné à l'ouest à la rue St Louis, à l'est à la rue St Pierre, au nord à Jean Bte [rayé] Vermette, & au sud au concédant, circonstances & dépendances. Tel que le dit emplacement est actuellement […]. [002668-69] [Charges du formulaire : clore ; bâtir d'hui en un an une maison habitable avec cheminée de pierre ou de brique ; entretenir à ses frais rues et fossés ;] 4° De payer au dit concédant, ses hoirs et ayant cause, au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de huit piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent trente-quatre piastres. [hypothèque ; clause 5 du droit de retrait biffée ; copie enregistrée ; reprise de possession après deux années impayées.] [002669] Au moyen de quoi le dit concédant veut et consent que le dit concessionnaire jouisse et dispose du dit emplacement en pleine propriété et à perpétuité. Dont acte, fait et passé à St Romuald, demeure du concédant, l'an mil huit cent soixante-quinze, le vingt-deuxième jour de juin, après midi, sous le numéro quatre cent seize des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Requis de signer, le concessionnaire a déclaré ne le savoir, en présence du témoin qui a signé, ainsi que le concédant, avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Benj. Demers », « J. Bte Nicol », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écr, de St Romuald, cultivateur & rentier » ; signe « Benj. Demers »."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Modeste Dubois",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Voisin au sud du lot Vermette concédé le même jour (n° 415). Peut-être le journalier de 31 ans de 1881 (1881-D1-P035-L15) — hypothèse, non rattaché (un autre Modeste Dubois, 28 ans, est en division 2)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Jean-Baptiste Vermette",
+          "note": "Au nord : le concessionnaire du n° 415."
+        },
+        {
+          "role": "temoin",
+          "nom": "Jean-Baptiste Nicol",
+          "ref_personne": "1871-D1-P039-L16",
+          "note": "« Menuisier-entrepreneur » de Saint-Romuald ; signe « J. Bte Nicol ». Même rattachement probable qu'au n° 415."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Lot jumeau du n° 415, concédé le même après-midi : deux lots de 50 pieds traversant de la rue Saint-Louis à la rue Saint-Pierre, Vermette au nord, Dubois au sud, aux mêmes conditions (huit piastres de rente, rachetables à 134 piastres).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01722",
+          "microfilm": "002666",
+          "drive": "1Zt2lqop0I5pJ3PvwCAfdnmY2xDr_p5h_",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01723",
+          "microfilm": "002667",
+          "drive": "1AihOzm0kTXbKKAq2qNPBKv3L6C3AI1yq",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01724",
+          "microfilm": "002668",
+          "drive": "1o6aZLoPDRJMBqhoZ2ky3yDjklqnOn8wR",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01725",
+          "microfilm": "002669",
+          "drive": "1bkM1onmDL6GEldpramjEzI9fy25NP1OZ",
+          "legende": "dos de la chemise"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-23-testament-ferdinand-ratte",
+      "type": "notarie",
+      "titre": "Testament de Ferdinand Ratté, journalier de Saint-Romuald, en faveur de sa femme Henriette Montigny — minute n° 417, 23 juin 1875",
+      "date": "1875-06-23",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 417, images 002670 à 002673 (Drive : fichiers 04T_CN401S124P_01726 à 01728). Papier réglé. Numéro confirmé par la clôture (« quatre cent dix-sept »). En marge « Testament de Ratté — Original — Expédié 1 fois ». Acte complet.",
+      "nature": "Testament authentique, reçu le 23 juin 1875, après midi, à Saint-Romuald, en la demeure du testateur, devant deux témoins ; le testateur signe.",
+      "transcription": "[002670-71] « N° 417. 23 juin 1875. L'an mil huit cent soixante-[rayé : « quatorze »] quinze, le vingt-troisième jour de juin, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, soussigné ; Et en présence de Sr Pierre Boucher, journalier, & de Sr Louis Joseph Stanislas Roberge, instituteur, tous deux de St Romuald, témoins au présent testament, aussi soussignés ; Fut présent : Mr Ferdinand Ratté, de St Romuald, journalier, étant en bonne santé de corps, sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous, Notaire, & aux témoins sus-nommés par son maintien & ses discours & par la manifestation claire & précise de ses volontés ; Lequel a, dans la vue de la mort, fait & nommé son présent testament à nous dit Notaire, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes dettes soient payées par Dame Henriette Montigny, mon épouse actuelle, à la discrétion [002671-72] de laquelle je m'en rapporte pour le soin de mes funérailles, messes & prières ; 2° Je donne & lègue à la dite Dame Henriette Montigny, mon épouse, tous les biens meubles & immeubles [rayé : « & autres »] généralement quelconques que je délaisserai à mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient & en quelques lieux & endroits qu'ils soient dus & situés, pour par elle en jouir & disposer en toute propriété à dater du jour de mon décès ; [rayé] nommant ma dite épouse mon exécutrice testamentaire & ma légataire universelle en propriété ; 3° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par le testateur au Notaire soussigné, [rayé] en la présence constante des témoins susdits, & son présent testament lui ayant été lu, expliqué [002672-73] & relu par le dit notaire, les témoins toujours présents, il a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte fait & passé à St Romuald, demeure du testateur, les jour, mois & an susdits, sous le numéro quatre cent dix-sept des originaux du Notaire soussigné. Et le testateur & les dits témoins ont signé avec moi, notaire, lecture faite & refaite. Mots rayés sont nuls. » — Signé : « Ferdinand Ratté », « Pierre Boucher », « L. J. S. Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Ferdinand Ratté",
+          "note": "Journalier de Saint-Romuald ; signe « Ferdinand Ratté ». Absent des recensements dépouillés : non rattaché."
+        },
+        {
+          "role": "legataire",
+          "nom": "Henriette Montigny",
+          "note": "Épouse du testateur, légataire universelle et exécutrice testamentaire ; elle teste le même jour en sa faveur (n° 418). Absente sous ce prénom des recensements dépouillés (un ménage Montigny est recensé en 1871, division 1, page 28) : non rattachée."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Boucher",
+          "note": "Journalier de Saint-Romuald ; signe « Pierre Boucher ». Peut-être le « jobber » du n° 402 ; plusieurs Pierre Boucher recensés : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Joseph-Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe « L. J. S. Roberge ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Testament mutuel en deux actes, comme ceux des époux Cantin un mois plus tôt (n° 396-397) : chacun des époux Ratté lègue tout à l'autre (n° 417 et 418), devant les mêmes témoins.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01726",
+          "microfilm": "002670",
+          "drive": "1uayMQDf_4k2tiEjiwRNiOA82h2x93IZi",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01727",
+          "microfilm": "002671",
+          "drive": "1SAeLjw1D_ZH7d1si1FGesW9Omx2VjSEB",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01728",
+          "microfilm": "002672",
+          "drive": "16cPayE1FN4g2ynVSfFuHYAguGwMksrSg",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-23-testament-henriette-montigny",
+      "type": "notarie",
+      "titre": "Testament d'Henriette Montigny, épouse de Ferdinand Ratté, de Saint-Romuald, en faveur de son mari — minute n° 418, 23 juin 1875",
+      "date": "1875-06-23",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 418, images 002674 à 002677 (Drive : fichiers 04T_CN401S124P_01729 à 01732). Papier réglé ; les feuillets 002676-77 sont d'une autre main (clerc). Numéro confirmé par la clôture (« quatre cent dix-huit », « dix-sept » rayé). En marge « Testament de Dme Ratté — Original — Exp. 1 fois ». Acte complet.",
+      "nature": "Testament authentique, reçu le 23 juin 1875, après midi, à Saint-Romuald, en la demeure de la testatrice, devant deux témoins ; la testatrice signe.",
+      "transcription": "[002674-75] « N° 418. 23 juin 1875. L'an mil huit cent soixante-quinze, le vingt-troisième jour de juin, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire public résidant à St Romuald, soussigné ; Et en présence de Sr Pierre Boucher, journalier, & de Sr Louis Joseph Stanislas Roberge, instituteur, tous deux demeurant à St Romuald, témoins au présent testament, aussi soussignés ; Fut présente : Dame Henriette Montigny, épouse de Sieur Ferdinand Ratté, journalier, demeurant tous deux à St Romuald susdit, étant en bonne santé de corps, saine d'esprit, mémoire, jugement & entendement, ainsi qu'elle est apparue à nous, notaire, & aux dits témoins par son maintien & ses discours & par la manifestation claire & précise de ses volontés ; Laquelle a, dans la vue de la mort, fait & nommé son présent testament à nous, notaire, en la présence constante des dits témoins, ainsi qu'il suit, savoir : 1° Je veux que mes dettes soient payées [rayé : « & mes torts réparés »] par Sieur Ferdinand Ratté, mon époux actuel, à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, messes & prières ; 2° Je donne & lègue au dit Sr Ferdinand Ratté, mon dit époux, tous les biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès, de quelque nature & valeur qu'ils soient & en quelques lieux qu'ils soient dus & situés, pour par lui [rayé : « en jouir »] faire & disposer en toute propriété à dater du jour de mon décès, nommant mon dit époux mon exécuteur testamentaire & [rayé : « l'instituant »] mon légataire universel en propriété. 3° Je révoque tous autres [002676] testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par la testatrice au notaire soussigné, en la présence constante des témoins susdits, & son présent testament lui ayant été lu, expliqué & relu par le dit notaire, les témoins toujours présents, elle a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte fait & passé à St Romuald, demeure de la testatrice, les jour, mois & an susdits, sous le numéro quatre cent dix-[rayé : « sept »] huit des originaux du notaire soussigné. Et la testatrice & les dits témoins ont signé avec moi, notaire, lecture faite & [002677] refaite. Mots rayés sont nuls. » — Signé : « Henriette Montigny », « Pierre Boucher », « L. J. S. Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Henriette Montigny",
+          "note": "Épouse de Ferdinand Ratté, journalier, de Saint-Romuald ; signe « Henriette Montigny ». Non rattachée."
+        },
+        {
+          "role": "legataire",
+          "nom": "Ferdinand Ratté",
+          "note": "Journalier de Saint-Romuald, mari de la testatrice, légataire universel et exécuteur testamentaire ; le testateur du n° 417. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Boucher",
+          "note": "Journalier de Saint-Romuald ; signe. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Joseph-Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe « L. J. S. Roberge ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Pendant du testament du mari (n° 417), passé le même après-midi devant les mêmes témoins.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01729",
+          "microfilm": "002673",
+          "drive": "1-KTw8ePhMX_AIawWYH8EoVJwurpwfGlG",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01730",
+          "microfilm": "002674",
+          "drive": "1NrkjMtAJ4LPossc7SoD0cyPMggmu5m3e",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01731",
+          "microfilm": "002675",
+          "drive": "1Js3oBm1sfOADRKYEXDlFh84kpLOTZ53P",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01732",
+          "microfilm": "002676",
+          "drive": "16GNMDQ4XWYEibaNvAPcI7Bd95DSsdjo_",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-25-testament-ursule-gosselin",
+      "type": "notarie",
+      "titre": "Testament de Marie-Ursule Gosselin, épouse de Joseph Roberge, agriculteur de Saint-Jean-Chrysostome, en faveur de son mari — minute n° 419, 25 juin 1875",
+      "date": "1875-06-25",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 419, images 002677 à 002681 (Drive : fichiers 04T_CN401S124P_01733 à 01736). En-tête « N° 419, 25 juin 1875 » (le 5 mal formé) ; la clôture porte « sous le numéro quatre cent », sans le reste du nombre : le numéro n'est confirmé que par l'en-tête et la suite 418-420. En marge « Testament Ursule Gosselin, ép. de Jos. Roberge — Original — $3.00 [rayé] 2.75 — Payé pour la copie & la déclaration [?] » ; renvoi « testamentaire » paraphé « E. F. », « É. V. », « E. H. T. ». Acte complet.",
+      "nature": "Testament authentique, reçu le 25 juin 1875, vers six heures du matin, à Saint-Jean-Chrysostome, en la demeure de la testatrice, devant deux témoins ; la testatrice, malade, se dit trop faible pour signer.",
+      "transcription": "[002677-78] « N° 419. 25 juin 1875. L'an mil huit cent soixante-quinze, le vingt-cinquième jour de juin, [rayé : « avant-midi »] vers les six heures de l'avant-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant à St Romuald, dans le comté de Lévis, soussigné ; Et en présence de Mr Édouard Fontaine, meunier, [rayé : « & Étienne Vallières, cultivateur »] de St Henri, dit comté, & de Mr Étienne Vallières, cultivateur, de St Jean Chrysostome, dit comté, témoins au présent testament, aussi soussignés ; Fut présente : Dame [rayé : « Ursule »] Marie Ursule Gosselin, épouse de Sieur Joseph Roberge, agriculteur, demeurant tous deux à St Jean Chrysostome, dit comté, étant malade de corps, mais parfaitement saine d'esprit, mémoire, jugement & entendement, ainsi qu'elle est apparue à nous, Notaire, & aux dits témoins par son maintien & ses discours & par la manifestation claire & précise de ses volontés ; Laquelle a, dans la vue de la mort, fait & nommé son présent testament à nous, Notaire, en la présence actuelle & constante [002678-79] des dits témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par mon exécuteur [renvoi (1) : « testamentaire »] ci-après nommé, à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, messes & prières, voulant & entendant qu'un service décent soit chanté sur mon corps le jour de mon inhumation, avec un autre service décent au bout de l'an de mon décès, & que quinze messes basses de Requiem soient dites pour le repos de mon âme le plus tôt possible après mon décès ; 2° Je donne & lègue à Sr Joseph Roberge, mon époux actuel, tous les biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient & en quelques lieux & endroits qu'ils soient dus & situés, pour par mon dit époux en jouir, faire & disposer en toute propriété à compter du jour de mon décès ; 3° Je nomme [rayé] le dit Sr Joseph Roberge, mon dit époux, [002679-80] mon exécuteur testamentaire & l'institue mon légataire universel en propriété ; 4° Enfin, je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par la testatrice au dit Notaire soussigné, en la présence actuelle & constante des dits témoins, & son présent testament lui ayant été lu, expliqué & relu par le dit Notaire, les témoins toujours présents, elle a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte fait & passé à St Jean Chrysostome, en la demeure de la testatrice, située en la concession Appenin [?], les jour, mois & an susdits, sous le numéro quatre cent [sic] des originaux du Notaire soussigné. Requise de signer, la testatrice a déclaré être trop faible pour le faire, [rayé : « en présence des témoins »] [002680-81] les dits témoins ayant alors signé avec moi, Notaire, après lecture faite & refaite. Mots rayés sont nuls. » — Signé : « Édouard Fontaine », « Étienne Vallière », [un trait raturé, sans doute un essai de marque], « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Marie-Ursule Gosselin",
+          "note": "Épouse de Joseph Roberge, agriculteur, de Saint-Jean-Chrysostome ; malade, trop faible pour signer. Hors paroisse ; non rattachée."
+        },
+        {
+          "role": "legataire",
+          "nom": "Joseph Roberge",
+          "note": "Agriculteur de Saint-Jean-Chrysostome, mari de la testatrice, légataire universel et exécuteur testamentaire. Non rattaché (plusieurs Joseph Roberge recensés à Saint-Romuald, aucun agriculteur)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Édouard Fontaine",
+          "note": "Meunier de Saint-Henri ; signe « Édouard Fontaine ». Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Étienne Vallières",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe « Étienne Vallière ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Testament d'une malade, reçu à six heures du matin : le notaire a été appelé d'urgence. La testatrice demande un service le jour de son inhumation, un autre au bout de l'an et quinze messes basses. Le nom de la concession (« Appenin » [?]) est à relire sur le manuscrit, de même que le numéro, laissé incomplet à la clôture.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01733",
+          "microfilm": "002677",
+          "drive": "1U1mc2jKjiJ_9q79Ze6aAgUrrYFz6PzEN",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01734",
+          "microfilm": "002678",
+          "drive": "1HBAjLtqPDMZk5QXa25XhR1kE24m0BJJ6",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01735",
+          "microfilm": "002679",
+          "drive": "1HLgx7PIgIgH8FBUCrnHSEe2ziH0bYfB7",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01736",
+          "microfilm": "002680",
+          "drive": "1KkWD7BkYBaD1JmB_aGzQYdnkrrx9t11w",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-26-procuration-simard-simard",
+      "type": "notarie",
+      "titre": "Procuration de Napoléon Simard, journalier, et d'Adelina Simard, son épouse, de Saint-Romuald, à Onésime Simard, cultivateur de Sainte-Anne (Montmorency), pour vendre un emplacement à Sainte-Anne — minute n° 420, juin 1875",
+      "date": "1875-06-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 420, images 002682 et 002683 (Drive : fichiers 04T_CN401S124P_01737 et 01738). Écrit d'une main de clerc soignée, sur un modèle préparé dans une autre étude : la clôture portait d'abord « étude de M. … Lepage [?], notaire », le mois et l'année d'un autre acte, rayés et corrigés par renvois. En-tête « N° 420, 26 juin 1875 » ; la clôture dit « le vingt[-cinquième rayé] jour de juin, après-midi » et « quatre cent vingt ». Six renvois en marge paraphés « N. S. », « A. S. », « E. H. T. ». En marge « Mandat Simard à Simard — Original — Exp. 1 fois & payé ». Acte complet.",
+      "nature": "Procuration spéciale pour vendre, reçue en juin 1875 (le 26 selon l'en-tête), après midi, en l'étude du notaire à Saint-Romuald ; les constituants signent.",
+      "transcription": "[002682] « N° 420. 26 juin 1875. Pardevant le notaire public dans et pour la Province de Québec, soussigné, Furent présents Sieur Napoléon Simard, fils de Joseph Simard, journalier, & Dame Adelina Simard, son épouse, qu'il autorise dûment à l'effet des présentes, demeurant en la paroisse de Saint-Romuald, lesquels ont, par ces présentes, fait et constitué pour leur procureur [rayé] spécial Sieur [renvoi : « Onésime » ; rayé : « François »] Simard, demeurant en la paroisse de Sainte-Anne, comté de Montmorency, [renvoi : « cultivateur » ; mots rayés], auquel ils donnent pouvoir de pour eux et en leur nom vendre à telles personnes ou personne, par telles voies, et aux prix, charges, clauses et conditions qu'il trouvera les plus avantageuses et qu'il jugera les plus convenables, c'est-à-savoir : Un emplacement situé en la dite paroisse de Sainte-Anne, de forme irrégulière et contenu dans les limites suivantes : borné au sud par le chemin royal, au nord partie par Joseph Morel et partie par Étienne [renvoi : « Cloutier » ; rayé : « Couture »], lequel borne aussi par le nord-est [rayé : « ainsi que »] Étienne Simard, et au sud-ouest par Alexandre Giguère, circonstances et dépendances ; et obliger les dits constituants à toutes garanties, fixer l'époque d'entrer en jouissance, convenir du mode et de l'époque des paiements, recevoir le prix, en donner quittance et décharge, consentir [002683] toutes mentions et subrogations, et remettre tous titres et pièces. Les dits constituants promettant avoir le tout pour agréable, sans qu'il soit jamais besoin de ratification de leur part. Car ainsi, &c., &c. Dont acte fait et passé à Saint-Romuald, étude de [renvoi : « Me Elzéar Hubert Tremblay » ; rayé : « M. … Lepage [?] »], notaire, le vingt[-cinquième rayé] jour de [renvoi : « juin » ; mois rayé] après-midi, de l'année mil huit cent soixante-[renvoi : « quinze » ; rayé], sous le numéro [rayé : « huit cent … »] quatre cent vingt. Et les dits constituants, qui sont personnellement connus de nous, notaire, ont signé [rayé : « avec lui »] après lecture faite. Mots rayés sont nuls. Renvois en marge sont bons & approuvés. » — Signé : « Napoléon Simard », « Adelina Simard », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "mandant",
+          "nom": "Napoléon Simard",
+          "note": "Journalier de Saint-Romuald, « fils de Joseph Simard » ; signe « Napoléon Simard ». Absent des recensements dépouillés : non rattaché."
+        },
+        {
+          "role": "mandante",
+          "nom": "Adelina Simard",
+          "note": "Épouse de Napoléon Simard, qu'il autorise ; signe « Adelina Simard ». Non rattachée."
+        },
+        {
+          "role": "mandataire",
+          "nom": "Onésime Simard",
+          "note": "Cultivateur de Sainte-Anne (de-Beaupré), comté de Montmorency (le notaire avait d'abord écrit « François »). Hors paroisse."
+        },
+        {
+          "role": "autre",
+          "nom": "Joseph Simard",
+          "note": "Père du constituant."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Morel",
+          "note": "Au nord (en partie) de l'emplacement de Sainte-Anne."
+        },
+        {
+          "role": "voisin",
+          "nom": "Étienne Cloutier",
+          "note": "Au nord (en partie) ; le notaire avait d'abord écrit « Couture »."
+        },
+        {
+          "role": "voisin",
+          "nom": "Étienne Simard",
+          "note": "Au nord-est."
+        },
+        {
+          "role": "voisin",
+          "nom": "Alexandre Giguère",
+          "note": "Au sud-ouest."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un couple de Saint-Romuald, sans doute originaire de la côte de Beaupré, fait vendre un terrain qu'il possède encore à Sainte-Anne. L'acte est écrit sur un modèle d'une autre étude, que Tremblay a corrigé par six renvois : la date exacte (25 ou 26 juin) est à vérifier sur le manuscrit.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01737",
+          "microfilm": "002681",
+          "drive": "1xVULBgvbEsS5vKqtE9meSjnw7BGjoGFB",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01738",
+          "microfilm": "002682",
+          "drive": "1GX1rb23nskis2dBT4zWxBj84y1br3kcY",
+          "legende": "2/2"
         }
       ]
     }

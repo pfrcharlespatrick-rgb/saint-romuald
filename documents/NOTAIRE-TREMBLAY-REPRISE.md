@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (399 fiches au 21 novembre 2026 ; série jusqu'à 01720 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
+fiche dont l'identifiant commence par `notarie-` (404 fiches au 21 novembre 2026 ; série jusqu'à 01738 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
 
 ## Où sont les images
 
@@ -691,10 +691,12 @@ Suite (20-21 novembre) : fichiers **01644 à 01660** lus, actes **n° 395-396**
 
 ## Passation à une nouvelle conversation (21 novembre 2026)
 
-**Où reprendre** : fichier **01721** (microfilm 002665), après le bail
-n° 415 (22 juin 1875). Les fichiers 01661 à 01720 sont lus (n° 397 à 415, voir
+**Où reprendre** : fichier **01739** (microfilm 002683), début du protêt
+d'abornage n° 421 (Ambroise Plante à Louis Patry, 26 juin 1875), qui se
+poursuit en 01740 et au-delà. Les fichiers 01661 à 01738 sont versés (n° 397 à
+420, voir
 « Suite du 21 novembre » plus bas). Chercher les suivants par
-`title = '04T_CN401S124P_01721.jpg' or title = '…01722.jpg' or …` (la
+`title = '04T_CN401S124P_01741.jpg' or title = '…01742.jpg' or …` (les identifiants de 01739 et 01740 : `1RWPDNfmdi48y-cMBfzYlnpiOE2b9bfpk`, `1xQN4UwYDNOfjocshmQqtJwSJYppy76Nc`) (la
 recherche `title contains '…0167'` rate des fichiers). Les fichiers 016xx-017xx
 sont dans le dossier Drive `1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql` ; le Drive va
 au moins jusqu'au fichier 01900.
@@ -850,6 +852,15 @@ jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivant
   **n° 413** : description raturée à relire (largeur au chemin, voisin
   « Pierre [Rouleau ?] »). Les fichiers 01711 et 01715 sont des dos de
   chemises.
+
+- **Fichiers 01721 à 01738** : dos de chemise du n° 415 (01721) ; concession
+  Demers à Modeste Dubois, voisin du lot Vermette (n° 416) ; testaments
+  croisés des époux Ferdinand Ratté et Henriette Montigny (n° 417-418) ;
+  testament d'une malade, Marie-Ursule Gosselin, femme de Joseph Roberge,
+  reçu à six heures du matin (n° 419 : numéro laissé incomplet à la clôture,
+  concession « Appenin » [?] à relire) ; procuration Simard pour vendre un
+  terrain à Sainte-Anne (n° 420, écrite sur le modèle d'une autre étude ;
+  25 ou 26 juin à vérifier).
 
 Points pour Patrick : **n° 402**, l'en-tête dit « 2 juin », un renvoi du texte
 semble dire « quatrième jour » ; **n° 403**, la clôture dit « quatre cent
