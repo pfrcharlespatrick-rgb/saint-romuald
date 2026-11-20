@@ -30746,12 +30746,12 @@
     {
       "id": "notarie-1875-03-29-quittance-horion-lepine",
       "type": "notarie",
-      "titre": "Quittance par Édouard Horion, écuyer, rentier de Notre-Dame-de-Lévis, à Louis Lépine dit Marest, commerçant, avec deux reçus annexés — minute n° 339, 29 mars 1875",
+      "titre": "Quittance par Édouard Horion, écuyer, rentier de Notre-Dame-de-Lévis, à Louis Lépine dit Marest, commerçant, avec quatre reçus annexés — minute n° 339, 29 mars 1875",
       "date": "1875-03-29",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 339, images 002374 à 002376 (Drive : fichiers 04T_CN401S124P_01430 à 01432). En marge « Quittance Horion à Lépine — Original — Payé ». Annexés : deux petits reçus autographes d'Édouard Horion (fichiers 01431 et 01432). Acte complet.",
+      "cote": "Minute n° 339, images 002374 à 002378 (Drive : fichiers 04T_CN401S124P_01430 à 01434). En marge « Quittance Horion à Lépine — Original — Payé ». Annexés : trois petits reçus autographes d'Édouard Horion (fichiers 01431 à 01433 ; le fichier 01432 est la fin, filmée avant son début, du reçu du fichier 01433) et un reçu de Benjamin Demers (fichier 01434). Acte complet.",
       "nature": "Quittance d'un à-compte sur le prix d'un emplacement, passée le 29 mars 1875, après midi, à Saint-Romuald, étude du notaire, sans témoin.",
-      "transcription": "[002374] « N° 339 — 29 mars 1875. L'an mil huit cent soixante-quinze, le vingt-neuf de mars, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Fut présent : Édouard Horion, Écr, demeurant à Notre-Dame de Lévis, rentier ; Lequel reconnaît que Louis Lépine dit Marest, de St Romuald, commerçant, lui a payé en à-compte sur le prix d'une certaine vente d'emplacement & dépendances, reçue par Mtre E. Simard, N.P., & enregistrée au Bureau d'enregistrement du comté de Dorchester, division numéro deux, Reg. B, Vol. 19, page 170, sous le Numéro 14,806, la somme de deux cents piastres courant en à-compte. Dont quittance d'autant. Dont acte requis & octroyé à St Romuald, étude, les jour, mois & an susdits, sous le numéro trois cent trente-neuf. Et le comparant a signé avec moi, notaire, lecture faite. » — Signé : « Édouard Horion », « E. H. Tremblay, N.P. ». [002375 — reçu annexé] « £5.0.0. Reçu de Mr Louis Lépine la somme de vingt piastres courant étant pour le paiement de la maison pour l'année 1874. Notre-Dame de Lévis, 1 déc. 1874. Édouard Horion. » [002376 — second reçu annexé, fragment] « … à Mr Lépine à St Romuald ont été fait régulièrement jusqu'en 1873. Édouard Horion. »",
+      "transcription": "[002374] « N° 339 — 29 mars 1875. L'an mil huit cent soixante-quinze, le vingt-neuf de mars, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Fut présent : Édouard Horion, Écr, demeurant à Notre-Dame de Lévis, rentier ; Lequel reconnaît que Louis Lépine dit Marest, de St Romuald, commerçant, lui a payé en à-compte sur le prix d'une certaine vente d'emplacement & dépendances, reçue par Mtre E. Simard, N.P., & enregistrée au Bureau d'enregistrement du comté de Dorchester, division numéro deux, Reg. B, Vol. 19, page 170, sous le Numéro 14,806, la somme de deux cents piastres courant en à-compte. Dont quittance d'autant. Dont acte requis & octroyé à St Romuald, étude, les jour, mois & an susdits, sous le numéro trois cent trente-neuf. Et le comparant a signé avec moi, notaire, lecture faite. » — Signé : « Édouard Horion », « E. H. Tremblay, N.P. ». [002375 — reçu annexé] « £5.0.0. Reçu de Mr Louis Lépine la somme de vingt piastres courant étant pour le paiement de la maison pour l'année 1874. Notre-Dame de Lévis, 1 déc. 1874. Édouard Horion. » [002377 — reçu annexé] « Reçu de Mr Louis Lépine la somme de vingt piastres pour un paiement de la maison de l'Etchemin pour l'année 1873. St-Romuald, 26 avril [?] 1874. Édouard Horion. £5.0.0. — Je certifie que depuis 1864 que toutes les paiements sur la maison vendue [suite au verso, 002376 :] à Mr Lépine à St Romuald ont été fait régulièrement jusqu'en 1873. Édouard Horion. » [002378 — reçu annexé] « St Romuald, 7 septembre 1874. Reçu de Mr Louis Lépine la somme de quatre louis pour l'année mille huit cent soixante et douze et huit piastres pour l'année mille huit cent soixante et treize pour un emplacement, la première année et une demie la deuxième, échu le premier d'octobre. Benj. Demers. »",
       "personnes": [
         {
           "role": "quittancant",
@@ -30765,12 +30765,18 @@
           "note": "Commerçant de Saint-Romuald. Rattachement probable, comme aux n° 326 et 327."
         },
         {
+          "role": "autre",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Signe « Benj. Demers » un reçu de rente d'emplacement (années 1872 et 1873) annexé à la minute. Rattachement probable, comme dans ses concessions."
+        },
+        {
           "role": "notaire",
           "nom": "Elzéar-Hubert Tremblay"
         }
       ],
       "affirmations": [],
-      "note": "Huit jours après avoir emprunté cent piastres au cordonnier Alain (n° 327), Louis Lépine dit Marest verse deux cents piastres à Édouard Horion sur le prix d'un emplacement acheté de lui. Deux petits reçus autographes de Horion sont annexés à la minute : l'un de vingt piastres « pour le paiement de la maison pour l'année 1874 » (1er décembre 1874), l'autre attestant que les paiements « ont été faits régulièrement jusqu'en 1873 ».",
+      "note": "Huit jours après avoir emprunté cent piastres au cordonnier Alain (n° 327), Louis Lépine dit Marest verse deux cents piastres à Édouard Horion sur le prix d'un emplacement acheté de lui. Les reçus annexés montrent qu'il payait Horion vingt piastres par an pour « la maison de l'Etchemin » (années 1873 et 1874), régulièrement depuis 1864, et qu'il payait aussi à Benjamin Demers la rente d'un emplacement (huit piastres l'an, 1872-1873) — sans doute le second emplacement hypothéqué au n° 327.",
       "ajoute_le": "2026-11-19",
       "images": [
         {
@@ -30783,13 +30789,25 @@
           "fichier": "01431",
           "microfilm": "002375",
           "drive": "1t7hteugj4eH6766vYm7mM6HFRF5rVDhQ",
-          "legende": "reçu annexé du 1er décembre 1874"
+          "legende": "reçu Horion du 1er décembre 1874"
         },
         {
           "fichier": "01432",
           "microfilm": "002376",
           "drive": "1AJTWIMwQqNxAZKgXF99t96Mw3yyTSYWj",
-          "legende": "second reçu annexé (fragment)"
+          "legende": "verso du reçu Horion de 1874 (fin du certificat)"
+        },
+        {
+          "fichier": "01433",
+          "microfilm": "002377",
+          "drive": "1yMrg4wHUUY0ZYvjH9w8-8OyRA91ykgxb",
+          "legende": "reçu Horion pour 1873 et certificat de paiements depuis 1864"
+        },
+        {
+          "fichier": "01434",
+          "microfilm": "002378",
+          "drive": "1tj_EMchiX1Z_jDyRVFSZMXAlaWRY17S0",
+          "legende": "reçu Benjamin Demers du 7 septembre 1874"
         }
       ]
     }
