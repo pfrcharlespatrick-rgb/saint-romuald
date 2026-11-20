@@ -32433,6 +32433,60 @@
           "legende": "copie, 4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-05-02-bail-roberge-nolin",
+      "type": "notarie",
+      "titre": "Bail par Louis-Hubert Roberge, navigateur, à Modeste Nolin, journalier, de deux chambres d'une maison à deux étages de New-Liverpool — minute n° 379, 2 mai 1875",
+      "date": "1875-05-02",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 379, images 002528 à 002530 (Drive : fichiers 04T_CN401S124P_01584 à 01586). Formule imprimée de bail ; clause 4 et clauses d'aqueduc et de taxes biffées. En marge « Bail Mr Roberge à Nolin — Original — B. 0.25 payé, P. 0.25 payé — $0.50 ». Un renvoi (1) en marge. Acte complet.",
+      "nature": "Bail d'un an (1er mai 1875 – 30 avril 1876), passé le 2 mai 1875, après midi, à Saint-Romuald, étude du notaire, devant un témoin ; le preneur ne sait signer.",
+      "transcription": "[002528] « N° 379 — 2 mai 1875. L'an mil huit cent soixante-quinze, le deuxième jour du mois de mai, après-midi, pardevant Mtre Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, soussigné, et en présence de Louis Lambert, de St Romuald, batelier, témoin, aussi soussigné ; Fut présent : Monsieur Louis Hubert Roberge, de St Romuald, comté de Lévis, navigateur ; Lequel a, par ces présentes, donné à loyer pour le terme et espace d'une année entière qui commence à courir du premier jour de mai [courant] et finir le trentième jour d'avril de l'année mil huit cent soixante-seize, à Modeste Nolin, du même lieu, journalier, à ce présent et acceptant preneur pour lui, ses hoirs et ayants cause, c'est-à-savoir : Deux chambres dans le deuxième étage, côté ouest, dans une maison à deux étages sise à St Romuald, division New Liverpool, & appartenant au Bailleur, ensemble porte d'entrée en front en commun avec l'occupant du même étage, jusqu'à ce qu'une porte communiquant à son logement soit faite, part de cour pour mettre son bois de chauffage ; tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité. [Clauses imprimées.] [002529] De son côté le Bailleur promet et s'oblige faire jouir le preneur des premisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à aucune autre réparation qu'à percer & poser une porte pour communiquer à l'une des dites chambres, côté nord. Ce Bail est fait en outre pour et en considération du prix et somme de vingt-huit piastres pour l'année de sa durée, et que le Preneur promet et s'oblige payer au dit Bailleur ou à son ordre en six paiements égaux & mensuels de la somme de quatre piastres & soixante-six centins & deux tiers chaque, payables à l'expiration des six premiers mois à dater du premier jour de mai courant, le loyer susdit devant être payé en entier au premier novembre prochain. [002530] Et par ces présentes le preneur renonce aux privilèges à lui accordés par les sections deux, trois, cinq, sept & neuf du Code de Procédure civile, voulant que tous ses meubles & effets sans distinction répondent pour le loyer en entier. Et pour l'exécution des présentes […]. Dont Acte, Fait et Passé à St Romuald, Étude, les jour, mois et an susdits sous le numéro trois cent soixante-dix-neuf. Requis de signer, le preneur a déclaré ne le savoir en présence du témoin qui a signé ainsi que le Bailleur avec moi, Notaire, lecture faite. Mots rayés sont nuls. » — Signé : « L. Hubert Roberge », « Louis Lambert », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Louis-Hubert Roberge",
+          "note": "Navigateur de Saint-Romuald, propriétaire d'une maison à deux étages de la division de New-Liverpool ; signe « L. Hubert Roberge ». Non rattaché."
+        },
+        {
+          "role": "preneur",
+          "nom": "Modeste Nolin",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Absent des recensements dépouillés : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Lambert",
+          "note": "Batelier de Saint-Romuald ; signe « Louis Lambert ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Louis-Hubert Roberge loue l'étage ouest d'une maison à deux étages de New-Liverpool ; peut-être la maison de l'affaire Proulx (n° 346-349, 376), mais l'acte ne le dit pas. Vingt-huit piastres l'an, payées entières au 1er novembre ; le bailleur promet de percer une porte de communication entre les chambres.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01584",
+          "microfilm": "002528",
+          "drive": "1vJ10RIcsUXbj2M2riFH67v-8Vegz-vpM",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01585",
+          "microfilm": "002529",
+          "drive": "1-KKbobLLxxU_KdU3VoOeR1Gu47Q6iC1h",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01586",
+          "microfilm": "002530",
+          "drive": "1VSFykOQnzBcXpuEZCofdf_H9SfTUN4sL",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
