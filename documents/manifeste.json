@@ -29486,6 +29486,167 @@
           "legende": "2/2"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-02-27-quittance-gosselin-halle",
+      "type": "notarie",
+      "titre": "Quittance par Ferdinand Gosselin, agriculteur de Saint-Étienne, tuteur des mineurs de Louis Gosselin, à François Hallé — minute n° 316, 27 février 1875",
+      "date": "1875-02-27",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 316, images 002310 et 002311 (Drive : fichiers 04T_CN401S124P_01365 et 01366). En marge « Quittance Gosselin à Hallé — Original — Exp. 1 fois — Enregistré ». Un renvoi en marge paraphé « F. G. » et « E. H. T. N.P. ». Acte complet.",
+      "nature": "Quittance générale et finale du capital d'une obligation, passée le 27 février 1875, après midi, à Saint-Romuald, étude du notaire, sans témoin.",
+      "transcription": "[002310] « N° 316 — 1875. L'an mil huit cent soixante-quinze, le vingt-septième jour de février, après-midi, en présence de Me Elzéar H. Tremblay, Notaire Public, résidant à St Romuald, comté de Lévis, soussigné ; Fut présent : Mr Ferdinand Gosselin, agriculteur, de St Étienne, comté susdit, [renvoi (1) : « agissant en ces présentes en sa qualité de tuteur aux mineurs de Louis Gosselin »] ; Lequel reconnaît avoir eu & reçu en bon argent courant, lors de l'exécution des présentes & à vue & présence de nous notaire, de François Hallé, de St Romuald, agriculteur, la somme de cent vingt-cinq piastres courant, étant pour le parfait & entier paiement & remboursement du capital d'une obligation consentie en faveur du comparant, reçue par Me Bourget, Notaire, & enregistrée au Bureau d'enregistrement du comté de Lévis, Reg. B, Vol. 19, page 241, sous le N° 14,881. Reconnaît en outre le comparant avoir aussi reçu tous intérêts [002311] échus sur la dite somme jusqu'à ce jour. Dont quittance générale & finale en faveur du dit Sr Hallé. Dont acte requis & octroyé à St Romuald, étude, les jour, mois & an susdits, sous le numéro trois cent seize. Et le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Ferdinand Gosselin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Ferdinand Gosselin",
+          "note": "Agriculteur de Saint-Étienne-de-Lauzon, tuteur des enfants mineurs de Louis Gosselin ; signe. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Louis Gosselin",
+          "note": "Père des mineurs dont Ferdinand Gosselin est tuteur ; sans doute décédé. Non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "François Hallé",
+          "note": "Agriculteur de Saint-Romuald ; le même qu'aux n° 306, 314 et 315. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Bourget",
+          "note": "Notaire qui a reçu l'obligation remboursée (Lévis, Reg. B, vol. 19, n° 14 881)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le jour même où il solde la terre achetée de ses parents (n° 315), François Hallé rembourse aussi ses autres créanciers : ici cent vingt-cinq piastres aux mineurs de Louis Gosselin, de Saint-Étienne-de-Lauzon. La feuille de compte du notaire (fichier 01362) annonçait cette quittance.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01365",
+          "microfilm": "002309",
+          "drive": "1hYuuRvT_PY7YU-M7KsO2x807UvtW3bKu",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01366",
+          "microfilm": "002310",
+          "drive": "14rt3cbEf5qdOm4BQ0EP8grofSFx5EwZK",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-02-27-quittance-george-halle-francois-halle",
+      "type": "notarie",
+      "titre": "Quittance par George Hallé, maître forgeron, à François Hallé, agriculteur — minute n° 317, 27 février 1875",
+      "date": "1875-02-27",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 317, images 002311 et 002312 (Drive : fichiers 04T_CN401S124P_01367 et 01368). En marge « Quittance Geo. Hallé à Frs Hallé — Original — 0.15 enrég. — Payé — Expédié 1 fois — Enregistré ». Une première rédaction (« que le dit François Hallé lui devait en vertu d'une obligation ») est rayée et remplacée par un renvoi paraphé « G. H. ». Acte complet.",
+      "nature": "Quittance générale et finale du capital d'une obligation, passée le 27 février 1875, après midi, à Saint-Romuald, étude du notaire, sans témoin.",
+      "transcription": "[01367] « N° 317 — 1875. L'an mil huit cent soixante-quinze, le vingt-septième jour de février, après-midi, en présence de Me Elzéar Hub. Tremblay, Notaire Public, résidant à St Romuald, comté de Lévis, soussigné ; Fut présent : Georges Hallé, Mtre forgeron, de St Romuald ; Lequel reconnaît avoir eu & reçu en bon argent & à son entière satisfaction, à vue & présence de nous notaire, & lors de l'exécution des présentes, de François Hallé, du même lieu, agriculteur, la somme de cent vingt-trois piastres courant, [renvoi (1) : « étant pour le parfait & entier paiement & remboursement du capital d'une obligation en sa faveur »] reçue par Mtre Légaré, Notaire, & enregistrée au Bureau d'Enregistrement du comté de Lévis, Reg. B, Vol. 20, sous le N° 16,017. Reconnaît en outre le comparant avoir aussi reçu tous les intérêts [01368] échus sur icelle dite somme jusqu'à ce jour. Dont quittance générale & finale. Dont acte requis & octroyé à St Romuald, étude, les jour, mois & an susdits, sous le numéro trois cent dix-sept. Et le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « George Hallé », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "George Hallé",
+          "ref_personne": "1871-D1-P010-L18",
+          "note": "Maître forgeron de Saint-Romuald ; signe « George Hallé ». Rattachement probable au forgeron de 34 ans recensé en 1871 avec sa mère, la veuve Ursule Dussault (fils d'Antoine Hallé, forgeron lui aussi)."
+        },
+        {
+          "role": "debiteur",
+          "nom": "François Hallé",
+          "note": "Agriculteur de Saint-Romuald ; sans doute frère du comparant. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Légaré",
+          "note": "Notaire qui a reçu l'obligation remboursée (Lévis, Reg. B, vol. 20, n° 16 017) ; sans doute N. D. Légaré (n° 318)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Troisième remboursement de François Hallé le même jour : cent vingt-trois piastres à George Hallé, maître forgeron, qui a repris la forge de leur père. La feuille de compte du notaire (fichier 01362) l'annonçait à 125.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01367",
+          "microfilm": "002311",
+          "drive": "1wEbSAK-uXJ6d2oiQ5-WWrOl5XMsjFDz4",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01368",
+          "microfilm": "002312",
+          "drive": "1QzeMgKsJQSD8nFTp6sU4d2FNeQcGW7k7",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-02-27-quittance-roy-halle",
+      "type": "notarie",
+      "titre": "Quittance par Cyrille Roy, cultivateur de Saint-Jean-Chrysostome, à François Hallé, avec mainlevée d'hypothèques — minute n° 318, 27 février 1875",
+      "date": "1875-02-27",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 318, images 002313 à 002315 (Drive : fichiers 04T_CN401S124P_01369 et 01370). En marge « Quittance Roy à Hallé — Original — Exp. 1 fois — Enregistré ». Le nom du témoin est corrigé en interligne. Deux renvois en marge paraphés « L. N. B. » et « E. H. T. N.P. ». Acte complet.",
+      "nature": "Quittance générale et finale du capital d'une obligation, avec consentement à la radiation des hypothèques, passée le 27 février 1875, après midi, à Saint-Romuald, étude du notaire, devant un témoin ; le comparant ne sait signer.",
+      "transcription": "[002313] « N° 318 — 27 fév. 1875. L'an mil huit cent soixante-quinze, le vingt-septième jour de février, après-midi, en présence de Me Elzéar H. Tremblay, Notaire Public, résidant à St Romuald, comté de Lévis, soussigné, et en présence de L. Napoléon Bégin, commerçant, de St Romuald, témoin, [aussi] soussigné ; Fut présent : Cyrille Roy, cultivateur, de St Jean Chrysostome, dit comté ; Lequel reconnaît avoir reçu lors de l'exécution des présentes & à vue & présence de nous notaire & témoin, de François Hallé, cultivateur, de St Romuald, la somme de cent piastres courant, étant pour le parfait [renvoi : « & entier paiement »] & remboursement du capital d'une obligation reçue par Me N. D. Légaré, Notaire, & enregistrée au Bureau d'enregistrement du comté de Dorchester, Division N° deux, Reg. B, Vol. 21, page 661, N° 16,775. Reconnaît en [002314] outre le comparant avoir reçu tous les intérêts échus sur la dite somme jusqu'à ce jour. [Renvoi (1) : « Et veut & consent que les hypothèques créées en sa faveur par le dit Sr François Hallé & Dame Ursule Dussault, veuve de feu Sieur Antoine Hallé, de St Romuald, soient éteintes de ce jour & à toujours, & que radiation en soit faite par qui il appartiendra en vertu des présentes. Dont quittance générale & finale en faveur du dit François Hallé & de la dite Dame Vve Antoine Hallé. »] Dont acte requis & octroyé à St Romuald, étude, les jour, mois & an susdits, sous le numéro trois cent dix-huit. Requis de signer, le comparant a déclaré ne le savoir en présence du témoin qui a signé avec nous notaire, lecture faite. Mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » — Signé : « L. Napoléon Bégin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Cyrille Roy",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait signer. Absent des recensements dépouillés : non rattaché (les limites des deux paroisses se recouvrent)."
+        },
+        {
+          "role": "debiteur",
+          "nom": "François Hallé",
+          "note": "Cultivateur de Saint-Romuald. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Ursule Dussault",
+          "ref_personne": "1871-D1-P010-L17",
+          "note": "Veuve d'Antoine Hallé, coobligée de l'hypothèque levée. Rattachement probable."
+        },
+        {
+          "role": "temoin",
+          "nom": "L. Napoléon Bégin",
+          "note": "Commerçant de Saint-Romuald ; signe « L. Napoléon Bégin ». Absent des recensements dépouillés : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "N. D. Légaré",
+          "note": "Notaire qui a reçu l'obligation remboursée (Dorchester, div. 2, Reg. B, vol. 21, n° 16 775)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Quatrième et dernier règlement de François Hallé le 27 février 1875 : cent piastres à Cyrille Roy, de Saint-Jean-Chrysostome, qui lève les hypothèques consenties par François Hallé et sa mère. En une journée, la terre de 1865 est payée et dégrevée (n° 315 à 318) — sans doute grâce à un emprunt ou à une vente qui reste à trouver.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01369",
+          "microfilm": "002313",
+          "drive": "16WW5872WopIiEBodouRcwkvdN9eADkg-",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01370",
+          "microfilm": "002314",
+          "drive": "1A8kwzr4g7frMLL73FYWHkQCPy8f9UgdL",
+          "legende": "2/2"
+        }
+      ]
     }
   ]
 }
