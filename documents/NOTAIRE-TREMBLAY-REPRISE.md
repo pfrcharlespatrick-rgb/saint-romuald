@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (302 fiches au 19 novembre 2026 ; série jusqu'à 01313 lue).
+fiche dont l'identifiant commence par `notarie-` (312 fiches au 20 novembre 2026 ; série jusqu'à 01349 lue).
 
 ## Où sont les images
 
@@ -524,8 +524,25 @@ Suite : fichiers **01270 à 01313** lus, actes **n° 288 à 300** (19 janvier au
 - **n° 300** : procuration d'**Henry Atkinson & Co.** à Benoni Gosselin,
   mesureur de billots (créances jusqu'à la rivière Gatineau).
 
-**Pour reprendre** : continuer au fichier **01314** (microfilm 002258-59).
-Chercher les identifiants par `title contains '04T_CN401S124P_0131'`, puis `0132`, etc.
+Suite (19-20 novembre) : fichiers **01314 à 01349** lus, actes **n° 301 à 310**
+(7 au 22 février 1875). **312 fiches `notarie-`.**
+
+- **n° 301** : quittance Bélanger (Saint-Jean-Chrysostome), obligation de 1855.
+- **n° 302** : dissolution de la société de ferblanterie Grenier-Parent, à
+  Québec (la femme de Grenier, Éléonore Laurière, est associée).
+- **n° 303** : le boulanger F.-X. Guay prend un second lot rue Saint-Paul.
+- **n° 304** : Basile Vermette fils, **employé du Grand Tronc**, prête 280 $.
+- **n° 305** : vente à réméré Beaulé → Michel Boivin (dette d'épicerie).
+- **n° 306** : la veuve Hallé encaisse 400 $ de François Hallé ; **Antoine
+  Hallé était « capitaine de milice & forgeron »**.
+- **n° 307** : bail de logement ouvrier, rue Demers (Filteau → Desroches).
+- **n° 308** : Moïse Huard (menuisier, `1871-D1-P052-L08`) cède ses droits sur
+  une terre du **canton de Broughton** (Beauce).
+- **n° 309-310** : testaments réciproques Fortier-Nadeau, Saint-Jean, Île
+  d'Orléans.
+
+**Pour reprendre** : continuer au fichier **01350** (microfilm 002294-95).
+Chercher les identifiants par `title contains '04T_CN401S124P_0135'`, puis `0136`, etc.
 Le Drive va au moins jusqu'au fichier 01849.
 
 Fils suivis dans la série 00451-00550 :
