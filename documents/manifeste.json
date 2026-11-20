@@ -32706,7 +32706,7 @@
         {
           "role": "autre",
           "nom": "Marie Dubois",
-          "note": "Veuve de Rigobert Gagné fils, tutrice de leurs enfants depuis 1873, remariée vers le 12 janvier 1875 ; l'acte est passé chez Ignace Dubois. Non rattachée."
+          "note": "Veuve de Rigobert Gagné fils, tutrice de leurs enfants depuis 1873 ; remariée en janvier 1875 à François-Xavier Morneau (contrat n° 285). Non rattachée."
         },
         {
           "role": "autre",
@@ -32726,7 +32726,7 @@
         {
           "role": "autre",
           "nom": "Ignace Dubois",
-          "note": "Rentier ; l'acte est passé chez lui à Saint-Romuald. Sans doute Ignace Dubois père, de Saint-Jean-Chrysostome (bail n° 344). Non rattaché."
+          "note": "Rentier ; l'acte est passé chez lui. Aïeul maternel des mineurs (n° 384). Non rattaché."
         },
         {
           "role": "notaire",
@@ -32764,6 +32764,99 @@
           "microfilm": "002546",
           "drive": "1c-tzSnckx896pybnr9s6Yc76w8IUhBAE",
           "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-05-04-avis-parents-tutelle-gagne",
+      "type": "notarie",
+      "titre": "Avis de parents et amis élisant Louis Morneau, cultivateur, tuteur des enfants mineurs de feu Rigobert Gagné fils et de Marie Dubois — minute n° 384, 4 mai 1875",
+      "date": "1875-05-04",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 384, images 002547 à 002550 (Drive : fichiers 04T_CN401S124P_01603 à 01606). Le nom du tuteur d'abord élu, « Georges Gagné, de St Jean Chrysostome, ancien marchand », est rayé et remplacé par un renvoi « Louis Morneau, de St Romuald, cultivateur » (paraphes « G. G. », « J. L. », « E. H. T. N.P. ») ; quarante et un mots rayés. Au bas, au crayon, une note difficile : « Louis Morneau ne veut pas accepter [?] … », et « 2/6 ». Acte complet.",
+      "nature": "Avis de parents et amis (élection de tuteur), passé le 4 mai 1875, avant midi, à Saint-Romuald, devant un témoin ; plusieurs comparants ne savent signer.",
+      "transcription": "[002547] « L'an mil huit cent soixante-quinze, le quatrième jour de mai, avant midi, pardevant nous, Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, dans le comté de Lévis, soussigné ; Et en présence de Joseph Leclerc, de St Romuald, ancien marchand, témoin au présent acte, aussi soussigné ; A comparu : Rigobert Gagné, de la paroisse de St Jean Chrysostome, cultivateur, agissant en ces présentes en qualité de subrogé tuteur dûment élu suivant acte de tutelle reçu par Mtre L. N. Carrier, Notaire, homologué devant Messieurs Fiset, Burroughs & Campbell, protonotaire de la Cour Supérieure à Québec, le vingt-huitième jour d'août de la même année, & enregistré au [002548] Bureau d'enregistrement du comté de Dorchester, division numéro deux, le vingt-neuvième jour d'août de l'année mil huit cent soixante-treize. Lequel aurait fait assembler pardevant nous Notaire Public susdit, aux fins mentionnées en la déclaration ci-dessus faite devant nous en date de ce jour, & tendant à faire nommer un tuteur à Pierre Gagné, âgé de neuf ans révolus, Marie Gagné, âgée de six ans révolus, & Joseph Gagné, âgé de cinq ans révolus, trois enfants mineurs issus du mariage d'entre feu Rigobert Gagné, en son vivant de St Jean Chrysostome, dans le comté de Lévis, & Dame Marie Dubois, du même lieu (et tel que dit en la déclaration ci-dessus), savoir : 1. Ignace Dubois, père, rentier, de St Romuald, aïeul maternel ; [002549] 2. Georges Gagné, de St Jean Chrysostome, marchand, oncle paternel ; 3. & Louis Morneau, de St Romuald, agriculteur, ami des dits mineurs ; 4. Germain Cantin, de St Romuald, marchand, ami des mineurs ; 5. Thomas Deschênes, de St Romuald, journalier, ami des mineurs susdits ; 6. Bazile Buis dit Lavergne, de St Romuald, barbier-coiffeur, ami des dits mineurs ; & 7. Hyacinthe Beaulieu, de St Romuald, journalier, ami des dits mineurs, ces cinq derniers étant requis à défaut de parents présents. Lesquels, après serment prêté sur les Saints Évangiles, avoir pris communication de la déclaration sus-mentionnée & avoir mûrement délibéré entre eux, ont été unanimement d'avis que Sieur [renvoi (1) : « Louis Morneau, de St Romuald, cultivateur »] [Georges Gagné, de St Jean Chrysostome, ancien marchand, rayé] soit nommé tuteur, lequel tuteur, ici présent, a volontairement accepté la dite charge & promis par serment faire devoir [002550] d'icelle. Dont acte requis & octroyé à St Romuald susdit, les jour, mois & an susdits, sous le numéro trois cent quatre-vingt-quatre des originaux du Notaire soussigné. Et ceux sachant signer l'ont fait avec nous Notaire, les autres ayant déclaré ne savoir écrire ni signer, de ce requis, en présence du dit témoin qui a signé avec nous, notaire, lecture faite. Un renvoi en marge est bon & approuvé. Quarante-un mots rayés sont nuls. » — Signé : « George Gagné », « Germain Cantin », « Bazile Labrie [Lavergne ?] », « Joseph Leclerc », « E. H. Tremblay, N.P. ». [Note au crayon, au bas : « Louis Morneau ne veut pas accepter [?] … » — lecture incertaine.]",
+      "personnes": [
+        {
+          "role": "autre",
+          "nom": "Rigobert Gagné, père",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, subrogé tuteur, aïeul paternel des mineurs. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Louis Morneau",
+          "ref_personne": "1871-D1-P077-L07",
+          "note": "Agriculteur de Saint-Romuald, élu tuteur des enfants Gagné ; c'est le beau-père de leur mère, remariée en janvier 1875 à son fils François-Xavier Morneau (contrat n° 285). Rattachement probable, comme dans ce contrat. Une note au crayon semble dire qu'il refusa la charge."
+        },
+        {
+          "role": "autre",
+          "nom": "Ignace Dubois, père",
+          "note": "Rentier de Saint-Romuald, aïeul maternel des mineurs. Le même qu'au bail n° 344. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "George Gagné",
+          "note": "Marchand (« ancien marchand ») de Saint-Jean-Chrysostome, oncle paternel ; d'abord élu tuteur, nom rayé ; signe « George Gagné ». Sans doute le George Gagné de la vente Richard-Gagné d'octobre 1874. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Marchand de Saint-Romuald, ami des mineurs ; signe. Rattachement probable."
+        },
+        {
+          "role": "autre",
+          "nom": "Thomas Deschênes",
+          "note": "Journalier de Saint-Romuald, ami des mineurs ; ne sait signer. Plusieurs Thomas Deschênes en 1881 : non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Bazile Buis dit Lavergne",
+          "ref_personne": "1871-D1-P003-L04",
+          "note": "Barbier-coiffeur de Saint-Romuald, ami des mineurs. Rattachement probable au Basile Lavergne, barbier de 1871, comme dans la procuration Lecours-Gelly de 1874."
+        },
+        {
+          "role": "autre",
+          "nom": "Hyacinthe Beaulieu",
+          "note": "Journalier de Saint-Romuald, ami des mineurs ; ne sait signer. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Joseph Leclerc",
+          "note": "« Ancien marchand » de Saint-Romuald ; signe. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Suite du n° 383 : sept parents et amis — l'aïeul maternel Ignace Dubois, l'oncle George Gagné et cinq voisins de Saint-Romuald — élisent sous serment un tuteur aux trois petits Gagné (9, 6 et 5 ans). Ils choisissent d'abord l'oncle George Gagné, puis le notaire rature et inscrit Louis Morneau, le père du nouveau mari de leur mère. Une note au crayon laisse penser qu'il refusa : la suite reste à chercher.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01603",
+          "microfilm": "002547",
+          "drive": "1vHQ3DQPGo1SyUTkCs2q12flSQC3Nqdht",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01604",
+          "microfilm": "002548",
+          "drive": "1W_6gjtTEurUXGPLHMn54OCvAlQNOCb_Y",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01605",
+          "microfilm": "002549",
+          "drive": "1aBxwXjCzAhIIp7z7Qn1fEOZvNOb1qqaU",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01606",
+          "microfilm": "002550",
+          "drive": "1fXNdf9R2G8EewPGvapgEgDCKVvz8ge77",
+          "legende": "4/4"
         }
       ]
     }
