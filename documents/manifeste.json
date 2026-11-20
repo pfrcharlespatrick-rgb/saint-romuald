@@ -31699,6 +31699,82 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-04-10-bail-rente-lajoie-couture",
+      "type": "notarie",
+      "titre": "Bail à rente par Joseph Lajoie, charpentier, à Louis Couture, employé du Grand Tronc, de la moitié sud d'un emplacement de la rue Saint-Louis — minute n° 354, 10 avril 1875",
+      "date": "1875-04-10",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 354, images 002433 à 002435 (Drive : fichiers 04T_CN401S124P_01489 à 01491). Formule imprimée de bail à rente foncière remplie à la main ; le métier du concessionnaire, d'abord « journalier », est corrigé en « employé du Grand Trunk » ; la clause 5 (droit de retrait) est biffée ; renvoi (1) « La moitié indivise, côté sud, d' » paraphé « L. C. », « J. L. », « E. H. T. N.P. ». En marge « Payé hon. & enregist. $3.50 — Expédié la 2e copie à Couture » et un calcul « $2.00 + 12 = $2.12 ». Acte complet.",
+      "nature": "Bail à rente foncière et constituée (sous-concession), passé le 10 avril 1875, après midi, à Saint-Romuald, étude du notaire, devant un témoin ; le concédant ne sait signer.",
+      "transcription": "[002433] « 354 — 10 avril 1875. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, et en présence de Joseph Leclerc, marchand, de St Romuald, témoin au présent acte, aussi soussigné ; Fut présent : Mr Joseph Lajoie, de St Romuald, charpentier ; Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de Bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à Sieur Louis Couture, du même lieu, employé du Grand Trunk, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : [renvoi (1) : « La moitié indivise, côté sud, d' »]un emplacement situé en la paroisse de St Romuald, comté de Lévis, contenant en totalité soixante-douze pieds de front sur cinquante pieds de profondeur, le tout mesure anglaise, borné à l'est à la Rue St Louis, à l'ouest partie à Joseph Levasseur & partie à François Leclerc, fils, au nord à Benjamin Demers ou ses représentants, & au sud à Napoléon Paradis, circonstances & dépendances ; tel que le dit emplacement est actuellement, sans en rien réserver, et dont le dit concessionnaire se déclare content et satisfait. Ce bail est fait à la charge par le dit concessionnaire qui s'y oblige pour lui, ses hoirs et ayant cause ; [002434] 1° De clore le dit emplacement en tout temps à venir où il se trouvera voisin du dit concédant ou de ses représentants. 2° De bâtir sur le dit emplacement d'hui en un an une maison habitable et logeable, avec une cheminée soit en pierre, soit en briques, et de la rebâtir dans le cours d'une année en cas d'incendie ou de destruction […]. 3° D'entretenir à ses propres frais et dépens toutes les rues, ruelles ou chemins […] et de faire et entretenir de bons fossés où besoin sera ; 4° De payer à Benjamin Demers, Écr, ses hoirs & ayant cause, concédant originaire de la totalité du dit emplacement, au vingt-neuvième jour de septembre de chaque année, à dater du dix-neuvième jour de mars dernier, la somme de quatre piastres courant, de rente foncière et constituée, rachetable en un seul paiement au capital de soixante-six piastres & soixante-sept centins, payable à Mr Demers, ses hoirs & ayant cause. Pour sûreté du paiement de laquelle dite rente foncière et de toutes les charges et conditions du présent acte de bail le dit concessionnaire a hypothéqué spécialement le dit emplacement sus-désigné et concédé en faveur du concédant qui se réserve tous ses droits et privilèges de bailleur de fonds. [5° — droit de retrait — biffé.] 6° À la charge enfin par le dit concessionnaire de fournir au dit concédant et à ses héritiers et ayant cause une copie enregistrée des présentes sans délai […]. Il est expressément convenu […] que si le dit concessionnaire […] laissent écouler deux années sans payer la dite rente […] le dit concédant […] auront le droit de reprendre possession […]. [002435] Au moyen de quoi le dit concédant veut et consent que le dit concessionnaire jouisse et dispose du dit emplacement en pleine propriété et à perpétuité. DONT ACTE, FAIT ET PASSÉ à St Romuald, Étude, l'an mil huit cent soixante-quinze le dixième jour d'avril, après-midi, sous le numéro trois cent cinquante-quatre des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et le concessionnaire a signé ainsi que le témoin avec moi, notaire, le concédant ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. Renvoi en marge bon & approuvé. » — Signé : « Louis Couture », marque « X » du concédant, « Joseph Leclerc », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Joseph Lajoie",
+          "ref_personne": "1881-D1-P030-L09",
+          "note": "Charpentier de Saint-Romuald, concessionnaire de l'emplacement de Benjamin Demers ; ne sait signer (marque « X »). Même rattachement probable qu'aux n° 201 et 313 (charpentier de 35 ans en 1881)."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Louis Couture",
+          "note": "Employé du Grand Tronc (d'abord dit journalier), de Saint-Romuald ; signe « Louis Couture ». Peut-être l'« artiste » de 42 ans recensé en 1881 (1881-D1-P044-L12) — hypothèse, non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Écuyer, « concédant originaire » de l'emplacement ; la rente de quatre piastres lui est payable. Rattachement probable, comme dans ses concessions."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Levasseur",
+          "note": "Voisin en partie à l'ouest. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "François Leclerc, fils",
+          "note": "Voisin en partie à l'ouest. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Napoléon Paradis",
+          "note": "Voisin au sud ; sans doute le charpentier des actes de 1874. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Joseph Leclerc",
+          "note": "Marchand de Saint-Romuald ; signe « Joseph Leclerc ». Peut-être le marchand de 27 ans recensé en 1871 (1871-D1-P019-L15) — hypothèse, non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le charpentier Joseph Lajoie, concessionnaire chez Benjamin Demers d'un emplacement de 72 pieds sur la rue Saint-Louis, en sous-concède la moitié sud à Louis Couture, employé du chemin de fer Grand Tronc, qui reprend sa part de la rente foncière due à Demers (quatre piastres l'an, rachetable 66,67 $) et doit bâtir dans l'année une maison avec cheminée de pierre ou de brique.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01489",
+          "microfilm": "002433",
+          "drive": "1XBdo673XHlkMERRGEtxa4QKRlfjf0SKT",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01490",
+          "microfilm": "002434",
+          "drive": "1DjqY2KGk44maMrNvmxOZQXmY0sBg6K2_",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01491",
+          "microfilm": "002435",
+          "drive": "1a0Xb1lVwRXp2HIkhjxkgfLLAHRmfdYph",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
