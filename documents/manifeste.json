@@ -33704,6 +33704,65 @@
           "legende": "clôture devant le protonotaire, 27 août 1875"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-05-28-testament-joseph-cantin",
+      "type": "notarie",
+      "titre": "Testament de Joseph Cantin, journalier de Saint-Jean-Chrysostome, en faveur de sa femme Clarisse Sévigny — minute n° 396, 28 mai 1875",
+      "date": "1875-05-28",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 396, images 002602 à 002604 (Drive : fichiers 04T_CN401S124P_01658 à 01660). Papier réglé, coin supérieur déchiré. La mention « mon exécutrice testamentaire » est rayée et reportée plus loin ; un renvoi (1) « au dit Notaire en la présence des dits témoins » paraphé « A. R. », « J. C. », « E. H. T. N.P. ». En marge « Testament de Joseph Cantin — Exp. 1 fois — Payé ». Acte complet.",
+      "nature": "Testament authentique, reçu le 28 mai 1875, après midi, à Saint-Jean-Chrysostome, concession Saint-Augustin, en la demeure du testateur, devant deux témoins ; le testateur ne sait signer.",
+      "transcription": "[002602] « N° 396. L'an mil huit cent soixante-quinze, le vingt-huitième jour de mai, après-midi, en présence de Mtre Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné, et en présence de Mr Antoine Roberge, cultivateur, & de Mr James Clark, commis, tous deux de St Jean Chrysostome, témoins au présent testament, aussi soussignés ; Fut présent : Joseph Cantin, de St Jean Chrysostome, dit comté, journalier, étant en bonne santé de corps, sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à moi notaire & aux dits témoins par son maintien & la manifestation claire & précise de ses volontés ; Lequel a, dans la vue de la mort, fait & nommé son présent testament à moi notaire, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par Dame Clarisse Sévigny, mon épouse actuelle, à laquelle je m'en rapporte pour le soin de mes funérailles, [002603] messes & prières. 2° Je donne & lègue à la dite Dame Clarisse Sévigny, ma dite épouse, tous les biens meubles & immeubles, hardes & linges de corps & autres effets généralement quelconques que je délaisserai au jour de mon décès, de quelque nature & valeur qu'ils soient & en quelques lieux qu'ils soient dus & situés, pour par elle en jouir, faire & disposer en toute propriété à compter du jour de mon décès ; la nommant ma dite épouse mon exécutrice testamentaire & l'instituant ma légataire universelle en propriété. 3° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par le testateur [renvoi : « au dit Notaire en la présence des dits témoins »], & son présent testament lui ayant été lu, expliqué & relu par le dit Notaire, les témoins toujours présents, il a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant fidèlement ses dernières volontés. Dont acte fait & passé à St Jean Chrysostome, concession St Augustin, en la demeure du testateur, les jour, mois & an susdits, [002604] sous le numéro trois cent quatre-vingt-seize des originaux du Notaire soussigné. Requis de signer, le testateur a déclaré ne le savoir en présence des dits témoins qui ont signé avec moi, notaire, lecture faite & refaite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « Antoine Roberge », « James Clark », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Joseph Cantin",
+          "note": "Journalier de Saint-Jean-Chrysostome, concession Saint-Augustin ; ne sait signer. Le tuteur de l'inventaire n° 395, passé le même jour. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "legataire",
+          "nom": "Clarisse Sévigny",
+          "note": "Seconde épouse du testateur, légataire universelle et exécutrice testamentaire. Non rattachée."
+        },
+        {
+          "role": "temoin",
+          "nom": "Antoine Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe. Priseur au n° 395. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "James Clark",
+          "note": "Commis de Saint-Jean-Chrysostome ; signe. Témoin au n° 395. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le même jour que l'inventaire qui arrête la communauté avec les enfants de son premier mariage (n° 395), Joseph Cantin, en bonne santé, lègue tout ce qu'il laissera à sa seconde femme, Clarisse Sévigny. Les deux actes vont ensemble : la part des enfants de Marcelline Couture est fixée par l'inventaire, le reste ira à Clarisse.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01658",
+          "microfilm": "002602",
+          "drive": "1UuTTj9k7Kr7lRl7jX769GO77vuy9NEx1",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01659",
+          "microfilm": "002603",
+          "drive": "1VArAro4lhcup5PQQ34MqBEcvSD-wb8vK",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01660",
+          "microfilm": "002604",
+          "drive": "1cso8QbGEA2gJewu4BQA6s-D1lsTu-YX2",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }

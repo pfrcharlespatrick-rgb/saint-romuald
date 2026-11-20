@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (378 fiches au 20 novembre 2026 ; série jusqu'à 01643 lue, lacune 01501-01550).
+fiche dont l'identifiant commence par `notarie-` (380 fiches au 21 novembre 2026 ; série jusqu'à 01660 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
 
 ## Où sont les images
 
@@ -679,16 +679,51 @@ Suite (20 novembre) : fichiers **01600 à 01643** lus, actes **n° 383 à 394**
 - Fichier 01628 : **brouillon** de l'affaire Proulx-Roberge (prêt de 600 $),
   rangé avec le n° 349.
 
-**Pour reprendre** : le **n° 395** commence au fichier **01644** (microfilm
-002588) : **inventaire des biens de feue Marcelline Couture**, épouse de
-Joseph Cantin, journalier de Saint-Jean-Chrysostome (enfants Joseph 17 ans,
-Marie-Delphine [?] 13 ans, Marie-Denise [?] 6 ans ; subrogé tuteur Rigobert
-Gagné ; fille majeure épouse de Charles St-Laurent ; priseurs Antoine Roberge,
-Athanase Girard, Joachim Cantin). Fichiers 01644-01645 lus ; l'inventaire
-continue sur 01646 et suivants. Identifiants Drive des fichiers 01644 à 01658 déjà notés dans
-`documents/tropy/images-drive.json` ; les fichiers 01651 et suivants sont dans le dossier Drive
-`1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql`. Chercher par
-`title = '04T_CN401S124P_01659.jpg' or …`.
+Suite (20-21 novembre) : fichiers **01644 à 01660** lus, actes **n° 395-396**
+(28 mai 1875). **380 fiches `notarie-`.**
+
+- **n° 395** : inventaire des biens de feue **Marcelline Couture**, épouse de
+  Joseph Cantin, journalier de Saint-Jean-Chrysostome (concession
+  Saint-Augustin) — intérieur pièce par pièce, maison 80 $, terrain 10 $ ;
+  remariage avec Clarisse Sévigny (août 1873) ; clos devant le protonotaire à
+  Québec le 27 août 1875.
+- **n° 396** : testament de Joseph Cantin en faveur de Clarisse Sévigny.
+
+## Passation à une nouvelle conversation (21 novembre 2026)
+
+**Où reprendre** : fichier **01661** (microfilm 002605), après le testament
+n° 396. Les identifiants Drive des fichiers 01661 à 01668 sont déjà dans
+`documents/tropy/images-drive.json` (clé `images`) ; ensuite chercher par
+`title = '04T_CN401S124P_01669.jpg' or title = '…01670.jpg' or …` (la
+recherche `title contains '…0167'` rate des fichiers). Les fichiers 016xx-017xx
+sont dans le dossier Drive `1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql` ; le Drive va
+au moins jusqu'au fichier 01900.
+
+**Outils** (rangés dans le dépôt) :
+
+- `python3 outils/tremblay/verser-fiches.py fiches.json` — verse une liste de
+  fiches dans `documents/manifeste.json`. Chaque fiche : `id`, `titre`,
+  `date`, `cote`, `nature`, `transcription` (repères `[00xxxx]` = image du
+  microfilm = fichier + 944), `personnes` (`role`, `nom`, `ref_personne` si
+  rattachée, `note`), `note`, et `imgs` = `[[fichier, id_drive, légende?], …]`.
+  Le notaire, la source et `images-drive.json` sont complétés seuls ;
+  `"replace": true` remplace une fiche existante.
+- `python3 outils/tremblay/chercher-recensement.py 'NOM' ['PRÉNOM']` —
+  cherche dans les six recensements et dans les fiches déjà versées.
+- Après chaque lot : `node outils/generer-site.mjs`, puis commit et push sur
+  la branche de travail.
+
+**Règles suivies** : rattacher seulement en « probable » (ou le dire
+« hypothèse » dans la note, sans `ref_personne`) ; ne pas rattacher les gens
+hors paroisse ; marquer `[?]` toute lecture incertaine ; vérifier le numéro de
+minute d'un acte avant de le citer ; dos de formules et feuilles d'archiviste
+rangés avec l'acte voisin. Ne rien publier sans que Patrick dise « publie ».
+
+**Points ouverts pour Patrick** : lacune au Drive **01501-01550** (fin du
+n° 356, n° 357 à 370, début du 371) ; n° 314 « six cents » ou « deux cents » ;
+n° 323 Lavertu ou Laverdière ; n° 328 clos sous « 332 » ; n° 384 note au
+crayon (Louis Morneau refuse la tutelle ?) ; n° 394 avocat « O. T. Fuzon » ;
+n° 395 prénoms des deux filles mineures (Marie-Delphine ? Marie-Denise ?).
 Le Drive va au moins jusqu'au fichier 01849.
 
 Fils suivis dans la série 00451-00550 :
