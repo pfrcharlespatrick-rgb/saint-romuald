@@ -30188,6 +30188,88 @@
           "legende": "dos de la formule : « Bail résilié le 4 juillet 1875 »"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-03-21-obligation-lepine-alain",
+      "type": "notarie",
+      "titre": "Obligation de Louis Lépine dit Marest, commerçant, envers Michel Alain, cordonnier de Québec — vingt-cinq louis sur deux emplacements de Saint-Romuald — minute n° 327, 21 mars 1875",
+      "date": "1875-03-21",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 327, images 002346 à 002349 (Drive : fichiers 04T_CN401S124P_01402 à 01405). En marge « Obligation Lépine à Alain — Original — Original 2.50, Enrég. 2.00, $4.50 — Déposer la copie enregistrée chez J. T. T. [?], Québec — Payé hon. & pour quittance — Enrég. 1.30 — Lépine fera enregistrer lui-même ». La désignation du voisin du nord est raturée et corrigée (« propriétaire de la moitié nord » / « de la totalité du dit emplacement ») ; lecture du passage incertaine. Acte complet.",
+      "nature": "Obligation (prêt hypothécaire), passée le 21 mars 1875, après midi, à Saint-Romuald, étude du notaire, devant un témoin ; le créancier ne sait signer.",
+      "transcription": "[002346] « N° 327 — 21 mars 1875. L'an mil huit cent soixante-quinze, le vingt-un mars, après-midi, en présence de Mtre Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Louis Joseph Stanislas Roberge, du même lieu, instituteur, témoin au présent acte, aussi soussigné ; Fut présent : Sieur Louis Lépine dit Marest, de St Romuald, commerçant ; Lequel reconnaît & confesse devoir bien & légitimement à Mr Michel Alain, de la cité de Québec, cordonnier, à ce présent & acceptant, la somme de vingt-cinq louis courant, étant pour prêt de pareille somme réellement fait en bon argent courant lors de l'exécution des présentes & à vue & présence de nous dit Notaire, ainsi que le débiteur le reconnaît & s'en déclare content. Laquelle somme de vingt- [002347] -cinq louis courant le débiteur promet payer & rembourser au créancier, ou ordre, porteur des présentes en forme légale, à demande après une année expirée, avec ensemble l'intérêt de huit pour cent par an, payable annuellement à compter de ce jour. Et pour sûreté du paiement de la dite somme capitale & des intérêts qui en proviendront, le débiteur hypothèque spécialement : 1° « La moitié indivise, côté sud, d'un emplacement situé en la dite paroisse de St Romuald, le long de la Route des Quarante arpents, contenant en totalité soixante pieds de front sur cinquante pieds de profondeur (la dite moitié ayant en conséquence trente pieds de front sur cinquante de profondeur), bornée en front au sud-ouest à la dite route, en [002348] arrière au nord-est à Pierre Giroux ou ses représentants, d'un côté au sud à Isidore Racine & d'autre côté au nord à Joseph Gaulbron [?] dit Larochelle (propriétaire de la [moitié nord / totalité, lecture incertaine] du dit emplacement), avec une maison en bois, étable & autres bâtisses dessus construites, circonstances & dépendances. » 2° « Un emplacement situé en la dite paroisse de St Romuald, dit comté, contenant cinquante pieds de front sur cent pieds de profondeur, le tout mesure anglaise, borné au sud-ouest à Édouard Lagueux, Écr, au nord-est au terrain de la Corporation scolaire, au sud-est à E. Lagueux, Écr, & au nord-ouest à Joseph Larochelle, ensemble les bâtisses dessus construites, circonstances & dépendances. » Le dit Sieur Lépine s'oblige de faire assurer la maison située sur le lot premier lieu décrit pour un montant d'au moins trois cents piastres & de transporter la police au dit Sieur Alain, sous peine de rembourser à demande au dit Sr Alain tous frais encourus pour ce faire ; & de faire telle police d'assurance payable pour au moins cent cinquante piastres au dit Sr Alain. [002349] Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte fait & passé à St Romuald, étude, les jour, mois & an susdits, sous le numéro trois cent vingt-sept des originaux du Notaire soussigné. Requis de signer, le dit créancier a déclaré ne le savoir, en présence du dit témoin qui a signé, ainsi que le débiteur, avec moi, Notaire, lecture faite. Mots rayés sont nuls. Lignes marquées par un trait sont nulles. » — Signé : « Louis Lépine dit Marest », « Louis J. S. Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Louis Lépine dit Marest",
+          "ref_personne": "1871-D1-P023-L08",
+          "note": "Commerçant de Saint-Romuald ; signe « Louis Lépine dit Marest ». Rattachement probable au marchand de 46 ans recensé en 1871 (maison 58), comme aux n° 326 et dans l'acte Lagueux-Lépine de 1874."
+        },
+        {
+          "role": "creancier",
+          "nom": "Michel Alain",
+          "note": "Cordonnier de la cité de Québec ; ne sait signer. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Pierre Giroux",
+          "note": "Voisin au nord-est (en arrière) de l'emplacement de la route des Quarante-Arpents, « ou ses représentants ». Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Isidore Racine",
+          "note": "Voisin au sud. Peut-être le marchand de 61 ans recensé en 1881 (1881-D1-P020-L15) — hypothèse, non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Gaulbron [?] dit Larochelle",
+          "ref_personne": "1871-D1-P023-L02",
+          "note": "Voisin au nord, copropriétaire du premier emplacement, et voisin au nord-ouest du second. Rattachement probable au cultivateur de 47 ans recensé en 1871 (maison 57), voisin immédiat de Lépine. Surnom de lecture incertaine."
+        },
+        {
+          "role": "voisin",
+          "nom": "Édouard Lagueux",
+          "note": "Écuyer ; borne le second emplacement au sud-ouest et au sud-est. Non rattaché ici."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Joseph Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe « Louis J. S. Roberge ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Deux jours après avoir loué une partie de sa maison de la route des Quarante-Arpents à Honoré Houde (n° 326), Louis Lépine dit Marest emprunte vingt-cinq louis (cent piastres) à un cordonnier de Québec, sur la moitié sud de cet emplacement — qu'il partage avec Joseph Larochelle — et sur un second emplacement voisin du terrain de la Corporation scolaire, sans doute celui qu'Édouard Lagueux lui avait concédé en 1874. Il doit assurer la maison pour trois cents piastres et en céder la police au créancier.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01402",
+          "microfilm": "002346",
+          "drive": "1N4Z0fn84SLwYTcJ71jOhyIdlbRgQNftP",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01403",
+          "microfilm": "002347",
+          "drive": "1sLkIQAu8bnCQ9xfVgKgCKYbgQBH9B9gk",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01404",
+          "microfilm": "002348",
+          "drive": "1aKyi7iRa1mjzq-4qnBnh5Yz6TfWvnRSi",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01405",
+          "microfilm": "002349",
+          "drive": "1imC_raIQ2h52l2-bBKF2N_b_UG2hC1YZ",
+          "legende": "4/4"
+        }
+      ]
     }
   ]
 }
