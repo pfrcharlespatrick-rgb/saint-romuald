@@ -29171,6 +29171,75 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-02-23-vente-fortier-fortier",
+      "type": "notarie",
+      "titre": "Vente par Marie Audet dit Lapointe, veuve d'Antoine Fortier, maître pilote, à son fils Adelme Fortier, cultivateur, d'une terre de Saint-Jean, Île d'Orléans — minute n° 311, 23 février 1875",
+      "date": "1875-02-23",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 311, images 002294 à 002296 (Drive : fichiers 04T_CN401S124P_01350 à 01352). Papier réglé. En marge « Vente Fortier à Fortier — Original — Expédié 1 fois ». Le nom de la venderesse est corrigé en interligne (« Dame Marie Audet dit Lapointe » remplace « Madame Marie Roy [?] Fortier », rayé). Renvois paraphés « A. F. », « L. R. », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Vente, passée le 23 février 1875, avant midi, à Saint-Jean, Île d'Orléans, en la demeure de la venderesse et de l'acquéreur, devant un témoin, Léandre Raymond, maître pilote ; la venderesse ne sait signer.",
+      "transcription": "[002294] « N° 311 — 23 fév. 1875. L'an mil huit cent soixante-quinze, le vingt-trois de février, avant midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant & pratiquant à St Romuald, dans le comté de Lévis, soussigné ; Et en présence de Mr Léandre Raymond, Mtre Pilote pour le Hâvre de Québec & au-dessous, [renvoi (1) : « demeurant à St Jean, Île d'Orléans, dans le comté de Montmorency »], témoin au présent acte, aussi soussigné ; Fut présente : Dame Marie Audet dit Lapointe, de St Jean susdit, veuve de feu Sr Antoine Fortier, en son vivant du même lieu, Mtre Pilote ; Laquelle vend avec garantie de tous troubles & empêchements généralement quelconques à Mr Adelme Fortier, son fils, demeurant au dit lieu de St Jean, cultivateur, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayant cause, savoir : Un circuit de terre situé au dit lieu de St Jean, Île d'Orléans, contenant trois perches de terre de front sur la profondeur qu'il peut y avoir depuis le côté nord de la petite rivière ou ruisseau nommé [002295] la Petite Rivière des Prairies, à aller courant vers le nord jusqu'au point milieu de la dite Île, comté d'Orléans, joignant du côté sud-ouest au terrain cédé au Sieur François Fortier, frère du dit [acquéreur], & du côté nord-est à Étienne Simard, circonstances & dépendances. (La description ci-dessus est tirée en partie d'un certain acte de cession par Étienne Simard, père, & son épouse, au dit Sr Antoine Fortier, daté du vingt-un octobre mil huit cent vingt, reçu par Mtre A. Larue, Notaire.) Tel que le tout est actuellement, se poursuit, comporte & s'étend de toutes parts sans aucune réserve quelconque, pour par l'acquéreur susdit en jouir, faire & disposer en toute propriété de ce jour & à toujours. À la venderesse appartient le dit immeuble en sa qualité de légataire du dit feu Sr Antoine Fortier. Cette vente est faite à la charge par l'acquéreur qui s'y oblige de payer toutes les taxes municipales, scolaires & autres, tant du [002296] passé qu'à l'avenir, & pour & en considération du prix ou somme de cent piastres courant payé par l'acquéreur à la venderesse dès avant ces présentes, en bon argent courant, ainsi qu'elle le reconnaît & en donne quittance générale & finale à l'acquéreur. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte fait & passé à St Jean, Île d'Orléans, demeure de la venderesse & de l'acquéreur, les jour, mois & an susdits, sous le numéro trois cent onze des originaux du Notaire soussigné. Requise de signer, la venderesse a déclaré ne le savoir en présence du témoin, qui a signé, ainsi que l'acquéreur, avec moi, Notaire, lecture faite. Mots rayés sont nuls. Renvoi en marge bon & approuvé. Lignes blanches marquées d'un trait. » — Signé : « Adelme Fortier », « Léandre Raymond », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Marie Audet dit Lapointe",
+          "note": "Veuve d'Antoine Fortier, maître pilote de Saint-Jean, Île d'Orléans, dont elle est légataire ; ne sait signer. Hors paroisse ; non rattachée."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Adelme Fortier",
+          "note": "Cultivateur de Saint-Jean, Île d'Orléans, fils de la venderesse ; signe. Le testateur du n° 309."
+        },
+        {
+          "role": "autre",
+          "nom": "Antoine Fortier",
+          "note": "Feu maître pilote de Saint-Jean, Île d'Orléans ; acquéreur de la terre en 1820 (cession d'Étienne Simard père, Me A. Larue)."
+        },
+        {
+          "role": "voisin",
+          "nom": "François Fortier",
+          "note": "Frère de l'acquéreur, voisin au sud-ouest (terrain qui lui a été cédé)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Étienne Simard",
+          "note": "Voisin au nord-est ; descendant de l'Étienne Simard père de 1820."
+        },
+        {
+          "role": "temoin",
+          "nom": "Léandre Raymond",
+          "note": "Maître pilote de Saint-Jean, Île d'Orléans ; signe."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le lendemain des testaments réciproques (n° 309-310), la mère d'Adelme Fortier, veuve d'un maître pilote, lui vend pour cent piastres une bande de terre de trois perches, de la Petite Rivière des Prairies jusqu'au milieu de l'île, cédée à son mari en 1820. Une famille de pilotes et de cultivateurs de l'Île d'Orléans, dont le notaire de Saint-Romuald règle les affaires en deux jours.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01350",
+          "microfilm": "002294",
+          "drive": "1ZCce3Bug9t24HfrLfrqwdwqgivFvI5Nd",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01351",
+          "microfilm": "002295",
+          "drive": "1vIAbM9qWKMTm-MkGDo_X-5sx_lbXWy5e",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01352",
+          "microfilm": "002296",
+          "drive": "1DRRqOXZteG2R9rCJuGpY7vis4eWYacNR",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
