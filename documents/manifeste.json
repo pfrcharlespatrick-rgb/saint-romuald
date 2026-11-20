@@ -32099,6 +32099,54 @@
           "legende": "dos imprimé, resté en blanc"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-04-26-accord-st-john-rogers",
+      "type": "notarie",
+      "titre": "Accord entre Michael St. John, commis, et Calixte Rogers, hôtelier, au sujet de menaces et d'injures — minute n° 374, 26 avril 1875",
+      "date": "1875-04-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 374 (le numéro, d'abord « 37[3] », est corrigé), images 002505 et 002506 (Drive : fichiers 04T_CN401S124P_01561 et 01562). La date, d'abord « vingt-sixième » sur une première rédaction de « soixante-quatorze », est corrigée. Deux renvois paraphés « M. S. J. », « C. R. », « L. J. S. R. », « E. H. T. N.P. ». En marge « Accord entre Rogers & St John — Original — 7/6, 15/- — £1.2.6 — Payé ». Acte complet.",
+      "nature": "Accord (transaction pour injures), passé le 26 avril 1875, après midi, à Saint-Romuald, étude du notaire, devant un témoin ; les parties signent.",
+      "transcription": "[002505] « N° 374 — 26 avril 1875. L'an mil huit cent soixante-quinze, le vingt-sixième jour d'avril, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant à St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Louis Joseph Stanislas Roberge, de St Romuald, [instituteur, rayé] témoin au présent acte, aussi soussigné ; Fut présent : Michaël St John, de St Romuald, commis ; Lequel dit & déclare ce qui suit, savoir : Que en date du vingtième jour d'avril courant, vers les cinq heures & demie de l'après-midi, le dit Michaël St John a menacé de battre & a injurié verbalement Mr Calixte Rogers, de St [renvoi (1) : « Romuald »], hôtelier ; Que pour racheter sa paix & rencontrer les frais encourus & les dommages soufferts par le dit Sr Rogers, le dit comparant entend payer les dits frais & dommages en sus du coût des présentes. C'est pourquoi, en considération de ce que dessus, le dit Michaël St John a payé à vue & présence de nous Notaire & témoin la somme de sept chelins & demi courant à Mr [002506] Rogers, à ce aussi présent, qui le reconnaît & en donne quittance au comparant, à la condition expresse que ce dernier ne vienne plus troubler l'ordre chez lui de cette date à six mois, faute de quoi le présent acte d'accord sera considéré comme non exécuté, & tout recours qu'aurait pu avoir le dit Sr Rogers contre le comparant pour raison de ce que dessus pourra être exercé contre ce dernier. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald, étude, les jour, mois & an susdits, sous le numéro trois cent soixante-quatorze. Et les parties & le dit témoin ont signé avec moi, notaire, lecture faite. Dix-huit mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » — Signé : « M. St John », « Calixte Roger », « Louis J. S. Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "autre",
+          "nom": "Michael St. John",
+          "note": "Commis de Saint-Romuald ; a menacé de battre et injurié l'hôtelier Rogers le 20 avril 1875 ; signe « M. St John ». Absent des recensements dépouillés : non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Calixte Rogers",
+          "note": "Hôtelier de Saint-Romuald ; signe « Calixte Roger ». Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Joseph Stanislas Roberge",
+          "note": "De Saint-Romuald ; signe « Louis J. S. Roberge ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Une scène d'auberge : le 20 avril 1875, vers cinq heures et demie de l'après-midi, le commis Michael St. John menace de battre et injurie l'hôtelier Calixte Rogers. Six jours plus tard, il « rachète sa paix » devant notaire : sept chelins et demi de dommages et frais, à condition de ne plus troubler l'ordre chez Rogers pendant six mois, faute de quoi l'hôtelier retrouve tous ses recours. Le même type d'accord que la quittance Couture-Wilson d'octobre 1874.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01561",
+          "microfilm": "002505",
+          "drive": "14feUHTrC7vn2jDdPMfL512KRs0gf_Qpo",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01562",
+          "microfilm": "002506",
+          "drive": "13V6PqeDANaDuvKeOwyxv7UUXeyvOBLnJ",
+          "legende": "2/2"
+        }
+      ]
     }
   ]
 }
