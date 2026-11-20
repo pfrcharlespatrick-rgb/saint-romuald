@@ -32222,7 +32222,8 @@
         {
           "role": "preneur",
           "nom": "Napoléon McReady",
-          "note": "Journalier de Saint-Romuald ; signe « Napoléon McReady ». De la famille McCready de la division 2 (le marchand Robert McCready en 1881) ? Non rattaché."
+          "note": "Journalier de Saint-Romuald ; signe « Napoléon McReady ». Rattachement probable au Napoléon MacReady de 20 ans recensé en 1871, déjà identifié sur le site (Joseph-Napoléon McCready).",
+          "ref_personne": "1871-D2-P022-L15"
         },
         {
           "role": "temoin",
@@ -32255,6 +32256,12 @@
           "microfilm": "002512",
           "drive": "1qFag1La3_QYe5Ey4_RSBdMV8qMf4qBva",
           "legende": "3/3"
+        },
+        {
+          "fichier": "01569",
+          "microfilm": "002513",
+          "drive": "1z5VpxwT05XQkCON_Ujdl5V9zsdMzxjvq",
+          "legende": "dos imprimé, resté en blanc"
         }
       ]
     }
