@@ -30685,6 +30685,57 @@
           "legende": "2/2"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-03-29-bail-rente-demers-lavertu",
+      "type": "notarie",
+      "titre": "Bail à rente par Benjamin Demers, écuyer, rentier, à Didace Lavertu, journalier, d'un emplacement à l'angle des rues Saint-Joseph et Saint-Pierre — minute n° 338, 29 mars 1875",
+      "date": "1875-03-29",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 338, images 002370 à 002372 (Drive : fichiers 04T_CN401S124P_01426 à 01428). Formule imprimée de bail à rente foncière, remplie à la main ; la mention du témoin est biffée. En marge « Bail Demers à Didace Lavertu — Original — $3.50 — Payé — Expédié deux fois, à Lavertu & à Demers » ; au verso, « 134 ». Acte complet.",
+      "nature": "Bail à rente foncière et constituée, passé le 29 mars 1875, après midi, à Saint-Romuald, étude du notaire, sans témoin ; concédant et concessionnaire signent.",
+      "transcription": "[002370] « N° 338 — 29 mars 1875. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Fut présent Benjamin Demers, Écr, rentier, de St Romuald ; Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de Bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à Mr Didace Lavertu, journalier, du même lieu, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, dit comté, contenant cinquante pieds de front sur la Rue St Joseph, côté nord, en courant au sud sur la même largeur jusqu'à la cime de la côte, borné au nord à la Rue St Joseph, au sud à la clôture du jardin situé sur la dite côte, à l'est au concédant & à l'ouest à la Rue St Pierre ; circonstances & dépendances ; tel que le dit emplacement est actuellement, sans en rien réserver, et dont le dit concessionnaire se déclare content et satisfait. Ce bail est fait à la charge par le dit concessionnaire qui s'y oblige pour lui, ses hoirs et ayant cause ; [002371] 1° De clore le dit emplacement en tout temps à venir où il se trouvera voisin du dit concédant ou de ses représentants. 2° De bâtir sur le dit emplacement d'hui en un an, une maison habitable et logeable, avec une cheminée soit en pierre, soit en briques, et de la rebâtir dans le cours d'une année en cas d'incendie ou de destruction, à peine de nullité et de résiliation du présent acte si le dit concédant l'exige. 3° D'entretenir à ses propres frais et dépens toutes les rues, ruelles ou chemins qui existent actuellement ou qui pourront être ordonnés à l'avenir, derrière ou sur les côtés du dit emplacement, et de faire et entretenir de bons fossés où besoin sera ; 4° De payer au dit concédant, ses hoirs et ayant cause, au premier jour d'octobre de chaque année, à dater du premier jour d'avril prochain, la somme de huit piastres courant par année, de rente foncière et constituée, rachetable en un seul paiement au capital de cent trente-quatre piastres. Pour sûreté du paiement de laquelle dite rente foncière et de toutes les charges et conditions du présent acte de bail le dit concessionnaire a hypothéqué spécialement le dit emplacement sus-désigné et concédé en faveur du concédant qui se réserve tous ses droits et privilèges de bailleur de fonds. 5° Le dit Benjamin Demers, Écr, se réserve pour lui, ses héritiers et ayant cause, le droit de Retrait en cas de vente à l'avenir du tout ou de partie du dit emplacement et des dépendances, en remboursant la somme convenue et payée et les loyaux coûts, et ce dans le délai d'un mois du jour où le nouvel acquéreur lui fera exhibition de son titre d'acquisition. 6° A la charge enfin par le dit concessionnaire de fournir au dit concédant et à ses héritiers et ayant cause une copie enregistrée des présentes sans délai, et une semblable copie de toute mutation qui pourrait être faite à l'avenir soit par vente ou autrement. Il est expressément convenu entre les parties […] que si le dit concessionnaire, ses hoirs et ayant cause laissent écouler deux années sans payer la dite rente […], alors le dit concédant […] aura le droit de reprendre possession, sans pour ce être tenu à aucune formalité de justice, du dit immeuble […]. [002372] Au moyen de quoi le dit concédant veut et consent que le dit concessionnaire jouisse et dispose du dit emplacement en pleine propriété et à perpétuité. DONT ACTE, FAIT ET PASSÉ à St Romuald, Étude, l'an mil huit cent soixante-quinze le vingt-neuvième jour de mars, après-midi, sous le numéro trois cent trente-huit des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et les concédant & concessionnaire ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Benj. Demers », « Didace Lavertu », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Écuyer, rentier de Saint-Romuald ; signe « Benj. Demers ». Rattachement probable, comme dans ses nombreuses concessions de 1874."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Didace Lavertu",
+          "ref_personne": "1881-D1-P038-L12",
+          "note": "Journalier de Saint-Romuald ; signe « Didace Lavertu ». Rattachement probable au journalier de 45 ans recensé en 1881 avec sa femme Flavie ; absent du dépouillement de 1871."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Une concession de plus sur le domaine Demers : un lot de cinquante pieds à l'angle nord des rues Saint-Joseph et Saint-Pierre, qui s'étend au sud « jusqu'à la cime de la côte », à la clôture d'un jardin. Rente de huit piastres l'an, rachetable pour 134 piastres ; obligation de bâtir dans l'année une maison avec cheminée de pierre ou de brique.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01426",
+          "microfilm": "002370",
+          "drive": "1Dopbe0Qm4k4Jx5pk2qix7a-MFYNJgCRk",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01427",
+          "microfilm": "002371",
+          "drive": "1EGwtYUBR8jx3jM_YJT95_yjjcTHqgY7a",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01428",
+          "microfilm": "002372",
+          "drive": "1WUsNwz5Y-VCKCeH9iS3ILIdCfknrJUm0",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
