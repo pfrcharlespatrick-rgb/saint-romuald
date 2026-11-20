@@ -33438,6 +33438,72 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-05-27-transport-boucher-gingras",
+      "type": "notarie",
+      "titre": "Transport par Louis Boucher, journalier, à Marcel Gingras, marchand-épicier, d'une part de son salaire chez l'entrepreneur Jean-Baptiste Roberge — minute n° 394, 27 mai 1875",
+      "date": "1875-05-27",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 394, images 002585 à 002587 (Drive : fichiers 04T_CN401S124P_01641 à 01643 ; le fichier 01640, qui précède, est le dos imprimé de la formule du n° 393, laissé en blanc). Papier réglé, bords usés. Renvoi (1) « & déclare se tenir le présent transport pour bien & dûment signifié par ces présentes » paraphé « M. G. », « O. J. T. » [?], « E. H. T. N.P. ». En marge « Transport Boucher à Gingras — Original — Payable par Gingras $0.75 ». Acte complet.",
+      "nature": "Transport (cession) de salaire, passé le 27 mai 1875, après midi, à Saint-Romuald, étude du notaire, devant un témoin ; le cédant et l'employeur ne savent signer.",
+      "transcription": "[002585] « N° 394 — 27 mai 1875. L'an mil huit cent soixante-quinze, le vingt-septième jour de mai, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Ozias [?] Théodore Fuzon [?], de la cité de Québec, Écr, avocat, témoin aussi soussigné ; Fut présent : Louis Boucher, de St Romuald, journalier ; Lequel cède, transporte & abandonne, jusqu'à concurrence de la somme de quatre louis, trois chelins & huit sous courant, à être prise comme suit, savoir : une piastre par quinze jours ou deux piastres par mois, sur le salaire que lui doit Jean Baptiste Roberge, entrepreneur, de St Romuald, & ce tant & aussi longtemps que le cédant travaillera pour le dit Jean Baptiste Roberge, & que ce dernier l'emploiera à son service, à Marcel Gingras, de St Romuald, marchand-épicier, ce dernier à ce aussi présent & acceptant pour lui, ses hoirs & ayants cause. À ce faire est intervenu & fut aussi présent le dit Jean Baptiste Roberge, de la dite paroisse [002586] de St Romuald, lequel, après avoir pris communication & lecture de ce qui précède par le Notaire soussigné, déclare avoir le présent transport pour agréable [renvoi (1) : « & déclare se tenir le présent transport pour bien & dûment signifié par ces présentes »] & promet & s'oblige payer au dit Marcel Gingras, ses hoirs & ayants cause, pour & à l'acquit du dit Sr Boucher, la dite somme de quatre louis, trois chelins & huit sous courant, aux termes susfixés, tant & aussi longtemps & en proportion du temps que le cédant travaillera à son service, le dit Sr Boucher autorisant le dit Sr Roberge d'effectuer tels paiements jusqu'à concurrence de la somme totale susdite & d'en recevoir toutes quittances à son acquit du dit Sr Gingras ou tous autres qu'il appartiendra. Dont & du tout les parties ont requis le présent acte qui leur a été octroyé à St Romuald, étude, les jour, mois & an susdits, sous le numéro trois [002587] cent quatre-vingt-quatorze. Requis de signer, les dits Louis Boucher & Jean Baptiste Roberge ont déclaré ne le savoir, en présence du témoin qui a signé ainsi que le cessionnaire avec moi, Notaire, lecture faite. Mots rayés sont nuls. Renvoi en marge bon & approuvé. » — Signé : « Marcel Gingras », « O. T. Fuzon [?] », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "cedant",
+          "nom": "Louis Boucher",
+          "note": "Journalier de Saint-Romuald, employé de l'entrepreneur Jean-Baptiste Roberge, débiteur de l'épicier ; ne sait signer. Peut-être le journalier de 27 ans recensé en 1881 (1881-D1-P061-L09) — hypothèse, non rattaché."
+        },
+        {
+          "role": "cessionnaire",
+          "nom": "Marcel Gingras",
+          "ref_personne": "1871-D1-P040-L08",
+          "note": "Marchand-épicier de Saint-Romuald ; signe « Marcel Gingras ». Rattachement probable, comme dans l'obligation Dubois-Lapierre de 1874 (seul Marcel Gingras de la paroisse)."
+        },
+        {
+          "role": "autre",
+          "nom": "Jean-Baptiste Roberge",
+          "note": "Entrepreneur de Saint-Romuald, employeur du cédant ; intervient et accepte le transport ; ne sait signer. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Ozias [?] Théodore Fuzon [?]",
+          "note": "Écuyer, avocat de la cité de Québec ; signe « O. T. Fuzon [?] ». Nom de lecture incertaine."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Une saisie de salaire à l'amiable : un journalier qui doit à son épicier un peu plus de quatre louis lui cède deux piastres par mois de son salaire, que son patron, l'entrepreneur Jean-Baptiste Roberge, versera directement à l'épicier tant qu'il l'emploiera. Le témoin est un avocat de Québec.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01640",
+          "microfilm": "002584",
+          "drive": "1Gfdfun_HzOjS32j74fONjFHXIEAp4BQv",
+          "legende": "dos imprimé de la formule du n° 393, resté en blanc"
+        },
+        {
+          "fichier": "01641",
+          "microfilm": "002585",
+          "drive": "11XLf20089_dvaFLaRDhk3gpQC_WpUvUn",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01642",
+          "microfilm": "002586",
+          "drive": "1Dqxb4GLJSBGC9XTeDkbaIqP0J0hos3Cf",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01643",
+          "microfilm": "002587",
+          "drive": "1qvAyRHj8vw9TnJElCvrF_h5gkWyY0LUm",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
