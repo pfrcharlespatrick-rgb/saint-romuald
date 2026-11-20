@@ -31055,7 +31055,7 @@
       "titre": "Quittance par Jean-Baptiste Blanchet, agriculteur, à Laurent Simoneau, agriculteur, tous deux de Saint-Jean-Chrysostome — minute n° 343 [numérotée « 323 »], 7 avril 1875",
       "date": "1875-04-07",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute dont le numéro de tête est surchargé (« 323 » [?] sur « 32… ») et que la clôture dit « trois cent vingt-trois » ; le n° 323 est déjà la minute Curran du 16 mars, et cet acte vient après le n° 342 (1er avril) : c'est sans doute le n° 343 mal écrit (à vérifier sur la minute suivante). Images 002393 et 002394 (Drive : fichiers 04T_CN401S124P_01449 et 01450) ; le fichier 01451 est un dos portant des calculs au crayon (total « $62.25 »). La date de tête, d'abord « 12 [?] mars », est corrigée en « 7 avril ». En marge « Quittance Blanchet à Simoneau — Original — Exp. 1 fois — hon. 0.50, Enrég. 0.80 — Payé le tout — 320 [rayé], 4.0 ». Acte complet.",
+      "cote": "Minute dont le numéro de tête est surchargé (« 323 » [?] sur « 32… ») et que la clôture dit « trois cent vingt-trois » ; le n° 323 est déjà la minute Curran du 16 mars, et cet acte vient après le n° 342 (1er avril) ; la minute suivante, du même jour, porte le n° 344 : c'est donc le n° 343 mal écrit. Images 002393 et 002394 (Drive : fichiers 04T_CN401S124P_01449 et 01450) ; le fichier 01451 est un dos portant des calculs au crayon (total « $62.25 »). La date de tête, d'abord « 12 [?] mars », est corrigée en « 7 avril ». En marge « Quittance Blanchet à Simoneau — Original — Exp. 1 fois — hon. 0.50, Enrég. 0.80 — Payé le tout — 320 [rayé], 4.0 ». Acte complet.",
       "nature": "Quittance générale et finale du solde d'un prix de vente de terre, passée le 7 avril 1875, après midi, à Saint-Jean-Chrysostome, en la demeure de Michel Roberge, devant un témoin ; le comparant ne sait signer.",
       "transcription": "[002393] « N° 3[4]3 [écrit « 323 »] — 7 avril 1875. L'an mil huit cent soixante-quinze, le sept d'avril, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Michel Roberge, de la paroisse de St Jean Chrysostome, dit comté, Mtre menuisier entrepreneur, témoin au présent [acte] ; Fut présent : Mr Jean Baptiste Blanchet, de la paroisse de St Jean Chrysostome, agriculteur ; Lequel reconnaît avoir eu dès avant ces présentes, en bon argent, de Mr Laurent Simoneau, de St Jean Chrysostome, agriculteur, la somme de quatre-vingts louis courant & les intérêts échus, étant pour le parfait & entier paiement de la balance revenant au comparant sur une certaine acte de vente de terre consentie par le comparant au dit Sr Simoneau en date du seize de septembre mil [002394] huit cent soixante-[…], reçu par Me Étienne Simard, N.P. [passage d'enregistrement rayé], en même temps que la présente. Dont & du tout le comparant accorde au dit Sr Simoneau quittance générale & finale. Dont acte requis & octroyé à St Jean Chrysostome, demeure de Mr Michel Roberge, les jour, mois & an susdits, sous le numéro trois cent vingt-trois [sic]. Requis de signer, le comparant a déclaré ne le savoir ; le témoin a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Michel Roberge », « E. H. Tremblay, N.P. ». [002395 — dos, calculs au crayon : « 45, 22, 67 ; 250, 62.10 ; 4.10, 4.10, 9 ; 14.00, 23, 10, 10, 1, 3, 18.75, 22.50 = 98.25 ; 36.00 ; $62.25 ».]",
       "personnes": [
@@ -31100,6 +31100,67 @@
           "microfilm": "002395",
           "drive": "1O2_3inGxNbYjzbPTWn8q2L2JcE-XW-A-",
           "legende": "dos portant des calculs au crayon"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-04-07-bail-dubois-dery",
+      "type": "notarie",
+      "titre": "Bail par Ignace Dubois père, rentier de Saint-Jean-Chrysostome, à Pierre Déry, journalier, d'une chambre d'une maison de Saint-Romuald — minute n° 344, 7 avril 1875",
+      "date": "1875-04-07",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 344, images 002396 à 002398 (Drive : fichiers 04T_CN401S124P_01452 à 01454 ; le fichier 01455 est le dos imprimé de la formule, laissé en blanc). Formule imprimée de bail ; la clause 4 (charges de ville) et les clauses de taxes et d'aqueduc sont biffées. Le numéro est laissé en blanc dans la clôture (« sous le numéro trois cent … »). En marge « Bail Dubois à Déry — Orig. — Payé » et un calcul « $28.00 = 4.66⅔ × 6 ». Acte complet.",
+      "nature": "Bail d'un an (1er mai 1875 – 30 avril 1876), passé le 7 avril 1875, après midi, à Saint-Romuald, étude du notaire, devant un témoin ; bailleur et preneur ne savent signer.",
+      "transcription": "[002396] « N° 344 — 7 avril 1875. L'an mil huit cent soixante-quinze, le septième jour du mois d'avril, après-midi, pardevant Mtre Elzéar Hubert Tremblay, Notaire Public, résidant à St Romuald, soussigné, et en présence de Édouard Toussaint, batelier, de St Romuald, témoin au présent acte, aussi soussigné ; Fut présent : Ignace Dubois, père, rentier, de St Jean Chrysostome, dit comté ; Lequel a, par ces présentes, donné à loyer pour le terme et espace d'une année entière qui commencera à courir du premier jour de mai prochain et finir le trentième jour d'avril de l'année mil huit cent soixante-seize, à Pierre Déry, de St Romuald, journalier, à ce présent et acceptant preneur pour lui, ses hoirs et ayants cause, c'est-à-savoir : Une chambre dans le bas & une part dans le grenier, à aller à la cheminée, le tout côté est, & situé dans une maison en bois à un étage sise à St Romuald, & appartenant au Bailleur, avec ensemble l'usage de la moitié de l'emplacement où se trouve la maison, circonstances & dépendances ; tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité. [Clauses imprimées : jouir en bon père de famille ; garnir de meubles ; [002397] entretenir ; ne faire aucun changement ; laisser visiter ; ne point céder ni sous-louer.] De son côté le Bailleur promet et s'oblige faire jouir paisiblement le preneur des premisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à aucune réparation quelconque, pas même à tenir les lieux clos ni couverts, nonobstant toute loi à ce contraire ; le preneur fera à ses frais les réparations dont il aura besoin, sans recours contre le Bailleur. Ce Bail est fait en outre pour et en considération du prix et somme de vingt-huit piastres pour l'année de sa durée, et que le Preneur promet et s'oblige payer au dit Bailleur ou à son ordre, payables par paiements égaux de la somme de quatre piastres, trois chelins & huit sous par mois, à l'expiration de chacun d'eux, jusqu'au parfait paiement ; tels paiements devant être faits dans les premiers six mois de l'année, commençant au premier jour de mai prochain. [002398] Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables, savoir, le Preneur en les premisses sus-louées et le Bailleur en sa demeure ordinaire où les paiements se feront. Aux quels lieux, etc. Car ainsi, etc. Dont Acte, Fait et Passé à St Romuald, Étude du dit Notaire, les jour, mois et an susdits sous le numéro trois cent [en blanc] des originaux du Notaire soussigné. Requis de signer, le bailleur & preneur ont déclaré ne le savoir, en présence du dit témoin, qui a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Édouard Toussaint », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Ignace Dubois, père",
+          "note": "Rentier de Saint-Jean-Chrysostome, propriétaire d'une petite maison à Saint-Romuald ; ne sait signer. Le même qu'aux actes Dubois de 1874 (quittance et échange Dubois-Demers). Non rattaché."
+        },
+        {
+          "role": "preneur",
+          "nom": "Pierre Déry",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Peut-être le journalier de 74 ans recensé en 1881 (1881-D1-P045-L12) — hypothèse, non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Édouard Toussaint",
+          "ref_personne": "1871-D1-P021-L09",
+          "note": "Batelier de Saint-Romuald ; signe « Édouard Toussaint ». Rattachement probable au navigateur de 25 ans de 1871 (batelier de 36 ans en 1881), comme dans le bail Demers-Filteau de 1874."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Petit bail : une chambre au rez-de-chaussée et un coin du grenier « à aller à la cheminée » pour vingt-huit piastres l'an, payables en six mois (environ 4,67 $ par mois, de mai à octobre). Le bailleur ne fait aucune réparation : le locataire les fera à ses frais.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01452",
+          "microfilm": "002396",
+          "drive": "1qmo103mSm2qyGWfbLNpUwCnT9EpVduJ_",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01453",
+          "microfilm": "002397",
+          "drive": "1Lwv3tmJSx_9F1ZiFnA_XHhynmAA4zFLq",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01454",
+          "microfilm": "002398",
+          "drive": "1MIZjCqNAzCln9eXxaF5oqVemQpNB_CPN",
+          "legende": "3/3"
+        },
+        {
+          "fichier": "01455",
+          "microfilm": "002399",
+          "drive": "1ma8dEoF6BMphwBcW3cUk26WTvtVviqWk",
+          "legende": "dos imprimé de la formule, resté en blanc"
         }
       ]
     }
