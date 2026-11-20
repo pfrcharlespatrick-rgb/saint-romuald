@@ -33193,6 +33193,65 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-05-18-quittance-cantin-cantin",
+      "type": "notarie",
+      "titre": "Quittance par Abraham Cantin, cultivateur, et Marguerite Provost, son épouse, à leur fils Louis Cantin de la rente due en vertu de leur donation de juillet 1865 — minute n° 390, 18 mai 1875",
+      "date": "1875-05-18",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 390, images 002569 à 002571 (Drive : fichiers 04T_CN401S124P_01625 à 01627). Très raturé. Renvoi (1) « de St Jean Chrysostome, cultivateur » paraphé « D. L. », « E. H. T. N.P. ». En marge « Quittance Cantin & ux. à Cantin — Original — Payé $0.75 ». Acte complet.",
+      "nature": "Quittance de rente viagère (donation entre vifs), passée le 18 mai 1875, après midi, à Saint-Jean-Chrysostome, en la demeure des comparants, devant un témoin ; les comparants ne savent signer.",
+      "transcription": "[002569] « N° 390 — 18 mai 1875. L'an mil huit cent soixante-quinze, le dix-huit de mai, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, soussigné ; Et en présence de Damase Lambert, de St Jean Chrysostome, menuisier, témoin, aussi soussigné ; Furent présents : Sr Abraham Cantin, [renvoi (1) : « de St Jean Chrysostome, cultivateur »], & Dame Marguerite Provost, son épouse, dûment autorisée par son dit époux à l'effet des présentes, demeurant tous deux à St Jean susdit ; Lesquels disent & déclarent qu'ils ont, aux termes de l'acte de donation consenti par eux en date du dix-huit juillet mil huit cent soixante-cinq en faveur de Louis Cantin, leur fils, exigé la rente en entier portée au dit acte de donation, depuis le dix de novembre dernier ; en [002570] conséquence les comparants reconnaissent avoir eu & reçu en entier à leur entière satisfaction toutes rentes quelconques & les autres effets y mentionnés, plus la somme de quatre piastres courant, le tout aux termes du dit acte, moins deux paires de bottes françaises & deux paires de bottes canadiennes avec jambes. Reconnaissent les comparants que les effets mentionnés au dit acte de donation leur ont été livrés pour le nombre exact d'années marquées au dit acte de donation, & que les effets & comestibles y détaillés que doit leur livrer le dit Sr Louis Cantin, de la dite paroisse de St Jean Chrysostome, cultivateur, pour un an, leur ont été livrés jusqu'à la date du dix de novembre prochain. Dont & du tout ils donnent & accordent au dit Sr Louis Cantin quittance en conséquence. [002571] Dont acte requis & octroyé à St Jean Chrysostome, demeure des comparants, les jour, mois & an susdits, sous le numéro trois cent quatre-vingt-dix. Requis de signer, les comparants ont déclaré ne le savoir, en présence du témoin qui a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « Damase Lambert », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Abraham Cantin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, donateur de ses biens à son fils Louis en 1865 ; ne sait signer. Le même qu'à la quittance Cantin-Cantin de septembre 1874. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "quittancant",
+          "nom": "Marguerite Provost",
+          "note": "Épouse d'Abraham Cantin ; ne sait signer. Non rattachée."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Louis Cantin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, fils et donataire des comparants (donation du 18 juillet 1865), débiteur de leur rente en nature. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Damase Lambert",
+          "note": "Menuisier de Saint-Jean-Chrysostome ; signe. Témoin de plusieurs actes Cantin et Plante. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Une rente de vieillesse en nature : en échange des biens donnés en 1865, Louis Cantin doit chaque année à ses parents des « effets et comestibles », plus quatre piastres. Les vieux parents reconnaissent avoir tout reçu jusqu'au 10 novembre 1875, sauf deux paires de bottes « françaises » et deux paires de bottes « canadiennes avec jambes », encore dues.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01625",
+          "microfilm": "002569",
+          "drive": "12ho_iS4mvvKbghMMCnQZfix77yLDdsr2",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01626",
+          "microfilm": "002570",
+          "drive": "1PswqcUOT-m0sdiNAya3xSoYFCMi7_kWX",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01627",
+          "microfilm": "002571",
+          "drive": "1H9zXi_FUY6bRpu27WbDUg3B8ttQiHk6G",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
