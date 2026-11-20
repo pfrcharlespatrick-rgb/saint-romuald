@@ -31474,6 +31474,62 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-04-09-bail-villeneuve-vallerand",
+      "type": "notarie",
+      "titre": "Bail (en anglais) par Ferdinand Villeneuve, écuyer, architecte, à Napoléon Vallerand, charretier, de trois pièces d'une maison à deux étages de Saint-Romuald — minute n° 350, 9 avril 1875",
+      "date": "1875-04-09",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 350, images 002420 à 002423 (Drive : fichiers 04T_CN401S124P_01476 à 01479 ; le fichier 01479 est le dos imprimé « Deed of Lease — Copy — Notary », laissé en blanc). Formule imprimée anglaise de bail (« Deed of Lease ») remplie à la main ; l'année imprimée « sixty » est corrigée en « seventy-five » [écrit « seventy four » par erreur dans le corps] ; la clause de caution (« And to these presents personally came and intervened… ») est barrée. Le numéro de la clôture est laissé en blanc (« under the number three hundred & … »). Acte complet.",
+      "nature": "Bail d'un an (1er mai 1875 – 30 avril 1876), en anglais, passé le 9 avril 1875 en l'étude du notaire à Saint-Romuald ; bailleur et preneur signent.",
+      "transcription": "[002420] « N° 350 — 9 April 1875. On the ninth day of April in the year of our Lord one thousand eight hundred and seventy-four [sic, pour seventy-five], Before us, the undersigned Notaries Public […] residing at St Romuald, in the said Province, personally came and appeared Ferdinand Villeneuve, Esqr, of St Romuald, architect, who did declare to have leased and demised, and by these presents does lease and demise for the space and term of one year, to be computed from the first day of May next and fully to be complete and ended on the thirtieth day of April […] seventy-six, unto Mr Napoléon Vallerand, of the same place, carter, hereunto present and accepting hereof, that is to say : Three rooms, West side, of a two stories house, lying in the parish of St Romuald, together with the passage & the front door in common with the lessor & the other tenant (the dairy in said passage being for the mere use of the lessor), with a place in the yard for his wood ; and with all which the said Lessee is content and satisfied. [Clauses imprimées : le bailleur entretient les grosses réparations et tient les lieux clos et couverts ; le preneur en use en bon père de famille, fait les menues réparations, [002421] observe les règlements de police et de la Corporation, paie l'eau, garnit les lieux de meubles, ne sous-loue pas sans permission écrite, rend les lieux en bon état.] The present Lease is thus made for and in consideration of the sum of Thirty Dollars, current money of this Province, for the year, and which the said Lessee does hereby promise to pay unto the said Lessor or the bearer or bearers hereof, in and by equal consecutive & monthly payments of the sum of two Dollars fifty cents each, the first of which shall be made on the thirty-first day of May next & so to continue every month at same date until entire & full payment. The lessee obliging himself not to leave said premises [renvoi : « unheated »] for not more than one week during the winter time without making fire & keeping warm said premises. [002422 — clause de caution barrée.] And for the due execution of the present Lease, the said parties do hereby elect their domiciles, to wit : the said Lessor at his usual residence, and the said Lessee at the premises above leased […]. Thus Done and Passed, at the said Parish of St Romuald, in the Office of Elzéar Hubert Tremblay, Notary, on the day and year first above written, under the number three hundred & [en blanc], in Faith and Testimony whereof, the said Lessor & Lessee, parties to these presents, first duly read, set and subscribed their names and signatures with us, the said Notary, also hereunto subscribing, after reading duly made according to law. Words struck are null. » — Signé : « F. Villeneuve », « Napoléon Vallerand », « E. H. Tremblay, N.P. ». [002423 — dos imprimé : « No. … 186. Deed of Lease — to — Copy — Notary », en blanc.]",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Ferdinand Villeneuve",
+          "ref_personne": "1871-D1-P013-L13",
+          "note": "Écuyer, architecte de Saint-Romuald ; signe « F. Villeneuve ». Rattachement probable au sculpteur de 1871, comme dans ses actes de 1874."
+        },
+        {
+          "role": "preneur",
+          "nom": "Napoléon Vallerand",
+          "note": "Charretier (« carter ») de Saint-Romuald ; signe « Napoléon Vallerand ». Déjà locataire de Villeneuve en 1874 (bail du 25 février 1874, n° 41). Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Renouvellement du bail de 1874 (n° 41) entre l'architecte Ferdinand Villeneuve et son locataire Napoléon Vallerand, passé cette fois sur une formule imprimée anglaise : trois pièces du côté ouest de sa maison à deux étages, avec l'entrée et le passage en commun (la laiterie du passage restant au bailleur), pour trente piastres l'an, 2,50 $ par mois. Clause d'hiver : le locataire ne doit pas laisser le logement plus d'une semaine sans y faire du feu.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01476",
+          "microfilm": "002420",
+          "drive": "1Xjy4x4AUec18kdai66I8qWNWuA6WFdj8",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01477",
+          "microfilm": "002421",
+          "drive": "1MOGalOB-GpJbT48bU23vPl0AQ-9ALh97",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01478",
+          "microfilm": "002422",
+          "drive": "1OmYfGZpIeslgX14BOogyi-Xj0Cp6ghal",
+          "legende": "3/3"
+        },
+        {
+          "fichier": "01479",
+          "microfilm": "002423",
+          "drive": "1KfQqKgtmIVNfT92HaZcQw1c4mpV6TAqb",
+          "legende": "dos imprimé « Deed of Lease », resté en blanc"
+        }
+      ]
     }
   ]
 }
