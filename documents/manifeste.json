@@ -32542,6 +32542,71 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-05-02-bail-roberge-gregoire",
+      "type": "notarie",
+      "titre": "Bail par Louis-Hubert Roberge, navigateur, à Modeste Grégoire, journalier, de deux chambres au rez-de-chaussée et d'une chambre mansardée — minute n° 381, 2 mai 1875",
+      "date": "1875-05-02",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 381 (corrigé sur « 380 »), images 002536 à 002538 (Drive : fichiers 04T_CN401S124P_01592 à 01594 ; le fichier 01591, qui précède, est le dos imprimé de la formule du n° 380, laissé en blanc). Formule imprimée de bail ; clause 4 et clauses d'aqueduc et de taxes biffées. Numéro de clôture corrigé en « quatre-vingt-un ». En marge « Bail Mr Roberge à M. Grégoire — Original — B. 0.25 Payé, P. 0.25 Payé, $0.50 Payé ». Acte complet.",
+      "nature": "Bail d'un an (1er mai 1875 – 30 avril 1876), passé le 2 mai 1875, après midi, à Saint-Romuald, en la demeure du bailleur, devant un témoin ; le preneur ne sait signer.",
+      "transcription": "[002536] « N° 381 — 2 mai 1875. L'an mil huit cent soixante-quinze, le deuxième jour du mois de mai, après-midi, pardevant Mtre Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné, et en présence de François-Xavier Proulx, journalier, de St Romuald, témoin au présent acte, aussi soussigné ; Fut présent : Mr Louis Hubert Roberge, de St Romuald, navigateur ; Lequel a, par ces présentes, donné à loyer pour le terme et espace d'une année entière qui commence à courir du premier jour de mai courant et finir le trentième jour d'avril de l'année mil huit cent soixante-seize, à Sieur Modeste Grégoire, du même lieu, journalier, à ce présent et acceptant preneur pour lui, ses hoirs et ayants cause, c'est-à-savoir : Deux chambres en bas & une chambre en haut, cette dernière du côté sud-ouest, dans les mansardes, sises dans une maison à deux étages & située à St Romuald, & appartenant au Bailleur, avec la réserve en faveur de Delle Marie Paradis de puiser de l'eau à la pompe, part de cour pour mettre son bois de chauffage ; tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité. [Clauses imprimées.] [002537] De son côté le Bailleur promet et s'oblige faire jouir le preneur des premisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à aucune réparation quelconque, pas même à tenir les lieux clos ni couverts, nonobstant toute loi ou coutume à ce contraire. Ce Bail est fait en outre pour et en considération du prix et somme de vingt-huit piastres pour l'année de sa durée, et que le Preneur promet et s'oblige payer au dit Bailleur ou à son ordre en six paiements égaux & mensuels, payables à l'expiration des six premiers mois à dater du premier jour de mai courant, par sommes de quatre piastres & soixante-six centins & deux tiers chaque, le dit loyer devant être payé dans les six premiers mois. [002538] Le preneur renonçant à tous les privilèges à lui accordés par le Code de procédure civile quant à ses meubles, voulant que ces derniers répondent pour le loyer en entier. Dans le cas où l'eau monterait dans le premier étage, le preneur devra souffrir de cet inconvénient, sans recours aucun contre le Bailleur pour cet égard. Et pour l'exécution des présentes […]. Dont Acte, Fait et Passé à St Romuald, demeure du Bailleur, les jour, mois et an susdits sous le numéro trois cent quatre-vingt-un. Et le Bailleur & le témoin ont signé avec moi, notaire, le preneur ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » — Signé : « L. Hubert Roberge », « F. X. Proulx », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Louis-Hubert Roberge",
+          "note": "Navigateur de Saint-Romuald ; l'acte est passé chez lui ; signe « L. Hubert Roberge ». Non rattaché."
+        },
+        {
+          "role": "preneur",
+          "nom": "Modeste Grégoire",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Marie Paradis",
+          "note": "Locataire de l'étage (n° 380), qui garde le droit de puiser à la pompe du rez-de-chaussée."
+        },
+        {
+          "role": "temoin",
+          "nom": "François-Xavier Proulx",
+          "note": "Journalier de Saint-Romuald ; signe « F. X. Proulx ». Non rattaché ici."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le rez-de-chaussée de la maison à deux étages de Louis-Hubert Roberge, dont l'étage vient d'être loué à Marie Paradis (n° 380) : deux chambres en bas et une mansarde, vingt-huit piastres l'an. Le bail prévoit que l'eau peut monter au rez-de-chaussée et que le locataire devra « souffrir de cet inconvénient » sans recours.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01591",
+          "microfilm": "002535",
+          "drive": "1lcKc3_cBrpY8sN6ASFdnVr4HLoq5bSI3",
+          "legende": "dos imprimé de la formule du n° 380, resté en blanc"
+        },
+        {
+          "fichier": "01592",
+          "microfilm": "002536",
+          "drive": "1PTOdu2NPhV6KYXeZ-Gb5Sz_GNy8eYamr",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01593",
+          "microfilm": "002537",
+          "drive": "1oFOPL8rCQyRQ9gtGep7zm413CdDh1Y2r",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01594",
+          "microfilm": "002538",
+          "drive": "1nCJy5CYP9-cIT8D4xP1fbvnsGM9srrLt",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
