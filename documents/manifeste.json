@@ -35665,6 +35665,299 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-07-08-testament-pierre-roberge",
+      "type": "notarie",
+      "titre": "Testament de Pierre Roberge, cultivateur de la concession « Appenin » [?], Saint-Jean-Chrysostome, en faveur de sa femme Marie-Euphrosine Goulet [?] — minute n° 426, 8 juillet 1875",
+      "date": "1875-07-08",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 426, images 002706 à 002710 (Drive : fichiers 04T_CN401S124P_01762 à 01765). Papier réglé. Numéro confirmé par la clôture (« quatre cent vingt-six »). En marge « Testament de Pierre Roberge — Original — $1.00 — Payé — Exp. 1 fois ». Acte complet.",
+      "nature": "Testament authentique, reçu le 8 juillet 1875, avant midi, en l'étude du notaire à Saint-Romuald, devant deux témoins ; le testateur, « un peu malade », ne sait signer.",
+      "transcription": "[002706] « N° 426. 8 juillet 1875. L'an mil huit cent soixante-quinze, le huit de juillet, avant midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Édouard Bourassa, écr, agriculteur, & de Mr François Xavier Bégin, commis-marchand, demeurant tous deux à St Romuald, dit comté, témoins au présent testament, aussi soussignés ; Fut présent : Mr Pierre Roberge, cultivateur de la paroisse de St Jean Chrysostome, concession Appenin [?], étant [rayé] un peu malade de corps, mais sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous, notaire, & aux dits témoins par la manifestation claire & précise de ses volontés ; Lequel a, dans la vue de la mort, fait & nommé son présent testament à nous, notaire, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne [002707] qu'avant tout mes dettes soient payées & mes torts réparés par Dame Marie-Euphrosine Goulet [?], mon épouse actuelle, que je nomme mon exécutrice testamentaire, & à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, [rayé : « messes & prières »] voulant qu'un service décent soit chanté sur mon corps le jour de mon inhumation & un autre service au bout de l'an de mon décès, & que [rayé : « vingt »] trente messes basses de Requiem soient dites pour le repos de mon âme aussitôt après mon décès ; 2° Je donne & lègue à Dame Marie-Euphrosine Goulet [?], mon épouse, tous les biens meubles & immeubles généralement quelconques que je délaisserai à mon décès, pour par ma dite épouse en jouir, faire & disposer en toute propriété à compter du jour de mon décès, à la charge par elle de payer, aussitôt possible après mon décès, à chacun des enfants suivants issus de mon mariage avec la dite Dame Marie-Euphrosine Goulet [?], les sommes [002708] suivantes, savoir, une fois payé pour tout : à Pierre Roberge, la somme de deux cents piastres ; à Joseph Roberge, la somme de deux cents piastres ; à Luce Roberge, Démérise Roberge, Rosalie Roberge, Obéline [?] Roberge & Adèle Roberge, à chacune d'elles, une fois pour tout, la somme de soixante-quinze piastres courant ; nommant par ces présentes ma dite épouse ma légataire universelle en propriété & l'exemptant de faire faire aucun inventaire quelconque. 3° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par le testateur à nous, notaire, en la présence constante des témoins, & son présent testament lui ayant été lu, expliqué & relu par le dit notaire, les témoins toujours présents, il a dit & déclaré l'avoir bien entendu & compris & y a persisté. Dont acte fait & passé à St Romuald, étude du dit notaire, [002709-10] les jour, mois & an susdits, sous le numéro quatre cent vingt-six des originaux du notaire soussigné. Requis de signer, le testateur a déclaré ne le savoir, en présence des dits témoins, qui ont signé avec moi, notaire, lecture faite & refaite. Mots rayés sont nuls. » — Signé : « Édouard Bourassa », « François Xavier Bégin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, concession « Appenin » [?] ; « un peu malade » ; ne sait signer. Peut-être le concédant du hameau Roberge (concession Saint-Augustin, n° 122 à 128, 405, 406), qui ne sait pas signer non plus — hypothèse, les deux concessions n'étant pas dites les mêmes. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "legataire",
+          "nom": "Marie-Euphrosine Goulet [?]",
+          "note": "Épouse du testateur, exécutrice testamentaire et légataire universelle ; elle teste le même jour en sa faveur (n° 427). Nom de famille de lecture incertaine (Goulet, Poulet ?). Non rattachée."
+        },
+        {
+          "role": "enfant",
+          "nom": "Pierre Roberge, fils",
+          "note": "Fils ; legs de deux cents piastres."
+        },
+        {
+          "role": "enfant",
+          "nom": "Joseph Roberge",
+          "note": "Fils ; legs de deux cents piastres. Peut-être le Joseph Roberge, agriculteur de la même concession « Appenin », dont la femme Ursule Gosselin teste le 25 juin 1875 (n° 419) — hypothèse."
+        },
+        {
+          "role": "enfant",
+          "nom": "Luce Roberge",
+          "note": "Fille ; legs de soixante-quinze piastres."
+        },
+        {
+          "role": "enfant",
+          "nom": "Démérise Roberge",
+          "note": "Fille ; legs de soixante-quinze piastres."
+        },
+        {
+          "role": "enfant",
+          "nom": "Rosalie Roberge",
+          "note": "Fille ; legs de soixante-quinze piastres."
+        },
+        {
+          "role": "enfant",
+          "nom": "Obéline [?] Roberge",
+          "note": "Fille ; legs de soixante-quinze piastres. Prénom de lecture incertaine."
+        },
+        {
+          "role": "enfant",
+          "nom": "Adèle Roberge",
+          "note": "Fille ; legs de soixante-quinze piastres."
+        },
+        {
+          "role": "temoin",
+          "nom": "Édouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "« Écr, agriculteur », de Saint-Romuald ; signe « Édouard Bourassa ». Le tuteur des mineurs Bourassa, cultivateur de 39 ans en 1871 ; même rattachement probable que dans le dossier Bourassa."
+        },
+        {
+          "role": "temoin",
+          "nom": "François-Xavier Bégin",
+          "note": "Commis-marchand de Saint-Romuald ; signe « François Xavier Bégin ». Non rattaché, comme au n° 410."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Testament croisé avec celui de sa femme (n° 427), passé le même matin devant les mêmes témoins. La femme reçoit tout, à charge de verser deux cents piastres à chacun des deux fils et soixante-quinze à chacune des cinq filles. Le nom de la concession, déjà rencontré au n° 419 (Joseph Roberge et Ursule Gosselin), se lit « Appenin » : peut-être une graphie de « Pennin » ou d'un autre nom de rang de Saint-Jean-Chrysostome, à vérifier.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01762",
+          "microfilm": "002706",
+          "drive": "1cvZfbDs2xTaXSpNiRIs_0Rn-d-pF_G3g",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01763",
+          "microfilm": "002707",
+          "drive": "1xfp_edel5UjOojby4wb26oLk1n9tzAc_",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01764",
+          "microfilm": "002708",
+          "drive": "1PDtOBBe3pdpX8fQDsxiKXoXpXrH0jFvC",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01765",
+          "microfilm": "002709",
+          "drive": "18fxjNNUuZj0ye98HCO2rJoOjOT48GHwz",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-07-08-testament-euphrosine-goulet",
+      "type": "notarie",
+      "titre": "Testament de Marie-Euphrosine Goulet [?], épouse de Pierre Roberge, cultivateur de la concession « Appenin » [?], Saint-Jean-Chrysostome, en faveur de son mari — minute n° 427, 8 juillet 1875",
+      "date": "1875-07-08",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 427, images 002711 à 002714 (Drive : fichiers 04T_CN401S124P_01766 à 01769). Papier réglé. Numéro confirmé par la clôture (« quatre cent vingt-sept »). En marge « Testament Marie E. Goulet [?], épouse de P. Roberge — Original — $1.00 — Payé — Exp. 1 fois ». Acte complet.",
+      "nature": "Testament authentique, reçu le 8 juillet 1875, avant midi, en l'étude du notaire à Saint-Romuald, devant deux témoins ; la testatrice ne sait signer.",
+      "transcription": "[002711] « N° 427. 8 juillet 1875. L'an mil huit cent soixante-quinze, le huit de juillet, avant midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Édouard Bourassa, écr, agriculteur, & Mr François Xavier Bégin, commis-marchand, demeurant tous deux à St Romuald, dit comté, témoins au présent testament aussi soussignés ; Fut présente : Dame Marie-Euphrosine Goulet [?], épouse de Sieur Pierre Roberge, cultivateur, & demeurant avec ce dernier en la paroisse de St Jean Chrysostome, concession Appenin [?], dit comté, étant en bonne santé de corps, saine d'esprit, mémoire, jugement & entendement, ainsi qu'elle est apparue à nous, notaire, & aux [002712] témoins par la manifestation claire & précise de ses volontés ; Laquelle a, dans la vue de la mort, fait & nommé son présent testament à nous, notaire, en la présence actuelle & constante des témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par Sr Pierre Roberge, cultivateur, mon dit époux actuel, que je nomme mon exécuteur testamentaire & à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, [rayé : « messes & prières »] voulant qu'un service décent soit chanté sur mon corps le jour de mon inhumation & un autre service au bout de l'an de mon décès, & que trente messes basses de Requiem soient dites pour le repos de mon âme aussitôt après mon décès ; 2° Je donne & lègue [002713] à Sieur Pierre Roberge, mon époux, tous les biens meubles & immeubles généralement quelconques que je délaisserai à mon décès, pour par [mon dit époux] en jouir, faire & disposer en toute propriété à compter du jour de mon décès, à la charge par lui de payer, aussitôt possible après mon décès, à chacun des enfants suivants issus de mon mariage avec [rayé : « la dite Dame Marie »] le dit Sr Pierre Roberge, les sommes suivantes, savoir, une fois payé pour tout : à Pierre Roberge, la somme de deux cents piastres ; à Joseph Roberge, la somme de deux cents piastres ; à Luce Roberge, Démérise Roberge, Rosalie Roberge, Obéline [?] Roberge & Adèle Roberge, à chacune d'elles, une fois pour tout, la somme de soixante-quinze piastres courant ; nommant par ces présentes mon dit époux mon [rayé : « exécuteur testamentaire »] légataire universel en propriété & l'exemptant de faire faire aucun inventaire quelconque. Et je révoque tous autres testaments & codicilles que je [002714] pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par la testatrice à nous, notaire, en la présence constante des témoins, & son présent testament lui ayant été lu, expliqué & relu par le dit notaire, les témoins toujours présents, elle a dit & déclaré l'avoir bien entendu & compris & y a persisté. Dont acte fait & passé à St Romuald, étude du dit notaire, les jour, mois & an susdits, sous le numéro quatre cent vingt-sept des originaux du Notaire soussigné. Requise de signer, la testatrice a déclaré ne le savoir, en présence des témoins, qui ont signé avec moi, notaire, lecture faite & refaite. Mots rayés sont nuls. » — Signé : « Édouard Bourassa », « François Xavier Bégin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Marie-Euphrosine Goulet [?]",
+          "note": "Épouse de Pierre Roberge, cultivateur de Saint-Jean-Chrysostome ; ne sait signer. Nom de famille de lecture incertaine. Non rattachée."
+        },
+        {
+          "role": "legataire",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur, mari de la testatrice, exécuteur testamentaire et légataire universel ; le testateur du n° 426. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Édouard Bourassa",
+          "ref_personne": "1871-D1-P040-L18",
+          "note": "« Écr, agriculteur », de Saint-Romuald ; signe. Même rattachement probable qu'au n° 426."
+        },
+        {
+          "role": "temoin",
+          "nom": "François-Xavier Bégin",
+          "note": "Commis-marchand de Saint-Romuald ; signe. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Pendant exact du testament du mari (n° 426) : mêmes legs aux sept enfants (deux cents piastres aux fils Pierre et Joseph, soixante-quinze à chacune des filles Luce, Démérise, Rosalie, Obéline [?] et Adèle), même nombre de messes.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01766",
+          "microfilm": "002710",
+          "drive": "1DgtpA6EBrldNzQDxYtygzZ0OsJALcu6y",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01767",
+          "microfilm": "002711",
+          "drive": "1PvqYRzJ6T8D-3xaPTYlJshM99NhZqTjj",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01768",
+          "microfilm": "002712",
+          "drive": "1WD_DQHRmDK9nr3ygZvC0RuJNrUrizLY0",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01769",
+          "microfilm": "002713",
+          "drive": "1z8UT7DXNh5oGDXytKjVN-0d7EdFDlsti",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-07-15-renonciation-levesque-levesque",
+      "type": "notarie",
+      "titre": "Renonciation de Lactance Lévesque, journalier, ci-devant de Toronto, à sa part de la succession de sa mère Obéline Morin, en faveur de son père Jean-Baptiste Lévesque, marchand de Saint-Pacôme — minute n° 428, 15 juillet 1875",
+      "date": "1875-07-15",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 428, images 002714 à 002717 (Drive : fichiers 04T_CN401S124P_01770 à 01772). Papier réglé. Numéro confirmé par la clôture (« quatre cent vingt-huit »). En marge « Renonciation Lévesque à Lévesque — Original — Expédié 1 fois — Payé $1.00 » ; trois renvois paraphés « M. C. », « E. H. T. ». Acte complet.",
+      "nature": "Renonciation à succession, reçue le 15 juillet 1875, après midi, en l'étude du notaire à Saint-Romuald, devant un témoin ; les parties ne savent signer.",
+      "transcription": "[002714] « N° 428. 15 juillet 1875. L'an mil huit cent soixante-quinze, le quinze de juillet, après-midi, en présence de Mtre Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Sr Michel Chenard, [renvoi : « journalier »] de la paroisse de St Pacôme, comté de Kamouraska, Province de Québec, témoin au présent acte, aussi soussigné ; Fut présent : Sieur Lactance Lévesque, journalier, ci-devant de la ville de Toronto, Haut-Canada, & maintenant à St Romuald, dit comté ; Lequel dit & déclare ce qui suit, savoir : Attendu que feue Dame Obéline Morin, épouse de Sr Jean-Baptiste Lévesque, [renvoi : « marchand »] de St Pacôme susdit (ces derniers étant les père & mère du comparant), est décédée ab intestat au dit lieu de St Pacôme il y a à peu près seize ans, laissant pour héritiers plusieurs enfants, du nombre desquels se trouve le comparant ; [002715] Attendu que ce dernier est habile à se dire & porter héritier pour un huitième dans l'hérédité & succession de la dite feue Dame Obéline Morin, sa dite mère ; C'est pourquoi le dit Lactance Lévesque, comparant, ayant acquis son âge de majorité & jouissant conséquemment de ses droits civils, renonce expressément à tous droits quelconques qu'il a ou pourrait avoir dans l'hérédité & succession de la dite feue Dame Obéline Morin, sa dite mère, en faveur du dit Sr Jean-Baptiste Lévesque, son dit père, [renvoi : « ce dernier à ce aussi présent & acceptant pour lui, ses hoirs & ayants cause »], & renonce expressément à tous les privilèges à lui acquis en vertu de tous titres ou à l'effet de la loi quant à l'hypothèque créée en sa faveur sur les biens délaissés par la dite feue Dame Obéline Morin, & veut & consent que telles hypothèques soient éteintes & radiées par qui il appartiendra. Cette renonciation est faite pour valables [002716-17] considérations que le comparant a reçues de son dit père dès avant ces présentes. Et pour l'exécution des présentes les parties élisent domicile à St Pacôme susdit, auxquels lieux &c. Car ainsi &c. Dont acte fait & passé à St Romuald, Étude, les jour, mois & an susdits, sous le numéro quatre cent vingt-huit. Requis de signer, les dits Lactance Lévesque & Jean-Baptiste Lévesque ont déclaré ne le savoir, en présence du témoin, qui a signé avec moi, notaire, le dit témoin déclarant que les parties aux présentes sont personnellement connues de lui, le tout lecture faite. » — Signé : « Michel Chenard », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "comparant",
+          "nom": "Lactance Lévesque",
+          "note": "Journalier, « ci-devant de la ville de Toronto, Haut-Canada, & maintenant à St Romuald » ; majeur ; ne sait signer. Un des huit enfants de Jean-Baptiste Lévesque et d'Obéline Morin. Absent des recensements dépouillés : non rattaché."
+        },
+        {
+          "role": "pere",
+          "nom": "Jean-Baptiste Lévesque",
+          "note": "Marchand de Saint-Pacôme (Kamouraska), bénéficiaire de la renonciation ; présent, ne sait signer. Hors paroisse."
+        },
+        {
+          "role": "defunte",
+          "nom": "Obéline Morin",
+          "note": "Épouse de Jean-Baptiste Lévesque, morte sans testament à Saint-Pacôme vers 1859, laissant huit enfants."
+        },
+        {
+          "role": "temoin",
+          "nom": "Michel Chenard",
+          "note": "Journalier de Saint-Pacôme ; signe « Michel Chenard » ; atteste connaître les parties. Hors paroisse."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un fils revenu de Toronto, établi à Saint-Romuald, abandonne à son père, venu de Saint-Pacôme, sa part (un huitième) de la succession de sa mère, morte seize ans plus tôt : la renonciation libère les biens du père de l'hypothèque légale qui garantissait les droits de l'enfant. L'acte témoigne d'une migration du Bas-Saint-Laurent vers Toronto, puis vers la rive sud de Québec.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01770",
+          "microfilm": "002714",
+          "drive": "1ruIDDmW-elGNuLboBzOVuroX6bEqOTX4",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01771",
+          "microfilm": "002715",
+          "drive": "1CYqAsRVj6sDHsPHrzasylxEJKomQX5vA",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01772",
+          "microfilm": "002716",
+          "drive": "194D0P_5g_XMBYU7sQCLBhHlBNeyLrLH1",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-07-29-bail-leclerc-leclerc",
+      "type": "notarie",
+      "titre": "Bail de François Leclerc, père, charretier, à Joseph Leclerc, ancien marchand, de trois chambres d'une maison de bois au nord du chemin public, Saint-Romuald, pour un an — minute n° 429, 29 juillet 1875",
+      "date": "1875-07-29",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 429, images 002718 à 002721 (Drive : fichiers 04T_CN401S124P_01774 à 01776 ; 01777 est le dos imprimé de la chemise, « Québec, … Bail par … à … Copie. Notaire », resté blanc). Formulaire imprimé de bail de la cité de Québec, adapté : clauses urbaines biffées, une page entière barrée d'une croix. Numéro confirmé par la clôture (« quatre cent vingt-neuf »). En marge « Bail Leclerc à Leclerc — Orig. ». Le fichier 01773, qui précède, est un feuillet abandonné : « Province de Québec, Municipalité de St Romuald. Extrait d'une session spéciale du … », sans suite. Acte complet.",
+      "nature": "Bail à loyer, reçu le 29 juillet 1875, après midi, en l'étude du notaire à Saint-Romuald, devant un témoin ; le bailleur ne sait signer.",
+      "transcription": "[002718] « N° 429. 29 juillet 1875. L'an mil huit cent soixante-quinze, le vingt-neuvième jour du mois de juillet, après-midi, pardevant Mtre El. H. Tremblay, Notaire Public, résidant [rayé : « en la Cité de Québec »] à St Romuald, soussigné, & en la présence de [rayé : « Pierre Bégin, de St Romuald, marchand »] Alexis Robitaille, de Lévis, ferblantier, témoin, soussigné ; Fut présent : François Leclerc, père, charretier, de St Romuald, Lequel a, par ces présentes, donné à loyer pour le terme et espace de douze mois entiers, qui ont commencé à courir du premier jour de mai dernier et finiront le trentième jour d'avril de l'année mil huit cent soixante-seize, à Joseph Leclerc, du même lieu, ancien marchand, à ce présent et acceptant preneur pour lui, [ses] hoirs et ayants cause, c'est-à-savoir : Deux chambres dans le bas & une chambre dans les mansardes, dans une maison en bois à un étage sise sur le niveau [?] nord du chemin public & appartenant au bailleur, ensemble porte d'entrée en commun, tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité. Ce Bail est fait aux charges, clauses et conditions suivantes […] : 1° De jouir des premisses sus-louées en bon père de famille ; [rayé : « de les garnir et tenir garnies … de meubles et effets exploitables … »] [002719] 2° De les entretenir […] ; 3° De n'y faire aucuns changements […] ; [4° biffé : charges de ville et de police] 5° De laisser voir, visiter et parcourir les premisses […] ; 6° De ne point céder son droit au présent bail, ni sous-louer […]. De son côté le bailleur promet et s'oblige faire jouir paisiblement le preneur des premisses sus-louées pendant toute la durée de ce bail et de tenir les lieux clos et couverts suivant l'usage. Ce Bail est fait en outre pour et en considération du prix et somme de vingt-quatre piastres pour l'année de sa durée, que le preneur promet et s'oblige payer au dit bailleur ou à son ordre en deux paiements égaux de la somme de douze piastres chacun, au premier novembre & au premier jour de mai prochains. [clauses de l'aqueduc et des taxes biffées ; page 002720 barrée] [002720-21] Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables, savoir, le preneur en les premisses sus-louées et le bailleur en sa demeure ordinaire où les paiements se feront. Aux quels lieux, etc. Car ainsi, etc. Dont acte, fait et passé à [rayé : « Québec, étude du dit Mtre … Notaire »] St Romuald, Étude, les jour, mois et an susdits, sous le numéro quatre cent vingt-neuf. Et le preneur & le témoin ont signé avec moi, notaire, le bailleur ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » — Signé : « Joseph Leclerc », « Alexis Robitaille », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "François Leclerc, père",
+          "note": "Charretier de Saint-Romuald, propriétaire d'une maison de bois à un étage au nord du chemin public ; ne sait signer. Le « François Leclerc, senior » du bail Sirois (n° 423) et des actes de 1874 ; non rattaché."
+        },
+        {
+          "role": "preneur",
+          "nom": "Joseph Leclerc",
+          "ref_personne": "1871-D1-P019-L15",
+          "note": "« Ancien marchand » de Saint-Romuald ; signe « Joseph Leclerc ». Même rattachement probable qu'aux n° 93, 105, 131, 160 et 400 (marchand de 27 ans en 1871). Il avait fait donation de ses biens à François Leclerc, senior, en 1873 (n° 205-206) : il loge désormais chez lui."
+        },
+        {
+          "role": "temoin",
+          "nom": "Alexis Robitaille",
+          "note": "Ferblantier de Lévis ; signe « Alexis Robitaille ». Le notaire avait d'abord écrit Pierre Bégin, marchand. Hors paroisse."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "L'« ancien marchand » Joseph Leclerc, témoin de dizaines d'actes du notaire, loue trois pièces chez François Leclerc, senior, charretier, à qui il avait donné ses biens en 1873 à charge d'en payer les dettes (actes d'octobre 1874). Vingt-quatre piastres par an, en deux termes. La parenté entre les deux hommes n'est pas dite.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01773",
+          "microfilm": "002717",
+          "drive": "1h2DohZWCLqplUG1Q07VkZ5Prfo2dtKs2",
+          "legende": "feuillet abandonné (extrait de session municipale, sans suite)"
+        },
+        {
+          "fichier": "01774",
+          "microfilm": "002718",
+          "drive": "10-qDxLzBtad7neRRfFgyUSsI-YD0AZNt",
+          "legende": "2/5"
+        },
+        {
+          "fichier": "01775",
+          "microfilm": "002719",
+          "drive": "1ndlaSFJwePXRZb4KM503Qvu87_Q_ODZd",
+          "legende": "3/5"
+        },
+        {
+          "fichier": "01776",
+          "microfilm": "002720",
+          "drive": "1KdfpXJKry9K5ZiFMDsjTtMzhO7hSdjkf",
+          "legende": "4/5"
+        },
+        {
+          "fichier": "01777",
+          "microfilm": "002721",
+          "drive": "1SfgQPpuq9ISX3yzT-vtcXC5nBMlhbWjY",
+          "legende": "dos de la chemise"
+        }
+      ]
     }
   ]
 }
