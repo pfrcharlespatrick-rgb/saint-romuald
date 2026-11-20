@@ -29647,6 +29647,61 @@
           "legende": "2/2"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-02-27-obligation-halle-cantin",
+      "type": "notarie",
+      "titre": "Obligation de François Hallé, agriculteur, envers Germain Cantin, écuyer, marchand — neuf cents piastres sur une terre du Sault de la Chaudière — minute n° 319, 27 février 1875",
+      "date": "1875-02-27",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 319, images 002315 à 002317 (Drive : fichiers 04T_CN401S124P_01371 à 01373). En marge « Obligation F. Hallé à G. Cantin — Original — 1.80 Payé — Exp. 1 fois & enregistré le 24 mars [?] 1875 ». La présence d'un témoin, d'abord prévue, est rayée ; la somme, d'abord « huit cents », est corrigée en « neuf cents » ; le terme, d'abord « d'hui à cinq ans, à dater de ce jour », est corrigé en « d'hui en cinq ans, à pareille date ». Un renvoi en marge paraphé « G. C. », « F. H. » et « E. H. T. N.P. ». Acte complet.",
+      "nature": "Obligation (prêt hypothécaire), passée le 27 février 1875, après midi, à Saint-Romuald, étude du notaire, sans témoin ; créancier et débiteur signent.",
+      "transcription": "[002315] « N° 319 — 1875. L'an mil huit cent soixante-quinze, le vingt-septième jour de février, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Fut présent : Mr François Hallé, de St Romuald, agriculteur ; Lequel reconnaît devoir bien & légitimement à Germain Cantin, du même lieu, Écr, marchand, à ce présent & acceptant, la somme de neuf cents piastres courant, étant pour prêt de pareille somme en bon argent courant fait & délivré à vue & présence de nous notaire, lors de l'exécution des présentes, ainsi que le débiteur le reconnaît & s'en déclare content & satisfait. [002316] Laquelle somme de neuf cents piastres courant le débiteur promet & s'oblige payer & rembourser au créancier ou ordre, porteur des présentes en forme légale, d'hui en cinq ans à pareille date, avec ensemble l'intérêt au taux de sept pour cent par an, payable annuellement à compter de ce jour. [Renvoi (1) : « Il est expressément convenu entre les parties que si l'intérêt sur la dite somme de neuf cents piastres n'est pas régulièrement payé aux époques susdites, chaque année, alors tels intérêts porteront eux-mêmes intérêt d'aussi sept pour cent par an, à compter de l'échéance pour le paiement des intérêts. »] Et pour sûreté du paiement de la dite somme de neuf cents piastres & des intérêts qui en proviendront, comme dit est, le débiteur hypothèque spécialement : Une terre située en la dite paroisse de St Romuald, à l'endroit appelé Sault, susdit comté de Lévis, contenant quatre arpents & demi de front sur vingt-deux arpents de profondeur, plus ou moins, bornée par devant au chemin public, par derrière à la Rivière Chaudière, au nord & au sud à Pierre Cantin, avec les bâtisses dessus construites, circonstances & dépendances. [002317] Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald, étude, les jour, mois & an susdits, sous le numéro trois cent dix-neuf. Et le créancier & le débiteur ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « Germain Cantin », « François Hallé », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "François Hallé",
+          "note": "Agriculteur de Saint-Romuald ; signe « François Hallé ». Propriétaire de la terre du Sault, au bord de la Chaudière, achetée de ses parents en 1865 (n° 306, 314, 315). Non rattaché."
+        },
+        {
+          "role": "creancier",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Écuyer, marchand de Saint-Romuald ; signe « Germain Cantin ». Rattachement probable, comme dans les actes précédents."
+        },
+        {
+          "role": "voisin",
+          "nom": "Pierre Cantin",
+          "note": "Voisin de la terre au nord et au sud. Plusieurs Pierre Cantin aux recensements (dont le cultivateur de la division 2, Saint-Jean-Chrysostome) : non rattaché ici."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "La clé de la série du 27 février 1875 : François Hallé emprunte neuf cents piastres au marchand Germain Cantin, à sept pour cent sur cinq ans, et rembourse le même jour ses parents (n° 315) et ses autres créanciers (n° 316-318). La terre hypothéquée est située « à l'endroit appelé Sault », entre le chemin public et la rivière Chaudière, quatre arpents et demi sur vingt-deux, entre deux terres de Pierre Cantin : c'est la terre vendue en 1865 par Antoine Hallé et Ursule Dussault, que le bureau d'enregistrement de Dorchester rattachait à l'arrière-pays.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01371",
+          "microfilm": "002315",
+          "drive": "1ejMHCHjV2FyA_6oUg6vc8b2GJKfzwgtH",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01372",
+          "microfilm": "002316",
+          "drive": "1uHTBYbHgJ0h6vkHeqVKpZRKBbx_PuNuP",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01373",
+          "microfilm": "002317",
+          "drive": "1S-fegs0pRuF9zSfl1kddo5KK3EJm1sYQ",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
