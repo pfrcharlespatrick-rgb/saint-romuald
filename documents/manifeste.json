@@ -29240,6 +29240,111 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-02-23-quittance-gosselin-thivierge",
+      "type": "notarie",
+      "titre": "Quittance par Joseph Gosselin, cultivateur de Saint-Laurent, Île d'Orléans, à Siméon Thivierge, cultivateur de Saint-Jean — minute n° 312, 23 février 1875",
+      "date": "1875-02-23",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 312, images 002297 et 002298 (Drive : fichiers 04T_CN401S124P_01353 et 01354). En marge « Quittance par Jos. Gosselin à Sim. Thivierge — Exp. 1 fois ». Le notaire avait d'abord écrit « décembre » et « Cité de Québec », rayés. Trois renvois en marge paraphés « J. G. » et « E. H. T. N.P. ». Acte complet.",
+      "nature": "Quittance générale et finale du prix d'une vente, passée le 23 février 1875, avant midi, à Saint-Laurent, Île d'Orléans, sans témoin.",
+      "transcription": "[002297] « N° 312 — 23 fév. 1875. Aujourd'hui le vingt-troisième jour de février, avant midi, de l'année mil huit cent soixante-[renvoi (1) : « quinze »], est comparu devant le Notaire Public pour la Province de Québec, résidant en la [renvoi (2) : « paroisse de St Romuald, dans le comté de Lévis »], soussigné, Sieur Joseph Gosselin, cultivateur, demeurant en la paroisse St Laurent de l'Isle d'Orléans, dans le comté de Montmorency, lequel a reconnu & confessé avoir reçu dès avant ces présentes de Sieur Siméon Thivierge, cultivateur, demeurant en la Paroisse St Jean, susdite Isle d'Orléans, la somme de quatorze cents piastres du cours actuel, formant et complétant le prix d'un certain acte de vente consenti par le dit Sieur Joseph Gosselin au dit Sieur Siméon Thivierge, passé devant Mtre Wilfrid Lemieux [?], Notaire, en présence de témoins, en date du vingt-quatre septembre dernier, et enregistré au Bureau d'Enregistrement pour le comté de l'Isle d'Orléans en le Régistre B, Vol. 6, N° 64 [?] ; dont en conséquence quittance générale & finale du dit prix de vente en faveur du dit Sieur Thivierge & de tous autres. Car ainsi &c. Quittant &c. Dont acte fait & passé [renvoi (3) : « à la paroisse St Laurent susdite, demeure de Pierre Gosselin, Écr, N.P. [?] »], [002298] les jour, mois & an susdits, sous le numéro trois cent douze. Et a le dit Sieur Joseph Gosselin comparant signé avec nous dit notaire, après lecture faite. Mots rayés sont nuls. Trois renvois en marge sont bons & approuvés. » — Signé : « Joseph Gosselin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "autre",
+          "nom": "Joseph Gosselin",
+          "note": "Cultivateur de Saint-Laurent, Île d'Orléans, vendeur quittancé ; signe. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Siméon Thivierge",
+          "note": "Cultivateur de Saint-Jean, Île d'Orléans, acquéreur qui a payé ses 1 400 piastres. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Wilfrid Lemieux [?]",
+          "note": "Notaire devant qui la vente a été passée le 24 septembre 1874 ; nom de lecture incertaine."
+        },
+        {
+          "role": "autre",
+          "nom": "Pierre Gosselin",
+          "note": "Écuyer [notaire public ?], en la demeure de qui l'acte est passé à Saint-Laurent ; lecture du renvoi incertaine."
+        }
+      ],
+      "affirmations": [],
+      "note": "Même tournée à l'Île d'Orléans que les n° 309 à 311 : le même jour, le notaire de Saint-Romuald passe à Saint-Laurent pour quittancer une vente de 1 400 piastres entre deux cultivateurs de l'île. Aucun lien avec Saint-Romuald.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01353",
+          "microfilm": "002297",
+          "drive": "1D1Mv0B5GcAQ54AJf1WPRSIOlruIC-J4Q",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01354",
+          "microfilm": "002298",
+          "drive": "1nutTVbsL0tcbG7xfsOt0VWOds1rA4I_p",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-02-23-bail-filteau-lajoie",
+      "type": "notarie",
+      "titre": "Bail par Charles Filteau, maître charretier, à Joseph Lajoie, charpentier, de deux chambres d'une maison de la rue Demers — minute n° 313, 23 février 1875",
+      "date": "1875-02-23",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 313, images 002299 à 002301 (Drive : fichiers 04T_CN401S124P_01355 à 01357). Formule imprimée de bail, remplie à la main ; articles 4 (charges de ville) et les deux paragraphes de taxes et d'aqueduc rayés. En marge « Bail Filteau à Lajoie — Original ». Acte complet.",
+      "nature": "Bail d'un an (1er mai 1875 – 30 avril 1876), passé le 23 février 1875, après midi, à Saint-Romuald, étude du notaire, devant un témoin ; bailleur et preneur ne savent signer.",
+      "transcription": "[002299] « N° 313 — 23 février 1875. L'an mil huit cent soixante-quinze, le vingt-troisième jour du mois de février, après-midi, pardevant Mtre Elzéar Hubert Tremblay, résidant à St Romuald, comté de Lévis, Notaire Public soussigné, et en présence de Louis Joseph Stanislas Roberge, instituteur du même lieu, témoin au présent acte, aussi soussigné, fut présent : Charles Filteau, de St Romuald, Mtre charretier ; lequel a, par ces présentes, donné à loyer pour le terme et espace d'une année entière qui commence à courir du premier jour de mai prochain et finir le trentième jour d'avril de l'année mil huit cent soixante-seize, à Joseph Lajoie, du même lieu, charpentier, à ce présent et acceptant preneur pour lui, ses hoirs et ayants cause, c'est-à-savoir : Deux chambres dans le bas, côté nord, d'une maison en bois à un étage, sise sur le niveau est de la rue Demers, & appartenant au Bailleur, ensemble la moitié côté nord du grenier, part de cour pour mettre son bois, tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité. [Clauses imprimées : jouir en bon père de famille, garnir de meubles, [002300] entretenir et rendre en bon état de réparations locatives, n'y faire aucun changement sans le consentement du bailleur, laisser visiter les trois derniers mois, ne point céder ni sous-louer.] De son côté le Bailleur promet et s'oblige faire jouir le preneur des premisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à aucune réparation quelconque, pas même à tenir les lieux clos ni couverts, nonobstant toute loi ou coutume à ce contraires. Ce Bail est fait en outre pour et en considération du prix et somme de vingt-cinq piastres courant pour l'année de sa durée, et que le Preneur promet et s'oblige payer au dit Bailleur ou à son ordre par paiements hebdomadaires d'une piastre chacun, à dater du premier jour de mai, jusqu'à parfait paiement, et le loyer devant être payé dans les vingt-cinq premières semaines, à peine de nullité des présentes si le bailleur l'exige. [002301] Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables, savoir, le Preneur en les premisses sus-louées et le Bailleur en sa demeure ordinaire où les paiements se feront. Aux quels lieux, etc. Car ainsi, etc. Dont acte, fait et passé à St Romuald, étude, les jour, mois et an susdits sous le numéro trois cent treize des originaux du notaire soussigné. Requis de signer, les bailleur & preneur ont déclaré ne le savoir en présence du témoin qui a signé avec nous notaire, lecture faite. Mots rayés sont nuls. Lignes en blanc remplies par un trait. » — Signé : « Louis J. S. Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Charles Filteau",
+          "ref_personne": "1871-D1-P023-L15",
+          "note": "Maître charretier de Saint-Romuald, propriétaire de la maison de la rue Demers achetée de Cantin (n° 251) ; ne sait signer. Rattachement probable, comme dans les actes précédents."
+        },
+        {
+          "role": "preneur",
+          "nom": "Joseph Lajoie",
+          "ref_personne": "1881-D1-P030-L09",
+          "note": "Charpentier de Saint-Romuald ; ne sait signer. Déjà locataire de Demers en 1874 (n° 201) ; rattachement probable au charpentier de 35 ans de 1881."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Joseph Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe « Louis J. S. Roberge ». Non rattaché (absent des recensements dépouillés sous ce prénom et ce métier)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Charles Filteau loue la moitié de sa maison de la rue Demers — achetée de Cantin à l'automne 1874 (n° 251) et déjà louée en partie à Desroches le 15 février (n° 307) — à Joseph Lajoie, charpentier, pour vingt-cinq piastres l'an, payables une piastre par semaine. Le bailleur refuse toute réparation, même de tenir la maison close et couverte.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01355",
+          "microfilm": "002299",
+          "drive": "1Bs_JWAAxJx2PmOHpuCB7UR8QfS7ZO0vh",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01356",
+          "microfilm": "002300",
+          "drive": "1vM9IrgWmouh_X_nM1YXrvh-gmlb6q86V",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01357",
+          "microfilm": "002301",
+          "drive": "1A_FEs1ArdmWsHzvk_Decy7TLbCGd8KYw",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
