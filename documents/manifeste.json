@@ -30342,7 +30342,7 @@
         }
       ],
       "affirmations": [],
-      "note": "Les enfants d'un hôtelier de Québec, Louis-Magloire Bolduc, et d'Angèle Côté règlent la succession d'un terrain de la ville : Delphine (femme du cordonnier Paquet) et Louis-Magloire fils, peintre, cèdent leurs parts à leur sœur Éléonore et à son mari, le maçon Alexis Pichette, qui prennent à leur charge une hypothèque de quinze louis. Une note en marge dit les frais « payés par Morin qui a acheté la propriété », une autre que l'acte fut résilié le 15 avril 1875 [?]. Le numéro de clôture (« trois cent trente-deux ») ne s'accorde pas avec celui de tête (328) : à vérifier sur les minutes voisines. La désignation de Québec (« Quartier St Jean », « Rue Déligny », n° 3667) est de lecture incertaine.",
+      "note": "Les enfants d'un hôtelier de Québec, Louis-Magloire Bolduc, et d'Angèle Côté règlent la succession d'un terrain de la ville : Delphine (femme du cordonnier Paquet) et Louis-Magloire fils, peintre, cèdent leurs parts à leur sœur Éléonore et à son mari, le maçon Alexis Pichette, qui prennent à leur charge une hypothèque de quinze louis. Une note en marge dit les frais « payés par Morin qui a acheté la propriété », une autre que l'acte fut résilié le 15 avril 1875 [?]. Le numéro de clôture (« trois cent trente-deux ») ne s'accorde pas avec celui de tête (328) : or les feuilles de l'archiviste qui suivent (fichiers 01410-01411) disent les actes n° 329 à 331 classés plus loin (sous les n° 347 à 349) et l'acte n° 332 « manquant » : cette minute est sans doute le n° 332 « manquant », renuméroté 328 en tête par le notaire. La désignation de Québec (« Quartier St Jean », « Rue Déligny », n° 3667) est de lecture incertaine.",
       "ajoute_le": "2026-11-19",
       "images": [
         {
@@ -30368,6 +30368,18 @@
           "microfilm": "002353",
           "drive": "1F2ti-DPZeQEfBD_AQZgtV0y67j99sizy",
           "legende": "4/4"
+        },
+        {
+          "fichier": "01410",
+          "microfilm": "002354",
+          "drive": "1F7fg1nQmwaynMbj0_YkEOSK0fUCOd9GH",
+          "legende": "feuille de l'archiviste : « Actes # 329, 330, 331 — voir actes # 347, 348, 349 »"
+        },
+        {
+          "fichier": "01411",
+          "microfilm": "002355",
+          "drive": "10v3o4xd1asbK_hISGCkUp79NTYo2WS_V",
+          "legende": "feuille de l'archiviste : « Acte manquant # 332 »"
         }
       ]
     }
