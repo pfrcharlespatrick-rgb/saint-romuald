@@ -32859,6 +32859,76 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-05-05-testament-hubert-lefebvre",
+      "type": "notarie",
+      "titre": "Testament d'Hubert Lefebvre, journalier, malade au lit, en faveur de sa femme Anastasie Vocelle dite Belle-Humeur — minute n° 385, 5 mai 1875",
+      "date": "1875-05-05",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 385 (corrigé sur « 38[4] »), images 002551 à 002554 (Drive : fichiers 04T_CN401S124P_01607 à 01610). Le préambule, d'abord rédigé à la troisième personne (« en présence de Me … & de Sieur … ») avec le second témoin laissé en blanc, est barré d'une croix et repris à la première personne par le notaire (« je … me suis transporté au domicile ») ; plusieurs renvois paraphés « F. L. » [?], « J. L. », « E. H. T. N.P. ». Le mot « mon fils » est rayé après « Joseph Lefebvre ». Le numéro de clôture est laissé incomplet (« trois cent quatre-vingt … »). En marge « Testament de Hubert Lefebvre — Original — 2.00 ». Acte complet.",
+      "nature": "Testament authentique, reçu le 5 mai 1875, « vers les onze heures & demie de l'après-midi », à Saint-Romuald, au domicile du testateur, devant deux témoins ; le testateur ne sait signer.",
+      "transcription": "[002551] « N° 385 — 5 mai 1875. L'an mil huit cent soixante-quinze, le cinquième jour de mai, vers les onze heures & demie de l'après-midi, je, Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, dans le comté de Lévis, soussigné, [passage barré : « Et en présence de Sieur Joseph Leclerc, de St Romuald, ancien marchand, & de Sieur [en blanc], du même lieu, témoins requis & espérés au présent Testament, aussi soussignés ; Fut présent : Sieur Hubert Lefebvre, de St Romuald »] me suis transporté au domicile de Sieur Hubert Lefebvre [renvoi : « journalier »], situé à St Romuald, où je l'ai trouvé gisant dans son lit, malade de corps, mais parfaitement sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à moi, notaire, & aux témoins ci-après nommés, par son maintien & ses discours & par la manifestation claire & précise de ses volontés ; Lequel a, dans la vue de la mort, fait & nommé son présent Testament [002552] à moi dit Notaire, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par mon exécuteur testamentaire ci-après nommé, à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, messes & prières, voulant & entendant qu'un service décent soit chanté sur mon corps le jour de mon inhumation & que quinze messes basses de Requiem soient dites pour le repos de mon âme le plus tôt possible après mon décès. 2° Je donne & lègue à Dame Anastasie Vocelle dite Belle-Humeur, mon épouse actuelle, tous les biens, meubles & immeubles, hardes & linges de corps généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient & en quelques lieux & endroits qu'ils soient dus & situés, pour par elle en jouir, faire & disposer en toute propriété & comme bon lui semblera à compter du jour de mon décès. 3° J'institue la personne de Sieur Joseph Lefebvre, [mon fils, rayé] [002553] de St Romuald, journalier, pour mon exécuteur testamentaire, & j'institue la dite Dame Anastasie Vocelle dite Belle-Humeur, ma dite épouse, ma légataire universelle en propriété. 4° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par le dit testateur [renvoi (1) : « à moi, dit Notaire »], en la présence continuelle de Sieur Joseph Leclerc, de St Romuald, ancien marchand, & de Sieur Joseph Lessard, du même lieu, mécanicien, témoins exprès nommés & requis, & ce présent Testament lui ayant été lu, expliqué & relu par le dit Notaire, les dits témoins toujours présents, il a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses vraies intentions & dernières volontés. Dont acte fait & passé à St Romuald, en la demeure du Testateur, les heure, jour, mois & an susdits, sous le numéro trois cent quatre-vingt[-…] des originaux du Notaire soussigné. [002554] Requis de signer, le testateur a déclaré ne le savoir, en présence des témoins sus-nommés qui ont signé avec moi, Notaire, après lecture faite & refaite. Mots rayés sont nuls. Renvoi en marge bon & approuvé. » — Signé : « Joseph Leclerc », « Joseph Lessard », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Hubert Lefebvre",
+          "note": "Journalier de Saint-Romuald, malade au lit ; ne sait signer. Le même qu'au bail Demers-Lefebvre d'octobre 1874 ; absent des recensements dépouillés : non rattaché."
+        },
+        {
+          "role": "legataire",
+          "nom": "Anastasie Vocelle dite Belle-Humeur",
+          "note": "Épouse « actuelle » du testateur, légataire universelle. Non rattachée."
+        },
+        {
+          "role": "autre",
+          "nom": "Joseph Lefebvre",
+          "note": "Journalier de Saint-Romuald, exécuteur testamentaire ; le notaire avait écrit « mon fils », puis l'a rayé. Peut-être le Joseph Lefebvre journalier de New-Liverpool (bail Lefebvre-Boucher de 1874, 1871-D2-P021-L03) — hypothèse, non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Joseph Leclerc",
+          "note": "« Ancien marchand » de Saint-Romuald ; signe. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Joseph Lessard",
+          "note": "Mécanicien de Saint-Romuald ; signe « Joseph Lessard ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Testament de malade, reçu au chevet : un journalier laisse tout à sa femme « actuelle » et demande un service chanté et quinze messes basses de requiem. Le notaire a commencé l'acte dans la forme ordinaire, puis l'a barré pour le reprendre à la première personne, comme il convient quand il se transporte chez le testateur ; il a aussi rayé « mon fils » après le nom de l'exécuteur, Joseph Lefebvre.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01607",
+          "microfilm": "002551",
+          "drive": "1F8P2kZWJdM0fMKijGc-yzsLBx-t0FDyk",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01608",
+          "microfilm": "002552",
+          "drive": "1ynuPduprJ4BBkZ5UsPsIPRnWLJg5I1T9",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01609",
+          "microfilm": "002553",
+          "drive": "1bdXXT6X-X36L1suY1pjCLsT--ig0NZIb",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01610",
+          "microfilm": "002554",
+          "drive": "1YUVMTmhquCPemBG9yj8DZWefpd_L04yn",
+          "legende": "4/4"
+        }
+      ]
     }
   ]
 }
