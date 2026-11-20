@@ -31170,7 +31170,7 @@
       "titre": "Bail par Louis Filteau, menuisier [?], à Isidore Houle, journalier, de deux chambres d'une maison de la rue Demers — minute n° 345, 7 avril 1875",
       "date": "1875-04-07",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
-      "cote": "Minute n° 345, images 002400 à 002403 (Drive : fichiers 04T_CN401S124P_01456 à 01459 ; les fichiers 01457 et 01458 montrent la même page, filmée deux fois). Formule imprimée de bail ; la clause 4 (charges de ville) et les clauses de taxes et d'aqueduc sont biffées. Le métier du bailleur, en interligne, se lit « maçon [?] » ou « menuisier » ; le numéro est laissé en blanc dans la clôture (« sous le numéro trois cent … »). En marge « Bail Filteau à Houle — Original ». Acte complet.",
+      "cote": "Minute n° 345, images 002400 à 002403 (Drive : fichiers 04T_CN401S124P_01456 à 01459 ; les fichiers 01457 et 01458 montrent la même page, filmée deux fois ; le fichier 01460 est le dos imprimé de la formule, laissé en blanc). Formule imprimée de bail ; la clause 4 (charges de ville) et les clauses de taxes et d'aqueduc sont biffées. Le métier du bailleur, en interligne, se lit « maçon [?] » ou « menuisier » ; le numéro est laissé en blanc dans la clôture (« sous le numéro trois cent … »). En marge « Bail Filteau à Houle — Original ». Acte complet.",
       "nature": "Bail d'un an (1er mai 1875 – 30 avril 1876), passé le 7 avril 1875, après midi, à Saint-Romuald, étude du notaire, devant un témoin ; le preneur ne sait signer.",
       "transcription": "[002400] « N° 345 — 7 avril 1875. L'an mil huit cent soixante-quinze, le septième jour du mois d'avril, après-midi, pardevant Mtre Elzéar Hubert Tremblay, Notaire Public, résidant à St Romuald, soussigné, et en présence de Louis Joseph Stanislas Roberge, de St Romuald, instituteur, témoin au présent acte, aussi soussigné ; Fut présent : Mr Louis Filteau, de St Romuald, ma[çon ? / menuisier ?] ; Lequel a, par ces présentes, donné à loyer pour le terme et espace d'une année entière qui commencera à courir du premier jour de mai prochain et finir le trentième jour d'avril de l'année mil huit cent soixante-seize, à Isidore Houle, du même lieu, journalier, à ce présent et acceptant preneur pour lui, ses hoirs et ayants cause, c'est-à-savoir : Deux chambres dans le bas & la moitié du grenier, le tout du côté nord d'une maison en bois à un étage sise sur le niveau est de la Rue Demers, ensemble la moitié côté nord de l'emplacement sur lequel est construite la dite maison, circonstances & dépendances ; tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité. [Clauses imprimées : jouir en bon père de famille ; garnir de meubles ; [002401] entretenir ; ne faire aucun changement ; laisser visiter ; ne point céder ni sous-louer.] De son côté le Bailleur promet et s'oblige faire jouir paisiblement le preneur des premisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à aucune réparation quelconque. Ce Bail est fait en outre pour et en considération du prix et somme de vingt-cinq piastres courant pour l'année de sa durée, et que le Preneur promet et s'oblige payer au dit Bailleur ou à son ordre par paiements égaux de la somme d'une piastre chaque semaine, à dater du premier jour de mai prochain, jusqu'au parfait paiement du prix total du dit loyer. [002403] Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables, savoir, le Preneur en les premisses sus-louées et le Bailleur en sa demeure ordinaire où les paiements se feront. Aux quels lieux, etc. Car ainsi, etc. Dont Acte, Fait et Passé à St Romuald, Étude du dit Notaire, les jour, mois et an susdits sous le numéro trois cent [en blanc]. Requis de signer, le preneur a déclaré ne le savoir en présence du témoin qui a signé, ainsi que le Bailleur, avec moi, Notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Louis Filteau », « Louis J. S. Roberge », « E. H. Tremblay, N.P. ».",
       "personnes": [
@@ -31223,6 +31223,61 @@
           "microfilm": "002403",
           "drive": "1YrfjsHTf0lENweoyBlnPlEJ3uCTwY9XN",
           "legende": "3/3"
+        },
+        {
+          "fichier": "01460",
+          "microfilm": "002404",
+          "drive": "1LZpXwFvMW7O3iAoO21LGDG4LJAkpzu8V",
+          "legende": "dos imprimé de la formule, resté en blanc"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-04-07-resiliation-roberge-proulx",
+      "type": "notarie",
+      "titre": "Résiliation par Louis-Hubert Roberge, navigateur, et Thomas Proulx, menuisier, du bail à rente de décembre 1874 (n° 269) — minute n° 346, 7 avril 1875",
+      "date": "1875-04-07",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 346, images 002405 et 002406 (Drive : fichiers 04T_CN401S124P_01461 et 01462). La date, d'abord « 20 mars », est corrigée en « 7 avril » (renvoi paraphé « L. H. R. », « L. J. S. R. », « E. H. T. N.P. »). La date du bail résilié est laissée en blanc (« en date du … jour de … mil huit cent soixante … ») et le numéro de la minute aussi (« sous le numéro trois cent … »). Acte complet.",
+      "nature": "Résiliation de bail à rente foncière, passée le 7 avril 1875, après midi, à Saint-Romuald, en la demeure de Louis-Hubert Roberge, devant un témoin ; Thomas Proulx ne sait signer.",
+      "transcription": "[002405] « N° 346 — 7 avril [20 mars, rayé] 1875. Résiliation. L'an mil huit cent soixante-quinze, le [renvoi (1) : « septième jour d'avril »], après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant & pratiquant à St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Louis Joseph Stanislas Roberge, de St Romuald, instituteur, témoin, aussi soussigné ; Furent présents : Mr Louis Hubert Roberge, navigateur, & Mr Thomas Proulx, menuisier, demeurant tous deux à St Romuald susdit ; Lesquels ont résilié, rescindé & annulé, comme par ces présentes ils résilient, rescindent & annulent, un certain acte de Bail à rente foncière & constituée consenti par le dit Sr Roberge en faveur du dit Sr Proulx, reçu par le Notaire soussigné, en date du [en blanc] jour de [en blanc] mil huit cent soixante[-…]. [002406] En conséquence le dit acte de Bail à rente foncière & constituée sus-cité & daté est nul & de nul effet, à dater de ce jour & à toujours. Dont acte requis & octroyé à St Romuald, demeure de Mr Louis Hubert Roberge, les jour, mois & an susdits, sous le numéro trois cent [en blanc]. Requis de signer, le dit Sr Proulx a déclaré ne le savoir en présence du dit témoin qui a signé, ainsi que le dit Sr Roberge, avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « L. Hubert Roberge », « Louis J. S. Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "autre",
+          "nom": "Louis-Hubert Roberge",
+          "note": "Navigateur de Saint-Romuald, bailleur à rente ; l'acte est passé chez lui ; signe « L. Hubert Roberge ». Non rattaché, comme dans ses actes de 1874 (plusieurs Hubert Roberge navigateurs en 1871)."
+        },
+        {
+          "role": "autre",
+          "nom": "Thomas Proulx",
+          "ref_personne": "1871-D2-P020-L20",
+          "note": "Menuisier de Saint-Romuald, preneur à rente ; ne sait signer. Même rattachement probable qu'aux n° 72, 110, 269 et 270."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Joseph Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe « Louis J. S. Roberge ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le bail à rente de Louis-Hubert Roberge à Thomas Proulx — sans doute celui du 21 décembre 1874 (n° 269), suivi d'une obligation de Proulx envers Roberge (n° 270) — est annulé moins de quatre mois plus tard. Le notaire n'a pas rempli la date du bail résilié : il avait écrit « mil huit cent soixante », formule toute faite, ce qui laisse un doute sur l'acte visé.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01461",
+          "microfilm": "002405",
+          "drive": "1fmMFOi6z4RbNTvAmiZZpkwmlSlN6Ced9",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01462",
+          "microfilm": "002406",
+          "drive": "1kkAyjhKPQ6TOWC1GJG1A1hymvirpaaDm",
+          "legende": "2/2"
         }
       ]
     }
