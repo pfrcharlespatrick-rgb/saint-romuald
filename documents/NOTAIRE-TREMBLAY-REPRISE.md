@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (355 fiches au 20 novembre 2026 ; série jusqu'à 01552 lue, lacune 01501-01550).
+fiche dont l'identifiant commence par `notarie-` (366 fiches au 20 novembre 2026 ; série jusqu'à 01599 lue, lacune 01501-01550).
 
 ## Où sont les images
 
@@ -635,7 +635,30 @@ dossier Drive suivant (`1TcgBjmrGfK-ayXucxmKLwcuHrm80oz3c`) commence au
 fichier 01551 ; la recherche `title contains '04T_CN401S124P_0150'` ne le
 trouve pas : chercher par `parentId` ou par `title = '…_01553.jpg'`.
 
-**Pour reprendre** : continuer au fichier **01553** (microfilm 002497).
+Suite (20 novembre) : fichiers **01553 à 01599** lus, actes **n° 372 à 382**
+(24 avril au 3 mai 1875). **366 fiches `notarie-`.**
+
+- **n° 371-373, 377** : baux de François Leclerc, marchand (Garant, Gagné,
+  Cloutier `1881-D1-P040-L23`), témoin **Albert Forcade, maître de poste**
+  (`1871-D2-P018-L06`) ; le locataire renonce aux insaisissabilités du Code
+  de procédure civile.
+- **n° 374** : accord St. John-Rogers (menaces et injures à l'hôtel Rogers).
+- **n° 375** : Élie Foster cède **tout son ménage** à François Leclerc père
+  pour arriérés de loyer (inventaire d'un logement ouvrier, rue Saint-Louis).
+- **n° 376** : bail Proulx-McReady (`1871-D2-P022-L15`), New-Liverpool.
+- **n° 378** : **empiètement d'Alfred Mathieu sur le terrain du moulin
+  d'Etchemin** (Henry Atkinson) — triangle dessiné dans l'acte, bornes en
+  chevilles de fer, au sud de l'Étang ; suivi d'une copie.
+- **n° 379-381** : trois baux de Louis-Hubert Roberge (New-Liverpool) :
+  Nolin, **Marie Paradis, fille majeure**, Modeste Grégoire
+  (`1881-D2-P040-L09`) — « l'eau peut monter au premier étage ».
+- **n° 382** : transport de rente Villeneuve → Édouard Lagueux, payée par le
+  cordonnier Édouard Paquet.
+
+**Pour reprendre** : continuer au fichier **01600** (microfilm 002544), début
+du n° 383-384 (tutelle Gagné, Marie Dubois). Les fichiers 016xx sont dans le
+dossier Drive `1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql` ; chercher par
+`title = '04T_CN401S124P_01601.jpg' or …`.
 Le Drive va au moins jusqu'au fichier 01849.
 
 Fils suivis dans la série 00451-00550 :
