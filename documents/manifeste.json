@@ -31933,6 +31933,49 @@
           "legende": "2/3 (la 3e page, fichier 01501, manque au Drive)"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-04-bail-leclerc-fragment-371",
+      "type": "notarie",
+      "titre": "Bail par François Leclerc [fils ?], marchand, à un preneur inconnu — fin seule de la minute n° 371, avril 1875 [?]",
+      "date": "1875-04",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 371, dernière page seulement : image 002495 (Drive : fichier 04T_CN401S124P_01551) ; le fichier 01552 est le dos imprimé de la formule (« Bail par … à … — Copie — Notaire »), laissé en blanc. Le début de l'acte, comme les minutes n° 356 (fin) à 370, se trouvait sur les fichiers 01501 à 01550, absents du Drive de Patrick. Date inconnue : entre le 13 avril 1875 (n° 356) et la minute n° 372.",
+      "nature": "Bail (formule imprimée), passé à Saint-Romuald, étude du notaire, devant un témoin ; le preneur ne sait signer. Fragment.",
+      "transcription": "[002495] « […] Et le preneur renonce à tous les privilèges à lui accordés en vertu des sections trois, quatre, cinq, sept & neuf du Code de Procédure Civile du Bas-Canada, relatifs aux meubles, voulant que tous ces derniers sans distinction répondent pour le dit loyer. Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables, savoir, le Preneur en les premisses sus-louées et le Bailleur en sa demeure ordinaire où les paiements se feront. Aux quels lieux, etc. Car ainsi, etc. Dont Acte, Fait et Passé à St Romuald, Étude, les jour, mois et an susdits sous le numéro trois cent soixante-onze. Et le Bailleur & le témoin ont signé avec moi, notaire, le preneur ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » — Signé : « François Leclerc », « témoin Albert Lacasse [?] », « E. H. Tremblay, N.P. ». [002496 — dos imprimé « Bail par … à … — Copie — Notaire », en blanc.]",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "François Leclerc",
+          "note": "Signe « François Leclerc » ; sans doute le marchand, créancier du n° 356. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Albert Lacasse [?]",
+          "note": "Témoin ; nom de lecture incertaine. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Seule la dernière page de ce bail est au Drive. Le preneur renonce aux insaisissabilités du Code de procédure civile pour ses meubles, qui répondent tous du loyer. Les fichiers 01501 à 01550 (fin du n° 356 et minutes n° 357 à 370, plus le début du n° 371) manquent : à demander à Patrick ou à reprendre du microfilm BAnQ (images 002445 à 002494).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01551",
+          "microfilm": "002495",
+          "drive": "1DasQP8h6p2JV2fFfQZ5wjlEPfOBqbpK3",
+          "legende": "dernière page (seule conservée au Drive)"
+        },
+        {
+          "fichier": "01552",
+          "microfilm": "002496",
+          "drive": "1_sJ4mIdfvysenOy3qmGii8yiz32Z92JY",
+          "legende": "dos imprimé de la formule, resté en blanc"
+        }
+      ]
     }
   ]
 }
