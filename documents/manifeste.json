@@ -32614,6 +32614,74 @@
           "legende": "dos imprimé, resté en blanc"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-05-03-transport-villeneuve-lagueux",
+      "type": "notarie",
+      "titre": "Transport par Ferdinand Villeneuve, sculpteur et menuisier, à Édouard Lagueux, écuyer, rentier, de la rente foncière de dix-sept piastres due par Édouard Paquet, cordonnier — minute n° 382, 3 mai 1875",
+      "date": "1875-05-03",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 382, images 002540 à 002543 (Drive : fichiers 04T_CN401S124P_01596 à 01599). Le numéro de clôture, d'abord « deux mille », est corrigé en « trois cent quatre-vingt-deux » ; le lieu, d'abord « étude du Notaire », est corrigé en « demeure du cessionnaire ». En marge « Transport Villeneuve à Lagueux — Original — Expédié 1 fois & enregistré — Payé Lagueux ». Acte complet.",
+      "nature": "Transport (cession) de rente foncière, passé le 3 mai 1875, après midi, à Saint-Romuald, en la demeure du cessionnaire, sans témoin ; toutes les parties signent.",
+      "transcription": "[002540] « N° 382 — 3 mai 1875. Pardevant le Notaire Public soussigné, fut présent le Sieur Ferdinand Villeneuve, sculpteur et menuisier, demeurant en la paroisse de St Romuald ; Lequel a, par ces présentes, cédé, transporté et abandonné dès maintenant et à toujours, avec les garanties de droit, à Édouard Lagueux, Écuyer, rentier, du même lieu, à ce présent et acceptant cessionnaire pour lui-même, ses hoirs et ayans cause, une rente foncière et annuelle de dix-sept piastres courant, à lui due par le Sieur Édouard Paquet, cordonnier, de la dite paroisse de St Romuald, suivant un certain bail à rente foncière consenti par le dit Ferdinand Villeneuve au dit Édouard Paquet et passé devant Mtre L. Laliberté, Notaire, le dix-sept janvier mil huit cent soixante-dix, et enregistré au Bureau d'enregistrement du comté de Dorchester, division numéro deux, dans le Registre B, vol. 18, page 445, sous le numéro quatorze mille deux cent quatre-vingt-un, [002541] à neuf heures et trente minutes du matin, le vingt-huit juillet mil huit cent [soixante-dix] ; pour par le dit cessionnaire percevoir et retirer la dite rente foncière annuellement, et ce à compter du premier jour de mai courant, le cédant mettant et subrogeant le cessionnaire en tous ses lieux et places, noms, raisons, actions, privilèges et hypothèques qu'il possède en vertu du bail à rente foncière susdaté. Ce transport est ainsi fait pour et moyennant bonne et valable considération que le cédant reconnaît avoir reçu du cessionnaire, et plus particulièrement pour et en considération de ce que le cessionnaire quitte et décharge le cédant du paiement d'une rente foncière et annuelle égale au montant de celle présentement cédée. À ce faire fut présent et est intervenu le Sieur Édouard Paquet, cordonnier, de la paroisse [002542] de St Romuald, lequel, ayant eu lecture et communication du présent transport, a dit et déclaré se le tenir pour bien et dûment signifié, et promis de payer et continuer de payer à l'avenir au dit cessionnaire, ses hoirs et ayans cause, la dite rente foncière de dix-sept piastres courant par année, à compter du premier jour de mai courant, laquelle rente, du consentement de toutes les parties, sera payable à l'avenir le premier jour de mai chaque année, le premier paiement d'icelle devenant dû et échu le premier jour de mai de l'année mil huit cent soixante-seize. Et pour l'exécution des présentes, les parties font élection de domicile en leurs demeures ordinaires, auxquels lieux &c. Car ainsi &c. Dont acte. Fait et passé à St Romuald, demeure du cessionnaire, [002543] l'an mil huit cent soixante-quinze, le troisième jour de mai, après-midi, sous le numéro trois cent quatre-vingt-deux des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et toutes les parties ont signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Ferdinand Villeneuve », « Éd. Lagueux », « Édouard Paquet », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "cedant",
+          "nom": "Ferdinand Villeneuve",
+          "ref_personne": "1871-D1-P013-L13",
+          "note": "Sculpteur et menuisier de Saint-Romuald (« architecte » dans d'autres actes) ; signe « Ferdinand Villeneuve ». Rattachement probable, comme aux n° 350-351."
+        },
+        {
+          "role": "cessionnaire",
+          "nom": "Édouard Lagueux",
+          "ref_personne": "1871-D1-P020-L17",
+          "note": "Écuyer, rentier de Saint-Romuald ; l'acte est passé chez lui ; signe « Éd. Lagueux ». Rattachement probable, comme dans ses actes de 1874."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Édouard Paquet",
+          "ref_personne": "1871-D1-P016-L07",
+          "note": "Cordonnier de Saint-Romuald, débiteur de la rente depuis le bail à rente de janvier 1870 (Me L. Laliberté) ; intervient et signe « Édouard Paquet ». Rattachement probable, comme au n° 328."
+        },
+        {
+          "role": "notaire",
+          "nom": "L. Laliberté",
+          "note": "Notaire du bail à rente Villeneuve-Paquet du 17 janvier 1870."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un jeu d'écritures entre trois voisins : Ferdinand Villeneuve devait à Édouard Lagueux une rente foncière de dix-sept piastres l'an, et le cordonnier Édouard Paquet lui devait la même somme pour l'emplacement que Villeneuve lui avait concédé en 1870. Villeneuve cède sa créance à Lagueux, qui le tient quitte de la sienne : désormais Paquet paie directement Lagueux, chaque 1er mai.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01596",
+          "microfilm": "002540",
+          "drive": "1sxTTr7G_bQqJEf5LTlM_rSnG72iggi7v",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01597",
+          "microfilm": "002541",
+          "drive": "1nyeOoRc6U0p8TzFTsd1Bo5ku15ZdoKX1",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01598",
+          "microfilm": "002542",
+          "drive": "10iOfoM57WJich6I3dGyEMtj5HH9OTv5x",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01599",
+          "microfilm": "002543",
+          "drive": "1r4t1CD9MocsganHd9QvJrU6q1ZexH1Vn",
+          "legende": "4/4"
+        }
+      ]
     }
   ]
 }
