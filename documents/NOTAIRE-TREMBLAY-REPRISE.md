@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (348 fiches au 20 novembre 2026 ; série jusqu'à 01479 lue).
+fiche dont l'identifiant commence par `notarie-` (355 fiches au 20 novembre 2026 ; série jusqu'à 01552 lue, lacune 01501-01550).
 
 ## Où sont les images
 
@@ -614,8 +614,28 @@ dossier Drive (`1KZNShVAZPcG5O8dt5SxHwBPHu29ZWPMl`). Plusieurs minutes de
 mars-avril 1875 laissent le numéro en blanc à la clôture ; on se fie au
 numéro de tête.
 
-**Pour reprendre** : continuer au fichier **01480** (microfilm 002424).
-Chercher les identifiants par `title contains '04T_CN401S124P_0148'`, puis `0149`, etc.
+Suite (20 novembre) : fichiers **01480 à 01552** lus, actes **n° 351 à 356**
+et fin du **n° 371**. **355 fiches `notarie-`.**
+
+- **n° 351** : second bail anglais Villeneuve, à l'ébéniste Régis Martel.
+- **n° 352-353** : Joseph Couture rembourse l'ingénieur Napoléon Sévigny et
+  lui vend une terre de Saint-Lambert bornée à la **« Rivière Bruyante »**
+  (= la Chaudière ; le n° 236 disait « Rivière Chaudière » pour le même lieu).
+- **n° 354** : Joseph Lajoie sous-concède la moitié d'un emplacement de la
+  **rue Saint-Louis** à Louis Couture, **employé du Grand Trunk**.
+- **n° 355** : bail à moitié Rogers-Bois (terres de Saint-Antoine-de-Tilly et
+  de Saint-Nicolas, inventaire complet du bétail et des outils).
+- **n° 356** : obligation St-Pierre à Leclerc sur le **lot 49 du plan
+  d'Alexander Sewell (5 octobre 1866)** — plan à retrouver.
+
+**LACUNE AU DRIVE : les fichiers 01501 à 01550 n'existent pas** (microfilm
+002445 à 002494). Il manque la fin du n° 356, les minutes **n° 357 à 370** et le
+début du n° 371. À demander à Patrick ou à reprendre du microfilm BAnQ. Le
+dossier Drive suivant (`1TcgBjmrGfK-ayXucxmKLwcuHrm80oz3c`) commence au
+fichier 01551 ; la recherche `title contains '04T_CN401S124P_0150'` ne le
+trouve pas : chercher par `parentId` ou par `title = '…_01553.jpg'`.
+
+**Pour reprendre** : continuer au fichier **01553** (microfilm 002497).
 Le Drive va au moins jusqu'au fichier 01849.
 
 Fils suivis dans la série 00451-00550 :
