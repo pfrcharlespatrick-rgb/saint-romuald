@@ -31264,7 +31264,7 @@
         }
       ],
       "affirmations": [],
-      "note": "Le bail à rente de Louis-Hubert Roberge à Thomas Proulx — sans doute celui du 21 décembre 1874 (n° 269), suivi d'une obligation de Proulx envers Roberge (n° 270) — est annulé moins de quatre mois plus tard. Le notaire n'a pas rempli la date du bail résilié : il avait écrit « mil huit cent soixante », formule toute faite, ce qui laisse un doute sur l'acte visé.",
+      "note": "Le bail à rente de Louis-Hubert Roberge à Thomas Proulx — sans doute celui du 21 décembre 1874 (n° 269), suivi d'une obligation de Proulx envers Roberge (n° 270) — est annulé moins de quatre mois plus tard. Le notaire n'a pas rempli la date du bail résilié : il avait écrit « mil huit cent soixante », formule toute faite, ce qui laisse un doute sur l'acte visé. La minute avait d'abord été datée du 20 mars, comme le n° 347 : voir ce dernier sur le renvoi de l'archiviste (n° 329-331 « voir 347-349 »).",
       "ajoute_le": "2026-11-19",
       "images": [
         {
@@ -31277,6 +31277,55 @@
           "fichier": "01462",
           "microfilm": "002406",
           "drive": "1kkAyjhKPQ6TOWC1GJG1A1hymvirpaaDm",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-04-07-resiliation-obligation-proulx-roberge",
+      "type": "notarie",
+      "titre": "Résiliation par Louis-Hubert Roberge, navigateur, et Thomas Proulx, menuisier, de l'obligation de décembre 1874 (n° 270) — minute n° 347, 7 avril 1875",
+      "date": "1875-04-07",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 347, images 002407 et 002408 (Drive : fichiers 04T_CN401S124P_01463 et 01464). Le numéro est corrigé (« 3[3]7 » en « 347 ») et la date, d'abord « 20 mars », est corrigée en « 7 avril » (renvoi paraphé « L. H. R. », « L. J. S. R. », « E. H. T. N.P. »). La date de l'obligation résiliée et le numéro de la minute sont laissés en blanc. Acte complet.",
+      "nature": "Résiliation d'obligation, passée le 7 avril 1875, après midi, à Saint-Romuald, en la demeure de Louis-Hubert Roberge, devant un témoin ; Thomas Proulx ne sait signer.",
+      "transcription": "[002407] « N° 347 — 7 avril [20 mars, rayé] 1875. L'an mil huit cent soixante-quinze, le [renvoi (1) : « sept d'avril »], après-midi, en présence de Me Elzéar Hubert Tremblay, notaire public résidant & pratiquant à St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Louis Joseph Stanislas Roberge, de St Romuald, instituteur, témoin au présent acte, aussi soussigné ; Furent présents : Mr Louis Hubert Roberge, navigateur, & Mr Thomas Proulx, menuisier, demeurant tous deux à St Romuald susdit ; Lesquels ont résilié, rescindé & annulé, comme par ces présentes ils résilient, rescindent & annulent, un certain acte d'obligation consenti par le dit Sieur Proulx en faveur du dit Sieur Roberge, reçu par le notaire soussigné en date du [en blanc] jour de [en blanc] mil huit cent soixante[-…]. [002408] En conséquence le dit acte d'obligation sus-cité & daté est nul & de nul effet à dater de ce jour & à toujours. Dont acte requis & octroyé à St Romuald, demeure de Mr Louis Hubert Roberge, les jour, mois & an susdits, sous le numéro trois cent [en blanc]. Requis de signer, le dit Sieur Proulx a déclaré ne le savoir en présence du dit témoin qui a signé ainsi que le dit Sieur Roberge avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « L. Hubert Roberge », « Louis J. S. Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "creancier",
+          "nom": "Louis-Hubert Roberge",
+          "note": "Navigateur de Saint-Romuald ; l'acte est passé chez lui ; signe « L. Hubert Roberge ». Non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Thomas Proulx",
+          "ref_personne": "1871-D2-P020-L20",
+          "note": "Menuisier de Saint-Romuald ; ne sait signer. Même rattachement probable qu'aux n° 72, 110, 269, 270 et 346."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Joseph Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe « Louis J. S. Roberge ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le même jour que la résiliation du bail à rente (n° 346), l'obligation de Thomas Proulx envers Louis-Hubert Roberge — sans doute celle du 21 décembre 1874 (n° 270) — est annulée à son tour : l'affaire de décembre est entièrement défaite. Les deux minutes avaient d'abord été datées du 20 mars ; la feuille de l'archiviste (fichier 01410) renvoie les n° 329 à 331 « aux actes n° 347 à 349 » : ces résiliations sont sans doute les actes préparés le 20 mars sous ces numéros et passés le 7 avril.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01463",
+          "microfilm": "002407",
+          "drive": "11VCf_dVYbnoTm9Am9nOtc37PaKMXZdh4",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01464",
+          "microfilm": "002408",
+          "drive": "1fOKgyCAB85ZsQHfiOKcRb5G4wAV1MY-p",
           "legende": "2/2"
         }
       ]
