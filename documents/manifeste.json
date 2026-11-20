@@ -30270,6 +30270,106 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-03-22-cession-bolduc-pichette",
+      "type": "notarie",
+      "titre": "Renonciation et cession par Delphine Bolduc (épouse d'Édouard Paquet) et Louis-Magloire Bolduc, peintre de Québec, à Alexis Pichette, maître maçon, et Éléonore Bolduc, son épouse, de leurs droits dans la succession de leurs parents — minute n° 328, 22 mars 1875",
+      "date": "1875-03-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 328, images 002350 à 002353 (Drive : fichiers 04T_CN401S124P_01406 à 01409). Le numéro de tête, d'abord « 332 », est corrigé en « 328 », mais la clôture porte encore « trois cent trente-deux ». En marge « Renonciation & Cession Bolduc & alias à Pichette & uxor — Original — Expédié 1 fois — $2.00 Payé par Morin qui a acheté la propriété » et « cédé à Pichette & sa femme ». Acte très raturé (la première rédaction nommait Éléonore Bolduc parmi les cédants) ; un renvoi paraphé « E. B., A. P., L. B., G. B., Édd B [?] ». Au bas, en oblique : « Résilié par une résiliation du 15 avril 1875 [?] ». Acte complet.",
+      "nature": "Renonciation et cession de droits successifs, passée le 22 mars 1875, avant midi, à Saint-Romuald, en la demeure d'Édouard Paquet, devant un témoin ; Delphine Bolduc ne sait signer. Résiliée, selon une note marginale, le 15 avril 1875 [?].",
+      "transcription": "[002350] « N° 328 — 22 mars 1875. L'an mil huit cent soixante-quinze, le vingt-deux de mars, avant midi, en présence de Mtre Elzéar Hubert Tremblay, Notaire Public résidant & pratiquant en la paroisse de St Romuald, dans le comté de Lévis, soussigné ; Et en présence de George Bégin, de St Romuald, marchand, témoin au présent acte, aussi soussigné ; Furent présents : Dame Delphine Bolduc, épouse de Sieur Édouard Paquet, cordonnier, demeurant tous deux à St Romuald, le dit Sieur Édouard Paquet à ce aussi présent & autorisant sa dite épouse à l'effet des présentes ; et Sieur Louis Magloire Bolduc, demeurant en la cité de Québec, peintre ; Lesquels ont cédé, transporté & abandonné, & cèdent par ces présentes, cèdent, transportent [002351] & abandonnent dès maintenant & à toujours à Sr Alexis Pichette, Mtre maçon, & Dame Éléonore Bolduc, son épouse, demeurant à St Romuald, à ce présents & acceptants, pour eux, leurs hoirs & ayants cause, savoir : Tous les droits & prétentions qu'eux, dits cédants, ont ou peuvent avoir dans l'hérédité & succession de feu Sieur Louis Magloire Bolduc, en son vivant hôtelier, & de feue Dame Angèle Côté, son épouse, en leur vivant de la cité de Québec, concernant un certain circuit de terre mentionné au cadastre pour le Quartier St Jean [?], fait & dressé au plan cadastral pour la Rue [002352] Déligny [?], sous le Numéro 3667 [?] ; mettant & subrogeant les cessionnaires en leurs lieu & place, noms, droits, raison, action & privilège, à la charge par eux de payer à qui de droit une hypothèque créée en faveur de [feu Sieur ?] Blanchet, au montant de la somme de quinze louis courant [renvoi (1) : « & les intérêts échus, & affectant le dit circuit de terre »]. Les dits cédants renonçant pour eux, leurs hoirs & ayants cause, à tous droits quelconques qu'ils ont ou peuvent avoir sur le dit circuit de terre, en faveur des cessionnaires. [Ce transport ou cession & abandon est fait pour bonnes & valables considérations que les cédants reconnaissent avoir reçues des cessionnaires dès avant ces présentes, dont quittance — passage en partie rayé.] Pour par les cessionnaires jouir de tout ce que dessus cédé en pleine & entière propriété & en disposer comme bon leur semblera à compter de ce jour & à toujours, à leur seul avantage & profit. Et pour l'exécution des présentes, les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald, [002353] demeure du dit Sr Édouard Paquet, les jour, mois & an susdits, sous le numéro trois cent trente-deux [sic] des originaux du Notaire soussigné. Et toutes les parties ont signé à l'exception de la dite Dame Paquet qui a déclaré ne le savoir, de ce requise, en présence du témoin qui a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « Louis Bolduc », « Éléonore Bolduc », « Alexis Pichette », « Édouard Paquet », « George Bégin », « E. H. Tremblay, N.P. ». En marge, liste des parties : « Dame Paquet, Mr [Paquet], Mr Bolduc, Dme Pichette, Mr Pichette » ; en oblique : « Résilié par une résiliation du 15 avril 1875 [?] ».",
+      "personnes": [
+        {
+          "role": "cedant",
+          "nom": "Delphine Bolduc",
+          "ref_personne": "1871-D1-P016-L08",
+          "note": "Fille de feu Louis-Magloire Bolduc, hôtelier, et d'Angèle Côté, de Québec ; épouse d'Édouard Paquet, cordonnier ; ne sait signer. Rattachement probable à « Delphine Paquet », 33 ans, épouse du cordonnier en 1871."
+        },
+        {
+          "role": "autre",
+          "nom": "Édouard Paquet",
+          "ref_personne": "1871-D1-P016-L07",
+          "note": "Cordonnier de Saint-Romuald ; autorise son épouse ; l'acte est passé chez lui. Signe « Édouard Paquet ». Rattachement probable, comme dans les actes précédents."
+        },
+        {
+          "role": "cedant",
+          "nom": "Louis-Magloire Bolduc",
+          "note": "Peintre de la cité de Québec, fils du défunt du même nom ; signe « Louis Bolduc ». Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "cessionnaire",
+          "nom": "Alexis Pichette",
+          "ref_personne": "1871-D1-P002-L13",
+          "note": "Maître maçon de Saint-Romuald ; signe « Alexis Pichette ». Rattachement probable au maçon de 27 ans, né à Québec, recensé en 1871 avec son épouse Éléonore ; le même que l'acquéreur du lot n° 6 de la rue Demers (titre nouvel de décembre 1874)."
+        },
+        {
+          "role": "cessionnaire",
+          "nom": "Éléonore Bolduc",
+          "ref_personne": "1871-D1-P002-L14",
+          "note": "Fille des défunts, épouse d'Alexis Pichette ; signe « Éléonore Bolduc ». Rattachement probable à « Eléonore Pichette », 24 ans, née à Québec, en 1871."
+        },
+        {
+          "role": "autre",
+          "nom": "Louis-Magloire Bolduc",
+          "note": "Feu hôtelier de la cité de Québec, père des parties."
+        },
+        {
+          "role": "autre",
+          "nom": "Angèle Côté",
+          "note": "Feue épouse du précédent, mère des parties."
+        },
+        {
+          "role": "creancier",
+          "nom": "Blanchet",
+          "note": "Créancier d'une hypothèque de quinze louis sur la terre de Québec, sans prénom. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Morin",
+          "note": "« qui a acheté la propriété » et a payé les frais (note en marge) ; sans prénom. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "George Bégin",
+          "ref_personne": "1871-D1-P012-L04",
+          "note": "Marchand de Saint-Romuald ; signe « George Bégin ». Rattachement probable, comme au n° 322."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Les enfants d'un hôtelier de Québec, Louis-Magloire Bolduc, et d'Angèle Côté règlent la succession d'un terrain de la ville : Delphine (femme du cordonnier Paquet) et Louis-Magloire fils, peintre, cèdent leurs parts à leur sœur Éléonore et à son mari, le maçon Alexis Pichette, qui prennent à leur charge une hypothèque de quinze louis. Une note en marge dit les frais « payés par Morin qui a acheté la propriété », une autre que l'acte fut résilié le 15 avril 1875 [?]. Le numéro de clôture (« trois cent trente-deux ») ne s'accorde pas avec celui de tête (328) : à vérifier sur les minutes voisines. La désignation de Québec (« Quartier St Jean », « Rue Déligny », n° 3667) est de lecture incertaine.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01406",
+          "microfilm": "002350",
+          "drive": "1t0dRsHI2EPb1q3L3d4AW9UJsNhs5vsIO",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01407",
+          "microfilm": "002351",
+          "drive": "1CyRr4MPXPh-9hN2u2PrtC2rUboRLWWyh",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01408",
+          "microfilm": "002352",
+          "drive": "13QzOhY04Iyo_khVE4K2YpWFJ-02wbV9c",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01409",
+          "microfilm": "002353",
+          "drive": "1F2ti-DPZeQEfBD_AQZgtV0y67j99sizy",
+          "legende": "4/4"
+        }
+      ]
     }
   ]
 }
