@@ -30382,6 +30382,156 @@
           "legende": "feuille de l'archiviste : « Acte manquant # 332 »"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-03-23-quittance-cantin-fontaine",
+      "type": "notarie",
+      "titre": "Quittance par Germain Cantin, marchand, à Isaac Fontaine père, rentier, et à Étienne Cantin, cultivateur de Saint-Jean-Chrysostome — minute n° 333, 23 mars 1875",
+      "date": "1875-03-23",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 333, images 002356 et 002357 (Drive : fichiers 04T_CN401S124P_01412 et 01413). En marge « Quittance 400.00 Cantin à Fontaine — Original — $1.00, .80, $1.80 [?] — Payé hon. & enrég. — Exp. 1 fois & enrég. ». Le numéro est laissé en blanc dans la clôture (« sous le numéro trois cent … »). Acte complet.",
+      "nature": "Quittance générale et finale d'une obligation, passée le 23 mars 1875, après midi, à Saint-Romuald, en la demeure de Calixte Rogers, hôtelier, sans témoin.",
+      "transcription": "[002356] « 333 — 23 mars 1875. L'an mil huit cent soixante-quinze, le vingt-trois de mars, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Fut présent : Germain Cantin, Écr, de St Romuald, marchand ; Lequel reconnaît avoir reçu à son entière satisfaction, en bon argent courant, avant l'exécution des présentes, de Sieur Isaac Fontaine, père, rentier, de St Jean Chrysostome, pour & à l'acquit & décharge de Étienne Cantin, cultivateur, de St Jean Chrysostome, dit comté, la somme de quatre cents piastres courant & les intérêts échus sur la dite somme jusqu'à ce jour, étant pour le parfait & entier paiement & remboursement du montant d'une obligation consentie en faveur du comparant par le dit Étienne Cantin, suivant acte reçu par Mtre Étienne Simard, Notaire, & enregistrée [002357] au Bureau d'enregistrement du comté de Lévis, Reg. B, Vol. 16, page 672, N° 13,006. Dont & du tout le comparant donne & accorde quittance générale & finale aux dits Sieurs Isaac Fontaine, père, & Étienne Cantin. Dont acte requis & octroyé à St Romuald, demeure de Mr Calixte Rogers, hôtelier, les jour, mois & an susdits, sous le numéro trois cent [en blanc]. Et le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Germain Cantin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "Écuyer, marchand de Saint-Romuald ; signe « Germain Cantin ». Rattachement probable, comme dans les actes précédents."
+        },
+        {
+          "role": "autre",
+          "nom": "Isaac Fontaine, père",
+          "note": "Rentier de Saint-Jean-Chrysostome, qui paie pour Étienne Cantin ; vendeur de sa terre le même jour (n° 334). Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Étienne Cantin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, débiteur de l'obligation (Me Étienne Simard). Plusieurs Étienne Cantin aux recensements (journaliers de 74 et 29 ans en 1881, division 2) : non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Calixte Rogers",
+          "note": "Hôtelier de Saint-Romuald ; l'acte est passé chez lui, comme le n° 334. Le même qu'au contrat de mariage Carrier-Lévesque d'octobre 1874. Absent des recensements : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Isaac Fontaine père rembourse à Germain Cantin, pour Étienne Cantin, une obligation de quatre cents piastres. Le même jour et au même endroit, il vend sa terre de la Maringouinière à Élisée Legendre (n° 334), sans doute avec l'argent comptant de cette vente ; la terre reste grevée de deux cents piastres en faveur d'Étienne Cantin. Les deux actes sont passés à l'hôtel de Calixte Rogers.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01412",
+          "microfilm": "002356",
+          "drive": "1QSWG7pDqyPgMrvhnITKJQ7cWZ7HCxwt7",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01413",
+          "microfilm": "002357",
+          "drive": "1nOSEporjKp-h110_TV5nQ6jUmt7J3_B0",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-03-23-vente-fontaine-legendre",
+      "type": "notarie",
+      "titre": "Vente par Isaac Fontaine père, rentier, et Marguerite Grégoire [?], son épouse, à Élisée Legendre, rentier de Québec, d'une terre de la concession de la Maringouinière, à Saint-Jean-Chrysostome — minute n° 334, 23 mars 1875",
+      "date": "1875-03-23",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 334, images 002358 à 002361 (Drive : fichiers 04T_CN401S124P_01414 à 01417). Une large tache d'encre couvre le nom et la qualité de l'épouse sur la première page ; lecture incertaine. En marge « Vente Fontaine à Legendre — Original — Exp. 1 fois — Orig. 2.00, Enrég. 1.60, $3.60 [corrigé $3.10] — Payé — Exp. 2 fois & payé ». Un renvoi (« Pour par l'acquéreur jouir du dit immeuble en toute propriété de ce jour & à toujours ») et un autre (« ou ses enfants ont ou pourraient ») paraphés « E. L. », « W. W. », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Vente, passée le 23 mars 1875, après midi, à Saint-Romuald, en la demeure de Calixte Rogers, hôtelier, devant un témoin ; les vendeurs ne savent signer.",
+      "transcription": "[002358] « 334 — 23 mars 1875. L'an mil huit cent soixante-quinze, le vingt-trois de mars, après-midi, en présence de Mtre Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Sieur William Wilson, de St Romuald, mesureur de bois, témoin au présent acte, aussi soussigné ; Furent présents : Mr Isaac Fontaine, père, rentier, & Dame Marguerite [?] Grégoire [?], son épouse, qu'il autorise à l'effet des présentes, demeurant tous deux à St Jean Chrysostome ; Lesquels vendent avec garantie de tous troubles quelconques à Mr Élisée Legendre, de la cité de Québec, rentier, à ce présent & acceptant acquéreur, pour lui, ses hoirs & ayants cause, savoir : Une terre située en la dite paroisse de St Jean Chrysostome, en la concession [002359] de la Maringouinière, contenant un arpent & demi de front sur environ vingt-trois arpents de profondeur, le tout plus ou moins, sans garantie de mesure précise, bornée par devant au sud-ouest au chemin public & par derrière au nord-est à Étienne Paradis, d'un côté au nord à Louis Couture & d'autre côté au sud à Louis Patry & Ambroise Plante, avec ensemble la maison & les autres bâtisses dessus érigées, circonstances & dépendances. [Renvoi (1) : « Pour par l'acquéreur jouir du dit immeuble en toute propriété de ce jour & à toujours. »] Aux vendeurs appartient la dite terre suivant titres bons & valables qu'ils ont remis à l'instant même à l'acquéreur, qui le reconnaît, dont quittance. Cette vente est faite à la charge par l'acquéreur, qui s'y oblige pour lui, ses hoirs & ayants cause : 1° De payer à qui il appartient tous droits seigneuriaux & autres taxes, garanti quitte de tous arrérages jusqu'à ce jour ; 2° Pour le prix ou somme de mille piastres courant, sur & en à-compte duquel [002360] les vendeurs reconnaissent avoir eu & reçu lors de l'exécution des présentes, & à vue & présence de nous Notaire, la somme de six cents piastres courant. Et quant à la balance, l'acquéreur s'oblige la payer par versements égaux & annuels de la somme de cinquante piastres courant chacun, sans intérêt, au premier jour de mai de chaque année, & dont le premier paiement échoira & se fera au premier jour de mai mil huit cent soixante-seize, & ainsi de suite chaque année à pareille date jusqu'au parfait paiement. Et attendu que les vendeurs déclarent qu'ils doivent la somme de deux cents piastres portant hypothèque & affectant la dite terre en faveur du dit Étienne Cantin, il est convenu que l'acquéreur aura le droit de garder par devers lui les quatre derniers paiements annuels, au montant de deux cents piastres courant, jusqu'à ce que les vendeurs lui [002361] exhibent une quittance notariée constatant que la balance revenant au dit Sr Cantin a été entièrement acquittée & payée. Et pour sûreté du paiement de la dite balance de quatre cents piastres courant, l'acquéreur hypothèque la dite terre en faveur des vendeurs, ces derniers se réservant leurs privilèges de bailleurs de fonds. Et par ces mêmes présentes, la dite Dame Fontaine renonce à tous douaires ou droits à douaires qu'elle [renvoi : « ou ses enfants ont ou pourraient »] avoir sur ce que dessus vendu. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte fait & passé à St Romuald, demeure de Mr Calixte Rogers, hôtelier, les jour, mois & an susdits, sous le numéro trois cent trente-quatre. Et l'acquéreur & le dit témoin ont signé avec moi, Notaire, les vendeurs ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. Renvoi en marge est bon & approuvé. » — Signé : « Élisée Legendre », « William Wilson », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Isaac Fontaine, père",
+          "note": "Rentier de Saint-Jean-Chrysostome ; ne sait signer. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "vendeur",
+          "nom": "Marguerite Grégoire [?]",
+          "note": "Épouse du précédent ; renonce à son douaire ; ne sait signer. Nom en partie sous une tache d'encre : lecture incertaine. Non rattachée."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Élisée Legendre",
+          "note": "Rentier de la cité de Québec ; signe « Élisée Legendre ». Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "creancier",
+          "nom": "Étienne Cantin",
+          "note": "Créancier d'une hypothèque de deux cents piastres sur la terre ; voir le n° 333 où il est débiteur de Germain Cantin. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Étienne Paradis",
+          "note": "Voisin au nord-est (par derrière). Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis Couture",
+          "note": "Voisin au nord. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis Patry",
+          "note": "Voisin au sud, avec Ambroise Plante. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Ambroise Plante",
+          "note": "Voisin au sud, avec Louis Patry. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "William Wilson",
+          "ref_personne": "1871-D2-P005-L18",
+          "note": "Mesureur de bois de Saint-Romuald ; signe « William Wilson ». Rattachement probable au fils de Thomas Wilson, inspecteur de bois, comme dans la quittance Couture-Wilson d'octobre 1874."
+        },
+        {
+          "role": "autre",
+          "nom": "Calixte Rogers",
+          "note": "Hôtelier ; l'acte est passé chez lui. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un rentier de Saint-Jean-Chrysostome vend à un rentier de Québec sa terre de la concession de la Maringouinière (un arpent et demi sur vingt-trois, avec maison) pour mille piastres : six cents comptant, le reste par cinquante piastres l'an, sans intérêt. Comme la terre porte encore deux cents piastres dues à Étienne Cantin, l'acquéreur peut retenir les quatre derniers versements jusqu'à ce qu'on lui montre une quittance notariée. La quittance de Germain Cantin (n° 333), passée juste avant au même endroit, éteint une autre dette de quatre cents piastres liée à Étienne Cantin.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01414",
+          "microfilm": "002358",
+          "drive": "1pjGGXdzrreHD09yKUxs3C1aoxserI5lJ",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01415",
+          "microfilm": "002359",
+          "drive": "1kIP-CfxdVjEdYVjjibrW0inJSJHXcK-u",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01416",
+          "microfilm": "002360",
+          "drive": "1SuO3qP4MY9LQXnm_ijotM2SJti1CjzYM",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01417",
+          "microfilm": "002361",
+          "drive": "1qifiJJ3IxqJwufL60zqqBseIofHpUeg0",
+          "legende": "4/4"
+        }
+      ]
     }
   ]
 }
