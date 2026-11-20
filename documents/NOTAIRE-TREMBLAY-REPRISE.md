@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (404 fiches au 21 novembre 2026 ; série jusqu'à 01738 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
+fiche dont l'identifiant commence par `notarie-` (409 fiches au 21 novembre 2026 ; série jusqu'à 01761 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
 
 ## Où sont les images
 
@@ -691,12 +691,12 @@ Suite (20-21 novembre) : fichiers **01644 à 01660** lus, actes **n° 395-396**
 
 ## Passation à une nouvelle conversation (21 novembre 2026)
 
-**Où reprendre** : fichier **01739** (microfilm 002683), début du protêt
-d'abornage n° 421 (Ambroise Plante à Louis Patry, 26 juin 1875), qui se
-poursuit en 01740 et au-delà. Les fichiers 01661 à 01738 sont versés (n° 397 à
-420, voir
+**Où reprendre** : fichier **01762** (microfilm 002706), testament de Pierre
+Roberge, cultivateur de la concession « Appenin », Saint-Jean-Chrysostome
+(n° 426, 8 juillet 1875), qui se poursuit en 01763 et au-delà. Les fichiers 01661 à 01761 sont versés (n° 397 à
+425, voir
 « Suite du 21 novembre » plus bas). Chercher les suivants par
-`title = '04T_CN401S124P_01741.jpg' or title = '…01742.jpg' or …` (les identifiants de 01739 et 01740 : `1RWPDNfmdi48y-cMBfzYlnpiOE2b9bfpk`, `1xQN4UwYDNOfjocshmQqtJwSJYppy76Nc`) (la
+`title = '04T_CN401S124P_01781.jpg' or title = '…01782.jpg' or …` (les identifiants de 01762 à 01780 sont notés plus bas) (la
 recherche `title contains '…0167'` rate des fichiers). Les fichiers 016xx-017xx
 sont dans le dossier Drive `1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql` ; le Drive va
 au moins jusqu'au fichier 01900.
@@ -861,6 +861,25 @@ jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivant
   concession « Appenin » [?] à relire) ; procuration Simard pour vendre un
   terrain à Sainte-Anne (n° 420, écrite sur le modèle d'une autre étude ;
   25 ou 26 juin à vérifier).
+
+- **Fichiers 01739 à 01761** : protêt d'abornage d'Ambroise Plante à Louis
+  Patry, douanier de la Maringouinière (n° 421 : la terre Simoneau, prise
+  entre le village de Taniata et la première concession de la rivière
+  Etchemin ; l'arpenteur Jobidon doit tirer la ligne le 2 juillet) ;
+  concession Demers à Léon Riché, jobber (n° 422) ; bail Leclerc–Sirois
+  (n° 423 : le boulanger Honoré Sirois loue de nouveau chez François Leclerc,
+  senior) ; résiliations Lépine–Houde (n° 424, fin du bail n° 326) et
+  Morin–Sirois (n° 425, meubles laissés en gage).
+- Identifiants Drive notés d'avance : 01762 `1cvZfbDs2xTaXSpNiRIs_0Rn-d-pF_G3g`,
+  01763 `1xfp_edel5UjOojby4wb26oLk1n9tzAc_`, 01764 `1PDtOBBe3pdpX8fQDsxiKXoXpXrH0jFvC`,
+  01765 `18fxjNNUuZj0ye98HCO2rJoOjOT48GHwz`, 01766 `1DgtpA6EBrldNzQDxYtygzZ0OsJALcu6y`,
+  01767 `1PvqYRzJ6T8D-3xaPTYlJshM99NhZqTjj`, 01768 `1WD_DQHRmDK9nr3ygZvC0RuJNrUrizLY0`,
+  01769 `1z8UT7DXNh5oGDXytKjVN-0d7EdFDlsti`, 01770 `1ruIDDmW-elGNuLboBzOVuroX6bEqOTX4`,
+  01771 `1CYqAsRVj6sDHsPHrzasylxEJKomQX5vA`, 01772 `194D0P_5g_XMBYU7sQCLBhHlBNeyLrLH1`,
+  01773 `1h2DohZWCLqplUG1Q07VkZ5Prfo2dtKs2`, 01774 `10-qDxLzBtad7neRRfFgyUSsI-YD0AZNt`,
+  01775 `1ndlaSFJwePXRZb4KM503Qvu87_Q_ODZd`, 01776 `1KdfpXJKry9K5ZiFMDsjTtMzhO7hSdjkf`,
+  01777 `1SfgQPpuq9ISX3yzT-vtcXC5nBMlhbWjY`, 01778 `1FAmYmxiv2L4biLJdGUusLL2fyx8f_2rf`,
+  01779 `1viq4lpxntPdl8lNcQczQDRCyaaQAReg1`, 01780 `1trrXt4QX2AvZBcGOAJzJ45_4tw-QEKuh`.
 
 Points pour Patrick : **n° 402**, l'en-tête dit « 2 juin », un renvoi du texte
 semble dire « quatrième jour » ; **n° 403**, la clôture dit « quatre cent
