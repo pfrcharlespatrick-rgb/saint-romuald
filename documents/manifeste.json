@@ -36681,6 +36681,185 @@
           "legende": "11/11"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-09-10-testament-jean-baptiste-cantin",
+      "type": "notarie",
+      "titre": "Testament de Jean-Baptiste Cantin, cultivateur de Saint-Jean-Chrysostome, en faveur de sa femme Marguerite Jolin — minute n° 439, 10 septembre 1875",
+      "date": "1875-09-10",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 439, images 002761 à 002764 (Drive : fichiers 04T_CN401S124P_01817 à 01819). Papier réglé. Numéro confirmé par la clôture (« quatre cent trente-neuf »). En marge « Testament de Jean Bte Cantin — Original — $1.00 — Payé — Exp. 1 fois ». Le premier témoin écrit (« Pierre Bégin, marchand ») est rayé et remplacé. Acte complet.",
+      "nature": "Testament authentique, reçu le 10 septembre 1875, après midi, en l'étude du notaire à Saint-Romuald, devant deux témoins ; le testateur signe.",
+      "transcription": "[002761] « N° 439. 10 sept. 1875. L'an mil huit cent soixante-quinze, le dixième jour de septembre, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Sr [rayé : « Pierre Bégin, marchand »] Louis Toussaint, journalier, & de Sr Théodule Bégin, hôtelier, tous deux de St Romuald, témoins au présent testament, aussi soussignés ; Fut présent : Mr Jean-Baptiste Cantin, de la paroisse de St Jean Chrysostome, dit comté, cultivateur, étant en bonne santé de corps, sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous, notaire, & aux dits témoins par son maintien & ses discours & par la manifestation claire & précise de ses volontés ; Lequel a, dans la vue de la mort, fait & nommé son présent testament à nous, notaire, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : [002762] Primo : Je veux & ordonne que mes dettes soient payées & mes torts réparés par Dame Marguerite Jolin, mon épouse actuelle, que je nomme mon exécutrice testamentaire, à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes & prières, & à laquelle dite Dame Marguerite Jolin, mon épouse, je donne & lègue tous mes biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès, de quelque nature & valeur qu'ils soient, pour par elle en jouir, faire & disposer en toute propriété à compter du jour de mon décès, instituant ma dite épouse ma légataire universelle en propriété. 2° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par le testateur à nous, notaire, en présence des dits témoins, & son présent [002763] testament lui ayant été lu, expliqué & relu en présence des dits témoins par le dit notaire, il a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant ses dernières volontés. Dont acte fait & passé à St Romuald, étude du dit notaire, les jour, mois & an susdits, sous le numéro quatre cent trente-neuf. Et le testateur & les témoins ont signé avec moi, notaire, lecture faite & refaite. Mots rayés sont nuls. » — Signé : « Jean Baptiste Cantin », « Théodule Bégin », « Louis Toussaint », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Jean-Baptiste Cantin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, mari de Marguerite Jolin ; signe « Jean Baptiste Cantin ». À distinguer du Jean-Baptiste Cantin, mari d'Adèle Cadoret, de la donation Cadoret de janvier 1874 (sauf remariage). Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "legataire",
+          "nom": "Marguerite Jolin",
+          "note": "Épouse du testateur, légataire universelle et exécutrice testamentaire ; elle teste le même jour en sa faveur (n° 440)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Théodule Bégin",
+          "ref_personne": "1881-D2-P001-L01",
+          "note": "Hôtelier de Saint-Romuald ; signe « Théodule Bégin ». Même rattachement probable qu'au n° 94 (hôtelier de 36 ans en 1881, division 2, maison 1)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Toussaint",
+          "note": "Journalier de Saint-Romuald ; signe « Louis Toussaint ». Peut-être le Louis Toussaint de 18 ans de 1871 (1871-D1-P021-L12), journalier de 28 ans en 1881 — hypothèse, non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Testament croisé avec celui de sa femme (n° 440), passé le même après-midi dans l'étude du notaire, devant les mêmes témoins : chacun lègue tout à l'autre.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01817",
+          "microfilm": "002761",
+          "drive": "1hjHe5rL6LVnEwxD_K77mzhIFqsZQWGdW",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01818",
+          "microfilm": "002762",
+          "drive": "10AUkK8hyfV1l5VYFvR7VsZAL1BJVtyCd",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01819",
+          "microfilm": "002763",
+          "drive": "1Kofshze9cq0HcCjozLwwAVFa5D6RRr_N",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-09-10-testament-marguerite-jolin",
+      "type": "notarie",
+      "titre": "Testament de Marguerite Jolin, épouse de Jean-Baptiste Cantin, cultivateur de Saint-Jean-Chrysostome, en faveur de son mari — minute n° 440, 10 septembre 1875",
+      "date": "1875-09-10",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 440, images 002764 à 002767 (Drive : fichiers 04T_CN401S124P_01820 à 01822). Papier réglé. Numéro confirmé par la clôture (« quatre cent quarante »). En marge « Testament de Dame Jean Bte Cantin — Original — $1.00 — Exp. 1 fois & payé — Exp. 2 fois — 1.20 ». Acte complet.",
+      "nature": "Testament authentique, reçu le 10 septembre 1875, après midi, en l'étude du notaire à Saint-Romuald, devant deux témoins ; la testatrice signe.",
+      "transcription": "[002764] « N° 440. 10 sept. 1875. L'an mil huit cent soixante-quinze, le dixième jour de septembre, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de [rayé : « Pierre Bégin, marchand »] Théodule Bégin, hôtelier, & de Sr Louis Toussaint, journalier, tous deux de St Romuald, témoins au présent testament, aussi soussignés ; Fut présente : Madame Marguerite Jolin, épouse de Mr Jean-Baptiste Cantin, cultivateur, demeurant tous deux en la paroisse de St Jean Chrysostome, dit comté, étant en bonne santé de corps, saine d'esprit, mémoire, jugement & entendement, ainsi qu'elle est apparue à nous, notaire, & aux dits témoins par son maintien & ses discours & par la manifestation claire & précise de ses volontés ; Laquelle a, dans la vue de la mort, fait & [002765] nommé son présent testament à nous, notaire, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : Primo : Je veux & ordonne que mes dettes soient payées & mes torts réparés par Mr Jean-Baptiste Cantin, mon époux actuel, que je nomme mon exécuteur testamentaire, & à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, messes & prières, & auquel dit Sr Jean-Baptiste Cantin, mon dit époux, je donne & lègue tous mes biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès, de quelque nature & valeur qu'ils soient, pour par lui en jouir, faire & disposer en toute propriété à compter du jour de mon décès, instituant mon dit époux mon légataire universel en propriété. 2° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. [002766] Ce fut ainsi fait & nommé par la testatrice à nous, notaire, en la présence des dits témoins, & son présent testament lui ayant été lu, expliqué & relu en présence des dits témoins par le dit notaire, elle a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte fait & passé à St Romuald, étude du dit notaire, les jour, mois & an susdits, sous le numéro quatre cent quarante. Et la testatrice & les dits témoins ont signé avec moi, notaire, lecture faite & refaite. Mots rayés sont nuls. » — Signé : « Marguerite Jolin », « Théodule Bégin », « Louis Toussaint », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Marguerite Jolin",
+          "note": "Épouse de Jean-Baptiste Cantin, cultivateur de Saint-Jean-Chrysostome ; signe « Marguerite Jolin ». Hors paroisse ; non rattachée."
+        },
+        {
+          "role": "legataire",
+          "nom": "Jean-Baptiste Cantin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, mari de la testatrice ; le testateur du n° 439."
+        },
+        {
+          "role": "temoin",
+          "nom": "Théodule Bégin",
+          "ref_personne": "1881-D2-P001-L01",
+          "note": "Hôtelier de Saint-Romuald ; signe. Même rattachement probable qu'au n° 439."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Toussaint",
+          "note": "Journalier de Saint-Romuald ; signe. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Pendant du testament du mari (n° 439).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01820",
+          "microfilm": "002764",
+          "drive": "1SeZTv7pBQNbSfqI4VexEWX4Anm3PJzLE",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01821",
+          "microfilm": "002765",
+          "drive": "10STZ8OkWJ4ivM2tyhQUvh0r_kcqE3IS-",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01822",
+          "microfilm": "002766",
+          "drive": "14jzMgSY1wuZony2O0Mam8HEQdqz3s1ED",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-09-12-testament-olivier-roberge",
+      "type": "notarie",
+      "titre": "Testament d'Olivier Roberge, cultivateur de la concession Taniata, Saint-Jean-Chrysostome, en faveur de sa femme Henriette Gagné — minute n° 441, 12 septembre 1875",
+      "date": "1875-09-12",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 441, images 002767 à 002770 (Drive : fichiers 04T_CN401S124P_01823 à 01825). Papier réglé ; écrit de deux mains (le notaire et un clerc), avec deux renvois en marge paraphés « O. R. », « L. C. », « J. C. », « E. H. T. ». L'en-tête porte « N° 441, 12 septembre 1875 » ; la clôture laisse le nombre incomplet (« sous le numéro quatre cent … des originaux ») : le numéro n'est confirmé que par l'en-tête et la suite 440-442. En marge « Testament de O. Roberge — Original — Exp. 1 fois — Payé ». Acte complet.",
+      "nature": "Testament authentique, reçu le 12 septembre 1875 (un dimanche), après midi, à Saint-Jean-Chrysostome, en la demeure du testateur, devant deux témoins ; le testateur signe.",
+      "transcription": "[002767] « N° 441. 12 septembre 1875. L'an mil huit cent soixante-quinze, le douzième jour de septembre, après-midi, en présence de Mr Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant à St Romuald [renvoi (2) : « comté de Lévis »], soussigné ; Et en présence de Sr Louis Cantin, cultivateur, & de Sieur Jacques Cantin, cultivateur, tous deux de St Jean Chrysostome, dit comté, témoins au présent testament, aussi soussignés ; Fut présent : Mr Olivier Roberge, cultivateur, demeurant en la paroisse de St Jean Chrysostome, dit comté, concession Taniata, étant [rayé : « malade de corps »] [renvoi (1) : « en bonne santé »] de corps, sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous, notaire, & aux dits témoins par ses discours & par la manifestation claire & précise de ses volontés ; Lequel a, dans la vue de la mort, fait & nommé son présent testament à nous, notaire, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : Primo : Je veux & ordonne qu'avant tout mes dettes soient payées [002768] & mes torts réparés par Dame Henriette Gagné, mon épouse actuelle, à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, voulant & entendant qu'un service décent soit chanté sur mon corps le jour de mon inhumation, avec un autre service au bout de l'an de mon décès, & que dix messes basses de Requiem soient dites pour le repos de mon âme aussitôt possible après mon décès. 2° Je donne & lègue à Dame Henriette Gagné, mon épouse actuelle, tous les biens meubles & immeubles, hardes & linges de corps généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient, pour par ma dite épouse en jouir, faire & disposer en toute propriété à dater du jour de mon décès, nommant & appointant ma dite épouse mon exécutrice testamentaire & l'instituant ma légataire universelle en propriété. 3° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par le dit testateur à nous, notaire, en la présence constante des dits témoins, & son présent testament [002769] lui ayant été lu, expliqué & relu par le dit notaire, les dits témoins toujours présents, il a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte. Fait & passé à St Jean Chrysostome susdit, demeure du testateur, les jour, mois & an susdits, sous le numéro quatre cent [sic] des originaux du Notaire soussigné. Et le testateur & les dits témoins ont signé avec moi, notaire, lecture faite & refaite. Mots rayés sont nuls. » — Signé : « Olivier Roberge », « Louis Cantin », « Jacques Cantin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Olivier Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, concession Taniata, mari d'Henriette Gagné ; signe « Olivier Roberge ». Sans doute l'Olivier Roberge, cultivateur de Saint-Jean-Chrysostome, qui vend sa terre à son fils Octave en 1874 (n° 34) et signe en toutes lettres au codicille Couture (n° 75) — rapprochement non rattaché, comme dans ces actes (le recensement n'a pas d'Olivier Roberge de cet âge)."
+        },
+        {
+          "role": "legataire",
+          "nom": "Henriette Gagné",
+          "note": "Épouse du testateur, légataire universelle et exécutrice testamentaire. Non rattachée."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Cantin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe « Louis Cantin ». Peut-être le donataire d'Abraham Cantin (quittances de 1874 et 1875) — hypothèse, non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Jacques Cantin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe « Jacques Cantin ». Peut-être le voisin de la terre de Taniata nord-est du bail Lagueux–Michaud (mars 1874) — hypothèse, non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le notaire avait d'abord écrit que le testateur était « malade de corps », puis l'a corrigé par renvoi en « en bonne santé ». Un service le jour de l'inhumation, un autre au bout de l'an, dix messes basses. La clôture, écrite par un clerc, laisse le numéro en blanc après « quatre cent ».",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01823",
+          "microfilm": "002767",
+          "drive": "1zwtf37YiYd0w2QV3iVFdFjD9yq2SRfgb",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01824",
+          "microfilm": "002768",
+          "drive": "1_9HZVaLPh0-W9c2L3PWXgpsU6Pvh-_1O",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01825",
+          "microfilm": "002769",
+          "drive": "1_-KibceTWiJ_ZePMe3RBdgNrPOeQ-u42",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }

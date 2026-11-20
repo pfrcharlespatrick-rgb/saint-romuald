@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (420 fiches au 21 novembre 2026 ; série jusqu'à 01816 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
+fiche dont l'identifiant commence par `notarie-` (423 fiches au 21 novembre 2026 ; série jusqu'à 01825 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
 
 ## Où sont les images
 
@@ -691,15 +691,19 @@ Suite (20-21 novembre) : fichiers **01644 à 01660** lus, actes **n° 395-396**
 
 ## Passation à une nouvelle conversation (21 novembre 2026)
 
-**Où reprendre** : fichier **01817** (microfilm 002761), testament de
-Jean-Baptiste Cantin, cultivateur de Saint-Jean-Chrysostome (n° 439,
-10 septembre 1875), qui se poursuit en 01818 et au-delà. Identifiants Drive
-de 01817 à 01820 : `1hjHe5rL6LVnEwxD_K77mzhIFqsZQWGdW`,
-`10AUkK8hyfV1l5VYFvR7VsZAL1BJVtyCd`, `1Kofshze9cq0HcCjozLwwAVFa5D6RRr_N`,
-`1SeZTv7pBQNbSfqI4VexEWX4Anm3PJzLE`. Les fichiers 01661 à 01816 sont
-versés (n° 397 à 438, voir
+**Où reprendre** : fichier **01826** (microfilm 002770), n° 442 (après le
+testament d'Olivier Roberge n° 441 du 12 septembre 1875). Identifiants Drive
+de 01826 à 01840 : 01826 `1GqxVmXDcfn9FKEFxqlgp3fERKw-MR106`,
+01827 `11YlXXH9icGM9tGlF_MzpICWAVGM136ft`, 01828 `1jeYNZfVyMVPCfSYx9KO-1832VZVqWcMy`,
+01829 `1KYDmFbxNMTh8qP_n6_Z1Rdz3l7AgpVXQ`, 01830 `1X0VT4O7kyMCKtRUQPzThiiYhnl1LJgyC`,
+01831 `16gfstXqr4krzK2l88iBXxr7P32Bij2nu`, 01832 `1VTpEjgzG26vZ_PscXNMaUNUSvQoeAp7p`,
+01833 `1iD0VKyURI_SjNNCJueLMRV96uWnMzol-`, 01834 `1vcrF6_bfY2ayL-kFjpYy8T_uLwQqkFrM`,
+01835 `1ip6tUeQWKZ0tfRQYIFNPEKRh3GNzDHH_`, 01836 `1z4iREFepwFJMefxE6WG2pcu0RcWmIZdQ`,
+01837 `1hnXmTPHKzrw-_P3lbirQeOCWMgS2DksL`, 01838 `1WguD3C9jfKZp_xcVnzoGGWiVuy_tjoe3`,
+01839 `1DcfTOBiDC7Jh8uXpO7ecsFaidQpjFOJD`, 01840 `1DCAdWwteatE-5ccIQYYze2Y070sdpzOJ`.
+Les fichiers 01661 à 01825 sont versés (n° 397 à 441, voir
 « Suite du 21 novembre » plus bas). Chercher les suivants par
-`title = '04T_CN401S124P_01821.jpg' or title = '…01822.jpg' or …` (la
+`title = '04T_CN401S124P_01841.jpg' or title = '…01842.jpg' or …` (la
 recherche `title contains '…0167'` rate des fichiers). Les fichiers 016xx-017xx
 sont dans le dossier Drive `1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql` ; le Drive va
 au moins jusqu'au fichier 01900.
@@ -917,6 +921,12 @@ jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivant
   achetée de Gabriel Lemieux en 1870, estimée 140 $, mobilier de 25 $, dettes
   de 184 $ ; clos en justice à Québec le 9 juin 1877 (timbres judiciaires en
   marge). Créanciers rattachés : Robert McReady, Germain Cantin.
+
+- **Fichiers 01817 à 01825** : testaments croisés de Jean-Baptiste Cantin,
+  cultivateur de Saint-Jean-Chrysostome, et de Marguerite Jolin (n° 439-440 ;
+  témoins Théodule Bégin, hôtelier, et Louis Toussaint) ; testament d'Olivier
+  Roberge, de la concession Taniata, en faveur d'Henriette Gagné (n° 441 :
+  clôture laissée « quatre cent … »).
 
 Points pour Patrick : **n° 402**, l'en-tête dit « 2 juin », un renvoi du texte
 semble dire « quatrième jour » ; **n° 403**, la clôture dit « quatre cent
