@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (328 fiches au 20 novembre 2026 ; série jusqu'à 01401 lue).
+fiche dont l'identifiant commence par `notarie-` (348 fiches au 20 novembre 2026 ; série jusqu'à 01479 lue).
 
 ## Où sont les images
 
@@ -578,8 +578,44 @@ Particularités : les formules imprimées de bail ont un dos (« Bail par … à
 (identifiant `1MlQSVHXSo2yWG2HyF4u-2ec-Hx8Mp2ca`) ; la recherche par titre
 les trouve quand même.
 
-**Pour reprendre** : continuer au fichier **01402** (microfilm 002346).
-Chercher les identifiants par `title contains '04T_CN401S124P_0140'`, puis `0141`, etc.
+Suite (20 novembre) : fichiers **01402 à 01479** lus, actes **n° 327 à 350**
+(21 mars au 9 avril 1875). **348 fiches `notarie-`.**
+
+- **n° 327, 339** : Louis Lépine dit Marest emprunte 25 louis (cordonnier
+  Alain, de Québec) et paie Édouard Horion ; des reçus annexés parlent de
+  « la maison de l'Etchemin » et d'une rente due à Benjamin Demers.
+- **n° 328** : succession Bolduc (hôtelier de Québec) cédée au maçon Alexis
+  Pichette (`1871-D1-P002-L13`) ; écrit « 332 » à la clôture.
+- **Feuilles d'archiviste** (01410-01411) : n° 329-331 « voir 347-349 » ;
+  n° 332 « manquant ».
+- **n° 333-334** : Isaac Fontaine vend sa terre de la **Maringouinière**
+  (Saint-Jean-Chrysostome) à Élisée Legendre, à l'hôtel de Calixte Rogers.
+- **n° 335-338** : baux Mathieu-Fraser (rue Saint-Laurent), procuration
+  Leclerc (terre de **Warwick**), quittance Dussault, bail à rente
+  Demers-Lavertu (angle Saint-Joseph et Saint-Pierre, Didace Lavertu
+  `1881-D1-P038-L12`).
+- **n° 340** : renonciation Terrien (succession à **Tingwick**), avec la note
+  du notaire de là-bas.
+- **n° 341-342** : obligation Masse-Daigle (moulin à farine de Saint-Nicolas) ;
+  vente Therrien à Therrien sur le chemin royal (intervention du maître de
+  poste Damase Roberge barrée), suivie d'une copie conforme.
+- **n° 343** (écrit « 323 ») : quittance Blanchet-Simoneau.
+- **n° 344-345** : baux Dubois-Déry et **Filteau-Houle** (rue Demers, Isidore
+  Houle).
+- **n° 346-349** : **l'affaire Roberge-Proulx** — résiliation du bail à rente
+  et de l'obligation de décembre (n° 269-270), marché de construction d'une
+  maison de deux étages (600 $ payés d'avance) et promesse de rétrocession
+  (réméré) : un prêt sur la maison du menuisier Thomas Proulx.
+- **n° 350** : bail **en anglais** Villeneuve-Vallerand (clause d'hiver : ne
+  pas laisser le logement sans feu plus d'une semaine).
+
+Particularités : à partir du fichier 01451, les images sont dans un troisième
+dossier Drive (`1KZNShVAZPcG5O8dt5SxHwBPHu29ZWPMl`). Plusieurs minutes de
+mars-avril 1875 laissent le numéro en blanc à la clôture ; on se fie au
+numéro de tête.
+
+**Pour reprendre** : continuer au fichier **01480** (microfilm 002424).
+Chercher les identifiants par `title contains '04T_CN401S124P_0148'`, puis `0149`, etc.
 Le Drive va au moins jusqu'au fichier 01849.
 
 Fils suivis dans la série 00451-00550 :
