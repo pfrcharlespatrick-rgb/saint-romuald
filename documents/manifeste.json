@@ -28928,7 +28928,7 @@
         {
           "role": "preneur",
           "nom": "Charles Desroches",
-          "note": "Journalier de Saint-Romuald ; ne sait signer. Non trouvé aux recensements : non rattaché."
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Absent de 1871 ; deux Charles Desroches journaliers en 1881 (1881-D1-P060-L14, 26 ans, marié ; 1881-D1-P081-L01, 23 ans) : non rattaché faute de pouvoir choisir."
         },
         {
           "role": "temoin",
@@ -28961,6 +28961,83 @@
           "microfilm": "002280",
           "drive": "1VlLXGqpMFfbuumpyR5BHhRyO_u6yGLcQ",
           "legende": "3/3"
+        },
+        {
+          "fichier": "01337",
+          "microfilm": "002281",
+          "drive": "1LuVPPbroZdc_STvj4AQWQ2Q6Wi5SNRW4",
+          "legende": "chemise imprimée « Bail — Québec »"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-02-19-vente-huard-bisson",
+      "type": "notarie",
+      "titre": "Vente par Moïse Huard, menuisier, ci-devant cultivateur du canton de Broughton, à Ignace Bisson, de ses droits sur le lot n° 5 du 6e rang de Broughton (Beauce) — minute n° 308, 19 février 1875",
+      "date": "1875-02-19",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 308, images 002282 à 002285 (Drive : fichiers 04T_CN401S124P_01338 à 01341). Écrite sur papier réglé. En marge « Vente Huard à Bisson — Original — Expédié 1 fois — Payé $2.00 ». Renvois paraphés « L. P. G. », « E. H. T. N.P. ». Acte complet ; quelques mots de lecture incertaine (nom du notaire de 1872, canton de Louis Nadeau).",
+      "nature": "Vente de droits (sans autre garantie que de ses faits et promesses), avec quittance, passée le 19 février 1875, après-midi, à l'étude du notaire, devant un témoin, Louis-Pierre Gelly, maître cordonnier ; vendeur et acquéreur ne savent signer.",
+      "transcription": "[002282] « N° 308 — 19 Fév. L'an mil huit cent soixante-quinze, le dix-neuf de février, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant à St Romuald, comté de Lévis, soussigné ; Et en présence de Louis Pierre Gelly, Mtre cordonnier, de St Romuald, dit comté, témoin au présent acte, aussi soussigné ; Fut présent : Moïse Huard, menuisier, de la paroisse de St Romuald & ci-devant du Township de Broughton, comté de Beauce, cultivateur ; Lequel vend sous la garantie de ses faits & promesses seulement à Ignace Bisson, du dit Township de Broughton, dit comté, à ce présent & acceptant acquéreur pour lui, ses hoirs & ayant cause, savoir : “Tous les droits & prétentions qu'il a & peut avoir sur une terre de deux arpents & demi de front sur la hauteur du numéro cinq dans le sixième rang du dit Township de Broughton, joignant d'un côté au lot numéro [002283] quatre & de l'autre côté au restant du dit lot numéro cinq, sans bâtisses dessus construites.” Tel que le tout est actuellement, se poursuit, comporte & s'étend de toutes parts sans aucune réserve, le vendeur se dessaisissant de son droit de propriété sur le dit immeuble en faveur de l'acquéreur, pour par ce dernier en jouir, faire & disposer à l'avenir en toute propriété. Cette vente est faite à la charge par l'acquéreur, qui s'y oblige pour lui, ses hoirs & ayant cause, savoir : 1° De se conformer en tous points aux lettres patentes de Sa Majesté ; 2° De payer toutes les taxes municipales, scolaires & autres, tant du passé qu'à l'avenir ; 3° Enfin pour le prix de deux cent vingt-cinq piastres courant que l'acquéreur [renvoi (1) : « a payé »] pour & à l'acquit du vendeur & de Thomas Fecteau, du dit Township, cultivateur, à Louis Nadeau, cultivateur du Township de [Tewkesbury ?], [002284] tel que les dits Thomas Fecteau & Moïse Huard s'y étaient eux-mêmes obligés, savoir : le dit vendeur par un acte de vente reçu par Mtre Ollier [?], N.P., le dix-huit mars mil huit cent soixante-douze, & le dit Fecteau par un acte antérieur ; lequel paiement susdit a été fait au dit Sr Nadeau en bon argent courant dès avant ces présentes, [renvoi : « le dit Sr Bisson ayant été subrogé par acte authentique aux droits du dit Sr Nadeau »] — dont quittance générale & finale [renvoi : « mutuelle & réciproque »] en faveur de l'acquéreur par le dit vendeur. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald, Étude, les jour, mois & an susdits, sous le numéro trois cent & huit des originaux du Notaire soussigné. [002285] Requis de signer, les vendeur & acquéreur ont déclaré ne le savoir, en présence du dit témoin qui a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « L. Pierre Gelly », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Moïse Huard",
+          "note": "Menuisier de Saint-Romuald, ci-devant cultivateur du canton de Broughton (Beauce) ; ne sait signer. Non trouvé aux recensements de la paroisse : non rattaché."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Ignace Bisson",
+          "note": "Du canton de Broughton ; ne sait signer ; subrogé aux droits de Louis Nadeau. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Thomas Fecteau",
+          "note": "Cultivateur du canton de Broughton, coobligé envers Louis Nadeau par un acte antérieur. Hors paroisse."
+        },
+        {
+          "role": "autre",
+          "nom": "Louis Nadeau",
+          "note": "Cultivateur d'un canton voisin (Tewkesbury [?]), premier vendeur et créancier du prix. Hors paroisse."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis-Pierre Gelly",
+          "ref_personne": "1871-D1-P048-L13",
+          "note": "« Mtre cordonnier » de Saint-Romuald ; signe « L. Pierre Gelly »."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un cultivateur parti défricher le canton de Broughton, en Beauce, revient s'installer comme menuisier à Saint-Romuald et cède ses droits sur une terre de colonisation non bâtie (2½ arpents de front, lot 5 du 6e rang) à Ignace Bisson, resté sur place. Le prix — 225 piastres — n'est pas versé au vendeur : Bisson l'a déjà payé à Louis Nadeau, le premier vendeur, à qui Huard et Thomas Fecteau devaient encore la terre, et il a été subrogé à ses droits. L'acquéreur devra respecter les lettres patentes de la Couronne. Un rare témoignage, dans ce greffe, du va-et-vient entre la paroisse et les cantons de colonisation des Appalaches. Le canton de Broughton revient au greffe avec l'acte étranger n° 10 000 (vente Labbé, voir les fichiers 00349-00351).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01338",
+          "microfilm": "002282",
+          "drive": "1Ce4ytCRiOV_6GsrRTubAX1CjMi-bnGe-",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01339",
+          "microfilm": "002283",
+          "drive": "1gQ237xUwZVqW3SSAOHGAh-0EZDP75UBt",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01340",
+          "microfilm": "002284",
+          "drive": "1EYHz_5vCi-3EktECV8W29-rlBktpJFve",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01341",
+          "microfilm": "002285",
+          "drive": "1PSSY3Sx-2iOoWrWWeNfkPo6tH9cOhqbt",
+          "legende": "4/4"
         }
       ]
     }
