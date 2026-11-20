@@ -31163,6 +31163,68 @@
           "legende": "dos imprimé de la formule, resté en blanc"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-04-07-bail-filteau-houle",
+      "type": "notarie",
+      "titre": "Bail par Louis Filteau, menuisier [?], à Isidore Houle, journalier, de deux chambres d'une maison de la rue Demers — minute n° 345, 7 avril 1875",
+      "date": "1875-04-07",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 345, images 002400 à 002403 (Drive : fichiers 04T_CN401S124P_01456 à 01459 ; les fichiers 01457 et 01458 montrent la même page, filmée deux fois). Formule imprimée de bail ; la clause 4 (charges de ville) et les clauses de taxes et d'aqueduc sont biffées. Le métier du bailleur, en interligne, se lit « maçon [?] » ou « menuisier » ; le numéro est laissé en blanc dans la clôture (« sous le numéro trois cent … »). En marge « Bail Filteau à Houle — Original ». Acte complet.",
+      "nature": "Bail d'un an (1er mai 1875 – 30 avril 1876), passé le 7 avril 1875, après midi, à Saint-Romuald, étude du notaire, devant un témoin ; le preneur ne sait signer.",
+      "transcription": "[002400] « N° 345 — 7 avril 1875. L'an mil huit cent soixante-quinze, le septième jour du mois d'avril, après-midi, pardevant Mtre Elzéar Hubert Tremblay, Notaire Public, résidant à St Romuald, soussigné, et en présence de Louis Joseph Stanislas Roberge, de St Romuald, instituteur, témoin au présent acte, aussi soussigné ; Fut présent : Mr Louis Filteau, de St Romuald, ma[çon ? / menuisier ?] ; Lequel a, par ces présentes, donné à loyer pour le terme et espace d'une année entière qui commencera à courir du premier jour de mai prochain et finir le trentième jour d'avril de l'année mil huit cent soixante-seize, à Isidore Houle, du même lieu, journalier, à ce présent et acceptant preneur pour lui, ses hoirs et ayants cause, c'est-à-savoir : Deux chambres dans le bas & la moitié du grenier, le tout du côté nord d'une maison en bois à un étage sise sur le niveau est de la Rue Demers, ensemble la moitié côté nord de l'emplacement sur lequel est construite la dite maison, circonstances & dépendances ; tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité. [Clauses imprimées : jouir en bon père de famille ; garnir de meubles ; [002401] entretenir ; ne faire aucun changement ; laisser visiter ; ne point céder ni sous-louer.] De son côté le Bailleur promet et s'oblige faire jouir paisiblement le preneur des premisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à aucune réparation quelconque. Ce Bail est fait en outre pour et en considération du prix et somme de vingt-cinq piastres courant pour l'année de sa durée, et que le Preneur promet et s'oblige payer au dit Bailleur ou à son ordre par paiements égaux de la somme d'une piastre chaque semaine, à dater du premier jour de mai prochain, jusqu'au parfait paiement du prix total du dit loyer. [002403] Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables, savoir, le Preneur en les premisses sus-louées et le Bailleur en sa demeure ordinaire où les paiements se feront. Aux quels lieux, etc. Car ainsi, etc. Dont Acte, Fait et Passé à St Romuald, Étude du dit Notaire, les jour, mois et an susdits sous le numéro trois cent [en blanc]. Requis de signer, le preneur a déclaré ne le savoir en présence du témoin qui a signé, ainsi que le Bailleur, avec moi, Notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Louis Filteau », « Louis J. S. Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Louis Filteau",
+          "ref_personne": "1871-D1-P023-L14",
+          "note": "De Saint-Romuald, propriétaire d'une maison de la rue Demers ; signe « Louis Filteau ». Le menuisier des actes de 1874 (concessionnaire de la rue Demers, marché avec Isidore Houle) ; même rattachement probable au fils de Stanislas Filteau."
+        },
+        {
+          "role": "preneur",
+          "nom": "Isidore Houle",
+          "ref_personne": "1871-D1-P026-L16",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Rattaché, comme aux actes de 1874, à Isidore Houle (dit Houde), journalier de 45 ans en 1871 — Houle et Houde sont le même homme (identification de Patrick)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Joseph Stanislas Roberge",
+          "note": "Instituteur de Saint-Romuald ; signe « Louis J. S. Roberge ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Louis Filteau loue à Isidore Houle la moitié nord (deux chambres, la moitié du grenier et de la cour) d'une maison de bois de la rue Demers, pour vingt-cinq piastres l'an, une piastre par semaine — le même loyer et le même rythme que son frère Charles pratiquait avec le charpentier Lajoie (n° 313). En décembre 1874, Houle avait chargé Louis Filteau, menuisier, de lui bâtir une maison (marché Houle-Filteau).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01456",
+          "microfilm": "002400",
+          "drive": "1_0MHB37YAVOXCmyg8bHgZocMxBRH34fo",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01457",
+          "microfilm": "002401",
+          "drive": "1CgFdJ1FASJYIOdAbjOCKZLvOmJDEXyGM",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01458",
+          "microfilm": "002402",
+          "drive": "1V_7lcczb90w0JHNTcu7Zh1urxTfhV-Pg",
+          "legende": "2/3 (même page, filmée une seconde fois)"
+        },
+        {
+          "fichier": "01459",
+          "microfilm": "002403",
+          "drive": "1YrfjsHTf0lENweoyBlnPlEJ3uCTwY9XN",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
