@@ -32151,7 +32151,7 @@
     {
       "id": "notarie-1875-04-26-vente-meubles-foster-leclerc",
       "type": "notarie",
-      "titre": "Vente de meubles par Élie Foster [?], journalier, à François Leclerc père, charretier, en paiement d'arriérés de loyer — minute n° 375, 26 avril 1875",
+      "titre": "Vente de meubles par Élie Foster, journalier, à François Leclerc père, charretier, en paiement d'arriérés de loyer — minute n° 375, 26 avril 1875",
       "date": "1875-04-26",
       "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
       "cote": "Minute n° 375, images 002507 à 002509 (Drive : fichiers 04T_CN401S124P_01563 à 01565). Formule imprimée de vente d'immeuble (paroisse Saint-Sauveur, étude de Me Jean-Baptiste Hamel), réemployée pour des meubles : la désignation imprimée de l'emplacement et les charges sont biffées. Le nom du vendeur se lit « Foster » dans le texte et « Doster » [?] en marge : à relire. En marge « Vente de meubles par Foster à Frs Leclerc, sen. — Original — $0.50 — Payé ». Acte complet.",
@@ -32160,8 +32160,8 @@
       "personnes": [
         {
           "role": "vendeur",
-          "nom": "Élie Foster [?]",
-          "note": "Journalier de Saint-Romuald, locataire endetté de François Leclerc père ; ne sait signer. Nom de lecture incertaine (Foster ou Doster). Non rattaché."
+          "nom": "Élie Foster",
+          "note": "Journalier de Saint-Romuald, locataire endetté de François Leclerc père ; ne sait signer. Le même qu'au bail Leclerc-Foster du 15 avril 1874. Aucun Foster aux recensements : non rattaché."
         },
         {
           "role": "acquereur",
@@ -32171,7 +32171,8 @@
         {
           "role": "temoin",
           "nom": "Louis Pierre Gelly",
-          "note": "Cordonnier de Saint-Romuald ; signe « L. Pitre Gelly ». Non rattaché."
+          "note": "Cordonnier de Saint-Romuald ; signe « L. Pitre Gelly ». Non rattaché. Rattachement probable au cordonnier de 58 ans de 1871, comme dans les actes Lecours de 1874.",
+          "ref_personne": "1871-D1-P048-L13"
         },
         {
           "role": "notaire",
@@ -32179,7 +32180,7 @@
         }
       ],
       "affirmations": [],
-      "note": "Un journalier qui doit trente piastres de loyer cède à son propriétaire, le charretier François Leclerc père, tout son ménage : un poêle double à deux ponts avec son tuyau, deux couchettes à barreaux (l'une peinte en noir, l'autre en jaune), deux tables usées, quatre chaises, deux bancs, un chaudron, une marmite (« boiler »), une broche en fer, deux cuves et deux assiettes. C'est l'inventaire, rare, de l'intérieur d'un logement ouvrier de la rue Saint-Louis.",
+      "note": "Un journalier qui doit trente piastres de loyer cède à son propriétaire, le charretier François Leclerc père, tout son ménage : un poêle double à deux ponts avec son tuyau, deux couchettes à barreaux (l'une peinte en noir, l'autre en jaune), deux tables usées, quatre chaises, deux bancs, un chaudron, une marmite (« boiler »), une broche en fer, deux cuves et deux assiettes. C'est l'inventaire, rare, de l'intérieur d'un logement ouvrier de la rue Saint-Louis. Élie Foster était locataire de François Leclerc depuis au moins avril 1874 (bail Leclerc-Foster).",
       "ajoute_le": "2026-11-19",
       "images": [
         {
@@ -32198,6 +32199,61 @@
           "fichier": "01565",
           "microfilm": "002509",
           "drive": "1MJFHZkjmDAZZutf8H76wY6O5zCIB3Tb9",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-04-28-bail-proulx-mcready",
+      "type": "notarie",
+      "titre": "Bail par Thomas Proulx, menuisier, à Napoléon McReady, journalier, de deux chambres d'une maison à deux étages de la division de New-Liverpool — minute n° 376, 28 avril 1875",
+      "date": "1875-04-28",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 376, images 002510 à 002512 (Drive : fichiers 04T_CN401S124P_01566 à 01568). Formule imprimée de bail ; clause 4 et clauses d'aqueduc et de taxes biffées. En marge « Bail Proulx & McReady [?] — Original — P. ⅓ Payé, P. ⅓ Payé — 2/6 Payé » et un calcul « 25 = 4.16⅔ × 6 ». Acte complet.",
+      "nature": "Bail d'un an (1er mai 1875 – 30 avril 1876), passé le 28 avril 1875, après midi, à Saint-Romuald, étude du notaire, devant un témoin ; le bailleur ne sait signer.",
+      "transcription": "[002510] « N° 376 — 28 avril 1875. L'an mil huit cent soixante-quinze, le vingt-huitième jour du mois d'avril, après-midi, pardevant Mtre Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné, et en présence de John Dawson, journalier, de St Romuald, témoin, aussi soussigné ; Fut présent : Thomas Proulx, de St Romuald, menuisier ; Lequel a, par ces présentes, donné à loyer pour le terme et espace d'une année entière qui commencera à courir du premier jour de mai prochain et finir le trentième jour d'avril de l'année mil huit cent soixante-seize, à Napoléon McReady, du même lieu, journalier, à ce présent et acceptant preneur pour lui, ses hoirs et ayants cause, c'est-à-savoir : Deux chambres, côté sud-est, dont une au premier étage & l'autre au deuxième étage, le tout dans une maison à deux étages, située à St Romuald, division New Liverpool, avec ensemble une place pour mettre son bois sur l'emplacement où est bâtie la dite maison, porte d'entrée en commun avec le Bailleur ; tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité. [Clauses imprimées.] [002511] De son côté le Bailleur promet et s'oblige faire jouir le preneur des premisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à aucune réparation quelconque, pas même à tenir les lieux clos ni couverts, nonobstant toute loi ou coutume à ce contraire. Ce Bail est fait en outre pour et en considération du prix et somme de vingt-cinq piastres pour l'année de sa durée, et que le Preneur promet et s'oblige payer au dit Bailleur ou à son ordre en six paiements égaux & mensuels de la somme de quatre piastres & seize centins & deux tiers courant chaque, payables à l'expiration des six premiers mois. [002512] Le preneur renonce expressément à tous les privilèges à lui accordés en vertu des sections deux, trois, quatre, cinq, sept & neuf du Code de Procédure Civile du Bas-Canada, & veut que tous ses meubles, sans exception, répondent pour le dit loyer. Il est expressément convenu entre les parties que le preneur n'aura pas, sous peine de nullité des présentes & sous les peines de droit, dépens & dommages, le droit de faire aucun feu quelconque en dehors des dites premisses, sur le dit emplacement, pour quelque cause que ce soit. Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables […]. Dont Acte, Fait et Passé à St Romuald, Étude du dit Notaire, les jour, mois et an susdits sous le numéro trois cent soixante-seize. Et le témoin a signé ainsi que le preneur avec moi, notaire, le bailleur ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » — Signé : « Napoléon McReady », « John Dawson », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Thomas Proulx",
+          "ref_personne": "1871-D2-P020-L20",
+          "note": "Menuisier de Saint-Romuald, propriétaire d'une maison à deux étages de la division de New-Liverpool ; ne sait signer. Même rattachement probable qu'aux n° 346-349."
+        },
+        {
+          "role": "preneur",
+          "nom": "Napoléon McReady",
+          "note": "Journalier de Saint-Romuald ; signe « Napoléon McReady ». De la famille McCready de la division 2 (le marchand Robert McCready en 1881) ? Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "John Dawson",
+          "note": "Journalier de Saint-Romuald ; signe « John Dawson ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Trois semaines après avoir remis sa maison en garantie à Louis-Hubert Roberge (n° 346-349), Thomas Proulx loue deux chambres de sa maison à deux étages de New-Liverpool à un journalier. Le bail interdit au locataire « de faire aucun feu quelconque en dehors » du logement, sur l'emplacement.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01566",
+          "microfilm": "002510",
+          "drive": "1nf3CPXpAAiDvMJhMDPv34iyqsxPAZlGN",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01567",
+          "microfilm": "002511",
+          "drive": "1M52LN75VrxA5_Ir5sCp1Cr2w9hFISNmz",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01568",
+          "microfilm": "002512",
+          "drive": "1qFag1La3_QYe5Ey4_RSBdMV8qMf4qBva",
           "legende": "3/3"
         }
       ]
