@@ -31880,6 +31880,59 @@
           "legende": "feuille blanche ornée de dessins à la plume"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-04-13-obligation-st-pierre-leclerc",
+      "type": "notarie",
+      "titre": "Obligation de Pierre St-Pierre, journalier, envers François Leclerc fils, écuyer, marchand — cent piastres sur le lot 49 du plan Sewell — minute n° 356, 13 avril 1875 (fin manquante au Drive)",
+      "date": "1875-04-13",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 356 (le numéro, d'abord « 35[4] », est corrigé), images 002443 et 002444 (Drive : fichiers 04T_CN401S124P_01499 et 01500). La fin de l'acte (image 002445, fichier 01501) manque au Drive, comme toute la suite jusqu'au fichier 01550. La date, d'abord « douzième jour d'avril après-midi », est corrigée en « treizième jour d'avril avant-midi ». En marge « Obligation St Pierre à Leclerc — Original — Expédié 1 fois — $1.00 Payé » et un résumé : « Pierre St Pierre — $100 reçu avant ces présentes, rembourser au 1er nov. 1875, int. de 8 % à compter de ce jour ». Un renvoi (1) « prochain » paraphé « F. L. », « Napoléon Sévigny », « E. H. T. N.P. ».",
+      "nature": "Obligation (prêt hypothécaire), passée le 13 avril 1875, avant midi, à Saint-Romuald, étude du notaire, devant un témoin.",
+      "transcription": "[002443] « N° 356 — 13 avril 1875. L'an mil huit cent soixante-quinze, le treizième jour d'avril, avant-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant & pratiquant à St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Napoléon Sévigny, de St Jean Chrysostome, ingénieur, témoin au présent acte, aussi soussigné ; Fut présent : Sieur Pierre St Pierre, de St Romuald, journalier ; Lequel reconnaît & confesse devoir bien & légitimement à François Leclerc, fils, de St Romuald, Écr, marchand, à ce présent & acceptant, la somme de cent piastres courant, étant pour prêt de pareille somme fait & délivré dès avant ces présentes en bonnes espèces, ainsi que le débiteur le reconnaît & dont il se déclare content & satisfait. Laquelle somme le débiteur, pour lui, ses hoirs & ayant cause, s'oblige payer & rembourser au créancier, ou ordre, porteur des présentes en forme légale, d'hui au premier jour de novembre [renvoi (1) : « prochain »], ensemble avec l'intérêt de huit pour cent par an, payable à l'époque susdite. [002444] Et pour sûreté du paiement de la somme de cent piastres courant & des intérêts qui en proviendront, le débiteur hypothèque spécialement : Un emplacement situé en la dite paroisse de St Romuald, étant le numéro quarante-neuf marqué sur un certain plan dressé par Alexander Sewell, arpenteur, le cinq octobre mil huit cent soixante-six, contenant quarante-neuf pieds & demi de front par le bout sud-est & quarante-cinq pieds de front par le bout nord-ouest, sur soixante-quatre pieds & demi de profondeur par le côté nord-est & quatre-vingt-cinq pieds & trois pouces de profondeur par le côté sud-ouest, borné en front au sud-est & d'un côté au nord-est à une rue, en arrière au nord-ouest au lot numéro quarante-huit, & d'autre côté au sud-ouest au lot n° cinquante, avec ensemble une maison en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald, étude, les jour, mois & an susdits, sous le numéro […] » [La suite et les signatures, sur l'image 002445, manquent au Drive.]",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Pierre St-Pierre",
+          "note": "Journalier de Saint-Romuald, propriétaire du lot 49 du plan Sewell avec une maison de bois. Non rattaché (signature manquante)."
+        },
+        {
+          "role": "creancier",
+          "nom": "François Leclerc, fils",
+          "note": "Écuyer, marchand de Saint-Romuald. Peut-être le marchand de 37 ans recensé en 1871 (1871-D1-P049-L14) — hypothèse, non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Alexander Sewell",
+          "note": "Arpenteur, auteur d'un plan de lotissement du 5 octobre 1866 où l'emplacement porte le n° 49."
+        },
+        {
+          "role": "temoin",
+          "nom": "Napoléon Sévigny",
+          "note": "Ingénieur de Saint-Jean-Chrysostome ; paraphe le renvoi. Le même qu'aux n° 352-353. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Prêt de cent piastres à huit pour cent, remboursable le 1er novembre 1875, garanti par le lot 49 d'un plan de lotissement dressé par l'arpenteur Alexander Sewell le 5 octobre 1866 — un plan à retrouver, qui numérotait des lots de Saint-Romuald. La dernière page de la minute (image 002445) et les fichiers suivants jusqu'à 01550 ne sont pas dans le Drive de Patrick : à demander ou à reprendre du microfilm.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01499",
+          "microfilm": "002443",
+          "drive": "1fkSyebXnuJp_FTZS58cJrILKLoJaxXDt",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01500",
+          "microfilm": "002444",
+          "drive": "1RC8EpQXJ3GZ5UZQcIn6BjpPyZK_8huFj",
+          "legende": "2/3 (la 3e page, fichier 01501, manque au Drive)"
+        }
+      ]
     }
   ]
 }
