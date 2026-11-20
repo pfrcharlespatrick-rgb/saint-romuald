@@ -32561,7 +32561,8 @@
         {
           "role": "preneur",
           "nom": "Modeste Grégoire",
-          "note": "Journalier de Saint-Romuald ; ne sait signer. Non rattaché."
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Rattachement probable au journalier de 51 ans recensé en 1881 (division 2), dont le fils, Modeste aussi, a 21 ans.",
+          "ref_personne": "1881-D2-P040-L09"
         },
         {
           "role": "autre",
@@ -32605,6 +32606,12 @@
           "microfilm": "002538",
           "drive": "1nCJy5CYP9-cIT8D4xP1fbvnsGM9srrLt",
           "legende": "3/3"
+        },
+        {
+          "fichier": "01595",
+          "microfilm": "002539",
+          "drive": "1Y9sIOP0JPmTbjjSyWDaZ3QvX0GZePhb4",
+          "legende": "dos imprimé, resté en blanc"
         }
       ]
     }
