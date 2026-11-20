@@ -32264,6 +32264,60 @@
           "legende": "dos imprimé, resté en blanc"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-04-30-bail-leclerc-cloutier",
+      "type": "notarie",
+      "titre": "Bail par François Leclerc, écuyer, marchand, à Télesphore Cloutier [?], journalier, d'une chambre d'une maison de bois — minute n° 377, 30 avril 1875",
+      "date": "1875-04-30",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 377, images 002514 à 002516 (Drive : fichiers 04T_CN401S124P_01570 à 01572). Formule imprimée de bail ; clauses 4, d'aqueduc et de taxes biffées. Le nom du preneur, écrit puis rayé et récrit, se lit « Télesphore Cloutier » [?] (« Gauthier » ?) ; en marge « Bail Leclerc & Cloutier — Original — 12½, 12½ Payé — 2/6 [?] ». Acte complet.",
+      "nature": "Bail d'un an (1er mai 1875 – 30 avril 1876), passé le 30 avril 1875, après midi, à Saint-Romuald, étude du notaire, devant un témoin ; le preneur ne sait signer.",
+      "transcription": "[002514] « N° 377 — 30 avril 1875. L'an mil huit cent soixante-quinze, le trentième jour du mois d'avril, après-midi, pardevant Mtre Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, soussigné, et en présence de François-Xavier Bégin, commis, de St Romuald, témoin, aussi soussigné ; Fut présent : François Leclerc, de St Romuald, Écr, marchand ; Lequel a, par ces présentes, donné à loyer pour le terme et espace d'une année entière qui commence à courir du premier jour de mai prochain et finir le trentième jour d'avril de l'année mil huit cent soixante-seize, à Télesphore Cloutier [?], journalier, du même lieu, à ce présent et acceptant preneur pour lui, ses hoirs et ayants cause, c'est-à-savoir : Une chambre & la moitié du grenier, côté sud, dans une maison en bois à un étage sise à St Romuald & appartenant au Bailleur, ensemble porte d'entrée à l'usage du preneur seul & place dans la cour pour mettre son bois de chauffage ; tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité. [Clauses imprimées.] [002515] De son côté le Bailleur promet et s'oblige faire jouir le preneur des premisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à aucune autre réparation qu'à terminer la division du premier tel que commencée. Ce Bail est fait en outre pour et en considération du prix et somme de vingt-quatre piastres pour l'année de sa durée, et que le Preneur promet et s'oblige payer au dit Bailleur ou à son ordre en six paiements égaux & mensuels, payables à l'expiration des six premiers mois à dater du premier jour de mai prochain, par sommes de quatre piastres courant chaque, le dit prix du loyer devant être payé dans les six premiers mois. [002516] Le preneur renonçant à tous les privilèges à lui accordés en vertu des sections deux, trois, cinq, sept & neuf du Code de Procédure Civile du Bas-Canada, entendant que tous ses meubles & effets généralement quelconques répondent pour le dit loyer en entier. Et pour l'exécution des présentes […]. Dont Acte, Fait et Passé à St Romuald, Étude, les jour, mois et an susdits sous le numéro trois cent soixante-dix-sept. Et le bailleur & le témoin ont signé avec moi, notaire, le preneur ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » — Signé : « François Leclerc », « F. X. Bégin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "François Leclerc",
+          "note": "Écuyer, marchand de Saint-Romuald ; signe. Le bailleur des n° 371-373. Non rattaché."
+        },
+        {
+          "role": "preneur",
+          "nom": "Télesphore Cloutier [?]",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Nom de lecture incertaine. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "François-Xavier Bégin",
+          "note": "Commis de Saint-Romuald ; signe « F. X. Bégin ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Quatrième bail de François Leclerc à la fin d'avril 1875 (n° 371-373, 377) : une chambre et la moitié du grenier d'une maison de bois, avec porte particulière, pour vingt-quatre piastres l'an. Le bailleur s'engage seulement à achever une cloison commencée au rez-de-chaussée.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01570",
+          "microfilm": "002514",
+          "drive": "1IC3HDnmTH-py4bk_pxAedVe58qTYC4PS",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01571",
+          "microfilm": "002515",
+          "drive": "1_X08ZvOfH59cxipd3_jiD9i4jSvvoBLb",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01572",
+          "microfilm": "002516",
+          "drive": "10JozfOEhcLjdj1V095dvtbF8zJ6vqLR7",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
