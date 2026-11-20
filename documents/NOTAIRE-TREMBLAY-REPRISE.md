@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (380 fiches au 21 novembre 2026 ; série jusqu'à 01660 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
+fiche dont l'identifiant commence par `notarie-` (387 fiches au 21 novembre 2026 ; série jusqu'à 01680 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
 
 ## Où sont les images
 
@@ -691,10 +691,10 @@ Suite (20-21 novembre) : fichiers **01644 à 01660** lus, actes **n° 395-396**
 
 ## Passation à une nouvelle conversation (21 novembre 2026)
 
-**Où reprendre** : fichier **01661** (microfilm 002605), après le testament
-n° 396. Les identifiants Drive des fichiers 01661 à 01668 sont déjà dans
-`documents/tropy/images-drive.json` (clé `images`) ; ensuite chercher par
-`title = '04T_CN401S124P_01669.jpg' or title = '…01670.jpg' or …` (la
+**Où reprendre** : fichier **01681** (microfilm 002625), après la quittance
+n° 403 (3 juin 1875). Les fichiers 01661 à 01680 sont lus (n° 397 à 403, voir
+« Suite du 21 novembre » plus bas). Chercher les suivants par
+`title = '04T_CN401S124P_01681.jpg' or title = '…01682.jpg' or …` (la
 recherche `title contains '…0167'` rate des fichiers). Les fichiers 016xx-017xx
 sont dans le dossier Drive `1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql` ; le Drive va
 au moins jusqu'au fichier 01900.
@@ -812,6 +812,28 @@ transcrits ; les fichiers 00202 et suivants (chambres n° 7 à 9, le « magasin 
 et son stock de boissons, la montre en or, la garde-robe d'Ursule Tardif,
 l'ajournement signé de tous, la vacation du 5 mars) ont été lus ensuite,
 jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivants.
+
+**Suite du 21 novembre 2026.** Fichiers 01661 à 01680 lus : actes **n° 397 à
+403** (28 mai au 3 juin 1875).
+
+- **L'après-midi Cantin** (28 mai, Saint-Jean-Chrysostome) : après l'inventaire
+  n° 395 et le testament du mari (n° 396), le testament de **Clarisse
+  Sévigny** (n° 397, elle signe ; « un peu sourde »), la **renonciation de
+  Marcelline Cantin**, femme de Charles St-Laurent, à la succession de sa mère
+  (n° 398), et l'**obligation d'Athanase Girard** (n° 399), qui change en acte
+  hypothécaire le billet de 50 $ porté à l'inventaire ; son emplacement touche
+  Pierre Roberge (hameau Roberge, n° 122-128).
+- **Les gages du moulin** (n° 400 et 402) : deux journaliers cèdent leur
+  salaire hebdomadaire à leur épicier (Marie Paradis ; Marcel Gingras), payé
+  directement par les « jobbers » (Michel Morin, « jobber chez Henry
+  Atkinson » ; Pierre Boucher et Télesphore Vermette).
+- **n° 401** : apprentissage de Pierre Dumont, de Lévis, chez le boulanger
+  Augustin Simoneau (maison 56 de 1871-D1).
+
+Points pour Patrick : **n° 402**, l'en-tête dit « 2 juin », un renvoi du texte
+semble dire « quatrième jour » ; **n° 403**, la clôture dit « quatre cent
+deux » par erreur ; **n° 398**, le témoin rayé « George[s] Lagüe [?], ancien
+marchand » ; **n° 401**, la clôture « sous le numéro » manque (renvoi taché).
 
 ## Les pages qui manquent encore
 

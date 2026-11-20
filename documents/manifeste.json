@@ -33763,6 +33763,443 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-05-28-testament-clarisse-sevigny",
+      "type": "notarie",
+      "titre": "Testament de Clarisse Sévigny, épouse de Joseph Cantin, de Saint-Jean-Chrysostome, en faveur de son mari — minute n° 397, 28 mai 1875",
+      "date": "1875-05-28",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 397, images 002605 à 002607 (Drive : fichiers 04T_CN401S124P_01661 à 01663). Papier réglé, coin inférieur gauche déchiré. Le numéro est confirmé par la clôture (« trois cent quatre-vingt-dix-sept »). En marge « Testament de Dame Joseph Cantin — Original — Expédié 1 fois — Expédié 2 fois ». Acte complet.",
+      "nature": "Testament authentique, reçu le 28 mai 1875, après midi, à Saint-Jean-Chrysostome, concession Saint-Augustin, en la demeure de la testatrice chez son mari, devant deux témoins ; la testatrice signe.",
+      "transcription": "[002605] « L'an mil huit cent soixante-quinze, le vingt-huit de mai, après-midi, en présence de Mtre Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Antoine Roberge, cultivateur, & Mr James Clark, commis, tous deux de St Jean Chrysostome, témoins au présent testament, aussi soussignés ; Fut présente : Dame Clarisse Sévigny, épouse de Sr Joseph Cantin, journalier, demeurant avec ce dernier en la paroisse de St Jean Chrysostome, étant en bonne santé de corps, saine d'esprit, mémoire, jugement [rayé : « & entendement, ainsi qu'il »] mais un peu sourde, ainsi qu'il est apparu à moi notaire & aux dits témoins par son maintien & par la manifestation claire & précise de ses volontés ; Laquelle a, dans la vue de la mort, fait & nommé son présent testament à nous Notaire, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par mon exécuteur testamentaire ci-après nommé, à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, messes & prières. [002606] 2° Je donne & lègue à Sieur Joseph Cantin, mon époux actuel, tous les biens meubles, immeubles, effets mobiliers, hardes & linges de corps généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient & en quelques lieux & endroits qu'ils soient dus & situés, pour par lui en jouir en toute propriété à compter du jour de mon décès ; nommant [rayé : « ma dite épouse mon »] mon dit époux mon exécuteur testamentaire & l'instituant mon légataire universel en propriété. 3° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par la dite testatrice au dit Notaire en la présence des dits témoins, & son présent testament lui ayant été lu, expliqué & relu par le dit Notaire, les dits témoins toujours présents, elle a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte fait & passé à St Jean Chrysostome, concession St Augustin, demeure de la testatrice située chez son dit époux, les jour, mois & an susdits, sous le numéro trois [002607] cent quatre-vingt-dix-sept des minutes du Notaire soussigné. Et la testatrice & les dits témoins ont signé avec moi, Notaire, lecture faite & refaite. Mots rayés sont nuls. » — Signé : « Clarisse Sévigny », « Antoine Roberge », « James Clark », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Clarisse Sévigny",
+          "note": "Seconde épouse de Joseph Cantin (mariés en août 1873, voir n° 395), de Saint-Jean-Chrysostome, concession Saint-Augustin ; « un peu sourde » ; signe « Clarisse Sévigny ». Hors paroisse ; non rattachée."
+        },
+        {
+          "role": "legataire",
+          "nom": "Joseph Cantin",
+          "note": "Journalier de Saint-Jean-Chrysostome, mari de la testatrice, légataire universel et exécuteur testamentaire. Le testateur du n° 396. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Antoine Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe. Témoin aux n° 395 à 399. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "James Clark",
+          "note": "Commis de Saint-Jean-Chrysostome ; signe. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Pendant du testament de son mari (n° 396), passé le même jour : chacun des époux lègue tout à l'autre. Le formulaire du notaire, écrit d'abord pour un testateur, porte une correction (« ma dite épouse » rayé, « mon dit époux » écrit). Contrairement à son mari, Clarisse Sévigny signe.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01661",
+          "microfilm": "002605",
+          "drive": "1-RU299R_M3qxj0wTNJC5WM73iHc6h8ge",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01662",
+          "microfilm": "002606",
+          "drive": "1M0xHOBmgeEVZQYbdF_EFeVTU3u_e6ozf",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01663",
+          "microfilm": "002607",
+          "drive": "1xvZTT1GHejub5X2mBDyFwCKBm3znEreV",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-05-28-renonciation-st-laurent-cantin",
+      "type": "notarie",
+      "titre": "Renonciation de Marcelline Cantin, épouse de Charles St-Laurent, à la succession de sa mère Marcelline Couture, en faveur de son père Joseph Cantin — minute n° 398, 28 mai 1875",
+      "date": "1875-05-28",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 398, images 002608 à 002610 (Drive : fichiers 04T_CN401S124P_01664 et 01665). Numéro confirmé par la clôture (« trois cent quatre-vingt-dix-huit »). En marge « Renonciation Dame St Laurent à Joseph Cantin — Original — Expédié 1 fois ». Le témoin d'abord écrit (« George[s] Lagüe [?], ancien marchand ») est rayé et remplacé par renvoi en marge, paraphé « E. H. T., N.P. ». Acte complet.",
+      "nature": "Renonciation à succession, reçue le 28 mai 1875, après midi, à Saint-Jean-Chrysostome, en la demeure de Joseph Cantin, devant un témoin ; les parties ne savent signer.",
+      "transcription": "[002608] « N° 398. 28 mai 1875. L'an mil huit cent soixante-quinze, le vingt-huit de mai, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de [rayé : « George[s] Lagüe [?], ancien marchand »] [renvoi : « Antoine Roberge, de St Jean, agriculteur, & de [?] »] de St Jean Chrysostome, témoin aussi soussigné ; Fut présente : Dame Marcelline Cantin, épouse de Sr Charles St Laurent, journalier, demeurant tous deux à St Jean Chrysostome susdit, & le dit Sr St Laurent à ce aussi présent & autorisant sa dite épouse à l'effet des présentes ; Laquelle a, sous l'autorisation susdite, renoncé, comme par ces présentes elle renonce, à tous droits quelconques qu'elle a ou pourrait prétendre dans l'hérédité & succession de feue Dame Marcelline Couture, [mots rayés] sa mère, décédée ab intestat, en faveur de Sieur Joseph Cantin, [rayé : « au même lieu »] de St Jean Chrysostome, journalier, son père, ce dernier à ce aussi présent & acceptant pour lui, ses hoirs & ayants cause, mettant & subrogeant le dit Sr Joseph Cantin en ses lieu & place, noms, droits, raisons, actions, privilèges & hypothèques. [rayé : « La présente renonciation s'étend »] La comparante déclarant [002609-10] que cette renonciation s'étend à tous les biens meubles & immeubles formant partie de la [rayé] part qu'elle a ou pourrait prétendre dans l'hérédité & succession susdite. Dont acte requis & octroyé à St Jean Chrysostome susdit, demeure du dit Joseph Cantin, les jour, mois & an susdits, sous le numéro trois cent quatre-vingt-dix-huit. Requis de signer, le dit Joseph Cantin, [rayé : « Requis de signer »] la comparante & son dit époux ont déclaré ne le savoir, en présence du témoin qui a signé avec moi, notaire, lecture faite. » — Signé : « Antoine Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "comparante",
+          "nom": "Marcelline Cantin",
+          "note": "Renonçante. Fille majeure (21 ans au n° 395) de Joseph Cantin et de feue Marcelline Couture, épouse de Charles St-Laurent ; ne sait signer. Hors paroisse ; non rattachée."
+        },
+        {
+          "role": "autre",
+          "nom": "Charles St-Laurent",
+          "note": "Journalier de Saint-Jean-Chrysostome, mari de la renonçante, qu'il autorise ; ne sait signer. Non rattaché (le Charles St-Laurent, navigateur de Lévis, du bail Bourassa de 1874 est sans doute un autre)."
+        },
+        {
+          "role": "autre",
+          "nom": "Joseph Cantin",
+          "note": "Bénéficiaire de la renonciation. Journalier de Saint-Jean-Chrysostome, père de la renonçante ; ne sait signer. Non rattaché."
+        },
+        {
+          "role": "defunt",
+          "nom": "Marcelline Couture",
+          "note": "Mère de la renonçante, première épouse de Joseph Cantin, décédée sans testament (voir l'inventaire n° 395)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Antoine Roberge",
+          "note": "Agriculteur de Saint-Jean-Chrysostome ; signe. Ajouté par renvoi à la place du témoin rayé. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "George[s] Lagüe [?]",
+          "note": "« Ancien marchand » de Saint-Jean-Chrysostome, d'abord inscrit comme témoin, puis rayé. Lecture du nom incertaine."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Troisième acte de la même après-midi chez Joseph Cantin, après l'inventaire (n° 395) et les deux testaments des époux (n° 396 et 397). La fille aînée du premier lit, seule héritière majeure de sa mère, abandonne sa part à son père ; les droits des trois enfants mineurs restent ceux que fixe l'inventaire.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01664",
+          "microfilm": "002608",
+          "drive": "16JgWC_jdXwpxkB2TgdTy8mBzxDWLSDLW",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01665",
+          "microfilm": "002609",
+          "drive": "1-YKnMFQsuB8bzVjJhoIJR-i7cMh1fCMa",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-05-28-obligation-girard-cantin",
+      "type": "notarie",
+      "titre": "Obligation d'Athanase Girard, journalier, envers Joseph Cantin, de Saint-Jean-Chrysostome, cinquante piastres, avec hypothèque sur un emplacement de la concession Saint-Augustin — minute n° 399, 28 mai 1875",
+      "date": "1875-05-28",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 399, images 002610 à 002613 (Drive : fichiers 04T_CN401S124P_01666 à 01668). Numéro confirmé par la clôture (« trois cent quatre-vingt-dix-neuf »). En marge « Obligation Girard [à] Cantin — Original — Exp. 1 fois — Exp. 2 fois », « $50.00 », et un résumé de l'hypothèque : « 60 × 60, bornes : N. chemin, Sud P. R., N.E. Route, S.O. C. Tremblay, maison en [bois] ». Acte complet.",
+      "nature": "Obligation (reconnaissance de prêt) avec hypothèque spéciale, reçue le 28 mai 1875, après midi, à Saint-Jean-Chrysostome, en la demeure du créancier, devant un témoin ; les parties ne savent signer.",
+      "transcription": "[002610] « N° 399. 28 mai 1875. L'an mil huit cent soixante-quinze, le vingt-huit de mai, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, soussigné ; Et en présence de Mr Antoine Roberge, de St Jean Chrysostome, cultivateur, témoin aussi soussigné ; Fut présent : Mr Athanase Girard, de St Jean Chrysostome, dit comté, journalier ; Lequel reconnaît devoir légitimement à Mr Joseph Cantin, du même lieu, journalier, [rayé : « la somme de cinquante piastres courant »] à ce présent & acceptant pour lui, ses hoirs & ayants cause, la somme de cinquante piastres courant, étant pour prêt de pareille somme réellement fait avant ces présentes en bon argent courant, ainsi que le débiteur le reconnaît & se déclare content. Laquelle somme de cinquante piastres courant le débiteur s'oblige rembourser & payer au créancier, ou ordre, [002611-12] porteur des présentes, à sa [?] légale demande, ensemble avec l'intérêt de huit pour cent par an, payable annuellement jusqu'au parfait paiement, à compter de ce jour. Et pour sûreté du quel paiement [interligne : « de la dite somme de cinquante piastres »] & des intérêts qui en proviendront, le débiteur hypothèque spécialement un emplacement [rayé : « Charles Tremblay »] situé au dit lieu de St Augustin, paroisse St Jean Chrysostome, contenant soixante pieds de front sur soixante pieds de profondeur, borné au nord au chemin public, au sud à Pierre Roberge, au nord-est à une route, & au sud-ouest à Charles Tremblay, avec ensemble une maison en bois à un étage & autres bâtisses dessus construites, circonstances & dépendances. Et pour l'exécution des présentes les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte fait & passé à St Jean Chrysostome, demeure du créancier, les jour, mois & an susdits, sous le numéro trois cent quatre-vingt-dix-neuf des originaux du notaire soussigné. [002612-13] Requis de signer, les débiteur & créancier ont déclaré ne le savoir, en présence du témoin qui a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Antoine Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Athanase Girard",
+          "note": "Journalier de Saint-Jean-Chrysostome, concession Saint-Augustin ; propriétaire d'un emplacement de 60 pieds sur 60 avec maison de bois à un étage ; ne sait signer. Le voisin à l'ouest du lot Langlois (n° 124, 1874) et le priseur de l'inventaire n° 395. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "creancier",
+          "nom": "Joseph Cantin",
+          "note": "Journalier de Saint-Jean-Chrysostome ; ne sait signer. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Antoine Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe. Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Pierre Roberge",
+          "note": "Voisin au sud ; le concédant des emplacements du hameau Roberge (n° 122 à 128)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Charles Tremblay",
+          "note": "Voisin au sud-ouest."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "L'inventaire n° 395, passé le même jour, compte parmi les dettes actives de la communauté Cantin–Couture « cinquante piastres dues par Athanase Girard, suivant billet » : la présente obligation remplace ce billet par un acte authentique garanti sur la maison du débiteur, au profit de Joseph Cantin seul. L'emplacement, borné au sud par Pierre Roberge et donnant sur une route au nord-est, est vraisemblablement l'un des lots du hameau Roberge de la concession Saint-Augustin.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01666",
+          "microfilm": "002610",
+          "drive": "1Zgdyre_PQYhHsh2995ZvkmS-UAmNkQ98",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01667",
+          "microfilm": "002611",
+          "drive": "1p31X-nKKhosVHrMR4omr5uzhtTz7pk0u",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01668",
+          "microfilm": "002612",
+          "drive": "1mSW7TzpSC4zlzXrAvcGQx0_dz23IMIkN",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-05-29-transport-fecteau-paradis",
+      "type": "notarie",
+      "titre": "Transport de Jean-Baptiste Fecteau, fils, journalier, à Marie Paradis, marchande épicière, de quarante piastres à prendre sur son salaire chez Michel Morin, jobber chez Henry Atkinson — minute n° 400, 29 mai 1875",
+      "date": "1875-05-29",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 400, images 002613 à 002615 (Drive : fichiers 04T_CN401S124P_01669 à 01671). Numéro confirmé par la clôture (« quatre cents »). En marge « Transport Fecteau à Paradis — Original » ; trois renvois en marge, paraphés « J. L. », « M. P. », « E. H. T. ». Une étiquette collée masque quelques mots de 002613 et 002614. Acte complet.",
+      "nature": "Transport (cession) de salaire, reçu le 29 mai 1875, après midi, à Saint-Romuald (Etchemin), devant un témoin ; le débiteur cédé intervient et l'accepte.",
+      "transcription": "[002613] « N° 400. 29 mai 1875. L'an mil huit cent soixante-quinze, le vingt-neuf de mai, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Joseph Leclerc, ancien marchand, de St Romuald, témoin au présent acte aussi soussigné ; Fut présent : Jean Baptiste Fecteau, fils, journalier de St Romuald ; Lequel cède, transporte & abandonne [renvoi (1) : « pour bonnes & valables considérations reçues avant ce jour de la cessionnaire ci-après nommée »] jusqu'à concurrence de la somme de quarante piastres courant, à être prise comme suit, savoir : trois piastres par semaine sur le salaire que lui devra Michel Morin, de St Romuald, jobber chez Henry Atkinson, écuier, & ce tant & aussi longtemps & pendant chacune des semaines que le cédant travaillera pour le dit Michel Morin & que ce dernier l'emploiera à son service, à Delle Marie Paradis, de St Romuald, marchande épicière, [rayé : « cette dernière »] à ce aussi présente & acceptant pour elle, ses hoirs & ayants cause [renvoi (2) : « pour par la cessionnaire retirer & recevoir du dit Sr Morin, aux termes susdits, la dite somme de quarante piastres »]. [renvoi × : « Et est intervenu »] À ce fut aussi présent le dit Michel Morin, de St Romuald, jobber ; Lequel, après avoir pris communication & eu lecture de ce qui précède par le notaire soussigné, déclare avoir le présent transport [002614] pour agréable & promet de payer à la dite Delle Marie Paradis, pour & à l'acquit du cédant, la dite somme de quarante piastres courant aux termes y fixés, & tant & aussi longtemps & en proportion du temps que le dit cédant travaillera à son service, & déclare en outre tenir le présent transport pour bien & dûment signifié ; le dit cédant autorisant dès à présent le dit Sr Morin d'effectuer pour lui & en son nom, & en à-compte sur ses gages de chaque semaine, [en marge : « des paiements » [?]] la dite somme de trois piastres par chaque semaine à venir, jusqu'à concurrence de la dite somme de quarante piastres, & de recevoir & exiger tous reçus à cet effet. Dont & du tout les parties ont requis le présent acte, qui leur a été octroyé à St Romuald, Etchemin, les jour, mois & an susdits, sous le numéro quatre cents des originaux du Notaire soussigné. Requis de signer, le dit Sr Morin a déclaré ne le savoir, en présence du témoin qui a signé, ainsi que le cédant & la cessionnaire, avec moi [002615] Notaire, lecture faite. Mots rayés sont nuls. » — Signé : « J. B. Fecteau », une croix (Michel Morin), « Joseph Leclerc », « Marie Paradis », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "cedant",
+          "nom": "Jean-Baptiste Fecteau, fils",
+          "note": "Journalier de Saint-Romuald, employé de Michel Morin ; signe « J. B. Fecteau ». Absent des recensements dépouillés sous ce prénom : non rattaché."
+        },
+        {
+          "role": "cessionnaire",
+          "nom": "Marie Paradis",
+          "note": "« Delle », marchande épicière de Saint-Romuald ; signe « Marie Paradis ». Sans doute la même qu'au bail Roberge–Paradis (2 mai 1875). Non rattachée (plusieurs Marie Paradis possibles)."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Michel Morin",
+          "note": "« Jobber » (sous-entrepreneur) de Saint-Romuald, travaillant chez Henry Atkinson ; intervient et accepte le transport ; ne sait signer. Peut-être le journalier de 35 ans de 1881 (1881-D1-P037-L21) — hypothèse, non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Henry Atkinson",
+          "note": "« Écuier », chez qui travaille Michel Morin : le marchand de bois de l'Etchemin (48 ans en 1881, 1881-D1-P088-L10). Absent du recensement de 1871, où sa femme et ses enfants sont recensés : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Joseph Leclerc",
+          "ref_personne": "1871-D1-P019-L15",
+          "note": "« Ancien marchand » de Saint-Romuald ; signe. Même rattachement probable qu'aux n° 93, 105, 131 et 160 (marchand de 27 ans en 1871)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un ouvrier engage d'avance son salaire chez son épicière : trois piastres par semaine, retenues par son patron, jusqu'à quarante piastres. L'acte montre l'organisation du travail au moulin Atkinson : les ouvriers y sont payés par des « jobbers » à la semaine. Le n° 402 (Daigle à Gingras) est du même modèle.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01669",
+          "microfilm": "002613",
+          "drive": "1XfJSV3vH8rOFjX2ptNBp3301j9-AWKZ-",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01670",
+          "microfilm": "002614",
+          "drive": "1VoikCAudXO8Tfi53OAnm0bnn57FnPIld",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01671",
+          "microfilm": "002615",
+          "drive": "1xLmklo4YFppZGurGyjv46O8JOQRJWGcV",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-05-31-engagement-dumont-simoneau",
+      "type": "notarie",
+      "titre": "Engagement de Pierre Dumont, fils de Louis Dumont, de Notre-Dame-de-Lévis, en apprentissage chez Augustin Simoneau, maître boulanger de Saint-Romuald, pour trois ans — minute n° 401, 31 mai 1875",
+      "date": "1875-05-31",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 401, images 002616 à 002620 (Drive : fichiers 04T_CN401S124P_01672 à 01675). Le numéro n'est donné que par l'en-tête (« N° 401 ») : la clôture « Dont acte… sous le numéro… » manque au texte, sans doute portée dans un renvoi de 002618-19 devenu illisible (tache) ; la suite 400-402 le confirme. En marge « Engagement P. Dumont à A. Simoneau — Original — Payé $0.50 — (18 mars 75, trois ans) » ; renvois paraphés « L. D. » [?], « P. D. », « M. G. », « A. S. », « E. H. T. ». Acte complet.",
+      "nature": "Contrat d'apprentissage, reçu le 31 mai 1875, après midi, à Saint-Romuald, devant un témoin.",
+      "transcription": "[002616] « N° 401. 31 mai 1875. L'an mil huit cent soixante-quinze, le trente-un de mai, après-midi, en présence de Me [rayé : « E. H. Tremblay »] Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, soussigné ; Et en présence de Mathias Gaumont, ferblantier de St Romuald, témoin aussi soussigné ; Fut présent : Louis Dumont, de la paroisse de Notre-Dame de Lévis, cultivateur ; Lequel [renvoi (1) : « voulant faire le profit & avantage de [rayé : « son fils âgé d'environ vingt ans »] Pierre Dumont, son fils mineur, âgé d'environ vingt ans, l'a, du consentement de ce dernier, engagé »] [rayé : « a, du consentement de Pierre Dumont, son fils, à ce aussi présent, engagé ce dernier »] pour le terme & espace de trois ans consécutifs, qui ont commencé à courir du [rayé : « premier »] dix-huit de mars dernier & finiront le dix-huit mars mil huit cent soixante-dix-huit, [rayé : « à Augustin »] en qualité d'apprenti boulanger, pour faire [rayé : « les pâtes, avec »] tous les ouvrages qui se rattachent au dit métier, de quelqu'espèce qu'ils puissent être, à Augustin Simoneau, de St Romuald, maître boulanger, à ce aussi présent & acceptant, [002617-18] lequel engage le dit Pierre Dumont en qualité d'apprenti, & auquel il s'oblige montrer le dit métier [interligne : « en autant que l'apprenti pourra l'apprendre »]. Le dit Sr Simoneau s'oblige de le nourrir, coucher, loger, chauffer & éclairer, & le dit Louis Dumont s'oblige de l'habiller de manière à ce que le dit apprenti puisse remplir ses fonctions. Le dit Pierre Dumont s'oblige par ces présentes, [rayé] assisté de son dit père, de ne pas [rayé : « sortir sans »] sortir pour promenade sans la permission du dit Sr Simoneau, ni fréquenter les cabarets ou [rayé : « autres »] maisons de réputation suspecte, de ne pas s'enrôler comme volontaire pendant le temps entier de son engagement, de bien écouter son patron, de lui être fidèle, enfin de remplir ses devoirs comme un bon enfant & fidèle apprenti, de respecter son patron & ne rien faire qui puisse préjudicier à ses intérêts. De son côté le dit Sr Simoneau s'oblige le traiter humainement & faire travailler le dit apprenti suivant ses forces & capacité. [002618-19] Le temps que perdra le dit apprenti par maladie ou autrement sera rendu, ou une valeur en argent proportionnée au nombre de jours ainsi perdus sera retenue sur son salaire par son dit patron, au choix de ce dernier. Et attendu que le dit apprenti [rayé : « s'oblige en outre passé »] deviendra en âge avant que les trois années d'apprentissage soient écoulées, c'est pourquoi [rayé] le dit Louis Dumont & le dit Pierre Dumont, ce dernier [renvoi (2) : « dûment »] assisté en ces présentes par son dit père, s'obligent consentir à son âge de majorité un consentement de continuation d'apprentissage en faveur du dit Sr Simoneau, sans que néanmoins tel consentement ne soit du tout indispensable. Le dit Sieur Augustin Simoneau en outre s'oblige payer au dit apprenti, pour chacune des années susdites, une somme de cinquante-deux piastres courant, payable [rayé : « par versements égaux de quatre piastres courant chaque mois à dater du dix-huit de mars dernier »] une piastre par semaine. [002619-20] Et le dit Sieur Simoneau & le dit Pierre Dumont ont signé, ainsi que le témoin, avec moi Notaire, le dit Louis Dumont ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. Deux renvois en marge sont bons & approuvés. » — Signé : « A. Simoneau », « Pierre Dumont », « Mathias Gaumont », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "partie",
+          "nom": "Louis Dumont",
+          "note": "Cultivateur de la paroisse de Notre-Dame-de-Lévis, père de l'apprenti ; ne sait signer. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Pierre Dumont",
+          "note": "Apprenti boulanger, fils mineur de Louis Dumont, « âgé d'environ vingt ans » (il atteindra sa majorité avant la fin des trois ans) ; signe « Pierre Dumont ». De Notre-Dame-de-Lévis ; absent des recensements de Saint-Romuald : non rattaché."
+        },
+        {
+          "role": "partie",
+          "nom": "Augustin Simoneau",
+          "ref_personne": "1871-D1-P022-L17",
+          "note": "« Maître boulanger » de Saint-Romuald, patron de l'apprenti ; signe « A. Simoneau ». Le seul de ce nom : boulanger de 40 ans en 1871 (division 1, maison 56), de 52 ans en 1881. Rattachement probable, comme aux n° 42, 47 et 70."
+        },
+        {
+          "role": "temoin",
+          "nom": "Mathias Gaumont",
+          "ref_personne": "1871-D1-P021-L05",
+          "note": "Ferblantier de Saint-Romuald ; signe. Ferblantier de 25 ans en 1871 (division 1, maison 50), de 34 ans en 1881. Rattachement probable, comme au n° 113."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Contrat d'apprentissage détaillé : trois ans comptés du 18 mars 1875, logé et nourri chez le patron, habillé par le père, 52 piastres par an payées une piastre par semaine ; défense de sortir sans permission, de fréquenter les cabarets ou de s'enrôler comme volontaire. Le notaire avait d'abord écrit que l'apprentissage commençait le 1er mars et que le salaire serait de quatre piastres par mois. La boulangerie Simoneau est la maison 56 de 1871-D1.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01672",
+          "microfilm": "002616",
+          "drive": "1fhbBRHGFzsbdPD-VunoeJoGPfzPzUba7",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01673",
+          "microfilm": "002617",
+          "drive": "1U9f-QDFjYlCQQX-R6RU9CLkMbgDfhEGo",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01674",
+          "microfilm": "002618",
+          "drive": "1qTUee8mlXhyCFVypG35K-VrWlwJ0CbRZ",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01675",
+          "microfilm": "002619",
+          "drive": "12oUd6sxnLrmer81qoxlxLYNkr0da3zag",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-02-transport-daigle-gingras",
+      "type": "notarie",
+      "titre": "Transport de Barthélemy Daigle, fils de Rémi, journalier, à Marcel Gingras, marchand-épicier, de cinq louis onze chelins trois sous à prendre sur ses gages chez les jobbers Pierre Boucher et Télesphore Vermette — minute n° 402, juin 1875",
+      "date": "1875-06-02",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 402, images 002620 à 002623 (Drive : fichiers 04T_CN401S124P_01676 à 01678). Numéro confirmé par la clôture (« quatre cent deux »). En-tête « N° 402. 2 juin 1875 » ; mais dans le texte, « deux » est rayé et remplacé par un renvoi qui se lit « (1) quatrième jour » [?] — date à vérifier sur le manuscrit (le n° 403 est du 3 juin). En marge « Transport Daigle à M. Gingras — Original », une note « Payable par… » [?], paraphes « M. G. », « P. B. », « T. V. », « L. L. », « E. H. T. ». Acte complet.",
+      "nature": "Transport (cession) de gages, reçu après midi à Saint-Romuald (Etchemin), devant un témoin ; les débiteurs cédés interviennent et l'acceptent.",
+      "transcription": "[002620-21] « N° 402. 2 juin 1875. L'an mil huit cent soixante-quinze, le [rayé : « deux »] [renvoi (1) : « quatrième [?] jour »] de juin, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Louis Lambert, charretier de St Romuald, témoin aussi soussigné ; Fut présent : Barthélemi Daigle, fils de Rémi, de St Romuald, journalier ; Lequel cède, transporte & abandonne jusqu'à concurrence de la somme de cinq louis, onze chelins & trois sous courant, à être prise, la dite somme, sur les gages en entier que le dit Daigle aura droit de retirer & recevoir [rayé] de Pierre Boucher [rayé : « & Télesphore Vermette, & Télesph. »] de St Romuald & Télesphore Vermette, de St Jean Chrysostome & actuellement à St Romuald, tous deux jobbers ou entrepreneurs, à Marcel Gingras, de St Romuald, marchand-épicier, à ce aussi présent & acceptant la dite somme de cinq louis, onze chelins & trois sous courant. Ce transport est fait [rayé] en considération de ce que le cessionnaire a avancé [002621-22] des effets de groceries pour un montant égal à la somme susdite, ainsi que le cédant le reconnaît & s'en déclare content. À ce furent aussi présents les dits Pierre Boucher & Télesphore Vermette ; Lesquels, après avoir pris communication & eu lecture de ce qui précède, ont déclaré l'avoir pour agréable & s'obligent payer [rayé : « jusqu'à concurrence de »] la dite somme de cinq louis, onze chelins & trois sous, à condition toutefois que le dit cédant travaille sous leurs ordres & qu'il ait gagné la somme susdite ; autrement ils ne s'obligent payer au dit cessionnaire qu'une somme proportionnelle au salaire qu'aura droit de recevoir le cédant. Lesquels paiements se feront à la fin de chaque semaine, à dater de lundi, le trente-un de mai dernier, pour le salaire en entier qu'aurait dû retirer le dit cédant, ce dernier autorisant les dits Pierre Boucher & Télesphore Vermette de payer la somme susdite en entier, sur la totalité de ses gages, au dit cessionnaire, à l'acquit & décharge de lui dit cédant. [002622-23] Et pour l'exécution des présentes les parties élisent domicile en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte fait & passé à St Romuald, Etchemin, les jour, mois & an susdits, sous le numéro quatre cent deux des originaux du Notaire soussigné. Requis de signer, le dit Barthélemi Daigle a déclaré ne le savoir, en présence du témoin qui a signé, ainsi que les dits Marcel Gingras, Pierre Boucher & Télesphore Vermette, avec moi, Notaire, lecture faite. Mots rayés sont nuls. Renvois en marge sont bons & approuvés. » — Signé : « Marcel Gingras », « Pierre Boucher », « Télesphore Vermette », « Louis Lambert », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "cedant",
+          "nom": "Barthélemy Daigle",
+          "ref_personne": "1871-D1-P029-L02",
+          "note": "« Fils de Rémi », journalier de Saint-Romuald ; ne sait signer. En 1871 : Barthélemy Daigle, journalier de 22 ans, marié (division 1) ; Rémi Daigle, journalier de 58 ans, y est recensé aussi (1871-D1-P054-L01). Rattachement probable."
+        },
+        {
+          "role": "cessionnaire",
+          "nom": "Marcel Gingras",
+          "ref_personne": "1871-D1-P040-L08",
+          "note": "Marchand-épicier de Saint-Romuald ; signe. Le seul Marcel Gingras de la paroisse (charretier de 32 ans en 1871, maison 107) ; même rattachement probable qu'aux actes de 1874."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Pierre Boucher",
+          "note": "« Jobber ou entrepreneur » de Saint-Romuald ; signe. Plusieurs Pierre Boucher recensés : non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Télesphore Vermette",
+          "note": "« Jobber ou entrepreneur », de Saint-Jean-Chrysostome, « actuellement à St Romuald » ; signe. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Rémi Daigle",
+          "note": "Père du cédant. Sans doute le journalier de 58 ans de 1871 (1871-D1-P054-L01) — hypothèse, non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Lambert",
+          "note": "Charretier de Saint-Romuald ; signe. Plusieurs Louis Lambert recensés : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Même mécanisme qu'au n° 400 : l'épicier qui a fait crédit se fait payer directement par les « jobbers » qui emploient le journalier, à la fin de chaque semaine, à compter du lundi 31 mai 1875. Cinq louis onze chelins trois sous, en cours d'Halifax, valent environ 22,25 piastres. Date à vérifier : l'en-tête dit le 2 juin, un renvoi semble dire le 4.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01676",
+          "microfilm": "002620",
+          "drive": "1dwhodd33Eu6QAv9QUtEjjvZuKfS80FjC",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01677",
+          "microfilm": "002621",
+          "drive": "1BsaksGlODzlpmsv9SOioy23-jvHyMmm1",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01678",
+          "microfilm": "002622",
+          "drive": "1b4OjQEmneKBA6Gzk882kzC00qJCFdDNb",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-03-quittance-cantin-samson",
+      "type": "notarie",
+      "titre": "Quittance de Magdeleine Cantin, fille majeure de Saint-Jean-Chrysostome, à Magloire Samson, cultivateur, d'une obligation de cinquante piastres de 1858 — minute n° 403, 3 juin 1875",
+      "date": "1875-06-03",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 403, images 002623 à 002625 (Drive : fichiers 04T_CN401S124P_01679 et 01680). L'en-tête porte « N° 403 » ; la clôture dit par erreur « sous le numéro quatre cent deux » (un mot rayé à la suite) : le numéro 402 est déjà celui du transport Daigle–Gingras, et l'acte est le 403. En marge « Quittance Cantin à Samson — Original — Expédié 1 fois & payé » ; renvoi paraphé « M. C. », « E. H. T. ». Acte complet.",
+      "nature": "Quittance générale et finale, reçue le 3 juin 1875, avant midi, en l'étude du notaire à Saint-Romuald ; la comparante signe.",
+      "transcription": "[002623-24] « N° 403. 3 juin 1875. L'an mil huit cent soixante-quinze, le troisième jour de juin, avant-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant [rayé : « & pratiquant »] à St Romuald, comté de Lévis, soussigné ; Fut présente : Delle Magdeleine Cantin, fille majeure, demeurant à St Jean Chrysostome, comté susdit ; Laquelle reconnaît avoir eu & reçu lors de l'exécution des présentes, à vue & présence de nous Notaire, en bon argent courant, de Sieur [rayé : « Mr Jean »] Magloire Samson, [rayé : « père, & fils Jean Samson, de tous deux »] de St Jean Chrysostome, dit comté, cultivateur, [rayé] ès mains de son fils Sr Jean Samson, la somme de cinquante piastres courant [renvoi (1) : « étant pour le parfait & entier paiement & remboursement du capital d'une obligation »] [rayé : « que le dit Sr Magloire Samson devait à la comparante suivant obligation & »] reçue par Me [rayé : « Ambroise »] Trudelle, N.P., le vingt mars mil huit cent cinquante-huit (1858). Reconnaît en outre la comparante avoir aussi reçu [002624-25] tous les intérêts échus sur la dite somme jusqu'à ce jour. Dont quittance générale & finale. Dont acte requis & octroyé à St Romuald, Étude, les jour, mois & an susdits, sous le numéro quatre cent deux [sic] [mot rayé]. Et la comparante a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « Magdeleine Cantin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Magdeleine Cantin",
+          "note": "Fille majeure de Saint-Jean-Chrysostome ; signe « Magdeleine Cantin ». Hors paroisse ; non rattachée (la Magdeleine Cantin de 1871-D1 est une veuve de 65 ans)."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Magloire Samson",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, débiteur d'une obligation du 20 mars 1858 (Me Trudelle) ; paie par les mains de son fils. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Jean Samson",
+          "note": "Fils de Magloire Samson, qui remet l'argent pour son père. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Remboursement d'une obligation vieille de dix-sept ans, passée devant Me Trudelle, notaire de Saint-Jean-Chrysostome (le même qui avait reçu en 1853 le contrat de mariage Cantin–Couture, n° 395). Le lien entre cette Magdeleine Cantin et la famille de Joseph Cantin des n° 395 à 399 n'est pas dit.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01679",
+          "microfilm": "002623",
+          "drive": "1WcxOXcgqf3BDJwwOYy2Xuq1xhTWBTVtM",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01680",
+          "microfilm": "002624",
+          "drive": "1nSkYjDRZ7O-jcgvOn7lpa3GtSZBAk2Fc",
+          "legende": "2/2"
+        }
+      ]
     }
   ]
 }
