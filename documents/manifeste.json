@@ -36860,6 +36860,213 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-09-12-testament-henriette-gagne",
+      "type": "notarie",
+      "titre": "Testament d'Henriette Gagné, épouse d'Olivier Roberge, cultivateur de la concession Taniata, Saint-Jean-Chrysostome, en faveur de son mari — minute n° 442, 12 septembre 1875",
+      "date": "1875-09-12",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 442, images 002770 à 002773 (Drive : fichiers 04T_CN401S124P_01826 à 01828). Papier réglé ; même disposition que le n° 441 (deux mains, renvois paraphés « L. C. », « J. C. », « E. H. T. »). En-tête « N° 442, 12 septembre 1875 » ; la clôture laisse le nombre incomplet (« sous le numéro quatre cent … des originaux »). En marge « Testament de Henriette Gagné, épouse de O. Roberge — Original — Exp. 1 fois — Payé ». Acte complet.",
+      "nature": "Testament authentique, reçu le 12 septembre 1875, après midi, à Saint-Jean-Chrysostome, en la demeure de la testatrice, devant deux témoins ; la testatrice, malade, ne sait signer.",
+      "transcription": "[002770] « N° 442. 12 septembre 1875. L'an mil huit cent soixante-quinze, le douzième jour de septembre, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant à St Romuald [renvoi (2) : « comté de Lévis »], soussigné ; Et en présence de Sieur Louis Cantin, cultivateur, & Sieur Jacques Cantin, cultivateur, tous deux de St Jean Chrysostome, dit comté, témoins au présent testament, aussi soussignés ; Fut présente : Dame Henriette Gagné, épouse de Sr Olivier Roberge, cultivateur, demeurant tous [deux] en la paroisse de St Jean Chrysostome, dit comté, concession Taniata, [rayé : « étant en bonne santé de corps »] [renvoi (1) : « étant malade de corps, mais »] saine d'esprit, mémoire, jugement & entendement, ainsi qu'elle est apparue à nous, notaire, & aux dits témoins par ses discours & la manifestation claire & précise de ses volontés ; Laquelle a, dans la vue de la mort, fait & nommé son présent testament à nous, notaire, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : [002771] Primo : Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par Mr Olivier Roberge, mon époux actuel, à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, voulant & entendant qu'un service décent soit chanté sur mon corps le jour de mon inhumation, un autre service au bout de l'an de mon décès, & que dix messes basses de Requiem soient dites le plus tôt possible après mon décès. 2° Je donne & lègue à Mr Olivier Roberge, mon époux actuel, tous les biens meubles & immeubles, hardes & linges de corps généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient, pour par mon dit époux en jouir, faire & disposer en toute propriété à dater du jour de mon décès, nommant & appointant mon dit époux mon exécuteur testamentaire & l'instituant mon légataire universel en propriété. 3° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. [002772] Ce fut ainsi fait & nommé par la dite testatrice à nous, notaire, en la présence constante des dits témoins, & son présent testament lui ayant été lu, expliqué & relu par le dit notaire, les dits témoins toujours présents, elle a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte. Fait & passé à St Jean Chrysostome susdit, demeure de la testatrice, les jour, mois & an susdits, sous le numéro quatre cent [sic] des originaux du Notaire soussigné. [rayé : « Et le testateur & les dits témoins ont signé avec moi, notaire, lecture faite & refaite. »] Requise de signer, la testatrice a déclaré ne le savoir, en présence des dits témoins, qui ont signé avec moi, notaire, lecture faite & refaite. Mots rayés sont nuls. » — Signé : « Louis Cantin », « Jacques Cantin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Henriette Gagné",
+          "note": "Épouse d'Olivier Roberge, cultivateur de la concession Taniata, Saint-Jean-Chrysostome ; « malade de corps » ; ne sait signer. Non rattachée."
+        },
+        {
+          "role": "legataire",
+          "nom": "Olivier Roberge",
+          "note": "Cultivateur de la concession Taniata, mari de la testatrice ; le testateur du n° 441. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Louis Cantin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Jacques Cantin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Pendant du testament du mari (n° 441), le même après-midi, aux mêmes témoins. C'est la femme qui est malade : dans son acte, « en bonne santé » est rayé et remplacé par « malade de corps, mais », tandis que dans celui du mari c'est l'inverse — le notaire avait préparé les deux formulaires d'avance. La formule de signature du mari, recopiée par erreur, est rayée.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01826",
+          "microfilm": "002770",
+          "drive": "1GqxVmXDcfn9FKEFxqlgp3fERKw-MR106",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01827",
+          "microfilm": "002771",
+          "drive": "11YlXXH9icGM9tGlF_MzpICWAVGM136ft",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01828",
+          "microfilm": "002772",
+          "drive": "1jeYNZfVyMVPCfSYx9KO-1832VZVqWcMy",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-09-13-quittance-demers-gingras",
+      "type": "notarie",
+      "titre": "Quittance d'Isaïe Demers, écuyer, médecin de Saint-Jean de l'île d'Orléans, à Joseph Gingras, cultivateur de Saint-Nicolas, de 150 piastres à compte sur le prix d'une terre — minute n° 443, 13 septembre 1875",
+      "date": "1875-09-13",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 443, images 002773 à 002775 (Drive : fichiers 04T_CN401S124P_01829 et 01830). Numéro confirmé par la clôture (« quatre cent quarante-trois »). En marge « Quittance Dr Demers & Gingras — Original — Exp. 1 fois — 3/6, 2/6, 1/6 — Payé » ; renvoi (1) paraphé « I. D. », « E. H. T. ». Acte complet.",
+      "nature": "Quittance partielle, reçue le 13 septembre 1875, après midi, à Saint-Jean de l'île d'Orléans, en la demeure du comparant ; le comparant signe.",
+      "transcription": "[002773] « N° 443. 13 septembre 1875. L'an mil huit cent soixante-quinze, le treizième jour de septembre, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Fut présent : Isaïe Demers, écuier, médecin, de St Jean, Île d'Orléans, dans le comté de Montmorency ; Lequel reconnaît & confesse avoir eu & reçu en bon argent courant, lors de l'exécution des présentes & à vue & présence de nous, notaire, [renvoi (1) : « de Sieur Joseph Gingras (ès mains de sa femme), de la paroisse de St Nicolas, comté de Lévis, cultivateur, »] la somme de cent cinquante piastres courant, étant en à-compte sur la balance revenant au dit Isaïe Demers, écr, sur le prix d'une vente de terre consentie par le comparant au dit Sr Gingras en date du vingt-huit août mil huit cent soixante-quatorze, reçu par le notaire soussigné, & enregistré au bureau d'enregistrement du comté de Lévis, Reg. B, vol. 22, page 274, n° 17,235. Dont quittance [002774-75] en à-compte d'autant. Dont acte requis & octroyé à St Jean, demeure du comparant, les jour, mois & an susdits, sous le numéro quatre cent quarante-trois. Et le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « I. Demers », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Isaïe Demers",
+          "note": "Écuyer, médecin de Saint-Jean, île d'Orléans ; signe « I. Demers ». Le vendeur de la terre de Saint-Nicolas (n° 175, 28 août 1874) et le partie du protêt Gingras–Demers (1873). Hors paroisse ; non rattaché (l'Isaïe Demers, journalier de 47 ans de 1881, est un autre)."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Joseph Gingras",
+          "note": "Cultivateur de Saint-Nicolas, acquéreur de la terre ; paie par les mains de sa femme. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Suite de la vente d'une moitié de terre de Saint-Nicolas par le médecin Isaïe Demers à son fermier Joseph Gingras (28 août 1874) : premier acompte de cent cinquante piastres, apporté à l'île d'Orléans par la femme de l'acheteur. L'acte est passé chez le médecin, à Saint-Jean.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01829",
+          "microfilm": "002773",
+          "drive": "1KYDmFbxNMTh8qP_n6_Z1Rdz3l7AgpVXQ",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01830",
+          "microfilm": "002774",
+          "drive": "1X0VT4O7kyMCKtRUQPzThiiYhnl1LJgyC",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-09-14-quittance-begin-begin",
+      "type": "notarie",
+      "titre": "Quittance d'Antoine Bégin, cultivateur de Saint-Jean-Chrysostome, à Pierre Bégin, cultivateur de Notre-Dame-de-Lévis, de cent piastres pour ses droits légitimaires — minute n° 444, 14 septembre 1875",
+      "date": "1875-09-14",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 444, images 002775 à 002777 (Drive : fichiers 04T_CN401S124P_01831 et 01832). Numéro confirmé par la clôture (« quatre cent quarante-quatre »). En marge « Quittance Bégin à Bégin — Exp. 1 fois — Payé ». Acte complet.",
+      "nature": "Quittance générale et finale, reçue le 14 septembre 1875, avant midi, à Saint-Romuald, en la demeure du témoin ; le comparant ne sait signer.",
+      "transcription": "[002775] « N° 444. L'an mil huit cent soixante-quinze, le quatorze de septembre, avant midi, en présence de Mtre Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, soussigné ; Et en présence de Mr Damase Roberge, de St Romuald, maître de poste, témoin au présent acte, aussi soussigné ; Fut présent : Mr Antoine Bégin, de la paroisse de St Jean Chrysostome, comté de Lévis, cultivateur ; Lequel reconnaît & confesse que Mr Pierre Bégin, de Notre-Dame de Lévis, cultivateur, lui a payé dès avant ces présentes, en bon argent courant, la somme de cent piastres courant, que lui devait le dit Sr Pierre Bégin, tel que ce dernier s'y était obligé suivant acte de donation en sa faveur ; laquelle dite somme de cent piastres devant, aux termes du dit acte de donation, servir de tous droits légitimaires [rayé : « dans la succession »] de ses père & mère, donateurs, au comparant. Dont quittance générale & finale. Dont acte requis & octroyé à St Romuald, demeure du dit témoin, les jour, mois & an susdits, sous le numéro quatre cent quarante-quatre. Requis de signer, [002776-77] le comparant a déclaré ne le savoir, en présence du témoin, qui a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Damase Roberge », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Antoine Bégin",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; ne sait signer. Frère, sans doute, de Pierre Bégin. Non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Pierre Bégin",
+          "note": "Cultivateur de Notre-Dame-de-Lévis, donataire de ses parents, chargé de payer cent piastres à son frère. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Damase Roberge",
+          "ref_personne": "1871-D1-P022-L04",
+          "note": "Maître de poste de Saint-Romuald ; l'acte est passé chez lui ; signe « Damase Roberge ». Même rattachement probable qu'au n° 60 (marchand de 50 ans en 1871)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Règlement de famille : les parents Bégin avaient donné leurs biens à leur fils Pierre, à charge de verser cent piastres à son frère Antoine pour lui tenir lieu de sa part d'héritage. La date et le notaire de la donation ne sont pas donnés.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01831",
+          "microfilm": "002775",
+          "drive": "16gfstXqr4krzK2l88iBXxr7P32Bij2nu",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01832",
+          "microfilm": "002776",
+          "drive": "1VTpEjgzG26vZ_PscXNMaUNUSvQoeAp7p",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-09-17-bail-leclerc-noel",
+      "type": "notarie",
+      "titre": "Bail de François Leclerc, fils, marchand, à Antoine Noël, journalier, de deux chambres et d'une part de cave dans une maison de bois à deux étages de Saint-Romuald, jusqu'au 30 avril 1876 — minute n° 445, 17 septembre 1875",
+      "date": "1875-09-17",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 445, images 002777 à 002780 (Drive : fichiers 04T_CN401S124P_01833 à 01835 ; 01836 est le dos imprimé de la chemise, « Québec, … Bail par … à … Copie. Notaire », resté blanc). Formulaire imprimé de bail de la cité de Québec, adapté (clauses urbaines biffées). Numéro confirmé par la clôture (« quatre cent quarante-cinq »). En marge « Bail Leclerc & Noël — Original — L. 0.25, N. 0.25 — Pas payé & payable par Leclerc [?] ». Acte complet.",
+      "nature": "Bail à loyer, reçu le 17 septembre 1875, après midi, en l'étude du notaire à Saint-Romuald ; les deux parties signent.",
+      "transcription": "[002777] « N° 445. L'an mil huit cent soixante-quinze, le dix-septième jour du mois de septembre, après-midi, pardevant Mtre Elzéar H. Tremblay, Notaire Public, résident [rayé : « en la Cité de Québec »] à St Romuald, soussigné ; Fut présent : François Leclerc, fils, marchand, de St Romuald, comté de Lévis ; Lequel a, par ces présentes, donné à loyer pour le terme et espace de sept mois & demi entiers, qui commencent à courir du quinzième jour de septembre courant et finiront le trentième jour d'avril de l'année mil huit cent soixante-seize, à Antoine Noël, du même lieu, journalier, à ce présent et acceptant preneur pour lui, ses hoirs et ayants cause, c'est-à-savoir : Deux chambres & part de la cave, côté ouest, dans le bas d'une maison en bois à deux étages sise à St Romuald & appartenant au bailleur, avec part de cour [rayé] pour y mettre son bois, tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité. Ce bail est fait aux charges, clauses et conditions suivantes […] : 1° De jouir des premisses sus-louées en bon père de famille ; de les garnir et tenir garnies […] de meubles et effets exploitables […] ; [002778] 2° De les entretenir […] ; 3° De n'y faire aucuns changements […] ; [4° biffé : charges de ville et de police] 5° De laisser voir, visiter et parcourir les premisses […] ; 6° De ne point céder son droit au présent bail, ni sous-louer […]. De son côté le bailleur promet et s'oblige faire jouir le preneur des premisses sus-louées pendant toute la durée de ce bail, [rayé : « et de tenir les lieux clos et couverts suivant l'usage »] mais ne s'oblige à aucune réparation quelconque, pas même à tenir les lieux clos ni couverts. Ce Bail est fait en outre pour et en considération du prix et somme de quinze piastres courant pour tout le temps de sa durée, que le preneur promet et s'oblige payer au dit bailleur ou à son ordre comme suit, savoir : quatre piastres samedi de la semaine prochaine, & ensuite trois piastres chaque quinzaine suivante jusqu'au parfait paiement, le dit loyer devant être payé à la Toussaint prochaine. [clauses de l'aqueduc et des taxes biffées] [002779] Il est strictement convenu entre les parties que si le preneur ne paie pas régulièrement son loyer comme susdit, alors ce dernier s'oblige quitter les premisses sans délai, & ce sous une pénalité de la somme de dix piastres courant, payable & recouvrable à première demande. Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables, savoir, le preneur en les premisses sus-louées et le bailleur en sa demeure ordinaire où les paiements se feront. Aux quels lieux, etc. Car ainsi, etc. Dont acte, fait et passé à [rayé : « Québec »] St Romuald, étude du dit Mtre E. H. Tremblay, le notaire soussigné, les jour, mois et an susdits, sous le numéro quatre cent quarante-cinq. Et le bailleur & le preneur ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Frs Leclerc », « A. Noël », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "François Leclerc, fils",
+          "ref_personne": "1871-D1-P049-L14",
+          "note": "Marchand de Saint-Romuald, propriétaire d'une maison de bois à deux étages ; signe « Frs Leclerc ». Même rattachement probable qu'aux actes de 1874 (marchand de 37 ans en 1871, division 1)."
+        },
+        {
+          "role": "preneur",
+          "nom": "Antoine Noël",
+          "note": "Journalier de Saint-Romuald ; signe « A. Noël ». Absent des recensements dépouillés : non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Encore un logement d'ouvrier à court terme, payé par quinzaine : quinze piastres pour sept mois et demi, tout devant être soldé à la Toussaint, sous peine d'expulsion et d'une pénalité de dix piastres.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01833",
+          "microfilm": "002777",
+          "drive": "1iD0VKyURI_SjNNCJueLMRV96uWnMzol-",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01834",
+          "microfilm": "002778",
+          "drive": "1vcrF6_bfY2ayL-kFjpYy8T_uLwQqkFrM",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01835",
+          "microfilm": "002779",
+          "drive": "1ip6tUeQWKZ0tfRQYIFNPEKRh3GNzDHH_",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01836",
+          "microfilm": "002780",
+          "drive": "1z4iREFepwFJMefxE6WG2pcu0RcWmIZdQ",
+          "legende": "dos de la chemise"
+        }
+      ]
     }
   ]
 }

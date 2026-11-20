@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (423 fiches au 21 novembre 2026 ; série jusqu'à 01825 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
+fiche dont l'identifiant commence par `notarie-` (427 fiches au 21 novembre 2026 ; série jusqu'à 01836 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
 
 ## Où sont les images
 
@@ -691,17 +691,10 @@ Suite (20-21 novembre) : fichiers **01644 à 01660** lus, actes **n° 395-396**
 
 ## Passation à une nouvelle conversation (21 novembre 2026)
 
-**Où reprendre** : fichier **01826** (microfilm 002770), n° 442 (après le
-testament d'Olivier Roberge n° 441 du 12 septembre 1875). Identifiants Drive
-de 01826 à 01840 : 01826 `1GqxVmXDcfn9FKEFxqlgp3fERKw-MR106`,
-01827 `11YlXXH9icGM9tGlF_MzpICWAVGM136ft`, 01828 `1jeYNZfVyMVPCfSYx9KO-1832VZVqWcMy`,
-01829 `1KYDmFbxNMTh8qP_n6_Z1Rdz3l7AgpVXQ`, 01830 `1X0VT4O7kyMCKtRUQPzThiiYhnl1LJgyC`,
-01831 `16gfstXqr4krzK2l88iBXxr7P32Bij2nu`, 01832 `1VTpEjgzG26vZ_PscXNMaUNUSvQoeAp7p`,
-01833 `1iD0VKyURI_SjNNCJueLMRV96uWnMzol-`, 01834 `1vcrF6_bfY2ayL-kFjpYy8T_uLwQqkFrM`,
-01835 `1ip6tUeQWKZ0tfRQYIFNPEKRh3GNzDHH_`, 01836 `1z4iREFepwFJMefxE6WG2pcu0RcWmIZdQ`,
-01837 `1hnXmTPHKzrw-_P3lbirQeOCWMgS2DksL`, 01838 `1WguD3C9jfKZp_xcVnzoGGWiVuy_tjoe3`,
+**Où reprendre** : fichier **01837** (microfilm 002781), n° 446 (après le
+bail Leclerc–Noël n° 445 du 17 septembre 1875). Identifiants Drive : 01837 `1hnXmTPHKzrw-_P3lbirQeOCWMgS2DksL`, 01838 `1WguD3C9jfKZp_xcVnzoGGWiVuy_tjoe3`,
 01839 `1DcfTOBiDC7Jh8uXpO7ecsFaidQpjFOJD`, 01840 `1DCAdWwteatE-5ccIQYYze2Y070sdpzOJ`.
-Les fichiers 01661 à 01825 sont versés (n° 397 à 441, voir
+Les fichiers 01661 à 01836 sont versés (n° 397 à 445, voir
 « Suite du 21 novembre » plus bas). Chercher les suivants par
 `title = '04T_CN401S124P_01841.jpg' or title = '…01842.jpg' or …` (la
 recherche `title contains '…0167'` rate des fichiers). Les fichiers 016xx-017xx
@@ -927,6 +920,13 @@ jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivant
   témoins Théodule Bégin, hôtelier, et Louis Toussaint) ; testament d'Olivier
   Roberge, de la concession Taniata, en faveur d'Henriette Gagné (n° 441 :
   clôture laissée « quatre cent … »).
+
+- **Fichiers 01826 à 01836** : testament d'Henriette Gagné, femme d'Olivier
+  Roberge, malade (n° 442, pendant du n° 441) ; quittance du médecin Isaïe
+  Demers, de l'île d'Orléans, à Joseph Gingras (n° 443, suite de la vente
+  n° 177) ; quittance Bégin–Bégin de droits légitimaires (n° 444, chez le
+  maître de poste Damase Roberge) ; bail Leclerc–Noël (n° 445). 01836 est un
+  dos de chemise.
 
 Points pour Patrick : **n° 402**, l'en-tête dit « 2 juin », un renvoi du texte
 semble dire « quatrième jour » ; **n° 403**, la clôture dit « quatre cent
