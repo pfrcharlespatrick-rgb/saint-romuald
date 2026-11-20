@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (417 fiches au 21 novembre 2026 ; série jusqu'à 01795 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
+fiche dont l'identifiant commence par `notarie-` (419 fiches au 21 novembre 2026 ; série jusqu'à 01805 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
 
 ## Où sont les images
 
@@ -691,14 +691,16 @@ Suite (20-21 novembre) : fichiers **01644 à 01660** lus, actes **n° 395-396**
 
 ## Passation à une nouvelle conversation (21 novembre 2026)
 
-**Où reprendre** : fichier **01796** (microfilm 002740), n° 433 (après le
-bail Fontaine–Mariage n° 432 du 10 août 1875). Identifiants Drive de 01796 à
-01800 : `1sDAhRqdl0-T9BKdKUngLcpRSUI9Grkrr`, `1Et80uSEl5XXJ-WmTfrCHRVkluceskJ6J`,
-`1IDkQhVAEMxiqTOayMAFhzvNqgTy3pPNo`, `1cN1qXG9kB6aimk-c7v5p5rRofuPafo9A`,
-`1qwpPtQERny_YctRB4-nYotfjNxn8lJcS`. Les fichiers 01661 à 01795 sont
-versés (n° 397 à 432, voir
+**Où reprendre** : fichier **01806** (microfilm 002750), inventaire n° 438
+(3 septembre 1875) des biens de feue Adéline Martineau, à la réquisition de
+Joseph Lemelin, batelier, tuteur de leurs trois enfants (Marie-Emma, Joseph,
+Eugène-Napoléon) ; subrogé tuteur Louis Lambert, ancien batelier ; priseurs
+Abraham Cantin et Augustin Paradis. Lu jusqu'à 01808 ; il se poursuit au-delà.
+Identifiants Drive de 01806 à 01820 : voir `documents/tropy/images-drive.json`
+après versement, ou chercher par titre exact. Les fichiers 01661 à 01805 sont
+versés (n° 397 à 437, voir
 « Suite du 21 novembre » plus bas). Chercher les suivants par
-`title = '04T_CN401S124P_01801.jpg' or title = '…01802.jpg' or …` (la
+`title = '04T_CN401S124P_01821.jpg' or title = '…01822.jpg' or …` (la
 recherche `title contains '…0167'` rate des fichiers). Les fichiers 016xx-017xx
 sont dans le dossier Drive `1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql` ; le Drive va
 au moins jusqu'au fichier 01900.
@@ -900,6 +902,15 @@ jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivant
   n° 421 la date de la donation Fontaine, 10 janvier 1861, et le n° 8863) ;
   bail Fontaine–Mariage (n° 432). 01787 et 01788 sont deux prises de la même
   page ; 01795 est un dos de chemise.
+
+- **Fichiers 01796 à 01805** : **01796 est une feuille d'archiviste « Acte
+  manquant # 433 et 434 »** : ces deux minutes (entre le 10 et le 23 août
+  1875) ne sont pas au microfilm. Obligation Drouin–Lefebvre de 300 $ sur deux
+  terres de Saint-Bernard (n° 435) ; testaments croisés de Pierre Roberge, de
+  la concession Saint-Augustin, et de Marie-Obéline Breton (n° 436-437, sans
+  enfants nommés) : **ils montrent que le Pierre Roberge du n° 426 (concession
+  « Appenin », sept enfants) est un autre homme**. Le concédant du hameau
+  Roberge est celui de Saint-Augustin.
 
 Points pour Patrick : **n° 402**, l'en-tête dit « 2 juin », un renvoi du texte
 semble dire « quatrième jour » ; **n° 403**, la clôture dit « quatre cent

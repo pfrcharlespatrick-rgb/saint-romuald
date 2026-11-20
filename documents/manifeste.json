@@ -35679,7 +35679,7 @@
         {
           "role": "testateur",
           "nom": "Pierre Roberge",
-          "note": "Cultivateur de Saint-Jean-Chrysostome, concession « Appenin » [?] ; « un peu malade » ; ne sait signer. Peut-être le concédant du hameau Roberge (concession Saint-Augustin, n° 122 à 128, 405, 406), qui ne sait pas signer non plus — hypothèse, les deux concessions n'étant pas dites les mêmes. Hors paroisse ; non rattaché."
+          "note": "Cultivateur de Saint-Jean-Chrysostome, concession « Appenin » [?] ; « un peu malade » ; ne sait signer. Distinct du Pierre Roberge de la concession Saint-Augustin, concédant du hameau Roberge, marié à Marie-Obéline Breton et sans enfants nommés (testament n° 436, 26 août 1875). Hors paroisse ; non rattaché."
         },
         {
           "role": "legataire",
@@ -36274,6 +36274,204 @@
           "microfilm": "002739",
           "drive": "1Yay2p08Xri9uSSTgEOQFz5sQS91dvQ1V",
           "legende": "dos de la chemise"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-08-23-obligation-drouin-lefebvre",
+      "type": "notarie",
+      "titre": "Obligation de Thomas Drouin, cultivateur de Saint-Bernard (Dorchester), envers Joseph Lefebvre, journalier de Saint-Romuald, trois cents piastres, avec hypothèque sur deux terres de la concession Saint-Marc — minute n° 435, 23 août 1875",
+      "date": "1875-08-23",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 435, images 002741 à 002744 (Drive : fichiers 04T_CN401S124P_01797 à 01799). Le fichier 01796 (image 002740-41) est une feuille d'archiviste portant « Acte manquant # 433 et 434 » : les minutes n° 433 et 434 ne sont pas au microfilm. En-tête « N° 435 » (le 5 surchargé sur un 3) ; la clôture dit « quatre cent trente-[trois rayé] cinq ». En marge « Obligation Drouin à Lefebvre — Original — hon. 7/6, enreg. 8/3 — £0.15.9 Payé — 12.6 Payé — £1.8.3 pour l'enregistrement de l'acte de vente de terre n° 1 — E. H. T. — Expédié 1 fois & enregistré ». Acte complet.",
+      "nature": "Obligation (prêt) avec hypothèque, reçue le 23 août 1875, après midi, en l'étude du notaire à Saint-Romuald, devant un témoin ; les parties ne savent signer.",
+      "transcription": "[002741] « N° 435. 23 août 1875. L'an mil huit cent soixante-quinze, le vingt-troisième jour d'août, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Damase Réal Guénard, de St Romuald, professeur, témoin au présent acte, soussigné ; Fut présent : Sr [rayé : « Thomas Drouin alias »] Thomas Drouin, cultivateur, de la paroisse de St Bernard, dans le comté de Dorchester ; Lequel reconnaît & confesse devoir bien & légitimement à Mr Joseph Lefebvre, de St Romuald, journalier, à ce présent & acceptant, la somme de trois cents piastres courant, étant pour prêt de pareille somme réellement fait en bon argent courant, à vue & présence de nous, notaire, & témoin, lors de l'exécution des présentes, ainsi que le débiteur le reconnaît & dont il se déclare content & satisfait. Laquelle dite somme de trois cents piastres courant le débiteur promet & s'oblige payer & rembourser [002742] au créancier, ou ordre, porteur des présentes en forme légale, d'hui en trois ans, ensemble avec l'intérêt de sept pour cent par an, payable annuellement, à compter du dix-sept d'août courant. Et pour sûreté du paiement de la somme de trois cents piastres & des intérêts qui en proviendront, le débiteur hypothèque spécialement : 1° Deux arpents de terre de front sur trente arpents de profondeur, sis & situés en la paroisse St Bernard, seigneurie St Étienne, en la concession St Marc, bornés en front au fronteau de la dite concession, en profondeur au bout des dits trente arpents, joignant d'un côté au nord-ouest à Joseph Corriveau ou ses représentants & d'autre côté au sud-est à Pierre Corriveau ou ses représentants, avec ensemble la maison & les autres bâtisses dessus construites, circonstances & dépendances ; 2° Toute une terre de trois arpents de front sur trente arpents de profondeur, sise & située en la dite paroisse de St Bernard, seigneurie St Étienne, concession [002743] St Marc, bornée en front au fronteau de la dite concession, en arrière au bout de sa dite profondeur, joignant d'un côté au nord-ouest à la terre d'Étienne Drapeau, d'autre côté au sud-est à celle d'Eugène Paquet, ou ses représentants, avec la maison, grange, étable, hangar dessus construits, circonstances & dépendances. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte fait & passé à St Romuald, Étude, les jour, mois & an susdits, sous le numéro quatre cent trente-[rayé : « trois »] cinq. Requis de signer, le créancier & le débiteur ont déclaré ne le savoir, en présence du témoin, qui a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Damase Réal Guénard », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Thomas Drouin",
+          "note": "Cultivateur de Saint-Bernard (comté de Dorchester), propriétaire de deux terres de la concession Saint-Marc, seigneurie Saint-Étienne ; ne sait signer. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "creancier",
+          "nom": "Joseph Lefebvre",
+          "note": "Journalier de Saint-Romuald, prêteur de trois cents piastres ; ne sait signer. Peut-être le journalier de New-Liverpool des actes de 1874 (1871-D2-P021-L03) — hypothèse, non rattaché : rien dans l'acte ne le situe."
+        },
+        {
+          "role": "temoin",
+          "nom": "Damase-Réal Guénard",
+          "note": "« Professeur » de Saint-Romuald ; signe « Damase Réal Guénard ». Absent des recensements dépouillés : non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Corriveau",
+          "note": "Au nord-ouest de la première terre (Saint-Bernard)."
+        },
+        {
+          "role": "voisin",
+          "nom": "Pierre Corriveau",
+          "note": "Au sud-est de la première terre."
+        },
+        {
+          "role": "voisin",
+          "nom": "Étienne Drapeau",
+          "note": "Au nord-ouest de la seconde terre."
+        },
+        {
+          "role": "voisin",
+          "nom": "Eugène Paquet",
+          "note": "Au sud-est de la seconde terre."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un journalier de Saint-Romuald prête trois cents piastres — une somme importante — à un cultivateur de la Beauce, à sept pour cent, garanties par deux terres. La note de marge mentionne aussi l'enregistrement de « l'acte de vente de terre n° 1 », sans doute l'acte par lequel Drouin avait acquis la première terre. Les minutes n° 433 et 434, entre le 10 et le 23 août 1875, manquent au microfilm (feuille d'archiviste, fichier 01796).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01796",
+          "microfilm": "002740",
+          "drive": "1sDAhRqdl0-T9BKdKUngLcpRSUI9Grkrr",
+          "legende": "feuille d'archiviste : « Acte manquant # 433 et 434 »"
+        },
+        {
+          "fichier": "01797",
+          "microfilm": "002741",
+          "drive": "1Et80uSEl5XXJ-WmTfrCHRVkluceskJ6J",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01798",
+          "microfilm": "002742",
+          "drive": "1IDkQhVAEMxiqTOayMAFhzvNqgTy3pPNo",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01799",
+          "microfilm": "002743",
+          "drive": "1cN1qXG9kB6aimk-c7v5p5rRofuPafo9A",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-08-26-testament-pierre-roberge-st-augustin",
+      "type": "notarie",
+      "titre": "Testament de Pierre Roberge, cultivateur de la concession Saint-Augustin, Saint-Jean-Chrysostome, en faveur de sa femme Marie-Obéline Breton — minute n° 436, 26 août 1875",
+      "date": "1875-08-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 436, images 002744 à 002747 (Drive : fichiers 04T_CN401S124P_01800 à 01802). Papier réglé, taché d'encre (les signatures de 002746-47 sont en partie couvertes). Numéro confirmé par la clôture (« quatre cent trente-six »). En marge « Testament de Mr Pierre Roberge — Original — Exp. 1 fois ». Acte complet.",
+      "nature": "Testament authentique, reçu le 26 août 1875, après midi, à Saint-Jean-Chrysostome, concession Saint-Augustin, en la demeure du testateur, devant deux témoins ; le testateur ne sait signer.",
+      "transcription": "[002744] « N° 436. L'an mil huit cent soixante-quinze, le vingt-sixième jour d'août, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Pierre Arguin, cultivateur, de la paroisse de St Étienne, dit comté, & de Étienne Denis dit Lapierre, cultivateur, de St Jean Chrysostome, dit comté, témoins au présent testament, aussi soussignés ; Fut présent : Mr Pierre Roberge, de St Jean Chrysostome, concession St Augustin, cultivateur, étant en bonne santé de corps, sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous, notaire, & aux dits témoins par son maintien & ses discours & par la manifestation claire de ses volontés ; Lequel a, dans la vue de la mort, fait, dicté & nommé son présent testament à nous, notaire, en présence des témoins susdits, ainsi qu'il suit, savoir : 1° Je veux & ordonne que mes dettes soient payées & mes torts réparés par [002745-46] Dame Marie-Obéline Breton, mon épouse actuelle, que je nomme mon exécutrice testamentaire & à laquelle je donne & lègue tous mes biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient & en quelques endroits qu'ils soient dus & situés, pour par ma dite épouse en jouir, faire & disposer en toute propriété à dater de mon décès, instituant ma dite épouse ma légataire universelle en propriété ; 2° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par ce testateur à nous, notaire, en présence des témoins, & son présent testament lui ayant été lu, expliqué & relu par le dit notaire, les témoins toujours présents, il a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte fait & [002746-47] passé à St Jean Chrysostome, concession St Augustin, demeure du testateur, les jour, mois & an susdits, sous le numéro quatre cent trente-six des originaux du Notaire soussigné. Requis de signer, le testateur a déclaré ne le savoir, en présence des témoins, qui ont signé avec moi, notaire, lecture faite & refaite. Mots rayés sont nuls. » — Signé : « Étienne Lapierre », « Pierre Arguin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, concession Saint-Augustin ; ne sait signer. Le concédant du hameau Roberge (n° 122 à 128, 405, 406, 410), qui ne signe pas non plus — même concession, même incapacité de signer : identification probable entre ces actes. Il est distinct du Pierre Roberge de la concession « Appenin », marié à Marie-Euphrosine Goulet [?] (n° 426). Hors paroisse ; non rattaché au recensement."
+        },
+        {
+          "role": "legataire",
+          "nom": "Marie-Obéline Breton",
+          "note": "Épouse du testateur, exécutrice testamentaire et légataire universelle ; elle teste le même jour en sa faveur (n° 437)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Arguin",
+          "note": "Cultivateur de Saint-Étienne(-de-Lauzon) ; signe « Pierre Arguin ». Hors paroisse."
+        },
+        {
+          "role": "temoin",
+          "nom": "Étienne Denis dit Lapierre",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, voisin du hameau Roberge (n° 406) ; signe « Étienne Lapierre ». Non rattaché, comme dans ses autres actes."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Testament croisé avec celui de sa femme (n° 437). Ce Pierre Roberge, de la concession Saint-Augustin, ne nomme aucun enfant, à la différence de son homonyme de la concession « Appenin » (n° 426), père de sept enfants : les deux testaments, passés à six semaines d'intervalle, montrent qu'il s'agit de deux hommes.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01800",
+          "microfilm": "002744",
+          "drive": "1qwpPtQERny_YctRB4-nYotfjNxn8lJcS",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01801",
+          "microfilm": "002745",
+          "drive": "1Lwp4FqhEUxLfHnb-JFuZc47Bu3K4pRzv",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01802",
+          "microfilm": "002746",
+          "drive": "1VeJ1GPWzrH8DHUd8jw9vE61SbJHuNpLm",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-08-26-testament-obeline-breton",
+      "type": "notarie",
+      "titre": "Testament de Marie-Obéline Breton, épouse de Pierre Roberge, cultivateur de la concession Saint-Augustin, Saint-Jean-Chrysostome, en faveur de son mari — minute n° 437, 26 août 1875",
+      "date": "1875-08-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 437, images 002747 à 002750 (Drive : fichiers 04T_CN401S124P_01803 à 01805). Papier réglé. Numéro confirmé par la clôture (« quatre cent trente-sept »). En marge « Testament de Dame P. Roberge — Original — Exp. 1 fois ». Acte complet.",
+      "nature": "Testament authentique, reçu le 26 août 1875, après midi, à Saint-Jean-Chrysostome, concession Saint-Augustin, en la demeure de la testatrice chez son mari, devant deux témoins ; la testatrice signe.",
+      "transcription": "[002747] « N° 437. L'an mil huit cent soixante-quinze, le vingt-sixième jour d'août, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Pierre Arguin, cultivateur, de la paroisse de St Étienne, dit comté, & de Étienne Denis dit Lapierre, cultivateur, de St Jean Chrysostome, dit comté, témoins au présent testament, aussi soussignés ; Fut présente : Madame Marie-Obéline Breton, épouse de Mr Pierre Roberge, cultivateur, demeurant tous deux à St Jean Chrysostome, concession St Augustin, étant en bonne santé de corps, saine d'esprit, mémoire, jugement & entendement, ainsi qu'elle est apparue à nous, notaire, & aux témoins par son maintien & ses discours & par la manifestation claire & précise de ses volontés ; Laquelle a, dans la vue de la mort, fait, dicté & nommé son présent testament à nous, notaire, en présence des dits témoins, ainsi [002748] qu'il suit, savoir : 1° Je veux & ordonne que mes dettes soient payées & mes torts réparés par Sieur Pierre Roberge, mon dit époux actuel, que je nomme mon exécuteur testamentaire & auquel je donne & lègue tous mes biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient & en quelques lieux & endroits qu'ils soient dus & situés, pour par mon dit époux en jouir, faire & disposer en toute propriété à dater de mon décès, instituant mon dit époux mon légataire universel en propriété. 2° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par la testatrice à nous, notaire, en présence des témoins, & son présent testament lui ayant été lu, expliqué & relu par le dit notaire, les [002749] dits témoins toujours présents, elle a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte fait & passé à St Jean Chrysostome, concession St Augustin, demeure de la testatrice située chez son dit époux, les jour, mois & an susdits, sous le numéro quatre cent trente-sept des originaux du Notaire soussigné. Et la testatrice & les dits témoins ont signé avec moi, notaire, lecture faite & refaite. Mots rayés sont nuls. » — Signé : « Marie Obéline Breton », « Étienne Lapierre », « Pierre Arguin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Marie-Obéline Breton",
+          "note": "Épouse de Pierre Roberge, cultivateur de la concession Saint-Augustin ; signe « Marie Obéline Breton ». Hors paroisse ; non rattachée."
+        },
+        {
+          "role": "legataire",
+          "nom": "Pierre Roberge",
+          "note": "Cultivateur de la concession Saint-Augustin, mari de la testatrice ; le testateur du n° 436. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Arguin",
+          "note": "Cultivateur de Saint-Étienne ; signe. Hors paroisse."
+        },
+        {
+          "role": "temoin",
+          "nom": "Étienne Denis dit Lapierre",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe « Étienne Lapierre ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Pendant du testament du mari (n° 436) : chacun lègue tout à l'autre, sans mention d'enfants.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01803",
+          "microfilm": "002747",
+          "drive": "1NdPvH5f2W1kcXt00J_Wa8WGnRjH39luu",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01804",
+          "microfilm": "002748",
+          "drive": "1ZlAYEuUIMEWy7pWLAZ39x4WLOPLL0NEH",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01805",
+          "microfilm": "002749",
+          "drive": "1F6tP6coV2F_iJhRMMuF0Y4g-dWHs9VBg",
+          "legende": "3/3"
         }
       ]
     }
