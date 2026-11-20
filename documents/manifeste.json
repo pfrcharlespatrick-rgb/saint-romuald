@@ -32682,6 +32682,90 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-05-04-requisition-tutelle-gagne",
+      "type": "notarie",
+      "titre": "Réquisition par Rigobert Gagné père, subrogé tuteur, d'une assemblée de parents pour nommer un nouveau tuteur aux enfants mineurs de feu Rigobert Gagné fils, leur mère Marie Dubois s'étant remariée — minute n° 383, 4 mai 1875",
+      "date": "1875-05-04",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 383, images 002544 à 002546 (Drive : fichiers 04T_CN401S124P_01600 à 01602). En tête, au crayon, « 383 & 384 » : l'assemblée de parents qui suit forme le n° 384. La date de l'acte de tutelle (« … jour d'août mil huit cent soixante-treize ») est rayée. En marge « Mineurs Gagné ». Acte complet.",
+      "nature": "Réquisition d'avis de parents (acte de tutelle), passée le 4 mai 1875, avant midi, à Saint-Romuald, en la demeure d'Ignace Dubois, rentier, devant un témoin ; le comparant ne sait signer.",
+      "transcription": "[002544] « N° 383. L'an mil huit cent soixante-quinze, le quatrième jour de mai, avant midi, pardevant nous, Notaire Public pour la Province de Québec, résidant & pratiquant à St Romuald, dans le comté de Lévis, soussigné ; Et en présence de Joseph Leclerc, de St Romuald, du dit lieu, marchand, témoin au présent acte, aussi soussigné ; A comparu : Rigobert Gagné, père, de la paroisse de St Jean Chrysostome, cultivateur, agissant en ces présentes en sa qualité de subrogé tuteur dûment élu suivant acte de tutelle reçu par Me L. N. Carrier, Notaire, homologué devant Messieurs Fiset, Burroughs & Campbell, protonotaire conjoint de la Cour Supérieure à Québec, le vingt-huitième jour d'août de la même année & enregistré au Bureau d'enregistrement du comté de Dorchester, division numéro deux, le vingt-neuvième jour du même mois & de la même année. Lequel dit & déclare ce qui suit, savoir : Attendu que Dame Marie [002545] Dubois, de la paroisse de St Jean Chrysostome susdite, veuve de feu Rigobert Gagné, fils, en son vivant du même lieu, journalier & voyageur, a été nommée, dans l'acte de tutelle sus-cité & daté, tutrice aux enfants mineurs suivants, issus du mariage d'entre le dit feu Rigobert Gagné & la dite Marie Dubois, savoir : Pierre Gagné, alors âgé de sept ans révolus ; Marie Gagné, alors âgée de quatre ans révolus, & Joseph Gagné, alors âgé de trois ans révolus ; Attendu que la dite Marie Dubois, veuve du dit feu Rigobert Gagné, fils, a, le ou vers le douze de janvier dernier, convolé en secondes noces ; Et attendu qu'il est nécessaire qu'un tuteur (aux termes de l'article « 283 », deux cent quatre-vingt-trois, du Code civil du Bas-Canada) soit nommé au lieu & place [002546] de la dite Marie Dubois aux dits enfants mineurs ; Pourquoi, le dit Rigobert Gagné, comparant & subrogé tuteur aux dits mineurs, requiert l'avis des parents & amis des dits enfants mineurs. Dont acte requis & octroyé à St Romuald, demeure de Ignace Dubois, rentier, les jour, mois & an susdits, sous le numéro trois cent quatre-vingt-trois des originaux de Me Elzéar Hubert Tremblay, le Notaire soussigné. Requis de signer, le comparant a déclaré ne le savoir en présence du témoin qui a signé avec moi, notaire, lecture faite. Dix mots rayés sont nuls. » — Signé : « Joseph Leclerc », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "autre",
+          "nom": "Rigobert Gagné, père",
+          "note": "Cultivateur de Saint-Jean-Chrysostome, grand-père et subrogé tuteur des mineurs ; ne sait signer. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "defunt",
+          "nom": "Rigobert Gagné, fils",
+          "note": "Journalier et voyageur de Saint-Jean-Chrysostome, mort avant août 1873. Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Marie Dubois",
+          "note": "Veuve de Rigobert Gagné fils, tutrice de leurs enfants depuis 1873, remariée vers le 12 janvier 1875 ; l'acte est passé chez Ignace Dubois. Non rattachée."
+        },
+        {
+          "role": "autre",
+          "nom": "Pierre Gagné",
+          "note": "Enfant mineur, sept ans en 1873."
+        },
+        {
+          "role": "autre",
+          "nom": "Marie Gagné",
+          "note": "Enfant mineure, quatre ans en 1873."
+        },
+        {
+          "role": "autre",
+          "nom": "Joseph Gagné",
+          "note": "Enfant mineur, trois ans en 1873."
+        },
+        {
+          "role": "autre",
+          "nom": "Ignace Dubois",
+          "note": "Rentier ; l'acte est passé chez lui à Saint-Romuald. Sans doute Ignace Dubois père, de Saint-Jean-Chrysostome (bail n° 344). Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "L. N. Carrier",
+          "note": "Notaire de l'acte de tutelle d'août 1873."
+        },
+        {
+          "role": "temoin",
+          "nom": "Joseph Leclerc",
+          "note": "Marchand de Saint-Romuald ; signe « Joseph Leclerc ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le remariage d'une veuve lui fait perdre la tutelle de ses enfants (article 283 du Code civil du Bas-Canada) : le grand-père paternel, subrogé tuteur, convoque les parents et amis des trois petits Gagné — Pierre, Marie et Joseph — pour en élire un nouveau. L'acte est passé chez Ignace Dubois, rentier. Le n° 384 en est la suite.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01600",
+          "microfilm": "002544",
+          "drive": "14eLOxRJdfQm3k0Wd_PJbVicrWOiMyUfJ",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01601",
+          "microfilm": "002545",
+          "drive": "1J_bbt8kWKfKE1LDGCKiZmKRjKazCFneu",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01602",
+          "microfilm": "002546",
+          "drive": "1c-tzSnckx896pybnr9s6Yc76w8IUhBAE",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
