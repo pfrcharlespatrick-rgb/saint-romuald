@@ -33133,6 +33133,66 @@
           "legende": "2/2"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-05-17-vente-bois-ruel-atkinson",
+      "type": "notarie",
+      "titre": "Vente par Antoine Ruel, cultivateur de Saint-Joseph-de-Lévis, à Henry Atkinson, écuyer, marchand de bois, du droit de couper l'épinette sur deux lots de Saint-Lazare pendant trois ans — minute n° 389, 17 mai 1875",
+      "date": "1875-05-17",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 389, images 002566 à 002568 (Drive : fichiers 04T_CN401S124P_01622 à 01624). Le bord droit de la feuille est déchiré. La mention d'un témoin est rayée ; « quatre années » est corrigé en « trois années » (renvoi paraphé « H. A. », « A. R. »). En marge « Vente Ruel à H. Atkinson, Esqr — Original — Exp. 1 fois — Payé — Enrég. hon. payés à Forgues ». La clôture n'est pas signée par le notaire. Acte complet.",
+      "nature": "Vente de droits de coupe de bois, passée le 17 mai 1875, après midi, à Saint-Romuald, étude du notaire, sans témoin ; les parties signent.",
+      "transcription": "[002566] « N° 389 — 17 mai 1875. L'an mil huit cent soixante-quinze, le dix-sept de mai, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, soussigné ; A comparu : Antoine Ruel, de la paroisse de St Joseph de Lévis, cultivateur ; Lequel vend, avec garantie de tous troubles & empêchements généralement quelconques, à Henry Atkinson, Écuier, de St Romuald, marchand de bois, faisant affaire à St Romuald & ailleurs sous la raison sociale de « H. Atkinson & Co. », le dit H. Atkinson, Écuier, à ce présent & acceptant pour lui en son nom, savoir : 1° « Le droit de couper tout le bois d'épinette, mesurant au moins onze pouces de diamètre à l'extrémité la plus petite en volume, qu'il y a ou pourra se trouver sur les lots numéros neuf & dix dans le dixième rang de la paroisse de St Lazare, lesquels lots appartiennent au dit Sr Ruel pour les avoir acquis de l'Honorable J. T. Taschereau en date du vingt [?] d'octobre mil huit cent soixante-deux ; » 2° Le droit de se frayer à [002567] travers le bois tous chemins nécessaires pour transporter le bois provenant des dits lots ; de placer tel bois aux endroits que le dit H. Atkinson, Écuier, choisira ou fera choisir pour sa plus grande commodité & sûreté ; de laisser séjourner tels billots ou bois ainsi charroyé ou non sur toute ou aucune partie des dits lots pendant trois années à dater du premier jour de mai courant. Tous & lesquels droits le dit Henry Atkinson, Écuier, ses hoirs & ayants cause, pourront user pendant trois années consécutives, à dater du premier jour de mai courant, pour & moyennant le prix ou somme de deux cents piastres courant pour les dites trois années, laquelle somme de deux cents piastres courant le dit Sr Ruel reconnaît avoir eue & reçue partie avant & partie lors de l'exécution des présentes du dit H. Atkinson, Écr, ainsi que le dit Sr Ruel le reconnaît & en donne quittance générale & finale. Et pour sûreté de l'accomplissement de l'obligation contractée par le dit Sr Ruel, ce dernier hypothèque les deux lots de terre numéros neuf & dix, [002568] dixième rang, avec la prolongation d'un même front sur la profondeur dans le onzième rang du fief & seigneurie de l'Augmentation de St Michel, en la paroisse de St Lazare, district de Québec, de six arpents de front sur quarante arpents de profondeur, ou environ, le tout sans garantie de mesure exacte, bornés en front par le trait quarré entre les neuvième & dixième rangs, en profondeur au bout des quarante arpents, d'un côté au sud-ouest au numéro huit & au nord-est au numéro onze du dixième rang, & aussi au sud-ouest au numéro huit du onzième rang & au nord-est au numéro onze du dit onzième rang. (La description ci-dessus est extraite de l'acte de vente des dits lots par l'Honorable Jean-Thomas Taschereau en faveur du dit A. Ruel, enregistré au Bureau d'enregistrement pour le comté de Bellechasse quelque temps après.) Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald, étude, les jour, mois & an susdits, sous le numéro trois cent quatre-vingt-[neuf] des originaux du Notaire soussigné. Et les parties ont signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Antoine Ruel », « Henry Atkinson » [la signature du notaire manque].",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Antoine Ruel",
+          "note": "Cultivateur de Saint-Joseph-de-Lévis, propriétaire des lots 9 et 10 du dixième rang de Saint-Lazare (Bellechasse) ; signe « Antoine Ruël ». Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Henry Atkinson",
+          "ref_personne": "1871-D1-P075-L17",
+          "note": "Écuyer, marchand de bois de Saint-Romuald, « H. Atkinson & Co. » ; signe. Rattachement probable, comme dans ses actes précédents."
+        },
+        {
+          "role": "autre",
+          "nom": "Jean-Thomas Taschereau",
+          "note": "« L'Honorable », seigneur de l'Augmentation de Saint-Michel, vendeur des lots à Antoine Ruel en octobre 1862."
+        },
+        {
+          "role": "autre",
+          "nom": "Forgues",
+          "note": "Personne à qui furent payés l'enregistrement et les honoraires (note en marge) ; sans prénom."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un contrat d'approvisionnement des moulins d'Etchemin : pour deux cents piastres, Henry Atkinson achète le droit de couper pendant trois ans toute l'épinette de plus de onze pouces au petit bout sur deux lots de colonisation de Saint-Lazare, dans l'arrière-pays de Bellechasse, d'y ouvrir des chemins et d'y entreposer les billots. Les lots avaient été concédés en 1862 par Jean-Thomas Taschereau, seigneur de l'Augmentation de Saint-Michel. La minute n'est pas signée par le notaire.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01622",
+          "microfilm": "002566",
+          "drive": "1QRYtbPB_HUP4JsAJ-82EaRxU2WJfVx0e",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01623",
+          "microfilm": "002567",
+          "drive": "1ELpU21M-dVUL0c8lZfQIqhsd2fsagsss",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01624",
+          "microfilm": "002568",
+          "drive": "1dOSxjARgQf5I-1XMtDqd07Mh-JjEZYIj",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
