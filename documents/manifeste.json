@@ -30532,6 +30532,62 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-03-27-bail-mathieu-fraser",
+      "type": "notarie",
+      "titre": "Bail par Alfred Mathieu, maître menuisier, entrepreneur, à Thomas Fraser, contremaître de Notre-Dame-de-Lévis, de quatre chambres d'une maison de la rue Saint-Laurent — minute n° 335, 27 mars 1875",
+      "date": "1875-03-27",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 335, images 002362 à 002365 (Drive : fichiers 04T_CN401S124P_01418 à 01421 ; le fichier 01421 est le dos imprimé de la formule, laissé en blanc). Formule imprimée de bail ; la date d'en-tête se lit « 24 [?] mars » mais le corps dit « vingt-septième ». Clauses d'aqueduc et de taxes biffées. En marge « Bail Mathieu à Fraser — Original — Pas de copie — Exp. 1 fois — 0.50 — Pas payé ». Acte complet.",
+      "nature": "Bail d'un an (1er mai 1875 – 30 avril 1876), passé le 27 mars 1875, après midi, à Saint-Romuald, étude du notaire, sans témoin ; bailleur et preneur signent.",
+      "transcription": "[002362] « N° 335 — 2[7] mars 1875. L'an mil huit cent soixante-quinze, le vingt-septième jour du mois de mars, après-midi, pardevant Mtre Elzéar Hubert Tremblay, Notaire Public, résidant à St Romuald, soussigné ; Fut présent : Mr Alfred Mathieu, de St Romuald, Mtre menuisier, entrepreneur ; Lequel a, par ces présentes, donné à loyer pour le terme et espace d'une année entière qui commencera à courir du premier jour de mai prochain et finir le trentième jour d'avril de l'année mil huit cent soixante-seize, à Mr Thomas Fraser, de Notre-Dame de Lévis, foreman, à ce présent et acceptant preneur pour lui, ses hoirs et ayants cause, c'est-à-savoir : Quatre chambres, dont deux en bas & deux en haut, côté ouest, dans une maison en bois à un étage sise sur le niveau nord de la Rue St Laurent, dans la paroisse St Romuald & appartenant au Bailleur, ensemble part de cour, savoir en commun avec le bailleur, pour mettre le bois du preneur ; tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité. [Clauses imprimées : jouir en bon père de famille ; garnir de meubles ; [002363] entretenir ; ne faire aucun changement ; se conformer aux règlements de la Corporation ; laisser visiter ; ne point céder ni sous-louer.] De son côté le Bailleur promet et s'oblige faire jouir paisiblement le preneur des premisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à aucune réparation quelconque, pas même à tenir les lieux clos ni couverts, nonobstant toute loi ou coutume à ce contraire. Ce Bail est fait en outre pour et en considération du prix et somme de trente-deux piastres cy pour l'année de sa durée, et que le Preneur promet et s'oblige payer au dit Bailleur ou à son ordre comme suit, savoir : vingt piastres d'hui au premier jour de novembre prochain, & la balance ou douze piastres dans le courant de l'hiver prochain. Et s'oblige en outre le dit preneur de payer et rembourser, à demande au dit Bailleur, ou ordre, toute et telle taxe qui pourra être exigée par la Corporation pendant la durée du présent Bail, dans les premisses sus-louées. [002364] Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables, savoir, le Preneur en les premisses sus-louées et le Bailleur en sa demeure ordinaire où les paiements se feront. Aux quels lieux, etc. Car ainsi, etc. Dont Acte, Fait et Passé à St Romuald, étude du dit Mtre E. H. Tremblay, Notaire, les jour, mois et an susdits sous le numéro trois cent trente-cinq. Et les bailleur & preneur ont signé avec moi Notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Alfred Matthieu », « Thommas Fraser », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Alfred Mathieu",
+          "ref_personne": "1881-D1-P033-L03",
+          "note": "Maître menuisier, entrepreneur de Saint-Romuald, propriétaire d'une maison de la rue Saint-Laurent ; signe « Alfred Matthieu ». Rattachement probable au charpentier de 36 ans recensé en 1881 ; absent du dépouillement de 1871."
+        },
+        {
+          "role": "preneur",
+          "nom": "Thomas Fraser",
+          "note": "Contremaître (« foreman ») de Notre-Dame-de-Lévis ; signe « Thommas Fraser ». Peut-être le journalier de 34 ans recensé en 1871 à Saint-Romuald (1871-D1-P072-L19) — hypothèse, non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un contremaître de Lévis loue quatre pièces dans la maison d'un menuisier-entrepreneur, rue Saint-Laurent, pour trente-deux piastres l'an, payables en deux fois (vingt en novembre, douze pendant l'hiver).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01418",
+          "microfilm": "002362",
+          "drive": "1EG1kq25F4NRAxstbYSJfYngwV-uRX3Fp",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01419",
+          "microfilm": "002363",
+          "drive": "1vD1-HdfJ8F4lMqm7hhtISqkpvS-3Rr9b",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01420",
+          "microfilm": "002364",
+          "drive": "1XedNL-saIm3x4lPMdmN25VYSCbNV_HkA",
+          "legende": "3/3"
+        },
+        {
+          "fichier": "01421",
+          "microfilm": "002365",
+          "drive": "1SwTL6CfQSkaAzYr4UDg4swu0LE-FApqM",
+          "legende": "dos imprimé de la formule, resté en blanc"
+        }
+      ]
     }
   ]
 }
