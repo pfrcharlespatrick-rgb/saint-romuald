@@ -30588,6 +30588,103 @@
           "legende": "dos imprimé de la formule, resté en blanc"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-03-29-procuration-leclerc-allaire",
+      "type": "notarie",
+      "titre": "Procuration de Philippe Leclerc, charpentier, à Louis Allaire, cultivateur de Warwick, pour recevoir le solde d'une terre vendue à Frédérick Allaire — minute n° 336, 29 mars 1875",
+      "date": "1875-03-29",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 336, images 002366 et 002367 (Drive : fichiers 04T_CN401S124P_01422 et 01423). En marge « Procuration Leclerc à Allaire — Original — Expédié 1 fois — $0.50 — [Pas] payé ». Un renvoi paraphé « P. L. ». Acte complet.",
+      "nature": "Procuration spéciale, passée le 29 mars 1875, après midi, à Saint-Romuald, étude du notaire, sans témoin.",
+      "transcription": "[002366] « N° 336 — 29 mars 1875. L'an mil huit cent soixante-quinze, le vingt-neuf de mars, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant à St Romuald, dans le comté de Lévis, soussigné ; Fut présent : Sieur Philippe Leclerc, de la paroisse de St Romuald, charpentier ; Lequel fait & constitue par ces présentes pour son procureur spécial la personne de Sieur Louis Allaire, cultivateur, de la paroisse de Warwick, dans le comté d'Arthabaska, auquel il donne pouvoir de, pour lui & en son nom, retirer & recevoir de Sieur Frédérick Allaire, du dit lieu de Warwick, forgeron, la somme de cinquante piastres courant, étant la balance revenant au mandant & due par le dit Sr Frédérick Allaire, père, sur le prix d'une vente de terre consentie par le mandant en faveur du dit Sieur Frédérick Allaire ; & autorise en outre [002367] son dit mandataire de signer pour lui & en son nom quittance [renvoi (1) : « générale & finale, notariée »] pour le montant de la somme de quatre cents piastres courant, prix total de la vente susdite ; ratifiant dès à présent tout ce que fera son mandataire en vertu des présentes, sans que telle ratification soit aucunement nécessaire. Et pour l'exécution des présentes le mandant élit domicile en sa demeure actuelle, auquel lieu &c. Car ainsi &c. Dont acte fait & passé à St Romuald, étude, les jour, mois & an susdits, sous le numéro trois cent trente-six des originaux du Notaire soussigné. Et le mandant a signé avec moi, notaire, lecture faite. Un renvoi en marge est bon & approuvé. » — Signé : « Philippe Leclerc » [seule signature au bas].",
+      "personnes": [
+        {
+          "role": "mandant",
+          "nom": "Philippe Leclerc",
+          "ref_personne": "1871-D1-P031-L01",
+          "note": "Charpentier de Saint-Romuald ; signe. Rattachement probable au charpentier de 42 ans recensé en 1871 (maison 79), mécanicien en 1881 — le seul Philippe Leclerc adulte, comme dans le bail Bourassa-Dubois de 1874."
+        },
+        {
+          "role": "mandataire",
+          "nom": "Louis Allaire",
+          "note": "Cultivateur de Warwick (comté d'Arthabaska). Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Frédérick Allaire, père",
+          "note": "Forgeron de Warwick, acquéreur d'une terre de Philippe Leclerc pour quatre cents piastres, dont il reste cinquante à payer. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un charpentier de Saint-Romuald avait vendu une terre dans les Bois-Francs, à Warwick, à un forgeron de l'endroit ; il charge un cultivateur du même lieu, Louis Allaire, d'encaisser les cinquante piastres restantes et de signer la quittance finale des quatre cents piastres. Le bas de la minute ne porte que la signature du mandant ; celle du notaire manque.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01422",
+          "microfilm": "002366",
+          "drive": "120upVJ6S4Ii98XRr25jnpWMcHDW5Ci0I",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01423",
+          "microfilm": "002367",
+          "drive": "1S6uIliOwEziLUtwFYcPk2LBwZYZe3gOf",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-03-29-quittance-dussault-dussault",
+      "type": "notarie",
+      "titre": "Quittance par François Dussault père, cultivateur de Notre-Dame-de-Lévis, à son fils François Dussault, cultivateur de Sainte-Julie-de-Somerset — minute n° 337, 29 mars 1875",
+      "date": "1875-03-29",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 337, images 002368 et 002369 (Drive : fichiers 04T_CN401S124P_01424 et 01425). En marge « Quittance Dussault à Dussault — Original — Exp. 1 fois ». Un renvoi paraphé « F. D. » et « E. H. T. N.P. ». Acte complet.",
+      "nature": "Quittance générale et finale d'une somme due en vertu d'une donation, passée le 29 mars 1875, après midi, à Saint-Romuald, étude du notaire, sans témoin.",
+      "transcription": "[002368] « N° 337 — 29 mars 1875. L'an mil huit cent soixante-quinze, le vingt-neuf de mars, après-midi, en présence de Mtre Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Fut présent : Mr François Dussault, de Notre-Dame de Lévis, cultivateur ; Lequel reconnaît avoir eu & reçu à son entière satisfaction, dès avant ces présentes, de Sieur François Dussault, son fils, demeurant à Ste Julie de Somerset, comté de Mégantic, cultivateur, la somme de six cents piastres courant, étant pour le parfait & entier paiement d'une certaine somme que le dit Sr Dussault fils s'était obligé de payer au dit Sr Dussault père, tel qu'il appert par un certain acte de donation entre vifs [renvoi : « reçu par le Notaire LaRue & »] dûment enregistré au Bureau d'enregistrement du comté de Mégantic, à Inverness, il y a quelques années. Dont & du tout le dit comparant donne & accorde au dit Sr François Dussault, son fils, donataire au dit acte de donation, quittance générale & finale. Dont acte requis & octroyé à St Romuald, étude, [002369] les jour, mois & an susdits, sous le numéro trois cent trente-sept. Et le comparant a signé avec moi, notaire, lecture faite. Un renvoi en marge est bon & approuvé. » — Signé : « François Dussault », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "François Dussault, père",
+          "note": "Cultivateur de Notre-Dame-de-Lévis ; signe. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "François Dussault, fils",
+          "note": "Cultivateur de Sainte-Julie-de-Somerset (comté de Mégantic), donataire de son père. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "LaRue",
+          "note": "Notaire qui a reçu l'acte de donation, enregistré à Inverness (Mégantic)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un père de Lévis donne quittance à son fils, établi dans les Bois-Francs à Sainte-Julie-de-Somerset, des six cents piastres que celui-ci lui devait en échange d'une donation passée quelques années plus tôt devant le notaire LaRue.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01424",
+          "microfilm": "002368",
+          "drive": "1RbiV7mMfDeQqbTa5j0p9p_MQtrhGSFQQ",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01425",
+          "microfilm": "002369",
+          "drive": "1D3dgfhTvCKFx-BL0ybaks0QmNgSsjhhW",
+          "legende": "2/2"
+        }
+      ]
     }
   ]
 }
