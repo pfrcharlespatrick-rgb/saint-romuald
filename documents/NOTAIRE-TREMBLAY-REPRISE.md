@@ -685,8 +685,8 @@ Joseph Cantin, journalier de Saint-Jean-Chrysostome (enfants Joseph 17 ans,
 Marie-Delphine [?] 13 ans, Marie-Denise [?] 6 ans ; subrogé tuteur Rigobert
 Gagné ; fille majeure épouse de Charles St-Laurent ; priseurs Antoine Roberge,
 Athanase Girard, Joachim Cantin). Fichiers 01644-01645 lus ; l'inventaire
-continue sur 01646 et suivants. Identifiants des fichiers 01644 à 01658 dans la
-note de travail ; les fichiers 01651 et suivants sont dans le dossier Drive
+continue sur 01646 et suivants. Identifiants Drive des fichiers 01644 à 01658 déjà notés dans
+`documents/tropy/images-drive.json` ; les fichiers 01651 et suivants sont dans le dossier Drive
 `1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql`. Chercher par
 `title = '04T_CN401S124P_01659.jpg' or …`.
 Le Drive va au moins jusqu'au fichier 01849.
