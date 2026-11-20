@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (366 fiches au 20 novembre 2026 ; série jusqu'à 01599 lue, lacune 01501-01550).
+fiche dont l'identifiant commence par `notarie-` (378 fiches au 20 novembre 2026 ; série jusqu'à 01643 lue, lacune 01501-01550).
 
 ## Où sont les images
 
@@ -655,10 +655,40 @@ Suite (20 novembre) : fichiers **01553 à 01599** lus, actes **n° 372 à 382**
 - **n° 382** : transport de rente Villeneuve → Édouard Lagueux, payée par le
   cordonnier Édouard Paquet.
 
-**Pour reprendre** : continuer au fichier **01600** (microfilm 002544), début
-du n° 383-384 (tutelle Gagné, Marie Dubois). Les fichiers 016xx sont dans le
-dossier Drive `110i0Q-ANV2B677lTYu4iaY9fkFzq3nnW` ; chercher par
-`title = '04T_CN401S124P_01601.jpg' or …`.
+Suite (20 novembre) : fichiers **01600 à 01643** lus, actes **n° 383 à 394**
+(4 au 27 mai 1875). **378 fiches `notarie-`.**
+
+- **n° 383-384** : tutelle des enfants Gagné (Pierre, Marie, Joseph) après le
+  remariage de leur mère Marie Dubois avec F.-X. Morneau ; tuteur élu Louis
+  Morneau (`1871-D1-P077-L07`), une note au crayon laisse croire qu'il refusa.
+- **n° 385, 393** : testament d'Hubert Lefebvre, malade (5 mai), puis bail de
+  sa chambre à Pierre Drôlet, arrimeur (26 mai).
+- **n° 386, 392** : baux sévères de l'épicier **Peter O'Regan** (expulsion
+  sans formalité, ni boisson ni querelle).
+- **n° 387-388** : **Benjamin Demers donne à son fils Pierre**
+  (`1871-D1-P025-L07`) deux terres du premier rang de **Taniata** au bord de
+  l'Etchemin (l'une touche au village Saint-Jean) et règle sa part de la
+  succession de sa mère **Félicité Carrier** ; « feu Pierre Lagueux ».
+- **n° 389** : Henry Atkinson achète l'épinette de deux lots de Saint-Lazare
+  (3 ans, 200 $).
+- **n° 390** : rente en nature des vieux Cantin (bottes françaises et
+  canadiennes encore dues).
+- **n° 391** : bail Leclerc-Jean (« ne pas laisser boire »).
+- **n° 394** : cession de salaire Boucher → épicier Marcel Gingras, payée par
+  l'entrepreneur Jean-Baptiste Roberge.
+- Fichier 01628 : **brouillon** de l'affaire Proulx-Roberge (prêt de 600 $),
+  rangé avec le n° 349.
+
+**Pour reprendre** : le **n° 395** commence au fichier **01644** (microfilm
+002588) : **inventaire des biens de feue Marcelline Couture**, épouse de
+Joseph Cantin, journalier de Saint-Jean-Chrysostome (enfants Joseph 17 ans,
+Marie-Delphine [?] 13 ans, Marie-Denise [?] 6 ans ; subrogé tuteur Rigobert
+Gagné ; fille majeure épouse de Charles St-Laurent ; priseurs Antoine Roberge,
+Athanase Girard, Joachim Cantin). Fichiers 01644-01645 lus ; l'inventaire
+continue sur 01646 et suivants. Identifiants des fichiers 01644 à 01658 dans la
+note de travail ; les fichiers 01651 et suivants sont dans le dossier Drive
+`1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql`. Chercher par
+`title = '04T_CN401S124P_01659.jpg' or …`.
 Le Drive va au moins jusqu'au fichier 01849.
 
 Fils suivis dans la série 00451-00550 :
