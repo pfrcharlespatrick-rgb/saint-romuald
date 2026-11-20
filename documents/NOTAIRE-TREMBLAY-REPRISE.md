@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (419 fiches au 21 novembre 2026 ; série jusqu'à 01805 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
+fiche dont l'identifiant commence par `notarie-` (420 fiches au 21 novembre 2026 ; série jusqu'à 01816 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
 
 ## Où sont les images
 
@@ -691,14 +691,13 @@ Suite (20-21 novembre) : fichiers **01644 à 01660** lus, actes **n° 395-396**
 
 ## Passation à une nouvelle conversation (21 novembre 2026)
 
-**Où reprendre** : fichier **01806** (microfilm 002750), inventaire n° 438
-(3 septembre 1875) des biens de feue Adéline Martineau, à la réquisition de
-Joseph Lemelin, batelier, tuteur de leurs trois enfants (Marie-Emma, Joseph,
-Eugène-Napoléon) ; subrogé tuteur Louis Lambert, ancien batelier ; priseurs
-Abraham Cantin et Augustin Paradis. Lu jusqu'à 01808 ; il se poursuit au-delà.
-Identifiants Drive de 01806 à 01820 : voir `documents/tropy/images-drive.json`
-après versement, ou chercher par titre exact. Les fichiers 01661 à 01805 sont
-versés (n° 397 à 437, voir
+**Où reprendre** : fichier **01817** (microfilm 002761), testament de
+Jean-Baptiste Cantin, cultivateur de Saint-Jean-Chrysostome (n° 439,
+10 septembre 1875), qui se poursuit en 01818 et au-delà. Identifiants Drive
+de 01817 à 01820 : `1hjHe5rL6LVnEwxD_K77mzhIFqsZQWGdW`,
+`10AUkK8hyfV1l5VYFvR7VsZAL1BJVtyCd`, `1Kofshze9cq0HcCjozLwwAVFa5D6RRr_N`,
+`1SeZTv7pBQNbSfqI4VexEWX4Anm3PJzLE`. Les fichiers 01661 à 01816 sont
+versés (n° 397 à 438, voir
 « Suite du 21 novembre » plus bas). Chercher les suivants par
 `title = '04T_CN401S124P_01821.jpg' or title = '…01822.jpg' or …` (la
 recherche `title contains '…0167'` rate des fichiers). Les fichiers 016xx-017xx
@@ -911,6 +910,13 @@ jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivant
   enfants nommés) : **ils montrent que le Pierre Roberge du n° 426 (concession
   « Appenin », sept enfants) est un autre homme**. Le concédant du hameau
   Roberge est celui de Saint-Augustin.
+
+- **Fichiers 01806 à 01816** : inventaire n° 438 des biens de feue Adéline
+  Martineau, première femme du batelier Joseph Lemelin, au Sault (suite du
+  testament n° 89 et de la quittance Lemieux–Lemelin de 1874) : maison
+  achetée de Gabriel Lemieux en 1870, estimée 140 $, mobilier de 25 $, dettes
+  de 184 $ ; clos en justice à Québec le 9 juin 1877 (timbres judiciaires en
+  marge). Créanciers rattachés : Robert McReady, Germain Cantin.
 
 Points pour Patrick : **n° 402**, l'en-tête dit « 2 juin », un renvoi du texte
 semble dire « quatrième jour » ; **n° 403**, la clôture dit « quatre cent
