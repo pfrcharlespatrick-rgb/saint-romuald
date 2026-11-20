@@ -34569,6 +34569,411 @@
           "legende": "2/2"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-06-15-vente-gagne-lemieux-ouellet",
+      "type": "notarie",
+      "titre": "Vente d'Édouard Gagné, journalier, à Élise Lemieux et Joséphine Ouellet, marchandes publiques, d'un emplacement bâti du hameau Roberge, concession Saint-Augustin, Saint-Jean-Chrysostome — minute n° 410, 15 juin 1875",
+      "date": "1875-06-15",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 410, images 002645 à 002649 (Drive : fichiers 04T_CN401S124P_01701 à 01704). Numéro confirmé par la clôture (« quatre cent & dix »). En marge « Vente Gagné à Lemieux — Original — hon. 1.00, enreg. 1.65 [?], $2.65 — Payé — Exp. 1 fois 14 [?] juin 75 — enreg. le 15 » ; échéancier en marge (150 + 100 + 100 + 50 = 400) ; renvoi paraphé « E. L. », « J. O. », « F. X. B. », « E. H. T. ». Au bas de 002649, un calcul de frais (1.46). Acte complet.",
+      "nature": "Vente d'immeuble à terme, reçue le 15 juin 1875, après midi [?], en l'étude du notaire à Saint-Romuald, devant un témoin ; le vendeur ne sait signer.",
+      "transcription": "[002645-46] « N° 410. 15 juin 1875. L'an mil huit cent soixante-quinze, le quinze juin, après-midi [?], en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, soussigné ; Et en présence de Mr François Xavier Bégin, commis, de St Romuald, témoin aussi soussigné ; Fut présent : Sr Édouard Gagné, journalier, de St Jean Chrysostome, comté de Lévis ; Lequel vend, avec garantie de tous troubles & empêchements généralement quelconques, à Demoiselle Élise Lemieux & Delle Joséphine Ouellet, demeurant toutes deux à St Jean Chrysostome, marchandes publiques, à ce présentes & acceptant acquéreures pour elles, leurs hoirs & ayants cause, savoir : Un emplacement situé en la dite paroisse de St Jean Chrysostome, en la concession St Augustin, & distrait de la terre de Pierre Roberge, contenant cinquante pieds de front sur [rayé : « cinquante »] … pieds de profondeur, borné par devant au nord-ouest au chemin public, & par derrière au sud-est & d'un côté au sud-ouest au [002646-47] dit Pierre Roberge, & d'autre côté au nord-est au chemin qui conduit au moulin de Michel Leclerc, avec une maison en bois & autres bâtisses dessus construites, circonstances & dépendances. Au vendeur le dit emplacement appartient pour l'avoir acquis de François Paradis le vingt de mars mil huit cent soixante-douze. Cette vente est faite à la charge par les acquéreures, leurs hoirs & ayants cause, de payer au dit Pierre Roberge, ses hoirs & ayants cause, une rente foncière de six piastres par année, à compter du premier jour de juillet prochain, garantie quitte de tous arrérages jusqu'à cette date [renvoi (1) : « la dite rente foncière, ainsi que les taxes de toute nature »], & en outre à la charge par les acquéreures de se conformer à toutes les charges & conditions en faveur du dit Sr Pierre Roberge mentionnées au bail à rente foncière consenti au dit Sr Paradis par le dit Sr Roberge, lequel bail [rayé : « est enregistré au Bureau d'Enregistrement »] … en même temps que les présentes. [002647-48] Cette vente est faite pour le prix ou somme de quatre cents piastres courant, payable comme suit, savoir : cent cinquante piastres au vingt-neuf septembre mil huit cent soixante-quinze ; cent piastres au vingt-neuf septembre mil huit cent soixante-seize ; cent piastres au vingt-neuf septembre mil huit cent soixante-dix-sept, & cinquante piastres au vingt-neuf septembre mil huit cent soixante-dix-huit, sans intérêt. Et pour sûreté du paiement de la dite somme de quatre cents piastres susdite, les acquéreures hypothèquent le dit emplacement en faveur du vendeur, qui se réserve ses droits & privilèges de bailleur de fonds. Et pour sûreté collatérale de la somme susdite, les acquéreures s'obligent faire assurer la dite maison pour une somme de quatre cents piastres & d'en transporter la police au vendeur. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte, fait & passé à St Romuald, Étude, les jour, mois & an susdits, sous le numéro quatre [002648-49] cent & dix. Requis de signer, le vendeur a déclaré ne le savoir, en présence du témoin qui a signé, ainsi que les acquéreures, avec moi, notaire, lecture faite. Mots rayés sont nuls. Renvoi en marge bon & approuvé. » — Signé : « Élise Lemieux », « Joséphine Ouellet », « F. Xavier Bégin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Édouard Gagné",
+          "note": "Journalier de Saint-Jean-Chrysostome ; avait acquis l'emplacement de François Paradis le 20 mars 1872 ; ne sait signer. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Élise Lemieux",
+          "note": "« Demoiselle », marchande publique de Saint-Jean-Chrysostome, associée de Joséphine Ouellet ; signe « Élise Lemieux ». Non rattachée."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Joséphine Ouellet",
+          "note": "« Demoiselle », marchande publique de Saint-Jean-Chrysostome ; signe « Joséphine Ouellet ». Non rattachée."
+        },
+        {
+          "role": "autre",
+          "nom": "Pierre Roberge",
+          "note": "Concédant de l'emplacement (bail à rente à François Paradis) ; créancier de la rente foncière de six piastres. Le concédant du hameau Roberge."
+        },
+        {
+          "role": "auteur",
+          "nom": "François Paradis",
+          "note": "Premier concessionnaire de l'emplacement, vendeur à Édouard Gagné le 20 mars 1872."
+        },
+        {
+          "role": "voisin",
+          "nom": "Michel Leclerc",
+          "note": "Propriétaire du moulin auquel conduit le chemin qui borne l'emplacement au nord-est. Déjà voisin au n° 125 (1874) ; non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "François-Xavier Bégin",
+          "note": "Commis de Saint-Romuald ; signe « F. Xavier Bégin ». Peut-être le commis de 23 ans de 1881 (1881-D2-P001-L02) — hypothèse, non rattaché, comme au bail Leclerc–Cloutier (avril 1875)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Deux femmes célibataires, « marchandes publiques » — statut qui leur permet de contracter seules —, achètent une maison au hameau Roberge, près du chemin du moulin de Michel Leclerc, pour 400 piastres payables en quatre ans, et reprennent la rente de six piastres due à Pierre Roberge. L'emplacement avait été concédé avant 1872 à François Paradis : c'est l'un des lots les plus anciens du hameau.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01701",
+          "microfilm": "002645",
+          "drive": "1DahAdtfaJRfDdNRo7ciLwFTrtC7_tTQJ",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01702",
+          "microfilm": "002646",
+          "drive": "1T-dlbctsEbs5mzflAzp7OfQmICo0_SD0",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01703",
+          "microfilm": "002647",
+          "drive": "1VCmRAgNC_JSpJv5irJjFPa_fU6cgJmGv",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01704",
+          "microfilm": "002648",
+          "drive": "10G0CYJvl3HjW4FDENmFYRz98oRo32pNJ",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-19-obligation-morin-lapierre",
+      "type": "notarie",
+      "titre": "Obligation de Napoléon Morin, cultivateur de Saint-Lambert, envers Étienne Denis dit Lapierre, entrepreneur de Saint-Jean-Chrysostome, cent piastres pour le prix d'un cheval — minute n° 411, 19 juin 1875",
+      "date": "1875-06-19",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 411, images 002649 à 002652 (Drive : fichiers 04T_CN401S124P_01705 à 01707). Numéro confirmé par la clôture (« quatre cent onze », « dix » rayé). En marge « Obligation Morin à Lapierre — Original — Payé $1.00 — enreg. [frais rayés] — Copie pas enregistrée — Expédié 1 fois » ; renvoi paraphé « B. ». Acte complet.",
+      "nature": "Obligation avec hypothèque, reçue le 19 juin 1875, après midi, en l'étude du notaire à Saint-Romuald, devant un témoin ; le débiteur ne sait signer.",
+      "transcription": "[002649-50] « N° 411. 19 juin 1875. L'an mil huit cent soixante-quinze, le dix-neuf de juin, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public, soussigné ; Et en présence de Jean Baptiste Fecteau, journalier, de St Romuald, témoin aussi soussigné ; Fut présent : Napoléon Morin, de St [rayé : « Henri de Lauzon »] Lambert, cultivateur ; Lequel reconnaît & confesse devoir bien & légitimement à Mr Étienne Denis dit Lapierre, de St Jean Chrysostome, entrepreneur, à ce présent & acceptant, la somme de cent piastres courant, étant la balance revenant au créancier sur le prix d'un cheval, ainsi que le débiteur le reconnaît & s'en déclare content & satisfait. Laquelle somme de cent piastres le débiteur, pour lui, ses hoirs & ayants cause, s'oblige [rayé] payer au créancier, ou ordre, porteur des [002650-51] présentes en forme légale, comme suit : cinq louis au vingt-cinq de décembre prochain ; dix louis dans le courant d'août mil huit cent soixante-seize, sans intérêt ; & la balance, ou dix louis courant, le premier jour d'août mil huit cent soixante-dix-sept, avec l'intérêt sur le dernier versement, ou dix louis, de sept pour cent par an, à dater du premier jour d'août mil huit cent soixante-seize jusqu'au parfait paiement. Et pour sûreté du paiement de la dite somme de vingt-cinq louis courant & des intérêts qui en proviendront, le débiteur hypothèque spécialement une terre située à St Lambert, comté de Lévis, contenant trois arpents de front sur trente arpents de profondeur, bornée au sud à Bazile Roy, au nord aux terres de la concession dite Pétrée [?], à l'est à Joseph Fontaine [?] & à l'ouest à [002651-52] Louis Rochette [?] ou ses représentants, avec ensemble une maison, grange, étable & autres bâtisses dessus construites, circonstances & dépendances. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte fait & passé à St Romuald, Étude, les jour, mois & an susdits, sous le numéro quatre cent [rayé : « dix »] onze. Et le créancier & le témoin ont signé avec moi, notaire, le débiteur ayant déclaré ne le savoir, de ce requis, lecture faite. Renvoi en marge est bon & approuvé. » — Signé : « Étienne Lapierre », « J. B. Fecteau », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Napoléon Morin",
+          "note": "Cultivateur de Saint-Lambert (le notaire avait d'abord écrit Saint-Henri-de-Lauzon) ; ne sait signer. Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "creancier",
+          "nom": "Étienne Denis dit Lapierre",
+          "note": "« Entrepreneur » de Saint-Jean-Chrysostome (cultivateur dans ses autres actes) ; signe « Étienne Lapierre ». Le cessionnaire du n° 408. Non rattaché, comme dans ses autres actes."
+        },
+        {
+          "role": "temoin",
+          "nom": "Jean-Baptiste Fecteau",
+          "note": "Journalier de Saint-Romuald ; signe « J. B. Fecteau ». Sans doute le cédant du n° 400 (« Jean-Baptiste Fecteau, fils »). Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Bazile Roy",
+          "note": "Au sud de la terre de Saint-Lambert."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Fontaine [?]",
+          "note": "À l'est ; lecture incertaine."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis Rochette [?]",
+          "note": "À l'ouest ; lecture incertaine."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Cent piastres dues pour un cheval, comptées en louis (25 louis à 4 piastres) et payables en trois termes jusqu'en 1877, l'intérêt ne courant que sur le dernier. Étienne Denis dit Lapierre, dit ici « entrepreneur », est créancier dans trois actes en huit jours (n° 406 comme voisin, n° 408, n° 411).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01705",
+          "microfilm": "002649",
+          "drive": "1vV6REwxAL9gKhfufKroqoBDKifAGHfvK",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01706",
+          "microfilm": "002650",
+          "drive": "1UmhsivAEcjBg8yqIQWqPOPYNljcKwk3W",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01707",
+          "microfilm": "002651",
+          "drive": "1sluXY1N_bem0gZR2x5syB2ZbJrc4WIqP",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-21-bail-rente-demers-joseph-st-hilaire",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Joseph St-Hilaire, journalier, d'un emplacement au coin des rues Saint-Louis et Saint-Jean-Baptiste, Saint-Romuald — minute n° 412, 21 juin 1875",
+      "date": "1875-06-21",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 412, images 002652 à 002655 (Drive : fichiers 04T_CN401S124P_01708 à 01710 ; 01711 est le dos imprimé de la chemise, « Bail à rente foncière par … à … Copie », resté blanc). Formulaire imprimé ; la clause 5 (droit de retrait) est biffée. L'en-tête ne porte que « N° 412 » ; la date et le numéro sont dans la clôture (« vingt-unième jour de juin, après midi », « quatre cent douze »). En marge « $3.50 [?] — Payé pour hon. et enregistrement le 6 août 76 — Exp. : copie à St Hilaire, 1re copie & enregistrée », « 117.00 » en regard du capital. Acte complet.",
+      "nature": "Bail à rente foncière et constituée, reçu le 21 juin 1875, après midi, à Saint-Romuald, en la demeure du concédant, devant un témoin ; le concessionnaire ne sait signer.",
+      "transcription": "[002652-53] « N° 412. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Sr Laurent Carrier, de St Jean Chrysostome, cultivateur, témoin au présent acte, aussi soussigné ; Fut présent : Benjamin Demers, écr, de St Romuald, agriculteur & rentier, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée, et promet garantir de tous troubles et évictions quelconques, à Sieur Joseph St Hilaire, du même lieu, journalier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, dit comté, contenant soixante-douze pieds de front sur la rue St Louis sur cinquante pieds de profondeur ; borné au nord à la rue St Jean Baptiste, au sud à Joseph Lajoie, à l'est à la rue St Louis & à l'ouest à François Leclerc, senior, circonstances [& dépendances]. Tel que le dit emplacement est actuellement, sans en rien réserver […]. Ce bail est fait à la charge par le dit concessionnaire, qui s'y oblige pour lui, ses hoirs et ayant cause ; [002653-54] 1° De clore le dit emplacement […] ; 2° De bâtir sur le dit emplacement d'hui en [un] an une maison habitable et logeable, avec une cheminée soit en pierre, soit en briques […] ; 3° D'entretenir à [ses] propres frais et dépens toutes les rues, ruelles ou chemins […] ; 4° De payer au dit concédant, ses hoirs et ayant cause, au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de sept piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent dix-sept piastres. [hypothèque spéciale ; clause 5 du droit de retrait biffée ; 6° copie enregistrée à fournir ; reprise de possession après deux années impayées.] [002654-55] Au moyen de quoi le dit concédant veut et consent que le dit concessionnaire jouisse et dispose du dit emplacement en pleine propriété et à perpétuité. Dont acte, fait et passé à St Romuald, demeure du concédant, l'an mil huit cent soixante-quinze, le vingt-unième jour de juin, après midi, sous le numéro quatre cent douze des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et le concédant & le témoin ont signé avec moi, notaire, le concessionnaire ayant déclaré ne le savoir, de ce requis, lecture faite. » — Signé : « Benj. Demers », « Laurent Carrier », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écr, de St Romuald, agriculteur & rentier » ; signe « Benj. Demers ». Le lotisseur des rues Saint-Paul, Saint-Louis, Demers et Saint-Jean-Baptiste ; même rattachement qu'aux actes précédents."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Joseph St-Hilaire",
+          "note": "Journalier de Saint-Romuald ; ne sait signer. Peut-être le fils de Jean-Baptiste St-Hilaire (n° 413-414), recensé à 11 ans en 1871 (1871-D1-P034-L19) — il n'aurait que 15 ou 16 ans : hypothèse, non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Joseph Lajoie",
+          "ref_personne": "1881-D1-P030-L09",
+          "note": "Au sud : le charpentier concessionnaire de Demers (n° 201, 1874). Même rattachement probable."
+        },
+        {
+          "role": "voisin",
+          "nom": "François Leclerc, senior",
+          "note": "À l'ouest. Le charretier des actes de 1874 ; non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Laurent Carrier",
+          "note": "Cultivateur de Saint-Jean-Chrysostome ; signe « Laurent Carrier ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Premier des trois actes de la famille St-Hilaire chez Benjamin Demers, le 21 juin 1875 (n° 412 à 414). Le lot fait le coin des rues Saint-Louis et Saint-Jean-Baptiste, à côté de celui de Joseph Lajoie. Sept piastres de rente au 1er octobre, comptées depuis le 1er octobre 1874 : le concessionnaire occupait sans doute déjà le terrain.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01708",
+          "microfilm": "002652",
+          "drive": "1sqGl7_nBTcCuAksSv5HwSpxkQgwKXfn3",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01709",
+          "microfilm": "002653",
+          "drive": "13rO_SAhirwmPUH7gO1NUBUTwJQhNs1QG",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01710",
+          "microfilm": "002654",
+          "drive": "16R00cuEWoQI1WvkPeINOFw0zTimbeCT9",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01711",
+          "microfilm": "002655",
+          "drive": "17JLZZMx841s6BH-MVL-zlyIBGBcyKA2j",
+          "legende": "dos de la chemise"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-21-bail-rente-demers-jean-baptiste-st-hilaire",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Jean-Baptiste St-Hilaire, journalier, d'un emplacement de forme irrégulière sur le chemin public, Saint-Romuald — minute n° 413, 21 juin 1875",
+      "date": "1875-06-21",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 413, images 002656 à 002660 (Drive : fichiers 04T_CN401S124P_01712 à 01714 ; 01715 est le dos imprimé de la chemise, resté blanc). Formulaire imprimé ; le témoin imprimé (Laurent Carrier) est rayé : l'acte n'a pas de témoin. L'en-tête porte « N° 413, 21 juin 1875 » ; la clôture dit « vingt-unième jour de juin, après midi » et « quatre cent treize » (« douze » rayé). Description du terrain très raturée. En marge « $3.50 — Payé — Exp. 2 fois & enregistré » ; calcul « 200 + 50 + 9 = 259 » en regard du capital ; renvoi « (Pierre) ». Acte complet.",
+      "nature": "Bail à rente foncière et constituée, reçu le 21 juin 1875, après midi, à Saint-Romuald, en la demeure du concédant, sans témoin ; les deux parties signent.",
+      "transcription": "[002656-57] « N° 413. 21 juin 1875. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, [rayé : « Et en présence de Sr Laurent Carrier, de St Jean Chrysostome, cultivateur, témoin au présent acte, aussi soussigné »] ; Fut présent : Benjamin Demers, écr, agriculteur & rentier, de St Romuald, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […], à Jean Baptiste St Hilaire, du même lieu, journalier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, étant de forme irrégulière, contenant quarante-quatre [?] pieds de front au chemin public, au nord, sur une profondeur de quatre-vingt-six pieds, le dit emplacement ayant une largeur de soixante-treize pieds vers le sud à partir du soixantième pied de profondeur du côté est, le tout plus ou moins ; borné au nord au chemin public, au sud à Augustin Plaisance, à l'est à François Leclerc, père, sur la dite partie de profondeur de soixante pieds, & à Pierre [Rouleau ?] au [nord-]est de la profondeur de soixante-treize [?] pieds, à l'ouest à la rue St [Louis ?] [renvoi « Pierre »]. Tel que le dit emplacement est actuellement […]. [002657-58] [Charges du formulaire : clore ; bâtir d'hui en un an une maison habitable avec cheminée de pierre ou de brique ; entretenir à ses frais rues et fossés ;] 4° De payer au dit concédant, ses hoirs et ayant cause, au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de quinze piastres & demie courant de rente foncière et constituée, rachetable en un seul paiement au capital de deux cent cinquante-huit [?] piastres. [hypothèque ; clause 5 du droit de retrait biffée ; copie enregistrée ; reprise de possession après deux années impayées.] [002658-59] Au moyen de quoi le dit concédant veut et consent que le dit concessionnaire jouisse et dispose du dit emplacement en pleine propriété et à perpétuité. Dont acte, fait et passé à St Romuald, demeure du concédant, l'an mil huit cent soixante-quinze, le vingt-unième jour de juin, après midi, sous le numéro quatre cent [rayé : « douze »] treize des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et le concédant & le concessionnaire ont signé avec moi, notaire, lecture faite. » — Signé : « Benj. Demers », « Jean Baptiste St Hilaire », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écr, agriculteur & rentier, de St Romuald » ; signe « Benj. Demers »."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Jean-Baptiste St-Hilaire",
+          "ref_personne": "1871-D1-P034-L16",
+          "note": "Journalier de Saint-Romuald ; signe « Jean Baptiste St Hilaire ». Père de Barthélemi St-Hilaire (n° 414). En 1871 : Jean-Baptiste St-Hilaire, journalier de 57 ans (division 1, maison 90), dans le même ménage que son fils Barthélemy, journalier de 36 ans, déjà rattaché aux n° 195 et 259. Rattachement probable."
+        },
+        {
+          "role": "voisin",
+          "nom": "Augustin Plaisance",
+          "note": "Au sud. Sans doute Augustin Plaisance, fils, foreman, concessionnaire de Demers sur la rue Saint-Pierre (n° 259, décembre 1874) ; non rattaché ici, le père portant le même nom."
+        },
+        {
+          "role": "voisin",
+          "nom": "François Leclerc, père",
+          "note": "À l'est, sur soixante pieds de profondeur. Le « François Leclerc, senior » du n° 412 ; non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Pierre [Rouleau ?]",
+          "note": "Au nord-est (sur soixante-treize pieds) ; nom de famille de lecture incertaine. Pierre Rouleau, menuisier, était voisin de Barthélemi St-Hilaire au n° 259 : rapprochement probable, non rattaché faute de lecture sûre."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le lot de la famille St-Hilaire, de forme irrégulière, entre le chemin public et le lot Plaisance ; la maison qui s'y trouve a été bâtie à frais communs par Jean-Baptiste St-Hilaire et son fils Barthélemi (déclaration n° 414, passée aussitôt). La rente, de quinze piastres et demie, est plus de deux fois celle des lots ordinaires de Demers. La description, très raturée, est à relire sur le manuscrit (largeur au chemin, voisin du nord-est).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01712",
+          "microfilm": "002656",
+          "drive": "1nK1FWqGK83OvaDd1hR1GSNw-aymGwQO5",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01713",
+          "microfilm": "002657",
+          "drive": "1GP6BQNl_CEx8K01Uiy4AyEOXFknh9ugo",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01714",
+          "microfilm": "002658",
+          "drive": "1KBNXKolFmeF294HkEoVNoJt5tGrEwzdE",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01715",
+          "microfilm": "002659",
+          "drive": "13EcItf85dND0Gn_HWNc9iFL0r1TcTcdz",
+          "legende": "dos de la chemise"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-21-declaration-st-hilaire",
+      "type": "notarie",
+      "titre": "Déclaration de Jean-Baptiste St-Hilaire, journalier : la moitié est de son emplacement et de la maison appartient à son fils Barthélemi — minute n° 414, 21 juin 1875",
+      "date": "1875-06-21",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 414, images 002660 à 002662 (Drive : fichiers 04T_CN401S124P_01716 et 01717). L'en-tête porte « N° 414 » (surchargé) ; la clôture dit « quatre cent quatorze » (« quinze » et « treize » [?] rayés). En marge « Déclaration J. Bte St Hilaire — pas payé — $0.50 » et un nom au crayon, peu lisible (« Louis Lanfrais » [?]). Acte complet.",
+      "nature": "Déclaration, reçue le 21 juin 1875, après midi, à Saint-Romuald, en la demeure de Benjamin Demers ; le comparant signe.",
+      "transcription": "[002660-61] « N° 414. L'an mil huit cent soixante-quinze, le vingt-unième jour de juin, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public, soussigné ; Fut présent : Sieur Jean Bte St Hilaire, de St Romuald, journalier ; Lequel dit & déclare que l'emplacement qui lui a été concédé ce jour [?] par Benjamin Demers, écr, de St Romuald, agriculteur & rentier, a été concédé à son nom seul, & qu'il s'oblige néanmoins faire une cession [rayé : « du dit emplacement, côté nord-est »] de la moitié du dit emplacement & de la maison dessus construite, le tout côté est, [rayé : « & ce en considération de ce que lui »] à Barthélemi St Hilaire, son fils, & ce en considération de ce que ce dernier a payé & paie encore la moitié de la rente foncière stipulée à l'acte de bail sus-daté, & aussi en considération [rayé : « par »] de ce que le dit Barthélemi St Hilaire [002661-62] a bâti avec lui, le comparant, & à frais communs, la dite maison. Dont acte requis & octroyé à St Romuald, demeure de Benjamin Demers, écr, les jour, mois & an susdits, sous le numéro quatre cent [rayés] quatorze. Et le comparant a signé avec moi, notaire, lecture faite. » — Signé : « Jean Baptiste St Hilaire », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "comparant",
+          "nom": "Jean-Baptiste St-Hilaire",
+          "ref_personne": "1871-D1-P034-L16",
+          "note": "Journalier de Saint-Romuald ; signe. Le concessionnaire du n° 413 ; journalier de 57 ans en 1871 (division 1, maison 90). Rattachement probable."
+        },
+        {
+          "role": "fils",
+          "nom": "Barthélemi St-Hilaire",
+          "ref_personne": "1871-D1-P034-L12",
+          "note": "Fils du comparant, à qui revient la moitié est de l'emplacement et de la maison. Journalier de 36 ans en 1871, dans le ménage de son père ; même rattachement probable qu'aux n° 195 et 259."
+        },
+        {
+          "role": "autre",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Le concédant de l'emplacement (n° 413) ; l'acte est passé chez lui."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le père et le fils ont bâti la maison ensemble et partagent la rente : le notaire consigne aussitôt que la moitié est revient à Barthélemi, bien que le bail (n° 413) soit au seul nom de Jean-Baptiste. L'acte confirme que les deux St-Hilaire recensés dans la même maison en 1871 sont bien père et fils.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01716",
+          "microfilm": "002660",
+          "drive": "1CYP_FmQTkf_f6ranzHFaanEQDP8k2qU-",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01717",
+          "microfilm": "002661",
+          "drive": "1p6o_EOmIK1tC3y1fepOv6Kl1KP2TjYiw",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-06-22-bail-rente-demers-vermette",
+      "type": "notarie",
+      "titre": "Bail à rente foncière de Benjamin Demers à Jean-Baptiste Vermette, charpentier, d'un emplacement entre les rues Saint-Louis et Saint-Pierre, Saint-Romuald — minute n° 415, 22 juin 1875",
+      "date": "1875-06-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 415, images 002663 à 002665 (Drive : fichiers 04T_CN401S124P_01718 à 01720). Formulaire imprimé ; la clause 5 (droit de retrait) est biffée. L'en-tête porte « N° 415 » (surchargé) ; la clôture dit « vingt-deuxième jour de juin, après midi » et « quatre cent quinze ». En marge « Exp. 2 fois le 28 octobre 1876 — $300 pour amortissement [?] payé — [frais rayés] » ; « 134 » en regard du capital. Acte complet ; le dos de la chemise n'est sans doute pas encore filmé (fichier 01721 ?).",
+      "nature": "Bail à rente foncière et constituée, reçu le 22 juin 1875, après midi, à Saint-Romuald, en la demeure du concédant, devant un témoin ; le concessionnaire ne sait signer.",
+      "transcription": "[002663-64] « N° 415. Pardevant le Notaire Public pour la Province de Québec, résidant et pratiquant en la paroisse de Saint-Romuald, comté de Lévis, soussigné, Et en présence de Jean Baptiste Nicol, de St Romuald, entrepreneur, témoin au présent acte, aussi soussigné ; Fut présent : Benjamin Demers, écr, de St Romuald, cultivateur & rentier, Lequel a par ces présentes baillé et concédé dès maintenant et à toujours, à titre de bail à rente foncière et constituée […], à Mr Jean Baptiste Vermette, du même lieu, [rayé : « journalier »] charpentier, à ce présent et acceptant concessionnaire pour lui, ses héritiers et ayant cause à l'avenir, savoir : Un emplacement situé en la paroisse de St Romuald, contenant [rayé : « quatre »] cinquante pieds de front sur quatre-vingts pieds de profondeur, mesure anglaise ; borné à l'ouest à la rue St Louis, à l'est à la rue St Pierre, au nord au concédant & au sud à Modeste Dubois, circonstances & dépendances. Tel que le dit emplacement est actuellement […]. [002664-65] [Charges du formulaire : clore ; bâtir d'hui en un an une maison habitable avec cheminée de pierre ou de brique ; entretenir à ses frais rues et fossés ;] 4° De payer au dit concédant, ses hoirs et ayant cause, au premier jour d'octobre de chaque année, à dater du premier jour d'octobre dernier, la somme de huit piastres courant de rente foncière et constituée, rachetable en un seul paiement au capital de cent trente-quatre piastres. [hypothèque ; clause 5 du droit de retrait biffée ; copie enregistrée ; reprise de possession après deux années impayées.] [002665] Au moyen de quoi le dit concédant veut et consent que le dit concessionnaire jouisse et dispose du dit emplacement en pleine propriété et à perpétuité. Dont acte, fait et passé à St Romuald, demeure du concédant, l'an mil huit cent soixante-quinze, le vingt-deuxième jour de juin, après midi, sous le numéro quatre cent quinze des originaux de Mtre Elzéar Hubert Tremblay, le dit Notaire soussigné. Et le concédant & le témoin ont signé avec moi, notaire, le concessionnaire ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. » — Signé : « Benj. Demers », « J. Bte Nicol », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "concedant",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "« Écr, de St Romuald, cultivateur & rentier » ; signe « Benj. Demers »."
+        },
+        {
+          "role": "concessionnaire",
+          "nom": "Jean-Baptiste Vermette",
+          "note": "Charpentier de Saint-Romuald (« journalier » rayé) ; ne sait signer. Absent des recensements dépouillés sous ce prénom : non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Modeste Dubois",
+          "note": "Au sud. Peut-être le journalier de 31 ans de 1881 (1881-D1-P035-L15) — hypothèse, non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Jean-Baptiste Nicol",
+          "ref_personne": "1871-D1-P039-L16",
+          "note": "Entrepreneur de Saint-Romuald ; signe « J. Bte Nicol ». Même rattachement probable qu'aux n° 140 et 141 (menuisier de 40 ans en 1871)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un lot traversant, de la rue Saint-Louis à la rue Saint-Pierre, dans le lotissement de Benjamin Demers. Huit piastres de rente, rachetables à 134 piastres ; la note de marge de 1876 semble indiquer un paiement de 300 $.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01718",
+          "microfilm": "002662",
+          "drive": "1GLl1GImkIO9LfyHkunkKvYysQzmnA8aP",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01719",
+          "microfilm": "002663",
+          "drive": "1khUhEo4qC8D8ZUjLDjG_S83yFqdk13J0",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01720",
+          "microfilm": "002664",
+          "drive": "1IH16zMN6YzL7C8NRYVYfsKzUxaRSQXeE",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }

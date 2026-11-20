@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (393 fiches au 21 novembre 2026 ; série jusqu'à 01700 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
+fiche dont l'identifiant commence par `notarie-` (399 fiches au 21 novembre 2026 ; série jusqu'à 01720 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
 
 ## Où sont les images
 
@@ -691,10 +691,10 @@ Suite (20-21 novembre) : fichiers **01644 à 01660** lus, actes **n° 395-396**
 
 ## Passation à une nouvelle conversation (21 novembre 2026)
 
-**Où reprendre** : fichier **01701** (microfilm 002645), après la quittance
-n° 409 (15 juin 1875). Les fichiers 01661 à 01700 sont lus (n° 397 à 409, voir
+**Où reprendre** : fichier **01721** (microfilm 002665), après le bail
+n° 415 (22 juin 1875). Les fichiers 01661 à 01720 sont lus (n° 397 à 415, voir
 « Suite du 21 novembre » plus bas). Chercher les suivants par
-`title = '04T_CN401S124P_01701.jpg' or title = '…01702.jpg' or …` (la
+`title = '04T_CN401S124P_01721.jpg' or title = '…01722.jpg' or …` (la
 recherche `title contains '…0167'` rate des fichiers). Les fichiers 016xx-017xx
 sont dans le dossier Drive `1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql` ; le Drive va
 au moins jusqu'au fichier 01900.
@@ -839,6 +839,17 @@ jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivant
   557 $ (n° 409). Les fichiers 01684, 01688 et 01692 sont des dos de chemises
   imprimées. **n° 405** : en-tête « 10 juin », clôture « neuvième jour de
   juin » (fiche datée du 9).
+
+- **Fichiers 01701 à 01720** : vente Gagné à deux « marchandes publiques »,
+  Élise Lemieux et Joséphine Ouellet, d'une maison du hameau Roberge près du
+  moulin de Michel Leclerc (n° 410) ; obligation Morin–Lapierre pour un
+  cheval (n° 411) ; trois concessions de Benjamin Demers (n° 412 Joseph
+  St-Hilaire, n° 413 Jean-Baptiste St-Hilaire, n° 415 Jean-Baptiste
+  Vermette) et la déclaration n° 414 : la moitié est du lot et de la maison
+  St-Hilaire revient au fils Barthélemi, qui l'a bâtie avec son père.
+  **n° 413** : description raturée à relire (largeur au chemin, voisin
+  « Pierre [Rouleau ?] »). Les fichiers 01711 et 01715 sont des dos de
+  chemises.
 
 Points pour Patrick : **n° 402**, l'en-tête dit « 2 juin », un renvoi du texte
 semble dire « quatrième jour » ; **n° 403**, la clôture dit « quatre cent
