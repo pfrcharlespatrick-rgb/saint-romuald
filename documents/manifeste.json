@@ -29764,7 +29764,7 @@
         }
       ],
       "affirmations": [],
-      "note": "Deux frères [?] Fontaine, de Saint-Jean-Chrysostome, empruntent solidairement deux cents piastres à huit pour cent, sur onze mois, d'un voisin, Louis Roberge fils de Thomas. L'acte nomme les concessions de l'arrière-pays : rang de Pétré et rang Bellevèse [?] à Saint-Étienne-de-Lauzon, concessions de Beauséjour, de Brise-culottes et de Belair à Saint-Jean-Chrysostome. Le notaire envoie la copie au créancier « par la malle », une fois revenue du bureau d'enregistrement.",
+      "note": "Deux Fontaine de Saint-Jean-Chrysostome (l'acte ne dit pas leur parenté), empruntent solidairement deux cents piastres à huit pour cent, sur onze mois, d'un voisin, Louis Roberge fils de Thomas. L'acte nomme les concessions de l'arrière-pays : rang de Pétré et rang Bellevèse [?] à Saint-Étienne-de-Lauzon, concessions de Beauséjour, de Brise-culottes et de Belair à Saint-Jean-Chrysostome. Le notaire envoie la copie au créancier « par la malle », une fois revenue du bureau d'enregistrement.",
       "ajoute_le": "2026-11-19",
       "images": [
         {
@@ -29850,6 +29850,73 @@
           "microfilm": "002324",
           "drive": "1FlIVHfTYBnTilhXf441m0So1vw_3CMFc",
           "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-03-12-bail-begin-faucher",
+      "type": "notarie",
+      "titre": "Bail par George Bégin, marchand, à Marc Faucher, navigateur, d'une chambre dans une petite maison de la rue Saint-Laurent — minute n° 322, 12 mars 1875",
+      "date": "1875-03-12",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 322, images 002326 à 002329 (Drive : fichiers 04T_CN401S124P_01382 à 01385 ; le fichier 01385 est le dos imprimé de la formule, laissé en blanc ; le fichier 01381, qui précède, est le dos de la formule du n° 321). Formule imprimée de bail remplie à la main ; clause 4 (charges de ville) et clauses d'aqueduc et de taxes biffées. En marge « Bail Bégin à Faucher — Original — Faucher a payé ½ [?] à Bégin $0.50 [?] » ; au verso « 22 — 1.83 ». Acte complet.",
+      "nature": "Bail d'un an (1er mai 1875 – 30 avril 1876), passé le 12 mars 1875, avant midi, à Saint-Romuald, étude du notaire, devant un témoin ; le preneur ne sait signer.",
+      "transcription": "[002326] « N° 322 — 12 mars 1875. L'an mil huit cent soixante-quinze, le douzième jour du mois de mars, avant midi, pardevant Mtre E. H. Tremblay, Notaire Public, résidant à St Romuald, soussigné, & en présence de Mr Pierre [?] Bégin, marchand, témoin au présent acte, soussigné ; Fut présent : Mr George Bégin, de St Romuald, comté de Lévis, marchand ; Lequel a, par ces présentes, donné à loyer pour le terme et espace d'une année entière qui commence à courir du premier jour de mai prochain et finir le trentième jour d'avril de l'année mil huit cent soixante-seize, à Mr Marc Faucher, du même lieu, navigateur, à ce présent et acceptant preneur pour lui, ses hoirs et ayants cause, c'est-à-savoir : Une chambre & la moitié du grenier, côté sud, d'une petite maison en bois à un étage sise sur le niveau sud de la Rue St Laurent & appartenant au Bailleur, ensemble passage pour aller au chemin public en commun, place pour mettre son bois. Le Bailleur se réservant le droit de changer la dite maison de place dans le cours de l'été ou avant, sans que pour ce le locataire puisse exiger aucune indemnité ; tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité & en étant déjà en possession. [Clauses imprimées : jouir en bon père de famille ; [002327] entretenir ; ne faire aucun changement ; laisser visiter ; ne point céder ni sous-louer.] De son côté le Bailleur promet et s'oblige faire jouir paisiblement le preneur des premisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à aucune réparation quelconque. Ce Bail est fait en outre pour et en considération du prix et somme de vingt-deux piastres courant pour l'année de sa durée, et que le Preneur promet et s'oblige payer au dit Bailleur ou à son ordre en douze paiements égaux & mensuels de la somme de une piastre quatre-vingt-quatre centins chaque, à l'expiration de chaque mois. [002328] Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables, savoir, le Preneur en les premisses sus-louées et le Bailleur en sa demeure ordinaire où les paiements se feront. Aux quels lieux, etc. Car ainsi, etc. Dont Acte, Fait et Passé à St Romuald, Étude, les jour, mois et an susdits sous le numéro trois cent vingt-deux. Requis de signer, le preneur a déclaré ne le savoir en présence du témoin qui a signé ainsi que le Bailleur avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « George Bégin », « Peter Bégin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "George Bégin",
+          "ref_personne": "1871-D1-P012-L04",
+          "note": "Marchand de Saint-Romuald, propriétaire d'une petite maison rue Saint-Laurent ; signe « George Bégin ». Rattachement probable au marchand de 26 ans recensé en 1871 (marchand de 36 ans en 1881, 1881-D1-P011-L06)."
+        },
+        {
+          "role": "preneur",
+          "nom": "Marc Faucher",
+          "note": "Navigateur de Saint-Romuald, déjà dans les lieux ; ne sait signer. Absent des recensements dépouillés : non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Peter Bégin",
+          "note": "Marchand ; nommé « Pierre » dans l'acte [?] et signe « Peter Bégin ». Peut-être le Pierre Bégin, contremaître (« foreman ») de 32 ans recensé en 1871 (1871-D1-P020-L06) — hypothèse, non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Petit bail de la rue Saint-Laurent : une chambre et la moitié du grenier d'une petite maison de bois, pour vingt-deux piastres l'an payées au mois. Le bailleur se réserve de « changer la dite maison de place » dans le cours de l'été — on déplaçait alors les maisons de bois — sans indemnité au locataire.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01381",
+          "microfilm": "002325",
+          "drive": "1rBqqg9McJdAVjdAK_Hh-mQTIUgZZSb-h",
+          "legende": "dos de la formule du n° 321 (« Bail par … à … — Copie »), resté en blanc"
+        },
+        {
+          "fichier": "01382",
+          "microfilm": "002326",
+          "drive": "1qhZlpzDipWqO8Cn9uFQx3l8tKoVI8LQe",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01383",
+          "microfilm": "002327",
+          "drive": "1_OZ9bDhOkmlQkJxK8rYMZ31f1smMx8sw",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01384",
+          "microfilm": "002328",
+          "drive": "1c0oB4LEXA25yviaE4KD9YDnkzCYubQNe",
+          "legende": "3/3"
+        },
+        {
+          "fichier": "01385",
+          "microfilm": "002329",
+          "drive": "1efDjM_5PT-CQeq_laiXU0dIlWAwcuVjN",
+          "legende": "dos imprimé de la formule, resté en blanc"
         }
       ]
     }
