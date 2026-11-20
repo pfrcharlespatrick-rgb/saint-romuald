@@ -29411,6 +29411,81 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-02-27-quittance-halle-halle",
+      "type": "notarie",
+      "titre": "Quittance générale et finale par Ursule Dussault, veuve d'Antoine Hallé, à François Hallé, agriculteur — minute n° 315, 27 février 1875",
+      "date": "1875-02-27",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 315, images 002307 à 002309 (Drive : fichiers 04T_CN401S124P_01363 et 01364 ; le fichier 01362, qui précède, est une feuille de compte du notaire). En marge « Quittance Vve Hallé à Frs Hallé — Original — Expédié 1 fois (enregistré) — [frais : .50, .30, .10 — total .90] Payé — Exp. 2 fois ». Le lieu du témoin est corrigé en interligne (« du même lieu », rayé). Acte complet.",
+      "nature": "Quittance générale et finale du prix d'une terre vendue en 1865, passée le 27 février 1875, après midi, à Saint-Romuald, en la demeure de la comparante, devant un témoin ; la comparante ne sait signer.",
+      "transcription": "[002306 — feuille de compte du notaire, au crayon et à l'encre] « $200. — 350. — 200. Mad. Hallé — Quittance 125. Ferd. Gosselin, cult. — do 125. Geo. Hallé — do 1[?]0. Cyrille [?] Roy, fermier de Rataire [?] — 28, 35 : 63 ». [002307] « N° 315 — 1875. L'an mil huit cent soixante-quinze, le vingt-septième jour de février, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public, résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Ferdinand Ouellet, de Québec, marchand [?], témoin au présent acte, aussi soussigné ; Fut présente : Dame Ursule Dussault, de St Romuald, veuve de feu Sr Antoine Hallé, en son vivant du même lieu, Mtre forgeron & capitaine de milice ; Laquelle a reconnu & confessé avoir eu & reçu à son entière satisfaction, en bon argent courant, partie avant & partie lors de l'exécution des présentes, de Mr François Hallé, de St Romuald, agriculteur, la somme de huit cents piastres courant, étant pour le parfait & entier paiement du prix d'une terre achetée du dit feu Sr Hallé & [002308] de son épouse, suivant acte de vente reçu par Me Étienne Simard, N.P., et enregistré au Bureau d'Enregistrement du comté de [Lévis, rayé] Dorchester, division N° deux, Rég. B, Vol. 17, page 614, N° 13,676. Reconnaît en outre la comparante avoir aussi reçu tous les intérêts échus sur icelle dite somme jusqu'à ce jour. Dont & du tout elle donne & accorde quittance générale & finale en faveur du dit Sr François Hallé. Dont acte requis & octroyé à St Romuald, demeure de la comparante, les jour, mois & an susdits, sous le numéro trois cent quinze des originaux du Notaire soussigné. Requise de signer, la comparante a déclaré ne le savoir en présence du témoin qui a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Ferdinand Ouellet », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Ursule Dussault",
+          "ref_personne": "1871-D1-P010-L17",
+          "note": "Veuve d'Antoine Hallé ; ne sait signer ; l'acte est passé chez elle. Rattachement probable, comme aux n° 306 et 314."
+        },
+        {
+          "role": "autre",
+          "nom": "Antoine Hallé",
+          "note": "Feu mari de la comparante, « Mtre forgeron & capitaine de milice » de Saint-Romuald."
+        },
+        {
+          "role": "debiteur",
+          "nom": "François Hallé",
+          "note": "Agriculteur de Saint-Romuald, acquéreur de la terre en 1865 ; s'acquitte entièrement. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Ferdinand Ouellet",
+          "note": "De Québec, marchand [?] ; signe « Ferdinand Ouellet ». Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "George Hallé",
+          "note": "Nommé seulement sur la feuille de compte du notaire (« Geo. Hallé », quittance de 125) ; sans doute le fils forgeron de la veuve, recensé avec elle en 1871. Non rattaché ici."
+        },
+        {
+          "role": "autre",
+          "nom": "Ferdinand Gosselin",
+          "note": "Cultivateur, nommé seulement sur la feuille de compte du notaire (quittance de 125). Non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Cyrille [?] Roy",
+          "note": "« fermier de Rataire [?] », nommé seulement sur la feuille de compte du notaire. Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Troisième quittance de la veuve Hallé à François Hallé en douze jours (n° 306, 314, 315) : cette fois « pour le parfait & entier paiement » de la terre de 1865, huit cents piastres, avec quittance générale et finale. Les trois sommes (400, « six cents » au n° 314, 800) ne s'additionnent pas simplement : le n° 315 dit huit cents « partie avant & partie lors » de l'acte, ce qui peut englober les à-comptes précédents. La feuille de compte qui précède porte « 200. Mad. Hallé » : le montant du n° 314 serait peut-être « deux cents » plutôt que « six cents » — à relire. Elle annonce aussi des quittances à venir (Ferdinand Gosselin, George Hallé, Cyrille Roy).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01362",
+          "microfilm": "002306",
+          "drive": "1xVROfwuwVQvQcsfB-gCrNs41HmlTg12P",
+          "legende": "feuille de compte du notaire"
+        },
+        {
+          "fichier": "01363",
+          "microfilm": "002307",
+          "drive": "1xDBEPHssMWsnvl697Ep3Z71_ILtZQQis",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01364",
+          "microfilm": "002308",
+          "drive": "1JW6jGnjCTb3p2zM9jbpVN1T_GNLaXbyB",
+          "legende": "2/2"
+        }
+      ]
     }
   ]
 }
