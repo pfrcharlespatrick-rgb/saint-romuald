@@ -33378,6 +33378,66 @@
           "legende": "3/3"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-05-26-bail-lefebvre-drolet",
+      "type": "notarie",
+      "titre": "Bail par Hubert Lefebvre, journalier, à Pierre Drôlet, arrimeur, d'une chambre d'une maison de bois — minute n° 393, 26 mai 1875",
+      "date": "1875-05-26",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 393, images 002581 à 002583 (Drive : fichiers 04T_CN401S124P_01637 à 01639 ; le fichier 01636, qui précède, est le dos imprimé de la formule du n° 392, laissé en blanc). Formule imprimée de bail (autre modèle) ; clause 4 et clauses d'aqueduc et de taxes biffées ; le métier du preneur, d'abord « journalier », est corrigé en « arrimeur ». En marge « Pas payé ». Acte complet.",
+      "nature": "Bail d'un an (1er mai 1875 – 30 avril 1876), passé le 26 mai 1875, après midi, à Saint-Romuald, en la demeure du bailleur, devant un témoin ; bailleur et preneur ne savent signer.",
+      "transcription": "[002581] « 393. L'an mil huit cent soixante-quinze, le vingt-sixième jour du mois de mai, après-midi, pardevant Mtre E. H. Tremblay, Notaire Public résidant à St Romuald, soussigné, et en présence de Jean Baptiste Lambert, de St Romuald, journalier, témoin aussi soussigné ; Fut présent : Hubert Lefebvre, de St Romuald, journalier ; Lequel a, par ces présentes, donné à loyer pour le terme et espace d'une année entière qui a commencé à courir du premier jour de mai courant et finir le trentième jour d'avril de l'année mil huit cent soixante-seize, à Pierre Drôlet, de St Romuald, arrimeur, à ce présent et acceptant preneur pour lui, ses hoirs et ayants cause, c'est-à-savoir : Une chambre dans le côté nord d'une maison en bois à un étage sise à St Romuald & appartenant au Bailleur, ensemble porte d'entrée à l'est & part de cour à l'usage du preneur, la moitié nord du grenier ; tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité. [Clauses imprimées.] [002582] De son côté le Bailleur promet et s'oblige faire jouir le preneur des premisses sus-louées pendant toute la durée de ce bail, mais ne s'oblige à d'autres réparations qu'à faire les planchers de haut, de bas & une cloison divisant en deux la maison. Ce Bail est fait en outre pour et en considération du prix et somme de dix-huit piastres pour l'année de sa durée, et que le Preneur promet et s'oblige payer au dit Bailleur ou à son ordre comme suit : huit piastres ce soir même, & la balance dans le courant de juillet prochain. [002583] Et le preneur s'oblige ne prendre aucune autre personne que celles de sa famille, composée de sa femme & de ses enfants. Et pour l'exécution des présentes […]. Dont Acte, fait et Passé à St Romuald, demeure du Bailleur, les jour, mois et an susdits sous le numéro trois cent quatre-vingt-treize. Requis de signer, les Bailleur & preneur ont déclaré ne le savoir, en présence du témoin qui a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Jean Baptiste Lambert », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Hubert Lefebvre",
+          "note": "Journalier de Saint-Romuald, propriétaire d'une petite maison de bois ; ne sait signer. Le testateur malade du n° 385 (5 mai 1875), encore vivant trois semaines plus tard. Non rattaché."
+        },
+        {
+          "role": "preneur",
+          "nom": "Pierre Drôlet",
+          "note": "Arrimeur de Saint-Romuald (d'abord dit journalier), marié et père ; ne sait signer. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Jean-Baptiste Lambert",
+          "note": "Journalier de Saint-Romuald ; signe « Jean Baptiste Lambert ». Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le testateur malade du 5 mai (n° 385) loue, trois semaines plus tard, une chambre de sa petite maison à un arrimeur du port, pour dix-huit piastres l'an — huit « ce soir même », le reste en juillet. Il promet de refaire les planchers et de poser une cloison qui coupera la maison en deux ; le locataire ne pourra loger que sa femme et ses enfants.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01636",
+          "microfilm": "002580",
+          "drive": "1lBgJl4dsX8B2jIyeTXD4uAu1xja_n8gb",
+          "legende": "dos imprimé de la formule du n° 392, resté en blanc"
+        },
+        {
+          "fichier": "01637",
+          "microfilm": "002581",
+          "drive": "1sGJaDZCfaGNcjzbNgys9Z0CES7n2Fy8u",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01638",
+          "microfilm": "002582",
+          "drive": "1UzA2RuSFuVpGzSDJxKaxbquxNtJXhmma",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01639",
+          "microfilm": "002583",
+          "drive": "1d0ixVwlop-sL_xXiiVeGCzYZu36-sr3b",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
