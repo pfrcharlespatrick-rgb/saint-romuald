@@ -29041,6 +29041,136 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-02-22-testament-adelme-fortier",
+      "type": "notarie",
+      "titre": "Testament d'Adelme Fortier, cultivateur de Saint-Jean de l'Île d'Orléans, en faveur de sa femme Marie-Obéline Nadeau — minute n° 309, 22 février 1875",
+      "date": "1875-02-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 309, images 002286 à 002289 (Drive : fichiers 04T_CN401S124P_01342 à 01345). Écrit sur papier réglé. En marge « Testament de A. Fortier — Exp. 1 fois ». Renvois paraphés « A. F. », « L. R. », « M. B. », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Testament authentique dicté le 22 février 1875, après-midi, à Saint-Jean de l'Île d'Orléans, en la demeure du testateur, devant le notaire et deux témoins ; tous signent.",
+      "transcription": "[002286] « N° 309 — 22 fév. 1875. L'an mil huit cent soixante-quinze, le vingt-deuxième jour de février après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné, Et en présence de Mr Léandre Raymond, Mtre Pilote pour le Hâvre de Québec & au-dessous, & de Mr Moïse Blouin, navigateur, demeurant tous deux à St Jean, Île d'Orléans, comté Montmorency, témoins au présent testament, aussi soussignés ; Fut présent : Mr Adelme Fortier, cultivateur, demeurant au dit lieu de St Jean, Île d'Orléans, dit comté, étant en bonne santé de corps, sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous Notaire [002287] & témoins par son maintien & ses discours & par la manifestation claire & précise de ses volontés ; Lequel a, dans la vue de la mort, fait & nommé son présent testament à nous Notaire en présence des dits témoins ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes dettes soient payées [renvoi : « & mes torts réparés »] par Madame Marie Obéline Nadeau, mon épouse actuelle, que je nomme mon exécutrice testamentaire & à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes & prières, voulant & entendant qu'un service décent soit chanté sur mon corps le jour de mon inhumation, avec un autre service décent au bout de l'an de mon décès, & que deux cents messes basses de requiem soient dites pour le repos de mon âme le plus tôt possible après mon décès ; [002288] 2° Je donne & lègue à Dame Marie Obéline Nadeau, ma dite épouse, tous les biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès, de quelque nature & valeur qu'ils soient & en quelques lieux qu'ils soient dus & situés, pour par elle en jouir, faire & disposer en pleine & entière propriété à dater du jour de mon décès ; 3° J'institue ma dite épouse ma légataire universelle en propriété, à la charge par elle de payer à l'âge de majorité des enfants vivant au jour de mon décès, sans que le secours de la représentation puisse être invoqué dans ce cas, une somme de cent piastres courant qui sera divisée entre les enfants susdits par parts égales ; et dans le cas où ma dite épouse convolerait en secondes noces, alors elle sera tenue de partager entre les enfants susdits une somme de deux cents piastres courant, à leur âge de majorité, au lieu de cent piastres tel que susdit ; dispensant ma dite épouse de tout inventaire quelconque ; 4° Enfin, je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'arrête comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par le dit Testateur à nous Notaire en présence des dits témoins, & son présent testament lui ayant été [002289] lu, expliqué & relu par le dit Notaire, les dits témoins toujours présents, il a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte fait & passé à St Jean, Île d'Orléans, demeure du Testateur, les jour, mois & an susdits, sous le numéro trois cent neuf des originaux du Notaire soussigné. Et le testateur & les dits témoins ont signé avec moi, notaire, lecture faite & refaite. Mots rayés sont nuls. Lignes en blanc remplies par un trait. Deux renvois en marge sont bons & approuvés. » — Signé : « Adelme Fortier », « Léandre Raymond », « Moïse Blouin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Adelme Fortier",
+          "note": "Cultivateur de Saint-Jean, Île d'Orléans ; signe « Adelme Fortier ». Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "legataire",
+          "nom": "Marie-Obéline Nadeau",
+          "note": "Épouse du testateur, légataire universelle et exécutrice ; elle fait le testament réciproque (n° 310). Hors paroisse."
+        },
+        {
+          "role": "temoin",
+          "nom": "Léandre Raymond",
+          "note": "« Mtre Pilote pour le Hâvre de Québec & au-dessous », de Saint-Jean, Île d'Orléans ; signe. Hors paroisse."
+        },
+        {
+          "role": "temoin",
+          "nom": "Moïse Blouin",
+          "note": "Navigateur de Saint-Jean, Île d'Orléans ; signe. Hors paroisse."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le notaire se rend à Saint-Jean de l'Île d'Orléans (comme pour les actes Demers-Gingras de l'île, n° 176-177) recevoir les testaments réciproques d'un cultivateur, Adelme Fortier, et de sa femme Marie-Obéline Nadeau (n° 310). Fortier laisse tout à sa femme, à charge de verser cent piastres aux enfants à leur majorité — deux cents si elle se remarie — et demande deux cents messes basses. Les témoins sont un maître pilote et un navigateur de l'île : la paroisse des pilotes du Saint-Laurent.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01342",
+          "microfilm": "002286",
+          "drive": "1RlVICFqQMoSGCPCjVJWAaiAYNTDqohln",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01343",
+          "microfilm": "002287",
+          "drive": "1LaoO9DAgk7bP4n-Zs45KvlIw0OOtHfGz",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01344",
+          "microfilm": "002288",
+          "drive": "130BmvXk0gbTmGOClGMyF0SoBdadrJ23P",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01345",
+          "microfilm": "002289",
+          "drive": "1FHg9MvAg-H9gK5-dJoUlHk2ZgZvnH8eE",
+          "legende": "4/4"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-02-22-testament-obeline-nadeau",
+      "type": "notarie",
+      "titre": "Testament de Marie-Obéline Nadeau, épouse d'Adelme Fortier, de Saint-Jean de l'Île d'Orléans, en faveur de son mari — minute n° 310, 22 février 1875",
+      "date": "1875-02-22",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 310, images 002290 à 002293 (Drive : fichiers 04T_CN401S124P_01346 à 01349). En marge « Testament de Dme A. Fortier — Exp. 1 fois ». Renvois paraphés « M. O. N. », « L. R. », « M. B. », « E. H. T. N.P. ». Acte complet.",
+      "nature": "Testament authentique dicté le 22 février 1875, après-midi, à Saint-Jean de l'Île d'Orléans, en la demeure de la testatrice chez son mari ; tous signent.",
+      "transcription": "[002290] « N° 310 — 22 fév. 1875. L'an mil huit cent soixante-quinze, le vingt-deux de février, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public pour la Province de Québec, résidant & pratiquant en la paroisse de St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Léandre Raymond, Mtre Pilote pour le Hâvre de Québec & au-dessous, & de Mr Moïse Blouin, navigateur, demeurant tous deux à St Jean, Île d'Orléans, comté de Montmorency, témoins au présent testament, aussi soussignés ; Fut présente : Madame Marie Obéline Nadeau, épouse de Mr Adelme Fortier, cultivateur, & demeurant avec ce dernier en la dite paroisse de St Jean, Île d'Orléans, étant en bonne santé de corps, saine d'esprit, mémoire, jugement [002291] & entendement […] ; Laquelle a, dans la vue de la mort, fait & nommé son présent testament […] : 1° Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par Sieur Adelme Fortier, mon époux actuel, que je nomme mon exécuteur testamentaire […], voulant & entendant qu'un service décent soit chanté sur mon corps le jour de mon inhumation, avec un autre service décent au bout de l'an de mon décès, & que deux cents messes basses de requiem soient dites pour le repos de mon âme le plus tôt possible après mon décès ; 2° Je donne & lègue à Sieur Adelme Fortier, mon [002292] dit époux, tous les biens meubles & immeubles généralement quelconques que je délaisserai au jour de mon décès […], pour par lui en jouir […] à dater du jour de mon décès ; 3° J'institue mon dit époux mon légataire universel en propriété, à la charge par lui de [renvoi : payer à l'âge de majorité des enfants vivants au jour de mon décès, sans que le secours de la représentation puisse être invoqué dans ce cas, une somme de cent piastres courant qui sera divisée entre les enfants susdits par parts égales ; et dans le cas où mon dit époux convolerait en secondes noces, alors il sera tenu de partager entre les enfants susdits une somme de deux cents piastres courant à leur âge de majorité, au lieu de cent piastres tel que susdit ; dispensant mon dit époux de tout inventaire quelconque] ; 4° Enfin, je révoque tous autres testaments & codicilles […]. Ce fut ainsi fait & nommé par la dite Testatrice […] [002293] […]. Dont acte fait & passé à St Jean, Île d'Orléans, demeure de la Testatrice, située chez son dit époux, les jour, mois & an susdits, sous le numéro trois cent dix des originaux du Notaire soussigné. Et la Testatrice & les dits témoins ont signé avec moi, Notaire, lecture faite & refaite. Mots rayés sont nuls. Ligne en blanc remplie par un trait. Deux renvois & une continuation de renvoi marquée (+) en marge sont bons & approuvés. » — Signé : « Marie Obéline Nadeau », « Léandre Raymond », « Moïse Blouin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Marie-Obéline Nadeau",
+          "note": "Épouse d'Adelme Fortier, de Saint-Jean, Île d'Orléans ; signe « Marie Obéline Nadeau ». Hors paroisse ; non rattachée."
+        },
+        {
+          "role": "legataire",
+          "nom": "Adelme Fortier",
+          "note": "Époux de la testatrice, légataire universel ; le testateur du n° 309."
+        },
+        {
+          "role": "temoin",
+          "nom": "Léandre Raymond",
+          "note": "Maître pilote de Saint-Jean, Île d'Orléans ; signe."
+        },
+        {
+          "role": "temoin",
+          "nom": "Moïse Blouin",
+          "note": "Navigateur de Saint-Jean, Île d'Orléans ; signe."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Testament réciproque du n° 309, passé le même après-midi, avec les mêmes témoins et les mêmes clauses : legs universel au conjoint, cent piastres aux enfants à leur majorité (deux cents si le survivant se remarie), deux cents messes basses. La femme signe de son nom entier.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01346",
+          "microfilm": "002290",
+          "drive": "1w8BB2cgXeh9rb_JkwN-6R8gYmbS9bYp9",
+          "legende": "1/4"
+        },
+        {
+          "fichier": "01347",
+          "microfilm": "002291",
+          "drive": "1kmBx_Ss2mSNL2ZChaCH460xzyOGjtcAe",
+          "legende": "2/4"
+        },
+        {
+          "fichier": "01348",
+          "microfilm": "002292",
+          "drive": "1eMrcAKtKNsDbosHF3fTsemNci9EcqUj3",
+          "legende": "3/4"
+        },
+        {
+          "fichier": "01349",
+          "microfilm": "002293",
+          "drive": "1-143Cx-_EnjOJ3tjhB38FQSxYz8kXDsz",
+          "legende": "4/4"
+        }
+      ]
     }
   ]
 }
