@@ -33004,7 +33004,7 @@
           "role": "donataire",
           "nom": "Pierre Demers",
           "ref_personne": "1871-D1-P025-L07",
-          "note": "Agriculteur de Saint-Romuald ; signe « Pierre Demers ». Rattachement probable au Pierre Demers, cultivateur de 18 ans recensé en 1871 dans le ménage de Benjamin Demers ; l'acte ne dit pas qu'il est son fils."
+          "note": "Agriculteur de Saint-Romuald, fils de Benjamin Demers et de feue Félicité Carrier (n° 388) ; signe « Pierre Demers ». Rattachement probable au cultivateur de 18 ans recensé en 1871 dans le ménage de son père."
         },
         {
           "role": "voisin",
@@ -33043,7 +33043,7 @@
         }
       ],
       "affirmations": [],
-      "note": "Benjamin Demers se défait de deux terres contiguës de Saint-Jean-Chrysostome, au premier rang de Taniata, au bord de l'Etchemin, la seconde touchant au village Saint-Jean, en faveur de Pierre Demers — vraisemblablement son fils (recensé dans son ménage en 1871). Avec les terres : une jument rousse, une jeune vache, deux moutons, harnais, wagon, charrette, tombereau, charrue, herse. Le donataire reprend les dettes : quatre cents piastres à Ignace Dubois père et six cents à Louis-Hubert Roberge. On apprend aussi que Pierre Lagueux, juge de paix, est mort (« feu Pierre Lagueux »).",
+      "note": "Benjamin Demers se défait de deux terres contiguës de Saint-Jean-Chrysostome, au premier rang de Taniata, au bord de l'Etchemin, la seconde touchant au village Saint-Jean, en faveur de Pierre Demers — son fils (le n° 388, passé le même jour, le dit). Avec les terres : une jument rousse, une jeune vache, deux moutons, harnais, wagon, charrette, tombereau, charrue, herse. Le donataire reprend les dettes : quatre cents piastres à Ignace Dubois père et six cents à Louis-Hubert Roberge. On apprend aussi que Pierre Lagueux, juge de paix, est mort (« feu Pierre Lagueux »).",
       "ajoute_le": "2026-11-19",
       "images": [
         {
@@ -33081,6 +33081,56 @@
           "microfilm": "002563",
           "drive": "1EVYBPCKTnZRpypqWAxz07sM9rki6Fkjx",
           "legende": "5/5"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-05-10-quittance-demers-demers",
+      "type": "notarie",
+      "titre": "Quittance par Pierre Demers, agriculteur, à son père Benjamin Demers, écuyer, rentier, de sa part dans la succession de sa mère Félicité Carrier — minute n° 388, 10 mai 1875",
+      "date": "1875-05-10",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 388, images 002564 et 002565 (Drive : fichiers 04T_CN401S124P_01620 et 01621). En marge « Quittance Demers à Demers — Original — Expédié 1 fois ». Acte complet.",
+      "nature": "Quittance générale et finale de droits successifs, avec mainlevée d'hypothèques, passée le 10 mai 1875, après midi, à Saint-Romuald, étude du notaire, sans témoin ; le comparant signe.",
+      "transcription": "[002564] « N° 388 — 10 mai 1875. L'an mil huit cent soixante-quinze, le dixième jour de mai, après-midi, en présence de Me Elzéar H. Tremblay, Notaire Public résidant à St Romuald, soussigné ; Fut présent : Mr Pierre Demers, de St Romuald, agriculteur ; Lequel reconnaît avoir eu & reçu à son entière satisfaction dès avant ces présentes de Benjamin Demers, Écr, de St Romuald, rentier, la part qu'il avait à prétendre dans l'hérédité & succession de feue Dame Félicité Carrier, sa mère, décédée ab intestat, & renonce par ces présentes à tous droits quelconques qu'il a ou pourrait avoir contre le dit Sieur Benjamin Demers, son père, relativement à la succession susdite, reconnaissant que justice lui a été rendue par le dit Sr Benjamin Demers, susdit père, [002565] dont & du tout il donne & accorde au dit Sieur Benjamin Demers quittance générale & finale, & veut & consent que toutes hypothèques créées en sa faveur soient éteintes de ce jour & à toujours. Dont acte requis & octroyé à St Romuald, étude, les jour, mois & an susdits, sous le numéro trois cent quatre-vingt-huit. Et le comparant a signé avec moi, Notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Pierre Demers », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Pierre Demers",
+          "ref_personne": "1871-D1-P025-L07",
+          "note": "Agriculteur de Saint-Romuald, fils de Benjamin Demers et de feue Félicité Carrier ; signe. Rattachement probable au cultivateur de 18 ans du ménage de Benjamin Demers en 1871."
+        },
+        {
+          "role": "autre",
+          "nom": "Benjamin Demers",
+          "ref_personne": "1871-D1-P025-L04",
+          "note": "Écuyer, rentier de Saint-Romuald, père du comparant. Rattachement probable."
+        },
+        {
+          "role": "defunt",
+          "nom": "Félicité Carrier",
+          "note": "Feue épouse de Benjamin Demers, mère de Pierre, morte sans testament. Non rattachée."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le même jour que la donation (n° 387), Pierre Demers reconnaît avoir reçu de son père sa part de la succession de sa mère, Félicité Carrier, morte sans testament, et lève toutes les hypothèques qui la garantissaient. Les deux actes vont ensemble : le père établit son fils sur deux terres de Taniata et règle en même temps ses droits maternels.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01620",
+          "microfilm": "002564",
+          "drive": "1WmNrUqnfhLB9_-8EjAvuuWsXPva4aNe4",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01621",
+          "microfilm": "002565",
+          "drive": "1XbtUS3QB-FhMGk6N88NVrluQ0nkhq88V",
+          "legende": "2/2"
         }
       ]
     }
