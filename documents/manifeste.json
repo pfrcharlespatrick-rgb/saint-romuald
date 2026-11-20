@@ -30072,6 +30072,55 @@
           "legende": "4/4"
         }
       ]
+    },
+    {
+      "id": "notarie-1875-03-18-bail-begin-ratte",
+      "type": "notarie",
+      "titre": "Bail par Napoléon Bégin, commerçant de Saint-Romuald, à Léon Ratté, marchand de Lyster, d'une maison-magasin à Lyster — minute n° 325, 18 mars 1875",
+      "date": "1875-03-18",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 325, images 002338 à 002340 (Drive : fichiers 04T_CN401S124P_01394 à 01396). Formule imprimée de bail remplie à la main ; clauses 3 et 6 et clauses d'aqueduc et de taxes biffées. En marge « Bail Bégin à Ratté — Original — 72.00 » et, au verso, des notes de rédaction : « Bailleur finira les chambres en haut, laisse le magasin tel qu'il est actuellement, fait un perron devant la maison, réserve une place pour cheval & une chambre à coucher dans le haut — pour le 1er mai ». Acte complet.",
+      "nature": "Bail d'un an (1er mai 1875 – 30 avril 1876), passé le 18 mars 1875, après midi, à Saint-Romuald, étude du notaire, sans témoin ; bailleur et preneur signent.",
+      "transcription": "[002338] « N° 325 — 18 mars 1875. L'an mil huit cent soixante-quinze, le dix-huitième jour du mois de mars, après-midi, pardevant Mtre Elzéar H. Tremblay, Notaire Public, résidant à St Romuald, comté de Lévis, soussigné ; Fut présent : Mr Napoléon Bégin, de St Romuald, commerçant ; Lequel a, par ces présentes, donné à loyer pour le terme et espace d'une année entière qui commence à courir du premier jour de mai prochain et finir le trentième jour d'avril de l'année mil huit cent soixante-seize, à Mr Léon Ratté, de Lyster, marchand, à ce présent et acceptant preneur pour lui, ses hoirs et ayants cause, c'est-à-savoir : Toute une maison en bois à un étage située à Lyster, District de Québec, & appartenant au Bailleur, avec ensemble les autres bâtisses construites sur le dit terrain. Le bailleur se réservant pour son usage une chambre dans les mansardes & une place dans l'écurie pour un cheval. Le preneur jouira du terrain en commun avec le Bailleur ; tel que le tout est actuellement et dont le preneur se déclare content et satisfait pour l'avoir vu et visité. [Clauses imprimées : jouir en bon père de famille ; [002339] entretenir ; souffrir les grosses réparations ; se conformer aux règlements ; laisser visiter ; rendre en bon état.] De son côté le Bailleur promet et s'oblige faire jouir paisiblement le preneur des premisses sus-louées pendant toute la durée de ce bail et de tenir les lieux clos et couverts suivant l'usage, & s'oblige en outre aux réparations suivantes. Ce Bail est fait en outre pour et en considération du prix et somme de soixante-douze piastres courant pour l'année de sa durée, et que le Preneur promet et s'oblige payer au dit Bailleur ou à son ordre par paiements égaux & mensuels de la somme de six piastres chaque, à l'expiration de chaque mois. [002340] Le bailleur s'oblige faire faire à ses frais un perron ou galerie avec marches devant la maison ; de faire parachever les chambres dans les mansardes, & de laisser le magasin orné & de la manière qu'il doit être & sera au départ du locataire actuel. Les réparations susdites devant être faites pour le premier jour de mai prochain, le tout convenablement. Et pour l'exécution des présentes, les parties élisent leurs domiciles irrévocables, savoir, le Preneur en les premisses sus-louées et le Bailleur en sa demeure ordinaire où les paiements se feront. Aux quels lieux, etc. Car ainsi, etc. Dont Acte, Fait et Passé à St Romuald, étude du dit Mtre E. H. Tremblay, Notaire, les jour, mois et an susdits sous le numéro trois cent vingt-cinq. Et les Bailleur & preneur ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Léon Ratté », « L. N. Bégin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "bailleur",
+          "nom": "Napoléon Bégin",
+          "note": "Commerçant de Saint-Romuald, propriétaire d'une maison-magasin à Lyster ; signe « L. N. Bégin ». Le « L. Napoléon Bégin » témoin des n° 318 et 320. Absent des recensements dépouillés sous ce prénom : non rattaché."
+        },
+        {
+          "role": "preneur",
+          "nom": "Léon Ratté",
+          "note": "Marchand de Lyster ; signe « Léon Ratté ». Hors paroisse ; non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Un commerçant de Saint-Romuald loue à un marchand de Lyster, une maison de bois avec magasin, pour soixante-douze piastres l'an. Il garde pour lui une chambre dans les mansardes et une place à l'écurie pour son cheval, et promet un perron à marches devant la maison et l'achèvement des chambres du haut avant le 1er mai. Le magasin sera laissé « orné » comme au départ du locataire actuel.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01394",
+          "microfilm": "002338",
+          "drive": "1ZlJg3zMO9wVKsrrSdJuZVqyqMffx611Q",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01395",
+          "microfilm": "002339",
+          "drive": "1F6WGJ5d4vJatrzs8S2BIbkf-xIsAi8ew",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01396",
+          "microfilm": "002340",
+          "drive": "1e8DFTOepwX4AQXEmUkNYRaVrDN0PozZK",
+          "legende": "3/3"
+        }
+      ]
     }
   ]
 }
