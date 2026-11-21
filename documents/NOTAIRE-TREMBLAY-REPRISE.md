@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (439 fiches au 21 novembre 2026 ; série jusqu'à 01880 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
+fiche dont l'identifiant commence par `notarie-` (446 fiches au 21 novembre 2026 ; **Drive épuisé : série lue jusqu'à 01900**, dernier fichier déposé, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
 
 ## Où sont les images
 
@@ -691,11 +691,16 @@ Suite (20-21 novembre) : fichiers **01644 à 01660** lus, actes **n° 395-396**
 
 ## Passation à une nouvelle conversation (21 novembre 2026)
 
-**Où reprendre** : fichier **01881** (microfilm 002825), n° 458 (après la
-quittance Lavertu–Simoneau n° 457 du 10 octobre 1875). Les fichiers 01661 à
-01880 sont versés (n° 397 à 457, voir
-« Suite du 21 novembre » plus bas). Chercher les suivants par
-`title = '04T_CN401S124P_01881.jpg' or title = '…01882.jpg' or …` (dossier Drive de 01851 à 01900 : `14vU8O7GE5jGuViVieCGvAcoda0WAUfiA`) (la
+**Où reprendre** : **le Drive est épuisé.** Le dernier fichier déposé est
+**01900** (microfilm 002844-45) ; 01901 et au-delà n'existent pas (vérifié le
+21 novembre 2026 par recherche de titre exact). Les fichiers 01661 à 01900 sont
+versés (n° 397 à 464, voir « Suite du 21 novembre » plus bas). La donation
+**n° 464** (Marguerite Demers à son fils Charles Samson, 18 octobre 1875) est
+**inachevée** : sa fin est sur le fichier 01901. Quand Patrick ajoutera la
+suite, reprendre au fichier **01901** et compléter la fiche
+`notarie-1875-10-18-donation-demers-samson` (`"replace": true`). Chercher par
+`title = '04T_CN401S124P_01901.jpg' or …` (dossier Drive de 01851 à 01900 :
+`14vU8O7GE5jGuViVieCGvAcoda0WAUfiA`) (la
 recherche `title contains '…0167'` rate des fichiers). Les fichiers 016xx-017xx
 sont dans le dossier Drive `1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql` ; le Drive va
 au moins jusqu'au fichier 01900.
@@ -957,6 +962,16 @@ jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivant
   Demers** (« L. J. Demers ») ; quittance Lavertu–Simoneau (n° 457, suite de
   la quittance Duperron–Simoneau d'août 1874). 01874 et 01878 sont des dos de
   chemises.
+
+- **Fichiers 01881 à 01900** : testaments croisés du marchand Antoine
+  Lemieux et d'Adéline Sévigny (n° 458-459) ; vente de Philippe Lemieux à
+  Antoine Lemieux du lot que ses parents lui avaient donné en 1874 (n° 460) ;
+  à Québec, Joséphine Ouellet cède à son associée Élise Lemieux sa moitié de
+  la maison et du commerce du hameau Roberge, et lui donne procuration
+  (n° 461-462) ; résiliation « faite par erreur » d'une donation qui
+  n'existait pas encore (n° 463 : note du notaire en marge) ; donation
+  Demers–Samson d'une terre de Taniata à charge de pension (n° 464,
+  **inachevée**, suite au fichier 01901 absent).
 
 Points pour Patrick : **n° 402**, l'en-tête dit « 2 juin », un renvoi du texte
 semble dire « quatrième jour » ; **n° 403**, la clôture dit « quatre cent
