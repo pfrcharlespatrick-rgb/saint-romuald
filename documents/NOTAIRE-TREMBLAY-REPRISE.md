@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (433 fiches au 21 novembre 2026 ; série jusqu'à 01852 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
+fiche dont l'identifiant commence par `notarie-` (435 fiches au 21 novembre 2026 ; série jusqu'à 01862 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
 
 ## Où sont les images
 
@@ -691,15 +691,21 @@ Suite (20-21 novembre) : fichiers **01644 à 01660** lus, actes **n° 395-396**
 
 ## Passation à une nouvelle conversation (21 novembre 2026)
 
-**Où reprendre** : fichier **01853** (microfilm 002797), quittance n° 452
-(Louis Couture à Louis Morneau, 3 octobre 1875). Identifiants Drive : 01853 `1gxKcWaMaBWMnIWdwiSt_Dc-C5ZGb6aKO`,
-01854 `1VuwopP3lW-cvHmWECStecbzSIvhqPVIt`, 01855 `1A73iSQbc5SJd7bAfKFcCZI1Jvsy2uHxD`,
-01856 `1Q2_X3F8bs-7ZT3WciXrk8CPHkzgsLAV8`, 01857 `1N3Hd6ngpUkvnvIBdb8Qp4xR_hPyTFBN5`,
-01858 `1yIVPEbQbGCug70tlJkJF8VTkDARm9bpt`, 01859 `1r-m0_8uOpMwiVmTc0Qunu5l2eppQlTyb`,
-01860 `1isjKZ6HN9RLhG60qZfBOcSCierZzTU0U`. Les fichiers 01661 à 01852 sont
-versés (n° 397 à 451, voir
+**Où reprendre** : fichier **01863** (microfilm 002807), n° 454 (après le
+contrat de mariage Gosselin–Rouleau n° 453 du 3 octobre 1875). Identifiants
+Drive de 01863 à 01880 : 01863 `1ce8hi9Rp5VDRhG1Vg31uKSeT_IF6FQqU`,
+01864 `1jaJfcAa3FvNdQugggi4SmuhedEszRbwo`, 01865 `14ye1M6CpufXSBXD_6pfpe_dcGe0yR-CJ`,
+01866 `1VdNLXamla4-CtQ4ur-kzMV1ZMcl4KoVs`, 01867 `1EsMWmV9WXJQoX41ViKHSsoMLham7fG_-`,
+01868 `1MG8d3-FQuPC31AiAJ1qY4FXtSWYUkiqu`, 01869 `1UWLHaBS0VIVeOx_PKXVgHKCApGtOkmoB`,
+01870 `1rSh-kB1xbpQtPiajiaY22HI6lAzm3Ad2`, 01871 `1ekG1wPlleG9FoPO7qDRn7t2UEzQ9QBFH`,
+01872 `1kd9uoKZV__DwbGVqTnTp0YPhsRs-BEsv`, 01873 `1NYuH01thB7OxBty9Dmf36gv7kNqjeuyJ`,
+01874 `1hwL0fsIXaQTs6QoET2dj8yFXukkti8Go`, 01875 `1OMknpXf1__yCNKOhoNFq1bw6K8_sQRPu`,
+01876 `1HK56Sj8eadjLU-B83hx_Sq8eno7f45SB`, 01877 `19GtXfHA_PPUM51maXp7DNv9nqokDcFi2`,
+01878 `1Y1qSm0N36PItEYVUi3jxpwToK8tlD5Ee`, 01879 `13f5ouCkQw7Fg5WR-kLy6q29yK6jyEYB8`,
+01880 `15_WUXcXHu3z-kbFyBHh6eldw-chYxF8p`. Les fichiers 01661 à 01862 sont
+versés (n° 397 à 453, voir
 « Suite du 21 novembre » plus bas). Chercher les suivants par
-`title = '04T_CN401S124P_01861.jpg' or title = '…01862.jpg' or …` (la
+`title = '04T_CN401S124P_01881.jpg' or title = '…01882.jpg' or …` (la
 recherche `title contains '…0167'` rate des fichiers). Les fichiers 016xx-017xx
 sont dans le dossier Drive `1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql` ; le Drive va
 au moins jusqu'au fichier 01900.
@@ -942,6 +948,11 @@ jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivant
   Dussault, verse cent piastres à sa fille Malvina pour sa part d'héritage
   (n° 449 ; l'acte dit Antoine Hallé « capitaine de milice ») ; testaments
   croisés de Julien Lambert, menuisier, et de Malvina Hallé (n° 450-451).
+
+- **Fichiers 01853 à 01862** : quittance de rente viagère Couture–Morneau
+  (n° 452) ; contrat de mariage en séparation de biens de Majorique Gosselin
+  et Marie-Obéline Rouleau, de Saint-Jean-Chrysostome (n° 453), avec une
+  liste annexée de meubles, cheval et voitures donnés par le futur (580 $).
 
 Points pour Patrick : **n° 402**, l'en-tête dit « 2 juin », un renvoi du texte
 semble dire « quatrième jour » ; **n° 403**, la clôture dit « quatre cent
