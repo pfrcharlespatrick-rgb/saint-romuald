@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (437 fiches au 21 novembre 2026 ; série jusqu'à 01873 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
+fiche dont l'identifiant commence par `notarie-` (439 fiches au 21 novembre 2026 ; série jusqu'à 01880 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
 
 ## Où sont les images
 
@@ -691,14 +691,11 @@ Suite (20-21 novembre) : fichiers **01644 à 01660** lus, actes **n° 395-396**
 
 ## Passation à une nouvelle conversation (21 novembre 2026)
 
-**Où reprendre** : fichier **01874** (microfilm 002818), n° 456 (après le
-bail Demers–Cantin n° 455 du 8 octobre 1875). Identifiants Drive : 01874 `1hwL0fsIXaQTs6QoET2dj8yFXukkti8Go`, 01875 `1OMknpXf1__yCNKOhoNFq1bw6K8_sQRPu`,
-01876 `1HK56Sj8eadjLU-B83hx_Sq8eno7f45SB`, 01877 `19GtXfHA_PPUM51maXp7DNv9nqokDcFi2`,
-01878 `1Y1qSm0N36PItEYVUi3jxpwToK8tlD5Ee`, 01879 `13f5ouCkQw7Fg5WR-kLy6q29yK6jyEYB8`,
-01880 `15_WUXcXHu3z-kbFyBHh6eldw-chYxF8p`. Les fichiers 01661 à 01873 sont
-versés (n° 397 à 455, voir
+**Où reprendre** : fichier **01881** (microfilm 002825), n° 458 (après la
+quittance Lavertu–Simoneau n° 457 du 10 octobre 1875). Les fichiers 01661 à
+01880 sont versés (n° 397 à 457, voir
 « Suite du 21 novembre » plus bas). Chercher les suivants par
-`title = '04T_CN401S124P_01881.jpg' or title = '…01882.jpg' or …` (la
+`title = '04T_CN401S124P_01881.jpg' or title = '…01882.jpg' or …` (dossier Drive de 01851 à 01900 : `14vU8O7GE5jGuViVieCGvAcoda0WAUfiA`) (la
 recherche `title contains '…0167'` rate des fichiers). Les fichiers 016xx-017xx
 sont dans le dossier Drive `1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql` ; le Drive va
 au moins jusqu'au fichier 01900.
@@ -951,9 +948,15 @@ jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivant
   hameau Roberge, avec clause de résiliation au premier retard (n° 454 ; la
   minute est filmée avec une copie au propre intercalée, 01866-01869) ;
   **n° 455 : « feu Sieur Benjamin Demers »** — le lotisseur est mort entre le
-  28 juin et le 8 octobre 1875 ; ses enfants (Louis-Joseph, tuteur, et Marie)
+  28 juin et le 8 octobre 1875 ; ses enfants (Louis-Julien, tuteur, et Marie)
   concèdent à Germain Cantin un lot d'angle des rues Saint-Jean-Baptiste et
   Saint-Pierre. Date du décès à chercher au registre de sépulture.
+
+- **Fichiers 01874 à 01880** : second lot des héritiers Demers, à François
+  Samson (n° 456) — le tuteur y est nommé en toutes lettres **Louis-Julien
+  Demers** (« L. J. Demers ») ; quittance Lavertu–Simoneau (n° 457, suite de
+  la quittance Duperron–Simoneau d'août 1874). 01874 et 01878 sont des dos de
+  chemises.
 
 Points pour Patrick : **n° 402**, l'en-tête dit « 2 juin », un renvoi du texte
 semble dire « quatrième jour » ; **n° 403**, la clôture dit « quatre cent
