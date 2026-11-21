@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (430 fiches au 21 novembre 2026 ; série jusqu'à 01844 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
+fiche dont l'identifiant commence par `notarie-` (433 fiches au 21 novembre 2026 ; série jusqu'à 01852 lue, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
 
 ## Où sont les images
 
@@ -691,18 +691,13 @@ Suite (20-21 novembre) : fichiers **01644 à 01660** lus, actes **n° 395-396**
 
 ## Passation à une nouvelle conversation (21 novembre 2026)
 
-**Où reprendre** : fichier **01845** (microfilm 002789), n° 449 (après
-l'obligation Hallé–Lapierre n° 448 du 29 septembre 1875). Identifiants Drive
-de 01845 à 01860 : 01845 `1lOJfbH5lPmlDRXjFNRZsOLjI108W4MpE`,
-01846 `1eO3mqU6fXLXWe_1gj9KsECPUDzs0C-uI`, 01847 `10TLPqTKtM155i5-ipLQUMx5yDqBLPgRZ`,
-01848 `1cOY9lWOvjG-52ulMpqS4qSv3zQbnAhmb`, 01849 `1dBP2bImtGrdjbaU4xdt5HVOsVl3ZpzDF`,
-01850 `1AG_Uy6ddW28Pxn0eMs2xN_lkliDDC2ey`, 01851 `14hgyA8rQ-MnjfkPc22B9qGqeA1AUSC0a`,
-01852 `1TQQPbjt-MS-tiVL34rYWxMbj-ex9XOWV`, 01853 `1gxKcWaMaBWMnIWdwiSt_Dc-C5ZGb6aKO`,
+**Où reprendre** : fichier **01853** (microfilm 002797), quittance n° 452
+(Louis Couture à Louis Morneau, 3 octobre 1875). Identifiants Drive : 01853 `1gxKcWaMaBWMnIWdwiSt_Dc-C5ZGb6aKO`,
 01854 `1VuwopP3lW-cvHmWECStecbzSIvhqPVIt`, 01855 `1A73iSQbc5SJd7bAfKFcCZI1Jvsy2uHxD`,
 01856 `1Q2_X3F8bs-7ZT3WciXrk8CPHkzgsLAV8`, 01857 `1N3Hd6ngpUkvnvIBdb8Qp4xR_hPyTFBN5`,
 01858 `1yIVPEbQbGCug70tlJkJF8VTkDARm9bpt`, 01859 `1r-m0_8uOpMwiVmTc0Qunu5l2eppQlTyb`,
-01860 `1isjKZ6HN9RLhG60qZfBOcSCierZzTU0U`. Les fichiers 01661 à 01844 sont
-versés (n° 397 à 448, voir
+01860 `1isjKZ6HN9RLhG60qZfBOcSCierZzTU0U`. Les fichiers 01661 à 01852 sont
+versés (n° 397 à 451, voir
 « Suite du 21 novembre » plus bas). Chercher les suivants par
 `title = '04T_CN401S124P_01861.jpg' or title = '…01862.jpg' or …` (la
 recherche `title contains '…0167'` rate des fichiers). Les fichiers 016xx-017xx
@@ -942,6 +937,11 @@ jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivant
   obligation Hallé–Lapierre (n° 448) garantie par l'« île aux Grands Bois
   francs » de la Chaudière, en face de Saint-Lambert. **n° 446 et 447** :
   clôtures laissées « quatre cent … ».
+
+- **Fichiers 01845 à 01852** : la veuve du forgeron Antoine Hallé, Ursule
+  Dussault, verse cent piastres à sa fille Malvina pour sa part d'héritage
+  (n° 449 ; l'acte dit Antoine Hallé « capitaine de milice ») ; testaments
+  croisés de Julien Lambert, menuisier, et de Malvina Hallé (n° 450-451).
 
 Points pour Patrick : **n° 402**, l'en-tête dit « 2 juin », un renvoi du texte
 semble dire « quatrième jour » ; **n° 403**, la clôture dit « quatre cent

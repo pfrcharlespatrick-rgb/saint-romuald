@@ -37151,7 +37151,7 @@
         {
           "role": "voisin",
           "nom": "Julien [?] Lambert",
-          "note": "À l'ouest ; prénom de lecture incertaine (« Charles » rayé)."
+          "note": "À l'ouest ; prénom de lecture incertaine (« Charles » rayé). Sans doute Julien Lambert, menuisier, qui passe trois actes le lendemain (n° 449 à 451)."
         },
         {
           "role": "temoin",
@@ -37243,6 +37243,185 @@
           "fichier": "01844",
           "microfilm": "002788",
           "drive": "1ANc29iSewtfHYmmNvK5LnDdVRynAOPJq",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-09-29-quittance-halle-dussault",
+      "type": "notarie",
+      "titre": "Quittance de Marie-Malvina Hallé, épouse de Julien Lambert, menuisier, à sa mère Ursule Dussault, veuve d'Antoine Hallé, de cent piastres pour ses droits légitimaires — minute n° 449, 29 septembre 1875",
+      "date": "1875-09-29",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 449, images 002789 à 002791 (Drive : fichiers 04T_CN401S124P_01845 et 01846). Papier réglé, réparé au ruban adhésif (qui masque quelques mots en bas de 002790). Numéro confirmé par la clôture (« quatre cent quarante-neuf »). En marge « Quittance M. M. Hallé, épouse de Julien Lambert — Original — $0.50 — Payé — Expédié 1 fois ». Acte complet.",
+      "nature": "Quittance et renonciation à succession future, reçue le 29 septembre 1875, après midi, en l'étude du notaire à Saint-Romuald ; la comparante et son mari signent.",
+      "transcription": "[002789-90] « N° 449. L'an mil huit cent soixante-quinze, le vingt-neuvième jour de septembre, après-midi, en présence de Mtre Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, soussigné ; Fut présente : Madame Marie Malvina Hallé, épouse de Sieur Julien Lambert, menuisier, demeurant tous deux à St Romuald, comté de Lévis, le dit Sieur Lambert à ce aussi présent & autorisant sa dite épouse à l'effet des présentes ; Laquelle reconnaît & confesse avoir eu & reçu à son entière satisfaction, en bon argent courant, lors de l'exécution des présentes, de Madame Ursule Dussault, de St Romuald, veuve de feu Sieur Antoine Hallé, en son vivant du même lieu, capitaine de milice & forgeron, la somme de cent piastres courant, laquelle dite somme de cent piastres est donnée à la dite Dame Marie Malvina Hallé, épouse du dit Sr Lambert, pour lui servir & tenir lieu de tous [droits] légitimaires dans l'hérédité & succession future de la dite Dame veuve Ursule Dussault. Renonçant la comparante, autorisée comme dit est, à [tous] droits quelconques qu'elle [pourra]it prétendre dans la [succes]sion future de sa dite [002790-91] Dame veuve Antoine Hallé, sa dite mère. Dont quittance générale & finale en faveur de qui il appartient & appartiendra. Dont acte requis & octroyé à St Romuald, étude, les jour, mois & an susdits, sous le numéro quatre cent quarante-neuf des originaux du Notaire soussigné. Et la comparante & son dit époux ont signé avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « M. Malvina Hallé », « J. Lambert », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "comparante",
+          "nom": "Marie-Malvina Hallé",
+          "ref_personne": "1871-D1-P011-L04",
+          "note": "Épouse de Julien Lambert, menuisier ; fille d'Antoine Hallé et d'Ursule Dussault ; signe « M. Malvina Hallé ». En 1871 : Malvina Hallé, 23 ans, dans le ménage de sa mère veuve (division 1). Rattachement probable."
+        },
+        {
+          "role": "epoux",
+          "nom": "Julien Lambert",
+          "note": "Menuisier de Saint-Romuald ; autorise sa femme ; signe « J. Lambert ». Sans doute le voisin à l'ouest du lot vendu à Germain Cantin la veille (n° 447). Peut-être le Julien Lambert de 22 ans de 1871 (1871-D1-P043-L01) — hypothèse, non rattaché."
+        },
+        {
+          "role": "autre",
+          "nom": "Ursule Dussault",
+          "ref_personne": "1871-D1-P010-L17",
+          "note": "Veuve d'Antoine Hallé, « capitaine de milice & forgeron » ; verse cent piastres à sa fille. La concédante des baux Hallé de janvier 1875 ; même rattachement probable (veuve de 58 ans en 1871)."
+        },
+        {
+          "role": "defunt",
+          "nom": "Antoine Hallé",
+          "note": "Capitaine de milice et forgeron de Saint-Romuald, mort avant mai 1874 ; père de la comparante."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Premier des trois actes passés le même après-midi par le jeune couple Lambert–Hallé : la mère, veuve du forgeron et capitaine de milice Antoine Hallé, avance à sa fille cent piastres en lieu de sa part d'héritage, et les époux testent l'un en faveur de l'autre (n° 450-451). L'acte nous apprend qu'Antoine Hallé était capitaine de milice.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01845",
+          "microfilm": "002789",
+          "drive": "1lOJfbH5lPmlDRXjFNRZsOLjI108W4MpE",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01846",
+          "microfilm": "002790",
+          "drive": "1eO3mqU6fXLXWe_1gj9KsECPUDzs0C-uI",
+          "legende": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-09-29-testament-julien-lambert",
+      "type": "notarie",
+      "titre": "Testament de Julien Lambert, menuisier de Saint-Romuald, en faveur de sa femme Marie-Malvina Hallé — minute n° 450, 29 septembre 1875",
+      "date": "1875-09-29",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 450, images 002791 à 002794 (Drive : fichiers 04T_CN401S124P_01847 à 01849). Papier réglé. Numéro confirmé par la clôture (« quatre cent cinquante »). En marge « Testament de Jul. Lambert — Original — Payé — Exp. 1 fois ». La formule « Et le testateur & les témoins ont signé » est rayée et remplacée. Acte complet.",
+      "nature": "Testament authentique, reçu le 29 septembre 1875, après midi, en l'étude du notaire à Saint-Romuald, devant deux témoins ; le testateur déclare ne savoir signer.",
+      "transcription": "[002791] « N° 450. L'an mil huit cent soixante-quinze, le vingt-neuvième jour de septembre, après-midi, en présence de Me Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Pierre Demers, agriculteur, & de Mr Adolphe Gelly, culler, demeurant tous deux à St Romuald, dit comté, témoins au présent testament, aussi soussignés ; Fut présent : Mr Julien Lambert, de St Romuald, menuisier, étant en bonne santé de corps, sain d'esprit, mémoire, jugement & entendement, ainsi qu'il est apparu à nous, notaire, & aux dits témoins par son maintien & ses discours & par la manifestation claire & précise de ses volontés ; Lequel a, dans la vue de la mort, fait & nommé son présent testament à nous, notaire, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par Dame Marie Malvina Hallé, mon épouse actuelle, que je nomme mon exécutrice testamentaire, à la discrétion de laquelle je m'en rapporte pour le soin de mes funérailles, messes & prières ; & à laquelle [002792] je donne & lègue tous les biens meubles & immeubles, hardes & linges de corps & autres objets mobiliers généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient & en quelques lieux & endroits qu'ils soient dus & situés, pour par ma dite épouse en jouir, faire & disposer en toute propriété à dater du jour de mon décès, instituant ma dite épouse ma légataire universelle en propriété. 2° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'en rapporte comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par le testateur à nous, notaire, en la présence des dits témoins, & son présent testament lui ayant été lu, expliqué & relu par nous, notaire, en présence des témoins, il a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte fait & passé à St Romuald, étude du dit notaire, [002793] les jour, mois & an susdits, sous le numéro quatre cent cinquante des originaux du Notaire soussigné. [rayé : « Et le testateur & les témoins ont signé avec moi, notaire, lecture faite & refaite. »] Requis de signer, le testateur a déclaré ne le savoir, en présence des témoins, qui ont signé avec moi, notaire, lecture faite & refaite. Mots rayés sont nuls. » — Signé : « Pierre Demers », « Adolphe Gelly », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testateur",
+          "nom": "Julien Lambert",
+          "note": "Menuisier de Saint-Romuald ; déclare ne savoir signer, alors qu'il a signé « J. Lambert » au n° 449 le même après-midi (signature malaisée ?). Non rattaché."
+        },
+        {
+          "role": "legataire",
+          "nom": "Marie-Malvina Hallé",
+          "ref_personne": "1871-D1-P011-L04",
+          "note": "Épouse du testateur, légataire universelle et exécutrice testamentaire. Même rattachement probable qu'au n° 449."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Demers",
+          "ref_personne": "1871-D1-P025-L07",
+          "note": "Agriculteur de Saint-Romuald, fils de Benjamin Demers ; signe « Pierre Demers ». Même rattachement probable qu'à la donation Demers–Demers (n° 388)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Adolphe Gelly",
+          "ref_personne": "1871-D1-P048-L17",
+          "note": "« Culler » (mesureur de bois) de Saint-Romuald ; signe « Adolphe Gelly ». En 1871 : Adolphe Gelly, 16 ans, dans le ménage du cordonnier Louis Gelly (division 1). Rattachement probable."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Testament croisé avec celui de sa femme (n° 451), le même après-midi que la quittance n° 449. Le testateur signait au n° 449 mais se déclare ici incapable de signer : la formule de signature, d'abord écrite, a été rayée.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01847",
+          "microfilm": "002791",
+          "drive": "10TLPqTKtM155i5-ipLQUMx5yDqBLPgRZ",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01848",
+          "microfilm": "002792",
+          "drive": "1cOY9lWOvjG-52ulMpqS4qSv3zQbnAhmb",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01849",
+          "microfilm": "002793",
+          "drive": "1dBP2bImtGrdjbaU4xdt5HVOsVl3ZpzDF",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-09-29-testament-malvina-halle",
+      "type": "notarie",
+      "titre": "Testament de Marie-Malvina Hallé, épouse de Julien Lambert, menuisier de Saint-Romuald, en faveur de son mari — minute n° 451, 29 septembre 1875",
+      "date": "1875-09-29",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 451, images 002795 à 002797 (Drive : fichiers 04T_CN401S124P_01850 à 01852). Papier réglé. Numéro confirmé par la clôture (« quatre cent cinquante & un »). En marge « Testament de Dme J. Lambert — Original — Payé — Exp. 1 fois ». Acte complet.",
+      "nature": "Testament authentique, reçu le 29 septembre 1875, après midi, en l'étude du notaire à Saint-Romuald, devant deux témoins ; la testatrice signe.",
+      "transcription": "[002795] « N° 451. L'an mil huit cent soixante-quinze, le vingt-neuvième jour de septembre, après-midi, en présence de Mtre Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, comté de Lévis, soussigné ; Et en présence de Mr Pierre Demers, agriculteur, & de Mr Adolphe Gelly, culler, demeurant tous deux à St Romuald, témoins au présent testament, aussi soussignés ; Fut présente : Madame Marie Malvina Hallé, épouse de Sr Julien Lambert, menuisier, demeurant tous deux à St Romuald, étant en bonne santé de corps, saine d'esprit, mémoire, jugement & entendement, ainsi qu'elle est apparue à nous, notaire, & aux dits témoins par son maintien & ses discours & par la manifestation claire & précise de ses volontés ; Laquelle a, dans la vue de la mort, fait & nommé son présent testament à nous, notaire, en la présence actuelle & constante des dits témoins, ainsi qu'il suit, savoir : 1° Je veux & ordonne qu'avant tout mes dettes soient payées & mes torts réparés par Sr Julien Lambert, mon époux actuel, que je nomme mon exécuteur testamentaire, & [002796] à la discrétion duquel je m'en rapporte pour le soin de mes funérailles, messes & prières, & auquel je donne & lègue tous les biens meubles & immeubles, hardes & linges de corps & autres objets mobiliers généralement quelconques que je délaisserai au jour de mon décès & qui m'appartiendront alors, de quelque nature & valeur qu'ils soient & en quelques lieux & endroits qu'ils soient dus & situés, pour par mon dit époux en jouir, faire & disposer en toute propriété à dater du jour de mon décès, instituant mon dit époux mon légataire universel en propriété. 2° Je révoque tous autres testaments & codicilles que je pourrais avoir faits avant celui-ci, auquel seul je m'en rapporte comme renfermant exactement mes dernières volontés. Ce fut ainsi fait & nommé par la testatrice à nous, notaire, en la présence des dits témoins, & son présent testament lui ayant été lu, expliqué & relu par nous, notaire, en présence des témoins, elle a dit & déclaré l'avoir bien entendu & compris & y a persisté comme renfermant exactement ses dernières volontés. Dont acte fait & passé à St Romuald, étude du dit notaire, les jour, mois & an susdits, sous le numéro quatre [002797] cent cinquante & un des originaux du Notaire soussigné. Et la testatrice & les témoins ont signé avec moi, notaire, lecture faite & refaite. Mots rayés sont nuls. » — Signé : « Marie Malvina Hallé », « Pierre Demers », « Adolphe Gelly », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "testatrice",
+          "nom": "Marie-Malvina Hallé",
+          "ref_personne": "1871-D1-P011-L04",
+          "note": "Épouse de Julien Lambert, menuisier ; signe « Marie Malvina Hallé ». Même rattachement probable qu'au n° 449."
+        },
+        {
+          "role": "legataire",
+          "nom": "Julien Lambert",
+          "note": "Menuisier de Saint-Romuald, mari de la testatrice ; le testateur du n° 450. Non rattaché."
+        },
+        {
+          "role": "temoin",
+          "nom": "Pierre Demers",
+          "ref_personne": "1871-D1-P025-L07",
+          "note": "Agriculteur de Saint-Romuald ; signe. Même rattachement probable qu'au n° 450."
+        },
+        {
+          "role": "temoin",
+          "nom": "Adolphe Gelly",
+          "ref_personne": "1871-D1-P048-L17",
+          "note": "Culler de Saint-Romuald ; signe. Même rattachement probable qu'au n° 450."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Pendant du testament du mari (n° 450).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01850",
+          "microfilm": "002794",
+          "drive": "1AG_Uy6ddW28Pxn0eMs2xN_lkliDDC2ey",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01851",
+          "microfilm": "002795",
+          "drive": "14hgyA8rQ-MnjfkPc22B9qGqeA1AUSC0a",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01852",
+          "microfilm": "002796",
+          "drive": "1TQQPbjt-MS-tiVL34rYWxMbj-ex9XOWV",
           "legende": "3/3"
         }
       ]
