@@ -36933,7 +36933,7 @@
         {
           "role": "quittancant",
           "nom": "Isaïe Demers",
-          "note": "Écuyer, médecin de Saint-Jean, île d'Orléans ; signe « I. Demers ». Le vendeur de la terre de Saint-Nicolas (n° 175, 28 août 1874) et le partie du protêt Gingras–Demers (1873). Hors paroisse ; non rattaché (l'Isaïe Demers, journalier de 47 ans de 1881, est un autre)."
+          "note": "Écuyer, médecin de Saint-Jean, île d'Orléans ; signe « I. Demers ». Le vendeur de la terre de Saint-Nicolas (n° 177, 28 août 1874) et le partie du protêt Gingras–Demers (1873). Hors paroisse ; non rattaché (l'Isaïe Demers, journalier de 47 ans de 1881, est un autre)."
         },
         {
           "role": "debiteur",
@@ -36987,7 +36987,7 @@
           "role": "temoin",
           "nom": "Damase Roberge",
           "ref_personne": "1871-D1-P022-L04",
-          "note": "Maître de poste de Saint-Romuald ; l'acte est passé chez lui ; signe « Damase Roberge ». Même rattachement probable qu'au n° 60 (marchand de 50 ans en 1871)."
+          "note": "Maître de poste de Saint-Romuald ; l'acte est passé chez lui ; signe « Damase Roberge ». Même rattachement probable qu'au bail Roberge–Gaumont (n° 59) et au titre nouvel Pichette–Demers (marchand de 50 ans en 1871)."
         },
         {
           "role": "notaire",
@@ -37065,6 +37065,185 @@
           "microfilm": "002780",
           "drive": "1z4iREFepwFJMefxE6WG2pcu0RcWmIZdQ",
           "legende": "dos de la chemise"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-09-28-quittance-bittner-lambert",
+      "type": "notarie",
+      "titre": "Quittance de Joseph Bittner, maître maçon, à Joseph Lambert, fils, journalier, de Saint-Romuald, d'une obligation de cinquante piastres de 1873 — minute n° 446, 28 septembre 1875",
+      "date": "1875-09-28",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 446, images 002781 à 002783 (Drive : fichiers 04T_CN401S124P_01837 et 01838 ; 01838 ne porte qu'un calcul d'intérêts au crayon : « Cap. $50.00 — 25 janv. 1873, 1874 .3, 1875 3 … $8.00 intérêt »). En-tête « N° 446 » ; la clôture laisse le nombre incomplet (« sous le numéro quatre cent … »). Renvoi en marge (« lors de l'exécution des présentes, en bon argent courant ») paraphé « J. B. », « E. H. T. ». Acte complet.",
+      "nature": "Quittance générale et finale, reçue le 28 septembre 1875, après midi, en l'étude du notaire à Saint-Romuald ; le comparant signe.",
+      "transcription": "[002781] « N° 446. L'an mil huit cent soixante-quinze, le vingt-huit de septembre, après-midi, en présence de Me E. H. Tremblay, Notaire, résidant à St Romuald, soussigné ; A comparu : Mr Joseph Bittner, de St Romuald, maître maçon ; Lequel reconnaît avoir eu & reçu [renvoi : « lors de l'exécution des présentes, en bon argent courant »] de Sr Joseph Lambert, fils, du même lieu, journalier, la somme de cinquante piastres courant & les intérêts échus sur icelle dite somme jusqu'à ce jour ; laquelle dite somme était due au comparant par le dit Joseph Lambert suivant obligation datée du vingt-cinq janvier mil huit cent soixante-treize, reçue par Mtre Légaré, & enregistrée le dix-huit février de la même année. Dont quittance générale & finale. Dont acte requis & octroyé à St Romuald, étude, les jour, mois & an susdits, sous le numéro quatre cent [sic]. Et le comparant a signé avec moi, notaire, lecture faite. Mots rayés sont nuls. Un renvoi en marge est bon & approuvé. » — Signé : « Joseph Bittner », « E. H. Tremblay, N.P. ». [002782-83] Au verso, au crayon : « Cap. $50.00 — 25 janv. 1873 — 1874 : 3 — 1875 : 3 — [2] — $8.00 intérêt. »",
+      "personnes": [
+        {
+          "role": "quittancant",
+          "nom": "Joseph Bittner",
+          "note": "Maître maçon de Saint-Romuald ; signe « Joseph Bittner ». Témoin le même jour de la vente n° 447. Absent des recensements dépouillés sous ce prénom (une Angélique Bitner, veuve de 78 ans, en 1881) : non rattaché."
+        },
+        {
+          "role": "debiteur",
+          "nom": "Joseph Lambert, fils",
+          "note": "Journalier de Saint-Romuald ; emprunteur de cinquante piastres le 25 janvier 1873 (Me Légaré). Il rembourse grâce à la vente de son emplacement à Germain Cantin passée le même jour (n° 447). Non rattaché (plusieurs Joseph Lambert)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Le même jour, Joseph Lambert, fils, vend son emplacement au marchand Germain Cantin pour 150 piastres (n° 447, dont Bittner est témoin) et rembourse à Bittner le prêt de 1873 avec huit piastres d'intérêts, calculées au crayon au verso.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01837",
+          "microfilm": "002781",
+          "drive": "1hnXmTPHKzrw-_P3lbirQeOCWMgS2DksL",
+          "legende": "1/2"
+        },
+        {
+          "fichier": "01838",
+          "microfilm": "002782",
+          "drive": "1WguD3C9jfKZp_xcVnzoGGWiVuy_tjoe3",
+          "legende": "calcul d'intérêts au crayon"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-09-28-vente-lambert-cantin",
+      "type": "notarie",
+      "titre": "Vente de Joseph Lambert, fils, journalier, à Germain Cantin, marchand, d'un emplacement de Saint-Romuald, avec droit de passage sur le chemin de Joseph Lambert, père — minute n° 447, 28 septembre 1875",
+      "date": "1875-09-28",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 447, images 002783 à 002786 (Drive : fichiers 04T_CN401S124P_01839 à 01841). Formulaire imprimé de vente d'une étude de Québec (« Paroisse St Sauveur, District de Québec », « étude de Mtre Jean-Baptiste Hamel, notaire », rayés), rempli à la main ; trois renvois paraphés « G. C. », « J. B. », « E. H. T. ». En-tête « N° 447 » ; la clôture laisse le numéro incomplet (« sous le numéro quatre [mille rayé] … cent »). En marge « Exp. 1 fois » et un calcul (57 + 8 + 7 … 150 / 85). Acte complet.",
+      "nature": "Vente d'immeuble au comptant, reçue le 28 septembre 1875, après midi, à Saint-Romuald, en la demeure de l'acquéreur, devant un témoin ; le vendeur ne sait signer.",
+      "transcription": "[002783] « N° 447. Vente par … à … Pardevant le Notaire Public pour la Province de Québec, résidant en la Paroisse St [rayé : « Sauveur, District de Québec »] Romuald, comté de Lévis, soussigné ; Et en présence de Joseph Bittner, écr, maçon, de St Romuald, témoin au présent acte, aussi soussigné ; Fut présent : Sieur Joseph Lambert, fils, journalier, demeurant en la paroisse de St Romuald ; Lequel a vendu, cédé, transporté et abandonné dès maintenant et à toujours, et promet garantir de tous troubles, dons, douaires, dettes, hypothèques, évictions et autres empêchements généralement quelconques, à Germain Cantin, écr, de St Romuald, marchand, à ce présent et acceptant acquéreur pour lui, ses héritiers et ayants cause à l'avenir, c'est à savoir : Un emplacement situé en la dite paroisse de St Romuald, contenant [renvoi (4) : « quatre-vingt »] [rayé : « dix »] sept pieds de front par le bout sud & cent treize pieds de front par le bout nord, sur cent six pieds de profondeur par le côté est & cent douze pieds de profondeur par le côté ouest, le tout mesure anglaise ; borné au bout sud au Dr Fitzgerald ou ses représentants, & au bout nord à Joseph Lambert, père, ou ses représentants, d'un côté à l'est à Louis St Hilaire & d'autre côté à l'ouest à [rayé : « Charles »] Julien [?] Lambert, avec aussi le droit de passage sur le terrain & dans le chemin de Joseph Lambert, père, [renvoi (1) : « pour communiquer au chemin public, circonstances & dépendances ; lequel droit de passage & le dit chemin ont été donnés au dit emplacement par le dit Joseph Lambert, père, au vendeur actuel » (2) …]. Tel que le tout est actuellement […] et dont l'acquéreur se déclare satisfait et content, disant le bien connaître. [002784] Pour par le dit acquéreur jouir, faire et disposer à l'avenir du dit immeuble […] en pleine et entière propriété […]. Le vendeur déclare que cet immeuble lui appartient pour l'avoir acquis de Sr Joseph Lambert, son père, suivant donation passée devant Mtre Étienne Simard, notaire, & témoin, en date du vingt-six août mil huit cent soixante-sept, & enregistrée au bureau d'enregistrement du comté de Lévis, Reg. B, vol. 16, page 651, sous le n° 12,981. Copie du dit contrat a été à l'instant remise au dit acquéreur, qui la reconnaît, dont décharge. La présente vente est faite à la charge par le dit acquéreur, qui s'y oblige pour lui, ses héritiers ou ayants cause, […] 2° de payer annuellement les taxes municipales & scolaires à l'avenir, garanti quitte de tous arrérages jusqu'à ce jour. [3° biffé : charges du contrat de concession.] La présente vente est faite en outre pour et moyennant la somme de cent cinquante piastres courant, comptant, payée par [002785-86] l'acquéreur au vendeur, en bon argent courant, à vue & présence de nous notaire & témoin, ainsi que le vendeur le reconnaît & en donne quittance générale & finale à l'acquéreur. [clause d'hypothèque du bailleur de fonds biffée] Et pour l'exécution des présentes les parties élisent leurs domiciles en leurs demeures actuelles et respectives, aux quels lieux, etc. Car ainsi, etc. Dont acte, fait et passé en la dite paroisse St Romuald, en [renvoi (1) : « la demeure de l'acquéreur »], l'an mil huit cent soixante-quinze, le vingt-huitième jour de septembre, après midi, sous le numéro [rayé : « quatre mille »] … cent des originaux de Me Elzéar Hubert Tremblay, le notaire soussigné. Et l'acquéreur et le témoin ont signé avec moi, notaire, le vendeur ayant déclaré ne le savoir, de ce requis, lecture faite. Mots rayés sont nuls. Renvois en marge sont bons & approuvés. » — Signé : « Germain Cantin », « Joseph Bittner », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "vendeur",
+          "nom": "Joseph Lambert, fils",
+          "note": "Journalier de Saint-Romuald ; avait reçu l'emplacement de son père par donation du 26 août 1867 (Me Étienne Simard) ; ne sait signer. Le débiteur de la quittance Bittner du même jour (n° 446). Non rattaché."
+        },
+        {
+          "role": "acquereur",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "« Écr, de St Romuald, marchand » ; signe « Germain Cantin ». L'acte est passé chez lui. Marchand de 38 ans en 1871 (division 1) ; même rattachement probable qu'au n° 116 et à l'inventaire n° 438."
+        },
+        {
+          "role": "auteur",
+          "nom": "Joseph Lambert, père",
+          "note": "Donateur de l'emplacement en 1867 ; voisin au nord ; son chemin donne accès au chemin public. Peut-être le Joseph Lambert, propriétaire riverain de l'Etchemin sur le plan de 1835 — hypothèse."
+        },
+        {
+          "role": "voisin",
+          "nom": "Docteur Fitzgerald",
+          "ref_personne": "1871-D2-P072-L04",
+          "note": "Au bout sud de l'emplacement. Maurice Fitzgerald, médecin de 59 ans en 1871 (division 2), comme dans l'inventaire Bourassa ; rattachement probable."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis St-Hilaire",
+          "note": "À l'est."
+        },
+        {
+          "role": "voisin",
+          "nom": "Julien [?] Lambert",
+          "note": "À l'ouest ; prénom de lecture incertaine (« Charles » rayé)."
+        },
+        {
+          "role": "temoin",
+          "nom": "Joseph Bittner",
+          "note": "« Écr, maçon » de Saint-Romuald ; signe. Le créancier remboursé le même jour (n° 446). Non rattaché."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Vente au comptant pour 150 piastres d'un emplacement en trapèze (97 et 113 pieds de front, 106 et 112 de profondeur) découpé dans la terre familiale des Lambert, avec droit de passage par le chemin du père jusqu'au chemin public. Le voisinage du docteur Fitzgerald au sud situe le lot près du chemin du Fleuve, comme la maison Bourassa. Avec le produit de la vente, Joseph Lambert, fils, rembourse aussitôt Joseph Bittner (n° 446).",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01839",
+          "microfilm": "002783",
+          "drive": "1DcfTOBiDC7Jh8uXpO7ecsFaidQpjFOJD",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01840",
+          "microfilm": "002784",
+          "drive": "1DCAdWwteatE-5ccIQYYze2Y070sdpzOJ",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01841",
+          "microfilm": "002785",
+          "drive": "19KOg0DaZyZJ4NWa1HLviwgyvvpW6886K",
+          "legende": "3/3"
+        }
+      ]
+    },
+    {
+      "id": "notarie-1875-09-29-obligation-halle-lapierre",
+      "type": "notarie",
+      "titre": "Obligation d'Antoine Hallé, cultivateur de Saint-Lambert, envers Ferdinand Denis dit Lapierre, jobber de Saint-Jean-Chrysostome, cent vingt-cinq piastres, avec hypothèque sur deux lots de la concession Saint-Augustin et l'« île aux Grands Bois francs » de la Chaudière — minute n° 448, 29 septembre 1875",
+      "date": "1875-09-29",
+      "source": "Greffe du notaire Elzéar-Hubert Tremblay (1873-1900), Saint-Romuald — microfilm",
+      "cote": "Minute n° 448, images 002786 à 002789 (Drive : fichiers 04T_CN401S124P_01842 à 01844). Papier réglé, bords abîmés. Numéro confirmé par la clôture (« quatre cent quarante-huit »). En marge « Obligation Hallé à Lapierre — Original — $1.10 — Payé — Pas de copie avant que le créancier requière l'enregistrement — E. H. T. — Exp. 1 fois ». Le notaire avait d'abord écrit Ferdinand Denis dit Lapierre comme comparant (rayé). Acte complet.",
+      "nature": "Obligation (prêt) avec hypothèque, reçue le 29 septembre 1875, après midi, en l'étude du notaire à Saint-Romuald, devant un témoin ; le créancier ne sait signer.",
+      "transcription": "[002786] « N° 448. L'an mil huit cent soixante-quinze, le vingt-neuvième jour de septembre, après-midi, en présence de Mtre Elzéar Hubert Tremblay, Notaire Public résidant à St Romuald, soussigné ; Et en présence de Germain Cantin, écr, marchand, de St Romuald, comté de Lévis, témoin au présent acte, aussi soussigné ; Fut présent : [rayé : « Mr Ferdinand Denis dit Lapierre, de St Jean Chrysostome, jobber »] Mr Antoine Hallé, de St Lambert, cultivateur ; Lequel reconnaît devoir bien & légitimement à Mr Ferdinand Denis dit Lapierre, de St Jean Chrysostome, dit comté, jobber, à ce présent & acceptant, la somme de cent vingt-cinq piastres courant, étant pour prêt de pareille somme fait & délivré à vue & présence de nous, notaire & témoin, en bon argent courant, ainsi que le débiteur le reconnaît & dont il se déclare content & satisfait. Laquelle somme de cent vingt-cinq piastres courant le débiteur promet & s'oblige payer & rembourser au [002787] créancier, ou ordre, porteur des présentes en forme légale, d'hui en un an, avec ensemble l'intérêt de sept pour cent par an, payable annuellement, à compter de ce jour. Et pour sûreté du paiement de la dite somme de cent vingt-cinq piastres & des intérêts qui en proviendront, le débiteur hypothèque spécialement : 1° Deux lots de terre situés à St Lambert, concession St Augustin, étant les lots numéros 25 & 26 de la dite concession, contenant en total six arpents de front sur quarante de profondeur, le tout plus ou moins ; bornés, les dits lots, à l'ouest à la rivière Chaudière, à l'est à la concession Belair, au nord à Louis Couture & au sud aux terres du gouvernement ; avec ensemble la maison, grange, boutique & autres bâtisses dessus construites, circonstances & dépendances. 2° Une île appelée « Île aux Grands Bois francs », contenant en tout quatre-vingt-treize arpents ou environ en superficie, située dans la rivière Chaudière, la dite île située vis-à-vis de la paroisse de St Lam[002788-89]bert [rayé : « vis-à-vis, du côté des terres »]. Et pour l'exécution des présentes les parties élisent domiciles en leurs demeures actuelles & respectives, auxquels lieux &c. Car ainsi &c. Dont acte. Fait & passé à St Romuald, étude, les jour, mois & an susdits, sous le numéro quatre cent quarante-huit. Requis de signer, le créancier a déclaré ne le savoir, en présence du témoin, qui a signé, ainsi que le débiteur, avec moi, notaire, lecture faite. Mots rayés sont nuls. » — Signé : « Antoine Hallé », « Germain Cantin », « E. H. Tremblay, N.P. ».",
+      "personnes": [
+        {
+          "role": "debiteur",
+          "nom": "Antoine Hallé",
+          "note": "Cultivateur de Saint-Lambert, propriétaire des lots 25 et 26 de la concession Saint-Augustin (au bord de la Chaudière) et de l'« île aux Grands Bois francs » ; signe « Antoine Hallé ». Hors paroisse ; non rattaché. Distinct du forgeron Antoine Hallé de Saint-Romuald, mort avant 1874."
+        },
+        {
+          "role": "creancier",
+          "nom": "Ferdinand Denis dit Lapierre",
+          "note": "« Jobber » de Saint-Jean-Chrysostome ; ne sait signer. Le vendeur d'une île de la Chaudière à « H. King & Co. » (n° 135, 1874). Non rattaché."
+        },
+        {
+          "role": "voisin",
+          "nom": "Louis Couture",
+          "note": "Au nord des lots de Saint-Lambert."
+        },
+        {
+          "role": "temoin",
+          "nom": "Germain Cantin",
+          "ref_personne": "1871-D1-P017-L04",
+          "note": "« Écr, marchand » de Saint-Romuald ; signe. Même rattachement probable qu'au n° 447 (marchand de 38 ans en 1871)."
+        },
+        {
+          "role": "notaire",
+          "nom": "Elzéar-Hubert Tremblay"
+        }
+      ],
+      "affirmations": [],
+      "note": "Une nouvelle île de la Chaudière dans le greffe : l'« île aux Grands Bois francs », 93 arpents, en face de Saint-Lambert, donnée en garantie avec une ferme riveraine de la concession Saint-Augustin de Saint-Lambert. Le prêteur, Ferdinand Denis dit Lapierre, est le même qui vendait des îles de la rivière aux marchands de bois King & Breakey en 1874. Le notaire ne devait délivrer copie que si le créancier en demandait l'enregistrement.",
+      "ajoute_le": "2026-11-19",
+      "images": [
+        {
+          "fichier": "01842",
+          "microfilm": "002786",
+          "drive": "1vX9Zh6C8IxtrlJnBstM0jgD0uCDbLfcG",
+          "legende": "1/3"
+        },
+        {
+          "fichier": "01843",
+          "microfilm": "002787",
+          "drive": "1gLcfoQYcF62kScAYT1ipsmOYxJ14ethE",
+          "legende": "2/3"
+        },
+        {
+          "fichier": "01844",
+          "microfilm": "002788",
+          "drive": "1ANc29iSewtfHYmmNvK5LnDdVRynAOPJq",
+          "legende": "3/3"
         }
       ]
     }
