@@ -1,6 +1,6 @@
 # Contrôle des croisements
 
-Produit par `node outils/controle-croisements.mjs` le 2026-11-18. Ne pas le
+Produit par `node outils/controle-croisements.mjs` le 2026-11-21. Ne pas le
 corriger à la main : il est réécrit à chaque passage, et se vide à mesure que les
 questions sont tranchées.
 
@@ -15,9 +15,9 @@ section dit où la décision se prend.
 | Décès de 1871 sans maison | 16 |  |
 | Documents : la même personne, rattachée dans une fiche et pas dans l'autre | 1 |  |
 | Lignes incomplètes ou renvois cassés | 4 | 1 |
-| Lignes incertaines qu'un document éclaire | 2 | 1 |
-| Signature au bas des actes et « sait écrire » au recensement | 0 | 8 |
-| Documents : le nom écrit n'est pas celui de la ligne rattachée | 7 |  |
+| Lignes incertaines qu'un document éclaire | 3 | 1 |
+| Signature au bas des actes et « sait écrire » au recensement | 12 | 8 |
+| Documents : le nom écrit n'est pas celui de la ligne rattachée | 9 |  |
 | Naissances et décès connus, face au recensement | 4 |  |
 | Identité dite par un document, sans lien entre les recensements | 1 |  |
 | Le sexe ne suit pas — d'un recensement à l'autre, ou sur la ligne même | 1 | 5 |
@@ -98,7 +98,7 @@ Ce qu'un contrôle mécanique relève : un prénom manquant, un sexe douteux, un
 
 1 autre(s) point(s) de cette rubrique ont déjà reçu la réponse de Patrick.
 
-## Lignes incertaines qu'un document éclaire — 2
+## Lignes incertaines qu'un document éclaire — 3
 
 Le dépouillement a laissé un « [?] » sur ces lignes, et un acte versé depuis nomme la même personne en toutes lettres. La ligne n'a pas été touchée : c'est à la main de dire si le doute est levé.
 
@@ -108,6 +108,7 @@ Le dépouillement a laissé un « [?] » sur ces lignes, et un acte versé depui
 |---|---|---|---|
 | `1871-D2-P068-L02` — 1871, div. 2, maison 158 [?], p. 68 l. 2 | Bourassa, Romuald [?], 13 ans | le prénom | écrit « Romuald Bourassa » dans acte n° 119 du 1874-05-22, acte n° 42 du 1874-02-27 et 2 autre(s) — Le prénom lu « Romuald [?] » en 1871 est bien Romuald. |
 | `1871-D2-P069-L05` — 1871, div. 2, maison 162 [?], p. 69 l. 5 | Voyer [?], Thomas, 37 ans, M, Menuisier | le nom | écrit « Thomas Voyer » dans acte n° 58 du 1874-03-11 — Le patronyme « Voyer [?] » du dépouillement de 1871 (division 2, maison 162) est confirmé par l'acte, qui écrit plusieurs fois « Thomas Voyer » en toutes lettres. |
+| `1871-D2-P071-L19` — 1871, div. 2, maison 169 [?], p. 71 l. 19 | Demers, Louise [?], 68 ans, V | le prénom | écrit « Louise Demers » dans acte n° 247 du 1874-11-25, acte n° 256 du 1874-12-10 et 1 autre(s) — Veuve de feu Joseph Lambert, agriculteur ; légataire universelle de son mari ; ne sait signer. Recensée sous son nom de jeune fille « Louise Demers », veuve, 68 ans en 1871 (maison 169, division 2). Rattachement probable. |
 
 **Réponses de Patrick en attente d'une précision — 2 :**
 
@@ -116,17 +117,30 @@ Le dépouillement a laissé un « [?] » sur ces lignes, et un acte versé depui
 
 1 autre(s) point(s) de cette rubrique ont déjà reçu la réponse de Patrick.
 
-## Signature au bas des actes et « sait écrire » au recensement — 0
+## Signature au bas des actes et « sait écrire » au recensement — 12
 
-Les actes disent qui signe et qui « a déclaré ne le savoir ». Sur 79 personnes rattachées dont le recensement dit si elles écrivent, 69 s'accordent avec leurs actes ; les autres sont ici. Signer n'est pas écrire, et le recenseur a pu omettre une marque : chaque ligne demande le manuscrit.
+Les actes disent qui signe et qui « a déclaré ne le savoir ». Sur 128 personnes rattachées dont le recensement dit si elles écrivent, 106 s'accordent avec leurs actes ; les autres sont ici. Signer n'est pas écrire, et le recenseur a pu omettre une marque : chaque ligne demande le manuscrit.
 
 **Où trancher :** au manuscrit, dans les colonnes d'instruction ; puis dans l'atelier si la marque est à déplacer.
 
-Rien à signaler.
+| Ligne | Qui | Le recensement dit | Les actes disent | Indice |
+|---|---|---|---|---|
+| `1871-D1-P026-L16` — 1871, div. 1, maison 70, p. 26 l. 16 | Isidore Houle, 45 ans, journalier | sait lire et écrire | ne sait pas signer — 3 acte(s) : acte n° 157 du 1874-07-20, acte n° 277 du 1874-12-30 et 1 autre(s) | aucune marque sur la ligne ni sur ses voisines : marque omise par le recenseur, ou effacée — colonnes 18 et 19 |
+| `1871-D2-P044-L12` — 1871, div. 2, maison 109, p. 44 l. 12 | Thomas Conroy, 19 ans | sait lire et écrire | ne sait pas signer — 1 acte(s) : acte n° 223 du 1874-10-16 | 19 ans : en 1871 les colonnes 18 et 19 ne visent que les plus de vingt ans — l'absence de marque ne dit rien |
+| `1871-D1-P005-L19` — 1871, div. 1, maison 15, p. 5 l. 19 | Benjamin Boucher, 51 ans, boomer (boom man) | ne sait ni lire ni écrire | signe — 1 acte(s) : acte n° 240 du 1874-11-09 | la marque « ne sait pas » est peut-être celle d'une ligne voisine — colonnes 18 et 19 |
+| `1871-D1-P048-L13` — 1871, div. 1, maison 131, p. 48 l. 13 | Louis Gelly, 58 ans, cordonnier | sait lire et écrire | ne signe pas dans acte n° 240 du 1874-11-09, mais signe dans acte n° 296 du 1875-02-02, acte n° 297 du 1875-02-02 et 2 autre(s) | les actes se contredisent entre eux : relire la fiche de l'acte, ou deux personnes du même nom |
+| `1871-D2-P071-L19` — 1871, div. 2, maison 169 [?], p. 71 l. 19 | Louise [?] Demers, 68 ans | sait lire et écrire | ne sait pas signer — 2 acte(s) : acte n° 247 du 1874-11-25, acte n° 264 du 1874-12-14 | aucune marque sur la ligne ni sur ses voisines : marque omise par le recenseur, ou effacée — colonnes 18 et 19 |
+| `1871-D1-P010-L17` — 1871, div. 1, maison 26, p. 10 l. 17 | Ursule Dussault, 58 ans | sait lire et écrire | ne sait pas signer — 9 acte(s) : acte n° 248 du 1874-11-26, acte n° 279 du 1875-01-07 et 7 autre(s) | aucune marque sur la ligne ni sur ses voisines : marque omise par le recenseur, ou effacée — colonnes 18 et 19 |
+| `1871-D2-P040-L03` — 1871, div. 2, maison 101, p. 40 l. 3 | Ferdinand Roberge, 30 ans, journalier | sait lire et écrire | ne sait pas signer — 2 acte(s) : acte n° 249 du 1874-11-26, acte n° 250 du 1874-11-26 | aucune marque sur la ligne ni sur ses voisines : marque omise par le recenseur, ou effacée — colonnes 18 et 19 |
+| `1871-D1-P021-L08` — 1871, div. 1, maison 51, p. 21 l. 8 | Emélie Toussaint, 58 ans | sait lire et écrire | ne sait pas signer — 1 acte(s) : acte n° 258 du 1874-12-11 | aucune marque sur la ligne ni sur ses voisines : marque omise par le recenseur, ou effacée — colonnes 18 et 19 |
+| `1871-D1-P077-L11` — 1871, div. 1, maison 218, p. 77 l. 11 | Pierre Morneau, 20 ans, cultivateur | sait lire et écrire | ne sait pas signer — 1 acte(s) : acte n° 286 du 1875-01-10 | 20 ans : en 1871 les colonnes 18 et 19 ne visent que les plus de vingt ans — l'absence de marque ne dit rien |
+| `1871-D1-P023-L12` — 1871, div. 1, maison 59, p. 23 l. 12 | Stanislas Filteau, 46 ans, journalier | sait lire et écrire | ne sait pas signer — 1 acte(s) : acte n° 299 du 1875-02-02 | aucune marque sur la ligne ni sur ses voisines : marque omise par le recenseur, ou effacée — colonnes 18 et 19 |
+| `1871-D1-P016-L08` — 1871, div. 1, maison 40, p. 16 l. 8 | Delphine Paquet, 33 ans | sait lire et écrire | ne sait pas signer — 1 acte(s) : acte n° 328 du 1875-03-22 | aucune marque sur la ligne ni sur ses voisines : marque omise par le recenseur, ou effacée — colonnes 18 et 19 |
+| `1871-D1-P029-L02` — 1871, div. 1, maison 74, p. 29 l. 2 | Barthélemy Daigle, 22 ans, journalier | sait lire et écrire | ne sait pas signer — 1 acte(s) : acte n° 402 du 1875-06-02 | aucune marque sur la ligne ni sur ses voisines : marque omise par le recenseur, ou effacée — colonnes 18 et 19 |
 
 8 autre(s) point(s) de cette rubrique ont déjà reçu la réponse de Patrick.
 
-## Documents : le nom écrit n'est pas celui de la ligne rattachée — 7
+## Documents : le nom écrit n'est pas celui de la ligne rattachée — 9
 
 La fiche d'un document rattache une personne à une ligne dont le prénom (ou, pour un homme, le patronyme) n'est pas le sien. Trois cas : la ligne du recensement est mal lue ; la fiche reprend une lecture que la relecture a corrigée depuis ; ou le rattachement vise la mauvaise ligne.
 
@@ -139,8 +153,10 @@ La fiche d'un document rattache une personne à une ligne dont le prénom (ou, p
 | « roberge-fratrie-julien-1881 » (recensement, 1881-04-19) | Elzéar Roberge (enfant) | `1881-D2-P038-L24` — Eléonore Roberge, 14 ans — 1881, div. 2, maison 162, p. 38 l. 24 | prénom différent |  |
 | « roberge-fratrie-julien-1881 » (recensement, 1881-04-19) | Roberge (prénom lu « Stbert ») (enfant) | `1881-D2-P038-L25` — Albert Roberge, 12 ans — 1881, div. 2, maison 162, p. 38 l. 25 | prénom voisin, pas identique |  |
 | « notarie-1874-07-20-bail-demers-deschenes » (notarie, 1874-07-20) | Augustin Blais (voisin) | `1871-D1-P017-L17` — Auguste Blais, 34 ans — 1871, div. 1, maison 43, p. 17 l. 17 | prénom voisin, pas identique | Voisin à l'ouest, en partie. Rattaché en probable au journalier de 34 ans de 1871 (division 1, maison 43) ; charpentier de 40 ans en 1881 (maison 95), voisin… |
+| « notarie-1874-11-09-contrat-mariage-boucher-topping » (notarie, 1874-11-09) | Euphrosine Beaulieu (mère de l'époux) | `1871-D1-P005-L20` — Euphrasie Boucher, 47 ans — 1871, div. 1, maison 15, p. 5 l. 20 | prénom voisin, pas identique | Mère de l'époux, épouse de Benjamin Boucher ; nommée mais non présente. Recensée « Euphrasie Boucher », 47 ans en 1871 (maison 15). Rattachement confiant. |
 | « notarie-1914-07-31-testament-leocadie-beaudoin » (notarie, 1914-07-31) | Joseph Boutin Bourassa (notaire) | `1891-D1-P139-L02` — Joseph Bunton-Bourassa, 36 ans — 1891, div. 1, maison 621, p. 139 l. 2 | patronyme différent | Notaire public, résidant et pratiquant à Saint-Romuald ; signe « J. Boutin Bourassa, N.P. ». Recensé « Joseph Boutin dit Bourassa », notaire, 26 ans, en 1881… |
 | « notarie-1928-08-11-donation-demers » (notarie, 1928-08-11) | Joseph Boutin Bourassa (notaire) | `1891-D1-P139-L02` — Joseph Bunton-Bourassa, 36 ans — 1891, div. 1, maison 621, p. 139 l. 2 | patronyme différent | Notaire de Saint-Romuald ; le même qu'au testament de 1914. |
+| « notarie-1875-03-16-bail-curran-lavertu » (notarie, 1875-03-16) | Patrick Curran (bailleur) | `1881-D1-P012-L24` — Patrick Coran, 43 ans — 1881, div. 1, maison 45, p. 12 l. 24 | patronyme différent | Forgeron de Saint-Romuald, propriétaire de deux terres à Saint-Léon-de-Standon (comté de Dorchester) ; signe « Patick Curran ». Rattachement probable au… |
 
 ## Naissances et décès connus, face au recensement — 4
 

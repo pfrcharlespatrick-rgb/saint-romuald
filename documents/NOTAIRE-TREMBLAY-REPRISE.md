@@ -2,7 +2,7 @@
 
 Note de passation entre deux conversations avec Claude (31 octobre 2026).
 Le travail fait est dans `documents/manifeste.json` : chaque acte y est une
-fiche dont l'identifiant commence par `notarie-` (221 fiches au 12 novembre 2026 ; série 00601-01000 complète).
+fiche dont l'identifiant commence par `notarie-` (446 fiches au 21 novembre 2026 ; **Drive épuisé : série lue jusqu'à 01900**, dernier fichier déposé, lacune 01501-01550 ; voir « Passation » en fin de section « Où reprendre »).
 
 ## Où sont les images
 
@@ -352,9 +352,385 @@ pas encore au Drive). **250 fiches `notarie-`.** Les identifiants Drive de 01051
 - **Témoin récurrent** : Louis-Joseph-Stanislas Roberge, instituteur de
   St-Romuald (n° 247-250) ; non recensé sous ce nom.
 
-**Pour reprendre** : continuer au fichier **01101** (microfilm 002045), pour
-compléter la vente **n° 251** (Cantin à Filteau), quand Patrick aura déposé le
-sous-dossier « 1101-1150 ».
+**Mise à jour du 19 novembre 2026.** Le sous-dossier « 1101-1150 » est au
+Drive. Les fichiers **01101-01102** sont lus : la vente **n° 251** (Cantin à
+Filteau) est **complète** — hypothèque, clôture et signatures. Les identifiants Drive de 01101 à 01109 sont dans
+`images-drive.json`.
+
+- **L'emplacement hypothéqué est celui du n° 140** (62 pieds sur 60, rue
+  Demers, mêmes voisins), et il porte déjà « une maison en bois à un étage » :
+  Charles Filteau a bâti en quatre mois, et il y remonte une seconde maison
+  achetée de Germain Cantin.
+- **Le voisin du nord, illisible au n° 140** (« François-Xavier Bor[…] [?] »),
+  se lit en clair au n° 251 : **François-Xavier Croteau**. La fiche du n° 140
+  n'est pas réécrite : à soumettre à Patrick.
+- **Piste à soumettre à Patrick** : en 1871, un François-Xavier Croteau de
+  18 ans vit chez **Isidore Houde, journalier** (`1871-D1-P026-L16`, maison
+  voisine des Filteau) ; or le lot voisin au nord de Charles Filteau est
+  concédé le 20 juillet 1874 à « **Isidore Houle père, journalier** » (n° 157),
+  laissé sans rattachement faute d'un « Houle » au recensement. **Décision de
+  Patrick (19 novembre)** : Houle et Houde sont le même homme — le n° 157 est
+  rattaché à `1871-D1-P026-L16`. Croteau reste en hypothèse (`1871-D1-P027-L05`).
+- Charles Filteau signe « Chs Filteau » au n° 251, alors qu'il ne savait
+  signer au n° 140 (juillet 1874).
+
+  Le même jour, Patrick a fait **remplacer « Houde » par « Houle »** dans le
+  recensement de 1871 pour les huit membres du ménage (`1871-D1-P026-L16` à
+  `P027-L03`) : décision dictée, consignée dans `data/decisions-dictees.json`
+  et versée par `fondre.mjs`. Le Napoléon de 1881 (`1881-D1-P087-L23`) reste
+  « Houde » ; le lien 1871 → 1881 tient (« patronyme proche »).
+
+Suite du 19 novembre : fichiers **01103 à 01150** lus, actes **n° 252 à 264**
+(1er-14 décembre 1874). **268 fiches `notarie-`** (décompte réel du manifeste au
+19 novembre ; les décomptes des mises à jour précédentes étaient en retard de cinq).
+
+- **n° 252** : obligation de Joseph Laflamme, inspecteur et mesureur de bois de
+  Notre-Dame-de-Lévis, à **William Henry Vachon**, teneur de livres de
+  St-Romuald (500 $ à 8 %), sur deux maisons de la rue Saint-Laurent à Lévis
+  et une police de la Western Assurance (700 $). Passé **au bureau de Ritchie &
+  Cull**. Vachon rattaché en hypothèse à Henry Vachon, ingénieur de 29 ans en
+  1871 (`1871-D1-P003-L15`).
+- **n° 253-254, la « Rue Atkinson »** (première mention) : Pierre Lagueux, juge
+  de paix, concède à **Ambroise Joncas**, journalier (`1871-D1-P037-L18`), un lot
+  de 60 × 50 pieds (8 $ de rente) ; le même après-midi, Joncas l'hypothèque au
+  marchand **Jean-Baptiste Gosselin** (`1871-D1-P056-L03`) pour 78,42 $ d'« effets
+  de groceries ». Le lot porte déjà une maison d'un étage. Ni Joncas ni Gosselin
+  ne signent (le recensement les dit tous deux ne pas savoir écrire).
+- Le fichier **01110** est la chemise imprimée (blanche) du n° 253.
+
+- **n° 255** (7 déc.) : Antoine Toussaint vend à son fils **Édouard**, navigateur,
+  un **bateau à fond plat** peint en noir, d'environ 45 pieds, avec ancres et
+  voiles (400 $), hiverné chez Louis-Hubert Roberge à New-Liverpool, de qui le
+  père l'avait acheté. Le père est « Mtre Charretier » (abrégé au n° 255,
+  en toutes lettres aux n° 257-258).
+- **n° 256** (10 déc.) : le **curé Pierre Saxe** donne quittance à la veuve
+  Lambert (Louise Demers) de 40 louis prêtés en 1870 (Me L. Laliberté) : la
+  suite du n° 246-247 (Villeneuve prête à Pichette, qui paie la veuve
+  comptant, qui rembourse le curé). Formulaire imprimé de Me Tessier, de
+  Québec, nom rayé ; sa chemise imprimée est le fichier **01120**.
+- **n° 257-258** (11 déc.) : **testaments réciproques** d'Antoine Toussaint,
+  maître charretier, et de sa femme **Émilie Bruno** (recensée « Emélie »
+  Toussaint, 58 ans, `1871-D1-P021-L08`), « malade de corps » ; chacun fait de
+  l'autre son légataire universel. Témoins : Germain Cantin et **Thomas
+  Wilson, « culler »** (mesureur de bois ; `1871-D2-P005-L14`). Aucun enfant
+  nommé. « Bruno » est peut-être Bruneau : à voir dans les registres.
+
+- Le fichier **01127** est la chemise manuscrite commune aux deux testaments
+  (« Testaments du Père Toussaint & uxor »).
+- **n° 259** (10 déc., numéroté après les testaments du 11) : Benjamin Demers
+  concède à **Augustin Plaisance fils**, « foreman » (le notaire avait écrit
+  « commis », rayé — sa profession au recensement de 1871,
+  `1871-D1-P046-L10`), un grand lot sur la **« rue St Pierre »**, adossé à la
+  terre de Pierre Lagueux, voisin de Pierre Rouleau et de Barthélemi
+  St-Hilaire (18 $ de rente). Feuillet déchiré ; chemise : **01131**.
+
+- **n° 260-261** (12 déc.) : **Édouard Bourassa**, veuf, va se remarier ; le
+  testament de sa première femme, **Marie-Philomène Cantin** (Me Étienne
+  Simard, 18 sept. 1867), ne lui laissait ses biens que s'il restait veuf. Il
+  fait nommer un tuteur à ses fils **Pierre-Étienne** (13 ans) et
+  **Joseph-Édouard** (8 ans) — âges conformes à 1871 et 1881. L'assemblée
+  révèle sa parenté de **Notre-Dame-de-la-Victoire** (oncles Joseph et Michel,
+  cousins Joseph fils et Noël Bourassa) ; **Narcisse Cantin** est oncle
+  maternel ; subrogé tuteur : Pierre Cantin, de Notre-Dame-de-Lévis.
+- **À soumettre à Patrick** : au bas du n° 261, une signature « Pierre
+  Lagueux » [?] que le corps de l'acte n'annonce pas (fichier 01137) ; et
+  Joseph Fortin, « charron », n'est recensé en 1871 que comme peintre
+  (hypothèse).
+
+- **n° 262-263** (13 déc.) : testaments réciproques du jeune ménage
+  **Édouard Toussaint**, batelier, et **Marie-Julie-Célina Boivin** (hypothèse :
+  Célina, 19 ans en 1871, fille du « grocer » Michel Boivin,
+  `1871-D1-P037-L06`) ; elle signe. Témoins : James Kiely, charpentier, et
+  Anselme Lefebvre, marchand. Quatre actes Toussaint en une semaine (n° 255,
+  257, 258, 262, 263). « Mon épouse actuelle » est une formule du notaire.
+- **n° 264** (14 déc.) : la **veuve Lambert (Louise Demers) se donne à son fils
+  Louis** : deux terres, division **« Etchemin »** et division **« Sault »**,
+  bornées au sud par le trait carré de Saint-Jean-Chrysostome ; rente de 80 $
+  si elle quitte son fils ; vingt louis à chacune de ses trois filles (Hélène,
+  épouse Théophile Gingras, menuisier de Québec ; Philomène, épouse Ludger
+  Turgeon, **télégraphiste** de Saint-Charles-de-Bellechasse ; Marie, épouse
+  Alexis Chabot, cultivateur au même lieu). Fin du fil Lambert (n° 246, 247,
+  256, 264). Louis Lambert n'est pas recensé à un âge plausible : non rattaché.
+
+**Le sous-dossier « 1101-1150 » est entièrement lu.**
+
+**Mise à jour du 19 novembre 2026, suite — fichiers 01151 à 01229.** Patrick a
+demandé de continuer « jusqu'à épuiser tous les dossiers » (le Drive va au moins
+jusqu'au fichier 01849). Lus : actes **n° 265 à 277** (15 au 30 décembre 1874).
+**279 fiches `notarie-`.** Les n° **272 et 273 manquent au greffe** (fichier 01191,
+feuillet « Acte manquant »).
+
+- **n° 265** : Augustin Samson, de Saint-Jean-Chrysostome, donne à sa mère
+  Marguerite Demers, « à titre de propre », un morceau de terre de Taniata, une
+  vache, deux brebis et le mobilier d'un ménage ; elle renonce à sa pension.
+  Feuillets filmés dans le désordre (lire 01151, 01152, 01155, 01156, 01154, 01153).
+- **n° 266** : titre nouvel d'**Henry Atkinson** envers Édouard Lagueux, rente
+  d'un emplacement de la grève de l'Etchemin (« through the coves »), concédé en
+  1852 à Terence Morgan, partagé avec **Denis Faherty**, propriétaire de bateaux
+  à vapeur parti à Montréal. 01158 et 01159 : deux prises de la même page.
+- **n° 267** : Alexis Pichette, maçon-plâtrier, lot n° 6 de la **rue Demers**,
+  concédé dès **1855** à Augustin Plaisance : la rue Demers est ouverte depuis 1855.
+- **n° 268** (en anglais) : Joseph Bourassa et Geneviève Cantin vendent à deux
+  ingénieurs, Dewar et Bryan, un lot avec **quai à Hadlow Cove** (300 louis).
+- **n° 269, 270, 274, 275** : Louis-Hubert Roberge lotit **New-Liverpool** (rue
+  projetée, **puits commun** aux concessionnaires) : Thomas Proulx (maison de
+  deux étages déjà bâtie, 600 $ prêtés), Jean et Thomas Vallières (rattachés en
+  hypothèse à 1881-D2).
+- **n° 271, 276** : Édouard Bourassa vend les lots de Lévis (rue Saint-Pierre)
+  hérités de sa femme, puis fait faire l'**inventaire** de leur communauté
+  (26 pages, pièce par pièce, ~713 $ de meubles ; îles de la « Rivière
+  Bruyante » ; titres A à Q). **À soumettre à Patrick** : l'inventaire dit
+  Benjamin Demers subrogé tuteur, l'acte de tutelle n° 261 nommait Pierre Cantin.
+- **n° 277** : Isidore Houle fait bâtir par Louis Filteau, menuisier, sa maison
+  de 24 pieds de la rue Demers (même lot qu'au n° 157 : confirme le rattachement).
+
+Suite : fichiers **01230 à 01269** lus, actes **n° 278 à 287** (31 décembre 1874
+au 14 janvier 1875). **289 fiches `notarie-`.**
+
+- **n° 278** : protêt d'un journalier, Narcisse Bouffard, contre son
+  propriétaire J.-B. Vachon fils (logement insalubre ; « Il n'y a aucune
+  promesse de faite ! »).
+- **n° 279-281, 283-284** : la **veuve Hallé** (son nom est **Ursule
+  Dussault**, comme au recensement de 1871 — le « Drouin » lu au n° 248 est à
+  relire) régularise en deux jours tout un îlot de New-Liverpool : Villers,
+  Benjamin Bourassa fils, François Biret [?] (nom à relire, fichier 01241),
+  Éphrem Lefebvre, Augustin Picard (installé depuis 1871).
+- **n° 282** : reçu d'Ignace Dubois (suite de l'échange n° 51).
+- **n° 285-286** : contrat de mariage **François-Xavier Morneau – Marie
+  Dubois**, veuve Gagné, et légitime de Pierre Morneau ; toute la fratrie
+  Morneau concorde avec le ménage de Louis Morneau en 1871.
+- **n° 287** : contrat de mariage **Édouard Bourassa – Marie-Aurélie Turgeon**,
+  institutrice de Beaumont : l'« Aurélie » de 1881 ; ses sœurs Élisabeth et
+  Alvine sont à Saint-Romuald en 1871 chez Joseph Bourassa.
+- Plusieurs en-têtes de janvier 1875 portent « 1874 » par lapsus.
+- Chemises blanches : 01236, 01240, 01244, 01250 (en double au Drive), 01254.
+
+Suite : fichiers **01270 à 01313** lus, actes **n° 288 à 300** (19 janvier au
+4 février 1875). **302 fiches `notarie-`.**
+
+- **n° 288-289** : congés de déloger de la veuve John Cameron (petites maisons
+  du rivage) à Samuel Ménard et Édouard Lacroix.
+- **n° 290-292** : Demers et Marcel Gingras échangent deux triangles « pour
+  redresser la rue St Louis » ; bail Demers à Gingras entre les rues
+  Saint-Louis et Saint-Pierre ; Pierre Lagueux concède à Joseph Gingras le
+  **lot n° 5 du plan de ses terrains dressé par l'arpenteur Joseph Gamache**.
+- **n° 293-295** : Édouard Bourassa donne congé au boulanger F.-X. Guay
+  (rez-de-chaussée et four de sa maison de pierre) et concède à Napoléon Nadeau
+  un demi-lot de Lévis (rente de 50 $).
+- **n° 296-297** : testament de Marguerite Demers (épouse Samson) et vente
+  François Samson → Charles Samson fils (suite du n° 265).
+- **n° 298-299** : Demers concède à Germain Cantin le lot où Stanislas Filteau
+  avait bâti ; Filteau vend sa maison à Cantin **à réméré** (prêt déguisé).
+- **n° 300** : procuration d'**Henry Atkinson & Co.** à Benoni Gosselin,
+  mesureur de billots (créances jusqu'à la rivière Gatineau).
+
+Suite (19-20 novembre) : fichiers **01314 à 01349** lus, actes **n° 301 à 310**
+(7 au 22 février 1875). **312 fiches `notarie-`.**
+
+- **n° 301** : quittance Bélanger (Saint-Jean-Chrysostome), obligation de 1855.
+- **n° 302** : dissolution de la société de ferblanterie Grenier-Parent, à
+  Québec (la femme de Grenier, Éléonore Laurière, est associée).
+- **n° 303** : le boulanger F.-X. Guay prend un second lot rue Saint-Paul.
+- **n° 304** : Basile Vermette fils, **employé du Grand Tronc**, prête 280 $.
+- **n° 305** : vente à réméré Beaulé → Michel Boivin (dette d'épicerie).
+- **n° 306** : la veuve Hallé encaisse 400 $ de François Hallé ; **Antoine
+  Hallé était « capitaine de milice & forgeron »**.
+- **n° 307** : bail de logement ouvrier, rue Demers (Filteau → Desroches).
+- **n° 308** : Moïse Huard (menuisier, `1871-D1-P052-L08`) cède ses droits sur
+  une terre du **canton de Broughton** (Beauce).
+- **n° 309-310** : testaments réciproques Fortier-Nadeau, Saint-Jean, Île
+  d'Orléans.
+
+Suite (20 novembre) : fichiers **01350 à 01401** lus, actes **n° 311 à 326**
+(23 février au 19 mars 1875). **328 fiches `notarie-`.**
+
+- **n° 311-312** : fin de la tournée à l'Île d'Orléans (vente Fortier à
+  Fortier ; quittance Gosselin à Thivierge, 1 400 $).
+- **n° 313** : Charles Filteau loue l'autre moitié de sa maison de la rue
+  Demers au charpentier Joseph Lajoie (25 $ l'an, une piastre par semaine).
+- **n° 314-319** : **le dossier Hallé**. La veuve Hallé (Ursule Dussault)
+  donne à François Hallé deux quittances (n° 314, « six cents » à relire —
+  la feuille de compte 01362 porte « 200 ») puis la quittance finale de
+  800 $ (n° 315) ; le même 27 février il rembourse Ferdinand Gosselin (tuteur
+  des mineurs de Louis Gosselin), **George Hallé**, maître forgeron
+  (`1871-D1-P010-L18`), et Cyrille Roy ; c'est un emprunt
+  de **900 $ au marchand Germain Cantin** (n° 319), hypothéqué sur une terre
+  « à l'endroit appelé Sault », entre le chemin et la Chaudière, qui paie le tout.
+- **n° 320** : obligation solidaire de deux Fontaine de Saint-Jean-Chrysostome
+  (concessions Beauséjour, Brise-culottes, Belair ; rang de Pétré à
+  Saint-Étienne).
+- **n° 321** : Édouard Bourassa transforme le bout d'un hangar de la route des
+  Quarante-Arpents en logement pour le peintre Ambroise Trudelle.
+- **n° 322** : George Bégin, marchand, loue une chambre rue Saint-Laurent et
+  se réserve de « changer la maison de place » pendant l'été.
+- **n° 323** : bail à ferme de Patrick Curran, forgeron, pour sa terre de
+  **Saint-Léon** (lot 14, 4e rang), loyer en patates, avoine et demi-porc.
+- **n° 324** : donation Curodeau à Curodeau, au **Sault** (emplacement entre
+  un ruisseau et la Chaudière, deux maisons), passée **à la maison d'école** ;
+  rattachée en probable au ménage Curadeau de 1881 (`1881-D2-P050`).
+- **n° 325** : Napoléon Bégin loue sa maison-magasin de **Lyster**.
+- **n° 326** : bail Lépine dit Marest à Honoré Houde, **résilié le 4 juillet
+  1875** (note au dos ; l'acte de résiliation reste à trouver).
+
+Particularités : les formules imprimées de bail ont un dos (« Bail par … à …
+— Copie ») filmé à part, souvent en blanc ; il est rangé avec son acte.
+**À partir du fichier 01401, les images sont dans un autre dossier du Drive**
+(identifiant `1MlQSVHXSo2yWG2HyF4u-2ec-Hx8Mp2ca`) ; la recherche par titre
+les trouve quand même.
+
+Suite (20 novembre) : fichiers **01402 à 01479** lus, actes **n° 327 à 350**
+(21 mars au 9 avril 1875). **348 fiches `notarie-`.**
+
+- **n° 327, 339** : Louis Lépine dit Marest emprunte 25 louis (cordonnier
+  Alain, de Québec) et paie Édouard Horion ; des reçus annexés parlent de
+  « la maison de l'Etchemin » et d'une rente due à Benjamin Demers.
+- **n° 328** : succession Bolduc (hôtelier de Québec) cédée au maçon Alexis
+  Pichette (`1871-D1-P002-L13`) ; écrit « 332 » à la clôture.
+- **Feuilles d'archiviste** (01410-01411) : n° 329-331 « voir 347-349 » ;
+  n° 332 « manquant ».
+- **n° 333-334** : Isaac Fontaine vend sa terre de la **Maringouinière**
+  (Saint-Jean-Chrysostome) à Élisée Legendre, à l'hôtel de Calixte Rogers.
+- **n° 335-338** : baux Mathieu-Fraser (rue Saint-Laurent), procuration
+  Leclerc (terre de **Warwick**), quittance Dussault, bail à rente
+  Demers-Lavertu (angle Saint-Joseph et Saint-Pierre, Didace Lavertu
+  `1881-D1-P038-L12`).
+- **n° 340** : renonciation Terrien (succession à **Tingwick**), avec la note
+  du notaire de là-bas.
+- **n° 341-342** : obligation Masse-Daigle (moulin à farine de Saint-Nicolas) ;
+  vente Therrien à Therrien sur le chemin royal (intervention du maître de
+  poste Damase Roberge barrée), suivie d'une copie conforme.
+- **n° 343** (écrit « 323 ») : quittance Blanchet-Simoneau.
+- **n° 344-345** : baux Dubois-Déry et **Filteau-Houle** (rue Demers, Isidore
+  Houle).
+- **n° 346-349** : **l'affaire Roberge-Proulx** — résiliation du bail à rente
+  et de l'obligation de décembre (n° 269-270), marché de construction d'une
+  maison de deux étages (600 $ payés d'avance) et promesse de rétrocession
+  (réméré) : un prêt sur la maison du menuisier Thomas Proulx.
+- **n° 350** : bail **en anglais** Villeneuve-Vallerand (clause d'hiver : ne
+  pas laisser le logement sans feu plus d'une semaine).
+
+Particularités : à partir du fichier 01451, les images sont dans un troisième
+dossier Drive (`1KZNShVAZPcG5O8dt5SxHwBPHu29ZWPMl`). Plusieurs minutes de
+mars-avril 1875 laissent le numéro en blanc à la clôture ; on se fie au
+numéro de tête.
+
+Suite (20 novembre) : fichiers **01480 à 01552** lus, actes **n° 351 à 356**
+et fin du **n° 371**. **355 fiches `notarie-`.**
+
+- **n° 351** : second bail anglais Villeneuve, à l'ébéniste Régis Martel.
+- **n° 352-353** : Joseph Couture rembourse l'ingénieur Napoléon Sévigny et
+  lui vend une terre de Saint-Lambert bornée à la **« Rivière Bruyante »**
+  (= la Chaudière ; le n° 236 disait « Rivière Chaudière » pour le même lieu).
+- **n° 354** : Joseph Lajoie sous-concède la moitié d'un emplacement de la
+  **rue Saint-Louis** à Louis Couture, **employé du Grand Trunk**.
+- **n° 355** : bail à moitié Rogers-Bois (terres de Saint-Antoine-de-Tilly et
+  de Saint-Nicolas, inventaire complet du bétail et des outils).
+- **n° 356** : obligation St-Pierre à Leclerc sur le **lot 49 du plan
+  d'Alexander Sewell (5 octobre 1866)** — plan à retrouver.
+
+**LACUNE AU DRIVE : les fichiers 01501 à 01550 n'existent pas** (microfilm
+002445 à 002494). Il manque la fin du n° 356, les minutes **n° 357 à 370** et le
+début du n° 371. À demander à Patrick ou à reprendre du microfilm BAnQ. Le
+dossier Drive suivant (`1TcgBjmrGfK-ayXucxmKLwcuHrm80oz3c`) commence au
+fichier 01551 ; la recherche `title contains '04T_CN401S124P_0150'` ne le
+trouve pas : chercher par `parentId` ou par `title = '…_01553.jpg'`.
+
+Suite (20 novembre) : fichiers **01553 à 01599** lus, actes **n° 372 à 382**
+(24 avril au 3 mai 1875). **366 fiches `notarie-`.**
+
+- **n° 371-373, 377** : baux de François Leclerc, marchand (Garant, Gagné,
+  Cloutier `1881-D1-P040-L23`), témoin **Albert Forcade, maître de poste**
+  (`1871-D2-P018-L06`) ; le locataire renonce aux insaisissabilités du Code
+  de procédure civile.
+- **n° 374** : accord St. John-Rogers (menaces et injures à l'hôtel Rogers).
+- **n° 375** : Élie Foster cède **tout son ménage** à François Leclerc père
+  pour arriérés de loyer (inventaire d'un logement ouvrier, rue Saint-Louis).
+- **n° 376** : bail Proulx-McReady (`1871-D2-P022-L15`), New-Liverpool.
+- **n° 378** : **empiètement d'Alfred Mathieu sur le terrain du moulin
+  d'Etchemin** (Henry Atkinson) — triangle dessiné dans l'acte, bornes en
+  chevilles de fer, au sud de l'Étang ; suivi d'une copie.
+- **n° 379-381** : trois baux de Louis-Hubert Roberge (New-Liverpool) :
+  Nolin, **Marie Paradis, fille majeure**, Modeste Grégoire
+  (`1881-D2-P040-L09`) — « l'eau peut monter au premier étage ».
+- **n° 382** : transport de rente Villeneuve → Édouard Lagueux, payée par le
+  cordonnier Édouard Paquet.
+
+Suite (20 novembre) : fichiers **01600 à 01643** lus, actes **n° 383 à 394**
+(4 au 27 mai 1875). **378 fiches `notarie-`.**
+
+- **n° 383-384** : tutelle des enfants Gagné (Pierre, Marie, Joseph) après le
+  remariage de leur mère Marie Dubois avec F.-X. Morneau ; tuteur élu Louis
+  Morneau (`1871-D1-P077-L07`), une note au crayon laisse croire qu'il refusa.
+- **n° 385, 393** : testament d'Hubert Lefebvre, malade (5 mai), puis bail de
+  sa chambre à Pierre Drôlet, arrimeur (26 mai).
+- **n° 386, 392** : baux sévères de l'épicier **Peter O'Regan** (expulsion
+  sans formalité, ni boisson ni querelle).
+- **n° 387-388** : **Benjamin Demers donne à son fils Pierre**
+  (`1871-D1-P025-L07`) deux terres du premier rang de **Taniata** au bord de
+  l'Etchemin (l'une touche au village Saint-Jean) et règle sa part de la
+  succession de sa mère **Félicité Carrier** ; « feu Pierre Lagueux ».
+- **n° 389** : Henry Atkinson achète l'épinette de deux lots de Saint-Lazare
+  (3 ans, 200 $).
+- **n° 390** : rente en nature des vieux Cantin (bottes françaises et
+  canadiennes encore dues).
+- **n° 391** : bail Leclerc-Jean (« ne pas laisser boire »).
+- **n° 394** : cession de salaire Boucher → épicier Marcel Gingras, payée par
+  l'entrepreneur Jean-Baptiste Roberge.
+- Fichier 01628 : **brouillon** de l'affaire Proulx-Roberge (prêt de 600 $),
+  rangé avec le n° 349.
+
+Suite (20-21 novembre) : fichiers **01644 à 01660** lus, actes **n° 395-396**
+(28 mai 1875). **380 fiches `notarie-`.**
+
+- **n° 395** : inventaire des biens de feue **Marcelline Couture**, épouse de
+  Joseph Cantin, journalier de Saint-Jean-Chrysostome (concession
+  Saint-Augustin) — intérieur pièce par pièce, maison 80 $, terrain 10 $ ;
+  remariage avec Clarisse Sévigny (août 1873) ; clos devant le protonotaire à
+  Québec le 27 août 1875.
+- **n° 396** : testament de Joseph Cantin en faveur de Clarisse Sévigny.
+
+## Passation à une nouvelle conversation (21 novembre 2026)
+
+**Où reprendre** : **le Drive est épuisé.** Le dernier fichier déposé est
+**01900** (microfilm 002844-45) ; 01901 et au-delà n'existent pas (vérifié le
+21 novembre 2026 par recherche de titre exact). Les fichiers 01661 à 01900 sont
+versés (n° 397 à 464, voir « Suite du 21 novembre » plus bas). La donation
+**n° 464** (Marguerite Demers à son fils Charles Samson, 18 octobre 1875) est
+**inachevée** : sa fin est sur le fichier 01901. Quand Patrick ajoutera la
+suite, reprendre au fichier **01901** et compléter la fiche
+`notarie-1875-10-18-donation-demers-samson` (`"replace": true`). Chercher par
+`title = '04T_CN401S124P_01901.jpg' or …` (dossier Drive de 01851 à 01900 :
+`14vU8O7GE5jGuViVieCGvAcoda0WAUfiA`) (la
+recherche `title contains '…0167'` rate des fichiers). Les fichiers 016xx-017xx
+sont dans le dossier Drive `1ZiJ4qZdHwQFcwX2iJVFb6u_qITLuBeql` ; le Drive va
+au moins jusqu'au fichier 01900.
+
+**Outils** (rangés dans le dépôt) :
+
+- `python3 outils/tremblay/verser-fiches.py fiches.json` — verse une liste de
+  fiches dans `documents/manifeste.json`. Chaque fiche : `id`, `titre`,
+  `date`, `cote`, `nature`, `transcription` (repères `[00xxxx]` = image du
+  microfilm = fichier + 944), `personnes` (`role`, `nom`, `ref_personne` si
+  rattachée, `note`), `note`, et `imgs` = `[[fichier, id_drive, légende?], …]`.
+  Le notaire, la source et `images-drive.json` sont complétés seuls ;
+  `"replace": true` remplace une fiche existante.
+- `python3 outils/tremblay/chercher-recensement.py 'NOM' ['PRÉNOM']` —
+  cherche dans les six recensements et dans les fiches déjà versées.
+- Après chaque lot : `node outils/generer-site.mjs`, puis commit et push sur
+  la branche de travail.
+
+**Règles suivies** : rattacher seulement en « probable » (ou le dire
+« hypothèse » dans la note, sans `ref_personne`) ; ne pas rattacher les gens
+hors paroisse ; marquer `[?]` toute lecture incertaine ; vérifier le numéro de
+minute d'un acte avant de le citer ; dos de formules et feuilles d'archiviste
+rangés avec l'acte voisin. Ne rien publier sans que Patrick dise « publie ».
+
+**Points ouverts pour Patrick** : lacune au Drive **01501-01550** (fin du
+n° 356, n° 357 à 370, début du 371) ; n° 314 « six cents » ou « deux cents » ;
+n° 323 Lavertu ou Laverdière ; n° 328 clos sous « 332 » ; n° 384 note au
+crayon (Louis Morneau refuse la tutelle ?) ; n° 394 avocat « O. T. Fuzon » ;
+n° 395 prénoms des deux filles mineures (Marie-Delphine ? Marie-Denise ?).
+Le Drive va au moins jusqu'au fichier 01849.
 
 Fils suivis dans la série 00451-00550 :
 
@@ -442,6 +818,165 @@ transcrits ; les fichiers 00202 et suivants (chambres n° 7 à 9, le « magasin 
 et son stock de boissons, la montre en or, la garde-robe d'Ursule Tardif,
 l'ajournement signé de tous, la vacation du 5 mars) ont été lus ensuite,
 jusqu'au fichier 00300. Après l'inventaire viennent les actes n° 43 et suivants.
+
+**Suite du 21 novembre 2026.** Fichiers 01661 à 01680 lus : actes **n° 397 à
+403** (28 mai au 3 juin 1875).
+
+- **L'après-midi Cantin** (28 mai, Saint-Jean-Chrysostome) : après l'inventaire
+  n° 395 et le testament du mari (n° 396), le testament de **Clarisse
+  Sévigny** (n° 397, elle signe ; « un peu sourde »), la **renonciation de
+  Marcelline Cantin**, femme de Charles St-Laurent, à la succession de sa mère
+  (n° 398), et l'**obligation d'Athanase Girard** (n° 399), qui change en acte
+  hypothécaire le billet de 50 $ porté à l'inventaire ; son emplacement touche
+  Pierre Roberge (hameau Roberge, n° 122-128).
+- **Les gages du moulin** (n° 400 et 402) : deux journaliers cèdent leur
+  salaire hebdomadaire à leur épicier (Marie Paradis ; Marcel Gingras), payé
+  directement par les « jobbers » (Michel Morin, « jobber chez Henry
+  Atkinson » ; Pierre Boucher et Télesphore Vermette).
+- **n° 401** : apprentissage de Pierre Dumont, de Lévis, chez le boulanger
+  Augustin Simoneau (maison 56 de 1871-D1).
+
+- **Fichiers 01681 à 01700** : bail Filteau–Lessard (n° 404, logement payé
+  une piastre par semaine), deux nouveaux lots du hameau Roberge concédés le
+  9 juin (n° 405 Joachim Cantin, n° 406 Antoine Paradis, lot en trapèze entre
+  Langlois et Lapierre), procuration de la veuve du pilote Henry Noël, de
+  l'île d'Orléans (n° 407), transport Boissonneault–Lapierre sur François
+  Couture, concession Beauséjour (n° 408), quittance Gosselin–Carrier de
+  557 $ (n° 409). Les fichiers 01684, 01688 et 01692 sont des dos de chemises
+  imprimées. **n° 405** : en-tête « 10 juin », clôture « neuvième jour de
+  juin » (fiche datée du 9).
+
+- **Fichiers 01701 à 01720** : vente Gagné à deux « marchandes publiques »,
+  Élise Lemieux et Joséphine Ouellet, d'une maison du hameau Roberge près du
+  moulin de Michel Leclerc (n° 410) ; obligation Morin–Lapierre pour un
+  cheval (n° 411) ; trois concessions de Benjamin Demers (n° 412 Joseph
+  St-Hilaire, n° 413 Jean-Baptiste St-Hilaire, n° 415 Jean-Baptiste
+  Vermette) et la déclaration n° 414 : la moitié est du lot et de la maison
+  St-Hilaire revient au fils Barthélemi, qui l'a bâtie avec son père.
+  **n° 413** : description raturée à relire (largeur au chemin, voisin
+  « Pierre [Rouleau ?] »). Les fichiers 01711 et 01715 sont des dos de
+  chemises.
+
+- **Fichiers 01721 à 01738** : dos de chemise du n° 415 (01721) ; concession
+  Demers à Modeste Dubois, voisin du lot Vermette (n° 416) ; testaments
+  croisés des époux Ferdinand Ratté et Henriette Montigny (n° 417-418) ;
+  testament d'une malade, Marie-Ursule Gosselin, femme de Joseph Roberge,
+  reçu à six heures du matin (n° 419 : numéro laissé incomplet à la clôture,
+  concession « Appenin » [?] à relire) ; procuration Simard pour vendre un
+  terrain à Sainte-Anne (n° 420, écrite sur le modèle d'une autre étude ;
+  25 ou 26 juin à vérifier).
+
+- **Fichiers 01739 à 01761** : protêt d'abornage d'Ambroise Plante à Louis
+  Patry, douanier de la Maringouinière (n° 421 : la terre Simoneau, prise
+  entre le village de Taniata et la première concession de la rivière
+  Etchemin ; l'arpenteur Jobidon doit tirer la ligne le 2 juillet) ;
+  concession Demers à Léon Riché, jobber (n° 422) ; bail Leclerc–Sirois
+  (n° 423 : le boulanger Honoré Sirois loue de nouveau chez François Leclerc,
+  senior) ; résiliations Lépine–Houde (n° 424, fin du bail n° 326) et
+  Morin–Sirois (n° 425, meubles laissés en gage).
+- Identifiants Drive notés d'avance : 01762 `1cvZfbDs2xTaXSpNiRIs_0Rn-d-pF_G3g`,
+  01763 `1xfp_edel5UjOojby4wb26oLk1n9tzAc_`, 01764 `1PDtOBBe3pdpX8fQDsxiKXoXpXrH0jFvC`,
+  01765 `18fxjNNUuZj0ye98HCO2rJoOjOT48GHwz`, 01766 `1DgtpA6EBrldNzQDxYtygzZ0OsJALcu6y`,
+  01767 `1PvqYRzJ6T8D-3xaPTYlJshM99NhZqTjj`, 01768 `1WD_DQHRmDK9nr3ygZvC0RuJNrUrizLY0`,
+  01769 `1z8UT7DXNh5oGDXytKjVN-0d7EdFDlsti`, 01770 `1ruIDDmW-elGNuLboBzOVuroX6bEqOTX4`,
+  01771 `1CYqAsRVj6sDHsPHrzasylxEJKomQX5vA`, 01772 `194D0P_5g_XMBYU7sQCLBhHlBNeyLrLH1`,
+  01773 `1h2DohZWCLqplUG1Q07VkZ5Prfo2dtKs2`, 01774 `10-qDxLzBtad7neRRfFgyUSsI-YD0AZNt`,
+  01775 `1ndlaSFJwePXRZb4KM503Qvu87_Q_ODZd`, 01776 `1KdfpXJKry9K5ZiFMDsjTtMzhO7hSdjkf`,
+  01777 `1SfgQPpuq9ISX3yzT-vtcXC5nBMlhbWjY`, 01778 `1FAmYmxiv2L4biLJdGUusLL2fyx8f_2rf`,
+  01779 `1viq4lpxntPdl8lNcQczQDRCyaaQAReg1`, 01780 `1trrXt4QX2AvZBcGOAJzJ45_4tw-QEKuh`.
+
+- **Fichiers 01762 à 01777** : testaments croisés de Pierre Roberge et de
+  Marie-Euphrosine Goulet [?], de la concession « Appenin » (n° 426-427 :
+  deux cents piastres à chacun des fils Pierre et Joseph, soixante-quinze à
+  chacune des cinq filles) ; renonciation de Lactance Lévesque, revenu de
+  Toronto, à la succession de sa mère Obéline Morin, de Saint-Pacôme (n° 428) ;
+  bail de François Leclerc, père, à Joseph Leclerc, ancien marchand (n° 429).
+  01773 est un feuillet abandonné (« Extrait d'une session spéciale » du
+  conseil de Saint-Romuald, sans suite), rangé avec le n° 429.
+
+- **Fichiers 01778 à 01795** : contrat de mariage Gingras–Samson (n° 430 :
+  un veuf de Sainte-Agathe, canton de Nelson, épouse la fille de Magloire
+  Samson ; trousseau détaillé, rouet, cannelles, vache, brebis) ; second
+  protêt Plante–Patry (n° 431 : empiètement de deux perches, douze piastres
+  de dommages, l'arpenteur Alfred Hamel convoqué le 11 août ; il corrige au
+  n° 421 la date de la donation Fontaine, 10 janvier 1861, et le n° 8863) ;
+  bail Fontaine–Mariage (n° 432). 01787 et 01788 sont deux prises de la même
+  page ; 01795 est un dos de chemise.
+
+- **Fichiers 01796 à 01805** : **01796 est une feuille d'archiviste « Acte
+  manquant # 433 et 434 »** : ces deux minutes (entre le 10 et le 23 août
+  1875) ne sont pas au microfilm. Obligation Drouin–Lefebvre de 300 $ sur deux
+  terres de Saint-Bernard (n° 435) ; testaments croisés de Pierre Roberge, de
+  la concession Saint-Augustin, et de Marie-Obéline Breton (n° 436-437, sans
+  enfants nommés) : **ils montrent que le Pierre Roberge du n° 426 (concession
+  « Appenin », sept enfants) est un autre homme**. Le concédant du hameau
+  Roberge est celui de Saint-Augustin.
+
+- **Fichiers 01806 à 01816** : inventaire n° 438 des biens de feue Adéline
+  Martineau, première femme du batelier Joseph Lemelin, au Sault (suite du
+  testament n° 89 et de la quittance Lemieux–Lemelin de 1874) : maison
+  achetée de Gabriel Lemieux en 1870, estimée 140 $, mobilier de 25 $, dettes
+  de 184 $ ; clos en justice à Québec le 9 juin 1877 (timbres judiciaires en
+  marge). Créanciers rattachés : Robert McReady, Germain Cantin.
+
+- **Fichiers 01817 à 01825** : testaments croisés de Jean-Baptiste Cantin,
+  cultivateur de Saint-Jean-Chrysostome, et de Marguerite Jolin (n° 439-440 ;
+  témoins Théodule Bégin, hôtelier, et Louis Toussaint) ; testament d'Olivier
+  Roberge, de la concession Taniata, en faveur d'Henriette Gagné (n° 441 :
+  clôture laissée « quatre cent … »).
+
+- **Fichiers 01826 à 01836** : testament d'Henriette Gagné, femme d'Olivier
+  Roberge, malade (n° 442, pendant du n° 441) ; quittance du médecin Isaïe
+  Demers, de l'île d'Orléans, à Joseph Gingras (n° 443, suite de la vente
+  n° 177) ; quittance Bégin–Bégin de droits légitimaires (n° 444, chez le
+  maître de poste Damase Roberge) ; bail Leclerc–Noël (n° 445). 01836 est un
+  dos de chemise.
+
+- **Fichiers 01837 à 01844** : le 28 septembre, Joseph Lambert, fils, vend
+  son emplacement (voisin du docteur Fitzgerald) au marchand Germain Cantin
+  pour 150 $ (n° 447) et rembourse le maçon Joseph Bittner (n° 446) ;
+  obligation Hallé–Lapierre (n° 448) garantie par l'« île aux Grands Bois
+  francs » de la Chaudière, en face de Saint-Lambert. **n° 446 et 447** :
+  clôtures laissées « quatre cent … ».
+
+- **Fichiers 01845 à 01852** : la veuve du forgeron Antoine Hallé, Ursule
+  Dussault, verse cent piastres à sa fille Malvina pour sa part d'héritage
+  (n° 449 ; l'acte dit Antoine Hallé « capitaine de milice ») ; testaments
+  croisés de Julien Lambert, menuisier, et de Malvina Hallé (n° 450-451).
+
+- **Fichiers 01853 à 01862** : quittance de rente viagère Couture–Morneau
+  (n° 452) ; contrat de mariage en séparation de biens de Majorique Gosselin
+  et Marie-Obéline Rouleau, de Saint-Jean-Chrysostome (n° 453), avec une
+  liste annexée de meubles, cheval et voitures donnés par le futur (580 $).
+
+- **Fichiers 01863 à 01873** : vente Lapierre–St-Laurent d'un lot du
+  hameau Roberge, avec clause de résiliation au premier retard (n° 454 ; la
+  minute est filmée avec une copie au propre intercalée, 01866-01869) ;
+  **n° 455 : « feu Sieur Benjamin Demers »** — le lotisseur est mort entre le
+  28 juin et le 8 octobre 1875 ; ses enfants (Louis-Julien, tuteur, et Marie)
+  concèdent à Germain Cantin un lot d'angle des rues Saint-Jean-Baptiste et
+  Saint-Pierre. Date du décès à chercher au registre de sépulture.
+
+- **Fichiers 01874 à 01880** : second lot des héritiers Demers, à François
+  Samson (n° 456) — le tuteur y est nommé en toutes lettres **Louis-Julien
+  Demers** (« L. J. Demers ») ; quittance Lavertu–Simoneau (n° 457, suite de
+  la quittance Duperron–Simoneau d'août 1874). 01874 et 01878 sont des dos de
+  chemises.
+
+- **Fichiers 01881 à 01900** : testaments croisés du marchand Antoine
+  Lemieux et d'Adéline Sévigny (n° 458-459) ; vente de Philippe Lemieux à
+  Antoine Lemieux du lot que ses parents lui avaient donné en 1874 (n° 460) ;
+  à Québec, Joséphine Ouellet cède à son associée Élise Lemieux sa moitié de
+  la maison et du commerce du hameau Roberge, et lui donne procuration
+  (n° 461-462) ; résiliation « faite par erreur » d'une donation qui
+  n'existait pas encore (n° 463 : note du notaire en marge) ; donation
+  Demers–Samson d'une terre de Taniata à charge de pension (n° 464,
+  **inachevée**, suite au fichier 01901 absent).
+
+Points pour Patrick : **n° 402**, l'en-tête dit « 2 juin », un renvoi du texte
+semble dire « quatrième jour » ; **n° 403**, la clôture dit « quatre cent
+deux » par erreur ; **n° 398**, le témoin rayé, lu « George Gagné [?] »
+d'après le n° 408 ; **n° 401**, la clôture « sous le numéro » manque (renvoi taché).
 
 ## Les pages qui manquent encore
 
